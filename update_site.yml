@@ -1,0 +1,36 @@
+name: Update EM Website
+on:
+  schedule:
+    - cron: '0 */6 * * *' # Every 6 hours
+  workflow_dispatch: # Allows you to click "Run Workflow" manually to test
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          pip install chromadb groq
+
+      - name: Unzip Database
+        run: unzip em_vectors.zip -d .
+
+      - name: Generate Content
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        run: python generate_reddit_content.py > new_post.json
+
+      - name: Commit and Push
+        run: |
+          git config --global user.name 'AI-Bot'
+          git config --global user.email 'bot@github.com'
+          git add new_post.json
+          git commit -m "New AI Post Generated"
+          git push
