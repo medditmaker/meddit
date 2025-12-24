@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0 # Fetches all history so rebase works better
+          fetch-depth: 0 
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -36,11 +36,15 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          
+          # 1. Pull the latest changes from your manual edits first
+          git pull origin main --rebase
+
+          # 2. Add the newly generated AI file
           git add new_post.json
           
-          # This part is the fix: it pulls any of your manual edits 
-          # before trying to push the AI's work.
-          git pull --rebase origin main
-          
+          # 3. Commit the change
           git commit -m "Update Meddit Feed: 7 new threads" || echo "No changes to commit"
+          
+          # 4. Push it back to GitHub
           git push origin main
