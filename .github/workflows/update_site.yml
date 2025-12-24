@@ -37,14 +37,17 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           
-          # 1. Pull the latest changes from your manual edits first
-          git pull origin main --rebase
-
-          # 2. Add the newly generated AI file
+          # 1. Temporarily 'hide' the new AI file
+          mv new_post.json new_post_temp.json
+          
+          # 2. Force the runner to match the EXACT latest state of your GitHub
+          git fetch origin main
+          git reset --hard origin/main
+          
+          # 3. Bring the new AI file back
+          mv new_post_temp.json new_post.json
+          
+          # 4. Add, Commit, and Push
           git add new_post.json
-          
-          # 3. Commit the change
-          git commit -m "Update Meddit Feed: 7 new threads" || echo "No changes to commit"
-          
-          # 4. Push it back to GitHub
-          git push origin main
+          git commit -m "Meddit Feed Update: 7 Threads Generated" || exit 0
+          git push origin main --force
