@@ -102,8 +102,9 @@ def generate_full_site():
            - MUST BE THREADED: Use the "id" and "parent_id" fields. 
            - Some comments reply to the post (parent_id: null).
            - Many comments must reply to each other (e.g. id 5 replies to id 2).
-        3. CONTENT: Use high-level medical jargon (e.g., 'sensitivity/specificity', 'pathophysiology'). 
-           The characters must argue or discuss the textbook facts through their personalities.
+        3. CONTENT: The content is for emergency physicians reviewing a subject, so you can use high-level medical language.  The intent is to simulate an entertaining discussion amongst professionals that goes into a high level of educational detail appropriate to their level of training.  Comments can be long (ie. 50-500 words)
+        and they should seem interested in exploring what the other person in the threat was saying but responding in their typical personality style.  They should argue, get along or discuss the textbook facts through their personalities.  The goal is to cover a good amount of medical knowledge through the 20 different comments realistically.
+        They can also use internet jargon (ie. lol, TLDR:, etc) and write in a semi casual tone as it is an internet forum.  
 
         JSON FORMAT:
         {{
