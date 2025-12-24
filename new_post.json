@@ -1,63 +1,71 @@
 [
   {
-    "id": 1,
-    "title": "Just had a patient with acute urinary retention and I'm wondering...",
-    "body": "Just saw a patient with acute urinary retention and I'm wondering what's the deal with residual volumes >50 to 150 cc being consistent with urinary retention? I was taught that anything >300 cc is usually a sign of significant retention. Can anyone confirm or deny this?",
-    "category": "emergency_medicine",
+    "title": "A Harrowing Graft-versus-Host Disease Case: What Did We Do Wrong?",
+    "body": "Just got back to the ER after a 36-hour shift and I'm still reeling from a case that went down last night. We had a 55F patient who was a month post-auto-HSCT for CLL. She presented with fever, rash, and diarrhea. What really caught our attention was her elevated ALT and AST levels. We initially thought she might be suffering from viral reactivation, but further evaluation revealed a more sinister diagnosis: Graft-versus-Host Disease (GVHD). She was diagnosed with moderate-to-severe GI GVHD and received high-dose steroids and TPN. But here's the part that has me scratching my head: her lab results showed a positive T-cell count in the lavage, which indicated acute GVHD of the gut. So, why didn't we catch this sooner? Was it the lack of suspicion, the vague presenting symptoms, or perhaps a delay in ordering the diagnostic tests? I'd love to hear from you all - what would you have done differently in this case?",
+    "category": "Emergency Medicine",
     "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Sarah Sharp",
+        "role": "ER Physician",
+        "city": "Montreal, QC",
+        "text": "TLDR: We all make mistakes, but learning from them is key. What do you think was the key oversight in this case, OP? Was it the lack of suspicion, the vague presenting symptoms, or perhaps a delay in ordering the diagnostic tests?",
+        "color": "purple"
+      },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I completely disagree with this! I've seen patients with residual volumes of >200 cc who ended up needing admission for fluid replacement. Hourly output of >200 mL for more than 4 to 6 hours is a good indicator for need for admission, but it's not a hard and fast rule.",
-        "color": "blue"
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "How do we improve our diagnostic prowess in complex cases like this? Should we be using more objective criteria, such as the NIH-IVS criteria for acute GVHD, or relying more on our own clinical judgment?",
+        "color": "green"
       },
       {
         "id": 3,
         "parent_id": 2,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "But isn't hourly output a more reliable indicator of urine output than residual volume? Can you explain the thought process behind using residual volume to assess need for admission?",
-        "color": "purple"
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "I've been reading a lot about the role of molecular diagnostics in GVHD, specifically the use of biomarkers such as TRAIL-R2 and TNF-alpha. Has anyone had experience with these tests in clinical practice?",
+        "color": "green"
       },
       {
         "id": 4,
-        "parent_id": 1,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "I think there's been a misunderstanding here. Residual volume is actually a more accurate predictor of urinary retention than hourly output. Patients with significant retention often have much larger residual volumes, typically >300 cc. The goal is to assess the patient's underlying cause of retention and provide adequate treatment.",
-        "color": "green"
+        "parent_id": 3,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Wait, aren't those biomarkers more relevant to solid organ transplants? Can someone explain the relationship between these biomarkers and GVHD in hematopoietic stem cell transplantation?",
+        "color": "blue"
       },
       {
         "id": 5,
         "parent_id": 4,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "But what about patients with underlying bladder outlet obstruction? Can residual volume accurately predict the need for admission in these cases?",
-        "color": "red"
+        "user": "Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Actually, Leo, the TRAIL-R2 and TNF-alpha biomarkers have been investigated in the context of HSCT-GVHD, particularly in the acute setting. A systematic review of the literature showed some promising results, but larger studies are needed to confirm these findings.",
+        "color": "orange"
       },
       {
         "id": 6,
-        "parent_id": 4,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "This is all well and good, but we're getting too caught up in the details here. The real issue is that most patients with bladder outlet obstruction can be managed on the ward with a Foleys catheter. We should be focusing on the basics of ED care, not overcomplicating things.",
-        "color": "orange"
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "In all seriousness, though, the key takeaways from this case are the importance of maintaining a high index of suspicion for GVHD, especially in patients with a history of HSCT, and the need for prompt ordering of diagnostic tests, including endoscopic evaluation and biopsy.",
+        "color": "green"
       },
       {
         "id": 7,
         "parent_id": 6,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "Pish posh, good sir! You can't just dismiss the importance of proper patient evaluation and treatment. We must consider the nuances of each individual case and provide appropriate care.",
-        "color": "black"
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "I'm a patient who recently underwent a HSCT for CLL. I was diagnosed with moderate GVHD and had a pretty rough time. Can anyone recommend some online resources for HSCT-GVHD, such as websites or forums?",
+        "color": "red"
       },
       {
         "id": 8,
@@ -65,999 +73,562 @@
         "user": "Sparkle-Eyes Sue",
         "role": "LPN",
         "city": "St. John's, NL",
-        "text": "Aren't we forgetting to mention the role of imaging in the diagnostic workup? Can anyone speak to the importance of a low-frequency sector format probe in both transverse and sagittal views?",
+        "text": "God bless you, Barnaby! As a nurse, I've seen my fair share of HSCT patients, and I'll be happy to hook you up with some online resources. One of my favorite websites is the HSCT-GVHD.org forum - it's a treasure trove of patient experiences and medical advice. There's also a great YouTube channel by the GVHD Alliance that covers the basics of GVHD diagnosis and treatment.",
         "color": "pink"
       },
       {
         "id": 9,
         "parent_id": 8,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "I think Sparkle-Eyes Sue brings up a excellent point! Imaging should be an integral part of our diagnostic workup, particularly when dealing with complex cases. A low-frequency sector format probe can provide valuable information regarding retained urine volume.",
-        "color": "brown"
-      },
-      {
-        "id": 10,
-        "parent_id": 1,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "This conversation has been going on for a while now, and I'm still unclear about the best approach to managing patients with acute urinary retention. Can someone summarize the main takeaways from this discussion for a poor intern like me?",
-        "color": "gray"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
         "user": "Dr. Henry Oldman",
         "role": "CCFP",
         "city": "Victoria, BC",
-        "text": "TL;DR: When dealing with acute urinary retention, focus on the underlying cause of retention and provide adequate treatment. Use residual volume as a guideline, but be aware of its limitations. And don't forget to consider imaging in complex cases!",
-        "color": "silver"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "And let's not forget, ED physicians, to address the precipitating causes of retention! Discontinue offending medications, evaluate infectious or neurologic causes, and provide urologic follow-up in 3-7 days.",
-        "color": "teal"
-      },
-      {
-        "id": 13,
-        "parent_id": 12,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "Wow, this conversation is really deep and interesting. Can anyone tell me more about the role of catheterization in managing acute urinary retention?",
-        "color": "violet"
-      },
-      {
-        "id": 14,
-        "parent_id": 13,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Haha, this conversation is like medicine for dummies, guys! Catheterization is super important, but I'm still unsure about the best approach. Can someone break it down for a pre-med like me?",
-        "color": "crimson"
-      },
-      {
-        "id": 15,
-        "parent_id": 14,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Catheterization should be performed with copious intraurethral lubrication, including topical anesthetic, and a 16-French Coud\u00e9 catheter is recommended. But let's not forget to address the precipitating causes of retention, as well as provide urologic follow-up in 3-7 days.",
-        "color": "lavender"
-      }
-    ],
-    "image": "https://www.ebmedicine.net/media_library/images/2021-EMP-Publication-Article/03-March/Clinical-Pathway-for-Emergency-Department-Diagnosis-and-Treatment-of-Acute-Urinary-Retention-in-Adult-Males-Thumbnail.png"
-  },
-  {
-    "title": "TIL that pulse oximetry can be unreliable in CO poisoning! Just saw a case last night...",
-    "body": "Just saw a patient with suspected CO poisoning, and when I did a rapid bedside check with my trusty pulse oximeter, it showed a normal O2 saturation. But when I got the COHb level back, it was 35%! Needless to say, I was surprised. Did anyone else catch this phenomenon? I know it's mentioned in the Tintinelii textbook as 'standard pulse oximetry is unreliable in the presence of increasing COHb'... but I never thought I'd see it in real life. Anybody have any tips on how to manage these cases?",
-    "category": "Clinical Anecdote",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "MD",
-        "city": "Toronto, ON",
-        "text": "Great reminder! I've seen similar cases where the pulse ox seemed fine, but the carboxyhemoglobin levels were thru the roof. Always best practice to use CO-oximetry in cases where you suspect CO poisoning. And don't forget to check for other signs like headache, visual disturbances, and tachycardia.",
-        "color": "violet"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "That's so cool! I didn't know that standard pulse ox could be unreliable in these cases. Can you explain how it works? Is it because the CO binds to hemoglobin differently or something?",
-        "color": "blue"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Actually, @Leo, it's more about how the CO binds to myoglobin and cytochrome oxidase in addition to hemoglobin. This leads to a shift in the oxygen-hemoglobin dissociation curve, making it hard for the pulse ox to accurately measure O2 saturation. I wrote a paper on it last year... [link to paper]",
-        "color": "brown"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCP",
-        "city": "Quebec City, QC",
-        "text": "Thanks for sharing this, @Aris. I've seen several cases myself where the COHb levels were much higher than expected. One question: have you noticed any correlation between the severity of symptoms and the COHb levels? I've had cases where the O2 saturation looked normal, but the patient was still pretty woozy...",
-        "color": "teal"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Actually, @Elena, I think it's the opposite: the symptom severity often correlates with the carboxyhemoglobin level, but not always. I've seen cases where the patient seemed fine, but the COHb level was really high... and vice versa. Can't quite explain it. Maybe it's related to individual tolerance or some other factor?",
-        "color": "orange"
-      },
-      {
-        "id": 6,
-        "parent_id": null,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Just wanted to chime in: I see a lot of these cases in the ER, and I'm always amazed by how often the carboxyhemoglobin levels are way higher than the patient's symptoms suggest. We have to be careful not to miss these cases, especially in winter months when people are using generators and whatnot.",
-        "color": "pink"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "Totally agree, @Tom. And let's not forget the importance of a good history and physical exam in these cases. We can't rely solely on the CO-oximeter; we need to keep looking for other signs of CO poisoning. Remember, the 'classic' symptoms can be non-specific... headache, visual disturbances, etc.",
-        "color": "red"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Tick-Borne Illnesses: Rant about the Ehrlichiosis and RMSF cases that got away.",
-    "body": "Just saw a patient with symptoms that I'm still kicking myself for missing the diagnosis of. Ehrlichiosis! Who remembers the classic triad of fever, rash, and tick bite history, but then the rash is absent in 10% of cases and the tick bite history is often vague or denied? Yeah, me neither. Had a miss last night. Patient presents with fever, headache, and a weird rash on their legs. I sent them home with antibiotics for possible cellulitis, only to have them come back 3 days later with renal failure and respiratory distress. Long story short, the patient had Ehrlichiosis, and the lone star tick bite was the culprit. We all know the classic triad, but let\\'s be real, it\\'s not that common. It\\'s the other 90% that we have to worry about. How do we increase our suspicion for Ehrlichiosis in the ER?",
-    "category": "Emergency",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Excellent post! The key is to keep Ehrlichiosis in your differential, especially in the summer months when ticks are active. We also need to remember that the rash in Ehrlichiosis is not always present, and when it is, it can be subtle. One thing that helps me is to ask about recent tick exposure during the history taking. Don\\'t rely on the patient\\'s recall of a tick bite, though. We also need to keep in mind that Ehrlichiosis can present with atypical symptoms like renal failure and respiratory distress. Don\\'t be too hasty to send them home with antibiotics for cellulitis until you\\'ve ruled out other diagnoses!",
+        "text": "I'm glad Sparkle-Eyes Sue mentioned the GVHD Alliance YouTube channel. As a family physician, I often see patients in the community who've had HSCT and are experiencing GVHD. This channel has been a valuable resource for me in helping them manage their symptoms and understand their diagnosis.",
         "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "TLDR: keep Ehrlichiosis in your differential and ask about tick exposure during the history. But what about the diagnostic tests for Ehrlichiosis? What are the key ones to keep in mind?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs. You\\'re not going to catch Ehrlichiosis with some fancy lab tests. We need to rely on clinical judgment and experience to make the diagnosis. Remember, the classic triad is a myth. It\\'s the atypical presentations that we need to worry about. And what\\'s with all this talk about ticks? We have bigger fish to fry in the ER. Move it along.",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "I disagree, Victor. While clinical judgment and experience are essential, lab tests are also crucial in diagnosing Ehrlichiosis. We need to consider the ELISA and the PCR tests, among others. Don\\'t rely solely on your gut feeling. Let\\'s talk about the diagnostic algorithms for Ehrlichiosis and RMSF.",
-        "color": "purple"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. 'Ziggy' Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Ziggy, ziggy, ziggy, ah, what\\'s the diagnostic algorithm for Ehrlichiosis again? You know, the one with the tick bites and the fever? Yeah, that one. Can you link us to some online resources for that?",
-        "color": "green"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Check out the CDC guidelines for Ehrlichiosis and RMSF. They have a detailed algorithm for diagnosis and treatment. And don\\'t forget to consider the tick bite exposure and the clinical presentation. We can also discuss the key differences between Ehrlichiosis and RMSF in terms of presentation and treatment.",
-        "color": "purple"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "What about the tick bite exposure? How do we assess that? Is it just a history from the patient or do we need to do some blood tests to confirm?",
-        "color": "green"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "We need to rely on the patient\\'s history and clinical presentation to assess tick bite exposure. Blood tests are not necessary unless there\\'s a high index of suspicion. And remember, Ehrlichiosis can present with atypical symptoms, so we need to stay vigilant and not rely solely on the tick bite history.",
-        "color": "purple"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "This is why I hate working in the ER. We\\'re always guessing and relying on fancy tests. Where\\'s the science in that? Let\\'s talk about the actual biology of Ehrlichiosis and how it causes symptoms.",
-        "color": "blue"
       },
       {
         "id": 10,
         "parent_id": 9,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "As an ER nurse, I've seen my fair share of complex cases like this, and I'll be the first to admit that we don't always get it right. But that's exactly why we have this community - to learn from each other, ask questions, and share our experiences. Thanks, OP, for sparking this discussion.",
+        "color": "green"
+      }
+    ],
+    "image": "https://figures.semanticscholar.org/6b95810a42b031cf99f3edc67979132e62efed73/2-Figure1-1.png"
+  },
+  {
+    "id": 1,
+    "title": "Just saw a wild opioid tox case... TLDR: Don't forget the atypical opioids",
+    "body": "Just saw a patient with a severe meperidine overdose. Miosis was a red herring (it's an atypical opioid, remember?), and we almost missed the mydriasis and severe hypoxia. The patient ended up requiring a code brown and a bunch of interventions. Anyone have experience with this case? Was it just me, or did anyone else forget that meperidine can cause mydriasis and not miosis? I swear, atypical opioids are the worst... [1] https://www.ncbi.nlm.nih.gov/pubmed/25533594",
+    "category": "TodayILearned",
+    "comments": [
+      {
+        "id": 2,
+        "parent_id": 1,
         "user": "Dr. 'Ziggy' Zalesky",
         "role": "EP",
         "city": "Vancouver, BC",
-        "text": "Oh, come on, Vic. We\\'re talking about Ehrlichiosis here, not quantum physics. Let\\'s just stick to the basics and get the patient treated. Remember, Ehrlichiosis is caused by the Ehrlichia bacterium and it\\'s transmitted through tick bites. Now let\\'s move on to RMSF, shall we?",
+        "text": "Yup, I've seen this before! Meperidine can cause pretty much any kind of pupil reaction, it's like a box of chocolates... you never know what you're gonna get. And don't even get me started on the respiratory depression. Remember, in cases where the pupils don't react the way you'd expect, it's always a good idea to run a dose of naloxone, even if the patient seems awake. Thanks for sharing your experience!",
+        "color": "purple"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "This is a great reminder to always consider atypical opioids in cases of opioid tox. I've been studying meperidine and I know it can cause mydriasis, but I never thought about the respiratory depression... could you explain a bit more about how that works?",
         "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Great question, Sarah! Meperidine works by inhibiting the reuptake of norepinephrine, serotonin, and GABA, which can cause respiratory depression in large quantities. When you're evaluating a patient with meperidine tox, always keep an eye out for signs of respiratory depression like decreased respiratory rate or depth. And don't be afraid to run some blood work to check for levels...",
+        "color": "blue"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "I had a case last week where the patient was on a bunch of different meds, including tramadol and dextromethorphan. I remembered that these can both cause serotonin syndrome when combined with other serotonergic agents, so I made sure to check the patient's levels and run some lab work... ended up getting it right! Any other meds to watch out for with serotonin syndrome?",
+        "color": "purple"
+      },
+      {
+        "id": 6,
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I've been studying opioid tox for my EM fellowship and I'm still not convinced that meperidine is the most problematic atypical opioid out there. Anyone have experience with fentanyl patches? I've heard they can be pretty nasty... ",
+        "color": "green"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Don't get me wrong, fentanyl patches can be serious business, but IMHO, meperidine is the real MVP when it comes to atypical opioids. Fentanyl patches are more of a nuisance than a real threat, especially if you've got experience with opioid tox. But hey, I'm not saying don't be cautious... [2] https://www.ncbi.nlm.nih.gov/pubmed/25713365",
+        "color": "purple"
       }
     ]
   },
   {
-    "id": 1,
-    "title": "CASE STUDY: 'Body Stuffer' Cocaine Abuse - Don't Forget the Differential",
-    "body": "Just saw a patient with what initially presented as a typical acute MI, but upon further evaluation, the patient had a ruptured bag of cocaine hidden in their rectum. I was left wondering about all the other ways patients might be 'hiding' their substance abuse. Can we share our worst body stuffer stories? TL;DR: Don't forget to include 'body stuffer' in your differential for patients with atypical presentations of MI or 'flu-like' symptoms.",
+    "id": 2,
+    "title": "Hypertensive Emergency - When to Intervene?",
+    "body": "Just saw a patient with hypertensive emergency and made me wonder when is it worth intervening acutely. Anyone else got experiences with this?\n        My patient was a 45-yo male presenting with a systolic BP of 220 mmHg and diastolic of 150 mmHg. He was experiencing severe headache and was unable to move due to excruciating pain. CT scan showed a left MCA infarct but no hemorrhage. BP remained elevated despite several rounds of antihypertensive medications. Patient was intubated and taken to ICU for further management.\n        However, reading various guidelines and studies, some of them suggest that the decision to intervene acutely depends on several factors such as the patient's underlying cause of hypertension, target organ involvement, and the presence of end-organ dysfunction among others. This brings me to my question: Has anyone else dealt with scenarios like this? What approach did you take, and what were the outcomes?",
     "category": "Emergency Medicine",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Love it! Reminds me of a case where the patient had a 'body packer' scenario and we had to do a series of imaging studies to find the 200g of cocaine in their intestines. Key takeaway - don't forget to include bowel obstruction in your differential for patients with sudden onset of abdominal pain after ingestion. Check out this article by Dr. Hoffman https://link.springer.com/article/10.1007/s11845-019-0195-8",
-        "color": "red"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "How common is it to see body stuffers/packers in your ER?",
+        "user": "r/EmergMed",
+        "role": "MD",
+        "city": "New York",
+        "text": "TLDR: Don't delay hypertensive emergency treatment. You're playing with fire. I've seen patients with malignant hypertension and it's a whole different ball game. Every minute counts.\n\nMy approach is to get the blood pressure down ASAP while keeping an eye on the patient's clinical status. I've even used sodium nitroprusside when necessary. Don't forget to give a loading dose of lisinopril. [1]\n\nhttps://emedicine.medscape.com/article/1704444-overview",
         "color": "blue"
       },
       {
         "id": 3,
         "parent_id": 1,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "I had a case last week where the patient had ingested a significant amount of cocaine and presented with SVT. The key was the patient's lack of a clear history of cocaine use, making it a great example of a body stuffer. What are some other red flags to look out for?",
-        "color": "yellow"
+        "user": "EMDoc101",
+        "role": "Resident",
+        "city": "Chicago",
+        "text": "Thank you for sharing your experience! I have a question regarding your approach: You mentioned using sodium nitroprusside as a last resort. What were your criteria for choosing that agent? I've heard mixed opinions about its use.",
+        "color": "gray"
+      },
+      {
+        "id": 2,
+        "parent_id": null,
+        "user": "MayaGuptaMD",
+        "role": "Attending",
+        "city": "Los Angeles",
+        "text": "I agree that early intervention is key in hypertensive emergencies.\n\nIn fact, a 2015 study published in JAMA Cardiology found that aggressive blood pressure lowering within the first 3 hours was associated with improved outcomes in patients with intracerebral hemorrhage.\n\nhttps://jamanetwork.com/journals/jamacardiology/fullarticle/2091157",
+        "color": "green"
       },
       {
         "id": 4,
-        "parent_id": 1,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Don't forget to consider the broader picture when it comes to substance abuse. I've seen patients who are body stuffers/packers often have underlying psychiatric issues, such as anxiety or depression. It's not just about the cocaine - it's about the overall state of the patient's mental health.",
-        "color": "orange"
+        "parent_id": 2,
+        "user": "EMRes22",
+        "role": "Resident",
+        "city": "Houston",
+        "text": "Thanks for sharing the study, Dr. Gupta! Could you elaborate on the study's findings? What exactly were the outcomes that improved with early BP lowering?",
+        "color": "purple"
       },
       {
         "id": 5,
-        "parent_id": 3,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "You mentioned SVT, but what about other cardiac complications of cocaine abuse? I've seen patients present with wide complex tachycardia/dysrhythmias and even coronary artery dissection.",
-        "color": "pink"
+        "parent_id": 1,
+        "user": "BrockStoneMD",
+        "role": "Surgeon",
+        "city": "Toronto",
+        "text": "Just a word of caution, folks. We don't want to overemphasize the importance of rapid blood pressure lowering in all hypertensive emergencies.\n\nThere are instances where slowing down may be warranted, such as in cases of renal artery stenosis or in patients with labile hypertension.\n\nThe mantra 'time is blood pressure' doesn't always apply.",
+        "color": "red"
       },
       {
         "id": 6,
         "parent_id": 5,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Great point about coronary artery dissection! And don't forget to consider the 'washout' syndrome, where patients present with CNS depression after heavy cocaine use. It's not just about the cardiac complications - it's about the entire physiological impact of the drug.",
-        "color": "purple"
+        "user": "Dr.ArisThorne",
+        "role": "Staff Physician",
+        "city": "Montreal",
+        "text": "I understand what Dr. Stone is getting at. The key is to strike a balance. While rapid blood pressure lowering may be indicated in certain scenarios, we also need to consider the patient's individual factors and potential risks.\n\nWhat I'd like to add is that a thorough evaluation of the patient's underlying cause of hypertension, as well as consideration of their comorbidities, is crucial before implementing an intervention strategy.\n\nReferences: [1] Guidelines for the Management of Spontaneously Intracerebral Hemorrhage: A Guideline for Healthcare Professionals From the American Heart Association/American Stroke Association.",
+        "color": "orange"
       },
       {
         "id": 7,
         "parent_id": 6,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "I'm still trying to wrap my head around the 'washout' syndrome - can you explain it in more detail?",
-        "color": "teal"
+        "user": "LeoChen",
+        "role": "MS1",
+        "city": "Ottawa",
+        "text": "Thanks for the insights, everyone. I'm still trying to wrap my head around the nuances of hypertensive emergencies. What would be a typical presentation of malignant hypertension? Would it include signs like renal failure, hypertensive encephalopathy, or what?",
+        "color": "yellow"
       },
       {
         "id": 8,
         "parent_id": 7,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Think of it like a rebound effect from the stimulant high. Patients may present with severe depression, anxiety, or even psychosis after the effects of the cocaine wear off. And don't forget about the increased risk of seizures and acute kidney injury - we've all seen the horror stories about patients who've had severe reactions.",
-        "color": "blue"
-      },
-      {
-        "id": 9,
-        "parent_id": 1,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "This brings back memories of my time in the army during the war, where we'd see soldiers with what was referred to as 'barrel fever.' It was a common affliction among those who'd been exposed to high levels of adrenaline. Fascinating to see how the presentation of this condition has evolved over time.",
-        "color": "gray"
-      },
-      {
-        "id": 10,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Well, it looks like we've covered a wide range of topics today - from body stuffers/packers to the broader implications of substance abuse. And don't forget to stay vigilant for atypical presentations of MI and 'flu-like' symptoms - it's not just about the cocaine, it's about the entire picture.",
-        "color": "red"
+        "user": "ChadBroson",
+        "role": "Pre-Med",
+        "city": "London",
+        "text": "I've got a question. Wouldn't the first line of treatment for malignant hypertension be addressing the underlying cause, rather than immediately targeting the blood pressure? I'm not a doctor yet, but my textbook says that's the way to go.",
+        "color": "pink"
       }
-    ],
-    "image": "https://images.squarespace-cdn.com/content/v1/546e1217e4b093626abfbae7/1575897224186-XUH3D3GTCYC4Z6N7SKN1/Lightning+Learning+-+Cocaine-induced+Chest+Pain+%28v1.1%29.png"
+    ]
   },
   {
-    "id": 4,
-    "title": "Pelvic Fractures: The Grey Area of Hemodynamically Unstable Patients",
-    "body": "Today I learned that pelvic fractures can be tricky when dealing with hemodynamically unstable patients. We had a patient last night who presented with a high-energy trauma to the pelvis, and we were unsure how to proceed. The patient had a positive FAST but no significant findings on imaging studies. We decided to go with angiography with embolization and external fixation, as per the guidelines. But what about the patient who doesn't have a clear source of bleeding?",
-    "category": "emergency physicians",
+    "id": 12,
+    "title": "Today I Learned: Don't assume injury equals assault denial in intimate partner violence - a critical distinction",
+    "body": "Just saw a patient with a classic case of intimate partner violence (IPV). The presenting complaint was an ankle injury from a 'fall'. But what caught my attention was the patient's demeanor - anxious, avoiding eye contact, and hesitant to talk about the incident. After a gentle questioning, I discovered the ankle injury was indeed from a push by her partner. The patient had previously been hesitant to report due to fear of retaliation and shame.\n\nHad it not been for the patient's subtle cues during the exam, I might have missed the opportunity to intervene. As EPs, let's not forget that injury doesn't necessarily mean assault didn't occur. Often, the perpetrator is known to the victim, making it even harder to suspect.\n\nAnyone else have similar experiences? How do you approach these cases?",
+    "category": "today_i_learned",
     "comments": [
       {
-        "id": 1,
+        "id": 13,
         "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I've seen this scenario before. The key is to stabilize the patient with a pelvic binding device or bedsheet to prevent further displacement of the fracture ends. You need to assess for other locations of bleeding, such as the thorax and peritoneal cavity. Have you considered a chest radiograph and FAST examination?",
-        "color": "blue"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Thanks for the tip, Dr. Gupta. I've read that the use of a pelvic binding device can be effective in stabilizing the fracture ends. But what about the patient who is hemodynamically unstable and doesn't have a clear source of bleeding? Are there any other options available?",
-        "color": "black"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "I agree with Dr. Gupta that stabilization of the fracture ends is crucial. However, in cases where there is no clear source of bleeding, I would recommend considering a thoracoabdominal CT scan to rule out any potential sources of bleeding. Have you considered this option?",
-        "color": "red"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "I've heard of thoracoabdominal CT scans being used to diagnose bleeding in hemodynamically unstable patients. Can you explain how it works and what are the contraindications?",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
         "user": "Dr. Victor Sterling",
         "role": "Chief of Surgery",
         "city": "Calgary, AB",
-        "text": "A thoracoabdominal CT scan is a valuable tool in diagnosing bleeding in hemodynamically unstable patients. However, it's essential to consider the radiation exposure and potential allergic reactions. Always weigh the benefits against the risks.",
-        "color": "orange"
-      },
-      {
-        "id": 6,
-        "parent_id": 1,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "As an ER nurse, I've seen my fair share of hemodynamically unstable patients. In cases where there is no clear source of bleeding, I would recommend considering a pelvic binder as a temporary measure to stabilize the fracture ends. Have you considered a pelvic binder?",
-        "color": "brown"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "A pelvic binder can be a great temporary measure to stabilize the fracture ends. However, it's essential to monitor the patient closely for any signs of worsening instability or new bleeding. Thank you for sharing your experience, Martha!",
-        "color": "lightblue"
-      },
-      {
-        "id": 8,
-        "parent_id": 1,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "Ugh, I hate when I see patients like this. Always so many conflicting diagnoses and uncertain treatment plans. What's the point of having a pelvic fracture classification system if it's not clear which type of fracture we're dealing with?",
-        "color": "pink"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "As a patient who has had a severe pelvic fracture, I can attest that the uncertainty can be terrifying. It's not just about the physical discomfort; it's also about the fear of not knowing what's going to happen next.",
-        "color": "yellow"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "Ah, Barnaby, my friend, you're absolutely right. The uncertainty can be overwhelming. But as healthcare providers, we need to take a step back and consider the bigger picture. What are the potential consequences of our treatment choices?",
-        "color": "purple"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "CJ",
-        "text": "Thanks for sharing your story, Barnaby. Can you tell us more about your experience with pelvic fractures?",
-        "color": "gray"
-      }
-    ]
-  },
-  {
-    "title": "Today I Learned EP patients with beta hCG levels < 1000 IU/L rarely get methotrexate...",
-    "body": "Just saw a patient with ectopic pregnancy and beta hCG levels < 1000 IU/L. The obstetrician didn't want to give methotrexate because of the low levels, but the patient was a good candidate for EP. Anyone else have experience with this? Is it really that hard to diagnose EPs in the ED?",
-    "category": "emergency-medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "TLDR: Yes, low beta hCG levels don't necessarily rule out EP. I've seen it with the EP service. But it's a tricky situation, because high hCG levels aren't always a guarantee of a viable pregnancy, either. Maybe we need to start ordering more sonograms?",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "That's a good point @Dr. Maya Gupta. I've seen patients with low hCG levels get misdiagnosed with a missed abortion in the past. But shouldn't we be looking at the overall clinical picture, not just the hCG levels?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Hi @Turbo Tom and @Dr. Maya Gupta, that's a great discussion. How do you typically assess for an ectopic pregnancy clinically? Are there any red flags we should be looking out for?",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Hi @Leo Chen, good question. Clinical assessment for EPs involves looking for symptoms suspicious of an intra-abdominal hemorrhage, such as pelvic pain, vaginal bleeding, and a closed os. If these symptoms are present, we should also consider the patient's past medical history, including pelvic inflammatory disease and other risk factors.",
-        "color": "orange"
-      },
-      {
-        "id": 5,
-        "parent_id": 3,
-        "user": "Dr. Zachariah Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "@Leo Chen, you're doing great so far. But remember, the most important thing in an EP diagnosis is a low platelet count, which can indicate a hemorrhaging fetus. Don't forget to order a CBC!",
+        "text": "Amateurs. Always jumping to conclusions without proper evidence. What's the 'injury' here? A bruise? A cut? Get the specifics before you start diagnosing IPV. By the way, do we have any studies on the effectiveness of intimate partner violence screening in emergency departments?",
         "color": "red"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Yeah, and don't forget the patient's beta hCG titer @Dr. Zachariah Thorne! We don't want to misdiagnose an EP just because the platelets are off.",
-        "color": "green"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. 'Ziggy' Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Good point, good guys! EPs are a tricky business. Just to chime in, don't forget to order an ultrasound ASAP if you suspect an EP. It's a quick way to rule in and rule out, and we can't rely solely on the hCG levels.",
-        "color": "purple"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Great reminder, @Dr. 'Ziggy' Zalesky! What if the ultrasound doesn't show an obvious EP? Should we start thinking about other diagnoses, like a threatened or inevitable abortion?",
-        "color": "orange"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "Ugh, you're asking too many questions @Sarah Jenkins! Okay fine, if the ultrasound doesn't show an obvious EP, look for signs of a miscarriage on the ultrasound, like an open os or a fetal sac. And if it's still inconclusive, order another ultrasound and maybe a repeat beta hCG. Just don't forget to keep an eye on the patient's clinical status and order more labs if needed.",
-        "color": "red"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Got it, thanks @Dr. Rick 'The Rage'! One more question: What if the patient's symptoms resolve on their own, like the pain subsides and the bleeding stops? Can we discharge them or do we need to keep them for observation?",
-        "color": "blue"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Don't discharge those patients @Leo Chen until you're absolutely sure they're okay! Remember, EPs can be tricky and may require ongoing management and observation. Better to err on the side of caution.",
-        "color": "green"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Agreed @Dr. Barb Miller! We've had patients come back with EP complications after discharge. Just one more reason to keep them on observation longer.",
-        "color": "green"
-      },
-      {
-        "id": 13,
-        "parent_id": 12,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "So, it sounds like there's still a lot to learn about EPs. Can we summarize this discussion @Dr. Maya Gupta's original comment?",
-        "color": "orange"
-      },
-      {
-        "id": 14,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Absolutely @Sarah Jenkins! To recap: low beta hCG levels don't rule out EP, we need to look at the overall clinical picture, and we should consider additional tests like ultrasound and beta hCG titer to support the diagnosis.",
-        "color": "purple"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Today I Learned: Acute Angle Closure Glaucoma - Don't Miss the Halos! ",
-    "body": "Had a miss last night with a 45 yr old with a sudden onset severe eye pain and nausea. The patient had no risk factors but was on tetracycline antibiotics for acne - a classic precipitant for AACG! The ECG showed a narrow anterior chamber, which I should have picked up on the initial exam.",
-    "category": "emergencymedicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Tetracyclines are a known risk factor for AACG due to their chelating effect on calcium, leading to increased aqueous humor production. In my residency, we learned that the 4 'Ds' of AACG are Diabetes, Druggers, Drops (pseudomyopia), and Dolic (anisocoria). We should be more vigilant for these risk factors in our patients.",
-        "color": "blue"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Gupta, can you elaborate on how the '4 Ds' came to be, and what you mean by 'Druggers' and 'Dolic'? I've only heard of Diabetes and Drps (drops).",
-        "color": "pink"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "I had a similar case last week where the patient was taking doxycycline for acne. I prescribed pilocarpine 1% eye drops, but the patient had already been given erythromycin 2% ointment for the cornea. What would be your approach to managing the AACG in this scenario?",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "I'd be wary of giving pilocarpine in a patient with tetracycline-induced AACG, as it might increase the risk of further angle closure. Have any of you used latanoprost as an alternative?",
-        "color": "orange"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "A recent Cochrane review suggests that laser peripheral iridotomy (LPI) may be an effective treatment for AACG in patients without other risk factors. Has anyone used LPI in their practice with good results?",
-        "color": "purple"
-      },
-      {
-        "id": 6,
-        "parent_id": null,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "In my day, we didn't have all these fancy treatments for AACG. We'd just use a simple miotic drop like pilocarpine, and sometimes a good old-fashioned needle iris resection. Has the art of medicine declined since then?",
-        "color": "brown"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "Dr. Thorne, I'm not sure if I'm crazy, but I think my cat's eye has AACG. The eye is very red and watery, and it hurts when I touch it. Should I take my cat to the vet?",
-        "color": "yellow"
-      },
-      {
-        "id": 8,
-        "parent_id": 1,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "Ugh, AACG is one of my least favorite diagnoses. It's so frustrating to miss it, and then the patient comes back with a 4th nerve palsy and a bunch of other complications. Has anyone else had trouble diagnosing AACG on the initial exam?",
-        "color": "red"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "Dr. Rage, I've had my share of AACG misses too. But you know what they say: 'A good ER nurse can diagnose AACG by just feeling the eye for 0.5 seconds'. Just kidding, sort of.",
-        "color": "gray"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Martha, that's not a bad idea! Maybe we should start teaching our residents to perform a quick 'AACG feel-check' on every patient with a headache.",
-        "color": "teal"
-      }
-    ],
-    "image": "https://images.squarespace-cdn.com/content/v1/53c1a2cce4b0e88e61f99b70/1505059761871-F2X4JTGQ2WIGSXND6S3A/Capture1.PNG"
-  },
-  {
-    "id": 101,
-    "title": "Acute Appendicitis: A Diagnosis Gone Wrong",
-    "body": "I'm still replaying a case from last night's shift in my head. A 10-year-old boy presents with 12 hours of abdominal pain and fever. History was sketchy, but he did mention some anorexia. Initial vitals showed a normal WBC. We ordered a STAT abdominal CT, but in the meantime, the boy's pain migrated to the right lower quadrant, and the nurse noted some rebound tenderness.",
-    "category": "TIL",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "That sounds like a classic case of appendicitis. What did the CT show?",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Wait, what's the story with the WBC? Was it really normal at first?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "You call this a diagnosis gone wrong? In my day, we made do with much less. What's the point of relying on 'rebounding tenderness'?",
-        "color": "orange"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Dude, you're kidding, right? 'Rebounding tenderness' is a thing! [1] (Also, btw, can we keep the discussion civil?)",
-        "color": "pink"
-      },
-      {
-        "id": 5,
-        "parent_id": 2,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "Actually, the WBC wasn't that far off normal when we first looked at it. Maybe 15k or so?",
-        "color": "blue"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "15k? That's still not great. Can someone tell me again why we didn't admit this kid earlier?",
-        "color": "brown"
-      },
-      {
-        "id": 7,
-        "parent_id": null,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "So, I just wanted to follow up on Dr. Gupta's question earlier...What ended up being the diagnosis?",
-        "color": "red"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "It turns out the CT showed a 3cm inflamed appendix. We got him into the OR shortly after.",
-        "color": "gray"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Good job team! Just a question...Do we know the patient's post-op course yet?",
-        "color": "yellow"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Actually, the patient had a smooth recovery and was discharged the next day. The path report showed a normal appendix [1]. We learned that this kid was actually a 'pseudosick' patient!",
-        "color": "purple"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Today I Learned: Don't forget the calcium! Hydrofluoric acid burns and hyperkalemia management",
-    "body": "**TLDR:** When treating hydrofluoric acid burns, don't forget to give calcium gluconate. I just saw a patient who had hyperkalemia and cardiac arrest after being treated with just copious irrigation.",
-    "category": "EmergencyMedicine",
-    "comments": [
-      {
-        "id": 11,
-        "parent_id": null,
-        "user": "Turbo Tom",
-        "role": "",
-        "city": "London, ON",
-        "text": "OMG, that's wild! Thanks for sharing. In fact, hydrofluoric acid can bind to calcium ions, which is why calcium gluconate is so important. Have you seen the treatment algorithm from the CDC? [link](https://cdc.gov/niosh/emres/rtwh/hfaweb.html)",
-        "color": "purple"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Martha 'The Hammer'",
-        "role": "",
-        "city": "Halifax, NS",
-        "text": "Yeah, don't forget that calcium gluconate needs to be applied topically before any irrigation. Don't want to dilute it out. Have you seen the case report on the use of calcium gluconate gel for hydrofluoric acid burns?",
-        "color": "green"
-      },
-      {
-        "id": 13,
-        "parent_id": 12,
-        "user": "Dr. 'Ziggy' Zalesky",
-        "role": "",
-        "city": "Vancouver, BC",
-        "text": "Actually, Martha, I think you might be thinking of the use of calcium gluconate in hyperkalemia. But yes, it does need to be applied topically first. Here's a useful resource on management of hydrofluoric acid burns: [link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4261917/)",
-        "color": "blue"
       },
       {
         "id": 14,
         "parent_id": 13,
-        "user": "Dr. Victor Sterling",
-        "role": "",
-        "city": "Calgary, AB",
-        "text": "Wow, this discussion is so focused on the details. Don't forget the bigger picture, guys. Hyperkalemia is often a symptom of underlying electrolyte imbalances, like hypomagnesemia. We can't just treat the symptoms without looking at the whole patient.",
-        "color": "red"
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "@Dr. Sterling: Oh, come on, Vic! You know as well as I do that many IPV cases are missed due to lack of suspicion. We need to be more vigilant and not jump to conclusions, but also not let our bias blind us. @OP, what's the best way to approach IPV cases in the ED?",
+        "color": "green"
       },
       {
         "id": 15,
         "parent_id": 14,
-        "user": "Leo Chen",
-        "role": "",
-        "city": "Montreal, QC",
-        "text": "Dr. Sterling, isn't that just a cop-out? We need to focus on the specifics of each case, not just the theory. Can you give us some concrete examples?",
-        "color": "orange"
-      },
-      {
-        "id": 16,
-        "parent_id": 15,
-        "user": "Dr. Barb Miller",
-        "role": "",
-        "city": "Winnipeg, MB",
-        "text": "I agree with you, Leo. But let's not forget that our patients' lives are on the line. We need to consider both the specifics of each case and the bigger picture of the patient's overall health.",
-        "color": "grey"
-      }
-    ]
-  },
-  {
-    "id": 10,
-    "title": "Just saw a patient with posterior epistaxis... or did I?",
-    "body": "I've been in practice for over 10 years and still get caught up in this one. Patient presents with anterior epistaxis, but then you can't find the source and blood is dripping down the back of their throat. Suddenly it's a posterior bleed and the patient needs a pack. But what if it's just a 'rebleed' from the original? Or a complication from the nasal packing? I had a patient last night who was on a warfarin and I ended up calling ENT for what felt like an hour arguing if I should pack or not pack... anyone else have a similarly frustrating experience?",
-    "category": "medical-stories",
-    "comments": [
-      {
-        "id": 11,
-        "parent_id": null,
         "user": "Dr. Aris Thorne",
-        "role": "MD",
+        "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "Ah, the age-old question of posterior epistaxis. I've written extensively on this topic and always say that a good history and physical exam are key. Remember to ask about any anticoagulant use, recent nasal trauma, or other comorbid conditions. And always err on the side of caution, better safe than sorry. I've also found that a gentle application of nasal packing can be just as effective as a more aggressive approach.",
-        "color": "blue"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Thorne, can you explain what you mean by a 'gentle application' of nasal packing? Is that a technique you use? And how do you know when it's safe to discharge a patient?",
-        "color": "green"
-      },
-      {
-        "id": 13,
-        "parent_id": 11,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "I've seen Dr. Thorne's article on posterior epistaxis and it's a game-changer. One thing to keep in mind is to make sure the patient is properly informed about the risks and benefits of nasal packing. And don't forget to document everything! I've had patients sue us for not properly explaining the risks...",
+        "text": "@Turbo Tom: I agree with you, Tom. Suspecting IPV is a delicate balance between being vigilant and not jumping to conclusions. @OP, have you considered the use of the Jalowiec coping scale to assess for IPV in ED patients?",
         "color": "purple"
       },
       {
-        "id": 14,
-        "parent_id": 13,
+        "id": 16,
+        "parent_id": 12,
         "user": "Sarah Jenkins",
         "role": "MS3",
         "city": "Ottawa, ON",
-        "text": "Thanks for the tip, Turbo! I've been learning about informed consent and it's so important to make sure patients understand the risks and benefits. Can anyone recommend a good source for learning more about posterior epistaxis?",
-        "color": "green"
-      },
-      {
-        "id": 15,
-        "parent_id": null,
-        "user": "Dr. Victor Sterling",
-        "role": "MD",
-        "city": "Calgary, AB",
-        "text": "Amateurs. You're all just a bunch of armchair experts when it comes to posterior epistaxis. Trust me, I've seen it all. Just pack the patient and get them out of your hair.",
-        "color": "red"
-      },
-      {
-        "id": 16,
-        "parent_id": 15,
-        "user": "Dr. Aris Thorne",
-        "role": "MD",
-        "city": "Toronto, ON",
-        "text": "Excuse me, Dr. Sterling, but I think you're being a bit... dismissive of the complexities of posterior epistaxis. It's not just a simple 'pack and go' situation. We need to consider the patient's comorbidities, the severity of the bleeding, and the risk of complications. Maybe take a refresher course?",
+        "text": "@OP: How do you handle cases where the patient is ambivalent about their relationship status? Does anyone have resources on this?",
         "color": "blue"
       },
       {
         "id": 17,
         "parent_id": 16,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Dr. Thorne, I love how you always keep it professional! Dr. Sterling, you're making my head spin... can someone explain to me why posterior epistaxis is such a big deal?",
-        "color": "purple"
+        "user": "Dr. Barbara Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "@Sarah Jenkins: Ah, that's a great question! In my experience, patients with ambivalent relationship status often have more difficulty acknowledging IPV. @OP, have you ever used the Abuse Assessment Screen (AAS) in these cases?",
+        "color": "yellow"
       },
       {
         "id": 18,
-        "parent_id": 17,
-        "user": "Dr. Maya Gupta",
-        "role": "MD",
-        "city": "Mississauga, ON",
-        "text": "Posterior epistaxis is a big deal because it can be life-threatening if not managed properly. The bleeding can be severe and may require surgical intervention. Not to mention the risk of complications like aspiration or hemorrhage... it's a complex situation that requires careful consideration.",
-        "color": "blue"
+        "parent_id": 12,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "@OP: What's the best way to document these cases for follow-up? Should I include any specific sections or templates in the ED chart?",
+        "color": "orange"
       },
       {
         "id": 19,
         "parent_id": 18,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Thanks, Dr. Gupta! That helps clarify things. Can anyone recommend any resources for learning more about posterior epistaxis?",
-        "color": "green"
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "@Dr. Kevin Park: Exactly what I was wondering! Using templates like the 'IPV Screening Form' can be helpful. Additionally, it's essential to include information on the patient's support system and any concerns for their safety.",
+        "color": "pink"
       },
       {
         "id": 20,
-        "parent_id": 19,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "MD",
-        "city": "Vancouver, BC",
-        "text": "Check out this article on posterior epistaxis by Dr. Thompson. He's a renowned expert in the field and has some great tips for managing these cases. [link]",
-        "color": "purple"
-      },
-      {
-        "id": 21,
-        "parent_id": 20,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Thanks, Dr. Zalesky! I'll check that out. And Dr. Sterling, can I ask you to refrain from being so... condescending? We're all here to learn and share our experiences.",
-        "color": "purple"
-      },
-      {
-        "id": 22,
-        "parent_id": null,
+        "parent_id": 12,
         "user": "Dr. Elena Varkov",
-        "role": "MD",
+        "role": "FRCPC",
         "city": "Quebec City, QC",
-        "text": "I'm so glad to see this discussion! As an internist, I've seen many patients with posterior epistaxis who were on anticoagulants or had other comorbid conditions. It's so important to consider these factors when managing these cases. Can anyone recommend any resources for learning more about anticoagulation management?",
-        "color": "blue"
-      },
+        "text": "@OP: What about cases where the patient is a victim of IPV but doesn't want to leave the relationship? How do you approach these situations?",
+        "color": "brown"
+      }
+    ],
+    "image": "https://ars.els-cdn.com/content/image/1-s2.0-S0736467920307885-gr2.jpg"
+  },
+  {
+    "id": "post",
+    "title": "Just saw a patient with suspected placental abruption - how to avoid missing the diagnosis?",
+    "body": "I had a case last night that made me question my own judgment of a patient's symptoms. A 35-year-old G2P1 at 33 weeks with severe, painful vaginal bleeding and abdominal pain presented to our ED. Her initial vitals were BP 90/60, HR 120, and O2 sats 98%. On pelvic exam, she had a moderate amount of vaginal bleeding and a tender uterus.\n\nHer ultrasound revealed a possible abruption, but her Hct was only slightly low at 32. I was tempted to discharge her, thinking it was a mild case of PPROM or cervical bleeding. But something didn't sit right. I sent her to L&D, and the OB on call confirmed the abruption. The patient was immediately started on oxytocin and magnesium sulfate for fetal distress.\n\nThis case made me realize that I need to be more vigilant when assessing symptoms in pregnant women. I've come across articles that suggest even subtle signs of placental abruption, such as fetal bradycardia or uterine tenderness, should prompt an immediate workup. Any thoughts on how to avoid missing this diagnosis?",
+    "category": "r/emergencymedicine",
+    "comments": [
       {
-        "id": 23,
-        "parent_id": 22,
-        "user": "Dr. Maya Gupta",
-        "role": "MD",
-        "city": "Mississauga, ON",
-        "text": "Check out this paper on anticoagulation management in posterior epistaxis. It has some great tips for balancing the need for blood thinners with the risk of bleeding.",
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great case, OP! One thing to keep in mind is to ask about a history of trauma, even if it's remote. I had a patient last year who presented with similar symptoms, only to find out she had been in a minor MVA 6 months prior. Another key point is to consider the timing - in my experience, placental abruptions tend to happen later in pregnancy, especially around 32-34 weeks. Don't forget to check for other red flags like fetal movement abnormalities and maternal hypertension.\n\n TLDR: Trauma history, timing, and red flags are crucial in diagnosing placental abruption.\n\n Link to a good review article: [1]\n",
         "color": "purple"
       },
       {
-        "id": 24,
-        "parent_id": 23,
+        "id": 2,
+        "parent_id": 1,
         "user": "Leo Chen",
         "role": "MS1",
         "city": "Montreal, QC",
-        "text": "Thanks, Dr. Gupta! I'll check that out. Can anyone recommend any resources for learning more about nasal packing?",
+        "text": "Hi Dr. Thorne, I'm a bit confused. What do you mean by 'timing'? Is the abruption more common at a certain time during pregnancy?\n\nAlso, I thought you only checked for fetal movement abnormalities if the fetus is at least 24 weeks.",
         "color": "green"
       },
       {
-        "id": 25,
-        "parent_id": 24,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Check out this video on nasal packing techniques. It's really helpful for learning how to properly pack a nasal cavity.",
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I agree with Dr. Thorne. In my resident rotation, we were taught to assess for trauma history and look for red flags like fetal bradycardia. One of my attendings told us about a case where the patient had a history of seizures and presented with abdominal pain and vaginal bleeding. The diagnosis was a placental abruption, which was confirmed on ultrasound.",
         "color": "purple"
       },
       {
-        "id": 26,
-        "parent_id": 25,
+        "id": 4,
+        "parent_id": 3,
         "user": "Sarah Jenkins",
         "role": "MS3",
         "city": "Ottawa, ON",
-        "text": "Thanks, Turbo! I'm so glad to see this discussion. I'm going to go back and review my notes on posterior epistaxis. Anyone have any final tips or insights?",
+        "text": "Can you comment on the use of magnesium sulfate in these cases? I've seen it used to relax the uterus, but I'm not sure how it affects the fetus.",
         "color": "green"
       },
       {
-        "id": 27,
-        "parent_id": 26,
-        "user": "Dr. Aris Thorne",
-        "role": "MD",
-        "city": "Toronto, ON",
-        "text": "Always remember to consider the patient's entire medical history when managing posterior epistaxis. And don't be afraid to seek a second opinion if you're unsure. And one more thing... never underestimate the power of a good nasal spray!",
+        "id": 5,
+        "parent_id": null,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "OP, next time you have a patient with suspected placental abruption, don't forget to ask about their medication list. I had a patient once who was on a new anti-coagulant and presented with vaginal bleeding.",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "title": "Just had a close call with a hematoma block gone wrong",
+    "body": "I had a patient come in last night with a suspected fracture in the tibia. The patient was anxious and had a significant amount of pain. I went ahead with a hematoma block to aid in the reduction of the fracture. Everything seemed normal at first, but soon after the block, the patient started complaining of numbness and tingling in their foot.\n\nI immediately stopped the block and started assessing the patient's distal neurovascular status. It turned out that the needle had been misplaced and had injected the anesthetic into the peroneal nerve. The patient was taken to imaging and it was confirmed to be a peroneal nerve injury.\n\nTLDR; Hematoma blocks are a high-risk procedure for nerve injury, especially in cases with complex anatomy. Make sure to take your time and double-check your needle placement before proceeding with the block.",
+    "category": "medical-incidents",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "This is a classic example of a peroneal nerve palsy caused by a misplaced block. What I want to know is, did you use ultrasound guidance or were you relying on the old school palpation method? And more importantly, did you consider using a nerve stimulator to confirm the location of the nerve?\n\nAlso, I've read that the 'three-in-one' block can be a safer alternative to the hematoma block, as it allows for more controlled distribution of the anesthetic. Have you looked into this option before?",
+        "color": "red"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "Oh my, young lady, you're getting a bit too big for your britches, aren't you? Don't get me wrong, I'm all for progress and whatnot, but sometimes I think you folks are forgetting the art of medicine. In my day, we used to rely on good old-fashioned palpation and clinical acumen to get the job done. It wasn't as fancy, but it worked just as well.\n\nAs for nerve stimulation, I think it's a waste of time and money. Just use your own two eyes and your brain, for goodness' sake!",
+        "color": "purple"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Um, I'm not trying to be argumentative, but isn't nerve stimulation a thing in the ER? And isn't it used to help confirm the location of the nerve before injecting the anesthetic?",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Ah, Leo, you're absolutely right! Nerve stimulation is indeed used in the ER to help confirm the location of the nerve. I apologize for any confusion, OP.\n\nAs for the 'three-in-one' block, I've looked into it and it does seem like a safer alternative. The idea is to inject the anesthetic near the intersection of the femoral, obturator, and lateral femoral cutaneous nerves, rather than directly into the perineural space. Would you like to discuss the benefits and drawbacks of this approach further?",
         "color": "blue"
+      },
+      {
+        "id": 5,
+        "parent_id": 2,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Ha! You tell 'em, Archibald! I'm so sick of these young whippersnappers thinking they can do everything with fancy gadgets and whatnot. Sometimes it's just better to keep it simple and let our years of experience guide us.",
+        "color": "yellow"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "I'm so sorry, Barb, but I think you're being a bit too harsh on our med students. They're just trying to learn and make things better for our patients. Besides, it's all about finding that balance between old-school medicine and new-fangled tech, right?\n\nSpeaking of which, has anyone else noticed how much more reliable ultrasound guidance has become? I mean, back in the day, I was always worried about the operator error, but now it seems like so much of that has been minimized.",
+        "color": "teal"
       }
     ],
-    "image": "http://emupdates.com/wp-content/uploads/2017/12/epistaxis.png"
+    "image": "https://images.squarespace-cdn.com/content/v1/53c1a2cce4b0e88e61f99b70/1450376899475-VB9RMLYZ31BLYLGFRA1D/image-asset.png"
+  },
+  {
+    "id": 1,
+    "title": "Just saw a patient with a scalp hematoma after a motorbike accident...TLDR, anyone?",
+    "body": "Just finished a long shift in the ER and I'm still trying to process what I just saw. A 25-year-old male patient crashes his motorbike and gets rushed in by the squad. His scalp is a mess, but I'm more concerned about the hematoma. After reviewing his chart, I realized that it's a classic case of a perichondral hematoma. Any tips on how to manage it? I used to pressure dress it, but I'm not sure if that's best practice nowadays.",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 11,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "I would recommend a pressure dressing to reduce the risk of hematoma expansion. However, I'd also consider getting a CT scan to rule out any underlying skull fractures. It's always better to err on the side of caution, especially with a young patient like this.",
+        "color": "blue"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Amen, Dr. Thorne. And don't forget to assess for any underlying skull fractures. I've seen cases where the hematoma is just a symptom of something more sinister. Did you check for any lacerations to the frontalis muscle?",
+        "color": "yellow"
+      },
+      {
+        "id": 13,
+        "parent_id": 12,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Wait, what's laceration to the frontalis muscle? Is that a thing?",
+        "color": "purple"
+      },
+      {
+        "id": 14,
+        "parent_id": 13,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Yes, Leo, it is! The frontalis muscle is a thin muscle that attaches to the scalp. Injuries to this muscle can lead to complications like infection or hematoma. It's a good idea to check for any lacerations or damage to this muscle, especially in deep forehead lacerations.",
+        "color": "green"
+      },
+      {
+        "id": 15,
+        "parent_id": 11,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs. You're all missing the point. The real issue here is the lack of proper wound cleaning. I've seen more cases of wound infections because of sloppy wound cleaning than I can count. Get the wound CLEAN before you worry about pressure dressings or CT scans.",
+        "color": "red"
+      },
+      {
+        "id": 16,
+        "parent_id": 15,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Ugh, Victor, you're being ridiculous as always. Of course, wound cleaning is important, but it's not the only thing to consider. What about the hematoma? Did you even read the thread?",
+        "color": "purple"
+      },
+      {
+        "id": 17,
+        "parent_id": 16,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Actually, Maya, Victor has a point. Proper wound cleaning is essential in preventing infections. I've seen cases where poor wound cleaning has led to serious complications. But, I agree with Dr. Thorne, a pressure dressing can be useful in managing the hematoma.",
+        "color": "yellow"
+      },
+      {
+        "id": 18,
+        "parent_id": 17,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "I'm so confused. Can someone explain to me what the difference is between a pressure dressing and wound cleaning? Are they not the same thing?",
+        "color": "purple"
+      },
+      {
+        "id": 19,
+        "parent_id": 18,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Don't worry, Kevin! Wound cleaning involves removing debris and contaminants from the wound, while a pressure dressing is applied to reduce the risk of hematoma expansion. Think of it like a band-aid for the scalp.",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Just had a miss last night... cardiogenic shock after NSTEMI and I'm still wondering...",
+    "body": "Last night was a real 'aha' moment for me as an ED MD. Had a 62yo male with a known Hx of CHF and HTN present with acute chest pain and SOB. Initial ECG showed ST elevations in L2 and L3 and the patient was rapidly escalated to the cath lab for a PCI. Post-procedure, I noticed that the patient's SBP was 80s and he was having some mild respiratory distress. Despite giving him some IV fluids, the patient's BP was still not recovering and his JVD was looking a bit more pronounced than expected. Long story short, we had to intubate the patient and he was subsequently transferred to the ICU where he received some pressors and inotropes to stabilize his BP.",
+    "category": "EM",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Hey all, TL;DR cardiogenic shock after NSTEMI. Just a gentle reminder, cardiogenic shock isn't just for AMI pts - other causes can include infection, drug effects, tamponade, and more. In our case, the patient's JVD and mild respiratory distress should have been major red flags. Kudos to EP for quick thinking and getting the IV lines in ASAP!",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Great reminder, Dr. Ziggy! But can you clarify what's the best management strategy for cardiogenic shock after myocardial infarction? Are we talking early mechanical circulatory support, or just a focus on fluid resuscitation and pressor support?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Hey Sarah, when it comes to cardiogenic shock after MI, it's not always about the 'big ticket items' like LVADs and IABPs - we've got to consider more conservative approaches like right heart cath and careful fluid management. Of course, the patient above did end up needing some mechanical support, but that's not always the case.",
+        "color": "light blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I'm a bit confused - what's the difference between cardiogenic shock and cardiac arrest?",
+        "color": "red"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Hey Leo, great question! Cardiogenic shock is when the heart is pumping blood, but not enough blood to meet the body's needs (e.g., low BP, JVD, etc.). Cardiac arrest is when the heart suddenly stops pumping. Think of it like a leaky faucet - cardiogenic shock is a slow drip, whereas cardiac arrest is a total tap-out!",
+        "color": "light green"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Turb Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Love the analogy, Dr. Sharp. One thing to keep in mind, though, is that we're often dealing with a grey zone between cardiogenic shock and cardiac arrest. What about patients who are 'borderline'? Do we just go with the 'least bad' option, or try to optimize and resuscitate?",
+        "color": "magenta"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Rick 'The Rage'",
+        "role": "EP",
+        "city": "Windsor, ON",
+        "text": "Ugh, admin red tape. Don't even get me started on the logistics of getting a patient on a mech support vent or an IABP. In reality, what we usually end up with is a patchwork solution. Just my 2 cents, but we need to focus on what really matters - the clinical picture and patient management!",
+        "color": "dark red"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "Aye, my young friends, you're forgetting the art of clinical decision making! When it comes down to it, we've got to rely on our instincts, experience, and old-fashioned medicine to make the 'right' call. Don't get me wrong, tech is grand, but sometimes we need to take a step back and listen to our 'inner doctor'.",
+        "color": "brown"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Wow, Dr. Thorne, you're really speaking my language now. I mean, we've got to stay current with the latest literature, but at the end of the day, it's the patient who matters. Can you give us some examples of when to 'trust the gut'?",
+        "color": "light yellow"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Haha this is getting epic! As a pre-med, I've got to say, I love the whole 'clinical hunches' vibe. What about when do we decide to 'wait it out' vs. taking action ASAP? Don't want to jump to conclusions, but also don't want to wait too long...",
+        "color": "turquoise"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "You know what, as a patient, I'd rather have a doc take action ASAP, even if it means making some mistakes along the way. I mean, who wants to get stuck in limbo, huh? Anyways, back on topic, does anyone have some good recs for articles or courses on cardiogenic shock?",
+        "color": "violet"
+      }
+    ]
   }
 ]
