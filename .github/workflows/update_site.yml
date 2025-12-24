@@ -1,16 +1,18 @@
 name: Update EM Website
 on:
   schedule:
-    - cron: '0 */6 * * *' # Runs every 6 hours
-  workflow_dispatch: # Allows you to click "Run workflow" manually
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # Important: Allows the bot to save new_post.json
+      contents: write
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Fetches all history so rebase works better
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -18,8 +20,7 @@ jobs:
           python-version: '3.10'
 
       - name: Install dependencies
-        run: |
-          pip install chromadb groq requests
+        run: pip install chromadb groq requests
 
       - name: Unzip Database
         run: unzip -o em_vectors.zip -d .
@@ -36,5 +37,10 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add new_post.json
+          
+          # This part is the fix: it pulls any of your manual edits 
+          # before trying to push the AI's work.
+          git pull --rebase origin main
+          
           git commit -m "Update Meddit Feed: 7 new threads" || echo "No changes to commit"
-          git push
+          git push origin main
