@@ -1,26 +1,27 @@
 name: Update EM Website
 on:
+  workflow_dispatch: # Allows manual testing
   schedule:
-    - cron: '0 */6 * * *' # Every 6 hours
-  workflow_dispatch: # Allows you to click "Run Workflow" manually to test
+    - cron: '0 */6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # Specifically gives permission to save the file
     steps:
-      - uses: actions/checkout@v3
-
+      - uses: actions/checkout@v4
+      
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 
       - name: Install dependencies
-        run: |
-          pip install chromadb groq
+        run: pip install chromadb groq
 
       - name: Unzip Database
-        run: unzip em_vectors.zip -d .
+        run: unzip -o em_vectors.zip -d .
 
       - name: Generate Content
         env:
@@ -29,8 +30,8 @@ jobs:
 
       - name: Commit and Push
         run: |
-          git config --global user.name 'AI-Bot'
-          git config --global user.email 'bot@github.com'
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add new_post.json
-          git commit -m "New AI Post Generated"
+          git commit -m "New AI Post" || echo "No changes to commit"
           git push
