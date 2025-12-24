@@ -56,18 +56,80 @@ def get_google_image(query):
 # --- 4. MAIN GENERATION ENGINE ---
 def generate_full_site():
     # Topics to choose from (7 posts to fill the screen)
-    possible_topics = [
-        "Acute Aortic Dissection", "Tension Pneumothorax", "Hyperkalemia Management", 
-        "Pediatric Croup", "Septic Shock Protocols", "Aspirin Toxicity", 
-        "Cardiac Tamponade", "Ectopic Pregnancy Diagnosis", "Status Epilepticus"
+possible_topics = [
+        # SECTION 1 & 2: Prehospital & Disaster
+        "Emergency Medical Services Systems", "Mass Gathering Medical Care", "Disaster Preparedness", "Bioterrorism",
+        
+        # SECTION 3 & 4: Resuscitation & Procedures
+        "Sudden Cardiac Death", "Approach to Nontraumatic Shock", "Approach to Traumatic Shock", "Anaphylaxis Management",
+        "Acid-Base Disorders", "Electrolyte Emergencies", "Cardiac Rhythm Disturbances", "Vasopressors and Inotropes",
+        "Noninvasive Airway Management", "Tracheal Intubation", "Mechanical Ventilation in the ED", "Surgical Airway Management",
+        "Hemodynamic Monitoring", "Cardiac Pacing", "Defibrillation and Cardioversion",
+        
+        # SECTION 5 & 6: Analgesia & Wounds
+        "Acute Pain Management", "Procedural Sedation", "Local and Regional Anesthesia", "Wound Preparation and Closure",
+        "Face and Scalp Lacerations", "Hand and Wrist Lacerations", "Soft Tissue Foreign Bodies", "Puncture Wounds and Bites",
+        
+        # SECTION 7: Cardiovascular
+        "Chest Pain", "Acute Coronary Syndromes", "Cardiogenic Shock", "Low-Probability ACS", "Syncope", 
+        "Acute Heart Failure", "Valvular Emergencies", "Cardiomyopathies and Pericardial Disease", 
+        "Venous Thromboembolism", "Pulmonary Embolism", "Systemic Hypertension", "Aortic Dissection", "Aneurysms",
+        
+        # SECTION 8: Pulmonary
+        "Respiratory Distress", "Hemoptysis", "Acute Asthma and Status Asthmaticus", "COPD Exacerbation",
+        "Community-Acquired Pneumonia", "Pneumothorax", "Acute Respiratory Distress Syndrome",
+        
+        # SECTION 9: GI
+        "Acute Abdominal Pain", "Nausea and Vomiting", "Upper GI Bleeding", "Lower GI Bleeding", "Esophageal Emergencies",
+        "Peptic Ulcer Disease", "Appendicitis", "Diverticulitis", "Bowel Obstruction", "Hernias", "Anorectal Disorders",
+        "Jaundice", "Acute Cholecystitis", "Acute Pancreatitis", "Complications of Cirrhosis",
+        
+        # SECTION 10: GU
+        "Acute Urinary Retention", "Urinary Tract Infections", "Kidney Stones", "Male Genital Emergencies",
+        
+        # SECTION 11: OBGYN
+        "Ectopic Pregnancy", "Vaginal Bleeding in Early Pregnancy", "Complications of Late Pregnancy", "Emergency Delivery",
+        "Postpartum Emergencies", "Pelvic Inflammatory Disease", "Sexual Assault Management",
+        
+        # SECTION 12: Pediatrics
+        "Pediatric Airway Management", "Pediatric Resuscitation", "Neonatal Emergencies", "Pediatric Fever",
+        "Pediatric Respiratory Distress", "Pediatric Seizures", "Pediatric GI Disorders", "Pediatric Orthopedics",
+        "Child Abuse and Neglect",
+        
+        # SECTION 13: Infectious Disease
+        "Sepsis and Septic Shock", "Soft Tissue Infections", "Sexually Transmitted Infections", "HIV Emergencies",
+        "Meningitis", "Tick-Borne Illnesses", "Tuberculosis",
+        
+        # SECTION 14: Neurology
+        "Headache", "Ischemic Stroke", "Intracranial Hemorrhage", "Seizures and Status Epilepticus", "Vertigo and Dizziness",
+        "Altered Mental Status and Coma", "Spinal Cord Compression",
+        
+        # SECTION 15: Toxicology
+        "General Approach to the Poisoned Patient", "Anticholinergic Toxicity", "Opioid Overdose", "Acetaminophen Toxicity",
+        "Salicylate Toxicity", "Toxic Alcohols", "Beta Blocker and Calcium Channel Blocker Toxicity", "Cocaine and Stimulants",
+        
+        # SECTION 16: Environmental
+        "Frostbite and Hypothermia", "Heat-Related Illness", "Bites and Stings", "Drowning", "Electrical and Lightning Injuries",
+        "High-Altitude Medicine", "Carbon Monoxide Poisoning",
+        
+        # SECTION 17: Endocrine
+        "Diabetic Ketoacidosis", "Hyperosmolar Hyperglycemic State", "Hypoglycemia", "Thyroid Storm", "Adrenal Insufficiency",
+        
+        # SECTION 19: ENT/EYE
+        "Acute Angle-Closure Glaucoma", "Retinal Detachment", "Epistaxis", "Otitis Media and Externa", "Pharyngitis",
+        
+        # SECTION 21 & 22: Trauma & Ortho
+        "Trauma in Adults", "Trauma in Pregnancy", "Head Trauma", "Spine Trauma", "Thoracic Trauma", "Abdominal Trauma",
+        "Genitourinary Trauma", "Burn Injuries", "Fractures and Dislocations", "Pelvic Fractures", "Compartment Syndrome"
     ]
+    # We pick 7 unique topics from the 100+ items above
     selected_topics = random.sample(possible_topics, 7)
     
     all_posts = []
 
     for i, topic in enumerate(selected_topics):
         print(f"Generating post {i+1}/7: {topic}...")
-        
+               
         # 1. Get Context from Textbook
         results = collection.query(query_texts=[topic], n_results=3)
         context = " ".join(results['documents'][0])
