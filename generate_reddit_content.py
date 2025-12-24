@@ -124,7 +124,7 @@ def generate_full_site():
         try:
             response = ai_client.chat.completions.create(
                 messages=[{"role": "user", "content": prompt}],
-                model="llama-3.3-70b-versatile",
+                model="llama-3.1-8b-instant",",
                 response_format={"type": "json_object"}
             )
             data = json.loads(response.choices[0].message.content)
