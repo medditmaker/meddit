@@ -97,16 +97,15 @@ def generate_full_site():
         CAST OF 20 PERSONAS: {json.dumps(PERSONAS)}
 
         TASK: Create a highly realistic Reddit thread.
-        1. THE POST: Write as a clinical ANECDOTE, CASE STUDY, or a frustrated "Today I Learned". 
-           Start with things like "Just saw a patient with...", "Had a miss last night...", or "Rant about...".
-        2. THE COMMENTS: Exactly 20 comments. 
+        1. THE POST: Write as a clinical ANECDOTE, CASE STUDY, or a frustrated "Today I Learned" or other typical reddit post style. 
+           Cab start with things like "Just saw a patient with...", "Had a miss last night...", or "Rant about...".  Can also just post generally discussing a topic.
+           Are written in a high level targetted at practicing emergency physicians.
+        2. THE COMMENTS: 10 - 30 comments. 
            - MUST BE THREADED: Use the "id" and "parent_id" fields. 
            - Some comments reply to the post (parent_id: null).
-           - Many comments must reply to each other (e.g. id 5 replies to id 2).
            - A parent comment can have multiple responses.
-        3. CONTENT: The content is for emergency physicians reviewing a subject, so you can use high-level medical language.  The intent is to simulate an entertaining discussion amongst professionals that goes into a high level of educational detail appropriate to their level of training.  Comments can be long (ie. 200-500 words) with the parent comments typically being longer.  
-        They should seem interested in exploring what the other person in the threat was saying but responding in their typical personality style.  They should all write in their own style.  They should not talk about things that aren't related to the main textbook subject.  They should have focussed detailed comment on the textbook subject for a physician audience.  The goal is
-        to cover a good amount of medical knowledge through the 20 different comments realistically.  They can also use internet jargon (ie. lol, TLDR:, etc) and write in a semi casual tone as it is an internet forum.  They are allowed to be inappropriate.    
+        3. CONTENT: The content is intended for experienced emergency physicians as a CME review.  Use high level medical language.  Comments should be long enough (ie. 200-500 words) to explore a topic in high level detail.  The parent comments are typically longer.  Child comments ask questions related to the parent comment to clarify detail.  
+        The topic should be covered in full detail by all of the comments combined.  Any acronyms are clarified once.  They can use internet jargon (ie. lol, TLDR:, etc), write in a semi casual tone, be inappropriate sometimes, professional tone more often.  
 
         JSON FORMAT:
         {{
