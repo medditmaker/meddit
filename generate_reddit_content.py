@@ -105,7 +105,7 @@ def generate_full_site():
            - Some comments reply to the post (parent_id: null).
            - A parent comment can have multiple responses.
         3. CONTENT: The content is intended for experienced emergency physicians as a CME review.  Use high level medical language.  Comments should be long enough (ie. 200-500 words) to explore a topic in high level detail.  The parent comments are typically longer.  Child comments ask questions related to the parent comment to clarify detail.  
-        The topic should be covered in full detail by all of the comments combined.  Any acronyms are clarified once.  They can use internet jargon (ie. lol, TLDR:, etc), write in a semi casual tone, be inappropriate sometimes, professional tone more often.  
+        The topic should be covered in full detail by all of the comments combined.  Any acronyms are clarified once.  They can use internet jargon (ie. lol, TLDR:, etc), write in a semi casual tone, be inappropriate sometimes, professional tone more often.  The commenters may link to content that they find useful online. 
 
         JSON FORMAT:
         {{
