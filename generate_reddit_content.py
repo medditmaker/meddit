@@ -1,3 +1,4 @@
+from datetime import datetime, timezone
 import os
 import random
 import json
@@ -129,7 +130,15 @@ def generate_full_site():
             if i % 3 == 0: data['image'] = get_image(topic)
             all_posts.append(data)
         except Exception as e: print(f"Error: {e}")
+    
+    # Create a wrapper object that includes the timestamp
+    final_data = {
+        "last_run": datetime.now(timezone.utc).isoformat(),
+        "posts": all_posts
+    }
 
+    with open("new_post.json", "w") as f:
+        json.dump(final_data, f, indent=2)
     with open("new_post.json", "w") as f:
         json.dump(all_posts, f, indent=2)
 
