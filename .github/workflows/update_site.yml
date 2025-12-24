@@ -4,6 +4,11 @@ on:
     - cron: '0 */6 * * *'
   workflow_dispatch:
 
+# ADD THESE TWO LINES HERE:
+concurrency:
+  group: meddit-update
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
