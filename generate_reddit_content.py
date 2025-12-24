@@ -83,11 +83,11 @@ def get_image(query):
 
 # --- 5. GENERATOR ---
 def generate_full_site():
-    selected_topics = random.sample(POSSIBLE_TOPICS, 7)
+    selected_topics = random.sample(POSSIBLE_TOPICS, 10)
     all_posts = []
 
     for i, topic in enumerate(selected_topics):
-        print(f"Generating post {i+1}/7: {topic}...")
+        print(f"Generating post {i+1}/10: {topic}...")
         results = collection.query(query_texts=[topic], n_results=3)
         context = " ".join(results['documents'][0])
 
