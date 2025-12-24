@@ -1,63 +1,357 @@
 [
   {
-    "thread_id": 0,
-    "title": "TLDR: Opioid Toxicity: Naloxone and Beyond",
-    "body": "Just saw a patient with suspected opioid overdose and had a major 'aha' moment regarding naloxone dosing... I've seen many patients 'resuscitated' with naloxone, only to relapse into respiratory depression. It got me thinking: what are the optimal doses of naloxone for opioid toxicity, and when should we consider infusion?",
+    "id": 1,
+    "title": "Just saw a patient with Acute Respiratory Distress Syndrome (ARDS) and I'm still trying to process it",
+    "body": "We had a 35-year-old male patient come in with a history of severe sepsis and a 48-hour history of shortness of breath. His O2 sat was 80% on 4L of oxygen and his PEEP was 14. I knew I had to act fast to get his lungs on track.\n\nI immediately started him on a high-flow nasal cannula (HFNC) and titrated the flow to get his SpO2 up to 92%. The next step was to get an arterial blood gas (ABG) to assess his respiratory acidosis and to see if he needed further mechanical ventilation. \n\nThe lab results were concerning: pH 7.22, PaCO2 60, PaO2 55. We started him on continuous positive airway pressure (CPAP) and titrated it to get his O2 sat up to 90%.\n\nThe patient started showing improvement, but one thing that really stood out to me was the rapid progression of ARDS. He was at 14 on the Berlin criteria for severity, with a P/f ratio of 180... the patient was in full-blown ARDS.\n\nWe decided to initiate ECMO to support the patient's respiratory failure and to prevent further lung damage. 8 hours later his O2 sat was 95% on CPAP, and his P/F ratio had improved to 250. He's still on ECMO, but I have a good feeling about his prospects.",
+    "category": "emergency-medicine",
+    "comments": [
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Great job with the HFNC, and good decision to get in that CPAP quickly! However, I've found that starting patients on ECMO can be a bit tricky... have you ever had any issues with clot formation or circuit malfunction?\n\nAlso, have you considered running a stat CT angiogram to rule out any other causes for the ARDS, such as a pulmonary embolism?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Thanks for the additional insight! Can you explain a bit more about the Berlin criteria for severity of ARDS? I've been having trouble understanding the scoring system...\n\nAlso, you mentioned the potential for clot formation in ECMO circuits... can you describe the typical strategies for anticoagulation and circuit management?",
+        "color": "purple"
+      },
+      {
+        "id": 4,
+        "parent_id": 2,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I'm with Leo on this one... can you break down the Berlin criteria for us? I thought it was a 6-point system, but now I'm getting confused...\n\nAlso, when it comes to anticoagulation for ECMO, do you always use unfractionated heparin (UFH), or do you switch to bivalirudin in some cases?\n\nAnd how do you handle the management of patients on ECMO in terms of monitoring and adjusting their anticoagulation?",
+        "color": "green"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs... it's a simple scoring system, folks! The Berlin criteria are a 3-point system, with a maximum score of 3: 1. Patient has a P/F ratio of 300 or lower, 2. Non-cardiogenic edema on chest x-ray, and 3. Bilateral infiltrates on chest x-ray.\n\nAs for anticoagulation, I believe most centers use UFH as the default, but it really depends on the specific patient and their needs...\n\nAnd when it comes to managing ECMO, the most important thing is to monitor the patient's clotting times and adjust as needed. Don't overdo it with the anticoagulation, or you risk a serious bleeding event!",
+        "color": "red"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Thank you, Dr. Sterling, for your input! However, I think it's worth noting that the Berlin criteria are indeed a 3-point system, but the maximum score is not 3... it's actually a 4-point system with a maximum score of 4: 1. Patient has a P/F ratio of 300 or lower, 2. Non-cardiogenic edema on chest x-ray, 3. Bilateral infiltrates on chest x-ray, and 4. Positive end-expiratory pressure (PEEP) required.\n\nAs for anticoagulation management, I agree with you that it's key to monitor the patient's clotting times and adjust as needed... but don't forget to also consider the patient's underlying medical conditions, their medications, and their current anticoagulation status when making decisions!",
+        "color": "green"
+      }
+    ],
+    "image": "https://i0.wp.com/rebelem.com/wp-content/uploads/2020/08/ARDS-SUMMARY-scaled.jpg?ssl=1"
+  },
+  {
+    "title": "AHA moments in pediatric syncope (TLDR: Don't forget the rhythm strip...)",
+    "body": "Just saw a patient with a sudden cardiac death (SCD) in the emergency department, and I'm still reeling from it. The 17-year-old male, with a history of hypertension, presented with a syncopal episode. Initial vitals were within normal limits, but his ECG revealed a widened QRS duration with a slow, regular rhythm. The cardiogram (ECG) showed signs of hypertrophic cardiomyopathy (HCM), which is associated with SCD.\n\n    In hindsight, this case highlights the need for a thorough cardiac assessment in pediatric syncope. According to the American Heart Association (AHA), a child or adolescent presenting with syncope and an abnormal ECG requires immediate attention.\n\n    What's the most important thing to remember in pediatric syncope? Share your AHA moments and help prevent a potential SCD. What are some red flags you look for in your pediatric patients? Have you ever encountered a case where SCD was the presenting diagnosis? Let's discuss!",
+    "category": "EMedicineCases",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "I completely agree that HCM is a crucial consideration in pediatric syncope. One crucial aspect that I'd like to highlight is the importance of a 12-lead ECG. The rhythm strip can sometimes reveal clues that point to a more sinister etiology. In my experience, a widened QRS complex and an abnormal PR interval are red flags for potential HCM.\n\nWhen I saw this in a pediatric patient, I immediately sent for a 12-lead ECG. The results confirmed our suspicions, and we were able to rule out some other less likely causes. Don't underestimate the power of a basic ECG!",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Wait, so Dr Aris said we should do a 12-lead ECG on all pediatric syncope patients? What about the ones who seem pretty normal on physical? Should we still do that in every case?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "I don't disagree with Dr. Aris, but we need to consider resources. As an EP, time is of the essence, but so is triaging appropriately. Don't you guys think that, in some cases, a basic 2-lead ECG can give us enough information to rule in or out HCM?",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "That's a great point, Dr. Barb! But isn't that just an oversimplification? In some cases, the 12-lead ECG can reveal more subtle signs of HCM, which might not be apparent on a basic 2-lead. Can anyone else chime in on the importance of 12-lead in pediatric HCM?",
+        "color": "green"
+      },
+      {
+        "id": 5,
+        "parent_id": 3,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Hey there, intern! I couldn't agree more. The 12-lead ECG can be a game-changer in pediatric HCM. And don't even get me started on the nuances of ECG patterns! You gotta stay on your toes in the ED, where seconds count. Remember, the key to diagnosing HCM lies in paying attention to the fine details of the ECG.",
+        "color": "green"
+      },
+      {
+        "id": 6,
+        "parent_id": 4,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "I'm with Dr. Barb on this one. Don't we need to be more resource-conscious in the ED? Can't we just stick with the basic 2-lead ECG for now and reassess the patient's risk factors?",
+        "color": "green"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "You know, I used to be a big advocate for the 'rule of 2' (every patient gets a basic 2-lead ECG). But now that I see more of these cases, I've come to appreciate the value of a full 12-lead. The subtle signs of HCM can be missed with a basic 2-lead, and we've got to think about the long-term consequences of not catching it early.",
+        "color": "brown"
+      }
+    ]
+  },
+  {
+    "id": 23456,
+    "title": "Rant about Acute Angle Closure Glaucoma and the importance of early recognition ",
+    "body": "Had a miss last night with a pt. with acute angle closure glaucoma. She came in with severe eye pain and cloudy vision, but no obvious trauma. Took me a bit to diagnose it, and I was lucky the patient didn't end up with vision loss. TLDR: don't delay referrals for ophthalmic eval in ACACG! \n   Anyone else have a crazy night with a similar case?",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 1234,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Yup, had a similar case last week. Patients with ACACG are a high-risk group for delayed diagnosis and treatment. The key is recognizing the classic presentation: sudden onset of severe eye pain, blurred vision, and colored halos around lights. If you even suspect it, refer pronto! The ED is not equipped to manage glaucoma. We can only make the diagnosis and get the patient to ophthalmology ASAP.",
+        "color": "purple"
+      },
+      {
+        "id": 5678,
+        "parent_id": null,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Amateurs! You guys are thinking like ER docs. You're missing the forest for the trees. What's the difference between ACACG and chronic angle closure glaucoma, anyway? Can't you just check the IOP? Maybe I'm wrong, but I thought it was like, 40 mmHg or something?",
+        "color": "green"
+      },
+      {
+        "id": 9012,
+        "parent_id": 1234,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Dr. Thorne, what's the best way to approach the patient with suspected ACACG? Do we need to do a ton of testing before referring the patient?",
+        "color": "blue"
+      },
+      {
+        "id": 3456,
+        "parent_id": 1234,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Actually, Dr. Thorne, I think you're wrong. The ED can manage glaucoma with medication and possibly laser therapy. Don't you think that's a bit of a cop-out saying we can't do anything besides make the diagnosis?",
+        "color": "red"
+      },
+      {
+        "id": 6789,
+        "parent_id": 1234,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Sarah, I think you're forgetting that the ED is not equipped to manage glaucoma. We don't have the personnel or resources for 24/7 glaucoma management. Our job is to stabilize the patient and get them to ophthalmology ASAP.",
+        "color": "purple"
+      },
+      {
+        "id": 2345,
+        "parent_id": 5678,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Turbo Tom, you make a good point about the IOP. What's the best way to check the IOP in the ED, and what's the cutoff for when we should refer the patient?",
+        "color": "green"
+      },
+      {
+        "id": 345,
+        "parent_id": 5678,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "I have a question about the medications used to treat glaucoma in the ED. What's the typical approach to IOP management in acute angle closure glaucoma?",
+        "color": "blue"
+      },
+      {
+        "id": 123,
+        "parent_id": 5678,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "I don't understand why you guys are all arguing about this. Can't you just do a scan or MRI or something to diagnose it?",
+        "color": "purple"
+      },
+      {
+        "id": 567,
+        "parent_id": 1234,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "I've seen it before, and the patient with ACACG was so upset. What's the best way to approach the patient and calm them down?",
+        "color": "green"
+      },
+      {
+        "id": 8901,
+        "parent_id": null,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "You're all forgetting the fundamentals! In the 1930s, we didn't have all this fancy technology. We relied on the old-fashioned physical exam and good old-fashioned common sense. The patient with ACACG presents classically with severe eye pain and blurred vision. Don't delay referrals, and get the patient to ophthalmology ASAP!",
+        "color": "purple"
+      },
+      {
+        "id": 4567,
+        "parent_id": 8901,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "I've been an ER nurse for 30 years, and I've seen it all. Dr. Thorne is right, folks. Don't mess around with this diagnosis. Get the patient to ophthalmology ASAP, and don't delay.",
+        "color": "green"
+      },
+      {
+        "id": 901,
+        "parent_id": 8901,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs! You're all forgetting that the patient with ACACG can have a variety of presentations. Don't just rely on the classic symptoms. Do a thorough physical exam and get the patient to ophthalmology ASAP for a thorough evaluation.",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Had a real eye-opener last night: missed diagnosis of graft-vs-host disease in a 35 yr old transplant recipient... ",
+    "body": "Just wanted to share my experience and get some feedback from the community. I was on call last night and had a patient present with a 3-day history of progressive shortness of breath, fatigue, and a 5 kg weight loss. Initial vitals were stable, but as we got to know him better, we noticed he had some scattered petechiae on his lower extremities, a diffuse rash on his chest and abdomen, and some mild hepatosplenomegaly. The labs came back with a pretty classic picture of anemia, thrombocytopenia, and leukopenia. At first, I thought it was either a hematologic malignancy or an autoimmune disorders like AITD or PNH, but the clinical picture just didn't add up. We ran a few more tests and got back the bone marrow biopsy that showed marked hypocellularity with some scattered lymphoid aggregates. Then it hit us... GVHD! It turns out he had received a haploidentical transplant 6 months ago and had been stable on tacrolimus and MMF. The dose of tacrolimus had been tapered off 2 months ago and that's when the symptoms started.",
+    "category": "medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "u/DrsThorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great story!  I would've made the same mistake myself. The key thing here is to remember that GVHD doesn't just present with a fever and rash; it's often a constellation of symptoms and findings that take time to develop. It's also worth noting that GVHD can occur at any time, not just in the post-transplant period. It's a reminder that we always need to keep the 'diagnosis du jour' in mind.",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "u/Dilbert",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "TL;DR? So how do you distinguish between GVHD and an underlying infection or autoimmune process? Was there a specific lab or imaging study that helped clarify the diagnosis?\n\nAlso, I think it's worth noting that in the absence of a known cause (like post-transplant), we tend to lean towards GVHD when we see a classic presentation of petechiae, rash, and hepatosplenomegaly.\n\nLastly, what was your take on the tacrolimus taper?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "u/DrsThorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great questions, Dilbert! \n\nSo, in this case, we did a few things to help distinguish between GVHD and an underlying infection or autoimmune process. One was to do a thorough review of the patient's meds, including the antivirals and antibiotics he was on at the time of the transplant. Another was to obtain a more detailed history of his symptoms, including any potential exposures to common pathogens or toxins.\n\nIn terms of imaging studies, we did get some evidence of interstitial pneumonitis on the CT scan, which pointed us towards GVHD.\n\nAs for distinguishing between GVHD and an autoimmune process, that's where the bone marrow biopsy came in. While both can present with cytopenias and organomegaly, the BM biopsy in GVHD shows characteristic 'lymphoid aggregates' and hypocellularity.\n\nOne thing to keep in mind is that when it comes to GVHD, it's not just about the rash or the symptoms - it's about the underlying pathology, and that requires a thorough evaluation.",
+        "color": "purple"
+      },
+      {
+        "id": 4,
+        "parent_id": 2,
+        "user": "u/UncleBob",
+        "role": "Consultant",
+        "city": "Chicago, IL",
+        "text": "One more thing to consider: if you're suspecting GVHD, it's a good idea to get some guidance from the transplant team. They may be able to help clarify the diagnosis and provide additional insights based on the patient's medical history. In some cases, they may even want to get involved in the patient's care to ensure that they receive the best possible treatment.",
+        "color": "blue"
+      },
+      {
+        "id": 5,
+        "parent_id": 3,
+        "user": "u/DrsThorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great point, UncleBob! In fact, it's always a good idea to collaborate with the transplant team when it comes to patients with a history of organ transplantation. They bring a wealth of knowledge and experience to the table, and their input can be invaluable in diagnosing and managing complications like GVHD.",
+        "color": "purple"
+      }
+    ],
+    "image": "https://figures.semanticscholar.org/6b95810a42b031cf99f3edc67979132e62efed73/2-Figure1-1.png"
+  },
+  {
+    "id": 12,
+    "title": "Rant about the Lund and Browder diagram in the ED",
+    "body": "Just saw a patient with a complex burn injury and had to dig out the old Lund and Browder diagram to estimate the percentage of body surface area involved. Does anyone else have a love-hate relationship with this thing?",
     "category": "Emergency Medicine",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
         "user": "Dr. Aris Thorne",
-        "role": "MD",
+        "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "OP, I totally agree that optimal naloxone dosing is key in managing opioid toxicity. In my experience, starting with a small dose of 0.1-0.4 mg IV/SC/IM and titrating as needed is the way to go. Have you considered using the 'wake-up' dose calculator to determine the appropriate dosage?",
-        "color": "purple"
+        "text": "Amen to that, OP! I swear by the Rule of Nines for initial estimates, but sometimes the Lund and Browder diagram is necessary. Has anyone else noticed how difficult it is to estimate the area of a burn on the head or neck?",
+        "color": "blue"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MD",
-        "city": "Ottawa, ON",
-        "text": "Thanks for sharing, Dr. Thorne! I've used the 'wake-up' dose calculator before, but I'm curious - have you heard of any studies that compare the efficacy of titrating naloxone to different end-points (e.g. respiratory rate, pupil size)?",
-        "color": "green"
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Begorrah, Doc! I'd love to hear more about that! Can you tell us about a time when the Lund and Browder diagram was crucial in your assessment?",
+        "color": "yellow"
       },
       {
         "id": 3,
-        "parent_id": 2,
-        "user": "Dr. Maya Gupta",
-        "role": "MD",
-        "city": "Mississauga, ON",
-        "text": "Actually, Sarah, there was a study published in JEM last year that looked at the effect of titrating naloxone to a specific respiratory rate endpoint (10-15 breaths/min) vs. a more general 'awake and alert' endpoint. The results showed that titrating to the respiratory rate endpoint led to a faster resolution of respiratory depression and fewer complications.",
-        "color": "teal"
+        "parent_id": 1,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "The Lund and Browder diagram is actually a great resource for burn patients. I've found it to be especially useful in cases of inhalation injuries, where the burn pattern can be diffuse and hard to quantify.",
+        "color": "purple"
       },
       {
         "id": 4,
-        "parent_id": null,
-        "user": "Dr. Victor Sterling",
-        "role": "MD",
-        "city": "Calgary, AB",
-        "text": "Amateurs... You're all overthinking this. Naloxone works fine at any dose, and the patient just needs to be 'woken up' and observed for a bit. No need for all this fancy calculation nonsense. Mark my words, this 'wake-up' dose calculator business is just a fad.",
-        "color": "red"
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "I've had my fair share of Lund and Browder diagram-induced migraines. Can we please talk about how to make this thing more user-friendly?",
+        "color": "orange"
       },
       {
         "id": 5,
         "parent_id": 4,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "But, Dr. Sterling, don't you think that the 'wake-up' dose calculator is a useful tool for determining the initial dose of naloxone, especially in situations where the patient's response to the initial dose is suboptimal? Can't we use both titration and the 'wake-up' dose calculator to achieve the best outcomes?",
-        "color": "blue"
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs need to learn to use the Lund and Browder diagram correctly. It's not that difficult, people! Take a course, read a book... Geez.",
+        "color": "red"
       },
       {
         "id": 6,
-        "parent_id": 1,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "MD",
-        "city": "Vancouver, BC",
-        "text": "OP, love the post! Just wanted to throw in my 2 cents on the whole naloxone dosing thing. I've found that using a combination of naloxone and other reversal agents like flumazenil or buprenorphine can be super helpful in managing complex opioid overdose cases. Thoughts, folks?",
-        "color": "orange"
+        "parent_id": 5,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Actually, Doc, I think Turbo Tom is trying to say that the Lund and Browder diagram could be made more accessible with some user experience design. Has anyone looked into updating it for the digital age?",
+        "color": "green"
       },
       {
         "id": 7,
@@ -65,1165 +359,500 @@
         "user": "Chad Broson",
         "role": "Pre-med",
         "city": "Brampton, ON",
-        "text": "Wait, so flumazenil is a reversal agent for opioids? Can someone explain how that works? And doesn't flumazenil have its own set of side effects?",
+        "text": "OMG, yes! Something like that would be AMAZING! I'm totally taking a design class next semester.",
         "color": "pink"
       },
       {
         "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Sarah Sharp",
-        "role": "MD",
-        "city": "Laval, QC",
-        "text": "Yes, Chad, flumazenil works by competitively inhibiting the GABA receptor, thereby counteracting the sedative effects of benzodiazepines. And as for side effects, flumazenil has its own set of risks, including seizures and anaphylactic reactions. But it can be a useful tool in select cases of opioid overdose.",
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "The Lund and Browder diagram might not be perfect, but it's a useful tool in our toolkit for burn patients. I've used it to estimate the surface area of burns on children, where the anatomy can be more challenging.",
+        "color": "blue"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Can we talk more about burn estimation in pediatric patients? I've heard that the Rule of Nines doesn't apply as well to kids... Is that true?",
+        "color": "purple"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "The Rule of Nines is generally reliable for burn estimation in adults, but in pediatric patients, it's often less accurate. The Lund and Browder formulas for children can be more helpful.",
         "color": "green"
+      },
+      {
+        "id": 11,
+        "parent_id": 1,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "I got a burn on my arm and the nurse used the Lund and Browder diagram. Is that a magic diagram?",
+        "color": "pink"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Ha! No, Barnaby, it's not magic, but it is a useful tool for healthcare professionals to estimate the severity of burns.",
+        "color": "blue"
       }
-    ],
-    "image": "https://emergencymedicinecases.com/wp-content/uploads/2018/10/Opiod-Overdose.jpg"
+    ]
   },
   {
     "id": 1,
-    "title": "TLDR: Epistaxis Management for the Ages!",
-    "body": "Just saw a patient with a posterior epistaxis that had a team of residents in a tizzy. I calmly walked in, applied a pack, and sent him home. But as I was leaving, I realized I forgot to prescribe antibiotics... Who else has had this happen?",
+    "title": "Rant about managing pelvic fractures",
+    "body": "Just saw a patient with a pelvic fracture that almost blew my mind...",
+    "category": "emergency medicine"
+  },
+  {
+    "threads": [
+      {
+        "id": 1,
+        "title": "Today I Learned to be extra careful when evaluating lightning injuries...",
+        "body": "Just saw a patient with a lightning strike injury and had to refresh my skills on the nuances of these cases. Anyone have any experience triaging lightning injuries?",
+        "category": "EM Cases",
+        "comments": [
+          {
+            "id": 1,
+            "parent_id": null,
+            "user": "Dr. Aris Thorne",
+            "role": "Staff Physician",
+            "city": "Toronto, ON",
+            "text": "Lightning strikes are a classic example of unidirectional high-voltage current. Unlike AC electricity, which can cause cardiac arrest due to the alternating current, lightning strikes tend to travel over the skin and cause a 'flashover' effect, often sparing the internal organs. However, the high temperature generated can still cause significant burns and cardiac complications.",
+            "color": "blue"
+          },
+          {
+            "id": 2,
+            "parent_id": 1,
+            "user": "Leo Chen",
+            "role": "MS1",
+            "city": "Montreal, QC",
+            "text": "Dr. Aris, do you mind elaborating on the 'flashover' effect and how it compares to cardiac electrical arrests from AC shock? I've found conflicting information on this topic...",
+            "color": "green"
+          },
+          {
+            "id": 3,
+            "parent_id": 1,
+            "user": "Dr. Maya Gupta",
+            "role": "PGY2",
+            "city": "Mississauga, ON",
+            "text": "Great example, Dr. Aris! In my experience, lightning strike victims often have minor skin burns, but delayed onset cardiac injuries can be devastating. The key to management is maintaining a high index of suspicion for internal injuries and monitoring cardiac rhythms closely.",
+            "color": "orange"
+          },
+          {
+            "id": 4,
+            "parent_id": 1,
+            "user": "Sarah Jenkins",
+            "role": "MS3",
+            "city": "Ottawa, ON",
+            "text": "Dr. Aris, can we also talk about the importance of laboratory and radiographic evaluation in lightning injury patients? I've seen cases where the initial presentation seemed minor, only to uncover significant internal injuries later on.",
+            "color": "red"
+          },
+          {
+            "id": 5,
+            "parent_id": 4,
+            "user": "Dr. Victor Sterling",
+            "role": "Chief of Surgery",
+            "city": "Calgary, AB",
+            "text": "You're all making a big deal out of lightning strikes. I've only seen a handful in my decades of practice, and the key to management is not overdoing it. The majority of patients will have transient effects and do just fine without any intervention.",
+            "color": "purple"
+          },
+          {
+            "id": 6,
+            "parent_id": 5,
+            "user": "Dr. Aris Thorne",
+            "role": "Staff Physician",
+            "city": "Toronto, ON",
+            "text": "I disagree, Dr. Victor. While it's true that most lightning strike patients recover, the small percentage that do not can have severe and lifelong neurological injuries. We must remain vigilant and not dismiss the possibility of internal injuries, even in seemingly minor cases.",
+            "color": "blue"
+          },
+          {
+            "id": 7,
+            "parent_id": 1,
+            "user": "Dr. Ziggy Zalesky",
+            "role": "EP",
+            "city": "Vancouver, BC",
+            "text": "Tangential question, folks, but have any of you encountered patients with TASER injuries? We got a report of a patient who allegedly suffered a cardiac arrest after being shot with a TASER. Sounds like a whole different ball game...",
+            "color": "teal"
+          },
+          {
+            "id": 8,
+            "parent_id": 7,
+            "user": "Dr. Archibald Thorne",
+            "role": "Physician",
+            "city": "Saskatoon, SK",
+            "text": "TASER injuries are a relatively new phenomenon, I believe. From my understanding, the vast majority of TASER-related deaths have occurred in individuals who were already quite ill or 'agitated' due to pre-existing medical conditions.",
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Rant about patients who insist on using hard-wired telephones near swimming pools...",
+        "body": "Anyone else get frustrated with patients who seem to think hard-wired phones near pools are a good idea? Don't they know the risks of electrocution? Do they not learn from their mistakes?",
+        "category": "EM Cases",
+        "comments": [
+          {
+            "id": 1,
+            "parent_id": null,
+            "user": "Dr. Rick 'The Rage'",
+            "role": "EP",
+            "city": "Windsor, ON",
+            "text": "Ugh, I'm so done with these knuckleheads. In my experience, it's not just hard-wired phones - it's also unattended BBQs, poorly constructed deck railing, and (of course) TOTALLY-UNNECESSARY pool lights. How hard is it to use some common sense?",
+            "color": "red"
+          },
+          {
+            "id": 2,
+            "parent_id": 1,
+            "user": "Dr. Henry Oldman",
+            "role": "CCFP",
+            "city": "Victoria, BC",
+            "text": "Folks, please don't forget the long-term historical perspective. Many of these patients come from families who haven't had basic safety precautions drilled into them. As family physicians, we need to take a bit more time to educate folks on preventive care.",
+            "color": "teal"
+          },
+          {
+            "id": 3,
+            "parent_id": 2,
+            "user": "Dr. Aris Thorne",
+            "role": "Staff Physician",
+            "city": "Toronto, ON",
+            "text": "Hear, hear, Dr. Oldman. I think it's essential for us to step out of our 'ER hats' and take a more holistic view of patient safety. This includes recognizing those patients who come from high-risk environments and providing guidance on preventive measures.",
+            "color": "blue"
+          },
+          {
+            "id": 4,
+            "parent_id": 1,
+            "user": "Chad Broson",
+            "role": "Pre-med",
+            "city": "Brampton, ON",
+            "text": "Lol, I get it. But can someone explain why patients do this in the first place? Like, isn't it just common sense to, you know, NOT hang a hard-wired phone near a pool?",
+            "color": "green"
+          },
+          {
+            "id": 5,
+            "parent_id": 4,
+            "user": "Dr. Elena Varkov",
+            "role": "FRCPC",
+            "city": "Quebec City, QC",
+            "text": "Pre-med, it's often a mix of factors. Cognitive biases, lack of education, fear of being 'a bother'...and unfortunately, some people just aren't wired for good decision-making. As physicians, it's our job to help steer them in the right direction.",
+            "color": "purple"
+          },
+          {
+            "id": 6,
+            "parent_id": 1,
+            "user": "Turbo Tom",
+            "role": "RN",
+            "city": "London, ON",
+            "text": "You guys are preaching to the choir. In ER, I've seen more cases of preventable electrocution than I care to admit. But I'll say this - it's our job to stay vigilant and educate these patients...because someone's gotta.",
+            "color": "orange"
+          }
+        ]
+      }
+    ],
+    "image": "https://emergencymedicinecases.com/wp-content/uploads/2019/06/Electrical-injuries.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Just saw a patient with a true thyroid storm, and I'm reminded of the importance of a timely diagnosis and coordinated care.",
+    "category": "Emergencies",
+    "body": "It was a 30yo PMH of hyperthyroidism, 1wks post-delivery, presenting with severe fever, tachypnea, and tachycardia. Her BP was 140/90 mmHg and her temp was 38.9\u00b0C. She was disoriented and exhibited signs of cardiac decompensation, including galloping rhythm on exam.\n\nI called for a med consult, and our endo resident came up with a plan that I thought was perfect, but it seemed like a never-ending battle.\n\nTL;DR: Just wanted to share my thyroid storm experience. Any thoughts?",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "FRCPC",
+        "city": "Toronto, ON",
+        "text": "I've seen a few thyroid storms in my time, but I always find it fascinating how they seem to have an inverse correlation with the patient's age.\n\nIn cases like yours, where the patient is young and otherwise healthy, the storm can be particularly virulent. I think this is because they often have less comorbidity to mitigate the effects of the crisis.\n\nHave you considered a possible pheochromocytoma? They can mimic thyroid storm in many ways, especially if the patient has been on multiple medications for hypertension.\n\n(Also, nice work calling for a med consult - that's the key to managing these patients, in my opinion...)",
+        "color": "blue"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Wait, how common is pheochromocytoma? Is it a true 'Mimic Thyroid Storm'? What do you mean by 'comorbidity'?",
+        "color": "purple"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "I think a good rule of thumb for managing these patients is to remember that thyroid storm can be caused by a variety of underlying factors, including but not limited to hyperthyroidism.\n\nIt's also worth noting that these patients often require a coordinated team approach to manage the crisis, involving endocrinology, cardiology, and critical care medicine, among others.",
+        "color": "red"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Thanks for the advice, Dr. Varkov! Just to confirm, what specific factors should we look for when evaluating a patient for thyroid storm?",
+        "color": "blue"
+      },
+      {
+        "id": 5,
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "As nurse, I've seen a few thyroid storms and always found the most challenging part is getting the patient's temperature down.\n\nAny tips?",
+        "color": "green"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Maya Gupta",
+        "role": "FRCPC",
+        "city": "Toronto, ON",
+        "text": "Good point, Turbo Tom! Cooling is indeed a crucial part of managing thyroid storm.\n\nI think the most effective method is to use a combination of acetaminophen and cool compresses to get the patient's temperature down as quickly as possible.\n\nWhat do you guys think?",
+        "color": "red"
+      },
+      {
+        "id": 7,
+        "parent_id": null,
+        "user": "Dr. Phil Muddle",
+        "role": "EP",
+        "city": "Regina, SK",
+        "text": "I've always been confused about the diagnosis of thyroid storm - is it just a matter of elevated T3/T4 levels, or is there something more to it?",
+        "color": "purple"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Maya Gupta",
+        "role": "FRCPC",
+        "city": "Toronto, ON",
+        "text": "Ah, great question, Dr. Muddle!\n\nWhile elevated T3/T4 levels are indeed a key component of thyroid storm, there's much more to it.\n\nIn particular, the patient's clinical presentation, laboratory findings, and medical history all need to be carefully considered before making a diagnosis.",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "id": "stis_in_pediatrics",
+    "title": "Today I learned that Chlamydia trachomatis is a leading cause of urethritis in young children...",
+    "body": "A pediatric resident on my service just called me to ask about a 6-year-old with symptoms of UTI. The kid had been exposed to multiple sexual partners in the past month and was treated for Chlamydia. I had to tell them to get a pelvic exam on the kid.",
     "category": "emedicine",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
         "user": "Dr. Aris Thorne",
-        "role": "StaffPhysician",
+        "role": "",
         "city": "Toronto, ON",
-        "text": "Haha, nice one! Always remember, the key to posterior epistaxis management is to pack it with a sponge stick (or a Foley catheter if you're feelin' fancy).\n\nBut seriously, folks, don't forget the antibiotics! Nasal packing is a great way to get an infection going. I recommend starting with something like amoxicillin-clavulanate (500/125 mg PO tid) to cover the basics.\n\nTLDR: Pack it, drap it, and give the patients some Amoclas 3x daily!",
-        "color": "#800080"
+        "text": "Great example of Chlamydia causing urethritis in kids. We've seen a few cases in the ER recently. In our cases, the symptoms were mild and not necessarily accompanied by fever or malaise. Make sure to remind your residents to consider it in the differential for any young child presenting with urinary symptoms.",
+        "color": "purple"
       },
       {
         "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "",
+        "city": "Mississauga, ON",
+        "text": "Aris, I've noticed we've had a few cases of urethritis in kids in the past year. Have we been following the recommended antibiotic regimen for Chlamydia?",
+        "color": "green"
+      },
+      {
+        "id": 3,
         "parent_id": 1,
         "user": "Dr. Victor Sterling",
-        "role": "ChiefSurgery",
+        "role": "",
         "city": "Calgary, AB",
-        "text": "Ugh, please don't encourage the residents to just throw antibiotics at every patient like they're candy. What about the side effects? Do you know how many elderly patients are going to experience diarrhea and rash on top of their already-existing sinus infections?",
-        "color": "#008000"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "@DoctorVictorSterling, but isn't that kind of thinking a bit... extreme? I mean, don't we want to treat the infection and not exacerbate it?\n\nAnd can someone explain to me why we're using sponge sticks instead of nasal tampons? Is that still a thing?",
-        "color": "#008000"
-      },
-      {
-        "id": 4,
-        "parent_id": 2,
-        "user": "Dr. Aris Thorne",
-        "role": "StaffPhysician",
-        "city": "Toronto, ON",
-        "text": "Don't worry, @DoctorSarahJenkins! The sponge stick is an old-school hack that still works like a charm. It helps to tamponade the bleeding vessel while also providing a nice, comfy cushion for the patients. But don't quote me on that...",
-        "color": "#800080"
-      },
-      {
-        "id": 5,
-        "parent_id": 3,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Hey everyone, I've got a question related to the original post. What's the protocol for dealing with posterior epistaxis in patients who are on anticoagulation therapy? Should we just keep them on their meds and pack the nose, or...?",
-        "color": "#008000"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Aris Thorne",
-        "role": "StaffPhysician",
-        "city": "Toronto, ON",
-        "text": "Good question, @DoctorMayaGupta! If a patient is on anticoag ulators, we generally recommend discontinuing them while also monitoring the platelets closely. But in the case of posterior epistaxis, it's often better to err on the side of caution and keep the pack in place for a few days to prevent further bleeds.\n\nOf course, this is a discussion for the consulting team to decide, but generally speaking...",
-        "color": "#800080"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "As an internist, I'm a bit concerned about the lack of sodium and potassium replenishment in patients with severe epistaxis. Don't we need to consider replacing those electrolytes to prevent hypokalemia?",
-        "color": "#008000"
-      },
-      {
-        "id": 8,
-        "parent_id": 1,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "All of you are forgetting one crucial thing: we need to assess the bleeding risk before packing that nose. Don't just go willy-nilly and slap a pack in there without thinking about the patients' underlying conditions.",
-        "color": "#800080"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Aris Thorne",
-        "role": "StaffPhysician",
-        "city": "Toronto, ON",
-        "text": "Right on, @MartinaTheHammer! I'm so glad you brought that up. We need to consider every patient's unique situation before deciding on the best course of action.",
-        "color": "#800080"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "TL;DR: Never underestimate the humble closed hemostat. A game-changer for soft tissue foreign bodies.",
-    "body": "Just saw a patient with a nasty puncture wound to the foot, suspected foreign body. Visual inspection revealed squat. So, we went old-school... blind probing with a closed hemostat. Like a magic trick, out came a tiny glass shard! Turns out, the patient had been walking on a broken beer bottle (who knew?). I'm all for minimizing unnecessary imaging, but the right tool for the job (in this case: closed hemostat) can't be overstated.",
-    "category": "Emergency Medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Lol, love it! Always forget about the humble closed hemostat. Did you happen to see the size and location of the shard? In my experience, glass fragments often leave behind tiny specks that are easy to miss on plain film X-rays.",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Hi Dr. Gupta! The shard was about 1mm in size and located just below the subcutaneous tissue. We did get a plain film X-ray afterwards and I thought it showed the shard clearly, but I'm no expert. Do you have any tips on radiographic techniques for detecting small glass fragments?",
-        "color": "blue"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Actually, the size and location of the shard are critical when deciding whether or not to proceed with imaging. A smaller shard might not be visible on plain film X-ray and could be safely left in place, especially if it's in a clean wound.",
-        "color": "lightgreen"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "Ugh, soft tissue foreign bodies. Always a pain in the butt. I swear, people think they can just walk around with random glass or metal crap in them and it'll magically disappear. Not on my watch! How many times have we all had to deal with these situations and the patient ends up getting a CT scan anyway? ",
+        "text": "Amateurs. This is a classic case of over-diagnosis. Chlamydia isn't a common cause of UTI in kids. You're just perpetuating the medical industrial complex's agenda to prescribe more antibiotics.",
         "color": "red"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Dr. Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "I've always been a fan of using ultrasound for this kind of thing. You can see the foreign body in real-time and guide the probe. It's a great way to avoid unnecessary imaging and get the patient in and out quicker. Anyone else use this technique?",
-        "color": "orange"
-      },
-      {
-        "id": 6,
-        "parent_id": 1,
-        "user": "Dr. 'Ziggy' Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Hey, hey, hey! Can't forget about the closed hemostat's BFF: the plain old probe! We use it all the time for checking for foreign bodies, especially when the wound is too deep to see. And, Ziggy, I'm a huge fan of your suggestion to use CT scans for detecting plastic and wooden fragments!",
-        "color": "yellow"
-      },
-      {
-        "id": 7,
-        "parent_id": null,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Haha, love the 'BFF' comment! I've seen my fair share of nasty foreign bodies come through the ER, but nothing beats the thrill of finding that shard with a good old probe. Has anyone else had any crazy foreign body stories to share?",
-        "color": "black"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Oh boy, do I have one... A patient comes in with a massive hole in their scalp and we're not sure what's causing it. Turns out, they'd been using a metal knitting needle as a DIY scalp pick and got it stuck in there for a whole month!",
-        "color": "pink"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "OMG, that's insane! Is the patient okay now? Did you remove the needle and get them any follow-up care?",
-        "color": "gray"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Ah, yes! Thankfully, our patient made a full recovery. The key was recognizing the foreign body early on and not letting 'wait-and-see' mentality creep in. It's always tough to decide when to proceed with imaging, but sometimes the old adage 'better safe than sorry' really applies.",
-        "color": "purple"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Absolutely, Dr. Thorne! And it's not just about the imaging itself but also the downstream treatments and potential complications. For foreign bodies, especially sharp objects, there's a real risk of infection, delayed healing, or even abscess formation.",
-        "color": "lightgreen"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "Hear, hear, girls! As an RN, I see way too many preventable injuries and missed foreign bodies. Let's keep emphasizing proper wound assessment and not rely on 'maybe it's okay, maybe it's not.' We owe it to our patients!",
-        "color": "red"
-      },
-      {
-        "id": 13,
-        "parent_id": null,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Wow, this thread is insane! Can someone explain to me why we need CT scans for plastic and wooden fragments? Doesn't plain film X-ray work just as well?",
-        "color": "blue"
-      },
-      {
-        "id": 14,
-        "parent_id": 13,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Hey Chad, a CT scan uses X-ray and computer algorithms to create cross-sectional images, providing way more detail than a traditional X-ray. For tiny plastic or wooden fragments, CT is often the best bet for detection.",
-        "color": "green"
-      },
-      {
-        "id": 15,
-        "parent_id": 14,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": ":D Thanks, Kevin! I'm glad someone explained it in simple terms. Chad, trust me, you'll get the hang of this when you start your ER rotations",
-        "color": "purple"
-      },
-      {
-        "id": 16,
-        "parent_id": null,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "Umm... sorry for interrupting, but I think I might have a foreign body in my head... I tripped over my cat and landed on a sewing needle. Help?",
-        "color": "black"
-      },
-      {
-        "id": 17,
-        "parent_id": 16,
-        "user": "Dr. 'Ziggy' Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": ":) Don't worry, Barnaby! We'll get you sorted out in no time. Please, for the love of all things sane, try to stay calm",
-        "color": "yellow"
-      },
-      {
-        "id": 18,
-        "parent_id": 17,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "Get the patient on a CT scan, stat! We need to rule out any significant complications from that needle.",
-        "color": "red"
-      },
-      {
-        "id": 19,
-        "parent_id": 18,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Agreed, Martha. Barnaby, you might be experiencing a little 'dizziness' or 'trembling' symptoms from the needle. Stay calm and we'll get this sorted.",
-        "color": "purple"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Just saw a patient with chest pain and it had me questioning my entire career...",
-    "body": "Had a patient come in last night with chest pain. Classic symptoms, I thought - retrosternal pressure, diaphoresis, nausea, dyspnea. Easy peasy, right?\n\nBut here's the thing: ECG showed nothing. No STEMI, no NSTEMI, no reciprocal changes. I checked the troponins, but they were barely elevated. And get this - an aortagram showed no signs of aortic dissection. Now, I know what you're thinking... maybe it's musculoskeletal? Nope, not this time. I ordered some NSAIDs, but the patient just looked at me like I was insane.\n\nTL;DR: Chest pain patient with normal ECG and troponins. What did I miss?",
-    "category": "AMA",
-    "comments": [
-      {
-        "id": 2,
-        "parent_id": null,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "You're not alone, OP. I saw a similar case last week. The patient had classic symptoms, but the ECG was a total flatline. Turns out, it was a Tako-Tsubo cardiomyopathy. The patient had an episode of intense emotional stress just before coming in, which triggered the condition.",
-        "color": "purple"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Wait, OP, so you're saying that the patient just had normal ECG and troponins but still had chest pain? That doesn't make sense. Can you explain?",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 2,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Ah, I think I know what might've happened here. Did you get a stress test on the patient? Sometimes, patients with Tako-Tsubo can have normal echocardiograms and ECGs, but a stress test will show abnormal wall motion.",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": 2,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "What's Tako-Tsubo cardiomyopathy? Is it like a heart attack or something?",
-        "color": "green"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "Ha ha, no Tako-Tsubo's not a heart attack, Chad. It's a condition where the heart muscle becomes stunned, usually in response to a stress trigger. The 'apoptotic' cardiomyocyte death is actually pretty cool to see on a biopsy.",
-        "color": "green"
-      },
-      {
-        "id": 7,
-        "parent_id": 2,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "I'm more interested in the fact that the aortagram showed no signs of dissection. Can we talk about the limitations of using aortagrams in diagnosing AA dissections? I know some studies have suggested that they may not always be reliable.",
-        "color": "green"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "TL;DR - you're right, Sarah. The sensitivity of aortagrams for diagnosing AAD has been questioned in the literature. I always prefer to get a CT scan or MRI for a more accurate diagnosis.",
-        "color": "green"
-      },
-      {
-        "id": 9,
-        "parent_id": 7,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "The real issue here is that we're relying too heavily on ECGs and troponins. We need to get more creative in our diagnostic approach. Maybe we should be using more biomarkers like N-terminal pro-b-type natriuretic peptide (NT-proBNP) or high-sensitivity cardiac troponin?",
-        "color": "green"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "What about the role of NT-proBNP in diagnosing chest pain? I've heard mixed results regarding its efficacy...",
-        "color": "green"
-      }
-    ],
-    "image": "https://www.saem.org/images/default-source/publications/grace-1-guidelines-(ramzy).jpg?sfvrsn=1aa4d33b_0"
-  },
-  {
-    "id": 123,
-    "title": "Rant about Vasopressors and Inotropes: Let's Keep it Real, Folks!",
-    "body": "Just saw a patient with severe septic shock and a stubborn BP that just wouldn't come up, no matter how much volume I gave 'em. Meanwhile, the norepinephrine and epinephrine weren't doing squat. Then I remembered the old adage: 'Start with the lowest dose and titrate...'",
-    "category": "Emergency Medicine",
-    "comments": [
-      {
-        "id": 1231,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "TLDR: You're talking about vasopressor resistance. It's a major problem, and we need to take it seriously. First off, let's define what we mean by 'vasopressor resistance': I'm defining it as a failure to respond to standard vasopressor doses (e.g., NE < 0.05 mcg/kg/min, Epi < 1 mcg/kg/min).",
-        "color": "purple"
-      },
-      {
-        "id": 1232,
-        "parent_id": 1231,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "I'm so with you, Aris. And what about the role of inflammation in vasopressor resistance? I mean, we know that inflammation can mess with vasopressor sensitivity, but what's the link between the two? Any thoughts?",
-        "color": "purple"
-      },
-      {
-        "id": 1233,
-        "parent_id": 1232,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Excuse me, Aris, but I've read that TNF-a is involved in vasopressor resistance. Is that right, and can you explain how?",
-        "color": "green"
-      },
-      {
-        "id": 1234,
-        "parent_id": 1233,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Actually, it's not just TNF-a, Leo. We need to consider the whole inflammatory cascade, including IL-6 and IL-10. Aris, can you tell us more about the role of IL-10 in vasopressor sensitivity?",
-        "color": "green"
-      },
-      {
-        "id": 1235,
-        "parent_id": 1234,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Great discussion, guys! And let's not forget the importance of catecholamine-refractory shock. What's the best way to approach this situation?",
-        "color": "purple"
-      },
-      {
-        "id": 1236,
-        "parent_id": null,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Um, I'm sorry to interrupt, but what does 'catecholamine-refractory shock' mean?",
-        "color": "green"
-      },
-      {
-        "id": 1237,
-        "parent_id": 1236,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Sorry, Kevin! 'Catecholamine-refractory shock' refers to shock that's resistant to vasopressors, such as norepinephrine and epinephrine. In other words, the patient isn't responding to standard treatments.",
-        "color": "purple"
-      },
-      {
-        "id": 1238,
-        "parent_id": 1237,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Yay, I finally get it! So, back to the topic at hand, how do we treat catecholamine-refractory shock?",
-        "color": "green"
-      },
-      {
-        "id": 1239,
-        "parent_id": 1238,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "We've got a few tricks up our sleeve, folks! One approach is to use vasopressin-resistant shock therapies, such as vasopressin itself or theophylline.",
-        "color": "purple"
-      },
-      {
-        "id": 1240,
-        "parent_id": 1239,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Ah, vasopressin! Don't we need to worry about its potential side effects, though?",
-        "color": "green"
-      },
-      {
-        "id": 1241,
-        "parent_id": 1240,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Good point, Elena! Vasopressin can cause vasoconstriction, which can increase the risk of cardiac ischemia. However, the benefits may outweigh the risks in certain situations.",
-        "color": "purple"
-      },
-      {
-        "id": 1242,
-        "parent_id": null,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs, this is all just theory. What we need is for you EM folks to stop over-diagnosing and focus on solid management strategies.",
-        "color": "red"
-      },
-      {
-        "id": 1243,
-        "parent_id": 1242,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Oh, come on, Vic! We're just trying to help. And what about inpatient management? How do we care for these patients post-hospitalization?",
-        "color": "purple"
-      },
-      {
-        "id": 1244,
-        "parent_id": 1243,
-        "user": "Dr. Phil Muddle",
-        "role": "EP",
-        "city": "Regina, SK",
-        "text": "Uh, what were we talking about again?",
-        "color": "green"
-      },
-      {
-        "id": 1245,
-        "parent_id": 1244,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Hehe, don't worry, Phil! We were talking about vasopressors and inotropes.",
-        "color": "green"
-      },
-      {
-        "id": 1246,
-        "parent_id": 1245,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Actually, I think we should focus on prevention. How can we reduce the incidence of vasopressor resistance in our patients?",
-        "color": "purple"
-      },
-      {
-        "id": 1247,
-        "parent_id": 1246,
-        "user": "Dr. 'Ziggy' Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Prevention, eh? Sounds like a great idea, Sarah! What are some strategies for reducing vasopressor resistance?",
-        "color": "green"
-      },
-      {
-        "id": 1248,
-        "parent_id": null,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "Finally, a sensible comment! And what about education for our patients? How can we encourage them to ask about their vasopressor use?",
-        "color": "red"
-      },
-      {
-        "id": 1249,
-        "parent_id": 1248,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Ha ha, love it, Martha! And let's not forget to include our patients in the medication conversation!",
-        "color": "green"
-      },
-      {
-        "id": 1250,
-        "parent_id": null,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "In the end, it's all about teamwork. We need to communicate effectively and work together to provide great patient care.",
-        "color": "blue"
-      }
-    ]
-  },
-  {
-    "title": "Today I Learned: Ileus vs Bowel Obstruction - A Nuanced Approach",
-    "body": "Had a close call last night with a patient who came in with 'severe abdominal pain' from their primary... Just saw a patient with an ileus and bowel obstruction symptoms but my resident thought it was just an obstructor... Had a patient with a bowel obstruction that required surgical intervention but I missed some signs... Anyways, got my coffee, lets dive in on bowel obstruction! \n\nAs experienced emergency physicians, we all know that bowel obstructions are not just a simple mechanical issue, but a complex clinical entity that requires a nuanced approach. The diagnosis of ileus vs bowel obstruction can be challenging, especially with the subtle differences between the two conditions.\n\nThe classic teaching is that bowel obstructions are characterized by severe abdominal pain, bloating, vomiting, and constipation, whereas ileus is characterized by more general abdominal discomfort, decreased bowel sounds, and possibly vomiting. However, these symptoms overlap significantly, and one must think critically to distinguish between the two.",
-    "category": "emergency medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Great discussion! As a second-year resident, I often find myself getting caught up in the differences between ileus and bowel obstruction. But in reality, it's all about the patient's story and the physical exam. What about patients who have bowel obstruction symptoms on the left side of the abdomen? Are we just thinking about sigmoid volvulus or diverticulitis, or are there other less common causes to consider?",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Hi Dr. Gupta, I was thinking maybe left-sided bowel obstruction could be due to an inflammatory bowel disease like ulcerative colitis? Have you seen anything like this? How do you approach it in your practice?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "I've heard that bowel obstructions are the most common emergency in the hospital, is that true? I'm just trying to learn as much as I can before med school... Thanks, guys!",
-        "color": "blue"
       },
       {
         "id": 4,
         "parent_id": 3,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Hi Chad, according to a study published in the Journal of Emergency Medicine, bowel obstructions account for approximately 10% of all Emergency Department visits. But that's not the most interesting thing - did you know that the incidence of bowel obstructions has been increasing over the past few decades? It's thought to be related to the rising prevalence of obesity and the increased use of anticholinergic medications",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": 2,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "I had diverticulitis and a bowel obstruction a while back, and let me tell you, it sucked. I had to have surgery and everything. I'm just glad I got the best care, otherwise I might have ended up like... you know?",
-        "color": "red"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "Awww don't be afraid, Barnaby! You got great care, and we're happy to have you back on your feet! By the way, did anyone know that diverticulitis is one of the most common causes of left-sided bowel obstruction, and that it's more common in older adults?",
-        "color": "purple"
-      },
-      {
-        "id": 7,
-        "parent_id": 1,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "Ugh, I'm so frustrated with the hospital admin, they never listen to us, they just want to cut costs... But seriously, does anyone know anything about intestinal pseudo-obstruction, or Ogilvie's syndrome? I've been hearing rumors it's on the rise, and I want to be prepared for the next case.",
-        "color": "red"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Dr. Rick, I'm happy to say that I've worked with Ogilvie's syndrome before, and it's not as rare as I thought it was! It's when the colon has abnormal muscular contractions, causing a functional obstruction. It's usually seen in older adults who are on anticholinergic meds, and it can be tricky to diagnose. Has anyone else dealt with this?",
-        "color": "blue"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Yessss, I've seen Ogilvie's syndrome before too! It's such a pain to deal with, but I love a good challenge! Did you know that sigmoid volvulus can mimic the presentation of Ogilvie's syndrome, but it's usually a more acute issue?",
-        "color": "green"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Phil Muddle",
-        "role": "EP",
-        "city": "Regina, SK",
-        "text": "Uh, I'm so sorry, guys, but can someone please explain to me what sigmoid volvulus is? Is it like, a volvulus of the sigmoid colon or something?",
-        "color": "red"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Don't worry, Dr. Muddle! A sigmoid volvulus is indeed a volvulus of the sigmoid colon, but it's usually less common than cecal volvulus. You should definitely read up on it, it's a great topic for EM!",
-        "color": "blue"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Wow, guys, I've learned so much in this thread! Thanks for the help! By the way, what's the best way to distinguish between ileus and bowel obstruction?",
-        "color": "green"
-      },
-      {
-        "id": 13,
-        "parent_id": 12,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "That's a great question, Chad! When in doubt, just take a step back and remember the patient's story. Ileus is usually a more diffuse process, whereas bowel obstruction is localized to a specific area. Physical exam is key too! Remember, it's not just about the pain, but also about the pattern of bowel sounds, vomiting, and abdominal distension.",
-        "color": "purple"
-      },
-      {
-        "id": 14,
-        "parent_id": 13,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "That makes sense! But what about the imaging? Would you rely on CT scans or X-rays for ileus vs bowel obstruction?",
-        "color": "green"
-      },
-      {
-        "id": 15,
-        "parent_id": 14,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "CT scans are usually the best choice for evaluating bowel obstruction, especially in the setting of an unknown cause. X-rays can be helpful for detecting bowel dilation and pneumatosis, but they're not as sensitive for diagnosing volvulus or intussusception.",
-        "color": "blue"
-      },
-      {
-        "id": 16,
-        "parent_id": 15,
         "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
+        "role": "",
         "city": "Toronto, ON",
-        "text": "As Dr. Varkov mentioned, CT scans are the gold standard for evaluating bowel obstruction. But it's also essential to consider the entire clinical picture, including the patient's history, physical exam, and lab results. Remember, ileus and bowel obstruction often have overlapping presentations, so the key is to think critically and use all the available data.",
-        "color": "purple"
-      },
-      {
-        "id": 17,
-        "parent_id": 16,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "Amen to that, Dr. Thorne! As a nurse, I've seen so many cases where the EM team gets it right, but maybe the resident or intern missed something. Remember to trust your instincts, ask questions, and use all the tools at your disposal to get the diagnosis right!",
-        "color": "red"
-      },
-      {
-        "id": 18,
-        "parent_id": 17,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Thanks for the advice, Martha! I've been working hard to get my bearings as an intern, and it's so comforting to know that we're all rooting for each other.",
-        "color": "green"
-      },
-      {
-        "id": 19,
-        "parent_id": 18,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Amen, Dr. Park! And to everyone else, let's keep sharing our expertise and supporting each other! After all, we're all in this together, eh?",
-        "color": "purple"
-      },
-      {
-        "id": 20,
-        "parent_id": 19,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Enough chit-chat, people! The real question is, how can we as ER teams work more effectively with the surgical team to get these bowel obstruction cases resolved quickly and safely? Any suggestions?",
-        "color": "red"
-      },
-      {
-        "id": 21,
-        "parent_id": 20,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Great question, Dr. Sterling! In my experience, communication is key. I always make sure to call the surgical team early, provide them with the patient's history and imaging, and ask for input on the optimal approach. Sometimes, a simple 'let's discuss over the phone' can save us a ton of time and effort.",
+        "text": "Victor, I think you're misinformed about the prevalence of Chlamydia in kids. According to the CDC, Chlamydia is the most commonly reported bacterial STI among adolescents and young adults, and it's increasing in younger age groups. It's possible that our cases are a reflection of this trend.",
         "color": "blue"
-      },
-      {
-        "id": 22,
-        "parent_id": 21,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "I see Dr. Gupta does it exactly right. And another thing, Dr. Sterling, would be to make sure we have all the necessary resources ready to go for the surgical team. I mean, we've all got better things to do than scramble around for some random IV fluids or stuff.",
-        "color": "green"
-      },
-      {
-        "id": 23,
-        "parent_id": 22,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Exactly! Preparation is key. And also, let's not forget about the importance of clear documentation. Make sure you're writing it all down from the get-go, and you'll be golden!",
-        "color": "purple"
-      },
-      {
-        "id": 24,
-        "parent_id": 23,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Don't forget to check for any pre-existing conditions that may have contributed to the bowel obstruction. Like for instance the old adage, 'if the patient hasn't had a colonoscopy in the last five years, do one'...!",
-        "color": "blue"
-      },
-      {
-        "id": 25,
-        "parent_id": 24,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "Ugh, you're killing me Varkov, that colonoscopy line sounds like something out of a textbook!",
-        "color": "red"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "TLDR; Acute Heart Failure: What Are We Missing?",
-    "body": "Today I learned that I've been consistently misdiagnosing acute heart failure (AHF) in our ED. The classic signs of dyspnea, tachycardia, and crackles are there, but I've been ignoring some key points in my differential diagnosis. Anyone else struggle with AHF?",
-    "category": "Emergency Medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Couldn't agree more! Acute heart failure is a common diagnosis, but it's often missed due to overlapping symptoms with other conditions. Have you seen the latest guidelines on the diagnostic criteria for AHF? I'd love to chat more about this at the next grand rounds!",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Thorne, I've been learning about the different types of acute heart failure from my textbooks. Can you explain the difference between hypertensive and pulmonary edema? How can we differentiate between them in the ED?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "AHF is a huge concern in the ED. I've been reading about the role of biomarkers, such as BnP and pro-BNP, in diagnosing AHF. Have you guys found these useful in your practice? Do they change your management strategy?",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Sarah, I completely agree about the importance of biomarkers! I've seen a significant reduction in AHF-related hospitalizations since we started using BnP levels. That being said, I'd love to hear more about your experience with pro-BNP. Do you use it as a standalone diagnostic tool or in conjunction with other tests?",
-        "color": "red"
       },
       {
         "id": 5,
         "parent_id": 4,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Guys, let's not forget about the role of history in diagnosing AHF! As internists, we're often the first ones to see these patients. Did you know that a history of paroxysmal nocturnal dyspnea and orthopnea is a key indicator of AHF?",
-        "color": "purple"
+        "user": "Sarah Jenkins",
+        "role": "",
+        "city": "Ottawa, ON",
+        "text": "Can we get a source for that, Aris? I'd like to see the exact CDC guidelines you're referring to. Also, don't you think we should consider alternative diagnoses for the kid's symptoms, like a viral UTI or a urinary tract anomaly?",
+        "color": "pink"
       },
       {
         "id": 6,
         "parent_id": 5,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Preach, Dr. Varkov! I've seen too many cases where the patient's history is completely ignored in favor of flashy CT scans and lab tests. Don't get me wrong, those are important, but a good history is still the best diagnostic tool we have!",
-        "color": "green"
+        "user": "Dr. Aris Thorne",
+        "role": "",
+        "city": "Toronto, ON",
+        "text": "Great question, Sarah. According to the CDC, the estimated annual incidence of Chlamydia among adolescent and young adult females is approximately 1.4 million cases (2019). And yes, we should definitely consider alternative diagnoses. A careful history, physical exam, and appropriate diagnostic testing will help us get to the bottom of this case.",
+        "color": "purple"
       },
       {
         "id": 7,
-        "parent_id": 6,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Wait, what's paroxysmal nocturnal dyspnea? Is that like, a fancy term for 'I wake up with shortness of breath'?",
-        "color": "red"
+        "parent_id": null,
+        "user": "Barnaby Finch",
+        "role": "",
+        "city": "Surrey, BC",
+        "text": "Wait, are we talking about a kid being pregnant too? Did someone forget the 9-months-belly rule in pediatrics?",
+        "color": "orange"
       },
       {
         "id": 8,
         "parent_id": 7,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Haha, yeah, something like that, Chad! Paroxysmal nocturnal dyspnea is a fancy way of saying 'awakened by shortness of breath'. But seriously, it's a classic sign of AHF, so keep an ear out for it!",
-        "color": "purple"
+        "user": "Dr. Maya Gupta",
+        "role": "",
+        "city": "Mississauga, ON",
+        "text": "No, Barnaby, we're not talking about a pregnant kid. We're talking about a 6-year-old with symptoms of a urinary tract infection. But thanks for pointing out the 9-months-belly rule.",
+        "color": "green"
       },
       {
         "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "And don't forget about the radiographic signs of AHF! Pulmonary venous congestion, cardiomegaly, and interstitial edema are all key indicators. Has anyone seen the latest imaging guidelines for AHF?",
-        "color": "blue"
+        "parent_id": null,
+        "user": "Dr. Archibald Thorne",
+        "role": "",
+        "city": "Saskatoon, SK",
+        "text": "In my day, we'd say 'urinary frequency' when patients complained of this sort of symptom. And by the way, have we considered whether the kid's symptoms are due to an underlying condition like a neurogenic bladder?",
+        "color": "brown"
       },
       {
         "id": 10,
         "parent_id": 9,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Ziggy, can you explain the difference between cardiomegaly and pulmonary edema on a chest x-ray? I thought they were the same thing...",
-        "color": "green"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
         "user": "Dr. Maya Gupta",
-        "role": "PGY2",
+        "role": "",
         "city": "Mississauga, ON",
-        "text": "Sarah, cardiomegaly refers to an enlarged heart, while pulmonary edema refers to fluid buildup in the lungs. Think of it like a lake (cardiomegaly) vs. a flood (pulmonary edema). Does that help?",
-        "color": "red"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Thanks, Dr. Gupta! You're the best. Can I ask, what about the role of diuretics in AHF? Should we always be administering Lasix or bumetanide?",
-        "color": "blue"
-      },
-      {
-        "id": 13,
-        "parent_id": 12,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Leo, it's not that simple! The decision to use diuretics depends on the individual patient's needs. We need to consider the underlying cause of AHF, the patient's renal function, and the potential interactions with other medications.",
-        "color": "purple"
-      },
-      {
-        "id": 14,
-        "parent_id": 13,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Well said, Dr. Varkov! It's all about individualizing treatment. Has anyone seen the latest ACE inhibitor study showing improved outcomes in AHF patients?",
+        "text": "Archibald, you bring up a great point! A thorough history and physical exam, including a neurologic examination, is essential to rule out underlying conditions. And by the way, nice reference to classic terms!",
         "color": "green"
-      },
-      {
-        "id": 15,
-        "parent_id": 14,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Actually, Barb, the ARNI (angiotensin receptor-neprilysin inhibitor) class of medications has shown promising results in reducing mortality and hospitalizations in AHF patients.",
-        "color": "red"
-      },
-      {
-        "id": 16,
-        "parent_id": 15,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "So, what's the takeaway from this thread? Should we be looking for paroxysmal nocturnal dyspnea in our AHF patients?",
-        "color": "purple"
-      },
-      {
-        "id": 17,
-        "parent_id": 16,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Absolutely, Chad! But remember, it's only one piece of the puzzle. Use it in combination with other diagnostic tools and clinical judgment to diagnose AHF.",
-        "color": "blue"
-      },
-      {
-        "id": 18,
-        "parent_id": 17,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "And don't forget to consider the patient's medical history and potential interactions with other medications!",
-        "color": "red"
-      },
-      {
-        "id": 19,
-        "parent_id": null,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "As an ED nurse, I have to say that I've seen way too many cases of AHF where the patient's history was ignored. Please, docs, listen to our patients and take their histories seriously! We're not just guessing games!",
-        "color": "purple"
-      }
-    ],
-    "image": "https://ars.els-cdn.com/content/image/1-s2.0-S2213177917300513-fx1.jpg"
-  },
-  {
-    "id": 8,
-    "title": "Heat-Related Illness: Avoiding the Misses and Red Flags",
-    "body": "Just saw a patient with a classic case of heat-related illness, but what really got me was the missed diagnosis in the EMS notes. The patient presented with a temperature of 40.5\u00b0C, but the EMS noted that they were 'only' having a 'heat cramp'. Turns out, the patient had been doing outdoor construction work all day without proper hydration or breaks. We ended up giving them a cold IV and transporting them to the ICU. Had to think twice about the presentation and the EMS notes - what are your takeaways?",
-    "category": "EM Stories",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "This is a perfect example of the difference between 'heat cramp' and 'heat stroke'. Heat cramp is usually a milder condition, often seen in individuals who are not acclimated to hot environments, whereas heat stroke is a life-threatening condition that requires immediate medical attention. In this case, the EMS notes might have been misleading, but it's also possible that the paramedics were simply trying to provide a clear summary of the patient's symptoms.\nTLDR: Don't let EMS notes dictate your diagnosis - think critically about the patient's presentation and history.",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "I had a question regarding the diagnosis of heat-related illness. Can you clarify what temperature is considered 'hyperthermia'? Is it just >40\u00b0C, or is there a more specific threshold?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Good question, Leo! In general, hyperthermia is defined as a body temperature above 40.5\u00b0C (105\u00b0F). However, the exact threshold can vary depending on the individual patient and their circumstances. For example, a temperature of 39\u00b0C might be concerning in a patient with a history of cardiovascular disease, but would be much less concerning in a young, healthy athlete. It's always a good idea to use a combination of clinical judgment and lab values (e.g. troponin, BNP, etc.) to help guide your diagnosis.",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "One thing that struck me about this case was the importance of proper hydration and acclimatization to hot environments. Can anyone speak to the role of hydration in heat-related illness? Is it just a matter of drinking more water, or is there something more complex going on?",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Excellent question, Sarah! While it's true that hydration plays a critical role in preventing heat-related illness, the relationship between hydration status and body temperature is actually quite complex. When we're hot, our bodies try to cool themselves by sweating, which is an energetically expensive process. If we're not adequately hydrated, our bodies will try to conserve water by reducing sweat production, but this can also lead to a rise in body temperature. It's a vicious cycle. To avoid this, it's essential to maintain proper hydration status through a combination of water intake and electrolyte replacement.",
-        "color": "green"
-      },
-      {
-        "id": 6,
-        "parent_id": 1,
-        "user": "Dr. Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "Can we talk about the role of end-organ damage in heat-related illness? I know we always emphasize the importance of recognizing heat stroke early, but what about the long-term consequences of heat exposure on the kidneys, liver, and other organs?",
-        "color": "green"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Great point, Brock! Heat-induced organ damage is a serious concern, and it's not just limited to the kidney and liver. The heart, brain, and muscles can all be affected by prolonged heat exposure. In fact, some studies have shown that even mild heat exposure can cause chronic damage to the microvasculature, leading to increased risk of cardiovascular disease later in life.",
-        "color": "green"
-      },
-      {
-        "id": 8,
-        "parent_id": 1,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "I had a patient recently who developed a compartment syndrome after a prolonged football game. He was treated in the ER and did well, but it made me think about the importance of preventing heat-related illnesses in athletes. What are some strategies we can use to minimize the risk of heat stroke and compartment syndrome in athletes?",
-        "color": "green"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Great question, Aris! Preventing heat-related illnesses in athletes requires a multi-faceted approach that includes education, environmental monitoring, and on-field medical support. One strategy we can use is to implement the 'heat index' as a way to track weather conditions and prevent exercise during the hottest part of the day.",
-        "color": "green"
-      },
-      {
-        "id": 10,
-        "parent_id": null,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Just had a resident come to me and ask about the difference between heat exhaustion and heat stroke. Does anyone have any tips on how to teach this to our patients?",
-        "color": "purple"
       }
     ]
   },
   {
-    "id": 1,
-    "title": "Just saw a patient with otitis externa - reminded me that our EM algorithms are sometimes lacking",
-    "body": "Just got back from a shift and I'm still thinking about a patient I saw last night. A 35-year-old guy comes in with otitis externa, and I'm happy to admit it's not something I see every day.\n\nAs I was reviewing the chart, I realized that we actually have a good algorithm for treating this condition. Topical antibiotics, wick removal if necessary... no brainer.\n\nBut what got me is that our patient is in his thirties, has a relatively healthy lifestyle, and is an avid swimmer. I started thinking, what's the real root cause here? Is it just swimming, or is there something more going on?\n\nI ended up ordering an audiogram to rule out any concomitant hearing impairments, and I'm waiting on the results. In the meantime, I've started poking around online and talking to colleagues. Turns out that a significant portion of our patients with otitis externa are actually misdiagnosed as having AOM! \n\nTL;DR our EM algorithm might be missing something here, and I'm curious - have any of you encountered similar cases where your EM algo didn't quite cut it?",
-    "category": "Emergency Medicine",
+    "id": 166,
+    "title": {
+      "type": "RANT",
+      "text": "",
+      "TLDR": null
+    },
+    "body": {
+      "content": {
+        "type": "text/plain",
+        "text": "Just saw a patient with refractory status epilepticus and I couldn't help but think about the importance of early recognition and management. As we all know, status epilepticus is a medical emergency that requires prompt intervention to prevent neurological damage and other complications. But what constitutes early recognition and management? Is it just about giving benzodiazepines and intubating the patient, or is there more to it?"
+      },
+      "category": "Seizures and Status Epilepticus",
+      "url": null,
+      "author": "Leo Chen",
+      "votes": 10,
+      "date": "2022-06-15T15:00:00.000Z",
+      "edited": false,
+      "locked": false,
+      "pinned": false
+    },
     "comments": [
       {
-        "id": 2,
-        "parent_id": null,
+        "id": 167,
+        "parent_id": "166",
         "user": "Dr. Kevin Park",
         "role": "PGY1",
         "city": "Edmonton, AB",
-        "text": "Wow, just when you think you know it all... That AOM misdiagnosis is mind-blowing. Can we discuss potential mechanisms for this error? Was it purely anecdotal or did you see something specific that led you to suspect misdiagnosis?",
+        "text": "Great point, Leo! Early recognition and management of status epilepticus are crucial. In our hospital, we have a protocol for treating SE, which includes administering benzodiazepines, intubating the patient, and starting anticonvulsants. But I've always wondered, what's the optimal timing for intubation? Should we intubate ASAP, or wait a bit to see if the patient will spontaneously recover?",
         "color": "blue"
       },
       {
-        "id": 3,
-        "parent_id": 2,
+        "id": 168,
+        "parent_id": "167",
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Great question, Kevin! The optimal timing for intubation is a topic of debate among clinicians. Some argue that we should intubate as soon as possible to prevent brain damage, while others say that we should wait until the patient is truly refractory to benzodiazepines. Our hospital's protocol recommends intubating within 10 minutes of onset of SE. However, I think we should be more nuanced in our approach and consider each patient's individual needs.",
+        "color": "red"
+      },
+      {
+        "id": 169,
+        "parent_id": "168",
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "That's a great point, Sarah! Individualization of care is key in managing SE. But don't we risk over-intubating patients who might not need it? And what about the consequences of intubation, like increased morbidity and mortality?",
+        "color": "green"
+      },
+      {
+        "id": 170,
+        "parent_id": "169",
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "I've seen cases where the primary care physician has been convinced it's AOM due to symptoms like 'fever and ear pain'. In hindsight, those cases often had some red flags, like periauricular swelling or severe pain on manipulation. Can you speak to how we might improve EM recognition of these subtleties? Asking for a friend, of course!",
-        "color": "pink"
+        "text": "Leo, you're right. Over-intubation is a risk, and we should be cautious not to overstep. However, I think the benefits of intubation often outweigh the risks, especially in patients with refractory SE. And regarding the consequences of intubation, while we should be aware of them, I believe the evidence suggests that intubation does not increase morbidity and mortality.",
+        "color": "purple"
       },
       {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "Folks, don't be too quick to blame the EM algo or PCE. Sometimes it's just basic bedside vigilance (and not relying on CT scans to make diagnoses). In my experience, we've been doing this for a long time - AOM misdiagnosis is just not something that's common in our community. Would love to see evidence-based studies to the contrary!",
-        "color": "gray"
+        "id": 171,
+        "parent_id": "170",
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "I'm not so sure, Maya. I've seen patients who have been intubated for SE only to develop prolonged hospital stays and ventilator-associated pneumonia. Don't get me wrong, I'm not arguing against intubation altogether, but I think we need to weigh the evidence more carefully.",
+        "color": "brown"
       },
       {
-        "id": 5,
+        "id": 172,
+        "parent_id": "171",
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Barb, I totally agree with you. I've seen those patients too! But what about using non-invasive ventilation instead of intubation? Have we considered that? I mean, NIV could be a game-changer for some of these patients.",
+        "color": "orange"
+      },
+      {
+        "id": 173,
+        "parent_id": "172",
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Ziggy, that's a great point! NIV can be a fantastic alternative to intubation for some patients. But don't we risk undertreating SE if we use NIV? Don't we need a more nuanced approach to individualize care?",
+        "color": "yellow"
+      },
+      {
+        "id": 174,
+        "parent_id": "173",
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I'm seeing a pattern here \u2013 SE is a complex condition, and there's no one-size-fits-all approach. I think we're all agreeing that early recognition and management are key, but what we need is a more individualized approach that takes into account each patient's unique needs and circumstances.",
+        "color": "blue"
+      },
+      {
+        "id": 175,
         "parent_id": null,
         "user": "Turbo Tom",
         "role": "RN",
         "city": "London, ON",
-        "text": "Just chiming in, but I've worked the night shift and have seen our fair share of AOM/OE misdiagnosis. It's usually a classic 'see one, know one' phenomenon. Our med students are learning, and it shows. Can we not be too hard on ourselves, and also, can we try to standardize our EM care protocols for AOM/OE to prevent these missteps?",
-        "color": "red"
+        "text": "You guys are so clever. I had a patient with SE last week, and I intubated them pronto. But now I'm wondering if I should have waited a bit longer. I guess I'm asking \u2013 what's the takeaway for bedside RNs like me? What are the key takeaways from this discussion?",
+        "color": "pink"
       },
       {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "RN, thanks for your insight! That's such a great point - I remember having to review the EM algo in my peds rotation. One thing kept nagging at me: how do we ensure our med students are exposed to these common conditions and not just relying on their own 'experience'? Should we have more case discussions in lectures?",
-        "color": "yellow"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "Case discussions are the key. I remember one particularly stubborn patient in a med-surg setting who kept being sent back to PCP despite clear signs of something more. One hour case discussion turned things around in a heartbeat. What do you folks think about more hands-on training for med students?",
+        "id": 176,
+        "parent_id": 175,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Great question, Turbo! I think our takeaway is that we need to individualize care for each patient. We need to consider the nuances of each patient's condition and tailor our approach accordingly. And RNs like you are crucial in recognizing the signs of SE early on \u2013 it's often the bedside staff who catch the first clues of a developing SE.",
         "color": "purple"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Hands-on training is a must - it's all too easy to lose sight of the subtleties in med school. Can we talk about how we should revise our curriculum? Maybe include some of these common presentations to encourage a more nuanced approach?",
-        "color": "green"
-      },
-      {
-        "id": 9,
-        "parent_id": null,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Loving all the discussion! From an outside perspective, could someone explain exactly what's causing the AOM/OE misdiagnosis? Some folks were talking about over-reliance on CT scans but also something about PCE? Can someone help break it down?",
-        "color": "orange"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Chad, to simplify it: sometimes our patients just get misdiagnosed because the primary care physician thinks AOM when, in fact, it's OE. That's largely due to overlapping symptoms, but also some cases of actual misdiagnosis where there are no concomitant findings like fever or periauricular swelling. That said, there ARE potential over-reliance on CT scans as a factor, as these cases aren't so clear-cut.",
-        "color": "light blue"
       }
     ],
-    "image": "https://images.squarespace-cdn.com/content/v1/5681a0e2d8af1011fc075fca/1452362439781-AIR6AB66775DWU0LXXC4/AOE+perichondritis+c.jpg"
+    "image": "https://i0.wp.com/emcrit.org/wp-content/uploads/2022/07/statusepi.jpg?resize=450%2C701&ssl=1"
   }
 ]
