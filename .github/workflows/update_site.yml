@@ -1,12 +1,11 @@
-name: Update EM Website
+name: Meddit Bot
 on:
   schedule:
     - cron: '0 */6 * * *'
   workflow_dispatch:
 
-# ADD THESE TWO LINES HERE:
 concurrency:
-  group: meddit-update
+  group: meddit-sync
   cancel-in-progress: true
 
 jobs:
@@ -37,22 +36,22 @@ jobs:
           GCS_CX: ${{ secrets.GCS_CX }}
         run: python generate_reddit_content.py
 
-      - name: Commit and Push
+      - name: Force Sync and Push
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           
-          # 1. Temporarily 'hide' the new AI file
+          # Move the new file to a safe spot
           mv new_post.json new_post_temp.json
           
-          # 2. Force the runner to match the EXACT latest state of your GitHub
+          # Force the bot to match the WEBSITE exactly (clears out the 'rejected' error)
           git fetch origin main
           git reset --hard origin/main
           
-          # 3. Bring the new AI file back
+          # Put the AI file back
           mv new_post_temp.json new_post.json
           
-          # 4. Add, Commit, and Push
+          # Push it through
           git add new_post.json
-          git commit -m "Meddit Feed Update: 7 Threads Generated" || exit 0
+          git commit -m "MEDDIT_SYNC_COMPLETE" || exit 0
           git push origin main --force
