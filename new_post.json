@@ -1,9 +1,9 @@
 [
   {
-    "id": 0,
-    "title": "Today I Learned: Complicated vs Uncomplicated UTIs",
-    "body": "Just saw a patient with a complicated UTI and I was reminded of how often we get this wrong. Complicated UTIs occur in patients with structural or functional genitourinary abnormalities or underlying medical conditions. So, all men, pregnant women, and women with diabetes or neurogenic bladders are at increased risk. The big takeaway is that these patients often require longer treatment courses and closer monitoring.",
-    "category": "medicine",
+    "id": 12345,
+    "title": "Missed Diagnosis in PUD: Lessons from a Patient with Recurrent Gastrointestinal Bleeding",
+    "body": "TL;DR: I saw a patient with recurrent GI bleeding due to undiagnosed peptic ulcer disease, and it made me realize how easy it is to miss the diagnosis. I'll walk you through the case and the lessons I learned.",
+    "category": "EmergencyMedicine",
     "comments": [
       {
         "id": 1,
@@ -11,867 +11,546 @@
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "TLDR: Complicated UTIs are common, but often overlooked. What's the key to identifying these patients early on?",
+        "text": "We all get caught up in the hustle and bustle of the emergency department. I've had a few patients who initially presented with seemingly benign symptoms, only to have a more serious diagnosis revealed later on. What are your thoughts on the initial presentation that can lead us down the wrong path?",
         "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Good question, Maya! In my experience, it's all about taking a careful history. Ask about sexual activity, urinary incontinence, and any previous kidney stones. These are all potential red flags for complications. I also like to review their past med history for any chronic conditions that might increase their risk.",
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I recall learning that patients with gastritis or peptic ulcer disease often present with nonspecific symptoms like epigastric pain, nausea, and vomiting. How do you differentiate these conditions from other causes of abdominal pain?",
         "color": "green"
       },
       {
         "id": 3,
-        "parent_id": 2,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Zalesky, you mentioned kidney stones. Are those a contraindication for treating a complicated UTI?",
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "I've been reading about the role of Helicobacter pylori in peptic ulcer disease. Can you provide some context on its prevalence and how it's typically diagnosed or ruled out?",
         "color": "blue"
       },
       {
         "id": 4,
         "parent_id": 3,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "No, Leo! Kidney stones are actually a risk factor for complicated UTIs. Think about it: if you've got a stone, you're more likely to have a urinary tract abnormality, which increases your risk of complications. So, we actually need to be even more vigilant when it comes to patients with stones.",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "I'm also a big fan of reviewing the patient's lab work. If they've got a high WBC count or a significant bacterial load, that's a good indication that we're dealing with a complicated UTI.",
-        "color": "blue"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "That's a great point, Dr. Oldman. But what's the magic number for WBC count? Is it just a matter of 'high' or is there a specific threshold we should be looking for?",
-        "color": "red"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "Ah, great question, Sarah! The magic number is often around 15-20. But it's not just about the number \u2013 it's also about the context. If the patient has a history of urinary tract infections or is taking antibiotics, we need to be more cautious and consider a longer treatment course.",
-        "color": "blue"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Thanks for the tip, Dr. Oldman! I'm studying for my boards and this helps a lot. Do you have any links to any articles or resources that you'd recommend?",
-        "color": "yellow"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "Actually, I'd recommend checking out the Infectious Diseases Society of America (IDSA) guidelines for complicated UTIs. They've got a great summary of the evidence-based recommendations for diagnosis and treatment.",
-        "color": "green"
-      },
-      {
-        "id": 10,
-        "parent_id": 1,
-        "user": "Turbom Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "As an ER nurse, I've seen my fair share of complicated UTIs. One thing that's key is not just identifying the patient, but also making sure they've got the right antibiotics. Have any of you guys had any experience with fluoroquinolones? Any concerns about resistance?",
-        "color": "purple"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Yeah, Turbom Tom, we're getting a lot of resistance to fluoroquinolones. That's why I think cephalosporins are often a safer bet. But it all depends on the specific patient and their medical history.",
-        "color": "green"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "As a nurse, I'd say we need to be careful about overdiagnosing complicated UTIs. Remember, it's all about taking that careful history and reviewing the lab work. Don't rush to treat just because the patient's uncomfortable.",
-        "color": "blue"
-      },
-      {
-        "id": 13,
-        "parent_id": 12,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Great point, Martha! We don't want to overmedicate these patients when they might just need some basic TLC. Let's focus on getting the diagnosis right and then proceeding from there.",
-        "color": "green"
-      },
-      {
-        "id": 14,
-        "parent_id": null,
-        "user": "Dr. Phil Muddle",
-        "role": "EP",
-        "city": "Regina, SK",
-        "text": "I... um... I think I might have complicated... um... you know... UTI... last week...",
-        "color": "purple"
-      },
-      {
-        "id": 15,
-        "parent_id": 14,
-        "user": "Turbom Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Oh, come on, Dr. Muddle! Don't tell us you actually don't know what a complicated UTI is...!",
-        "color": "blue"
-      },
-      {
-        "id": 16,
-        "parent_id": 15,
-        "user": "Dr. Phil Muddle",
-        "role": "EP",
-        "city": "Regina, SK",
-        "text": "No, no, I do know! It's... uh... a type of... a type of... kidney... thing... with... with... um... bacteria... yeah...",
-        "color": "green"
-      },
-      {
-        "id": 17,
-        "parent_id": null,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "Young whippersnappers these days! What would I know about complicated UTIs? Back in my day, we had to diagnose 'em with a simple bedside exam and a pinch of intuition!",
-        "color": "purple"
-      },
-      {
-        "id": 18,
-        "parent_id": 17,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Geez, Dr. Thorne! You're not exactly 100, are you? Get off my lawn!",
-        "color": "blue"
-      },
-      {
-        "id": 19,
-        "parent_id": 18,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "Oh, you impudent youngster! I'll have you know, I'm still practicing medicine in my 90s! What do you know about complicated UTIs, eh?",
-        "color": "green"
-      },
-      {
-        "id": 20,
-        "parent_id": 19,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Okay, okay, let's keep the age-related jokes to a minimum. Thanks for the lively discussion, everyone!",
-        "color": "blue"
-      }
-    ],
-    "image": "https://www.ebmedicine.net/media_library/images/2024-PEMP-Publication-Article/01-January/Clinical-Pathway-for-Management-of-Children-With-Urinary-Tract-Infection-in-the-Emergency-Department-1.png"
-  },
-  {
-    "id": 1,
-    "title": "Frustration with anorectal disorders diagnosis: a case study",
-    "body": "Today I learned that you can't always diagnose an anorectal abscess by clinical examination alone. I had a patient come in last night with severe pain, fever, and swelling in the perineal area. The CT scan showed a complex perirectal abscess. However, the patient had a history of Crohn's disease, and the surgeon suspected that the abscess might be a fistula-in-ano. After a long and complicated conversation with our surgeon, we ultimately decided to proceed with an MRI and colonoscopy to rule out any other underlying conditions. Long story short, the final diagnosis was an anorectal abscess, but it was much harder to get there than I expected. Anyone else have a similar experience?",
-    "category": "Tales from the ED",
-    "comments": [
-      {
-        "id": 2,
-        "parent_id": null,
-        "user": "Dr. 'Ziggy' Zalesky, EP",
-        "role": "Suffix",
-        "city": "Vancouver, BC",
-        "text": "Loved this post, Ziggy! Anorectal disorders are definitely one of the toughest diagnoses to make in emergency medicine. I've had my fair share of cases where it takes hours to figure it out. One thing that's always puzzled me is the role of pelvic floor dysfunction in anorectal disorders. Have you seen any cases where pelvic floor dysfunction was a contributing factor?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Sarah Jenkins, MS3",
-        "role": "Suffix",
-        "city": "Ottawa, ON",
-        "text": "Great question, Dr. Z! I've been reading up on the topic, and it seems like pelvic floor dysfunction can definitely contribute to anorectal disorders. But how do you differentiate between pelvic floor dysfunction and an actual anorectal abscess? Can you walk us through your thought process when making that call?",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Maya Gupta, PGY2",
-        "role": "Suffix",
-        "city": "Mississauga, ON",
-        "text": "Actually, I think it's pretty straightforward. If you've got a patient presenting with severe pain and fever, and you've got evidence of an anorectal abscess on imaging, it's probably an abscess. Pelvic floor dysfunction might be a contributing factor, but it's not the primary diagnosis in that case. What do you guys think?",
-        "color": "yellow"
-      },
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Victor Sterling, Chief of Surgery",
-        "role": "Suffix",
-        "city": "Calgary, AB",
-        "text": "TL;DR - stop over-diagnosing anorectal abscesses! It's just a fancy name for 'I don't know what's going on'. Use your brain, people. This post is a perfect example of the sort of sloppy thinking that's ruining our profession.",
-        "color": "red"
-      },
-      {
-        "id": 6,
-        "parent_id": 1,
-        "user": "Leo Chen, MS1",
-        "role": "Suffix",
-        "city": "Montreal, QC",
-        "text": "Wait, what? I thought we were supposed to be using our knowledge to help our patients. How can we possibly diagnose anorectal disorders if we're not considering pelvic floor dysfunction?",
-        "color": "orange"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Barb Miller, EP",
-        "role": "Suffix",
-        "city": "Winnipeg, MB",
-        "text": "Leo, you're thinking too much like a student. Sometimes you gotta trust your gut and follow the evidence. But it's also important to keep an open mind and consider other possibilities. The key is to use your clinical judgment to decide when to pursue a particular diagnosis.",
-        "color": "purple"
-      },
-      {
-        "id": 8,
-        "parent_id": null,
-        "user": "Dr. Kevin Park, PGY1",
-        "role": "Suffix",
-        "city": "Edmonton, AB",
-        "text": "Just wanted to chime in and say that I've had a similar experience with anorectal disorders. I had a patient come in with a rectal foreign body, and it took hours to get the thing out. Can anyone recommend a good resource for learning more about rectal foreign bodies?",
-        "color": "green"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Chad Broson, Pre-med",
-        "role": "Suffix",
-        "city": "Brampton, ON",
-        "text": "Hey, I'm not a doctor yet, but I've been reading up on the topic. Have you guys checked out the article on rectal foreign bodies in the Journal of Emergency Medicine? It's got some great info and case studies.",
-        "color": "blue"
-      }
-    ]
-  },
-  {
-    "title": "Today I Learned: My PUD patient's Helicobacter pylori stool antigen test was falsely positive.",
-    "id": 42,
-    "body": "Had a patient come in last night with a 5-day history of vomiting blood and black stools. On initial presentation, he was hemodynamically stable. Classic history for a PUD bleed with a recent UGI endoscopy 6 months prior showing multiple duodenal ulcers. I suspected a bleed from a stress ulcer and started treatment with pantoprazole and a PPI.",
-    "category": "emergency-medicine",
-    "comments": [
-      {
-        "id": 44,
-        "parent_id": null,
-        "user": "Dr. Barb Miller",
+        "user": "Dr. Barbara Miller",
         "role": "EP",
         "city": "Winnipeg, MB",
-        "text": "That's some great work, OP! Just wondering, did the lab report specify what kind of H. pylori stool antigen test they used? I've seen some false positives with the stool antigen test, especially in the presence of blood.",
-        "color": "blue"
-      },
-      {
-        "id": 45,
-        "parent_id": 44,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Hi Dr. Miller! Isn't the stool antigen test like 95% sensitive and 99% specific? How could it be falsely positive? Can you point me to a source that discusses this?",
-        "color": "green"
-      },
-      {
-        "id": 46,
-        "parent_id": 45,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Actually, Leo, it's the other way around - the stool antigen test has a high false-positive rate, especially in the context of bloody stool. I've seen studies that show the sensitivity is around 90%, but the specificity is only around 80%. Here's a good review article on the topic: <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5433510/>",
-        "color": "purple"
-      },
-      {
-        "id": 47,
-        "parent_id": null,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "OP, did you consider the possibility of NSAID-induced ulcers given the patient's history of recent use? We see a lot of that in our ER.",
-        "color": "red"
-      },
-      {
-        "id": 48,
-        "parent_id": 47,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Dr. Sharp, isn't that a little bit of a stretch, given the patient's history of UGI endoscopy showing multiple duodenal ulcers? I'd think that would weigh more heavily in the differential than NSAID-induced ulcers.",
-        "color": "green"
-      },
-      {
-        "id": 49,
-        "parent_id": 48,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Actually, Dr. Gupta, I'd disagree. NSAID-induced ulcers are still a very common cause of PUD, and I think we can't rule it out without more information. Plus, the patient's recent UGI endoscopy doesn't necessarily mean they're not on NSAIDs.",
-        "color": "blue"
-      }
-    ],
-    "image": "https://my.clevelandclinic.org/-/scassets/Images/org/health/articles/10350-peptic-ulcer-disease.jpg"
-  },
-  {
-    "id": 1,
-    "title": "Case of the Week: Seizure or No Seizure? Rant about pediatric seizures and status epilepticus in the ED",
-    "body": "Just saw a patient with a 5-year-old child who presented with a seizure. The parents thought it was a simple febrile seizure, but after reading their history, I'm not so sure. The child had a history of febrile seizures in the past, but this one was different. The seizure lasted for 10 minutes and the child had a fever of 103\u00b0F. I immediately started thinking about the possibility of status epilepticus (SE) and the potential causes, including CNS infections, head injury, structural brain abnormalities, hypoglycemia, electrolyte abnormalities, hypoxemia, toxin exposure, dysrhythmias, metabolic disorders, congenital infections, and neurocutaneous syndromes. Luckily, the child was able to get to the ED quickly and we were able to administer lorazepam to control the seizure. After further workup, we discovered that the child had a urine infection that had spread to the CNS. We were able to get the culture results back and start the child on antibiotics. Thankfully, the child is recovering well. But this case made me think about how difficult it can be to distinguish between a simple febrile seizure and SE in pediatrics. Has anyone else had any difficult cases like this?",
-    "category": "Emergency Medicine",
-    "comments": [
-      {
-        "id": 2,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "TLDR: Great case! I think I would have done the same thing. However, in cases like this, it's always better to err on the side of caution and consider SE in the differential diagnosis. I know it's a pain, but it's always better to be safe than sorry. One thing to keep in mind is that the American Academy of Emergency Medicine (AAEM) recommends using the 5-minute rule (i.e., seizures lasting >5 minutes) as an operational definition for SE in pediatric patients (1). This can help guide our decision-making when it comes to administering anticonvulsants. Have you guys looked at the SE guidelines put out by ACEP? They have some great resources for pediatric SE (2).",
-        "color": "purple"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Thorne, thank you for sharing this! Can you clarify the 5-minute rule? Is this a universally accepted standard or is it more of a guideline? And also, what kind of resources does ACEP have for pediatric SE that we should be aware of?",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 2,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "I couldn't agree more with Dr. Thorne. We're always taught to err on the side of caution when it comes to SE in pediatrics. However, I have to say that I'm a bit skeptical about the 5-minute rule. I've seen cases where seizures can last for 10, 15 minutes or even longer without necessarily leading to SE. Can we talk more about the definition of SE and whether the 5-minute rule is too narrow? Maybe we're missing something here.",
+        "text": "H. pylori is present in up to 50% of the global population, but its prevalence varies widely depending on the region. It's typically diagnosed using a combination of urea breath tests, stool antigen tests, or endoscopy with biopsy. However, we should also consider the use of NSAIDs and other risk factors in the differential diagnosis.",
         "color": "orange"
       },
       {
         "id": 5,
-        "parent_id": 1,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "I'm with Dr. Sterling on this one. While the 5-minute rule might seem arbitrary, it's not a bad starting point. However, let's not forget that SE is a clinical diagnosis, not just a timer. I'd love to hear more about your thought process, OP. What else were you considering when you made the call to administer lorazepam? Was it just the duration of the seizure or were there other factors at play?",
-        "color": "blue"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Great question, Dr. Miller! Can you speak to the role of clinical judgment in diagnosing SE? I feel like we're always being told to err on the side of caution, but how do you, as an experienced ED doc, make the call? What are some common pitfalls to avoid?",
-        "color": "yellow"
-      },
-      {
-        "id": 7,
-        "parent_id": 1,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "You're all forgetting about the other important factors, like the child's baseline medical history and whether they've had seizures before. Don't get me wrong, the 5-minute rule might be helpful, but it's only one piece of the puzzle. When it comes to SE, we need to consider the whole picture, not just a single number or time frame.",
-        "color": "red"
-      },
-      {
-        "id": 8,
-        "parent_id": null,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "I totally agree with Martha. When I'm working with patients, I always try to get a better understanding of their medical histories and baseline functioning. We can't just rely on numbers or guidelines. I mean, what's wrong with a good old-fashioned clinical exam and some common sense?",
-        "color": "pink"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Dr. 'Ziggy' Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Preach, Sparkle-Eyes Sue! I love that we're talking about clinical judgment and not just following some arbitrary guidelines. That being said, what about the role of imaging studies in diagnosing SE? Should we be ordering CT scans or MRIs more frequently or is that just not necessary?",
-        "color": "purple"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Actually, some studies suggest that routine CT scans might not be necessary in pediatric SE patients. Of course, that depends on the individual case, but it's worth considering. What do you guys think? Should we be more selective with our imaging studies or stick with what we've always done?",
-        "color": "green"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Is it possible to link some of those studies, Dr. Varkov? I'd love to take a closer look. I'm still a bit new to this and I want to make sure I'm staying up-to-date.",
-        "color": "blue"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "No problem, Leo! I can dig up some of the references for you. But in the meantime, has anyone else thought about the potential benefits of antiepileptic prophylaxis in pediatric SE patients? Maybe we should be discussing that rather than just the 5-minute rule!",
-        "color": "purple"
-      },
-      {
-        "id": 13,
-        "parent_id": 4,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "Actually, I've had seizures before and I've never thought about the whole SE thing. Can someone tell me more about what's going on in my poor brain? I'd love to understand better.",
-        "color": "red"
-      },
-      {
-        "id": 14,
-        "parent_id": 13,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Don't worry, Barnaby! We're here to help. SE is a complex condition that can be caused by a variety of factors. I can give you a better overview if you'd like. Or maybe we can discuss this privately outside of the thread?",
-        "color": "purple"
-      },
-      {
-        "id": 15,
-        "parent_id": null,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "You guys are really getting me fired up about the whole SE conversation! I have to chime in with some RN perspective. What about the role of nursing in diagnosing SE? Should we be getting more involved in the assessment process or do we stick to our usual duties?",
-        "color": "pink"
-      },
-      {
-        "id": 16,
-        "parent_id": 15,
-        "user": "Dr. Phil Muddle",
-        "role": "EP",
-        "city": "Regina, SK",
-        "text": "Actually, that's a great question, Turbo Tom! I think nurses have a lot of potential in assessing SE patients. Maybe we can discuss this outside of the thread and see what kind of protocols we can develop?",
-        "color": "green"
-      },
-      {
-        "id": 17,
-        "parent_id": 2,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Speaking of protocols, I think this is a great opportunity to revisit our SE guidelines and make sure we're up-to-date. Does anyone have any recommendations for resources or literature reviews?",
-        "color": "yellow"
-      },
-      {
-        "id": 18,
-        "parent_id": 17,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Sorry guys, but I have to ask: what's the deal with SE? I've heard it's a big topic in med school, but I don't really get what it's all about. Can someone explain it to me in simple terms?",
-        "color": "red"
-      },
-      {
-        "id": 19,
-        "parent_id": 18,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "No worries, Chad! I'm happy to help you out. SE is basically a prolonged seizure or a series of seizures that occur in a row without full recovery in between. We're talking 5 minutes plus, but it's not just about the time. It's also about the potential underlying causes and how we can manage the patient.",
-        "color": "purple"
-      },
-      {
-        "id": 20,
-        "parent_id": 4,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "You guys are all forgetting about the administration side of things. I mean, what about the flow of patients in the ED? We need to be realistic about how we're going to manage all these SE patients and not get overwhelmed. Let's keep an eye on the system and not just the patients themselves.",
-        "color": "yellow"
-      }
-    ]
-  },
-  {
-    "id": 10,
-    "title": "Just saw a patient with abdominal trauma in the third trimester... what did I miss last night?",
-    "body": "The patient presented with vaginal bleeding, abdominal pain, and uterine contractions. The initial workup revealed a pelvic fracture, fetal bradycardia, and a hemoglobin drop of 2g/dL. The patient's blood volume increased by 45% during pregnancy, but the red cell mass increased to a lesser extent. This led to a physiologic anemia of pregnancy. The patient's tachycardia, hypotension, and anemia were attributed to blood loss, making it difficult to determine the severity of injury. The supine hypotension syndrome also played a role due to the compression of the inferior vena cava. Any pearls or tips on managing trauma during pregnancy?",
-    "category": "emergency_medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "MD",
-        "city": "Toronto, ON",
-        "text": "When evaluating a patient with abdominal trauma in the third trimester, it's crucial to note that the mother will often demonstrate abdominal pain, vaginal bleeding, and uterine contractions. Fetal injuries are more likely to occur in the third trimester due to the smaller uterus size and increased likelihood of pelvic fractures. Uterine rupture is rare but carries a very high fetal mortality rate. Common complications include uterine irritability, preterm labor, and placental abruption. A sterile pelvic examination should be performed after a pelvic ultrasound to assess for genital trauma, vaginal bleeding, or ruptured amniotic membranes.",
-        "color": "blue"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MD",
-        "city": "Ottawa, ON",
-        "text": "Great point, Dr. Thorne! In cases of suspected abdominal trauma during pregnancy, I always order a non-stress test (NST) to monitor fetal well-being. This includes assessing the fetal heart rate in response to fetal movement. If there's a discrepancy between the fetal heart rate and fetal movement, a biophysical profile (BPP) might be necessary to further evaluate fetal health.",
-        "color": "pink"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "What about the role of blood types in trauma during pregnancy? Can Rh-negative mothers be affected by rh isoimmunization from fetal-maternal hemorrhage? Is that a common occurrence?",
-        "color": "yellow"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "When considering the supine hypotension syndrome, what are the specific criteria for diagnosing this condition in patients during pregnancy? Can this occur in the supine or lateral decubitus position?",
-        "color": "brown"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "When managing trauma during pregnancy, can you discuss the role of anesthesia in pain management and any specific considerations for pregnant patients? How do you assess the risk of maternal sedation on fetal well-being?",
-        "color": "orange"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "TLDR: Tracheal Intubation Conundrum - When Do You Switch Tactics?",
-    "body": "Just saw a patient with a difficult airway last night and it got me thinking about when to switch from oral to nasal intubation. Any of you guys have experience with this? I've heard that nasal intubation is less traumatic but more difficult to achieve. What's the general consensus?",
-    "category": "medschool",
-    "comments": [
-      {
-        "id": 2,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Great topic OP! Nasal intubation can be tricky, but it's a great alternative when oral intubation is unsuccessful. One thing to keep in mind is the size and position of the patient's nostrils. You want to make sure they're large enough to accommodate the tube.",
-        "color": "blue"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Thanks Dr. Thorne! What size nostrils are we talking about? I've heard that anything smaller than 2.5 cm is a no-go for nasal intubation.",
-        "color": "red"
-      },
-      {
-        "id": 4,
-        "parent_id": 2,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Not to be a know-it-all, but I've seen some studies that suggest nasal intubation can increase the risk of sinusitis and other respiratory complications. Has anyone else heard this?",
-        "color": "yellow"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Actually, Sarah, I think that's a common misconception. Most studies have shown that nasal intubation is actually safer than oral intubation in terms of respiratory complications. But great point about sinusitis - we should definitely be cautious when using nasal intubation.",
-        "color": "purple"
-      },
-      {
-        "id": 6,
-        "parent_id": null,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs! You're all worrying about the wrong thing. The real problem with intubation is that most of you guys are doing it wrong in the first place. Get your act together and learn how to intubate a patient properly before you worry about nasal vs oral.",
-        "color": "orange"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Haha, nice burn Dr. Sterling! But seriously, what's the biggest mistake you see guys making when it comes to intubation?",
-        "color": "green"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "For crying out loud, Chad. It's obvious. Most of you guys are too damned slow when it comes to intubation. You're fiddling around with the tube for too long and causing more harm than good. Just get it over with already!",
-        "color": "red"
-      }
-    ],
-    "image": "https://my.clevelandclinic.org/-/scassets/images/org/health/articles/intubation"
-  },
-  {
-    "id": 1,
-    "title": "TLDR; Differentiating cardiac from non-cardiac chest pain can be a challenge, especially in the ED. Recently had a case that made me realize how easy it is to miss the 'obvious'.",
-    "body": "Just saw a patient with chest pain that came in after a 5km jog. Classic case of ACS, right? Wrong! Turns out, he had costochondritis. The pain was retrosternal, tightness and squeezing, worsened with movement and palpation... sound familiar? But, what really threw me off was the ECG, which showed PR-segment depression and diffuse ST-segment elevations. Classic signs of pericarditis, but not ACS! We ended up sending him for a CT and diagnosed costochondritis. The ECG was normal a few hours later. A good reminder that even the most experienced of us can get it wrong! (1/2)",
-    "category": "emergency medicine",
-    "comments": [
-      {
-        "id": 2,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "@ OP, great reminder on how to stay vigilant! Always remember to consider musculoskeletal causes, especially costochondritis in young, athletic patients. It's also crucial to correlate clinical findings with ECG and other investigations.",
-        "color": "purple"
-      },
-      {
-        "id": 3,
-        "parent_id": null,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs think they can differentiate cardiac from non-cardiac chest pain just by ECG. Let's be honest, most of the time, it's just guesswork. We need better investigation tools, period.",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "@ OP, nice case! Reminds me of when I thought a patient's chest pain was due to ACS until I realized it was just a pulmonary embolism. Moral of the story: never ignore pleuritic chest pain! (1/2)",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "What are some red flags for pulmonary embolism in patients with non-cardiac chest pain?",
-        "color": "blue"
-      },
-      {
-        "id": 6,
-        "parent_id": 4,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "@Leo, great question! If you hear a patient say they've had a recent history of long-haul travel or immobilization, make sure to get a CT or V/Q scan ASAP! Don't risk missing a DVT/PE! (2/2)",
-        "color": "teal"
-      },
-      {
-        "id": 7,
-        "parent_id": null,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "What's the significance of PR-segment depression in the ECG? Does it indicate pericarditis or is it a red herring?",
-        "color": "violet"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "@Sarah, great question! PR-segment depression is indeed a classic sign of pericarditis, especially if accompanied by diffuse ST-segment elevations. However, it's essential to consider other causes, such as hypocalcemia or electrolyte imbalances.",
-        "color": "magenta"
-      },
-      {
-        "id": 9,
-        "parent_id": null,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "I've seen patients come in with 'classic' ACS symptoms, only to find out they have something entirely different. My trick is to always ask about the patient's past medical history and social situation. That usually gives me a hint!",
-        "color": "yellow"
-      },
-      {
-        "id": 10,
         "parent_id": 1,
         "user": "Dr. Brock Stone",
         "role": "FRCSC",
         "city": "Hamilton, ON",
-        "text": "Let's not forget about the importance of a thorough physical exam. Sometimes, the answer is right under our noses. I've seen patients with ACS symptoms and no ECG changes, and it all comes down to a subtle physical exam finding.",
-        "color": "orange"
+        "text": "As surgeons, we often get involved in the care of patients with perforated peptic ulcers or gastritis. What are the key considerations when it comes to surgical intervention, and how do you determine which patients require surgical evaluation?",
+        "color": "red"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "I recall learning that patients with perforated peptic ulcers often require surgical intervention to prevent further complications like abscess formation or sepsis. However, the decision to operate should be based on a thorough evaluation of the patient's overall condition, including their hemodynamic status and potential for bleeding.",
+        "color": "pink"
+      },
+      {
+        "id": 7,
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "As an ER nurse, I've seen my fair share of patients with GI bleeding. What are the key nursing considerations when it comes to managing these patients, and how can we work with the medical team to ensure the best possible outcomes?",
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Nursing plays a critical role in managing patients with GI bleeding. Some key considerations include monitoring vital signs, administering fluids and blood products as needed, and ensuring that the patient is receiving adequate pain control. By working closely with the medical team, we can help ensure that the patient receives the best possible care and avoids complications.",
+        "color": "purple"
+      },
+      {
+        "id": 9,
+        "parent_id": 1,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "This thread is super confusing. Can someone explain what peptic ulcer disease is and why it's a big deal?",
+        "color": "green"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "Peptic ulcer disease is a chronic illness characterized by ulcerations in the stomach and duodenum. It can be caused by a combination of factors, including Helicobacter pylori infection, NSAID use, and other risk factors. As a family physician, I've seen patients with peptic ulcer disease present with a range of symptoms, from mild abdominal pain to severe bleeding.",
+        "color": "blue"
       },
       {
         "id": 11,
         "parent_id": 1,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "Ah, the old-fashioned approach! Back in my day, we didn't rely on fancy ECGs and CT scans. We relied on clinical acumen and observation. Remember, my dears, the best doctor is the one who keeps an open mind and considers all possibilities!",
-        "color": "silver"
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "TL;DR: As emergency physicians, we often get caught up in the immediate management of patients with GI bleeding. However, it's essential to take a step back and consider the underlying causes of their symptoms, including peptic ulcer disease. By doing so, we can provide the best possible care and improve patient outcomes.",
+        "color": "purple"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Amen to that, Dr. Gupta! As a nurse, I've seen how a thorough approach can make all the difference in patient care.",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "title": "Approach to Traumatic Shock: A Reminder of the Importance of a Thorough History and Physical Exam in the Emergency Department",
+    "body": "Just saw a patient with severe hypertension and hypotension following an electric shock. The patient had a pulse rate of 120 and a BP of 60/40 mmHg. Initial stabilization measures failed to improve the patient's vital signs. A thorough history revealed that the patient had a history of hypertension, but no history of cardiac disease.\n   \n   The physical exam was notable for a palpable thrill in the chest, a muffled heart sound, and a JVD of 5 cm. Given these findings, I suspected cardiac tamponade. A bedside echo confirmed my suspicion and the patient underwent immediate pericardiocentesis.\n   \n   The takeaway from this case is the importance of a thorough history and physical exam in the emergency department. Traumatic shock can have multiple etiologies, and a careful history and physical exam can often identify the underlying cause. In this case, a history of hypertension and cardiac findings on physical exam suggested cardiac tamponade, which was confirmed by a bedside echo.\n   \n   Has anyone else had a patient with traumatic shock where a thorough history and physical exam helped identify the underlying cause?\n   \n   TLDR: Traumatic shock can have multiple etiologies and a thorough history and physical exam is essential in identifying the underlying cause. Bedside echo can be a useful tool in diagnosing cardiac tamponade.\n   \n   ",
+    "category": "medical",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great case! I agree that a thorough history and physical exam is essential in diagnosing traumatic shock. In my experience, patients often have multiple injuries and a thorough history can reveal the underlying cause of shock. I would add that in patients with severe trauma, a focused physical exam can be challenging and a bedside ultrasound can be a useful tool in identifying cardiac tamponade. Additionally, a high index of suspicion for cardiac tamponade is essential in patients with severe trauma and a history of hypertension. [1] Do you have any experience with bedside ultrasound in diagnosing cardiac tamponade?\n           \n           [1] https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4441917/",
+        "date": "2023-12-01 14:00:00",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "I agree that a thorough history and physical exam is essential, but I would also like to emphasize the importance of using standardized diagnostic criteria to diagnose cardiac tamponade. I would recommend using the Modified Hollman criteria, which include a clinical examination, ECG, and bedside ultrasound. [1] In patients with severe trauma, it's also essential to consider other causes of shock, such as hemorrhage and tension pneumothorax. [2] Can anyone suggest other causes of shock that should be considered in patients with severe trauma?\n           \n           [1] https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4441917/\n           [2] https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4441917/",
+        "date": "2023-12-01 14:10:00",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "I've seen cases where cardiac tamponade was not immediately apparent. In those cases, a history of trauma and a physical exam that highlighted an abnormal heart sound or a muffled heart sound were essential in diagnosing the condition. Additionally, I'd like to suggest using the FAST exam to quickly rule out cardiac tamponade. [1] Can anyone share any tips on how to quickly and accurately perform a FAST exam?\n           \n           [1] https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4441917/",
+        "date": "2023-12-01 14:20:00",
+        "color": "purple"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Hey guys, I'm just a pre-med student, but I'm interested in learning more about cardiac tamponade. Can someone explain why cardiac tamponade is so common in patients with severe trauma?\n           \n           Can anyone explain it in simple terms for me?\n           \n           I'm just trying to learn and become a better doctor.",
+        "date": "2023-12-01 14:30:00",
+        "color": "green"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Ahaha, Chad, nice question! Cardiac tamponade is not actually related to trauma. Cardiac tamponade occurs when fluid accumulates in the pericardial space and compresses the heart, making it difficult for it to fill with blood. This can lead to shock, respiratory distress, and even cardiac arrest. In patients with severe trauma, cardiac tamponade can be caused by injuries to the chest wall, such as sternal fractures or rib fractures. In my experience, trauma patients with cardiac tamponade often present with a muffled heart sound, a palpable thrill in the chest, and JVD. [1] I hope that helps clarify things!\n           \n           [1] https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4441917/",
+        "date": "2023-12-01 14:45:00",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "TLDR; Don't trust your sense of smell in the ER: a case of suspected food poisoning turned into... well, read on.",
+    "body": "Just had one of those night shifts where you question your entire career. Got called in with a 35yr old female presenting with severe symptoms of food poisoning.  She reports eating at a new restaurant the previous night, but her friends are fine after having the same dishes. The patient's symptoms started 8 hours ago and are worsening rapidly. She's had diarrhea, vomiting, and now abdominal cramps so bad that she can't move from the toilet. The smell in her apartment is so bad that the ambulance crew refuses to go in until hazmat suited up. We start with standard decontamination protocols, but the smell is so intense that we worry we may have an infectious disease outbreak on our hands. The patient is otherwise healthy, has no fever, and a normal white count.  We do some basic urine and stool tests, and get her into an IV for fluids and antibiotics, but the smell is still killing me. After 2 hours of observation, the patient starts to improve, but we still can't figure out where the smell is coming from. Finally, she asks to use the bathroom and comes back in a few minutes later with a look of relief on her face. That's when we notice it: her phone's battery's been dead, and her charger is stuck in her... you guessed it. The charger had been in her underwear the whole time, and that's where the smell was coming from.",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY1",
+        "city": "Toronto, ON",
+        "text": "Haha, wow, what a face-palm! But seriously, how did you guys not catch that sooner? We always say 'don't trust your nose in the ER,' but I guess that's an extreme case. Did you guys use a hazmat suit to decon her phone charger before disposing of it?",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Kevin Park",
+        "role": "PGY2",
+        "city": "Vancouver, BC",
+        "text": "Lol, that's amazing! We actually did use a hazmat suit, but it was the ambulance crew who refused to go in until after they suited up. We ended up having to evacuate the entire apartment while they waited for backup to arrive. The patient was super relieved, but we were all laughing about it afterwards. Has anyone ever experienced anything like this before?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "Actually, I had a similar case a few years ago where a patient's phone was stuck in their pocket the whole time, and the smell was so bad it cleared out the entire waiting room. We ended up having to evacuate the hospital and close off the entire floor for a few hours. It was a nightmare! But at least you guys have hazmat suits to deal with situations like that.",
+        "color": "purple"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "That's wild! But to be fair, that was a pretty intense situation you guys had to deal with. We've definitely had similar cases where patients have been stuck with, ahem, interesting foreign bodies, but it's not exactly the same as dealing with hazmat suits and evacuation protocols. Has anyone else had to deal with anything as... unusual as this patient's charger?",
+        "color": "green"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "Oh boy, I've seen some weird stuff in my time, but this takes the cake. I've had patients with weird rashes, strange injuries, and even a patient who claimed they had a lemur in their pants. But this... this is just ridiculous. Did you guys ever figure out what the charger was made of that made it so... pungent?",
+        "color": "purple"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY1",
+        "city": "Toronto, ON",
+        "text": "Actually, we did find out what the charger was made of. It turns out it was some kind of... I don't know, it sounded like it was made out of the same stuff as a Hazmat suit. We were all surprised, but I guess that's why it smelled so bad! Anyway, thanks for all the laughs, guys. This was definitely a memorable night shift.",
+        "color": "green"
+      }
+    ],
+    "image": "https://m.media-amazon.com/images/I/81h+BApAMEL._AC_UF1000,1000_QL80_.jpg"
+  },
+  {
+    "id": 1,
+    "title": "Just saw a patient with acute retrosternal chest pain and this is what I learned...",
+    "body": "Just finished seeing a patient with acute retrosternal chest pain and I'm still trying to wrap my head around the diagnosis. Patient is a 40-yo male with a history of hypertension and hyperlipidemia. He presents with crushing retrosternal chest pain radiating to the left shoulder, arm, and hand. Classic presentation for ACS, but there was a catch... ECG shows PR-segment depressions, diffuse ST-segment elevations, and T-wave inversions. But the patient's troponin levels are normal! Had to do some digging to figure out what was going on... TLDR; ACPE mimicking ACS. Anybody else had this happen?",
+    "category": "Emergency medicine",
+    "comments": [
+      {
+        "id": 5,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I've seen this before! ACPE (Acute Coronoary Parenchymal Edema) vs ACS can be tricky. What was the final diagnosis, OP? And can you confirm the patient didn't have any myocardial infarction? I'd love to read more about this case.",
+        "color": "blue"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "I thought ACPE was a thing of the past! Can you elaborate on the patient's symptoms, especially during the onset? Was it sudden, or more gradual? And have you heard of the ACPE criteria? I'd love to know more about how you diagnosed this.",
+        "color": "purple"
+      },
+      {
+        "id": 7,
+        "parent_id": 5,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I think I remember learning about ACPE in med school! Wasn't it characterized by a lack of troponin elevation, despite the presence of ECG changes? Can someone explain why the troponin levels were normal in this case?",
+        "color": "green"
+      },
+      {
+        "id": 8,
+        "parent_id": null,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "I've learned to be extra cautious when it comes to chest pain presentations, especially in patients with risk factors. Thanks for sharing this experience, OP! I'm definitely adding this to my differential diagnosis list.",
+        "color": "pink"
+      },
+      {
+        "id": 10,
+        "parent_id": 6,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "As a family doc, I rarely get to see the intricacies of cardiology. But this case illustrates the importance of considering the full spectrum of possibilities in a complex case. Well done, OP! Can you recommend any online resources or reviews that might be helpful for us non-cardiologists?",
+        "color": "yellow"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Rant about Pneumothorax Diagnosis: A Clinical Pearl",
+    "body": "Just saw a patient with a subtle pneumothorax on their chest xray last night, and it got me thinking about how we can do better in diagnosing pneumothorax. As we all know, the absence of lung sliding on ultrasound is a key feature, but what about when it's not present? Do we just default to a CT scan? Not so fast, folks! Dr. Thorne, what are your thoughts on this?",
+    "category": "Medical Education",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great topic, folks! When lung sliding is absent, it's not just about the ultrasound. We need to consider the clinical context, too. For example, does the patient have a history of lung disease or trauma? A CT scan can be useful, but let's not forget about the value of a thorough physical exam. Dr. Chen, can you remind us of some key physical signs to look for in suspected pneumothorax?",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Actually, Dr. Thorne, I was taught that a normal-sized chest with increased mobility between the ribs and a decreased breath sound are key physical signs for pneumothorax. Am I right?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "I love this discussion, folks! But let's not get too caught up in the physical exam. We all know that patients with pneumothorax often present with subtle symptoms, so it's crucial to keep a high index of suspicion. Has anyone else noticed that patients with pneumothorax often have a history of smoking or recent lung injury? Dr. Gupta, what's your take on this?",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "That's a great point, Dr. Miller! As a resident, I've seen many cases of pneumothorax in patients with a history of smoking or recent lung injury. In fact, a recent study showed that smoking is a major risk factor for spontaneous pneumothorax. I'd like to link to the study here: [link to study]. Can anyone comment on the role of smoking in pneumothorax?",
+        "color": "red"
+      },
+      {
+        "id": 5,
+        "parent_id": 1,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "This is a classic case of over-diagnosis, folks. Most patients with 'pneumothorax' are actually just experiencing a bit of pleural effusion. We shouldn't jump to conclusions and order aCT scan without a thorough review of the patient's history and physical exam. Dr. Park, can you tell me about your experience with pneumothorax diagnosis?",
+        "color": "pink"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Actually, Dr. Sterling, I had a patient just last week who presented with a confirmed pneumothorax... I ordered a CT scan and it showed a significant pneumothorax. Dr. Sterling, can you elaborate on what you mean by 'pleural effusion'?",
+        "color": "gold"
+      },
+      {
+        "id": 7,
+        "parent_id": 5,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "I think Dr. Sterling is trying to confuse us with jargon. Can someone explain what pleural effusion is and how it would relate to pneumothorax?",
+        "color": "brown"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Pleural effusion is a condition where there's fluid accumulation in the pleural space. Think of it like a lung-related 'urinary tract infection'... but without the infection. Got it?",
+        "color": "orange"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "Hold up, folks! Let's not get too complicated. When we see a patient with suspected pneumothorax, our priority is to evaluate their respiratory status. Chest xray, ultrasound, or CT scan - which one do we use first?",
+        "color": "gray"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "I thought we used chest xray first? Wait, no, is it ultrasound? Can someone explain the order of preference?",
+        "color": "yellow"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Chad, it's actually a bit more complex than that. We should start with a thorough physical exam and history to determine the most likely diagnosis. Then, we can choose the most appropriate imaging modality. Ultrasound is a good choice for pneumothorax, but it's not always the first resort.",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "title": "TIL that secondary headaches are a major concern when the patient is an adolescent with sudden onset occipital headache and no clear description of pain quality.",
+    "body": "Just saw a patient with a 12-year-old kid coming in complaining of a sudden and severe headache, described as a 'dull ache' on the back of the head. She had gone to bed the night before without any symptoms, but woke up this morning with the pain. The kid is unable to describe the quality of the pain and it's not worsened by anything. The mom is concerned because she's been reading online about headaches and thinks it might be some kind of 'vascular issue'. I've seen her chart and it doesn't seem like we're at a critical juncture, but I want to make sure we cover all the bases before sending her home. Thoughts from the ED gods?",
+    "category": "emergencymedicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "MD",
+        "city": "Mississauga, ON",
+        "text": "TLDR: Always think secondary in pediatrics lol. Remember, the most common cause of headache in kids is a secondary issue, so we need to do a thorough investigation. Don't just rely on online research, but consider the possibility of something like a tumor or vascular malformation. I'd start with a non-contrast CT of the head or MRI to rule out any obvious causes.\nAlso, ask the kid if she's been experiencing any visual disturbances, difficulty speaking, or other neurological symptoms. The occipital location is also a hint. What are the vitals? Does she have a fever?",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MD",
+        "city": "Montreal, QC",
+        "text": "What kind of vascular malformations do you think we should be worried about in an adolescent? Are they more common in kids?",
+        "color": "blue"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Dr. Maya Gupta",
+        "role": "MD",
+        "city": "Mississauga, ON",
+        "text": "Good question, Leo! In young kids, the most common vascular malformations are usually benign and don't cause much trouble. However, there's a small chance that it could be something more serious like a brain AVM (arteriovenous malformation) or Moyamoya disease. We should definitely do some further imaging to rule these out. Maybe a follow-up with neurosurgery or radiology for more guidance?",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Sarah Jenkins",
+        "role": "MD",
+        "city": "Ottawa, ON",
+        "text": "I've read that in pediatric patients, the most common secondary causes of headache are usually infectious or anatomic. Shouldn't we also consider things like sinusitis or dental abscess?",
+        "color": "red"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Maya Gupta",
+        "role": "MD",
+        "city": "Mississauga, ON",
+        "text": "Actually, in kids, the most common secondary causes are usually related to infectious or anatomic issues. Sinusitis, dental abscess, or even Eustachian tube dysfunction could all present with headache. Don't rule those out just yet! What's the patient's temperature?",
+        "color": "blue"
+      },
+      {
+        "id": 6,
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Just a heads up, ED nurses know that the most important thing in pediatrics is to listen to the parents' concerns. They've usually seen something on WebMD and are freaking out. Just reassure them we'll take a closer look and we'll get to the bottom of it.",
+        "color": "teal"
+      }
+    ],
+    "image": "https://www.ebmedicine.net/media_library/images/2023-EMP-Publication-Article/10-October/Clinical-Pathway-for-Managing-Primary-Headaches-in-the-Emergency-Department-1.png"
+  },
+  {
+    "id": 7,
+    "title": "Wound exploration fail! When to CT vs US for soft tissue foreign bodies",
+    "body": "Just saw a patient with a nasty-looking laceration on their knee from a gardening accident. They swore there was a 'stick' stuck in the wound. Initial inspection with the patient in the ED revealed nothing. I extended the wound margins with the scalpel to have a closer look and still couldn't find anything. I sent them for a CT to rule out a foreign body, but the radiologist couldn't find anything either. Next morning, they present to the OR with increasing pain and swelling, and lo and behold, they found a 2cm wooden splinter that was missed on initial inspection. I was wondering if anyone else has had similar experiences with soft tissue foreign bodies? When do you send for CT vs US and what are your favorite tips for wound exploration?",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I had a similar case last week where we found a small metal fragment that was not visible during initial inspection. We sent the patient for an ultrasound and it was easily visualized. My tip for wound exploration is to use fluoroscopy with the scalpel to visualize the depth of the wound and potentially identify foreign bodies. [1] [url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4758955/]",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Thanks for sharing Maya! I agree that fluoroscopy can be helpful for wound exploration. I'd also like to add that the shape and location of the wounding object can give clues about potential foreign bodies. Sharp objects, like thrones or branches, tend to penetrate deeper into tissue and may not be visible on initial inspection. A thorough examination, including probing with a hemostat, is often required to identify these types of foreign bodies.",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "Maya, I have to agree with your tip about fluoroscopy. It's a game-changer for wound exploration. However, I think it's worth noting that not all foreign bodies are visible on CT or ultrasound. A recent meta-analysis found that the sensitivity of CT for detecting foreign bodies is around 80%, while ultrasound is closer to 90% [2].",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "That's interesting to know, Dr. Stone! Can you explain why the sensitivity of CT is lower than ultrasound? Is it because ultrasound is better at detecting smaller foreign bodies?",
+        "color": "orange"
+      },
+      {
+        "id": 5,
+        "parent_id": 3,
+        "user": "Martha Hammer",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "I'd like to add that not all wounds require CT or ultrasound for foreign body detection. A recent study found that plain radiography can detect foreign bodies in up to 90% of cases, especially when using underpenetrated soft tissue technique [3].",
+        "color": "pink"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Thanks, Martha! I agree that plain radiography can be useful for foreign body detection. However, I think it's worth noting that CT or ultrasound may be required in cases with multiple foreign bodies or in patients with a history of chronic foreign body retention.",
+        "color": "lightblue"
       }
     ]
   },
   {
     "id": 8,
-    "title": "Just saw a patient with methemoglobinemia after a regional block gone wrong",
-    "body": "Had a miss last night with a patient who had a regional block done before coming to our ED. Turns out they had a hematoma block for a fracture and got methemoglobinemia from the anesthetic. Anyone else seen this before? Was there any particular thing I should have caught in the history to prevent this? Thanks for the advice.",
-    "category": "emergency medicine",
+    "title": "Just saw a patient with DKA and AKA, TLDR: don't forget to check for alcohol use when evaluating DKA",
+    "category": "Emergency Medicine",
+    "body": "Just saw a patient with DKA and I almost missed the fact that they were also abusing booze, leading to an AKA. Anyone else remember to check for chronic alcohol use in DKA patients? I know it's not standard, but it's something we should think about. [Case study: a 35 year old male with a history of heavy drinking presents with polyuria, polydipsia, and a blood glucose of 450. His ABG comes back with a pH of 7.2, an HCO3 of 10, and a K of 4.5. He also tests positive for ketones. Initially, I thought it was just DKA due to his hyperglycemic state, but upon reviewing his chart, I realized he had been drinking heavily for years. The ABG and ketone levels were consistent with AKA, a condition we often overlook in favor of the more common DKA. The takehome lesson here is to keep an eye out for chronic alcohol abuse when evaluating patients with hyperglycemia, especially if their labs come back looking more like AKA than DKA.",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Methemoglobinemia is a known complication of certain local anesthetics, especially those with a para-aminobenzoic acid (PABA) group. In this case, it was probably methylene blue that caused the issue. Have you considered adding PABA-free local anesthetics to your emergency kit? I recall seeing a protocol from the Canadian Society of Anesthetists that recommends PABA-free agents for nerve blocks in high-risk patients.\n\nTL;DR: Use PABA-free local anesthetics for nerve blocks in high-risk patients!",
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great reminder, Doc! Chronic alcohol use is a common cause of AKA, especially in young adults. I've seen it more often than not when we get called to take a patient who was thought to have just DKA. We need to keep our wits about us and think about all the potential causes of hyperglycemia. By the way, have you seen that paper on AKA in the Journal of Clinical Endocrinology and Metabolism? https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6321156/",
         "color": "purple"
       },
       {
         "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "What do you mean by PABA-free local anesthetics? Can you explain the difference between PABA-containing and PABA-free agents? Also, what are some good alternatives to methylene blue?",
-        "color": "green"
-      },
-      {
-        "id": 3,
         "parent_id": 1,
         "user": "Dr. Victor Sterling",
         "role": "Chief of Surgery",
         "city": "Calgary, AB",
-        "text": "This is just another example of over-zealous use of regional anesthesia in the ED. Have you considered the fact that methemoglobinemia might have been an allergic reaction to the anesthetic itself? We can't just blindly follow every protocol without considering the individual patient's history and risk factors.",
-        "color": "red"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I disagree, Dr. Sterling. While it's true that some patients might have an allergic reaction to certain anesthetics, there's still a high risk of methemoglobinemia with PABA-containing agents, particularly in high-risk patients. Have you seen the recent study by the Canadian Network for Vascular Regeneration that found a significant difference in methemoglobinemia rates between PABA-containing and PABA-free agents? [Link to study on Medscape](https://www.medscape.com)",
-        "color": "purple"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Wow, this thread is so educational! Can someone explain what methemoglobinemia is and how it affects the patient? I've heard it's related to the patient's hemoglobin levels, but I'm not entirely sure.",
-        "color": "blue"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Methemoglobinemia is a condition where there's an abnormal amount of methemoglobin in the blood. Methemoglobin is a form of hemoglobin that can't bind oxygen, so patients with high levels may experience symptoms such as shortness of breath, dizziness, and even cardiac arrest in severe cases. It's often caused by certain medications, including local anesthetics, and can be treated with methylene blue or other agents.",
+        "text": "Amateurs. You'd think that with all the resources we have, we'd be able to figure out the cause of hyperglycemia without relying on old studies and obscure journals. Get with the times, folks. We have better things to do than read dusty old papers on AKA.",
         "color": "green"
       },
       {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Thanks for explaining it in simple terms, Dr. Sharp! Can we link the patient to a hospitalist for further management after treating the methemoglobinemia?",
-        "color": "blue"
-      },
-      {
-        "id": 8,
-        "parent_id": 1,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "In addition to methylene blue, have you considered using other treatments such as ascorbic acid or vitamin C to manage methemoglobinemia? There's some evidence to suggest that these agents can help reduce methemoglobin levels quickly.",
-        "color": "purple"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "That's a great point, Dr. Varkov! Can you provide some more information on the studies that have investigated the use of ascorbic acid or vitamin C in methemoglobinemia treatment? I'd love to read more about it.",
-        "color": "blue"
-      },
-      {
-        "id": 10,
-        "parent_id": 1,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "Just wanted to chime in and say that I've seen some cases of methemoglobinemia caused by methylene blue itself. Yes, you read that right - the treatment can sometimes be the cause of the problem! Keep that in mind when managing patients.",
-        "color": "red"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Dr. Zalesky",
+        "id": 3,
+        "parent_id": 2,
+        "user": "Dr. 'Ziggy' Zalesky",
         "role": "EP",
         "city": "Vancouver, BC",
-        "text": "Good reminder, Martha! Can you tell us more about the cases you've seen and how you managed them?",
-        "color": "purple"
-      }
-    ]
-  },
-  {
-    "id": 9,
-    "title": "Cocaine and Stimulants: The Dark Side of Euphoria",
-    "body": "Had a crazy case last night in the ER. A 30-year-old male came in with severe chest pain and hypertension. We're talking 200/100 mmHg. His ECG showed ST-elevations in multiple leads and his troponins were through the roof. The initial diagnosis was a STEMI, but it wasn't until we did his labs that we realized he was a body packer. His cocaine levels were off the charts. Long story short, we managed to stabilize him, but it was a close call. This got me thinking about the dark side of cocaine and stimulants. We all know about their euphoric effects, but what about the potential for cardiac damage and acute kidney injury? I've read that cocaine can cause a 'body packer's rash' due to the breakdown of the packets' plastic wrapping, but has anyone else seen this before? And what are some tips for managing patients with cocaine toxicity? Has anyone come across any good resources online for CME?",
-    "category": "r/medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "FRCPC",
-        "city": "Toronto, ON",
-        "text": "Great case study! To answer your question, 'body packer's rash' is a real thing. It's caused by the breakdown of the plastic wrapping used to package the cocaine. I've seen it a few times in patients who have ingested cocaine packets. In terms of managing patients with cocaine toxicity, make sure to monitor their vitals closely, including their blood pressure, heart rate, and oxygen saturation. We also need to be aware of the potential for cardiac complications, including myocardial infarction and arrhythmias. In fact, the American Heart Association has guidelines on managing acute coronary syndromes in patients with cocaine-induced myocardial infarction [1].",
+        "text": "Hold up, Doc Victor, don't be so quick to dismiss. Those old studies are still relevant and can teach us a thing or two. Plus, sometimes it's the older, tried-and-true methods that get us out of a jam. And by the way, have you seen what the literature says about the importance of bedside exams in diagnosing AKA? It's a game-changer, trust me. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5551455/",
         "color": "blue"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Thanks for the info, Dr. Thorne! Can I ask, what's the difference between cocaine-induced myocardial infarction and a regular STEMI? Is it just the underlying cause or is there something more to it?",
-        "color": "pink"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Another thing to keep in mind is the potential for acute kidney injury in patients with cocaine toxicity. I've read that it's due to the vasoconstrictive effects of cocaine on the kidneys. Has anyone else come across any studies on this topic?",
-        "color": "red"
       },
       {
         "id": 4,
@@ -879,55 +558,171 @@
         "user": "Leo Chen",
         "role": "MS1",
         "city": "Montreal, QC",
-        "text": "Actually, Dr. Gupta, cocaine toxicity can also cause renal damage due to rhabdomyolysis and myoglobinuria. I read about it in this Reddit thread [2].",
-        "color": "purple"
+        "text": "Um, excuse me, docs? Can someone explain to me why we're talking about AKA when the OP said DKA? Didn't they mean to say we should check for alcohol use in both conditions?",
+        "color": "yellow"
       },
       {
         "id": 5,
-        "parent_id": 1,
-        "user": "Ricky the RN",
-        "role": "",
-        "city": "Toronto, ON",
-        "text": "TL;DR: Cocaine toxicity is no joke. Make sure to keep an eye out for cardiac complications and acute kidney injury. And don't forget about the 'body packer's rash'!",
-        "color": "green"
+        "parent_id": 4,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Ha! Good one, Leo. We should clarify that DKA and AKA are indeed two separate conditions, but both require careful consideration of the patient's habits and history. When we talk about AKA, we're talking about a more specific condition that's caused by chronic alcohol use, whereas DKA is more commonly associated with T1D. However, we should always keep an eye out for both conditions in patients with hyperglycemia. And by the way, have you noticed how important it is to check for ketones in these patients? It's not just about getting the number right, but also interpreting the whole picture.",
+        "color": "orange"
       },
       {
         "id": 6,
-        "parent_id": 1,
+        "parent_id": 5,
         "user": "Dr. Elena Varkov",
         "role": "FRCPC",
         "city": "Quebec City, QC",
-        "text": "I'd like to add that cocaine toxicity can also cause psychological complications, including anxiety, paranoia, and psychosis. Has anyone else seen this in patients?",
-        "color": "blue"
+        "text": "Ah, ketones, yes! I've seen patients with DKA who have had the most beautiful ketonuria results, but the thing to keep in mind is to check for hyperkalemia as well. It's not always a straightforward situation, and we can't just assume that one condition excludes the other. Remember, patients can have multiple diagnoses at once, and we need to be able to think critically about what we see. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4444196/",
+        "color": "brown"
       },
       {
         "id": 7,
         "parent_id": 6,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Actually, Dr. Varkov, the DSM-5 lists cocaine-induced psychotic disorder as a separate condition. It's characterized by hallucinations, delusions, and disorganized thinking. I read about it in this paper [3].",
-        "color": "purple"
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "Now that's a good point, Elena. We should always check for multiple potential causes and think about how they all fit together. I once had a patient who was diagnosed with DKA, but it turned out they had a secondary condition that was contributing to their symptoms, and it took us a good while to figure out. The key takeaway from this thread is to stay vigilant and keep a critical eye on our patients",
+        "color": "gray"
       },
       {
         "id": 8,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Rant about... The hospital administration is always asking us to do more with less. Meanwhile, we've got patients coming in with severe cocaine toxicity and we're expected to manage them like it's no big deal. It's not like we can just magically wave our wands and make the symptoms disappear. It's time for some serious resources and support for us on the front lines.",
-        "color": "red"
+        "parent_id": 7,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Preach it, Doc Henry. We get bogged down in the details and forget about the bigger picture. Sometimes I think we're more like detectives trying to solve a mystery than actual doctors, which is why it's essential to have a broad perspective and stay on top of all the potential causes.",
+        "color": "pink"
       },
       {
         "id": 9,
         "parent_id": 8,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Actually, I think it's a bit more than just detectives, Doc Barb. We're more like... medical anthropologists? I mean, we're constantly dealing with people from different walks of life and trying to understand their unique circumstances. That's what makes medicine so interesting and challenging, if you ask me.",
+        "color": "purple"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. Rick 'The Rage'",
+        "role": "EP",
+        "city": "Windsor, ON",
+        "text": "What are we even talking about? Can someone tell me what the actual question is so I can wrap my head around it? And by 'we', I mean the people in this thread who seem to know more than I do.",
+        "color": "red"
+      },
+      {
+        "id": 11,
+        "parent_id": 8,
+        "user": "Dr. Phil Muddle",
+        "role": "EP",
+        "city": "Regina, SK",
+        "text": "Ah, sorry to interrupt, but I think I know what you're getting at, Rick. We were discussing the importance of checking for chronic alcohol use in patients with hyperglycemia, especially when considering AKA versus DKA. Does that sound right?",
+        "color": "lavender"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
         "user": "Dr. Aris Thorne",
-        "role": "FRCPC",
+        "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "I couldn't agree more, Turbo Tom. It's time for us to advocate for ourselves and for our patients. We can't do this alone. Let's keep talking about this important issue!",
+        "text": "That's exactly right, Phil. And we also touched on the importance of thinking critically about other potential causes of hyperglycemia and considering the whole picture when it comes to diagnosing and treating our patients. I think we can all learn from this thread and stay vigilant in our approach.",
+        "color": "blue"
+      },
+      {
+        "id": 13,
+        "parent_id": 12,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Wow, I'm starting to understand now. Thanks for clarifying, everyone. It's always helpful to review and revisit concepts we learned in med school. This thread has been incredibly insightful.",
+        "color": "green"
+      },
+      {
+        "id": 14,
+        "parent_id": null,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Don't be gettin' too stressed, guys! We're all in this together, and we're all learnin' somethin' new every day. Remember to take a step back, breathe in the fresh air, and remember the real reason we do what we do - to care for our patients and make 'em better!",
+        "color": "violet"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Just saw a patient with neonatal apnea and I'm left wondering...",
+    "body": "I had a case last night where a 3-day-old neonate presented with apnea and bradycardia. The initial ECG showed ventricular bigeminy, but the parents were adamant that this is normal for their baby. The baby's corrected gestational age is 38 weeks, and they've had multiple episodes of apnea, but mom claims she's never had any issues previously.\n\nThe family is from a rural area and hasn't seen a pediatrician before, so they're worried that the baby is going to have long-term neurological damage. I've sent them off to pediatric cardiology, but I'm worried that we're missing something here.\n\nTLDR: Neonatal apnea in a 38-week corrected gestational age neonate. Thoughts? Should I have ordered a sleep study? Am I missing some underlying issue?\n\n**Case details:**\n- Age: 3 days\n- Corrected GA: 38 weeks\n- Presentation: Apnea, bradycardia, ventricular bigeminy on ECG\n- Family history: None\n- Medications: All normal doses of vitamin K, no caffeine, no nicotine exposure\n- Additional findings: Normal initial metabolic workup, normal blood gas. Mom reports a normal pregnancy with no issues previously.\n",
+    "category": "medical",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "As a wise and kind attending, I would recommend a more thorough investigation into this baby's background. Have you considered speaking with the pediatrician who initially cared for the baby? Sometimes, the answer lies in a subtle detail that we might have missed initially. Additionally, considering the family's rural background, make sure to ask open-ended questions to avoid leading the inquiry.\n\nAlso, I would like to know more about the baby's growth and development patterns. Is there any history of fetal growth restriction, birth weight, or any anomalies during pregnancy?",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs always over-investigate and waste everyone's time. Just send them to ped cardiology and let the specialists figure it out. We're ER doctors, not detectives.",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Hi Dr. Thorne! Thank you so much for the tip! I was thinking maybe a more in-depth assessment of fetal growth restriction, maybe some maternal interviews about the pregnancy? What kind of questions should I ask?",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 2,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Lmao @ Dr Sterling's comment. As a seasoned ER nurse, I can assure you that sometimes it's better to err on the side of caution rather than rushing the patient to see a specialist. A little more investigation here, a few more questions there... it might save the patient from unnecessary tests and procedures later on. TLDR: Dr. Sterling, calm down, and let us ER doctors do our job!",
+        "color": "red"
+      },
+      {
+        "id": 5,
+        "parent_id": 3,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Excellent point, Leo! A thorough maternal interview is crucial here. You should ask questions about the pregnancy, such as any antenatal complications, fetal movement, or any unusual sensations during pregnancy or delivery. The more insight we can gather, the better our chances of reaching a diagnosis.",
+        "color": "purple"
+      },
+      {
+        "id": 6,
+        "parent_id": 4,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "But Dr. Sterling's comment got me thinking: What if we do end up sending this patient to pediatric cardiology and it turns out to be a simple case of apnea of prematurity? Wouldn't that be a waste of our time and resources? Shouldn't we be more judicious in our decision-making?",
+        "color": "green"
+      },
+      {
+        "id": 7,
+        "parent_id": 5,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "As a seasoned ER nurse myself, I can tell you that we should be more concerned with the well-being of the patient rather than the 'waste of time and resources.' The point is that we might be missing something here, and by investing a little more time upfront, we can avoid more serious complications down the line.",
         "color": "blue"
       }
     ],
-    "image": "https://images.squarespace-cdn.com/content/v1/546e1217e4b093626abfbae7/1575897224186-XUH3D3GTCYC4Z6N7SKN1/Lightning+Learning+-+Cocaine-induced+Chest+Pain+%28v1.1%29.png"
+    "image": "https://m.media-amazon.com/images/I/71nWft+-JzL._AC_UF1000,1000_QL80_.jpg"
   }
 ]
