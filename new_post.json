@@ -1,859 +1,743 @@
 [
   {
-    "id": 0,
-    "title": "Had a tough case last night... Pelvic Inflammatory Disease (PID) in a 21 yo with a long list of STIs",
-    "category": "EM Stories",
-    "body": "Just saw a patient with a ton of STIs and now dealing with the consequences.  21 yo female, presents with pelvic pain and a 24 hour history of fever, vomiting, and diarrhea.  Labs show a white count of 22, CRP of 10, and a urinalysis with 10 WBCs and 5 bacteria.",
+    "id": 1,
+    "title": "Case Study: Difficult Airway in Pregnant Patient",
+    "body": "Just saw a patient with a difficult airway in a pregnant patient. 25 year old G2 P1 at 38 weeks. Patient was known to have a difficult airway due to a cleft palate. She presented to the ED in active labor complaining of severe chest pain. She was having trouble getting oxygen saturation above 80%",
+    "category": "emergencymedicine",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "MD",
+        "user": "u/DrArisThorne",
+        "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "I've seen this before... PID is a spectrum of infections that includes endometritis, salpingitis, and tubo-ovarian abscess.  Risk factors include age, multiple sexual partners, and a new sexual partner within the past 30 days.",
+        "text": "Rushing into an advanced airway management approach can be problematic. I would like to know more about the patient's past medical history and previous airway management attempts.",
         "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MD",
-        "city": "Ottawa, ON",
-        "text": "Isn't PID more common in adolescents? And what about co-infections with other STIs like Chlamydia?  I've read that Chlamydia can be a co-pathogen with Gonorrhea in PID.",
+        "user": "u/TurboTom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "I remember this patient, the obstetric team was getting ready to do a C-section due to fetal distress. The patient had a history of difficult intubation in the past and we needed to get her intubated ASAP. Dr. Thorne, can explain the plan you would use for a pregnant patient with a difficult airway?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "u/DrSarahSharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "I would recommend using a rapid sequence induction with a laryngeal mask airway (LMA). If that fails, a fiber-optic bronchoscope can be used to visualize the vocal cords and intubate the patient. The obstetric team needs to be aware of the airway plan to prevent any sudden movements.",
+        "color": "yellow"
+      },
+      {
+        "id": 4,
+        "parent_id": 2,
+        "user": "u/LeoChen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Can you explain why LMA's are not recommended in pregnant patients?",
+        "color": "pink"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "u/DrSarahSharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "LMAs can be effective in difficult airway situations, but in pregnant patients, the increased risk of aspiration and the potential for a difficult airway make it less ideal. The goal is to get the patient intubated safely.",
+        "color": "yellow"
+      },
+      {
+        "id": 6,
+        "parent_id": 1,
+        "user": "u/DrRickTheRage",
+        "role": "EP",
+        "city": "Windsor, ON",
+        "text": "We all know that airway management in pregnant patients can be challenging. I'm going to throw out a question: what are the indications for cesarean delivery in a patient with a difficult airway?",
+        "color": "red"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "u/TurboTom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Good question, Rick. According to the AHA, indications for cesarean delivery in a patient with a difficult airway include fetal distress, prolonged labor, and multiple previous cesarean deliveries.",
+        "color": "green"
+      },
+      {
+        "id": 8,
+        "parent_id": 1,
+        "user": "u/DrVictorSterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs. We all know that a difficult airway requires immediate surgical intervention, especially in a pregnant patient. Get the patient into the OR stat!",
+        "color": "blue"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "u/DrArisThorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Sorry, Vic, but that's not exactly how we manage difficult airways in pregnant patients. A thorough airway assessment and the use of advanced airway devices like LMs and FOBs can often salvage the situation.",
+        "color": "purple"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "u/TurboTom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "I concur with Dr Thorne. Airway management in pregnant patients requires a delicate balance of safety and efficiency. Any unnecessary trauma to the patient can increase the risk of complications for both mom and baby.",
+        "color": "green"
+      },
+      {
+        "id": 11,
+        "parent_id": 1,
+        "user": "u/DrSarahSharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "I'd like to summarize the discussion so far: we've determined that the patient was a young woman at 38 weeks gestation with a history of difficult airway, and we used a combination of rapid sequence induction and advanced airway devices to manage her airway. Am I correct?",
+        "color": "yellow"
+      }
+    ],
+    "image": "https://emottawablog.com/wp-content/uploads/2022/01/Screen-Shot-2022-01-26-at-1.44.21-PM.png"
+  },
+  {
+    "id": 1,
+    "title": "Respiratory Distress - When to Aggressively Ventilate",
+    "body": "Had a tough call last night... patient came in with acute respiratory distress - obvious respiratory failure, tachycardic, and looking pretty sick. We had to do a rapid sequence intubation, but it turned out to be a case of decompression sickness (DCS) from a scuba diving accident. Long story short, I'm wondering when it's appropriate to aggressively ventilate patients with respiratory distress - do we prioritize caution and observe, or do we take a more proactive approach and get them on the ventilator ASAP?",
+    "category": "r/EmergencyMedicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "TLDR: always err on the side of caution. We all know that early intervention is key, but the risks associated with aggressive ventilation far outweigh the benefits if the patient can still breathe on their own. What do you guys think?",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "I've seen it time and time again: Docs get too gun-shy with ventilation. You're missing the bigger picture here, folks. What about the patient's underlying pathology? If they're going to decompensate, you might as well intubate and stabilize them before things get ugly. It's not a question of being 'aggressive' - it's a matter of being proactive and preventing a downward spiral. Anyone have any experience with this?",
         "color": "green"
       },
       {
         "id": 3,
         "parent_id": 2,
-        "user": "Dr. Aris Thorne",
-        "role": "MD",
-        "city": "Toronto, ON",
-        "text": "Exactly, Sarah! Adolescents are at greatest risk for PID, and Chlamydia is a common co-pathogen. According to the CDC, Chlamydia is a common co-infection with Gonorrhea in PID, especially among adolescents and young adults.",
-        "color": "green"
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Excuse me, but can we clarify what's meant by 'aggressive ventilation'? Don't we want to avoid lung injury and stuff? Maybe I'm misunderstanding, but isn't the goal to get them breathing more easily, not harder?",
+        "color": "blue"
       },
       {
         "id": 4,
-        "parent_id": null,
+        "parent_id": 3,
         "user": "Dr. Victor Sterling",
-        "role": "MD",
+        "role": "Chief of Surgery",
         "city": "Calgary, AB",
-        "text": "I don't see the big deal... I've never admitted a patient with PID.  It's just a bunch of antibiotics, right?",
-        "color": "orange"
+        "text": "Don't even get me started on this. Amateurs think they need to rush into invasive care. Ventilation is a last resort, people! You should be focusing on supporting the patient's respiratory system, not 'aggressively' pumping them up with air. Anybody with half a brain knows that. Link to the article on ventilation strategies, Dr. Thorne: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6543211/",
+        "color": "blue"
       },
       {
         "id": 5,
         "parent_id": 4,
-        "user": "Dr. Maya Gupta",
-        "role": "MD",
-        "city": "Mississauga, ON",
-        "text": "Not so fast, Dr. Sterling... PID can lead to serious complications like infertility, chronic pelvic pain, and even ectopic pregnancy.  Don't downplay the significance of PID!",
-        "color": "red"
-      },
-      {
-        "id": 6,
-        "parent_id": 3,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "So, what's the best way to treat PID?  Should we use single-dose antibiotics or a full 10-day course?",
-        "color": "purple"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Aris Thorne",
-        "role": "MD",
-        "city": "Toronto, ON",
-        "text": "Good question, Leo... The American College of Obstetricians and Gynecologists recommends single-dose ceftriaxone for uncomplicated PID, but a full 10-day course of doxycycline or azithromycin may be necessary for more complex cases.",
-        "color": "green"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Henry Oldman",
-        "role": "MD",
-        "city": "Victoria, BC",
-        "text": "I've also seen cases where the patient was initially treated for a UTI, but the symptoms persisted... only to discover PID later on.  A high index of suspicion is key in diagnosing PID.",
-        "color": "blue"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Amen to that, Dr. Oldman!  As ER nurses, we need to be aware of the subtle signs of PID, like abdominal pain and guarding, to make an accurate diagnosis.",
-        "color": "red"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Barb Miller",
-        "role": "MD",
-        "city": "Winnipeg, MB",
-        "text": "This conversation is exactly why we need to prioritize STI screening in our emergency departments.  According to the WHO, STIs are a major public health problem worldwide.",
-        "color": "purple"
-      }
-    ],
-    "image": "https://www.emergencymedicinekenya.org/wp-content/uploads/2015/06/STD-Rx.jpg"
-  },
-  {
-    "id": 1,
-    "title": "Just saw a patient with sudden cardiac death and wanted to vent about it.",
-    "body": "Had a kid come in last night with symptoms of syncope. Turns out it was a long QT and they almost had a fatal arrhythmia. Luckily we were able to get them stabilized. But it made me think about syncope and sudden cardiac death in kids. Has anyone else had any experiences like this? How do you guys handle these cases?",
-    "category": "r/emergencymedicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Toronto, ON",
-        "text": "Yeah, I had a similar case recently. The thing that struck me is that this kid had been complaining about shortness of breath for weeks, but it wasn't until he passed out that we realized it could be arrhythmia. We need to be more proactive about investigating these kids.",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "I've been looking into the San Francisco Syncope Rule, and it seems like it's useful for identifying high-risk patients. Can someone elaborate on how you guys use it in practice?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "TLDR: you're over-diagnosing. Most of these kids are just stressed out or dehydrated. Don't waste your time with fancy rules and tests.",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Toronto, ON",
-        "text": "I disagree with Dr. Sterling. The San Francisco Syncope Rule is a validated tool that helps us identify high-risk patients. Let's not dismiss it without considering the evidence.",
-        "color": "purple"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "I've been practicing for a long time, and I can tell you that sudden cardiac death in kids is extremely rare. Let's not freak out just yet. Can we talk about some of the other causes of syncope?",
-        "color": "green"
-      },
-      {
-        "id": 6,
-        "parent_id": 1,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "Just to add my two cents, I've worked with a lot of these kids and their families. It's not just about the diagnosis; it's about the emotional toll it takes on them. We need to be sensitive to that.",
-        "color": "blue"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Phil Muddle",
-        "role": "EP",
-        "city": "Regina, SK",
-        "text": "Thanks for sharing, Martha. I'm not sure how to approach that side of things, but I'd love to hear more about your experiences.",
-        "color": "purple"
-      },
-      {
-        "id": 8,
-        "parent_id": 1,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Has anyone used the 12-lead ECG in their practice for syncope? It seems like it could be useful, but I'm not sure how to interpret the results.",
-        "color": "green"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Hey Kevin, check out this resource on interpreting 12-lead ECGs in pediatric patients. It's got a ton of great tips and tricks. [link]",
-        "color": "blue"
-      },
-      {
-        "id": 10,
-        "parent_id": 1,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Aren't long QTs just a fancy excuse for 'I'm stressed out'?",
-        "color": "purple"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Toronto, ON",
-        "text": "Sparkle-Eyes, I think you're being a bit too flip. Long QT is a real condition that can be life-threatening. Let's be respectful.",
-        "color": "green"
-      },
-      {
-        "id": 12,
-        "parent_id": 1,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "I think we're all getting a bit sidetracked here. The real issue is that we need to be more proactive about identifying these kids and referring them to cardiology. Can we talk about how to do that?",
-        "color": "blue"
-      },
-      {
-        "id": 13,
-        "parent_id": 12,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "Sorry to interrupt, but can someone please explain what a long QT is? I've heard the term, but I'm not sure what it means.",
-        "color": "purple"
-      },
-      {
-        "id": 14,
-        "parent_id": 13,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "Ah, young man, a long QT is a condition where the heart's electrical conduction system is impaired, leading to an increased risk of arrhythmias. It's a rare but serious condition.",
-        "color": "green"
-      },
-      {
-        "id": 15,
-        "parent_id": 1,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "This thread is so fascinating! Can someone please explain the San Francisco Syncope Rule to me? I want to learn more!",
-        "color": "purple"
-      },
-      {
-        "id": 16,
-        "parent_id": 15,
         "user": "Dr. Sarah Sharp",
         "role": "EP",
         "city": "Laval, QC",
-        "text": "Hey Chad, I'd be happy to explain the San Francisco Syncope Rule. It's a set of criteria that helps us identify high-risk patients with syncope. Want me to elaborate?",
-        "color": "blue"
+        "text": "Not buying what Dr. Sterling's selling here. Ventilation is a life-saving intervention that can prevent further decline in oxygenation status. Sure, we need to balance the risks and benefits, but it's not necessarily a 'last resort.' Let's not get hung up on semantics and actually discuss the evidence.",
+        "color": "pink"
       },
       {
-        "id": 17,
+        "id": 6,
         "parent_id": 1,
         "user": "Dr. Ziggy Zalesky",
         "role": "EP",
         "city": "Vancouver, BC",
-        "text": "Hey guys, just wanted to add my two cents. As an emergency physician, I've seen my fair share of kids with syncope. It's not just about the diagnosis; it's about the family dynamics too. Let's not forget that.",
+        "text": "You know what's more aggressive than ventilation? Not ventilating someone who's failing. I mean, what's the worst that could happen, right? Let's err on the side of caution and get these patients some air, stat! Link to a study on ventilation success rates: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6241158/",
+        "color": "red"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Wait, what's the goal here? Are we trying to get them breathing on their own, or is it more about stabilizing them with ventilation? Can someone break it down for a newbie like me?",
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "parent_id": 1,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "Folks, we're getting a bit off track here. The real question is: how do we decide when to intervene with ventilation? What are the red flags that indicate we should prioritize aggressive ventilation? Let's discuss this from a more theoretical perspective.",
+        "color": "indigo"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Breck Stone",
+        "role": "Surgical Attending",
+        "city": "Edmonton, AB",
+        "text": "Good point, Dr. Thorne. I think we can all agree that early recognition and intervention are key in these situations. What are the clinical markers that would prompt me to take a more aggressive approach?",
         "color": "purple"
       },
       {
-        "id": 18,
-        "parent_id": 1,
-        "user": "Dr. Sarah Jenkins",
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. Elena Varkov",
+        "role": "Internist",
+        "city": "Quebec City, QC",
+        "text": "In my experience, it's the combination of factors. We're talking about patients who are tachycardic, hypoxemic, and displaying signs of respiratory failure. If the patient is also showing signs of shock or cardiac instability, you can bet your bottom dollar they need ventilation. Link to the article on hypoxemic acute respiratory distress syndrome: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6311158/",
+        "color": "blue"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Sarah Jenkins",
         "role": "MS3",
         "city": "Ottawa, ON",
-        "text": "I'm going to take a contrarian view here. I think we're all over-emphasizing the importance of the San Francisco Syncope Rule. What about more nuanced approaches?",
+        "text": "Wait, wait, wait... I thought we were trying to avoid lung injury. Doesn't ventilation increase the risk of that? Maybe I'm reading the literature wrong?",
+        "color": "red"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Dr. Maya Gupta",
+        "role": "Resident",
+        "city": "Calgary, AB",
+        "text": "Don't get me wrong, Sarah - ventilation can indeed lead to lung injury. But in this scenario, the benefits of ventilation far outweigh the risks. The key is to minimize barotrauma and optimize lung-protective strategies.",
         "color": "green"
+      },
+      {
+        "id": 13,
+        "parent_id": 12,
+        "user": "Dr. Kevin Park",
+        "role": "Intern",
+        "city": "Edmonton, AB",
+        "text": "Sorry to interrupt, but can someone clarify what 'lung-protective strategies' refers to?",
+        "color": "yellow"
+      },
+      {
+        "id": 14,
+        "parent_id": 13,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Kevin, we're talking about using low tidal volumes, high PEEP, and recruitment maneuvers to decrease the risk of lung injury. You should have learned about this in med school.",
+        "color": "purple"
+      },
+      {
+        "id": 15,
+        "parent_id": 14,
+        "user": "Dr. Brock Stone",
+        "role": "Surgical Attending",
+        "city": "Edmonton, AB",
+        "text": "Yeah, yeah, yeah... I get it. Low tidal volumes, PEEP, etc. The point is, these patients need to be stabilized ASAP, and ventilation is a necessary evil in this scenario.",
+        "color": "blue"
+      },
+      {
+        "id": 16,
+        "parent_id": 1,
+        "user": "Dr. Phil Muddle",
+        "role": "EP",
+        "city": "Regina, SK",
+        "text": "Sorry to be a skeptic, but are we really discussing 'aggressive ventilation' in the context of respiratory distress? Don't we mean 'rapid sequence intubation'?",
+        "color": "red"
+      },
+      {
+        "id": 17,
+        "parent_id": 16,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Phil, what's wrong with you? We all know what RSI stands for. Let's not get sidetracked with semantics.",
+        "color": "green"
+      },
+      {
+        "id": 18,
+        "parent_id": 17,
+        "user": "Dr. Rick 'The Rage'",
+        "role": "EP",
+        "city": "Windsor, ON",
+        "text": "I don't know, guys... Maybe we're all just too caught up in our own egos. Ventilation is not a 'necessary evil.' It's a life-saving intervention that, with careful planning and execution, can make a huge difference in these patients' outcomes.",
+        "color": "purple"
       },
       {
         "id": 19,
         "parent_id": 18,
-        "user": "Turbo Tom",
+        "user": "Martha 'The Hammer'",
         "role": "RN",
-        "city": "London, ON",
-        "text": "Sarah, I think you make some good points. But let's not forget that this rule has been validated in several studies.",
+        "city": "Halifax, NS",
+        "text": "Well said, Rick. Sometimes we need to put our egos aside and focus on what's best for the patient. Ventilation is not a one-size-fits-all solution. Each case requires careful consideration and individualized care.",
         "color": "blue"
       },
       {
         "id": 20,
         "parent_id": 1,
-        "user": "Dr. 'Ziggy' Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Thanks for the awesome thread, everyone! It's always a pleasure to discuss these cases with you all.",
-        "color": "purple"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Just had a patient with a 5-year-old's headache that made me wonder...",
-    "body": "A classic case of occipital headaches that left me scratching my head. The kid had a new onset of headaches a few days ago and described them as being just behind his eyes, but unable to describe the quality of the pain or how it affects his daily activities. His vitals were normal, but his physical exam was surprisingly normal too. He wasn't too sure what the pain was like either, which made me wonder if we're just dealing with a typical case of migraines in kids, or something more sinister like a brain tumor.",
-    "category": "emergency-medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "TBH, this is one of the most underrated topics in pediatric EM. Occipital location should definitely raise your suspicion for something more serious. I think it's worth doing a CT scan to rule out any intracranial pathology. What are your thoughts, Doc?",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
         "user": "Dr. Henry Oldman",
-        "role": "CCFP",
+        "role": "Family Physician",
         "city": "Victoria, BC",
-        "text": "I completely agree with Dr. Gupta. In my experience, it's not until you start poking around and doing a more thorough exam that you start to uncover some of the red flags. For example, did you notice if the kid had any visual disturbances, weakness, or numbness? These can be key indicators of something more serious.",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "But wait, Doc, isn't CT scans bad for kids? I thought we were supposed to avoid them as much as possible. Can someone enlighten me on the radiation risks?",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Great question, Leo! Yes, radiation risks are a concern, especially in kids. But the thing is, if we're worried about something more serious, the benefits of a CT scan typically outweigh the risks. That being said, it's always better to weigh the pros and cons with the parents and consider an MRI if possible.",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": 2,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "I see what you're saying, Dr. Oldman, but what about migraines? Can't we just rule those out first before we start thinking about more serious stuff? I feel like I always get caught up in the 'oh no, brain tumor!' hysteria.",
-        "color": "blue"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Lol, don't worry, Doc! We all get caught up in that. But seriously, migraines in kids can be tricky. I think it's worth asking some more questions about the kid's family history and any possible triggers. And hey, if we're still stumped after that, we can always do a CT scan, right?",
-        "color": "green"
-      },
-      {
-        "id": 7,
-        "parent_id": 4,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "Radiation risks are real, folks. Let's not forget about that. I always try to err on the side of caution and get a second opinion before sending a kid for a CT scan. And if we can get an MRI instead, all the better.",
-        "color": "purple"
-      },
-      {
-        "id": 8,
-        "parent_id": 5,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Can someone explain to me what the different types of headaches are? I thought there were just migraines and stuff, but I guess not. Anybody got a quick and dirty rundown for a pre-med like me?",
-        "color": "blue"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Of course, Chad! There's primary vs. secondary headaches, and within those, there are migraines, cluster headaches, and tension headaches, to name a few. And let's not forget about the various types of secondary headaches, like those caused by sinusitis or intracranial issues. It's a whole complex mess, if you ask me.",
-        "color": "green"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "Ow, my head... Wait, what's going on here? What are we talking about again? Headaches? Yeah, I get those. But are we talking about actual headaches or just, like, brain tumors or whatever?",
-        "color": "purple"
+        "text": "You know, I've been practicing medicine long enough to know that the right answer rarely lies in a single 'right' choice. It's all about finding the right balance between risk and benefit in each individual case.",
+        "color": "indigo"
       }
     ]
   },
   {
-    "id": 1,
-    "title": "TLDR: Don't trust pulse ox in CO poisoning cases... ",
-    "body": "Just saw a patient with CO poisoning today and was reminded of a crucial point in EM: standard pulse oximetry is unreliable in the presence of increasing COHb. As CO binds to hemoglobin, it can give a false reading of normal or even high saturation. I've seen this firsthand before and it's a great reminder to always consider CO poisoning in the differential for altered mental status in a patient with a history of smoke inhalation or exposure to fuel-powered machinery. Who else has had a similar case?",
-    "category": "emergency-medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "OMG yes! I had a patient last week with a CO level of 40%! She was a mechanic who had been exposed to exhaust fumes all day. Her saturation on pulse ox was showing 98% but her ABG was showing severe hypoxia! I'm so glad we had carboxyhemoglobin levels done ASAP. By the way, has anyone else seen a case where the 'cherry red' lips aren't present? I've always thought that was a classic sign of CO poisoning but my patient didn't have it.",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Hi Sparkle, I've read that the 'cherry red' lips are due to the COHb level being >30%. Can you confirm this?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": null,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "I've seen cases where pulse ox is completely unreliable in CO poisoning. It's like the hemoglobin is just playing tricks on you. I've heard that some newer generation pulse oximeters can detect COHb levels, anyone else heard this?",
-        "color": "purple"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Actually, Martha, some pulse oximeters can give a false low saturation reading in CO poisoning due to the way COHb binds to hemoglobin. It's more about the displacement of oxygen from hemoglobin, not just 'playing tricks on you'. Has anyone else heard about the limitations of pulse co-oximetry in COHb measurement?",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Great topic, but I have to say, the use of pulse oximetry in CO poisoning is still under investigation. The evidence suggests that bedside pulse cooximetry is not reliable for screening for CO exposure. Can we focus on the diagnostic methods that actually work?",
-        "color": "blue"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Agreed, Sarah. The literature does show that pulse cooximetry is not as reliable as we thought. But, Dr. Sharp, what's the best way to screen for CO exposure then? Blood carboxyhemoglobin levels, maybe?",
-        "color": "green"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Actually, I had a patient last week where the COHb level was only 15%, but she had severe symptoms of CO poisoning. I think we need to look at other factors like the amount of CO exposure and the duration of exposure, rather than just relying on blood levels.",
-        "color": "purple"
-      },
-      {
-        "id": 8,
-        "parent_id": null,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Hey everyone, just a reminder that CO poisoning can be sneaky. I've seen patients present with 'flu-like' symptoms and we didn't even suspect CO poisoning until we checked the cooximetry. Always think of CO poisoning in patients with altered mental status, especially if they have a history of exposure to fuel-powered machinery.",
-        "color": "purple"
-      }
-    ],
-    "image": "https://images.squarespace-cdn.com/content/v1/546e1217e4b093626abfbae7/1548076646481-UFCWCVCR5IIQ7I5X2LD5/image-asset.png"
-  },
-  {
-    "id": 1,
-    "title": "TLDR: Just saw a patient with a suspected pelvic fracture. Anyone got any pearls on imaging and treating these fractures?",
-    "body": "Just saw a patient with a suspected pelvic fracture and I'm still learning about the best ways to diagnose and treat these injuries. I ordered a pelvic radiograph and a CT of the pelvis, but now I'm wondering if I missed anything. Can anyone share their experience with imaging and treating pelvic fractures? Specifically, what are the key radiographic findings that suggest a pelvic fracture, and what's the best approach to treating these injuries?",
-    "category": "medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "First of all, great call on ordering a pelvic radiograph and a CT of the pelvis. For suspected pelvic fractures, I would recommend obtaining a standard AP pelvis radiograph to evaluate for bony injury. If there's a high suspicion for fracture but negative pelvic radiographs, consider CT if available. For hemodynamically unstable patients, evaluate for other locations of bleeding such as the thorax and the peritoneal cavity using a chest radiograph and the focused abdominal sonogram for trauma (FAST) examination. One key radiographic finding to look out for is the presence of pelvic ring instability, which can be a sign of a more serious injury.",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Thorne, can you clarify the difference between pelvic ring instability and pelvic ring disruption?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amen to that, Dr. Thorne. One thing I would add is that in the case of suspected pelvic fractures, it's essential to consider the mechanism of injury. If the patient was involved in a high-speed motor vehicle collision or a fall from a height, it's possible that there may be other injuries that haven't been accounted for. Amateurs would do well to remember this.",
-        "color": "orange"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I totally agree with you, Dr. Sterling. In my experience, the worst-case scenario is always a missed diagnosis. But I would like to add that in the case of pelvic fractures, it's also essential to consider the patient's hemodynamic status. If they're unstable, it's imperative to address that before moving on to other diagnostic tests.",
-        "color": "blue"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "In terms of treatment, I believe open reduction and internal fixation (ORIF) are often recommended for pelvic fractures. Can anyone share their experience with this approach?",
-        "color": "magenta"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "I've had some experience with ORIF for pelvic fractures, and I must say that it can be a challenging procedure. The key is to properly reduce the fracture and stabilize the pelvic ring. In my opinion, a trauma team approach is essential in these cases.",
-        "color": "red"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Has anyone experienced any issues with bleeding or infection after ORIF?",
-        "color": "purple"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "Oh yeah, bleeding is always a concern after ORIF. But we've had good luck with using hemostatic agents to minimize blood loss.",
-        "color": "green"
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "title": "Just saw a patient with severe midfacial and mandibular injuries and wanted to discuss the complexities of surgical airway management in trauma.",
-    "body": "Had a tough case last night where the patient was presenting with severe midfacial and mandibular injuries. They were having trouble maintaining oxygen saturations with bag-valve-mask ventilation, and intubation was deemed unlikely to be successful due to the severe facial trauma. We decided to proceed with a surgical airway, but it was a real challenge. Has anyone else had to deal with this type of thing before? What are your protocols for managing a surgical airway in trauma?",
-    "category": "Emergency_Medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Turbo_Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "TLDR; surgical airway in trauma is a real challenge. I've seen it happen a few times, and it's always a mess. The key is to have a strong team with good communication and a clear plan. We use the 'can't intubate, can't ventilate' script to guide us through the process. Has anyone else used this script before? It's a lifesaver when things are getting hairy.",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr._Aris_Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Great point, Turbo_Tom! The 'can't intubate, can't ventilate' script is a great resource. We also use the ATLS guidelines for trauma airway management, which emphasize the importance of rapid sequence intubation and surgical airway placement when necessary. Has anyone else had to use the ATLS guidelines in practice?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Chad_Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "UMD, what's the difference between a surgical airway and a cricothyrotomy? Are they the same thing or is one more common than the other?",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr._Maya_Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Hey Chad, a cricothyrotomy is actually a type of surgical airway, but they're not the same thing. A cricothyrotomy is a more specific procedure that involves making a small incision in the cricothyroid membrane to access the trachea. A surgical airway can refer to several different types of procedures, including cricothyrotomy, tracheostomy, and laryngotomy. We use cricothyrotomy as a last resort when intubation is not possible.",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": 2,
-        "user": "Dr._Kevin_Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "I'm a little confused, Dr. Thorne. Can you clarify the ATLS guidelines for trauma airway management? I've heard they recommend using the 'can't intubate, can't ventilate' script, but I'm not sure what other steps to take.",
-        "color": "blue"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr._Aris_Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Sorry for the confusion, Kevin. The ATLS guidelines emphasize the importance of rapid sequence intubation and surgical airway placement when necessary. We also use the 'can't intubate, can't ventilate' script as a guide, but the ATLS guidelines take it a step further by recommending additional steps, such as using a bougie and/or a laryngoscope to assist with intubation. It's always a good idea to have a strong team and a clear plan when things are getting hairy.",
-        "color": "green"
-      },
-      {
-        "id": 7,
-        "parent_id": 2,
-        "user": "Leo_Chien",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Thorne, what are some key takeaways from this case? What can we learn from it, and how can we apply it to our practice?",
-        "color": "blue"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr._Aris_Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Great question, Leo. The key takeaway from this case is the importance of having a strong team and a clear plan when dealing with trauma airway management. We also learned the value of using the 'can't intubate, can't ventilate' script and the ATLS guidelines as a guide. In terms of applying it to practice, I would recommend that we review and update our protocols for trauma airway management, and that we emphasize the importance of teamwork and clear communication.",
-        "color": "green"
-      },
-      {
-        "id": 9,
-        "parent_id": 2,
-        "user": "Dr._Rick_The_Rage",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "This is all well and good, but what about the practical realities of trauma airway management? How can we translate all these fancy protocols and guidelines into real-world practice?",
-        "color": "red"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Turbo_Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "AMEN, Dr. Rage! The practical realities of trauma airway management are what get me every time. I've seen it all go to hell when we forget to communicate and plan. We need to keep the patient and their family at the forefront of our minds, and we need to be willing to adapt and change our plans when necessary.",
-        "color": "purple"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Dr._Aris_Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "I couldn't agree more, Turbo_Tom. The patient and their family should always be our top priority. And when it comes to trauma airway management, we need to be flexible and adapt to the changing situation.",
-        "color": "green"
-      },
-      {
-        "id": 12,
-        "parent_id": 9,
-        "user": "Dr._Brock_Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "I think we're getting a bit too caught up in the details here. What's the main goal of trauma airway management, anyway?",
-        "color": "yellow"
-      },
-      {
-        "id": 13,
-        "parent_id": 12,
-        "user": "Turbo_Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "WELL, Dr. Stone, it's not just about the airway, is it? It's about the patient's entire clinical picture. We need to consider the entire patient when deciding on airway management, and we need to be flexible enough to adapt our plans as needed.",
-        "color": "purple"
-      }
-    ]
-  },
-  {
-    "id": 42,
-    "title": "Today I Learned: Upper GI Bleeding in the ER - When to Endoscopy?",
-    "body": "Just saw a patient with upper GI bleeding from a peptic ulcer. The thing that got me thinking was that the patient's hemoglobin was <8g/dL, but the endoscopy revealed a relatively small bleeding site on the ulcer. We ended up having to transfuse 2 units of PRBCs. Got me wondering, how often in the ER do we endoscopy for upper GI bleeding when the source is likely an ulcer? Am I missing something here?\nI'm thinking about our local ER policy of endoscopy for any upper GI bleed with a hemoglobin < 8 g/dL. Is this evidence-based?",
-    "category": "emergency medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "TLDR; endoscopy for upper GI bleeding. So we did a study last year and found that when the endoscopy showed a varix or a Mallory-Weiss tear, the patient had a better outcome if they had an endoscopy ASAP. However, for peptic ulcer bleed, there was no difference in outcome if we did an endoscopy vs. a conservative approach.\n\nBut we also found that if the patient had a hemoglobin level < 6 g/dL, or if they had a history of bleeding ulcers, an endoscopy was a good idea. So, it's not all or nothing.",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Wait, what's the difference between a varix and a Mallory-Weiss tear? I'm so sorry, I'm just a MS1, I haven't learned this stuff yet.",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "No worries Leo! A varix is essentially an enlarged blood vessel that can cause bleeding, usually in the esophagus or stomach. Mallory-Weiss tear is a small tear in the mucous membrane of the esophagus or stomach, usually caused by intense or forceful vomiting. They both need endoscopy, but in different scenarios.",
-        "color": "purple"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "You mentioned a hemoglobin level < 6 g/dL. Can you reference the paper where you got that from? Also, what's the deal with the PRBCs? Why did you have to give 2 units?",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Sure! I referenced the paper by Villanueva et al in 2006. They showed that for patients with upper GI bleeding, a hemoglobin level < 6 g/dL was associated with increased risk of shock and mortality. As for the PRBCs, we gave 2 units because the patient was tachycardic and the endoscopy didn't reveal any active bleeding. We wanted to stabilize the patient while we figured out the next step.",
-        "color": "purple"
-      },
-      {
-        "id": 6,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Lol what about the patients who just have bloody stool? We always do a stool for occult blood and send it to the lab. Is that enough to say we didn't miss anything?",
-        "color": "green"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Haha good point! While a stool for occult blood is definitely a good test, it's not enough to rule out upper GI bleeding. What we want to look for is hematochezia (bright red stool) or melena (black tarry stools). If the patient has one of those symptoms, we should do an endoscopy ASAP.",
-        "color": "purple"
-      },
-      {
-        "id": 8,
-        "parent_id": 6,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "You know, I've seen cases where patients have upper GI bleeding but are asymptomatic. We only catch it because the lab work shows anemia or because of a family member coming in saying 'the patient ate a bunch of antacids' and now has bloody stools . You gotta look at the whole picture, not just the presenting symptoms.",
-        "color": "green"
-      },
-      {
-        "id": 9,
-        "parent_id": 1,
-        "user": "Dr. Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "What about the ER algorithm? Should we even be doing endoscopies for upper GI bleeding in the ER?",
-        "color": "green"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Hmm good question! We usually follow our local ER algorithm which suggests endoscopy within 24 hours of presentation if the patient has a hemoglobin < 7 g/dL and is asymptomatic. However, we can modify it based on the patient's clinical scenario and our institution's guidelines.",
-        "color": "purple"
-      },
-      {
-        "id": 11,
-        "parent_id": 1,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "Folks, let's not forget that we're dealing with real people here. The patient's symptoms, lab work, and social situation all affect the decision to do an endoscopy. We must take a case-by-case approach and not just blindly follow an algorithm.",
-        "color": "green"
-      }
-    ],
-    "image": "https://iem-student.org/wp-content/uploads/2018/05/GIB-Figure-1.png"
-  },
-  {
-    "id": 7,
-    "title": "TLDR: Just saw a patient with precipitous delivery in the ED - what's the key takeaway?",
-    "body": "Just saw a patient with precipitous delivery in the ED. As the ED physician, I managed the airway and assisted with delivery. However, I couldn't help but feel like I was missing something. We discussed the case with the OB team and I was reminded of the importance of prompt delivery of the fetal head. Specifically, we discussed the use of gentle counter-pressure to prevent rapid expulsion of the fetal head and the consequent risk of third- or fourth-degree perineal tears. Has anyone else had similar experiences with precipitous delivery in the ED? What are the key tips for successful delivery in this scenario?",
+    "id": 2,
+    "title": "'Just saw a patient with recurrent vomiting and diarrhea...' - pediatric GI emergency takeaways (TL;DR, don't miss the algorithm for bloody stool!)",
+    "body": "Just saw a patient with recurrent vomiting and diarrhea... As emergency physicians, we've all seen our fair share of GI distress in kids. But have you ever stopped to think about how to efficiently evaluate and manage these cases? I sure as heck haven't, until now. So, here's the takeaway: use the '5 Ps' to evaluate pediatric GI emergencies - Pattern, Pregnancy, Poisoning, Pneumonia, and Peritonitis (or, you know, something like that . Don't get me wrong, it's not foolproof, but it's a good start. And for the love of all things good, don't forget about the bloody stool algorithm! So, what are some takeaways from this case? Can we talk more about the bloody stool algorithm? Have any of you seen cases where it was a toughie to nail down?",
     "category": "Emergency Medicine",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": "Ziggy_Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Precipitous delivery is a nightmare. My take is that the key to avoiding complications is to get those OBs in there ASAP. As in, right after the patient presents. And by ASAP, I mean like within 5 minutes. The earlier the delivery, the less chance of complications. Has anyone else had success with this approach?",
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "The 5 Ps are always a great starting point, but let's not forget about the patient's chief complaint (vomiting and diarrhea, in this case) and history of present illness. What's the duration of symptoms? Any fever, weight loss, or other red flags?",
         "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Sarah_Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "@Ziggy, I agree that early intervention is key. But don't forget about the importance of gentle counter-pressure during delivery. We have a protocol in our ED for gentle counter-pressure, and it's made a huge difference in preventing perineal tears. [Link to protocol](https://emedicine.medscape.com/article/1281558-overview)",
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "TL;DR, Dr. Aris! According to Wong-Baker FACES Pain Scale, infants younger than 3 show signs of pain at the following FACES level: (1) frowning and looking unhappy; (2) holding the head back, arms and legs stiff; (3) clenching teeth and drawing up the corners of the mouth; (4) showing pain while not moving but showing a more intense facial expression of pain; (5) holding the head back and pushing the arms out.",
         "color": "green"
       },
       {
         "id": 3,
-        "parent_id": 1,
-        "user": "Rick_Rage",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "@Ziggy, don't even get me started on precipitous delivery. It's a complete disaster. And don't even get me started on the OBs being late. I swear, they think they're the only ones who matter. Newsflash: we ED docs are the ones on the front lines, dealing with the complications.",
-        "color": "red"
+        "parent_id": 2,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "What a total waste of time this scale is. Amateurs use it to justify more imaging and lab tests. In actuality, what we need is a more straightforward approach - use the Ottawa Rules to evaluate for UTI!",
+        "color": "purple"
       },
       {
         "id": 4,
-        "parent_id": 3,
-        "user": "Maya_Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "@Rick_Rage, I feel you. It's infuriating when the OBs take their sweet time. But we can't forget that they have to deal with the aftercare, and that's just as important as a quick delivery.",
-        "color": "blue"
+        "parent_id": null,
+        "user": "Dr.'Ziggy'Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Hold up, let's not be too hasty. Dr. Victor, the Ottawa Rules have their uses, but sometimes you gotta take a step back and consider all the differentials... Dr. Aris, what do you think about using the PECARN for suspected appendicitis?",
+        "color": "green"
       },
       {
         "id": 5,
-        "parent_id": 1,
-        "user": "Elena_Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "@Ziggy, I think we also need to consider the role of the EP in precipitous delivery. What are the key responsibilities of the EP in this scenario? Should we be focusing on airway management or is there more to it?",
+        "parent_id": 4,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "PECARN is a great tool! According to the research, the 'well-appearing' criterion is defined as follows:\n\n1. Normal or decreased level of consciousness, normal vital signs, and absence of focal abnormalities on the physical examination.\n2. No evidence of systemic toxicity including fever \u2265 38\u00b0C (100.4\u00b0F), leukocytosis (WBC \u2265 15,000 cells/mm3), or bandemia (band count \u2265 10%), or an altered mental status.",
         "color": "purple"
       },
       {
         "id": 6,
-        "parent_id": 5,
-        "user": "Archibald_Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "@Elena_Varkov, an excellent question! In the case of precipitous delivery, the EP's primary responsibility is to assist with airway management and fetal resuscitation. However, we must also consider the role of uterine atony and its consequences. Has anyone else had experience with uterine atony in the ED?",
+        "parent_id": null,
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "Enough chit-chat. Has anyone actually seen a clear case of appendicitis where the PECARN failed them?",
         "color": "green"
       },
       {
         "id": 7,
         "parent_id": null,
-        "user": "Sarah_Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "TLDR: The key takeaway from this discussion is the importance of prompt delivery of the fetal head, gentle counter-pressure, and proper airway management during precipitous delivery. Has anyone else had success with these approaches?",
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "I've seen a few. When in doubt, it's always better to err on the side of caution and admit the patient. Don't rely too heavily on just the PECARN, folks.",
         "color": "purple"
+      },
+      {
+        "id": 8,
+        "parent_id": 1,
+        "user": "Dr. Phil Muddle",
+        "role": "EP",
+        "city": "Regina, SK",
+        "text": "Sorry, what day is it again? Can someone explain this PECARN thingy to me?",
+        "color": "green"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Haha, no worries, Doc. The PECARN is a clinical decision rule for suspected appendicitis in children. It's based on a study from 2005... Google it!",
+        "color": "purple"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "According to the American Academy of Pediatrics, the PECARN was developed to identify children at low-risk for having appendicitis, thus avoiding unnecessary imaging. The predictive values of the various criteria include:\n\nSensitivity: 100.0% (95% CI: 99.4% to 100.0%)\nSpecificity: 89.3% (95% CI: 88.1% to 90.4%)\nPositive Predictive Value (PPV): 74.1% (95% CI: 73.1% to 75.1%)\nNegative Predictive Value (NPV): 99.9% (95% CI: 99.4% to 100.0%)",
+        "color": "green"
+      },
+      {
+        "id": 11,
+        "parent_id": 1,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "So, wait, I've got this: PECARN = Predictive Emergency Critical Care And Research Network? Am I right?",
+        "color": "purple"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Ha! Nice job, Chad! The PECARN isn't actually an acronym for that. It's short for Pediatric Emergency Care Applied Research Network, which, by the way, was established in 2002.",
+        "color": "green"
       }
     ]
   },
   {
-    "id": 123,
-    "title": "Today I Learned: The Nuances of Diagnosing Cardiogenic Shock",
-    "body": "Had a miss last night when I incorrectly attributed a patient's hypotension to cardiogenic shock (CS). After reviewing the case, I realized that the patient's low BP was primarily due to volume depletion. Here's what I learned from the experience:\n\nCS is a serious condition characterized by an inability to maintain sufficient cardiac output, leading to tissue hypoperfusion and multi-organ failure. One of the key challenges in diagnosing CS is differentiating it from other causes of hypotension.\n\nIn this case, the patient presented with SBP < 90 mm Hg, but subsequent evaluation revealed significant dehydration and a normal cardiac function. I learned that a thorough clinical evaluation, including a physical exam, ECG, and laboratory studies, is essential in differentiating CS from other causes of hypotension.\n\nThe American Heart Association defines CS as a state of inadequate cardiac output that results in inadequate circulation to vital organs, leading to a clinical syndrome of hypotension, hypoperfusion, and organ dysfunction. The pathophysiology of CS is complex and multifactorial, involving both cardiogenic and non-cardiogenic mechanisms.\n\nWhen evaluating a patient for CS, it's essential to consider the following factors:\n\n1. **Hypoperfusion**: Assess for signs of hypoperfusion, such as decreased urine output, lactic acidosis, or altered mental status.\n\n2. **Cardiac function**: Evaluate cardiac function using echocardiography, ECG, or other imaging modalities to determine if there is evidence of decreased cardiac output.\n\n3. **Volume status**: Assess the patient's volume status, including signs of dehydration, hypovolemia, or volume overload.\n\n4. **Other causes**: Consider other potential causes of hypotension, such as sepsis, neurological disorders, or medication side effects.\n\nIn summary, diagnosing CS requires a thorough clinical evaluation, including assessment of hypoperfusion, cardiac function, volume status, and other potential causes of hypotension.\n\nTLDR: Don't forget to assess for volume depletion when evaluating a patient for CS!\n\n\n",
-    "category": "emergency medicine",
+    "id": 3,
+    "title": "TIL... Basilar Skull Fractures",
+    "body": "",
+    "category": "EM Stories",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Just saw a patient with a basilar skull fracture last night. Remembered the key findings: hemotympanum, CSF otorrhea or rhinorrhea, periorbital ecchymosis (racoon eyes), and retroauricular ecchymosis (Battle's sign). Anyone else remember the typical location of basilar skull fractures? I was thinking it's along the petrous portion of the temporal bone, but wanted to fact-check.",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Oh man, yeah! Basilar skull fractures are like old school neuro for me! Yeah, typical location is in the petrous portion of the temporal bone. And don't forget the 'three P's'... Pain in the periorbital region, petrous fracture pain...",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "@Dr. Aris Thorne, how do you differentiate between a basilar skull fracture and a C-spine fracture? I know one's in the head and the other in the neck... but serious, any specific findings to look for?",
+        "color": "yellow"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Actually, Leo, if you see periorbital ecchymosis and CSF leaks, it's more likely a basilar skull fracture. But, if you see C-spine fractures, look for the 'three Rs': rigidity, reflexia, and radicular pain.",
+        "color": "green"
+      },
+      {
+        "id": 5,
+        "parent_id": 1,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Wait, does it matter where the fracture is located? Like, what's the difference between... I dunno, a temporal bone fracture vs. something else? Can someone break this down for me?",
+        "color": "blue"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Pre-med bro, the location of basilar skull fractures actually does matter! Temporal bone fractures are a bit different than others, mainly because the temporal bone is unique and has more... I dunno, temporal-ness to it... but seriously, a basilar skull fracture typically means something's going on at the base of the skull, near the petrous bone.",
+        "color": "purple"
+      },
+      {
+        "id": 7,
+        "parent_id": 1,
+        "user": "Dr. Elena Varskov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Don't forget, basilar skull fractures can lead to increased intracranial pressure (ICP). Make sure to assess for signs of elevated ICP, like headaches, nausea, vomiting... and be prepared for seizures!",
+        "color": "orange"
+      },
+      {
+        "id": 8,
+        "parent_id": 1,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Thanks guys, just wanted to make sure I didn't miss anything important. Anyone have any experience with basilar skull fracture management? How often do we see these nowadays?",
+        "color": "purple"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Unfortunately, basilar skull fractures are pretty rare, but when they happen, they're serious. Usually, we see them in patients with severe head trauma, and management involves assessing for complications like ICP, and maybe even an MRI or CT if we need more info.",
+        "color": "green"
+      }
+    ],
+    "image": "https://emergencymedicinecases.com/wp-content/uploads/2017/12/ICH-Golden-Hour-Card.jpeg"
+  },
+  {
+    "id": 1,
+    "title": "Had a miss last night, chest pain conundrum",
+    "body": "Just saw a patient with acute chest pain. Classic symptoms of cardiac ACS (Acute Coronary Syndrome) but all the ECGs and biomarkers were normal. No troponins, no ECG changes, no wall motion abnormalities on echo. Yet, the patient was having crushing substernal pain, radiating to their left arm, and had a history of hypertension and hyperlipidemia. Had to admit them for observation overnight, just in case. Anyone else ever have a case like this? What did you do?",
+    "category": "emergency_medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Had a similar case a few weeks ago. Turned out to be costochondritis. The patient was a young athlete who had recently increased their exercise routine. The pain was sharp, localized to the sternum, and worsened with movement. Don't rule out musculoskeletal causes, especially in patients with a history of trauma or recent physical activity.",
+        "color": "purple"
+      },
+      {
+        "id": 6,
+        "parent_id": 1,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "That's a good point, Dr. Thorne. But what about the patient's age and risk factors for cardiac disease?",
+        "color": "green"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I agree with Dr. Thorne. Costochondritis is a common cause of chest pain. But we should also consider other musculoskeletal causes like pectoralis muscle strain or intercostal strain. And don't forget to check for signs of trauma, even if the patient doesn't report them.",
+        "color": "blue"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Lol what about the patient's symptoms? The crushing substernal pain and radiation to the left arm are classic ACS presentation. Did anyone think about MI or STEMIs?",
+        "color": "red"
+      },
+      {
+        "id": 9,
+        "parent_id": 3,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "That's a good question, Turbo Tom. The patient's symptoms were definitely concerning for ACS. But what about the negative biomarkers and normal ECG?",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Had a similar case last week. Turned out to be pulmonary embolism. The patient was a young woman who had recently returned from a long trip. We needed to do a CT scan and D-dimer to rule out PE.",
+        "color": "purple"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Oh my god, Dr. Zalesky! That's terrifying. Did you catch anything else out of the ordinary on the CT scan?",
+        "color": "pink"
+      },
+      {
+        "id": 10,
+        "parent_id": 4,
+        "user": "Dr. Phil Muddle",
+        "role": "EP",
+        "city": "Regina, SK",
+        "text": "Wait, what? Pulmonary embolism? I thought that was a weird diagnosis for ACS... TLDR: What's the takeaway from Dr. Zalesky's story?",
+        "color": "blue"
+      },
+      {
+        "id": 7,
+        "parent_id": 10,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "I think the takeaway is that we can't rely on symptoms alone to diagnose ACS. We need to consider other diagnoses and do careful investigation to rule them out.",
+        "color": "green"
+      },
+      {
+        "id": 8,
+        "parent_id": 10,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "I see what you mean. My symptoms were just like ACS but my doctor said it was... um... *dramatic pause* ...GERD! Is that right?",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Pediatric Orthopedics Rant",
+    "body": "Just saw a patient with a greenstick fracture and was reminded about how often we get it wrong in pediatrics. Reminder: for 3 to 4 weeks is often preferred over casting. Orthopedic follow-up is usually recommended. We need to remember that in greenstick fractures, the cortex and periosteum are disrupted on one side of the bone but intact on the other.",
+    "category": "CME",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great reminder! Closed reduction and immobilization is a great way to manage greenstick fractures. Anyone else have a trick for diagnosing plastic deformities? I always get confused between a plastic deformity and a bowing fracture.",
+        "color": "blue"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I thought a plastic deformity was just a type of fracture where the diaphyseal cortex is deformed, but the periosteum is intact? Did I get it right?",
+        "color": "blue"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "@Leo, I think you're right, but we also need to consider that plastic deformities can be seen in conjunction with complete fractures in the companion bone. Does anyone have any experience with treating plastic deformities?",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "I'm no expert, but I recall that plastic deformities are often seen in the forearm and lower leg. We always get those patients to Ortho stat for evaluation and treatment. Anyone have a good protocol for orthopedic follow-up?",
+        "color": "purple"
+      },
+      {
+        "id": 5,
+        "parent_id": 1,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "TLDR: Don't forget to check your pediatric patients for signs of child abuse, especially if you've got a patient with multiple fractures in different stages of healing. See Chapter 187 for details.",
+        "color": "red"
+      },
+      {
+        "id": 6,
+        "parent_id": 1,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs and their anecdotal stories about greenstick fractures. Do you know what real evidence-based medicine looks like? We need to start using more advanced imaging modalities like CT, bone scan, or MRI to diagnose fractures like clavicle fractures.",
+        "color": "orange"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "@Dr. Sterling, I understand your point, but let's not forget the value of clinical judgment and experience in pediatric orthopedics. Sometimes, a good old-fashioned history and physical can go a long way in diagnosing fractures.",
+        "color": "blue"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I agree with @Dr. Thorne. As a resident, I've seen plenty of cases where the history and physical were more telling than the imaging. But, of course, we should also use all the tools at our disposal, including advanced imaging modalities.",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "TL;DR: Opioid Toxicity Update and Naloxone Infusion Debate - Share Your Thoughts",
+    "body": "Just saw a patient with a severe opiate overdose last night who required an hour-long naloxone infusion to maintain wakefulness. Has anyone else seen this with sustained-release morphine/oxycodone? Any experiences or protocols with high-risk patients?",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I've seen this with long-acting opioids like methadone and buprenorphine too. One thing that's helped us is using a continuous infusion of naloxone (1/3 to 1/2 of the initial dose per hour) for at least 8 hours after the patient's last oral dose. It's worth noting that there are some concerns about prolonged QT interval and torsades in patients on high dose methadone.",
+        "color": "blue"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Hi Dr. Gupta, thanks for sharing your experience. Can you clarify what you mean by 'at least 8 hours after the patient's last oral dose'? Should we only start the infusion after the patient is asymptomatic or can we start it earlier?",
+        "color": "gray"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Leo, we start the infusion when the patient is stable and their respiratory rate and oxygen saturation are within normal limits. It's not strictly tied to the oral dose timing, but rather the time since their last clinical improvement. Sometimes patients may require prolonged infusions (up to 24 hours) if they're on high doses or have complex medical histories.",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "TL;DR for us non-EM residents: should we be using anesthetic- induced sedation protocols for suspected opioid overdoses? Can someone explain the risk-benefit ratio?",
+        "color": "orange"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great question, Chad. While anesthetic-induced sedation can be effective in reducing agitation and discomfort, it shouldn't be used as a substitute for appropriate opioid management. In fact, it may delay diagnosis and treatment of opioid overdose. However, if a patient is hemodynamically unstable or has a high risk of aspiration, it may be considered under close supervision by a trained anesthesiologist.",
+        "color": "red"
+      }
+    ],
+    "image": "https://emergencymedicinecases.com/wp-content/uploads/2018/10/Opiod-Overdose.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Rant about Hymenoptera Stings: A Reminder of the Importance of Systemic Reactions",
+    "body": "Just saw a patient with a classic example of a systemic reaction from a Hymenoptera sting. We get so caught up in the local reaction and the pain, but let's not forget that these stings can cause severe systemic reactions, including anaphylaxis. I had a miss last night where I thought the patient was just having a bad local reaction, but turns out it was a true anaphylactic reaction. Long story short, we ended up intubating her and giving her a dose of methylprednisolone.",
+    "category": "Emergency Medicine",
     "comments": [
       {
         "id": 1,
@@ -861,261 +745,224 @@
         "user": "Dr. Sarah Sharp",
         "role": "EP",
         "city": "Laval, QC",
-        "text": "Great post, Dr. Thorne! You're absolutely right that assessing volume status is crucial in differentiating CS from other causes of hypotension. I've seen many cases where patients were admitted to the ICU with a diagnosis of CS, only to later discover that they were severely dehydrated. I would add that evaluating the patient's fluid responsiveness using tools like the Stroke Volume Variation (SVV) or the Pulse Pressure Variation (PPV) can be helpful in determining the need for fluid resuscitation.\n\nhttps://www.ncbi.nlm.nih.gov/pubmed/26673619\n\nTLDR: Don't forget to assess fluid responsiveness in your CS patients!\n\n",
+        "text": "TLDR: Don't underestimate Hymenoptera stings and their potential for systemic reactions. Make sure to assess for signs of anaphylaxis, especially in patients with a history of allergies. I've seen cases where a patient with a known allergy to shellfish ends up with anaphylaxis from a wasp sting. It's a reminder of how unpredictable our patients can be. I'd like to see more discussion on the use of antihistamines and epinephrine in these situations. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4204454/",
         "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "That's really interesting, Dr. Sharp! I had a question regarding the fluid responsiveness tools you mentioned. Can you explain how to interpret the SVV and PPV? Are there any specific parameters that we should be looking for?\n\n",
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Dr. Sharp, great point about not underestimating Hymenoptera stings. What do you think about the use of antihistamines in conjunction with epinephrine for Hymenoptera stings? I've read some studies that suggest antihistamines can be effective in reducing the severity of the local reaction, but I'm not sure if it's worth the extra cost and side effects. Have you had any experience with this? ",
         "color": "green"
       },
       {
         "id": 3,
         "parent_id": 1,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Great question, Dr. Park!\n\nThe SVV and PPV are both dynamic indices that reflect changes in stroke volume in response to fluid loading or vasopressor administration. The SVV is calculated as the standard deviation of the stroke volume over a 30-second period, while the PPV is calculated as the standard deviation of the pulse pressure over a 30-second period.\n\nWhen interpreting these values, we typically look for a < 10% increase in SVV or PPV as an indicator of fluid responsiveness. However, these values can vary depending on the population and clinical context, so it's essential to use them in conjunction with other clinical parameters, such as blood pressure and urine output.\n\nAdditionally, the Dynamic Index of Fluid Responsiveness (IDF) has been proposed as a more sensitive and specific indicator of fluid responsiveness. However, more research is needed to fully understand its utility in clinical practice.\n\nhttps://www.ncbi.nlm.nih.gov/pubmed/27233119\n\n",
-        "color": "purple"
-      },
-      {
-        "id": 4,
-        "parent_id": null,
         "user": "Dr. Brock Stone",
         "role": "FRCSC",
         "city": "Hamilton, ON",
-        "text": "I disagree with the notion that assessing volume status is always necessary before diagnosing CS. In many cases, the patient's clinical presentation and laboratory studies are clear-cut indicators of CS, and further evaluation is unnecessary. Additionally, relying too heavily on tools like the SVV or PPV can lead to over-interpretation and overly aggressive fluid resuscitation, which can have negative consequences in critically ill patients.\n\nTLDR: Don't get too caught up in the nuances of fluid responsiveness \u2013 sometimes it's better to trust your clinical instincts!\n\n",
-        "color": "blue"
+        "text": "I disagree with Dr. Sharp and agree with Dr. Gupta about the use of antihistamines. In my opinion, antihistamines can help reduce the severity of the local reaction and may even help prevent anaphylaxis in some cases. However, it's worth noting that antihistamines should not be used as a replacement for epinephrine in cases of anaphylaxis. I've seen some cases where patients have been given antihistamines and still ended up with anaphylaxis. We need to be more aggressive with epinephrine administration in these situations. Here's a study that supports my argument: https://www.jacionline.org/article/S1097-3819(12)01593-9/fulltext",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "I'd like to add my 2 cents to this discussion. As an internist, I've seen many cases of Hymenoptera stings that have led to systemic reactions, including anaphylaxis. In my opinion, we need to be more aware of the risk of anaphylaxis in patients with a history of allergies and in patients who are taking certain medications that can increase the risk of anaphylaxis. I'd like to see more discussion on the use of pre-exposure prophylaxis in high-risk patients. Anyone have any information on this topic?",
+        "color": "green"
       },
       {
         "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "I understand where you're coming from, Dr. Stone, but I think there's a difference between clinical judgment and relying on tools like the SVV or PPV. While these indices are not foolproof, they can provide valuable information that can help inform our decision-making.\n\nIn my experience, patients with CS often have complex underlying pathophysiology, and relying solely on clinical judgment can lead to missed diagnoses or delayed treatment.\n\nTLDR: Let's not dismiss the value of these tools \u2013 instead, let's use them in conjunction with our clinical expertise!\n\n",
-        "color": "purple"
-      },
-      {
-        "id": 6,
-        "parent_id": null,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Love this thread! As an RN, I've seen many cases where patients were incorrectly diagnosed with CS due to misinterpretation of lab values or ECGs. One thing that's stuck with me is the importance of considering the patient's overall clinical picture, including their medical history, physical exam findings, and lab results. Don't get me wrong, the SVV and PPV can be helpful tools, but let's not forget the 80/20 rule \u2013 80% of the time, it's the simple things that make all the difference.\n\n",
-        "color": "pink"
-      },
-      {
-        "id": 7,
-        "parent_id": null,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "Apologies for my ignorance, but what exactly is this 'SVV' everyone's talking about? Is it some new-fangled gadget or what?\n\nI must say, I'm quite interested in learning more about this topic, as it seems to be quite relevant to modern medicine.\n\n",
-        "color": "orange"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
+        "parent_id": 1,
         "user": "Dr. Kevin Park",
         "role": "PGY1",
         "city": "Edmonton, AB",
-        "text": "No worries, Dr. Thorne! The SVV is actually a measure of the variation in stroke volume over a 30-second period. It's used as an indicator of fluid responsiveness, meaning it can help us determine whether a patient will respond to fluid loading or vasopressor administration.\n\nThink of it like a heartbeat \u2013 just as we can measure the rhythm and variability of a patient's pulse, we can measure the variability of their stroke volume using tools like the SVV.\n\nhttps://www.ncbi.nlm.nih.gov/pubmed/27513389\n\n",
+        "text": "Dr. Varkov, I've been doing some reading on pre-exposure prophylaxis for Hymenoptera stings, and I think it's a great idea. From what I've read, some studies have shown that immunotherapy can be effective in preventing systemic reactions in patients with a history of allergies. However, I'd love to hear more about the specific protocols and recommendations for this treatment. Does anyone have any experience with this?",
+        "color": "green"
+      },
+      {
+        "id": 6,
+        "parent_id": 1,
+        "user": "Dr. Rick 'The Rage'",
+        "role": "EP",
+        "city": "Windsor, ON",
+        "text": "This discussion about Hymenoptera stings is a joke. We all know that wasp stings can cause anaphylaxis, but let's be real, most patients with Hymenoptera stings are going to be fine. We need to stop wasting our time and resources on these patients and focus on the real emergencies. This whole discussion is just a bunch of hand-wringing and pearl-clutching. Anyone else feel like I do?",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Sexual Assault Management: A Real-World Challenge",
+    "body": "Just saw a patient with a sexual assault history and it got me thinking about the nuances of evidence collection. Anyone else have a tricky experience with forensic evidence kits? I'm still trying to wrap my head around the whole chain of custody thing.",
+    "category": "emcrit",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great reminder of the importance of following the standard protocol for evidence collection. It's not just about collecting the right swabs, but also about maintaining the chain of custody to increase the chances of a successful prosecution. Any tips for handling patient anxiety and distress during this process?\n\nTL;DR: Don't forget the patient's perspective in the midst of collecting evidence.",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Hi @Dr. Aris Thorne, I'm not sure if it's appropriate to mention this, but in the paper 'The Impact of Sexual Assault on Patients' by Dr. Lisa Moreno-Walton, she mentions the importance of offering the patient a choice in where they undergo the examination. It's not just about collecting evidence, but also about providing care and support during a traumatic experience.",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "What about the importance of a detailed patient history? I've read that a thorough history can help identify potential risks and improve outcomes. Can someone explain the different types of assault and how a doctor should approach each case?",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Ah, the amateur hour has arrived. Let me clarify: assault can be broadly classified into three categories - physical contact, penetration, and non-penetrative abuse. The approach to each case depends on the type and severity of the assault. A careful history and physical exam, of course, are essential in identifying potential evidence and guiding further management.",
+        "color": "red"
+      },
+      {
+        "id": 5,
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "As a nurse, I've seen my fair share of forensic exams. What about the role of the Sexual Assault Nurse Examiner (SANE) program? Have any of you participated in or worked with SANE programs in the past?",
+        "color": "orange"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I've studied the SANE program and it seems like a comprehensive approach to evidence collection and patient care. Can someone explain the training process for SANE nurses and how they interact with other healthcare professionals during a forensic examination?",
+        "color": "yellow"
+      },
+      {
+        "id": 7,
+        "parent_id": 5,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "As a resident, I've worked with SANE nurses and they're a valuable resource in the forensic exam process. The training process typically involves a combination of didactic sessions, hands-on training, and clinical experience. They work closely with other healthcare professionals to ensure a comprehensive approach to patient care.",
+        "color": "pink"
+      },
+      {
+        "id": 8,
+        "parent_id": 1,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "This thread has been enlightening, folks. As an ER nurse with 30 years of experience, I've seen my fair share of forensic exams. What about the importance of ongoing education and professional development in this field? How can we stay current with the latest research and best practices?",
+        "color": "brown"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "I've been lucky enough to attend a few conferences on sexual assault and trauma. Some of the most informative sessions were from experts speaking on the topic of intersectionality and the impact of structural barriers on patients' experiences. Can anyone recommend resources for learning more about this topic?",
+        "color": "gray"
+      },
+      {
+        "id": 10,
+        "parent_id": 1,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "This thread has covered some crucial points about sexual assault management, but I think we can't overlook the importance of interprofessional collaboration and communication. Any thoughts on how we can foster better relationships between healthcare teams, law enforcement, and other stakeholders?",
+        "color": "purple"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "That's a great question, @Dr. Elena Varkov. In my experience as a nurse, I've seen how a clear and compassionate communication style can make a world of difference in the patient's experience. What do other healthcare professionals find most helpful when it comes to interprofessional communication and collaboration?",
         "color": "green"
       }
     ]
   },
   {
     "id": 1,
-    "title": "Case Report: Unforeseen Complication of Acute Urinary Retention in the ED",
-    "body": "Today I learned a valuable lesson about the importance of thorough evaluation in the emergency department. I had a patient come in with symptoms of acute urinary retention, and after relieving the obstruction with a urethral catheter, I failed to notice a subtle but significant change in the bladder ultrasound. To make matters worse, the resident on shift was unfamiliar with the manufacturer's calculation package and couldn't accurately estimate the retained urine volume. We ended up admitting the patient, but it was a long night. Anyone else have a recent experience with a complication of urinary retention?",
-    "category": "emergency medicine",
+    "title": "Had a tricky case of nonconvulsive status epilepticus last night...",
+    "body": "Just saw a patient with a complex past medical history, presenting with altered mental status and no obvious focal deficit. EEG showed diffuse slow activity without any clear seizure activity. We suspected NCSE (nonconvulsive status epilepticus) and treated accordingly. After some convincing arguments, our patient's primary care physician agreed to admit and we initiated IV levetiracetam. The patient started to show some improvement on the next shift, and the EEG normalized.",
+    "category": "Emergency Medicine",
     "comments": [
       {
-        "id": 11,
-        "parent_id": 1,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "TL;DR: thorough evaluation is key in UR cases. I'd recommend using a low-frequency sector format probe in both transverse and sagittal views to get a more accurate measurement of residual urine volume. Make sure to also assess for any secondary injury to the renal system and treat the primary cause of retention.",
-        "color": "purple"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Thorne, what's the protocol for assessing renal system injury in cases of acute urinary retention? And what's the significance of residual urine volume in this context?",
-        "color": "green"
-      },
-      {
-        "id": 13,
-        "parent_id": 12,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Great question, Leo! When evaluating for renal system injury, we typically look for signs of acute kidney injury, such as elevated creatinine levels or oliguria. Residual urine volume is a measure of the volume of urine left in the bladder after voiding, and it can be used to estimate the effectiveness of the urethral catheterization. If the volume is >50-150 cc, it's considered abnormal and may indicate an underlying issue.",
-        "color": "blue"
-      },
-      {
-        "id": 14,
-        "parent_id": 13,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "That makes sense. But what about the manufacturer's calculation package? How can we use it to estimate retained urine volume?",
-        "color": "yellow"
-      },
-      {
-        "id": 15,
-        "parent_id": 14,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs like Leo don't know the first thing about ultrasound. The package is used to estimate residual urine volume based on bladder geometry, but it's not foolproof. You need to be an expert in ultrasound to get accurate results.",
-        "color": "red"
-      },
-      {
-        "id": 16,
-        "parent_id": 15,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Victor, that's not helpful. Dr. Gupta explained it perfectly. It's a useful tool, but it shouldn't be relied upon as the sole means of estimating residual urine volume. A thorough clinical evaluation is still necessary.",
-        "color": "purple"
-      },
-      {
-        "id": 17,
-        "parent_id": 1,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "You'd better believe I had to stick my nose in on this one. Patients with infections or hemodynamic instability need to be admitted ASAP. I've seen too many close calls when these patients get sent home too soon.",
-        "color": "brown"
-      },
-      {
-        "id": 18,
-        "parent_id": 17,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "RN Martha, can you explain what 'hemodynamic instability' means in this context?",
-        "color": "orange"
-      },
-      {
-        "id": 19,
-        "parent_id": 18,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "Hemodynamic instability, kiddo, means the patient's blood pressure, heart rate, or other vital signs are fluctuating wildly. It's a sign of impending shock. You don't want to be the doctor who sends a patient home with a nice big bag of antibiotics and sends them packing only to have them code on the ride home. Trust me, it's not worth the risk.",
-        "color": "brown"
-      },
-      {
-        "id": 20,
-        "parent_id": 19,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "RN Martha has a point. Patients with infections or hemodynamic instability should be admitted for close monitoring and treatment. But let's not forget about the long-term implications of urinary retention and potential complications such as hydronephrosis or renal failure.",
-        "color": "pink"
-      },
-      {
-        "id": 21,
-        "parent_id": 20,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Varkov, what's the significance of hydronephrosis in this context?",
-        "color": "green"
-      },
-      {
-        "id": 22,
-        "parent_id": 21,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Hydronephrosis is a condition where the kidneys become enlarged due to the build-up of urine. It's a potential complication of prolonged urinary retention. We need to be vigilant in monitoring patients for signs of this condition, especially in cases where urinary retention persists.",
-        "color": "blue"
-      },
-      {
-        "id": 23,
-        "parent_id": 22,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Okay, I think I get it. So we need to monitor for signs of hydronephrosis and renal failure in patients with prolonged urinary retention.",
-        "color": "yellow"
-      },
-      {
-        "id": 24,
-        "parent_id": 23,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "That's right, Sarah! And don't forget to follow up with a complete genitourinary evaluation in 3-7 days to ensure that the patient's urinary retention has resolved. Good luck!",
-        "color": "purple"
-      },
-      {
-        "id": 25,
+        "id": 1,
         "parent_id": null,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "Apoplexy! This is what happens when we don't take the time to properly evaluate our patients. Good show, everyone. Now go forth and practice evidence-based medicine!",
-        "color": "silver"
-      },
-      {
-        "id": 26,
-        "parent_id": 25,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "Yeah, yeah, I've heard it all before. More bureaucracy, more paperwork, more 'evidence-based this' and 'evidence-based that'. Can we just do medicine already?",
-        "color": "gray"
-      },
-      {
-        "id": 27,
-        "parent_id": 26,
-        "user": "Dr. Phil Muddle",
-        "role": "EP",
-        "city": "Regina, SK",
-        "text": "Wait, what day is it?",
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "TLDR; (too long; didn't read)? What's the patient's PMH (past medical history)? Did they have any previous history of seizures?",
         "color": "purple"
       },
       {
-        "id": 28,
-        "parent_id": 27,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Don't ye worry, Dr. Phil, I've got the date right here. 'Tis the 22nd of February, if ye don't mind me askin'!",
-        "color": "orange"
-      },
-      {
-        "id": 29,
+        "id": 2,
         "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "You guys are killin' me with all the medical jargon. Can someone explain this in simple terms?",
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "According to the hospital record, the patient had a previous traumatic brain injury and a few weeks ago they developed a fever-induced seizure (febrile seizure). Could that be related to the current presentation?",
         "color": "green"
       },
       {
-        "id": 30,
-        "parent_id": 29,
+        "id": 3,
+        "parent_id": 2,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Leo, great job spotting that! Yes, we should definitely consider a possible link between the TBI (traumatic brain injury) and the febrile seizure. Let's check the patient's CT scans and make sure there are no new abnormalities.",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
         "user": "Dr. Kevin Park",
         "role": "PGY1",
         "city": "Edmonton, AB",
-        "text": "Okay, so when a patient has urinary retention, we need to make sure they're not at risk for complications like kidney damage or infection. We use special equipment to measure the amount of urine left in the bladder, and we also monitor their vital signs to make sure they're stable. It's a team effort to keep patients safe and healthy.",
-        "color": "blue"
+        "text": "What EEG criteria did you use to diagnose NCSE? We use the '2/3 or 3/3' rule in our institution.",
+        "color": "purple"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Good question, Kevin! We actually use the '2-3/5' criteria as per the American Epilepsy Society guidelines. It's worth noting that the '3/3' rule may lead to overdiagnosis in some cases.",
+        "color": "green"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs, stop overcomplicating NCSE diagnostics! We use the 'Clinical seizure diagnosis and not EEG' (which is practically irrelevant) and get on with the treatment. Let's not forget that NCSE can present as 'nothing' for hours.",
+        "color": "purple"
       }
     ],
-    "image": "https://www.ebmedicine.net/media_library/images/2021-EMP-Publication-Article/03-March/Clinical-Pathway-for-Emergency-Department-Diagnosis-and-Treatment-of-Acute-Urinary-Retention-in-Adult-Males-Thumbnail.png"
+    "image": "https://i0.wp.com/emcrit.org/wp-content/uploads/2022/07/statusepi.jpg?resize=450%2C701&ssl=1"
   }
 ]
