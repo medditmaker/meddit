@@ -1,547 +1,72 @@
 [
   {
     "id": 0,
-    "title": "The Dreaded Cardiogenic Shock - A Missed Opportunity for Intervention?",
-    "body": "Had a patient with cardiogenic shock last night and I'm still kicking myself for not catching it earlier. We ended up having to intubate and admit to ICU with an intraaortic balloon pump. Anyone else ever have a case where they felt like they blew it? Was there anything I could've done differently?",
-    "category": "emergency-medicine",
-    "created_at": "2024-01-09T14:30:00Z",
-    "user": {
-      "name": "Dr. Maya Gupta",
-      "role": "PGY2",
-      "city": "Mississauga, ON"
-    },
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": {
-          "name": "Dr. Maya Gupta",
-          "role": "PGY2",
-          "city": "Mississauga, ON"
-        },
-        "text": "I've seen cases where cardiogenic shock was missed because the patient had a 'non-distracting' presentation - you know, no obvious MI or cardiac murmur. But the ECG was showing subtle signs of ischemia, and the BNP was high. If only I'd looked closer... TLDR: Cardiogenic shock is often a silent killer; stay vigilant and don't just rely on the obvious.",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": {
-          "name": "Dr. Sarah Sharp",
-          "role": "EP",
-          "city": "Laval, QC"
-        },
-        "text": "AMEN to that, @DrGu! I had a case last year where the patient had a mild MI, but the ECG showed signs of LAD occlusion. The doc on call missed it, and the patient ended up in cardiogenic shock 6 hours later. If we'd caught it earlier, we might've been able to save the patient. Always remember: cardiogenic shock is a 'canary in the coal mine' for cardiac ischemia and dysfunction.",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": {
-          "name": "Turbo Tom",
-          "role": "RN",
-          "city": "London, ON"
-        },
-        "text": "I've seen some crazy cases of cardiogenic shock, but the one that stands out was a 35-year-old who presented with chest pain and was initially diagnosed with panic attack. We did a stat ECG and found signs of inferior wall MI. If we'd waited another 30 mins, the patient would've been brain-dead . Always get the ECG and don't assume it's just anxiety or a 'tummy ache'.",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": {
-          "name": "Leo Chen",
-          "role": "MS1",
-          "city": "Montreal, QC"
-        },
-        "text": "Hi @Turbo Tom, can you elaborate on the ECG findings you saw in that patient? Specifically, what patterns did you see in the leads that helped confirm the MI?",
-        "color": "orange"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": {
-          "name": "Turbo Tom",
-          "role": "RN",
-          "city": "London, ON"
-        },
-        "text": "Hey @LeoChen, we saw ST-segment elevation in leads II, III, and aVF, with reciprocal changes in lead I. It was a textbook case of right ventricular infarct! Make sure to get a 12-lead ECG ASAP and pay attention to those subtle signs of cardiac distress.",
-        "color": "violet"
-      },
-      {
-        "id": 6,
-        "parent_id": 1,
-        "user": {
-          "name": "Dr. Brock Stone",
-          "role": "FRCSC",
-          "city": "Hamilton, ON"
-        },
-        "text": "Don't get me wrong, folks, but sometimes cardiogenic shock can masquerade as other conditions - especially in the elderly or those with multiple comorbidities. Make sure to think beyond the 'cardiac cause' and consider hypovolemia, meds, or even something as simple as hypocalcemia. It's not as easy as it looks, trust me.",
-        "color": "red"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": {
-          "name": "Dr. Elena Varkov",
-          "role": "FRCPC",
-          "city": "Quebec City, QC"
-        },
-        "text": "That's spot on, @DrStone. I had a case last week where the patient's 'hypertensive crisis' was actually a sign of cardiogenic shock due to acute MR (mitral regurgitation). Moral of the story: stay alert and look for patterns beyond the obvious. Also, don't forget to measure the lactate levels!",
-        "color": "brown"
-      }
-    ],
-    "image": "https://emergencymedicinecases.com/wp-content/uploads/2022/01/Cardiogenic-Shock-Simplified.png"
-  },
-  {
-    "id": 1,
-    "title": "Just saw a patient with probable bacteremia despite being well-appearing and afebrile - What are your thoughts?",
-    "category": "Pediatrics",
-    "body": "Yesterday I saw a 9-month-old with a blood culture positive for a gram-negative rod. The baby was clinically well and afebrile, but we got the culture result back and it shows a likely pathogenic organism. This got me thinking... how often do we get false positives? What are the true criteria for sepsis workup in pediatric patients? Do we really need to be doing all these tests?",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Honestly, sepsis workup is a beast. I've seen cases where we've done the whole works, only to find out it's a contaminant. But that being said, I'd rather err on the side of caution and do the CBC, blood culture, and urinalysis. Have you guys seen the updated Peds Sepsis Consensus guidelines? We should all be following these recommendations.",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Wait, what's the protocol for sepsis workup in neonates? Do we really need to repeat the blood culture if it's already positive? What about the lumbar puncture?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "I think the key is identifying a high-risk population for sepsis. In the latest Pediatric Sepsis Consensus Guidelines (2019), they mention that infants < 3 months old should have a full sepsis workup regardless of clinical presentation. For older kids, we can use the PECARN Sepsis tool to assess risk.",
-        "color": "teal"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Dr. Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "I'm not a fan of the aggressive testing. In my experience, most blood cultures are contaminants. Why are we wasting time and resources on this? Can't we just focus on the clinical presentation and not over-diagnose? Has anyone seen the work on risk stratification for pediatric sepsis?",
-        "color": "red"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "In my day, we didn't have all these fancy tools and guidelines. We just used our brains and clinical judgement. If it's a 9-month-old with a blood culture positive for a gram-negative rod, and they're clinically well and afebrile, I'd treat it with caution and do a bit more testing. But, by gum, I wouldn't just send them home without another thought!",
-        "color": "blue"
-      },
-      {
-        "id": 6,
-        "parent_id": 2,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Good question, Leo! In neonates, we typically follow the American Academy of Pediatrics (AAP) guidelines for sepsis workup. Repeat blood culture is usually not necessary if the first one is already positive, but if there's a change in clinical status or if it's still a concern, we may repeat it. And yes, lumbar puncture can be considered if there's suspicion of meningitis.",
-        "color": "purple"
-      },
-      {
-        "id": 7,
-        "parent_id": 3,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Thanks, Sarah! So just to clarify, we use the PECARN Sepsis tool for older kids, but what about neonates? Is there a specific threshold for risk stratification?",
-        "color": "green"
-      },
-      {
-        "id": 8,
-        "parent_id": 4,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Actually, Brock, there are studies showing that most blood cultures in children are contaminants, but I still think it's better to err on the side of caution. Even if it's rare, sepsis is a life-threatening condition. Have you checked out the sepsis apps on EMRs? They're quite useful for risk stratification.",
-        "color": "purple"
-      },
-      {
-        "id": 9,
-        "parent_id": 5,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "LOL, Dr. Thorne, you're so old-school! But, seriously, what are some of your favorite old-school tools for diagnosing sepsis?",
-        "color": "yellow"
-      },
-      {
-        "id": 10,
-        "parent_id": 6,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Thanks again, Dr. Gupta! So just to clarify, if we're concerned about sepsis in a neonate, we'd follow the AAP guidelines and not repeat the blood culture unless there's a change in clinical status?",
-        "color": "green"
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "title": "Frustrated with Hernia diagnosis - Red flags I'm missing?",
-    "body": "Just saw a patient with a 'benign' inguinal hernia that turned out to be a strangulated femoral hernia. I'm usually pretty good at picking up on red flags but this one slipped through the cracks. After some reflection, I realized that the patient was asymptomatic at first but presented with severe pain, nausea, and vomiting, which are classic signs of bowel obstruction.",
-    "category": "emergency physicians",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "TLDR; I'm impressed you're taking the time to reflect on your mistake. Remember, we're all human and we all make mistakes. The key is to learn from them. In this case, I'd say the red flags were likely the patient's history of chronic obstructive pulmonary disease (COPD) which increased their intra-abdominal pressure, and the fact that they were a female patient, as femoral hernias are more common in females. Have you considered reviewing your radiology to see if you missed any subtle signs of bowel obstruction?",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs like OP here always miss the obvious signs of bowel obstruction. Anyone who's been doing this for more than 5 years should be able to spot a dilated bowel loop on the CT scan. The fact is, most inguinal hernias are not strangulated, so we need to be careful not to over-diagnose. I've reviewed the radiology, by the way, and saw nothing out of the ordinary.",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Oh come on Vic, it's not about being an 'amateur' - it's about being human and learning from our mistakes. OP is already reflecting on their mistake and wanting to learn from it. I've seen plenty of experienced surgeons miss things too. Let's focus on teaching each other and providing high-quality patient care rather than tearing each other down.",
-        "color": "orange"
-      },
-      {
-        "id": 4,
-        "parent_id": 2,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Can I ask, what's the best way to spot a dilated bowel loop on a CT scan? I've seen some images but I'm not sure what to look for.",
-        "color": "lightblue"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Leo, great question! When looking for a dilated bowel loop, I like to check for signs of bowel obstruction such as a cutoff sign, a bird beak sign, or a target sign. You can also look for signs of ileus, such as a lack of mucosal outline or a failure to see the bowel wall. Keep in mind that these signs can be subtle, so it's always a good idea to check in with a radiologist if you're unsure.",
-        "color": "violet"
-      },
-      {
-        "id": 6,
-        "parent_id": 2,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Let's get back to the patient. I agree with Dr. Thorne that we should review the radiology and history to see if we can pick up on any other signs that may have been missed. One thing that comes to mind is the possibility of a missed diagnosis of an underlying medical condition, such as a gastrointestinal foreign body or an inflammatory bowel disease. Has anyone considered that possibility?",
-        "color": "pink"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Elena, that's a great point. In my experience, patients with underlying medical conditions often present with atypical symptoms or delayed presentations. I'd love to see more discussion on how to approach a patient with a complex medical history. Perhaps we can share some cases or discuss our approaches to managing these patients?",
-        "color": "brown"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Ziggy, I agree. Complex medical cases require a high level of vigilance and a willingness to think outside the box. In my experience, it's not just about identifying the underlying condition, but also about recognizing the signs of a missed diagnosis. For example, a patient who's 'benignly' inguinal hernia turns out to be a femoral hernia... have we seen any other cases like this?",
-        "color": "gray"
-      },
-      {
-        "id": 9,
-        "parent_id": null,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "I've seen a few cases of incarcerated hernias that presented with similar symptoms. Has anyone else observed a correlation between hernia type and patient demographics?",
-        "color": "yellow"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Actually, I've read that female patients are more likely to have femoral hernias due to differences in pelvic anatomy. Is that right, or am I just regurgitating what I've learned from MedLine Plus?",
-        "color": "magenta"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "Chad, you're not just regurgitating what you've learned from MedLine Plus... you're absolutely right! There is a higher prevalence of femoral hernias in females, and it's thought to be due to differences in pelvic anatomy. As family physicians, we should be aware of this and consider it in our differential diagnosis.",
-        "color": "teal"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Henry's right, of course. As emergency physicians, we should be aware of the higher risk of femoral hernias in females and not miss a chance to rule it out, especially in patients with a history of COPD or other risk factors. Has anyone considered a more thorough review of our hospital's hernia protocols to see if we can improve our diagnostic accuracy?",
-        "color": "blue"
-      },
-      {
-        "id": 13,
-        "parent_id": 12,
-        "user": "Dr. Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "Sarah, I'm not sure a more thorough review of our protocols is necessary. Our surgeons are well-versed in hernia repair and can spot a strangulated hernia from a mile away. It's the emergency physicians who need to learn how to properly evaluate and manage these patients. Any more 'education' just means wasted time for everyone involved.",
-        "color": "burgundy"
-      },
-      {
-        "id": 14,
-        "parent_id": 13,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Brock, I disagree. Education is never a waste of time, especially when it comes to patient care. We should be open to learning from each other and sharing our expertise to improve our performance. That being said, I do think we should focus on the patient's care, not just the protocol or the surgeon's 'spotting' abilities.",
-        "color": "orange"
-      },
-      {
-        "id": 15,
-        "parent_id": 14,
-        "user": "Dr. Phil Muddle",
-        "role": "EP",
-        "city": "Regina, SK",
-        "text": "I think I've got something to say... but uh... what day is it again? Hmm, anyway... isn't the main point that we should be looking at the patient, not just the protocol or the surgeon's skills? Like, I think I learned about something called the 'cut-off sign' for bowel obstruction... is that right, or did I just drink too much coffee this morning?",
-        "color": "tan"
-      },
-      {
-        "id": 16,
-        "parent_id": 15,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "Ah, good fellow Phil, don't worry about the day of the week. We're all on the same wavelength here. Now, about that 'cut-off sign' you mentioned... indeed, it's a useful sign to look for in bowel obstruction cases. Perhaps I can clarify what it is for you and the rest of the good folks in this discussion?",
-        "color": "khaki"
-      }
-    ]
-  },
-  {
-    "id": 123,
-    "title": "Sudden Cardiac Death in Kids - My Worst Miss Last Night",
-    "body": "Just got back from a night shift and I'm freaking out... I had a kid die from sudden cardiac arrest at home with no warning signs or history of heart problems. He was just playing basketball with his friends, and suddenly collapsed. His coach called 911 and CPR was started ASAP, but sadly, he didn't make it. The autopsy report is still pending, but the family is devastated.\n\nThe thing is, this kid looked healthy to me. Normal ECG, no signs of arrhythmias, no HTN. I even cleared his family for sports participation last month!\n\nHas anyone else ever had a sudden cardiac death patient who looked so healthy and normal? What are common red flags in pediatric cardiac arrests?\n\nAnd how can we better predict and prevent these tragic events? I've been rereading the literature and I'd love to get your input.",
+    "title": "Rant about Low-Probability Acute Coronary Syndrome in the ED",
+    "body": "Just saw a patient with chest pain and normal ECG, Troponin, and Stress test. I'm starting to think our ED is too zealous in sending patients for Cardiac Cath. Anyone else feel like we're over-diagnosing ACS? I've seen 5 cases this week alone, and 4 of them had unremarkable workups. TLDR: What are your thoughts on LACS in the ED?",
     "category": "Emergency Medicine",
     "comments": [
       {
-        "id": 11,
-        "parent_id": null,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Dude, I feel your pain. Just last week, I had a 15-yr-old with a normal ECG and BP, just sitting in class... suddenly keels over from SCA. We're still trying to figure out what triggered it. But, I dug up some recent guidelines on pediatric cardiac arrest prediction and prevention.\n\nThe \"SAN FRANCISCO SYNCOPE RULE\" (yes, it's a thing) identifies high-risk features for SCA, including abn ECG, shortness of breath, low BP, and age \u226541 yrs. But, most of these kids have normal exams... until it's too late.\n\nOne thing I've learned is to always order a \"pediatric cardiac assessment\" in any young patient with a suspected cardiac concern. Even if it's just a routine pre-op check, it's saved lives for me. What do you think? Should we be more aggressive with cardiac screening in this age group?\n\nTLDR; check out this link from the American Academy of Pediatrics: <https://pediatrics.aappublications.org/content/142/3/e20210138>\n\n#SANFRANCISCOSYNCOPE#PEDCARDIACARREST#CARDIACSCREENING",
-        "color": "red"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Yup, same here, Doc. I had a case last year where a 12-yr-old athlete dropped dead on the field... ECG was normal, but the kid had an undiagnosed congenital heart defect. If only I'd done a transthoracic echo (TTE) and a cardiac MRI beforehand...\n\nAnyway, the SAN FRANCISCO SYNCOPE RULE is a good starting point, but we need to be careful not to overdiagnose. Remember, most kids with SCA have normal exams. Don't get me wrong, I'm for increased cardiac screening, but we gotta balance it with the potential benefits and harms. Have you read the 2019 article in Circulation: Cardiovascular Quality and Outcomes by Dr. Mark Estes? (It's online).",
-        "color": "orange"
-      },
-      {
-        "id": 13,
-        "parent_id": 11,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Um, doc? What's the difference between a pediatric cardiac assessment and a cardiogram? Can we use ECG to diagnose cardiac arrests or is it just, like, a precaution thing?",
-        "color": "yellow"
-      },
-      {
-        "id": 14,
-        "parent_id": 13,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Hey, Leo! A pediatric cardiac assessment goes way beyond a simple ECG. It's a comprehensive check-up that includes a family history, a physical exam, and often a cardiology consult. Don't get me wrong, an ECG is important, but it's just one piece of the puzzle.\n\nWhen we talk about cardiac arrests in kids, we're usually looking at more complex conditions like hypertrophic cardiomyopathy, long QT syndrome, or congenital heart defects. A thorough cardiac assessment helps us spot these issues early.\n\nThink of it like a home inspection for your heart! Check out the 2022 guidelines from the Pediatric Critical Care Society on pediatric cardiac arrests (<https://pediatrics.aappublications.org/content/142/3/e20210138>). It's a goldmine of knowledge!",
-        "color": "green"
-      },
-      {
-        "id": 15,
-        "parent_id": 12,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Guys, guys, guys... can I ask something? Is it true that only like 1% of kids with SCA have a family history of heart disease? Or am I wrong?",
-        "color": "purple"
-      },
-      {
-        "id": 16,
-        "parent_id": 15,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Not exactly, Chad. While many kids with SCA have normal family histories, a family history of heart disease, arrhythmias, or sudden death does increase the risk of SCA. The key is understanding 'high-risk' families. For example, those with a history of hypertrophic cardiomyopathy or long QT syndrome are more prone to SCA.",
-        "color": "light_blue"
-      }
-    ],
-    "image": "https://cpr.heart.org/en/-/media/CPR-Images/Resources/CA-vs-HA/CA-vs-HA-Infographic-2025-895x1160min.jpg?sc_lang=en"
-  },
-  {
-    "id": 1,
-    "title": "Supine Hypotension Syndrome in Pregnancy: A Cautionary Tale",
-    "body": "Just saw a patient with a classic case of Supine Hypotension Syndrome (SHS) in a pregnant patient. We all know that the uterus can compress the inferior vena cava when the patient is supine, leading to decreased cardiac return and potentially severe hypotension. But do we always remember to check for SHS in our pregnant trauma patients? I didn't, and it almost cost me big time. TLDR: Don't forget to check for SHS in pregnant trauma patients!",
-    "category": "Clinical Anecdote",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I totally agree! SHS is such a crucial thing to check for in pregnant patients. Did you know that the incidence of SHS is higher in patients with a uterine size greater than 20 weeks of gestation? Also, did you try using a wedge to elevate the patient's legs and see if it improved her hemodynamics? And btw, have you read the paper by Katz et al on the pathophysiology of SHS? It's a must-read for all emergency physicians.",
-        "color": "red"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Gupta, I'm curious, what's the best way to assess for SHS in the emergency department? Is it just a quick check of the patient's blood pressure or is there more to it?",
-        "color": "purple"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Great question, Leo! Checking for SHS is actually quite straightforward. You can do a quick visual check by looking for signs of decreased perfusion (e.g., cool extremities, decreased capillary refill) and checking for a decrease in blood pressure when the patient is in the supine position. You can also use some fancy tricks like using a wedge pillow or having the patient roll onto her side to see if her blood pressure improves. And don't forget to check for other signs of shock, like tachycardia, tachypnea, and altered mental status.",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Dr. Gupta, I've read that the American College of Surgeons (ACS) recommends using a 2-inch block to elevate the patient's legs in cases of SHS. Is that correct? And do you think it's worth using in cases where the patient is not showing obvious signs of shock?",
-        "color": "purple"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Sarah, you're absolutely right! According to the ACS, using a 2-inch block to elevate the patient's legs is one way to help alleviate SHS. But I always say, why wait until the patient is showing obvious signs of shock? We should try to prevent SHS from happening in the first place by being proactive and using those fancy wedges or blocks to elevate the patient's legs. It's all about being prepared, people! And btw, have you guys read the latest issue of the Journal of Emergency Medicine? They had a great article on SHS in pregnancy that's a must-read.",
-        "color": "green"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Wait, doesn't SHS just mean the patient's uterus is putting pressure on the vena cava? Is that all there is to it?",
-        "color": "red"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Ha! Good one, Chad. Yes, SHS is all about the uterus compressing the vena cava, but it's more complicated than just that. You see, the vena cava itself is a pretty narrow tube, and when the uterus compresses it, it can lead to a decrease in cardiac output, which can result in hypotension. And if the hypotension is bad enough, it can even lead to shock. So yeah, it's a pretty serious business, Chad.",
-        "color": "green"
-      }
-    ]
-  },
-  {
-    "title": "Rant about end-of-life care and decision making in emergency medicine",
-    "body": "Just saw a patient with a DNR in place, but their family insisted we 'do everything' despite our explanations. This got me thinking about the disconnect between patient and family wishes in the ED. Who else has deal with this frustration?\n\nTL;DR: End-of-life care and decision making in the ED - who's making the decisions and how can we improve?",
-    "category": "AskReddit/emergency medicine",
-    "comments": [
-      {
         "id": 1,
         "parent_id": null,
         "user": "Dr. Aris Thorne",
         "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "This is a huge issue in emergency medicine. Patients often have advance directives, but family members may not be aware of them or may not be respecting their wishes. We need to do a better job of communicating with patients and families about end-of-life care and ensuring that we're following their wishes.\n\nI've started using the SPICT (Simplified Patient Prioritisation Instrument for Care Team) tool to help guide conversations with families. Has anyone else had success with this tool or have other recommendations?",
+        "text": "I think the real question is what we're missing. Are we under-triaging these patients? Remember the old adage, 'The opposite of a correct diagnosis is a missed diagnosis.' As you said, 5 cases in one week is a lot, but have we considered the possibility that we're simply not recognizing the subtle signs of ACS?",
         "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "I've had some experience with SPICT, Dr. Thorne. We used it in my critical care rotation to help prioritize treatment for patients with multiple comorbidities. Can you speak more to how you've implemented it in your practice?",
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs are over-diagnosing this left and right. I'm seeing patients come in with stable angina being sent for Cardiac Cath like it's going out of style. We need to focus on the real issues here, not some made-up diagnosis that's not even supported by evidence.",
         "color": "green"
       },
       {
         "id": 3,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "I work on a med-surg floor and see this all the time. Families are often more focused on 'doing something' than on respecting the patient's wishes. One thing that has helped is involving the patient's Primary Care Physician (PCP) in discussions. They often have a better understanding of the patient's wishes and can help guide decisions.",
+        "parent_id": 2,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Calm down, Vic, we're just trying to make sure we're not missing a heart attack. I'm with Aris, let's not close our minds to the possibility of ACS. Has anyone read this article on LACS? [1] TLDR: It's a thing, people!",
         "color": "blue"
       },
       {
         "id": 4,
         "parent_id": 3,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "That's a great point, Turbo Tom. I've found that involving the PCP can be really helpful in clarifying the patient's wishes. But what about situations where the patient doesn't have a PCP or advance directives? How can we ensure we're following the patient's wishes in those cases?",
-        "color": "purple"
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "I was reading about LACS and it seemed like it's actually a pretty high-yield diagnosis. The literature suggests that up to 20% of ED patients with chest pain may have LACS. Can someone clarify the criteria for diagnosing LACS?",
+        "color": "yellow"
       },
       {
         "id": 5,
-        "parent_id": null,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "This is all just a bunch of bureaucratic nonsense. We need to focus on what's best for the patient, not some piece of paper or arbitrary guidelines. And in most cases, that means doing everything possible to save their life.",
-        "color": "red"
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I'm with Dr. Thorne on this one. It's all about recognizing the subtleties of ACS. And can someone remind me what LACS stands for, again?",
+        "color": "green"
       },
       {
         "id": 6,
         "parent_id": 5,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Dr. Sterling, are you serious? We're not talking about 'saving lives at all costs.' We're talking about respecting patients' wishes and providing them with the best possible care. That means having end-of-life conversations with patients and families, not just treating them as medical cases.",
-        "color": "blue"
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "LACS stands for Low-Probability ACS, right? I saw a patient last week with symptoms of ACS, but the doctor said it was actually a case of... um... what's it called?",
+        "color": "purple"
       },
       {
         "id": 7,
         "parent_id": 6,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Dr. Miller is right, Dr. Sterling. It's not just about 'doing everything possible.' It's about providing high-quality care that respects the patient's autonomy and values. And that starts with having end-of-life conversations and ensuring that we're following their wishes.",
-        "color": "green"
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Ah, I think you might be thinking of Pericarditis. Remember, patients with ACS often have a history of CAD, and the ECG can show ST-segment changes despite normal Troponin levels.",
+        "color": "blue"
       },
       {
         "id": 8,
@@ -549,258 +74,495 @@
         "user": "Turbo Tom",
         "role": "RN",
         "city": "London, ON",
-        "text": "I've found that having open and honest conversations with patients and families can really help clarify their wishes and values. And it's not just about the patient's own wishes - it's also about respecting their families' values and wishes. Has anyone else found that to be the case?",
-        "color": "purple"
+        "text": "I've been trying to follow this conversation, but I'm getting lost in all the medical jargon. Can someone simplify this for me? To summarize, we're talking about patients coming in with chest pain, but normal tests?",
+        "color": "yellow"
       },
       {
         "id": 9,
         "parent_id": 8,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Yes, I've found that having conversations with families can really help clarify their values and wishes. And it's not just about end-of-life care - it's also important to have conversations about goals of care and what patients want to achieve in terms of their health and well-being.",
-        "color": "green"
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Haha, sorry Tom, but that's like trying to explain a complex math problem to a kindergartener. Okay, fine. To simplify: LACS is when patients with chest pain have normal test results but still might have ACS. And we need to consider that we're missing the diagnosis.",
+        "color": "purple"
       },
       {
         "id": 10,
-        "parent_id": null,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "You know what's frustrating about all of this? Administrators think they know more about patient care than we do. I swear, every time I try to have an end-of-life conversation with a patient and family, I get interrupted by some clipboard-carrying know-it-all who thinks they can do it better.",
-        "color": "red"
+        "parent_id": 9,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "Wait, I'm getting a bit confused... Is this whole LACS thing a cause for concern, or are we just overthinking it?",
+        "color": "orange"
       },
       {
         "id": 11,
         "parent_id": 10,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Aww, don't be too hard on the admins, Dr. Rage! They're just trying to help. But you're right, they don't always understand the nuances of patient care. Has anyone else had success in advocating for patients and pushing back against administrative decisions?",
-        "color": "blue"
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Ah, I think I can help clarify. LACS is a real concern, especially in young patients with chest pain and a normal ECG. But we can't just jump to a diagnosis without considering all the possibilities. I'd recommend a thorough history, physical, and diagnostic testing before making a call.",
+        "color": "pink"
       },
       {
         "id": 12,
         "parent_id": 11,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "That makes sense. Can I ask, what kind of diagnostic testing should we be looking for in cases of suspected LACS?",
+        "color": "green"
+      },
+      {
+        "id": 13,
+        "parent_id": 12,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "In our institution, we usually order a Stress test, followed by a Cardiac Cath if the results are positive. But Dr. Varkov, do you have any recommendations for other tests?",
+        "color": "blue"
+      },
+      {
+        "id": 14,
+        "parent_id": 13,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Actually, a Coronary Computed Tomography (CCTA) can be very useful in cases of suspected LACS. It's non-invasive and can provide valuable information about coronary artery disease.",
+        "color": "purple"
+      }
+    ],
+    "image": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1186%2Fs40560-018-0285-9/MediaObjects/40560_2018_285_Fig1_HTML.gif"
+  },
+  {
+    "id": 1,
+    "title": "Rant about missing Wolff-Parkinson-White syndrome",
+    "body": "Just saw a patient with WPW syndrome and I'm kicking myself for missing it initially. Anyone else have a tough time differentiating between WPW and atrial fibrillation?",
+    "category": "EM",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
         "user": "Dr. Aris Thorne",
         "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "I think that's a great point, Sue. We need to advocate for our patients and push back against administrative decisions when necessary. And I think that starts with education and awareness - educating administrators and other healthcare professionals about the importance of end-of-life care and decision making.",
+        "text": "WPW can be a beast to catch, especially in the setting of atrial fibrillation. One key thing to remember is that WPW often presents with a 'cannon' a wave in lead V1, which isn't always visible in the standard 12-lead ECG. Also, if you're still unsure, try to get a 12-lead on a patient who's been exercised - the delta wave will often become more pronounced.\n\nTLDR: Look for the cannon a wave in V1 and consider a post-exercise ECG if you're still unsure!",
         "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Thank you Dr. Aris, but is that true for all WPW patients? I thought it was more specific to Type A WPW? Also, how do we differentiate between WPW and SVT?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Excellent questions, Leo! Type A WPW is indeed more likely to exhibit a pronounced delta wave, but it's not exclusive to this type. For differentiating WPW from SVT, I rely on the presence of a delta wave and the patient's symptoms. If you're still unsure, consider using a Valsalva maneuver or a carotid massage to slow the ventricular response. Also, check out this great resource from Dr. Smith, a renowned electrophysiologist: https://youtu.be/j5g6xw4zr6w\n\nTLDR: Use a combination of delta wave and symptom analysis, and don't be afraid to use some advanced techniques!",
+        "color": "purple"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "As an electrophysiologist, I can attest that WPW can be a difficult diagnosis, especially in the setting of atrial fibrillation. For our residents, I recommend reviewing the American Heart Association's guidelines on WPW and checking out this study on the use of exercise testing to diagnose WPW: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4443513/. Keep in mind that a thorough physical examination and a detailed medical history are crucial in making the correct diagnosis.",
+        "color": "green"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Thank you, Dr. Sarah Sharp! That study on exercise testing is really helpful. One more thing, can you confirm if there's a link between WPW and Long QT Syndrome?",
+        "color": "green"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Great follow-up question, Leo! Yes, there has been research suggesting a possible link between WPW and Long QT Syndrome. A 2013 study published in the Journal of the American College of Cardiology found an increased incidence of Long QT Syndrome in patients with WPW (https://www.jacc.org/article/S0735-1097(13)01723-7/abstract). However, more research is needed to fully understand the relationship between the two conditions.",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Today I Learned: Beware of 'benign' headaches in kids!",
+    "body": "Just saw a kid come in with a 5-day history of 'headaches' - no vomiting, no fever, no trauma. Parents said it's 'just stress' or 'tension'. But the kid's parents also mentioned that they've been noticing some odd behavior lately... like sudden mood swings and difficulties with speech. Anyone else deal with this? It was a secondary headache, of course. CT and lumbar puncture are in order...",
+    "category": "Clinical Anecdotes",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Yeah, this happens way more often than we think. Kids' brains are still developing, and they can't always describe their pain properly. But parents are often the ones who 'know' something's up... even if they can't quite put their finger on it. Anyone here have a go-to resource for evaluating headache in kids?",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Come on, guys. Every headache isn't a tumor or an aneurysm. Some parents are just overly anxious, or maybe even Munchausen-by-proxy. Remember the 'Amateurs' in residency who thought the first sign of a stroke was 'just' a headache? We don't need to make a mountain out of a molehill here...",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Wait, what's the deal with Munchausen-by-proxy, Dr. Sterling? Is that when a parent makes up or exaggerates their kid's symptoms for attention?",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 2,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Actually, Dr. Sterling, we should be cautious when thinking Munchausen-by-proxy. It's a real thing, but there's more to it than just over-anxious parents. We need to consider the whole clinical picture... like if the symptoms are consistently severe and debilitating.",
+        "color": "red"
+      },
+      {
+        "id": 5,
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "TL;DR: Always, ALWAYS ask about fever and vomiting in kids with headaches. If they're present, we need to get the CT and LP ASAP. No exceptions!",
+        "color": "purple"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "I second that, Tom! Fever and vomiting are like red flags waving in the wind. And don't even get me started on 'benign' headaches in kids... those are like ticking time bombs.",
+        "color": "green"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Can we talk more about secondary headaches in kids? Are there other red flags besides fever and vomiting?",
+        "color": "blue"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "According to the pediatric headache guidelines, other red flags include new-onset headache in someone who's never had one before, and any change in mental status.",
+        "color": "purple"
+      },
+      {
+        "id": 9,
+        "parent_id": 7,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "But we can't forget about the long game, friends. Sometimes a headache can be a symptom of something more chronic, like migraines or tension-type headaches. We need to think about the whole patient, not just the immediate presentation.",
+        "color": "red"
+      },
+      {
+        "id": 10,
+        "parent_id": 1,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "Ladies, gentlemen... may I offer a slightly different perspective? As someone who's experienced headaches for years, I can tell you that sometimes it's the simplest things that make the biggest difference. Like getting a clear diagnosis, or finding what truly triggers your pain.",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Just had a tough night dealing with a severe COPD exacerbation and I'm still trying to wrap my head around it... Rant about...",
+    "body": "Just saw a 75 yo male with a history of severe COPD who presented to the ED with a 4-day history of worsening dyspnea, wheezing, and cough productive of pink frothy sputum. He'd been on high-dose steroids and bronchodilators for the past week but was still unable to manage at home. Physical exam revealed a sitting position with forward posturing, pursed lip exhalation, and accessory muscle use. His PEF was 120 L/min and his PaO2 was 55 mmHg. He was admitted and eventually required non-invasive ventilation (NIV) to manage his respiratory failure. My resident pointed out to me that the patient's symptoms of a 'pink frothy sputum' are more often associated with pulmonary edema rather than COPD exacerbation itself. Is this not correct or am I just getting old? Has anyone else seen anything similar in their practice?",
+    "category": "r/emergedphysician",
+    "tags": [
+      "COPD exacerbation",
+      "respiratory failure",
+      "non-invasive ventilation (NIV)",
+      "pink frothy sputum",
+      "pulmonary edema"
+    ],
+    "color": "#3498db",
+    "comments": [
+      {
+        "id": 5,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "TLDR: NIV can be a lifesaver in severe COPD exacerbations but it's essential to recognize when a patient needs it ASAP! What were your thought process when deciding to admit the patient? Were there any red flags that made you consider NIV from the get-go?",
+        "color": "green",
+        "links": [
+          {
+            "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6549827/"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs still think COPD is just an old guy who smokes too much. You've got to recognize the complex pathophysiology at play when dealing with an exacerbation like this. The real question is, was the patient's presentation really consistent with a COPD exacerbation or was there an underlying cause like heart failure that needs to be addressed?",
+        "color": "red"
+      },
+      {
+        "id": 7,
+        "parent_id": null,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "What about the patient's oxygen saturation? Was it low when they first presented, and how did you manage it? I've heard that pulse ox isn't always the most reliable tool for COPD patients.",
+        "color": "purple"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Excellent question, Dr. Park! Pulse ox can indeed be less reliable in COPD patients due to the presence of chronic hypoxia. In this case, we did monitor the patient's oxygen saturation but also closely watched their respiratory rate, work of breathing, and mental status to assess for any signs of hypercapnia. What I'd like to add, though, is that it's essential to differentiate between hypercarbic and hypoxic respiratory failure in COPD exacerbations. Has anyone else seen any recent guidelines on how to approach this?",
+        "color": "lightblue"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Amen to that, Dr. Thorne! I'd like to share a recent study on the topic that found that CPAP (Continuous Positive Airway Pressure) was actually more effective than NIV in reducing intubation rates in COPD patients. Has anyone else come across any similar evidence?",
+        "color": "blue"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "CPAP? Really? That's a wild card, Dr. Varkov. I've seen more studies that suggest NIV is still the gold standard for COPD exacerbations. Can you share the actual study or was it just some conference abstract?",
+        "color": "orange"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Sorry, 'Ziggy', I must have made a mistake. I was thinking of a different study. Actually, I think some recent trials have shown mixed results, so we need to be cautious when applying CPAP in COPD exacerbations. Anyhow, back to the OP's question, what about the role of bronchoscopy in managing COPD exacerbations?",
+        "color": "lightblue"
+      },
+      {
+        "id": 12,
+        "parent_id": null,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Wow, this is really interesting. Can someone explain how bronchoscopy can help with COPD exacerbations? I thought it was mostly for diagnosing lung cancer or infections.",
+        "color": "green"
+      },
+      {
+        "id": 13,
+        "parent_id": 12,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "Excellent question, Leo! Bronchoscopy can be useful in identifying the source of bleeding or secretions in COPD patients, especially when they're on high doses of steroids or have a history of hemoptysis. It can also help rule out other possible causes of respiratory failure like pneumothorax or PE. However, it's crucial to balance the risks of the procedure with the benefits, especially in patients with severe COPD.",
+        "color": "teal"
+      },
+      {
+        "id": 14,
+        "parent_id": 13,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Whoa, this is getting deep. Can someone summarize all the points so far? I'm still trying to wrap my head around this.",
+        "color": "orange"
+      }
+    ],
+    "image": "https://static.elsevier.es/multimedia/25310437/0000002400000006/v2_201902120618/S2531043718301077/v2_201902120618/en/main.assets/gr1.jpeg"
+  },
+  {
+    "id": 101,
+    "title": "Today I Learned: Anticholinergic Delirium - The 'Zombie' Patient",
+    "body": "Just saw a patient with severe anticholinergic toxicity from accidental ingestion of a non-prescription sleep aid. The patient's family brought them in after noticing altered mental status. Upon examination, the patient had the 'classic' picture: tachycardia, hypertension, dry mucous membranes, flushed skin, dilated pupils, and confusion. However, what caught my attention was the remarkable similarity to the 'zombie patients' I've read about in medical literature. These patients present with a trance-like state, often staring into space, and exhibiting 'robot-like' behavior. The family described the patient as 'being asleep while still awake.' The clinical presentation is truly striking and reminds me why anticholinergic toxicity is a 'must know' for emergency physicians.",
+    "category": "Today I Learned",
+    "comments": [
+      {
+        "id": 102,
+        "parent_id": null,
+        "user": "Dr. John Doe MD",
+        "role": "FRCPC",
+        "city": "Toronto, ON",
+        "text": "TLDR: You should know the SLUDGE/DUMBELS mnemonic for acute cholinergic toxicity. It's a game-changer in the ED. [link to Wikipedia page](https://en.wikipedia.org/wiki/Acute_cholinergic_toxicity) Don't get me wrong, the 'zombie' presentation is impressive, but the real challenge lies in ruling out the other causes of altered mental status. You can't rely solely on clinical suspicion - always think of the basics: 'ABC' and history. Did the patient have any pre-existing conditions or take any meds? ",
+        "color": "purple"
+      },
+      {
+        "id": 103,
+        "parent_id": 102,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "That's awesome! I've been trying to memorize the Mnemonics. Does the SLUDGE/DUMBELS also apply to anticholinergic toxicity? Or is it more like muscarinic vs. antimuscarinic effects in anticholinergic tox?",
+        "color": "blue"
+      },
+      {
+        "id": 104,
+        "parent_id": 102,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Regarding Dr. Doe's comment, is it a bad thing that the patient's family described the presentation as 'being asleep while still awake'? That sounds super concerning. Did you run any lab tests to rule out other causes of altered mental status? And by the way, can someone please clarify the difference between cholinergic and anticholinergic toxicity? I thought they were the same thing?",
+        "color": "purple"
+      },
+      {
+        "id": 105,
+        "parent_id": 104,
+        "user": "Dr.\"Archie\" Thorne MD",
+        "role": "FRCPC",
+        "city": "Calgary, AB",
+        "text": "My dear colleagues, I couldn't agree more about the importance of differentiating between cholinergic and anticholinergic toxicity. While they can present similarly, the underlying mechanisms differ significantly. Cholinergic toxicity results from an overproduction of acetylcholine due to inhibition of acetylcholinesterase - think organophosphates like OP poisons. On the other hand, anticholinergic toxicity arises from either excessive antagonism of muscarinic or nicotinic receptors - for instance, with certain insecticides or accidental ingestion. One should remember that muscarinic agonism can occur alongside nicotinic agonism.",
+        "color": "blue"
+      },
+      {
+        "id": 106,
+        "parent_id": 105,
+        "user": "Dr. Elena Varkov",
+        "role": "EP",
+        "city": "Montreal, QC",
+        "text": "Regarding Dr. Thorne's explanation, does it mean the DUMBELS acronym also doesn't apply to anticholinergic toxicity? I got a bit confused. In fact, which ones apply and which ones don't? Please clarify this for those of us 'new to the world of toxicity' like myself. ",
+        "color": "purple"
+      },
+      {
+        "id": 107,
+        "parent_id": 106,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "",
+        "color": "brown"
       }
     ]
   },
   {
     "id": 6,
-    "title": "Trauma in Adults: Missed Caudal Epidural in a Young Adult",
-    "body": "Just saw a patient with a T6 burst fracture and epidural hematoma. Missed caudal epidural in a 28-year-old patient presenting with acute-onset back pain, weakness, and urinary retention. What could I have done differently? ",
-    "category": "emergency-medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Great case, OP! When I saw a similar patient last month, I remembered the importance of a thorough physical exam, including checking the patient's anogenital area for signs of trauma. Do you think the missed caudal epidural was due to a failure to adequately examine this region?",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Gupta, is it possible that the patient might have been holding their pelvic area due to pain or discomfort? Should we still check for caudal epidural in trauma patients with acute-onset back pain?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Agreed with Dr. Gupta. In pediatric trauma, we are taught to check for caudal epidural in cases of trauma to the perineum or anal region. Can someone clarify what the current guidelines are for adult trauma patients?",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Vic Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Guidelines are not clear-cut. However, in my experience, the vast majority of adult trauma patients with caudal epidural do not have any visible signs of perineal trauma. Perhaps we should focus more on the presence of neurological deficits and pain patterns rather than relying solely on physical exam findings?",
-        "color": "red"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "I disagree with Dr. Sterling's assertion that most adult trauma patients with caudal epidural do not have visible signs of perineal trauma. The literature suggests that up to 25% of adult trauma patients with caudal epidural have concomitant perineal trauma. Can someone confirm or deny this statistic?",
-        "color": "yellow"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Dr. Miller, do the literature reviews that you mentioned account for the possibility that some cases of perineal trauma might be due to sexual assault or other forms of trauma that are not immediately apparent?",
-        "color": "brown"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Ah, OP, OP! You said your patient had epidural hematoma and back pain, but did you consider possible causes of back pain such as musculoskeletal issues or spinal stenosis? Sometimes, it's easy to jump to conclusions and miss other important diagnoses!",
-        "color": "pink"
-      },
-      {
-        "id": 8,
-        "parent_id": null,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "TL;DR: Always remember to ask the patient about their past medical history, including any chronic conditions, and perform a thorough neuro examination. Don't dismiss the patient's symptoms just because you think they might not fit the trauma profile.",
-        "color": "purple"
-      }
-    ],
-    "image": "https://news.llu.edu/sites/news.llu.edu/files/styles/crop_featured_image/public/cardiac-traumaroom.jpg?itok=QINgUDHv"
-  },
-  {
-    "id": 7,
-    "title": "Just saw a patient with acute pelvic inflammatory disease (PID) who was misdiagnosed as appendicitis. TLDR; PID is a masquerader!",
-    "body": "I just saw a 25-year-old female patient presenting with acute PID who was initially diagnosed with appendicitis by the general surgeon. She had a history of unprotected sex with multiple partners, and her white blood cell count was significantly elevated. I was immediately suspicious of PID, especially given the high risk factors. I started her on a single dose of ceftriaxone and doxycycline, and she responded well to treatment.",
-    "category": "Rant about... misdiagnoses in the ED",
+    "title": "Frustrating Case of Maternal Child Abuse: Can't Miss the Signs!",
+    "body": "Just saw a patient with a classic case of maternal child abuse, and I'm still trying to process how we, as a medical community, can miss these cues.\nThe patient, a 28-year-old woman, presented with multiple minor injuries to her face, neck, and thorax, along with a few bruises on her abdomen. At first, she attributed these to ' accidents' and ' clumsiness', but the inconsistencies in her story and the extent of her injuries made me suspicious of physical abuse. Further questioning revealed that she had been experiencing chronic pelvic pain and had been visiting the ER multiple times in the past few weeks for vague complaints. ",
+    "category": "emergency medicine",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
         "user": "Dr. Aris Thorne",
-        "role": "MDCM",
+        "role": "MD",
         "city": "Toronto, ON",
-        "text": "I had a similar case last week where the patient presented with signs and symptoms of PID but was misdiagnosed with ovarian cyst rupture. The key is to have a high index of suspicion for PID, especially in young fertile women. The risk factors you mentioned, such as unprotected sex with multiple partners, are classic red flags. It's also essential to obtain a sexual history and to consider testing for STIs, including chlamydia and gonorrhea.",
+        "text": "I've seen this before, it's a classic case of 'Munchausen's Syndrome by Proxy' or 'Factitious Disorder Imposed on Another (FDIA). The patient's behavior is a cry for help, but also a way to seek attention and sympathy. Has anyone else had a similar experience?",
         "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "But what about the role of ultrasound in diagnosing PID? Can it help diagnose PID or is it more of a 'rule out' tool?",
+        "user": "Dr. Sarah Sharp",
+        "role": "MD",
+        "city": "Laval, QC",
+        "text": "Exactly! MIM (Medical Indifference Model) is a big concern here. The patient's behavior is manipulative, and it's our job to recognize the signs. I've found that keeping a close eye on their medical history and looking for inconsistencies in their story can be a good starting point. Does anyone have a good resource on identifying MIM?",
         "color": "green"
       },
       {
         "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "FRCPC",
-        "city": "Mississauga, ON",
-        "text": "Ultrasound is a valuable tool in diagnosing PID, and it can help identify signs of inflammation and adnexal masses. However, it's essential to remember that ultrasound is not 100% sensitive, and not all cases of PID will have a clear sonographic finding. The American College of Radiology (ACR) recommends the use of bedside ultrasound in the diagnosis of PID, as it can help identify signs of inflammation and guide treatment.",
-        "color": "orange"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "What about the role of biomarkers, such as CA-125, in diagnosing PID? Can they be used to help diagnose PID or are they more of a 'rule out' tool?",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "CA-125 is not a reliable biomarker for diagnosing PID, and it should not be used as a standalone test. However, it can be useful in ruling out other conditions, such as ovarian cancer, that may present with similar symptoms. The most accurate diagnosis of PID is made clinically, based on a combination of symptomatology, physical examination, and laboratory results.",
-        "color": "purple"
-      },
-      {
-        "id": 6,
-        "parent_id": 1,
-        "user": "Dr. Barb Miller",
-        "role": "MDCM",
-        "city": "Winnipeg, MB",
-        "text": "In addition to the diagnostic challenges, PID is also a significant public health concern. According to the CDC, there are over 1 million cases of PID each year in the United States alone. It's essential for emergency physicians to be aware of the risk factors and to provide proper treatment and follow-up care for patients with PID.",
-        "color": "orange"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "That's crazy! I didn't realize PID was that common. What can be done to prevent PID?",
-        "color": "green"
-      },
-      {
-        "id": 8,
-        "parent_id": 6,
-        "user": "Dr. Sarah Sharp",
-        "role": "MDCM",
-        "city": "Laval, QC",
-        "text": "Prevention of PID is multifaceted and includes the use of condoms, regular STI screening, and vaccination against HPV. It's also essential to educate young women about the risks of PID and to promote safe sexual practices.",
-        "color": "purple"
-      },
-      {
-        "id": 9,
         "parent_id": 1,
         "user": "Dr. Brock Stone",
         "role": "FRCSC",
         "city": "Hamilton, ON",
-        "text": "As a surgeon, I appreciate the importance of early recognition and treatment of PID. However, it's also essential to remember that some cases of PID may require surgical intervention, such as laparoscopic surgery to drain an abscess. Can someone discuss the indications for surgical intervention in PID?",
-        "color": "orange"
+        "text": "I don't buy it. This is just another case of a over-vigilant physician. We can't just jump to conclusions and make wild accusations. What's the proof that this patient is actually a victim or a perpetrator?",
+        "color": "blue"
       },
       {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Maya Gupta",
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "MD",
+        "city": "Vancouver, BC",
+        "text": "Proof? You want proof? Well, how about a medical history that's riddled with discrepancies and a physical exam that shows signs of abuse? That's pretty darn convincing to me. But hey, what do I know?",
+        "color": "yellow"
+      },
+      {
+        "id": 5,
+        "parent_id": 2,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Hi Dr. Sharp, what do you mean by 'recognizing the signs'? Can you elaborate a bit more on that?",
+        "color": "pink"
+      },
+      {
+        "id": 6,
+        "parent_id": 4,
+        "user": "Dr. Elena Varkov",
         "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Dr. Stone, I understand your skepticism, but we can't just dismiss the possibility of MIM without investigating further. That being said, I think we need to be careful not to jump to conclusions and to follow the evidence. Has anyone else seen this patient before?",
+        "color": "gray"
+      },
+      {
+        "id": 7,
+        "parent_id": 5,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "Surgical intervention is reserved for cases of PID that are refractory to medical treatment, such as pelvic abscesses that are large or not responding to antibiotics. It's also essential to identify patients who are at high risk for complications, such as those with previous history of PID or those who have signs of sepsis.",
-        "color": "purple"
-      },
-      {
-        "id": 11,
-        "parent_id": 9,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "I had PID and required surgery. Can someone explain the recovery process?",
-        "color": "green"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Recovery from PID surgery can be significant and may take several weeks. Patients may experience pain, discomfort, and swelling in the affected area. It's essential to follow a post-operative care plan, including pain management and wound care. With proper care and follow-up, most patients make a full recovery.",
+        "text": "Hi Leo, by recognizing the signs, I mean paying attention to inconsistencies in the patient's story and looking for physical evidence of abuse. Does that make more sense?",
         "color": "orange"
       },
       {
-        "id": 13,
-        "parent_id": 9,
-        "user": "Dr. Archibald Thorne",
-        "role": "MDCM",
-        "city": "Saskatoon, SK",
-        "text": "In my day, we didn't have all the fancy antibiotics and surgical techniques we have today. PID was a much more serious condition and often required longer hospital stays and more aggressive treatment. However, with the advancements in medicine, we can now diagnose and treat PID much more effectively.",
+        "id": 8,
+        "parent_id": 6,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs like you two would do well to remember that we're dealing with human beings here, not just medical cases. Let's not forget to consider the bigger picture and the potential consequences of our actions.",
+        "color": "red"
+      },
+      {
+        "id": 9,
+        "parent_id": 7,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Hey Dr. Gupta, what's with all the jargon? Can someone explain FDIA to me?",
         "color": "purple"
       }
-    ]
+    ],
+    "image": "https://emupdates.com/wp-content/uploads/2020/06/Precip_HI.jpg"
   },
   {
-    "id": 2345,
-    "title": "TL;DR: Don't assume injury rules out assault - I was wrong, and it cost me a great case (Rant about intimate partner violence)",
-    "body": "Just saw a patient with a textbook case of intimate partner violence (IPV). Or so I thought. Patient presented with a nasty laceration above the eyebrow, a couple of bruises on the arms, and a pretty convincing story of 'oh, I must have fallen down the stairs'. I was all set to discharge them with some pain management and a pat on the back, but then I remembered the classic pearl: 'injury does not mean that an assault did not occur.' So, I decided to dig a bit deeper...\n\nLong story short, we ended up diagnosing IPV, and it turned out that the patient's partner had been abusing them for years. The 'fall down the stairs' story was just that - a story. Patient was terrified, but also relieved to have someone believe them. I'm left wondering how many other cases like this I've blown off or mismanaged...\n\nTLDR: Don't assume injury rules out assault. IPV is rampant, and often hidden in plain sight.",
-    "category": "Emergency Medicine",
+    "id": 123,
+    "title": "Rant about Aortic Dissections: How Many of Us Miss the 'Big One'? ",
+    "body": "Had a close call last night with a 45 year old male who came in with a sudden onset of tearing chest pain radiating to the back.  He had a history of hypertension, but was a non-smoker with no prior cardiac issues.  Initial ECG showed a 'normal' sinus rhythm, but his D-dimer was elevated.  CT aortogram confirmed the diagnosis of a Stanford Type A aortic dissection.  We rushed him to the cath lab for an embolization, but he required a subsequent emergent surgery for aortic ligation due to the extent of the dissection.  My concern is that many of us may miss the classic presentation of aortic dissection, especially in younger patients without a prior medical history.  I'd love to hear about your experiences with aortic dissections and strategies for quickly identifying these patients.",
+    "category": "medicine",
     "comments": [
       {
         "id": 1,
@@ -808,117 +570,206 @@
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "Omg, I had a similar case last week! My patient was a young woman with a nasty black eye, but she said 'oh, my cat scratched me'. I was suspicious, but I didn't press the issue. Thankfully, her partner showed up, and she ended up leaving him. What did you do differently in this case?",
-        "color": "green"
+        "text": "Loved this case!  I had a similar experience with a 30 year old female who presented with sudden onset of tearing chest pain during a tennis match.  She had no prior medical history, but had a family history of Marfan's syndrome.  We had initially thought she had a pulmonary embolism, but her CT aortogram showed a Stanford Type B aortic dissection.  We quickly stabilized her with blood pressure management and pain control, and then arranged for an emergency surgery for aortic ligation.  The key takeaway for me was to always keep a high index of suspicion for aortic dissection in young, otherwise healthy patients with acute chest pain, especially in the context of family history or other predisposing factors.",
+        "color": "blue"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Great point, @Dr. Maya Gupta! In this case, I decided to pay closer attention to the patient's body language and tone of voice. They were visibly anxious and hesitant, which triggered my radar. I also asked about their support system and whether they had anyone to stay with, and that's when they opened up about the abuse. Key takeaway: trust your instincts, and don't be afraid to ask follow-up questions!",
-        "color": "purple"
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Dr. Gupta, that's a great case!  I had a question about your management of the patient.  Did you consider sending her for a transesophageal echocardiogram to assess for cardiac involvement?  And what was the outcome of her surgery?",
+        "color": "gray"
       },
       {
         "id": 3,
         "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "As a RN, I've seen my fair share of IPV cases. One thing that's always struck me is how easily the victims can get trapped in the cycle of abuse. These individuals often have low self-esteem, limited financial resources, and a lack of social support. We need to do better at identifying these cases and providing resources for survivors. @Dr. Aris, have you looked into any community-based programs that can help with this?",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Actually, @Turbo Tom, we have an amazing program in our hospital that provides comprehensive support services for IPV survivors. It includes counseling, housing assistance, and even a dedicated team of social workers who can help navigate the court system. I've seen firsthand how this program has helped patients build confidence and take back control of their lives. Thanks for bringing this up!",
-        "color": "purple"
-      },
-      {
-        "id": 5,
-        "parent_id": 2,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "This is exactly what I mean by 'amateurs' not thinking this through. Of course, injury doesn't rule out assault. But what about all the times we misdiagnose this as a simple accident? You're essentially saying that we're just going to assume every injury is a sign of IPV without evidence. Not exactly 'high-level medicine' there, doc. Can you tell me what you did wrong and how you'll improve next time?",
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Great cases, but I have to ask, what are the absolute contraindications for surgery in aortic dissection?  And what are the best practices for blood pressure management?",
         "color": "red"
       },
       {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Wow, @Dr. Victor Sterling, always a pleasure to see the condescending tone come out! Seriously though, I'm not saying we should assume every injury is IPV. But when the patient presents with suspicious injuries and a questionable story, we should at least consider the possibility of abuse. I'd love to discuss this further with you and explore some evidence-based guidelines for IPV diagnosis. Maybe over a cup of coffee?",
-        "color": "gold"
+        "id": 7,
+        "parent_id": null,
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "Just to add my two cents, I've had a few experiences with aortic dissections, and one thing that really stood out was the importance of a quick and accurate diagnosis.  We had to call in a stat CT aortogram, but it took a while to get the results.  Meanwhile, the patient was deteriorating rapidly.  We had to rush him to the OR for an emergent surgery, but it was a close call.",
+        "color": "purple"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Dr. Stone, I agree that a quick diagnosis is crucial, but what are some strategies for minimizing the time to diagnosis?  And what are the key factors to consider when deciding whether or not to operate?",
+        "color": "green"
+      },
+      {
+        "id": 9,
+        "parent_id": 1,
+        "user": "Dr. Phil Muddle",
+        "role": "EP",
+        "city": "Regina, SK",
+        "text": "Uh, guys, can we just say that sometimes we mess up, even with the best intentions?  I once sent a patient with a PE to the OR thinking she had a dissection, and it turned out she was fine.  We got lucky, but the patient's care was compromised.",
+        "color": "pink"
+      },
+      {
+        "id": 11,
+        "parent_id": null,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "In my day, we never sent patients to the OR without a thorough workup.  We used to rely on the good old fashioned physical exam and history, rather than relying too heavily on technology.  But I suppose that's just an old fashioned way of thinking.",
+        "color": "black"
+      },
+      {
+        "id": 12,
+        "parent_id": 1,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Great conversation!  For those interested, here's a summary of the Stanford and DeBakey classifications of aortic dissections: https://www.uptodate.com/contents/aortic-dissection-classification.  And here are some guidelines for managing acute aortic dissections: https://acc.org/latest-in-cardiology/ten-commandments/2014/05/23/10-commandments-acute-aortic-dissection.",
+        "color": "gray"
       }
     ]
   },
   {
-    "id": 1,
-    "title": "Missed diagnosis of COPD exacerbation tonight... lesson learned?",
-    "body": "TL;DR - just had a patient with a clear story for COPD exacerbation but I misdiagnosed it because I was thinking of asthma. Had to admit them for a few hours to sort it out. I'm kicking myself right now because this is not the first time I've made the same mistake. Has anyone else had issues with differentiating between the two? I thought I was being thorough with the history and physical, but I clearly missed something. COPD is such a tricky diagnosis... Thoughts, anyone?",
+    "id": 101,
+    "title": "Today I Learned: The Matthew Nomogram for Acetaminophen Toxicity",
+    "body": "Just saw a patient with acute acetaminophen toxicity and it got me thinking about the Matthew nomogram. Does anyone still use this tool in practice? We all know that NAC is the way to go, but in the field, having a quick way to estimate the risk of hepatotoxicity can be super useful.",
+    "category": "medicine",
+    "comments": [
+      {
+        "id": 102,
+        "parent_id": 101,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "We use it all the time in our ER. I love how it simplifies the process of calculating the risk of hepatotoxicity based on the acetaminophen level and time since ingestion. It's a simple tool, but it can make a big difference in terms of patient outcomes. Have you guys looked into the new nomogram that's been proposed for patients with co-ingestions?",
+        "color": "purple"
+      },
+      {
+        "id": 103,
+        "parent_id": 102,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Co-ingestions? Amateurs. We all know that acetaminophen toxicity is a straightforward poison-ing. What we need is a more nuanced approach to diagnosing and treating patients. Maybe someone can tell me where I can find more information on this new nomogram.",
+        "color": "green"
+      },
+      {
+        "id": 104,
+        "parent_id": 103,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Hey Vic, I think you meant to ask Dr. Thorne. He's the expert on the newer nomogram. Anyway, it's still under development, but I've seen some promising results from the early studies. I found a great review article on medscape that explains the rationale behind the new nomogram.",
+        "color": "blue"
+      },
+      {
+        "id": 105,
+        "parent_id": 101,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Dr. Thorne, what is the Matthew nomogram, exactly? I've heard of it, but I've never actually used it in practice. Can someone explain it simply?",
+        "color": "red"
+      },
+      {
+        "id": 106,
+        "parent_id": 105,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "No problem, Leo! The Matthew nomogram is a graphical tool used to estimate the risk of hepatotoxicity in patients with acetaminophen toxicity. You plot the acetaminophen level against the time since ingestion, and it gives you an estimate of the risk of liver damage. The nomogram is specifically designed for patients who have ingested a single dose of acetaminophen within 24 hours.",
+        "color": "purple"
+      },
+      {
+        "id": 107,
+        "parent_id": 105,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Leo, also worth noting that the Matthew nomogram is specifically used in the setting of a single acute exposure, so you need to make sure that your patient doesn't have a history of chronic exposure or other co-ingestions.",
+        "color": "green"
+      },
+      {
+        "id": 108,
+        "parent_id": 107,
+        "user": "Dr. Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great point, Maya. And let's not forget that the Matthew nomogram is not a substitute for clinical judgment. You need to use your best judgment as a provider to determine the best course of action for your patient.",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Disaster Preparedness in the ED: Are You Ready?",
+    "body": "Just saw a patient with a severe traumatic injury from a MCI (mass casualty incident) and I was reminded of our department's disaster preparedness plan. Or should I say, the lack thereof? Has anyone else struggled to get their hospital to take disaster preparedness seriously? TLDR: We need to make disaster preparedness a priority in the ED.",
     "category": "emergency-medicine",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": "Dr. 'Ziggy' Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Dude, you're not alone! Differentiating between asthma and COPD can be a real challenge. The key is to look for airflow obstruction and not just wheezing. Remember, wheezing can be present in both conditions. For COPD, you're looking for a history of chronic productive cough, weight loss, and increased dyspnea with exertion. COPD typically presents with a more fixed, severe airflow obstruction, especially at night. And don't forget about the smoking history! [1] Also, try to get a sense of their breathing patterns. People with COPD often have a 'barrel chest' due to chronic hyperinflation. And don't be fooled by the 'quiet chest' - it can be a sign of advanced disease.",
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Amen to that! I've been trying to push our ED to develop a more robust disaster preparedness plan, but it's an uphill battle. One of the biggest challenges is getting buy-in from hospital administration. Anyone have any tips on how to sell the benefits of disaster preparedness to the powers that be?",
         "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Thanks for the reminders! Can you elaborate on why COPD often presents with hyperinflation and what that means for our patients? Is it just because of the chronic obstructive nature of the disease, or is there something else going on?",
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "As an ER nurse, I can attest that disaster preparedness is crucial. One strategy that worked for me was to develop a 'Disaster Preparedness Dashboard' to track our ED's readiness. It includes metrics like drill participation rates, training completion rates, and disaster kit stock counts. Share it with administration and show them the numbers!",
         "color": "green"
       },
       {
         "id": 3,
         "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "You're welcome! And to answer Sarah's question, hyperinflation in COPD is due to trapping of air in the lungs as a result of damaged alveoli. It leads to overinflation of the lungs and increased work of breathing, making it harder for patients to breathe in. It's not just a matter of air getting stuck; it's a physiological change that affects gas exchange and ultimately leads to hypoxemia. I like to use the analogy of a balloon that's been blown up and then sealed - it's similar to what's happening in the lungs.",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
         "user": "Chad Broson",
         "role": "Pre-med",
         "city": "Brampton, ON",
-        "text": "Okay, so what can we do to prevent these kinds of misses? Is there a checklist or something we can use to make sure we're considering both asthma and COPD?",
+        "text": "Wait, what's MCI? Can someone explain it to me? Is it like... a big accident or something?",
+        "color": "yellow"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "MCIs are events that overwhelm the usual emergency services, like a mass shooting or a plane crash. Think 'Code Orange'! We need to be prepared for these events by having a solid disaster plan in place.",
         "color": "blue"
       },
       {
         "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Actually, Chad, that's a great idea. We should develop a checklist to ensure we're covering all the bases when it comes to diagnosing respiratory conditions. Here's a rough draft of what I came up with:\n\n1. Smoking history\n2. Duration and type of symptoms\n3. Physical exam findings (wheezing, rhonchi, etc.)\n4. Pulmonary function tests ( FEV1, PEF, etc.)\n5. Chest X-ray or CT scan\n\nFeel free to add or modify items as needed. What do you think?",
-        "color": "green"
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Can someone explain the difference between disaster preparedness and disaster response? What's the timeline for each?",
+        "color": "pink"
       },
       {
         "id": 6,
-        "parent_id": 1,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "You know, folks, I'm just going to say it: patient education is key here. We need to make sure our patients, especially those with chronic conditions, understand the importance of self-monitoring and recognizing exacerbations early on. Encourage them to keep a symptom journal and teach them what to look for in terms of changes in their condition.",
-        "color": "pink"
+        "parent_id": 5,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Disaster preparedness focuses on preventing or mitigating the effects of a disaster, like having a plan in place. Disaster response, on the other hand, is the immediate response to a disaster, like the first hour after an explosion. We need to be prepared for both.",
+        "color": "orange"
       }
     ],
-    "image": "https://static.elsevier.es/multimedia/25310437/0000002400000006/v2_201902120618/S2531043718301077/v2_201902120618/en/main.assets/gr1.jpeg"
+    "image": "https://media.springernature.com/full/springer-static/cover-hires/book/978-3-030-34116-9"
   }
 ]
