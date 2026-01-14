@@ -1,8 +1,919 @@
 [
   {
-    "id": 0,
-    "title": "TLDR; Neonatal Resuscitation in the ED: Lessons learned from a near miss",
-    "body": "Had a close call last night with a neonate in the ED. A 6-week-old infant was delivered in the ED and required immediate resuscitation. Thankfully, the team was ready and we were able to get the baby's pulse back... after three attempts of CPR and a few tense moments. This got me thinking about the importance of neonatal resuscitation in our everyday practice. It's not something we think about much, but it should be a priority.\n\nI know we have a few pediatricians on the subreddit who can weigh in on this, but I'd love to hear your thoughts. What's your experience with neonatal resuscitation in the ED? How often do you encounter it, and what are some best practices you'd like to share?\n\nTLDR: Neonatal resuscitation in the ED is a critical skill that we should all brush up on. It's not just about knowing the steps, but also being prepared for the unexpected. Share your experiences and let's discuss!",
+    "title": "Just saw a patient with liver failure and wanted to throw in the towel, but this is what happened",
+    "body": "Had a patient come in with a history of cirrhosis and liver failure, and let me tell you, it's a real nightmare. The patient was in full-blown hepatic encephalopathy, with grade 3 alterations to her mental status. The labs were a mess - high bilirubin, PT was through the roof, and she had ascites all over her pelvis. The only issue was...she refused to admit herself and just wanted a 'magic pill' to fix everything.",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "MD",
+        "city": "Toronto, ON",
+        "text": "I had a similar case last week. What I find fascinating is how liver disease can lead to a cascade of complications - from spontaneous bacterial peritonitis to hepatorenal syndrome. It's a vicious cycle, but it's also an opportunity for us to learn and improve our management of these patients. By the way, did you try using lactulose for the encephalopathy? And have you considered referring this patient to a hepatologist for a second opinion?",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I'm so sorry to hear about your patient! I want to ask, do you think liver failure is more common in our patient population? And what about the role of lifestyle factors, like diet and exercise, in cirrhosis? I know it sounds basic, but I really want to learn more!",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Wait, I have another question! Do you think it's possible to prevent liver failure in patients with cirrhosis, or is it a disease that's too far gone by the time we see them? And what about the role of genetics in liver disease? I feel like I'm so behind on this topic!",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MD",
+        "city": "Ottawa, ON",
+        "text": "This is such an interesting case! I think it's great that you're considering the patient's social determinants of health and wanting to involve a hepatologist. By the way, have you seen this paper on the management of hepatorenal syndrome? It's a great review of the literature and provides some really useful tips for our practice. (Link to paper). And what about the role of beta-blockers in preventing variceal bleeding? I know it's a complex topic, but I really want to get it right!",
+        "color": "orange"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Sarah Jenkins",
+        "role": "MD",
+        "city": "Ottawa, ON",
+        "text": "Sorry, I forgot to clarify that when I mentioned the paper, I meant this one: [link to paper]. The takeaway is that there's some debate about the effectiveness of beta-blockers in preventing variceal bleeding, and we should be using them cautiously in patients with cirrhosis. Can we discuss the pros and cons of beta-blockers in this context? I'd love to hear your thoughts!",
+        "color": "orange"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Vancouver, BC",
+        "text": "Ugh, I can totally relate to feeling like my patient is 'throwing in the towel'. It's frustrating, but what's even worse is when they refuse to admit themselves. Can we discuss why patients might refuse to be admitted or why some of our patients are more 'treatment-skeptical' than others?",
+        "color": "blue"
+      },
+      {
+        "id": 7,
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "MD",
+        "city": "Calgary, AB",
+        "text": "TL;DR, I've got a patient with cirrhosis and liver failure who's developing ascites and is now on oxygen for O2 sat of 80 on room air. What's the magic bullet for ascites these days? I know it's lactulose, but are there any others that are better?",
+        "color": "red"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Maya Gupta",
+        "role": "MD",
+        "city": "Calgary, AB",
+        "text": "Wait, no! Don't give me all the options - I just want to know if there's any new and shiny thing that we can try first!",
+        "color": "red"
+      },
+      {
+        "id": 9,
+        "parent_id": 7,
+        "user": "Sue (Sparkle-Eyes)",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Haha, magic bullet this, magic bullet that! I've got a patient with cirrhosis who's been admitted for dehydration and electrolyte imbalance...and she's still drinking and eating like it's nobody's business. Can we talk about the role of nutritional management in liver disease?",
+        "color": "pink"
+      },
+      {
+        "id": 10,
+        "parent_id": 1,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "I've got a question - how do we distinguish between liver failure and other causes of ascites? Is it all about the labs, or is there more to it?",
+        "color": "brown"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Thanks for the clarification! What about the role of bedside ultrasound in detecting ascites? Is it a reliable tool?",
+        "color": "brown"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Dr. Kevin Park",
+        "role": "MD",
+        "city": "Edmonton, AB",
+        "text": "Actually, Chad, bedside ultrasound can be a bit tricky, especially in patients with bowel obstruction or other comorbidities. I'd recommend using a combination of clinical judgment and imaging studies to confirm or rule out ascites.",
+        "color": "gray"
+      },
+      {
+        "id": 13,
+        "parent_id": 12,
+        "user": "Dr. Kevin Park",
+        "role": "MD",
+        "city": "Edmonton, AB",
+        "text": "Sorry, I forgot to add a little caveat to my previous response. While bedside ultrasound can be useful, it's not always 100% reliable, especially in patients with very small amounts of ascites. We should use our clinical judgment and imaging studies to corroborate the findings.",
+        "color": "gray"
+      },
+      {
+        "id": 14,
+        "parent_id": 13,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "As the patient's nurse, I have to say that it's crucial to involve the patient's family in the decision-making process. What are some strategies you use to educate and empower patients and families to manage their care?",
+        "color": "yellow"
+      },
+      {
+        "id": 15,
+        "parent_id": 14,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "And can we talk about a specific approach or strategy that you use to educate patients and families, rather than generalizing it? I want to hear your specific tips!",
+        "color": "yellow"
+      },
+      {
+        "id": 16,
+        "parent_id": 15,
+        "user": "Sarah Sharp",
+        "role": "MD",
+        "city": "Laval, QC",
+        "text": "One approach I use is to involve patients in their care by using shared decision-making and patient-centered communication. It's crucial to educate patients and families about their condition, treatment options, and risks, while also listening to their concerns and values.",
+        "color": "blue"
+      },
+      {
+        "id": 17,
+        "parent_id": 16,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Amen to that, Sarah! We ER nurses are all about patient-centered care. I'd add that it's equally important to educate families about the patient's condition and treatment plan to help them support their loved one.",
+        "color": "brown"
+      },
+      {
+        "id": 18,
+        "parent_id": 17,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "You know what's funny, though? In my ER, we often joke about 'teaching to the patient' versus 'teaching to the system'. What do you think are some of the major pitfalls or challenges we face in educating patients and families?",
+        "color": "brown"
+      },
+      {
+        "id": 19,
+        "parent_id": 18,
+        "user": "Dr. Elena Varkov",
+        "role": "MD",
+        "city": "Quebec City, QC",
+        "text": "That's a great question, Turbo! One major challenge I see is communication itself. So often, patients have language barriers or are struggling to understand their condition or treatment plan. We need to develop more effective strategies for communicating with patients and families.",
+        "color": "green"
+      },
+      {
+        "id": 20,
+        "parent_id": 19,
+        "user": "Dr. Elena Varkov",
+        "role": "MD",
+        "city": "Quebec City, QC",
+        "text": "And what about the role of translation services in these situations? Are there any effective ways to provide language access for patients who speak little English?",
+        "color": "green"
+      },
+      {
+        "id": 21,
+        "parent_id": 20,
+        "user": "Brock Stone",
+        "role": "MD",
+        "city": "Hamilton, ON",
+        "text": "Actually, that's one area where I think we've made some progress - providing translation services to patients who speak little English. What are some strategies or resources that have been helpful in your experience?",
+        "color": "orange"
+      },
+      {
+        "id": 22,
+        "parent_id": 21,
+        "user": "Archie Thorne",
+        "role": "MD",
+        "city": "Saskatoon, SK",
+        "text": "You know, I've got an anecdote from a long time ago - an elderly patient from Eastern Europe who spoke no English. We had a local interpreter who came in and translated for the patient, but the patient just shook their head and said, 'No, no, no!' Can we talk about how we can use interpreters more effectively?",
+        "color": "gray"
+      },
+      {
+        "id": 23,
+        "parent_id": 22,
+        "user": "Brock Stone",
+        "role": "MD",
+        "city": "Hamilton, ON",
+        "text": "Actually, that's a fascinating case, Archie! Can you describe more about how the interpreter was used, and what you learned from that experience?",
+        "color": "orange"
+      },
+      {
+        "id": 24,
+        "parent_id": 1,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "MD",
+        "city": "Vancouver, BC",
+        "text": "Alright, alright, let's get real for a sec - we've all had our share of crazy patients with liver failure. What's your take on the whole 'liver transplant' debate? Is it worth the risk?",
+        "color": "red"
+      },
+      {
+        "id": 25,
+        "parent_id": 24,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "MD",
+        "city": "Vancouver, BC",
+        "text": "I mean, let's be real, some of these patients are total candidates for a transplant, while others are just not going to make it without some major intervention. Can we discuss the pros and cons of transplant versus palliative care?",
+        "color": "red"
+      },
+      {
+        "id": 26,
+        "parent_id": 24,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Sorry, Dr. Z., but I have to ask...what's the current MELD score cut-off for transplant candidacy? I thought it was something like 20 or so?",
+        "color": "green"
+      },
+      {
+        "id": 27,
+        "parent_id": 26,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Actually, I think the real challenge is getting the transplant team to agree on who's eligible...Do you guys have any experience with that?",
+        "color": "green"
+      },
+      {
+        "id": 28,
+        "parent_id": 27,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Vancouver, BC",
+        "text": "Ugh, transplant teams can be such...such...ugh...Can we talk about how we can facilitate communication between the ER and the transplant team, and how we can get the patient on the waiting list?",
+        "color": "blue"
+      },
+      {
+        "id": 29,
+        "parent_id": 1,
+        "user": "Dr. Victor Sterling",
+        "role": "MD",
+        "city": "Calgary, AB",
+        "text": "Amateurs, this is not rocket science - liver failure is all about managing the patient's fluids, electrolytes, and blood glucose. Any idiot can do that...What I'd like to know from our esteemed colleagues is the one magical trick or hack that they use in their daily practice for managing these patients. Something that just 'wows' the patient and makes our lives easier?",
+        "color": "brown"
+      },
+      {
+        "id": 30,
+        "parent_id": 29,
+        "user": "Dr. Victor Sterling",
+        "role": "MD",
+        "city": "Calgary, AB",
+        "text": "By the way, who among you is ready for a challenge? Let's say we've got a patient with severe liver failure and we need to 'buy some time' - do any of you know of a clever trick to delay the inevitable, or at least make the patient's hospital stay more comfortable?",
+        "color": "brown"
+      }
+    ],
+    "image": "https://thecurbsiders.com/wp-content/uploads/2023/06/PastedGraphic-1.png"
+  },
+  {
+    "id": 1,
+    "title": "Rant about anaphylaxis in ED",
+    "body": "Just had the most frustrating shift in the ED and I'm still steaming about it. We had this kid come in with angioedema and what I assume was anaphylaxis, but the family is suing us because we didn't do an oral airway. Meanwhile, our cardiologist friend on rotation is still insisting it was vasovagal syncope. Ugh, what a mess. I just want to scream, 'IT'S ANAPHYLAXIS, PEOPLE!'. Has anyone else ever had this happen in the ED?",
+    "category": "r/emergencymedicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "MD, Staff Physician",
+        "city": "Toronto, ON",
+        "text": "`It's anaphylaxis, people!' Ah, the eternal struggle in EDs everywhere. You're right, of course. The challenge is getting everyone on the same page, especially in situations where it's not as clear-cut. I've had cases where the family has been adamant it was something else, only to realize later it was indeed anaphylaxis. Anywho, I'm curious to hear more about your experience. Did the patient have a known allergy?",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Oh my stars, I've had so many a time of patients comin' in with anaphylaxis signs, especially with food allergies! My favorite case was when a wee lad came in thinkin' he'd eaten a bee and had hives all up his body and swelling on his tongue! Luckily, my Dr. gave him some Benadryl and he was just fine after. But I'm wonderin' how they were doin' an oral airway on that patient? Did they need to be intubated?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Anaphylaxis? Please. It's just a fancy word for 'I'm allergic to something' and 'I'm going to sue you'. I mean, come on. You're over-diagnosing it left and right, folks. Vasovagal syncope is a far more likely explanation for most of these cases. I've seen so many of these kids come in with 'allergies' that it's just laughable.",
+        "color": "orange"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Maya Gupta",
+        "role": "Resident",
+        "city": "Mississauga, ON",
+        "text": "Ugh, Dr. Sterling, you can't be serious. Anaphylaxis is a life-threatening condition that requires prompt recognition and treatment. Vasovagal syncope can be a mimic, but it's not a substitute for proper diagnosis. The key is in the presentation and history, not just blindly assuming it's a common cause. Can you at least try to stay on topic?",
+        "color": "purple"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Rick 'The Rage'",
+        "role": "Emergency Physician",
+        "city": "Windsor, ON",
+        "text": "Amen to that, Dr. Gupta! Dr. Sterling's attitude towards anaphylaxis is just one of the many reasons I've started a petition to get rid of him. Seriously, though, anaphylaxis is serious business. We owe it to our patients to take it seriously.",
+        "color": "red"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Elena Varkov",
+        "role": "Internist",
+        "city": "Quebec City, QC",
+        "text": "While I agree that Dr. Sterling's comments are concerning, I'm not sure a petition is the best approach. Maybe we should focus on addressing the issue in a more constructive manner, such as by creating educational resources or advocating for better training programs?",
+        "color": "blue"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Kevin Park",
+        "role": "Intern",
+        "city": "Edmonton, AB",
+        "text": "But don't we have an anaphylaxis protocol in place? Or is that just a myth?",
+        "color": "lightblue"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "We do have protocols, Kevin, and it's great that you're thinking about them. The key is in staying up-to-date with the latest guidelines and adapting them to our ED's specific needs. But yes, let's keep the conversation going.",
+        "color": "purple"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "What's anaphylaxis, exactly? I thought it was just an allergic reaction?",
+        "color": "gray"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "Well, young man, anaphylaxis is a serious and potentially life-threatening allergic reaction that requires prompt medical attention. It's a systemic reaction that can affect multiple organ systems and lead to respiratory failure, cardiac arrest, and even death. Now, let me tell you a story about a case I saw in the 1950s...",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Just had a case of small bowel obstruction from a forgotten gallbladder",
+    "body": "Just saw a patient with a classic SBO (small bowel obstruction) case from a forgotten gallbladder. Patient presented with crampy abdominal pain, vomiting, and inability to pass flatus. I was immediately thinking SBO, but the gallbladder was missed on the CT. Had to do an upper GI series to confirm. Rant about this: how common is gallbladder perforation without SBO? Can't believe I almost missed it. Any tips on SBO management?",
+    "category": "EmergencyMedicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "This is a great reminder of the 'forgotten gallbladder'! It's a classic cause of SBO. You should read up on the 'Three C's': Closed-loop obstruction, Compression, and Constriction. This patient had closed-loop obstruction from the gallbladder (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4351237/). Great job catching it!",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Thanks Dr. Gupta! So, does this mean the patient had a closed-loop obstruction due to the gallbladder? Can someone explain the difference between closed-loop obstruction and a simple SBO?",
+        "color": "blue"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Great post! But I want to add that the patient's symptoms were classic for SBO, but the key takeaway is the forgotten gallbladder. Any recommendations on when to suspect gallbladder issues in SBO cases?",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "If I recall correctly, the gallbladder should always be imaged in SBO cases, especially if there's a history of gallstones. It's easy to miss it on the CT, but a focused exam on the right upper quadrant might raise suspicion.",
+        "color": "red"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Great reminder to include the gallbladder in the differential for SBO! Can someone explain the 'Three C's' in more detail? What are common causes, treatments, and outcomes for SBO?",
+        "color": "orange"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "The 'Three C's' are classic causes of SBO: Closed-loop obstruction (e.g., gallbladder), Compression (e.g., hernia), and Constriction (e.g., neoplasm). Common treatments include surgical intervention, bowel rest, and IV fluids. Outcomes depend on the cause, but early intervention can reduce complications and mortality. Check out this review: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5421456/",
+        "color": "purple"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Thanks Dr. Gupta! So, what are the common complications of SBO, and how do we prevent them?",
+        "color": "blue"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Common complications include bowel ischemia, necrosis, and perforation. Early diagnosis and intervention can prevent these complications. Keep in mind that SBO is a surgical emergency, and prompt transfer to the OR is often necessary.",
+        "color": "red"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "Great reminder to keep a high index of suspicion for SBO! What about bowel preparation for SBO patients? Should we prep them before surgery?",
+        "color": "pink"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Bowel prep is not usually necessary for SBO patients. The focus is on relieving the obstruction and preventing complications. Prep can be a contraindication in some cases, especially if there's bowel necrosis or perforation.",
+        "color": "orange"
+      },
+      {
+        "id": 11,
+        "parent_id": null,
+        "user": "Dr. Rick 'The Rage'",
+        "role": "EP",
+        "city": "Windsor, ON",
+        "text": "Just a personal rant: How do we get our EM residents to prioritize SBO cases? It's a 'textbook' case, but we always seem to be behind on these!",
+        "color": "red"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Great rant, Dr. Rick! Any tips for prioritizing SBO cases in our EM department?",
+        "color": "blue"
+      },
+      {
+        "id": 13,
+        "parent_id": 12,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "We should all prioritize SBO cases as surgical emergencies. A quick assessment, imaging, and surgical transfer can save lives. Maybe we should create a standardized SBO workflow to make it easier?",
+        "color": "purple"
+      },
+      {
+        "id": 14,
+        "parent_id": 13,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Let's create an EM-Surgery interface to improve SBO care! Maybe we can even link it to the surgical trauma register. Great idea, Dr. Gupta!",
+        "color": "lime"
+      },
+      {
+        "id": 15,
+        "parent_id": null,
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "One more thing about SBO cases: Can we talk about post-op complications in these patients? I've seen some nasty bowel obstructions after surgery...",
+        "color": "green"
+      },
+      {
+        "id": 16,
+        "parent_id": 15,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Great point, Dr. Stone! Post-op complications in SBO patients can be serious, especially if there's a previous laparotomy. We should be vigilant about monitoring these patients post-operatively.",
+        "color": "purple"
+      },
+      {
+        "id": 17,
+        "parent_id": null,
+        "user": "Dr. Phil Muddle",
+        "role": "EP",
+        "city": "Regina, SK",
+        "text": "Uh, sorry? What was we talking about again? I think I missed something... Wait, SBO? Oh, right! The patient's gallbladder... Uh, I'm going to go grab some coffee now...",
+        "color": "brown"
+      },
+      {
+        "id": 18,
+        "parent_id": 17,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Haha, nice one, Doc! Just a reminder to keep an ear out for your colleagues... Maybe we can link to some educational resources for SBO management?",
+        "color": "orange"
+      },
+      {
+        "id": 19,
+        "parent_id": 18,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Here's a link to the ACP EM guidelines on SBO management: https://www.aemsp.org/guidelines/bowel-obstruction. Check it out!",
+        "color": "purple"
+      },
+      {
+        "id": 20,
+        "parent_id": 19,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Thanks, Dr. Gupta! Another great resource is the ACEP EM Practice Management Guidelines (https://www.acep.org/patient-care/medical-legal-emergency-department/em-management/bowel-obstruction/)",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "title": "Red Flagging Aortic Dissections: A Critical Look at the Stanford vs DeBakey Classifications",
+    "category": "emergency-medicine",
+    "body": "Just had a patient present with a classic presentation of an aortic dissection, and it made me think about the ongoing debate between the Stanford and DeBakey classifications. Has anyone else ever felt like these classifications can be more of a hindrance than a help in the ED? Specifically, has anyone ever seen a case where a type A dissection was initially misclassified as a type B, or vice versa? I'd love to hear your thoughts on this.",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "u/DrArisThorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "TLDR: The Stanford classification is more commonly used in the ED, but it has its limitations. I'd be happier to see the DeBakey classification used more frequently.",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "u/DrVictorSterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs like you think they need the DeBakey classification, but in reality, the Stanford classification is more than enough. The key is not to overdiagnose, people!",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "u/u/DrZiggyZalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "I'm with @DrArisThorne on this one. The DeBakey classification is more nuanced and takes into account the complexity of the dissection. Don't knock it 'til you try it, @DrVictorSterling!",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 2,
+        "user": "u/u/drArisThorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "But isn't the issue that the DeBakey classification is less commonly used in the ED because of lack of familiarity, rather than anything inherent to the classification itself? Would love to see a study on this.",
+        "color": "purple"
+      },
+      {
+        "id": 5,
+        "parent_id": 3,
+        "user": "u/u/drVictorSterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "You want a study? Fine. I'll give you one. The Stanford classification has been shown to be just as accurate in the ED as the DeBakey classification. Next thing you'll be wanting is a study on the importance of hand sanitizer.",
+        "color": "green"
+      },
+      {
+        "id": 6,
+        "parent_id": 4,
+        "user": "u/u/LeoChen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Uh, excuse me, but wouldn't the DeBakey classification just be more useful in certain cases, like when you're trying to decide whether to operate or not? Wouldn't the nuances of the classification come into play more often in surgical decisions?",
+        "color": "yellow"
+      },
+      {
+        "id": 7,
+        "parent_id": 5,
+        "user": "u/u/DrArisThorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great point, @LeoChen! And don't even get me started on the fact that the DeBakey classification actually takes into account the location of the intimal tear, whereas the Stanford classification simply classifies as type A or B. It's just more comprehensive.",
+        "color": "purple"
+      },
+      {
+        "id": 8,
+        "parent_id": 6,
+        "user": "u/u/SarahSharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "[link to a nice article on the topic](https://journals.lww.com/em-news/Abstract/2018/01000/The_Stanford_and_Debakey_Classifications_for.3.aspx)",
+        "color": "orange"
+      },
+      {
+        "id": 9,
+        "parent_id": 7,
+        "user": "u/u/DrVictorSterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "You guys are all just talking about the theoretical implications. What's the practical impact of this on patient care, hmm? Do you know anyone who's been misdiagnosed because of this classification nonsense?",
+        "color": "green"
+      },
+      {
+        "id": 10,
+        "parent_id": 8,
+        "user": "u/u/DrArisThorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Actually, I do know a case from last year where a type B dissection was initially misclassified as a type A. The patient ended up getting unnecessary surgery, and it caused them a world of unnecessary stress and pain.",
+        "color": "purple"
+      }
+    ],
+    "image": "http://emupdates.com/wp-content/uploads/2010/06/AoD-evaluation-pathway-12-09.pdf-1-page.jpg.jpg"
+  },
+  {
+    "id": 1,
+    "title": "TLDR; Hypertensive Emergencies: When does the BP really matter?",
+    "body": "Just saw a patient with a blood pressure of 220/150 coming in with severe chest pain and I was wondering, do we really need to worry about hypertensive emergencies with that kind of readings? What are the red flags that make this a true emergency vs a case of hypertensive urgency?",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 5,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great question! Hypertensive emergencies are indeed a concern when we see patients with severe blood pressures causing end-organ damage. The key is target organ dysfunction - when the high BP starts affecting organs like the brain, kidneys, heart, or lungs.",
+        "color": "blue"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "So, if I'm understanding correctly, the goal is to manage the BP quickly to prevent more damage to these organs? But how do we determine which patients need immediate attention vs those that can be treated as hypertensive urgency?",
+        "color": "green"
+      },
+      {
+        "id": 7,
+        "parent_id": 5,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "TL;DR: The JNC 7 classification is useful here - Class 3 hypertension refers to patients with blood pressure readings of 180/120 mmHg or higher. This is likely hypertensive urgency. However, if you see signs of target organ damage (e.g. chest pain, shortness of breath, headache), it's a hypertensive emergency. See this article on eMedicine for more info: [link]",
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "parent_id": 6,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Leo, to clarify, you're right - we need to consider the patient's overall presentation and labs. For example, if they have a normal troponin but severe chest pain and a BP of 220/150, we might prioritize hypertensive emergency treatment over waiting for further diagnostics.",
+        "color": "purple"
+      },
+      {
+        "id": 9,
+        "parent_id": 7,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "Hey docs, as a patient, I have to say I'm still a bit confused. Why can't we just lower my blood pressure quickly like you're worried about? Isn't it better to err on the side of caution and prevent more damage?",
+        "color": "orange"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Barnaby, great point! However, as Dr. Sharp mentioned, if you're only seeing a BP of 220/150 and no signs of end-organ damage, we might treat this as hypertensive urgency and start with meds like labetalol or hydralazine. But always be prepared to escalate treatment if the patient's status changes.",
+        "color": "brown"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Kevin, don't forget about the sodium story and renal function - patients with renal artery stenosis or severe hypertension might need more careful BP management. Don't wanna over-treat and cause a sodium-induced crisis.",
+        "color": "pink"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "What's a sodium-induced crisis, anyway? Is that like some kind of super-rare complication or something?",
+        "color": "red"
+      },
+      {
+        "id": 13,
+        "parent_id": 12,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "Chad, for goodness' sake, a sodium-induced crisis is when patients with hypertension and renal issues get over-diuresed on loop diuretics, causing sodium depletion and subsequent hyponatremia. It's not super-rare, trust me.",
+        "color": "gray"
+      }
+    ]
+  },
+  {
+    "title": "Rant about Abdominal Pain - How Many Times Can We Miss a Bowel Obstruction?",
+    "category": "Pediatric GI Disorders",
+    "body": "Just saw a patient with a bowel obstruction, again.  I know I'm not the only one who's made this rookie mistake multiple times.  How many of you have misdiagnosed a bowel obstruction on a simple abdominal x-ray?  We all know we should be looking for the 'step-off' sign of distension, but do we always?",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "MD, FRCPC",
+        "city": "Toronto, ON",
+        "text": "The thing is, a bowel obstruction can present with so many different signs and symptoms, making it easy to misdiagnose.  I recently presented a case at our departmental grand rounds where a 3 year old presented with abdominal pain and vomiting but no bowel distension.  It was initially diagnosed as a URI with secondary GI symptoms.  Luckily, we did a CT scan which revealed a small bowel obstruction.  So many times we rely on the 'classic' symptoms and forget to consider the unexpected presentations.  TLDR: We need to stay vigilant and not get too attached to a single diagnosis.",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2, MD",
+        "city": "Mississauga, ON",
+        "text": "I'm glad Dr. Thorne mentioned the variability in symptoms, as it's true.  But what about using more advanced imaging, like contrast enema, to help diagnose the obstruction?  I've seen a few cases where this was instrumental in identifying the issue.  Any thoughts?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I've been reading online about using ultrasound to help diagnose bowel obstructions.  Does anyone have any experience with this?  Can it be used in conjunction with other imaging modalities?",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Sarah Jenkins",
+        "role": "MS3, MD",
+        "city": "Ottawa, ON",
+        "text": "Actually, ultrasound can be a great tool in diagnosing bowel obstructions, especially in pediatric cases.  I found an article by the Journal of Ultrasound in Medicine discussing the use of ultrasound in pediatric bowel obstruction; you can look it up on PubMed.  It highlights the value of ultrasound in differentiating between mechanical and non-mechanical obstructions.",
+        "color": "orange"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1, MD",
+        "city": "Edmonton, AB",
+        "text": "Thanks for sharing that info, Dr. Jenkins.  I'm always looking for ways to improve my knowledge and stay up to date with the latest research.  What about the role of laparoscopy in diagnosing and treating bowel obstructions?  I've heard it's becoming more popular, especially in pediatric cases.",
+        "color": "pink"
+      },
+      {
+        "id": 6,
+        "parent_id": 1,
+        "user": "Turbro Tom",
+        "role": "RN, ED",
+        "city": "London, ON",
+        "text": "You're all too focused on the imaging and forgetting about the most important thing: the patient!  As nurses, we've seen our fair share of bowel obstructions and know how frustrating it can be when the diagnosis takes too long to come.  So, what can we do to make the process more efficient and effective?",
+        "color": "red"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Barb Miller",
+        "role": "EP, MD",
+        "city": "Winnipeg, MB",
+        "text": "I agree with Turbo Tom - patient care should always be our top priority.  One thing that can help is using a more systematic approach to diagnosing bowel obstructions.  The Ottawa Anesthesia Triage for Surgical Emergencies (OATSE) protocol is a great example of this; it helps emergency physicians prioritize and streamline the assessment process.",
+        "color": "blue"
+      },
+      {
+        "id": 8,
+        "parent_id": null,
+        "user": "Chad Broson",
+        "role": "Pre-med, aspiring MD",
+        "city": "Brampton, ON",
+        "text": "Wow, this thread is super insightful.  I'm only in my first year of pre-med, but I'm fascinated by the complexities of diagnosing bowel obstructions.  One thing I'd like to know is: what's the most common cause of bowel obstruction in pediatric patients?",
+        "color": "green"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery, FRCSC",
+        "city": "Calgary, AB",
+        "text": "Ah, another pre-med asking simplistic questions.  Let me put it simply: the most common cause of bowel obstruction in pediatric patients is intussusception.  Now, can we please move on to more advanced discussions?",
+        "color": "red"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Ziggy Zalesky",
+        "role": "EP, MD",
+        "city": "Vancouver, BC",
+        "text": "Whoa, Dr. Sterling, no need to be condescending.  We're all here to learn, not to impress the chief surgeon.  And, actually, I think Chad's question has merit.  Intussusception is indeed a common cause, but there are other important factors to consider, like Hirschsprung's disease, which is a congenital defect that can lead to bowel obstruction.  We should consider both when making a diagnosis.",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "TL;DR: Sexual Assault Victims Often Know Their Perpetrators.",
+    "body": "Had a tricky case last night in the ED. A 30-year-old female presents with severe abdominal pain and a large laceration on her lower back. She tells us that it happened during a 'disagreement' with her boyfriend, who was allegedly 'hurt' when she refused to have sex with him.",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 13,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "A classic sign of partner abuse. The fact that the perpetrator is known to the victim doesn't mean it wasn't a traumatic assault. Remember the ' Cycle of Abuse' - the victim often tries to 'save' the relationship, only to be re-abused. It's a tough balance between treating the physical injuries and addressing the emotional trauma. Has anyone heard of the 'Sexual Assault Response Team' (SART) protocol?",
+        "color": "purple"
+      },
+      {
+        "id": 14,
+        "parent_id": null,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "I've seen my fair share of these cases, and it's infuriating. But here's the thing - most ED docs don't receive proper training on recognizing the signs of intimate partner abuse. It's like expecting a nurse to do surgery without training. Let's get real about the resources we're giving our patients and each other.",
+        "color": "orange"
+      },
+      {
+        "id": 15,
+        "parent_id": 13,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "What's the first step in addressing partner abuse when you're on shift? Do we need to get law enforcement involved immediately, or is there a way to de-escalate the situation?",
+        "color": "blue"
+      },
+      {
+        "id": 16,
+        "parent_id": 13,
+        "user": "Dr. Rick 'The Rage'",
+        "role": "EP",
+        "city": "Windsor, ON",
+        "text": "Get it together, folks! The victim's safety comes first. Don't wait for a formal report - call security and get her out of there ASAP. Remember the protocol for evidence collection - SANE programs, rape kits, etc. Don't be a hero, folks - if you're unsure, CALL.",
+        "color": "red"
+      },
+      {
+        "id": 17,
+        "parent_id": 14,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Thanks for the reality check, Martha - I agree that we need better ED training on abuse detection and care. Anyone have recommendations for some good online resources for ED docs?",
+        "color": "purple"
+      },
+      {
+        "id": 18,
+        "parent_id": 17,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Check out the National Coalition Against Domestic Violence (NCADV) website - they have some excellent resources on abuse detection, treatment, and prevention. Also, the American Academy of Emergency Medicine (AAEM) has a great guide on evidence-based treatment for victims of intimate partner violence.",
+        "color": "blue"
+      }
+    ],
+    "image": "https://ars.els-cdn.com/content/image/1-s2.0-S0736467920307885-gr2.jpg"
+  },
+  {
+    "id": 1,
+    "title": "Today I Learned... Bioterrorism is not just about anthrax",
+    "body": "Had a patient come in last night with symptoms suspicious for smallpox. After some digging, it turned out it was a false positive, but it got me thinking... we need to be prepared for bioterrorism, and it's not just about anthrax. Anyone else have any experience with this?",
     "category": "emergency medicine",
     "comments": [
       {
@@ -11,473 +922,141 @@
         "user": "Dr. Aris Thorne",
         "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "Great post, and a great opportunity to revisit the basics of neonatal resuscitation. As a pediatrician, I've seen my fair share of neonatal arrests, and let me tell you, it's not something you want to encounter. But, as @DrSaraSharp pointed out, we should always be prepared for the unexpected. The most important thing is to stay calm and focused, just like @MarthaTheHammer mentioned. When I'm in a situation like that, I always visualize the sequence of steps we need to take, and try to remain centered.\n\nOne thing I do want to add is that it's essential to have a clear understanding of the underlying conditions that may lead to neonatal arrest. For example, some babies may have a congenital heart defect or other underlying conditions that increase the risk of arrest. We need to remain vigilant and be prepared for any scenario that may arise. TLDR; Neonatal resuscitation is not just a skill, it's a mindset.",
-        "color": "purple"
+        "text": "Lol, false positive on smallpox is always a fun diagnosis. But seriously, bioterrorism is a real concern, and we need to be prepared. I recommend checking out the CDC's guidelines on bioterrorism response.",
+        "color": "purple",
+        "links": [
+          "https://www.cdc.gov/bioterrorism/index.html"
+        ]
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Hi Dr. Thorne, what do you mean by visualizing the sequence of steps? Could you elaborate on that?",
-        "color": "green"
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Dr. Thorne, what are some of the key symptoms to look out for in a suspected bioterrorism case?",
+        "color": "green",
+        "links": []
       },
       {
         "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "I've been an EP for years, and I can tell you that neonatal resuscitation is one of the most challenging situations I've encountered. We need to stay focused and calm, just like Dr. Thorne mentioned, but we also need to remember that every baby is different. What works for one may not work for another. We need to be prepared to adapt our strategy on the fly. One thing that's helped me in these situations is to remember the PALS guidelines for neonatal resuscitation. They provide a clear, step-by-step approach that's been tested and proven to work.",
-        "color": "blue"
+        "parent_id": 2,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Good question, Dr. Park. In general, bioterrorism agents can cause a wide range of symptoms, depending on the specific agent. For smallpox, you're looking for symptoms like fever, headache, and rash. But it's always important to consider the clinical context and lab results.",
+        "color": "purple",
+        "links": []
       },
       {
         "id": 4,
-        "parent_id": 3,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "I'm studying for my pediatric exams right now, and one of the things I'm getting confused about is the difference between PALS and Neonatal Resuscitation. Can someone clarify the difference for me?",
-        "color": "purple"
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "What about other bioterrorism agents? Can someone explain the difference between anthrax, ricin, and botulism?",
+        "color": "blue",
+        "links": []
       },
       {
         "id": 5,
         "parent_id": 4,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs can't even tell the difference between PALS and neonatal resuscitation. It's not rocket science, folks. Let me break it down for you: PALS (Pediatric Advanced Life Support) is a broader concept that covers all aspects of pediatric emergency care, including resuscitation. Neonatal Resuscitation, on the other hand, is a specific skill that deals with newborns. Think of it like a sub-specialty within PALS.",
-        "color": "red"
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Anthrax is a bacterium that can cause a range of symptoms, from skin lesions to respiratory failure. Ricin is a toxin that can cause severe vomiting, diarrhea, and abdominal pain. And botulism is a neurotoxin that can cause muscle weakness and paralysis. All three can be fatal if not treated promptly.",
+        "color": "purple",
+        "links": []
       },
       {
         "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Dr. Sterling, I think you're missing the point here. While PALS is a broad concept, neonatal resuscitation is a critical skill that requires specific training and practice. We can't just 'wing it' when it comes to saving a newborn's life. And let's please avoid the 'amateur' language - it's not only unprofessional, but it's also unhelpful.",
-        "color": "purple"
+        "parent_id": 1,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "I had a patient a few years ago with suspected anthrax. The key to diagnosis was the clinical presentation and the lab results. We had to work with CDC to confirm the diagnosis.",
+        "color": "pink",
+        "links": []
       },
       {
         "id": 7,
-        "parent_id": 3,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "I've seen some of these neonatal arrests up close, and let me tell you, it's never pretty. But what really gets me is the communication breakdown that often occurs during these situations. We need to remember that every member of the team has a critical role to play, from the nurse to the physician. We need to work together seamlessly, like a well-oiled machine, to get the baby back.",
-        "color": "green"
+        "parent_id": 6,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Dr. Varkov, that's a great point. Clinical presentation and lab results are key to diagnosing bioterrorism agents. And collaboration with other experts and agencies is crucial to responding to these events.",
+        "color": "purple",
+        "links": []
       },
       {
         "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "That's really great advice, Turbo Tom. Communication is key in any emergency situation, but especially in neonatal resuscitation. Can you elaborate on what you mean by 'working together seamlessly'? Are there any specific strategies or techniques you recommend?",
-        "color": "blue"
+        "parent_id": 1,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Wow, this is so cool! I had no idea bioterrorism was such a big concern. Can someone explain how to prevent bioterrorism?",
+        "color": "orange",
+        "links": []
       },
       {
         "id": 9,
         "parent_id": 8,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Thanks for asking, Kevin. When I say 'working together seamlessly', I mean staying focused on the task at hand, communicating clearly and concisely, and trusting each other's abilities. It's not about individual heroics - it's about team effort. For example, in a neonatal resuscitation situation, the nurse can provide critical support by monitoring the baby's heart rate, while the physician is performing CPR. We need to be in sync, like a symphony, to get the best outcome.",
-        "color": "green"
-      }
-    ],
-    "image": "https://shop.thieme.in/cache//upload/1/product/9789390553174-466x697.jpg"
-  },
-  {
-    "id": 1,
-    "title": "Tick-borne illnesses - when to treat and when to worry",
-    "body": "Had a patient come in last night with a classic presentation of tick-borne illness - fever, headache, and a rash that looked suspiciously like Ehrlichiosis. The catch was that the patient had removed the tick themselves, and had only been in the woods for a quick hike. I treated them empirically with doxycycline and sent off the blood work for Ehrlichiosis and RMSF. TLDR: Don't be too quick to dismiss a tick-bite, folks!\n\nI was chatting with fellow residents and we all agreed that the biggest challenge is distinguishing between the three tick-borne illnesses: Lyme, Ehrlichiosis, and RMSF. Any tips from our seasoned attendings?\n\n**Edit:** Adding some context - the patient was from the southeast and had been in the woods for 24 hours. No petechial rash, but the EKG was abnormal and the patient had some mild renal impairment.",
-    "category": "Emergency_Medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Tick-borne illnesses - the bane of our existence! I've seen cases where patients have been misdiagnosed (and over-diagnosed) for that matter. My take is that we should focus on the clinical presentation first and foremost: fever, headache, and a rash. I always say, 'It's not just a tick-bite, it's a clinical scenario.'\n\nI agree that distinguishing between the three illnesses is key. Here's a general rule of thumb:\n\n* Lyme disease is usually the most common in the NE and Midwest, so if you're in those regions, it's more likely Lyme\n* Ehrlichiosis typically presents with a more pronounced rash, and the patient may have a history of tick exposure\n* RMSF is more common in the Southwest and Texas, and the patient may have had a tick attached for an extended period\n\nLet's not forget the other tick-borne illnesses like Anaplasmosis and Babesiosis - those are important too!\n\n**Edit:** Adding a link to a paper I wrote on this topic: [link to paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6543214/)",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs. You're all overthinking this. The best way to diagnose tick-borne illnesses is to look at the tick itself. If the tick is attached for more than 36 hours, it's a given. If it's less than 36 hours, it's probably Lyme. Don't waste your time with blood work until then.",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I disagree with @Dr. Sterling. We can't rely solely on the tick's attachment time. The patient's symptoms and exposure history are crucial. What about cases where the tick is removed and the patient presents hours later?\n\n@Dr. Thorne, can you comment on what the literature says about the accuracy of these clinical scenarios?",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "Folks, let's not forget the long-term consequences of tick-borne illnesses. I've seen patients with chronic Lyme disease that's been mismanaged for years. The key is to get a proper diagnosis and treatment early on. Don't underestimate the importance of a thorough history and physical exam.",
-        "color": "red"
-      },
-      {
-        "id": 5,
-        "parent_id": 2,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Dr. Sterling, doesn't the literature suggest that the time of tick attachment doesn't necessarily correlate with the likelihood of disease transmission? And what about the role of genetic factors in tick-borne illnesses?",
-        "color": "yellow"
-      },
-      {
-        "id": 6,
-        "parent_id": 3,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Great point, @Dr. Park! The literature does suggest that genetic factors play a role in tick-borne illnesses, and the clinical presentation can vary widely. Thanks for pointing that out!",
-        "color": "pink"
-      },
-      {
-        "id": 7,
-        "parent_id": 4,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "I couldn't agree more, @Dr. Oldman. The long-term consequences of tick-borne illnesses are often overlooked. It's crucial to get a proper diagnosis and treatment plan in place.",
-        "color": "orange"
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "title": "Rant about: Missed Temporal Arteritis in an otherwise healthy 22 yo",
-    "body": "Just saw a patient with a 2 day history of headache, fever, and jaw claudication, but no significant past medical history. CT head and MRI venography were normal, and lab work showed an elevated ESR. But the kicker was that the patient also had a tender, non-pulsatile temporal artery. I was about to write off the temporal arteritis as unlikely due to the patient's age, but thank goodness I took a closer look and sent in the ESR. Anyone else ever have a similar situation where they almost missed the diagnosis of temporal arteritis?",
-    "category": "r/EMedicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Sarah Sharp EP, Laval, QC",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "TLDR: Great catch! Temporal arteritis in a young patient is rare, but I've seen it before. Did you know that the patient's symptoms can include scalp tenderness and hair loss? I always think of it when I see a young patient with a weird scalp mass or tenderness. Has anyone else used point-of-care ultrasound to diagnose temporal arteritis? I've done it a few times, and it's super helpful when the ESR is normal.",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Martha 'The Hammer' RN, Halifax, NS",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "I had a patient with temporal arteritis last year who had a huge scalp mass and was almost losing his hair! I thought it was a weird fungal infection or something. The doctor had to biopsy the mass to confirm the diagnosis. Has anyone else noticed how often young patients get a misdiagnosis with temporal arteritis? It seems like it's always 'too young for this' syndrome. We need to be more vigilant, especially with young patients with systemic symptoms. Link to relevant info: <https://www.acpmedicine.org/abstracts/temporal-arteritis-in-young-adults>\r\n",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Leo Chen MS1, Montreal, QC",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Is it true that some patients with temporal arteritis have a 'pulsate' temporal artery? And if so, is that a sign of Takayasu's, or just the usual stuff?",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Barnaby Finch Patient, Surrey, BC",
-        "role": "",
-        "city": "Surrey, BC",
-        "text": "Hi docs, I've recently been diagnosed with temporal arteritis, and I'm just curious, what can I expect from this illness? Are there any treatment options that are more effective than others? Should I worry about long-term damage? Sorry to hijack the conversation, but I'm worried I won't find enough info about this topic elsewhere. Thanks for your time!",
-        "color": "red"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Sarah Jenkins MS3, Ottawa, ON",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Great points, Martha! And Leo, I believe that a pulsate temporal artery is associated with Takayasu's arteritis, not the usual temporal arteritis. But let me check on that... (TL;DR for my fellow EM residents: Takayasu's is a large vessel vasculitis that usually affects the aorta and branches, whereas temporal arteritis is a medium vessel vasculitis. The pulsate artery thing might be a sign of different disease processes?). I also thought it'd be great to link some relevant articles for this topic: <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5437183/> and <https://www.aafp.org/afp/2018/1201/pa1025.xml>",
-        "color": "yellow"
-      }
-    ]
-  },
-  {
-    "id": 3,
-    "title": "Rant about misdiagnosing Otitis Externa: Lessons from the field",
-    "body": "Just saw a patient with what I thought was a minor case of Otitis Externa, but turned out to be Malignant Otitis Externa. It was a stark reminder of how easily we can misdiagnose this condition, especially in vulnerable populations.",
-    "category": "emergency_medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Huge lesson here, folks. Malignant Otitis Externa (MOE) is a real killer, especially in diabetic or immunocompromised patients. We need to be more vigilant when it comes to diagnosing OE, and not just rely on 'oh, it's just a bit of redness and drainage'.",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "I'm not sure I agree with you, Dr. Thorne. A bit of redness and drainage doesn't necessarily mean MOE. We need to use more objective measures, like CT scans and biopsies, before jumping to conclusions.",
-        "color": "blue"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "But don't we risk missing cases if we rely too heavily on imaging? I've seen cases where MOE was initially missed due to a lack of 'red flags' on the CT scan. What are your thoughts on this, Dr. Thorne?",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "Actually, Dr. Gupta, I think the key is to consider the patient's overall risk factors, not just imaging findings. Diabetic patients, immunocompromised patients, those with ear trauma... these are all high-risk groups for MOE.",
-        "color": "orange"
-      },
-      {
-        "id": 5,
-        "parent_id": 2,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "I think we're getting a bit bogged down in the specifics, though. The bigger question is: how do we as ER docs make sure we're not missing MOE in the first place? Any practical tips, folks?",
-        "color": "yellow"
-      },
-      {
-        "id": 6,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Here's a thought: what about the role of bedside ultrasound in diagnosing MOE? I've heard it's pretty promising, and can help identify even the earliest signs of infection.",
-        "color": "red"
-      },
-      {
-        "id": 7,
-        "parent_id": null,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Hey guys, I'm just a pre-med student, but isn't MOE like, super rare? I mean, I've never even heard of it in med school. Is it really something we need to worry about?",
-        "color": "pink"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Actually, Chad, MOE is quite a bit more common than you might think. Let me give you a quick rundown on the risk factors: diabetic patients, immunocompromised patients, people with ear trauma... it's a bigger deal than you might have initially thought.",
-        "color": "purple"
-      },
-      {
-        "id": 9,
-        "parent_id": 6,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "That's a great point about ultrasound, Turbo Tom! Do we have any studies or guidelines on its use in diagnosing MOE? I'd love to learn more about it.",
-        "color": "blue"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Actually, Dr. Park, there's a great study on the use of ultrasound in MOE diagnosis published in the Journal of Emergency Medicine. I can send you the full text if you'd like.",
-        "color": "green"
-      }
-    ],
-    "image": "https://www.osmosis.org/_next/image?url=https%3A%2F%2Fd16qt3wv6xm098.cloudfront.net%2FgquUt32BRWOjKM2XoNMHjxuMSnmu5zBu%2F_.jpg&w=3840&q=75"
-  },
-  {
-    "id": 1,
-    "title": "TLDR; Lightning Injuries are a B#$ch to Diagnose: A Case Study",
-    "body": "Just saw a patient with a lightning injury and I'm still trying to wrap my head around it. The kid got struck by a lightning bolt while swimming in a golf course pond. He's got a GCS of 15 and no ECG changes, but he's got a ton of muscle damage throughout his body. His BP is bouncing all over the place and his HR is 110. We're talking possible rhabdomyolysis, renal failure, and cardiac issues here. The thing is, the ECG only shows a normal rhythm. I mean, I've seen some weird stuff in the ER, but this is something else. Has anyone else dealt with a similar case? Any advice would be appreciated.",
-    "category": "EM",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
         "user": "Dr. Barb Miller",
         "role": "EP",
         "city": "Winnipeg, MB",
-        "text": "Oh man, that sounds rough. Lightning injuries are notoriously tricky to diagnose. The thing about the ECG is that it's normal even in the presence of life-threatening arrhythmias. Have you ruled out cardiac injury with an Echo? And what about rhabdomyolysis? Have you checked the kid's CK and myoglobin levels?",
-        "color": "purple"
+        "text": "Preventing bioterrorism involves a range of strategies, including surveillance, early detection, and rapid response. We also need to educate healthcare providers and the public about the risks and how to respond.",
+        "color": "green",
+        "links": []
       },
       {
-        "id": 2,
+        "id": 10,
         "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "I've read that the ECG changes are often late in the course of the injury. So if you're not seeing anything yet, it doesn't mean it won't come up later. Is there anything else we can do to monitor for potential cardiac issues?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Has anyone else noticed that the patient's renal function is often affected by the rhabdomyolysis? I've seen some cases where the patient goes into acute kidney failure and it's not related to the hypovolemia. Just wondering what your experience is with this.",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "You're bloody kidding me with that! Of course, renal function is affected by the rhabdomyolysis. It's not rocket science. The myoglobin causes direct damage to the renal tubules and you get AKI. Don't be dense.",
-        "color": "red"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Dr. Philip Muddle",
-        "role": "EP",
-        "city": "Regina, SK",
-        "text": "Uh, I'm not sure if this is relevant, but I saw a patient with a similar case a few years ago. He went into cardiac arrest due to a life-threatening arrhythmia and we weren't able to shock him back. He ended up in a vegetative state and was on life support for months. Sorry, I'm still trying to get to the hospital right now.",
-        "color": "yellow"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Philip, dude, it sounds like your patient was just a lost cause from the start. Lightning injuries can be pretty nasty. You'd be better off spending your time looking for answers in cases where there's still something to fix.",
-        "color": "pink"
-      },
-      {
-        "id": 7,
-        "parent_id": null,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Hey guys, I'm not a doctor, but I think I saw something on a medical website about a new study on treating lightning injuries. Has anyone else heard anything about this? I'll try to dig it up and post the link later.",
-        "color": "purple"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
         "user": "Dr. Archibald Thorne",
         "role": "Physician",
         "city": "Saskatoon, SK",
-        "text": "Sue, my dear, I think I have the very article you're looking for. In fact, I have a copy of it right here. Let me just get it out of my bag.",
-        "color": "green"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "I think I've heard of this study. It was something about using a combination of IV fluids and electrolytes to stabilize the patient's vitals. But I'm not sure if it was just case reports or actual scientific research.",
-        "color": "blue"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "You're kidding me with that? Of course, it was a single case series. What kind of evidence are you looking for in a scenario like this? It's not like we can do randomized controlled trials on lightning injuries.",
-        "color": "red"
+        "text": "I remember when I was in medical school, we used to take classes on bioterrorism. It was always a concern, but now it seems like a thing of the past. Do people still take bioterrorism training?",
+        "color": "blue",
+        "links": []
       },
       {
         "id": 11,
         "parent_id": 10,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Actually, there have been some studies on using IV fluids and electrolytes in treating lightning injuries. One study showed a significant reduction in cardiac complications and improvement in renal function. However, I'm not sure if it's been replicated yet.",
-        "color": "yellow"
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Actually, Dr. Thorne, bioterrorism training is still an essential part of our education. We have regular updates and training on bioterrorism agents and response protocols.",
+        "color": "purple",
+        "links": []
       },
       {
         "id": 12,
-        "parent_id": 11,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Wow, I'm learning so much from this thread. Thanks guys, this is really helpful for my pre-med exams.",
-        "color": "pink"
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "I work in the ER and I have to say, bioterrorism is not at the top of my priorities. But I guess it's always good to be aware and prepared. Can anyone recommend any good resources for ER nurses?",
+        "color": "yellow",
+        "links": []
       },
       {
         "id": 13,
         "parent_id": 12,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Haha, good luck with that, Chad! You'll need all the help you can get.",
-        "color": "purple"
-      },
-      {
-        "id": 14,
-        "parent_id": 13,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Actually, Chad, I think it's great that you're interested in learning more about this. Medicine is all about lifelong learning, right?",
-        "color": "green"
-      },
-      {
-        "id": 15,
-        "parent_id": 14,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Lifelong learning, indeed! Although, to be honest, I think we're all a bit too caught up in the drama and excitement of it all. Sometimes we forget to take a step back and look at the bigger picture.",
-        "color": "blue"
-      },
-      {
-        "id": 16,
-        "parent_id": 15,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I see what you mean, Elena. But at the same time, there's a responsibility that comes with being an ER doctor. We're the ones on the frontlines, dealing with the worst cases imaginable. If we're not passionate about what we do, then maybe we're in the wrong profession.",
-        "color": "red"
-      },
-      {
-        "id": 17,
-        "parent_id": 16,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "You know, I've seen some of you young doctors get a bit too caught up in the drama and emotion of it all. But let me remind you, there's a time and a place for that. In the ER, we need to be professionals, not soap opera stars.",
-        "color": "purple"
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Actually, Turbo Tom, there are some great resources available for ER nurses. The CDC has a dedicated section for healthcare providers, including nurses. I recommend checking it out.",
+        "color": "purple",
+        "links": [
+          "https://www.cdc.gov/bioterrorism/directory/healthcareproviders.html"
+        ]
       }
     ]
   },
   {
-    "id": 1,
-    "title": "Surgical Airway Management: The When, Why, and How (CME)",
-    "body": "Today I learned to never again consider a surgical airway in children younger than 10 years of age without considering transtracheal jet ventilation. Dr. Thorne, can you elaborate on the nuances of choosing between the two?",
-    "category": "medicine",
+    "id": 8,
+    "title": "Just saw a patient with a freak lightning strike and I'm still reeling. Had anyone else ever see anything like this?",
+    "body": "Today I learned that lightning strikes are just as deadly as they are unpredictable. I've seen some wild injuries in my ER days, but the latest case had me scratching my head. Patient came in with a severe burn on his arm, which is bad enough, but what really caught my attention was the electrical burns on his chest. He'd been struck by a lightning bolt while working on his roof. The patient is lucky to be alive. His ECG showed some serious cardiac damage and I'm still worried about his long-term prognosis. Has anyone else had any experience with lightning strike patients?",
+    "category": "todayilearned",
     "comments": [
       {
         "id": 1,
@@ -485,506 +1064,144 @@
         "user": "Dr. Aris Thorne",
         "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "When it comes to choosing between a surgical airway and transtracheal jet ventilation in pediatric trauma, it's essential to consider the patient's weight, airway anatomy, and the severity of their injuries. While surgical airways can be lifesaving, transtracheal jet ventilation is generally preferred in children younger than 10 due to its lower risk of complications and easier reversibility.",
+        "text": "Oh man, that's a tough one. The electrical burns from lightning can be really deceptive. They might seem minor at first, but the damage is internal. I recall a case where the patient had a near-normal skin exam, but their heart was messed up bad. We ended up having to do some cardiac rehab on them. Did you check for any other potential damage, like neuro deficits?",
         "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "That's a great point, Dr. Thorne. Can you clarify what you mean by 'easier reversibility'? Does that mean there's a higher risk of respiratory complications if we opt for a surgical airway in pediatrics?",
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "@Dr. Aris Thorne, yeah, we did some basic neuro checks, but I'm not sure if we did anything too extensive. Should we be doing more to assess for neurological damage? Can you provide some more guidance on that?",
         "color": "green"
       },
       {
         "id": 3,
         "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I completely agree with Dr. Thorne's approach. When it comes to pediatric trauma, every minute counts, and we need to err on the side of caution. What about scenarios where the patient's airway is severely compromised, and we can't establish a secure airway via ET tube or LMA? Do we have any data on the effectiveness of surgical airways in these cases?",
-        "color": "blue"
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Whoa, that's crazy. I never knew lightning could do that much damage. Is it safe to assume that the patient just got lucky? Like, they were just in the right spot or something?",
+        "color": "orange"
       },
       {
         "id": 4,
-        "parent_id": 3,
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Lucky? Don't say that. It's not just luck when you get hit with 100,000 volts. These patients are survivors by some miracle. I've seen some pretty weird injuries in my time, but this one takes the cake. Did you guys do any cardiac monitoring on this patient? We should definitely be keeping an eye out for arrhythmias.",
+        "color": "blue"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "@Turbo Tom, yeah, we did some basic ECGs, and the patient's rhythm looks pretty stable. But we should def be keeping an eye out for any arrhythmias, like you said. Did anyone else have any trouble with this patient's burn management?",
+        "color": "green"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "What kind of burns did the patient have? Was it more like a 2nd or 3rd degree burn?",
+        "color": "pink"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Good question, Leo! The patient had more of a 2nd degree burn on his arm, but the electrical damage on his chest was way worse. To answer Sarah's question earlier, we definitely want to keep an eye out for neuro deficits. These patients can have some pretty subtle symptoms. Did anyone check for any other internal damage, like the patient's organs?",
+        "color": "purple"
+      },
+      {
+        "id": 8,
+        "parent_id": null,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "This patient is probably not as messed up as everyone thinks. You're all overreacting. Lightning burns are not that unusual. What's really at risk here are some minor neurodeficits and some internal organ damage. We don't need to get too worked up just yet. Let's not jump to conclusions here.",
+        "color": "red"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "@Dr. Victor Sterling, aren't you being a bit condescending? Can you back up what you're saying with some actual data? How many other patients have gotten minor neurodeficits and internal organ damage from lightning strikes?",
+        "color": "orange"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
         "user": "Dr. Barb Miller",
         "role": "EP",
         "city": "Winnipeg, MB",
-        "text": "Actually, we do have some data on surgical airways in pediatric trauma. A study published in the NEJM showed that while surgical airways are generally safe, they can be associated with a higher risk of complications in patients with severe injuries. What's more, the study found that transtracheal jet ventilation is an effective alternative in these cases, with a lower risk of complications and excellent outcomes.",
-        "color": "red"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "When it comes to surgical airway management, I always keep in mind the importance of proper patient selection. What are some key criteria we can use to identify patients who may benefit from a surgical airway, and what's the 'golden rule' for surgical airway preparation?",
-        "color": "orange"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "That's a great question, Dr. Sharp! In surgical airway management, we look for patients with significant airway compromise, often due to trauma or severe respiratory distress. Our 'golden rule' is to ensure the patient is adequately secured, with in-line cervical stabilization, and proper positioning to minimize the risk of complications. Of course, the specific nuances will vary depending on the individual patient, but that's the general principle.",
-        "color": "purple"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "I see. So, we're looking for scenarios where the patient's airway is severely compromised, but still stable enough to undergo surgery. Can you elaborate on the 'proper positioning' part? I know it sounds trivial, but I want to make sure I understand the specifics.",
-        "color": "green"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Actually, Leo, it's not trivial at all. Proper positioning is crucial to minimize the risk of complications, especially in pediatric patients. According to the ATLS manual, we should position the patient with their head in a midline position, using in-line cervical stabilization to maintain alignment and prevent further injury.",
-        "color": "blue"
+        "text": "Chad, good question. From what I've seen, lightning strikes are pretty darn unpredictable. There's just no substitute for a good old-fashioned physical exam. Did you guys do any neuro checks besides the basic ones?",
+        "color": "yellow"
       }
     ]
   },
   {
-    "id": 1,
-    "title": "Just encountered the worst triage nightmare, and I'm still trying to wrap my head around it. Disaster Preparedness in the ER, anyone?",
-    "body": "I was working a night shift during the height of a category 5 hurricane. We have a hospital in a coastal town with a population of around 50,000. The hospital is a 200-bed tertiary medical center. We have a Level I Trauma Center and a pediatric ER that sees around 10,000 kids per year.\n\nAs the winds howled outside, our ER was slammed with patients. People with minor injuries, people who had been thrown out of their homes - it was chaos. But it wasn't the storm itself that caused the real problem. It was what happened when the power went out.\n\nWe have a backup generator, but it's not designed for the entire hospital. The ER gets priority, which means the rest of the hospital is left in the dark. The issue is that our hospital has a unique set-up. The pediatric ER is situated in a separate building from the main ER, connected via a catwalk. The main ER has a separate power grid, but the pediatric ER shares a generator.\n\nWhen the power went out, our main ER was fine, but the pediatric ER was in the dark. The generators kicked in, but they're not designed for that many patients. The ER is overheating, and we're running low on oxygen. I'm talking multiple codes going off at once. It was absolute carnage.\n\nBut here's the kicker: we had just conducted a disaster preparedness drill a week ago. We knew this was coming. We knew the risks. But we were caught off guard by the sheer scale of it all.\n\nI've been practicing medicine for over 10 years, and I've never seen anything like it. We had over 30 patients in the main ER who were waiting to be triaged. The pediatric ER was in shambles. The pediatric ER staff was frantically trying to get supplies from the main ER, but the catwalk was impassable due to flooding.\n\nWe managed to get the situation under control, but it was a close call. We had to evacuate patients to surrounding hospitals, some of whom were already overwhelmed. I'm still shaken by the experience.\n\nThis got me thinking: disaster preparedness is not just about having a plan in place. It's about having the right resources, training, and equipment. We're constantly training for these types of disasters, but we're not prepared for the scale of it all. I've been racking my brain to figure out how we can improve our disaster preparedness, and I'd love to hear your thoughts.\n\nTLDR: Just went through a disaster night in the ER. Got caught off guard by a power outage and had to navigate a catastrophic triage situation. Anyone have insights on how to improve disaster preparedness?",
-    "category": "medical",
+    "id": "r/emergencymedicine",
+    "title": "TLDR: Hypoglycemia in the ED - A Review of the Pearls and Pitfalls",
+    "body": "Just saw a patient with severe hypoglycemia that was initially misdiagnosed as a neurologic event. It made me realize how easy it is to get caught up in the 'it's just a blood sugar' mentality. Hypoglycemia is a common cause of altered mental status in children and adults, and prompt recognition and treatment are essential to avoid severe and permanent neurologic injury. Let's review some of the key points:",
+    "category": "Emergency Medicine",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Just had a nightmare with our own backup generator failing during an outage at our smaller hospital. Had to evacuate patients to a nearby hospital, but thankfully, we'd done our drills and had a clear plan in place. One thing that struck me was the need to prioritize triage during disasters. We ended up having to focus on the sickest patients first, but it was tough calling off ambulances and telling people it was taking too long to reach them. We also had issues with comms during the hurricane. Our cell towers were down, and our backup satellite comms were spotty. I'm not sure how you can improve that. Thoughts?",
+        "user": "u/Dr_Aris_Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "One of the most important things to remember is that hypoglycemia can be due to a variety of causes, including inadequate oral intake, excess insulin, low levels of hyperglycemic hormones, inborn errors of metabolism, or systemic infection. It's not just a matter of 'checking the glucose' and treating with IV glucose. A thorough history and physical exam are crucial in identifying the underlying cause.\n\nIn neonates and infants, hypoglycemia may present with nonspecific symptoms such as poor feeding, abnormal or high-pitched cry, temperature instability, and irritability or lethargy. As physicians, we need to be aware of these subtle signs and take a thorough history from the parents to identify any potential underlying causes. \n\nTLDR: Hypoglycemia is never just a 'blood sugar'. Always take a thorough history and consider multiple causes.",
         "color": "purple"
       },
       {
         "id": 2,
-        "parent_id": 1,
-        "user": "Richard J. Scarfone",
-        "role": "Medical Director, Disaster Preparedness",
-        "city": "University of Pennsylvania",
-        "text": "Thanks for sharing this experience. I think one key takeaway is the importance of having a clear plan in place for backup power. It's not just about having a generator; it's about having protocols in place for when the power goes out. We've been working on our emergency preparedness drills at the University of Pennsylvania's medical center, and we've been emphasizing communication and prioritization during triage. One thing we've done is to create a triage category system that helps us prioritize patients based on their severity. We also have a 'reverse triage' system where we identify the sickest patients first and work our way down.",
+        "parent_id": null,
+        "user": "u/Dr_Victor_Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs. Every time I come to the ED, I see a bunch of patients with hypoglycemia who are treated with IV glucose and sent home. I'm not saying that's never the right thing to do, but what about the cases where hypoglycemia is secondary to an underlying cause? What about the patient who comes in with a seizure and is treated for epilepsy, but then we find out their glucose level was 30 mg/dL? Don't get me wrong, I love a good 'it's just a blood sugar' story, but let's not forget the bigger picture.",
         "color": "green"
       },
       {
         "id": 3,
         "parent_id": 1,
-        "user": "Carlo Reyes",
-        "role": "FACEP, FAAP",
-        "city": "Los Robles Hospital",
-        "text": "I've worked in several ERs, and it always comes down to resource management. You can't anticipate every scenario, but you can have systems in place to minimize the chaos. We have an emergency management software that helps us keep track of supplies, personnel, and patient flow. It's been a lifesaver during disasters. Another key takeaway is training staff. It's not enough to just have a plan on paper; you need to get your staff drilled in what to do and how to handle these situations. I also think you should consider investing in some sort of satellite internet connection or other backup comms system to minimize comms issues.",
-        "color": "blue"
-      }
-    ],
-    "image": "https://media.springernature.com/full/springer-static/cover-hires/book/978-3-030-34116-9"
-  },
-  {
-    "id": 7,
-    "title": "Just saw a patient with opioid toxicity - the importance of knowing your Naloxone dosing and the role of Clonidine in treatment",
-    "body": "Had a pretty typical tox patient come in last night: a 35yo M with a history of opioid use disorder and a witnessed overdose. His vitals were pretty stable, but he was somnolent and had a GCS of 11. His ECG was normal, but his CO2 was elevated. I started him on a titration of  Naloxone (0.8mg q 3min, up to max dose of 10mg) which quickly got him out of his tox state. But here's where things get interesting - his BP dropped precipitously (from 140/90 to 80/50) shortly after his reversal of TOC. Now, I've heard that Clonidine can be used for opioid tox reversal, but I've never used it before. Can anyone weigh in on the use of Clonidine in this context? Should I have given him a Clonidine dose to help stabilize his BP?",
-    "category": "emergencymedicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Thanks for the anecdote OP. I actually had a similar case recently where we used Clonidine as an adjunct to Naloxone. The thinking is that Clonidine can help mitigate the hemodynamic instability associated with opioid tox reversal by providing a vagal pressor effect. However, the evidence is still pretty thin, and we mostly rely on anecdotal experience. Have you considered reaching out to the tox conference to submit a case study? That way, we can get more data on the effectiveness of Clonidine in this context. [TLDR:] Clonidine may be helpful for BP maintenance, but more research is needed.",
-        "color": "blue"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
+        "user": "u/Leo_Chen",
         "role": "MS1",
         "city": "Montreal, QC",
-        "text": "Dr. Thorne, would you say that Clonidine is more like a treatment for the side effects of opioid tox reversal rather than the tox itself? And what do you mean by 'vagal pressor effect'?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "I've used Clonidine a few times in similar contexts, and I think it's a great idea to submit a case study to the tox conference. But in my experience, the response to Clonidine can be variable - some patients really seem to benefit from it, while others don't notice a difference. Do you think it's possible to identify any specific patient characteristics that might predict a successful response to Clonidine?",
-        "color": "blue"
+        "text": "Dr. Thorne, thanks for sharing this pearl. What kind of inborn errors of metabolism should we be aware of?",
+        "color": "purple"
       },
       {
         "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Sarah, I think one thing to consider is the presence of co-ingestants - if the patient is also poisoned by other substances, that might affect their response to Clonidine. Have you looked at any studies on the interaction between Clonidine and other common tox substances?",
+        "parent_id": 1,
+        "user": "u/Dr_Maya_Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "The key is to think about the big picture and consider multiple causes of hypoglycemia. For example, in a patient with a history of pancreatitis, we might consider hypokalemia or insulin resistance as a potential cause. Or in a patient with a history of seizures, we might consider hypoglycemia as a potential trigger.\n\nHere's an example of a case I saw recently\n\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC5421236/",
         "color": "green"
       },
       {
         "id": 5,
         "parent_id": 2,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "I think I see what Dr. Thorne is getting at - the vagal pressor effect means that Clonidine stimulates the vagus nerve, which can help lower blood pressure by releasing vasodilatory substances. Is that right?",
-        "color": "blue"
-      },
-      {
-        "id": 6,
-        "parent_id": 1,
-        "user": "Dr. Phil Muddle",
-        "role": "EP",
-        "city": "Regina, SK",
-        "text": "Sorry, I'm a bit confused. I thought we were just talking about opioid tox reversal today, but somehow we ended up on Clonidine. Am I missing something?",
-        "color": "purple"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Don't worry, Doc. I think you're just a bit sleep-deprived today. We were talking about opioid tox reversal, but we got sidetracked onto Clonidine. We can continue the discussion in a few hours, when you're feeling more refreshed.",
-        "color": "green"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "OP, can you link to the case study you're thinking of submitting? I'd love to read more about it and get some context.",
-        "color": "blue"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "OP",
-        "text": "Here's the link to the case study: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6431233/. It's a bit of an older study, but I think it provides some interesting insights into the use of Clonidine in tox reversal.",
-        "color": "purple"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Spare me the links to case studies, please. I've got better things to do than scroll through 10 pages of scientific jargon. Get to the point.",
-        "color": "red"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Sorry, Doc. I think you're just a bit out of touch with the times. Case studies are an essential part of our learning culture in the ED.",
-        "color": "green"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "OP, can I ask a question? What's the exact mechanism by which Clonidine exerts its effect in tox reversal? Is it just the vagal pressor effect, or is there something else at play?",
-        "color": "blue"
-      },
-      {
-        "id": 13,
-        "parent_id": 12,
-        "user": "OP",
-        "text": "Rick, that's a great question. From what I understand, Clonidine also has alpha-2 adrenergic receptor agonist activity, which can help mediate its antihypertensive effects. But I'm not entirely sure... can anyone enlighten me?",
-        "color": "purple"
-      },
-      {
-        "id": 14,
-        "parent_id": 13,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I think I can help clarify things. Clonidine does have alpha-2 adrenergic receptor agonist activity, which can help reduce sympathetic outflow and lower BP. But its mechanism in tox reversal is still mostly anecdotal.",
-        "color": "green"
-      },
-      {
-        "id": 15,
-        "parent_id": 15,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Okay, I think I understand now. So Clonidine has a complex mechanism of action that involves both the vagal pressor effect and alpha-2 adrenergic receptor agonism. Right?",
-        "color": "blue"
-      },
-      {
-        "id": 16,
-        "parent_id": 16,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Correct, Kevin. And I think we should all remember that Clonidine is not a first-line treatment for opioid tox reversal, but rather a useful adjunct therapy in certain cases.",
-        "color": "green"
-      },
-      {
-        "id": 17,
-        "parent_id": 16,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Fine, let's move on. What else can you tell me about Clonidine in tox reversal?",
-        "color": "red"
-      },
-      {
-        "id": 18,
-        "parent_id": 17,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Victor, I think we've covered most of the interesting points. But if you're still curious, you can always reach out to the Canadian Association of Emergency Physicians (CAEP) for more information.",
-        "color": "blue"
-      },
-      {
-        "id": 19,
-        "parent_id": 18,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Y'all are makin' my head spin. Can anyone summarize the main points for me? I'm still tryin' to get my head around this Clonidine business.",
-        "color": "green"
-      },
-      {
-        "id": 20,
-        "parent_id": 19,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "Well, Sue, let me try to simplify things. Clonidine may be a useful adjunct in tox reversal, but its exact mechanism of action is still unclear. Perhaps we can agree to say that it has some kind of vasoactive effect that helps mitigate hemodynamic instability.",
-        "color": "blue"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Frustrated with Greenstick Fractures in Kids",
-    "body": "I just saw a patient with a greenstick fracture who's been out of it for 3 days, still complaining of pain and discomfort. I wish I had known about these cases being preferentially treated with 3-4 weeks of orthopedic follow-up rather than casting. Who else has had these frustrating experiences? Has anyone got tips on how to approach these cases in the future?",
-    "category": "pediatrics",
-    "comments": [
-      {
-        "id": 4,
-        "parent_id": null,
-        "user": "Turbo Tom",
+        "user": "u/Turbo_Tom",
         "role": "RN",
         "city": "London, ON",
-        "text": "Haha, you think you're frustrated? I've got a 5-year-old patient who just fell off a trampoline and has a suspected greenstick fracture in both legs. I'm trying to figure out if he's stable to discharge home or if I need to get an ortho consult in here ASAP . TLDR: always, always call ortho for these cases, kids will try and walk on it like it's nothing, you'll be left holding the bag when they end up in worse shape",
-        "color": "teal"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Great point, @Turbo Tom! I completely agree. Greenstick fractures are a classic example where the risks of missed diagnosis far outweigh the benefits of a quick discharge. As soon as you suspect a greenstick, get an ortho consult in here ASAP. Trust me, they'll be thanking you later. And for all you ER docs out there, remember, it's always better to err on the side of caution when it comes to kids. Check out the American Academy of Pediatrics' guidelines on pediatric skeletal trauma for more info: <https://www.aap.org/en-us/about-the-aap/Committees-Councils-Sections/Pediatric-Injury-Prevention/>",
+        "text": "Dr. Sterling, you're always a joy to work with. But seriously, don't you think that the ER is getting a bad rap for treating hypoglycemia? We're not just 'treating the symptom', we're actually addressing a real underlying cause. And who are you to decide whether a patient needs to be admitted or not?",
         "color": "purple"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Thanks for the link, @Dr. Thorne! I was wondering, is there a specific algorithm or decision tree we should be following for these cases? I recall my instructor mentioning something about the Ottawa Ankle Rules, but isn't that more geared towards adult trauma patients?",
-        "color": "lightblue"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Yeah, the Ottawa Ankle Rules are for adults, but the American Academy of Pediatrics has a decision tree for diagnosing and treating pediatric skeletal trauma. It's a bit more involved, but basically you look for signs of significant trauma (e.g. severe pain, instability) and then follow the algorithm based on your findings. Check out this case study for more info: <https://pediatrics.aappublications.org/content/pediatrics/139/2/e20162323.full.pdf>",
-        "color": "pink"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Thanks for the link, @Dr. Gupta! I was wondering, what's the significance of greenstick fractures occurring in the forearm and lower leg? Are there any specific mechanisms of injury or associated injuries we should be on the lookout for?",
-        "color": "lightgreen"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "Greenstick fractures in the forearm and lower leg are common in kids because of their unique skeletal anatomy. The long bones in these areas are still relatively pliable, and as a result, can bend and deform without actually fracturing. However, don't get me wrong - just because it's a greenstick doesn't mean it's not painful. Be sure to order some X-rays to confirm the diagnosis, and consult with orthopaedics for further management. Also, keep an eye out for any associated injuries, such as compartment syndrome or crush injuries. Remember, kids can be pretty tough, but they can still get pretty messed up if you don't take care of them.",
-        "color": "orange"
-      }
-    ]
-  },
-  {
-    "title": "Just saw a patient with Acute Heart Failure and had a realization about the current state of our field.",
-    "category": "EmergencyMedicine",
-    "body": "Just treated a patient who presented with sudden onset dyspnea, orthopnea, and bilateral rales. Initial vitals were HR 120, BP 150/90, RR 28, and oxygen saturation 88% on room air. Chest X-ray showed bilateral infiltrates and cardiomegaly, but no prior imaging was available. She had no prior history of heart disease, but was on metoprolol and lisinopril for hypertension.\n\nI quickly realized that this patient's presentation is not unusual in today's practice. With the increasing prevalence of obesity, diabetes, and hypertension, acute heart failure is becoming more and more common in younger patients. But what really struck me was the fact that we're still managing it like it's 2005. I mean, how many of us are still using the ACC/AHA guidelines from 2017?\n\nI know I'm not the only one who feels like we're stuck in the past. We're still relying on outdated guidelines and not keeping up with the latest research. It's like we're still in the era of 'if it ain't broke, don't fix it.' Well, I say it's broken, and it's time we break free.\n\nTL;DR: Acute heart failure is becoming more common in younger patients, and we need to update our practice to include the latest evidence-based guidelines.\n\n",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Great post! I couldn't agree more. We need to stay up-to-date with the latest research and guidelines. Have you seen the latest guidelines from the American Association for Cardiovascular Diseases? It's a game-changer.",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Lol, what research are they talking about? From what I've seen, it's just a bunch of academics who've never actually worked in a real ER. I mean, I've been in EDs for 10 years, and I can tell you that 90% of what they say is irrelevant to our day-to-day practice.",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Hey Turbo Tom, I think you're being a bit harsh. Research is important in EM because it helps us refine our practice and improve patient outcomes. But I agree, there's a disconnect between the research world and the real-world ER. Maybe we need to find ways to make the research more relevant and applicable to our practice.",
-        "color": "pink"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Dr. Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "Can we stay on topic here? We're talking about acute heart failure. I'm not seeing a clear link to the latest guidelines from the American Association for Cardiovascular Diseases. Care to explain?",
-        "color": "red"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Ah, sorry for the detour, Brock! To answer, the latest AAD guidelines recommend a more comprehensive approach to diagnosing acute heart failure, including the use of biomarkers such as BNP and troponin. We should be considering these in our management plan.",
-        "color": "purple"
-      },
-      {
-        "id": 6,
-        "parent_id": null,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "What a waste of time. You're all talking about guidelines and research, but what about good old-fashioned nursing care? I've seen way more cases of acute heart failure where a simple thing like a 3L IVF and some lasix made all the difference.",
-        "color": "brown"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "Martha, I completely agree with you! You're right, sometimes the best medicine is just a good dose of common sense and compassion. I've lost count of the number of times a patient's life has been turned around by a simple, thoughtful intervention.",
-        "color": "green"
-      },
-      {
-        "id": 8,
-        "parent_id": null,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "I don't understand what you're all talking about. I just came to the ER with symptoms, and the doctor fixed me. Can someone explain it to me like I'm 5?",
-        "color": "yellow"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Sorry, Barnaby! What I was trying to say is that we're trying to figure out the best way to help people with heart problems. It's a tough job, but we're always trying to improve our skills and learn from each other.",
-        "color": "blue"
-      },
-      {
-        "id": 10,
-        "parent_id": null,
-        "user": "Dr. Phil Muddle",
-        "role": "EP",
-        "city": "Regina, SK",
-        "text": "Wait, wait, wait. I just remembered something important. Did you guys know that there's a new trial coming out on the use of ARNTs in acute heart failure? Someone pass the popcorn, I'm not going to miss this.",
-        "color": "orange"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Phil, you're a genius! ARNTs are all the rage right now, and I'm sure we'll learn more about their role in acute heart failure during this trial. Mark your calendars, everyone!",
-        "color": "red"
-      },
-      {
-        "id": 12,
-        "parent_id": 6,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Wow, this conversation is super interesting! Can someone explain to me what ARNTs are? Are they like, new medications or something?",
-        "color": "yellow"
-      },
-      {
-        "id": 13,
-        "parent_id": 12,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Lol, Chad, you're killing me! ARNTs are actually Acute Rejection Nurses Teams, not new medications, buddy. But thanks for asking! ",
-        "color": "green"
-      },
-      {
-        "id": 14,
-        "parent_id": 10,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "Shut up, all of you! I don't care about your precious ARNTs or your fancy guidelines. Can we just focus on the fact that we're stuck in a broken system, and nobody cares?",
-        "color": "purple"
-      },
-      {
-        "id": 15,
-        "parent_id": 14,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Rick, I understand where you're coming from, but let's not descend into nihilism. We need to work together to create change, not tear each other down.",
-        "color": "blue"
-      },
-      {
-        "id": 16,
-        "parent_id": 14,
-        "user": "Dr. 'Ziggy' Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Lol, Rick, you're such a card! Don't worry, buddy, we're all in this together. And hey, at least we have ARNTs to look forward to...",
-        "color": "green"
       }
     ],
-    "image": "https://ars.els-cdn.com/content/image/1-s2.0-S2213177917300513-fx1.jpg"
+    "image": "https://www.uspharmacist.com/CMSImagesContent/2018/10/_HypoglyEmerg-T3.gif"
   }
 ]
