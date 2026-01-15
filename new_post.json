@@ -1,44 +1,843 @@
 [
   {
-    "title": "Just encountered a tough TB case! Rant about TB diagnosis in the ED",
-    "body": "Had a miss last night with a patient I saw in the ED. Thought it was TB, but it turned out to be nontuberculous mycobacteriosis (NTM). TB is always a tough call, especially in the ED, but NTM is even trickier. Had a productive cough, hemoptysis, pleuritic chest pain, and a CXR showing some weird nodules. TB worked up for acid-fast bacilli but came back negative. Then I found out this patient had been taking azithromycin, which is a known risk factor for developing NTM. So now I'm left wondering, how often do we miss TB in the ED because it's masquerading as NTM? TB should always be considered in patients with prolonged febrile cough illnesses, but what about NTM? Should we be thinking about it more often? TLDR: TB diagnosis in the ED is hard, and NTM is an even bigger challenge. I'd love to hear from fellow EM docs about their experiences with TB and NTM.",
-    "category": "Tuberculosis",
+    "id": 0,
+    "title": "Just had a mind-bending case that made me realize why we need to re-think our diagnosis of UGI bleeding... ",
+    "body": "So I had a pt come in last night with classic hematemesis, tachy, and hypotension. Classic UGI bleed, thinks Dr Varkov. I went ahead and ordered an upper endoscopy ASAP. Next day, I get the results back and its actually a lower GI bleed! Turns out the pt had a hidden rectal ulcer caused by chronic constipation. Had to transfuse a bunch of blood because of the massive hematochezia they had initially. Anyone else have any crazy experiences with UGI bleed misdiagnosis? How do you guys handle these cases?",
+    "category": "Emergency Medicine",
     "comments": [
       {
-        "id": 0,
+        "id": 1,
         "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
+        "user": "Dr. Aris Thorne - Staff Physician",
         "city": "Toronto, ON",
-        "text": "TB and NTM are definitely tough cases. I think the key to diagnosing TB is a careful history and physical, looking for things like exposure to infected individuals, travel to high-risk areas, and immunocompromised status. And of course, a good CXR can be a game-changer. But even with all that, there's still a significant number of false-negative acid-fast bacilli tests. I'd love to hear from others about how they approach TB diagnosis.",
+        "text": "TLDR - we tend to get fixated on the 'typical' UGI bleed causes and overlook the less common ones. It's not just rectal ulcers, but also sigmoid volvulus, or even just a plain old sigmoid colon ischemia. I've had multiple cases where the initial diagnosis was incorrect and it ended up being something entirely different.",
         "color": "purple"
       },
       {
-        "id": 1,
-        "parent_id": 0,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "@Dr. Maya Gupta, that's a great point about the history and physical. I've seen so many times where patients come in with a bunch of weird symptoms, and it's not until you dig into their social history that you figure out the diagnosis. TB is definitely one of those diseases where you have to think outside the box.",
-        "color": "green"
-      },
-      {
         "id": 2,
-        "parent_id": 0,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "NTM is such a tough thing to diagnose. I've had patients who've been on azithromycin for years and still end up developing NTM. And once you've got NTM, it's hard to eradicate. I'm wondering if anyone has experience with rifampicin and ethambutol combination therapy for NTM. It's been my impression that it's more effective for TB, but maybe there's overlap with NTM.",
-        "color": "blue"
+        "parent_id": 1,
+        "user": "Sarah Jenkins - MS3",
+        "city": "Ottawa, ON",
+        "text": "But isn't the first step in diagnosing UGI bleed just to check for upper GI causes first? Like, wouldn't we want to do a rapid urease test or an urgent endoscopy to assess for peptic ulcer disease before even considering other options?",
+        "color": "green"
       },
       {
         "id": 3,
         "parent_id": 2,
+        "user": "Dr. Victor Sterling - Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs. You think you know UGI bleeding, but you don't. The first step is always to get a CT scan or MRI, to rule out an aortic dissection or a pancreatitis complication. That's where the real emergencies are. All this other stuff is just minor league",
+        "color": "red"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Maya Gupta - PGY2",
+        "city": "Mississauga, ON",
+        "text": "I see what Dr. Sterling is saying, I guess, but as EPs, we need to consider all the possible causes, especially since many of them can present with similar symptoms. A CT angiogram might be helpful in certain cases, but it's not always necessary or practical in all situations.",
+        "color": "blue"
+      },
+      {
+        "id": 5,
+        "parent_id": 1,
+        "user": "Dr. Elena Varkov - FRCPC",
+        "city": "Quebec City, QC",
+        "text": "As I was saying, we need to be more nuanced in our approach to UGI bleeding. We need to consider non-bleeding causes as well, like a Mallory-Weiss tear or even just stress-induced vomiting. A thorough medical history and some basic knowledge of psychopharmacology would go a long way in diagnosing these cases.",
+        "color": "purple"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Ziggy Zalesky - EP",
+        "city": "Vancouver, BC",
+        "text": "Haha, Dr Varkov, you're on fire today. I've seen patients with 'stress-induced vomiting' caused by anything from a breakup to a bad Netflix show. You're absolutely right though, we need to consider the entire picture, not just the UGI bleeding.",
+        "color": "green"
+      },
+      {
+        "id": 7,
+        "parent_id": 1,
+        "user": "Chad Broson - Pre-med",
+        "city": "Brampton, ON",
+        "text": "OMG, I had no idea rectal ulcers could cause so many problems. What kind of treatment does Dr Varkov recommend for patients with chronic rectal ulcers?",
+        "color": "teal"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Sarah Sharp - EP",
+        "city": "Laval, QC",
+        "text": "Chad, rectal ulcers are actually a pretty common cause of UGI bleeding in patients with chronic constipation or other underlying GI conditions. The treatment is usually a combination of medical therapy (like loperamide) and lifestyle modifications (such as increasing fiber intake and exercise).",
+        "color": "blue"
+      }
+    ],
+    "image": "https://iem-student.org/wp-content/uploads/2018/05/GIB-Figure-1.png"
+  },
+  [
+    {
+      "id": 1,
+      "category": "r/emergencymed",
+      "title": "Just saw a patient with a 'worst ever' headache and I'm left wondering... ",
+      "body": "Had a patient come in last night with a severe headache that she described as 'the worst ever'. She had a 1 week history of gradual worsening headaches, no fever, no vomiting, and no trauma. On exam, she had a normal temp, BP 120/80, and a slightly tender occipital region. Given her lack of other symptoms and normal exam, what's the best next step? Should I order a CT or MRI to rule out secondary headaches or just manage her pain and reassess in a few days? Anyone have any advice for a struggling resident?"
+    },
+    {
+      "id": 1,
+      "parent_id": null,
+      "user": "Dr. Kevin Park",
+      "role": "PGY1",
+      "city": "Edmonton, AB",
+      "text": "TLDR; I'm a resident and I'm not sure what to do with this patient. Thoughts?",
+      "color": "purple"
+    },
+    {
+      "id": 2,
+      "parent_id": 1,
+      "user": "Dr. Maya Gupta",
+      "role": "PGY2",
+      "city": "Mississauga, ON",
+      "text": "Thanks for the question, Kevin! I would recommend ordering a non-contrast CT or an MRI to rule out secondary causes of her headache, such as a vascular malformation or a tumor. The fact that she has a tender occipital region and a history of worsening headaches makes it more likely that there is an underlying cause that needs to be addressed. That being said, you should also consider getting a detailed headache history and doing a thorough neuro exam to see if there are any other red flags that you may have missed.",
+      "color": "green"
+    },
+    {
+      "id": 3,
+      "parent_id": 1,
+      "user": "Dr. Barb Miller",
+      "role": "EP",
+      "city": "Winnipeg, MB",
+      "text": "I agree with Maya. The key here is to think about what could cause a 'worst ever' headache in a young adult. Migraines are a possibility, but if it's not classic, I'd rather cover my bases and get some imaging. What about you guys, have any favorite protocols for headache workup?",
+      "color": "green"
+    },
+    {
+      "id": 4,
+      "parent_id": 2,
+      "user": "Dr. Aris Thorne",
+      "role": "Staff Physician",
+      "city": "Toronto, ON",
+      "text": "Excellent points, Maya! However, before we jump to imaging, let's not forget to consider the patient's age and the fact that she's been getting these headaches for a week. We should also consider the possibility of a primary headache, such as a migraine or cluster headache. Have we taken a detailed history to see if these headaches occur at specific times of the day or if she has any triggers? ",
+      "color": "blue"
+    },
+    {
+      "id": 5,
+      "parent_id": 3,
+      "user": "Leo Chen",
+      "role": "MS1",
+      "city": "Montreal, QC",
+      "text": "What about the importance of the red flags for secondary headaches? Should we be worried if this patient has a fever, stiff neck, or morning vomiting?",
+      "color": "pink"
+    },
+    {
+      "id": 6,
+      "parent_id": 5,
+      "user": "Dr. Elena Varkov",
+      "role": "FRCPC",
+      "city": "Quebec City, QC",
+      "text": "Great question, Leo! The red flags for secondary headaches are a key part of the history and physical exam. If your patient has a fever, stiff neck, or morning vomiting, these are all potential signs of an underlying infection or increased intracranial pressure. We should definitely consider ordering some studies to investigate these symptoms further. But let's not forget to also consider the patient's mental status and any changes in her level of consciousness or behavior. Has she been showing any signs of decreased level of consciousness or confusion?",
+      "color": "yellow"
+    },
+    {
+      "id": 7,
+      "parent_id": 1,
+      "user": "Chad Broson",
+      "role": "Pre-med",
+      "city": "Brampton, ON",
+      "text": "Dude, isn't this just like a migraine or something? Why do we need to imaging?",
+      "color": "red"
+    },
+    {
+      "id": 8,
+      "parent_id": 7,
+      "user": "Dr. Henry Oldman",
+      "role": "CCFP",
+      "city": "Victoria, BC",
+      "text": "Chad, it's not that simple. Migraines can be complex and sometimes require more investigation. The fact that this patient is describing it as 'the worst ever' and has a history of worsening headaches makes it more likely that there is an underlying cause that needs to be addressed.",
+      "color": "green"
+    },
+    {
+      "id": 9,
+      "parent_id": 3,
+      "user": "Sparkle-Eyes Sue",
+      "role": "LPN",
+      "city": "St. John's, NL",
+      "text": "What about the possibility of a sinus infection or a dental issue causing this headache? We should definitely consider getting a sinus CT or doing a thorough oral exam to rule out these possibilities.",
+      "color": "pink"
+    },
+    {
+      "id": 10,
+      "parent_id": 1,
+      "user": "Dr. Brock Stone",
+      "role": "FRCSC",
+      "city": "Hamilton, ON",
+      "text": "I'm with Sparkle-Eyes Sue. We should definitely get a sinus CT and do a thorough oral exam to rule out any sinus or dental issues. And let's not forget to also consider the patient's occupation and any potential work-related causes for her headaches.",
+      "color": "red"
+    },
+    {
+      "id": 11,
+      "parent_id": 9,
+      "user": "Dr. Sarah Sharp",
+      "role": "EP",
+      "city": "Laval, QC",
+      "text": "Great points, Sparkle-Eyes Sue! Sinus infections and dental issues can indeed cause headaches. But what about the possibility of a vascular cause, such as a cavernous sinus thrombosis or an arterial dissection? We should consider getting a MRI or CT angiogram to rule out these possibilities.",
+      "color": "green"
+    },
+    {
+      "id": 12,
+      "parent_id": 10,
+      "user": "Turbo Tom",
+      "role": "RN",
+      "city": "London, ON",
+      "text": "Okay, let's not get too carried away here. What about just starting her on some NSAIDs and seeing how she does? I mean, we've got the 'worst ever' headache, but we also had the 'worst ever' sinus infection last week. Can we just treat and not complicate things?",
+      "color": "blue"
+    },
+    {
+      "id": 13,
+      "parent_id": 12,
+      "user": "Dr. Rick 'The Rage'",
+      "role": "EP",
+      "city": "Windsor, ON",
+      "text": "For Pete's sake, let's not just throw NSAIDs at the problem! We need to consider the underlying cause and do some proper investigation. This is not just a 'worst ever' headache, it's a symptom of something greater. We need to take this seriously and not just 'treat and go home'.",
+      "color": "red"
+    },
+    {
+      "id": 14,
+      "parent_id": 13,
+      "user": "Dr. Phil Muddle",
+      "role": "EP",
+      "city": "Regina, SK",
+      "text": "Hey, hey, hey, let's not be too hasty here! I'm not sure which way I'd go, but maybe we could also consider ordering a lumbar puncture to rule out any central nervous system issues? ",
+      "color": "pink"
+    },
+    {
+      "id": 15,
+      "parent_id": 14,
+      "user": "Barnaby Finch",
+      "role": "Patient",
+      "city": "Surrey, BC",
+      "text": "Wait, what's going on? I thought I just came in with a bad headache...?",
+      "color": "yellow"
+    },
+    {
+      "id": 16,
+      "parent_id": 1,
+      "user": "Dr. Archibald Thorne",
+      "role": "Physician",
+      "city": "Saskatoon, SK",
+      "text": "In the old days, we'd never order an MRI or CT scan on the first visit. We'd just get a good history and physical, and maybe some lab work. Now a days, everyone wants to image first and ask questions later. I'm not saying that's wrong, but we need to be careful not to over-diagnose or over-image.",
+      "color": "blue"
+    },
+    {
+      "id": 17,
+      "parent_id": 16,
+      "user": "Dr. Victor Sterling",
+      "role": "Chief of Surgery",
+      "city": "Calgary, AB",
+      "text": "Oh please, Archibald. You're just jealous that no one does liniment anymore.",
+      "color": "red"
+    },
+    {
+      "id": 18,
+      "parent_id": 17,
+      "user": "Dr. Aris Thorne",
+      "role": "Staff Physician",
+      "city": "Toronto, ON",
+      "text": "Victor, that's enough from you, old chap. We're trying to have a civilized discussion about a common medical problem.",
+      "color": "green"
+    },
+    {
+      "id": 19,
+      "parent_id": 18,
+      "user": "Dr. Henry Oldman",
+      "role": "CCFP",
+      "city": "Victoria, BC",
+      "text": "Amen, Aris! And can someone please clarify the difference between a migraine and a headache caused by a sinus infection? I know we covered it earlier, but I want to make sure I understand the nuances.",
+      "color": "pink"
+    },
+    {
+      "id": 20,
+      "parent_id": 19,
+      "user": "Dr. Maya Gupta",
+      "role": "PGY2",
+      "city": "Mississauga, ON",
+      "text": "Great question, Henry! Migraines and sinus headaches can be similar, but generally, migraines are more severe, have a pulsating quality, and are associated with nausea and vomiting. Sinus headaches, on the other hand, are more localized to the face and upper nasal area and are often accompanied by nasal congestion and discharge.",
+      "color": "yellow"
+    },
+    {
+      "id": 21,
+      "parent_id": 20,
+      "user": "Dr. Barb Miller",
+      "role": "EP",
+      "city": "Winnipeg, MB",
+      "text": "Thanks, Maya. But what about when it's not just a simple migraine or sinus headache? How do we diagnose and treat more complex headaches?",
+      "color": "green"
+    },
+    {
+      "id": 22,
+      "parent_id": null,
+      "user": "Dr. Kevin Park",
+      "role": "PGY1",
+      "city": "Edmonton, AB",
+      "text": "Thanks for the discussion, everyone! I think I understand the complexity of headache diagnosis a bit better now. Let's just make sure to take a thorough history, do a detailed physical, and consider all the possible causes before jumping to conclusions or ordering too many tests.",
+      "color": "blue"
+    },
+    {
+      "id": 23,
+      "parent_id": 22,
+      "user": "Dr. Elena Varkov",
+      "role": "FRCPC",
+      "city": "Quebec City, QC",
+      "text": "Well said, Kevin! And don't forget to keep considering the possibility of red flags for secondary headaches, such as fever, stiff neck, or morning vomiting.",
+      "color": "pink"
+    },
+    {
+      "id": 24,
+      "parent_id": 23,
+      "user": "Dr. Aris Thorne",
+      "role": "Staff Physician",
+      "city": "Toronto, ON",
+      "text": "I think we've covered this topic fairly well, don't you, everyone? Headache diagnosis is a complex and multifaceted issue, but with careful history taking and physical examination, we can make a more accurate diagnosis and provide better patient care.",
+      "color": "green"
+    },
+    {
+      "id": 25,
+      "parent_id": null,
+      "user": "Turbo Tom",
+      "role": "RN",
+      "city": "London, ON",
+      "text": "I think it's safe to say that we've had a 'brain dump' of epic proportions on this thread. Thanks for the laughs, folks! TLDR: Headaches are hard.",
+      "color": "blue"
+    },
+    {
+      "id": 26,
+      "parent_id": 25,
+      "user": "Dr. Rick 'The Rage'",
+      "role": "EP",
+      "city": "Windsor, ON",
+      "text": "Haha, indeed we have! But seriously, don't forget to stay vigilant and consider the possibility of serious underlying causes in headache patients.",
+      "color": "red"
+    },
+    {
+      "id": 27,
+      "parent_id": 26,
+      "user": "Leo Chen",
+      "role": "MS1",
+      "city": "Montreal, QC",
+      "text": "Thanks for the tips, everyone! I feel like I've learned a lot about headache diagnosis and treatment. Keep sharing your wisdom!",
+      "color": "pink"
+    }
+  ],
+  {
+    "id": 1,
+    "title": "Rant about missed acute valve failure diagnosis in the ED",
+    "body": "Just saw a patient with acute valvular dysfunction, and it got me thinking about all the cases where we've missed a diagnosis in the ED. I think it's time to bring up the elephant in the room: how many times have we missed a critical diagnosis due to our own biases and lack of focus on valvular disease? I'm not even talking about the obvious signs of acute valve failure like shortness of breath or heart failure. No, I'm talking about the subtle ones, the ones that catch you off guard. Like that patient who shows up complaining of vague chest pain, who's got a new-onset systolic murmur, and has a totally normal ECG.\nTLDR: Let's talk about acute valvular dysfunction and how we can do better in the ED.",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "I think this is a great topic for discussion. As attending physicians, we all know that our first instinct is often to focus on more 'obvious' conditions. But the truth is, valvular disease can present in some pretty unexpected ways. I've seen patients with acute mitral regurgitation who only come in when their symptoms worsen with exertion. What are some of your experiences with missed or delayed diagnoses in valvular disease?",
+        "color": "purple"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Great point, Dr. Thorne! I recall a case from residency where we saw a post-MI patient with acute severe mitral regurgitation due to papillary muscle rupture. They presented with acute onset of severe dyspnea, and a new holosystolic murmur.\n\nIt's all about being vigilant and not getting too focused on the 'obvious' causes. In retrospect, we probably should've been more suspicious of valvular dysfunction after the MI.",
+        "color": "green"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "And don't forget to check the vitals, people! In my experience, patients with acute valvular dysfunction often have signs of volume overload or heart failure. For example, last week we had a patient who showed up with a new-onset systolic murmur, and an RA of 12 mmHg. We immediately did a stat echo and diagnosed acute severe TR. Now let's talk about the role of ECHO in diagnosing acute valvular dysfunction.",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 2,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "That's so true, Turbo. Echo is a game-changer in these cases. It provides instant gratification and can confirm or rule out valvular dysfunction quickly. We should be using it more liberally in ED.",
+        "color": "purple"
+      },
+      {
+        "id": 5,
+        "parent_id": null,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I have a question about the diagnosis of acute valve failure. What are some of the key clues to look for on an ECHO in these cases?",
+        "color": "red"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "On ECHO, we should be looking for signs of valvular dysfunction, such as leaflet thickening, commissural fusion, or annular dilatation. Also, any signs of cardiac chambers dilatation, pericardial effusion, or pleural effusion can indicate right heart dysfunction or volume overload.",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Rant about scalp lacerations",
+    "body": "Just had a patient come in with a scalp laceration that was 'sutured' by a well-meaning but clueless nurse. The patient had a deep scalp laceration that was bleeding profusely, and the nurse applied a pressure dressing as a 'temporary measure'. I walked in to find a hematoma the size of a baseball growing under the pressure dressing. After some careful evaluation, we needed to take the patient to the OR for a more significant debridement and repair. Just a reminder that pressure dressings are not a substitute for proper wound care.",
+    "category": "emergencymedicine",
+    "comments": [
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Absolutely. I've seen this happen before, and it's a preventable complication. The key is to educate nurses and other providers about the importance of properly evaluating and managing scalp lacerations. A quick glance at the scalp layers can help prevent these kinds of issues.",
+        "color": "purple"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "I've read that scalp lacerations are one of the few injuries where primary closure is still indicated, even if it's been hours since the injury. Is this true? And if so, can someone please link to a good resource on the specifics of scalp repair?",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Rick 'The Rage'",
+        "role": "EP",
+        "city": "Windsor, ON",
+        "text": "TLDR: Primary closure is a good option for scalp lacerations, but it depends on the depth and size of the wound. Here's a good reference: [Link to a journal article on scalp laceration repair](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1749-6632.1958.tb44349.x). Keep in mind that the key is to properly assess the wound for signs of infection or deep tissue damage.",
+        "color": "purple"
+      },
+      {
+        "id": 5,
+        "parent_id": 1,
         "user": "Chad Broson",
         "role": "Pre-med",
         "city": "Brampton, ON",
-        "text": "@Dr. Elena Varkov, isn't rifampicin and ethambutol used for TB, not NTM? I thought that was one of the main differences between the two.",
+        "text": "I thought pressure dressings were always a good idea for scalp lacerations? Like, isn't that what we're supposed to do?",
+        "color": "green"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Oh boy, here we go. Pressure dressings are a great way to create a hematoma under the scalp. You want to use common sense and assess the wound properly before slapping on a pressure dressing. That's just amateur hour.",
         "color": "red"
+      },
+      {
+        "id": 7,
+        "parent_id": 1,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "As a family doc, I've seen my fair share of scalp lacerations in kids. One thing that's always stuck with me is the importance of proper cleaning and debridement before closure. Has anyone else noticed that these kinds of wounds often get neglected in the ER setting?",
+        "color": "purple"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Yup, been there, done that. Cleaning and debridement are key, but it's also important to consider the patient's overall risk factors for wound complications. I like to assess the patient's nutritional status, blood sugar levels, etc. to get a sense of their overall risk.",
+        "color": "green"
+      },
+      {
+        "id": 9,
+        "parent_id": 7,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "Cleaning and debridement? Amateurs. The key is to use the right size of gauze and to press hard enough to get the bleeding to stop. That's the secret to scalp laceration repair.",
+        "color": "blue"
+      },
+      {
+        "id": 10,
+        "parent_id": 1,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Has anyone else noticed that scalp lacerations are always so... messy? I mean, you'd think it's just some blood and a bit of dirt, but nope, it's always some complicated mess of tissue and muscle.",
+        "color": "green"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Ugh, don't even get me started on scalp lacerations. They're the worst. But seriously, it's all about the layers. You gotta understand the anatomy of the scalp to properly repair these wounds. And don't even get me started on the importance of hemostasis.",
+        "color": "purple"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Speaking of hemostasis, has anyone else noticed that scalp lacerations always seem to bleed so... profusely? I mean, it's like they have their own little vascular system up there.",
+        "color": "green"
+      },
+      {
+        "id": 13,
+        "parent_id": 11,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "My dear fellow, I must say that I quite agree with your sentiments about the scalp. However, I must also point out that the art of wound repair is rather like playing a game of whist - one must have a deep understanding of the rules and the players involved.",
+        "color": "purple"
+      },
+      {
+        "id": 14,
+        "parent_id": 1,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Jus' wanna say that I've seen me share of scalp lacerations in me time too! And it's always the same thing - the patient comes in bleedin' like crazy and we gotta stop the bleeding first before we can even think about closing the wound.",
+        "color": "green"
+      },
+      {
+        "id": 15,
+        "parent_id": 14,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Yer gettin' it, Sparkle-Eyes! I always say that scalp lacerations are like the ER version of a box of chocolates - you never know what kind of mess you're gonna get inside.",
+        "color": "blue"
+      }
+    ],
+    "image": "https://www.aafp.org/dam/brand/aafp/pubs/afp/issues/2017/0515/cover.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Missed opportunity: Not recognizing severe trauma in adults",
+    "body": "Just saw a patient with a multiple long-bone fractures, severe head trauma and no clear history of a severe mechanism of injury. Upon further questioning, patient was a young adult, 18, who had been 'jumped' by a group of people in a dark alley. I missed the diagnosis of a severe trauma and had to scramble to stabilize the patient.\n\nThis got me thinking about how often we, as emergency physicians, fail to recognize severe trauma in adults. We often focus on the obvious signs of trauma, but miss subtle signs that can lead to serious consequences.\n\nHas anyone else had a similar experience? How do you approach diagnosing severe trauma in adults?",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": 4,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "This is a classic example of a case where the patient's demographics and circumstances should have raised more suspicion for severe trauma. We need to be aware of the fact that young adults are at high risk for assault-related trauma, and that the presence of a 'jumping' can be a clear indicator of such an assault.\n\nIn addition, it's not just about the physical findings, but also about considering the patient's overall presentation and behavior. In this case, the patient's vague history and lack of concern for their injuries should have triggered a more thorough evaluation for trauma.\n\nTLDR: Don't underestimate the importance of considering the patient's demographics and circumstances in the diagnosis of severe trauma.",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "That makes a lot of sense Dr. Thorne. But doesn't the patient's lack of concern for their injuries suggest that they may be trying to hide something? Could we be missing other possible causes of their condition?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 4,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I've seen similar cases in the past where patients have tried to downplay their injuries. In those situations, it's essential to take a more nuanced approach and listen carefully to what they're telling you.\n\nIt's also crucial to consider the possibility of underlying health conditions or substance abuse that may be contributing to the patient's condition. For example, a patient with a history of polytrauma may be more likely to present with a lack of concern for their injuries.\n\nHas anyone else had experience with patients who are trying to hide their true condition?",
+        "color": "purple"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "So, are we saying that the diagnosis was missed because we were too trusting of the patient's story?",
+        "color": "green"
+      },
+      {
+        "id": 5,
+        "parent_id": 3,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "While trusting the patient's story may be a factor, it's more complex than that. We need to consider the patient's overall presentation, including their physical findings, behavior, and medical history.\n\nIn this case, the patient's lack of concern for their injuries and vague history should have triggered a more thorough evaluation for trauma.\n\nTLDR: We need to be more vigilant in our assessment and not rely solely on the patient's story.",
+        "color": "purple"
+      },
+      {
+        "id": 6,
+        "parent_id": 4,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Has anyone talked to the patient's family or friends? Sometimes, a bit of detective work can reveal more about the patient's condition.\n\nAdditionally, what's the policy on using body CT scans for trauma patients? Are we using them enough or too much?",
+        "color": "green"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "That's a great point, Turbo Tom! I've seen cases where a phone call to a family member or friend has revealed crucial information about the patient's condition.\n\nAs for CT scans, I think we're using them too much. In some cases, a plain film or USG can be just as effective in diagnosing trauma.\n\nWe need to be more judicious in our use of resources and not rely on CT scans solely based on a 'better-safe-than-sorry' approach.\n\nTLDR: Use body CT scans judiciously and consider alternative imaging modalities when possible.",
+        "color": "purple"
+      },
+      {
+        "id": 8,
+        "parent_id": 1,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "That makes a lot of sense, Dr. Thorne. But what about the role of the 'trauma team' in diagnosing and treating trauma patients? Shouldn't they be alerted right away when there's a suspicion of severe trauma?",
+        "color": "green"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "The trauma team is essential in diagnosing and treating trauma patients, but they should only be called in when the initial evaluation suggests a high likelihood of severe trauma.\n\nIn this case, the primary care physician should have recognized the signs of trauma and alerted the trauma team accordingly.\n\nTLDR: Use the trauma team judiciously, but be prepared to call them in when necessary.",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Rant about sexual assault evidence collection",
+    "body": "I just had to send a patient for a rape kit due to suspected sexual assault and had to educate her on the importance of not showering or changing clothes before presenting to the ED. Does anyone have any tips on how to counsel patients on this? Specifically, how do you address the issue of 'amnesia' or 'blacking out' after the assault? Should we just leave that alone or try to get to the bottom of it?",
+    "category": "Medicine/Emergency_Medicine",
+    "comments": [
+      {
+        "id": 10,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I've dealt with this a few times and here's what I do: I try to remain non-judgmental and empathetic, and just focus on collecting the evidence and giving the patient the support they need. However, it's worth noting that 'amnesia' after the assault can be a red flag for other issues, such as dissociative disorders or substance abuse problems.",
+        "color": "blue"
+      },
+      {
+        "id": 12,
+        "parent_id": 10,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Can you elaborate on what you mean by 'dissociative disorders'? I've heard that term thrown around a lot in med school but I'm still a bit unclear on what exactly that is.",
+        "color": "gray"
+      },
+      {
+        "id": 14,
+        "parent_id": 12,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Ah, great question Leo! Dissociative disorders refer to a group of conditions that involve a disconnection between a person's thoughts, feelings, and experiences. This can manifest in various ways, including amnesia, dissociation, and identity disturbances. It's essential to screen for these conditions, especially in patients who have experienced trauma. I'd recommend checking out the DSM-5 for more info.",
+        "color": "blue"
+      },
+      {
+        "id": 16,
+        "parent_id": 10,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "I've seen some cases where the patient's 'amnesia' turned out to be just a euphemism for 'I don't remember because I was too drunk.' In those cases, it's crucial to focus on the patient's substance use and potentially refer them to rehab. Has anyone else encountered this scenario?",
+        "color": "orange"
+      },
+      {
+        "id": 18,
+        "parent_id": 16,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Yes, unfortunately I have. It's a tough spot to be in because you want to support the patient but also can't ignore the potential for substance abuse. Any advice on how to navigate that situation would be appreciated.",
+        "color": "red"
+      },
+      {
+        "id": 20,
+        "parent_id": 18,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "One approach is to take a non-confrontational tone and express concern for the patient's well-being. You can say something like: 'I'm concerned that you may have used substances during the assault, which can pose a risk to your health. Can you tell me more about your substance use history?' This way, you're addressing the issue without making them feel judged.",
+        "color": "purple"
+      },
+      {
+        "id": 5,
+        "parent_id": null,
+        "user": "Dr. Phil Muddle",
+        "role": "EP",
+        "city": "Regina, SK",
+        "text": "Rape kits aren't that hard to do. I mean, it's not rocket science. Why all the fuss?",
+        "color": "pink"
+      },
+      {
+        "id": 22,
+        "parent_id": 5,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "Oh please, Dr. Muddle. You think collecting a rape kit is a walk in the park? Try doing it after a patient has showered or changed clothes and see how easy it is. And besides, these patients need more than just a quick swab. They need emotional support and a safe place to go. It's not just about the evidence, it's about the human being.",
+        "color": "brown"
+      },
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "I couldn't agree more with 'The Hammer.' We need to prioritize our patients' emotional well-being and provide them with the resources they need to heal. And to Dr. Muddle, collecting a rape kit is indeed not that hard, but it does require attention to detail and a compassionate approach.",
+        "color": "teal"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Today I Learned: Low-Probability ACS",
+    "body": "I saw a case last night that really stuck with me. A 45 yo man comes in with sharp, pleuritic chest pain that worsens with deep breaths. He's a low-prob likelihood ACS by the Wells score, but given the atypical presentation, we decided to go with a conservative approach. Turns out, it was actually a pneumothorax! The patient presented with a very rare 'retraction-induced pneumothorax'. I've been wondering, how do we differentiate between low-prob ACS and other conditions that mimic ACS in this clinical scenario?",
+    "category": "EM Stories",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "TLDR: always think pneumo in these cases. Great reminder to keep a low threshold for the CT scan. I recall a paper by Mayo et al where they used a combination of clinical factors and biomarkers to distinguish between cardiac and pulmonary causes of chest pain. Do any of you guys know what I'm talking about?",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "The Mayo study refers to a 2018 AHA paper on pulmonary vs. cardiac causes of chest pain. The authors used a 7-point score, with points assigned based on factors such as ECG changes, biomarkers, and clinical presentation.",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "I agree that pneumothorax should be on the top of our differential, especially in patients with atypical presentations. However, it's always crucial to remember that cardiac causes of chest pain can still be 'mimicked' by many other conditions. For instance, a recent study by the University of Amsterdam used a decision-making algorithm to accurately diagnose pulmonary embolism, even when the presentation was atypical or incomplete.",
+        "color": "teal"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Can you tell me more about this decision-making algorithm? Was it using some sort of AI-powered diagnostic tool?",
+        "color": "blue"
+      },
+      {
+        "id": 5,
+        "parent_id": 1,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "My dear colleagues, I must say that I am disappointed in the trend of relying too heavily on 'scores' and 'algorithms' to make clinical decisions. In my day, we relied on good old-fashioned clinical acumen and bedside manner.",
+        "color": "red"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Love it, Dr. Thorne! As nurses, we often have to deal with the aftereffects of these 'scores' and 'algorithms' gone wrong. Can anyone tell me more about why these decision-making tools always seem to rely so heavily on biomarkers?",
+        "color": "yellow"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "One explanation for the emphasis on biomarkers is that they provide a 'quantifiable' measure of disease. This makes them more 'tractable' for the folks who love 'scores' and 'algorithms'. Of course, this ignores the messy reality of human physiology.",
+        "color": "orange"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Dr. Oldman, I'm a bit confused... You're saying that biomarkers are just one 'component' of a larger clinical picture?",
+        "color": "pink"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "You guys are makin' me tired, but in a good way, lol! Just remember, it's always about 'whole-person care', and we gotta keep the patient at the center of it all.",
+        "color": "white"
+      },
+      {
+        "id": 10,
+        "parent_id": 7,
+        "user": "Dr. Rick 'The Rage'",
+        "role": "EP",
+        "city": "Windsor, ON",
+        "text": "Ugh, enough already! Can't we just stick to the facts and evidence-based medicine for once? This thread is a perfect example of how 'emotional appeal' and 'caring' are used to obscure the truth!",
+        "color": "brown"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Oh, come on, Dr. Rage! We can have both, evidence-based medicine AND empathy in this thread. It's not one or the other.",
+        "color": "gray"
+      }
+    ],
+    "image": "https://www.ahajournals.org/cms/10.1161/CIR.0b013e3181ec61df/asset/7f30a975-11a8-4532-b354-51053f253cc5/assets/graphic/zhc0321085610001.jpeg"
+  },
+  {
+    "id": 12,
+    "title": "Just had the most frustrating case of suspected abdominal aortic aneurysm (AAA) - any pearls?",
+    "body": "Just saw a patient with sudden severe back pain, hypotension, and a pulsatile abdominal mass. Bedside ultrasound revealed an AAA measuring 5.5 cm in diameter. The patient was quickly taken to CT for further evaluation, which confirmed the diagnosis and showed signs of impending rupture. I started fluids and transfused blood products, but the patient's hemodynamics continued to deteriorate. I had to call in the vascular surgeon to take over. We eventually made it to the OR, where the aneurysm was successfully repaired. The patient is now doing okay, but the takeaway from this case was that we need to be more aggressive with our resuscitation efforts in these patients. Any other pearls or lessons learned from your own experiences with AAA?",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Thanks for sharing this case! One thing that immediately came to mind was the importance of early recognition of AAA symptoms. We should be suspicious of any patient presenting with sudden severe back pain, particularly if they have risk factors like age > 65, smoking, or atherosclerosis. Also, did you guys catch the point about bedside ultrasound having >90% sensitivity for identifying AAA? I know I've been guilty of sending patients for CT when I could have done a quick ultrasound first. TLDR: be aggressive with resuscitation and don't forget about the power of bedside ultrasound!",
+        "color": "blue"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "AMEN to that, Dr. Gupta! I swear, every time I bring up ultrasound in rounds, I get pushback from the 'experts' saying it's not accurate enough. Meanwhile, we're missing diagnosing cases like this because we're too afraid to use the 'lesser' modality. By the way, has anyone else noticed how many patients these days are being sent to CT for 'further evaluation' when a simple bedside ultrasound would have done the trick?",
+        "color": "red"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "I've been reading up on this topic and I came across some great resources online. One of them is a systematic review on the diagnostic accuracy of bedside ultrasound for AAA. The authors found that while there's room for improvement, ultrasound is a feasible alternative to CT in many cases. Has anyone else seen this paper?",
+        "color": "green"
       },
       {
         "id": 4,
@@ -46,53 +845,88 @@
         "user": "Dr. Kevin Park",
         "role": "PGY1",
         "city": "Edmonton, AB",
-        "text": "Chad's right, rifampicin and ethambutol are TB meds. The first-line treatment for NTM is usually a macrolide and a quinolone. But like @Dr. Elena Varkov said, eradicating NTM is tough. We need to think about how to prevent these cases in the first place.",
-        "color": "pink"
+        "text": "Thanks for sharing that, Sarah! I'll have to take a look at that paper. Can you also share the link or reference so I can get more info on it?",
+        "color": "orange"
       },
       {
         "id": 5,
-        "parent_id": 4,
-        "user": "Dr. 'Ziggy' Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Preventing NTM infections is a great point, @Dr. Kevin Park. Maybe we should be thinking about how to prevent patients from getting on azithromycin in the first place. We know it's a risk factor, so maybe we can just avoid prescribing it. What do you guys think?",
-        "color": "yellow"
+        "parent_id": null,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "You're all getting too caught up in the nuances of diagnosis. The takeaway from this case is that we need to focus on prompt surgical intervention when we do diagnose an AAA. The patient's life depends on it. Let's not get too hung up on ultrasound vs CT, okay?",
+        "color": "purple"
       },
       {
         "id": 6,
         "parent_id": 5,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "Sorry guys, I'm a bit confused. What's the deal with azithromycin for NTM? Can someone explain it to me in, like, plain English?",
-        "color": "orange"
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I understand what you're saying, Dr. Sterling, but we can't just ignore the role of early diagnosis in saving lives. The quicker we can catch these cases, the better our chances of preventing rupture and saving the patient's life. Ultrasound may not be perfect, but it's a valuable tool that can help us identify AAA sooner rather than later.",
+        "color": "blue"
       },
       {
         "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Toronto, ON",
-        "text": "Barnaby, no worries! So, azithromycin is an antibiotic that's often used to treat bacterial infections like strep throat. But in some cases, it can actually cause NTM infections in certain people. It's a tricky thing, because NTM is a type of mycobacteria, which is a different type of bacteria than what azithromycin is meant to treat.",
-        "color": "purple"
+        "parent_id": 2,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "I'm not sure I understand why you guys are debating ultrasound vs CT. Can someone explain the difference between the two in simple terms?",
+        "color": "gray"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "For the pre-med student: Ultrasound uses high-frequency sound waves to create images of the inside of the body, whereas CT scans use X-rays to produce cross-sectional images. Think of it like looking at a building from different angles - ultrasound is like taking a snapshot from one side, while CT is like taking multiple pictures from different sides.",
+        "color": "green"
+      },
+      {
+        "id": 9,
+        "parent_id": null,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "I'm going to chime in with my own experience. I've been practicing family medicine for years, and I've had my fair share of patients with suspected AAA. My take is that while ultrasound can be a valuable tool, we shouldn't rely solely on it for diagnosis. A combination of clinical judgment, physical examination, and diagnostic imaging (including CT) is often the best approach.",
+        "color": "brown"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "Couldn't agree more, Dr. Oldman. As a surgeon, I've seen my fair share of cases where ultrasound misdiagnosed AAA or failed to detect it altogether. We need to use every tool at our disposal to ensure accurate diagnosis and timely intervention.",
+        "color": "navy"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "I'm curious, Dr. Stone - what kind of situations do you think ultrasound is more likely to fail in? Is it related to patient body habitus or something else?",
+        "color": "magenta"
       }
-    ],
-    "image": "https://www.cdc.gov/tb-programs/media/images/2024/03/Patient_taking_TB_medicine_smart_phone_1200x675.jpg"
+    ]
   },
   {
-    "id": 1,
-    "title": "Rant about managing diaphyseal fractures in kids",
-    "body": "I'm still fuming about the case from last night. We had a 10-year-old kid with a transverse forearm fracture who had a closed reduction attempt in the ED. The resident was told to splint and follow up with ortho in a week... without ordering any imaging. I mean come on, did they not check the distal neurovascular status? This kid was lucky to avoid a radial nerve palsy. It's clear to me that our ED staff needs a refresher course on dealing with diaphyseal fractures in kids. Long story short, here's what I learned from this case:",
+    "id": 123,
+    "title": "Had a miss last night... forgot the definition of Hyperosmolar Hyperglycemic State (HHS)",
+    "body": "Patient presents with glucose >600mg/dl, altered mental status, and signs of dehydration. What's the difference between HHS and DKA? Anyone else ever forget this crucial detail?",
     "category": "emergency-medicine",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
         "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
+        "role": "",
         "city": "Toronto, ON",
-        "text": "Great rant, OP! I've seen my fair share of botched diaphyseal fractures in kids too. One thing that always comes to mind is the 'two bone rule' - if you have a transverse fracture of both bones, it's likely unstable and requires ORIF. Otherwise, closed reduction and casting should be the go-to plan. Have you guys thought about organizing a CME session on this topic?",
-        "color": "purple"
+        "text": "Great question! HHS is characterized by glucose levels >600mg/dl, serum osmolality >315mOsm/kg, bicarbonate >15mEq/L, and minimal ketosis. The key distinguishing feature is the absence of significant ketosis, making it different from DKA.",
+        "color": "blue"
       },
       {
         "id": 2,
@@ -100,858 +934,180 @@
         "user": "Leo Chen",
         "role": "MS1",
         "city": "Montreal, QC",
-        "text": "Hi Dr. Thorne, do you mean the two-bone rule for supracondylar fractures? I've been studying for my exams and I've heard that there's another rule for diaphyseal fractures? Could you clarify?",
+        "text": "So, what causes HHS? Is it similar to DKA? Can someone explain the pathophysiology?",
         "color": "green"
       },
       {
         "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Ah, you're close but not quite there, Leo! I'm referring to the two-bone rule for diaphyseal fractures in general, not just supracondylar fractures. It's often cited in the context of Galeazzi's fracture or Monteggia's fracture... basically, if you have a fracture of one bone and a dislocation of the adjacent joint, it's unstable and requires ORIF. But I'm curious, Leo, what makes you think the supracondylar rule is different?",
-        "color": "purple"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs, let's not get too bogged down in the details here. The take-home message is that diaphyseal fractures in kids are tricky, and we need to take it seriously. Has anyone heard of the 'sixth finger sign' in the context of forearm fractures?",
-        "color": "red"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Dr. Sterling, I think you're throwing us a curveball here. What's the sixth finger sign, and why do you bring it up in the context of forearm fractures?",
-        "color": "purple"
-      },
-      {
-        "id": 6,
-        "parent_id": 4,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Ha! You should know this by now, Dr. Thorne. The sixth finger sign refers to the presence of an accessory ossification center in the radius, which can be a clue to a proximal radioulnar joint dislocation. Now, back to the OP's rant...",
-        "color": "red"
-      },
-      {
-        "id": 7,
-        "parent_id": null,
+        "parent_id": 2,
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "TLDR: Don't mess around with diaphyseal fractures in kids, guys. Remember the two-bone rule, and always check the distal neurovascular status. If you need a refresher course, just look up Dr. Thorne's CME presentation!",
-        "color": "blue"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Gupta, where do you recommend I look for Dr. Thorne's CME presentation, please?",
-        "color": "green"
-      },
-      {
-        "id": 9,
-        "parent_id": 7,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Ha! Good luck with that, Leo... I think Dr. Thorne's presentation is just a hypothetical example. Seriously though, just Google 'diaphyseal fractures in kids' and you'll find plenty of resources.",
-        "color": "blue"
-      },
-      {
-        "id": 10,
-        "parent_id": null,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "I love how we can geek out over these topics, but let's not forget the big picture: we need to take care of the whole child, not just the fracture. What about considering the psychological impact of a fracture on a kid, and how we can involve the family in the care plan?",
-        "color": "yellow"
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "title": "Today I Learned that Late Pregnancy has some Unique Complications in Trauma - A Case Study",
-    "category": "medicine",
-    "body": "Just saw a patient with abdominal trauma at 32 weeks of gestation, and it made me realize how different pregnancy is from the average trauma patient. The uterus compresses the inferior vena cava, leading to supine hypotension syndrome, and makes the patient more susceptible to injury. Splenic injury is still the most common cause of hemorrhage in pregnant trauma patients, but we have to be aware of fetal injuries, particularly in the third trimester. Fetal injuries often associated with maternal pelvic fractures or penetrating trauma. Uterine rupture is rare but has a high fetal mortality rate.\n   What's the best resource for learning more about fetal injuries in trauma?",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "MD",
-        "city": "Mississauga, ON",
-        "text": "Great case study! For fetal injuries, I'd recommend checking out the article by the American College of Surgeons on 'Management of Trauma in Pregnancy' (acsurgery.org). They have a wealth of information on the unique aspects of trauma in pregnancy. We should discuss this in our next trauma conference.",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "I've read that article, but I'd love to clarify something. In the article, they mention that fetal injuries are often associated with maternal pelvic fractures or penetrating trauma. Can you elaborate on what kind of pelvic fractures would be more likely to cause fetal injuries?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "MD",
-        "city": "Mississauga, ON",
-        "text": "Great question, Leo! Pelvic fractures that involve the sacrum or pubic rami are more likely to cause fetal injuries due to the compression of the pelvic floor and the direct impact on the fetus. It's crucial to evaluate the patient's pelvic structure using imaging studies to assess the risk of fetal injury.",
-        "color": "purple"
+        "text": "Great question, Leo! HHS is similar to DKA, but is more common in type 2 diabetics, especially the elderly and those with comorbidities. Insulin deficiency or resistance combined with physiologic stress leads to hyperglycemia and hyperosmolality.",
+        "color": "red"
       },
       {
         "id": 4,
         "parent_id": 3,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "I'm curious, what's the protocol for evaluating fetal injuries in acute trauma settings? Do we have a standard protocol for assessing uterine integrity or fetal status?",
-        "color": "orange"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "In our trauma centre, we have a standardized protocol for evaluating fetal injuries, which includes a comprehensive maternal history, physical examination, and imaging studies (e.g., ultrasound). We also have a multidisciplinary team consisting of obstetricians, neonatologists, and pediatric trauma specialists who work together to assess the risk of fetal injury and determine the best course of action.",
-        "color": "blue"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "That's great to hear, Henry. Can you share more about your experience with uterine rupture in pregnancy? What's the prognosis for maternal and fetal outcomes?",
-        "color": "yellow"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "In our centre, we've seen a few cases of uterine rupture in pregnancy, and the prognosis for both maternal and fetal outcomes depends on the severity of the rupture and the promptness of treatment. Maternal mortality rates are high, but we've had some successful outcomes with prompt surgical intervention and close monitoring.",
-        "color": "blue"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Can you clarify the definition of uterine 'rupture'? Is it a complete perforation of the uterus or a partial tear?",
-        "color": "pink"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "Excellent question, Sarah. Uterine rupture is typically defined as a complete or near-complete perforation of the uterus, resulting in significant hemorrhage, placental separation, or fetal distress. Partial tears or lacerations are considered uterine dehiscence or partial rupture, rather than a complete rupture.",
-        "color": "blue"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Thanks for clarifying that. I was wondering, what's the difference between 'placental abruption' and 'uterine rupture'? Are they related or distinct entities?",
-        "color": "green"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "Placental abruption refers to the separation of the placenta from the uterine wall, which can be complete or partial. Uterine rupture is a more severe condition where there is a complete or near-complete perforation of the uterus. While they are related, they are distinct entities, and each has its unique set of risk factors, symptoms, and treatment options.",
-        "color": "blue"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Dr. Victor Sterling",
-        "role": "MD",
-        "city": "Calgary, AB",
-        "text": "I must say, I'm surprised by the number of comments on this thread. As ER physicians, we should be aware of these issues and focus on the diagnosis and treatment, rather than discussing them ad nauseam.",
-        "color": "red"
-      },
-      {
-        "id": 13,
-        "parent_id": 12,
-        "user": "Dr. Maya Gupta",
-        "role": "MD",
-        "city": "Mississauga, ON",
-        "text": "Not so fast, Victor! While we should focus on the diagnosis and treatment, we can't ignore the educational value of sharing experiences and discussing complex cases. This thread has been a great opportunity for us to clarify and learn more about fetal injuries in trauma.",
-        "color": "purple"
-      },
-      {
-        "id": 14,
-        "parent_id": 13,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "Ugh, you're all arguing about what to post on Reddit? We have real work to do! Get back to treating patients and stop wasting time on this thread.",
-        "color": "orange"
-      },
-      {
-        "id": 15,
-        "parent_id": 14,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "That's enough, Rick! As a nurse, I can attest to the importance of discussion and education. We all need to learn and support each other in our roles.",
-        "color": "purple"
-      },
-      {
-        "id": 16,
-        "parent_id": 15,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Wow, this is all so interesting! Can someone explain why splenic injury is the most common cause of hemorrhage in pregnant trauma patients?",
-        "color": "blue"
-      },
-      {
-        "id": 17,
-        "parent_id": 16,
-        "user": "Dr. Maya Gupta",
-        "role": "MD",
-        "city": "Mississauga, ON",
-        "text": "Chad, in pregnancy, the uterus becomes more prominent, pushing the intestines cephalad, which increases the risk of injury to the spleen and other abdominal organs.",
-        "color": "purple"
-      },
-      {
-        "id": 18,
-        "parent_id": 17,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "Additionally, the uterus can compress the inferior vena cava, leading to supine hypotension syndrome, which can mask the signs of shock and make it more challenging to diagnose splenic injury.",
-        "color": "blue"
-      },
-      {
-        "id": 19,
-        "parent_id": 18,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Okay, that makes sense. What about the 'supine hypotension syndrome'? Can you explain that in more detail?",
-        "color": "green"
-      },
-      {
-        "id": 20,
-        "parent_id": 19,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "Supine hypotension syndrome occurs when the uterus compresses the inferior vena cava, leading to decreased venous return and a subsequent drop in blood pressure. This can be particularly problematic in pregnant patients, as they often have a relative hypervolemic state.",
-        "color": "blue"
-      },
-      {
-        "id": 21,
-        "parent_id": 20,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Thanks for explaining that! It's really fascinating. I'm glad I joined this Reddit community.",
-        "color": "blue"
-      },
-      {
-        "id": 22,
-        "parent_id": 21,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Great job facilitating this discussion, Sparkie! You've done an excellent job bringing up important topics and stimulating conversation.",
-        "color": "orange"
-      }
-    ]
-  },
-  {
-    "id": 3,
-    "title": "Just saw a patient with otitis externa and I'm reminded: don't forget the acidification risk!",
-    "body": "Today I learned (again) about the importance of keeping the external auditory canal in a slightly acidic pH environment. Otitis externa can be caused by overgrowth of bacteria in a canal that's too alkaline due to excessive use of soap, ear drops, or cleaning products, leading to a higher risk of infection. So, when treating patients with otitis externa, I make sure to counsel them not to use harsh chemicals and to dry their ears thoroughly, especially after swimming or showering. Has anyone else encountered this issue? Any tips or recommendations?",
-    "category": "emergency_medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Sarah Sharp, EP, Laval, QC",
-        "role": "suffix none",
-        "city": "Laval, QC",
-        "text": "TLDR; don't forget to pH balance! When dealing with patients who use harsh chemicals, I always recommend using a gentle ear cleanser and drying the ears thoroughly. It's also essential to counsel them on how to maintain good ear hygiene, especially if they're prone to swimming or working in loud environments. For more information, check out this article by the Mayo Clinic on ear care tips (https://www.mayoclinic.org/diseases-conditions/swimmers-ear/symptoms-causes/syc-20356053). Do you agree, OP?",
-        "color": "pink",
-        "username_color": "#ccff99"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen, MS1, Toronto, ON",
-        "role": "suffix none",
-        "city": "Toronto, ON",
-        "text": "Hi Dr. Sharp, do you think it's necessary to get an audiogram for patients with otitis externa to check for any potential hearing loss?",
-        "color": "green",
-        "username_color": "#66b3ff"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Dr. Sarah Sharp, EP, Laval, QC",
-        "role": "suffix none",
-        "city": "Laval, QC",
-        "text": "Hi Leo, great question! While it's always a good idea to check for any potential hearing loss, most cases of otitis externa are self-limiting and don't usually require an audiogram. However, if the patient reports a sudden or persistent change in hearing, or if they're experiencing vertigo, tinnitus, or ear fullness, I'd recommend referring them to an ENT specialist for further evaluation. Additionally, if the patient has a history of otitis externa or has used Q-tips to clean their ears, I'd be more inclined to recommend an audiogram. Does that make sense?",
-        "color": "magenta",
-        "username_color": "#ff66ff"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Turbo Tom, RN, London, ON",
-        "role": "suffix none",
-        "city": "London, ON",
-        "text": "Love the tip, Dr. Sharp! And for those patients who use Q-tips, I always remind them to use them gently and not to insert them too far into their ears, as this can push bacteria and earwax further in, making otitis externa worse. Has anyone else seen this issue in their patients?",
-        "color": "orange",
-        "username_color": "#99ff99"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Dr. Rick 'The Rage', EP, Windsor, ON",
-        "role": "suffix none",
-        "city": "Windsor, ON",
-        "text": "Can we talk about the importance of acidification in the external auditory canal? It's a topic that rarely gets discussed, but it's crucial for preventing otitis externa. I've seen patients who've used antibacterial ear drops without even considering the pH environment of their ears. Any thoughts, folks?",
-        "color": "blue",
-        "username_color": "#0000ff"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Sarah Sharp, EP, Laval, QC",
-        "role": "suffix none",
-        "city": "Laval, QC",
-        "text": "Amen to that, Dr. Rage! Acidification is a crucial aspect of ear care, and it's often overlooked. I always recommend using ear drops with a pH level close to that of the ear's natural environment (around 5.5) to avoid disrupting the balance of the canal. Thanks for bringing this up, and let's keep the conversation going!",
-        "color": "gray",
-        "username_color": "#808080"
-      },
-      {
-        "id": 7,
-        "parent_id": 1,
-        "user": "Barnaby Finch, Patient, Toronto, ON",
-        "role": "suffix none",
-        "city": "Toronto, ON",
-        "text": "Hi everyone, as someone who's dealt with otitis externa in the past, I just wanted to chime in and say thank you for the tips. I never realized the importance of pH balance in my ears until Dr. Sharp's post today. Can anyone recommend any ear drop products that are specifically formulated to maintain a healthy pH level?",
-        "color": "red",
-        "username_color": "#ff0000"
-      }
-    ],
-    "image": "https://images.squarespace-cdn.com/content/v1/5681a0e2d8af1011fc075fca/1452362439781-AIR6AB66775DWU0LXXC4/AOE+perichondritis+c.jpg"
-  },
-  {
-    "id": 4,
-    "title": "Missed diagnosis in jaundiced patients: The importance of looking beyond the liver!",
-    "body": "Just saw a patient with jaundice and I realized how easily we can miss the diagnosis! A 65-year-old male came in with a 1-week history of yellowing skin and sclerae. Liver enzymes were mildly elevated, but what caught my eye was the patient's history of pancreatitis and cholangitis. I ordered a few tests and, surprise, a small gallstone in the common bile duct was the culprit. I started thinking, what if this patient hadn't had that history? Would I have ordered more extensive testing? Would I have looked beyond the liver? TLDR: Always consider other causes of jaundice, especially in older patients. We don't want to miss the diagnosis like I almost did! ",
-    "category": "emedicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "So many lessons to be learned from this case...I'm thinking about the pre-hepatic, hepatic, and post-hepatic causes of jaundice. Did you consider any of those in your differential? What about a liver tumor or a pancreatic mass? And how about looking at the patient's medication list? Anticoagulants, statins, and certain antibiotics can all cause cholestasis.",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Great points, Dr. Park! And what about the patient's family history? Do we know if there's a history of liver or biliary disease in the family? And what about the patient's diet? Fatty foods can exacerbate cholestasis in some patients.",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "What about the role of ultrasound in diagnosing biliary obstruction? I thought we use it to look for gallstones and bile duct dilation...does anyone have any experience with that?",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Ultrasound is a great tool for diagnosing biliary obstruction! And what about the patient's lab work? I'd recommend checking for elevated bilirubin and alkaline phosphatase levels...and don't forget about the CBC!",
-        "color": "red"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Excellent points, Sarah and Leo! And remember, when it comes to jaundice, always think about the big picture. Look at the patient's medical history, medication list, diet, and family history. And don't forget about the patient's mental status! Some patients with jaundice may also have depression or anxiety.",
-        "color": "pink"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Spare me the sentimental nonsense, doctors! You're all forgetting about the importance of getting to the bottom of every jaundice case. I've seen patients with liver tumors and gallstone pancreatitis...and I've even seen patients with 'idiopathic' jaundice. Don't get too caught up in the fancy differential diagnoses and forget about the basics.",
-        "color": "orange"
-      }
-    ]
-  },
-  {
-    "id": 12,
-    "title": "The Art of Burn Depth Classification - Just threw off an MS3 today with a classic case study.",
-    "body": "The Lund-Browder diagram may seem outdated, but it still has its place in our ED. Had a patient with a 10% TBSA burn, and I was getting conflicting reports on the depth. One of my MS3s thought it was FT, but I just knew something wasn't adding up. So, I whipped out the old friend - Lund-Browder - and measured it out. Yep, FT on the face and scalp, but PT on the rest of the body. Just a small mistake in a world of possibilities, but crucial for patient management. Anyone got tips on quick and dirty burn depth assessment?",
-    "category": "EM",
-    "comments": [
-      {
-        "id": 14,
-        "parent_id": 12,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "When it comes to burn depth, I just default to the rule of nines. It's not perfect, but it's quick and gets the patient out the door. I'm always on the lookout for that FT on the face - it's a whole different ball game. We once had a patient with a near-dive in a hot tub, and the facial burns looked deceptively minor until we ran our thermocam. Don't let your guard down, folks! [link to paper on thermocam usage in burn assessment](http://...)",
-        "color": "blue"
-      },
-      {
-        "id": 15,
-        "parent_id": 14,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "I'm not sure I understand the 'thermocam'. Is it an MRI or something? I thought we were done with all that fancy stuff after med school!",
-        "color": "yellow"
-      },
-      {
-        "id": 16,
-        "parent_id": 15,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Leo, no, no, it's just a fancy infrared imaging camera! We use it to quickly assess burn depth and rule out potential underlying conditions. Here's a brief primer: [link to Wikipedia on thermocam usage'](http://...). It's not magic, just applied physics",
-        "color": "green"
-      },
-      {
-        "id": 17,
-        "parent_id": 16,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Thanks for covering that, SJ! We use it a lot in our burn unit for the obvious benefits of rapid assessment. Now, who wants to discuss some of the not-so-well-known complications associated with burn injury - I saw a patient with rhabdo that almost killed me... ",
-        "color": "lavender"
-      },
-      {
-        "id": 18,
-        "parent_id": 17,
-        "user": "Dr. Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "Happens more than you'd think! Rhabdomyolysis, acute renal failure, and hyperkalemia are all potential complications to consider in burn patients. When do you even start checking CPK?",
-        "color": "teal"
-      },
-      {
-        "id": 19,
-        "parent_id": 18,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "That's a great point, Dr. Stone! We need to have high suspicion for rhabdo in our burn pts. Can someone confirm - should we be doing CPKs in all burns bigger than 10% BSA?",
-        "color": "blue"
-      },
-      {
-        "id": 20,
-        "parent_id": 19,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Good job catching that, SJ! While we typically start with serum CK, we do order a CPK after 20% TBSA. We like to stay vigilant since the risk of rhabdo peaks 48-72 hours post-ingestion. Now, for those TL;DRs - is it safe to admit our burn patients to the ward with appropriate precautions, or are we setting ourselves up for disaster?",
-        "color": "purple"
-      }
-    ]
-  },
-  {
-    "id": 145,
-    "title": "Rant about acute cholecystitis diagnosis - the elephant in the room",
-    "category": "Medical Community",
-    "body": "Had a miss last night, thinking it was a routine peptic ulcer bleed. Turns out, it was a 75-year-old lady with acute cholecystitis. She had 2 days of RUQ pain, no gallstones on FAST, and no Murphy sign... what a waste of my time! Can't we do better? I know I know... Murphy's sign is the gold standard, but I'm starting to think it's a bit too sensitive. What are your thoughts, ER legends?",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Amen, brother! I've had similar experiences. The key is not just the Murphy sign, but also the clinical picture. Did you check for Courvoisier's sign? It's not as sensitive as Murphy's, but it's a nice bonus to rule out obstruction. And hey, what about using ultrasound in conjunction with the Murphy sign? It's not rocket science, folks! We can do better.",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs always think they can diagnose cholecystitis without proper imaging. Courvoisier's sign is a myth perpetuated by the unsophisticated. And ultrasound? Ha! You need a PhD in radiology to read those things. We should be relying on HIDA scans for cholecystitis, not some fancy ultrasound tech.",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Ooh ooh ooh, I think Dr. Thorne is onto something! I've been reading about the ultrasound-Murphy sign combo, and it seems like a great way to improve diagnostic accuracy. Has anyone tried using the 'Focused Assessment with Sonography for Trauma' (FAST) exam to look for gallbladder distension? Maybe we can simplify the whole process.",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Actually, we should be talking about the Focused Assessment with Sonography for Trauma (FAST) exam, not FAST scans. The FAST exam is a bedside ultrasound tool to evaluate for free intraperitoneal fluid and is not specific for gallbladder distension. I appreciate Dr. Gupta's enthusiasm, though!",
-        "color": "purple"
-      },
-      {
-        "id": 5,
-        "parent_id": 2,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "Oh, ho ho, Dr. Sterling, my good fellow, you seem to be suffering from a bad case of... (dramatic pause) ...radiophobia! Don't worry, I'm sure your patients will appreciate the extra time spent in the CT scanner... NOT. Now, let's get back to the important things in life, like using ultrasound to diagnose cholecystitis!",
-        "color": "green"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Umm, excuse me, Dr. Thorne? Did you actually read what Dr. Sterling said? He mentioned using HIDA scans for cholecystitis, not CT scans. Let's keep our facts straight, please.",
-        "color": "gray"
-      },
-      {
-        "id": 7,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "I'm calling BS on this whole conversation! We're still talking about how to diagnosis cholecystitis in the ER? Haven't we figured this out yet? Can't we use technology to our advantage? Like, have you guys seen the new smartphone ultrasounds? They're like, super cheap and accurate! We should be leveraging that, not stuck in the dark ages using ultrasound wands.",
-        "color": "orange"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "Well, well, well, Turbo Tom! Looks like you've got some opinions about diagnostic ultrasound. While I agree that smartphone ultrasounds can be a game-changer, let's not get ahead of ourselves. We need to ensure that whatever tool we use, it's accurate and reliable before we start making sweeping statements about 'leveraging technology'.",
-        "color": "brown"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Phil Muddle",
-        "role": "EP",
-        "city": "Regina, SK",
-        "text": "Umm... what day is it again? Oh right, the topic is acute cholecystitis. So, is it a good idea to use a smartphone ultrasound to diagnose gallstones? I mean, it seems like a no-brainer, but my colleague says it's not that simple. Can someone clarify?",
-        "color": "pink"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Ha! Good one, Dr. Muddle! Don't worry about the smartphone ultrasound just yet, Phil. We need to get the basics right first. As for Dr. Muddle, it's not about whether you use a smartphone or a regular ultrasound, it's about the quality of the image and the clinician's interpretation. Just my two cents.",
-        "color": "blue"
-      }
-    ],
-    "image": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1186%2Fs12893-021-01137-y/MediaObjects/12893_2021_1137_Fig1_HTML.png"
-  },
-  {
-    "id": 1,
-    "title": "Rant about Acute Heart Failure: the importance of history and physical exam",
-    "body": "Just saw a patient with what I'm pretty sure is acute heart failure, but the lab results are all over the place. Anyone else had this experience? Always seems like the labs are late or the troponins are rising, but the patient looks like they're doing okay. How do you guys rule out acute MI in these cases?",
-    "category": "emergency medicine",
-    "comments": [
-      {
-        "id": 2,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Great post, Dr. Park! One thing that always makes me nuts is when we get a patient coming in with a 30-second history and no meds list. 'I've been feeling short of breath for a week'... how am I supposed to diagnose this without knowing anything about the patient's background? Have you guys ever had to deal with any of the ERs where the admitting doc doesn't bother with a good history and physical? It's so frustrating!",
-        "color": "purple"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "I had a patient last week who came in with chest pain and shortness of breath. The doc didn't get a good history, and the meds list was incomplete. Can you tell me more about what to do in cases like this? Should we get more information from the family member or send the patient home with a follow-up?",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Dr. Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Actually, one thing that really helps is to focus on the symptom onset. Did it start as acute chest pain or was it gradually progressive dyspnea? Also, have you guys heard of the ' Framingham criteria'? It might be a good thing to consider in cases of suspected heart failure.",
-        "color": "purple"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Wait, isn't it the Framingham study that came up with the ' Framingham criteria'? Also, don't we need to consider other causes of dyspnea? I mean, it's not just heart failure, right? What are some other important differential diagnoses?",
-        "color": "green"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "Exactly right, Chad. Some other important causes to consider are COPD, especially in smokers. And let's not forget the importance of looking at the X-rays. A high-riding cardiac silhouette can be a good early sign of heart failure, as can an S3 gallop. But what about when we have to prioritize patients coming in the room? Do any of you guys have a rule of thumb for which patients to see first?",
-        "color": "purple"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "I've seen some patients come in with what looks like an 'Acute Mi' but really it's just some old man in his 80s who thinks he's having a heart attack. Anybody else have the old guy who can't remember anything but the year of his last check-up?",
-        "color": "green"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "Ha! Yep, I've seen that patient about a million times. I just love it when an 80-year-old man decides to recreate his symptoms from the 80s, only to reveal on history that it was something entirely different. But you gotta ask, how do you determine which patients need to have the most care?",
-        "color": "purple"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "How do you guys actually differentiate 'real' heart failure from COPD when they have symptoms that are similar? What are the key differences?",
-        "color": "green"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "When considering the diagnosis of heart failure, it's always helpful to remember the BNP levels. Patients with higher BNP levels tend to have more severe cardiac dysfunction.",
-        "color": "purple"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "But don't forget about the role of electrolyte management in these patients! Have you guys noticed the importance of potassium replacement in patients with heart failure?",
-        "color": "green"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "One thing that I find challenging is the patient's family members always want to give them an albuterol nebulizer to help them breathe. Have you guys ever had patients with this request or even worse, some patient actually giving them the MD's a bad review when you don't give a breathing treatment!",
-        "color": "purple"
-      },
-      {
-        "id": 13,
-        "parent_id": 12,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "That sounds really tough. I had a simulation scenario where we had to deal with a patient who wanted a breathing treatment and the patient getting upset when we didn't give it to them. Can someone recommend a way to communicate to the patient what's going on and why you can't give them the treatment?",
-        "color": "green"
-      },
-      {
-        "id": 14,
-        "parent_id": 13,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "I find it always best to speak to the patients directly and explain, to them, what you intend to do, especially if there's any concerns with their health or what treatments they will be prescribed.",
-        "color": "purple"
-      },
-      {
-        "id": 15,
-        "parent_id": 14,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "Agreed. Always keep the patient in the information loop.",
-        "color": "green"
-      },
-      {
-        "id": 16,
-        "parent_id": 15,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Does that mean we should get rid of the 'you can't give them the treatment' rule and always give the patient a choice?",
-        "color": "purple"
-      },
-      {
-        "id": 17,
-        "parent_id": 16,
         "user": "Dr. Barb Miller",
         "role": "EP",
         "city": "Winnipeg, MB",
-        "text": "Not necessarily, Chad. It's about finding that balance between patient autonomy and proper medicine when there's no clear option. In those situations, sometimes the best decision would be a 'no', and we must ensure it is the patient's health we prioritize.",
-        "color": "green"
+        "text": "I've found that HHS is more common in patients with underlying chronic kidney disease. Anyone else notice this? Also, what's your approach to management?",
+        "color": "yellow"
       },
       {
-        "id": 18,
-        "parent_id": 17,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Is there anything else worth considering in terms of the patient presentation? Any other symptoms that might be important for the diagnosis of heart failure?",
+        "id": 5,
+        "parent_id": null,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Hyperosmolar Hyperglycemic State? That's just a fancy name for 'Type 2 diabetes gone wrong'. You're not going to find me chasing down HHS cases in the ER anytime soon. Amateurs.",
+        "color": "grey"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "@Dr. Victor Sterling I'd love to hear your take on our 'amateurish' approach. But seriously, management of HHS requires precise fluid resuscitation, insulin therapy, and electrolyte management. How would you approach this?",
         "color": "purple"
       },
       {
-        "id": 19,
-        "parent_id": 18,
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "I've found that avoiding rapid correction of sodium, glucose, and hypovolemia can reduce the risk of cerebral edema in HHS. Has anyone else noticed this? Can we discuss the pathophysiology behind this?",
+        "color": "brown"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
         "user": "Dr. Sarah Sharp",
         "role": "EP",
         "city": "Laval, QC",
-        "text": "It is worth keeping in mind that many heart failure patients present with symptoms of renal disease also, so we should keep an eye out for symptoms of renal congestion and manage any potential renal involvement in line with standard treatment guidelines.",
-        "color": "green"
+        "text": "@Dr. Elena Varkov That's right! Rapid changes in serum osmolality can lead to cerebral edema. I'd love to discuss strategies for fluid resuscitation in HHS. Has anyone found the Cleveland Clinic's approach useful?",
+        "color": "pink"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Has anyone seen the video on glucose management in HHS by Dr. @Dr. 'Ziggy' Zalesky? Would love to hear some feedback! It's on YouTube under 'HHS Management for ER Nurses'",
+        "color": "orange"
       }
     ]
   },
   {
     "id": 123,
-    "title": "Urinary Retention - A Tale of Two Catheters",
-    "category": "Emergency Medicine",
-    "body": "Just saw a patient with acute urinary retention and I'm left wondering about the utility of 16-French Coud\u00e9 catheters. Anyone have experience with these? TLDR: Does size matter?",
+    "title": "TL;DR: Bioterrorism - The Unspoken Threat in Our Emergency Departments",
+    "body": "Just saw a patient with symptoms that could have been mistaken for a viral infection, but turned out to be a bioterrorism-related diagnosis. It got me thinking: are we as ER docs taking bioterrorism seriously enough?\n\nAs we all know, bioterrorism is the intentional release of biological agents to cause harm to humans, animals, or the environment. The threat is real, and it's not just about anthrax and botulism. Other agents like ricin, smallpox, and plague are just as deadly.\n\nBut here's the thing: we're not preparing our patients, our staff, or our systems for this type of event. We're relying on outdated protocols and outdated training. It's time for a change.",
+    "category": "emergency_medicine",
     "comments": [
       {
-        "id": 1,
+        "id": 101,
         "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I've had good luck with Coud\u00e9 catheters in cases of severe urinary retention. The curved tip really helps when dealing with a prostate the size of a basketball The trick is getting the correct size, though. Not too big, not too small. I've found that the size of the catheter should be about 1 French size larger than the diameter of the urethra.",
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great discussion starter, OP. I agree that bioterrorism is an under-appreciated threat. We need to revamp our training and protocols to include more modern threats like bioterrorism. Have any of you seen the updated FEMA guidelines on bioterrorism response?",
         "color": "purple"
       },
       {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "What about the role of Coud\u00e9 catheters in patients with suspected urethral stricture or pelvic fractures? Dr. Gupta, do you have any tips for navigating these situations?",
+        "id": 102,
+        "parent_id": 101,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Lol, yeah, because FEMA guidelines are gonna save the day. Let's be real, folks, if a bioterrorism attack happens, we're all just winging it. At least, that's what I'm telling my patients.",
         "color": "green"
       },
       {
-        "id": 3,
-        "parent_id": 1,
+        "id": 103,
+        "parent_id": 101,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Sorry to interrupt, but I'm confused. What exactly are some of the modern threats that bioterrorism poses? I know anthrax and botulism are big ones, but what about other agents?",
+        "color": "blue"
+      },
+      {
+        "id": 104,
+        "parent_id": 103,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Hey Leo, great question! Modern bioterrorism threats include ricin, smallpox, plague, and even viruses like SARS-CoV-2. These agents are highly infectious and can spread quickly. We need to be prepared to identify and respond to these types of threats.",
+        "color": "purple"
+      },
+      {
+        "id": 105,
+        "parent_id": 102,
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "Come on, Ziggy, it's not all about winging it. We have protocols in place for bioterrorism response. We just need to stick to the plan.",
+        "color": "green"
+      },
+      {
+        "id": 106,
+        "parent_id": 105,
         "user": "Turbo Tom",
         "role": "RN",
         "city": "London, ON",
-        "text": "Don't forget about the lubrication factor! I've seen Coud\u00e9 catheters get stuck in the urethra due to inadequate lubrication. It's like trying to ram a stick through a straw - not fun.",
-        "color": "orange"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "@Turbo Tom, great point! I've had to deal with my fair share of stuck catheters. What's your favorite lubricant for Coud\u00e9 catheter insertion? I've been using a combo of lidocaine jelly and KY jelly.",
+        "text": "Protocols are all fine and dandy, Brock, but they're useless if we're not trained to use them. Emergency physicians and staff need training on bioterrorism response, not just protocols.",
         "color": "blue"
       },
       {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "You're all wasting your time with Coud\u00e9 catheters. In my experience, a straight cath always gets the job done. And if you're worried about urethral trauma, just use a bigger catheter or add some extra lubricant.",
-        "color": "red"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "@Dr. Sterling, come now. You can't serious about advocating for the use of straight catheters in all cases of urinary retention. What about the risks of urethral trauma or damage to the bladder mucosa?",
+        "id": 107,
+        "parent_id": null,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "I've been saying this for years: bioterrorism is a ticking time bomb. We need to take it seriously and invest in training and protocols. This isn't just about ER docs, it's about the entire healthcare system.",
         "color": "purple"
       },
       {
-        "id": 7,
-        "parent_id": null,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "I've seen some horror stories about catheter complications in patients with urinary retention. Does anyone have any tips for minimizing the risk of these complications?",
-        "color": "green"
+        "id": 108,
+        "parent_id": 107,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "I fully agree with Dr. Miller. Bioterrorism is a public health threat that requires a comprehensive response. We need to work together to develop a plan that includes education, training, and protocols.",
+        "color": "purple"
       },
       {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "@Sparkle-Eyes Sue, yes! From what I've learned, it's all about proper catheterization technique and follow-up care. Can someone elaborate on the importance of post-catheterization follow-up?",
+        "id": 109,
+        "parent_id": 107,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Can someone explain to me why bioterrorism is such a big deal? Like, what's the worst that could happen?",
         "color": "blue"
       },
       {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "@Leo Chen, excellent question! Follow-up care is crucial in preventing catheter-related complications. Make sure to educate your patients on proper catheter care and encourage them to return for follow-up appointments.",
-        "color": "orange"
+        "id": 110,
+        "parent_id": 109,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "It's a big deal because bioterrorism agents can spread quickly and cause widespread illness and death. Imagine a scenario where a bioterrorism attack occurs in a densely populated area - it would be catastrophic.",
+        "color": "purple"
+      },
+      {
+        "id": 111,
+        "parent_id": 102,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "I have to respectfully disagree with Ziggy. We do have protocols in place for bioterrorism response, and we should follow them. We can't just 'wing it' and expect to get it right.",
+        "color": "green"
       }
     ],
-    "image": "https://www.ebmedicine.net/media_library/images/2021-EMP-Publication-Article/03-March/Clinical-Pathway-for-Emergency-Department-Diagnosis-and-Treatment-of-Acute-Urinary-Retention-in-Adult-Males-Thumbnail.png"
+    "image": "https://emergencymedicinecases.com/wp-content/uploads/2017/09/Disaster-Medicine-Card-compressed-320x240.jpeg"
   }
 ]
