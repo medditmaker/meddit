@@ -1,18 +1,525 @@
 [
   {
-    "id": 0,
-    "title": "Procedural Sedation: A Double-Edged Sword",
-    "body": "Rant about...The increasing reliance on procedural sedation in the ED has left me scratching my head. I get it, patients don't want to experience pain, but do we really need to sedate them for every. single. thing? I just saw a patient with a minor laceration who required sedation for the removal of a few stitches. Are we losing sight of the fact that we're not surgeons here? I'm all for patient comfort, but at what cost?",
-    "category": "EmergencyMedicine",
+    "post": {
+      "id": 0,
+      "title": "TB in the ED - Lessons Learned",
+      "body": "Just saw a patient with pulmonary TB with a completely normal CXR. We were lucky and got a positive AFB smear on their sputum. TB is notoriously hard to diagnose in the ED, and we can't always rely on CXR or AFB smear. I know some of us in the ED have been scratching our heads when trying to figure it out. Has anyone else had similar experiences? How do you approach the diagnosis of TB in your ED?",
+      "category": "emergency medicine",
+      "comments": [
+        {
+          "id": 1,
+          "parent_id": null,
+          "user": "Dr. Aris Thorne",
+          "role": "Staff Physician",
+          "city": "Toronto, ON",
+          "text": "Great thread, OP! TB is a classic ED diagnostic challenge. I've had a few cases like this where the CXR was normal, and it was only with a thorough review of the patient's travel history and risk factors that we were able to make the connection. I also want to plug the CDC's guidelines on TB diagnosis \u2013 they're really valuable for getting a sense of the current best practices (cc: https://www.cdc.gov/tb/topic/diagnosis/index.htm). One thing I always make sure to do is check the patient's TB meds list \u2013 if they've been on Isoniazid or Rifampin in the past, it can affect the CXR in weird ways.\n\nTLDR: don't forget to get the patient's travel and meds history!",
+          "color": "purple"
+        },
+        {
+          "id": 2,
+          "parent_id": 1,
+          "user": "Dr. Ziggy Zalesky",
+          "role": "EP",
+          "city": "Vancouver, BC",
+          "text": "Loved this comment, Dr. Thorne! TB is a great teaching example of the need for a thorough, non-anecdotal approach to diagnosis. I've had some wild times trying to diagnose TB, but the thing that stands out is the importance of getting a detailed travel history and reviewing the patient's prior medical records (e.g. hospital records, outpatient clinic charts) for evidence of past TB infections.\n\nWhat I often do is ask the nurse to dig up the patient's prior labs, imaging, and medical history so that we can look for signs of latent TB infection (e.g., calcified granulomas on CXR) or active TB.\n\nAlso, has anyone else noticed how often ED patients get referred for TB skin testing (TST) when we've already got evidence of active TB? Just sayin'.",
+          "color": "green"
+        },
+        {
+          "id": 3,
+          "parent_id": 1,
+          "user": "Dr. Kevin Park",
+          "role": "PGY1",
+          "city": "Edmonton, AB",
+          "text": "Thanks for the guidance, Dr. Thorne! TB diagnosis is a great topic for me to learn more about. One thing I'm curious about: what are some common pitfalls when interpreting TB imaging, like CXR and MRI? Are there specific findings on a CXR that you always look for when suspecting TB?",
+          "color": "red"
+        },
+        {
+          "id": 4,
+          "parent_id": 3,
+          "user": "Dr. Aris Thorne",
+          "role": "Staff Physician",
+          "city": "Toronto, ON",
+          "text": "Absolutely great question, PGY1!\n\nIn terms of pitfalls in TB imaging, I often see ED docs making a few critical mistakes when it comes to reading TB CXRs. The first is getting stuck on patterns we associate with pneumonias (e.g., cavitations, segmental atelectasis). The second is misunderstanding patterns we see with TB \u2013 for example, calcifying lesions often don't show up till several weeks after disease onset, and sometimes we just don't see them at all!\n\nIn TB, we always look for signs of disease that would be 'atypical' on CXR (e.g., hilar lymphadenopathy, fibrotic changes) or that have unusual morphology (e.g., 'eggshell' calcifications).\n\nIn our ER we use IDSA guidelines for TB to assess risk in patients with symptoms like cough + fever.\n\nDo any ER staff find useful a tool like TB Profiler that helps with differential diagnosis?",
+          "color": "green"
+        },
+        {
+          "id": 5,
+          "parent_id": 4,
+          "user": "Dr. Maya Gupta",
+          "role": "PGY2",
+          "city": "Mississauga, ON",
+          "text": "Thank you so much, Dr. Thorne!\n\nFor those of us on this thread who haven't had exposure to TB, here's something helpful from this excellent 2020 article by the Mayo Clinic: https://pubmed.ncbi.nlm.nih.gov/31891117/ 'A systematic approach to the diagnosis of pulmonary and extrapulmonary tuberculosis in the emergency department.' TLDR: always ask about recent travel, contact with known TB cases, substance use history, and prior TB infection or treatment.\n\nDoes IDSA guidelines for TB still recommend that we treat TB using first line meds without considering multi-drug resistant strains?",
+          "color": "blue"
+        },
+        {
+          "id": 6,
+          "parent_id": 5,
+          "user": "Dr. Sarah Sharp",
+          "role": "EP",
+          "city": "Laval, QC",
+          "text": "Great resource, Dr. Gupta! That article by the Mayo Clinic is fantastic \u2013 one thing I especially appreciate is that it highlights the importance of not over-relying on imaging (CXR or CT scans can be normal until disease is fairly advanced).\n\nAccording to IDSA/ATS/CDC TB treatment guidelines, we always do an IGRA for M. tuberculosis if our risk factors are unknown \u2013 it's especially useful in patients we suspect may be MDR or Extensively Drug-Resistant TB (XDR-TB). And yes, Dr. Gupta, as of  2019, we do use first-line TB therapy, which remains Isoniazid + Rifampicin, with or without Pyrazinamide.",
+          "color": "brown"
+        },
+        {
+          "id": 7,
+          "parent_id": 6,
+          "user": "Leo Chen",
+          "role": "MS1",
+          "city": "Montreal, QC",
+          "text": "Thanks for sharing, Dr. Sharp! It's so cool how much you guys know about TB diagnosis in the ED. One thing I was wondering is what's the most common extrapulmonary manifestation of TB in the ED?",
+          "color": "yellow"
+        },
+        {
+          "id": 8,
+          "parent_id": 7,
+          "user": "Dr. Elena Varkov",
+          "role": "FRCPC",
+          "city": "Quebec City, QC",
+          "text": "Hey there, MS1! In the ED, we've seen a number of cases of TB meningitis and CNS involvement. That's not so surprising \u2013 these complications can be life-threatening. When TB CNS complications do show up, though, we need to be fast with diagnosis and treatment!\n\nOne of my colleagues always stresses getting an LP ASAP if meningitis is suspected. And I've come back thinking, 'But isn't an LP contraindicated in TB meningitis?'\n\nHere's a link to an online resource (https://www.cdc.gov/tb/publications/factsheets/staging.htm) on Staging of Tuberculosis \u2013 please take a look!",
+          "color": "orange"
+        }
+      ]
+    },
+    "image": "https://images.squarespace-cdn.com/content/v1/546e1217e4b093626abfbae7/1540209225105-DG9AL2FELEN4R2J92LRM/Lightning+Learning+-+Tuberculosis.png"
+  },
+  {
+    "id": 1,
+    "title": "Just saw a patient with sigmoid volvulus in her 80s, taking anticholinergics for incontinence, and it was a mess... Rant about bowel obstruction red flags.",
+    "body": "Had a rough ER shift last night. A patient in her 80s presented with severe abdominal pain, vomiting, and no bowel movements for days. Her vitals were stable, but she was in agony. Imaging showed a sigmoid volvulus. What caught my attention was that she had been taking anticholinergics for her fecal incontinence. This is a classic risk factor for sigmoid volvulus. What are your red flags for bowel obstruction, and how do you quickly identify a sigmoid volvulus from other types?",
+    "category": "medicine",
+    "comments": [
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "TLDR: sigmoid volvulus in the elderly, anticholinergics, and risk for bowel obstruction. Great reminder to always ask about incontinence meds.",
+        "color": "purple"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs always missing this. Sigmoid volvulus red flags: elderly, history of anticholinergic use, severe abdominal pain, vomiting, and no bowel movements. Next time, order an abdominal X-ray. Don't be lazy.",
+        "color": "purple"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Agree with Aris. Always ask about incontinence meds, especially in the elderly. And remember, if you suspect sigmoid volvulus, don't delay. Get the surgery team involved ASAP. Here's a great review article on sigmoid volvulus: https://emedicine.medscape.com/article/174844-overview",
+        "color": "green"
+      },
+      {
+        "id": 5,
+        "parent_id": 3,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Wait, Dr. Sterling, why is it so important to order an abdominal X-ray in this case? What are we looking for?",
+        "color": "blue"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Leo, a great question! An abdominal X-ray can show signs of bowel obstruction, such as dilated loops of intestine and air-fluid levels. It can also help identify a sigmoid volvulus by showing a characteristic 'bird's beak' sign. Don't forget to order a CT scan if you suspect bowel ischemia or infarction.",
+        "color": "green"
+      },
+      {
+        "id": 7,
+        "parent_id": 4,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Ziggy, thanks for the article link. Just a side note, what's the deal with anticholinergics and sigmoid volvulus? Is it the meds that directly cause the volvulus, or is it just a correlation?",
+        "color": "blue"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "Sarah, an excellent question, my dear! The exact mechanism is still unclear, but it's thought that anticholinergics can lead to a slow bowel transit time, which may predispose to volvulus. However, it's also possible that patients taking these meds are more prone to constipation, which can also lead to volvulus. We need more research, I say!",
+        "color": "indigo"
+      },
+      {
+        "id": 9,
+        "parent_id": 1,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Just had to add my two cents. Remember, sigmoid volvulus is a medical emergency. Don't delay, get the surgery team involved ASAP. And don't forget about the elderly patient's risk for bowel obstruction due to anticholinergic use. Here's a great review article on bowel obstruction: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4768138/",
+        "color": "green"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Wow, thank you, Dr. Miller! I was just learning about this in med school, but I never thought it was so serious. Any tips for pre-med students interested in emergency medicine?",
+        "color": "blue"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Hey Chad, if you're interested in EM, focus on developing good clinical skills, teamwork, and critical thinking. Practice your ECG interpretation, and learn about all the crazy conditions that can present to the ER. And don't be afraid to ask questions, we're a friendly bunch.",
+        "color": "green"
+      },
+      {
+        "id": 12,
+        "parent_id": 1,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Sodium and the story, please. What's the electrolyte disturbance of choice in bowel obstruction?",
+        "color": "blue"
+      },
+      {
+        "id": 13,
+        "parent_id": 12,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Dr. Varkov, great question! The electrolyte disturbance of choice in bowel obstruction is hypernatremia, with a sodium level often >150. This is due to the loss of free water through vomiting, diarrhea, and third spacing.",
+        "color": "green"
+      },
+      {
+        "id": 14,
+        "parent_id": 9,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Dr. Miller, what's your take on this patient's prognosis? Was it treatable, or was it a case of 'wait and see'?",
+        "color": "blue"
+      },
+      {
+        "id": 15,
+        "parent_id": 14,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "Leo, great question! The patient's prognosis depends on the severity of symptoms, the presence of bowel ischemia, and the timeliness of treatment. If caught early, sigmoid volvulus can be treated conservatively, but if it's a complicated case, surgery might be necessary.",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Rant about methotrexate in ectopic pregnancies: the devil is in the details",
+    "body": "Just got done with a patient with a ruptured ectopic pregnancy and it reminded me of how finicky methotrexate can be. Anyone else have issues with it? We were trying to avoid surgery but the patient's \u03b2-hCG was only coming down very slowly. I know we're supposed to follow the American College of Obstetricians and Gynecologists (ACOG) guidelines but I feel like they oversimplify things, especially when it comes to patient selection. What are your thoughts, fellow EPs?",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Aye, I know what ye mean! Had a similar case last week where we were tryin' to get the methotrexate to work but it was like tryin' to get blood from a stone. Do ye think it's because they're not dosin' it correctly? I've seen some studies that say the oral route is just as good as the IM but I'm not so sure about that. Have ye got any tricks up yer sleeve?",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Lol, 'get blood from a stone'! I feel you, Sue. I think it's more about patient selection than the route of administration. Like, if they're not responding to the methotrexate, we need to start asking some tough questions. Are they taking it correctly? Are they on any interactants? I mean, have you seen the list of meds that can raise \u03b2-hCG levels? It's like a whole 'nother medical condition!",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Hey guys, I'm a pre-med student and I'm just wondering, what are some common interactants with methotrexate? I know it can interact with folic acid, but what about other meds?",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 2,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I'm a bit confused about the \u03b2-hCG levels. Can someone explain to me how we interpret them? Is it just a matter of tracking whether they're coming down or staying the same?",
+        "color": "orange"
+      },
+      {
+        "id": 5,
+        "parent_id": 1,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "You're all makin' it sound like a cakewalk, but what about patients who are immunocompromised? Don't they have a higher risk of methotrexate toxicity?",
+        "color": "red"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Actually, Martha, I think you're right. I found a study that showed a significant increase in methotrexate toxicity in patients with pre-existing immunosuppression. Has anyone else seen this? Do we need to be more careful with those patients?",
+        "color": "pink"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "In my day, we didn't need all these fancy studies to know that methotrexate was a tricky med. We just used our judgment and experience. But I suppose that's just old-fashioned thinking.",
+        "color": "brown"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Actually, Dr. Thorne, I think your approach is still valid today. It's just that now we have more tools and data to support our decisions. But sometimes, experience and judgment are still the best guidelines.",
+        "color": "gray"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Today I Learned: the importance of bedside glucose levels in asymptomatic patients with altered mental status - just saw a salicylate toxicity case where a missed hypogly is the difference between life and death",
+    "body": "I've said it before, folks - bedside glucose is not just for diabetics. A hypogly can mask a ton of symptoms. Just saw a 35-year-old with a 1.3 on the GCS. The ER doc thought it was a stroke, but it was a simple hypogly. I know it sounds pedantic, but when was the last time you checked a BG on a patient with altered mentation and it was normal? I've attached a review article on the topic. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4724446/",
+    "category": "emergency medicine",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
         "user": "Dr. Aris Thorne",
+        "role": "MD",
+        "city": "Toronto, ON",
+        "text": "1000% agree. Bedside glucose is not just for diabetics. I had a case last week where a patient came in with a GCS of 13, and after we treated their hyperkalemia, their BG was 120. We never would have caught that if we didn't check it. One thing that's always stuck with me is the concept of the \"hanging indent\" - where you get a patient who has an altered mentation and a low GCS, but otherwise appears fine. Always think \"hanging indent\" when you see those patients. Thanks for posting this!",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": null,
+        "user": "Dr. Rick 'The Rage'",
+        "role": "MD",
+        "city": "Windsor, ON",
+        "text": "Amateurs always forget about the acid-base status. Remember, if it's not a respiratory cause of acidosis, it's not acidosis. Always check the ABG. And don't even get me started on the EMRs - they always leave out the glucose level. We had a big debate about this in our ER last week. Some of the younger docs were saying, \"Why are we checking glucose on every patient?\" And I'm like, \"Because it's not just for diabetics, that's why!\"",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MD",
+        "city": "Ottawa, ON",
+        "text": "Dr. Thorne, can you explain more about the 'hanging indent' phenomenon? I've heard about it before, but I've never actually seen a case. I'd love to get some insight into how you diagnose it.",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "MD",
+        "city": "Mississauga, ON",
+        "text": "Love the analogy, Dr. Thorne! And the review article is super helpful too. I'll have to bookmark that one for later. One thing that's always stuck with me about glucose levels is how fast they can drop in patients with altered mentation. I've seen patients go from normal to hypogly in a matter of minutes. Scary stuff.",
+        "color": "orange"
+      },
+      {
+        "id": 5,
+        "parent_id": 2,
+        "user": "Dr. Kevin Park",
+        "role": "MD",
+        "city": "Edmonton, AB",
+        "text": "Dr. 'The Rage', I completely understand where you're coming from, but isn't it true that some EMRs don't display the glucose level on the initial vitals report? I've seen that happen a few times, and it's always frustrating. Any tips on how to get the EMR to display it for me?",
+        "color": "brown"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Elena Varkov",
+        "role": "MD",
+        "city": "Quebec City, QC",
+        "text": "Dr. Park, you can usually find the glucose level on the patient's lab results page. It might be buried under the other vitals, but it should be there. And if you're having trouble finding it, try clicking on the 'lab results' tab and looking for the glucose level that way.",
+        "color": "pink"
+      },
+      {
+        "id": 7,
+        "parent_id": 3,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "MD",
+        "city": "Vancouver, BC",
+        "text": "Hey Sarah, I've seen a few cases of hanging indent, and it's always a wild ride. The main thing to look for is a patient who's got altered mentation, but otherwise appears fine. And then, when you check their glucose, you're surprised to find it's low. It's like they're hiding in plain sight! One trick I use is to ask the patient about their last meal - if they haven't eaten in a while, that's usually a red flag.",
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "parent_id": null,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Thanks for posting this! I've heard about hypogly being a potential cause of altered mentation, but I've never seen a case in person. Can anyone provide more information on how to diagnose it? And are there any specific labs or tests we should order?",
+        "color": "blue"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Maya Gupta",
+        "role": "MD",
+        "city": "Mississauga, ON",
+        "text": "Leo, it's usually a simple matter of checking the patient's BG and looking for a low level. If it's low, you can treat it with glucose. But if you're not checking the BG regularly, you might miss it. As for labs, a full metabolic panel, including lactate and creatinine, can be helpful in assessing the patient's metabolic status.",
+        "color": "orange"
+      },
+      {
+        "id": 10,
+        "parent_id": 8,
+        "user": "Dr. Brock Stone",
+        "role": "MD",
+        "city": "Hamilton, ON",
+        "text": "Leo, I'd say it's not just a matter of checking the patient's BG and treating it with glucose. Sometimes, you need to dig deeper and think about the patient's whole metabolic state. Consider their electrolyte levels, their acid-base status, and their kidney function. That's how you catch the really tough cases.",
+        "color": "brown"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Today I Learned: Postpartum Hemorrhage as a Presentation of Trauma",
+    "body": "Just saw a patient come in with a postpartum hemorrhage, but the story didn't quite add up. Turns out she had been in a car accident a few days ago, but didn't seek care until she started bleeding. Anyone else ever seen a patient present with PP-H like this? What's your threshold for considering trauma in these cases?",
+    "category": "Emergency Medicine",
+    "tags": [
+      "trauma",
+      "postpartum hemorrhage",
+      "OB-GYN"
+    ],
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Great case! Yeah, I've seen it before. The key is to think critically about the patient's story. If they're bleeding heavily and have a history of trauma, you gotta consider the possibility of a delayed presentation. I always send them for a pelvic ultrasound to rule out a ruptured uterus or other complications. And don't forget to check for DVT/PE!",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "What about the role of Focused Assessment with Sonography for Trauma (FAST) in these cases? Is that still relevant?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Great question, @Sarah! In our trauma protocol, we still do a FAST exam on all suspected trauma patients. But in postpartum hemorrhage cases, I think it's more about evaluating for potential complications like a ruptured uterus or hemoperitoneum.",
+        "color": "purple"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Exactly, @Kevin! And don't forget to order a pelvic CT if you're still unsure. The FAST exam can be operator-dependent and may not catch everything. Better safe than sorry, especially in postpartum patients.",
+        "color": "purple"
+      },
+      {
+        "id": 5,
+        "parent_id": null,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "I've had a few cases where the patient presented with postpartum hemorrhage but didn't have any obvious trauma history. In those cases, I've found that looking into the possibility of a retained products of conception (RPOC) can be a game-changer. Has anyone else seen this?",
+        "color": "blue"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Yes! I had a patient last year who came in with postpartum hemorrhage, but we couldn't find any obvious cause. It turned out she had a retained placenta that we didn't catch on ultrasound. So now we always follow up with a D&C if we can't find any other cause.",
+        "color": "green"
+      },
+      {
+        "id": 7,
+        "parent_id": 1,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "I've seen it all before, you young whippersnappers! The key is to use your Occam's Razor. If they're bleeding heavily, it's probably a D&C you need to do. But what about the poor souls who can't get a reliable ultrasound? How do you handle those cases?",
+        "color": "pink"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Well, @Archibald, that's where the art of medicine comes in! You have to use your clinical judgment. If you're still unsure, I always advocate for a trip to the OR. It's better to be safe than sorry when it comes to postpartum hemorrhage.",
+        "color": "purple"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "What's the latest thinking on the use of transexamic acid (TXA) in these cases? Does it still live, or is it a dead horse?",
+        "color": "gold"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "TXA is still the gold standard for reducing bleeding in obstetrics. Don't waste your time with anything else. Unless of course it's a hemorrhage like this one, where we can all just chill and wait for Mother Nature to sort it out.",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Today I Learned: Soft Tissue Foreign Bodies Can Sneak Up On You Even In ER...",
+    "body": "Just saw a patient with a classic case of soft tissue foreign body masquerading as a typical laceration.\n\n        Visually inspecting the wound revealed nothing, but careful palpation of the surrounding tissue \n\n        revealed a subtle hardness that suggested something was off. Further examination with an ultrasound \n\n        confirmed my suspicions (thank you, Sparkle-Eyes Sue, for that trick!). Patient had a small glass shard \n\n        lodged in their arm, which we removed without complication.\n\n        TLDR: never underestimate the importance of gentle palpation and a solid understanding of ultrasound-guided foreign body removal.",
+    "category": "emedicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Preach! I had a case last month where we missed a wood splinter because we \n\n          were too reliant on visual inspection. Patient had a nasty cellulitis a week later. Lesson learned: \n\n          don't skip the palpation step! By the way, what was your first thought when you felt that hardness?",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Aris Thorne",
         "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "I couldn't agree more, Dr. Thorne. Procedural sedation can be a lifesaver in certain situations, but we need to use it judiciously. We're not just talking about a few stitches here. What about the increased risk of respiratory depression, hypotension, and prolonged recovery times? Not to mention the potential for medication-related adverse events. We need to weigh the risks and benefits of sedation carefully and consider alternative options, like topical anesthesia or oral analgesics.",
-        "color": "blue"
+        "text": "I was thinking 'hmmm, this is weird.' The patient had a history of a fall, but no mention of any \n\n          broken glass. When I palpated the area, I felt a subtle edge, like a tiny ridged surface. It was a \n\n          small glass shard, probably from a broken beer bottle (patient was at a bar when it happened).",
+        "color": "green"
       },
       {
         "id": 3,
@@ -20,53 +527,53 @@
         "user": "Leo Chen",
         "role": "MS1",
         "city": "Montreal, QC",
-        "text": "Uh, what's topical anesthesia? And don't we use oral analgesics already?",
-        "color": "grey"
+        "text": "I've never even thought of palpating a wound before! What exactly am I looking for when I \n\n          do that? Is it just general hardness or do you have a specific technique?",
+        "color": "blue"
       },
       {
         "id": 4,
         "parent_id": 3,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Leo, topical anesthesia refers to applying a local anesthetic directly to the skin, such as lidocaine patches or cream. It's a great option for minor procedures like lacerations. And yes, we do use oral analgesics, but they may not be sufficient for more painful procedures, which is where sedation comes in. We need to strike a balance between pain management and patient safety.",
-        "color": "pink"
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Oh, come on, Leo! You're a med student, for [crying out loud]! Of course, you don't know what \n\n          you're doing. Palpation is an art, my boy. You're looking for subtle changes in texture, edges, \n\n          or even just a weird feeling. It's not rocket science, but it does require some finesse and experience.",
+        "color": "red"
       },
       {
         "id": 5,
         "parent_id": 4,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Thanks, Dr. Sharp! I thought it was something used for chronic pain, like nerve blocks or something.",
-        "color": "lightblue"
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Hey, Vic, calm down! The kid's just trying to learn. Let's show him some love. Leo, to answer \n\n          your question, palpation is indeed an art, but it's also a critical thinking exercise. When you \n\n          palpate a wound, you're looking for any abnormalities that don't fit with the rest of the wound's \n\n          anatomy. Does that make sense?",
+        "color": "orange"
       },
       {
         "id": 6,
-        "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "I'm a bit surprised you're taking a stance against sedation, Dr. Thorne. From what I've read, it's actually become more prevalent in the ED due to the increasing demands of patient care. We need to move forward and adapt to the changing landscape of medicine, rather than relying on outdated practices.",
-        "color": "teal"
+        "parent_id": 5,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "That makes perfect sense! Thank you, Ziggy! So, let's say I palpate a wound and I find one of \n\n          these 'weird feelings.' What's the next step?",
+        "color": "purple"
       },
       {
         "id": 7,
         "parent_id": 6,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Sarah, I understand your point, but that's exactly what I'm worried about \u2013 we're getting caught up in the whirlwind of modern medicine without truly evaluating the risks and consequences of our actions. Procedural sedation is a tool, not a solution. We need to consider all aspects of care and not just focus on the latest trends or gadgets.",
-        "color": "red"
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "From what I've learned, the next step is usually a more thorough examination with ultrasound or \n\n          other imaging modalities to confirm the presence of a foreign body.",
+        "color": "green"
       },
       {
         "id": 8,
         "parent_id": 7,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Excuse me, but can someone clarify what 'anterograde amnesia' refers to, in relation to sedation? I'm not sure I understood that bit.",
-        "color": "yellow"
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Bless your heart, Dr. Park! You're right on the money! But don't forget to get those vitals and \n\n          history, too, before diving into imaging. Patient's BP and HR might be telling the story of their \n\n          condition.",
+        "color": "blue"
       },
       {
         "id": 9,
@@ -74,7 +581,7 @@
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "Dr. Park, anterograde amnesia is a condition where a person is unable to form new memories, but has intact memory of past events. It's a known side effect of certain sedatives like propofol and ketamine, which are sometimes used in procedural sedation.",
+        "text": "I've got a question about imaging. I've seen mixed opinions online about when to use ultrasound \n\n          vs. CT. Can we get some clarity on that?",
         "color": "orange"
       },
       {
@@ -83,319 +590,35 @@
         "user": "Dr. Elena Varkov",
         "role": "FRCPC",
         "city": "Quebec City, QC",
-        "text": "I'd like to add that while anterograde amnesia is a concern, we also need to worry about the more pressing issue of respiratory depression. The risk is especially high in the elderly and those with underlying respiratory conditions. Have any of you consulted a recent review on propofol dosing in the elderly?",
+        "text": "Ah, a great question, Maya! I've consulted some studies on this. Ultrasound is a great first line \n\n          for small foreign bodies, but CT is better for larger or more complex items, like spines or thorns.",
         "color": "purple"
       },
       {
         "id": 11,
         "parent_id": 10,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Can someone link me to a review on propofol dosing in the elderly? And does anyone know what's the 'usual' dose range for an 'average' elderly patient?",
-        "color": "lightgrey"
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Thanks, Dr. Varkov! Can we talk about the specifics of ultrasound-guided removal, then?",
+        "color": "green"
       },
       {
         "id": 12,
         "parent_id": 11,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Chad, I'm not sure I can find a specific review on propofol dosing in the elderly, but I can suggest some general guidelines. A study by [1] showed that a reduced dose of propofol (about 50% of the standard dose) can be safe and effective in elderly patients. However, it's essential to consider the individual patient's factors and adjust the dose accordingly.",
-        "color": "pink"
-      }
-    ],
-    "image": "https://www.ebmedicine.net/media_library/images/2022-EMP-Publication-Article/06-June/Clinical-Pathway-for-Procedural-Sedation-and-Analgesia-in-the-Emergency-Department-TH.png"
-  },
-  {
-    "post": {
-      "id": 1,
-      "title": "Had a miss last night... Bowel Obstruction and the 'Silent' Volvulus (Trigger warning: lots of EM nerdery)",
-      "body": "Just saw a patient with a sigmoid volvulus and it got me thinking about the importance of looking for 'silent' symptoms of bowel obstruction. TLDR: If you see a patient with abdominal pain and distension, make sure to look for signs of volvulus. Don't rely on just a plain ol' xray... [link to xray example](https://www.clinicalexam.com/medical-cases/abdominal-chest-emergency-medicine/)\n\nThis patient presented with a 2-day history of abdominal pain and distension. Their initial xray showed just some nonspecific air-fluid levels, so we didn't think much of it... until they went into shock and we did an CT scout. Then we saw the volvulus. Turns out they had a pretty classic sigmoid volvulus, and it was a close call.",
-      "category": "Emergency Medicine",
-      "comments": [
-        {
-          "id": 2,
-          "parent_id": 1,
-          "user": "Dr. Aris Thorne",
-          "role": "Staff Physician",
-          "city": "Toronto, ON",
-          "text": "Excellent post OP! I love how you emphasized the importance of vigilant assessment in the ED. The 'silent' volvulus is especially tricky because it often presents with non-specific symptoms, making it hard to diagnose at first glance. One thing to consider is that sigmoid volvulus can be a bit more common in the elderly and patients taking anticholinergic meds. Any thoughts on when to do an urgent CT or MRI in these cases?",
-          "color": "purple"
-        },
-        {
-          "id": 3,
-          "parent_id": 1,
-          "user": "Dr. 'Ziggy' Zalesky",
-          "role": "EP",
-          "city": "Vancouver, BC",
-          "text": "Thanks for sharing that case! I've had a few similar experiences with sigmoid volvulus, and it's always a challenge to diagnose. I'm with OP on getting an urgent CT - in my experience, that's usually the best way to diagnose volvulus. Has anyone else seen cases where CT didn't catch the volvulus, but ultrasound did?",
-          "color": "green"
-        },
-        {
-          "id": 4,
-          "parent_id": 3,
-          "user": "Sarah Jenkins",
-          "role": "MS3",
-          "city": "Ottawa, ON",
-          "text": "I was wondering if you guys could provide some clarification on the ultrasound findings... how exactly do you determine if its a volvulus or just a twisted intestine? And what are some key features to look for in the CT to diagnose volvulus?",
-          "color": "blue"
-        },
-        {
-          "id": 5,
-          "parent_id": 2,
-          "user": "Dr. Aris Thorne",
-          "role": "Staff Physician",
-          "city": "Toronto, ON",
-          "text": "Great questions, Sarah! The ultrasound findings for volvulus can be quite specific, but it depends on the type of volvulus. For sigmoid volvulus, you might see a clockwise twist of the sigmoid colon, along with some characteristic changes in the blood flow. A few studies have used ultrasound Doppler to detect these changes. Have a look at this one:\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC4441111/\n\nAs for CT, the key features can include things like air-fluid levels, twisted loops of bowel, and some changes in bowel wall thickness. Keep in mind that the CT should be done with contrast to make all these features more apparent.",
-          "color": "purple"
-        },
-        {
-          "id": 6,
-          "parent_id": 5,
-          "user": "Leo Chen",
-          "role": "MS1",
-          "city": "Montreal, QC",
-          "text": "Thanks so much Dr. Thorne! I'm going to look that up and try to learn more about Doppler ultrasound. Can you also explain the importance of air-fluid levels on CT in diagnosing volvulus?",
-          "color": "teal"
-        },
-        {
-          "id": 7,
-          "parent_id": null,
-          "user": "Turbo Tom",
-          "role": "RN",
-          "city": "London, ON",
-          "text": "Just wanted to chime in here with my RN hat on... it's really important for us ER nurses to be vigilant for signs of volvulus and other causes of bowel obstruction. A patient may not present with typical symptoms right away, but we can often pick up on subtle clues. I love seeing the EM docs do their magic and get those difficult diagnoses!",
-          "color": "pink"
-        },
-        {
-          "id": 8,
-          "parent_id": 7,
-          "user": "Dr. Barb Miller",
-          "role": "EP",
-          "city": "Winnipeg, MB",
-          "text": "Am I crazy, or do I remember a time when sigmoid volvulus was much more common? Have we really seen a decrease in volvulus cases, or is it just our perception?",
-          "color": "green"
-        },
-        {
-          "id": 9,
-          "parent_id": 1,
-          "user": "Chad Broson",
-          "role": "Pre-med",
-          "city": "Brampton, ON",
-          "text": "What's the likelihood of someone getting bowel obstruction in the first place? Is there any way to prevent it?",
-          "color": "blue"
-        },
-        {
-          "id": 10,
-          "parent_id": 9,
-          "user": "Dr. Aris Thorne",
-          "role": "Staff Physician",
-          "city": "Toronto, ON",
-          "text": "Great question, Chad! The likelihood of developing bowel obstruction depends on several factors, including age, previous abdominal surgery, and certain underlying medical conditions. According to one study, the lifetime risk of bowel obstruction was about 1 in 100.\nhttp://onlinelibrary.wiley.com/doi/10.1111/j.1463-1318.2005.01135.x/full\n\nAs for prevention, it's always a good idea to follow proper bowel care, including staying hydrated and avoiding constipation.",
-          "color": "purple"
-        },
-        {
-          "id": 11,
-          "parent_id": 1,
-          "user": "Martha 'The Hammer'",
-          "role": "RN",
-          "city": "Halifax, NS",
-          "text": "In the real world, ER nurses like me often see patients who come in way too late with bowel obstructions. What can we learn from this post to better manage our ER workflow and avoid similar mistakes?",
-          "color": "pink"
-        },
-        {
-          "id": 12,
-          "parent_id": 11,
-          "user": "Dr. Sarah Sharp",
-          "role": "EP",
-          "city": "Laval, QC",
-          "text": "One takeaway for me was the importance of looking for subtle clues like air-fluid levels on CT. It can save precious time in the ED, especially when dealing with complex cases like volvulus. Any suggestions for streamlining our emergency department workflow to prevent similar situations?",
-          "color": "green"
-        },
-        {
-          "id": 13,
-          "parent_id": 12,
-          "user": "Barnaby Finch",
-          "role": "Patient",
-          "city": "Surrey, BC",
-          "text": "I was the patient in that last post. Can someone explain to me what air-fluid levels on CT mean? I still don't quite get it.",
-          "color": "blue"
-        },
-        {
-          "id": 14,
-          "parent_id": 13,
-          "user": "Dr. Aris Thorne",
-          "role": "Staff Physician",
-          "city": "Toronto, ON",
-          "text": "Barnaby, hope you're feeling better! Air-fluid levels on CT refer to the presence of air pockets surrounded by fluid in the bowel. It's often associated with bowel obstruction or ileus.",
-          "color": "purple"
-        },
-        {
-          "id": 15,
-          "parent_id": null,
-          "user": "Turbo Tom",
-          "role": "RN",
-          "city": "London, ON",
-          "text": "Time for another nurse rant... Can someone please explain to me why our docs can't seem to get the CT protocols right? I swear sometimes it feels like they're trying to make it harder for us to get the good pics!",
-          "color": "pink"
-        },
-        {
-          "id": 16,
-          "parent_id": 15,
-          "user": "Dr. Kevin Park",
-          "role": "PGY1",
-          "city": "Edmonton, AB",
-          "text": "Sorry, Turbo... but I think there's more to it than just getting the right CT protocols. As a new intern, I can tell you that some patients just don't cooperate (hello, claustrophobia!), or our protocols just aren't designed to handle all the cases we get.",
-          "color": "blue"
-        },
-        {
-          "id": 17,
-          "parent_id": 16,
-          "user": "Dr. Henry Oldman",
-          "role": "CCFP",
-          "city": "Victoria, BC",
-          "text": "A few years back, I was having the same issues with getting decent CT images. What I found helpful was creating a pre-order checklist, so nurses like Turbo could prep the patients before we even saw them. It made a huge difference in terms of reducing claustrophobia and getting the good pics.",
-          "color": "green"
-        },
-        {
-          "id": 18,
-          "parent_id": 17,
-          "user": "Dr. Brock Stone",
-          "role": "FRCSC",
-          "city": "Hamilton, ON",
-          "text": "Sorry to be the party pooper, but have any of you folks thought through the real-world implications of doing an emergency CT in someone with potential bowel obstruction? I'm talking risks like contrast nephropathy and radiation exposure. It's not just a matter of getting the 'good' pic anymore.",
-          "color": "red"
-        },
-        {
-          "id": 19,
-          "parent_id": 18,
-          "user": "Dr. Elena Varkov",
-          "role": "FRCPC",
-          "city": "Quebec City, QC",
-          "text": "Great point, Brock. In fact, one of the takeaways for me was the importance of considering all the risks and benefits when ordering imaging studies in emergency settings. In Barnaby's case, maybe we should have looked more closely at their history of bowel issues and considered an ultrasound instead of CT.",
-          "color": "purple"
-        },
-        {
-          "id": 20,
-          "parent_id": 12,
-          "user": "Dr. Sarah Sharp",
-          "role": "EP",
-          "city": "Laval, QC",
-          "text": "Thanks for all the great points and insights! For those who are still following this thread, I'll try to summarize some key points to remember when evaluating bowel obstruction: air-fluid levels, twisted loops of bowel, and subtle changes in bowel wall thickness on CT. Let's keep the conversation going!",
-          "color": "green"
-        }
-      ]
-    }
-  },
-  {
-    "id": 1,
-    "title": "Today I Learned... Altered Mental Status in the ED - A Can of Worms",
-    "body": "Just had a patient present with suspected altered mental status in the ED, and I was reminded of how nuanced and complex this topic can be. Delirium, dementia, coma... which one is it? And how do we differentiate them in a timely manner? Anyone else having trouble wrapping their head around this topic? Asking for a friend, of course. PS: TLDR: please keep your responses concise and don't @ me.",
-    "category": "EM stories",
-    "comments": [
-      {
-        "id": 2,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Ah, the old 'can of worms'! First things first, let's define what we mean by 'altered mental status.' It's a broad term, but generally encompasses any change or abnormality in a patient's level of consciousness or behavior. Now, let's talk about the difference between delirium and dementia. Delirium is an acute, fluctuating cognitive dysfunction, often with a underlying medical cause (e.g., infection, medication toxicity). Dementia, on the other hand, is a chronic, irreversible cognitive decline, often with a degenerative cause (e.g., Alzheimer's, vascular disease). But here's the thing: they can coexist! So, how do we make the distinction? Clinical history and exam, my friends! We need to ask about prodromal events, risk factors, and other associated symptoms. A thorough head-to-toe exam will also help identify occult infection, trauma, or metabolic disease. Now, I know what you're thinking: 'But what about the AVPU scale? Ain't it good enough?' Well, while the AVPU scale can be a useful screening tool, it's no substitute for a comprehensive history and exam. Trust me, I've seen my fair share of 'feigned unresponsiveness' in my time... ",
-        "color": "blue"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Ugh, you're coddling the docs again, Aris. Newsflash: the AVPU scale is just fine for screening for level of consciousness. And let's be real, most of these patients are just faking it to get attention. I mean, who needs to order a CT scan when you've got a good ol' fashioned 'don't-you-ever-take-me-seriously' glare? (Amateurs). And by the way, what's with all the hand-wringing about 'delirium vs. dementia'? Can't we just get the CT scan and be done with it? (Just sayin').",
-        "color": "red"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
         "user": "Turbo Tom",
         "role": "RN",
         "city": "London, ON",
-        "text": "Hey @Victor, I've seen you do some pretty sloppy assessments in your time, so maybe don't be too quick to dismiss the 'art of bedside evaluation'! And, @Aris, I've found that a well-documented history and physical can be just as effective as a CT scan in distinguishing delirium from dementia... sometimes even better! (Sorry, I had to!) Now, has anyone linked the article on bedside evaluation by Dr. Thistlethwaite? It's a game-changer for those of us who still believe in the power of observation.",
-        "color": "teal"
-      },
-      {
-        "id": 5,
-        "parent_id": null,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "I love how we're all getting into the weeds on this topic... (And don't even get me started on the weeds themselves! ) Seriously though, let's talk about the pathologic causes of altered mental status. Aris mentioned supratentorial lesions and metabolic encephalopathy. What's the current thinking on subtentorial lesions? Are they still a thing? And what about those pesky 'frontal lobe' cases? Anyone have any pearls on those?",
-        "color": "orange"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Hey @Barb, I've seen it's still worth considering subtentorial lesions, particularly in patients with a history of trauma or malignancy. And don't forget about the 'cerebral edema' cases! (I know, I know, it's a bit of a cop-out, but sometimes it's just that simple...). Oh, and one more thing: don't underestimate the importance of 'family history' in patients with altered mental status... it can be a major red flag for genetic or metabolic disorders! TLDR: check the family tree, check the CT scan...",
-        "color": "purple"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Wait, wait... what about cerebral edema? Is that a diagnosis by exclusion, or is there a specific criterion we should be looking for? (Sorry for my ignorance...)",
-        "color": "lightblue"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "No worries, Leo! Cerebral edema can be a diagnosis by exclusion, but we should also consider imaging and lab findings to support the diagnosis. Specifically, look for evidence of increased intracranial pressure (ICP), cerebral hypoperfusion, and/or ischemia. And remember: if you're still unsure, it's always better to err on the side of caution and get a second opinion... or a third, or... (Just kidding, but seriously, don't underestimate the impact of timely intervention!)"
-      },
-      {
-        "id": 9,
-        "parent_id": null,
-        "user": "Dr. Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "I'm so glad we're having this discussion... (I mean, who doesn't love a good EM case discussion?). Just keep in mind, guys: altered mental status can be a 'catch-all' diagnosis for a lot of other, more sinister conditions. Don't get me wrong, I'm all for the 'benign, reversible cause' approach, but let's not forget about the 'bad stuff' lurking beneath the surface... like sepsis, or a hemorrhagic stroke! (Don't @ me)."
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Amen to that, @Brock! And don't even get me started on the ' sodium and story' when it comes to altered mental status... (But I think @Aris covered that one nicely already... ). TLDR: get the labs, get the images, and don't be afraid to 'think big picture'! Now, has anyone linked that article on the pathophysiology of metabolic encephalopathy? I could swear it was on Medscape last week..."
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Uh... pre-med here... (What are we talking about again? ). Can someone explain metabolic encephalopathy to me like I'm 5 years old? (Or like I'm, you know, me). Like, is it something you get from eating spoiled food or something?"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Dr. Phil Muddle",
-        "role": "EP",
-        "city": "Regina, SK",
-        "text": "Hehe, @Chad, I think you'll find it's a bit more complicated than that... (Or maybe not...). Seriously though, metabolic encephalopathy is a condition where the brain doesn't get the nutrients and oxygen it needs, often due to a systemic disease or toxin. Think of it like a 'fog' that settles in and prevents the brain from working properly... Now, don't quote me on that, I'm pretty sure that's how I remember it..."
+        "text": "You bet, Dr. Park! As ER nurses, we love our ultrasound-guided foreign body removals. The \n\n          technique's pretty straightforward once you've got the hang of it.",
+        "color": "blue"
       },
       {
         "id": 13,
         "parent_id": 12,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "Umm... excuse me, guys... (Can I just ask: what's the 'big picture' I'm supposed to be thinking about, @Elena? I'm just a worried patient here...).",
-        "color": "brown"
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Thanks, Tom! Can someone link some resources or tips for ultrasound-guided removal?",
+        "color": "orange"
       },
       {
         "id": 14,
@@ -403,16 +626,17 @@
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "Hey @Barnaby, don't worry! We'll get you sorted out. The 'big picture' is just a medical term for thinking about the whole patient, not just the symptoms. We need to consider all the possible causes of your altered mental status, and how they might be connected. It's like solving a puzzle... (Now, let me take a look at your chart...).",
-        "color": "hot pink"
+        "text": "Here's a link to a helpful article on EMN: [link].",
+        "color": "purple"
       },
       {
         "id": 15,
-        "parent_id": null,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "This has been one of the most entertaining discussions I've had all week! Thanks, guys, for all the insights and pearls. And @Barnaby, sorry if we scared you... just remember: we're all here to help! TLDR: Altered mental status = a complex diagnosis that requires a multidisciplinary approach. Get the history, get the physical, get the labs, and get the imaging... and don't forget to think big picture! (Or, you know, just ask @Aris to explain it all to you...)."
+        "parent_id": 14,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "Um, excuse me? What's going on here? My doctor said I had a wood splinter, but now you're \n\n          discussing glass shards? Can someone explain?",
+        "color": "green"
       },
       {
         "id": 16,
@@ -420,398 +644,221 @@
         "user": "Dr. Aris Thorne",
         "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "Thanks, Sarah! It's always a pleasure to discuss the nuanced topics of EM with such a knowledgeable and engaged community. (And @Barnaby, don't worry, you got the right care!)"
-      }
-    ]
-  },
-  {
-    "id": "",
-    "title": "Just saw a patient with an AA rupturing... how do you suspect an AAA on physical exam?",
-    "body": "A 62-yr-old male smoker with recent abdominal pain came to the ED. His BP was 80/40 and he had a diff. in ABG with high lactate. He also had a new murmur. I was initially thinking of a PEA from myocardial infarction, but his BP continued to drop despite aggressive fluid resuscitation. His ABG showed severe metabolic acidosis. We quickly ordered a FAST to rule out a perforated ulcer, but it was inconclusive. On an emergency CT, we found an RAAA measuring 7.5 cm. Luckily, our vascular surgery service got the OR ready quickly, and the patient underwent a successful repair.",
-    "category": "Emergency Medicine",
-    "comments": [
-      {
-        "id": 1000,
-        "parent_id": null,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "",
-        "color": "purple"
-      },
-      {
-        "id": "1001",
-        "parent_id": "",
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "",
+        "text": "Don't worry, Barnaby! You'll get the best care in this community. We just got sidetracked \n\n          talking med speak.",
         "color": "blue"
       },
       {
-        "id": "1002",
-        "parent_id": "",
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "",
-        "color": "blue"
-      },
-      {
-        "id": "1003",
-        "parent_id": "",
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "",
-        "color": "blue"
-      },
-      {
-        "id": "1004",
-        "parent_id": "",
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Is it correct that a large aneurysm will always be palpable and you can hear a bruit on the abdominal exam? Should't we be thinking about AAA in patients with lower extremity aneurysms as well?",
-        "color": "blue"
-      },
-      {
-        "id": "1005",
-        "parent_id": "",
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "",
-        "color": "purple"
-      },
-      {
-        "id": "1006",
-        "parent_id": "",
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "+1 to that Leo, and btw did you know a 4.2 cm AAA has a 7% chance of rupture and 4.6% for a 4.8 cm one?",
-        "color": "blue"
-      },
-      {
-        "id": "1007",
-        "parent_id": "",
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "",
-        "color": "blue"
-      },
-      {
-        "id": "1008",
-        "parent_id": "",
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "",
-        "color": "purple"
-      },
-      {
-        "id": "1009",
-        "parent_id": "",
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "",
-        "color": "blue"
-      },
-      {
-        "id": "1010",
-        "parent_id": "",
-        "user": "Leonardo DiCaprio",
-        "role": "",
-        "city": "",
-        "text": "",
-        "color": "orange"
-      },
-      {
-        "id": "1011",
-        "parent_id": "",
-        "user": "Dr.Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "",
-        "color": "cyan"
-      },
-      {
-        "id": "1012",
-        "parent_id": "",
-        "user": "Dr. 'Ziggy' Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text ": "",
-        "color": "blue"
-      },
-      {
-        "id": 1013,
-        "parent_id": 1,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "",
-        "color": "blue"
-      }
-    ],
-    "image": "https://www.thepermanentejournal.org/cms/10.7812/TPP/99.956/asset/a3197d84-9abf-4557-a24d-f93a91f356ea/assets/tpp_99.956.fp.png"
-  },
-  {
-    "id": 123,
-    "title": "Acute Appendicitis: A Case of Missed Symptoms and Misdiagnosis Risks",
-    "body": "Just saw a patient with what we initially thought was gastroenteritis, but turned out to be appendicitis. We were lucky to catch it before it was too late, but this got me thinking... How often do we misdiagnose appendicitis in the ER? And what are the complications of delayed diagnosis?\n\nWe rely heavily on clinical suspicion and imaging studies to diagnose appendicitis, but sometimes it's not that straightforward. What symptoms should we be looking out for in the early stages of appendicitis, and how can we differentiate it from other abdominal pathologies like gastroenteritis?\n\nTL;DR: Don't miss the subtle symptoms of appendicitis! Discuss.",
-    "category": "EmergencyMedicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "MD",
-        "city": "Toronto, ON",
-        "text": "I've seen many cases where the patient presents with what appears to be gastroenteritis, but upon further investigation, it's actually appendicitis. It's not uncommon for the pain to migrate from the periumbilical region to the right lower quadrant. We should be on the lookout for fever, nausea, and vomiting, which are common symptoms of appendicitis. But, as you said, it's not always straightforward. Have you seen any cases where the diagnosis was delayed due to misinterpretation of imaging studies? [link to relevant article](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4411237/)",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Thorne, are you saying that the pain in appendicitis usually starts in the periumbilical region and then migrates to the right lower quadrant? I've read that the pain can be diffuse and not localized to one area. Could you explain further?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "I've seen cases where the imaging studies showed a 'normal appendix' but the patient still had appendicitis. What are your thoughts on that? Is it possible for the appendix to be inflamed without showing up on imaging studies? And what about the role of C-reactive protein (CRP) levels in diagnosing appendicitis?",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Great point, Sarah! CRP levels can be elevated in appendicitis, but they're not always specific. In fact, CRP levels can be elevated in other conditions like gastroenteritis, pneumonia, and even in healthy individuals. We need to consider the clinical context and other findings in conjunction with CRP levels. What do you think about the use of abdominal ultrasound as a diagnostic tool in appendicitis?",
-        "color": "blue"
-      },
-      {
-        "id": 5,
-        "parent_id": null,
-        "user": "Dr. Victor Sterling",
-        "role": "Surg",
-        "city": "Calgary, AB",
-        "text": "Amateurs always rely on imaging studies but forget about the gold standard: surgical exploration. Trust me, folks, a good surgeon can identify appendicitis without relying on fancy scans. Just operate, and if it's not appendicitis, we'll deal with it then.",
-        "color": "red"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Aris Thorne",
-        "role": "MD",
-        "city": "Toronto, ON",
-        "text": "I disagree with you, Dr. Sterling. While surgical exploration is a valid option, we should exhaust all non-invasive diagnostic tools before resorting to surgery. After all, appendicitis is one of the most common abdominal emergencies in the ED. Can we agree on that?",
-        "color": "purple"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "What about the role of clinical judgment in diagnosing appendicitis? How can we, as junior ER physicians, develop our clinical expertise to make more accurate diagnoses?",
-        "color": "blue"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Clinical judgment is a skill developed over time and with practice. As junior physicians, we need to learn from our attendings, participate in rounds, and critically evaluate imaging studies. Also, don't forget to consider the patient's social context, medical history, and other symptoms when making a diagnosis.",
-        "color": "green"
-      }
-    ]
-  },
-  {
-    "title": "Rant about missed hypoglycemia cases in ED",
-    "body": "Just saw a patient with severe altered mental status and low blood pressure in the ED. Turns out it was hypoglycemia from sepsis. We all missed it initially. Made me think about how often we forget to check BG in our critically ill patients. Has anyone else had a similar case recently? Any tips on how to improve our hypoglycemia detection in the ED?",
-    "category": "emergency medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "I've seen it happen more times than I can count. We were discussing this in our morbidity and mortality conference last week. The key is to remember that hypoglycemia can present subtly in critically ill patients, especially those with sepsis. Always get a glucose check ASAP in any patient with altered mental status or tachypnea. And don't forget to give the patient a snack or glucose water!",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "I completely agree with you, Dr. Thorne. But it's also important to remember that some labs may take a while to come back. What are your thoughts on the role of point-of-care glucose testing in the ED?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "I've heard that point-of-care glucose testing is very accurate, especially with some of the newer devices. Has anyone used the GlucoMen LX Plus in the ED? What were your experiences with it?",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Yes, I've used the GlucoMen LX Plus in the ED and I found it to be very reliable. We also have a protocol in place to send out a stat lab for anyone with a low glucose result. But I have a question for Dr. Sharp - what about the role of glucagon in treating hypoglycemia in the ED?",
-        "color": "red"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Glucagon is a great question. We use it all the time in the ED to treat hypoglycemia, especially in patients who are unstable. But I've heard that it can have some side effects, like nausea and vomiting. Are there any other options we can use?",
-        "color": "yellow"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "In my day, we used to give patients a good stiff dose of glucose to treat hypoglycemia. None of this glucagon nonsense. But I suppose that's a different era now. Has anyone looked at the current literature on the effectiveness of glucagon in hypoglycemia treatment?",
-        "color": "orange"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Actually, I've seen a few studies that suggest glucagon may not be as effective as we think it is. But it's still a popular option in the ED. One thing we need to keep in mind is that glucagon can cause hyperglycemia, so we need to be careful with dosing.",
-        "color": "purple"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "I'm a bit confused - isn't glucagon supposed to cause hyperglycemia? I thought that was its purpose in treating hypoglycemia?",
-        "color": "green"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "No, Leo, glucagon actually works by stimulating glycogenolysis and gluconeogenesis, which raises blood glucose levels. But as Dr. Varkov mentioned, it can also cause hyperglycemia, so we need to be careful with dosing. And don't forget to give patients a snack or glucose water to prevent recurrent hypoglycemia!",
-        "color": "purple"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Alright, alright, let's not get too caught up in the details. The main thing is to remember that hypoglycemia is a common cause of altered mental status in the ED, and we need to treat it aggressively to prevent brain damage. TLDR: always get a glucose check ASAP, and don't forget to give patients a snack or glucose water!",
-        "color": "blue"
-      }
-    ]
-  },
-  {
-    "id": 6,
-    "title": "Rant about soft tissue foreign bodies in ED",
-    "body": "Had a miss last night that's still haunting me... patient with a small puncture wound on finger was missed for a wood foreign body. Luckily, a thorough radiograph showed the little guy. Made me think, how often are we missing these tiny foreign bodies and what are the consequences? Anyone else have close calls like this?",
-    "category": "EMedicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "TL;DR - foreign bodies are sneaky. I had a similar situation last week where a thin metal fragment was hidden behind a skin flap. We didn't catch it on the initial radiograph, but a CT scan revealed it. The key is a high level of suspicion and using the right imaging modality. [1]",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Hi Dr. Gupta, what kind of CT scan did you use for the patient? Was it a bone algorithm or soft tissue? Also, do you think the radiograph was underpenetrated?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Over-diagnosis, that's the problem here. In ED, we need to focus on the likely diagnosis and not get caught up in the 'what-ifs'. A missed foreign body is a minor inconvenience compared to the harm caused by over-treatment and unnecessary procedures.",
-        "color": "red"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I disagree, Chief. Missed foreign bodies can lead to chronic infection, abscess formation, and even sepsis. We need to be meticulous and use the right tools to identify these tiny objects. A thorough history and physical exam, combined with proper imaging, will catch most foreign bodies.",
-        "color": "purple"
-      },
-      {
-        "id": 5,
-        "parent_id": null,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "I've had my fair share of close calls with soft tissue foreign bodies. Here's my rant: how about we talk about the importance of radiographic technique? An underpenetrated radiograph can be just as useful as a CT scan in some cases. [2]",
-        "color": "green"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
+        "id": 17,
+        "parent_id": 16,
         "user": "Sparkle-Eyes Sue",
         "role": "LPN",
         "city": "St. John's, NL",
-        "text": "Amen, Barb! I've seen some of my colleagues take a great radiograph, but then over-interpret it. Remember, a good radiograph will show the foreign body in multiple planes, and the patient's symptoms should match the image findings. Don't go off on an EMRA-type wild goose chase! [3]",
+        "text": "Aye, don't you worry, Barnaby me lad! You're in good hands. Now, Dr. Gupta, tell us more \n\n          about those 'weird feelings' during palpation! ",
+        "color": "orange"
+      },
+      {
+        "id": 18,
+        "parent_id": 17,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Ah, right! So, 'weird feelings' can be anything from a subtle hardness or irregular texture \n\n          to even just a slight change in the wound's shape. It's all about being detail-oriented and having \n\n          a good understanding of normal wound anatomy.",
+        "color": "purple"
+      },
+      {
+        "id": 19,
+        "parent_id": 18,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Wow, I'm loving this thread! Can I ask a question about the 'normal wound anatomy' part?",
+        "color": "yellow"
+      },
+      {
+        "id": 20,
+        "parent_id": 19,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Go ahead, Chad! We're keeping it casual here",
         "color": "blue"
       }
     ],
     "image": "https://med.emory.edu/departments/emergency-medicine/_images/ultrasound/image-week/soft-tissue-foreign-body.jpg"
   },
   {
-    "title": "TLDR: Got burned by Ehrlichiosis in the ED last night...",
-    "body": "Just saw a patient with Ehrlichiosis last night and I'm still trying to wrap my head around it. She presented with fever, headache, and malaise, but the kicker was the rash. It was a maculopapular eruption on her ankles and wrists, which I initially thought was a weird reaction to a bug bite. Luckily, I remembered to order an Ehrlichia test, and it came back positive. Anyone else have a near miss with Ehrlichiosis? What are your strategies for diagnosing and differentiating these rickettsial diseases in the ED?",
-    "category": "EmergencyMedicine",
+    "id": 1,
+    "title": "TLDR: Don't forget the noncontrast head CT in your first few minutes of patient care! Got burned today with a delayed diagnosis due to lack of imaging in TIA.",
+    "body": "Had a miss last night with a patient who presented with a transient ischemic event. I immediately activated our stroke team and obtained labs, but failed to order a noncontrast head CT. Turns out, it was a missed diagnosis of an SAH and this delay in diagnosis put the patient at risk for worsening outcomes. I know we're all busy, but let's not forget this one folks!",
+    "category": "r/EMedicine",
+    "comments": [
+      {
+        "id": 11,
+        "parent_id": null,
+        "user": "Dr. Michael Harrigan",
+        "role": "MD",
+        "city": "Boston",
+        "text": "100% agree. Noncontrast head CT is a game-changer in these cases. Don't rely solely on NIHSS scoring or clinical suspicion. Imaging is key and often the only way to differentiate between ischemic vs. hemorrhagic stroke. Remember folks, every minute counts!",
+        "color": "purple"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal",
+        "text": "So I've read that some studies say imaging shouldn't be used in mild TIA's with no other symptoms. Is that correct? And what are some other signs that would indicate I should get a head CT?",
+        "color": "green"
+      },
+      {
+        "id": 13,
+        "parent_id": 12,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval",
+        "text": "Great question Leo! In my practice, I would err on the side of caution and order a head CT in any patient with a TIA, regardless of severity. Recent studies have indeed shown that imaging is often unnecessary in truly low-risk TIA's, but it's also essential to consider patient history, physical examination, and risk factors for stroke in these cases. I recommend checking out the latest guidelines from the AHA/ASA for more clarity on this.",
+        "color": "green"
+      },
+      {
+        "id": 14,
+        "parent_id": 11,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton",
+        "text": "So I was reading about this other thing called diffusion-weighted MRI (DWI)... is that like, way more accurate for TIA's or something? Can someone explain to me?",
+        "color": "blue"
+      },
+      {
+        "id": 15,
+        "parent_id": 14,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver",
+        "text": "Hey Chad, you're on the right track! DWI is indeed a powerful tool for detecting early ischemic strokes, and it's often used in conjunction with noncontrast head CT. However, it's not without its limitations. We've had instances where DWI picked up early signs of ischemia, but the patient ultimately ended up having a false positive. It's all about weighing the pros and cons, man. For real, though, DWI is awesome.",
+        "color": "turquoise"
+      },
+      {
+        "id": 16,
+        "parent_id": 15,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa",
+        "text": "Dr. 'Ziggy', I've read studies about the benefits of DWI in detecting minor ischemic strokes, but what about in patients with a history of stroke? Do we still recommend imaging even if the patient has a high risk of recurrence?",
+        "color": "green"
+      },
+      {
+        "id": 17,
+        "parent_id": 16,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City",
+        "text": "Hey Sarah, I'm so glad you asked! For patients with a history of stroke, we absolutely recommend imaging, especially if they have a high risk of recurrence. The risk-benefit ratio leans heavily in favor of imaging in these cases, and it can make all the difference in preventing another stroke.",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Today I Learned: Accurate Diagnosis of Appendicitis still a Challenge",
+    "body": "Just saw a patient with classic appendicitis symptoms \u2013 fever, right lower quadrant pain, and a white blood cell count of 25. But did I suspect appendicitis right away? Nope. I was convinced it was a case of acute cholecystitis or even a dissecting aortic aneurysm.\n\nAfter 10 minutes of debate, my partner convinced me to get the CT. And guess what? Classic appendicitis. 3 cm appendix, edematous, and totally obstructed. But here's the kicker \u2013 the patient's C-reactive protein (CRP) and erythrocyte sedimentation rate (ESR) were normal.\n\nWhy do we still struggle with this diagnosis? Is it because we're not paying attention to the nuances of appendicitis, or are our patients simply not showing up with the right constellation of symptoms? I'd love to hear from all you ER docs out there \u2013 what's your take on this one?",
+    "category": "emergency medicine",
+    "comments": [
+      {
+        "id": 12,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "I've seen this time and time again. Appendicitis is a diagnosis that's all about nuances. The classic symptoms of fever, abdominal pain, and vomiting often don't show up until late in the game. And by then, the appendix is already gangrenous, making it a much more complicated and even potentially life-threatening situation.\n\nWe can't just rely on CRP and ESR anymore. Those tests are so sensitive that they're often elevated in cases of acute gastroenteritis, which is a very common illness in the ED.\n\nWe need to trust our clinical judgment and take a more individualized approach to each patient. Every patient is different, and what works for one patient may not work for another.",
+        "color": "blue"
+      },
+      {
+        "id": 13,
+        "parent_id": null,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "I couldn't disagree more with Dr. Thorne. Appendicitis is a straightforward diagnosis. If you can't see the appendix on the ultrasound or CT, it's probably not there. I've seen too many ER docs over-diagnose this condition, wasting precious time and resources.\n\nAmateurs. They're just trying to get a few more C-sections and cholecystectomies in before the end of the shift.",
+        "color": "red"
+      },
+      {
+        "id": 14,
+        "parent_id": 12,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Dr. Thorne, what do you mean by 'nuances'? Can you elaborate on that? I've heard that the Rovsong sign is a pretty reliable indicator of appendicitis. Does that relate to what you're talking about?",
+        "color": "green"
+      },
+      {
+        "id": 15,
+        "parent_id": 12,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "I've read that a study published in the Journal of Emergency Medicine found that the positive predictive value of the Rovsong sign for appendicitis is around 90%. Do you think that's a reliable enough indicator to warrant an appendectomy?",
+        "color": "purple"
+      },
+      {
+        "id": 16,
+        "parent_id": 12,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Has anyone considered the role of abdominal wall motion in diagnosing appendicitis? I've seen patients with appendicitis who have no pain at all, but their abdominal wall is still tender to the touch. It's like their appendix is just throbbing away in their gut.",
+        "color": "orange"
+      },
+      {
+        "id": 17,
+        "parent_id": 13,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Dr. Sterling, I couldn't help but LOL at your response. I understand what you're saying, but don't you think that's a bit too harsh? After all, appendicitis is a tough diagnosis to make. We're only human, and mistakes happen.",
+        "color": "pink"
+      },
+      {
+        "id": 18,
+        "parent_id": 17,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "OMG, what's an Rovsong sign? Is it like a song or something? Can someone explain it to me in simpler terms?",
+        "color": "brown"
+      },
+      {
+        "id": 19,
+        "parent_id": 12,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "I've always found that the best way to diagnose appendicitis is to pay attention to the subtleties of the patient's symptoms. For example, a patient with appendicitis often has difficulty sitting or standing, and may even have trouble speaking. Those are the kinds of things that set appendicitis apart from other conditions.",
+        "color": "gray"
+      },
+      {
+        "id": 20,
+        "parent_id": 19,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Dr. Oldman, that's really interesting. Do you think those symptoms are related to the inflammation of the appendix itself, or is it something else entirely?",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "title": "Rant about intimate partner violence and neglecting the 'hidden' injuries",
+    "body": "Just saw a patient with multiple injuries in various stages of healing, delay in the time of injury occurrence and presentation, a visit for vague complaints without evidence of injury, or suicide attempts. It was a classic case of intimate partner violence and abuse. I'm still trying to figure out how I missed it. The patient had a history of chronic pain syndromes, genital soreness, and douche, shower, or change of clothing after the assault. I performed a speculum examination and noted any trauma, discharge, abrasions, including on the cervix. If anal penetration is reported, the rectum should be examined for abrasions and lacerations. I'm kicking myself for not using anoscopy in male patients, which increases detection of trauma.",
+    "category": "emergency medicine",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "MD",
-        "city": "Toronto, ON",
-        "text": "Great post! I've had a few cases of Ehrlichiosis in my practice, and it's always a challenge. I think the key takeaway is to keep a high index of suspicion for tick-borne illnesses, especially in endemic areas. I usually order a combination of blood tests, including the Ehrlichia test, a Rickettsial PCR, and a Lyme disease test. Have you considered prophylaxis for your patient, given the 36-hour window for tick attachment?",
-        "color": "purple"
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "TLDR: missed the obvious due to neglecting the 'hidden' injuries. We've all been there, but it's a great reminder. One of the most common signs of intimate partner violence and abuse is multiple injuries in various stages of healing. Did you do a thorough history and physical examination, including a detailed body map?\n\nIn my experience, patients with these types of injuries often have a history of chronic pain syndromes. It's essential to keep a high index of suspicion and not be afraid to order additional tests or involve a specialist if necessary.",
+        "color": "pink"
       },
       {
         "id": 2,
@@ -819,233 +866,37 @@
         "user": "Leo Chen",
         "role": "MS1",
         "city": "Montreal, QC",
-        "text": "Hi Dr. Thorne! Thanks for your response. I'm a bit confused about the Ehrlichia test - is it specific for each species of Ehrlichia, or is it a broad panel?",
-        "color": "green"
+        "text": "I'm not sure I understand. What is a 'detailed body map'? How do I create one?\n\nAlso, I've heard that anoscopy in male patients increases the detection of trauma. Can someone explain that in more detail?",
+        "color": "lightblue"
       },
       {
         "id": 3,
         "parent_id": 1,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Great question, Leo! The Ehrlichia test I'm familiar with is a broad panel that detects antibodies against several species of Ehrlichia. However, we need to be aware of the limitations and potential cross-reactivity with other tick-borne pathogens. Has anyone else had experience with these tests in their practice?",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Dr. Vic Sterling",
-        "role": "MD",
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
         "city": "Calgary, AB",
-        "text": "I'm not buying it. These tick-borne illnesses are over-diagnosed, if you ask me. We're just a bunch of ER physicians playing doctor, ordering unnecessary tests and poking our patients with sticks. What's the harm in a little empiric treatment, eh?",
-        "color": "blue"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Oh, come on, Vic! You know as well as I do that these diseases are real and can have serious consequences if left untreated. And what's with the 'poking our patients with sticks' comment - are you referring to the lumbar puncture or the blood draws?",
-        "color": "green"
-      },
-      {
-        "id": 6,
-        "parent_id": 4,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Vic, as an internist, I can assure you that these tick-borne illnesses can be devastating. I've seen patients who presented with fever, headache, and rash, only to be told it was 'just a virus' by some GP. We need to take these conditions seriously and order the necessary tests to rule out more serious causes.",
-        "color": "purple"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Can you elaborate on the importance of ordering the necessary tests, Dr. Varkov? How do you differentiate between these tick-borne illnesses and other similar conditions, such as leptospirosis or typhus?",
-        "color": "green"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Great question, Sarah! I think the key is to consider the epidemiology and clinical presentation of each disease. For example, Ehrlichiosis is more common in the southeastern US and presents with fever, headache, and rash. Leptospirosis, on the other hand, can present with fever, headache, and muscle pain, but also has a higher risk of renal failure and hemorrhagic complications.",
-        "color": "green"
-      },
-      {
-        "id": 9,
-        "parent_id": null,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "I think I might have caught a tick-borne illness last week. I was hiking in the woods and noticed a tick attached to my ankle... I'm so worried! Has anyone else had a similar experience? What should I do now?",
-        "color": "purple"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "Barnaby, it's great that you're seeking medical attention! If you think you've caught a tick-borne illness, it's essential to see a doctor as soon as possible. I would recommend visiting your local urgent care or emergency room to get evaluated. Have you remembered the tick or its location?",
-        "color": "green"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "Actually, I think I might have forgotten the tick location... but I do remember noticing a weird rash on my ankle. What's the likelihood of having a tick-borne illness if I didn't catch it immediately?",
-        "color": "purple"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Barnaby, don't be too worried, dear! Tick-borne illnesses can be challenging to diagnose, even if we didn't catch them immediately. But it's always better to err on the side of caution and get evaluated by a doctor. What do you say we get you booked for an appointment and get your history and physical exam done?",
-        "color": "green"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Just witnessed the most ridiculous thing in sepsis... Had to share this story",
-    "body": "TLDR: I'm still salty about this case. I saw a patient with a high fever, tachycardia, and hypertension, presenting with a history of a recent tattoo. The patient's tattoo had 'foul-smelling discharge' but the vitals weren't as dramatic, just hypotension on initial assessment. I gave a quick look and thought, 'oh, probably just a simple skin infection.' \n\nAnyway, after an aggressive fluid resuscitation the patient crashed even more, becoming severely hypotensive. This is when I realized that the foul-smelling discharge on that patient was from my own mistake. I didn't realize that MRSA was so common and it was the culprit behind the patient's septic shock. The patient had an aggressive treatment regime and they were discharged after multiple days of care.",
-    "category": "medicine",
-    "comments": [
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Sarah Sharp, EP, Montreal, QC",
-        "role": "suffix",
-        "city": "Montreal, QC",
-        "text": "Oh no don't be too hard on yourself, everyone makes mistakes. However, MRSA can be tricky and we need to consider the possibility even in patients with minor lesions. I've seen cases where the patients weren't suspected to have MRSA but ended up in septic shock.",
-        "color": "blue"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Leo Chen, MS1, Montreal, QC",
-        "role": "suffix",
-        "city": "Montreal, QC",
-        "text": "So, how do we avoid this in the future? Is there a specific treatment plan that you would recommend for patients with skin infections?",
-        "color": "yellow"
+        "text": "Amateurs! You're not even going to take a basic history and physical examination from a reputable source? I'm talking about the 'Advanced Gynecologic Physical Examination: A Guide for Clinicians' by Dr. Susan Love. Have you read that?\n\nAs for anoscopy, it's a simple procedure that allows you to examine the anal canal and rectum for abnormalities. It's a crucial part of evaluating patients for intimate partner violence and abuse.",
+        "color": "orange"
       },
       {
         "id": 4,
         "parent_id": 3,
-        "user": "Dr. 'Ziggy' Zalesky, EP, Vancouver, BC",
-        "role": "suffix",
-        "city": "Vancouver, BC",
-        "text": "You're asking the million-dollar question Leo! There isn't one-size-fits-all approach, but we need to be aggressive with our treatment plan. If we suspect MRSA, we need to start patients on empiric antibiotics that cover methicillin-resistant Staphylococcus aureus. For skin infections, I like to use doxycycline or linezolid.",
-        "color": "red"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Barb Miller, EP, Winnipeg, MB",
-        "role": "suffix",
-        "city": "Winnipeg, MB",
-        "text": "I agree, but what about the need for prompt surgical intervention? Not all patients with sepsis related to MRSA are going to respond to antibiotics alone.",
-        "color": "green"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Sparkle-Eyes Sue, LPN, St. John's, NL",
-        "role": "suffix",
-        "city": "St. John's, NL",
-        "text": "I completely agree with you Barb. As an LPN, I've seen cases where patients didn't respond to antibiotics alone and required emergency surgery.\n\nThat being said, it's also crucial to identify the source of the infection and treat it promptly, otherwise, it's like treating the symptoms instead of the root cause.",
-        "color": "pink"
-      },
-      {
-        "id": 7,
-        "parent_id": 4,
-        "user": "Dr. Sarah Sharp, EP, Montreal, QC",
-        "role": "suffix",
-        "city": "Montreal, QC",
-        "text": "I think we can all agree that prompt surgical intervention is key. It's not just about treating the MRSA, but also identifying the source of the infection and addressing it quickly.",
-        "color": "purple"
-      }
-    ]
-  },
-  {
-    "id": 101,
-    "title": "Rant about vertigo in the ED",
-    "body": "Just got done with a case that's got me wondering how often we're missing central vertigo in the ED. Patient presents with intense spinning, nausea, and diaphoresis. Classic peripheral vertigo. But then we get to the head impulse test and it's abnormal. Suddenly, the HINTS examination looks different. Now I'm wondering if this is a central vertigo case masquerading as peripheral. Does anyone else have experience with this? And if so, how do you differentiate central and peripheral vertigo in the ED?",
-    "category": "r/EMedicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "TLDR; central vertigo is sneaker-ing up on me in the ED. Had a similar case last month where I thought it was peripheral vertigo, but the HINTS exam revealed central signs. It's crucial to perform the head impulse test and HINTS examination on all vertigo patients. [1]https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4724927/",
-        "color": "red"
-      },
-      {
-        "id": 10,
-        "parent_id": 1,
-        "user": "Leonard Lee",
-        "role": "PGY1",
-        "city": "Calgary, AB",
-        "text": "Just saw a case of vertigo with a HINTS score of 4. The head impulse test was abnormal, but nystagmus was central. I'm still unsure how to interpret the results.",
-        "color": "yellow"
-      },
-      {
-        "id": 16,
-        "parent_id": 1,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "The key to differentiating central and peripheral vertigo is to look for nystagmus pattern. In peripheral vertigo, nystagmus is always rotatory. In central vertigo, it can be vertical or horizontal. Don't rely solely on the HINTS score. [2]https://www.neurology.org/article/doi/10.1212/WNL.0000000000000308/abstract",
-        "color": "teal"
-      },
-      {
-        "id": 23,
-        "parent_id": null,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "What's the deal with prodromal dizziness? Is that a sign of central vertigo? Someone explain!",
-        "color": "blue"
-      },
-      {
-        "id": 24,
-        "parent_id": 23,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "Ah, yes! Prodromal dizziness is indeed a sign of central vertigo. It's often described as a feeling of impending doom or dizziness that precedes the actual episode. Don't underestimate the importance of a thorough history and physical examination.",
-        "color": "green"
-      },
-      {
-        "id": 30,
-        "parent_id": 16,
-        "user": "Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Can we discuss the role of Dix-Hallpike maneuver in differentiating peripheral from central vertigo? I often see this test mentioned in the literature, but I'm not sure how to interpret the results.",
+        "text": "Well, at least Dr. Sterling has some decent sources to reference. But let's keep this conversation civil. Anoscopy is indeed a simple procedure that can help detect trauma in the anal canal and rectum.",
         "color": "purple"
       },
       {
-        "id": 35,
-        "parent_id": 30,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "The Dix-Hallpike maneuver is useful for diagnosing vestibular causes of vertigo, but it's not a substitute for the HINTS examination. Don't rely solely on this test. [3]https://www.aafp.org/afp/2011/1015/p1055.html",
-        "color": "orange"
+        "id": 5,
+        "parent_id": 3,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "I'm a bit confused. Aren't anoscopy and digital rectal examinations (DRE) related? Can someone clarify the differences and when each is used?",
+        "color": "lightgreen"
       }
     ],
-    "image": "https://www.saem.org/images/default-source/publications/grace-3-infographic-thumbnail.png?sfvrsn=ec4161f6_0&MaxWidth=350&MaxHeight=453&ScaleUp=false&Quality=High&Method=ResizeFitToAreaArguments&Signature=AA60B8E79C450BDF89D445D894AEF821BA0B8DD1"
+    "image": "https://i1.rgstatic.net/publication/236631842_Male_Genital_Emergencies_Part_II/links/00b7d51890e9f3b6ab000000/largepreview.png"
   }
 ]
