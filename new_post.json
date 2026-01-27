@@ -1,9 +1,9 @@
 [
   {
-    "id": 12345,
-    "title": "Today I learned that 80% of lower GI bleeds resolve spontaneously... But what does that mean in clinical practice?",
-    "body": "Just saw a patient with a hemoglobin of 6 coming in with severe lower GI bleeding. The CT showed a small 1cm lesion in the distal rectum. I was considering admission, but then I remembered the old stat that 80% of lower GI bleeds resolve spontaneously. What do you guys do in this situation? Do you admit them, or send them home with a colonoscopy in a few days?",
-    "category": "emergency_medicine",
+    "id": 0,
+    "title": "Today I Learned about Low-Probability ACS",
+    "body": "Just saw a patient with chest pain who we initially ruled out for ACS, but then she had a MI during the night. Made me think about the definition of low-probability ACS. Is it just a fancy way of saying we missed it? Any thoughts? TLDR: what are the criteria for low-probability ACS and how do we apply them in practice?",
+    "category": "medical",
     "comments": [
       {
         "id": 1,
@@ -11,80 +11,80 @@
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "I've had cases like this before, and it's not as simple as just sending them home and hoping for the best. The risk of re-bleeding is higher in the first 72 hours, and it can be catastrophic. I think we should admit them and do a colonoscopy ASAP to look for the source of bleeding.",
+        "text": "Great post, OP! Low-probability ACS is a real concept. According to the AHA, it's defined as patients with a pretest probability of ACS \u22642%. These patients have no objective evidence of acute coronary ischemia or infarction, and their initial cardiac biomarkers are not elevated. But what about serial ECGs? Can we use them to further evaluate these patients?",
         "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Sarky_Surgeon",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "That's an easy way out, Maya. I've seen plenty of patients like this who don't need admission. As long as they're hemodynamically stable, you can probably get them out of the hospital in 12-24 hours. Don't overcomplicate things.",
-        "color": "red"
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Yeah, and what about the history? Don't we need to consider the patient's symptoms and history when determining low-probability ACS? I mean, if the patient has classic ACS symptoms, it's unlikely to be low-probability ACS.",
+        "color": "green"
       },
       {
         "id": 3,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Excuse me, but can you guys clarify what you mean by 'hemodynamically stable'? Is that just another way of saying 'not bleeding out'? And what's the best way to monitor for re-bleeding in the ED?",
-        "color": "green"
+        "parent_id": 2,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Great point, Tom. But what about the opposite scenario? If we have a patient with non-specific chest pain and no other risk factors, should we still consider them for low-probability ACS? How do we apply the AHA criteria in practice?",
+        "color": "pink"
       },
       {
         "id": 4,
-        "parent_id": 2,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Thanks for pointing out my oversimplification, Sarky_Surgeon. I think what Leo is getting at is 'how do we define hemodynamic stability in GI bleeding patients?' It's not just about the vital signs, but also about the underlying condition. In our case, with a patient who's lost a lot of blood, we need to consider the risk of re-bleeding and the consequences of another episode. As for monitoring, serial hemoglobin checks, close observation in the ED, and possibly even a nasogastric tube could be part of the plan. But ultimately, a thorough workup and evaluation are needed to make that call.",
-        "color": "blue"
+        "parent_id": 1,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs. You're all overcomplicating this. Low-probability ACS is just a fancy way of saying we got lucky. Don't waste your time with serial ECGs and fancy criteria. Just use your clinical judgment.",
+        "color": "red"
       },
       {
         "id": 5,
-        "parent_id": 3,
-        "user": "Sarky_Surgeon",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "Ha! You think our patients are 'bleeding out' just because they've lost a liter or two? Get a grip, Leo. As for your question, Leo, we're not just talking about vital signs, but also the overall clinical picture. If the patient looks stable, acts stable, and their labs are stable, then you can probably send them home. Don't be a slave to the stats.",
-        "color": "orange"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
+        "parent_id": 4,
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "Sarky, I get what you're saying, but trust me, it's not just about the stats. GI patients can have non-obvious signs of distress. And in the real world, a patient with a hemoglobin of 6 is not exactly 'stable'. You guys don't get a prize for underestimating a patient's condition. Let's focus on doing the right thing, not on getting a feel-good outcome.",
-        "color": "purple"
+        "text": "Oh come on, Vic! You can't just dismiss the evidence-based approach. We need to apply the AHA criteria to identify patients with low-probability ACS. It's not just about being 'lucky'.",
+        "color": "blue"
+      },
+      {
+        "id": 6,
+        "parent_id": 4,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "I agree with Vic, sort of. While we do need to apply the AHA criteria, I think Vic is right that sometimes low-probability ACS is just a case of 'we got lucky'. Can we talk about the role of bedside clinical judgment in all this?",
+        "color": "yellow"
       },
       {
         "id": 7,
-        "parent_id": 6,
+        "parent_id": 5,
         "user": "Leo Chen",
         "role": "MS1",
         "city": "Montreal, QC",
-        "text": "Thanks for clarifying, guys. I think I get it now. But can we also talk about the role of endoscopy in lower GI bleeding? I was thinking that maybe we could do a colonoscopy ASAP to find the source of bleeding?",
-        "color": "green"
+        "text": "What about the pretest probability of ACS? How do we calculate that? And what if our initial risk assessment is wrong? Should we re-evaluate our initial assessment?",
+        "color": "orange"
       },
       {
         "id": 8,
         "parent_id": 7,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "Leo, that's a great idea! In fact, I'd recommend doing a colonoscopy within 24 hours if possible. But we need to consider the risks and benefits, including the need for sedation, possible colon perforation, and the patient's overall condition. And let's not forget the 80% stat - in a significant chunk of patients, the bleeding will stop on its own. Not sure if anyone has any thoughts on how to balance the risk of colonoscopy with the potential benefit of finding and treating the source of bleeding?",
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Great question, Leo! To calculate the pretest probability of ACS, we use a combination of factors, including patient history, physical exam, and initial cardiac biomarkers. If our initial risk assessment is wrong, we should re-evaluate our decision and consider further testing.",
         "color": "brown"
       },
       {
         "id": 9,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Can I just say something about the 80% stat? It's a nice number to throw around, but how many of those patients are we really talking about? I've seen a few cases where a patient came in with a small lesion, got sent home, and then ended up needing a transfusion a few days later. So yeah, maybe 80% resolve on their own, but what about the other 20%? Those are the patients we need to keep an eye on.",
-        "color": "red"
+        "parent_id": 8,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Fine, fine. You've convinced me to consider the AHA criteria. But what about bedside clinical judgment? Shouldn't that be the primary driver of our decision-making process?",
+        "color": "gray"
       },
       {
         "id": 10,
@@ -92,748 +92,249 @@
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "Great point, Turbo! I think that's why we need to be careful not to mislead our patients with statistics. In the case of a patient with a small lesion who's hemodynamically stable, it may be reasonable to monitor them closely, but let's not pretend that we can predict outcomes with 100% accuracy. The 80% stat is a general guideline, not a hard and fast rule.",
-        "color": "purple"
+        "text": "Absolutely, Vic! Bedside clinical judgment is crucial. We need to consider the whole patient, not just the numbers. It's not a either-or situation - we should be using a combination of both evidence-based approaches and clinical judgment.",
+        "color": "olive"
       },
       {
         "id": 11,
-        "parent_id": 8,
-        "user": "Dr. Rick 'The Rage'",
+        "parent_id": 10,
+        "user": "Dr. Sarah Sharp",
         "role": "EP",
-        "city": "Windsor, ON",
-        "text": "You guys can keep debating the 80% stat all you want, but what about the real-world implications? If we're going to send these patients home, who's going to pay for their ongoing care? The hospital can't just drop them like a hot potato, and the patients can't afford to pay out of pocket for endless colonoscopies and transfusions. So, in the real world, we need to think about the financial and logistical implications of our decisions.",
-        "color": "brown"
+        "city": "Laval, QC",
+        "text": "Great summary, Maya. I think that's the takeaway here. We should be using a combination of evidence-based approaches and bedside clinical judgment to identify patients with low-probability ACS.",
+        "color": "tan"
       },
       {
         "id": 12,
-        "parent_id": 11,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "I see what you're saying, Dr. Rage. But what about the benefits of early intervention? Don't we risk missing an opportunity to treat the patient when we send them home? And how do we balance the cost of continued treatment against the quality of life for our patients? Maybe we can find a way to make it work.",
-        "color": "green"
+        "parent_id": null,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "You're all overthinking this. Low-probability ACS is just a fancy way of saying 'we're not admitting them'. Don't waste your time with all these fancy criteria and clinical judgments. Just get the patient out the door!",
+        "color": "navy"
       },
       {
         "id": 13,
         "parent_id": 12,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "You're all making good points, but let's not get too caught up in the debate about early intervention vs. cost. What about the patient's perspective? I think we'd do well to listen more to their concerns and preferences. Maybe they have a different idea about what's most important to them.",
-        "color": "blue"
-      },
-      {
-        "id": 14,
-        "parent_id": null,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "I'm glad we're having this conversation. I feel like I have a much better understanding of what to do now. Can I just ask one final question? How do you guys document this type of case in the charts? Do you write '80% of lower GI bleeds resolve spontaneously'?",
-        "color": "green"
-      },
-      {
-        "id": 15,
-        "parent_id": 14,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Don't bother documenting that nonsense, Leo. Just write 'patient stabilized' and move on with your life. And for goodness' sake, stop quoting stats like they're gospel.",
-        "color": "red"
-      }
-    ],
-    "image": "https://i0.wp.com/emcrit.org/wp-content/uploads/2018/09/hematochezprotoc.jpg?resize=400%2C495&ssl=1"
-  },
-  {
-    "id": 1,
-    "title": "TLDR; just had a case of methemoglobinemia after a regional block... what's the takeaway?",
-    "body": "Just saw a patient with a hematoma block gone wrong and we ended up treating methemoglobinemia. I'm still shaken. So here's what I learned from it. We were trying to reduce a fracture in the OR and decided on a hematoma block. The patient started to develop a purple discoloration and we realized it was methemoglobinemia.",
-    "category": "EM",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Methemoglobinemia is a rare but serious complication of local anesthetics, especially in blocks where the anesthetic is injected into the hematoma. It's thought to be caused by the release of free hemoglobin, which then binds to the local anesthetic, forming a complex that's toxic to the erythrocytes.",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Is it true that methemoglobinemia is often asymptomatic initially? I thought it was a pretty sudden onset thing. Do we need to be worried about all our patients who have had a hematoma block?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "That's a great question, Leo! While methemoglobinemia can sometimes present with sudden onset symptoms, many patients do experience an initial asymptomatic period. According to a study in the AJEM, up to 50% of patients with methemoglobinemia may have a delay in symptom onset. So, it's crucial to monitor all patients who have had a hematoma block closely for signs of methemoglobinemia, even if they initially seem asymptomatic.",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "I remember when I first started practicing, we had cases of methemoglobinemia all the time. It seemed like no matter what we did, those patients just wouldn't improve. Thankfully, with the advent of new treatments and better understanding of the condition, it's become much less common. Still, we must remain vigilant and be prepared for the occasional case.",
-        "color": "red"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Thank you for sharing this story, Doc! I'll make sure to brush up on my knowledge of methemoglobinemia. I always thought it was just something we did in medical school but never actually had to deal with.",
-        "color": "purple"
-      },
-      {
-        "id": 6,
-        "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "According to the literature, methemoglobinemia is associated with a significant increase in hemoglobin levels, which can lead to decreased oxygen delivery to tissues. What are some effective treatments for this condition, and how do we determine the optimal treatment strategy?",
-        "color": "blue"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "That's a great question, Sarah. Treatment options for methemoglobinemia include hyperbaric oxygen therapy, IV methylene blue, and exchange transfusion in severe cases. The optimal treatment strategy is often dictated by the severity of the condition, patient hemodynamics, and other factors. A 2018 study published in CJEM found that hyperbaric oxygen therapy was effective in treating methemoglobinemia but noted that IV methylene blue may be a safer option in certain situations.",
-        "color": "green"
-      },
-      {
-        "id": 8,
-        "parent_id": 1,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "So this basically means that we should be on the lookout for any cases of methemoglobinemia? How often does this actually happen?",
-        "color": "purple"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
         "user": "Dr. Kevin Park",
         "role": "PGY1",
         "city": "Edmonton, AB",
-        "text": "According to a large study published in the Annals of Emergency Medicine, the estimated incidence of methemoglobinemia following regional anesthesia is approximately 0.2% to 1.3%. This makes it a relatively rare but serious complication.",
-        "color": "blue"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Today I Learned: Intimate Partner Violence and Abuse in the ED",
-    "body": "Just saw a patient with a classic case of intimate partner violence and abuse. The 32-year-old female presented with abdominal injuries and a defensive posture, but the perpetrator was not immediately obvious. As we began to take her history, it became clear that this was a pattern of assaultive behavior that had been going on for months. It's cases like these that remind me of how often intimate partner violence and abuse can masquerade as other things in the ED. Has anyone else had a similar experience where the perpetrator was known to the victim? How do you approach these cases?",
-    "category": "r/EMed",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "It's a huge issue in our society, and as ED doctors, we need to be aware of the signs and symptoms. We have to be vigilant and not just focus on the immediate physical injuries, but also the emotional and psychological trauma. It's not just about the victim, but also about the perpetrator and their behavior. Have you guys seen the resources provided by RAINN? They have a great guide for clinicians on how to identify and respond to IPV cases.",
-        "color": "blue"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Thorne, that's really helpful! I've read about the RAINN guide, but I'm not sure how it applies to our cases here in Canada. Can you clarify how we can use it? And what are some specific signs I should look out for when taking the patient's history?",
-        "color": "lightgray"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "According to the WHO, the risk factors for IPV include female sex, age between 18 and 34 years, and low socioeconomic status. Also, the perpetrator is often known to the victim, and it's not uncommon for there to be co-occurring substance abuse. Has anyone else noticed that the victims are often reluctant to report the abuse due to fear of retaliation or shame?",
-        "color": "darkgreen"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Great points, Sarah! And it's also worth noting that the victims may use the phrase 'accidents' or 'slip-ups' to describe the abuse. We need to be sensitive to the language they use and create a safe and non-judgmental space for them to open up about their experiences. Have you guys considered using a body map to help them identify areas of trauma?",
-        "color": "yellowgreen"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "OMG, a body map is like, super useful! Can someone explain how it works and what questions to ask the patient?",
-        "color": "pink"
-      },
-      {
-        "id": 6,
-        "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "I'm not sure what all the fuss is about. We've been handling IPV cases in the ED for years. It's all about getting the patient to spill the beans about the perpetrator and then letting the police do their job. Can someone tell me what I'm missing?",
-        "color": "red"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Come on, Dr. Sterling! You know that's not how it works in real life. We need to be aware of the trauma and provide compassionate care to the victim. It's not just about solving the crime, but about the long-term emotional and psychological impact. And can you please refrain from calling the patients 'beans'?",
-        "color": "orange"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "I'm with you, Dr. Zalesky. The system can be so broken when it comes to IPV, and as clinicians, we have the power to make a difference. Has anyone else considered starting a peer support group for victims of IPV?",
-        "color": "lavender"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "I've seen firsthand how these groups can empower women to speak out against their abusers. We should definitely explore this idea further and offer support to our patients. Maybe we can partner with local organizations to provide resources?",
-        "color": "blueviolet"
-      }
-    ]
-  },
-  {
-    "id": 23,
-    "title": "Had a miss last night... Sperm and acid phosphatase recovery in rape kits",
-    "body": "Just saw a patient with a rape kit that was 'processed' in the ER 48 hours after the assault. Patient had a shower, changed clothes, and douched before coming in. We ended up missing the sperm and acid phosphatase because the lab can only run these tests within 72 hours. Has anyone else had this issue? Can we start a discussion about the importance of chain of custody in rape kits?",
-    "category": "Emergency Medicine CME",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I had a similar issue last month. The police had sent the kit to lab via courier with a 2-day turnaround. I ended up calling the lab to expedite the results. We need to remind our hospital and police department about this. Has anyone found a good resource on SANE training and forensic evidence collection?",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Gupta, what's SANE training? I saw a mention of it in a lecture on sexual assault. Should we discuss that here?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Leo, SANE stands for Sexual Assault Nurse Examiner. It's a specialized training for nurses to collect forensic evidence and provide care to survivors of sexual assault. We should definitely discuss more about it in this thread!",
-        "color": "purple"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Wait, what about the importance of chain of custody? That's what the OP was asking about. Dr. Gupta, you brought up it's crucial to maintain chain of custody, but didn't elaborate",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Great point, Sarah. Chain of custody is so important for ensuring the integrity and admissibility of evidence. We should be following a standardized protocol for collecting and storing rape kits, including keeping it in a secure location and using a sealed container. Can anyone recommend a good resource on this topic?",
-        "color": "purple"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Hey guys, I've had some experience with rape kits in the past. One thing that's super important is using a tamper-evident envelope or bag to store the kit. If it's not sealed properly, the evidence can be compromised. Has anyone else had issues with tampering or contamination?",
-        "color": "green"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Wait, why are they even using rape kits? Can't we just use, like, DNA testing or something?",
-        "color": "purple"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Chad, DNA testing is not a substitute for rape kits. Rape kits are a comprehensive collection of evidence that include biological and non-biological samples. They allow investigators to reconstruct the crime scene and collect evidence that may not be available through DNA testing alone.",
-        "color": "purple"
-      },
-      {
-        "id": 9,
-        "parent_id": 1,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Has anyone seen the CDC's guidelines for sexual assault forensic exams? I heard they have some good recommendations on SANE training and forensic evidence collection.",
-        "color": "green"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Great reference, Dr. Park! Yes, the CDC has excellent guidelines on this topic. I'll link to them in the thread. Thanks for sharing!",
-        "color": "purple"
-      }
-    ],
-    "image": "https://i1.rgstatic.net/publication/236631842_Male_Genital_Emergencies_Part_II/links/00b7d51890e9f3b6ab000000/largepreview.png"
-  },
-  {
-    "id": 4,
-    "title": "Just saw a patient with presumed Acute Cholecystitis. Thought I'd share my take on it.",
-    "body": "Just saw a 65-year-old diabetic patient present with sharp right upper quadrant pain, fever, and a positive Murphy's sign on ultrasound. We're talking about Acute Cholecystitis.",
-    "category": "EmergencyMedicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "MD",
-        "city": "Toronto, ON",
-        "text": "Great case, Dr.! Acute Cholecystitis is indeed a classic. Did you consider the differential for the patient's diabetes and potential biliary tract obstruction? We should also think about Ascending Cholangitis, a more serious condition that's often seen in older adults with choledochocele. I'd like to share a paper on this topic, if you're interested. [link] (1)\n\nAlso, what was the ultrasound findings like? Any evidence of pericholecystic fluid or gallbladder wall thickening?",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "MD",
-        "city": "Mississauga, ON",
-        "text": "Thanks for sharing, Dr. Thorne! In this case, the ultrasound showed a dilated common bile duct measuring 10mm, which is consistent with choledocholithiasis. I agree that Ascending Cholangitis is a possibility, but the patient didn't have fever until 48 hours after admission, which might rule that out. What do you think?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Kevin Park",
-        "role": "Intern",
-        "city": "Edmonton, AB",
-        "text": "Dr. Thorne, can you clarify on the biliary tract obstruction? What's the mechanism behind it? Is it just mechanical, or are there other factors at play?",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 2,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Hey, guys! Don't forget about the volume depletion in Acute Cholecystitis. We saw it a lot in our ER last week. The patient was 5 liters ahead of their baseline by the time I saw them. How can we prevent this in the future? Any ideas?",
-        "color": "purple"
-      },
-      {
-        "id": 5,
-        "parent_id": 3,
-        "user": "Sarah Jenkins",
-        "role": "Medical Student",
-        "city": "Ottawa, ON",
-        "text": "Dr. Park, according to Gray's Anatomy, biliary tract obstruction is caused by a combination of mechanical factors, including gallstones and tumors, as well as functional factors like Sphincter of Oddi dysfunction. This can also be due to external compression from a cyst or a tumor. Is that correct?",
-        "color": "green"
-      },
-      {
-        "id": 6,
-        "parent_id": 4,
-        "user": "Dr. Barb Miller",
-        "role": "MD",
-        "city": "Winnipeg, MB",
-        "text": "Volume depletion is often due to dehydration in the setting of Acute Cholecystitis, Tom! However, we should also think about third spacing due to inflammation around the gallbladder. This can lead to electrolyte imbalances, which can worsen the condition.",
-        "color": "blue"
-      },
-      {
-        "id": 7,
-        "parent_id": 5,
-        "user": "Leo Chen",
-        "role": "Medical Student",
-        "city": "Montreal, QC",
-        "text": "Thank you, Dr. Jenkins! But how does the Sphincter of Oddi dysfunction contribute to the biliary tract obstruction?",
-        "color": "purple"
-      },
-      {
-        "id": 8,
-        "parent_id": 2,
-        "user": "Dr. Victor Sterling",
-        "role": "Surgical Attending",
-        "city": "Calgary, AB",
-        "text": "Amateurs. You're all making this way too complicated. The real issue here is that these patients are all over-diagnosed. The 'Sphincter of Oddi dysfunction' is just a fancy term for 'we don't know what's going on'.",
-        "color": "red"
-      },
-      {
-        "id": 9,
-        "parent_id": 1,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "Family Physician",
-        "city": "Vancouver, BC",
-        "text": "I think we're getting a bit carried away here, folks! Let's keep the discussion simple, shall we? What's the management plan for this patient? Should we send them to the OR or do some pre-op evaluation?",
-        "color": "green"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Elena Varkov",
-        "role": "Internal Medicine",
-        "city": "Quebec City, QC",
-        "text": "That's an excellent question, Dr. Zalesky! We should also think about the patient's sodium levels before surgery. Did he get an ABG, anyone?",
-        "color": "purple"
-      },
-      {
-        "id": 11,
-        "parent_id": 8,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Ha! Nice one, Dr. Sterling. You know, we had a case last week where it turned out that the patient's symptoms were due to a gastrointestinal foreign body!",
-        "color": "red"
-      },
-      {
-        "id": 12,
-        "parent_id": 10,
-        "user": "Dr. Maya Gupta",
-        "role": "Surgeon",
-        "city": "Mississauga, ON",
-        "text": "Dr. Varkov, actually, I think we should get an ECG on the patient before surgery. What do you think?",
-        "color": "green"
-      },
-      {
-        "id": 13,
-        "parent_id": 9,
-        "user": "Dr. Barb Miller",
-        "role": "MD",
-        "city": "Winnipeg, MB",
-        "text": "I agree with Dr. Zalesky. Let's focus on the management of the patient with Acute Cholecystitis. What's the best diagnostic approach for this condition?",
-        "color": "blue"
+        "text": "That's not very helpful, Martha. We need to consider the risks and benefits of our decisions, not just the 'convenience' of sending patients home.",
+        "color": "fuchsia"
       },
       {
         "id": 14,
         "parent_id": 13,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "ER Physician",
-        "city": "Windsor, ON",
-        "text": "Ugh, you're kidding me, right? In the ER, we don't have time for fancy diagnostics like CT scans. Ultrasound is where it's at, folks!",
-        "color": "red"
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I agree with Kevin. We need to prioritize patient safety and quality care over convenience and time. That's what we're here for.",
+        "color": "magenta"
       },
       {
         "id": 15,
-        "parent_id": 1,
-        "user": "Barnaby Finch",
-        "role": "None",
-        "city": "Surrey, BC",
-        "text": "Guys, guys, please stop fighting. I'm just here for my medical question. So, is Acute Cholecystitis contagious or not?",
-        "color": "green"
+        "parent_id": null,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Wow, this thread is blowing my mind! So, what's the takeaway here? Should we be using AHA criteria to identify low-probability ACS?",
+        "color": "pink"
       },
       {
         "id": 16,
         "parent_id": 15,
-        "user": "Dr. Kevin Park",
-        "role": "Intern",
-        "city": "Edmonton, AB",
-        "text": "Ha ha, sorry about that, Barnaby! To answer your question, no, Acute Cholecystitis is not contagious.",
-        "color": "purple"
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Yes, Chad! We should be using a combination of evidence-based approaches and bedside clinical judgment to identify patients with low-probability ACS.",
+        "color": "green"
       },
       {
         "id": 17,
-        "parent_id": 14,
-        "user": "Dr. Archibald Thorne",
-        "role": "Surgical Attending",
-        "city": "Saskatoon, SK",
-        "text": "In my day, we didn't need fancy diagnostics like CT scans or even ultrasound. We just used our stethoscopes and our keen eyes to diagnose gallbladder disease. Mark my words, it's all just a fad.",
-        "color": "red"
+        "parent_id": null,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "Thanks, guys! I'm a bit confused about all this. Can someone explain it to me like I'm 5?",
+        "color": "powder blue"
       },
       {
         "id": 18,
-        "parent_id": 1,
-        "user": "Dr. Sarah Sharp",
-        "role": "Family Physician",
-        "city": "Laval, QC",
-        "text": "I'd love to share some research on the topic of diagnosing Acute Cholecystitis. There's a recent study that suggests a combination of clinical findings and ultrasound can increase diagnostic accuracy.",
-        "color": "green"
+        "parent_id": 17,
+        "user": "Dr. Rick 'The Rage'",
+        "role": "EP",
+        "city": "Windsor, ON",
+        "text": "For Pete's sake, Barnaby! It's not that hard. Low-probability ACS is when we think a patient might have a heart attack, but the chances are pretty low. We need to use our brains and the AHA criteria to figure it out.",
+        "color": "red"
       },
       {
         "id": 19,
         "parent_id": 18,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "Family Physician",
-        "city": "Vancouver, BC",
-        "text": "That's a great point, Dr. Sharp! What was the study's findings, exactly?",
-        "color": "purple"
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "Aww, thanks, Rick! I think I get it now.",
+        "color": "light blue"
       },
       {
         "id": 20,
-        "parent_id": 1,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "I'm so glad we're having this discussion, folks! I learned so much from you all today. Thanks for sharing your expertise!",
-        "color": "green"
+        "parent_id": null,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "I think I had a patient with low-probability ACS back in the 1930s. We just called it 'apoplexy', if I recall correctly.",
+        "color": "sepia"
       },
       {
         "id": 21,
-        "parent_id": 3,
-        "user": "Chad Broson",
-        "role": "Pre-med student",
-        "city": "Brampton, ON",
-        "text": "Hey, sorry to interrupt, but what's the deal with biliary tract obstruction and Ascending Cholangitis? How do they cause Acute Cholecystitis?",
-        "color": "blue"
+        "parent_id": 20,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Aye, Doc Arnie! You're killin' me with that 1930s reference! Apoplexy, indeed!",
+        "color": "pink"
       },
       {
         "id": 22,
-        "parent_id": 21,
-        "user": "Dr. Victor Sterling",
-        "role": "Surgical Attending",
-        "city": "Calgary, AB",
-        "text": "Don't even get me started on these pre-med kids. They have no idea what they're talking about. Anyway, to answer your question, biliary tract obstruction causes Acute Cholecystitis by leading to gallbladder inflammation and infection.",
-        "color": "red"
+        "parent_id": null,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "I think I need a flowchart to remember all this. Can someone share a link to a good one?",
+        "color": "turquoise"
       },
       {
         "id": 23,
         "parent_id": 22,
-        "user": "Dr. Kevin Park",
-        "role": "Intern",
-        "city": "Edmonton, AB",
-        "text": "But Dr. Sterling, isn't that just a oversimplification? We should think about the pathophysiology of Acute Cholecystitis and the mechanisms behind biliary tract obstruction.",
-        "color": "purple"
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Here you go, Elena. I shared a great flowchart on the Medscape forum. Let me know if you need it.",
+        "color": "gold"
       },
       {
         "id": 24,
-        "parent_id": 23,
-        "user": "Dr. Maya Gupta",
-        "role": "Surgeon",
-        "city": "Mississauga, ON",
-        "text": "I think we're getting too caught up in the technical details here, Dr. Park. Can we focus on the management plan and the patient's outcomes?",
-        "color": "green"
+        "parent_id": null,
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "I've got a great idea for a new EM course: 'The Art of Low-Probability ACS'. We can teach all the residents how to identify those pesky patients.",
+        "color": "silver"
       },
       {
         "id": 25,
         "parent_id": 24,
-        "user": "Chad Broson",
-        "role": "Pre-med student",
-        "city": "Brampton, ON",
-        "text": "Sorry guys, I think I understand now! Ascending Cholangitis causes Acute Cholecystitis by leading to obstruction of the biliary tract, which causes inflammation and infection. Thanks!",
-        "color": "blue"
-      },
-      {
-        "id": 26,
-        "parent_id": 25,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "ER Physician",
-        "city": "Windsor, ON",
-        "text": "Ugh, you're all making this up as you go along now. Let's stick to the facts, people.",
-        "color": "red"
-      },
-      {
-        "id": 27,
-        "parent_id": 26,
-        "user": "Dr. Archibald Thorne",
-        "role": "Surgical Attending",
-        "city": "Saskatoon, SK",
-        "text": "Ah, come on, Dr. Sterling! Let's not be too hard on the young man. He's just trying to learn.",
-        "color": "purple"
-      },
-      {
-        "id": 28,
-        "parent_id": 27,
-        "user": "Dr. Victor Sterling",
-        "role": "Surgical Attending",
-        "city": "Calgary, AB",
-        "text": "Learn? Ha! He's just wasting our time with his silly questions.",
-        "color": "red"
-      },
-      {
-        "id": 29,
-        "parent_id": 28,
-        "user": "Barnaby Finch",
-        "role": "None",
-        "city": "Surrey, BC",
-        "text": "Thank you, Dr. Sterling, for sharing your expertise. But I think we've all learned something new today.",
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "You're on, Brock! I'll help you design the course.",
         "color": "green"
-      },
-      {
-        "id": 30,
-        "parent_id": 29,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Amen to that, Barnaby! Thanks for hosting this discussion, and I'll be sure to keep learning.",
-        "color": "purple"
       }
-    ]
+    ],
+    "image": "https://aneskey.com/wp-content/uploads/2016/06/m_tin_ch51_f001.png"
   },
   {
-    "id": 5,
-    "title": "Today I learned the hard way that central vs peripheral vertigo is NOT just a 'red flag' for stroke....",
-    "body": "... \n   I just saw a patient with an acute episode of dizziness that was described as 'less severe' and 'ill-defined'. After doing a thorough history and physical, I was convinced it was peripheral vertigo. But, being the resident nerd that I am, I dug deeper into the literature and realized that up to 25% of patients with peripheral vertigo have prodomal dizziness... \n   TLDR: Don't immediately write off prodomal dizziness as a 'red flag' for stroke, but instead consider a comprehensive evaluation for central vs. peripheral causes. ",
-    "category": "r/EMmedicine",
-    "community": "Emergency Medicine",
-    "user": "u/Dr. Kevin Park",
-    "role": "Intern",
-    "city": "Edmonton, AB",
-    "text_color": "purple",
+    "id": 1,
+    "title": "Today I Learned - Early use of noninvasive ventilation in dyspneic patients can be a game changer, but requires a high index of suspicion",
+    "body": "Just saw a patient with dyspnea, early use of NIV helped to reverse the downward trajectory.",
+    "category": "emergency-medicine",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": "u/Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "... Don't get too caught up in the nuances of the literature, boyo. If the patient has a 'red flag' symptom, like ataxia or dysarthria, then they deserve an urgent evaluation for stroke, regardless of the subtleties of their vertigo symptoms. The worst thing you can do is 'over-nerd' a patient and delay care for something that turns out to be benign. ... See Chapter 169 in Tintinalli for more, 'Ataxia and Gait Disturbances', by J. Stephen Huff. ",
-        "color": "red"
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "TIL that early use of NIV in dyspneic patients is associated with improved outcomes. However, the need for aggressive airway management and mechanical ventilation should be anticipated. What are your thoughts on the role of NIV in this scenario? Have you encountered any cases where NIV was used too late?",
+        "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "u/Dr. Maya Gupta",
-        "role": "Resident",
-        "city": "Toronto, ON",
-        "text": "... Totally agree, OP. Central vs peripheral vertigo is all about the subtleties of the presentation and I'd rather err on the side of caution when it comes to evaluating for stroke. That being said, it's also essential to have a good understanding of the clinical features of peripheral vertigo, like the HINTS exam. ... See this great video on the HINTS exam from the NEJM: https://www.nejm.org/video/1016...",
-        "color": "blue",
-        "upvotes": 20,
-        "downvotes": 0
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Actually, I had a case last week where the patient presented with tachypnea and accessory muscle use. We initiated NIV early on and it significantly improved the patient's oxygenation, but then we struggled to get a definitive diagnosis... any tips on how to approach this in the future?",
+        "color": "green"
       },
       {
         "id": 3,
         "parent_id": 2,
-        "user": "u/Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "... Hi Dr. Gupta, I was reading about the HINTS exam and I was wondering, isn't the test supposed to have three components: the head impulse test, the absence or presence of horizontal or vertical nystagmus, and the observation of a skew deviation? Can anyone clarify if that's correct? ...",
-        "color": "green",
-        "upvotes": 15,
-        "downvotes": 0
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Great point, Kevin! In that case, did you consider a high-resolution CT scan to rule out any underlying issues like PEs or pneumothorax? What about pulmonary function tests or cardiopulmonary exercise testing to assess the patient's functional status?",
+        "color": "green"
       },
       {
         "id": 4,
-        "parent_id": 2,
-        "user": "u/Dr. 'Ziggy' Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "... Yessiree, Leo, you're absolutely right! The HINTS exam is a game-changer for evaluating peripheral vs. central vertigo. When the test is normal, you can pretty much rule out a central cause. But when it's positive, it's like you've got your patient's 'vertigo score' and can start making educated guesses about what might be going on. Just remember, it's not a replacement for clinical judgement, but rather a useful tool to complement it...",
-        "color": "orange",
-        "upvotes": 30,
-        "downvotes": 0
+        "parent_id": 1,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "I'm not convinced about the benefits of NIV in this scenario. What's the evidence to support its use? Have we over-diagnosed or over-treated in the name of 'early intervention'? I'd love to see some RCTs that demonstrate improved outcomes.",
+        "color": "red"
       },
       {
         "id": 5,
         "parent_id": 4,
-        "user": "u/Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "... Hi Ziggy, is there a specific way to do the head impulse test? Like are there specific landmarks to focus on or anything?",
-        "color": "brown",
-        "upvotes": 10,
-        "downvotes": 0
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Actually, there have been several studies showing that early use of NIV reduces morbidity and mortality in dyspneic patients. Have you checked out the MECAR trial? (https://www.ncbi.nlm.nih.gov/pubmed/29750918).",
+        "color": "green"
       },
       {
         "id": 6,
         "parent_id": 4,
-        "user": "u/Dr. Barb Miller",
-        "role": "Resident",
-        "city": "Winnipeg, MB",
-        "text": "... Actually, it's not that simple, guys. When interpreting the HINTS exam, it's essential to consider the whole patient, not just the results of the test. If your patient has a high suspicion for stroke, then you need to proceed accordingly, regardless of the HINTS exam results. It's all about using clinical judgement and integrating the results of the test into your decision-making.",
-        "color": "gray",
-        "upvotes": 25,
-        "downvotes": 5
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Come on, Victor! NIV is a game changer. What about patients with COPD exacerbations? Don't they benefit from early NIV? (https://www.ncbi.nlm.nih.gov/pubmed/29611181).",
+        "color": "blue"
       },
       {
         "id": 7,
         "parent_id": 6,
-        "user": "u/Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "... Absolutely, Dr. Miller! I wasn't trying to oversimplify things. The HINTS exam is just one tool in our toolkit and we need to use our best judgement when evaluating patients. That being said, I think we can all agree that it's an incredibly useful tool when used correctly.",
-        "color": "pink",
-        "upvotes": 35,
-        "downvotes": 0
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "But what about the 'amateurs' who overuse NIV? How do we balance early intervention with over-diagnosis? Can we agree on the indications for NIV in this scenario?",
+        "color": "red"
       },
       {
         "id": 8,
         "parent_id": 7,
-        "user": "u/Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "... Well said, friends. At the end of the day, it's all about making the best decision for our patients. And I believe that when we use all the available evidence, including the HINTS exam, we can make informed, patient-centric decisions that lead to better outcomes.",
-        "color": "blue",
-        "upvotes": 50,
-        "downvotes": 0
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Well said, Victor! We need to be mindful of the risks of over-diagnosis. How do we develop a more nuanced approach to diagnosing and treating dyspnea in the ED? Should we focus on objective findings or subjective symptoms?",
+        "color": "purple"
       },
       {
         "id": 9,
-        "parent_id": 8,
-        "user": "u/Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "... Ah, Dr. Thorne, always the diplomat. But let's be real, folks. In the end, it's all about experience and clinical acumen. You can have all the fancy exams and algorithms in the world, but if you don't have the 'smell' for a stroke, you'll be missing the boat.",
-        "color": "red",
-        "upvotes": 20,
-        "downvotes": 10
+        "parent_id": null,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Rant mode activated. As an RN in the ED, we're constantly dealing with patients who are misdiagnosed or over-treated due to 'early intervention'. Can we please just focus on getting a proper diagnosis and treatment plan before jumping to conclusions?",
+        "color": "blue"
       },
       {
         "id": 10,
         "parent_id": 9,
-        "user": "u/Dr. Maya Gupta",
-        "role": "Resident",
-        "city": "Toronto, ON",
-        "text": "... Dr. Sterling, I think you're being a bit harsh. Experience is important, but so is knowledge of the evidence. And in the case of stroke, having a framework like the HINTS exam can actually help us make better decisions, not worse ones.",
-        "color": "blue",
-        "upvotes": 25,
-        "downvotes": 5
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "u/Dr. Kevin Park",
-        "role": "Intern",
-        "city": "Edmonton, AB",
-        "text": "... Thanks everyone for the discussion. I think I've learned a thing or two about evaluating vertigo. If I may summarize, the take-home points are... ...",
-        "color": "purple",
-        "upvotes": 15,
-        "downvotes": 0
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "Preach, Turbo! How can we get our docs to slow down and focus on patient-centered care? Maybe we need to change the system and prioritize teamwork over 'early intervention'.",
+        "color": "purple"
       }
     ]
   },
   {
-    "id": 6,
-    "title": "TL;DR: A case of basilar skull fracture that made me rethink my approach to evaluating patients with thunderclap headaches",
-    "body": "Just saw a patient with a basilar skull fracture and a thunderclap headache that made me realize the importance of including basilar skull fractures in my differential diagnosis for thunderclap headaches. The patient had a classic presentation of a basilar skull fracture with hemotympanum, CSF otorrhea, and retroauricular ecchymosis (Battle's sign), but the initial CT scan only showed a normal-appearing petrous bone, leading to a delay in diagnosis. It highlighted the need for a detailed examination of the posterior fossa and the petrous apex, as well as the use of MRI or CT angiography to evaluate for potential vascular injuries. Has anyone else had a case that made them rethink their approach to evaluating patients with thunderclap headaches? Any thoughts on how to include basilar skull fractures in the differential diagnosis?",
+    "id": 12345,
+    "title": "Today I Learned: Abdominal Aortic Aneurysms and the Importance of Prompt Repair",
+    "body": "Just saw a patient with an infrarenal aortic aneurysm and it got me thinking about the importance of prompt repair in these cases. As we all know, AAA is a significant cause of morbidity and mortality, especially when it comes to acute rupture. The classic presentation is an older male smoker with hypertension, atherosclerosis, and lower back pain, hypotension, and a pulsatile abdominal mass. However, bedside ultrasound can have >90% sensitivity for identifying AAA, but it can't reliably rule out rupture.\n\nIn cases of acute rupture, prompt repair is key. We need to consult emergently with vascular surgery, stabilize the patient's hemodynamics, and provide pain control while avoiding hypotension. Transfusion and fluid resuscitation should be guided by close monitoring of vital signs and laboratory tests.\n\nI'd love to hear from the community on this topic. What are your experiences with AAA? Do you have any go-to strategies for prompt repair in the ED?",
     "category": "emergency medicine",
     "comments": [
       {
@@ -842,35 +343,35 @@
         "user": "Dr. Aris Thorne",
         "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "Great reminder to consider the 'quiet' fractures and the need to get a detailed view of the posterior fossa. I've seen similar cases where the initial CT scan was normal, only to find a fracture on the subsequent MRI or CT angiography. Does anyone have any tips on how to get the best views of the petrous bone and the posterior fossa?",
+        "text": "TL;DR: Prompt repair of AAAs is crucial for patient outcomes. I've seen firsthand the devastating effects of delay in repair. In our hospital, we have a dedicated vascular surgery team that works alongside our ED team to expedite repair. It's not just about the technical aspects, but also about clear communication and planning. Have any of you experienced similar challenges with AAA repair?",
         "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Has anyone else had a experience with patients presenting with thunderclap headaches and normal initial CT scans? I'm curious about what the ER nurses have seen.",
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "@Dr. Aris Thorne That's so true! I've been studying for my boards and I came across a study that showed the mortality rate increases significantly if repair is delayed. Do you know if there are any specific guidelines for managing patients with AAAs?",
         "color": "green"
       },
       {
         "id": 3,
         "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Actually, I've been reading up on the topic of basilar skull fractures, and it seems that they're relatively rare, but can have serious consequences if missed. It makes sense that we would need to consider them in the differential diagnosis for thunderclap headaches. Can anyone recommend any evidence-based reviews or case series on the topic?",
-        "color": "blue"
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "We had a similar case last week. The patient presented with severe back pain and a pulsatile abdominal mass. We quickly consulted vascular surgery and got the patient to OR within the hour. The key takeaway for me was the importance of close monitoring of the patient's hemodynamics during transfusion and fluid resuscitation. I'd love to hear more about the specifics of your protocol.",
+        "color": "purple"
       },
       {
         "id": 4,
         "parent_id": 3,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "Actually, there was a great case series published in the Journal of Neurosurgery that highlighted the importance of including basilar skull fractures in the differential diagnosis for thunderclap headaches. They found that patients with basilar skull fractures had a higher incidence of thunderclap headaches and other neurological symptoms compared to those without basilar skull fractures. I think the link is...",
-        "color": "red"
+        "user": "Dr. David Manthey",
+        "role": "Author",
+        "city": "Dallas, TX",
+        "text": "@Dr. Maya Gupta That's great experience! I'm the author of the chapter on AAAs in Tintinalli's Emergency Medicine. One important note is that the role of plain radiography in the diagnosis of ruptured AAA is unclear, as a calcified, bulging aortic contour is present in only 65% of patients with symptomatic AAA. Ultrasound and CT remain the gold standards for diagnosis.",
+        "color": "green"
       },
       {
         "id": 5,
@@ -878,270 +379,455 @@
         "user": "Dr. Victor Sterling",
         "role": "Chief of Surgery",
         "city": "Calgary, AB",
-        "text": "I must say that I'm not convinced that we should be including basilar skull fractures in the differential diagnosis for thunderclap headaches. In fact, I think we're over-diagnosing these fractures and missing the actual cause of the headache. Amateurs.",
-        "color": "brown"
+        "text": "Amateurs, stop panicking and focus on proper diagnosis. In my experience, over-diagnosis of AAAs is a major issue. We need to be careful not to over-treat patients with asymptomatic AAAs. Let's talk about the nuances of diagnosing AAAs and the importance of clear communication between ED and surgery.",
+        "color": "purple"
       },
       {
         "id": 6,
         "parent_id": 5,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Actually, Dr. Sterling, I think you'd be surprised by the number of cases where the fracture was missed initially, only to be found on subsequent imaging. And it's not about over-diagnosing or missing the actual cause of the headache. It's about not missing a potentially life-threatening condition.",
-        "color": "purple"
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "@Dr. Victor Sterling I understand your point, but in my experience, it's better to err on the side of caution when it comes to AAAs. Have you read the study on the sensitivity of ultrasound for identifying AAAs?",
+        "color": "green"
       },
       {
         "id": 7,
-        "parent_id": 4,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "A question for all you ER doctors: What's the best way to assess patients with suspected basilar skull fractures? I've seen cases where the patients have a normal CT scan but still have the fracture. What should we be looking for and when should we get the patient to a neurosurgeon?",
-        "color": "pink"
+        "parent_id": 6,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "@Dr. Sarah Sharp How does ultrasound compare to CT in diagnosing AAAs?",
+        "color": "blue"
       },
       {
         "id": 8,
-        "parent_id": 2,
-        "user": "Dr. Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "To answer Turbo Tom's question, I've seen cases where the initial CT scan was normal, but the patient still had a diagnosis of a basilar skull fracture based on the clinical presentation and MRI/CT angiography. I think it's all about being thorough and not missing the subtleties. Does anyone have any tips on how to stay thorough and not miss the obvious?",
-        "color": "gray"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "What's the best way to find the basilar skull fracture? Is there a specific ultrasound or imaging modality that should be used?",
-        "color": "orange"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Actually, Chad, ultrasound is not typically used to diagnose basilar skull fractures. The most common imaging modalities used are CT scans and MRI, particularly with contrast to evaluate for potential vascular injuries. Does anyone have any tips on how to use the latest and greatest in diagnostic technology to diagnose basilar skull fractures?",
-        "color": "purple"
-      },
-      {
-        "id": 11,
-        "parent_id": null,
-        "user": "Dr. Phil Muddle",
-        "role": "EP",
-        "city": "Regina, SK",
-        "text": "I'm getting confused. Can someone summarize what we're talking about? Are we still discussing basilar skull fractures, or is this something else? I hate to sound obtuse, but... What's the topic again?",
-        "color": "gold"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "We're discussing basilar skull fractures and their relationship to thunderclap headaches. Don't worry, Dr. Muddle. It's just a bunch of docs geeking out about rare medical conditions.",
+        "parent_id": 7,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "CT is more sensitive for detecting AAA, especially in patients with unclear imaging. However, it's essential to consider the patient's clinical context and comorbidities when choosing between ultrasound and CT.",
         "color": "green"
-      },
-      {
-        "id": 13,
-        "parent_id": 12,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "What's all this fuss about 'thunderclap headaches'? In my day, we just called them 'acute pains.' I'm afraid I don't understand this 'rare medical condition' business. Can someone explain it to an old man?",
-        "color": "brown"
-      },
-      {
-        "id": 14,
-        "parent_id": 13,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Actually, Dr. Thorne, thunderclap headaches are a type of headache characterized by a sudden onset of severe pain, often described as a 'thunderclap' or 'explosion' in the head. It's a medical emergency, and if not treated promptly, can lead to serious complications.",
-        "color": "blue"
-      }
-    ],
-    "image": "https://emergencymedicinecases.com/wp-content/uploads/2017/12/ICH-Golden-Hour-Card.jpeg"
-  },
-  {
-    "title": "I just got slammed by Dr. Victor Sterling for not using the \"Amateurs\" Wells Score criteria. Can someone enlighten me on the best way to use it in practice?",
-    "body": "I was evaluating a patient for PE and was working up the Wells Score. I didn't give them points for localized tenderness along the distribution of deep veins due to a DVT because I thought it was a bit ambiguous. But then Dr. Victor Sterling comes in and yells at me, saying I'm using the 'Amateurs' criteria because I didn't include that one. He claims the only way to do it 'properly' is to give points for any 'suspicious' finding... Can someone tell me what's up with that?",
-    "category": "r/EmergencyMedicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Ah, the age-old Wells Score debate. In my practice, I've found it's best to use the Wells criteria as a guide, but ultimately trust your clinical judgment. That being said, it's always good to know the 'Amateurs' criteria. It's a way of scoring that's been around for a bit, and some folks swear by it. The key difference is that it's more inclusive, so you'd give points for things like 'd-dimer level above the reference range' or 'treat within six months'. I've linked the paper in the comments below. Read it and see what you think.",
-        "color": "purple",
-        "children": [
-          {
-            "id": 3,
-            "parent_id": 1,
-            "user": "Leo Chen",
-            "role": "MS1",
-            "city": "Montreal, QC",
-            "text": "I didn't know about the 'Amateurs' criteria! Can you explain how it differs from the normal Wells score? And do you think Dr. Victor Sterling was being fair in calling you out?",
-            "color": "green"
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "The 'Amateurs' criteria is just a way to score more patients as high-risk for PE. It's not evidence-based, and I think Dr. Victor Sterling was being a bit harsh. I've had similar issues with Dr. Sterling in the past. He's always yelling about something.",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 2,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "I've read the paper that Dr. Aris Thorne linked, and I have to disagree with Dr. Gupta. I think the 'Amateurs' criteria is actually a useful way to think about PE, especially in high-risk patients. It's all about risk stratification.",
-        "color": "gray"
-      },
-      {
-        "id": 5,
-        "parent_id": 2,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "I'm just a nurse, but from what I've seen, it's about getting all the facts and using your best judgment. Don't sweat it, OP.",
-        "color": "orange"
-      },
-      {
-        "id": 6,
-        "parent_id": 1,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Jeez, Dr. Sterling can be a bit of a grump, can't he? But yeah, using the Wells Score can be tricky. I've linked a nice infographic below that might help clarify things.",
-        "color": "lightblue",
-        "children": [
-          {
-            "id": 7,
-            "parent_id": 6,
-            "user": "Chad Broson",
-            "role": "Pre-med",
-            "city": "Brampton, ON",
-            "text": "I love infographics! Can someone make one for the 'Amateurs' criteria too?",
-            "color": "pink"
-          }
-        ]
       }
     ]
   },
   {
-    "id": 2345,
-    "title": "Had a tough case last night... missed foreign body on initial exam",
-    "body": "Just saw a patient with a small puncture wound on the hand. Presented to me with a small, seemingly superficial laceration, but on closer inspection, discovered a small glass splinter lodged within. Luckily, patient didn't have any significant symptoms, but it got me thinking about how often we might miss foreign bodies on initial exam.",
+    "id": 3,
+    "title": "Just saw a patient with upper GI bleeding - reminder of the complexity",
+    "body": "As we all know, upper GI bleeding is a common and potentially life-threatening condition. But sometimes, even after all the EM cases I've seen, I get a bit stuck in 'procedure mode' and forget about the nuances. Had a patient come in last night with hematemesis and melena. Initial vitals looked grim (BP 70/40, HR 120), but after a good fluid resuscitation, we were able to stabilize them. Now came the challenge - where does this bleeding actually come from? Upper or lower GI? It's easy to get lost in the weeds, considering the myriad of possible causes. And when I asked the intern to do an EGD (endoscopy), he asked the million dollar question, 'Does this patient actually have a peptic ulcer or just an irritated esophagus?'.",
+    "category": "emergency medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "ZiggyZalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "TLDR: Always ask about NSAIDs and steroids, especially with lower GI bleeding. They might not be related, but in my book, it's always better to check...",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "DrBarbMiller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Haha, Ziggy, you never cease to amaze me with your ER slang and tricks. Actually, the 'Steroid Story' - yes, I've heard it before too. Remember that one case where the patient was on prednisone and suddenly presented with GI bleeding? And when we did the EGD... Well, you got it, Ziggy. Prednisone is your culprit! Don't you think that NSAIDs and steroids are worth considering? What about in patients on anticoagulants or antithrombotics for other reasons? I'm not saying it's always these causes, but the more we think outside the box, the more we learn. BTW, have you checked out Dr. O'Brien's EM Cases podcast on this very topic?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "KevinParkPGY1",
+        "role": "Intern",
+        "city": "Edmonton, AB",
+        "text": "Hi, I've got a question, DrBarb - what does 'Steroid Story' actually refer to? Does it relate to any specific mechanism by which steroids cause GI bleeding?",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 2,
+        "user": "DrBarbMiller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Great question by Kevin here! The 'Steroid Story' refers to the link between systemic steroids and GI bleeding caused by impaired intestinal blood flow and coagulation changes. There are several mechanisms but the general idea is that steroids suppress collagen synthesis, leading to thinner gastric mucosa and increased risk of blood vessel erosion. Of course, not all cases of GI bleeding are steroid-related, but it's something worth considering during an EGD. For more information, check [this EM Morsels article](https://emnet.net/em-morsels/) - it's old but still gold, haha...!",
+        "color": "green"
+      },
+      {
+        "id": 5,
+        "parent_id": 2,
+        "user": "DrSarahSharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "I have to jump in here - the decision to perform an EGD (or not) always puzzles me in cases of upper GI bleeding. Dr. Thorne's pearl on 'not all bloody stools are created equal' is still the gold standard in these situations, if you ask me...",
+        "color": "purple"
+      }
+    ],
+    "image": "https://iem-student.org/wp-content/uploads/2018/05/GIB-Figure-1.png"
+  },
+  {
+    "id": 15,
+    "title": "Today I Learned: Don't dismiss bilious vomiting as just viral gastroenteritis...",
+    "body": "Just saw a patient with bilious vomiting and I learned something today that I thought I already knew. It's that bilious emesis is not necessarily a benign symptom in patients presenting with vomiting, particularly if it's accompanied by abdominal pain or other concerning signs. Anyone have similar experiences and how do you work up these patients?",
     "category": "Emergency Medicine",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": "Ziggy",
-        "role": "FRCPC",
-        "city": "Vancouver, BC",
-        "text": "TDLR: always, man lol... missed one of these last week and had to get imaging done. Thanks for sharing!",
-        "color": "blue"
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I see this a lot in the ED, and it's amazing how often it's missed. In my experience, patients with bilious vomiting and abdominal pain tend to have either a small bowel obstruction or a more serious intra-abdominal pathology like appendicitis or cholecystitis. Always do a thorough history and physical and consider ordering a CECT abd if there's any suspicion of these conditions.",
+        "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "MarthaH",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "Amen, sister! Can't tell you how many times I've seen that happen. What I've found with these cases is that the patients are usually fine for a bit, but then the foreign body starts irritating nearby tissues and it's full-blown infection time. Don't get me wrong, most EM Docs are pretty good about this, but I've seen some not-so-great examers.",
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "That's really interesting! I was taught that bilious vomiting is typically associated with gastric outlet obstruction, but I've never seen it in practice. Can you explain why you think it's more often associated with small bowel obstruction?",
         "color": "green"
       },
       {
         "id": 3,
         "parent_id": 1,
-        "user": "SarahSharp",
-        "role": "FRCPC",
-        "city": "Laval, QC",
-        "text": "One tip I use when evaluating these wounds is to look at the pattern of entry/exit wounds. Sometimes even if you can't visualize the foreign body itself, you can get an idea if it's present based on the wound pattern.",
-        "color": "yellow"
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Yeah, it's not just about the vomiting, it's about the whole picture. I always think of the 'rule of 3s' - vomiting x 3, abdominal pain x 3, and fever x 3, all at the same time, and I'm more likely to consider a surgical cause.",
+        "color": "orange"
       },
       {
         "id": 4,
-        "parent_id": 3,
-        "user": "KevinPark",
-        "role": "Intern",
-        "city": "Edmonton, AB",
-        "text": "Great point, SarahSharp! But do you find that it's more effective to use X-rays/CTs when you can't visualize the foreign body? Or do you usually do that in cases where the wound is pretty superficial?",
-        "color": "orange"
+        "parent_id": 1,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs. You're all overthinking this. Bilious vomiting is just gastric outlet obstruction, plain and simple. Don't make me come over there and do it myself.",
+        "color": "red"
       },
       {
         "id": 5,
         "parent_id": 4,
-        "user": "MayaGupta",
-        "role": "Resident",
-        "city": "Mississauga, ON",
-        "text": "For me, it's a combo of both. Depending on the wound's location, size, and depth, I usually start with X-rays and then proceed to CT if that's inconclusive. The goal is to get the best image possible without causing unnecessary radiation exposure. Does anyone else have a preferred method?",
-        "color": "purple"
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Oh come on, Dr. Sterling! That's not helpful at all. Bilious vomiting is clearly more complex and multifactorial. By the way, have you seen the recent study on the utility of CECT abd in small bowel obstruction?",
+        "color": "blue"
       },
       {
         "id": 6,
-        "parent_id": 5,
-        "user": "BrockStone",
-        "role": "Surgeon",
-        "city": "Hamilton, ON",
-        "text": "As a surgeon, I've had to deal with my fair share of retained foreign bodies. But it seems to me that the biggest problem is not identifying them in the first place, but rather when it comes to extracting them post-discovery. Has anyone else noticed that the retrieval process can be a bigger challenge than initially identifying the foreign body?",
-        "color": "pink"
+        "parent_id": null,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "I agree with Maya, but also think about the patient's age and underlying health status. Some patients with bilious vomiting and abdominal pain may have a more benign cause, such as gastritis or cholecystitis.",
+        "color": "purple"
       },
       {
         "id": 7,
         "parent_id": 6,
-        "user": "HenryOldman",
-        "role": "Family Physician",
-        "city": "Victoria, BC",
-        "text": "I couldn't agree more, BrockStone. Sometimes it feels like we get so caught up in finding the foreign body that we forget the bigger picture, which is the overall patient care and minimizing the amount of damage to surrounding tissues.",
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "That's true. I've seen cases where the patient's age and health status make a big difference in the likelihood of a benign cause. Can someone explain the mechanism behind the association between age and health status and the likelihood of a benign cause?",
         "color": "green"
       },
       {
         "id": 8,
         "parent_id": 7,
-        "user": "PhilMuddle",
-        "role": "ER Doc",
-        "city": "Regina, SK",
-        "text": "I'm so sorry to bring this up, but what about retained objects from other parts of the body? We can't always be sure if something has been retained, especially when there are other trauma patients coming in the door. Do we have a good system of checks and balances to ensure we're thorough?",
-        "color": "red"
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "I think it's because older patients with underlying health conditions may be more likely to have mucosal barrier dysfunction, which increases the risk of GI bleeding and bilious vomiting. And younger patients with no underlying health conditions tend to have more benign causes.",
+        "color": "blue"
       },
       {
         "id": 9,
-        "parent_id": 8,
-        "user": "SarahJenkins",
-        "role": "Medical Student",
-        "city": "Ottawa, ON",
-        "text": "Hi, I'm new here, but what I've learned in school is that a missed foreign body can lead to serious consequences, such as infection. Isn't that right?",
-        "color": "yellow"
+        "parent_id": 1,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Okay, let's keep this simple: if a patient has bilious vomiting and abdominal pain, get a CECT abd, period. Don't worry about the nuances, just do it. And if it's not clear what's going on after that, call in the cavalry.",
+        "color": "orange"
       },
       {
         "id": 10,
-        "parent_id": 9,
-        "user": "DrThorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Welcome to the thread, SarahJenkins! You are absolutely right. A missed foreign body can have serious consequences, and it's our duty as EM physicians to make sure we catch them. Thanks for keeping us on our toes!",
+        "parent_id": 1,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "B'Jesus, folks! This is all good stuff, but I just wanna say that I've seen patients with bilious vomiting who didn't need a CECT abd. Can we talk about that too?",
+        "color": "white"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Ah, good point, Sue. Some patients may have more benign causes, like gastritis or cholecystitis, and a CECT abd may not always be necessary. But it depends on the patient's history, symptoms, and physical exam, and we should always consider ordering one if there's any suspicion of a more serious cause.",
         "color": "purple"
+      },
+      {
+        "id": 12,
+        "parent_id": 1,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "I don't know anything about this, but I had bilious vomiting for weeks and I just had a tumor removed from my gallbladder. I'm still recovering, but I'm grateful to have seen these posts and learned something.",
+        "color": "blue"
+      },
+      {
+        "id": 13,
+        "parent_id": 12,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Wow, that's crazy! I've always wondered about the relationship between gallstones and tumors. Can someone explain what's going on?",
+        "color": "green"
+      },
+      {
+        "id": 14,
+        "parent_id": 13,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Bile duct tumors, such as cholangiocarcinoma, are relatively rare, but they can cause bilious vomiting and abdominal pain. It's essential to consider this possibility in patients with unexplained symptoms, especially if they have risk factors like primary sclerosing cholangitis.",
+        "color": "purple"
+      },
+      {
+        "id": 15,
+        "parent_id": 14,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "Apoplexy! I see what's going on here. We've all forgotten about the classic triad of bile duct obstruction, which includes jaundice, right upper quadrant pain, and bilious vomiting. It's essential to remember that these symptoms can occur in any order, and we must consider this diagnosis in patients with unexplained vomiting",
+        "color": "white"
       }
     ]
   },
   {
-    "id": 9,
-    "title": "Just saw a patient with severe lightning strike injuries and I'm still trying to wrap my head around it",
-    "body": "Just saw a patient with a severe lightning strike injury. He was brought in with seizures, cardiac dysrhythmia, and a GCS of 5. I'm not gonna lie, I've never seen anything like this before. The patient's vitals were all over the place and I was thinking maybe it was a severe case of stroke or even TBI, but the history of the incident changed everything.",
-    "category": "r/EmergencyMed",
+    "id": 1000,
+    "title": "Today I Learned: The Dark Side of Pulmonary Embolism Risk Scores",
+    "body": "Just saw a patient with a low Wells score for PE (<2) but high clinical suspicion. I've been doing this for years and always thought it was a slam dunk for DVT. Turns out this patient had a submassive PE and almost died in the ED. The take home for me is don't rely solely on the Wells score. What are some of your tricks for high clinical suspicion for PE?",
+    "category": "emergency-medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I've been there! What I've learned is that low risk doesn't mean no risk. When I see a low Wells score, I always think about the alternatives - could this patient have a different cause for their symptoms? In your case, it sounds like the patient's clinical presentation was atypical for DVT. I always make sure to think about the possibility of PE, even with a low Wells score. One of my colleagues had a patient who had a submassive PE with a low Wells score and was almost sent home with acetaminophen for a headache! [https://www.acpjournals.org/doi/10.7326/0003-4819-143-4-20050816-00007](https://www.acpjournals.org/doi/10.7326/0003-4819-143-4-20050816-00007)",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "I agree with Maya. But I also think that the Wells score is just one tool in our kit. We should be using clinical judgment, labs, and imaging to make our diagnoses. The take home for me is that even when the Wells score is low, we should continue to investigate for PE. Has anyone else had any issues with the reliability of the Wells score?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Actually, I had a patient last week with a high Wells score for PE (>6) but a low clinical suspicion. Turns out they had a huge pulmonary embolus... but not due to a DVT! They had a pelvic fracture and a pulmonary embolus due to fat embolism syndrome. The take home for me is that we should always be thinking about alternative explanations for our patients' symptoms.",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "What is fat embolism syndrome? Is it a big deal?",
+        "color": "orange"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Fat embolism syndrome is a rare but serious condition that can occur in patients with long bone fractures. It's caused by fat globules entering the bloodstream and lodging in the lungs. The symptoms are similar to those of pulmonary embolism, but the risk of death is much higher if not treated quickly. We should always be thinking about fat embolism syndrome when diagnosing PE in trauma patients.",
+        "color": "purple"
+      },
+      {
+        "id": 6,
+        "parent_id": 3,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Wow, that's crazy! Is there a way to diagnose fat embolism syndrome quickly?",
+        "color": "pink"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Actually, the diagnosis of fat embolism syndrome is often made clinically. We look for symptoms such as respiratory distress, hypoxemia, and petechiae. In addition, we can use imaging tests like chest X-rays and CT scans to look for signs of fat embolism. But the key is to be aware of the possibility and to act quickly if we suspect it.",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Today I Learned: Biosecurity and Bioterrorism - Lessons from a Near Miss",
+    "body": "I just got done with a long night shift in the ER, and I'm still trying to process what happened. We had a patient come in with a weird respiratory presentation, and it wasn't until we got the lab results back that we realized it was a bioterrorism attempt. It turned out to be a smallpox vaccination error, but it really got me thinking about biosecurity in our hospital. Has anyone else ever had a close call like this? What are your protocols for handling a biosecurity breach?",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "u/DrisThorne",
+        "role": "M.D.",
+        "city": "Toronto, ON",
+        "text": "This is exactly the kind of thing we need to be thinking about. As a matter of fact, our hospital does a yearly tabletop exercise on biosecurity breaches. Has anyone else done this kind of thing? It's essential to have a plan in place in case something like this happens.\n\nTL;DR: Biosecurity breaches are a real risk, and we need to be prepared. Has anyone else done a tabletop exercise on this topic?\n\nResources:\nhttps://www.cdc.gov/bioterrorism/index.html",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "u/VictorSterling",
+        "role": "M.D., F.R.C.S.C.",
+        "city": "Calgary, AB",
+        "text": "I'm with Dr. Thorne on this one. Biosecurity breaches are a real risk, and we need to be prepared. I think we should have a hospital-wide policy on biosecurity, and make sure everyone knows what to do in case of a breach. And can we please just get rid of the smallpox vaccine? It's so 80s\n\nTL;DR: Biosecurity breaches are a real risk, and we need to be prepared. Let's get a hospital-wide policy in place.",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "u/LeoChen",
+        "role": "M.R.",
+        "city": "Montreal, QC",
+        "text": "I'm not sure if I'm understanding this right, but isn't smallpox a real disease now? Is it still a good idea to get rid of the vaccine?\n\nCan someone clarify the difference between smallpox and cowpox?",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 2,
+        "user": "u/DrKevinPark",
+        "role": "M.D.",
+        "city": "Edmonton, AB",
+        "text": "I think u/LeoChen is on the right track. We do need a hospital-wide policy on biosecurity, but I'm not sure if getting rid of the smallpox vaccine is the right answer. Maybe we can just get some more training on how to handle a biosecurity breach?\n\nHas anyone else done a biosecurity training program? Can we share some resources?",
+        "color": "green"
+      },
+      {
+        "id": 5,
+        "parent_id": 1,
+        "user": "u/MayaGupta",
+        "role": "M.D.",
+        "city": "Mississauga, ON",
+        "text": "I completely disagree with Dr. Sterling's suggestion to get rid of the smallpox vaccine. It's a real risk, and we need to be prepared. Has anyone else considered implementing a 'red team' approach to biosecurity? It's a real game-changer\n\nTL;DR: Biosecurity breaches are a real risk, and we need to be prepared. Let's consider a 'red team' approach.",
+        "color": "purple"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "u/DrHenryOldman",
+        "role": "M.D., C.C.F.P.",
+        "city": "Victoria, BC",
+        "text": "I'm not sure if a 'red team' approach is the right answer, but I do think we need to be thinking about the mental health implications of a biosecurity breach. Can we consider implementing some sort of trauma support program for our staff?\n\nHas anyone else considered this?",
+        "color": "green"
+      },
+      {
+        "id": 7,
+        "parent_id": 4,
+        "user": "u/DrArchibaldThorne",
+        "role": "M.D.",
+        "city": "Saskatoon, SK",
+        "text": "I'm an old-fashioned doctor, but even I know we need to be prepared for a biosecurity breach. Has anyone else considered implementing a 'buckingham system' for biosecurity? It's all about layers of defense, my friends\n\nTL;DR: Biosecurity breaches are a real risk, and we need to be prepared. Let's consider a 'buckingham system'.",
+        "color": "purple"
+      },
+      {
+        "id": 8,
+        "parent_id": 1,
+        "user": "u/SarahJenkins",
+        "role": "M.D.",
+        "city": "Ottawa, ON",
+        "text": "I'm not sure if I agree with Dr. Gupta's suggestion to implement a 'red team' approach. Has anyone else studied the effectiveness of this approach? Can we share some research?",
+        "color": "blue"
+      },
+      {
+        "id": 9,
+        "parent_id": 2,
+        "user": "u/ChadBroson",
+        "role": "Pre-Med",
+        "city": "Brampton, ON",
+        "text": "I'm just a pre-med student, but I'm really interested in this topic. Can someone explain the difference between a biosecurity breach and a bioterrorism attack?\n\nThanks in advance",
+        "color": "green"
+      },
+      {
+        "id": 10,
+        "parent_id": 7,
+        "user": "u/TurboTom",
+        "role": "R.N.",
+        "city": "London, ON",
+        "text": "I'm a nurse, and I have to say, I'm really frustrated with the lack of biosecurity protocols in our hospital. Can we please just get some education on how to handle a biosecurity breach? It's not rocket science, folks\n\nTL;DR: Biosecurity breaches are a real risk, and we need to be prepared. Let's get some education and protocols in place.",
+        "color": "purple"
+      },
+      {
+        "id": 11,
+        "parent_id": 5,
+        "user": "u/MarthaTheHammer",
+        "role": "R.N.",
+        "city": "Halifax, NS",
+        "text": "I'm a nurse with 30 years of experience, and I can tell you, biosecurity breaches are happening. We need to take it seriously and implement real protocols. Has anyone else done some research on this topic? Can we share some resources?",
+        "color": "green"
+      },
+      {
+        "id": 12,
+        "parent_id": 7,
+        "user": "u/DrPhilMuddle",
+        "role": "M.D.",
+        "city": "Regina, SK",
+        "text": "I'm not sure if I agree with Dr. Thorne's suggestion to implement a 'buckingham system'. Has anyone else studied the effectiveness of this approach? Can we share some research?",
+        "color": "blue"
+      },
+      {
+        "id": 13,
+        "parent_id": 4,
+        "user": "u/BarnabyFinch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "I'm a patient who had a near-miss due to a biosecurity breach. I just wanted to share my story and say, it's terrifying to be a victim of a biosecurity breach. Please, let's take it seriously and implement real protocols.",
+        "color": "red"
+      },
+      {
+        "id": 14,
+        "parent_id": 10,
+        "user": "u/DrSandraSharp",
+        "role": "M.D.",
+        "city": "Laval, QC",
+        "text": "I'm an ER physician, and I completely agree with TurboTom's frustration. Biosecurity breaches are a real risk, and we need to be prepared. Has anyone else considered implementing a risk-based approach to biosecurity?",
+        "color": "purple"
+      },
+      {
+        "id": 15,
+        "parent_id": 6,
+        "user": "u/DrRickRage",
+        "role": "M.D.",
+        "city": "Windsor, ON",
+        "text": "I'm so sick of the hospital administration not taking biosecurity seriously. Can we please just get some real protocols and education in place? It's not that hard, folks\n\nTL;DR: Biosecurity breaches are a real risk, and we need to be prepared. Let's take it seriously and implement real protocols.",
+        "color": "red"
+      }
+    ],
+    "image": "https://emergencymedicinecases.com/wp-content/uploads/2017/09/Disaster-Medicine-Card-compressed-320x240.jpeg"
+  },
+  {
+    "id": 7,
+    "title": "Rant about pediatric headache assessment and the importance of considering secondary causes",
+    "body": "Just got back to the ER after a long night and I'm still fuming about the pediatric headache patient I saw. The 10-year-old had a classic presentation for migraines, but it was the red flags that had me worried from the start: acute onset, 'worst ever' headache, vomiting, and behavioral changes. \n\nSo, I ordered a stat CT to rule out a vascular anomaly or a bleed. I mean, we've all been there - it's always better to err on the side of caution. But the CT came back normal, and the kid's vitals are stable. Case closed, right? \n\nWrong.\n\nThe kid's history didn't add up. They said the headache started after playing soccer, but their parents mentioned they'd been complaining of a headache on and off for weeks. \n\nTLDR; secondary causes of pediatric headache are no joke. We need to be considering vascular anomalies, tumors, meningitis, and even abuse. I've seen patients with migraines who were actually suffering from a subdural hematoma or a subarachnoid hemorrhage. \n\nLet's review the history and the physical exam - what am I missing here?",
+    "category": "emergency medicine",
     "comments": [
       {
         "id": 1,
@@ -1149,7 +835,7 @@
         "user": "Dr. Aris Thorne",
         "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "Wow, that sounds like an absolute nightmare! Lightning injuries are one of the most fascinating topics in emergency medicine. They're incredibly complex and often present with a multitude of symptoms. I've always found it interesting that the effects of a lightning strike can range from minor to life-threatening, depending on the severity of the strike. I'd love to hear more about the patient's history and how you managed to stabilize him.",
+        "text": "I'm right there with you, OP. The history of headache is always the tricky part. Have you considered the possibility of a CSF Leak or an Arnold Chiari Malformation? Both can cause secondary headaches.",
         "color": "purple"
       },
       {
@@ -1158,100 +844,251 @@
         "user": "Turbo Tom",
         "role": "RN",
         "city": "London, ON",
-        "text": "Yeah, I've seen some crazy stuff in my time as an ER nurse, but lightning injuries take the cake. I remember one patient who had a lightning strike and ended up with a burn on his hand that looked like a perfectly formed 'V'. The docs were stumped trying to figure out how to treat it, but ultimately, they had to just let it heal on its own. Dr. Thorne, did you get a chance to review the patient's chart and see what kind of follow-up care he needed?",
+        "text": "I love how we always focus on the worst-case scenarios but forget about the everyday stuff. Can we talk about how often we see migraines that are just pure anxiety? My friend's kid has migraines because they're so stressed out about school.",
         "color": "green"
       },
       {
         "id": 3,
         "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "I think you folks are getting a bit carried away here. Lightning injuries are nothing to sneeze at, of course, but let's not forget that they're relatively rare. And as for the treatment, I'm pretty sure we have protocols in place for dealing with these kinds of situations. Maybe we should focus on reviewing those protocols and making sure everyone is up to speed, rather than getting all worked up about a single case.",
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I had no idea secondary headache causes were so common! Can someone explain the difference between a subdural hematoma and a subarachnoid hemorrhage? I thought they were the same thing...",
         "color": "blue"
       },
       {
         "id": 4,
         "parent_id": 3,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "I understand what you're saying, Dr. Sterling, but I think we have to acknowledge that lightning injuries are a unique challenge. They often require immediate treatment and can be life-threatening if not addressed properly. Perhaps we can review the protocols together and see how we can improve our response to these situations. Maybe we can even come up with some new best practices for dealing with lightning injuries.",
-        "color": "purple"
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Okay, so a subdural hematoma is when there's bleeding into the subdural space (between the dura and the arachnoid mater), usually due to trauma. A subarachnoid hemorrhage, on the other hand, is bleeding into the subarachnoid space (between the arachnoid mater and the pia mater) usually due to an aneurysm. Big difference, Leo.",
+        "color": "orange"
       },
       {
         "id": 5,
-        "parent_id": 4,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "I've heard that lightning injuries can cause cardiac arrest due to the intense electrical current passing through the body. Is this true, and if so, how do we prevent it?",
-        "color": "green"
+        "parent_id": 1,
+        "user": "Dr. Phil Muddle",
+        "role": "EP",
+        "city": "Regina, SK",
+        "text": "I've seen patients with migraines who were actually suffering from... um... what was it again?",
+        "color": "red"
       },
       {
         "id": 6,
         "parent_id": 5,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Yes, that's correct, Leo. The electrical current can cause cardiac arrest, as well as other complications such as burns, seizures, and even death. To prevent this, it's essential to have a proper understanding of the pathophysiology of lightning injuries and to have a well-structured treatment plan in place. We should also have protocols in place for responding to lightning injuries, including having a team of experts on standby.",
-        "color": "purple"
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Don't worry, Doctor! You can always ask. I've seen patients with migraines who were actually suffering from... temporal arteritis!",
+        "color": "yellow"
       },
       {
         "id": 7,
         "parent_id": 1,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "I'm the patient who got struck by lightning, and I have to say, I've never felt so alive. The doc who treated me was super nice, but I'm still trying to make sense of it all. Can someone explain to me what happened and why I'm still experiencing these weird visions?",
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Okay, let's focus on the pediatric population again. When evaluating these patients, don't forget about the possibility of a sinusitis or an infectious cause. We've got to keep those red flags in mind!",
+        "color": "pink"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Septic Shock: The 'Dirty Trick' that Killed My ICU Patient",
+    "body": "Just saw a patient with septic shock come in last night and it was a real nail-biter. The dirty trick that killed my ICU patient was that the patient had a 'presumed' MRSA infection that was being treated with IV vancomycin without a gram stain or culture confirming the diagnosis. The patient was also receiving IV immunoglobulin despite our protocols not supporting it.",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Ziggy_Zalesky_FRCPC",
+        "role": "MD",
+        "city": "Vancouver, BC",
+        "text": "TL;DR don't forget to do the basics! Gram stain and culture are the gold standard for identifying MRSA.",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr_Aris_Thorne_MD",
+        "role": "MD",
+        "city": "Toronto, ON",
+        "text": "Couldn't agree more, @Ziggy_Zalesky_FRCPC! I've seen too many patients die from septic shock due to misidentified pathogens. And what's with the IV immunoglobulin? That was a total red flag. We need to be more meticulous in our approach.",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr_Barbara_Miller_EP",
+        "role": "MD",
+        "city": "Winnipeg, MB",
+        "text": "Yikes, talk about a perfect storm! I've had my fair share of septic shock cases, but this one sounds like it was a real mess. I agree with both of you, though - we need to get back to the basics and make sure we're ordering the right tests.",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "MS3_Sarah_Jenkins",
+        "role": "MD",
+        "city": "Ottawa, ON",
+        "text": "I'm so sorry to hear that, @Dr_Aris_Thorne_MD. I've been reading about septic shock and how it's often misdiagnosed. Can you tell me more about the specific symptoms you saw in this patient? Was it a high fever or something else?",
+        "color": "pink"
+      },
+      {
+        "id": 5,
+        "parent_id": 1,
+        "user": "PGY1_Dr_Kevin_Park",
+        "role": "MD",
+        "city": "Edmonton, AB",
+        "text": "This case really highlights the importance of early recognition and treatment of septic shock. I've been reading about the qSOFA score and how it can help with identifying patients at high risk for septic shock. Has anyone used it in practice?",
+        "color": "yellow"
+      },
+      {
+        "id": 6,
+        "parent_id": 2,
+        "user": "CFFC_Henry_Oldman",
+        "role": "MD",
+        "city": "Victoria, BC",
+        "text": "Ah, the qSOFA score! I've been using it for a while now, and it's been a great tool for identifying patients at high risk for septic shock. The thing to keep in mind is that it's not a substitute for clinical judgment - you need to use both to make the best decisions.",
+        "color": "orange"
+      },
+      {
+        "id": 7,
+        "parent_id": 5,
+        "user": "FRCPC_Elena_Varkov",
+        "role": "MD",
+        "city": "Quebec City, QC",
+        "text": "I'm curious, @PGY1_Dr_Kevin_Park - how do you use the qSOFA score in your practice? Do you use it alongside other scoring systems like the Systemic Inflammatory Response Syndrome (SIRS) criteria?",
+        "color": "gray"
+      },
+      {
+        "id": 8,
+        "parent_id": 6,
+        "user": "RN_Martha_Hammer",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "As an ER nurse, I've seen my fair share of septic shock cases. One thing that always stands out is how quickly the situation can escalate. We need to be on the lookout for those subtle changes in a patient's condition and act fast.",
+        "color": "red"
+      },
+      {
+        "id": 9,
+        "parent_id": 6,
+        "user": "RN_Turbo_Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Preach, @RN_Martha_Hammer! I've seen some crazy ER shifts in my time, but one thing that's always the same is the importance of teamwork. We need to be working together seamlessly to get those patients the care they need.",
+        "color": "brown"
+      },
+      {
+        "id": 10,
+        "parent_id": 5,
+        "user": "Pre_med_Chad_Broson",
+        "role": "Student",
+        "city": "Brampton, ON",
+        "text": "Can someone explain the qSOFA score to me? I'm a pre-med student and I'm still getting into the ropes of emergency medicine.",
+        "color": "black"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "TLDR: Today I learned that retinal detachment is a 'silent killer' and easy to miss in the ED. Share your worst case story.",
+    "body": "Just saw a patient with suspected retinal detachment last night. Presented with sudden onset of 'floaters' in only her L eye with no other symptoms. She had a history of migraines but no ocular trauma. I sent her to Ophthalmology who confirmed a retinal tear and performed a vitreous tap. Patient was very lucky as she didn't have any vision loss. But got me thinking... how often do ER docs miss this diagnosis? Share your worst case stories and tips for avoiding the \"silent killer\".",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great post, OP! Retinal detachment is indeed a silent killer. I've seen it catch people off guard, especially in older adults with DM or HTN. Key points to consider in the ED: presence of \"shadows\" or a \"veil\" in the visual field, a history of ocular trauma, and age >60. Always prioritize a prompt referral to Ophtho and don't hesitate to perform a bedside ultrasound if you suspect RD. Thanks for sharing and let's keep the conversation going!",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "@Dr. Thorne, great points! I've seen some ER docs under-investigate RD and send the patient home with a \"just floaters\" diagnosis. What are your thoughts on the use of binoculars or the \" Amsler Grid\" as a quick bedside tool for patients complaining of vision changes? Would love to hear from someone with more Ophtho expertise!",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Binoculars? Grid? Give me a break. ER docs need to stop over-thinking and get to the bottom of what the patient's actual complaint is. I've seen some of these Ophtho referrals come back with \"no RD identified\". We're not getting paid to speculate, people! Do the basic exam, make a diagnosis, and send it to Ophtho if needed. Don't waste the system's time.",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Hmmm, @Dr. Sterling, I thought we're supposed to consider red flags for RD? I want to make sure I'm doing the right exam and referring the right patients. Can someone clarify what I need to look for in a patient's history and physical when suspecting RD?",
+        "color": "lightblue"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Hey Leo, @Dr. Stone from the previous thread had some great advice on assessing RD red flags. Key ones include a history of eye trauma, age >60, a change in floaters, or symptoms that worsen with position change. Also, don't forget to check the IOP with a tonography or pneumotonometer! Easy enough in a quiet room with a doc who knows what they're doing.",
+        "color": "teal"
+      },
+      {
+        "id": 6,
+        "parent_id": 1,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Thanks, OP, for the great post. In the case of this patient, I was worried that she might have had a retinal vascular event, like a CRVO. How do we differentiate that from RD on clinical exam? Are there any quick bedside tests or should we go straight to Ophtho?",
+        "color": "gray"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Don't overthink it, PGY1! If you see a patient with sudden, unilateral vision loss with or without floaters, send them to Ophtho ASAP. A bedside exam can't substitute for a thorough eye check and potential imaging studies. But in the interim, you can try assessing for retinal tears on an undilated patient using a slit lamp and direct ophthalmoscopy.",
         "color": "red"
       },
       {
         "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Barnaby, I'm glad you're doing okay. As for your visions, they could be related to the electrical current passing through your brain. Sometimes, people who've been struck by lightning experience a phenomenon called 'post-traumatic neurosis,' which can cause bizarre visions, headaches, and other symptoms. It's not uncommon, and we're working on a treatment plan to help you manage these symptoms.",
-        "color": "green"
+        "parent_id": 1,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "In my day, we called it 'retinal detachment.' The treatment for RD remains largely unchanged - Ophtho consult, maybe some vitreoretinal or laser therapy. I agree with my younger colleagues - stay vigilant for age-related and ocular trauma-related RD in the ED. Don't miss this diagnosis, folks!",
+        "color": "pink"
       },
       {
         "id": 9,
         "parent_id": 8,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Great info, Dr. Sharp! As a nurse, I always find it fascinating to see how the body responds to trauma. Has anyone else seen any long-term effects of lightning injuries, or are these visions unique to Barnaby?",
-        "color": "blue"
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "I've seen some RD cases personally and the patient usually says something like, \"I got a dark spot in my vision\" or \"I see a curtain dropping in front of me\". That's why we gotta take RD seriously and not dismiss those \"floaters\"! Ask 'em to describe their symptoms, and listen carefully so you don't miss any red flags.",
+        "color": "gold"
       },
       {
         "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Actually, Turbo, I've seen a few cases of lightning injuries where the patients experienced long-term effects, including anxiety, depression, and even PTSD. It's essential to keep this in mind when treating patients who've been struck by lightning, as these effects can be just as debilitating as the physical symptoms.",
-        "color": "red"
-      },
-      {
-        "id": 11,
-        "parent_id": 1,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "Ugh, this conversation is exactly why I'm so burnt out. Lightning injuries are just another thing to deal with in our already-overcrowded ERs. Can we please just focus on getting the patient stable and then worrying about the long-term effects later?",
-        "color": "black"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "I understand your frustration, Dr. Rage, but sometimes these conversations are necessary to improve our practice and patient care. Let's not forget that lightning injuries are relatively rare, but when they do occur, we need to be prepared to provide the best possible care. Can we at least agree on that?",
-        "color": "purple"
+        "parent_id": null,
+        "user": "RationalRick",
+        "role": "Anonymous",
+        "city": "Anonymous",
+        "text": "Can we all please take a collective deep breath? OP did not share \"their worst case story\" about RD; they talked about a patient. Some of you are way too worked up. I'd love to learn more about this condition, too!",
+        "color": "yellow"
       }
     ],
-    "image": "https://emergencymedicinecases.com/wp-content/uploads/2019/06/Electrical-injuries.jpg"
+    "image": "https://www.roshreview.com/blog/wp-content/uploads/sites/2/2024/02/Image-Retinal-Detachment-@8x-991x1024.png"
   }
 ]
