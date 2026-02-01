@@ -1,62 +1,70 @@
 [
   {
-    "id": 0,
-    "title": "Rant about Procedural Sedation in the ED",
-    "body": "Just had a tough night in the ED dealing with a patient who presented with a severe injury that required us to administer a deep level of sedation. I know, I know, PSA is a common procedure in our field, but I had to remind myself of the proper protocols and guidelines to ensure the patient's safety. I'm still shaking my head thinking about the case... Had to think back to my own education and training, specifically around \"Table 7-1 Levels of Sedation and Analgesia\". We know that increased depth of sedation increases the risk of depressed breathing and potential loss of airway patency. But what about our elderly patients? Or pediatric patients? Different considerations come into play, and we can't just treat them like adults.",
-    "category": "emergency medicine",
+    "title": "TLDR; Puncture Wounds: The Devil is in the Details",
+    "body": "Had a case last night that made me realize how much I took puncture wound care for granted. A 30-year-old dude comes in with a supposedly 'minor' puncture wound from a cat bite. No biggie, right? Wrong. That thing became infected in TWO DAYS and we almost lost him to sepsis. So let this be a lesson to all: PUNCTURE WOUNDS NEED LOVE TOO, FOLKS! Not just primary closure, not just antibiotics, but thorough cleaning, debridement, and vigilant follow-up. Don't let it 'just be a puncture wound'!",
+    "category": "emergency_medicine",
     "comments": [
       {
-        "id": 1,
+        "id": 0,
         "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Preach, OP! Procedural sedation can be a minefield, especially when dealing with vulnerable populations. I always make sure to consider the patient's physiologic reserve and consult with anesthesia if necessary.",
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Yikes! That's a sobering reminder of the dangers of underestimating puncture wounds. I always make a point to tell my patients with clean wounds to come back in 24-48hrs for reevaluation, just in case. Do you use any specific protocols for wound reevaluation?",
         "color": "purple"
       },
       {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Thorne, what do you mean by 'physiologic reserve'? Is that like their overall health status or something?",
+        "id": 1,
+        "parent_id": 0,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Also, have you considered using a combination of povidone-iodine and hydrogen peroxide for wound cleaning? Just curious about your experience with that.",
         "color": "green"
+      },
+      {
+        "id": 2,
+        "parent_id": 0,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Well said, Maya! Puncture wounds can quickly escalate into serious infections, especially in high-risk patients. I always err on the side of caution and recommend aggressive wound cleaning and debridement, followed by IV antibiotics and close observation.",
+        "color": "purple"
       },
       {
         "id": 3,
         "parent_id": 2,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Exactly, Leo! Think of it as their overall health status. A patient with a strong physiologic reserve can tolerate sedation better, whereas someone with significant comorbidities might be at higher risk.",
-        "color": "purple"
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Wait, what's the difference between debridement and decontamination? I thought they were the same thing.",
+        "color": "blue"
       },
       {
         "id": 4,
-        "parent_id": 1,
+        "parent_id": 2,
         "user": "Sarah Jenkins",
         "role": "MS3",
         "city": "Ottawa, ON",
-        "text": "Actually, I've been reading about the risks of PSA in elderly patients, and it seems that etomidate is a good choice due to its minimal cardiovascular effects. Have any of you worked with etomidate before?",
+        "text": "Actually, Aris, I think you're being a bit too conservative. Have you looked at the evidence on prophylactic antibiotics in puncture wound care? Some studies suggest they may not be necessary after all.",
         "color": "green"
       },
       {
         "id": 5,
         "parent_id": 4,
-        "user": "Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Yeah, I've used etomidate a few times. Very effective, but you do have to be careful with the dosing. Have you seen the American Geriatrics Society's guidelines on PSA in elderly patients?",
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Not so fast, Sarah! While I agree that antibiotic stewardship is crucial, I still believe there's some value in using prophylactic antibiotics in high-risk patients, especially if we're unsure of the wound's depth or contamination level. Have you seen the 2019 consensus statement on this topic?",
         "color": "purple"
       },
       {
         "id": 6,
-        "parent_id": 4,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Actually, I think there's a bit more to it than just etomidate. As internists, we need to consider the sodium and glucose levels in our elderly patients before administering PSA. You can't just assume they'll be fine.",
+        "parent_id": 0,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "BTW, has anyone else had experience with using subcutaneous phentolamine for reversing digital ischemia from accidental epinephrine injection? I've heard it's a game-changer but I'm not convinced.",
         "color": "green"
       },
       {
@@ -65,287 +73,241 @@
         "user": "Dr. Elena Varkov",
         "role": "FRCPC",
         "city": "Quebec City, QC",
-        "text": "For instance, did you know that one study showed that hypoglycemia was a significant risk in elderly patients receiving propofol for PSA? We need to be aware of these potential complications and take steps to mitigate them.",
-        "color": "purple"
+        "text": "Actually, Maya, I've had some success with using phentolamine for epinephrine-induced digital ischemia, although I've only done it in the context of an ER setting. What makes you think it might not be a good choice?",
+        "color": "blue"
       },
       {
         "id": 8,
-        "parent_id": 1,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Haha, OP, you're just having a tough night Because, let's be real, PSA is super common in the ED. I mean, have you guys seen those cute little kids on YouTube getting IVs? So calm, so cool... Yeah, right.",
-        "color": "green"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
+        "parent_id": 7,
         "user": "Martha 'The Hammer'",
         "role": "RN",
         "city": "Halifax, NS",
-        "text": "Oh, for Pete's sake, Chad. You think you can just 'YouTube' your way through medicine? Newsflash: medicine is hard, and PSA is no joke.",
-        "color": "purple"
+        "text": "As a nurse who's seen her fair share of epinephrine-induced ischemia, I'm with Elena on this one. Phentolamine works like a charm and saves us a world of trouble. It's worth having in the mix for those tricky cases.",
+        "color": "pink"
+      },
+      {
+        "id": 9,
+        "parent_id": 0,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Thanks, guys! I think this has been an eye-opener for me, especially when it comes to wound care in puncture wound cases.",
+        "color": "green"
       },
       {
         "id": 10,
         "parent_id": 9,
-        "user": "Rage",
-        "role": "Dr. Rick 'The Rage'",
-        "city": "Windsor, ON",
-        "text": "Amateurs. I swear, you'd think some of you were just winging it. Procedural sedation is a skill that requires practice, patience, and attention to detail. Don't just 'wing' it, folks.",
-        "color": "green"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Dude, calm down. You're gonna give everyone a heart attack. Procedural sedation is not rocket science, but we do need to take it seriously. Let's keep the discussion civil, okay?",
-        "color": "purple"
-      }
-    ],
-    "image": "https://www.ebmedicine.net/media_library/images/2022-EMP-Publication-Article/06-June/Clinical-Pathway-for-Procedural-Sedation-and-Analgesia-in-the-Emergency-Department-TH.png"
-  },
-  {
-    "id": 1,
-    "title": "Rant about chronic pain in the ED: when opioids aren't an option",
-    "body": "Had a tough case last night and I'm still thinking about it. A 45-year-old female with a history of fibromyalgia presented to our ED with worsening left lower extremity pain lasting months. Classic symptoms of complex regional pain syndrome (CRPS): allodynia, burning, shooting pain, edema, warmth, and localized sweating. The challenge was that her prescription opioids had been stolen and her primary care doctor was out of town.\n\nAs we all know, opioids are a no-go in chronic pain management in the ED, and it's not just about avoiding addiction. The evidence base just isn't there. So what do we do?\n\nThe patient begged for oxycodone, but I had to draw the line. The best course of action would be specialist referral, not just for diagnosis, but also for evidence-based management (think multidisciplinary rehab programs, non-pharmacologic interventions, and maybe some nerve blocks).\n\nBut this got me thinking... have we been doing too much harm by over-relying on opioids? I know it's a sensitive topic, but hear me out. I'm not advocating for a complete ban, but rather a more nuanced approach.\n\nTL;DR: What are some strategies for managing chronic pain in the ED without opioids?",
-    "category": "emergency-medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "Resident Physician",
-        "city": "Toronto, ON",
-        "text": "As a resident, I've seen my fair share of chronic pain cases. While I understand the concerns about opioids, we can't just dismiss them without a plan B. Have you considered talking to the patient about alternative medications? Topiramate, SNRIs, or even gabapentin can be helpful adjuncts.\n\nAnd let's not forget about the mental health aspect. Patients with chronic pain often have co-morbid anxiety or depression. Maybe we should be looking at more holistic approaches, like CBT or mindfulness-based interventions.\n\nOne thing that works for me is to ask patients about their previous experiences with opioids. Sometimes, it's not the medication itself, but the expectation or the fear of 'running out' that's the real issue.\n\nThanks for sparking this discussion!",
-        "color": "blue"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Elena Varkov",
-        "role": "Internist",
-        "city": "Montreal, QC",
-        "text": "@Dr. Gupta You bring up some excellent points! I've found that patients with chronic pain often benefit from a more nuanced approach, including pharmacologic and non-pharmacologic interventions. But what about the patients who really need opioids? Not everyone with chronic pain is 'addicted' or 'seeking a pill fix.' What about those with legitimate pain concerns? Don't you think we're over-broadening the addiction category?\n\nAlso, have you seen the recent review on the effectiveness of non-pharmacologic interventions in CRPS? It's a game-changer!",
-        "color": "purple"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Dr. Maya Gupta",
-        "role": "Resident Physician",
-        "city": "Toronto, ON",
-        "text": "@Dr. Varkov That's a great point about over-broadening addiction categories. I've seen it happen, especially in our current healthcare climate. We need to be more thoughtful about our approach and make sure we're not stigmatizing patients who genuinely need help.\n\nAlso, I'd love to see that review you mentioned! Can you share the link?",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Dr. Barb Miller",
-        "role": "Community Physician",
-        "city": "Winnipeg, MB",
-        "text": "As a community doc, I've seen firsthand how opioid overprescription has ravaged my patient population. It's not just about addiction; it's about the erosion of trust. Patients expect (and deserve) evidence-based care, not some half-baked plan from a stressed-out ED doc.\n\nThe answer isn't to just 'do more' without opioids, but to get back to the basics: listen to patients, do a thorough history, and involve specialists when needed. It's not rocket science, folks.",
-        "color": "orange"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Chad Broson",
-        "role": "Pre-med Student",
-        "city": "Brampton, ON",
-        "text": "@Dr. Miller You're killing me, doc! I'm just trying to learn here. Can you explain what you mean by 'back to the basics'? What specific practices should we as future docs focus on?\n\n(Also, side note, does anyone have a good textbook recommendation for CRPS and chronic pain management?)",
-        "color": "pink"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "@Chad Broson Great question! As a community doc, @Dr. Miller is highlighting the importance of thorough history-taking and physical exams. We often miss the obvious stuff in the ED, like red flags for sinister diagnoses. Take the time to ask questions, do a proper review of systems, and don't just rely on the patient's words.\n\nFor CRPS and chronic pain, we need to understand the biopsychosocial model. It's not just about medication, but about addressing the patient's psychological, social, and environmental needs. We can learn a lot from PM&R docs and pain specialists on how to manage these complex cases.",
-        "color": "green"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Just saw a patient with a WASP sting and it got me thinking... ",
-    "body": "I recently treated a patient who had a localized reaction to a wasp sting. The patient presented with pain, erythema, and edema at the sting site. What struck me was that the patient was not experiencing any systemic symptoms, but the local reaction was quite severe. I decided to treat the patient with H1 and H2 blockers, steroids, and observation. My question is, does anyone have experience with the 'fire ant sting', which can cause a systemic reaction? Has anyone seen patients present with rhabdomyolysis or renal failure after a wasp sting? I'd love to hear about your experiences and how you manage these cases.",
-    "category": "emergency-medicine",
-    "_created_by": "Dr. Aris Thorne",
-    "_timestamp": "1591234567",
-    "comments": [
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "",
-        "color": "purple"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 2,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "",
-        "color": "pink"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
         "user": "Leo Chen",
         "role": "MS1",
         "city": "Montreal, QC",
-        "text": "",
+        "text": "Can I ask, what's the go-to treatment for puncture wounds involving an embedded object? Does it always involve surgical removal?",
         "color": "blue"
-      },
-      {
-        "id": 6,
-        "parent_id": 1,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "",
-        "color": "orange"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. 'Ziggy' Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "",
-        "color": "yellow"
-      },
-      {
-        "id": 8,
-        "parent_id": 6,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "",
-        "color": "brown"
-      },
-      {
-        "id": 9,
-        "parent_id": 7,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "",
-        "color": "grey"
-      },
-      {
-        "id": 10,
-        "parent_id": 1,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "",
-        "color": "black"
       },
       {
         "id": 11,
         "parent_id": 10,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "",
-        "color": "red"
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "Actually, Leo, the key is to identify the foreign body as early as possible and extract it safely, if possible. In some cases, you might not need surgical removal, especially if the object is small or easily removable. I've seen some cases where removal was unnecessary and the wound healed just fine.",
+        "color": "pink"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "I see what you mean, Brock. But what if the foreign body is a fishhook? Does that require surgical removal every time, or is there an alternative approach?",
+        "color": "green"
+      },
+      {
+        "id": 13,
+        "parent_id": 12,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Actually, for fishhooks specifically, one approach is to use the 'incision technique' to remove them safely. This involves making a small incision at the hook's entrance point and gently prying it loose, taking care not to cut the surrounding tissue. Has anyone else had experience with this method?",
+        "color": "purple"
+      },
+      {
+        "id": 14,
+        "parent_id": 13,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "That makes sense, Maya! I've seen our ER team use this technique before to safely remove fishhooks with minimal scarring. Great minds think alike!",
+        "color": "pink"
+      },
+      {
+        "id": 15,
+        "parent_id": 14,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "I think that's all the time we have for today, folks. Thanks for the lively discussion and sharing your expertise! Remember, puncture wounds are serious business, and we need to take them seriously.",
+        "color": "blue"
       }
-    ]
+    ],
+    "image": "https://emottawablog.com/wp-content/uploads/2023/04/Screen-Shot-2023-04-11-at-11.54.40-AM-1080x675.png"
   },
   {
-    "id": 1,
-    "title": "Case Study: Sudden Cardiac Death in a Young Athlete",
-    "body": "Just saw a patient with a syncopal episode during practice yesterday. She's a healthy 15-year-old female who had been cleared by her pediatrician for sports. Her ECG was normal, but I'm concerned about the possibility of underlying cardiac disease. Has anyone else seen a case like this? Any advice on how to work up a patient like this?",
-    "category": "Medicine",
+    "id": 123,
+    "title": "Asthma vs COPD: What's the difference?",
+    "body": "Just saw a patient who's been mislabeled as having COPD for years. Turns out, it's just chronic asthma. I was shocked to realize I had never properly differentiated between the two conditions. So, let's break it down...",
+    "category": "medicine",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "EP",
-        "city": "Mississauga, ON",
-        "text": "I've seen a few cases like this, and it's always a challenging diagnosis. The San Francisco Syncope Rule is a good place to start. Have you considered getting an echocardiogram to rule out hypertrophic cardiomyopathy? Also, have you talked to the family about the possibility of long QT syndrome?",
+        "user": "Dr. Aris Thorne",
+        "role": "MD",
+        "city": "Toronto, ON",
+        "text": "One of the key differences between asthma and COPD is the underlying inflammatory process. Asthma is characterized by an allergic or irritant-driven response that leads to airway hyperresponsiveness, whereas COPD is marked by a chronic and irreversible inflammatory response to noxious stimuli.",
         "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "I'm not sure I understand the San Francisco Syncope Rule. Can you explain it to me, Doctor Gupta? And what's the difference between hypertrophic cardiomyopathy and long QT syndrome?",
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "But isn't it true that many patients have a combination of both conditions? I've heard of 'overlap syndrome.'",
         "color": "green"
       },
       {
         "id": 3,
         "parent_id": 1,
-        "user": "Dr. Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "I've read that the San Francisco Syncope Rule is a set of clinical criteria that help identify patients who are at high risk for adverse cardiac events. Has anyone else seen it in practice? And what about the evidence base for it?",
-        "color": "blue"
+        "user": "Dr. Victor Sterling",
+        "role": "MD",
+        "city": "Calgary, AB",
+        "text": "Amateurs. You need to read up on the new GOLD guidelines for proper diagnosis and management. The distinction between asthma and COPD is no longer clear-cut.",
+        "color": "orange"
       },
       {
         "id": 4,
         "parent_id": 3,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Actually, Dr. Jenkins, I think you're referring to the Canadian Cardiovascular Society (CCS) syncope criteria. It's a bit different from the San Francisco Syncope Rule. But they're both good tools to help us identify patients at high risk.",
-        "color": "red"
+        "user": "Dr. Aris Thorne",
+        "role": "MD",
+        "city": "Toronto, ON",
+        "text": "I disagree. The GOLD guidelines do provide a framework for diagnosis, but they don't change the fundamental pathophysiology of the two conditions. Both asthma and COPD involve airway inflammation, but the triggers and underlying mechanisms differ.",
+        "color": "purple"
       },
       {
         "id": 5,
-        "parent_id": null,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "I know this is a tangent, but can someone explain to me why we don't use more non-invasive tests like cardiac MRI or biomarkers to rule out cardiac disease?",
-        "color": "yellow"
+        "parent_id": 4,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Can we clarify a bit more about the triggers for asthma and COPD? For instance, are respiratory infections more commonly associated with asthma or COPD?",
+        "color": "blue"
       },
       {
         "id": 6,
         "parent_id": 5,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Actually, Tom, we're getting there! More EMRs are incorporating cardiac MRI and biomarker testing into their workflows all the time. But it's a big cost thing, too.",
-        "color": "purple"
+        "user": "Dr. Barb Miller",
+        "role": "MD",
+        "city": "Winnipeg, MB",
+        "text": "Respiratory infections can trigger both asthma and COPD, but asthma is more likely to be associated with allergic reactions and exercise-induced bronchospasm. COPD, on the other hand, tends to be related to smoking and air pollution.",
+        "color": "green"
       },
       {
         "id": 7,
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "MD",
+        "city": "Mississauga, ON",
+        "text": "From a practical standpoint, what are the implications for treatment and management of these two conditions? Should I be differentiating between them on the fly during a patient's visit?",
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Rick 'The Rage'",
+        "role": "MD",
+        "city": "Windsor, ON",
+        "text": "You should be, but often you can't in the ER. We need to get better at recognizing overlap syndrome and providing proper education to patients about their specific condition.",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Vaginal Bleeding During Pregnancy: Not as Cut and Dry as You Think",
+    "body": "Just saw a patient with a classic case of placental abruption who also had a history of sexual assault. It got me thinking about the complexities of vaginal bleeding during pregnancy. Has anyone else seen a patient with a placental abruption who also had a history of sexual assault?",
+    "category": "emergency-medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "I've seen my fair share of cases where a patient's history was complicated by a traumatic event. In those cases, it's essential to consider the possibility of a sexual assault when evaluating a patient with vaginal bleeding during pregnancy. A thorough examination and history are crucial in these situations.",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "That's really interesting, Dr. Thorne. What kind of questions did you typically ask a patient in this situation? And how did you assess the patient's history of sexual assault?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "I've worked with patients who have a history of sexual assault, and I've learned that it's essential to approach these conversations with compassion and sensitivity. Asking open-ended questions like 'What happened?' or 'How are you feeling about what happened?' can help patients feel more comfortable sharing their story.",
+        "color": "lightgreen"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Great point, Turbo Tom. I've found that using a trauma-informed care approach can help patients feel more comfortable sharing their story. This includes things like using non-judgmental language, avoiding triggers, and focusing on patient-centered care.",
+        "color": "lightblue"
+      },
+      {
+        "id": 5,
+        "parent_id": null,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "I'm not convinced that a history of sexual assault is relevant to evaluating vaginal bleeding during pregnancy. Can't we just stick to the medical aspects of the case?",
+        "color": "red"
+      },
+      {
+        "id": 6,
         "parent_id": 5,
-        "user": "Dr. Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "I think it's because these tests are still pretty new and there's not enough evidence yet to support their widespread use. We need more research before we can make them part of standard practice.",
-        "color": "blue"
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "I disagree, Dr. Sterling. A patient's history of sexual assault can have a significant impact on their physical and emotional well-being during pregnancy. It's essential to consider this history when evaluating a patient with vaginal bleeding during pregnancy.",
+        "color": "lightgray"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "I've seen cases where a patient's history of sexual assault was a major factor in their presentation. In one case, a patient was having a placental abruption and also had a history of sexual assault. We were able to provide her with supportive care and eventually delivered a healthy baby.",
+        "color": "lightgray"
       },
       {
         "id": 8,
         "parent_id": null,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "I just can't believe how many patients get sent your way with a diagnosis of 'syncope' and no other info. Do you guys have some kind of magic algorithm or something?",
-        "color": "red"
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Wow, this is so interesting. I've never thought about the connection between vaginal bleeding during pregnancy and a history of sexual assault.",
+        "color": "lightcoral"
       },
       {
         "id": 9,
@@ -353,575 +315,338 @@
         "user": "Dr. Henry Oldman",
         "role": "CCFP",
         "city": "Victoria, BC",
-        "text": "Ha! Actually, I think a lot of us just use a combination of our clinical judgment and some guidelines. The AHA has some good resources on this, if you're interested.",
-        "color": "purple"
+        "text": "That's because you're in pre-med, Chad. In our field, we encounter patients with complex histories every day. It's essential to be aware of these complexities and approach patients with compassion and sensitivity.",
+        "color": "lightgray"
       },
       {
         "id": 10,
         "parent_id": 9,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "I'm afraid we're just getting too reliant on 'guidelines' these days. Back in my day, it was all about experience and observation.",
-        "color": "green"
-      },
-      {
-        "id": 11,
-        "parent_id": null,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "What about the role of genetics in sudden cardiac death in young athletes? Is it something we should be testing for?",
-        "color": "blue"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Dr. Maya Gupta",
-        "role": "EP",
-        "city": "Mississauga, ON",
-        "text": "Actually, Leo, genetics can play a role, but it's not the only factor. We should be thinking about other things like family history, sports performance, and personal characteristics.",
-        "color": "purple"
-      },
-      {
-        "id": 13,
-        "parent_id": null,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "I've just got one question: what makes a young athlete 'at risk' for sudden cardiac death?",
-        "color": "yellow"
-      },
-      {
-        "id": 14,
-        "parent_id": 13,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Actually, Sue, there are several risk factors, including a family history of SCD, certain genetic conditions, and even athletic performance itself. I've seen a few patients with no other risk factors who've still gone on to have a heart attack during exercise.",
-        "color": "red"
-      }
-    ],
-    "image": "https://cpr.heart.org/en/-/media/CPR-Images/Resources/CA-vs-HA/CA-vs-HA-Infographic-2025-895x1160min.jpg?sc_lang=en"
-  },
-  {
-    "posts": [
-      {
-        "id": 1,
-        "title": "Just saw a patient with significant trauma in pregnancy... TLDR; fetal-maternal hemorrhage is a thing",
-        "body": "Just saw a patient with significant trauma in pregnancy and I was reminded of how much I hate this topic... anyone else have any horror stories? So the patient had a motor vehicle collision and was brought in with severe abdominal pain and vaginal bleeding. We got the ultrasound and it looked like a nice little placental abruption so we started the appropriate treatment. But then we got the lab results back and it turns out our patient is Rh-negative and the baby's father is Rh-positive... so we've got a potential rhesus isoimmunization situation on our hands! Has anyone else dealt with this before? How did they handle it?",
-        "category": "trauma-in-pregnancy",
-        "comments": [
-          {
-            "id": 1,
-            "parent_id": null,
-            "user": "Dr. Maya Gupta",
-            "role": "PGY2",
-            "city": "Mississauga, ON",
-            "text": "Yeah, I had a case like this last year. We ended up transfusing the mom with Rhogam and keeping a close eye on the baby. We also gave her folate because it's like, super important for both mom and baby. Has anyone else seen any cases where this has gone pear-shaped?",
-            "color": "purple",
-            "responses": [
-              {
-                "id": 2,
-                "parent_id": 1,
-                "user": "Dr. Ziggy Zalesky",
-                "role": "EP",
-                "city": "Vancouver, BC",
-                "text": "Folks, don't forget about the other side of the coin... if the mom is Rh-positive, we've still got to worry about the baby being Rh-negative. Anyone have any tips on how to manage that scenario?",
-                "color": "green"
-              },
-              {
-                "id": 3,
-                "parent_id": 1,
-                "user": "Leo Chen",
-                "role": "MS1",
-                "city": "Montreal, QC",
-                "text": "Wait, so if the mom is Rh-negative and the baby's dad is Rh-positive... how does that even happen? Did she get pregnant with someone else's baby?",
-                "color": "blue"
-              },
-              {
-                "id": 4,
-                "parent_id": 1,
-                "user": "Turbo Tom",
-                "role": "RN",
-                "city": "London, ON",
-                "text": "Dude, get your patient a nice cup of folate and make sure she's on the Rhogam. But seriously, if we're worried about rhesus isoimmunization... can we just give her a c-section already? Am I wrong or does anyone else think that'd be a good idea?",
-                "color": "orange"
-              }
-            ]
-          },
-          {
-            "id": 5,
-            "parent_id": null,
-            "user": "Dr. Sarah Sharp",
-            "role": "EP",
-            "city": "Laval, QC",
-            "text": "Actually, I think the biggest concern with rhesus isoimmunization is the mom passing on those antibodies to the baby. Has anyone else seen a case where the baby ended up with hemolytic disease of the newborn?",
-            "color": "purple"
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "title": "Rant about pelvic floor injuries in pregnancy",
-        "body": "Has anyone else noticed how often we end up with pelvic floor injuries in pregnant patients? I mean, I get it... the uterus is pressing on everything and causing chaos, but can't we do better than this? So I saw a patient the other day and she had a third-degree hemorrhoid... like, what even is that? And it turns out we had another patient last week who had a rectal prolapse!",
-        "category": "gynaecology",
-        "comments": [
-          {
-            "id": 6,
-            "parent_id": null,
-            "user": "Sparkle-Eyes Sue",
-            "role": "LPN",
-            "city": "St. John's, NL",
-            "text": "You're tellin' me, love! I saw a patient last week with a prolapse so bad it was like it was trying to escape the poor woman's body!",
-            "color": "green"
-          },
-          {
-            "id": 7,
-            "parent_id": 6,
-            "user": "Dr. Archibald Thorne",
-            "role": "Physician",
-            "city": "Regina, SK",
-            "text": "My dear friends, let us not forget that these are often signs of a larger issue. Do we not suspect that these patients may have underlying pelvic floor muscle weakness or pelvic organ prolapse?",
-            "color": "blue"
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "title": "Case study: traumatic uterine rupture",
-        "body": "Case study for all you ER docs... Here's a patient I saw last week: [patient history here]... and the thing that really bugged me was that we missed a uterine rupture. Any of you have any thoughts on how we could have avoided this?",
-        "category": "surgery",
-        "comments": [
-          {
-            "id": 8,
-            "parent_id": null,
-            "user": "Dr. Brock Stone",
-            "role": "FRCSC",
-            "city": "Hamilton, ON",
-            "text": "Uterine rupture? I think that's more of a surgical error thing... unless you're saying that the patient had pre-existing risk factors, like a previous C-section or something.",
-            "color": "purple"
-          },
-          {
-            "id": 9,
-            "parent_id": 8,
-            "user": "Dr. Ziggy Zalesky",
-            "role": "EP",
-            "city": "Vancouver, BC",
-            "text": "Actually, Brock, most uterine ruptures are from traumatic injuries... like, you know, when someone gets punched in the gut really hard.",
-            "color": "green"
-          }
-        ]
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Haha, fair point, Dr. Oldman. I guess I still have a lot to learn.",
+        "color": "lightcoral"
       }
     ]
   },
   {
     "id": 1,
-    "title": "Frustrated with Pneumothorax Diagnosis - Need Ultrasound Guidance",
-    "body": "Had a miss last night with a patient who presented with sudden onset shortness of breath and a history of primary spontaneous pneumothorax. Chest X-ray confirmed a small pneumothorax, and the patient was discharged with a chest tube. But here's the thing: the ultrasound showed no Comet tail artifacts, no lung sliding, and no lung pulse. Just a big blank space. I know it was a small pneumothorax, but still... how can I improve my skills with pneumothorax diagnosis? Any tips on reading ultrasound? I'm usually pretty good with it, but this one stumped me. And what about the CT scan? Is it always necessary for pneumothorax diagnosis? TLDR: Help me improve my pneumothorax diagnosis skills, especially with ultrasound.",
-    "category": "emergency medicine",
+    "title": "Missed diagnosis last night, still kicking myself...",
+    "body": "Just had a patient come in with shock, and I'm still second-guessing myself. He had a BP of 80/40, cool to the touch, and O2 sat of 80% on room air. The triage nurse thought it was a decompensation of his known CAD, so we quickly got an ECG and started him on some nitrates and diuresis. However, as we began to dig deeper, we realized that he had a subtle presentation of cardiac tamponade. We quickly got a bedside US and confirmed the diagnosis. He ended up being intubated and transferred to the OR for emergency cardiothoracic surgery.",
+    "category": "Emergency Medicine",
     "comments": [
       {
-        "id": 2,
+        "id": 1,
         "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Great case, Dr.! First of all, let's talk about the importance of lung sliding and comet tail artifacts in pneumothorax diagnosis. These are two of the most reliable signs of a pneumothorax, and ultrasound can pick them up quickly. But what about that one case where the patient has a small pneumothorax and no sliding or comet tail artifacts? This is where CT comes in. A CT scan can confirm the presence of pneumothorax, even in small amounts. And yes, it's always necessary for pneumothorax diagnosis if the ultrasound results are ambiguous. Don't worry about your skills, Dr.; you're just experiencing a normal 'learning curve.' Link: <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4449643/>",
-        "color": "purple"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr., how can we tell if the patient has a small pneumothorax with no sliding or comet tail artifacts and the CT scan didn't pick it up? Should we be thinking about another condition, like atelectasis?",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 2,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Actually, Dr., I found a paper on this exact topic. According to it, when ultrasound doesn't show any sliding or comet tail artifacts, the next step is to use a specific ultrasound technique, called 'lung point sign detection.' Can you comment on that? ",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": 2,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Don't be too hard on yourself, Dr.! This stuff happens. In my experience, it takes thousands of cases before you get one like this. The key is to know what works and trust your instincts.",
-        "color": "purple"
-      },
-      {
-        "id": 6,
-        "parent_id": 1,
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "I had a case last week with a pneumothorax that had a lung point sign, but the ultrasound tech thought it was a bulla and said I should just readjust the transducer and try again. It turned out it was indeed a pneumothorax, but... Can this happen? Am I missing something here? Shouldn't we just trust the ultrasound results? And does the ultrasound tech even make a difference?",
-        "color": "green"
-      },
-      {
-        "id": 7,
-        "parent_id": 1,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "As one who has actually suffered from a pneumothorax, I would like to suggest that we shouldn't be too focused on the ultrasound results. Sometimes the most important thing is not what the doctor sees but how the patient feels. Can't we consider using more bedside testing, like physical exam, as an additional diagnostic tool?",
-        "color": "purple"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Well said, Barnaby. As healthcare workers, we shouldn't forget that our goal is to help patients. Let's put aside the technicalities and look for the bigger picture, which, in this case, is the patient's overall well-being. That means considering not only their symptoms and test results but also any pre-existing conditions. We should never overlook those crucial 'bedside clues'!",
-        "color": "green"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Aye, Barnaby, ye're absolutely right! We need to be focused on how our patients experience and respond to different treatments, not just the latest diagnostic fads. That's where the real patient-centered care comes in.",
-        "color": "purple"
-      }
-    ]
-  },
-  {
-    "id": 101,
-    "title": "Rant about managing pelvic fractures in the ED",
-    "body": "Just saw a patient with a complex pelvic fracture and I'm reminded how much I hate the old-school mentality that still exists in some EDs. We all have a patient come in with a suspected pelvic fracture, and the first thing we do is whip out the AP pelvis X-ray to check for bony injury. Now, I'm not saying it doesn't have its place, but let's be real, it's so last century. CT is where it's at, folks. We're not just evaluating for fracture, we're checking for pelvic ring instability, and that takes a CT.",
-    "category": "emedicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "",
-        "city": "Toronto, ON",
-        "text": "AMEN, brother! I had a similar case last week where the ER docs were debating whether or not to send the patient to OR for ORIF vs. just managing them on the ward. Meanwhile, I'm thinking, 'Guys, we need to get that CT stat and evaluate for pelvic ring instability before we start throwing around terminology.'",
+        "text": "This happens to the best of us! Did you guys get him to the OR quickly enough? Also, did you have any issues with getting an ultrasound bedside? I had a similar situation last week, and it took us an hour to get him to the trauma bay. Also, did you guys use POCUS or a bedside US machine? We just got our new Philips Lumify system, and I'm curious to hear about the differences.",
         "color": "purple"
       },
       {
         "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Thorne, can you explain to me what pelvic ring instability is and how it relates to the management of pelvic fractures?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "You're both getting a little carried away with this CT thing. Not everyone has access to it, and in many cases, the patient's clinical presentation and plain films will be sufficient. We don't need to over-rely on CT to make decisions in the ED.",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Dr. Sterling, can you provide a reference for your statement that plain films will be sufficient in evaluating for pelvic fractures and pelvic ring instability? I've read that CT is superior in this regard, but I'd love to see some evidence supporting your claim.",
-        "color": "orange"
-      },
-      {
-        "id": 5,
         "parent_id": 1,
         "user": "Turbo Tom",
         "role": "RN",
         "city": "London, ON",
-        "text": "As an ER nurse, I'm stuck in the middle of this debate. From what I've seen, CT is the way to go, but we need to have a clear protocol in place for when to order it and how to prioritize patients who need it.",
+        "text": "We ended up using the GE Venue, and it was pretty straightforward. I mean, getting the patient to the OR quickly wasn't easy, but the OR team was fantastic. They were prepped and ready to go, and we got him into the CPB in no time. As for the ultrasound, we actually got our first attempt at the subcostal view on the first go. It was a real game-changer, and I'm glad we invested in that tech. What about you guys, how's the Philips Lumify treating you?",
         "color": "green"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "Amen, Turbo! We need to have a clear plan for managing these patients and not just relying on individual ER docs' opinions. It's not about 'I think, therefore I am'; it's about evidence-based practice.",
-        "color": "green"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "That makes a lot of sense. What are some resources or guidelines that we can use to develop a clear protocol for managing pelvic fractures in the ED?",
-        "color": "lightblue"
-      },
-      {
-        "id": 8,
-        "parent_id": null,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "One thing to keep in mind when developing a protocol is to consider the specific needs of your institution, including access to resources and expertise. For example, we have a dedicated trauma center in my hospital, so our protocol is geared towards those patients. But in smaller hospitals, the protocol might be quite different.",
-        "color": "brown"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "That's a great point, Dr. Varkov. I've noticed that in smaller hospitals, sometimes ER docs might have to rely on outside resources or consulting services. How do we account for that in our protocol?",
-        "color": "orange"
-      },
-      {
-        "id": 10,
-        "parent_id": 1,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "I think it's worth mentioning that we need to consider the specific nuances of pelvic fractures in different patient populations. For example, older adults may have different presentation and management needs compared to younger patients.",
-        "color": "green"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "Excuse me, is this about me? I had a pelvic fracture a few months ago, and I remember it was a real ordeal. The docs made me have a CT scan, and then they sent me to the OR for surgery. It took a while for me to recover.",
-        "color": "red"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Barnaby, sweetie, I'm so sorry to hear that you went through that. But don't worry, we're here to make sure our patients get the best care possible. And that includes having an open and honest conversation about what to expect before they have their treatments.",
-        "color": "lightblue"
-      }
-    ],
-    "image": "https://i0.wp.com/www.aliem.com/wp-content/uploads/2017/07/Pelvic-Trauma-Binder-Position.jpg?resize=500%2C307&ssl=1"
-  },
-  {
-    "id": 1000,
-    "title": "Just saw a patient with Diabetic Ketoacidosis (DKA) who was also presenting with severe alcoholic ketoacidosis (AKA)...",
-    "body": "Just saw a patient with Diabetic Ketoacidosis (DKA) who was also presenting with severe Alcoholic Ketoacidosis (AKA).  Had a bit of a tough time differentiating between the 2 conditions in particular.  We started with IV hydration and got their blood glucose under control, but then I realized that we needed to focus on the anion gap metabolic acidosis.  We ended up running electrolytes to make sure we were replacing everything we needed, and we started an insulin drip to manage the glucose.  Still, I feel like there's always more I can do to improve my knowledge of these cases...TL;DR: patient with DKA and AKA - what should I prioritize?",
-    "category": "EmergencyMedicine",
-    "comments": [
-      {
-        "id": 2,
-        "parent_id": null,
-        "user": "u/DrArisThorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "One thing you should prioritize is the patient's fluid status and renal function. Alcoholic ketoacidosis can be associated with dehydration and renal impairment. Make sure to monitor their urine output and adjust your fluids accordingly. Also, don't forget to check for signs of volume depletion and adjust your treatment plan accordingly.\n\nHere's a good review article to look at: https://www.emedicine.medscape.com/article/1171110-review\n\nEdit: Oh, and don't forget to have a discussion about the patient's social situation and potential access to care!",
-        "color": "blueviolet"
       },
       {
         "id": 3,
         "parent_id": 2,
-        "user": "LeoChen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Thorne, how would you define volume depletion in this context?",
-        "color": "darkblue"
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "We actually saw a case last week where we used the Philips Lumify for a FAST exam, and it was amazing! The image quality was so much better than our old GE Venue, and it was way faster. We were able to identify a large pericardial effusion in no time. Has anyone else tried using the Lumify for any other applications? And what about the battery life? We're thinking of investing, but we want to know how it holds up in the field.",
+        "color": "blue"
       },
       {
         "id": 4,
-        "parent_id": 2,
-        "user": "SarahJenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "A recent study published in the Journal of Clinical Epistemology found that in patients with DKA, the presence of severe anion gap metabolic acidosis was associated with worse outcomes. Have you considered ordering a comprehensive metabolic panel (CMP) to identify potential causes of the acidosis?",
-        "color": "gold"
+        "parent_id": 1,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Did you guys use any contrast or did it just work on the default settings? We've been having some issues with the GE Venue and some of our patients are too dark or too light. We've tried adjusting the settings, but nothing seems to be working. Any suggestions would be greatly appreciated!",
+        "color": "green"
       },
       {
         "id": 5,
-        "parent_id": 4,
-        "user": "DrMuddle",
-        "role": "EP",
-        "city": "Regina, SK",
-        "text": "Wait, isn't the CMP just a bunch of unnecessary tests?  Isn't it more of a hindrance than a help?",
-        "color": "darkgreen"
+        "parent_id": null,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "TLDR: Cardiac tamponade! Great example of how a bedside US can save a life. Can someone explain to me why we didn't get the diagnosis sooner? Was it just a matter of not thinking of cardiac tamponade, or was there something else going on?",
+        "color": "purple"
       },
       {
         "id": 6,
         "parent_id": 5,
-        "user": "DrArisThorne",
+        "user": "Dr. Aris Thorne",
         "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "Actually, a CMP can be very useful in identifying potential causes of metabolic disturbances. It's not just about 'checking boxes' - it's about using a thoughtful and evidence-based approach to diagnose and manage DKA.  Plus, it's not like we're talking about a bunch of unnecessary tests here - we're talking about potentially life-saving interventions.\n\nThat being said, there are some scenarios where a CMP might not be necessary...like when the patient has a obvious reason for their DKA (e.g. insulin pump failure)\n\nTL;DR: not saying you're wrong, @DrMuddle...just clarifying the role of CMPs in DKA.",
-        "color": "violet"
+        "text": "Leo, it's a great reminder that as emergency physicians, we need to be thinking outside the box and consider all the possible causes of shock, even in the most obvious cases. In this patient's case, we may have been too focused on the CAD and didn't give cardiac tamponade enough thought. It's a classic case of 'don't forget to look for the elephant in the room!' And as for how we can improve our bedside US skills, we need to focus on practicing, practicing, practicing. With more experience, it becomes second nature.",
+        "color": "blue"
       },
       {
         "id": 7,
-        "parent_id": 2,
-        "user": "DrZiggyZalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Hey guys, I had a thought - what about using a more patient-centered approach to manage DKA? I mean, instead of just focusing on the 'lab values' and 'protocol adherence', we could try to understand what the patient's actual needs are and tailor our management accordingly. Has anyone else done this?",
-        "color": "fuchsia"
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I was also wondering, did you guys get the etiology of the tamponade? Was it a traumatic cause or something else?",
+        "color": "green"
       },
       {
         "id": 8,
         "parent_id": 7,
-        "user": "DrBarbMiller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Actually, I've been doing this for years and it makes all the difference. By taking a patient-centered approach, we can avoid getting bogged down in protocol and actually focus on providing compassionate care.",
-        "color": "red"
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "We actually found out that it was a small bleed into the pericardial space from a dissecting aneurysm of the thoracic aorta. The patient had a history of Marfan syndrome, so it was a bit of a long shot, but we should've had it in our differential. What I took away from this case was how easily a cardiac tamponade can be missed, and how a quick and accurate bedside US can make all the difference.",
+        "color": "purple"
       },
       {
         "id": 9,
-        "parent_id": 2,
-        "user": "DrSterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs. You're all just a bunch of medical novices. What you really need to do is learn some real medicine. Like, have you ever even heard of the term 'metabolic clearance rate'?  Didn't think so.",
-        "color": "gray"
+        "parent_id": 8,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "That's crazy! I had no idea that Marfan patients were at risk for dissecting aneurysms. Do we have any guidelines on when to get a CXR or CT scan in these patients? I feel like we're missing a lot of these cases in the ED.",
+        "color": "blue"
       },
       {
         "id": 10,
-        "parent_id": 9,
-        "user": "u/DrArisThorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Well, thank you, Dr. Sterling, for your... insightful commentary. Just a few questions - have you actually been involved in any real cases of DKA? Or are you just talking from theory?  And, by the way, the metabolic clearance rate is not exactly what I'd call a 'novel' term. It's old news, really.  TL;DR: love to learn, but hate being insulted!",
-        "color": "plum"
+        "parent_id": 1,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "I remember seeing a similar case last year, but the patient ended up having a post-CABG tamponade syndrome. It's worth remembering that cardiac tamponade can occur in the post-op period too, especially if there's been a CABG. We should be on the lookout for this diagnosis in any patient with a recent CABG who comes in with shock.",
+        "color": "green"
       }
-    ]
+    ],
+    "image": "https://image.slidesharecdn.com/approachtonon-traumaticshock-240202144719-b120083e/75/Approach-to-Non-Traumatic-Shock-in-Emergency-Setting-1-2048.jpg"
   },
   {
-    "id": 8,
-    "title": "Had a miss last night with acute urinary retention. What did I do wrong and how would you guys handle it?",
-    "body": "Cab saw a 70yo male with a 48hr history of dysuria, decreased urine output, and a severely distended bladder. I was the covering doc, and when I came in to relieve him, his bladder was so distended that I had to use a 20F catheter to drain it. Volumes were over 1.5L, despite being on IVFs and having no significant output for 48hrs.",
-    "category": "TIFU (Today I Failed Unintentionally) in the ER",
+    "id": 3,
+    "title": "...Saw a Patient with Sudden Amnesia and Suspected Sexual Assault... TLDR: Importance of Sperm Recovery and Chain of Custody in Sexual Assault Cases... ",
+    "body": "Just saw a patient with sudden amnesia and multiple injuries, suspected sexual assault case. The patient had a history of being out drinking and then suddenly feeling very intoxicated, woke up naked with genital soreness. After the assault, the patient douched and showered, which likely decreased the probability of sperm recovery and trace evidence. Had to think quickly and tailor the evidence collection to maximize the chances of recovering evidence. Had to consider the chain of custody and maintaining it throughout. Was wondering if anyone has any tips or advice on handling these types of cases?",
+    "category": "Emergency Medicine",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Had a similar case a few months ago. Key thing to look out for is whether the patient is able to void after cath insertion. If they're not, you may need to investigate further.",
-        "color": "purple"
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Always a tough case. In cases of suspected sexual assault, it's crucial to consider the patient's actions after the assault. In this case, the patient's decision to douche and shower likely compromised the evidence. I would have considered using a sterile rape kit and taking detailed notes on the patient's clothing and any potential physical evidence. Has anyone seen the guidelines on forensic evidence collection in sexual assault cases? It's essential to be up-to-date on the latest protocols. \n https://www.acog.org/Clinical-Guidance-and-Publications/Committee-Opinions/Committee-on-Obstetric-Practice/Obstetric-and-Gynecologic-Patient-Advisory-Counsel",
+        "color": "blue"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Aris, what kind of work up would you recommend? Do we need to get a kidney ultrasound, or just a CT scan?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs. This is a classic case of a simple retention, but you're overthinking it. Get the cath out and send the patient home with some NSAIDs.",
-        "color": "red"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Sterling, always love your condescending attitude, but this patient was in severe pain and had a huge bladder stone. Cath was the right call.",
-        "color": "blue"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Martha 'The Hammer'",
+        "user": "Turbo Tom",
         "role": "RN",
-        "city": "Halifax, NS",
-        "text": "As a seasoned ER nurse, I can tell you that patients with acute retention are often in a lot of pain, but it's not uncommon for them to try to 'hold it in' or avoid cathing. Make sure to talk to your patient and assess their pain before making a decision.",
+        "city": "London, ON",
+        "text": "RN here. In our ER, we have a protocol for handling suspected sexual assault cases. It includes a thorough head-to-toe examination, collection of evidence, and taking detailed notes on the patient's clothing and any potential physical evidence. We also emphasize the importance of maintaining the chain of custody throughout the process. Has anyone heard of the 'ICE' method for evidence collection in these cases? It's a simple acronym that helps us remember the essential steps: I - Intake and initial assessment, C - Collection of evidence, and E - Examination. We also make sure to get consent from the patient before collecting any evidence.",
         "color": "yellow"
       },
       {
-        "id": 6,
-        "parent_id": 1,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "What about the possibility of a ureteral obstruction? Have you considered getting a CT to rule it out?",
+        "id": 3,
+        "parent_id": null,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "I had a case like this a few months ago, and I was wondering if anyone could provide some feedback on my approach. I collected the evidence and examined the patient, but I didn't consider the potential for trauma to the patient's reproductive organs. Would you recommend a pelvic exam in all cases of suspected sexual assault, or are there certain indications for it?",
+        "color": "red"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "LPN here. In our nursing protocols, we emphasize the importance of a thorough head-to-toe examination in cases of suspected sexual assault. This includes a pelvic exam, which helps identify any potential trauma to the reproductive organs. However, it's essential to consider the patient's comfort and consent before proceeding with any examination. I find it helpful to use a patient-centered approach and explain the examination in detail to the patient.",
         "color": "orange"
+      },
+      {
+        "id": 5,
+        "parent_id": 2,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "As an experienced RN, I would recommend considering the patient's potential for injury beyond just the genital area. In cases of suspected sexual assault, the patient may have experienced trauma to their head, neck, or other areas of the body. It's essential to be vigilant and thorough in your examination to identify any potential injuries.",
+        "color": "purple"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Wait, how do you determine if the patient has suffered any trauma beyond just the genital area? Is there a specific examination or test you use?",
+        "color": "pink"
       },
       {
         "id": 7,
         "parent_id": 6,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Elena, isn't that pretty rare? Can you link to any papers or literature on the topic? I'd love to read more about it!",
-        "color": "pink"
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "As an experienced EP, I would recommend a comprehensive examination that includes a head-to-toe assessment to identify any potential injuries. This may involve a visual examination, palpation, and potentially imaging studies such as X-rays or CT scans. It's also essential to take a detailed history from the patient to identify any potential trauma or other medical conditions.",
+        "color": "green"
       },
       {
         "id": 8,
         "parent_id": 7,
-        "user": "Turbom Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Sarah, don't forget to consider the patient's symptoms and physical exam. It's not just about numbers and papers!",
-        "color": "brown"
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "I agree with Dr. Miller's approach. As a staff physician, I emphasize the importance of a comprehensive examination in these cases. It's also essential to involve a multidisciplinary team, including nurses, social workers, and mental health professionals, to provide support and care to the patient. Have anyone seen the guidelines on managing patients with suspected sexual assault? It's critical to provide evidence-based care and maintain a non-judgmental attitude.",
+        "color": "blue"
       },
       {
         "id": 9,
-        "parent_id": 1,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "Aristotle once said, 'We are what we repeatedly do. Excellence, then, is not an act, but a habit.' In emergency medicine, we must be diligent and thorough in our assessment, even in seemingly simple cases.",
-        "color": "green"
+        "parent_id": 8,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "I've seen some articles on the importance of maintaining a non-judgmental attitude in managing patients with suspected sexual assault. Do you have any recommendations on how to approach this in practice?",
+        "color": "red"
       },
       {
         "id": 10,
         "parent_id": 9,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Wait, didn't he also say something about habits being like a 'second nature' or something? I'm trying to learn more about the classics!",
-        "color": "blue"
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "As an ER doc, I would recommend using a patient-centered approach and focusing on the patient's needs and comfort. This means being sensitive to their concerns and feelings and providing empathetic care. I also find it helpful to use non-judgmental language and avoid making assumptions about the patient's experience. Remember, the patient's safety and well-being are our top priority.",
+        "color": "yellow"
       }
     ]
   },
   {
-    "id": "neonatal-emergencies-post",
-    "title": "Missed diagnosis in a neonate with hypoglycemia: a cautionary tale for emergency physicians",
-    "body": "Just saw a patient with a missed diagnosis of hypoglycemia in a neonate that I wanted to share with the community. The infant was brought to the ED at 3 days of age with lethargy, poor feeding, and seizures. Initial vitals were HR 180, BP 80/40, and temperature 36.5\u00b0C. After a quick assessment, we started IV fluids and glucose empirically, but the baby's condition worsened. A stat CBC, BMP, and lactate showed no signs of infection or acidosis. We then did a glucose level which was 35 mg/dL. The mother reported normal prenatal care and a normal delivery with no signs of distress. We quickly transferred the baby to the NICU and started high-dose dextrose therapy. The diagnosis was hypoglycemia due to a maternal insulinoma during pregnancy. I know this is a rare case, but it highlights the importance of considering unusual causes of hypoglycemia in neonates.",
-    "category": "today-i-learned",
+    "id": "today-i-learned-about-the-importance-of-anaesthetic-toxicity-with-local-and-regional-anesthesia",
+    "title": "Today I Learned about the Importance of Anaesthetic Toxicity with Local and Regional Anesthesia",
+    "body": "Just saw a patient with a fracture reduction where the EP used a hematoma block and I couldn't help but think about the nuances of local and regional anesthesia toxicity. I know we've discussed this in didactics, but it's always interesting to see it in practice. We can all agree on the concept that the total dose and rate of plasma concentration increase are key to avoiding toxicity, but what are some practical tips to minimize this risk in the ER?",
+    "category": "emergency-medicine-discussion",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "TLDR; hypoglycemia in a neonate due to maternal insulinoma. Great case! I've only seen a few cases like this in my career. Always a good reminder to think outside the box in these situations. One thing to note, were the maternal labs checked during pregnancy?",
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "**TLDR:** When performing regional blocks, it's crucial to monitor the patient's vital signs and neurovascular status closely, as signs of toxicity can be subtle and unpredictable. Always use ultrasound guidance if possible, and have a clear understanding of the local anesthetic agent's pharmacokinetics before administering. Don't forget to perform aspiration before injecting anesthetic into the perineural space. In addition to these basics, are there any specific techniques or strategies we can employ to minimize toxicity in the ER?",
         "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Thanks for sharing, Dr. Gupta. I was wondering if you could elaborate on what you mean by 'clear understanding of the local anesthetic agent's pharmacokinetics.' In our textbook, it says the maximum recommended dose varies by agent, but I'm not sure how to apply this in real-world scenarios.",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Leo, excellent question. I was referring to the pharmacokinetic profiles of common local anesthetics such as lidocaine, bupivacaine, and ropivacaine. Knowing the half-lives, volumes of distribution, and elimination rates of these agents can help you estimate the potential risk of toxicity and make informed decisions about dosing. For example, bupivacaine has a longer half-life than lidocaine, which means it may accumulate more rapidly and pose a greater risk of toxicity. Have you seen the chart on p. 234 of the Tintinalli textbook?",
+        "color": "purple"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
         "user": "Dr. Kevin Park",
         "role": "PGY1",
         "city": "Edmonton, AB",
-        "text": "Dr. Thorne, what are the typical tests ordered to diagnose a maternal insulinoma during pregnancy?",
+        "text": "This conversation hits home as I had a near miss last night with a hematoma block. I was so focused on getting the block done quickly that I forgot to aspirate before injecting the anesthetic and almost delivered it into a blood vessel. Thankfully, no harm was done, but it was a valuable lesson in staying vigilant. Can you share any other scenarios where you've seen toxicity arise from misusing regional blocks?",
+        "color": "orange"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "**Case Study:** One that comes to mind is a patient I saw with a three-in-one block gone wrong. The EP had failed to follow proper technique, and the anesthetic ended up seeping into the perineural space, causing a rapid escalation of toxicity. It took several attempts at reversal with sodium bicarbonate, and the patient ultimately required a cardiac arrest code. Needless to say, we re-trained the team on regional blocks and the importance of following guidelines.",
+        "color": "blue"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "I feel for you guys, but also want to say, wow, that's a crazy story! As pre-med, I'm taking pharmacology right now and our textbook has a whole section on local anesthetics and their potential for toxicity. Do you guys recommend any resources for pre-med students or even medical students to review this topic further?",
+        "color": "pink"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Actually, Chad, I highly recommend the ASRA's 'Local Anesthetics: A Practical Review' \u2013 it's an excellent resource for all clinicians, regardless of level. The article provides a comprehensive review of the topic, covering pharmacology, toxicity, and practical considerations. It's a must-read for anyone looking to improve their knowledge and skills in this area.",
         "color": "green"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Troll Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": ". Has anyone considered using some of the newer local anesthetic agents like levetiracetam or propofol for specific cases, or is this not commonly practiced?",
+        "color": "violet"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "Ha! I think Troll Tom is being facetious here, but for the sake of argument, let's say you're considering using these newer agents. While they do have some benefits, their use in local anesthesia is limited and not without controversy. It's essential to weigh the risks and benefits carefully and follow established guidelines.",
+        "color": "brown"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "No, no, I meant it, Brocks! Has anyone read this recent paper on levetiracetam's use in local anesthesia? I think it has some interesting implications for our field.",
+        "color": "teal"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Case Study: Near-Miss Pulmonary Embolism with a Twist",
+    "body": "Just saw a patient with a DVT that was initially misdiagnosed as a musculoskeletal issue. They presented with severe left leg pain and swelling, and I immediately sent them for a CT angiogram. Upon arrival, the ER doc called me asking if we needed to rush them to the OR, as the 'DVT was so bad, it had broken off and was about to cause a PE.' Fast forward to the CT scan, which revealed a small DVT in the popliteal vein... but also a large pulmonary embolism in the right main pulmonary artery. The patient had been on estrogen for the past 6 months, which increased their risk for VTE.",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "This reminds me of a case I saw last month where a patient had an estrogen patch for a uterine fibroid. She presented with sudden-onset dyspnea and was tachycardic, and we ended up diagnosing a PE. We started her on IV heparin and a factor Xa inhibitor but then sent her for a V/Q scan to rule out cardiac causes. It turned out her PE was actually a pulmonary thromboembolism that had caused a left-to-right shunt! ",
+        "color": "blue"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "I love how you always provide your pearls of wisdom, Dr. Gupta. However, I'd like to know: did you consider the possibility of a PTE in the left upper lobe, given the patient's symptoms and risk factors?",
+        "color": "orange"
       },
       {
         "id": 3,
@@ -929,160 +654,248 @@
         "user": "Dr. Kevin Park",
         "role": "PGY1",
         "city": "Edmonton, AB",
-        "text": "I found this article on Medscape that discusses the diagnosis of maternal insulinoma during pregnancy. Has anyone else seen this before? https://www.medscape.com/viewarticle/913143",
-        "color": "green"
+        "text": "OMG, @Dr. Gupta and @Dr. Sharp! This is a game-changer for me! I always think of PTEs as being in the lower lobes, not the upper. Can someone clarify how to diagnose PTEs on a CT scan?",
+        "color": "red"
       },
       {
         "id": 4,
         "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Love this case! As an RN, I've only seen one case of maternal insulinoma during pregnancy, but it was a doozy. The patient was a Type 1 diabetic who became pregnant. Did anyone else note the patient's history of diabetes during delivery?",
-        "color": "green"
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Good questions, @Dr. Park and @Dr. Sharp! The Wells' criteria can help guide our suspicion for PTE. @Dr. Sharp, regarding your question about PTEs in the upper lobes, we typically look for filling defects at the pulmonary artery bifurcation or in the upper lobe arteries. ",
+        "color": "teal"
       },
       {
         "id": 5,
         "parent_id": 2,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Excellent question from Dr. Park. Maternal insulinoma during pregnancy is a rare cause of hypoglycemia, and the diagnosis typically requires a high index of clinical suspicion. In this case, the patient's history of normal prenatal care and a normal delivery made it even more challenging. When I see a neonate with hypoglycemia, I always ask about the maternal history, including any diabetes or insulin use.",
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "You're both thinking too narrowly, imho. This patient had an estrogen patch, after all! I'm no expert, but isn't estrogen patch-induced VTE a contraindication for any anticoagulation? We should've called the patient's surgeon and had a stat ultrasound to check for DVTs in both legs!",
         "color": "purple"
       },
       {
         "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "@Dr. Sterling, are you sure about that? I thought estrogen was only a contraindication for anticoag in pregnant patients. We started this patient on apixaban after discussing the risks and benefits with her cardiologist. @Dr. Varkov, can someone clarify the role of ultrasound in diagnosing VTE in pregnancy?",
+        "color": "pink"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Great questions, @Dr. Gupta and @Dr. Sterling! We use ultrasound as a first-line diagnostic tool for patients with suspected VTE, especially if they're pregnant or have obesity-related VTE. We can get a good picture of the clot location and assess for deep vein thrombosis. @Dr. Gupta, regarding apixaban, I think we should link to some guidelines for using it in pregnancy.",
+        "color": "gray"
+      }
+    ],
+    "image": "https://www.saem.org/images/default-source/cdems/m4-curriculum/m4-fig-1-pulmonary-embolus.png?Status=Master&sfvrsn=298fc468_1"
+  },
+  {
+    "id": null,
+    "title": "Just saw a cardiogenic shock case at the hospital, had some great discussions with the team...",
+    "body": "Just wanted to share a case we saw last night in the ER. Patient is a 55-year-old male with a history of HTN and smoking. He presents to the ER with 2 hours of chest pain, radiating to his left arm and back. Initial vitals were BP 90/60, HR 120, RR 24, and O2 sat 92% on RA. ECG showed ST-elevations in leads II, III, and aVF. We quickly identified this as an AMI and started the patient on aspirin, clopidogrel, and heparin. Patient continued to deteriorate with hypotension and cool extremities, which led us to suspect cardiogenic shock. We inserted an IABP and started dopamine 10 mcg/kg/min, which helped increase the BP to 100/70. The question that sparked some debate among the team was whether to proceed with an emergency angiogram or wait for further stabilization. What are your thoughts, fellow EPs? Have you ever seen a similar case?",
+    "category": "Emergency Medicine Cases",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs. You're thinking about the patient's symptoms, but have you even seen the chest X-ray? I bet the patient has a pulmonary embolism. Let's not rush into angioplasty without ruling out PE!",
+        "color": "blue"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "@Victor, I think you're being a bit too harsh. We did get the CTA and it showed no significant PE. The echo did show some signs of RV dysfunction, though. What do you make of that?",
+        "color": "yellow"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "TBH, Victor, I think Maya's on the right track. Cardiogenic shock is pretty likely given the patient's hypotension and cool extremities. But hey, let's make sure we're not missing any underlying issues. @Maya, did they get any labs in yet? Maybe we can see if there's any evidence of cardiac damage?",
+        "color": "red"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Um, excuse me, but why did we start dopamine? Is it for the cardiogenic shock or not?",
+        "color": "pink"
+      },
+      {
+        "id": 5,
         "parent_id": 4,
-        "user": "Turbo Tom",
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Good question, Leo! Dopamine is typically used for cardiogenic shock to increase cardiac output. In this case, we used it to support the patient's BP until we could get the IABP in place. But @Leo, have you ever seen a case like this before?",
+        "color": "green"
+      },
+      {
+        "id": 6,
+        "parent_id": 3,
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "I'm with Victor. Let's not get ahead of ourselves here. Have we considered the possibility that this patient's condition is due to something more treatable than cardiogenic shock? Maybe a pulmonary embolism or even a ruptured AAA?",
+        "color": "orange"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Actually, I think we've already ruled out those possibilities. The CTA showed no PE, and the CT angiogram didn't show any evidence of an AAA. What's more, the patient's symptoms have been steadily worsening over the past few hours, which aligns with the diagnosis of cardiogenic shock. But @Brock, do you think we should be considering other causes of cardiogenic shock, like a possible myocardial infarction?",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "id": "HHS_CASE_STUDY",
+    "title": "Missed HHS Diagnosis: A Cautionary Tale",
+    "category": "Medical",
+    "body": "Just saw a patient with hyperosmolar hyperglycemic state (HHS) and I'm still kicking myself for the missed diagnosis. The classic 'type 2 diabetic with non-specific complaints' turned out to be a textbook example of HHS. I'm sharing this case to remind everyone to remain vigilant and consider HHS in patients presenting with hyperglycemia and volume depletion.\n\nThe patient was a 72-year-old man with a history of type 2 diabetes Mellitus. He presented with weakness, dyspnea, and altered mental status. Physical exam revealed signs of dehydration, orthostasis, and dry mucous membranes. Initially, I suspected a DKA case due to the elevated glucose levels. However, the serum osmolality was >315 mOsm/kg, and ketones were negative. This led me to consider HHS, but I still hesitated due to the absence of significant ketosis. In hindsight, I should have pursued further diagnostic tests, such as a serum electrolyte panel and a calculation of the anion gap.",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "TLDR: Never underestimate the importance of checking serum osmolality in hyperglycemic patients. The calculated serum osmolality (2 x [Na+] + glucose/18) is a simple yet crucial calculation that can help differentiate between HHS and DKA. I've seen many cases where the initial diagnosis was DKA, only to later discover that the patient actually had HHS. It's a reminder that we should always keep an open mind and consider the full clinical picture. One thing to note is that HHS patients often have a more pronounced hypernatremia (>> 160 mmol/L) compared to DKA patients. Has anyone else encountered similar cases?",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Ricky_RN",
         "role": "RN",
-        "city": "London, ON",
-        "text": "Yes, I did note the patient's history of diabetes during delivery. As RNs, we often think about the broader family history when assessing patients, but sometimes it's easy to overlook the specifics. Great reminder that even the most straightforward cases can have a surprising twist!",
+        "city": "Montreal, QC",
+        "text": "As an ER nurse, I've seen several cases where the initial diagnosis was incorrect. I had a patient once who was diagnosed with DKA but actually had a HHS. The serum osmolality was way over 330, and the bicarb was severely decreased. We ended up correcting the hyperglycemia and the dehydration, but not before the patient developed a severe metabolic acidosis. This was a real 'oh man' moment, let me tell you! So yeah, check that serum osmolality, folks! Here's a great resource on the topic: https://emedicine.medscape.com/article/1168646-overview.",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Great reminder, Dr. Thorne! I've had a few cases where I initially thought it was DKA, only to realize it was actually HHS. What I've noticed is that the HHS patients tend to have a more gradual onset of symptoms compared to DKA. Does anyone else experience this? Also, has anyone tried using insulin drips in these patients? I've heard mixed results but would love to hear your experiences.",
+        "color": "yellow"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "What's the typical approach to correcting the hyperglycemia in HHS patients? Is it similar to DKA, or is it more aggressive?",
+        "color": "orange"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Typically, we follow the same steps as for DKA, but with a few tweaks. For HHS, we often use higher insulin doses to correct the hyperglycemia, especially if the patient has a high glucose level or severe dehydration. However, we also need to be mindful of the risk of hypophosphatemia, so we might need to adjust the insulin dose and add phosphorus supplementation as needed. Does that make sense, or am I just spouting nonsense?",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Just saw a patient with neonatal respiratory distress and I'm still trying to wrap my head around the nuances of neonatal resuscitation. Can anyone share their experience or insights?",
+    "body": "I had a 1-day-old baby who was transferred to our ER with respiratory distress. The mom had a history of preeclampsia and a precipitous delivery. The baby was born at 38 weeks gestation, but the corrected gestational age was 36 weeks due to prematurity. The baby's weight was 3 kg, and the apgar scores were 4 and 6. We started with a 5-minute resuscitation, and then transitioned to a 15-minute resuscitation with mask ventilation and oxygen supplementation.",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "u/Dr_Aris_Thorne",
+        "role": "Physician",
+        "city": "Toronto, ON",
+        "text": "Well, fellow physicians, let's dive into the intricacies of neonatal resuscitation. The American Heart Association (AHA) guidelines have changed significantly over the years. One key takeaway is the emphasis on non-invasive ventilation (NIV) before invasive intubation. I've found that even with a small population of preterm infants, the benefits of NIV far outweigh the risks.",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "u/LeoChen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "That's fascinating, Dr. Thorne. What are the specific criteria for initiating NIV in neonatal resuscitation?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "u/Dr_Kevin_Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Dr. Thorne, what are your thoughts on the use of apnea of prematurity (AOP) scores in neonatal resuscitation? I've seen some papers suggesting that AOP scores can predict the likelihood of respiratory failure in preterm infants.",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "u/Dr_Aris_Thorne",
+        "role": "Physician",
+        "city": "Toronto, ON",
+        "text": "That's a great question, PGY1. The AOP score has indeed been a useful tool in predicting respiratory failure in preterm infants. However, we must remember that it's just one factor among many. I've found that careful evaluation of the infant's gestational age, birth weight, and postnatal age are also crucial in determining the risk of respiratory failure.",
+        "color": "green"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "u/SarahJenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "But don't we also need to consider the mother's health status, particularly in cases of preeclampsia like in the original post?",
+        "color": "green"
+      },
+      {
+        "id": 6,
+        "parent_id": 1,
+        "user": "u/Dr_Maya_Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Actually, I've found that maternal preeclampsia is a significant risk factor for preterm labor and subsequent respiratory complications in the newborn. Any thoughts on how to better anticipate these risks?",
         "color": "green"
       },
       {
         "id": 7,
-        "parent_id": 4,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Also, I'd like to ask, how do you think the diagnosis would have unfolded if the glucose level was not obtained in this case?",
+        "parent_id": 6,
+        "user": "u/Dr_Aris_Thorne",
+        "role": "Physician",
+        "city": "Toronto, ON",
+        "text": "Excellent point, Dr. Gupta. We should definitely take a more proactive approach in assessing maternal risk factors for preterm labor and respiratory complications. A thorough review of the medical history, combined with ongoing fetal monitoring, can help us anticipate these risks better.",
         "color": "green"
       },
       {
         "id": 8,
-        "parent_id": 5,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Dr. Thorne, in the article you linked, the author mentions that hypoglycemia in neonates due to maternal insulinoma during pregnancy is often transient and resolves with treatment. Can you speak to this?",
-        "color": "purple"
-      },
-      {
-        "id": 9,
         "parent_id": 7,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Love this conversation, but I do have to ask, what would be the typical follow-up plan for a neonate with a diagnosed insulinoma in the mother?",
-        "color": "green"
-      },
-      {
-        "id": 10,
-        "parent_id": 8,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Sarah, that's a great follow-up question. The article mentions that the prognosis is generally good, with most neonates experiencing full recovery. However, it's essential to continue monitoring their condition and adjust treatment as needed.",
-        "color": "green"
-      },
-      {
-        "id": 11,
-        "parent_id": 6,
-        "user": "Turbo Tom",
+        "user": "u/Turbo_Tom",
         "role": "RN",
         "city": "London, ON",
-        "text": "Great point about broader family history, Sparkle-Eyes! As an RN, I try to keep in mind the big picture when assessing patients. One thing that comes to mind is that I'll make sure to get maternal lab results and ask about family history of metabolic disorders during the interview.",
-        "color": "green"
-      },
-      {
-        "id": 12,
-        "parent_id": 1,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Hypoglycemia is always a concern in the ED, and I agree that we should be vigilant about considering unusual causes, especially in neonates. However, I'd like to caution that insulinoma is extremely rare and typically occurs in women with a history of Type 1 diabetes. Did anyone else feel like they overdiagnosed this one, even though it's a fascinating case?",
-        "color": "green"
-      },
-      {
-        "id": 13,
-        "parent_id": 12,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Agree with Dr. Miller. Insulinoma is a rarity, but the fact remains that we must be aware of it and consider it in our differential diagnosis. In a busy ED environment, it's easy to fall into trap of thinking 'but it's so rare... it can't be.' We have to train ourselves to be more mindful of less common diagnoses, especially in vulnerable populations like neonates.",
-        "color": "purple"
-      },
-      {
-        "id": 14,
-        "parent_id": 9,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Excellent follow-up question from Sparkle-Eyes Sue! Typically, follow-up involves continuous glucose monitoring and adjustment of treatment plans as needed. If the mother has a history of insulinoma, we may also monitor her for signs of recurrence.",
-        "color": "green"
-      },
-      {
-        "id": 15,
-        "parent_id": 14,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "A most instructive discussion, my dear colleagues. The complexities of pediatric care, particularly neonatal emergencies, demand our utmost attention and vigilance. In bygone years, we relied on more traditional approaches to diagnosis. Today, with the advent of modern technologies and increased awareness, we must remain ever-sensitive to the nuances of these cases.",
-        "color": "purple"
-      },
-      {
-        "id": 16,
-        "parent_id": 15,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Wow, this is a fantastic discussion! I'm taking away the importance of considering unusual causes of hypoglycemia in neonates, particularly in the context of maternal history. What if the mother had a previous history of gestational diabetes? Could that have altered the diagnosis?",
-        "color": "green"
-      },
-      {
-        "id": 17,
-        "parent_id": 16,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Good point, Chad! While maternal insulinoma is rare, it's essential to consider the broader family history and any potential confounding factors that might impact the diagnosis.",
-        "color": "purple"
-      },
-      {
-        "id": 18,
-        "parent_id": 12,
-        "user": "Dr. Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs like you are going to overdiagnose this and flood the ER with unnecessary tests and procedures. Mark my words.",
-        "color": "green"
-      },
-      {
-        "id": 19,
-        "parent_id": 18,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Dr. Sterling, I think it's essential to keep our discussion civil and respectful, even when we disagree. We strive for excellence in our profession, and overcautiousness is always better than undercautiousness when it comes to patient care.",
-        "color": "purple"
-      },
-      {
-        "id": 20,
-        "parent_id": 19,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Thank you, Dr. Thorne, for maintaining the tone of this discussion. I've learned so much from this conversation, and I think it's essential for us to continue these discussions to refine our understanding of rare cases like this.",
+        "text": "I've seen some great resources on neonatal resuscitation, including a recent review article in JAMA Pediatrics. Anyone familiar with it?",
         "color": "green"
       }
     ],
