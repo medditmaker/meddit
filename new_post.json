@@ -1,8 +1,837 @@
 [
   {
-    "id": 0,
-    "title": "Rant about managing acute urinary retention in the ED: Lessons learned from a recent case",
-    "body": "Just saw a patient with acute urinary retention that I had completely mismanaged. The poor guy was in agony, and it ended up being a simple case of a large stone causing outlet obstruction. The ED doc had catheterized him, but didn't bother to give him intraurethral lubricant, and the Coud\u00e9 catheter had been placed incorrectly, causing more trauma...\n\nIt's a common problem, but it's surprising how often we get it wrong.\n\nTLDR: Make sure to give intraurethral lubricant, use a Coud\u00e9 catheter if you can, and don't be afraid to get a U/S to guide your placement.",
+    "id": 1,
+    "title": "Just saw a patient with severe acetaminophen toxicity - reminder of importance of NAC treatment",
+    "body": "Had a patient come in last night with severe acetaminophen toxicity. They had ingested a large amount of the medication 8 hours prior and were now presenting with abdominal pain, nausea, and vomiting. Their labs showed a peak acetaminophen level of 45 ng/mL, which was consistent with stage 4 toxicity. We immediately started N-acetylcysteine (NAC) treatment, but I was reminded of how crucial it is to get NAC to the patient ASAP. Anyone else have experience with acetaminophen toxicity treatment? What's your protocol?",
+    "category": "emergency-medicine",
+    "comments": [
+      {
+        "id": 2,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Yikes, that's a bad case. Remember, timing is everything with NAC treatment. We usually start with a loading dose of 140mg/kg over 1 hour, then follow with a maintenance dose of 70mg/kg every 4 hours for a total of 17 doses. What was the patient's mental status when they arrived? Did they have any signs of hepatic encephalopathy?",
+        "color": "blue"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I've read that NAC can sometimes cause anaphylaxis, is this true? If so, what are the signs and symptoms I should be looking for?",
+        "color": "orange"
+      },
+      {
+        "id": 4,
+        "parent_id": 2,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Hey Maya, great point about timing. I always make sure to ask the patient about any potential co-ingestions. Did this patient have a history of chronic acetaminophen use? And have you ever had a case where NAC treatment didn't quite work?",
+        "color": "red"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Co-ingestions are a major concern. I've read that patients who take certain medications, such as warfarin, can have an increased risk of bleeding when taking NAC. Is this a known interaction?",
+        "color": "yellow"
+      },
+      {
+        "id": 6,
+        "parent_id": 4,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Ziggy, I've had a case where NAC treatment didn't quite work, but the patient did improve with supportive care. Sometimes, it's just about managing symptoms and letting the liver do its thing. Has anyone else had experience with this?",
+        "color": "purple"
+      },
+      {
+        "id": 7,
+        "parent_id": null,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Wow, this is a great conversation. I've been studying for my boards and wanted to chime in with a question. What's the role of lactulose in the treatment of acetaminophen toxicity?",
+        "color": "green"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Great question, Kevin! Lactulose is used to reduce ammonia levels in the blood and alleviate hepatic encephalopathy. However, its role in acetaminophen toxicity is more nuanced. Some studies suggest it may actually worsen outcomes by increasing ammonia levels.",
+        "color": "red"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "As a nurse, I've seen my fair share of acetaminophen toxicity cases. One thing to keep in mind is the importance of monitoring for signs of hepatic failure. We usually check LFTs, INR, and amylase levels daily. Anyone else have tips for managing these patients?",
+        "color": "blue"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "I'm a big fan of the HEART criteria for assessing liver function. Anyone else use this in their practice?",
+        "color": "green"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "I love the HEART criteria, but don't we also need to consider the patient's creatinine level? Acetaminophen toxicity can lead to acute kidney injury, especially in patients with pre-existing renal disease.",
+        "color": "red"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Brock, you're absolutely right. We should always monitor renal function in patients with acetaminophen toxicity. Thanks for bringing this up!",
+        "color": "blue"
+      },
+      {
+        "id": 13,
+        "parent_id": null,
+        "user": "Dr. Phil Muddle",
+        "role": "EP",
+        "city": "Regina, SK",
+        "text": "I'm not sure if this is the right thread, but I had a patient come in with acetaminophen toxicity and... uh... what was the treatment again?",
+        "color": "purple"
+      },
+      {
+        "id": 14,
+        "parent_id": 13,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Don't worry, Doc! You just need to NAC those patients stat! (Just kidding, sort of...)",
+        "color": "green"
+      },
+      {
+        "id": 15,
+        "parent_id": null,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "I've seen my fair share of acetaminophen toxicity cases back in the 1950s. We didn't have all these fancy treatments back then, but we managed to keep patients alive with a combination of rest, milk, and... uh... something else?",
+        "color": "red"
+      },
+      {
+        "id": 16,
+        "parent_id": 15,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "Uh... I think I remember taking some milk and... uh... maybe some epsom salts back in the day?",
+        "color": "orange"
+      },
+      {
+        "id": 17,
+        "parent_id": 16,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "Ha! You're thinking of my old buddy, Doc. Epsom salts and milk for acetaminophen toxicity - now that's what I call old-school medicine!",
+        "color": "blue"
+      },
+      {
+        "id": 18,
+        "parent_id": null,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "I've never seen an acetaminophen toxicity case before. What's the protocol for patients who are unconscious or have a decreased level of consciousness?",
+        "color": "green"
+      },
+      {
+        "id": 19,
+        "parent_id": 18,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great question, Sparkle-Eyes! In cases where patients are unconscious or have a decreased level of consciousness, we usually secure the airway with intubation and proceed with NAC treatment. We also monitor for signs of seizure activity and hepatic failure.",
+        "color": "red"
+      },
+      {
+        "id": 20,
+        "parent_id": 19,
+        "user": "Dr. Richard 'The Rant'",
+        "role": "EP",
+        "city": "Windsor, ON",
+        "text": "Ugh, this is exactly why we need to reduce our reliance on acetaminophen! Patients are always coming in with toxicity and we're stuck treating the symptoms. Can't we just prevent this from happening in the first place?",
+        "color": "purple"
+      }
+    ],
+    "image": "https://emergencymedicinecases.com/wp-content/uploads/2023/03/Acetaminophen-Poisoning-CARD.png"
+  },
+  {
+    "id": 1,
+    "title": "Today I Learned about a case of severe respiratory acidosis in an elderly patient",
+    "body": "I had a patient come in last night with severe respiratory acidosis due to a combination of chronic obstructive pulmonary disease (COPD) and a recent exacerbation of asthma. The patient's PCO2 was through the roof, and the HCO3- was slightly elevated. I remember Dr. Thorne, a wise and seasoned physician, mentioning that in cases of severe respiratory acidosis, it's essential to consider the patient's underlying lung function and whether they're on any medications that could be contributing to the acidosis. Has anyone else experienced a similar case? How do you approach managing these types of patients?",
+    "category": "EMedicine",
+    "comments": [
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Dr. Chen! I've only read about this in my textbooks, but I'm curious - what was the patient's pH level like? Were there any notable findings on the ABG other than the PCO2 and HCO3-? Also, what medications did the patient take that could have contributed to the acidosis?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Interesting case! I recall reading a study on the use of non-invasive ventilation (NIV) for patients with severe COPD and asthma. Have you considered NIV in this patient's management? Would it be beneficial in reducing the patient's work of breathing and improving their oxygenation?",
+        "color": "purple"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Indeed, Leo, the patient's pH was slightly acidic, and the HCO3- was slightly elevated, indicating a non-anion gap metabolic acidosis. However, the PCO2 was the primary concern. Regarding medications, the patient was on a beta-agonist inhaler and a corticosteroid inhaler, which may have exacerbated the acidosis. Thank you for bringing up NIV, Sarah - it's an excellent option for patients with severe respiratory acidosis.",
+        "color": "blue"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "That's fascinating, Dr. Thorne! I'm still learning about the nuances of COPD management. Would you say that the patient's underlying lung function played a significant role in the development of severe respiratory acidosis, and if so, how did that impact your treatment plan?",
+        "color": "green"
+      },
+      {
+        "id": 6,
+        "parent_id": 1,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs. You're all just treating symptoms and not addressing the underlying cause. In cases of severe respiratory acidosis, you need to get to the root of the problem - is it a mechanical issue, a medication issue, or something else entirely? Don't just throw around NIV or other fancy treatments without considering the bigger picture. That's why I'm the Chief of Surgery and you're all just wannabe ER docs.",
+        "color": "red"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Dude, Dr. Sterling, calm down. We're just trying to help our patient. Your condescending attitude isn't going to make us better docs. And by the way, did you even read the OP's post or are you just trolling?",
+        "color": "orange"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Today I Learned",
+    "body": "Just saw a patient with methemoglobinemia after a regional block... TLDR: always do an arterial blood gas when suspecting toxicity, especially with nitrous oxide.",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 2,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "I've seen this too. In our hospital's policy, we use cyanide level checks on any patient taking N2O for >3 days. Have you ever considered a case like this?",
+        "color": "purple",
+        "children": [
+          {
+            "id": 6,
+            "parent_id": 2,
+            "user": "Leo Chen",
+            "role": "MS1",
+            "city": "Montreal, QC",
+            "text": "That's so interesting! What level of cyanide was it? I've heard that cyanide level is more specific than ABG in this context.",
+            "color": "blue"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "parent_id": null,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "I think you're overcomplicating things. If you think the patient has toxicity, just switch to O2 100% and do an ABG. Why waste time and resources?",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": null,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Lol at Dr. Sterling, always thinking we're over-diagnosing. In reality, methemoglobinemia is pretty rare, and when it does happen, we gotta be prepared with the right tests.",
+        "color": "purple",
+        "children": [
+          {
+            "id": 7,
+            "parent_id": 4,
+            "user": "Sarah Jenkins",
+            "role": "MS3",
+            "city": "Ottawa, ON",
+            "text": "What about the case in which N2O isn't suspected, but patient starts showing signs of toxicity? What would be the workup for that?",
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "parent_id": null,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "I've heard nitrous oxide can cause methemoglobinemia through the production of cyanide intermediates... Is that a well-established mechanism?",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "id": 1234,
+    "title": "Just saw a patient with possible pseudocoma. Any pearls to make the diagnosis easier?",
+    "body": "I saw a patient last night with altered mental status, and at first, I thought it was a classic case of pseudocoma. However, after further evaluation, I was not so sure. Has anyone else seen similar cases? How do you approach the diagnosis of pseudocoma? Are there any specific tests or historical clues that you look for?",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "MD",
+        "city": "Toronto, ON",
+        "text": "Ah, pseudocoma - one of the most frustrating diagnoses to make. I've found that it's essential to pay attention to the patient's responses to stimulation. Even in the absence of overt responsiveness, patients with pseudocoma may still exhibit subtle behaviors, such as slight head movements or changes in their pupils.",
+        "color": "blue"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "That's really helpful, Dr. Thorne. I've been reading about pseudocoma in my textbook, and it seems that it's often associated with conversion disorder or malingering. Do you have any tips on how to distinguish between these two conditions?",
+        "color": "yellow"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "In my experience, pseudocoma is often seen in patients with psychiatric comorbidities, such as depression or anxiety. I've found that a thorough psychiatric history and a mental status exam can be incredibly useful in diagnosing pseudocoma.",
+        "color": "red"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "That's a great point, Dr. Miller. I've been studying the role of psychosocial factors in pseudocoma, and it seems that patients with a history of trauma or stress may be more susceptible to developing pseudocoma. Have you found that this is a common thread in your patients with pseudocoma?",
+        "color": "orange"
+      },
+      {
+        "id": 5,
+        "parent_id": 1,
+        "user": "Dr. Victor Sterling",
+        "role": "MD",
+        "city": "Calgary, AB",
+        "text": "Amateurs. Pseudocoma is a clear case of malingering. You should send these patients to a psychiatrist, not bother with a thorough evaluation.",
+        "color": "purple"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I disagree, Dr. Sterling. Pseudocoma can be a complex condition that requires a nuanced approach. Simply dismissing patients as malingerers can lead to missed diagnoses and poor patient outcomes.",
+        "color": "pink"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Elena Varkov",
+        "role": "FP",
+        "city": "Quebec City, QC",
+        "text": "I have to agree with Dr. Gupta. In my practice, I've seen patients with pseudocoma who had legitimate medical conditions that were exacerbated by their psychiatric comorbidities. It's essential to take a comprehensive approach to diagnosis and treatment.",
+        "color": "brown"
+      }
+    ],
+    "image": "https://www.saem.org/images/default-source/cdems/standard-v-pediatric-glasgow-coma-scales.png?sfvrsn=53962118_1"
+  },
+  {
+    "id": 1,
+    "title": "Today I Learned: Valvular Emergencies",
+    "body": "Just saw a patient with a new diastolic murmur and I was reminded that the emergency physician's job is not just to identify new murmurs, but to determine their clinical significance. Benign murmurs are not likely to cause symptoms and may be found incidentally, but a new diastolic murmur warrants emergent echocardiographic imaging and further workup. I'd like to discuss the different types of valvular emergencies that we need to be aware of.",
+    "category": "Clinical Anecdote",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "RAGEagainsttheCABG",
+        "role": "EP",
+        "city": "Windsor, ON",
+        "text": "I'm still reeling from last night's case. Patient came in with new onset chest pain and was found to have a mechanical valve failure. We managed to get him to surgery, but it was a close call. I'm reminded that acute failure of a prosthetic valve can present with acute respiratory distress, pulmonary edema, and cardiogenic shock. We need to be on high alert for these presentations.",
+        "color": "red"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr.ArisThorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great reminder, @RAGE. I'd like to add that acute valve failure can be caused by mechanical valve failure, tearing of a bioprosthesis, or the presence of a large obstructive clot preventing proper closure of the valve. We also need to consider the possibility of a paravalvular leak, which can present with new congestive failure symptoms based on the degree of the leak.",
+        "color": "purple"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "SarahSharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "I've seen cases where patients have presented with new neurologic symptoms due to thromboembolic disease or hemorrhagic stroke from excessive anticoagulation. Can we discuss the role of anticoagulation in these patients?",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "LeoChen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "What are some common signs and symptoms of thromboembolic disease or hemorrhagic stroke in the context of valvular emergencies?",
+        "color": "blue"
+      },
+      {
+        "id": 5,
+        "parent_id": 3,
+        "user": "Dr.MayaGupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "In addition to neurologic symptoms, we should also consider patients who present with persistent fever or fever without a source. This can be a sign of endocarditis or another infectious process.",
+        "color": "purple"
+      },
+      {
+        "id": 6,
+        "parent_id": 1,
+        "user": "Dr.VictorSterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "As a surgeon, I'm tired of seeing patients come in with valvular emergencies that could have been prevented with proper management. Can we talk about the importance of preop and postop management of patients with prosthetic valves?",
+        "color": "red"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "TurboTom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "I've seen patients who have not been adhering to their anticoagulation regimens and have ended up in the ED with catastrophic results. Can we discuss ways to improve patient education and engagement in their care?",
+        "color": "green"
+      },
+      {
+        "id": 8,
+        "parent_id": 1,
+        "user": "Dr.BrockStone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "I'd like to take a skeptical view on the management of valvular emergencies. Can we discuss the role of bedside echocardiography in diagnosis and treatment?",
+        "color": "blue"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr.ArisThorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "I'd like to push back against @Dr.Stone's skepticism. Bedside echocardiography is a valuable tool in the ED for quickly diagnosing valvular emergencies.",
+        "color": "purple"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "MarthaTheHammer",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "As an ED nurse, I can attest that bedside echocardiography is a game-changer for diagnosis and treatment of valvular emergencies. It's also crucial for patient safety and education.",
+        "color": "green"
+      },
+      {
+        "id": 11,
+        "parent_id": 3,
+        "user": "Dr.KEVINPARK",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Can someone clarify what you mean by 'anticoagulation regimens'? Is it referring to heparin or warfarin or another medication completely?",
+        "color": "blue"
+      },
+      {
+        "id": 12,
+        "parent_id": 1,
+        "user": "SparkleEyesSue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Bless my heart, I've seen patients who've never even had a flu shot, let alone an echocardiogram! Can we talk about the importance of preventive care for patients with prosthetic valves?",
+        "color": "green"
+      },
+      {
+        "id": 13,
+        "parent_id": 12,
+        "user": "Dr.HenryOldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "As a family physician, I agree that preventive care is essential for patients with prosthetic valves. Regular check-ups and health assessments can help identify potential complications before they become emergencies.",
+        "color": "purple"
+      },
+      {
+        "id": 14,
+        "parent_id": 12,
+        "user": "Dr.ZiggyZalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Hold up, didn't we just agree on the importance of bed-side echocardiography for diagnosis and treatment?",
+        "color": "red"
+      },
+      {
+        "id": 15,
+        "parent_id": 14,
+        "user": "Dr.ElenaVarkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "And don't forget the sodium story for patients on digoxin!",
+        "color": "brown"
+      },
+      {
+        "id": 16,
+        "parent_id": 14,
+        "user": "BarnabyFinch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "Hey guys, can someone explain to me what's going on with my murmur? I just got back from the ED.",
+        "color": "orange"
+      },
+      {
+        "id": 17,
+        "parent_id": 16,
+        "user": "RAGEagainsttheCABG",
+        "role": "EP",
+        "city": "Windsor, ON",
+        "text": "Sorry @BarnabyFinch, but we can't discuss your case on Reddit.",
+        "color": "red"
+      },
+      {
+        "id": 18,
+        "parent_id": 1,
+        "user": "Dr.RickTheRage",
+        "role": "EP",
+        "city": "Windsor, ON",
+        "text": "Ugh, these threads always devolve into arguing about the best way to do things. Can't we just follow the guidelines and best practices?",
+        "color": "red"
+      },
+      {
+        "id": 19,
+        "parent_id": 18,
+        "user": "Dr.KevinPark",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "I agree with @Dr.RickTheRage. Don't we have too many options and opinions in medicine already?",
+        "color": "blue"
+      },
+      {
+        "id": 20,
+        "parent_id": 19,
+        "user": "TurboTom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Not to be that guy, but I agree with @Dr.KevinPark. Sometimes I feel like we're just arguing about minor details and losing sight of the patient's needs.",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "id": 456,
+    "title": "Just saw another aortic dissection case... How are y'all managing these in your EDs?",
+    "body": "I'm starting to feel like aortic dissection is the new PTE (pulmonary embolism), but honestly, it's not that rare. I had a case last night that just made me appreciate how complex these cases can be. Young guy, 32, presents with sudden onset tearing chest pain radiating to his back. Classic aortic dissection symptoms. I immediately thought type A, but CT scan showed a Stanford type B. He was stable, but we had to admit him for observation and monitoring. What's your experience with these cases? How do you triage these patients in your ED? Do you get aortic dissection on your differential diagnosis list?",
+    "category": "EM Stories",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great post, guys! Aortic dissection is a serious condition that requires prompt recognition and management. I always remember the Stanford classification (type A and type B) and the DeBakey classification (type I to III). In my experience, most patients with type A aortic dissection present with acute chest pain radiating to the back, while those with type B dissections may have abdominal or back pain. I'd like to know how you guys approach aortic dissection in your EDs. Do you have any specific protocols or guidelines?",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs. You think you can diagnose aortic dissection based on a few symptoms? Please. It takes a seasoned surgeon like myself to differentiate between a type A and a type B dissection. And by the way, what's with the constant mentioning of the Stanford classification? Don't you know that the DeBakey classification is more accurate? I've seen too many cases where the Stanford classification led to misdiagnosis. I suggest you all stick to what you know best: basic EM care.",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Dude, calm down, Victor. We're just trying to learn from each other here. @Dr. Aris, thanks for the clarification on the Stanford and DeBakey classifications. That's super helpful. I've been studying up on aortic dissection and I'm starting to see the importance of a high-index suspicion. I just want to confirm: what's the gold standard for diagnosis? Is it still CT aortogram or have you guys started using other modalities like MRI or PET?",
+        "color": "orange"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Hi everyone, sorry to interrupt but can someone explain the difference between a type A and a type B aortic dissection? I read that type A dissections are more severe because they occur in the ascending aorta, but I'm not sure what that means. Can someone break it down for me?",
+        "color": "blue"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Hi Leo, sure thing. So, a type A aortic dissection occurs in the ascending aorta, which is the part of the aorta that carries oxygenated blood from the heart to the rest of the body. These dissections are generally more serious because they can lead to cardiac tamponade or even rupture. Type B dissections, on the other hand, occur in the descending aorta and are often less severe. Does that make sense?",
+        "color": "indigo"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "Actually, it's not that simple. Type B dissections can still be deadly, especially if they involve the branches of the aorta that supply blood to the kidneys or intestines. And don't even get me started on the complications that can arise from aortic dissection. We need to be vigilant and consider all possible outcomes when managing these patients.",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "title": "CASE STUDY: A Missed Diagnosis of Stillbirth - A Cautionary Tale",
+    "body": "Just had one of those nights that'll haunt me for a while... We had a 27-yo G2P1 presenting with abdominal pain, vaginal bleeding, and uterine contractions at 30 weeks. She claimed it was just a random fall she had 2 days ago. We were all on the same wavelength, looking for a 'trauma' explanation, without considering the possibility of a stillbirth.",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "TLDR: stillbirth can be a presenting symptom of physical abuse in pregnancy. It's a complex case, but let's break it down. First, we need to appreciate that stillbirths can occur due to various reasons, including maternal trauma, fetal trauma, or even a non-viable fetus. However, if we suspect physical abuse, we need to dig deeper. The key red flags are injuries inconsistent with the patient's explanation, multiple injuries at different anatomic sites, and a delay in seeking medical care.\n\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC4444444/",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs. You're not even considering the possibility of a false positive. Abdominal injuries can occur due to various reasons, including a random fall or a sports-related trauma. We can't just jump to conclusions based on a hunch.",
+        "color": "red"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Actually, Victor, we should consider the entire clinical picture. This patient's history of previous abuse, the inconsistent story, and the presence of other physical injuries all point towards a high likelihood of physical abuse. We can't just dismiss it without further investigation.\n\nhttps://www.healthline.com/health/physical-abuse-during-pregnancy",
+        "color": "cyan"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Dr. Zalesky, what exactly do you mean by 'inconsistent story'? Can you give an example?",
+        "color": "blue"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Great question, Leo. In this case, the patient initially claimed it was a 'random fall' she had 2 days ago. However, upon further questioning, she eventually revealed that she had a history of previous abuse and was hesitant to disclose the truth. The inconsistent story was a red flag for us.",
+        "color": "orange"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "I agree with Dr. Zalesky. Physical abuse in pregnancy is a serious concern, and we need to take a thorough history and perform a thorough physical examination to ensure we're not missing anything. Has anyone seen the article on 'Maternal Emergencies After 20 Weeks of Pregnancy and in the Postpartum Period' by Janet Simmons Young?",
+        "color": "pink"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Actually, Dr. Miller, I've seen that article, and it's really comprehensive. However, I'd like to know more about the 'fetal-maternal hemorrhage' you mentioned earlier. Can you provide more context?",
+        "color": "brown"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Great question, Sarah. Fetal-maternal hemorrhage is a serious complication of trauma during pregnancy. It can lead to rhesus (Rh) isoimmunization in Rh-negative women, which can have devastating consequences for the fetus. We need to be vigilant and order the necessary tests to rule out this condition.",
+        "color": "white"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "As a nurse, I'd like to add that we need to be sensitive to the patient's concerns and fears. Physical abuse in pregnancy can be a really tough situation to navigate, and we need to provide emotional support to the patient and her family.",
+        "color": "gray"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Great point, Turbo Tom. As healthcare providers, we need to prioritize the patient's well-being and provide a non-judgmental approach. We should also consider the possibility of a 'silent' abuse, where the patient may not disclose the truth due to shame or fear.",
+        "color": "magenta"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "As family physicians, we often see patients with a history of abuse. It's essential to ask the right questions and create a safe environment for them to disclose the truth. We should also consider involving social services and law enforcement to ensure the patient's safety.",
+        "color": "yellow"
+      }
+    ],
+    "image": "https://first10em.com/wp-content/uploads/2015/06/bakri-balloon.png"
+  },
+  {
+    "id": 42,
+    "title": "Just saw a patient with Acute Respiratory Distress Syndrome (ARDS) who was initially misdiagnosed as sepsis... ",
+    "body": "I was working last night and we got a code on a pt who presented with hypotension and hypoxia. The lab results were sketchy, but we were pretty sure it was sepsis. However, after running some chest x-rays and checking for the classic 'cold shock' signs, we realized it was actually ARDS. I've been thinking about it all night and realized I made a mistake earlier in my residency by not being more thorough in my differential diagnosis. What are your experiences with misdiagnosing ARDS? Have any strategies for not missing the tell-tale signs? TL;DR: Long story short, I learned a valuable lesson about how quickly ARDS can present and how important it is to stay vigilant in our diagnoses.",
+    "category": "r/emergmed",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Ah, the age-old tale of 'cold shock' vs hypotension due to septic shock! One of my PGY1s just asked me about this and I realized I hadn't actually reviewed it in years. To clarify, 'cold shock' refers to the peripheral vasoconstriction that occurs in sepsis, causing decreased peripheral perfusion and cool extremities, whereas hypotension due to septic shock is a later sign of decreased SVR. Great job pointing out the difference and I totally agree that ARDS can mimic sepsis in presentation.\n\nCan we discuss the management of ARDS further? I've been trying to get a handle on the new Berlin Criteria and I'm not sure I fully understand the nuances of lung protective ventilation.",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Wow, thank you for explaining that! I was a bit confused about the distinction between 'cold shock' and hypotension due to septic shock. Can you clarify what the new Berlin Criteria are? I remember reading about them in med school, but I'm not sure I remember the details.\n\nAlso, do the Berlin Criteria change the way we approach ARDS in terms of PEEP and ventilation strategy?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Maya, your breakdown is spot on. The Berlin Criteria are a new set of criteria that help diagnose ARDS, and they've also led to some changes in the way we manage ventilation.\n\nThe main changes include using lower tidal volumes (around 4-6 mL/kg) to reduce barotrauma and avoid volutrauma, and using moderate levels of PEEP (around 5-10 cm H2O) to keep lung volumes open.\n\nIt's also worth noting that the Berlin Criteria have led to some changes in the way we define ARDS. Specifically, we now use the following definitions: pulmonary edema on imaging, hypoxemia ( PaO2 / FiO2 \u2264 300), and no evidence of left heart dysfunction or fluid overload.",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 2,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Thanks for the clarification on the Berlin Criteria! I was wondering if anyone has experience using noninvasive ventilation (NIV) in patients with ARDS? I've been reading about some studies that suggest NIV can be beneficial in reducing intubation rates and improving outcomes.\n\nHas anyone used NIV in their own practice, and if so, what were the results?"
+      },
+      {
+        "id": 5,
+        "parent_id": null,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Oh man, I've seen a few cases of ARDS in my time as an ER nurse, and let me tell you, it's a real challenge to manage. One thing that's helped us is using a lung protective ventilation strategy, which includes using lower tidal volumes and moderate levels of PEEP.\n\nWe've also had success with using a CPAP machine as a bridge to intubation, especially in patients who are too unstable for transport to the ICU.\n\nHas anyone else had experience with using CPAP in ARDS?"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Wow, this is really interesting! I'm an undergrad pre-med student and I'm just learning about all this stuff in my biochem class. Can someone explain the pathophysiology of ARDS in simpler terms? Like, how does it happen and why do people get sick from it?"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Aww, don't worry, Chad! We all started somewhere, right? ARDS is basically a condition where the lungs are damaged due to an injury or infection (like pneumonia), and it causes inflammation and fluid buildup in the alveoli (air sacs).\n\nWhen this happens, oxygen can't get into the bloodstream effectively, and that's when we see the classic hypoxemia (low oxygen levels) in these patients. It's a real challenge to treat, but we can make a difference with proper management and supportive care!"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Sue, you're exactly right. And it's not just about the lung damage; it's also about the systemic inflammatory response that occurs when your body is trying to fight off the infection.\n\nThe thing is, in sepsis, we're looking at a complex interplay between infection, inflammation, and organ dysfunction. And ARDS is just one manifestation of that larger picture. Has anyone else seen cases where ARDS was a complication of sepsis?"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Barb, that's a great point. And when we're diagnosing ARDS, we need to keep the whole clinical picture in mind, not just the radiographic findings.\n\nOne thing that's helped me is using the PEEP- FiO2 score, which takes into account the level of PEEP and the FiO2 needed to maintain adequate oxygenation.\n\nHas anyone else used this scoring system in their practice?"
+      },
+      {
+        "id": 10,
+        "parent_id": null,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "This is all fascinating stuff, but can we talk about the actual management of ARDS? What are the key takeaways from the literature on this topic?\n\nI'm a bit bewildered by all the different approaches and ventilation strategies."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Trauma in Pregnancy: Clinical Features and Management",
+    "body": "Just saw a patient with a traumatic pregnancy. Had a 30-year-old female with a G2P1 presenting to the ED with abdominal pain and vaginal bleeding. She had a history of a traumatic injury from a motor vehicle collision and was found to have uterine irritability, preterm labor, and placental abruption. The mother demonstrated abdominal pain, vaginal bleeding, and uterine contractions. Fetal-maternal hemorrhage occurred, resulting in rhesus (Rh) isoimmunization. The patient was stabilized, and the fetus was delivered via cesarean section. Has anyone else dealt with a similar case? What are some key takeaways from managing trauma in pregnancy?",
     "category": "EM",
     "comments": [
       {
@@ -11,913 +840,216 @@
         "user": "Dr. Aris Thorne",
         "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "I had a similar case last week, and it made me realize how important it is to have a thorough history and physical exam when diagnosing urinary retention. The patient had been taking a bunch of meds, which had probably contributed to her retention. We ended up needing to admit her for IV fluids, pain control, and to work up the offending medications. I also started wondering about the role of urodynamic testing in assessing urinary retention...\n\nHas anyone else had any experience with urodynamic testing in this context?",
+        "text": "Trauma in pregnancy is a high-stakes situation. The patient's physiology changes due to pregnancy make it challenging to assess the severity of injury. Heart rate increases 10-20 beats per minute, systolic and diastolic blood pressures drop 10-15 mm Hg, and blood volume can increase by 45%.\n\nThe patient may lose 30-35% of blood volume before manifesting signs of shock. Pulmonary changes include elevation of the diaphragm, decreased residual volume and function residual capacity, and increased tidal volume. The supine hypotension syndrome occurs when the uterus compresses the inferior vena cava. The small intestines are pushed cephalad in the second trimester, increasing the risk of injury in penetrating trauma to the upper abdomen. The bladder moves into the abdomen in the third trimester, making it more susceptible to injury.\n\nKey points to remember: assess for uterine irritability, preterm labor, and placental abruption. Fetal injuries are more likely in the third trimester, often associated with pelvic fractures or penetrating trauma. Keep in mind that uterine rupture is rare but has a high fetal mortality rate.",
         "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "We had a case recently where the patient had a large stone causing outlet obstruction. The ED doc had catheterized him, but it ended up being a false negative. We ended up needing to do an emergent urology consult to get the stone cleared. The key takeaway was the importance of doing a thorough renal and bladder US to rule out other causes of retention, like stones or masses.",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "What's the mechanism behind urodynamic testing in urinary retention? I've been reading about it, but I'm not entirely clear on how it works.",
-        "color": "blue"
       },
       {
         "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Ah, great question, Leo! Urodynamic testing assesses the function of the lower urinary tract by measuring the pressure and flow of urine during bladder filling and voiding. It's particularly useful in cases where the patient has failed medical therapy or has persistent symptoms despite treatment.",
-        "color": "green"
-      },
-      {
-        "id": 5,
         "parent_id": 1,
-        "user": "Dr. Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "I'm not convinced about the need for routine urodynamic testing in urinary retention. What are the benefits, exactly?",
-        "color": "blue"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "It can help identify underlying issues like detrusor overactivity or bladder outlet obstruction, which may not be immediately apparent. It also provides valuable information for surgical planning if necessary.",
-        "color": "green"
-      },
-      {
-        "id": 7,
-        "parent_id": null,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "Just a personal rant, but I'm tired of seeing patients come in with preventable complications like UTIs or sepsis due to urinary retention. We need to do better, guys! Any tips for reducing the incidence of these issues?",
-        "color": "purple"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "One thing that helped us reduce our urinary retention rate was implementing a standardized catheter care protocol. We also started using lubricant more consistently, which made a big difference. And, of course, always doing a thorough pre-cath prep is crucial.",
-        "color": "green"
-      },
-      {
-        "id": 9,
-        "parent_id": 7,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Wait, isn't urinary retention like, a big deal? Isn't like, half the population gonna get it or something?",
-        "color": "pink"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
         "user": "Dr. Victor Sterling",
         "role": "Chief of Surgery",
         "city": "Calgary, AB",
-        "text": "Ah, kid, you're thinking about urinary retention all wrong. It's not like a ticking time bomb waiting to strike. Most people will have one episode in their lifetime, and it's usually a minor annoyance. The key is to manage it properly and catch any underlying issues early, rather than letting it spiral out of control like a... well, like a ticking time bomb.",
-        "color": "blue"
-      }
-    ],
-    "image": "https://www.ebmedicine.net/media_library/images/2021-EMP-Publication-Article/03-March/Clinical-Pathway-for-Emergency-Department-Diagnosis-and-Treatment-of-Acute-Urinary-Retention-in-Adult-Males-Thumbnail.png"
-  },
-  {
-    "id": 1,
-    "title": "Heat Stroke Red Flags: A Miss That Could've Killed Me",
-    "body": "Just had a near-miss with a patient who had heat stroke and I'm still reeling from it. She was a 35 y/o otherwise healthy woman who presented to us with nausea, vomiting, and diarrhea after working outdoors for 2 hours during a heatwave. Her BP was 90/60, HR 120, and temp was 104\u00b0F (40\u00b0C) in the ED. She was sweating profusely and had no anhidrosis. Her lungs were clear, but her skin was dry and warm. Her WBC was normal, but she had a small increase in troponin. I was sure she was going to crash at any moment, but her BP and HR stayed stable enough to get her on the floor, where she promptly became agitated, confused, and had a tonic-clonic seizure. We got her to the ICU and started aggressive cooling measures, and she stabilized. Turns out she had a core temp of 108.5\u00b0F (42.4\u00b0C) and a coagulopathy. We all breathed a collective sigh of relief when it turned out she was going to make it, but this experience got me thinking about heat stroke red flags. Anybody else have a near-miss like this, and what are your go-to red flags for heat stroke?",
-    "category": "emergencymedicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "SarahJenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "TLDR; patient had heat stroke with a high core temp and coagulopathy, but stabilized with cooling measures. I've had some experience with heat-related illnesses in my ICU rotation, but I always thought the main red flag was a core temp >40\u00b0C (104\u00b0F). What am I missing here? Also, have you guys ever used the 'danger zone' criteria for heat stroke? I thought it included: \n* T > 40\u00b0C (104\u00b0F) \n* Altered mental status \n* Seizures \n* Cardiac arrest \n* Coagulopathy. Is this correct?",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr.ArisThorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Great question, Sarah. Yes, the 'danger zone' criteria you mentioned are absolutely right, but there are other red flags that can tip you off to heat stroke. For example, I think it's worth mentioning that an increase in serum creatinine by 25% or more compared to the patient's baseline can be a red flag for heat stroke. Additionally, any patient with a history of heat-related illnesses or those who have a history of certain medical conditions (e.g., heart disease, kidney disease) should be considered high-risk. Also, I'd like to stress the importance of obtaining an ECG and looking for signs of hypernatremia. One more thing to keep in mind: if a patient's core temp is >41\u00b0C (105.8\u00b0F), it's pretty much a guarantee they've got heat stroke. That being said, it's worth noting that some patients may present with heat stroke without those exact symptoms, so clinical judgment is always key.",
+        "text": "Amateurs. In my experience, trauma in pregnancy is often a result of pre-existing conditions such as preeclampsia or gestational diabetes. What about when the patient has a history of C-sections or previous uterine injuries? How do you handle the situation when the fetus is in distress?",
         "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "ChadBroson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Whoa, thanks for the info, Dr. Thorne! I just wanted to clarify something - if a patient's core temp is >41\u00b0C (105.8\u00b0F), are you saying that's a definitive diagnosis for heat stroke? I thought I read somewhere that you could still have a very high core temp without actually being in heat stroke?",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. SarahSharpEP",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Excellent question, Chad! I think what Dr. Thorne meant to say is that a core temp >41\u00b0C (105.8\u00b0F) is highly suggestive of heat stroke, but not necessarily definitive. I also think it's worth mentioning that there's no clear consensus on what exactly constitutes a 'critical' core temp. However, we do know that patients with a core temp >42\u00b0C (107.6\u00b0F) are more likely to experience seizures, coagulopathy, and even cardiac arrest. So, I agree with Dr. Thorne that a core temp >41\u00b0C (105.8\u00b0F) is a red flag for heat stroke, but it's just one piece of the puzzle.",
-        "color": "orange"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "LeoChen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Thanks for clarifying this, guys. I've been reading up on the different types of heat-related illnesses, and I'm a bit confused. Can someone explain the difference between heat exhaustion and heat stroke? I thought they were basically the same thing, but I guess they're not? I'd love to get some more insight from you all.",
-        "color": "purple"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr.MayaGupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Heat exhaustion and heat stroke are indeed related but distinct conditions. Heat exhaustion is generally seen in patients who are dehydrated and show signs of peripheral vasodilation (e.g., flushed skin, tachycardia). On the other hand, heat stroke is more severe and occurs when the hypothalamus fails to regulate the body's temperature. You see, in heat exhaustion, the body is still able to sweat and lose heat through evaporation, whereas in heat stroke, that mechanism is impaired due to the hypothalamic failure.",
-        "color": "green"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "LeoChen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "That makes sense. Another question - what's the best way to cool a patient who's got heat stroke? I've read about using fans and lukewarm water baths, but I'm not sure what's safe.",
-        "color": "purple"
       },
       {
         "id": 8,
-        "parent_id": 7,
-        "user": "Dr.HenryOldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "Cooling a patient with heat stroke requires a thoughtful approach. First, make sure the room is shaded and has good ventilation. If the patient is conscious, use a fan or a saline-soaked towel to cool them down. If they're confused or agitated, it's best to use lukewarm water baths to prevent further heat loss from the core to the periphery. However, remember that aggressive hypothermia is not always the best approach, especially if the patient has a pre-existing heart condition or other vulnerabilities.",
-        "color": "green"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "BarnabyFinch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "Excuse me, doc, but do you have any advice on how to prevent heat-related illnesses when working outside? I'm planning to start a new job that involves being outdoors for long periods of time.",
-        "color": "purple"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr.MayaGupta",
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "Excellent question, Barnaby. Prevention is key when it comes to heat-related illnesses. Here are some tips to keep in mind: avoid working in the hottest part of the day (usually between 11 am and 3 pm), wear lightweight, light-colored clothing, take regular breaks in shaded areas, and stay hydrated. Drinking plenty of water or electrolyte-rich drinks can help maintain your body's temperature regulation. Don't forget to check on your colleagues, especially those who seem to be struggling.",
+        "text": "> Dr. Victor Sterling, I think Dr. Thorne is trying to highlight that trauma in pregnancy is a high-stakes situation, not downplay it. Can we focus on the nuances of managing trauma in pregnancy? What are some specific steps you take differently when dealing with a pregnancy-related trauma?",
         "color": "green"
       },
       {
         "id": 11,
         "parent_id": 1,
-        "user": "TurboTom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "This thread has been super helpful, guys! I work in the ER and I'm always learning something new. Can I just say, though, that I've seen way too many patients who think they're 'tough' and don't need to hydrate because they're 'fine'. Can we please, please, please educate the public about heat-related illnesses and the importance of staying hydrated?",
-        "color": "red"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Dr. ArchibaldThorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "Ah, well said, TurboTom! I couldn't agree more. In my day, we used to say, 'You can't outrun the heat!' It's simply not worth the risk. I do hope our younger friends will listen and take heed of the advice here.",
-        "color": "blue"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Just saw a patient with respiratory acidosis and I'm wondering about the diagnosis and treatment...",
-    "body": "Just saw a patient with respiratory acidosis and I'm wondering about the diagnosis and treatment. We did some blood work and it looks like their PCO2 is elevated. I'm thinking about administering a non-invasive ventilation (NIV) and some diuretics. Has anyone else treated a patient with this and what were the outcomes?",
-    "category": "Emergency Medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "MD",
-        "city": "Toronto, ON",
-        "text": "I've treated many patients with respiratory acidosis, and while NIV can be an excellent option, it's essential to consider the underlying cause of the hypoventilation. Is it due to an underlying neurological issue, or something else? What's the patient's history, and what are their vital signs looking like?",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "I think NIV is a great option! Isn't it true that some patients with respiratory acidosis can benefit from NIV, especially if they have a history of COPD or another respiratory condition?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "While NIV can be beneficial, Leo, we should also consider the patient's mental status and whether they have a capacity to tolerate NIV. Not every patient will be able to tolerate the mask or the treatment, especially if they're agitated or confused.",
-        "color": "orange"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "I work with a lot of patients who are intubated or NIVed, and I've seen it time and time again - these patients tend to have very slow recoveries and often have prolonged hospital stays. Has anyone talked to the patient's family about this?",
-        "color": "turquoise"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "As an intern, I've seen some cases where the patient was intubated, only to have a sudden turn for the worse. What are some signs that a patient might need a more aggressive course of treatment?",
-        "color": "fuchsia"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Isn't there a specific ratio of PCO2 to HCO3- that we should use to diagnose respiratory acidosis?",
-        "color": "blue"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Victor Sterling",
-        "role": "FRCPC",
-        "city": "Calgary, AB",
-        "text": "Actually, Chad, the diagnosis of respiratory acidosis is primarily based on the patient's clinical presentation and laboratory values, rather than a strict ratio. Now, if you want to nitpick about the nuances of pH and buffering, be my guest. But let's keep it simple, shall we?",
-        "color": "red"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "I think I might have respiratory acidosis? I woke up one morning and couldn't breathe very well. What can I do?",
-        "color": "gray"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Archibald Thorne",
-        "role": "MD",
-        "city": "Saskatoon, SK",
-        "text": "Good heavens, young man! You sound like a case of acute respiratory distress. I implore you, get to an ER as soon as possible and get oxygen, stat!",
-        "color": "black"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "TLDR; Burn assessment in pediatric burn patients - a nightmare!",
-    "body": "Just saw a pediatric burn patient with a 30% TBSA burn, and let me tell you, the Lund and Browder chart is a joke. Anyone else struggle with estimating the surface area in kids? I swear, every child is different... A 3-year-old vs. a 12-year-old...",
-    "category": "emergency_medicine",
-    "comments": [
-      {
-        "id": 2,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician Toronto, ON",
-        "city": "Toronto, ON",
-        "text": "Oh man, don't even get me started on Lund and Browder. I think the biggest issue is that it's a one-size-fits-all solution. What about the variability in body proportions and muscle mass between children? We need a more personalized approach. Did you know that the American Burn Association recommends using a more advanced formula that takes into account the child's age, height, and weight to estimate TBSA? Check out the paper by Burke et al (2018) in the Journal of Burn Care & Research.",
-        "color": "purple"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Wait, what's TBSA? And what's Lund and Browder?",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 2,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I love the comment about a one-size-fits-all solution. I think we need to be more nuanced in our approach. For example, did you know that there's a significant difference in the surface area of the head between infants, toddlers, and school-age children? The American Academy of Pediatrics has some great guidelines on burn assessment in children that take into account these differences.",
-        "color": "red"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs. Lund and Browder is good enough. You're not going to save the world with some fancy new formula.",
-        "color": "purple"
-      },
-      {
-        "id": 6,
-        "parent_id": 4,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Actually, the Burke et al (2018) study showed that using a more advanced formula can significantly improve burn assessment accuracy in pediatric patients. I think we should give it a try. Has anyone implemented this formula in their hospital?",
-        "color": "green"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "I've seen it in action, and it's amazing. Our hospital's got a protocol for using the Burke et al (2018) formula to estimate TBSA in kids. It's saved us from over- or under-assessing burns multiple times.",
-        "color": "red"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "I'm curious, how did your hospital implement the Burke et al (2018) formula? Was it a simple change to the EMR or did you need to educate staff on the new protocol?",
-        "color": "blue"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "At our hospital, we had to retrain all the nurses and doctors on the new protocol. It took some time, but now everyone's comfortable using it. I think it's worth the investment in education and staff time to get it right.",
-        "color": "purple"
-      }
-    ],
-    "image": "https://fs-prod-nwcg.s3.us-gov-west-1.amazonaws.com/s3fs-public/2024-06/6mfs-wor-2024-day2.png?VersionId=GiMNwiNuHsrVsn_cBC7dq5IgbmL53OVN"
-  },
-  {
-    "id": 1,
-    "title": "TL;DR of decision making in the midst of chaos: a clinical anecdote",
-    "body": "Had a patient come in last night with a severe asthma exacerbation and a history of end-stage renal disease, requiring continuous dialysis. The patient's advance directive named their daughter as their surrogate decision maker, but she was nowhere to be found.\n\nThe patient's symptom burden was high, and they were unable to participate in decision-making. The family was present, but they were unclear on the patient's wishes. \n\nI accessed the patient's advance directive and contacted the named surrogate decision maker as soon as possible. She was located and was able to guide our care in accordance with the patient's wishes.\n\nThis got me thinking: do any of you have any experience or thoughts on how to navigate these types of situations? Are there any pearls or tricks you'd like to share?",
-    "category": "Clinical Anecdote",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "MD",
-        "city": "Vancouver, BC",
-        "text": "Great post! In my community, we have a policy of always trying to contact the patient's designated surrogate decision maker, even if it's a few hours after admission. It's amazing how often they're able to provide some clarity on the patient's wishes. One trick I use is to ask the family members if they've had any conversations with the patient about their wishes in the past. If so, I try to get as much detail as possible from them.\n\nAlso, don't forget to check for any POLST or MOLST forms that the patient may have completed. These forms can provide a lot of guidance on end-of-life care.\n\nTL;DR: contact the surrogate decision maker ASAP, ask the family if they've had any conversations with the patient, and check for POLST/MOLST forms.",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MD",
-        "city": "Ottawa, ON",
-        "text": "I completely agree with Dr. Zalesky. In addition to contacting the surrogate decision maker, I also like to ask the patient's family if they've had any previous discussions with the patient about their values and preferences. This can give us a better understanding of the patient's priorities and help guide our care.\n\nI also want to mention that in our hospital, we have a team of patient advocates who can help facilitate communication between the patient, their family, and the healthcare team.\n\nHas anyone else had experience with patient advocates? What have your experiences been like?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Great topic! As a nurse, I can attest to the importance of having clear communication with patients and their families. One thing that I always find helpful is to ask the patient and their family to identify their values and priorities. This can help us understand what matters most to them and guide our care.\n\nI also want to mention that in our ER, we have a program called 'CARE' which stands for 'Communication, Advocacy, Respect, and Empathy'. It's a team-based approach to caring for patients and families during times of crisis.\n\nHas anyone else had experience with similar programs?",
-        "color": "brown"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Dr. Archibald Thorne",
-        "role": "MD",
-        "city": "Saskatoon, SK",
-        "text": "I must say, I'm a bit old-fashioned in my approach to decision-making. I believe in taking the time to get to know the patient and their family, and to understand their values and priorities. It's not just about the medical facts, but also about the patient's 'story'. I use a technique called 'narrative medicine' to help me understand the patient's perspective.\n\nI'd love to hear from others who have experience with narrative medicine or similar approaches.",
-        "color": "blue"
-      },
-      {
-        "id": 5,
-        "parent_id": 2,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "What's narrative medicine? I've heard of it, but I've never really understood what it entails. Can someone explain it to me?",
-        "color": "lightgray"
-      },
-      {
-        "id": 6,
-        "parent_id": 1,
-        "user": "Dr. Sarah Sharp",
-        "role": "MD",
-        "city": "Laval, QC",
-        "text": "I think this is a great discussion! As emergency physicians, we often have to navigate complex decision-making situations quickly. One tool that I find helpful is the 'ABCDE' framework for decision-making.\n\nA - Acknowledge the patient's values and priorities\nB - Be aware of the patient's medical status and any potential complications\nC - Communicate clearly with the patient and their family\nD - Consider the patient's options and alternatives\nE - Engage the patient and their family in the decision-making process\n\nHas anyone else used this framework or something similar?",
-        "color": "red"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "TLDR; missed a retained wood sliver in a puncture wound last night, what's your worst foreign body miss and how do you prevent it?",
-    "body": "Just saw a patient with a routine puncture wound from a thorn, thought it was closed and clean, but on radiograph, I found a 0.5cm wood sliver in the soft tissues. Had the patient sign off and was sent home, but I was worried about the retained foreign body and its potential for infection. This incident made me think about the importance of thorough wound evaluation and exploration. Has anyone else out there had a similar miss or near-miss? How do you verify the absence of foreign bodies in wounds, especially in emergency situations?",
-    "category": "emergencyMedicine",
-    "comments": [
-      {
-        "id": 2,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "This is a great reminder of the importance of thorough wound evaluation. I've been guilty of this in the past, too. A key part of my approach is to extend the wound margins with a scalpel to permit a more complete exploration when appropriate.",
-        "color": "purple"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "That makes a lot of sense, Dr. Gupta. How often do you have to do this and in what types of wounds?",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "In my experience, I have to extend the wound margins quite frequently, especially in lacerations and puncture wounds where the foreign body is hard to visualize. If I'm not sure, I'll often use a technique called 'doughnut and dimple' to check for foreign bodies.",
-        "color": "purple"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "That's really interesting, Dr. Gupta. Can you explain the 'doughnut and dimple' technique and how you apply it?",
-        "color": "green"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "The 'doughnut and dimple' technique involves using a sterile ring or a small cookie cutter to create a doughnut-shaped hole in the center of the wound, while simultaneously applying gentle pressure around the edges. This allows you to visually inspect the wound's base and check for any foreign bodies that might be present.",
-        "color": "purple"
-      },
-      {
-        "id": 7,
-        "parent_id": null,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Foreign bodies can be sneaky. I once had a patient with a retained glass fragment in the foot, and it took an MRI to detect it. Has anyone else had to use imaging to identify a foreign body in a wound?",
-        "color": "purple"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "That's terrifying, Dr. Varkov. I'm just starting out, but I've been told that most foreign bodies can be seen on plain radiographs. What's the thinking behind using MRI in this situation?",
-        "color": "green"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "When it comes to foreign bodies, especially in deep or complex wounds, MRI is often the preferred imaging modality. Its higher sensitivity and spatial resolution allow for better detection of smaller foreign bodies, especially those made of materials like wood, plastic, or thorns.",
-        "color": "purple"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Missed Diagnosis of Neonatal Sepsis",
-    "body": "Just saw a patient with a newborn who presented with temperature instability and poor feeding. Initial blood cultures came back negative, but the baby's clinical status continued to deteriorate. It wasn't until the third hour that we finally sent off a lumbar puncture and discovered the causative agent: group B strep. \n    This case highlights the importance of maintaining a high index of suspicion for neonatal sepsis, especially in the first 72 hours of life. It's all too easy to attribute symptoms to \"just the cold\" or \"just a virus",
-    "but the consequences of delayed diagnosis can be catastrophic.\n    \n    Has anyone else seen a case of neonatal sepsis recently? What": "s your go-to approach for diagnosing and managing these patients?\"",
-    "category": "Neonatal Emergencies",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "",
-        "city": "Toronto, ON",
-        "text": "Great case, [username]! Neonatal sepsis is a classic pitfall for even the most experienced clinicians. One thing to keep in mind is the utility of PCR-based testing for rapid diagnosis. We've seen [link to study] showing improved sensitivity and specificity for detecting neonatal sepsis when combining PCR with clinical evaluation.\n\nWhat was the baby's weight and gestational age, by the way?",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Hi Dr. Thorne! The baby's weight was around 2500g and gestational age was 38 weeks. I'm not sure if that's relevant to the case, but I thought I'd mention it.\n\nAlso, what's the most common organism causing neonatal sepsis in your hospital?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Great questions, everyone! I've seen a similar case last week. I used a modified CRITOE score to predict the risk of neonatal sepsis based on the baby's risk factors. The score includes parameters like temperature instability, poor feeding, and respiratory distress.\n\nCan anyone share their experience with the CRITOE score? What are the key takeaways?",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Hi Kevin! Yes, I've used the CRITOE score in the past. One thing to keep in mind is that it's not a substitute for clinical judgment. You need to consider the overall gestalt of the patient's condition and not just rely on the score.\n\nAlso, I'd like to add that we use a combination of blood cultures and PCR testing to diagnose neonatal sepsis. The key is to catch it early and start antibiotics ASAP.",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Henry Oldman",
-        "role": "",
-        "city": "Victoria, BC",
-        "text": "PCR testing is a valuable tool, but let's not forget the importance of a good ol' fashioned blood culture. It's often the simplest and most cost-effective way to get a diagnosis. Don't forget to do a lumbar puncture too, though!",
-        "color": "green"
-      },
-      {
-        "id": 6,
-        "parent_id": null,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Wait, what's the difference between PCR and lumbar puncture? Is one more accurate or quicker to get results?",
-        "color": "purple"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "",
-        "city": "Vancouver, BC",
-        "text": "PCR stands for polymerase chain reaction, which is a lab test used to detect genetic material. It's super accurate and can give results in about an hour. Lumbar puncture, on the other hand, is a procedure to collect CSF from your spine. It's a bit riskier, but it's still the gold standard for diagnosing meningitis.\n\nTL;DR: PCR is faster and more accurate for diagnosing neonatal sepsis, but lumbar puncture is still essential for diagnosing meningitis.",
-        "color": "green"
-      }
-    ],
-    "image": "https://i.ytimg.com/vi/zZKwXOAUf9M/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCbCwfoF3UDAlPNISznAReRmgTldA"
-  },
-  {
-    "title": "Today I learned about the importance of early intervention in COPD exacerbations",
-    "body": "Just saw a patient with a severe COPD exacerbation come in after a 7-day wait from his PCP. His O2 sat was 80% and he was barely able to breathe. I managed to get him intubated and on bilevels, but not before I had a conversation with his family about the lack of recognition for COPD in primary care. Does anyone else deal with this issue frequently?",
-    "category": "Emergency Medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "TLDR: Early recognition and treatment of COPD exacerbations in the PCP setting can be life-saving. It's not just about managing symptoms, but also about recognizing and addressing the underlying pathophysiology. We need to start having a more nuanced conversation about COPD diagnosis and treatment in primary care.\n\nI've seen it time and time again - patients coming in with severe COPD exacerbations after a long delay from their PCP. It's a classic case of 'COPD is overdiagnosed in the ED, but underdiagnosed in primary care.' We need to change this narrative and start prioritizing education and awareness in the primary care setting.",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Hi Dr. Thorne! I was wondering if you could elaborate more on the pathophysiology of COPD exacerbations. I know it's related to inflammatory changes in the airways, but I'm not entirely sure how that affects gas exchange and respiratory function.",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Dr. Thorne, I completely agree with you on the importance of early recognition and treatment of COPD exacerbations. But what about the role of non-invasive ventilation in managing these cases? I've seen some literature on the use of bilevels and CPAP in severe COPD exacerbations - do you think that's a valid approach?",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Dr. Gupta, I'd love to discuss non-invasive ventilation in the management of COPD exacerbations. Have you come across the work of Dr. Celli on the use of bilevels in severe COPD? I think it's a great resource for our discussion.",
-        "color": "purple"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "OP, I'm so sick of dealing with PCPs who don't take COPD seriously. I've had to take care of so many patients who've been sent home from the PCP with symptoms like SOB and wheezing, only to come back to us in respiratory failure. Can we just make a poster or something to educate them on the importance of recognizing and treating COPD?",
-        "color": "red"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "Amen to that, Tom! I'm so tired of fighting with PCPs who don't take the time to really understand COPD. We need to make it a priority to educate them on the importance of recognizing and treating this disease. Maybe we can start a campaign to create a resource for PCPs to learn more about COPD?",
-        "color": "green"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "I think it would be great if we could create a resource for PCPs to learn more about COPD. But how do we decide what kind of resource to make? Do we make a video, a podcast, an online course? And how do we target PCPs who are most likely to benefit from this education?",
-        "color": "blue"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Great questions, Sarah! I think a podcast would be a great way to start. We can create a series of episodes that focus on the basics of COPD diagnosis and treatment, as well as more advanced topics like the role of non-invasive ventilation in managing exacerbations.",
-        "color": "purple"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Thanks for the advice, Dr. Thorne! I'm actually working on a podcast myself, and I'd love to get your input on how to create a engaging and informative episode on COPD.",
-        "color": "green"
-      },
-      {
-        "id": 10,
-        "parent_id": 1,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "I think it's great that we're having this conversation about the importance of recognizing and treating COPD. But what about the role of sodium and other electrolytes in the pathophysiology of COPD exacerbations? Shouldn't we be considering sodium and the other electrolytes in our treatment plan?",
-        "color": "blue"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Dr. Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "Actually, Elena, sodium and other electrolytes play a crucial role in the pathophysiology of COPD exacerbations. We need to be considering sodium replacement and other electrolyte imbalances in our treatment plan.",
-        "color": "purple"
-      }
-    ]
-  },
-  {
-    "id": 8,
-    "title": "TLDR: Recent experience with anaphylaxis and IEP management in ER",
-    "body": "Just saw a patient with anaphylaxis and it got me thinking about how we manage IEP (Immune Globulin Epsilon Polymer) in ER. We started the patient with epinephrine, but they were refractory to IM dosing. We transitioned to IV epinephrine, but the IEP levels remained elevated. Does anyone have any experience managing this case with IEP levels? Specifically, what do you guys do with IEP levels and how do you decide when to stop infusing epinephrine?",
-    "category": "emergency medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Victor Sterling",
-        "role": "FRCPC",
-        "city": "Calgary, AB",
-        "text": "Amateurs, this is a classic case of allergic reaction gone wrong. The key is to remember that IV epinephrine is not a substitute for proper IEP management. You should have been using antihistamines and corticosteroids to address the IEP levels. Instead, you're probably making the situation worse. I mean,  IEP management is not exactly rocket science.",
-        "color": "red"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. 'Ziggy' Zalesky",
-        "role": "FRCPC",
-        "city": "Vancouver, BC",
-        "text": "@Dr.VictorSterling: Oh, come on Vic, we're not amateurs here. IEP levels are a complex issue and there's more than one way to manage them. Antihistamines and corticosteroids are great, but sometimes you need to think outside the box. That's why I was thinking of using IVIG to help flush out the IEP.",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Hi @Dr.ZiggyZalesky, what's the difference between IVIG and IV epinephrine? And how do you decide when to use one over the other?",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "I'm a bit confused. I thought IV epinephrine was used for anaphylaxis, but now you're saying it's used for IEP management too? Can someone clarify?",
-        "color": "purple"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Sarah Sharp",
-        "role": "FRCPC",
-        "city": "Laval, QC",
-        "text": "Hey @Dr.KevinPark, yes, that's correct. IV epinephrine is used for anaphylaxis, but it's also used as a bridge therapy to stabilize the patient while you're trying to manage the IEP levels. Think of it as a 'stabilizer' before you switch to antihistamines and corticosteroids.",
-        "color": "orange"
-      },
-      {
-        "id": 6,
-        "parent_id": 4,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "As the nurse who was with the patient, I have to say that managing the IEP levels was the most challenging part of this case. We had to adjust the IVIG doses and titrate the IV epinephrine while monitoring the patient's symptoms. It was a nightmare!",
-        "color": "pink"
-      },
-      {
-        "id": 7,
-        "parent_id": 1,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "Guys, can I just say that it was an absolute pleasure to meet so many intelligent and caring healthcare professionals like yourselves. I'm just glad I made it through the ordeal unscathed!",
-        "color": "brown"
-      },
-      {
-        "id": 8,
-        "parent_id": 2,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "@Dr.ZiggyZalesky: I agree with you that IEP levels can be tricky to manage. However, I think it's essential to consider the underlying cause of the IEP elevation. Was it a reaction to a medication, or an underlying disease? That will determine the best course of action.",
-        "color": "green"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Hi @Dr.MayaGupta, what are some of the underlying causes of IEP elevation that you think are important to consider?",
-        "color": "blue"
-      },
-      {
-        "id": 10,
-        "parent_id": 8,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "I must say that IEP levels always make me think of the patient's electrolyte and sodium levels. Have you guys considered using hypertonic saline to help flush out the IEP?",
-        "color": "light blue"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Hypertonic saline sounds interesting, but isn't it used more for cerebral edema? Can you explain how it works in the context of IEP management?",
-        "color": "purple"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Dr. Sarah Sharp",
-        "role": "FRCPC",
-        "city": "Laval, QC",
-        "text": "@Dr.KevinPark, yes, that's correct. Hypertonic saline is typically used for cerebral edema, but in the context of IEP management, it can help reduce the osmotic pressure and facilitate IEP removal from the bloodstream.",
-        "color": "orange"
-      }
-    ]
-  },
-  {
-    "id": 12345,
-    "title": "Just had to deal with a crazy CRPS case tonight... TLDR: Don't give opioids for chronic pain",
-    "body": "I was working a night shift in the ED and had a patient come in with what looked like a straightforward fracture. But upon further evaluation, turns out he's been dealing with CRPS (complex regional pain syndrome) for months. The thing is, he's been on a high dose of opioids for the past 6 months to manage his pain. I'm no expert, but isn't that just a recipe for disaster? I ended up calling my pain specialist friend and he told me that opioids are a no-no for CRPS. So, what do you guys think? Have any of you dealt with a similar case? Any advice on how to manage chronic pain in the ER?",
-    "category": "emergency_medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY1",
-        "city": "Mississauga, ON",
-        "text": "Thanks for posting this. CRPS is a tough nut to crack. I've had a few cases where patients have been on high dose opioids and it's just a vicious cycle. One thing that worked for me was to get them started on gabapentin. It's not a magic bullet, but it can help with the neuropathic pain.",
-        "color": "blue"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "I've heard of gabapentin being used for neuropathic pain, but I'm not sure how it works. Can someone explain the mechanism of action to me?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Gabapentin is a GABA analog. It's thought to act on T-type calcium channels to reduce excitability of nociceptors. But don't quote me on that, I'm not a neuropharmacologist.",
-        "color": "red"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Wait, doesn't gabapentin also have a role in the treatment of bipolar disorder? I know it's used off-label, but I'm not sure how it works in that context.",
-        "color": "purple"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "This is exactly why I hate treating chronic pain cases. It's just so frustrating when patients are on high dose opioids and you know it's not the right thing to do. Has anyone used ketamine for CRPS before? I've heard it's a game-changer.",
-        "color": "brown"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Ketamine is definitely worth considering for CRPS. I've used it in the past for patients with severe neuropathic pain and it's been a lifesaver. Just be careful with the dosage, as it can cause dissociative symptoms.",
-        "color": "orange"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Has anyone here worked with the Wartenburg test for diagnosing CRPS? I've heard it's a more reliable indicator than the Budapest criteria.",
-        "color": "yellow"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Richard 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "F**k the Wartenburg test. It's outdated and not worth my time. I use the Budapest criteria because it's what the literature says to use.",
-        "color": "pink"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "Oh, so now you're a pain management expert too, Rick? I've worked with the Wartenburg test for years and it's a valid tool when used correctly.",
-        "color": "gray"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
         "user": "Dr. Phil Muddle",
         "role": "EP",
         "city": "Regina, SK",
-        "text": "Uh, what's the deal with all these tests? Can't we just use our brains for once and figure out what's going on? I mean, I've seen some crazy cases of CRPS, but I'm no expert.",
-        "color": "black"
+        "text": "> Dr. Aris Thorne, Can you elaborate on the pulmonary changes in pregnancy? I seem to remember something about diaphragmatic compression or...?",
+        "color": "blue"
+      },
+      {
+        "id": 13,
+        "parent_id": 11,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "> Dr. Phil Muddle, the diaphragm is elevated in pregnancy due to the growing uterus. This can lead to decreased lung volumes and capacity. However, it's essential to note that the respiratory changes are more significant in the supine position, leading to the supine hypotension syndrome.",
+        "color": "purple"
+      },
+      {
+        "id": 15,
+        "parent_id": 1,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "> Dr. Aris Thorne, you mentioned that the patient may lose 30-35% of blood volume before manifesting signs of shock. Can we link this to any specific studies or guidelines?",
+        "color": "blue"
+      },
+      {
+        "id": 17,
+        "parent_id": 15,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "> Dr. Elena Varkov, there is some debate on this. I've come across a study suggesting that up to 40% blood volume loss may occur in a pregnant patient before signs of shock become apparent. More research is needed to confirm this.",
+        "color": "green"
+      },
+      {
+        "id": 19,
+        "parent_id": 17,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "> Dr. Sarah Sharp, Can I clarify? Are these patients who have lost more blood volume still able to maintain a stable blood pressure?",
+        "color": "blue"
+      },
+      {
+        "id": 22,
+        "parent_id": 19,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "> Dr. Kevin Park, patients with blood volume loss can initially maintain a stable blood pressure due to the relative hypervolemic state of pregnancy. However, they may still require fluid resuscitation.",
+        "color": "blue"
+      },
+      {
+        "id": 25,
+        "parent_id": 1,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "> Dr. Aris Thorne, love the rundown on trauma in pregnancy. Can you summarize the best practices for managing these patients in a nutshell?",
+        "color": "red"
+      },
+      {
+        "id": 27,
+        "parent_id": 25,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "> Dr. Ziggy Zalesky, here are the key takeaways: be prepared for the unpredictable, consider the physiological changes of pregnancy, quickly assess the patient, and stabilize the mother with fluid resuscitation and blood transfusions. Prioritize fetal well-being by managing uterine irritability, preterm labor, and placental abruption.",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "id": 1234,
+    "title": "Just saw a patient with a fascinating case of syncope - thoughts?",
+    "body": "Had a patient come in today with multiple episodes of syncope, with near-syncope sensations in between. Her ECG was unremarkable, but her orthostatic blood pressure dropped like a stone. I started thinking about the differential, and I wanted to get your thoughts on it. I've read up on the classic causes of syncope (cardiac, neuro, vasovagal, etc.), but this patient didn't fit neatly into any of those categories. Anyone have any experience with similar cases or have any pearls to share?",
+    "category": "EmergMedCases",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I've seen a few cases like this in the trenches. My approach is usually to start with the basics: check the vitals, review the meds, and do a quick neurological exam. If it's not immediately obvious, I'll get a cardiology consult and see if we can get an echocardiogram or something to look at her heart. Sometimes it's just a matter of getting a patient off a med that's causing orthostatic hypotension.",
+        "color": "blue"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I'm curious - what do you mean by 'review the meds'?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Sorry, Leo! I just mean making sure the patient isn't on anything that could be contributing to her orthostatic hypotension. Anti-hypertensives, diuretics, etc. That kind of thing. It's always worth a check, especially in cases like this where it's not immediately clear what's going on.",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "I've found that orthostatic hypotension can be a bit of a red herring in cases like this. Don't get me wrong, it's always worth checking, but sometimes it's the underlying cause that needs to be addressed, not just the effect. Has anyone else had experience with something like that?",
+        "color": "purple"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Totally agree with you, Sarah. I've had cases where we thought it was just orthostatic hypotension, but it turned out to be something more serious like dehydration or sepsis. The important thing is to dig deeper and not just settle for the obvious. Link to an article I found that talks about this https://academic.oup.com/afp/article/91/12/1635/5885112",
+        "color": "blue"
+      },
+      {
+        "id": 6,
+        "parent_id": 1,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "I'm still a bit confused - can someone explain orthostatic hypotension in simple terms?",
+        "color": "green"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "No worries, Chad! Orthostatic hypotension is when your blood pressure drops when you stand up from sitting or lying down. It can be caused by a bunch of things, like dehydration or heart problems. In this case, the patient's vitals dropped like a stone when she stood up, so we're thinking it might be related.",
+        "color": "blue"
+      },
+      {
+        "id": 8,
+        "parent_id": 1,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "You're all so clever. Let me tell you about the case I saw yesterday - patient came in with a similar presentation and it turned out to be a POTS. We didn't even think of it at first because it wasn't a 'classic' case, but once we started asking the right questions, it all fell into place. Just an FYI for those who might need it.",
+        "color": "red"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "POTS? I'm not familiar with that acronym... Can you explain what it stands for and what it entails?",
+        "color": "green"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "POTS stands for Postural Orthostatic Tachycardia Syndrome - basically, it's a condition where your heart rate goes way up when you stand up. And yeah, it can be a real challenge to diagnose because the symptoms can be so vague. Martha's case was a good reminder that we should always be thinking outside the box, right?",
+        "color": "green"
+      },
+      {
+        "id": 11,
+        "parent_id": 1,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "I'm just a bit concerned about all this medical jargon... Does anyone have any idea what's going on with me? I keep feeling like I'm going to pass out when I stand up...",
+        "color": "orange"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Don't worry, Barnaby! We're just trying to figure out what's going on with your body. It sounds like you might have something to do with orthostatic hypotension, but we need to do some more testing to be sure. Would you like to talk to one of our residents and get some more information?",
+        "color": "blue"
       }
     ],
-    "image": "https://www.researchgate.net/publication/336364086/figure/fig1/AS:812043661750285@1570617704533/Pharmacological-management-of-acute-pain-in-prehospital-emergency-medical-service-IV.png"
+    "image": "https://www.frontiersin.org/files/Articles/497130/fcvm-06-00180-HTML/image_m/fcvm-06-00180-g001.jpg"
   }
 ]
