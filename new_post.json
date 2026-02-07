@@ -1,536 +1,223 @@
 [
   {
-    "id": 0,
-    "title": "Just had a weird case of urinary retention...",
-    "body": "Had a patient come in with a history of benign prostatic hyperplasia (BPH) presenting with acute urinary retention. Low-frequency sector format probe revealed a residual volume of 400cc. Urethral catheterization was performed with copious intraurethral lubrication and a 16-French Coud\u00e9 catheter. Patient was discharged with instructions for follow-up in 3 days.",
-    "category": "Emergency Medicine",
+    "title": "EPs - Airway management in kids: do we overdo it?",
+    "body": "Had a case last night where a 5-year-old presented with epiglottitis. We managed to secure the airway without issue, but it made me think about our approach to pediatric airway management. How often do we end up using surgical airways in these cases?",
+    "category": "Emergency_Medicine",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Have you considered the role of \u03b1-blockers in the management of BPH? I've had good luck with tamsulosin for patients with retention symptoms...",
-        "color": "purple"
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "We don't use surgical airways enough! In pediatric airway management, simplicity should be our mantra. Less is more, especially when it comes to intubation. We should be aiming for RSI, then escalate to surgical airway if needed. But do we? Or do we default to trach? Discuss.",
+        "color": "blue"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "@Dr. Maya Gupta, yes, \u03b1-blockers are a good option for BPH patients. But don't forget to check for contraindications and potential drug interactions. Did you review the patient's medication list before discharge?",
-        "color": "green"
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "@Dr. Ziggy, I'm with you! As a nurse, I've seen so many unnecessary trachs. But what about patients with difficult anatomy? I've worked with kids who had severe subglottic stenosis - no way we could get a tube in. Do we have a plan B?",
+        "color": "red"
       },
       {
         "id": 3,
-        "parent_id": 2,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Wait, \u03b1-blockers are not a first-line treatment for BPH, are they? I thought the guidelines recommend a trial of lifestyle modifications before pharmacotherapy?",
-        "color": "blue"
+        "parent_id": 1,
+        "user": "Dr. Aris Thorne",
+        "role": "EP",
+        "city": "Toronto, ON",
+        "text": "@Turbo Tom, that's a great point. When it comes to airway management, we need to be prepared for the unexpected. But don't we also over-diagnose airway issues in kids? I see so many cases where we're intubating for 'suspicious' signs, only to find out the kid's just got a cold. Any thoughts on this?",
+        "color": "purple"
       },
       {
         "id": 4,
         "parent_id": 3,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "@Leo Chen, you're right, lifestyle modifications should be tried first! A Cochrane review in 2018 found that lifestyle changes alone can improve symptoms in about 50-70% of patients. Any suggestions on what lifestyle modifications to recommend?",
-        "color": "red"
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "@Dr. Aris, I think you're hitting the nail on the head. I've seen my fair share of 'suspicious' cases, only to find out it's just a viral infection. But don't we need to err on the side of caution? What's the threshold for intubation in these cases?",
+        "color": "green"
       },
       {
         "id": 5,
-        "parent_id": 1,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "@Dr. Maya Gupta, can you comment on the role of diuretics in this case? I've seen patients with retention improve with aggressive diuresis, but I worry about the fluid status in this patient?",
-        "color": "orange"
+        "parent_id": 4,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "@Chad, that's a great question! According to the latest research, the American Academy of Pediatrics recommends intubation for any airway compromise in kids < 3 years old. So, we should be aiming for intubation in any case where the kid's life is at risk. But what about the older kids? Do we have a clear guideline?",
+        "color": "pink"
       },
       {
         "id": 6,
         "parent_id": 5,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "@Dr. Elena Varkov, good point about fluid status! I recommend careful monitoring of the patient's urine output and electrolytes before starting diuretics. And don't forget to adjust the dose as needed.",
-        "color": "pink"
-      },
-      {
-        "id": 7,
-        "parent_id": 1,
-        "user": "Dr. Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "I'm still not convinced about the diagnosis of BPH. Have you checked for other causes of obstruction, like a urinary tract infection (UTI) or a urethral stricture?",
-        "color": "gray"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "@Dr. Brock Stone, good point about UTIs! In fact, a 2020 study found that up to 30% of patients with retention may have a concomitant UTI. Let's keep that in mind during follow-up.",
-        "color": "brown"
-      },
-      {
-        "id": 9,
-        "parent_id": 1,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "What's the deal with catheters? Why can't we just use suprapubic aspiration or something?",
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "@Sarah, wow, that's a great point! I didn't know we had such specific guidelines for this age group. But what about the surgical airways? How do we know when to escalate to a surgical airway?",
         "color": "yellow"
       },
       {
-        "id": 10,
-        "parent_id": 9,
+        "id": 7,
+        "parent_id": 6,
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "@Chad Broson, good question! Suprapubic aspiration is a good option for patients with severe retention, but it's not always practical. Plus, the evidence suggests that urethral catheterization is safer and more effective in the long run. Check out this review in the Journal of Urology (2019) for more info.",
-        "color": "turquoise"
-      }
-    ],
-    "image": "https://www.ebmedicine.net/media_library/images/2021-EMP-Publication-Article/03-March/Clinical-Pathway-for-Emergency-Department-Diagnosis-and-Treatment-of-Acute-Urinary-Retention-in-Adult-Males-Thumbnail.png"
-  },
-  {
-    "id": 1,
-    "title": "Just saw a patient with suspected TB and I'm still questioning my life choices after being poked and prodded all night.",
-    "body": "So here's the deal, we get a bunch of complaints in about a patient with a fever of 40.5, productive cough, and a weird rash on their chest. I mean, this is like TB 101, right? Just stick 'em in isolation and send the sputum off to the lab for some fancy acid-fast stain.",
-    "category": "emergency medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Sara Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "TB is a pain in the butt, especially with the new regulations and all. The hardest part is getting the acid-fast stain right. We had a patient last week where the lab said it was negative and we ended up having to do a follow-up with a different sample.",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Sharp, can you tell me more about the acid-fast stain? I've been having trouble understanding the concept of metachromatic staining.",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "The acid-fast stain is outdated, folks. We should be using PCR or some other molecular testing. The days of staining sputum samples with Carbol fuchsin and malachite green are over.",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "But, Dr. Sterling, the PCR tests have their own set of issues, like sample contamination and false negatives. What's the alternative method of choice in your experience?",
-        "color": "purple"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Kevin Park",
-        "role": "PGY2",
-        "city": "Ottawa, ON",
-        "text": "Actually, I think the Xpert MTB/RIF assay is gaining popularity, with good sensitivity and specificity. Have you guys heard anything about it?",
-        "color": "green"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "I think you're right, Dr. Park. We've been using it at our hospital and it's been a game-changer. I'd love to hear more about your experience with it.",
-        "color": "purple"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Speaking of TB testing, we also have the option of GeneXpert. It's a nucleic acid amplification test that can provide results in under an hour. What are your thoughts on this one?",
-        "color": "green"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "GeneXpert is a step up from the MTB/RIF assay, but the cost can be prohibitive for some hospitals. Do you have a rough estimate of the costs involved?",
-        "color": "purple"
-      }
-    ]
-  },
-  {
-    "id": 3,
-    "title": "Seizures in the ED: A Review of the Literature and a Clinical Anecdote",
-    "body": "Just saw a patient with a classic case of status epilepticus.  I ended up admitting her for a 5-day course of IV levetiracetam and phenytoin.  Anybody else have any favorite strategies for managing seizures in the ED?",
-    "category": "r/EmergencyMedicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "I'm with you on the IV levetiracetam and phenytoin regimen.  One thing I like to do is start with a burst dose of IV lorazepam, 2-4 mg, and then follow up with an IV bolus of diazepam, 0.1-0.3 mg/kg over 2-3 minutes.  Has anyone else found that this strategy has helped them control seizures in their ED?  [1] (http://www.ncbi.nlm.nih.gov/pubmed/24573251)",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Thorne, can you clarify how you choose between IV levetiracetam and phenytoin?  Do you have any guidelines or algorithms that you follow?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "I'm surprised that you're using IV levetiracetam at all.  Don't you think that's a waste of resources?  We have more pressing needs in this hospital, and we can't afford to be using IV meds like that on every patient.",
+        "text": "@Leo, that's a great question! According to the most recent literature, we should be considering surgical airways in any case where we've tried RSI and failed, or where we've got significant airway compromise. But how do we assess airway compromise? Do we have a clear checklist?",
         "color": "orange"
       },
       {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Dr. Sterling, isn't the point of IV levetiracetam to give us another option for managing seizures?  We can't just dismiss something because it's not our favorite choice.  And what do you mean by 'we can't afford it'?  Is this really about the money?",
-        "color": "lightblue"
-      },
-      {
-        "id": 5,
-        "parent_id": 2,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Leo, I think Dr. Thorne was referring to the fact that IV levetiracetam can be titrated up to a specific dose rather than following a traditional dose-response curve like phenytoin.",
-        "color": "pink"
-      },
-      {
-        "id": 6,
-        "parent_id": 4,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Actually, Chad, the point of IV levetiracetam is to provide a more targeted and less sedating treatment option for seizures.  And as for the cost, you're right that it's not about the money.  It's about using what's available to us to provide the best care possible for our patients.",
-        "color": "teal"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Darlene Smith",
-        "role": "ER Nurse",
-        "city": "New York, NY",
-        "text": "Can someone please explain the difference between nonconvulsive status epilepticus (NCSE) and prolonged seizures?  I get that NCSE is when patients are just zoning out and not convulsing, but I'm not entirely clear on how you diagnose it... or when you'd want to start treatment.",
-        "color": "gray"
-      },
-      {
         "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Great question, Darlene!  Nonconvulsive status epilepticus (NCSE) is characterized by an abnormal, nonresponsiveness state lasting at least 30 minutes, typically due to seizures that remain localized to the temporal lobe or other regions of cortex.  We diagnose it by using EEG and monitoring patients on the ICU or general care floor.  Treatment options include IV levetiracetam or fosphenytoin, in addition to other pharmacological agents.",
-        "color": "violet"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "Excuse me, can I ask something?  I was recently diagnosed with temporal lobe epilepsy, and I've been experiencing some pretty terrible symptoms.  I've been having memory problems, and I've even noticed that my speech patterns have changed a bit... is there anything I can do to slow this down or even reverse it?  Please help me...",
+        "parent_id": 1,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "Let's not forget about the nursing side of things. We're not just passive observers during airway management - we're active participants. How do we communicate with our EP colleagues to ensure we're on the same page?",
         "color": "brown"
       },
       {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "That's a great point, Martha! As LPNs, we're often the first line of care. But how do we get better at assessing airway compromise? Do we have any training programs for this?",
+        "color": "purple"
+      },
+      {
         "id": 10,
         "parent_id": 9,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "This is a great discussion! But let's not forget about the importance of communication during airway management. We need to make sure we're all on the same page, literally. Any thoughts on developing a shared understanding during these high-stakes situations?",
+        "color": "gray"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "That's a great point, @Dr. Varkov! Communication is key during airway management. Do we have any tools or strategies for improving our communication with our colleagues during these high-stakes situations?",
+        "color": "blue"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
         "user": "Dr. Barb Miller",
         "role": "EP",
         "city": "Winnipeg, MB",
-        "text": "Sorry to hear that, Barnaby.  Temporal lobe epilepsy can be a bit of a challenge to manage, but there are certainly some options available to you.  I'd recommend speaking with a neurologist about possible treatments like vagus nerve stimulation or even deep brain stimulation.  In terms of slowing down the progression of your disease, I'd suggest working closely with a multidisciplinary team to develop an individualized treatment plan.",
-        "color": "magenta"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Just saw a patient with a classic case of Cushing's syndrome... or was it?",
-    "category": "Emergency Medicine",
-    "body": "Just saw a patient with a classic case of Cushing's syndrome - moon face, buffalo hump, purple striae... or was it? The patient's history was sketchy, but the lab results were screaming Cushing's. However, my mind was boggling as I tried to reconcile the patient's presentation with the actual lab results. After some deliberation, I realized that the patient was actually suffering from a severe case of pheochromocytoma-induced catecholamine excess. Long story short, the patient's presentation was classic Cushing's, but the underlying physiology was a completely different story. Anyone else have a similar experience?",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Haha, nice one, OP! I've seen that kind of thing happen before - patient presents with Cushing's, but actually has Addison's or something else entirely. The key is to look beyond the obvious and consider the atypical presentations. Always keep in mind that patients can throw you curveballs, and it's up to us to stay one step ahead!",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "That's so interesting, Dr. Zalesky! I've been reading about Cushing's and Addison's disorders in my rotation, and it's crazy how they can masquerade as each other. Did you guys ever consider a diagnosis of Conn's syndrome in this case? I thought that was a possibility too.",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "Well said, Dr. Zalesky. It's always good to keep an open mind and consider the less likely diagnoses. However, I have to ask, OP, what were the specific lab results that led you to suspect pheochromocytoma? Was it a high metanephrine level or something else entirely?",
-        "color": "teal"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Hi Dr. Oldman! I'm a bit confused - isn't pheochromocytoma a rare tumor that affects the adrenal glands? I thought Cushing's was more related to cortisol imbalance. Can someone clarify the connection between pheochromocytoma and Cushing's?",
-        "color": "lightblue"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Haha, OP, you had me going with that one! I've seen similar situations in the past, and it's always a reminder to stay vigilant and not jump to conclusions. By the way, has anyone seen the article on pheochromocytoma by Dr. Michael T. McDermott? It's a great review of the disease and its management.",
-        "color": "purple"
-      },
-      {
-        "id": 6,
-        "parent_id": null,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "Ugh, you guys are giving me a headache with your Cushing's and pheochromocytomas. Can we please just focus on treating the patient and not getting bogged down in the esoteric details of endocrinology?",
+        "text": "Actually, I have a great resource for that. The Royal College of Physicians and Surgeons has a fantastic guide on communication during airway management. It's all about creating a shared understanding between the EP and nursing teams. Anyone have a link to that?",
         "color": "red"
       },
       {
-        "id": 7,
-        "parent_id": 1,
-        "user": "Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "I think we can all learn from this case, Dr. Zalesky. As surgeons, we often get caught up in the details of the patient's presentation, but it's the bigger picture that matters in the end. Thanks for sharing this example, OP!",
-        "color": "teal"
-      }
-    ],
-    "image": "https://m.media-amazon.com/images/I/71I+z6oPtGL._AC_UF1000,1000_QL80_.jpg"
-  },
-  {
-    "id": 4,
-    "title": "Just saw a patient with a severe burn injury... and it got me thinking.",
-    "body": "I'm calling it a burnout (pun intended) but it's been a long night in the ED. One of our patients comes in with a 2nd-degree burn covering 30% of their body. Easy peasy, right? But here's the kicker... they're a 65-year-old with multiple medical comorbidities, including hypertension, diabetes, and a history of smoking. The real challenge is going to be managing their pain and minimizing the risk of infection in the context of limited renal function and peripheral neuropathy. Has anyone else dealt with similar cases? What are some strategies you've found effective for mitigating the risk of complications in burn patients with comorbidities? TL;DR - how do you prioritize burn care in the elderly with complex medical conditions?",
-    "category": "EMedicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Great post, OP! For managing pain in these patients, have you considered using a combination of acetaminophen and NSAIDs, titrated to effect and adjusted for renal function? Also, be sure to emphasize the importance of wound care and debridement to prevent infection. As for minimizing complications, I always try to keep in mind the patient's overall physiological reserve and adjust my management plan accordingly. This might mean escalating care to a burn center if possible. Has anyone else had success with using topical antimicrobials like silver sulfadiazine or cadexomer-iodine in this population?",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
+        "id": 13,
+        "parent_id": 12,
         "user": "Leo Chen",
         "role": "MS1",
         "city": "Montreal, QC",
-        "text": "Dr. Thorne, thanks for the input! Just to clarify, how do you determine a patient's overall physiological reserve? Is it based on their comorbidities, lab values, or a combination of both?",
+        "text": "Thanks, @Dr. Miller! I think that's a great resource. But what about during the actual intubation? Do we have any tips or best practices for navigating those high-pressure situations?",
         "color": "green"
       },
       {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "A great point, Leo! Physiologic reserve is a crucial concept to understand. It refers to a patient's capacity to maintain homeostasis despite the presence of stressors or comorbidities. To estimate a patient's reserve, I consider factors like their overall health status, medical history, and lab values, including electrolytes, kidney function, and inflammatory markers. By assessing these factors, we can determine the patient's ability to tolerate stress and adjust our management plan accordingly.",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Just a tip, folks - when it comes to pain management, don't underestimate the power of gabapentin and pregabalin. I've had great success using these meds in burn patients with complex medical conditions. Just be sure to monitor for side effects and adjust the dose accordingly.",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Dr. Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "I'm not thrilled about admitting these patients to the surgical ward, but what about a strategy for early assessment and optimization of their medical comorbidities? Perhaps a pre-operative assessment of their vascular access, wound care, and nutritional status, followed by a multidisciplinary team approach to management?",
-        "color": "purple"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Hear, hear, Dr. Stone! A thorough and multidisciplinary approach is crucial in these cases. I'd add that it's essential to involve the patient's primary care physician to ensure a smooth transition back to community care. Perhaps we can discuss further in our next conference?",
-        "color": "purple"
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "title": "Just had a nasty case of pulmonary embolism... ",
-    "body": "I saw a 35-year-old woman last night who presented with sudden onset chest pain and shortness of breath. She had been on long plane ride to Europe for work and was complaining of bilateral leg swelling. I immediately sent her for a CT scan which showed a massive bilateral PE. But here's the kicker - her D-dimer was negative... How do I prevent this kind of missed diagnosis in the future? Am I missing something with the Wells score? Is it just a case of bad luck? Thoughts, EPs?",
-    "category": "emergency medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
+        "id": 14,
+        "parent_id": 13,
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "I've had a few similar cases where the D-dimer was normal, but the clinical suspicion was high enough to warrant imaging. I think it's just a case of how many clots are being produced vs how quickly they're being cleared. If you suspect PE, you can't ignore a low D-dimer and just send the patient home. Always remember, 'a negative test is just a negative test, not a guarantee of no disease'.",
+        "text": "Actually, I've got a great resource for that too! The American Academy of Pediatrics has a fantastic guide on intubation techniques in pediatrics. It covers everything from preparation to follow-up care.",
+        "color": "orange"
+      },
+      {
+        "id": 15,
+        "parent_id": 14,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Wow, this discussion is amazing! As a pre-med, I'm learning so much. But do we have any take-home messages for airway management in pediatric patients?",
+        "color": "yellow"
+      },
+      {
+        "id": 16,
+        "parent_id": 15,
+        "user": "Dr. Aris Thorne",
+        "role": "EP",
+        "city": "Toronto, ON",
+        "text": "TL;DR, kids are tough to intubate! But seriously, communication is key, and we need to be prepared for the unexpected. Simple airway management techniques, such as jaw thrust and oral airway insertion, are often underutilized.",
+        "color": "purple"
+      },
+      {
+        "id": 17,
+        "parent_id": 1,
+        "user": "Dr. Rick 'The Rage'",
+        "role": "EP",
+        "city": "Windsor, ON",
+        "text": "Don't even get me started on pediatric airway management! We're so caught up in the thrill of securing the airway that we forget about the human side of it. We need to prioritize our patients' comfort and dignity, even in the midst of a high-pressure situation.",
+        "color": "red"
+      },
+      {
+        "id": 18,
+        "parent_id": 17,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "That's so true, @Dr. Rick! As LPNs, we're not just caregivers; we're advocates for our patients' well-being. How do we balance the need for effective airway management with the need for compassionate care?",
+        "color": "purple"
+      },
+      {
+        "id": 19,
+        "parent_id": 18,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Actually, there's a fantastic resource for that too! The Journal of Pediatric Care has a great article on compassionate airway management. It highlights the importance of empathy and understanding in pediatric care.",
+        "color": "orange"
+      },
+      {
+        "id": 20,
+        "parent_id": 1,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "I couldn't agree more, my dear colleagues! In the days of yesteryear, we prioritized compassion and kindness above all else. Let us strive to revive those ideals in modern practice.",
+        "color": "gray"
+      }
+    ],
+    "image": "https://prdncusrmfcmecraftsa001.blob.core.windows.net/assets/articles/no-issue/pediatric-airway-management-the-basics/_contentImage/Pediatric-airway_GettyImages-2149642742.jpg"
+  },
+  {
+    "title": "Just witnessed an epic fail in the ER and it's been eating away at me for hours...",
+    "body": "So, we had a patient come in with a suspected upper GI bleed. Patient's vitals were all over the place - hypotension, tachycardia... the whole shebang. We get the patient set up for a quick stat CT, and just as we're about to get the IVs in, the attending comes strutting in and tells us to hold off on the CT and just do a quick bedside echo instead.\n\nTLDR: why is there ever a place in modern medicine for a bedside echo in the presence of an upper GI bleed?",
+    "category": "medical horror stories",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Geez Louise, a bedside echo for upper GI bleed? What's next, a stethoscope and a sphygmomanometer? I mean, I've seen some weird things in my time, but that takes the cake! Don't get me wrong, I love my ER doc and all, but come on, what's the logic behind that one? Can anyone explain, doc? :confused: Link to the relevant article on the importance of CT in upper GI bleed: https://jama.jamanetwork.com/article.aspx?articleid=187145",
         "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Does anyone have more information about the Wells score and its limitations? I've heard of it being used, but I want to understand its validity and reliability. What are some other tools that can be used to diagnose PE?",
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Okay, let me put on my thinking cap here... (gets out a pen and starts scribbling on a whiteboard)\n\nOkay, got it! I think what the attending was trying to do was get a quick bedside echo to check for DVT? Am I right? Maybe the patient had a history of clots and they wanted to get a quick heads up before doing the CT? Can someone confirm or deny?",
         "color": "green"
       },
       {
         "id": 3,
         "parent_id": 2,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "The Wells score is a great clinical tool, but it's not foolproof. For example, it can be tricky to score in patients with malignancy or recent surgery, as those items can be quite subjective. I usually supplement the score with a quick review of the patient's symptoms and physical exam. As for other tools, I love using the PERC rule - Pulmonary Embolism Rule-out Criteria. It's really easy to use and has great sensitivity and specificity. We should discuss this more in our next journal club.",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
         "user": "Chad Broson",
         "role": "Pre-med",
         "city": "Brampton, ON",
-        "text": "I've heard of the PERC rule, but I'm not sure how it works. Can someone explain it in simpler terms? Like, I get what the Wells score is, but how do you use the PERC rule to diagnose or rule out PE?",
+        "text": "DVT? But wouldn't that be weird for an upper GI bleed? Like, shouldn't you be thinking more along the lines of... I don't know, liver failure or something? I mean, I'm all for being prepared and all, but DVT seems a bit of a stretch, no?",
         "color": "blue"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "The PERC rule is super simple - just 8 questions that ask about symptoms, medical history, and risk factors. If the patient answers 'yes' to any of the questions, they need a CT scan. If they answer 'no' to all, it's likely safe to rule out PE. I like using this rule because it's easy to remember and applies to most patients. It's not as comprehensive as the Wells score, but it's a great starting point.",
-        "color": "blue"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "I'm just a patient, but I want to say that I agree with the PERC rule. It seems like a much more practical and efficient way to diagnose PE. My doctor used it with me last time I went to the ER, and it saved me a lot of trouble.",
-        "color": "orange"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Preach, Barnaby! As a nurse, I see the stress that imaging puts on patients, and it's wonderful when docs use these practical tools to streamline diagnosis. Can I just say how much I love how we're discussing these clinical tools and cases here? It's amazing to see how far emergency medicine has come.",
-        "color": "purple"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "Ugh, I completely disagree with all of you. The PERC rule is a joke - it's so oversimplified that it's not even worth using. And don't even get me started on the Wells score. Have any of you seen the actual data on its accuracy? I've read the papers, folks, and let me tell you, it's not as great as you think it is.",
-        "color": "red"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Zachary",
-        "role": "FRCPC",
-        "city": "Toronto, ON",
-        "text": "Actually, Rick, the data on the Wells score is pretty solid. It may not be perfect, but it's a great starting point for clinicians who are trying to diagnose PE. And let's be real - in the real world, we don't have the luxury of spending hours running fancy diagnostics on every patient. Sometimes, a good old-fashioned clinical prediction rule like the Wells score can go a long way.",
-        "color": "green"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Case study: Elder abuse and neglect - the hidden epidemic in our ER",
-    "body": "Had a miss last night where I suspected elder abuse and neglect in a patient who presented with multiple injuries and a history of recent financial exploitation. We've all seen it before, but it's easy to miss the subtle signs. I'd love to hear from my colleagues about their experiences and thoughts on this topic.",
-    "category": "Emergency Medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "TLDR: Elder abuse and neglect is a hidden epidemic in our ER. We need to be aware of the subtle signs and report it when we suspect it. Let's discuss... As a resident, I've seen a few cases where elderly patients have been exploited by family members or caregivers. The financial abuse is often the most obvious sign, but there are many other red flags to look out for. We need to educate ourselves and our team on how to identify these cases and report them to the authorities. I'd love to hear from others who have experience with this topic.",
-        "color": "blue"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Thanks for bringing this up, @Dr. Maya Gupta. I had a patient last week who presented with multiple injuries and a history of financial exploitation. I was concerned about elder abuse and neglect, but I didn't know how to report it. Can anyone provide some guidance on how to report these cases and what resources are available to support victims?",
-        "color": "purple"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "Elder abuse and neglect is a huge concern in our community, and it's often hidden in plain sight. As a family physician, I've seen many cases where elderly patients have been exploited by caregivers or family members. The key is to be aware of the subtle signs and to take a comprehensive history. I'd recommend using the HOPE score to assess for elder abuse (see @Dr. Elena Varkov's post on this topic).",
-        "color": "green"
       },
       {
         "id": 4,
@@ -538,161 +225,805 @@
         "user": "Dr. Elena Varkov",
         "role": "FRCPC",
         "city": "Quebec City, QC",
-        "text": "Thanks, @Dr. Henry Oldman. The HOPE score is a great tool for assessing for elder abuse. It's based on the H, O, P, and E criteria: H for History of abuse, O for Observation of abuse, P for Psychological abuse, and E for Evidence of abuse. We use this score in our ER to quickly identify patients who may be at risk. I've linked to a resource below on how to use the HOPE score: [link]",
-        "color": "purple"
+        "text": "Actually, Chad, DVT and upper GI bleed are not mutually exclusive. Some patients can have a high risk for both, especially if they have a history of clotting disorders. But, let's be clear, what the attending was trying to do with the bedside echo was a huge miss. CT is the gold standard for diagnosing upper GI bleed.",
+        "color": "red"
       },
       {
         "id": 5,
-        "parent_id": 4,
+        "parent_id": 1,
         "user": "Dr. Sarah Sharp",
         "role": "EP",
         "city": "Laval, QC",
-        "text": "I'm concerned that we're not reporting enough cases of elder abuse and neglect. As an emergency physician, I see many patients who are at risk, but we often don't have the resources to provide the necessary support. Can we discuss ways to improve our reporting rates and provide better support for victims?",
-        "color": "blue"
+        "text": "I couldn't help but notice that the patient was on a high dose of NSAIDs, which is a well-known risk factor for upper GI bleeding. Shouldn't we consider that in our differential? Also, did anyone check for Mallory-Weiss tears? I mean, it's not the most common cause, but you never know... TLDR: don't forget to check for NSAIDs and Mallory-Weiss in those patients!",
+        "color": "green"
       },
       {
         "id": 6,
         "parent_id": 5,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "I agree with @Dr. Sarah Sharp. We need to do better in reporting and supporting victims of elder abuse and neglect. As physicians, we have a responsibility to advocate for our patients. I'm tired of seeing cases where we don't report because it's 'too complicated' or 'we don't have the time'. Let's take a stand and do what's right.",
-        "color": "green"
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Haha, I was just about to ask that very same question, Sarah! Great point about NSAIDs and Mallory-Weiss tears. And let's not forget about the importance of early endoscopy in these patients. Anyone know the latest on that?",
+        "color": "blue"
       },
       {
         "id": 7,
-        "parent_id": 1,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "I've seen many cases of elder abuse and neglect in my nursing practice, and it's heartbreaking. As caregivers, we need to be aware of the signs and report them to the authorities. I'd love to hear from others about their experiences and how we can work together to support victims.",
-        "color": "purple"
+        "parent_id": 2,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "So, does someone want to summarize the consensus on CT versus bedside echo? I'm trying to wrap my head around this one... Also, does anyone know the latest on the use of gastric acid suppressors in upper GI bleeding?",
+        "color": "green"
       },
       {
         "id": 8,
         "parent_id": 7,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "What are some of the common signs of elder abuse and neglect, @Sparkle-Eyes Sue? I've been learning about this topic in school, but I'd love to hear from a more experienced nurse like yourself.",
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Haha, well, let's just say that the consensus on CT versus bedside echo is a bit... fluid... But in all seriousness, the most recent literature suggests that CT should be the go-to for diagnosing upper GI bleed, especially in cases of suspected variceal bleed. And on the topic of gastric acid suppressors, I think we all know that the RCTs have shown that they don't really add much value in this population.",
         "color": "blue"
       },
       {
         "id": 9,
-        "parent_id": 8,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Thanks, @Leo Chen. The common signs of elder abuse and neglect include physical injuries, unexplained financial transactions, and a history of exploitation. We also need to be aware of the psychological signs, such as anxiety, depression, and withdrawal. It's essential to take a comprehensive history and perform a thorough physical examination.",
-        "color": "purple"
+        "parent_id": 1,
+        "user": "Dr. Richard Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Well, I for one think it's time to rethink this whole thing and just stick with the old-fashioned bedside echo! It worked for our great-grandfathers, after all...",
+        "color": "pink"
       },
       {
         "id": 10,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "I love seeing these important discussions on Reddit. Let's keep the conversation going and provide more resources and support for elder abuse and neglect. We can do better, and we must.",
+        "parent_id": 9,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Umm, excuse me, Dr. Sterling? Did you just suggest that we go back to using a 20-year-old technology for diagnosing an acute medical condition? I mean, come on, we're in the 21st century here... What's next, using bloodletting? Please educate me, doc!",
         "color": "green"
       }
     ]
   },
   {
-    "id": 12345,
-    "title": "Frustrated with difficult vaginal delivery in the ED - what am I doing wrong?",
-    "body": "Just saw a patient with a vaginal delivery in the ED that was a nightmare. The patient was at 39 weeks, had no prenatal care, and suddenly showed up in the ER in active labor. The delivery was complicated by a nuchal cord, but I ended up having to do a manual delivery due to fetal distress. The whole thing took over 30 minutes and I'm left wondering if I did everything I could to avoid this outcome. Has anyone else had to deal with these kinds of deliveries in the ED? What's your strategy for managing high-risk labors in this setting?",
+    "id": 2,
+    "title": "Just saw a patient with suspected pelvic inflammatory disease (PID) who turned out to have a perforated ovarian cyst... ",
+    "body": "TL;DR - Always assume PID in any female patient with severe pelvic pain, but don't forget the possibility of other diagnoses like a ruptured ovarian cyst or ectopic pregnancy. A key takeaway for me from this case was the importance of a detailed history and physical exam in making a diagnosis. The patient presented with a 2 day history of severe pelvic pain and a positive pregnancy test. On physical exam, she had a palpable pelvic mass and a guarding sign. Her labs came back positive for an elevated white blood cell count and a high ESR. The CT scan showed a large ovarian cyst with a possible rupture. The patient underwent an emergency laparotomy and repair of the ruptured cyst. Post-op, she was diagnosed with PID likely due to an ectopic pregnancy.\n\nA few important points to take away from this case:\n\n1. The presentation of suspected PID and ovarian torsion are very similar and can be difficult to differentiate based on history alone. In the future, I will make sure to prioritize imaging when suspecting ovarian torsion, as it can be a life-threatening emergency.\n2. Always be suspicious of other diagnoses in patients presenting with suspected PID, especially ectopic pregnancy or ovarian torsion. These conditions can have severe consequences if left untreated.\n3. A detailed history and physical exam are crucial in making a diagnosis of PID. The patient's positive pregnancy test and palpable pelvic mass were key findings that led me to suspect PID.\n\nWhat are your takeaways from this case? What are some other diagnoses you would consider in a patient with suspected PID? Thanks for the discussion, everyone!",
     "category": "emergency-medicine",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": "DrArtsThorne",
-        "role": "MD",
-        "city": "Toronto, ON",
-        "text": "TL;DR - you're not alone in this scenario. High-risk labors are a challenge in any setting, but especially in the ED where resources are limited. Here's a question - did you obtain an ultrasound to confirm fetal position and estimate gestational age?",
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "That's a great case, OP! One thing that stood out to me was the use of a CT scan to visualize the ovarian cyst. I've been told that US is usually sufficient for evaluating ovarian pathology, but in this case, it was a CT scan that helped make the diagnosis. Can anyone provide some guidance on when to use US vs. CT for ovarian pathology?",
         "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "LeoChen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Wait, isn't an ultrasound not typically indicated for vaginal delivery? Or can someone clarify?",
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "OP's point about suspiciousness for ectopic pregnancy and ovarian torsion in patients with suspected PID is spot on. I've seen too many cases where the patient is diagnosed with PID, only to have the diagnosis later changed to a more serious condition. It's always better to err on the side of caution and investigate further.",
         "color": "green"
       },
       {
         "id": 3,
         "parent_id": 1,
-        "user": "SarahJenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Actually, according to the ACOG guidelines, an ultrasound is recommended for women with no prenatal care or those at high risk for complications. I think Dr. Aris may be hinting that you should have obtained an ultrasound in this case to get a better idea of the fetal position and gestational age.",
-        "color": "green"
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I'm a bit confused about the use of CT scan vs. US for evaluating ovarian pathology. Can anyone provide a more detailed explanation of when to use each modality? And does anyone have any recommendations for online resources for learning about emergency gynecology?",
+        "color": "teal"
       },
       {
         "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Great question, Leo! From what I've learned, US is usually the first-line imaging modality for evaluating ovarian pathology due to its sensitivity and specificity. However, in cases where the US is inconclusive or the patient has a known history of ovarian malignancy, a CT scan may be used to obtain clearer images.",
+        "color": "blue"
+      },
+      {
+        "id": 5,
+        "parent_id": 1,
+        "user": "Dr. Rick 'The Rage'",
+        "role": "EP",
+        "city": "Windsor, ON",
+        "text": "This case highlights the importance of staying up-to-date on the latest imaging techniques and modalities. In my experience, ultrasound is often sufficient for evaluating ovarian pathology, but there are certainly cases where a CT scan is needed. I like to think of it as a 'tool in the toolbox' approach, where you choose the right tool for the job.",
+        "color": "red"
+      },
+      {
+        "id": 6,
         "parent_id": null,
-        "user": "TurboTom",
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "I've heard that the SOGC has some guidelines on the use of imaging for evaluating ovarian pathology. Can anyone provide more information on this? I'd love to learn more about the current recommendations.",
+        "color": "pink"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Great suggestion, Sarah! The SOGC does have guidelines on the use of ultrasound for gynecologic emergencies, including ovarian torsion and ectopic pregnancy. You can find them on their website under the 'Clinical Practice Guidelines' section.",
+        "color": "purple"
+      },
+      {
+        "id": 8,
+        "parent_id": 1,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "I hope I never have to go through what this patient went through! Can anyone provide some advice on how to avoid getting PID in the first place?",
+        "color": "yellow"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Good question, Barnaby! To avoid getting PID, it's essential to practice safe sex and get regular pelvic exams. You should also avoid douching, as this can increase the risk of getting PID.",
+        "color": "green"
+      },
+      {
+        "id": 10,
+        "parent_id": 1,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "I've got a pet peeve about this case: why didn't anyone ask about the patient's sexual history? In my experience, a history of multiple sexual partners or a new sexual partner can be a significant risk factor for PID.",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "id": 1234,
+    "title": "Just saw a patient with CAP... or did I? - Rant about misdiagnosis and the 'typical' presentation of community-acquired pneumonia",
+    "body": "As many of you know, CAP is one of the most common reasons for ED admissions. But let me tell you, it's not as clear-cut as we often make it out to be. I had a patient come in last night with all the 'classic' signs of CAP: fever, cough, tachypnea... but no sputum production. Or was it? I'm just realizing now that I didn't bother to check for a fever in the room... it was probably just her being a bit stressed out. Anyways, point is, CAP can be tough to diagnose, and just because we're taught to look for these 'typical' signs, doesn't mean they're always there. Has anyone else had any similar experiences or tips to share on how to approach this tricky diagnosis?",
+    "category": "r/EmergencyMedicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I completely agree with this! I recently had a patient with CAP that presented with only a cough. No fever, no sputum production... just a persistent cough. We ended up doing a CT scan and found out she had pneumonia in both lungs. The thing is, the literature says that sputum production is a common symptom of CAP, but what about when it's absent? Should we be considering other differential diagnoses, like bronchiolitis or asthma? Has anyone else had any experience with this?",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Wait, what's the difference between CAP and bronchiolitis? Are they not the same thing? Also, can someone explain to me why CT scans are sometimes used for diagnosing pneumonia?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Ah, great question Leo! Bronchiolitis and CAP are actually two separate entities. Bronchiolitis is typically seen in infants and young children and is caused by a viral infection, whereas CAP is an infection of the lungs that can be caused by a variety of pathogens, including bacteria and viruses. As for CT scans, they can be useful in certain cases, like when the patient's symptoms don't quite add up or when there's a concern for complications, such as pleural effusion or abscess.",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Turbo Tom",
         "role": "RN",
         "city": "London, ON",
-        "text": "Just want to share our hospital's protocol for managing high-risk labors in the ED. We get the OB team involved ASAP, and they assess the patient and manage the delivery. It's always better to err on the side of caution when it comes to these things - I've seen cases where a delivery didn't go so well because we didn't follow protocol.",
+        "text": "I'm an ER nurse and I've seen my fair share of CAP cases. One thing I always look for is a history of smoking or substance abuse. These patients are more likely to have a higher risk of complications, like pneumonia or respiratory failure. Has anyone else considered this in their differential diagnosis?",
+        "color": "red"
+      },
+      {
+        "id": 5,
+        "parent_id": 1,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "And don't even get me started on patients with immunocompromised conditions like HIV/AIDS or cancer. These patients are at a much higher risk of developing severe CAP and need to be monitored closely. I've seen cases where they've needed to be intubated and even ventilated. Anyone have any experience with this?",
+        "color": "orange"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "I've had my fair share of experience with immunocompromised patients, Martha. One thing I always make sure to do is to get a thorough history of their medication regimens, including any immunosuppressive agents. I also like to check their lymphocyte counts and make sure they're not neutropenic. Has anyone else got any other tips to share?",
+        "color": "pink"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Actually, I think we should also consider getting a PPD or an interferon-gamma release assay (IGRA) for patients with suspected TB or if they have a high risk of exposure. What do the rest of you do?",
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "I think we're getting a bit carried away here. PPD and IGRA are not always necessary for every patient. I'd like to see more evidence-based medicine in this thread, if you don't mind.",
+        "color": "brown"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Phil Muddle",
+        "role": "EP",
+        "city": "Regina, SK",
+        "text": "Oh, um, I think we should do the PPD and IGRA, too, because... uh, what was the reason again? Oh yeah, to check for TB! Or was it to check for immunodeficiency? Ah wait, I know this one! It's because... it's because... *gets confused*",
+        "color": "gray"
+      },
+      {
+        "id": 10,
+        "parent_id": 1,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Just a few quick thoughts from a seasoned physician. I think we've all covered the main points, but I want to emphasize the importance of a thorough history and physical exam. Remember, a chest X-ray is only as good as the patient's symptoms and history to support it. Don't get me wrong, imaging has its place, but let's not rely on it too heavily.",
+        "color": "purple"
+      }
+    ],
+    "image": "https://emergencymedicinecases.com/wp-content/uploads/2019/09/CAP-card.001.jpeg"
+  },
+  {
+    "id": 1,
+    "title": "Just saw a patient with severe hypoglycemia and a missed diagnosis of stroke... ",
+    "body": "I had a case last night that had me thinking twice about my diagnostic skills. A 45-yr-old woman presents to our ER with symptoms of altered mental status, confusion, and seizures. Her blood sugar was 36, and she was given D50 bolus. She responded well, and her symptoms resolved. But what caught my attention was when I reviewed her head CT later in the day, I noticed a small ischemic infarct in the MCA. I was so caught up in the initial presentation of hypoglycemia that I almost forgot to order a head CT! What a sobering experience. TLDR: hypoglycemia vs stroke can be tricky, and we need to stay vigilant.",
+    "category": "EM",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "I have a rule that if the patient's symptoms don't fit the diagnosis, it's usually not the diagnosis. Hypoglycemia vs stroke is a classic example. We need to trust our clinical judgment and not just rely on a textbook list of symptoms.\nhttp://www.ncbi.nlm.nih.gov/pubmed/25583537\n This study showed that 30% of patients with a primary presentation of hypoglycemia actually had a stroke. So, what's the takeaway? Don't let your mind be made up too quickly.",
+        "color": "red"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs like you need to remember that the key is to differentiate between the symptoms of hypoglycemia and the symptoms of stroke. Hypoglycemia can have a rapid onset, and the symptoms can resolve quickly, but what about the atypical presentation? You need to trust your gut feel, not just a quick diagnosis.\nhttp://www.ncbi.nlm.nih.gov/pubmed/25583537\n This study showed that atypical presentations occur in about 20% of stroke patients.",
+        "color": "red"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Excuse me, Dr. Sterling, but how do you differentiate between hypoglycemia and stroke in a patient with a low blood sugar level, altered mental status, and seizures? Are there any specific signs or symptoms that would point to a stroke?",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Hey Leo, the key is to assess the patient's entire clinical picture. For example, if the patient has unilateral weakness or numbness, aphasia, or vision changes, these symptoms could hint at a stroke rather than hypoglycemia. And, if the patient's symptoms do not respond to glucose administration, that's another red flag. Remember, the atypical presentations are just as important as the typical ones.\nhttps://www.medscape.com/viewarticle/874141 ",
         "color": "purple"
       },
       {
         "id": 5,
         "parent_id": 4,
-        "user": "SparkleEyesSue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Amen to that, Turbo! It's always great to get a second (or third) opinion from the OB team. Do you guys ever consider getting a pediatrician on board too, to make sure the baby is okay after delivery?",
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Thanks, Maya. That makes sense. But what about cases where the patient's symptoms are not that clear-cut? Like, what if the patient has a history of seizures and their symptoms could be consistent with either a low blood sugar or a stroke?",
         "color": "green"
       },
       {
         "id": 6,
         "parent_id": 5,
-        "user": "DrMayaGupta",
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Exactly, Kevin. And that's where the old-fashioned physical exam comes in handy! In these kinds of situations, I like to perform a thorough neuro exam to assess for any focal neurological deficits that might point to a stroke. Of course, don't forget to get a CT scan ASAP!\nhttps://emedicine.medscape.com/article/1166679-overview ",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Rant about RMSF: Can We Get Some Consistency on the Diagnostic Criteria?",
+    "body": "Just saw a patient with suspected Rickettsialpox who turned out to be an early RMSF with an atypical rash. I'm still fuming about it. I know it's all about clinical acumen and pattern recognition, but some consistency would be nice. Anyone else have trouble distinguishing these zoonotic diseases from each other, especially when the patient's history is sketchy? And what's the deal with the 'classic clinical triad'?",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "Actually, we do get the ped team involved, especially in cases where there's a high risk of neonatal distress. But it's always good to get a second opinion, and I think Turbo's point about erring on the side of caution is well-taken.",
+        "text": "TL;DR: We need clear, actionable guidance on RMSF diagnosis to avoid missteps like this. I've been having the same frustrations, especially with all the hype around Lyme disease, RMSF gets neglected. We should focus on the patient's specific symptoms and risk factors rather than relying on memorized diagnostic 'tricks.' Have any of you read this great article on the CDC's website regarding the nuances of RMSF presentation? \n\nhttps://www.cdc.gov/lyme/disease/tickborne-disease.html",
+        "color": "purple"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Rick 'The Rage'",
+        "role": "EP",
+        "city": "Windsor, ON",
+        "text": "You're telling me. I saw a case last year where the patient had a clear rash and the patient was convinced they had RMSF. But what really got me was that the family was on vacation in Florida and had been hiking in a forest with a lot of deer ticks. Turns out, it was a classic case of EM. Don't even get me started on the diagnostic criteria for RMSF. Can someone explain the difference between the various guidelines and recommendations from different organizations?",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Does EM stand for Erythema Marginatum? Or is it something else? I'm so confused about all the acronyms in med school lol. Can someone give a quick rundown of the EM guidelines for RMSF diagnosis?",
+        "color": "green"
+      },
+      {
+        "id": 5,
+        "parent_id": 3,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "You're makin' me feel like I'm back in the hospital, Dr. Rick! EM actually stands for Erythema Migrans, the characteristic rash of Lyme disease. But don't you worry, there's a great summary of the RMSF guidelines on the IDSA website, if'n you want to look it up!",
+        "color": "purple"
+      },
+      {
+        "id": 6,
+        "parent_id": 2,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I'm a bit new to this, but I thought I recalled learning that the CDC had some strict criteria for RMSF diagnosis, including the classic 'triad'? Is that not true? Can someone clarify the details?",
         "color": "green"
       },
       {
         "id": 7,
         "parent_id": 6,
-        "user": "ChadBroson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "So, TL;DR what did you end up doing with the nuchal cord? Did you have to cut it or was it a tight one where you needed to deliver the baby quickly?",
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Don't let the acronyms fool you, Leo. The CDC does recommend the classic triad of fever, rash, and eschar for RMSF diagnosis, but they also mention that up to 10% of patients won't show a rash! That's where you need to rely on your clinical acumen and consider the patient's risk factors and symptoms.",
         "color": "blue"
       },
       {
         "id": 8,
         "parent_id": 7,
-        "user": "DrArtsThorne",
-        "role": "MD",
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "Actually, we didn't have a nuchal cord at all! Just the usual drama and stress of a high-risk labor. I think it's always important to keep our cool and not panic - those patients can sense when we're not confident, and it makes things worse.",
-        "color": "green"
+        "text": "TL;DR: Don't overemphasize the 'classic' criteria. A thorough history, physical examination, and a healthy dose of pattern recognition will help avoid errors like this. By the way, has anyone heard about the new research on using genetic markers for RMSF diagnosis?",
+        "color": "purple"
       },
       {
         "id": 9,
+        "parent_id": 8,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "I had a patient once with RMSF who had a weird rash that looked nothing like the textbook pic. It really made me realize how important a good physical exam is. I started taking my interns to the bedside to go over the patient's history and vitals so they can get a chance to really see and interact with the patient. We can't just rely on memorization, we need hands-on practice to develop that clinical judgment!",
+        "color": "green"
+      },
+      {
+        "id": 10,
+        "parent_id": 5,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "This conversation has made me think about how often I focus on laboratory tests rather than the clinical picture. We really need to work on that! Does anyone have a favorite book or resource for improving clinical skills?",
+        "color": "purple"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "I'm with you, Elena! Have you guys seen the book by Dr. Ken Murray called 'The Complete Family Medicine Handbook'? It's got some fantastic tips and tricks for developing that bedside manner, and it's just so darn practical. Highly recommend it!",
+        "color": "blue"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "That sounds like exactly what I need to improve my skills. Can you guys share more about the book? I'd love to hear any recommendations or tips you have from your own experiences.",
+        "color": "green"
+      },
+      {
+        "id": 13,
+        "parent_id": 12,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "I've heard of that book! Isn't Dr. Murray a Canadian physician or something?",
+        "color": "purple"
+      },
+      {
+        "id": 14,
+        "parent_id": 13,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Actually, Dr. Murray is a renowned ER physician from the States, but his book is totally worth the read. Get hold of it and give it a whirl!",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "TLDR: Retinal Detachment, a case study - how we misdiagnosed",
+    "body": "I'm still shaking my head over last night's case. Came in with a 45 y/o with a sudden floaters in her visual field, described it as 'veil or curtain-like defect'. Initially thought it was a lazy ER resident misdiagnosis of a retinal tear (which was not present, BTW), but it turns out to be a retinal detachment (RD) in the left eye.",
+    "category": "medical",
+    "comments": [
+      {
+        "id": 1,
         "parent_id": null,
-        "user": "DrRickTheRage",
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great case study! RD can be tricky to diagnose, especially in the ER. I think it's interesting that you mentioned the patient had floaters described as 'veil or curtain-like defect'. Have you ever considered the impact of retinal detachment on the visual field?\n\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC4724915/",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "I'm not sure I follow your point, Dr. Thorne. I thought the RD case presented was due to a sudden trauma, which is a classic cause. Could you elaborate on how it relates to the visual field?\n\nTLDR for me please?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs. You're both misinformed. RD is always a medical emergency, but only in cases where it's caused by a severe eye disease, like diabetes or hypertension. This case was just a lazy ER resident over-diagnosing, like usual.",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I disagree, Dr. Sterling. While diabetes and hypertension can contribute to RD, they're not the only causes. Trauma, inflammation, and tumors are all potential causes. And as an ER resident, we need to consider all possibilities, not just medical causes.\n\nWhat's your experience with RD cases, Dr. Sterling?",
+        "color": "red"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "I've seen my fair share of RD cases. But what's your experience with misdiagnosis, Dr. Gupta? Or are you just another over-confident resident who thinks they know it all?",
+        "color": "purple"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Wow, Dr. Sterling. That's quite a personal attack. As for my experience, I've seen several cases of RD misdiagnosis, including this one. And it's precisely because we need to consider all possibilities that we can avoid those misdiagnoses. Now, can we please return to the topic at hand and discuss the clinical presentation of RD?",
+        "color": "green"
+      },
+      {
+        "id": 7,
+        "parent_id": 1,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Sorry to jump in late, but I had a related case last week. The patient presented with sudden vision loss in the right eye, described it as a 'black spot'. I suspected RD, but the patient had a history of uveitis, which led me to order an MRI. Turns out it was a tumor pressing on the optic nerve. Lesson learned: always consider the big picture when assessing a patient's symptoms.",
+        "color": "orange"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "I think what Dr. Barb Miller is saying is that we should consider all the possibilities when assessing a patient's symptoms, including less common causes. But can someone explain to me why RD is harder to diagnose in the ER than other conditions?",
+        "color": "pink"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "It's because RD often presents with nonspecific symptoms, such as floaters or vision loss. And it's usually diagnosed via imaging, which can be a challenge in the ER setting. But with the help of bedside ultrasonography, we can make a presumptive diagnosis in some cases.",
+        "color": "yellow"
+      }
+    ],
+    "image": "https://www.roshreview.com/blog/wp-content/uploads/sites/2/2024/02/Image-Retinal-Detachment-@8x-991x1024.png"
+  },
+  {
+    "id": 7,
+    "title": "TL;DR: When CT doesn't agree with your gut (Diverticulitis edition)",
+    "body": "Just saw a patient with what seemed like classic diverticulitis: left lower Q pain, fever, leukocytosis, and a 'scooped out' appearance on CT. BUT the CT also showed a small amount of gas within the sigmoid colon that could be seen ' tracking' towards the liver. Was it diverticulitis with a phlegmon, or was I missing a colon perforation? Has anyone else ever had one of these tricky cases where the CT just didn't jive with your clinical suspicion?",
+    "category": "r/emergencygineering",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Turbo_Tom",
+        "role": null,
+        "city": "London, ON",
+        "text": " Omg yes, I've seen this case before. It's like the CT is trying to tell you two different stories. One friend of mine always says 'If the CT looks good, but the patient looks terrible, then it's always the CT'.",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "I had a similar case last year, where the CT was negative for diverticulitis but the patient had fever and leukocytosis. Ended up doing an ultrasound and it showed a small abscess in the right lower quadrant that was missed on CT.",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Sarah_Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Can we discuss the utility of CT in diverticulitis? We all know that CT can miss diverticulitis, especially in early or mild cases. But what about in more severe cases? Does CT add any value over clinical judgment?",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "I think what Sarah is getting at is the concept of 'clinical suspicion' vs 'CT evidence'. In more severe cases, CT can confirm our suspicions of a phlegmon or abscess, but in milder cases, CT can give us a false sense of security.",
+        "color": "orange"
+      },
+      {
+        "id": 5,
+        "parent_id": null,
+        "user": "Sparkle-Eyes_Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "I've seen some patients with what looks like diverticulitis on CT, but they just don't present classically. Maybe we should be thinking about other differential diagnoses?",
+        "color": "red"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Rick 'The Rage'",
         "role": "EP",
         "city": "Windsor, ON",
-        "text": "This is what I'm talking about. We're wasting time talking about protocols and second opinions - what we need to talk about is how to get pregnant women to come in for prenatal care in the first place. I mean, come on, it's not that hard.",
+        "text": "Don't even get me started on diverticulitis. I swear, that's the most over-diagnosed thing in the ER anymore. Everyone wants a fancy-schmancy CT, but what about the good ol' fashioned RBS?",
+        "color": "pink"
+      },
+      {
+        "id": 7,
+        "parent_id": 4,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Scarborough, ON",
+        "text": "Aren't there some studies that suggest CT can actually delay diagnosis in some cases? Like, because it makes us think we're over the hump, but really we're just scratching the surface'",
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "parent_id": null,
+        "user": "Barnaby_Finch",
+        "role": null,
+        "city": "Surrey, BC",
+        "text": "This whole conversation is so me, btw... Just kidding, kind of.",
+        "color": "purple"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Turbo_Tom",
+        "role": null,
+        "city": "London, ON",
+        "text": "Amen to that! I mean, we're all just winging it in the ER, right? Lol",
         "color": "purple"
       },
       {
         "id": 10,
-        "parent_id": 9,
-        "user": "DrArtsThorne",
-        "role": "MD",
-        "city": "Toronto, ON",
-        "text": "Rick, my friend, you're getting a little carried away here. Prenatal care is indeed crucial, but we can't just focus on that one aspect of the problem. We need to consider the bigger picture - access to care, socioeconomic factors, education... it's all interconnected.",
-        "color": "green"
+        "parent_id": 1,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "This conversation has made me realize something. What we need is a better sense of when to trust our gut (or CT), and when to dig deeper. Maybe we should start a flowchart for diverticulitis... just kidding!",
+        "color": "brown"
       }
     ]
+  },
+  {
+    "id": 8,
+    "title": "Heat Stroke, Malignant Heat Illnesses, and Targeted Temperature Management: When to Pull the Trigger",
+    "body": "Just saw a patient with malignant heat illness today and I realized how critical it is for us to know the nuances of treating these patients. We've all heard of the concept of targeted temperature management (TTM), but I'm starting to think that we might be relying too heavily on it. Does anyone have any thoughts on when to use TTM in these patients?",
+    "category": "emergency_medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Absolutely, we need to be careful when using TTM for malignant heat illnesses. Theoretically, it can help to reduce the body's thermoregulatory stress, but in reality, it's often more complex than that. I've seen patients with malignant heat illnesses who have required TTM but still experienced coagulopathy and DIC. Has anyone else seen this?",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Actually, I found a study from the NEJM last year that looked at the outcomes of patients with malignant heat illnesses treated with TTM. They found that while TTM did reduce the risk of mortality, it also increased the risk of complications such as coagulopathy and DIC. What are your thoughts on this study?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Dr. Gupta, I'd love to discuss this study further. Can you provide more information on the study's methodology and sample size?",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I believe the study was a retrospective cohort study that looked at 100 patients with malignant heat illnesses treated with TTM. The primary outcome was mortality, and the secondary outcomes were complications such as coagulopathy and DIC.",
+        "color": "cyan"
+      },
+      {
+        "id": 5,
+        "parent_id": 1,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "Gentlemen, I think we're getting a bit off track here. The real question is, what's the best way to determine when a patient needs TTM versus aggressive cooling measures?",
+        "color": "magenta"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I agree, Dr. Thorne. In my experience, the key is to monitor the patient's core temperature and adjust the cooling measures accordingly. If the temperature is persistently elevated despite aggressive cooling, then TTM might be an option.",
+        "color": "yellow"
+      },
+      {
+        "id": 7,
+        "parent_id": 5,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "I've found that patients with malignant heat illnesses often have a very high white blood cell count, which can make it difficult to determine the severity of the condition. Has anyone else noticed this?",
+        "color": "orange"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I see what you mean, Dr. Zalesky. In my experience, a high WBC count can be a sign of a severe underlying infection, which can exacerbate the heat-related illness. We need to be careful not to miss this.",
+        "color": "pink"
+      },
+      {
+        "id": 9,
+        "parent_id": 7,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "You're all forgetting about one thing: the patient's social history. A patient with a history of chronic illness or substance abuse may be more susceptible to heat-related illnesses. We need to take a comprehensive approach to these cases.",
+        "color": "brown"
+      },
+      {
+        "id": 10,
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Okay, let's not forget about the nurses' perspective here. We're the ones who are on the front lines, dealing with these patients every day. What do we need to see from our physicians to effectively manage these cases?",
+        "color": "gray"
+      }
+    ]
+  },
+  {
+    "id": "AcuteHFThread",
+    "title": "Rant about acute heart failure diagnosis: The gray area between COPD and pulmonary edema",
+    "body": "Just saw a patient with classic COPD exacerbation, or was it acute heart failure? The patient's history was vague, and the chest x-ray had some 'interstitial edema' but no clear signs of pulmonary edema. The patient's heart rate was elevated, but the blood pressure was stable. I ordered labs, including troponins, and waited for the results. Meanwhile, I started the patient on oxygen, steroids, and bronchodilators for the COPD exacerbation. The troponins came back slightly elevated, so I considered the possibility of acute heart failure. The ECHO revealed some signs of left ventricular dysfunction, but the ejection fraction was not severely depressed. I kept the patient on oxygen and diuretics for a few days, and the symptoms improved. The take-home message: beware the gray area between COPD and pulmonary edema, especially in the elderly. The key is to consider both diagnoses and tailor the treatment accordingly.",
+    "category": "emedicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Great rant, Ziggy! One thing that always helps me distinguish between COPD and pulmonary edema is the pattern of crackles on auscultation. Pulmonary edema usually has more diffuse, fine crackles, whereas COPD typically has coarser, more bronchial crackles. Also, don't forget to check the patient's orthopnea and paroxysmal nocturnal dyspnea scores! These can be key indicators of acute heart failure.",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Dr. Zalesky, thanks for the clarification! I always knew that COPD and pulmonary edema had different crackle patterns, but I never knew about the orthopnea and paroxysmal nocturnal dyspnea scores. Can you recommend any online resources that discuss this topic in more detail?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Thanks for the insight, Dr. Zalesky! One question: what about patients with severe chronic kidney disease? These patients often have fluid overload and hypertension, making it harder to distinguish between COPD and pulmonary edema. Do you have any tips for managing these patients?",
+        "color": "pink"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great question, Dr. Park! When dealing with patients with severe CKD, I always look for signs of fluid overload, such as pleural effusions, ascites, and jugular venous distension. I also check for signs of hypertension, such as hypertensive retinopathy and papilledema. In terms of treatment, I focus on managing the edema and hypertension with diuretics and vasodilators, while also monitoring the patient's electrolyte imbalances and renal function. It's a challenging population to manage, but with a thoughtful approach, we can improve their outcomes.",
+        "color": "blue"
+      },
+      {
+        "id": 5,
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Haha, Ziggy always tells it like it is! One thing I've learned from my years as an ER nurse is the importance of getting a clear history from the patient. In this case, the patient's symptoms and past medical history might have given us a hint about the diagnosis. What I learned today: always take the time to get those pesky VSGs and ask the patient to draw a picture of their symptoms (lol, just kidding... or am I?)",
+        "color": "yellow"
+      },
+      {
+        "id": 6,
+        "parent_id": 2,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Dr. Jenkins, can you clarify what the orthopnea score is? I thought it was just a measure of how many pillows the patient needs to sleep with at night?",
+        "color": "orange"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Great catch, Leo! The orthopnea score is a more nuanced measure that assesses the patient's symptoms in terms of positional dyspnea. It's not just about the number of pillows, but rather the patient's ability to sleep comfortably without getting short of breath. Look for a comprehensive review on the topic by the American Thoracic Society (ATS) for more info!",
+        "color": "turquoise"
+      }
+    ],
+    "image": "https://ars.els-cdn.com/content/image/1-s2.0-S2213177917300513-fx1.jpg"
   }
 ]
