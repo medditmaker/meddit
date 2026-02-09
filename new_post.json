@@ -1,8 +1,286 @@
 [
   {
-    "title": "Just had a Low-Probability ACS patient and I'm still trying to figure out what happened... TL;DR - what's the best way to differentiate?",
-    "body": "Hey fellow EMdocs, just wanted to share a crazy case I had last night. Patient presents with pleuritic chest pain, positional (gets worse when lying down), sharp, stabbing pain. Initially, I was pretty confident it was low-probability ACS, but then I found out the patient had a past history of 'stable' angina, which kept me wondering. After some back-and-forth with the cardiology team, we decided to send them for an ECG, which was completely normal, but then we got the troponin level, which was slightly elevated (still in the low range, but elevated nonetheless). I'm getting a bit confused - is this guy a true low-probability ACS case or do I need to revisit my diagnosis?",
-    "category": "EMdocs",
+    "id": 1,
+    "title": "TL;DR: Missed a classic case of central vertigo in the ED last night. What did I do wrong?",
+    "body": "Just saw a patient with sudden onset of severe vertigo, nausea, and vomiting. Classic peripheral vertigo presentation, right? Wrong. Turns out it was a classic case of central vertigo, and I'm kicking myself for not catching it earlier.",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I've seen this before in patients with small strokes or demyelinating disease. Did you do the HINTS exam?",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "What's the HINTS exam? I only learned about it in my neuro course. Can someone explain it to me?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "The HINTS exam is a bedside test for detecting central causes of vertigo. It stands for Head Impulse, Nystagmus, Test of Skew, and Focus Examination. You can find a detailed explanation of the test and its limitations online.",
+        "color": "purple"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Exactly! The HINTS exam can help detect subtle peripheral vestibular dysfunction. But it's not 100% sensitive for central causes. We need to keep considering other diagnoses in patients with atypical presentations.",
+        "color": "purple"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "I'm still a bit unclear on how to distinguish between peripheral and central vertigo. Can someone provide a summary of the key differences?",
+        "color": "green"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Peripheral vertigo usually presents with sudden onset of intense symptoms, including nystagmus, nausea, and vomiting. Central vertigo often presents with less severe symptoms and a more gradual onset. However, these distinctions are not always clear-cut, and we need to consider other clues like patient history and physical examination findings.",
+        "color": "purple"
+      },
+      {
+        "id": 7,
+        "parent_id": null,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "I've noticed that patients with central vertigo often have atypical presentations. Have any of you encountered patients with central vertigo who initially present with ataxia or gait disturbances?",
+        "color": "pink"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Yes, I have seen patients with central vertigo who initially presented with ataxia or gait disturbances. In these cases, we need to consider other causes of ataxia, such as stroke, multiple sclerosis, or peripheral neuropathy.",
+        "color": "purple"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "I've noticed that patients with central vertigo often benefit from targeted therapy, such as botulinum toxin injections or pharmacological management. Can someone provide more information on these treatment options?",
+        "color": "lightblue"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Yes, targeted therapy can be very effective for patients with central vertigo. Botulinum toxin injections can help reduce spasm and improve symptoms. Pharmacological management, such as benzodiazepines, can also be helpful. But we need to carefully consider the risks and benefits of these treatments and tailor them to the individual patient's needs.",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Had a miss last night...",
+    "body": "Had a 45-year-old male with status epilepticus come in with witnessed generalized tonic-clonic seizures lasting over 10 minutes. Initial labs showed a sodium of 135 mmol/L and a potassium of 3.5 mmol/L. He was intubated and given fosphenytoin without significant response. He progressed to non-convulsive status epilepticus (NCSE) as evidenced by EEG abnormalities and altered mental status. I deferred further testing and treatment to the out-patient setting. Am I missing something important? Has anyone else dealt with this type of scenario? Should I have been more assertive in my treatment?",
+    "category": "emedicine",
+    "comments": [
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "TL;DR - I'd say you did a great job managing this patient. NCSE can be a real pain in the butt. Did you consider a lumbar puncture or MRI to rule out any mass lesions or other causes of status epilepticus? Maybe it was just a sodium dysregulation, but we can't rule out other things without further investigation. Also, fosphenytoin is a good choice for acute seizure prophylaxis. Maybe a discussion about sodium management in this patient wouldn't be a bad idea. Here's a link to some online resources that might be helpful:\nhttps://emedicine.medscape.com/article/1169149-overview\nhttps://www.neuron.org/content/92/3/567.full",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Thanks for sharing your case, OP. I'm a bit curious about your decision to defer further testing to the out-patient setting. How did you determine that this patient needed to be transferred to the hospital as opposed to being treated in the emergency department? Was this patient a transfer from another hospital or was it an emergent call from a doctor's office?",
+        "color": "purple"
+      },
+      {
+        "id": 5,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Just wanted to jump in here with a question about this case. What's the current consensus on NCSE management? I've read that some folks are saying that NCSE is not a separate entity from status epilepticus, but rather a subtype. Thoughts on this?",
+        "color": "green"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Phil Muddle",
+        "role": "EP",
+        "city": "Regina, SK",
+        "text": "Thanks for the update, Dr. Gupta. I think this is a really interesting discussion. As far as I understand, we're still trying to get a better handle on the etiology of NCSE, and there's a lot of variability in treatment approach depending on the institution and the individual patient. Maybe we can get more insight from other members of the community?\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC5321421/",
+        "color": "blue"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "Goodness gracious, what a convoluted discussion! I think the key issue at hand here is identifying the underlying cause of status epilepticus. If we can figure out what's driving this seizure, we can likely address the cause and resolve the status epilepticus. NCSE may be a complication of SE, but it's not the cause. Keep it simple, my friends!\nhttps://books.google.com/books?id=J1B5CwAAQBAJ&pg=PA123&lpg=PA123&dq=status%20epilepticus%20causes&source=bl&ots=qkPzQy5e8S&sig=ACfU3U1f4TjBz5j4JL4kL2ZKgBqyKq6eFQ&hl=en&sa=X&ved=2ahUKEwit3Z7Xz8v1AhVQxYsKHf1kDqoQ6AEwB3oECAgQEA#v=onepage&q=status%20epilepticus%20causes&f=false",
+        "color": "purple"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Thanks for the historical perspective, Dr. Thorne. I think your advice is spot on, especially in cases like this where NCSE is suspected. One thing to keep in mind is that NCSE can be really tricky to diagnose. It's not uncommon for patients to present with altered mental status and EEG abnormalities without clear-cut seizure signs. Maybe we can discuss some strategies for identifying NCSE in the ED?",
+        "color": "blue"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Hi everyone! I'm a bit new to this thread, but I'd love to ask a question. Can someone explain to me what NCSE is and how it differs from other types of status epilepticus? I thought I'd read that SE was just a prolonged seizure, but I guess there's more to it than that!",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Frustrated with the lack of awareness about perinatal abuse - a case from last night",
+    "body": "TLDR; A 28-week pregnant patient presents with a mysterious fall on her abdomen, multiple bruises, and evasive behavior. She claims it was an accident. Any advice on how to approach this situation? Case study below.",
+    "category": "Emergency_Medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I've seen cases like this before, it's often referred to as perinatal abuse. Be sure to assess for signs of physical trauma, ask about the father's involvement, and explore the social history. Remember, the patient may be in a vulnerable position, so prioritize her safety above all else. Check out the ACEP guidelines on perinatal abuse.",
+        "color": "blue"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Dr. Gupta, what are some red flags to look out for? Are there any specific questions we should ask the patient?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "I've read that perinatal abuse can manifest in various ways, including delayed prenatal care. Is that true? Any studies that support this?",
+        "color": "red"
+      },
+      {
+        "id": 4,
+        "parent_id": 2,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Good question, Leo! Red flags include inconsistent explanations of injuries, evasive behavior, and a general lack of concern for the patient's well-being. Ask open-ended questions like 'Can you describe the circumstances surrounding the fall?' or 'How did the father or partner react to your injury?'. We should also assess the patient's relationship with her partner and any history of domestic violence.",
+        "color": "blue"
+      },
+      {
+        "id": 5,
+        "parent_id": 3,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Yes, Sarah, delayed prenatal care is a common presentation of perinatal abuse. A study published in the JOGNN journal supports this. The patient may experience trauma, stress, and anxiety, leading to avoidance of medical care. Remember, it's essential to approach the patient with empathy and understanding.",
+        "color": "blue"
+      },
+      {
+        "id": 6,
+        "parent_id": null,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs. This is just another case of factitious disorder imposed on another. Don't be so quick to jump to conclusions about abuse. We need more data, more evidence. The patient could have simply been clumsy or had an accident. Don't miss the obvious diagnosis of a factitious disorder.",
+        "color": "red"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I understand where you're coming from, Dr. Sterling, but we can't rule out perinatal abuse based solely on a lack of evidence. The patient may be ashamed or embarrassed about the situation, or may not have access to resources for support. Don't forget that perinatal abuse can be a silent epidemic. Let's keep an open mind and prioritize the patient's safety.",
+        "color": "blue"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Silent epidemic? You're being dramatic, Gupta. Let's stick to the facts and avoid jumping to conclusions.",
+        "color": "red"
+      },
+      {
+        "id": 9,
+        "parent_id": null,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "Gentlemen, let's not forget that perinatal abuse is a complex issue that requires a thoughtful and sensitive approach. We need to prioritize the patient's well-being and safety, rather than rushing to judgments or competing diagnoses. Remember, we're here to support the patient and provide high-quality care.",
+        "color": "green"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "What are some resources we can use to support the patient, Dr. Oldman?",
+        "color": "red"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "There are many resources available, Sarah. Our local hospital has a dedicated perinatal abuse team that provides counseling and support services. We can also connect the patient with community resources like the Perinatal Abuse Hotline or the Canadian Foundation for the Study of Family Violence.",
+        "color": "green"
+      }
+    ],
+    "image": "https://first10em.com/wp-content/uploads/2015/06/bakri-balloon.png"
+  },
+  {
+    "id": 12345,
+    "title": "Rant about missed greenstick fractures in pediatrics",
+    "body": "Just saw a patient with a greenstick fracture that was initially missed during our ER shift last night. The kid had a classic bowing deformity of the forearm with pain and swelling. We ended up missing it because we weren't thinking about it in the context of a possible abused child (as discussed in Chapter 187). But I digress. The point is, greenstick fractures are super common in kids, especially 3-4 year olds. And if we're not careful, we can miss them. I've seen way too many of these in my career. The key is to maintain a high index of suspicion when dealing with pediatric fractures. Remember, the cortex and periosteum are disrupted on one side of the bone but intact on the other. And in kids, it's often a combination of a greenstick fracture and a plastic deformity (bowing of the bone). We should be getting CT scans or MRI of the affected area if we're not sure. And orthopedic follow-up is crucial. Has anyone else had a close call with a missed greenstick fracture? How do you manage these cases in your ER?",
+    "category": "emergency medicine",
     "comments": [
       {
         "id": 1,
@@ -10,688 +288,650 @@
         "user": "Dr. Aris Thorne",
         "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "Great post, OP! To answer your question, the key to differentiating low-probability ACS from true ACS is to look at the patient's clinical history and to pay close attention to what the patient describes as 'reproducible' pain - if it's reproducible, like in this case, then it's more likely to be ACS. The elevated troponin level also supports this. However, the fact that the ECG was normal makes it a bit more difficult to say for certain. Have you considered doing a follow-up ECG 2-3 hours after the patient's presentation to see if there are any changes?",
+        "text": "TL;DR, missed greenstick fractures are a thing. We need to get better at recognizing these injuries. A few things to keep in mind. First, the classic bowing deformity. Second, consider the possibility of child abuse (as mentioned in Chapter 187). And third, always get orthopedic review. That way, we can avoid missing these and send our patients home with the right treatment. I've linked to a study on greenstick fractures here: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4341421/",
         "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Thorne's point about reproducible pain makes a lot of sense - doesn't that usually indicate a higher likelihood of ACS?",
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Haha, yeah, missed greenstick fractures are a thing! Dr. Aris is spot on. You can also use the Ottawa Knee Rule to guide your thinking on when to get imaging. The other thing is, don't be afraid to admit patients who are high-risk or have a complex fracture. Remember, 'if in doubt, admit them out!' (Sorry, I couldn't resist). Seriously though, a good orthopedic review will make all the difference. Has anyone else used the Ottawa Knee Rule in their practice?",
         "color": "green"
       },
       {
         "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I had a similar case a while back and what helped me make the diagnosis was to pay attention to the patient's medical history - were they on any medications that might cause chest pain like nitroglycerin or calcium channel blockers? It also helped to get a more detailed history about the patients past medical history to see if they had any pre-existing conditions that might make them more prone to chest pain. Did you get this patient's past medical history?",
+        "parent_id": 2,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I'm not familiar with the Ottawa Knee Rule. Can you explain it a bit more? I've heard it mentioned in lectures before but I've never put it into practice.",
         "color": "blue"
       },
       {
         "id": 4,
-        "parent_id": 1,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "Another thing I like to ask myself when I have a low-probability ACS case is what might be causing this patient's pain - are there other potential causes that might be contributing to their symptoms? It's always a good idea to do a thorough differential diagnosis, and in this case, what might be causing this patient's pain to be reproducible? Has anyone else considered the possibility of other conditions like COPD or asthma?",
-        "color": "red"
-      },
-      {
-        "id": 5,
         "parent_id": 2,
         "user": "Sarah Jenkins",
         "role": "MS3",
         "city": "Ottawa, ON",
-        "text": "Dr. Thorne, I was thinking that an elevated troponin level would actually make the case more suspicious for ACS, not less. Am I reading the data wrong or do you disagree?",
-        "color": "green"
-      },
-      {
-        "id": 6,
-        "parent_id": 3,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Dr. Gupta, you make a good point - getting the patient's past medical history is crucial. Does anyone know of any good resources for getting the patient's past history quickly while in the ED?",
-        "color": "blue"
-      },
-      {
-        "id": 7,
-        "parent_id": 4,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "I agree with Dr. Oldman - a good differential diagnosis is always the way to go. Also, has anyone else considered whether this patient might be experiencing some kind of musculoskeletal pain, perhaps related to a pre-existing injury?",
-        "color": "red"
-      }
-    ],
-    "image": "https://aneskey.com/wp-content/uploads/2016/06/m_tin_ch51_f001.png"
-  },
-  {
-    "id": 1,
-    "title": "Just had a doozy of an antinicotinic toxicity case...",
-    "body": "Just saw a patient come in with an OP, I thought he had a classic cholinergic crisis on his hands... but the vitals were all over the place! Hypotension, tachycardia, mydriasis... but no clear SLUDGE or DUMBELS. I'm stumped - can anyone help me out with a differential? Was I missing something obvious?",
-    "category": "emergency medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "",
-        "city": "Toronto, ON",
-        "text": "Great catch on the OP toxicity, OP! I'd start by ordering a Tox screen to rule out other potential causes, like a parasympathetic storm in a septic patient. Also, did you confirm that the SLUDGE and DUMBELS triad was absent? Those symptoms are a hallmark of cholinergic crisis, but you can't overemphasize the importance of ruling out other causes. I'd also consider a thorough H&P and labs, including electrolytes and CK.",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "@Dr. Aris Thorne, thank you for the clarification! I was thinking SLUDGE and DUMBELS were like a 99% positive for cholinergic crisis But what about parasympathetic storm? Isn't that like a completely different animal? How would you differentiate between the two cases?",
-        "color": ""
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Has anyone else come across 'parasympathetic storm' in a case of sepsis? From what I've researched, it's a rare but potentially life-threatening condition - is this the same as septic shock? Any resources or guidelines on how to manage it would be greatly appreciated!",
-        "color": ""
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Actually, I've seen septic shock be referred to as 'parasympathetic storm' in some literature. It's all about the pathophysiology of sepsis, where the autonomic nervous system is dysregulated... @Sarah Jenkins, the key here is identifying a 'dose-dependent' effect of autonomic dysfunction - if you see signs of both cholinergic excess (SLUDGE, DUMBELS) AND sympathetic dominance (hypotension, tachycardia), you might be looking at a parasympathetic storm. Worth a read: this excellent paper by @Dr. David Menzies: https://doi.org/10.1016/j.anai.2022.02.009",
-        "color": ""
+        "text": "I've read about the Ottawa Knee Rule in a few studies but I'm not sure how applicable it is in real life. Do we actually use it in the ER or is it just a theoretical tool?",
+        "color": "pink"
       },
       {
         "id": 5,
-        "parent_id": 4,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "@Dr. Maya Gupta, thank you so much for explaining parasympathetic storm! I was a bit lost, but your explanation makes total sense. And OMG, the paper you linked has 500+ citations... Can anyone else comment on the clinical significance of identifying parasympathetic storm in sepsis?",
-        "color": ""
+        "parent_id": 1,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "I'm not sure what's going on here but isn't a greenstick fracture like, super common in kids? Like, we learn about it in med school and all. How often do these really get missed?",
+        "color": "red"
       },
       {
         "id": 6,
         "parent_id": 5,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Lol, great conversation, folks! Don't get too caught up in the nuances of autonomic dysfunction... At the end of the day, if you're managing a septic patient and you see signs of cholinergic excess, sympathetic dominance, or a combo of both, you probably just need to give them some fluid, maybe some pressors, and get them to ICU stat.",
-        "color": ""
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Actually, Chad, you'd be surprised how often these get missed! It's a classic example of where medical knowledge and clinical experience diverge. Just because we learn about it in med school doesn't mean we see it often enough to develop a high index of suspicion. Trust me, it happens more often than you'd think.",
+        "color": "purple"
       },
       {
         "id": 7,
-        "parent_id": 6,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": ":) What's the takeaway here, guys? Should we just stick to the classics (SLUDGE, DUMBELS) and leave the parasympathetic storm stuff for the 'experts'? Can anyone give me a simple mnemonic device to help me remember the diff?",
-        "color": ""
+        "parent_id": 2,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Great discussion, everyone! Just a thought: what about using ultrasound instead of CT scans or MRI to evaluate greenstick fractures? I've heard it's becoming more popular in pediatrics.",
+        "color": "gold"
       },
       {
         "id": 8,
         "parent_id": 7,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Hey @Chad, great question! To help you remember, just think of it as a spectrum of autonomic dysfunction: cholinergic excess (SLUDGE, DUMBELS), sympathetic dominance (hypotension, tachycardia), and parasympathetic storm (cholinergic excess + sympathetic dominance). You can even create a flowchart or a decision algorithm to help you work through it... Good luck with your med school interviews, Chad!",
-        "color": ""
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "I love it when residents talk about new tech, but let's not get ahead of ourselves! Have you considered the radiation exposure from CT scans? We should be using ultrasound and other non-invasive imaging methods whenever possible.",
+        "color": "brown"
       },
       {
         "id": 9,
         "parent_id": 8,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Thanks for the advice, @Dr. Sarah Sharp! One question: would a parasympathetic storm case be best managed in the ICU or ED?",
-        "color": ""
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Exactly! I didn't think about radiation exposure. We definitely need to think about this more in pediatric medicine. Dr. Aris, what are your thoughts on using ultrasound for greenstick fractures?",
+        "color": "gold"
       }
     ]
   },
+  [
+    {
+      "id": 1,
+      "title": "Today I Learned: phentolamine cocktail for epinephrine overdose",
+      "body": "Just saw a patient with accidental autoinjector epinephrine overdose. Quick reversal with a phentolamine-lidocaine mixture was life-saver. Anyone else ever used this?",
+      "category": "Emergency Medicine",
+      "comments": [
+        {
+          "id": 2,
+          "parent_id": null,
+          "user": "Dr. Thorne",
+          "role": "Staff Physician",
+          "city": "Toronto, ON",
+          "text": "This is a game-changer! Been using phentolamine for epinephrine overdoses, but didn't know about combining with lidocaine. Anyone have a protocol for dilution?",
+          "color": "purple",
+          "tags": [
+            "phentolamine",
+            "lidocaine"
+          ]
+        },
+        {
+          "id": 5,
+          "parent_id": 2,
+          "user": "Leo Chen",
+          "role": "MS1",
+          "city": "Montreal, QC",
+          "text": "Isn't the standard dilution 1:1 phentolamine and lidocaine? Or is that still a debate?",
+          "color": "blue",
+          "tags": [
+            "dilution",
+            "protocol"
+          ]
+        },
+        {
+          "id": 6,
+          "parent_id": 2,
+          "user": "Leo Chen",
+          "role": "MS1",
+          "city": "Montreal, QC",
+          "text": "Also, any tips on administering it subcutaneously through the puncture site?",
+          "color": "blue",
+          "tags": [
+            "administration",
+            "technique"
+          ]
+        },
+        {
+          "id": 3,
+          "parent_id": null,
+          "user": "Dr. Lammers",
+          "role": "Author",
+          "city": null,
+          "text": "In our department, we use a 1mL total volume containing 2.5mg phentolamine. Administer subcutaneously through the puncture site, as you mentioned.",
+          "color": "purple",
+          "tags": [
+            "protocol",
+            "administration"
+          ]
+        },
+        {
+          "id": 4,
+          "parent_id": 3,
+          "user": "Dr. Thorne",
+          "role": "Staff Physician",
+          "city": "Toronto, ON",
+          "text": "Thanks for the tip, Dr. Lammers! I'll update our protocol accordingly.",
+          "color": "green",
+          "tags": [
+            "protocol"
+          ]
+        },
+        {
+          "id": 7,
+          "parent_id": null,
+          "user": "Sarah Jenkins",
+          "role": "MS3",
+          "city": "Ottawa, ON",
+          "text": "Isn't this more commonly known as a 'phentolamine cocktail'?",
+          "color": "blue",
+          "tags": [
+            "terminology"
+          ]
+        },
+        {
+          "id": 8,
+          "parent_id": 7,
+          "user": "Dr. Thorne",
+          "role": "Staff Physician",
+          "city": "Toronto, ON",
+          "text": "Yes, 'phentolamine cocktail' is a more commonly used term. Thanks for pointing out!",
+          "color": "green",
+          "tags": [
+            "terminology"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "CAT BITE ENZYME INJURIES: when do you give prophylactic antibiotics?",
+      "body": "",
+      "category": "Emergency Medicine",
+      "comments": [
+        {
+          "id": 9,
+          "parent_id": null,
+          "user": "Dr. Victor Sterling",
+          "role": "Chief of Surgery",
+          "city": "Calgary, AB",
+          "text": "Don't waste your time with prophylactic antibiotics! They're a waste of resources.",
+          "color": "red",
+          "tags": [
+            "prophylaxis"
+          ]
+        },
+        {
+          "id": 10,
+          "parent_id": 9,
+          "user": "Dr. Zalesky",
+          "role": "EP",
+          "city": "Vancouver, BC",
+          "text": "Are you kidding me, Victor? Cat bites have a high risk of infection!",
+          "color": "pink",
+          "tags": [
+            "antibiotics",
+            "infection"
+          ]
+        },
+        {
+          "id": 11,
+          "parent_id": 9,
+          "user": "Dr. Miller",
+          "role": "EP",
+          "city": "Winnipeg, MB",
+          "text": "I agree with Victor, cat bites are over-diagnosed. But let's talk about human bites...",
+          "color": "pink",
+          "tags": [
+            "human bites",
+            "infection"
+          ]
+        },
+        {
+          "id": 12,
+          "parent_id": null,
+          "user": "Dr. Miller",
+          "role": "EP",
+          "city": "Winnipeg, MB",
+          "text": "Human bites have a high risk of infection due to the oral flora. Give prophylactic antibiotics, people!",
+          "color": "blue",
+          "tags": [
+            "human bites",
+            "infection"
+          ]
+        },
+        {
+          "id": 13,
+          "parent_id": 12,
+          "user": "Turbo Tom",
+          "role": "RN",
+          "city": "London, ON",
+          "text": "So, is it a one-size-fits-all approach for prophylactic antibiotics in human bites?",
+          "color": "orange",
+          "tags": [
+            "protocol",
+            "antibiotics"
+          ]
+        },
+        {
+          "id": 14,
+          "parent_id": 13,
+          "user": "Dr. Lammers",
+          "role": "Author",
+          "city": null,
+          "text": "Actually, you can use the CDC guidelines for prophylaxis in human bites.",
+          "color": "purple",
+          "tags": [
+            "CDC guidelines",
+            "prophylaxis"
+          ]
+        }
+      ]
+    }
+  ],
   {
-    "id": 1,
-    "title": "Rant about hand lacerations: when to suture, when to refer to hand surgery",
-    "body": "Just saw a patient with a nasty laceration to the volar aspect of the wrist, who refused to tell me what caused it. Long story short, after evaluating the wound, it turned out to be a self-inflicted injury. The patient's story changed multiple times during triage, but what really got me was when I asked them about their mental health and risk for self-harm... they got really defensive. Anyway, the real question is: how often do we see similar cases? Do we ever get frustrated with the lack of transparency from patients in these situations?",
+    "id": 6,
+    "title": "Today I Learned: PID is back with a vengeance",
+    "body": "Had a miss last night and was forced to recall my rusty old knowledge of pelvic inflammatory disease. Thought I'd share some interesting cases and tidbits to refresh your memory. TLDR: don't forget the empiric cover for PID!",
     "category": "r/emergencymedicine",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": "DrArisThorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Preach! I think all of us have had cases where we've had to guess what happened, and it's always a challenge. I've found that asking those questions is not only necessary for patient care but also helps build trust. Sometimes patients just need someone to listen.",
+        "user": "Dr. Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Ugh, don't get me started on PID. The thing that really gets me is when patients come in and say 'I've been having lower abdominal pain, but I've been having it for weeks so I'm sure it's appendix.' Get them to stop being so stubborn and start checking their cervix! ",
         "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "DrSterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "*yawn* Amateurs. We've got too many people playing doctor these days. It's not about being nosy; it's about evaluating the patient's story. You've got to separate the wheat from the chaff, folks. Next thing you know, you'll be asking about patients' mental health during triage and calling it 'patient-centered care'. Please.",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "LeoChen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "I'm so sorry to hear that, Dr. Thorne! But I'm also a little confused... why did you ask about their mental health? Is it related to the laceration? Can someone explain?",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "DrGupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Hey Leo, when we ask about mental health, it's because patients with self-inflicted injuries often have underlying psychiatric issues. By asking, we can identify patients at risk and potentially save lives. It's a crucial part of our job as ER docs.",
-        "color": "purple"
-      },
-      {
-        "id": 5,
-        "parent_id": 2,
-        "user": "SarahJenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Actually, Dr. Sterling, there is evidence-based research to support asking about mental health, and it can improve patient outcomes and patient satisfaction (Huang et al., 2018). You might want to look into it before dismissing the idea.",
-        "color": "green"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "DrPark",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Thanks, Sarah! I was wondering if anyone had any studies on this topic. I'll make sure to look up the paper. But what about the patient we had last night, Dr. Thorne? Can you tell us more about their case?",
-        "color": "blue"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "DrThorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Last night's patient... well, let's just say they had a complicated history. The patient had a mallet finger deformity, which I suspected might be a result of a previous trauma. But when I asked about the injury, they clammed up and changed the subject. Long story short, I ended up referring them to a hand surgeon to get a proper evaluation. It was a tough case, but I learned an important lesson: sometimes you have to trust your instincts and advocate for the patient's best interests.",
-        "color": "purple"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "SparkleeEyesSue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Awh, bless your heart, Dr. Thorne! Sometimes bein' nosy can lead to good outcomes, don't yeh think? And I'm sure the patient appreciates yer persistence! Now, let's not ferget about the importance of hand hygiene when dealin' with wounds...",
-        "color": "pink"
-      }
-    ],
-    "image": "https://advancedorthosports.com/wp-content/uploads/2020/03/Wrist-and-Hand-Lacerations.jpg"
-  },
-  {
-    "id": "head-trauma-really-got-me-going-last-night",
-    "title": "Head Trauma, Anyone?",
-    "body": "Had a miss last night and it got me thinking about head trauma in the elderly... So, we all know that falls are the #1 cause of fatal and non-fatal injuries in people \u226565 years of age, but what really caught my attention was the clinical feature of syncope being implicated in many cases. I was wondering if anyone has ever come across a patient with a high GCS score (\u226514) but still with significant TBI symptoms? Anyone wanna share their experiences or insights?",
-    "category": "emergency-medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "TLDR: I've seen a few cases of elderly patients with high GCS scores but significant TBI symptoms. In one case, the patient had a history of chronic subdural hematomas and was on anticoagulants (warfarin). The key takeaway was the importance of a thorough medication history and ordering imaging studies even if the patient's GCS score is normal.",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Well said, @Maya Gupta! It's essential to remember that the GCS score is just one tool to assess for TBI. A complete patient history, including medication reconciliation and a detailed physical exam, is crucial in identifying potential red flags. Have you guys heard about the Canadian CT Head Rule (CCHR)? It's a decision rule that helps in determining the need for a CT scan in patients with minor head trauma.",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
         "user": "Leo Chen",
         "role": "MS1",
         "city": "Montreal, QC",
-        "text": "Hi @Dr. Aris Thorne! I've studied the CCHR before, but I was wondering if it's still widely used in practice? And are there any modifications or updates to the original algorithm?",
-        "color": "pink"
-      },
-      {
-        "id": 4,
-        "parent_id": 2,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Actually, @Leo Chen, the CCHR is still widely used and accepted in the literature. However, I think it's essential to note that the original study had some limitations and potential biases. More recent studies have proposed modifications to the algorithm, such as the New Orleans Criteria (NOC). Anyone have experience with NOC?",
-        "color": "blue"
-      },
-      {
-        "id": 5,
-        "parent_id": 3,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "Ugh, great topic, @Maya Gupta, but let's not get too caught up in decision rules and stuff. What about the patient with a GCS score of 14 but still complaining of headache and difficulty concentrating? How do we approach that situation?",
-        "color": "red"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "I'm a patient who fits the description you mentioned, @Dr. Rick 'The Rage'... I had a minor headache, but I couldn't concentrate and kept thinking about what happened. Is it possible that I was misdiagnosed or not getting the right treatment?",
-        "color": "yellow"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Well, @Barnaby Finch, it's definitely possible that there's an underlying issue. As @Maya Gupta mentioned earlier, even with a normal GCS score, we still need to consider the possibility of subdural hematomas or other intracranial injuries. Have you had any imaging studies done?",
-        "color": "orange"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Lorenzo B",
-        "role": "MD",
-        "city": "New York, NY",
-        "text": "Actually, @Dr. Elena Varkov, imaging studies are crucial in diagnosing TBI. I'd recommend a CT scan or possibly an MRI depending on the patient's presentation.",
-        "color": "brown"
-      },
-      {
-        "id": 9,
-        "parent_id": 5,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "Apoplexy, my dear colleagues! Let's not get carried away with the fancy imaging and algorithms. What's the root cause of this patient's symptoms? A good old-fashioned physical exam and patient history should be the starting point.",
-        "color": "gray"
-      },
-      {
-        "id": 10,
-        "parent_id": null,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Hear, hear, @Dr. Archibald Thorne! As emergency physicians, we often get too caught up in the technical aspects and forget about the patient-centric approach. What do you guys think about the importance of bedside manner in diagnosing head trauma?",
+        "text": "Hi Dr. Zalesky, can you clarify what you mean by 'checking their cervix'? Are you referring to a pelvic exam?",
         "color": "green"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Hypertensive Emergency vs. Urgency: Don't Get It Mixed Up",
-    "category": "Emergency Medicine",
-    "body": "Just saw a patient with a blood pressure of 220/140 presenting with chest pain, and everyone in the hospital was freaking out like it's a hypertensive emergency. But let's take a step back and think about it. Did we actually see organ dysfunction? No. It was just a blood pressure that was through the roof. So, I had to politely educate my team on the difference between hypertensive emergency and urgency.",
-    "comments": [
-      {
-        "id": 2,
-        "parent_id": null,
-        "user": "DrArisThorne",
-        "role": "MD",
-        "city": "Toronto, ON",
-        "text": "Hypertensive urgency is a tricky concept, folks. Just because the blood pressure is sky high doesn't mean there's not going to be organ damage down the line. We need to be vigilant and watch for those signs of end-organ damage, especially in the elderly and those with known HTN. Don't let that BP number fool you.",
-        "color": "purple"
       },
       {
         "id": 3,
-        "parent_id": null,
-        "user": "DrVictorSterling",
-        "role": "MD",
-        "city": "Calgary, AB",
-        "text": "Amateurs. Hypertensive urgency is just a fancy way of saying 'hypertension with no acute end-organ damage'. Get over it. It's not like we're going to see a hypertensive emergency that often.",
-        "color": "pink"
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Love the attitude, Dr. Zalesky. One thing to add - I always get the patient to tell me about their menstrual history. PID can be triggered by an intrauterine device (IUD) or an intrauterine pregnancy. Don't forget to consider these in your differential!",
+        "color": "blue"
       },
       {
         "id": 4,
-        "parent_id": 2,
-        "user": "DrZiggyZalesky",
-        "role": "MD",
-        "city": "Vancouver, BC",
-        "text": "Hey @DrArisThorne, what's the cutoff for blood pressure to consider it hypertensive emergency? Can it be as low as 160/100? Asking for a friend... ",
-        "color": "green"
+        "parent_id": null,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "I completely agree with you, Dr. Zalesky. It's always a challenge to convince patients that their symptoms warrant a pelvic exam. One thing that I find helpful is explaining the benefits of doing so in a clear and straightforward way.",
+        "color": "orange"
       },
       {
         "id": 5,
         "parent_id": 4,
-        "user": "DrBarbMiller",
-        "role": "MD",
-        "city": "Vancouver, BC",
-        "text": "Actually @DrZiggyZalesky, the JNC 7 recommends treating with antihypertensives for blood pressures \u2265180/110. But, in reality, if you're seeing end-organ damage, you can start antihypertensives before that.",
-        "color": "blue"
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "So, can you tell me more about what you mean by 'clear and straightforward'? I'm a pre-med and I want to learn more about how to communicate effectively with patients...",
+        "color": "pink"
       },
       {
         "id": 6,
-        "parent_id": 3,
-        "user": "LeoChen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Sorry to ask, but what's the definition of acute end-organ damage? Is it like, if someone has kidney failure from hypertension?",
-        "color": "yellow"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "DrSarahSharp",
-        "role": "MD",
-        "city": "Laval, QC",
-        "text": "Yes, exactly @LeoChen. Acute end-organ damage is defined as new-onset or worsening organ dysfunction due to hypertensive crisis, such as acute stroke, myocardial infarction, or AKI. Don't forget about hypertensive encephalopathy and SAH too.",
-        "color": "red"
-      },
-      {
-        "id": 8,
-        "parent_id": 2,
-        "user": "DrMayaGupta",
-        "role": "MD",
-        "city": "Hamilton, ON",
-        "text": "Hey @DrArisThorne, I agree with you, but we also need to be cautious not to overdiagnose hypertensive emergencies. Sometimes, it's just a matter of a blood pressure that's higher than usual. Do you have a favorite protocol for managing hypertensive urgency?",
-        "color": "purple"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "DrBrockStone",
-        "role": "MD",
-        "city": "Hamilton, ON",
-        "text": "Yeah, exactly @DrMayaGupta. I love using the SBP >200 with any symptoms or SBP >220 with no symptoms as the gold standard for hypertensive emergency. But don't quote me on this.",
-        "color": "green"
-      },
-      {
-        "id": 10,
-        "parent_id": 1,
-        "user": "TurboTom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Can we all just agree to use a more patient-centered approach to hypertensive crisis management? Less meds, more bedside manner, anyone?",
-        "color": "pink"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "CASE STUDY: Vasopressors in Cardiac Arrest - When to Use What?",
-    "body": "Had a great case today in the ER.  A 45 yo male came in with witnessed arrest in the field.  Initial rhythm was PEA, but quickly transitioned to V-tach.  We got him stabilized on epinephrine, but his mean arterial pressure (MAP) remained stubbornly low.  That's when I started getting calls from the ICU for advice on vasopressor escalation.  I was going to post about it on here, but then we had a bit of a kerfuffle over which vaso to use.  Long story short, we ended up using a combination of phenylephrine and norepinephrine to get his MAP up.  But it got me thinking - what are the nuances of vasopressor dosing in cardiac arrest?  And when do you switch from one to another?  Can anyone chime in with their thoughts?",
-    "category": "Emergency Medicine",
-    "comments": [
-      {
-        "id": 1,
         "parent_id": null,
         "user": "Dr. Aris Thorne",
-        "role": "",
+        "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "Great question!  In cardiac arrest, the gold standard for vasopressors is norepinephrine.  It's the most effective agent for increasing MAP and has a relatively low risk of adverse effects.  However, if a patient is refractory to norepinephrine, phenylephrine is a good option.  It's also worth noting that vasopressin can be used as a alternative to epinephrine in cardiac arrest.  But the key take-home is to tailor your vasopressor choice to the patient's specific needs and underlying condition.",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "",
-        "city": "Calgary, AB",
-        "text": "Amateurs!  You're all making this way too complicated.  In cardiac arrest, just use epinephrine and be done with it.  Norepinephrine and phenylephrine are just more complicated versions of the same thing.  And don't even get me started on vasopressin...  It's just a fancy way of saying 'I don't know what I'm doing.'",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Dr. Thorne, I think you're absolutely right.  Norepinephrine is the way to go in cardiac arrest.  But can someone speak to the importance of titration?  I know we're all used to just slamming in the vasopressor, but don't we need to be more nuanced in our approach?",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Phil Muddle",
-        "role": "EP",
-        "city": "Regina, SK",
-        "text": "Titration...  what's that again?  Can someone explain it to me?",
-        "color": "blue"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Ah, Dr. Muddle, titration just means adjusting the dose of the medication to achieve the desired effect.  In this case, it means slowly increasing the amount of norepinephrine to get the patient's MAP up without causing adverse effects.",
-        "color": "blue"
-      },
-      {
-        "id": 6,
-        "parent_id": 1,
-        "user": "Barnaby Finch",
-        "role": "",
-        "city": "",
-        "text": "I'm so glad you asked about this.  I've been reading a lot about vasopressors online and I'm confused about the difference between norepinephrine and phenylephrine.  Can someone explain it to me in simple terms?",
-        "color": "red"
+        "text": "One strategy that I find helpful is to explain the reasons for the pelvic exam in a way that resonates with the patient's concerns. For example, 'I want to make sure that we don't miss a serious condition like ectopic pregnancy.'",
+        "color": "yellow"
       },
       {
         "id": 7,
         "parent_id": 6,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Simple terms, Barnaby?  Okay, think of it this way: norepinephrine is like a strong, broad-acting vasopressor that increases both blood pressure and heart rate.  Phenylephrine, on the other hand, is more of a 'specific' vasopressor that only increases blood pressure.  So if you're looking to get a patient's blood pressure up without worrying too much about heart rate, phenylephrine might be a better choice.",
-        "color": "red"
-      },
-      {
-        "id": 8,
-        "parent_id": 1,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "I'm so glad you brought this up!  I've been wondering about vasopressors for a while now.  Can someone suggest some good resources for learning more about this topic?",
-        "color": "yellow"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Sparkle-Eyes Sue, you might want to check out the ALiEM vasopressor module.  It's a great resource that goes over the nuances of vasopressor use in cardiac arrest.  Plus, it's got some great case studies to illustrate the different scenarios.",
-        "color": "yellow"
-      }
-    ],
-    "image": "https://i0.wp.com/dontforgetthebubbles.com/wp-content/uploads/2023/10/image-4.png?resize=410%2C1024&ssl=1"
-  },
-  {
-    "title": "Frustration with missed cholecystitis diagnosis - a cautionary tale about red flags",
-    "id": 1234567,
-    "body": "Had a miss last night that still keeps me up. 64yo lady with sudden onset right upper quadrant pain, fever, and a white count of 18k. Thought it was a clear slam dunk for perforated gallbladder, but the CT didn't show any signs of perforation and the HIDA scan came back negative. Turned out she had acalculous cholecystitis.",
-    "category": "emergency medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Wow, that's crazy! Acalculous cholecystitis can be super tricky to diagnose. What made you think it was a perforated gallbladder at first?\n\nDid you note any signs of peritonitis on exam or in the vitals?\n\nAnd what's your take on using the sonographic Murphy's sign in the ED? I've heard it's pretty sensitive but not super specific.",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "And on a side note, has anyone else noticed that some ultrasound machines are still using the old '2D' protocol for gallbladder assessment? It's like, come on, we're in the 21st century now! Get with the times and use some 3D or 4D imaging!",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "Gross miss on that one! Thanks for sharing. Acalculous cholecystitis is indeed a tough nut to crack. I'd argue that it's more common than we think, especially in high-risk patients like diabetics or the elderly. Has anyone else considered using a more aggressive approach to diagnosing this condition, e.g., ordering a CT scan without waiting for the HIDA?",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Omg, I'm so cringing for you, Doc! Don't you worry, we've all had our fair share of misses. What I'd like to know is, did you ever consider the patient's past medical history? Was there any red flag in her past that could've tipped you off to acalculous cholecystitis?",
-        "color": "pink"
-      },
-      {
-        "id": 5,
-        "parent_id": 3,
-        "user": "Dr. Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "Great point, Sue! Red flags can be super helpful in diagnosing these tricky cases. I'd argue that a history of diabetes or other metabolic disorders is a significant risk factor for acalculous cholecystitis. Has anyone else noticed that these patients often have a higher incidence of gallstones, even without a history of pancreatitis?",
-        "color": "orange"
-      },
-      {
-        "id": 6,
-        "parent_id": 3,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Wait a minute, Doc Brock! What about the role of bile stasis in acalculous cholecystitis? I've read that bile stasis can lead to a hypersecretion of gastrin, which in turn stimulates the gallbladder to contract, leading to a vicious cycle of inflammation and necrosis. Am I missing something?",
-        "color": "brown"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Sorry, I got a bit carried away there! The TLDR, in case you're wondering, is that bile stasis may play a role in acalculous cholecystitis, possibly through gastrin overproduction. Not entirely sure about the exact mechanisms yet, but I'd love to hear more from the experts.\n\nLink to the paper by [author name] discussing the role of bile stasis: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5672343/",
-        "color": "gray"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
         "user": "Dr. Victor Sterling",
         "role": "Chief of Surgery",
         "city": "Calgary, AB",
-        "text": "Gentleman, I must intervene here. The evidence on bile stasis and acalculous cholecystitis is still in its infancy. While it's an interesting concept, we shouldn't jump to conclusions just yet. Let's take a step back and focus on the core issues at hand. I'd suggest we revisit the basic diagnostic workup, including the CT scan and HIDA, before getting carried away with esoteric theories.",
-        "color": "purple"
+        "text": "Don't bother with the pelvic exam, people. Most of the time, it's just a waste of time and resources. Amateurs.",
+        "color": "red"
       },
       {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Easy there, Dr. Sterling! \n\nThanks for keeping us grounded, though.\n\nI'd like to add that even when we do get the diagnosis right, we still need to address the underlying factors that led to the acute cholecystitis. So, what's the take-home message here? Should we be prioritizing aggressive treatment of acalculous cholecystitis, vs. managing the symptoms and waiting for the patient to recover?",
-        "color": "blue"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
+        "id": 8,
+        "parent_id": 7,
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "That's exactly right, Tom! And I think we should emphasize the importance of identifying high-risk patients from the get-go. By knowing our patient's past medical history, social determinants, and other relevant factors, we can tailor our treatment strategy to address the underlying issues. Has anyone else considered using a 'patient-centered' approach to diagnosing and treating acalculous cholecystitis?",
-        "color": "pink"
-      }
-    ]
-  },
-  {
-    "id": 11,
-    "title": "Had a crazy case last night - help me fill in some gaps",
-    "body": "I've been an EP for 10 yrs and still get stumped sometimes. Just had a 35 yo pt come in with a complex partial seizure... seizures are a mystery to me. Can anyone fill me in on the status of nonconvulsive status epilepticus (NCSE) and how frequently it's encountered in adult emergency medicine? I've heard it's a diagnosis of exclusion, and that we should consider it when we can't figure out why a pt is 'out of it'. Can someone give me some tips on how to work up and manage NCSE in the ED?",
-    "category": "EM",
-    "comments": [
+        "text": "I disagree, Dr. Sterling. A good pelvic exam is essential for diagnosing conditions like PID. You can't just brush it off as a waste of time.",
+        "color": "gray"
+      },
       {
-        "id": 1,
+        "id": 9,
         "parent_id": null,
         "user": "Dr. 'Ziggy' Zalesky",
         "role": "EP",
         "city": "Vancouver, BC",
-        "text": "Yeah, NCSE's a toughie. The key is to think like a neurologist. Start by getting a EEG ASAP and looking for rhythmic activity in the frontal or temporal lobes. You'll also want to rule out other causes of altered mental status, like medication side effects or infection. If you're still stumped, think about intubating and getting the pt in a neuro ICU, stat. Don't forget to check their sodium levels - it's a common cause of NCSE!",
+        "text": "I'm not saying it's a waste of time, Dr. Sterling. I'm saying that sometimes we need to do more than just order labs to diagnose these patients. A good pelvic exam can go a long way in identifying the source of their pain.",
+        "color": "purple"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Can you explain more about the benefits of a pelvic exam in diagnosing PID? I've read that some studies have shown that it's not as effective as previously thought.",
+        "color": "beige"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Dr. Phil Muddle",
+        "role": "EP",
+        "city": "Regina, SK",
+        "text": "I think what Sarah means is... uh... can someone refresh my memory on the latest research? I'm not sure what's the most up-to-date info on PID diagnosis.",
+        "color": "brown"
+      },
+      {
+        "id": 12,
+        "parent_id": null,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Hey guys, just wanted to chime in and say that I've seen some pretty wild things on the floor when it comes to PID diagnosis. Don't forget to consider the patient's sexual history - it can make all the difference!",
+        "color": "turquoise"
+      },
+      {
+        "id": 13,
+        "parent_id": 12,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Totally agree with you, Turbo Tom! A good sexual history can help identify some of the underlying causes of PID. I always make sure to ask the patient about their IUD usage and any potential sexually transmitted infections.",
+        "color": "silver"
+      },
+      {
+        "id": 14,
+        "parent_id": null,
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "I'm a bit skeptical about the whole PID diagnosis thing. Can someone explain to me why we need to give empiric treatment? What's the worst-case scenario if we don't treat it ASAP?",
+        "color": "pink"
+      },
+      {
+        "id": 15,
+        "parent_id": 14,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Well, Dr. Stone, the worst-case scenario is that the patient develops sepsis or toxic shock syndrome. Don't forget to consider the possibility of an intrauterine abscess - it's a serious complication that requires prompt treatment.",
+        "color": "gold"
+      },
+      {
+        "id": 16,
+        "parent_id": null,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Thanks for reminding us, Dr. Varkov. And just to reiterate, it's always better to err on the side of caution when it comes to PID diagnosis. Better safe than sorry, right?",
+        "color": "purple"
+      }
+    ],
+    "image": "https://images.squarespace-cdn.com/content/v1/546e1217e4b093626abfbae7/1526904650655-8UD1CT6PJ2Z5TGP11P8M/Lightning+Learning+-+Pelvic+Inflammatory+Disease.png"
+  },
+  {
+    "id": 7,
+    "title": "Rant about Lightning Injuries: Lessons from a 'Strike' Gone Wrong",
+    "body": "Just saw a patient with a severe lightning injury and it really made me think about the nuances of these cases. We all know lightning is a high-voltage electrostatic discharge, but the pathophysiology is still misunderstood by many of us. The patient had a clear history of being struck during a storm, and on presentation, had cardiac dysrhythmias, respiratory arrest, and severe burns. However, the complications don't stop there. The patient also developed a seizure disorder, cerebral edema, and a spinal cord injury. We're still evaluating for any long-term neurological damage.\n\nThe key is understanding how lightning travels over the skin (flashover) versus through the body. Most people survive because of this, but there can be permanent sequelae like what we're seeing here. Anyone care to share their experiences or thoughts on lightning injuries?",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "u/Darwin_was_right",
+        "role": "Resident",
+        "city": "Toronto, ON",
+        "text": "TL;DR-  Flashovers can cause severe burns, but internal injuries are often overlooked. Make sure to evaluate for rhabdomyolysis, renal failure, and other multi-organ dysfunction. Just remember, lightning can strike twice!\n\nAs for our patient, did you check for hypernatremia and hypokalemia? Electrolyte imbalances can be a major contributor to the multi-organ dysfunction we see in these cases.\n\nSource: https://litfl.com/lightning-induced-injury/#:~:text=Pathophysiology,-In%C3%A9stie%3A%3A",
+        "color": "purple",
+        "children": [
+          {
+            "id": 2,
+            "parent_id": 1,
+            "user": "u/Kevin_Park_MD",
+            "role": "Intern",
+            "city": "Edmonton, AB",
+            "text": "Wow, I had no idea lightning injuries could cause electrolyte imbalances! Can you explain why that happens and how to correct it?\n\nAlso, did you guys check the patient's urine for myoglobinuria? That's usually a sign of rhabdomyolysis.",
+            "color": "green",
+            "children": [
+              {
+                "id": 7,
+                "parent_id": 2,
+                "user": "u/Darwin_was_right",
+                "role": "Resident",
+                "city": "Toronto, ON",
+                "text": "Great point about myoglobinuria! Yes, we did check the urine and the patient is being treated for rhabdomyolysis. Regarding electrolyte imbalances, it's due to the rapid onset of cellular injury from the lightning strike. The cells release a massive amount of potassium, sodium, and water, leading to hypokalemia, hypernatremia, and hypo-osmolality.\n\nTo correct, we're giving the patient IV fluids, potassium supplements, and electrolyte replacement. It's been a real challenge, but we're monitoring the patient closely.",
+                "color": "purple",
+                "children": [
+                  {
+                    "id": 8,
+                    "parent_id": 7,
+                    "user": "u/Martha_The_Hammer",
+                    "role": "RN",
+                    "city": "Halifax, NS",
+                    "text": "Just remember, when it comes to electrolyte imbalances, it's all about the 'Sodium and the story'. We need to know the patient's electrolyte levels, but also their story- what meds they're on, any allergies, and any previous medical issues. That way, we can tailor our treatment plan and avoid any potential complications.",
+                    "color": "gray"
+                  },
+                  {
+                    "id": 9,
+                    "parent_id": 7,
+                    "user": "u/Turbo_Tom_MD",
+                    "role": "RN",
+                    "city": "London, ON",
+                    "text": "Agreed, but I'd also like to add that patients with lightning injuries often have a long and stormy medical history. Make sure to get a thorough history and perform a head-to-toe exam. You never know what other 'bolt' they might have been struck with.",
+                    "color": "green",
+                    "children": [
+                      {
+                        "id": 10,
+                        "parent_id": 9,
+                        "user": "u/Darwin_was_right",
+                        "role": "Resident",
+                        "city": "Toronto, ON",
+                        "text": "Great point! I'm going to make sure to get that history and do a thorough exam. Thanks for the advice, Turbo!",
+                        "color": "purple"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "parent_id": 1,
+            "user": "u/Dr_Sarah_Sharp",
+            "role": "EP",
+            "city": "Laval, QC",
+            "text": "What an interesting case! Did you guys consider the possibility of a 'stroke-like' presentation due to cerebral edema? I'd recommend imaging the patient's brain to rule out any secondary complications.\n\nAlso, have you started the patient on anticonvulsants? We don't want to miss a seizure disorder!",
+            "color": "red",
+            "children": [
+              {
+                "id": 4,
+                "parent_id": 3,
+                "user": "u/Kevin_Park_MD",
+                "role": "Intern",
+                "city": "Edmonton, AB",
+                "text": "Good catch, Sarah! Yes, we did consider cerebral edema and have imaged the patient's brain. The CT scan showed some signs of cerebral edema, so we're monitoring the patient closely.\n\nAs for anticonvulsants, we have started the patient on a loading dose of levetiracetam. Should we consider switching to phenytoin if the patient has a poor response?",
+                "color": "green",
+                "children": [
+                  {
+                    "id": 5,
+                    "parent_id": 4,
+                    "user": "u/Maya_Gupta_MD",
+                    "role": "Resident",
+                    "city": "Mississauga, ON",
+                    "text": "Actually, I'd recommend sticking with levetiracetam. It's a great choice for seizure prophylaxis, and we can titrate the dose as needed. Phenytoin is more of a last resort.",
+                    "color": "orange",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 6,
+                "parent_id": 3,
+                "user": "u/Leo_Chen_MD",
+                "role": "Student",
+                "city": "Montreal, QC",
+                "text": "Uh, can someone explain why lightning injuries can cause cerebral edema? I thought lightning only affected the body's electrical system...",
+                "color": "blue",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "parent_id": null,
+        "user": "u/Brock_Stone_MD",
+        "role": "Surgeon",
+        "city": "Hamilton, ON",
+        "text": "I don't know about the rest of you, but this patient has got me worried. We're talking about a potential stroke, cerebral edema, and a spinal cord injury. I'd say we're looking at a multi-system failure here. Make sure to get that patient to neurosurgery ASAP!",
+        "color": "brown",
+        "children": [
+          {
+            "id": 12,
+            "parent_id": 11,
+            "user": "u/Darwin_was_right",
+            "role": "Resident",
+            "city": "Toronto, ON",
+            "text": "Brock, I think you're right to be concerned. I'll make sure to get the patient to neurosurgery ASAP. Meanwhile, I'll start preparing for potential surgery in case things take a turn.",
+            "color": "purple",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "parent_id": null,
+        "user": "u/Dr_Kevin_Park_MD",
+        "role": "Intern",
+        "city": "Edmonton, AB",
+        "text": "Thanks for the tip, Darwin! What do you think about the patient's potential long-term prognosis? I've heard that lightning injuries can cause permanent neurological damage.",
+        "color": "green",
+        "children": [
+          {
+            "id": 14,
+            "parent_id": 13,
+            "user": "u/Darwin_was_right",
+            "role": "Resident",
+            "city": "Toronto, ON",
+            "text": "Yeah, that's true. Lightning injuries can cause permanent neurological damage, including seizures, memory loss, and cognitive impairment. But every case is different, and it's hard to predict what the patient will experience long-term.",
+            "color": "purple",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Just saw a patient with suspected graft-versus-host disease (GVHD) - Any pearls?",
+    "body": "I'm seeing a lot of post-transplant patients coming in with symptoms that could be GVHD, but it's so tricky to diagnose. Does anyone have any tips or tricks to help me out?",
+    "category": "r/EMcritic",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "",
+        "city": "Toronto, ON",
+        "text": "I've seen my fair share of GVHD cases, and it's always a challenge. Here's a pearl - keep an eye out for symptoms like skin rash, liver dysfunction, and gut involvement. If the patient is experiencing severe symptoms, get an endoscopy done ASAP to rule out GVHD. Don't forget to check for immune status and consider doing a flow cytometry test if you suspect it's GVHD.",
         "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Z, does the EEG need to be a continuous monitor or can we just do a single reading?",
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "I've been reading about GVHD and it seems like there are different types of it. Can you help me understand the difference between acute and chronic GVHD? How do you differentiate between the two?",
         "color": "green"
       },
       {
         "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "@Leo, it's a good question. Ideally, you want a continuous EEG monitor to catch the abnormal activity in real-time. But if that's not available, a single reading can still be helpful. Just make sure to follow up ASAP with another EEG if you're not getting anywhere.",
-        "color": "green"
+        "parent_id": 2,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Ah, come on, Sarah, it's not that hard. Acute GVHD typically presents within the first 3 months post-transplant and involves the skin, liver, and gut. Chronic GVHD typically presents after 3 months and can involve multiple organs. If you can't even tell the difference between acute and chronic GVHD, then maybe you shouldn't be a doctor.",
+        "color": "purple"
       },
       {
         "id": 4,
-        "parent_id": 1,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "Excuse me, doctors, but can someone explain what's going on with my sodium levels? I had one low sodium episode before and I'm terrified it's going to happen again.",
-        "color": "blue"
+        "parent_id": 3,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Hold up, Vic, let's not get too condescending here. Sarah's just trying to learn, and I'm happy to help. So, Sarah, to answer your question, acute GVHD is thought to be mediated by donor T cells recognizing the recipient's antigens, while chronic GVHD is thought to be a result of chronic inflammation and immune dysregulation. Does that make sense?",
+        "color": "green"
       },
       {
         "id": 5,
         "parent_id": 4,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "@Barnaby, it's a good question. Low sodium levels can cause seizures, among other symptoms. In the ED, we'll check your sodium level ASAP and adjust your medication as needed to prevent another episode. Don't worry, we've got this.",
-        "color": "pink"
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Thanks, Ziggy, that helps a lot. And what about GVHD prophylaxis? Should we be using immunosuppressive therapy to prevent GVHD or what?",
+        "color": "blue"
       },
       {
         "id": 6,
-        "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs. You're all over-diagnosing NCSE. Have any of you seen a case of postural orthostatic tachycardia syndrome (POTS)? It presents with similar symptoms, folks.",
-        "color": "gray"
+        "parent_id": 5,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Yes, prophylaxis is a crucial part of preventing GVHD. Typically, we use a combination of immunosuppressive medications like tacrolimus and mycophenolate mofetil to prevent GVHD. But it's not just about the meds - we also need to consider the patient's underlying medical condition and the type of transplant they had. Does anyone have any experience with GVHD prophylaxis in stem cell transplant patients?",
+        "color": "red"
       },
       {
         "id": 7,
         "parent_id": 6,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "@Dr. S, POTS can indeed present with similar symptoms, but let's not get too carried away here. NCSE's a real thing, folks, and we shouldn't dismiss it without a proper workup.",
-        "color": "purple"
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Actually, I've had some experience with GVHD prophylaxis in stem cell transplant patients. In my experience, we use a combination of tacrolimus and rituximab to prevent GVHD. But I'm curious - has anyone else out there used alemtuzumab as a GVHD prophylaxis agent?",
+        "color": "orange"
       },
       {
         "id": 8,
-        "parent_id": null,
-        "user": "Turo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Lol, EPs vs Surgeons - which one's going to win this battle of wits? In all seriousness, guys, can someone sum up the key takeaways from this thread?",
-        "color": "orange"
+        "parent_id": 7,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "I think alemtuzumab is a great choice for GVHD prophylaxis! I've seen some impressive results with its use in preventing GVHD. But I'm a little curious - how do we monitor for GVHD in patients on alemtuzumab prophylaxis?",
+        "color": "purple"
       },
       {
         "id": 9,
@@ -699,35 +939,43 @@
         "user": "Dr. Barb Miller",
         "role": "EP",
         "city": "Winnipeg, MB",
-        "text": "@Turo, in short: NCSE's a diagnosis of exclusion, rule out other causes of altered mental status, and get that EEG ASAP. And remember, EPs vs Surgeons: it's all about the patient, folks.",
-        "color": "pink"
+        "text": "Well, Kevin, that's a great question. When monitoring for GVHD in patients on alemtuzumab prophylaxis, we typically check for symptoms like skin rash, liver dysfunction, and gut involvement. But it's also super important to keep an eye on their immune status and do regular lab tests to check for any signs of GVHD. Any other tips or tricks to add to this list?",
+        "color": "green"
       },
       {
         "id": 10,
         "parent_id": 9,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Haha, nice one, Dr. M! Can someone explain why we need to get the EEG ASAP? Is it because the longer we wait, the higher the risk of complications?",
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "Ah, good heavens, ladies and gentlemen, let's not forget the old chestnut aboutGVHD. I recall a case where I treated a patient with a severe case of GVHD and he went on to develop a nasty case of pneumonia. Ah, the perils of GVHD, I say!",
         "color": "blue"
       }
     ]
   },
   {
-    "id": 1,
-    "title": "TLDR: Bioterrorism - Are We Prepared?",
-    "body": "Just saw a patient with suspected exposure to ricin, and I couldn't help but think... are we really prepared for a bioterrorism attack? I mean, I've taken the mandatory CME course, but when it comes down to it, do I really know what to do? The symptoms were classic: severe abdominal pain, vomiting, diarrhea, and hypotension. I treated it as an overdose, but what if it's not just an accidental exposure? I've heard rumors of a bioterrorism drill going down soon in our city, and I'm both nervous and curious... Thoughts, experts?",
-    "category": "emergency medicine",
-    "color": "purple",
+    "id": 42,
+    "title": "Just dealt with a crazy CO poisoning case... Thoughts appreciated",
+    "body": "So I was called out to a scene where a guy had been running a kerosene heater in his trailer and it filled the whole place with CO. The guy was stumbling around, complaining of a headache and dizziness... but no cherry red lips. Blood Oxi looked normal, so I'm wondering if it was even a CO poisoning. But then I got the cooximetry results and it was 60% COHb! This is crazy, guys. I know CO poisoning can be tricky, but this one had me stumped. Anyone have any experience with this? Was I just being paranoid, or did I actually save a life?",
+    "category": "EMERGENCY MEDICINE",
     "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great job, OP! And don't be so hard on yourself - CO poisoning can indeed be tricky to diagnose. I've seen cases where the COHb was normal but the clinical presentation was unmistakable. I think we all know that CO poisoning can look like many other conditions... What do you think was the most challenging part of this case?",
+        "color": "orange"
+      },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Dr. Aris Thorne",
-        "role": "MD",
-        "city": "Toronto, ON",
-        "text": "TLDR; we're screwed. Seriously, folks, bioterrorism is a ticking time bomb. I've worked in ERs in the Middle East, and I've seen firsthand what these agents can do. We need to take this seriously. I'd recommend reviewing the CDC's Bioterrorism Preparedness and Response Playbook. We need to be prepared for the unthinkable.",
-        "color": "green"
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Did you consider a delayed presentation? CO poisoning can have a delayed onset, especially if the victim has been unconscious or has a compromised cardiovascular system. Maybe the guy was just starting to wake up and that's why his COHb was normal?",
+        "color": "blue"
       },
       {
         "id": 3,
@@ -735,73 +983,73 @@
         "user": "Leo Chen",
         "role": "MS1",
         "city": "Montreal, QC",
-        "text": "I've heard that ricin is one of the most toxic substances known, but isn't it also really hard to obtain? And what are the chances of a bioterrorism attack in a western country? Could someone explain the risk factors to me?",
-        "color": "purple"
+        "text": "Hi Dr. Thorne, I was just wondering... how do you assess for CO poisoning? Is it just a cooximetry or do you also do a physical exam?",
+        "color": "pink"
       },
       {
         "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Victor Sterling",
-        "role": "MD",
-        "city": "Calgary, AB",
-        "text": "Good luck getting your hands on ricin, kid. And yeah, the risk is low, but what if it's not just ricin? What if it's something even worse? We need to be prepared for the worst-case scenario, and that means taking this seriously. I've linked a study on bioterrorism preparedness in Canada. Check it out.",
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I'd love to see the tox screen for this patient! Was there any mention of other tox ingestion (e.g., fomepizole)? What about a cardiac consult? These patients can have some pretty bad cardiovascular consequences...",
         "color": "red"
       },
       {
         "id": 5,
-        "parent_id": null,
-        "user": "Dr. Sarah Sharp",
-        "role": "MD",
-        "city": "Laval, QC",
-        "text": "I've worked in a hospital that has been on high alert for bioterrorism threats. One key takeaway is that prevention is key. We need to focus on education, community outreach, and early detection. Don't just think about the emergency response plan, think about how we can stop it from happening in the first place. Has anyone here worked in a bioterrorism response team?",
-        "color": "blue"
+        "parent_id": 2,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Excellent points, Sarah! You're absolutely right - delayed presentation can definitely mimic CO poisoning symptoms. I think we need to be mindful of our timing when diagnosing these cases.",
+        "color": "orange"
       },
       {
         "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Maya Gupta",
-        "role": "MD",
-        "city": "Mississauga, ON",
-        "text": "I've worked in a bioterrorism response team, and I can tell you that it's not just about emergency response. We need to think about community-based interventions, public health policies, and even research. We need to stay up-to-date on the latest developments in bioterrorism preparedness. Does anyone have links or resources on this topic?",
+        "parent_id": 3,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Leo, great question! When assessing for CO poisoning, I consider all the usual suspects: symptoms like headache, dizziness, and confusion. I also look for potential sources of CO exposure (e.g., generators, grills) and check for cherry red lips.",
         "color": "green"
       },
       {
         "id": 7,
-        "parent_id": 6,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "OMG, don't even get me started on research. We need to be prioritizing studies on bioterrorism preparedness, especially in terms of community-based interventions. I'm working on a study right now on disaster preparedness, and it's all about community engagement and social support. Anyone have experience with research in bioterrorism?",
-        "color": "purple"
+        "parent_id": 4,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Thanks, Dr. Miller! I feel like I need to go back and review my CO poisoning notes now.",
+        "color": "pink"
       },
       {
         "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Elena Varkov",
-        "role": "MD",
-        "city": "Quebec City, QC",
-        "text": "Actually, I've been working on a study on the sodium and fluid management in bioterrorism cases. Fascinating stuff. But to answer your question, research is key. We need to be staying on top of the latest evidence and best practices. Does anyone have experience with staying up-to-date on the latest research in bioterrorism preparedness?",
-        "color": "blue"
+        "parent_id": 4,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Actually, I think there's an excellent review on CO poisoning in the latest Emergency Medicine News (2019) that might be helpful for you, Dr. Thorne.",
+        "color": "red"
       },
       {
         "id": 9,
-        "parent_id": 2,
-        "user": "Dr. Aris Thorne",
-        "role": "MD",
-        "city": "Toronto, ON",
-        "text": "Exactly! We need to be proactive, not just reactive. Prevention, education, and research are key. And we need to be prioritizing this in our emergency preparedness plans. Can I get a shout-out for the folks who are actually working on this? We need to support and prioritize the research and education efforts.",
-        "color": "green"
+        "parent_id": null,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "OP, I'm so sorry to hear about this patient! Did the guy have any other complications?",
+        "color": "purple"
       },
       {
         "id": 10,
-        "parent_id": null,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "Wait a minute, guys... if there's a bioterrorism attack, won't that just spread like wildfire? I mean, we all interact with each other so much. How can we possibly contain it? Or are we just going to shut down the entire city? Scary thought.",
+        "parent_id": 9,
+        "user": "Dr. Rick 'The Rage'",
+        "role": "EP",
+        "city": "Windsor, ON",
+        "text": "Ugh, don't even get me started on CO poisoning cases! They're always a nightmare - long stays, neuro damage, and the patient's just trying to recover from the poisoning... Meanwhile, the bureaucracy is breathing down your neck for 'better' documentation. Just my two cents.",
         "color": "red"
       }
     ],
-    "image": "https://emergencymedicinecases.com/wp-content/uploads/2017/09/Disaster-Medicine-Card-compressed-320x240.jpeg"
+    "image": "https://images.squarespace-cdn.com/content/v1/546e1217e4b093626abfbae7/1548076646481-UFCWCVCR5IIQ7I5X2LD5/image-asset.png"
   }
 ]
