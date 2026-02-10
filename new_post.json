@@ -1,9 +1,9 @@
 [
   {
     "id": 0,
-    "title": "The Pharyngitis Conundrum: A Cautionary Tale of Overdiagnosis and Missed Scarlet Fever",
-    "body": "Just saw a patient with suspected pharyngitis, and it got me thinking about our approach to diagnosing this common condition. As EPs, we're often quick to assume bacterial causality, but are we overdoing it? I'm not suggesting we're overdiagnosing the heck out of it, but maybe we should take a step back and consider the nuances of viral pharyngitis and scarlet fever. Anyone else struggle with this one? TL;DR - Scarlet fever is back, folks!",
-    "category": "emergency-medicine",
+    "title": "Rant about misinterpreting Salicylate Toxicity",
+    "category": "EmergencyMedicine",
+    "body": "Had a miss last night with a patient presenting with altered mental status and respiratory alkalosis, suspecting salicylate toxicity. The ASA level turned out to be <100mg/L, much lower than expected. We ended up admitting the patient under our suspicion. In hindsight, the patient probably had a different underlying cause for their symptoms. This reminded me of the limitations of ASA levels in diagnosing toxicity and the importance of considering the clinical context and other laboratory values (e.g. anion gap, lactate). What are your experiences with salicylate toxicity diagnosis? Any tips for improving my approach?",
     "comments": [
       {
         "id": 1,
@@ -11,7 +11,7 @@
         "user": "Dr. Aris Thorne",
         "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "Great topic, Ziggy! Scarlet fever's a classic diagnosis we often overlook. The Centor criteria are helpful, but we should also be aware of atypical presentations, especially in kids. Epstein-Barr virus (EBV) can masquerade as GABHS, and Gonococcal pharyngitis should always raise suspicion for sexual abuse. I like to remember the \"5 Cs\": cough, conjunctivitis, coryza, cerebellar ataxia, and chest pain. If these red flags are absent, it's likely viral. What's your take on the current epidemic of pharyngitis in Canada?",
+        "text": "I completely agree with you, OP. ASA levels have been overemphasized in the management of salicylate toxicity. Clinical correlation and consideration of the overall clinical picture are crucial. Have you looked at the patient's acid-base status and lactate levels?",
         "color": "purple"
       },
       {
@@ -20,7 +20,7 @@
         "user": "Leo Chen",
         "role": "MS1",
         "city": "Montreal, QC",
-        "text": "Thanks, Dr. Thorne! I've been struggling with differentiating between viral and bacterial pharyngitis. What specific clues should I look for when suspecting scarlet fever? I saw that you mentioned atypical presentations; can you elaborate on that?",
+        "text": "Thanks for the reminder, Dr. Thorne. What are the typical acid-base disturbances seen in salicylate toxicity, and how do you differentiate between them?",
         "color": "green"
       },
       {
@@ -29,741 +29,497 @@
         "user": "Dr. Sarah Sharp",
         "role": "EP",
         "city": "Laval, QC",
-        "text": "Great discussion! I'd like to chime in on the importance of considering EBV. I've seen several cases where EBV presented with similar symptoms to GABHS. It's crucial to keep EBV in the differential, especially in children with lymphadenopathy. Has anyone seen any good case studies or reviews on this topic?",
-        "color": "blue"
+        "text": "I'd like to add that in addition to acid-base disturbances, we should also consider the patient's mental status, vital signs, and laboratory values (e.g. BUN, creatinine). A thorough review of these factors can help identify potential causes of altered mental status and guide further investigation.",
+        "color": "teal"
       },
       {
         "id": 4,
         "parent_id": 3,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Thanks for pointing that out, Dr. Sharp! I came across this study on EBV-related pharyngitis and thought it was a great example. It highlights the importance of considering EBV, especially in patients with prolonged illness or failure to respond to antibiotics [1]. Have you found this study helpful in your practice?",
-        "color": "purple"
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "RN here, love to chime in. Can anyone clarify what's the best approach for treating suspected salicylate toxicity? Should we be using GI decontamination, and what about activated charcoal?",
+        "color": "orange"
       },
       {
         "id": 5,
         "parent_id": 4,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Great find, Sarah! That study's a great resource for anyone looking to learn more about EBV-related pharyngitis. I've found it particularly helpful in cases where patients present with prolonged illness or atypical symptoms. Keep sharing those papers, everyone!",
-        "color": "green"
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Activated charcoal is the standard treatment for suspected salicylate toxicity, particularly if the patient presents early and the ASA level is high. However, the benefits of GI decontamination should be weighed against the potential risks of procedure-related complications. I'd love to see some evidence-based discussion on this topic!",
+        "color": "brown"
       },
       {
         "id": 6,
-        "parent_id": 1,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "You know what really gets my blood boiling? When we assume it's all GABHS and neglect to treat for scarlet fever! I've seen cases where we've given patients antibiotics without considering scarlet fever, only to have them end up in the ICU. Let's be more vigilant, people!",
-        "color": "red"
+        "parent_id": 4,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Hey guys, I've heard that IV sodium bicarbonate can be used to correct severe metabolic acidosis in salicylate toxicity. Is that correct?",
+        "color": "pink"
       },
       {
         "id": 7,
         "parent_id": 6,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Omg, Dr. Rage, I feel you! I've seen our docs miss scarlet fever all too often. Can we please, please, PLEASE keep scarlet fever in the differential? I want our patients to get the care they need!",
-        "color": "blue"
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "That's correct, but with the caveat that we should also consider the patient's pH and anion gap status. Sodium bicarbonate can be useful in treating severe acidosis, but we need to be careful not to inadvertently worsen the anion gap.",
+        "color": "gray"
+      }
+    ],
+    "image": "https://rebelem.com/wp-content/uploads/2018/05/Salicylate-Toxicity.png"
+  },
+  {
+    "id": 1,
+    "title": "TLDR of Child Abuse: What are the 'Red Flags'?",
+    "body": "Just saw a patient with a suspicious injury and it got me thinking about the 'red flags' for child abuse. What's your take on this? ",
+    "category": "r/EMdocs",
+    "comments": [
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great topic! For me, it's the combination of suspicious injuries, inconsistent stories from caregivers, and poor social interaction with the child. But I've seen cases where it's just one or two of these factors that raise my suspicions. Remember, it's not about being 'nosy,' it's about keeping those kids safe. Check out the NICE guidelines for a solid framework on assessing child abuse: https://www.nice.org.uk/guidance/cg89",
+        "color": "purple"
       },
       {
-        "id": 8,
-        "parent_id": 1,
+        "id": 3,
+        "parent_id": 2,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Dr. Thorne, thanks for the link! What is the biggest misconception about child abuse that you've seen med students get wrong?",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 2,
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "Love this discussion! I've been struggling with diagnosing scarlet fever, especially in atypical presentations. Can we discuss the importance of considering abdominal pain as a red flag? I've seen cases where patients with abdominal pain ended up having scarlet fever.",
-        "color": "green"
+        "text": "I completely agree with you, Dr. Thorne. As a resident, I've seen too many cases where the 'red flags' are overlooked because of a lack of suspicion. That being said, as a community physician, I've also seen cases where the 'suspicious stories' are actually just the product of a chaotic and overworked home environment. So, it's all about context, right?",
+        "color": "blue"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Uh, isn't child abuse just like, totally obvious? I mean, don't they just have bruises or something?",
+        "color": "darkgrey"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Pre-med Chad: No, it's not always obvious! You're thinking of neglect cases. The ones that are 'hidden' usually have a combination of factors like inconsistent stories, poor hygiene, and a lack of proper care. And remember, neglect is not just about food or shelter, it's also about emotional abuse!",
+        "color": "darkblue"
+      },
+      {
+        "id": 7,
+        "parent_id": 2,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "As a surgeon, I've seen cases where child abuse has been misdiagnosed as a medical condition. Always keep in mind that child abuse can manifest in many ways, including through the 'intimidation factor' of a caregiver! Don't be too quick to dismiss the diagnosis!",
+        "color": "darkred"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "Excuse me, but I'm a patient with a rare condition that was misdiagnosed as child abuse. I think we should talk about the importance of accuracy in diagnosis!",
+        "color": "lightred"
       },
       {
         "id": 9,
         "parent_id": 8,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Spare me the hand-wringing, folks. We all know scarlet fever's a real diagnosis, but let's not get carried away. We can't diagnose everything with fancy criteria and studies. It takes experience, clinical judgment, and a healthy dose of common sense. Amateurs!",
-        "color": "red"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "I disagree, Dr. Sterling. While we shouldn't get carried away with criteria, we should still be aware of the subtleties of scarlet fever. Clinical judgment is crucial, but so is recognizing when we need to dig deeper. That's what separates us from the amateurs!",
-        "color": "purple"
-      },
-      {
-        "id": 11,
-        "parent_id": 1,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Aren't we all just tryin' our best, folks? I've seen some of the most complicated cases, but we all know it's about workin' together and gettin' the right help. Can we please, as a community, promote a culture of collaboration and respect? Let's not be so hard on each other!",
-        "color": "blue"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "Amen, Sparkle-Eyes Sue! As a patient, I can tell you that we appreciate our EPs working together and communicating with us. I had a wonderful experience with a team of nurses and docs who made me feel like part of the family. Thanks for reminding us of the importance of team-based care!",
-        "color": "green"
-      },
-      {
-        "id": 13,
-        "parent_id": 12,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "Well said, Barnaby! In my day, we didn't have all these fancy criteria and studies. We relied on the old-fashioned art of clinical observation and patient rapport. Sometimes, I think we've forgotten the basics in our quest for knowledge.",
-        "color": "purple"
-      },
-      {
-        "id": 14,
-        "parent_id": 13,
-        "user": "Dr. Phil Muddle",
-        "role": "EP",
-        "city": "Regina, SK",
-        "text": "Um, excuse me, Archibald? I think you're forgetting something... oh yeah! My day job! *laughs* Just kidding, it's great to hear from you, old chap. I'm still trying to remember what day it is, but I'm all for going back to basics!",
-        "color": "red"
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Ah, but Barnaby, that's not exactly the same thing. The point Dr. Sterling is making is that child abuse isn't just about visible injuries; it's also about manipulation and coercion. Sorry to hear about your diagnosis, but that's not what this thread is about.",
+        "color": "darkblue"
       }
-    ],
-    "image": "https://erofdallastx.com/wp-content/uploads/2024/01/Pharyngitis-A-Comprehensive-Guide-to-Symptoms-Diagnose-Prevention-and-Treatment-ER-of-Dallas.jpg"
+    ]
   },
   {
     "id": 1,
-    "title": "Rant about non-traumatic shock approaches: what's working for you?",
-    "body": "Just had a patient in the ER with a weird case of shock that didn't respond to initial fluids. Reminds me to refresh my knowledge on non-traumatic shock causes. Can anyone share their latest strategies for diagnosis and treatment? I'm thinking about using cardiac point-of-care ultrasound to investigate occult injuries... but what about when you have a non-invasive means, like bedside echocardiogram, that can also guide decisions?",
-    "category": "CME Corner",
+    "title": "Spine Trauma: The 'Elderly' Patient Conundrum",
+    "body": "Had a miss last night... patient presents with falls as the most common cause of fatal and non-fatal injury in people \u226565 years of age. Syncope, which has been implicated in many cases, may cause a devastating spinal injury. As EPs, we need to be aware of the many unique mechanisms of injury and clinical features associated with geriatric trauma patients and apply special management principles when caring for them. Can you guys recall the key takeaways from the Tintinalli's EM: A Comprehensive Study Guide, 8th ed.? Please share your experiences with managing elderly patients with spine trauma.",
+    "category": "emergency medicine",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "",
-        "city": "Toronto, ON",
-        "text": "TLDR: don't overlook occult wounds! Early suspicion and thorough examination are key. Bedside echocardiography can be super useful in detecting tamponade or severe cardiac dysfunction. If you have time, I link my protocol for a quick US in shock \u2013 [https://drive.google.com/file/d/12...](https://drive.google.com/file/d/12...).",
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Great post, Dr. Dan! One key point I'd like to highlight is the ' Clearing the cervical spine' challenge in children. Multisystem trauma and head trauma are indeed indications for neck immobilization and cervical spine imaging. Has anyone tried using plain films of the spine as an alternative to CT imaging, given the need to lower ionizing radiation?",
         "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Chad Broson",
-        "role": "",
-        "city": "Brampton, ON",
-        "text": "Hey Doc Thorne, I read that ultrasound can be used to detect cardiac tamponade. Is it really that accurate? Should we be using it as our first line of diagnosis before we jump to more invasive methods?",
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Love the mention of plain films, Maya! As RNs, we've seen first-hand how quickly these exams can become routine. Did you know that pulmonary contusions are the most common thoracic injury in children? Have we discussed the role of bedside ultrasound in these cases?",
         "color": "green"
       },
       {
         "id": 3,
         "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "",
-        "city": "Calgary, AB",
-        "text": "Amateurs still don't understand that cardiac point-of-care ultrasound doesn't give you the whole story. Don't be fooled by a 2D image, it's not a substitute for a thorough history and examination and the proper interpretation requires actual training.",
-        "color": "silver"
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Hi Dr. Dan, I was wondering if you had any specific pearls on differentiating between spinal injuries in elderly patients with pre-existing conditions. For instance, how do we approach a patient with osteoporotic fractures and a spinal cord injury?",
+        "color": "blue"
       },
       {
         "id": 4,
         "parent_id": 3,
-        "user": "Dr. 'Ziggy' Zalesky",
-        "role": "",
-        "city": "Vancouver, BC",
-        "text": "Come on Vic, don't be too hasty. We all know a good 2D view can be telling, but it's not meant to replace a full evaluation. The real issue is how often we over-rely on tests and forget how to actually do a solid history.",
-        "color": "red"
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Thanks, Sarah, that's a great question! Dr. Dan, can you please shed some light on this specific scenario, and what management principles we should follow?",
+        "color": "yellow"
       },
       {
         "id": 5,
-        "parent_id": 3,
-        "user": "Dr. Barb Miller",
-        "role": "",
-        "city": "Winnipeg, MB",
-        "text": "This is all well and good, but what about practical considerations? How can we implement this type of assessment in an overwhelmed ER setting?",
-        "color": "teal"
+        "parent_id": 1,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "As a wise and kind attending, I'd like to add that our primary goal when managing elderly patients with spine trauma is to assess their overall condition, including any pre-existing medical conditions and their potential impact on treatment and outcomes. In cases of osteoporotic fractures, do we prioritize surgical intervention over conservative management? Please share your insights, colleagues!",
+        "color": "red"
       },
       {
         "id": 6,
         "parent_id": 5,
-        "user": "Dr. Sarah Sharp",
-        "role": "",
-        "city": "Laval, QC",
-        "text": "That's a great point Barb. We need to think about efficient workflow and training our staff to perform these assessments at the bedside without disrupting care. Perhaps a pilot study to optimize US protocols?",
-        "color": "yellow"
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "Amen to that, Dr. Thorne! We have to be cautious with these patients, given their increased risk for complications and mortality. Have we discussed the role of anxiolytics and sedatives in calming these patients, especially when it comes to spinal immobilization?",
+        "color": "magenta"
       },
       {
         "id": 7,
-        "parent_id": 6,
-        "user": "Leo Chen",
-        "role": "",
-        "city": "Montreal, QC",
-        "text": "What kind of pilot study are you thinking? Shouldn't we involve more clinicians to determine the best protocol for use in our ER? Or is it more about training residents and other staff?",
+        "parent_id": 1,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs. The real challenge lies in accurately diagnosing occult injuries in these patients. Has anyone tried using 'skeletal traction' to stabilize the spine?",
         "color": "orange"
       },
       {
         "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Kevin Park",
-        "role": "",
-        "city": "Edmonton, AB",
-        "text": "Exactly Leo \u2013 and let's not forget that it's not a trivial matter to teach staff. What about an educational campaign? Maybe something like [https://pubmed.ncbi.nlm.nih.gov/...](https://pubmed.ncbi.nlm.nih.gov/... )?",
-        "color": "blue"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Turbo Tom RN",
-        "role": "",
-        "city": "London, ON",
-        "text": "I've had some experience running these kinds of educational campaigns on the fly. What if we combined a didactic lecture with in-service training and a hands-on session? The key is collaboration and communication between teams and disciplines!",
+        "parent_id": 1,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Don't even get me started on occult injuries, Vic. We have to stay vigilant, and trust our instincts when it comes to ordering imaging studies. Do we follow the ' C- spine clear' protocol in these cases?",
         "color": "pink"
       },
       {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "",
-        "city": "Windsor, ON",
-        "text": "Great, because my team can just magically learn whatever you tell them. It's all just a game of 'educational jargon' and 'corporate speak.' Meanwhile, real people suffer.",
-        "color": "indigo"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Dr. Archibald Thorne",
-        "role": "",
-        "city": "Saskatoon, SK",
-        "text": "Apoplexy! Good heavens, man, what is wrong with the young generation? Back in my day, we learned to read a chart and did our own thing before asking for permission... Ah! The simplicity of it all.",
-        "color": "crimson"
-      },
-      {
-        "id": 12,
-        "parent_id": 10,
-        "user": "Dr. Henry Oldman",
-        "role": "",
-        "city": "Victoria, BC",
-        "text": "I don't know what the fuss is about. I use bedside US like everyone else, but I focus on taking care of my patient first. Education should always happen in tandem with patient care \u2013 not before, and not after.",
-        "color": "mauve"
-      },
-      {
-        "id": 13,
-        "parent_id": 12,
-        "user": "Dr. Brock Stone",
-        "role": "",
-        "city": "Hamilton, ON",
-        "text": "Amen to that, Henry! I agree that education and patient care go hand in hand. It's all about being adaptable and learning from experience.",
-        "color": "turquoise"
-      },
-      {
-        "id": 14,
-        "parent_id": 13,
-        "user": "Barnaby Finch",
-        "role": "",
-        "city": "",
-        "text": "Wait, what? Is this about bedside ultrasound? Can someone explain it to me?",
-        "color": "lilac"
-      },
-      {
-        "id": 15,
-        "parent_id": 14,
-        "user": "Dr. 'Ziggy' Zalesky",
-        "role": "",
-        "city": "Vancouver, BC",
-        "text": "Hey Barnaby, it's about using ultrasound to look at your patient's heart when they're in shock. We can look for signs of tamponade or other issues. It's like an x-ray, but not radiation!",
-        "color": "gold"
-      },
-      {
-        "id": 16,
-        "parent_id": 15,
+        "id": 9,
+        "parent_id": 1,
         "user": "Chad Broson",
-        "role": "",
+        "role": "Pre-med",
         "city": "Brampton, ON",
-        "text": "Okay, got it! So it's like having a portable x-ray machine. That sounds really cool. Does it hurt the patient at all?",
-        "color": "silver"
-      },
-      {
-        "id": 17,
-        "parent_id": 16,
-        "user": "Dr. Maya Gupta",
-        "role": "",
-        "city": "Mississauga, ON",
-        "text": "No, not really, although some patients might feel a bit of discomfort from the probe. But it's worth it because we can get some pretty important information really quickly.",
-        "color": "lavender"
-      },
-      {
-        "id": 18,
-        "parent_id": 17,
-        "user": "Martha 'The Hammer'",
-        "role": "",
-        "city": "Halifax, NS",
-        "text": "Good grief, you young folks and your fancy gadgets. In my day, we did it all on charts, charts, and more charts.",
-        "color": "bronze"
-      },
-      {
-        "id": 19,
-        "parent_id": 18,
-        "user": "Dr. Phil Muddle",
-        "role": "",
-        "city": "Regina, SK",
-        "text": "Uh, I think we may have gotten a bit off track here. Oh wait, what's today's date?",
+        "text": "OMG guys, I just read about this one study on... err, wait, what were we discussing again? Sorry, I got sidetracked!",
         "color": "gray"
       },
       {
-        "id": 20,
-        "parent_id": 19,
-        "user": "Sparkle-Eyes Sue",
-        "role": "",
-        "city": "St. John's, NL",
-        "text": "Don't mind him, he's just confused. But seriously, let's refocus on bedside ultrasound for identifying occult causes of shock.",
-        "color": "coral"
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "title": "Just saw a patient with acute appendicitis and it got me thinking...",
-    "body": "Just saw a 25-year-old patient with classic presentation of acute appendicitis. Fever, right lower quadrant pain, pain that precedes vomiting... I did the usual, ordered a CBC, CRP, and imaging to confirm the diagnosis. But, what really caught my attention was the patient's history of previously having had a normal appendix found during a CT scan 6 months ago due to a similar complaint. It made me wonder about the diagnostic pitfalls we face in emergency medicine, even with the best imaging modalities available to us.",
-    "category": "Clinical Anecdote",
-    "comments": [
-      {
         "id": 10,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "MD",
-        "city": "Toronto, ON",
-        "text": "Great post! That case highlights the importance of clinical correlation. Even with advanced imaging, we still need to trust our patients' anecdotes and clinical presentations. In my experience, the most reliable symptom in appendicitis is still abdominal pain, although non-specific. Pain commonly begins in the periumbilical or epigastric region and often localizes to the right lower quadrant as peritoneal irritation occurs. As the pain increases, irritation of the bladder and/or colon may cause dysuria, tenesmus, and/or urgency.",
-        "color": "purple"
-      },
-      {
-        "id": 11,
-        "parent_id": null,
-        "user": "Dr. Victor Sterling",
-        "role": "Surgeon",
-        "city": "Calgary, AB",
-        "text": "The art of medicine is long, but the science is short. As Dr. Thorne so eloquently pointed out, we still can't rely solely on imaging. That's why surgeons like myself demand more than just a fancy CT scan. We need history, physical, and a healthy dose of skepticism. After all, as any good surgeon knows, appendicitis is often a diagnosis of exclusion.",
-        "color": "blue"
-      },
-      {
-        "id": 1,
-        "parent_id": 10,
-        "user": "Dr. Maya Gupta",
-        "role": "Resident",
-        "city": "Mississauga, ON",
-        "text": "Dr. Thorne, that's so true. But don't you think we also need to consider the role of abdominal CT scans in diagnosis? I've seen cases where the scan missed appendicitis altogether, but a follow-up ultrasound or MR imaging revealed the issue.",
-        "color": "green"
-      },
-      {
-        "id": 2,
-        "parent_id": 11,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "As an RN, I can attest to the fact that patients often provide key clues in their history. This patient's past history of a normal appendix was a red flag that made me go back and revisit their chart. But, let's not forget, nurses are often the first line of defense in detecting red herring symptoms!",
-        "color": "pink"
-      },
-      {
-        "id": 20,
         "parent_id": 1,
-        "user": "Dr. 'Ziggy' Zalesky",
-        "role": "Physician",
-        "city": "Vancouver, BC",
-        "text": "Just to clarify, is it correct to say that the Alvarado score isn't 100% sensitive for appendicitis? Like, some studies have shown it's 80-90% sensitive? And, what about the predictive value of symptoms like fever, right lower quadrant pain, and migratory pain?",
-        "color": "red"
-      },
-      {
-        "id": 21,
-        "parent_id": 20,
         "user": "Barnaby Finch",
         "role": "Patient",
         "city": "Surrey, BC",
-        "text": "I've had a history of migratory pain, fever, and right lower quadrant pain. What does it mean? Am I at risk of getting appendicitis? Should I get a CT scan?",
-        "color": "orange"
-      },
-      {
-        "id": 22,
-        "parent_id": 21,
-        "user": "Sarah Jenkins",
-        "role": "Student",
-        "city": "Ottawa, ON",
-        "text": "Barnaby, those symptoms are highly suggestive of appendicitis. However, the diagnosis is based on a combination of clinical presentation, lab results, and imaging studies. It's unlikely that you're at immediate risk, but you should follow up with your primary care physician for further evaluation.",
-        "color": "teal"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Rant about Carbon Monoxide Poisoning and Pulse Oximetry",
-    "body": "Just saw a patient with CO poisoning last night and it got me thinking about the limitations of pulse oximetry in CO exposure. Anyone else have experiences with this? I've heard that blood cooximetry is the best way to diagnose CO poisoning, but what are the key points to look out for? Was there a 'tell' with this patient that we missed? TLDR: Don't trust pulse ox in CO poisoning.",
-    "category": "EmergencyMedicine",
-    "comments": [
-      {
-        "id": 2,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "MD",
-        "city": "Toronto, ON",
-        "text": "Great point, I've seen this before! The classic sign is that pulse ox levels are normal or even high despite hypoxia. And of course, blood cooximetry is the gold standard. I would add that visual disturbances, like Cherry Red Lips, are a classic sign too. We should keep in mind that symptoms can range from mild to severe, including confusion, vomiting, and dyspnea/tachypnea. Always consider it in patients with altered mental status or those who've been exposed to carbon monoxide.\n\nI'd love to hear more about your patient's case.",
-        "color": "purple"
-      },
-      {
-        "id": 3,
-        "parent_id": null,
-        "user": "Dr. Victor Sterling",
-        "role": "MD",
-        "city": "Calgary, AB",
-        "text": "What's the point of this discussion? Just don't diagnose by pulse ox anymore, okay? We all learned that years ago. If I remember correctly, Chapter 218 in Tintinalli's talks about electrical and lightning injuries, but it also has a good section on CO poisoning. Has anyone read it?",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 2,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "MD",
-        "city": "Vancouver, BC",
-        "text": "Thanks, Dr. Thorne. I've been looking for this kind of advice. How do we know when to order blood cooximetry? What's a good rule of thumb for when to suspect CO poisoning?\n\nI think it's also worth noting that sources of exposure include not just fires, but also from natural gas, propane, and even paint strippers.",
-        "color": "blue"
-      },
-      {
-        "id": 5,
-        "parent_id": 2,
-        "user": "Dr. Barb Miller",
-        "role": "MD",
-        "city": "Winnipeg, MB",
-        "text": "Great point about the sources of exposure! I've seen patients poisoned by paint fumes before. It's always a good idea to ask about recent use of solvents or chemicals. And don't forget to check the pulse ox levels, even if they seem normal! Can be a lifesaver.",
-        "color": "yellow"
-      },
-      {
-        "id": 6,
-        "parent_id": 3,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Dr. Sterling, don't get me wrong, but I've seen cases where pulse ox levels were way off, and we didn't even think about CO poisoning. This discussion is really making me think twice about our workup. What about you, have you seen any cases that stand out to you?",
-        "color": "red"
-      },
-      {
-        "id": 7,
-        "parent_id": 2,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Just a question about CO poisoning in general: what are some of the long-term effects? I've heard that patients can have problems with cognition, memory, and even depression after recovery. Do we need to refer these patients to neurology for follow-up?",
-        "color": "green"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Henry Oldman",
-        "role": "MD",
-        "city": "Victoria, BC",
-        "text": "Great question, Turbo Tom! Yes, CO poisoning can have long-term effects on cognition, memory, and even mental health. We should definitely refer these patients to neurology for follow-up to monitor for any potential complications. And it's key to ask about their symptoms and any concerns they have before their discharge.",
-        "color": "purple"
-      },
-      {
-        "id": 9,
-        "parent_id": 7,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "In my experience with ER nursing, I've seen patients with long-term cognitive issues, mood disorders even depression and suicidal behavior! So yes, refer to a psychologist as well! We cannot underestimate the effects of carbon monoxide on mental health, especially if the patient has a pre-existing condition.",
-        "color": "yellow"
-      },
-      {
-        "id": 10,
-        "parent_id": 7,
-        "user": "Dr. Sarah Sharp",
-        "role": "MD",
-        "city": "Laval, QC",
-        "text": "Thanks for this discussion! I was just about to see a patient with suspected CO poisoning. I've got a resource for the group. There's a great paper on PubMed about long-term effects and cognitive issues after CO poisoning, anyone want it? [link to PubMed]",
-        "color": "blue"
-      }
-    ],
-    "image": "https://images.squarespace-cdn.com/content/v1/546e1217e4b093626abfbae7/1548076646481-UFCWCVCR5IIQ7I5X2LD5/image-asset.png"
-  },
-  {
-    "id": 1,
-    "title": "Today I Learned: Cardiogenic Shock - How I missed it.",
-    "body": "Just saw a patient with severe hypotension and was convinced it was a pulmonary embolism. Turns out, it was a massive MI causing cardiogenic shock. I was too focused on the PE symptoms and missed the 3:00 AM STEMI.",
-    "category": "medicine",
-    "comments": [
-      {
-        "id": 11,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "That's a great reminder to always consider cardiogenic shock in a hypotensive patient. The key is to remember that cardiogenic shock can present with a normal or increased blood pressure if there's associated cardiac tamponade or pulmonary embolism.",
-        "color": "blue"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "How did you go about differentiating between a PE and cardiogenic shock in this case? Was there anything in particular that made you miss the diagnosis initially?",
-        "color": "purple"
-      },
-      {
-        "id": 13,
-        "parent_id": 11,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "I'm with Maya on this one. Cardiogenic shock can be a subtle diagnosis, but the presence of a new heart murmur on auscultation should raise suspicion, especially in the context of chest pain or hypotension. The D-dimer is often not helpful in PE vs. cardiogenic shock, as it can be elevated in both conditions.",
-        "color": "green"
-      },
-      {
-        "id": 14,
-        "parent_id": 12,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "I've been reading about the use of biomarkers, such as Troponin and BNP, in the diagnosis of cardiogenic shock. Have you guys used these biomarkers in your practice? Do they help to differentiate between cardiogenic shock and other causes of hypotension?",
-        "color": "orange"
-      },
-      {
-        "id": 15,
-        "parent_id": 13,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "A new heart murmur can be a classic sign of cardiogenic shock, especially if it's associated with a ventricular septal defect or valvular dysfunction. Has anyone else seen cases where cardiogenic shock presented with a classic 'galloping' rhythm?",
-        "color": "teal"
-      },
-      {
-        "id": 16,
-        "parent_id": 15,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "As an internist, I've seen many cases of cardiogenic shock, but the key is always to look for signs of cardiac ischemia or infarction, such as ECG changes or elevated cardiac biomarkers. If you're not thinking of cardiogenic shock, you'll miss the diagnosis.",
-        "color": "red"
-      },
-      {
-        "id": 17,
-        "parent_id": null,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Don't forget to consider the patient's history and physical exam findings, including signs of cardiac tamponade or pulmonic embolism. These can be key to differentiating between cardiogenic shock and other causes of hypotension.",
-        "color": "pink"
-      },
-      {
-        "id": 18,
-        "parent_id": 1,
-        "user": "Dr. Phil Muddle",
-        "role": "EP",
-        "city": "Regina, SK",
-        "text": "I had a miss last night where I thought a patient had a PE, but it turned out to be a classic case of a ventricular septal defect causing cardiogenic shock. I was too focused on the classic signs of PE.",
-        "color": "purple"
-      },
-      {
-        "id": 19,
-        "parent_id": 18,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "That's a great example of how easy it is to miss the diagnosis of cardiogenic shock. Have you thought about the implications of your mistake? For example, how might it have affected the patient's outcome?",
-        "color": "blue"
-      },
-      {
-        "id": 20,
-        "parent_id": 19,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "What did you do to learn from your mistake and improve your practice?",
-        "color": "purple"
-      },
-      {
-        "id": 21,
-        "parent_id": 20,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "I think it's essential to discuss this case with colleagues and review the ECG, lab results, and other data from the patient's presentation. It's also crucial to consider the potential consequences of a delayed diagnosis and how they might impact patient outcomes.",
-        "color": "green"
-      },
-      {
-        "id": 22,
-        "parent_id": null,
-        "user": "Dr. 'Ziggy' Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "As an ER doc, I often think about the importance of considering multiple diagnoses, including cardiogenic shock, in a hypotensive patient.",
-        "color": "orange"
-      },
-      {
-        "id": 23,
-        "parent_id": 22,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "I've seen many cases where the diagnosis was missed by relying solely on ECG findings. Cardiogenic shock can often present with non-specific ECG changes, so it's essential to have a broader differential diagnosis.",
-        "color": "purple"
-      },
-      {
-        "id": 24,
-        "parent_id": 22,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "Don't get me started on the importance of considering the systemic effects of cardiogenic shock, such as the development of metabolic acidosis.",
-        "color": "red"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "TLDR; just had a patient with a high suspicion for pulmonary embolism (PE) and no D-dimer. What are my next steps?",
-    "body": "Just saw a patient with a 2-day history of worsening shortness of breath, and a high suspicion for PE given her recent travel history. I ordered a CT pulmonary angiogram (CTPA) which has a 95% sensitivity and 91% specificity for PE. Unfortunately, the D-dimer came back negative and I'm unsure of what my next steps should be. Has anyone else had a situation like this before?",
-    "category": "Emergency Medicine",
-    "comments": [
-      {
-        "id": 2,
-        "parent_id": null,
-        "user": "Dr. Zun",
-        "role": "MD, MBA",
-        "city": "Chicago, IL",
-        "text": "Great case! I would recommend repeating the D-dimer in 24 hours, as up to 30% of patients with confirmed PEs may have a negative initial D-dimer result. You can also consider obtaining an echocardiogram to assess for signs of right heart strain, which are common in patients with large PEs. Additionally, have you considered the Wells score to help guide your decision to order a CTPA or V/Q scan?",
-        "color": "purple"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Dr. Joing",
-        "role": "MD",
-        "city": "Minneapolis, MN",
-        "text": "Great points, Dr. Zun. However, I'd like to clarify, what's the current recommendation for Wells score cutoffs in diagnosing PE?",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 2,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "I've had patients with negative D-dimers who had PEs, but I've also had patients with normal CTPAs who still had chest pain. Just to add another data point, I'd recommend considering a bedside echocardiogram for signs of right heart strain. Has anyone else used the modified Fanconi test for diagnosing PE?",
-        "color": "purple"
-      },
-      {
-        "id": 5,
-        "parent_id": 3,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "According to the 2016 ACR Appropriateness Criteria, the Wells score cutoff for diagnosing PE is >4.0. Is that correct?",
-        "color": "green"
-      },
-      {
-        "id": 6,
-        "parent_id": 4,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Toronto, ON",
-        "text": "That's a great point about bedside echocardiography. I've found it to be super useful in diagnosing PE, especially in patients with unclear CT results. As for the Fanconi test, I'm not convinced it adds much value, but I'd love to hear more about it from someone who's used it.",
-        "color": "purple"
-      },
-      {
-        "id": 7,
-        "parent_id": 5,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Actually, Sarah, I believe the 2017 AHA/ATS Guidelines recommend a score of >4.8 or >4.3 for pregnant patients. But I may be mistaken... Has anyone else seen recent updates to the Wells criteria?",
-        "color": "green"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Thanks, Dr. Thorne. I was wondering about that. I'll make sure to check my guidelines.",
-        "color": "purple"
-      },
-      {
-        "id": 9,
-        "parent_id": 6,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Actually, I've found the modified Fanconi test to be pretty useful in patients with unclear CT results. It's not perfect, but it can help you narrow down the diagnosis. As for the bedside echocardiogram, I've only done it a few times, but it's always been helpful. Does anyone have any tips on how to teach residents about interpreting echocardiograms?",
-        "color": "purple"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Toronto, ON",
-        "text": "Great point about the Fanconi test, Dr. Miller. I've also had mixed results with it, but it's definitely worth considering. As for teaching residents, I'd recommend making them watch some videos on interpreting echocardiograms, and then having them practice interpreting their own scans. It's also helpful to have them work in small groups to discuss the findings.",
-        "color": "purple"
+        "text": "What are the risks involved in spine injuries, my doctor said? Can anyone explain it to me in simple terms?",
+        "color": "brown"
       },
       {
         "id": 11,
         "parent_id": 10,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "I agree with Dr. Gupta's approach to teaching residents how to interpret echocardiograms. I've also found that having them review case studies and discuss the findings with you can be really helpful.",
-        "color": "green"
+        "user": "Dr. John Smith",
+        "role": "Attending Physician",
+        "city": "Saskatoon, SK",
+        "text": "Well, my dear patient, the risks include paralysis, numbness, and loss of bladder and bowel control. However, prompt treatment can significantly improve outcomes. Would you like me to explain it further?",
+        "color": "teal"
       },
       {
         "id": 12,
-        "parent_id": 9,
-        "user": "Dr. Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "I'm not sure about the utility of the modified Fanconi test. Can we discuss the evidence for its use?",
+        "parent_id": 1,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Fascinating discussion, everyone! As an internist, I'd like to share a case study where we used sodium and fluid restriction to manage a patient with SIADH caused by spinal injury",
         "color": "purple"
       },
       {
         "id": 13,
         "parent_id": 12,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Actually, I believe there's limited evidence to support the use of the Fanconi test. I'd recommend considering an alternative test, such as the perfusion scan.",
-        "color": "green"
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Wow, that's a fantastic example, Dr. Varkov! Can you elaborate on how you diagnosed the SIADH?",
+        "color": "yellow"
       },
       {
         "id": 14,
-        "parent_id": 13,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "I agree with Dr. Varkov. The Fanconi test is not very sensitive or specific for diagnosing PE. I'd recommend sticking with the CTPA and V/Q scan.",
-        "color": "purple"
+        "parent_id": 1,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "I just wanted to add that our community-based practice has seen an increase in spine injuries in elderly patients. What are we doing to address this growing concern?",
+        "color": "red"
       },
       {
         "id": 15,
         "parent_id": 14,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "I've found the CTPA to be really useful in diagnosing PE. However, I've also had cases where the V/Q scan was more helpful. It's all about using the right tool for the job.",
-        "color": "purple"
-      },
-      {
-        "id": 16,
-        "parent_id": null,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "My advice is to always trust your clinical judgment. If you're unsure about the diagnosis, don't be afraid to order another test or seek a second opinion.",
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Good question, Dr. Oldman! Do we have any evidence-based guidelines for managing elderly patients with spine injuries in outpatient settings?",
         "color": "green"
       }
     ]
   },
   {
-    "id": 3,
-    "title": "Rant about pediatric seizures: What's the takeaway in the ED?",
-    "body": "Just had a patient with a febrile seizure that lasted 6 minutes. We had to intubate because of poor airway protection and aggressive seizures. The parents were panicked but we managed to stabilize them. Made me think - what's the real takeaway in the ED for pediatric seizures? When to intubate, when to sedate, and how to tell if it's a febrile seizure versus a potentially life-threatening cause like status epilepticus? Let's discuss!",
+    "id": 1,
+    "title": "Just had a patient with acute congestive heart failure...or did I?",
+    "body": "Just saw a patient with a sudden onset of dyspnea and respiratory distress who was found to have a BNP of 5000. I diagnosed him with acute congestive heart failure and started him on lasix and furosemide. But then I started to think...was this really acute heart failure or was it just pulmonary edema?",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I love seeing these cases! As a resident, I used to always get confused between acute heart failure and pulmonary edema. But then I learned that the key is to look at the left ventricular size on the CXR. If it's enlarged, it's probably acute heart failure. If it's not, it's probably just pulmonary edema. Anyone have any other tips?",
+        "color": "blue"
+      },
+      {
+        "id": 2,
+        "parent_id": null,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "I always make sure to measure the patient's urine Na+ level. If it's high, it's usually acute heart failure. If it's low, it's usually pulmonary edema. Has anyone else found this to be a useful tool?",
+        "color": "purple"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "In my day, we used to use the 'lung exam' to diagnose pulmonary edema. If you get a positive 'lung exam', it's usually pulmonary edema. Anyone still use this method?",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 2,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I'm not sure what the 'lung exam' is. Can you explain it in more detail?",
+        "color": "orange"
+      },
+      {
+        "id": 5,
+        "parent_id": 1,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "I always make sure to look at the patient's chest radiograph. If it shows signs of pulmonary edema, such as peribronchial cuffing or Kerley B lines, it's usually pulmonary edema. Has anyone else found this to be a useful tool?",
+        "color": "red"
+      },
+      {
+        "id": 6,
+        "parent_id": 2,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "I'm not sure about the urine Na+ level. I thought that was more of a diagnosis for volume depletion. Can you clarify?",
+        "color": "yellow"
+      },
+      {
+        "id": 7,
+        "parent_id": 5,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "The Chest X Ray is a must when it comes to diagnosis. Pulmonary edema usually shows up with Kerley B lines, and other abnormalities. I always look for peribronchial cuffing, interstitial edema, and even hilar reactions.",
+        "color": "pink"
+      }
+    ],
+    "image": "https://ars.els-cdn.com/content/image/1-s2.0-S2213177917300513-fx1.jpg"
+  },
+  {
+    "title": "Laceration Repair Frenzy",
+    "body": "Just saw a patient with a nasty laceration to the forehead that required repair. Had to use every trick in the book to get it to close nicely. Started with a horizontal mattress suture to bring the edges together, followed by a series of half-buried sutures to minimize visibility. The patient's hair was a bit of a challenge, but I managed to get a few staples in there to hold it back. Finally, finished it off with a bit of tissue adhesive to keep everything in place. Wonder if anyone else has any tips for closing lacerations? Specifically, what are some good techniques for dealing with hair?",
+    "category": "emergency medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great example! You're absolutely right that hair can be a challenge when repairing lacerations. I've found that using a bit of hair apposition can help keep it out of the way. Just twist a few strands of hair together and apply a drop of tissue adhesive to hold it in place. It's not the most elegant solution, but it gets the job done. Have you ever tried using a hair tie or rubber band to keep the hair back? That can be helpful too.",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I've actually used hair ties or rubber bands to keep hair back before, and it's worked like a charm. But I'm curious - have you ever encountered any cases where the hair was so matted or tangled that it was difficult to get it to lie flat? Anyone have any tips for dealing with that situation?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Oh yeah, I've dealt with those kinds of hair tangles before. The key is to work slowly and gently, and try not to yank on the hair at all. Instead, use a pair of tweezers to gently tease out the tangles, starting from the ends and working your way up. Sometimes it takes a bit of patience, but it's worth it in the end to get a smooth, even closure. Anyone have any favorite hair-cutting tools for those situations?",
+        "color": "orange"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Ha! I've got just the thing for those kinds of hair tangles - my trusty pair of needle-nose scissors. I've cut through some seriously knotted hair with those babies. Just be sure to cut away from your face, or you could end up with hair in your eyes... or worse! Has anyone else had a particularly memorable experience with hair-cutting in the ER?",
+        "color": "blue"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Actually, I had a patient with the most incredibly matted hair I've ever seen. It was a bit like a bird's nest, and I thought for sure I was going to have to call in a team of specialists to get it out. But in the end, I managed to get it sorted out with just a bit of patience and the right tools. Anyone else have any stories like that?",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "TLDR; Syncope in the ED: The Devil is in the Details",
+    "body": "Hey EPs, had a fascinating case last night - patient with recurrent near-syncope, normal cardiac workup, and a classic 'vasovagal' story...but the catch was a recent history of orthostatic hypotension. Anyone have a solid approach to investigating these patients? Any must-reads or guidelines to share?",
+    "category": "clinical anecdote",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "",
+        "city": "Mississauga, ON",
+        "text": "Great topic! I've had a few of these cases recently. One key differentiator is the orthostatic response - if it's >20mmHg drop in BP, I'm thinking peripheral neuropathy or medication side effect.",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Wait, how do you distinguish between orthostatic hypotension and vasovagal syncope in the ED, Dr. Gupta?",
+        "color": "yellow"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Agree with Dr. Gupta - I also do a thorough meds review (beta-blockers, diuretics, etc). In one case, I found a med that was exacerbating the patient's hypotension.",
+        "color": "orange"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "That makes sense. What's the algorithm for ruling out a cardiac cause in these patients, Dr. Zalesky?",
+        "color": "pink"
+      },
+      {
+        "id": 5,
+        "parent_id": null,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "I love how you EPs get all the fun cases! Just a thought - have you guys seen this recent paper on the diagnostic accuracy of the 'tilt table' test? [link]",
+        "color": "brown"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Actually, Turbo Tom, the 'tilt table' test has its limitations - it's more useful for orthostatic intolerance than pure vasovagal syncope.",
+        "color": "gray"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Wait, what's the difference between vasovagal syncope and orthostatic hypotension?",
+        "color": "lightblue"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Good question, Chad. Vasovagal syncope is a reflex-mediated response to stress/volume loss, whereas orthostatic hypotension is a more sustained drop in BP due to autonomic dysfunction.",
+        "color": "blue"
+      },
+      {
+        "id": 9,
+        "parent_id": null,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs, let's not forget to look for signs of dehydration and electrolyte imbalance - often missed in these patients. Get a urine osmolality, stat!",
+        "color": "red"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "Easy there, Dr. Sterling - we're not just looking for dehydration. These patients often have complex pathophysiology - let's not reduce it to electrolyte imbalances.",
+        "color": "darkgreen"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Today I Learned: Don't Trust Your Gut - Missed Diagnosis in Trauma",
+    "body": "Just saw a patient with a severe mechanism of injury: multiple long-bone fractures, spinal fractures, and a GCS 3. My gut told me she had a subarachnoid hemorrhage, but the CT showed nothing out of the ordinary. It wasn't until the spine surgeons came in for the CT scan that they found the real issue: a thoracolumbar burst fracture causing an impending conus medullaris syndrome. My takeaway: trust the numbers over your gut in trauma.",
     "category": "Emergency Medicine",
     "comments": [
       {
@@ -772,276 +528,98 @@
         "user": "Dr. Aris Thorne",
         "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "Great post! TLDR, febrile seizures can be tricky. The American Academy of Pediatrics suggests no treatment if the seizure lasts <30 min, is a first-time seizure, and the child is afebrile afterwards. However, if there's an underlying cause like a structural brain injury or an infection, those kids need immediate attention. I'd add that we should also consider the child's clinical presentation - is it a generalized tonic-clonic seizure or a focal seizure?",
-        "color": "purple"
+        "text": "TLDR; don't trust your gut in trauma. While intuition plays a role in EM, trauma is too complex and our brains can't keep up. Rely on numbers, especially in critical cases. I recall a case where my patient's HR, BP, and GCS all hinted at a cardiac issue, but it was a thoracic AO.",
+        "color": "blue"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Thorne, you mentioned the AAP guidelines - can you elaborate on which patients are at risk for underlying causes and need more aggressive evaluation? What kind of red flags should we be looking for?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Leo, great question! Red flags for underlying causes of febrile seizures include fever >104\u00b0F, a history of previous febrile seizures longer than 30 min, or neurodevelopmental delays. We should also consider the child's overall clinical presentation - does the seizure appear to be focal, with twitching of one limb or part of the face, or is it a generalized seizure? And what about imaging - do we need a CT head or an MRI?",
-        "color": "purple"
-      },
-      {
-        "id": 4,
-        "parent_id": null,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs! Don't get me wrong, I love discussing pediatric seizures, but how many times have I seen the ER over-diagnose this? Just last week, a patient came in with what looked suspiciously like a benign seizure, and the ER doc decided to intubate her. Luckily, the anesthesiologist caught the mistake, but what a waste of resources!",
-        "color": "red"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Dr. Sterling, I understand your frustration, but pediatric seizures are a complex diagnosis. We need to be vigilant and not miss life-threatening causes like status epilepticus. Maybe we should focus on improving our communication with the anesthesiologists and surgeons to get the best care for these kids?",
-        "color": "purple"
-      },
-      {
-        "id": 6,
-        "parent_id": null,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Great discussion! One thing that's often overlooked is the importance of a thorough history and physical exam in diagnosing pediatric seizures. I always look for clues like previous seizure history, family history of epilepsy, and signs of neurological abnormality. And let's not forget about the power of a detailed physical exam - can we identify focal neurological signs?",
-        "color": "pink"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Sharp, that's so true! I remember taking my med school exam, and I was surprised how often a careful physical exam can reveal subtle signs of neurological issues. Can you elaborate on how you'd use the history and physical to differentiate between febrile seizures and status epilepticus?",
-        "color": "green"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Leo, great question! In febrile seizures, we often see a typical presentation - a child with a low-grade fever, usually <104F, and a seizure lasting <30 min. The physical exam might show signs like fever, rash, or signs of systemic illness. Status epilepticus, on the other hand, presents differently - prolonged seizure activity, signs of status, or neurological deficits. Does that make sense?",
-        "color": "pink"
-      }
-    ],
-    "image": "https://emergencymedicinecases.com/wp-content/uploads/2015/11/Status-Epilepticus-Algorithm.png"
-  },
-  {
-    "id": "r/EMedicine",
-    "title": "Community-Acquired MRSA: Clinical Pearls from the ED",
-    "body": "Just saw a patient with community-acquired MRSA and I was reminded of how common it's becoming in the ED. We all know the drill: warm, red, tender skin lesions with spontaneous draining abscesses. But I wanted to highlight a few clinical pearls that'll help you manage these cases like a pro.\n\nFirst, don't get caught up in the spider bite myth. I know we've all seen it before, but these lesions can easily be mistaken for insect bites. Keep an eye out for other signs of systemic illness, like fever, chills, or lymphadenopathy. And don't forget to ask about any recent travel history or exposures to potential infection.\n\nWhen it comes to treatment, clindamycin 1% lotion twice daily is a great starting point, especially for patients without discrete abscesses. And don't forget to counsel them on the importance of antibacterial soaps.\n\nBut what about those pesky recurrent cases? For those, consider outpatient surgical referral. I know, I know, it's hard to let go, but trust me, it's worth it. Minimizing the number of incisions and reducing the risk of recurrence are just a few reasons why.\n\nSo, what are some other tips and tricks for managing community-acquired MRSA in the ED? Share your clinical pearls and we can discuss the best ways to tackle this growing problem!",
-    "category": "r/EMedicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "u/DrThorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Great post, OP! One thing to keep in mind is that community-acquired MRSA can occur in anyone, regardless of their past medical history. I've seen cases in pediatric patients, and even some asymptomatic carriers. So, don't be too quick to dismiss these patients based on demographics or comorbidities.\n\nOne thing I would like to add is that in addition to clindamycin, vancomycin can be a good alternative, especially in patients with penicillin allergies. We also need to remember that some MRSA strains are becoming resistant to clindamycin, so we need to be prepared to switch to another antibiotic.\n\nTLDR: Community-acquired MRSA is common, don't dismiss patients based on demographics or comorbidities, and be prepared to switch antibiotics if necessary.\n\nhttps://emedicine.medscape.com/article/225144-treatment#d10",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "u/LeeChen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Thanks for sharing, Dr. Thorne! I've heard of MRSA, but I'm not sure I know the best treatment options. Could you elaborate on when to use vancomycin vs clindamycin?\n\nI've read that MRSA is becoming resistant to clindamycin, is that true? How worried should we be about it?\n\nAlso, I heard that some MRSA strains are becoming resistant to vancomycin, is that accurate?\n\nCan you provide some references for this?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "u/VictoriaPark",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Great post, OP! One thing to keep in mind is that MRSA can be a tricky diagnosis. It's not always easy to tell if it's MRSA or something else. I've had cases where I had to send multiple cultures before getting a positive result.\n\nOne thing I would like to add is that we should be concerned about the increasing resistance to antibiotics. This isn't just limited to MRSA, but all types of bacteria. We need to be proactive in preventing the spread of resistant bacteria.\n\nTLDR: MRSA can be tricky to diagnose, be proactive in preventing the spread of resistant bacteria, and don't forget to counsel patients on proper hand hygiene.\n\nhttps://www.cdc.gov/drugresistance/index.html",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "u/TurboTom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "I couldn't agree more, Dr. Park! As nurses, we often get frustrated when we see patients not taking their antibiotic regimen seriously. It's not just about the antibiotics themselves, but also about proper hand hygiene and wound care.\n\nOne thing I would like to add is that we need to educate patients about the risks of antibiotic resistance. It's not just a medical issue, but also a public health concern.\n\nTLDR: Antibiotic resistance is a public health concern, educate patients about the risks, and don't forget to counsel them on proper hand hygiene.\n\nhttps://www.who.int/news-room/q-and-a/detail/antibiotic-resistance",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "u/MayaGupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Great post, OP! I'm surprised you didn't mention the role of the ED in preventing the spread of MRSA. As ED docs, we have a crucial role in identifying and isolating patients with suspected MRSA, as well as educating them on proper hygiene practices.\n\nOne thing I would like to add is that we need to be proactive in monitoring patients who have a history of recurrent MRSA. These patients are at higher risk for developing resistant strains.\n\nTLDR: EDs play a critical role in preventing the spread of MRSA, monitor patients with a history of recurrent MRSA, and educate patients on proper hygiene practices.\n\nhttps://emedicine.medscape.com/article/225144-overview#showall",
-        "color": "green"
-      },
-      {
-        "id": 6,
-        "parent_id": 1,
-        "user": "u/DrArisThorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Great point, Dr. Gupta! And I completely agree that the ED has a crucial role in identifying and isolating patients with suspected MRSA.\n\nOne thing I would like to add is that we need to be mindful of the potential for MRSA to spread to healthcare workers. This is often overlooked, but it's essential to implement proper infection control measures.\n\nTLDR: EDs play a critical role in identifying and isolating patients with suspected MRSA, be mindful of the potential for spread to healthcare workers.\n\nhttps://www.cdc.gov/hicpac/pdf/guidelines/isp_mrsa_2015.pdf",
-        "color": "purple"
-      },
-      {
-        "id": 7,
-        "parent_id": 1,
-        "user": "u/MarthaHammer",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "I've seen my fair share of MRSA patients, and I've got to say, it's not just about the antibiotic resistance. It's also about the socioeconomic factors that contribute to the spread of MRSA.\n\nOne thing I would like to add is that we need to be more proactive in addressing these underlying factors.\n\nTLDR: MRSA is not just about antibiotic resistance, address underlying socio-economic factors.\n\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC5425117/",
-        "color": "green"
-      },
-      {
-        "id": 8,
-        "parent_id": 1,
-        "user": "u/TurbTom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Preach, Martha! We as healthcare workers need to be more proactive in addressing the underlying factors that contribute to the spread of MRSA.\n\nOne thing I would like to add is that we need to educate patients about the importance of proper wound care and hand hygiene.\n\nTLDR: Educate patients on proper wound care and hand hygiene.\n\nhttps://www.ajicjournal.org/article/S0196-6553(10)00343-1/",
-        "color": "green"
-      },
-      {
-        "id": 9,
-        "parent_id": 1,
-        "user": "u/SparkleEyesSue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Aye, aye! As LPNs, we play a crucial role in providing patient education on proper wound care and hand hygiene.\n\nOne thing I would like to add is that we need to be mindful of the cultural and linguistic barriers that may affect patient understanding of these concepts.\n\nTLDR: Educate patients on proper wound care and hand hygiene, be mindful of cultural and linguistic barriers.\n\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC5334442/",
-        "color": "green"
-      }
-    ]
-  },
-  {
-    "id": 8,
-    "title": "Just saw a patient with Acute Cholecystitis and I'm reminded of how often we miss this diagnosis...",
-    "body": "...and how Murphy's sign can be a game-changer. But what's the deal with the new ultrasound guidelines? Anyone have any thoughts?",
-    "category": "Medical Stories",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": " TLDR: For acute cholecystitis, if ultrasound is negative and the patient is still suspected, I recommend a HIDA scan. Has anyone else seen the Canadian Association of Radiologists (CAR) guidelines on this?",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": " Great point, Dr. Gupta! I saw a case last week where the HIDA scan was the only thing that got us the diagnosis. The patient was on the verge of being admitted for a bowel obstruction, when the HIDA finally gave us the clue we needed. Do you guys have any tips on reading HIDA scans?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Actually, Turbo, in our hospital, the radiologists have developed a nice system for reading HIDA scans, using the '3Cs' - 'Concentrating' (the tracer is concentrated in the gallbladder), 'Contrasting' (the contrast fills the gallbladder), and 'Clearing' (the scan clears). If you're getting a negative HIDA, you need to look for a failure in any of these 'Cs'! (See the U of T radiology department's blog for a more detailed explanation.)",
-        "color": "yellow"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
         "user": "Sarah Jenkins",
         "role": "MS3",
         "city": "Ottawa, ON",
-        "text": "Thanks for the tip, Dr. Thorne. However, isn't there something about ultrasound having a high sensitivity and PPV when combined with gallstones? Can someone clarify?",
-        "color": "blue"
+        "text": "Hi Dr. Thorne! Thanks for sharing this story! Can you elaborate on how you would have treated the thoracic AO differently if you had known sooner? Was there a change in management?",
+        "color": "purple"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs like you, Dr. Thorne, can't possibly keep up with the complexity of trauma. Experience and expertise count for little in today's EM. Trust your gut, and you'll make fewer mistakes.",
+        "color": "red"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Dr. Sterling, I'm not sure I agree with you. While experience is important, isn't it true that the literature suggests relying on numbers in trauma?",
+        "color": "green"
       },
       {
         "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Sarah, that's right. When you have both sonographic Murphy's sign and gallstones, ultrasound becomes highly sensitive and specific for cholecystitis, with a PPV of 92%! (Source: BMJ.)",
-        "color": "purple"
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Haha, nice one, Dr. Thorne! 'Don't trust your gut in trauma' should be tattooed on the side of our ER wall. Thanks for the reminder.",
+        "color": "yellow"
       },
       {
         "id": 6,
         "parent_id": 1,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Okay, we're all convinced about HIDA scans and ultrasound. But what about the radiologists telling us the common bile duct is >5-7mm? Does that always mean choledocholithiasis?",
-        "color": "green"
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "As an ED doc, I'd say it's not about trusting your gut completely, but rather trusting your training and experience. When in doubt, rely on the numbers and imaging. But don't be afraid to trust your instincts either.",
+        "color": "orange"
       },
       {
         "id": 7,
         "parent_id": 6,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Not always, Dr. Miller! You need to look at the context - a normal bile duct diameter is usually around 5-6mm, but the range varies by age and other factors. A diameter >7mm is more suggestive of choledocholithiasis, but still, the radiologist needs to interpret the entire scan.",
-        "color": "blue"
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Can someone explain this in simpler terms? Like, should we go by our instincts or the fancy scans we get?",
+        "color": "pink"
       },
       {
         "id": 8,
-        "parent_id": 7,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Got it, got it! Thank you, guys! So, what's the takeaway for us as EPs? Can we trust ultrasound for acute cholecystitis, and should we be ordering more HIDA scans?",
-        "color": "yellow"
+        "parent_id": 1,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "I'd like to add that in geriatric trauma, relying on numbers can be particularly challenging. The elderly often present with subtle signs and symptoms that are easy to miss.",
+        "color": "brown"
       },
       {
         "id": 9,
         "parent_id": 8,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "For your first-year residents, Leo! Trust ultrasound for acute cholecystitis when you see sonographic Murphy's sign and gallstones. And, as with any diagnosis, keep in mind the probability of each condition and use the results to inform your care. Also, remember that the CAR recommendations suggest ultrasound as the first-line diagnostic tool, but HIDA scans are still valuable if the patient remains suspicious.",
-        "color": "purple"
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "I couldn't agree more, Dr. Varkov! In the good ol' days, we used to call it 'skeptical empiricism.' Pay attention to subtle signs, but don't neglect the fancy scans either.",
+        "color": "gray"
       },
       {
         "id": 10,
-        "parent_id": 5,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "So, Dr. Gupta, you mentioned HIDA scans being a 'nice second-line option.' But wouldn't it be better to order a CT scan, given the increased sensitivity and ability to diagnose other abdominal pathologies?",
-        "color": "pink"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Actually, Kevin, while CT scans are wonderful for general diagnosis, HIDA scans offer unparalleled specificity for cholecystitis. We should keep in mind the Canadian Association of Radiologists (CAR) guidelines that recommend prioritizing HIDA scans for suspected cholecystitis.",
-        "color": "purple"
+        "parent_id": 1,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Thanks for the thread, Dr. Thorne! As an evidence-based practitioner, I'd like to share some studies that highlight the importance of relying on numbers in trauma. Anyone interested?",
+        "color": "turquoise"
       }
-    ]
+    ],
+    "image": "https://news.llu.edu/sites/news.llu.edu/files/styles/crop_featured_image/public/cardiac-traumaroom.jpg?itok=QINgUDHv"
   },
   {
-    "id": 12345,
-    "title": "Today I Learned - Acute Angle Closure Glaucoma: Don't Let it Slip Through the Cracks",
-    "body": "Just saw a patient with acute angle closure glaucoma and I'm still shaking my head. Thought I'd share this case to remind everyone to keep this diagnosis top of mind. The patient presented with sudden onset severe eye pain and headache, cloudy vision, colored halos around lights, and vomiting. I was initially suspicious for a TIA or migraine, but the patient's blood pressure was normal and the ECG was unremarkable. It wasn't until I applied a gentle cold compress and referred them for ophthalmic evaluation within 24 hours that the diagnosis became clear. TLDR: Acute angle closure glaucoma is a medical emergency that requires immediate attention. Don't let it slip through the cracks! \n\n**Case Review:** The patient was initially discharged with erythromycin 0.5% ophthalmic ointment to be applied five times a day to soften the remaining glue. However, the patient returned to the ED within 24 hours with worsening symptoms. An ocular ultrasonography was performed, which confirmed the presence of a retinal detachment. The patient was subsequently transferred to the OR for emergency surgery.",
-    "category": "emergency-medicine",
+    "id": 1,
+    "title": "Rant about... toxic alcohols in the ER",
+    "body": "Just saw a patient come in with a methanol and ethanol tox from an attempted suicide with windshield washer fluid... TLDR: it was a mess.",
+    "category": "emergency_medicine",
     "comments": [
       {
         "id": 1,
@@ -1049,8 +627,8 @@
         "user": "Dr. Aris Thorne",
         "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "Great reminder, @OP. Acute angle closure glaucoma is a true emergency that requires prompt attention. In addition to referral to ophthalmology, I'd recommend starting the patient on acetazolamide 250 mg IV every 6 hours to reduce intraocular pressure.",
-        "color": "red"
+        "text": "Great rant! Just a reminder, toxic alcohols can cause serious metabolic acidosis, hypotension, and visual disturbances. What was your management strategy?",
+        "color": "purple"
       },
       {
         "id": 2,
@@ -1058,17 +636,17 @@
         "user": "Dr. Victor Sterling",
         "role": "Chief of Surgery",
         "city": "Calgary, AB",
-        "text": "@Dr. A Thorne - You're absolutely right, but don't forget to mention that the patient should also be placed on atropine 1% ophthalmic ointment to dilate the pupil and reduce pain. Amateurs might not know that.",
-        "color": "blue"
+        "text": "I disagree with the OP's approach. In my experience, fomepizole is a must for methanol tox. We should be blocking that conversion to formic acid, not just managing symptoms.",
+        "color": "green"
       },
       {
         "id": 3,
-        "parent_id": 2,
+        "parent_id": 1,
         "user": "Dr. 'Ziggy' Zalesky",
         "role": "EP",
         "city": "Vancouver, BC",
-        "text": "@Dr. V Sterling - You're being a bit of a troll today. While atropine can be useful, it's not necessary in every case of acute angle closure glaucoma. Let's focus on getting the patient to ophthalmology ASAP, shall we?",
-        "color": "green"
+        "text": "Lol, love the windshield washer fluid attempt. But seriously, what's the current thinking on the use of fomepizole vs. ethanol in treating toxic alcohols?",
+        "color": "blue"
       },
       {
         "id": 4,
@@ -1076,26 +654,213 @@
         "user": "Leo Chen",
         "role": "MS1",
         "city": "Montreal, QC",
-        "text": "Um, excuse me @Dr. Ziggy, but isn't atropine contraindicated in acute angle closure glaucoma? I thought that's why we use acetazolamide and pilocarpine instead?",
-        "color": "purple"
+        "text": "I thought fomepizole was the new gold standard for methanol tox. Can someone clarify?",
+        "color": "red"
       },
       {
         "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "@Leo - Actually, Leo, you're thinking of the opposite. Atropine can be used in acute angle closure glaucoma to dilate the pupil and reduce pain, but pilocarpine is the one that's contraindicated.",
-        "color": "red"
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Interesting discussion. According to the Tintinalli's, fomepizole should be given in conjunction with IV hydration, not instead of.",
+        "color": "orange"
       },
       {
         "id": 6,
         "parent_id": 5,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "I've heard that some institutions are switching to IV ethanol for severe methanol tox due to concerns about fomepizole's efficacy in very high levels.",
+        "color": "pink"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Great point about fomepizole's efficacy. Has anyone seen anything on the newer antivenoms for treating snake and spider bites in the ER?",
+        "color": "brown"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "What about the use of bicarbonate in treating acidosis from tox alcohols?",
+        "color": "gray"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "Ah, great question, Chad. In my experience, sodium bicarbonate can help with acidosis, but we should also be addressing the underlying cause.",
+        "color": "yellow"
+      },
+      {
+        "id": 10,
+        "parent_id": null,
+        "user": "Dr. Phil Muddle",
+        "role": "EP",
+        "city": "Regina, SK",
+        "text": "Umm... I think I treated a patient with methanol tox once... did I do it right?",
+        "color": "purple"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Dear Dr. Muddle, I think you might want to brush up on the management of methanol tox. Let me know if you want some education.",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Today I Learned: 3 failed intubations in a row, and I still got the patient airway... but why?",
+    "body": "Just saw a patient with a 5-day history of COPD exacerbation, and I knew things were looking grim. The SpO2 has been hanging on by a thread (77%) despite maxed out O2 therapy. Had to crack out the ETT on attempt 3, and just as I confirmed placement via ETCO2 and lung sounds, a Code Pink went off in the next room... and we lost power.",
+    "category": "r/emergencymedicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "StaffPhysician",
+        "city": "Toronto",
+        "text": "When you're in a Code Pink during an intubation, it's every man for himself. We managed to get a few precious minutes of backup power on the portable genset, and I was able to secure the tube on the third try. BUT the real question is: why did the first two attempts fail? Was it related to the bougie? The laryngoscope blade? Something else entirely?",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal",
+        "text": "Dr. Thorne, I've heard that the bougie is more accurate when the ETT is inserted during the inspiratory phase. Could you confirm?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg",
+        "text": "In this scenario, I would have used a rapid sequence intubation (RSI) protocol to minimize the risk of aspiration and improve success rates. Perhaps the first two attempts failed due to inadequate pre-oxygenation or poor neuromuscular blockade?",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa",
+        "text": "Actually, Dr. Miller, in RSI the goal is to prevent gastric aspiration by paralyzing the patient. What do you think about the role of cricoid pressure in this context?",
+        "color": "red"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London",
+        "text": "LOL, cricoid pressure? Don't get me started. As a nurse, I can attest that it's more likely to cause laryngospasm than anything else. Maybe we should revisit our protocols and recommend a cricoid-free approach? See: [www.ncbi.nlm.nih.gov/pubmed/29247047](http://www.ncbi.nlm.nih.gov/pubmed/29247047)",
+        "color": "purple"
+      },
+      {
+        "id": 6,
+        "parent_id": 1,
+        "user": "Dr. Victor Sterling",
+        "role": "ChiefOfSurgery",
+        "city": "Calgary",
+        "text": "Amateurs. The real issue here is that the ETT was inserted incorrectly in the first place. I mean, come on, you can't just throw a tube in like a rag doll and expect it to stay put. We need to go back to basics and focus on proper airway management.",
+        "color": "red"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Aris Thorne",
+        "role": "StaffPhysician",
+        "city": "Toronto",
+        "text": "Respectfully, Dr. Sterling, the situation was complex and involved multiple factors. We can't just brush it off as 'amateur hour' without exploring the underlying issues.",
+        "color": "purple"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's",
+        "text": "Oh dear, it sounds like things got a wee bit heated. Let's keep the discussion calm and focused, shall we? Perhaps we can revisit the protocols and discuss best practices for intubation and airway management...?",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Today I Learned the Hard Way: Burn Injury Management",
+    "body": "Just saw a patient with a major burn who was transferred from another ED. They had used the Rule of Nines to estimate burn size, but failed to consider the patient's inhalation injury, which was the real concern. I was reminded that burn injury management is not just about the size of the burn, but also about the depth of the burn and the presence of inhalation injury. I ended up calling in a consult with our burn team and they were able to provide the patient with the necessary care. Has anyone else out there had a similar experience with burn injury management? I'd love to hear about it.",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I know exactly what you mean! I had a patient last month who had a severe burn to the upper extremity, but the patient also had inhalation injury. We ended up using the Lund and Browder diagram to estimate the burn size, but it was the inhalation injury that really complicated the case. Our burn team was called in and they were able to provide the necessary care. I've heard that the Lund and Browder diagram is more accurate than the Rule of Nines for estimating burn size, especially when it comes to the head and neck.",
+        "color": "blue"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Excuse me, Dr. Gupta, but what is the Lund and Browder diagram? I've studied it in class, but I'm not sure I fully understand it. Can you explain it in more detail?",
+        "color": "purple"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
         "user": "Sarah Jenkins",
         "role": "MS3",
         "city": "Ottawa, ON",
-        "text": "Thank you for the clarification, @Dr. S Sharp. However, I'd like to know more about the use of acetazolamide in this scenario. Does it work by reducing aqueous production or increasing uveoscleral outflow?",
+        "text": "Actually, Dr. Gupta, I think the Lund and Browder diagram only applies to children. For adults, we use the Wallace rule of nines. Can you confirm this?",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "I had a patient with a major burn who had a severe inhalation injury, but no respiratory symptoms. Should we be concerned about respiratory failure in this type of case?",
+        "color": "red"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Actually, Dr. Park, even if there are no respiratory symptoms, we should still be concerned about respiratory failure. Patients with inhalation injury are at risk for respiratory failure due to the damage to the airway mucosa and the release of inflammatory mediators. We should be closely monitoring their respiratory status and consider intubation if there are any signs of respiratory distress.",
         "color": "blue"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Dr. Gupta, how do you assess the severity of an inhalation injury? Is there a specific scoring system or criteria that we should use?",
+        "color": "purple"
       },
       {
         "id": 7,
@@ -1103,19 +868,37 @@
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "@Sarah J - Acetazolamide works by reducing aqueous production, specifically by inhibiting the enzyme carbonic anhydrase. This leads to a decrease in intraocular pressure.",
-        "color": "green"
+        "text": "Actually, Leo, there isn't a specific scoring system, but we can assess the severity of an inhalation injury by looking at the patient's symptoms and signs, such as hoarseness, stridor, or cough. We can also use the inhalation injury scoring system developed by the Consensus Committee for Inhaled Toxicity, which takes into account the patient's exposure, symptoms, and clinical response.",
+        "color": "blue"
       },
       {
         "id": 8,
-        "parent_id": 5,
-        "user": "Dr. Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "Enough about the pharmacology, let's focus on the fact that you should be sending these patients to ophthalmology ASAP. Don't waste your time with medications, just get them to a specialist.",
-        "color": "purple"
+        "parent_id": 7,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "That's useful to know, Dr. Gupta. What about the management of patients with inhalation injury? What are our priorities?",
+        "color": "green"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Our priorities should be to secure the airway, manage the patient's respiratory status, and provide supportive care. We should also consider the use of therapeutic interventions, such as corticosteroids or bronchodilators, to manage the patient's symptoms.",
+        "color": "blue"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "I agree with Dr. Gupta. In addition to securing the airway and managing the patient's respiratory status, we should also consider the use of pulmonary lavage to remove the inhaled toxins.",
+        "color": "red"
       }
     ],
-    "image": "https://images.squarespace-cdn.com/content/v1/53c1a2cce4b0e88e61f99b70/1505059761871-F2X4JTGQ2WIGSXND6S3A/Capture1.PNG"
+    "image": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1095607412602260"
   }
 ]
