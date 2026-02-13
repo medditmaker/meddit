@@ -1,297 +1,661 @@
 [
   {
     "id": 0,
-    "title": "Rant about the San Francisco Syncope Rule being outdated",
-    "body": "Today I had a patient with hypertrophic cardiomyopathy who presented with syncope. Based on the San Francisco Syncope Rule, we would have admitted him as high risk. However, after further evaluation, we realized that he was low-risk and didn't need an expedited workup. The rule clearly has its limitations.",
-    "category": "emergency medicine",
+    "title": "Acute Appendicitis Rant: How Do We Miss This Diagnosis So Often?",
+    "body": "Had a miss last night... thought I had an easy case of appendicitis. Turns out it was malrotation with midgut volvulus. One of our most common surgical emergencies. I know I'm not alone when I say that we've all been guilty of a delayed or missed diagnosis of appendicitis at some point in our careers.",
+    "category": "Emergency Medicine",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "Physician",
-        "city": "Vancouver, BC",
-        "text": "I've seen it fail way too many times, man. The San Francisco rule is great, but it's not a crystal ball. We need to use our discretion and clinical judgment. Has anyone else experienced similar situations?",
-        "color": "purple"
+        "user": "Ziggy Zalesky",
+        "role": "FRCPC",
+        "city": "Vancouver",
+        "text": "I feel ya, @Dr. Thorne. Missed an appendicitis case last week that I'm still kicking myself about. But for the love of ER gods, can we please make sure we cover all the red flags? Right lower quadrant pain, anorexia, and migratory pain should be screaming 'appendicitis' to us.",
+        "color": "blue"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Dr. Barb Miller",
-        "role": "Physician",
-        "city": "Winnipeg, MB",
-        "text": "I agree with you, Ziggy. And it's not just the rule that's the problem. It's the whole concept of 'high-risk' and 'low-risk' patients. What constitutes 'high-risk' in one hospital might not be the same in another.",
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal",
+        "text": "Uh, I thought WML (Wedge Midgut Loop) was the term for malrotation with midgut volvulus? Can someone confirm?",
         "color": "green"
       },
       {
         "id": 3,
         "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "Medical Student",
-        "city": "Ottawa, ON",
-        "text": "I've been studying the San Francisco Syncope Rule, and I'm curious, Dr. Zalesky, how do you think we can improve it or create a more accurate way to predict adverse events in patients with syncope? Any thoughts?",
-        "color": "blue"
+        "user": "Dr. Maya Gupta",
+        "role": "FRCPC",
+        "city": "Toronto",
+        "text": "Totally agree with @Ziggy! I like to remind myself of the 5 Ps of appendicitis: Periumbilical pain, Pallor, Peritonitis, Paresthesia, and (finally) Protective mechanisms (trying to avoid pain).",
+        "color": "red"
       },
       {
         "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "Physician",
-        "city": "Vancouver, BC",
-        "text": "Great question, Sarah! One approach could be to incorporate more biomarkers, like B-type natriuretic peptide (BNP) or troponin, to better evaluate cardiac function. Or we could use machine learning algorithms to analyze multiple variables and create a more nuanced risk assessment.",
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London",
+        "text": "You guys are forgetting something crucial: abdominal pain is NOT always a straight path to diagnosis. We need to consider other possible causes in patients with, say, renal colic or gastroenteritis.",
         "color": "purple"
       },
       {
         "id": 5,
+        "parent_id": 4,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey",
+        "text": "I can attest to that! I was convinced I had appendicitis last year, but it turned out to be a kidney stone. My doc said it was because I was experiencing referred pain.",
+        "color": "pink"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec",
+        "text": "Referred pain is a common misconception. It's actually a result of cross-talk between nerves. You can't just dismiss appendicitis based on another possible cause.",
+        "color": "yellow"
+      },
+      {
+        "id": 7,
         "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "Nurse",
-        "city": "London, ON",
-        "text": "I've seen it firsthand, guys. The San Francisco rule fails to account for patients with underlying mental health conditions, like anxiety or PTSD. These patients are at higher risk for self-harm, but the rule doesn't pick up on that.",
+        "user": "Sarah Jenkins",
+        "role": "FRCPC",
+        "city": "Ottawa",
+        "text": "I think we're overlooking the elephant in the room. Most of our missed diagnoses occur due to lack of clinical experience. We need more bedside teaching and hands-on learning.",
+        "color": "orange"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Aris Thorne",
+        "role": "FRCPC",
+        "city": "Toronto",
+        "text": "Amen, @Sarah! And don't forget to highlight the importance of a complete physical exam. Our patients often have subtle signs that we're too quick to gloss over.",
+        "color": "brown"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton",
+        "text": "Wait, what's a physical exam? Is that a real thing?",
+        "color": "gray"
+      },
+      {
+        "id": 10,
+        "parent_id": null,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's",
+        "text": "Bless your heart, @Chad! Of course, a physical exam is a real thing. It's what we do before ordering all those fancy tests!",
+        "color": "pink"
+      }
+    ],
+    "image": "https://figures.semanticscholar.org/fb72d715df0e602db1d62564d937359226cafdee/2-Table3-1.png"
+  },
+  {
+    "id": "reddit-thread-01",
+    "title": "TL;DR: Today I learned a crucial tip for evaluating vaginal bleeding in early pregnancy after a 30-year-old woman nearly lost her life due to a missed diagnosis of placental abruption",
+    "body": "Had a miss last night in our hospital's emergency department. A 30-year-old pregnant woman presented with a 2-hour history of severe abdominal pain and vaginal bleeding. She had a history of preterm labor and was currently at 26 weeks of gestation.\n\n             The patient was afebrile, and the initial vitals were stable, but upon further examination, she was in severe distress. Her abdomen was rigid and tender to palpation. Her uterus was enlarged and firm.\n\n             The patient's husband reported that she had been experiencing mild bleeding throughout the past 2 days, but it had become more severe over the past 2 hours. The patient underwent an ultrasound, which revealed a grade 3 placental abruption.\n\n             Given the severity of the abruption, the patient was immediately taken to the OR for an emergent cesarean section. Unfortunately, the fetus was not viable due to the severe maternal and fetal distress.",
+    "category": "emergency-medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "",
+        "city": "Vancouver, BC",
+        "text": "TL;DR: Don't miss placental abruption in pregnant patients with vaginal bleeding. It's a code red situation, and every second counts. The key is to suspect it early, especially in multiparas with a history of preterm labor.",
+        "color": "blue"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Dr. Ziggy, I completely agree. However, how do you prioritize patients with suspected placental abruption in a busy ED? Shouldn't we also consider other causes such as placenta previa or vasa previa?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "",
+        "city": "Vancouver, BC",
+        "text": "Sarah, good question. You're right; other causes of vaginal bleeding in pregnancy should be considered. In our ED, we have a standardized protocol for evaluating pregnant patients with vaginal bleeding. We always start with a basic ultrasound to identify any structural abnormalities in the uterus and placenta.",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Can anyone speak to the role of fetal distress in the diagnosis of placental abruption? Should we be looking for abnormal fetal heart rate patterns or other signs of fetal compromise?",
+        "color": "indigo"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Fetal distress is a critical component of placental abruption. We should closely monitor fetal heart rate patterns and look for signs of compromise such as late decelerations, variable decelerations, or non-reassuring fetal status. Additionally, we should conduct continuous electronic fetal monitoring (CEFM) to assess fetal well-being.",
         "color": "red"
+      },
+      {
+        "id": 6,
+        "parent_id": 4,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Dr. Elena, can you explain the difference between late decelerations and variable decelerations? I'm a bit confused.",
+        "color": "orange"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Late decelerations are indicative of fetal hypoxia and are typically seen in patients with placental abruption. Variable decelerations, on the other hand, can be caused by umbilical cord compression or other conditions. It's essential to distinguish between these patterns to determine the best course of action.",
+        "color": "green"
+      },
+      {
+        "id": 8,
+        "parent_id": 1,
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "Has anyone discussed the role of blood transfusion in the management of placental abruption? Should we be transfusing blood to the mother or focusing on stabilizing the patient with other measures?",
+        "color": "purple"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "In our hospital, we usually stabilize the patient with IV fluids and blood transfusions as needed while preparing for an emergent cesarean section. Blood transfusion is usually reserved for patients with severe maternal bleeding or in those patients who are unstable.",
+        "color": "red"
+      },
+      {
+        "id": 10,
+        "parent_id": 8,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "",
+        "city": "Vancouver, BC",
+        "text": "Great point, Turbo Tom. Remember that every patient with suspected placental abruption requires immediate attention. The goal is to stabilize the patient, and blood transfusion may be necessary. Keep in mind that a high index of suspicion for placental abruption is key to avoiding maternal and fetal morbidity and mortality.",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Rant about greenstick fractures and the importance of prompt orthopedic consultation",
+    "body": "Just saw a patient with a greenstick fracture who was treated with a cast for 6 weeks, only to end up with a plastic deformity. This got me thinking about the importance of prompt orthopedic consultation for these types of fractures. Has anyone else dealt with a similar situation? I've heard that closed reduction and realignment can make all the difference in preventing complications... TL;DR: don't underestimate the significance of greenstick fractures! \n[link to a study on the management of greenstick fractures](http://onlinelibrary.wiley.com/doi/10.1002/pds.2002/full)",
+    "category": "Pediatric Orthopedics",
+    "comments": [
+      {
+        "id": 2,
+        "parent_id": null,
+        "user": "Dr. Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Preach, OP! Greenstick fractures are like the ultimate 'oh no, I'm going to have to admit them to the hospital' situation. I've seen far too many cases where a delayed orthopedic consultation has led to chronic deformities and a lifetime of potential complications. Always get the pediatric ortho team involved stat, especially if the angulation is significant. I'm surprised the patient's PCP didn't push for an early consult... did they mention anything about their communication with the family?",
+        "color": "purple"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "What's the difference between a greenstick fracture and a complete fracture, doc? And how do you determine if the angulation is significant?",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Leo, a greenstick fracture is essentially a type of incomplete fracture where the cortex and periosteum are disrupted on one side, but not the other. The angulation is significant if it's greater than 10-15 degrees... have you seen the paper on the management of greenstick fractures by Bado et al?",
+        "color": "blue"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Has anyone seen a case where a greenstick fracture led to a diagnosis of abuse? I've been reading about the importance of considering Munchausen syndrome by proxy in pediatric patients",
+        "color": "orange"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "Actually, Sarah, I've seen a few cases where a greenstick fracture led to a diagnosis of child abuse. The key is to be vigilant and pay attention to the patient's story... did anyone notice the mother's demeanor during the visit?",
+        "color": "red"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Turb0 Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "I was working the night shift when a patient came in with a greenstick fracture... the PCP had called in saying it was a 'minor' injury. I was like, uh no way, get the ortho team up here pronto!",
+        "color": "purple"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Preposterous! The ER docs are just over-diagnosing again... I'm surprised Turb0 didn't just slap a cast on the kid and send them home",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Today IL (Today I Learned) about the approach to traumatic shock",
+    "body": "Just saw a patient with a complex case of electric shock and blunt trauma. The patient was not responding to fluid resuscitation and vasopressor therapy. Upon further investigation, we found that the patient had a ruptured ectopic pregnancy, which was causing hypovolemic shock. The takeaway from this case is that occult bleeding should always be considered in patients with traumatic shock who do not respond to standard therapy.",
+    "category": "emergency medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "The key to diagnosing traumatic shock is a thorough history taking and physical examination. I always make sure to ask about the circumstances of the event, mechanism of injury, pre-existing medical conditions, and medications.",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Thank you, Dr. Thorne. Can you elaborate on how to distinguish between hypovolemic shock and cardiogenic shock?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs focus too much on the history and physical examination. What about the vitals and lab results? A thorough workup should include a complete blood count, electrolyte panel, and lactate level.",
+        "color": "red"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Dr. Sterling, while lab results are important, they should not be the sole focus of treatment. Remember the 3Ps: Past, Present, and Pulse. The history and physical examination are still the bread and butter of emergency medicine.",
+        "color": "blue"
+      },
+      {
+        "id": 5,
+        "parent_id": 2,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Can anyone recommend a good source for learning more about the history and physical examination of acute trauma?",
+        "color": "purple"
       },
       {
         "id": 6,
         "parent_id": 5,
         "user": "Dr. Maya Gupta",
-        "role": "Resident",
+        "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "Thanks for sharing your experience, Turbo Tom. Mental health is a crucial aspect of syncope evaluation, and we need to make sure we're considering it. Could you share some strategies on how you handle patients with mental health comorbidities in the ED?",
-        "color": "orange"
+        "text": "Check out the Advanced Trauma Life Support (ATLS) manual. It's a comprehensive resource for emergency physicians. There's also a great video series on trauma assessment by Dr. Thorne.",
+        "color": "green"
       },
       {
         "id": 7,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "Medical Student",
-        "city": "Montreal, QC",
-        "text": "I've been studying the mechanisms behind syncope, and I was wondering, have any of you seen cases where a patient's syncope was caused by an issue unrelated to the heart, like a gastrointestinal problem or a neurological disorder?",
-        "color": "pink"
+        "parent_id": 3,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "OMG, this is so confusing. Can someone explain cardiogenic shock to me like I'm 5?",
+        "color": "blue"
       },
       {
         "id": 8,
         "parent_id": 7,
-        "user": "Dr. Elena Varkov",
-        "role": "Internist",
-        "city": "Quebec City, QC",
-        "text": "Excellent question, Leo! While cardiac causes are common, we shouldn't discount other potential causes. Gastrointestinal issues, like gastroparesis or gastrointestinal bleeding, can indeed lead to syncope. Neurological disorders, such as seizures or cerebrovascular accidents, can also cause syncope.",
-        "color": "gray"
+        "user": "Dr. Phil Muddle",
+        "role": "EP",
+        "city": "Regina, SK",
+        "text": "Um, cardiogenic shock is when the heart is not pumping properly, like it's a little toy car with a broken wheel. Easy peasy, right?",
+        "color": "red"
       },
       {
         "id": 9,
         "parent_id": 1,
-        "user": "Chad Broson",
-        "role": "Pre-med Student",
-        "city": "Brampton, ON",
-        "text": "I'm new to the field, but I'm excited to learn more about syncope. Can anyone recommend some reliable resources or online courses for learning more about this topic?",
-        "color": "yellow"
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "I've seen this thread get derailed before, but I'll try to keep it on track. When assessing traumatic shock, don't forget to consider the potential for occult bleeding.",
+        "color": "purple"
       },
       {
         "id": 10,
         "parent_id": 9,
-        "user": "Dr. Kevin Park",
-        "role": "Intern",
-        "city": "Edmonton, AB",
-        "text": "Hi Chad, as a med student, you have access to our institution's online learning resources. I recommend checking out the American Heart Association's (AHA) syncope guidelines and the European Society of Cardiology's (ESC) syncope guidelines. They're both excellent resources.",
-        "color": "lightblue"
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Amen to that, Dr. Miller. Occult bleeding is often the most likely explanation for hypotension in trauma patients. Great reminder!",
+        "color": "green"
       },
       {
         "id": 11,
+        "parent_id": 9,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "I'm glad we're having this conversation. In hypovolemic shock, always prioritize the airway, breathing, and circulation before considering vasopressors.",
+        "color": "blue"
+      },
+      {
+        "id": 12,
         "parent_id": 1,
         "user": "Barnaby Finch",
         "role": "Patient",
         "city": "Surrey, BC",
-        "text": "I'm a patient who experienced syncope last year, and I just want to share that my doctor did a thorough evaluation, including a stress test and an ECG. But what's really important is that I got a comprehensive explanation of my condition and treatment options.",
-        "color": "white"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Dr. Henry Oldman",
-        "role": "Family Physician",
-        "city": "Victoria, BC",
-        "text": "Thanks for sharing your experience, Barnaby! You make a great point about patient education and communication. As healthcare providers, we need to prioritize transparency and make sure our patients understand their conditions and treatment options.",
-        "color": "brown"
-      },
-      {
-        "id": 13,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "Medical Student",
-        "city": "Montreal, QC",
-        "text": "I have another question. What about patients with a history of syncope? Should we be more aggressive in our evaluation and treatment to prevent future episodes?",
+        "text": "What about electrocardiogram (ECG) changes in traumatic shock? I've noticed some unusual patterns.",
         "color": "purple"
       },
       {
-        "id": 14,
-        "parent_id": 13,
+        "id": 13,
+        "parent_id": 12,
         "user": "Dr. Sarah Sharp",
-        "role": "Emergency Physician",
+        "role": "EP",
         "city": "Laval, QC",
-        "text": "Excellent question, Leo. A history of syncope can increase a patient's risk of future episodes, especially if they have underlying cardiac conditions. In these cases, we should consider more aggressive treatment strategies, such as beta blockers or antiarrhythmic medications.",
+        "text": "ECGs can be very useful in traumatic shock. Look out for signs of ischemia, such as ST-segment elevations or depressions. And don't forget about the potential for cardiac tamponade!",
         "color": "green"
+      },
+      {
+        "id": 14,
+        "parent_id": 12,
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "Enough about ECGs already. What really matters is getting the patient to the OR for a thorough evaluation and treatment.",
+        "color": "red"
       },
       {
         "id": 15,
         "parent_id": 14,
-        "user": "Dr. Phil Muddle",
-        "role": "Emergency Physician",
-        "city": "Regina, SK",
-        "text": "Wait, can you clarify that? I thought beta blockers and antiarrhythmic medications were contraindicated in certain cases of hypertrophic cardiomyopathy. Can you walk me through the risks and benefits?",
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "Apoplexy! You're right, Dr. Stone. When it comes to traumatic shock, we must always prioritize surgical intervention.",
+        "color": "blue"
+      }
+    ],
+    "image": "https://pub.mdpi-res.com/jcm/jcm-12-00260/article_deploy/html/images/jcm-12-00260-g001.png?1672297195"
+  },
+  {
+    "id": 1,
+    "title": "TL;DR - Vasopressor Frenzy: Don't Forget your Dosing for Vasopressin (ADH) in Hemorrhagic Shock!",
+    "body": "Just saw a patient with a massive trauma injury. We're talking multiple lacerations, hemodynamics crashing... The works. Our anesthesia team decides to go with vasopressor support, but I realize we're about to give the wrong dose of vasopressin (ADH) for shock. Reminder, folks!",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 3,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": " Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Don't forget, you need to adjust your vasopressin dosing for hypotension based on the patient's urine output. If the kidneys are getting too much ADH, you'll see <a href=\"https://pubs.rsc.org/en/Content/ArticleLanding/2005/CS/B518111F\">oliguria</a> and you'll need to titrate downward.",
+        "color": "purple"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Leo Chen",
+        "role": " MS1",
+        "city": "Montreal, QC",
+        "text": "Thanks for pointing that out, Dr. Thorne! I've read that ADH is usually given in a dose of 0.01-0.04 U/kg/min. Could you clarify if that's a general rule of thumb, or if there are specific contraindications?",
+        "color": "green"
+      },
+      {
+        "id": 5,
+        "parent_id": 3,
+        "user": "Dr. Victor Sterling",
+        "role": " Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "You're all forgetting the role of vasopressors in <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/23420047\">vasoconstrictor</a> activity. It's all about titrating for a balance between systemic blood pressure and organ perfusion.",
+        "color": "brown"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Sarah Jenkins",
+        "role": " MS3",
+        "city": "Ottawa, ON",
+        "text": "Thanks for the insight, Dr. Sterling! I've seen some studies showing that vasopressors can have a differential effect on <a href=\"https://www.ncbi.nlm.nih.gov/books/NBK430813/\">vasoconstrictor activity</a> in different vascular beds. Could you elaborate on how that would play out clinically?",
         "color": "orange"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Maya Gupta",
+        "role": " PGY2",
+        "city": "Mississauga, ON",
+        "text": "Don't forget about the interactions between vasoconstrictors and other vasopressors! If you're using a combination of vasopressin (ADH) and norepinephrine (NE), you'll need to be aware of potential <a href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4441111/\">synergistic effects</a>.",
+        "color": "pink"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Just saw a patient with aortic dissection - reminded me of the importance of accurate diagnosis and FAST thinking!",
+    "body": "Just saw a patient present with tearing chest pain radiating to the back. Classic signs of an aortic dissection. Had to do a quick CT aortogram to confirm and it was a type A dissection involving the ascending aorta. Had to get the patient to surgery ASAP. Just wanted to share my experience and how easy it is to miss this diagnosis if you're not paying attention to the details. TLDR: Aortic dissection is a medical emergency that requires prompt recognition and treatment.",
+    "category": "emergency medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": 1,
+        "user": "sparkle-eye_sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Bless your heart, Doc! I'm always on the lookout for those pesky aortic dissections. One thing I've learned is to always remember the Beall's criteria to help differentiate it from PE. Can you share more about your experience with this patient and how you used the CT aortogram to confirm the diagnosis?",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Rick 'The Rage'",
+        "role": "EP",
+        "city": "Windsor, ON",
+        "text": "What a joke, another case of aortic dissection that slips through the cracks. We should be using more specific tests like transesophageal echocardiography (TEE) to diagnose this condition. And don't even get me started on the importance of having a good radiologist who can interpret the CT scans correctly. We need to get better at recognizing these high-yield diagnoses and stop messing around!",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Dr. Rage, isn't TEE more useful for diagnosing cardiac tamponade? Can you explain how TEE can be used for aortic dissection?",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 2,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "I agree with Dr. Rage, TEE can be more sensitive than CT aortogram for detecting aortic dissection, especially in cases where the dissection involves multiple segments of the aorta. However, it's essential to remember that TEE also has its limitations, such as the need for experienced operators and the inability to visualize the entire aorta. We need to use a combination of diagnostic tools to achieve an accurate diagnosis.",
+        "color": "red"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "Wait, what does it mean to have an aortic dissection? Is it related to a heart attack or something?",
+        "color": "orange"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "Hello there, Barnaby! An aortic dissection is when the inner layer of the aorta (the largest artery in the body) tears, causing blood to leak between the layers and potentially leading to fatal complications. It's not directly related to a heart attack, but rather a separate condition that can have similar symptoms. Think of it like a 'tear' in a tire - it can be subtle at first, but if left untreated, it can cause catastrophic damage!",
+        "color": "purple"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Hey Barnaby, Dr. Oldman's explanation is on point! But isn't there a relationship between high blood pressure and aortic dissections?",
+        "color": "green"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "A-ha! That's where the hypertension comes in, sweetie. Chronic high blood pressure can contribute to the weakening of the aortic wall, making it more susceptible to tears. It's like adding fuel to the fire, and we see it all too often in our patients.",
+        "color": "blue"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "That makes sense, Sue. So, what about other risk factors like Marfan syndrome and bicuspid valve? How do those contribute to the likelihood of an aortic dissection?",
+        "color": "red"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Ah, excellent question, Kevin! Marfan's and bicuspid valve are significant risk factors for aortic dissections. These conditions can lead to aortic dilatation, which increases the likelihood of tears. And once you've got a tear, the prognosis is bleak unless we intervene quickly.",
+        "color": "green"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "Wow, this is all so fascinating! But I still have one question - what happens to patients who undergo surgery for aortic dissection?",
+        "color": "orange"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Ah, Barnaby, that's a great question! The outcomes for patients undergoing surgery for aortic dissection are generally good, especially if the surgery is done quickly. However, the prognosis depends on various factors, including the size and location of the dissected segment, as well as the overall health of the patient.",
+        "color": "purple"
+      },
+      {
+        "id": 13,
+        "parent_id": 12,
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "I disagree, Maya. Our surgical outcomes are excellent, but it's not all sunshine and rainbows. We need to consider the patients' pre-existing conditions, the complexity of the case, and the experience of the surgical team. Each patient is unique, and we must tailor our approach accordingly.",
+        "color": "green"
+      },
+      {
+        "id": 14,
+        "parent_id": 13,
+        "user": "Dr. Phil Muddle",
+        "role": "EP",
+        "city": "Regina, SK",
+        "text": "Uh, what's the point of all this? Can someone just summarize what we've learned so far?",
+        "color": "blue"
+      },
+      {
+        "id": 15,
+        "parent_id": 14,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Okay, love, let's recap! We discussed the classic signs and symptoms of aortic dissection, including tearing chest pain radiating to the back. We talked about the importance of using specific diagnostic tools like CT aortograms and TEE, and the various risk factors that contribute to aortic dissections, such as hypertension, Marfan syndrome, and bicuspid valve. Finally, we touched on the surgical interventions for aortic dissections and the variable outcomes depending on the case specifics.",
+        "color": "purple"
       },
       {
         "id": 16,
         "parent_id": 15,
-        "user": "Dr. Sarah Sharp",
-        "role": "Emergency Physician",
-        "city": "Laval, QC",
-        "text": "Great point, Dr. Muddle. You're right to question the use of these medications in certain cases. The risks and benefits depend on the individual patient's condition and medical history. We need to carefully consider the potential side effects and interact with any medications the patient may be taking.",
-        "color": "lightblue"
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Whoa, thanks for the recap, Sue! I feel like I've learned so much today.",
+        "color": "green"
       },
       {
         "id": 17,
-        "parent_id": 1,
-        "user": "Martha 'The Hammer'",
-        "role": "Nurse",
-        "city": "Halifax, NS",
-        "text": "I'm tired of seeing doctors dismiss patients with unexplained syncope without running the proper tests. It's not rocket science, folks. We need to prioritize thorough evaluations and listen to our patients.",
-        "color": "red"
+        "parent_id": 16,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Haha, easy peasy, bro! Now you just have to remember all that jazz for the boards",
+        "color": "orange"
       },
       {
         "id": 18,
         "parent_id": 17,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "Physician",
-        "city": "Vancouver, BC",
-        "text": "Hear, hear, Martha! You're absolutely right. We need to put the patient first and not just go through the motions. Thanks for keeping us on our toes!",
-        "color": "purple"
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "Wait, what does this have to do with the boards? Is this relevant for medical school?",
+        "color": "blue"
       },
       {
         "id": 19,
-        "parent_id": 1,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "I'd like to add that as healthcare providers, we need to be aware of our own biases and limitations. Sometimes, we might be too quick to dismiss patients with unexplained syncope without considering alternative explanations.",
-        "color": "gray"
-      },
-      {
-        "id": 20,
-        "parent_id": 19,
-        "user": "Leo Chen",
-        "role": "Medical Student",
-        "city": "Montreal, QC",
-        "text": "Thanks for sharing that, Dr. Thorne. Can you give us some examples of how we can avoid our own biases and improve our syncope evaluation?",
-        "color": "blue"
-      },
-      {
-        "id": 21,
-        "parent_id": 20,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "One strategy is to take a step back and ask ourselves, 'What am I missing?' or 'Is there something I'm not considering?' We should also seek out second opinions or consultations with colleagues from other specialties.",
-        "color": "lightblue"
-      },
-      {
-        "id": 22,
-        "parent_id": 1,
+        "parent_id": 18,
         "user": "Dr. Maya Gupta",
-        "role": "Resident",
+        "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "Thanks to everyone for sharing their insights and experiences. This discussion has helped me realize the importance of considering alternative explanations and avoiding biases in my evaluation of patients with syncope.",
-        "color": "orange"
-      },
-      {
-        "id": 23,
-        "parent_id": 1,
-        "user": "Chad Broson",
-        "role": "Pre-med Student",
-        "city": "Brampton, ON",
-        "text": "And thank you, Dr. Muddle, for sharing your thoughts on hypertrophic cardiomyopathy and the use of beta blockers.",
-        "color": "yellow"
-      },
-      {
-        "id": 24,
-        "parent_id": 1,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "I just wanted to say thank you to all the healthcare professionals for your hard work and dedication. It's reassuring to know that there are doctors and nurses who truly care about their patients.",
-        "color": "white"
-      },
-      {
-        "id": 25,
-        "parent_id": 1,
-        "user": "Dr. Kevin Park",
-        "role": "Intern",
-        "city": "Edmonton, AB",
-        "text": "Thanks again, everyone, for this thought-provoking discussion. I'll make sure to keep these insights in mind for future encounters with patients experiencing syncope.",
-        "color": "lightblue"
-      },
-      {
-        "id": 26,
-        "parent_id": 1,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "Physician",
-        "city": "Vancouver, BC",
-        "text": "That's all for now, folks! Keep up the excellent work, and remember: it's all about the patient!",
+        "text": "Ah, Barnaby, yes! This is relevant for medical school and beyond. You'll be working with patients who have aortic dissections, and it's crucial to recognize the signs and symptoms, as well as understand the diagnostic and treatment options. This knowledge will make you a better physician, and trust me, you don't want to mess up with a diagnosis like this!",
         "color": "purple"
-      },
-      {
-        "id": 27,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "Nurse",
-        "city": "London, ON",
-        "text": "Thanks, Doc! You're the best! Can I have a virtual high-five? ",
-        "color": "red"
-      },
-      {
-        "id": 28,
-        "parent_id": 1,
-        "user": "Martha 'The Hammer'",
-        "role": "Nurse",
-        "city": "Halifax, NS",
-        "text": "I concur, Tom. Can I have a virtual hug?",
-        "color": "red"
-      },
-      {
-        "id": 29,
-        "parent_id": 1,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "And can I have a virtual cup of tea?",
-        "color": "white"
-      },
-      {
-        "id": 30,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "Medical Student",
-        "city": "Montreal, QC",
-        "text": "Thanks, Barnaby! I'll start brewing a virtual pot of tea right away.",
-        "color": "blue"
       }
-    ],
-    "image": "https://cpr.heart.org/en/-/media/CPR-Images/Resources/CA-vs-HA/CA-vs-HA-Infographic-2025-895x1160min.jpg?sc_lang=en"
+    ]
   },
   {
-    "id": 1,
-    "title": "TLDR: Missed diagnosis of placental abruption in ED",
-    "body": "Had a miss last night on a 30-year-old G1P1000 presenting with sudden onset vaginal bleeding at 32 weeks gestation. Patient had been feeling fine until the bleeding started and she felt a \"pop\" sensation in her pelvis. On PE, I was focused on the bleeding and didn't pay much attention to the abdominal exam, which I now realize is crucial in this scenario.\n\nFast forward to an OB call in the OR, and we find out the patient has a massive placental abruption with a 90% placenta separating from the uterine wall. The baby was in distress, and we had to perform an emergent C-section. Luckily, everything turned out okay, but this is a great reminder for all of us to always pay close attention to the abdominal exam in patients presenting with vaginal bleeding.\n\nThe key teaching point here is to not make assumptions when it comes to vaginal bleeding in pregnancy. Always prioritize the patient's history and do a thorough abdominal exam to identify signs of placental abruption.",
-    "category": "emergency medicine",
+    "title": "Just saw a patient with acute cholecystitis and wanted to rant about the limitations of ultrasound in the ED",
+    "body": "As many of you know, ultrasound is often touted as the first-line imaging modality for suspected gallbladder disease, including acute cholecystitis. However, in a real-world setting, I've seen firsthand the limitations of ultrasound in diagnosing cholecystitis, especially in patients with a low clinical suspicion or when ultrasound is technically difficult.",
+    "category": "Clinical Anecdote",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs like you and me are always learning new tricks, thank you for sharing!\n\nWhat I want to know is, did you check for any bleeding disorders in the patient's past medical history? It's always a possibility in cases of unexplained vaginal bleeding.\n\nAlso, what were the patient's vital signs like? Did she have any signs of blood loss, such as pallor or decreased BP?",
-        "color": "purple"
+        "user": "Dr. Aris Thorne",
+        "role": "FRCPC",
+        "city": "Toronto, ON",
+        "text": "I completely agree with you. I've had patients with clear findings on CT scan come back negative on ultrasound. It's frustrating when you know the patient has cholecystitis, but the ultrasound doesn't show it.",
+        "color": "blue"
       },
       {
         "id": 2,
@@ -299,8 +663,8 @@
         "user": "Leo Chen",
         "role": "MS1",
         "city": "Montreal, QC",
-        "text": "Hi Dr. Sterling, thanks for pointing out the importance of checking for bleeding disorders!\n\nI was just wondering, what would be the typical presentation of a bleeding disorder in a patient with vaginal bleeding? Is it always a history of easy bruising or are there other signs?",
-        "color": "green"
+        "text": "What do you usually do in those situations, Dr. Thorne? Do you send them for a CT scan, or do you just monitor them?",
+        "color": "purple"
       },
       {
         "id": 3,
@@ -308,159 +672,71 @@
         "user": "Sarah Jenkins",
         "role": "MS3",
         "city": "Ottawa, ON",
-        "text": "I think this case is a great reminder of the importance of taking a thorough history in patients with vaginal bleeding. It's easy to get focused on the obvious cause of bleeding, but we need to consider all the other potential explanations like bleeding disorders or even a ruptured ectopic pregnancy.",
-        "color": "purple"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Hi Sarah, thanks for bringing this up! I was thinking, what would be the best way to take a thorough history in patients with vaginal bleeding? Would you recommend using a standardized questionnaire or just asking open-ended questions?",
+        "text": "Isn't the American College of Emergency Physicians' guidelines on gallbladder disease saying that ultrasound should be the first line of imaging? Or have I misremembered?",
         "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Alright everyone, let's stay on topic here! The OP is right, placental abruption is a serious condition that can be easily missed in the ED. We need to prioritize the patient's history and the abdominal exam in these cases.\n\nI'd like to know, what would be the typical management strategy for a patient with a confirmed placental abruption? Would we expect to do an emergent C-section or try to stabilize the patient first?",
-        "color": "purple"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Hi Dr. Zalesky, I think the approach would depend on the severity of the abruption and the patient's hemodynamic status. If the patient is unstable, we'd likely need to do an emergent C-section, but if they're stable, we might have time to try to stabilize them first.\n\nIsn't it also important to consider the patient's obstetric history and any previous deliveries? Could that impact the management strategy in some way?",
-        "color": "green"
-      },
-      {
-        "id": 7,
-        "parent_id": 1,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "Amen to that, OP! As family docs, we see these cases all the time and it's easy to get complacent in our approach. This is a great reminder to stay vigilant and not assume anything in patients with vaginal bleeding.\n\nI'd like to ask, what would be the best way to counsel the patient on the risks of placental abruption? Would we do a lot of reassurance or explain the risks in a more detailed way?",
-        "color": "purple"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Hi Dr. Oldman! That's a great question. I think, as LPNs, we'd need to be sensitive to the patient's emotional needs and concerns. We'd likely need to explain the risks in a way that's not overwhelming, but also not minimizing the seriousness of the situation.\n\nDoes anyone have any suggestions on how to handle a patient's concerns about the baby's well-being? That can be a really tough conversation to have.",
-        "color": "green"
-      },
-      {
-        "id": 9,
-        "parent_id": 5,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "What about the patient's social history? Would that come into play in the management of placental abruption? I've heard that patients with a history of substance abuse might be at higher risk for certain complications.",
-        "color": "purple"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Great point, Chad! As ER docs, we need to consider the patient's social history in all our cases, including this one. That's especially true if the patient has a history of substance abuse or any other high-risk behaviors.\n\nWould anyone like to share any online resources or review articles that cover the management of placental abruption?",
-        "color": "green"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Turbotoom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Hey everyone! I found this great article on Medscape about the management of placental abruption. It covers everything from diagnosis to treatment options.\n\nTL;DR: [link to article on Medscape]",
-        "color": "purple"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Today I Learned: Hernias 101",
-    "body": "Had a miss last night dealing with an incarcerated hernia. Patient was a 50-year-old male with a 2-day history of worsening abdominal pain, nausea, and vomiting. Initial vitals were normal, but he was diaphoretic and tachycardic. Physical exam revealed a reducible hernia, but it quickly became incarcerated and was tender to the touch. CT scan confirmed the diagnosis, and we sent him for surgical consult. What's the threshold for incarceration, and do we need to consider strangulation? Have we ever seen any red flags for hernias in adults?",
-    "category": "emergency medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I'm with you, @author. Incarceration can progress to strangulation quickly. We should definitely consider surgical intervention sooner rather than later. Did you get a chance to review the CT findings, and was there any bowel distension?\n\nI found this paper from the NEJM on hernia anatomy and management. It's a great resource for anyone who wants to dive deeper.\n\nhttps://www.nejm.org/doi/full/10.1056/NEJMra1810575",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Turbo Tom (RN)",
-        "role": "Staff RN",
-        "city": "London, ON",
-        "text": "Hey @Dr. Maya Gupta, love the paper link! I work with a surgeon who always emphasizes the importance of early intervention. What about in children? Can we differentiate between hernias and other abdominal pathology? I had a case a few years ago where a 10-year-old presented with abdominal pain and was diagnosed with a hiatal hernia. Was a bit tricky to distinguish from an actual hernia. Thoughts?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Great point, @Turbo Tom! Hernias in kids can be tricky to differentiate from other pathology. I recall a paper from Pediatric Surgery discussing the importance of clinical correlation and imaging studies. We should also consider the child's age and developmental stage. Did you review the child's history and physical exam, and were there any red flags for a specific diagnosis?\n\nHere's a great resource for pediatric hernias:\n\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC4427615/",
-        "color": "pink"
       },
       {
         "id": 4,
         "parent_id": 1,
-        "user": "Sparkle-Eyes Sue (LPN)",
-        "role": "Staff LPN",
-        "city": "St. John's, NL",
-        "text": "I'm going to jump in here and say that I've seen cases where patients have developed hernias after a traumatic event, like a car accident or fall. Was this patient's history consistent with a direct trauma? Or did he have any underlying conditions that might have predisposed him to hernia development?\n\nAlso, what about surgical timing? Should we be considering emergency surgery versus elective intervention?",
-        "color": "blue"
+        "user": "Dr. Archibald Thorne",
+        "role": "FRCPC",
+        "city": "Saskatoon, SK",
+        "text": "Yes, yes, the 'ACEM guidelines' are quite clear on this. But in the real world, the clinical decision-making process is never that straightforward, you see.",
+        "color": "red"
       },
       {
         "id": 5,
         "parent_id": 4,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Excellent questions, @Sparkle-Eyes Sue! The patient's history was significant for chronic obstructive pulmonary disease (COPD) and obesity, which are both risk factors for hernia development. We didn't see any evidence of direct trauma, but the patient did mention a recent exacerbation of his COPD symptoms. Surgical timing is crucial in cases of incarcerated hernias. We should aim for emergency surgery within 6-8 hours to prevent complications like strangulation and gangrene.",
-        "color": "orange"
+        "user": "Dr. Barb Miller",
+        "role": "FRCPC",
+        "city": "Winnipeg, MB",
+        "text": "Couldn't agree more, Dr. Thorne. Sometimes I wonder if the guideline-based approach is too simplistic for complex decisions like this.",
+        "color": "brown"
       },
       {
         "id": 6,
-        "parent_id": 3,
-        "user": "Dr. Kevin Park (PGY1)",
-        "role": "Intern",
+        "parent_id": 1,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
         "city": "Edmonton, AB",
-        "text": "Sorry for the rookie question, but what's the threshold for incarceration? Is it simply a matter of the hernia contents being reducible versus not?\n\nAlso, are there any specific imaging modalities or tests we should be using to evaluate hernias?",
-        "color": "gray"
+        "text": "Can someone explain why ultrasound might not be able to detect cholecystitis in some cases?",
+        "color": "yellow"
       },
       {
         "id": 7,
         "parent_id": 6,
         "user": "Dr. Maya Gupta",
-        "role": "PGY2",
+        "role": "FRCPC",
         "city": "Mississauga, ON",
-        "text": "No worries, @Dr. Kevin Park! The threshold for incarceration is not strictly defined, but as a general rule of thumb, a hernia is considered incarcerated when its contents are stuck and cannot be reduced. We should use a combination of clinical correlation and imaging studies to evaluate hernias. CT scans are often the gold standard, but MRI and ultrasound can also be useful in certain situations.",
-        "color": "brown"
+        "text": "In cases where the gallbladder appears normal on ultrasound due to factors like bowel gas, a distended bowel or poor probe positioning.",
+        "color": "orange"
+      },
+      {
+        "id": 8,
+        "parent_id": 1,
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "TLDR: the limitations of ultrasound shouldn't deter us from using it as a first-line imaging modality for suspected cholecystitis. Instead, we should learn to interpret the results critically.",
+        "color": "gray"
+      },
+      {
+        "id": 9,
+        "parent_id": 1,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Thanks for this post, guys. It's always good to have a reminder that even the best diagnostic tools aren't foolproof.",
+        "color": "silver"
       }
-    ]
+    ],
+    "image": "https://coreem.net/content/uploads/2016/04/Image-1-Acute-Chole-US.jpg"
   },
   {
-    "id": 1234,
-    "title": "Today I learned: The Importance of Aspiration Risk Assessment in Procedural Sedation",
-    "body": "Just saw a patient with a significantly compromised cardiac history require a minor procedure. Had to give them a decent dose of propofol to relax them for the procedure. I've been told to consult anesthesia, but what's the actual risk of aspiration in this patient? Has anyone else encountered this situation before and how did you manage it?",
-    "category": "emergency medicine",
+    "id": 1,
+    "title": "Just saw a patient with acute coronary syndrome (ACS) and low probability, what am I missing?  Tintinalli's Chapter 50 says to risk-stratify based on probability, but it's hard to get a grip on what that means.  Has anyone else seen this before?",
+    "body": "Patient comes in with stable angina, no ECG changes, normal troponins, but history of hypertension and diabetes.  My intern and I are stuck on whether this is ischemic or not.  Should we be worried about myocardial infarction, or is this just 'old man' angina?",
+    "category": "emergencymedicine",
     "comments": [
       {
         "id": 1,
@@ -468,7 +744,7 @@
         "user": "Dr. Aris Thorne",
         "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "The risk of aspiration in procedural sedation is a major concern, especially in patients with a history of aspiration or compromised clearance. The American Society of Anesthesiologists guidelines recommend a risk assessment tool to stratify patients into low, moderate, or high risk for aspiration. I'd consult anesthesia in this case, especially considering the patient's compromised cardiac history.",
+        "text": "Low probability ACS is a tough one.  Tintinalli's is right, you need to risk-stratify based on probability.  Here's how I do it: first, look at the ECG - if it's normal, you can probably rule out MI.  Then, get some troponin numbers - if they're normal, that's a good sign too.  But hypertension and diabetes are red flags, so you should keep an eye out for myocardial infarction.  Don't forget to get some imaging - I like to do an echo to rule out cardiomyopathy.\n\nTL;DR - normal ECG and troponins, but red flag for hypertension and diabetes.  Get an echo and keep an eye out for MI.",
         "color": "purple"
       },
       {
@@ -477,739 +753,241 @@
         "user": "Leo Chen",
         "role": "MS1",
         "city": "Montreal, QC",
-        "text": "What's the recommended waiting period for food intake before procedural sedation?",
+        "text": "Wait, what's an echo?  Is that an echocardiogram?  I thought we just did ECGs and troponins for cardiac issues.",
         "color": "green"
       },
       {
         "id": 3,
         "parent_id": 1,
-        "user": "Dr. Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "According to my sources, the waiting period for food intake before procedural sedation is around 3 hours, but this can vary depending on the patient's individual characteristics. Does anyone have experience with this or know of any papers on the subject?",
-        "color": "green"
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Ah, good question, Leo!  Yes, an echo is an echocardiogram, which is an ultrasound of the heart.  It's a great way to see if there's any damage to the heart muscle or any issues with the valves.  We usually do it after a cardiac issue, like a MI, to check for damage.\n\nThink of it like a CT scan for the heart - it gives us a detailed picture of what's going on inside.",
+        "color": "purple"
       },
       {
         "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "The waiting period for food intake before procedural sedation is irrelevant. The real question is whether the patient is at high risk for aspiration. If they are, then we need to take a different approach, like using a protected airway or avoiding sedation altogether. Don't get me started on the lack of critical thinking in this field.",
-        "color": "blue"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Hold up, @Dr. Sterling. I've seen plenty of papers on this topic, and they all agree that a waiting period of 3 hours or more is associated with a lower risk of aspiration. Can you provide some evidence to counter this?",
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "I've read that some people use the GRACE risk score to stratify patients with ACS.  Has anyone else heard of this?",
         "color": "green"
       },
       {
+        "id": 5,
+        "parent_id": 1,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Yeah, I've heard of GRACE before.  It's a scoring system that takes into account age, sex, blood pressure, heart rate, ECG findings, and other factors to predict the risk of in-hospital mortality.  But I've never used it in practice - I just get a good sense of the patient's risk from talking to them and reviewing their chart.",
+        "color": "blue"
+      },
+      {
         "id": 6,
-        "parent_id": 5,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "I'm curious about the use of antacids or H2 blockers in patients with a history of aspiration. Have any of you used this as a preventive measure in your practice?",
+        "parent_id": 4,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I've seen GRACE used in some studies, but I'm not sure how it compares to other risk scores.  Does anyone know more about its accuracy?",
         "color": "green"
       },
       {
         "id": 7,
         "parent_id": 6,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "Antacids or H2 blockers can be a useful preventive measure, especially in patients at high risk for aspiration. However, it's essential to consider the patient's individual characteristics, such as their medical history, medications, and potential for bleeding, when deciding whether to use this approach.",
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I've read that the GRACE risk score is a good predictor of in-hospital mortality, but it's not perfect.  One study found that it had a sensitivity of 85% and a specificity of 80% for predicting MI and in-hospital mortality.  However, another study found that it had a higher sensitivity for younger patients and a lower specificity for older patients.  I think it's always a good idea to use multiple risk scores and clinical judgment to get a complete picture of the patient's risk.",
         "color": "purple"
       },
       {
         "id": 8,
-        "parent_id": null,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "OMG, can someone please explain the ASA guidelines for procedural sedation? I've seen them mentioned a few times in this thread, but I'm totally lost. Is it like a flowchart or something?",
-        "color": "blue"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Dr. 'Ziggy' Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Hey @Chad, the ASA guidelines for procedural sedation are indeed a flowchart, but it's way more complex than that. They're based on the patient's risk factors for aspiration, respiratory depression, and other complications. Trust me, you'll learn more about it in med school.",
-        "color": "green"
-      }
-    ],
-    "image": "https://www.ebmedicine.net/media_library/images/2022-EMP-Publication-Article/06-June/Clinical-Pathway-for-Procedural-Sedation-and-Analgesia-in-the-Emergency-Department-TH.png"
-  },
-  {
-    "id": 10,
-    "title": "Rant about... Fever phobia in pediatric emergency medicine",
-    "body": "Just saw a patient with fever, and the parents were freaking out about 'fever phobia' and wanting to do lumbar punctures galore. Does anyone else get tired of this? I feel like it's always about the fear of missing the big diagnosis.",
-    "category": "Pediatric EM",
-    "user": "Dr. Maya Gupta",
-    "role": "PGY2",
-    "city": "Mississauga, ON",
-    "comments": [
-      {
-        "id": 11,
-        "parent_id": null,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "What's the deal with fever phobia? Shouldn't we be taking a more aggressive approach in kids with fever?",
-        "color": "blue"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "No way! We should be doing CBCs and blood cultures in all kids with fever, stat. I mean, what if it's bacterial meningitis?",
-        "color": "green"
-      },
-      {
-        "id": 13,
-        "parent_id": 12,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "Hold up, folks. We need to talk about the risk of bacterial meningitis in febrile kids. Isn't it like 1 in 10,000 or something?",
-        "color": "purple"
-      },
-      {
-        "id": 14,
-        "parent_id": 13,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Is that right? So it's pretty rare. But what about UTIs? Shouldn't we be screening for those?",
-        "color": "red"
-      },
-      {
-        "id": 15,
-        "parent_id": 14,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Of course! We should definitely be doing urinalyses in febrile kids. But let's not forget about the risk of 'fever phobia' causing unnecessary testing and harm to patients.",
-        "color": "green"
-      },
-      {
-        "id": 16,
-        "parent_id": 15,
+        "parent_id": 5,
         "user": "Dr. Elena Varkov",
         "role": "FRCPC",
         "city": "Quebec City, QC",
-        "text": "I think we need to talk about the sodium story in febrile kids. What's the optimal sodium level for our patients?",
-        "color": "purple"
-      },
-      {
-        "id": 17,
-        "parent_id": 16,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Good point, Dr. Varkov! We don't want to hyponatremia our febrile kids. What's the magic sodium level we aim for?",
-        "color": "green"
-      },
-      {
-        "id": 18,
-        "parent_id": null,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "Fever phobia, you say? In my day, we didn't worry about 'fever phobia'. We just gave the child some camphor and liniment. But I digress.",
-        "color": "blue"
-      },
-      {
-        "id": 19,
-        "parent_id": 18,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Lol, Dr. Thorne, you're a card. But seriously, what's the current approach to fever reduction in pediatrics?",
-        "color": "purple"
-      },
-      {
-        "id": 20,
-        "parent_id": 19,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "We're sticking with acetaminophen and ibuprofen, just like we've always done. But maybe we should be looking at some newer agents, like melatonin and ketorolac.",
-        "color": "green"
-      },
-      {
-        "id": 21,
-        "parent_id": 20,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Check out this study on melatonin and fever reduction in pediatrics: [link to study].",
-        "color": "blue"
-      },
-      {
-        "id": 22,
-        "parent_id": null,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "So, just to summarize: we need to be doing CBCs, blood cultures, and urinalyses in all febrile kids, and we should be considering melatonin as a fever reducer?",
-        "color": "purple"
-      },
-      {
-        "id": 23,
-        "parent_id": 22,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Uh, no way, Chad! We're keeping it simple: acetaminophen, ibuprofen, and a good history and physical.",
-        "color": "green"
-      }
-    ]
-  },
-  {
-    "id": 6,
-    "title": "Just saw a patient with an AAA and it got me thinking...",
-    "body": "I had a patient come in with an abdominal aortic aneurysm (AAA) last night. The classic presentation was there - 70 yr old male smoker with a history of hypertension and atherosclerosis. He presented with sudden onset severe back pain and hypotension. We rushed him to the OR and they managed to repair the aneurysm. What really got me was that the surgeon told me that this is a preventable condition. They've been advocating for screening of high-risk patients for years. Has anyone else seen this in practice? Do you screen for AAA in your high-risk patients?",
-    "category": "EM- CME review",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "TLDR: Screening for AAA in high-risk patients. I've seen this in a few patients, but I always thought it was just a case of 'you're 70, you smoke, you have HTN, you're at risk'. Has anyone else noticed that there's a lack of awareness about AAA screening among GPs?",
-        "color": "blue"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "I was talking to a GP friend the other day and he said he's only ever screened patients with a family history of AAA. Does that sound right to you guys? Should we be pushing for more aggressive screening?",
-        "color": "purple"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "I've been practicing in a rural setting for years and we just don't have the resources to screen for AAA. We rely on patients presenting symptomatically and then it's too late. Has anyone else dealt with this in rural settings?",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "I was just reading about the Canadian Society of Vascular Surgery's guidelines and it seems like they recommend screening for patients with a history of tobacco use, HTN, or diabetes. Does that sound right to you guys?",
-        "color": "blue"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "I've seen some patients come in with small AAAs that are incidentally found on CT scans. Should we be referring those patients to a vascular surgeon or just keeping a close eye on them?",
-        "color": "purple"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "I've seen a few cases where patients have undergone repair for small AAAs and had no complications. Has anyone else seen this? Should we be considering elective repair for small AAAs?",
-        "color": "green"
-      },
-      {
-        "id": 7,
-        "parent_id": 1,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "What's the current consensus on the diameter of the aneurysm that requires repair? I've seen some patients with small AAAs and it seems like the size doesn't correlate with the risk anymore.",
-        "color": "blue"
-      },
-      {
-        "id": 8,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "I've been reading about the role of US in diagnosing AAA and it seems like it's not that sensitive. Can someone talk about the sensitivity and specificity of US vs CT?",
-        "color": "purple"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "I've seen some cases where patients have been diagnosed with AAA on CT and then undergone repair, only to find out later that the imaging was incorrect. Can someone talk about the importance of accurate imaging?",
-        "color": "green"
-      },
-      {
-        "id": 10,
-        "parent_id": 1,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "Is it true that there's a correlation between the size of the aneurysm and the risk of rupture? My doc told me that I'm at high risk because my aneurysm is 3cm, but I've seen some patients with larger aneurysms with no symptoms.",
-        "color": "blue"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Rant about: Amnesia, Intimate Partner Violence, and Forensic Evidence Kits",
-    "body": null,
-    "image": "https://www.ebmedicine.net/spaw/uploads/aboutUs/Documentation%20Keys%20Emergency%20Medicine%20Practice.JPG"
-  },
-  {
-    "id": 1,
-    "title": "Today I Learned the Hard Way to Manage Scalp Lacerations...",
-    "body": "Had a miss last night on a scalp laceration case that got me thinking about our approach in the ER. Patient presented with a deep scalp laceration from a motorcycle crash. We put in a pressure dressing overnight to try and reduce the risk of hematoma formation, but didn't reevaluate until 24 hours after presentation. Turns out, we had developed a significant perichondral hematoma that required evacuation. Anyone else have any tips on managing scalp lacerations? Do we need to be putting in those pressure dressings for all deep lacerations?",
-    "category": "emergency-medicine",
-    "comments": [
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "We had a similar case last week and I think our ER is going to start following the ATLS guidelines on pressure dressings for scalp lacerations. Have you guys seen this study on perichondral hematomas? [link](https://www.ncbi.nlm.nih.gov/pubmed/28684467)",
-        "color": "blue"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "We've been doing this for years and I think it's just part of our standard approach for deep scalp lacerations. That being said, it's always good to review our practices and make sure we're up to date on the latest evidence. Has anyone else seen any good studies on this topic?",
-        "color": "purple"
-      },
-      {
-        "id": 4,
-        "parent_id": 2,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "What do the ATLS guidelines say about pressure dressings for scalp lacerations? Is it like, a level 1 recommendation or something? And what about the study link Turbo Tom posted? Is it like, super credible?",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": 3,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "According to the ATLS guidelines, pressure dressings should be used for deep scalp lacerations to reduce the risk of perichondral hematoma formation. However, I think we need to be careful not to overdo it and end up causing more harm than good. Has anyone else seen any studies on the risks associated with using pressure dressings in scalp lacerations?",
-        "color": "blue"
-      },
-      {
-        "id": 6,
-        "parent_id": 1,
-        "user": "Dr. Phil Muddle",
-        "role": "EP",
-        "city": "Regina, SK",
-        "text": "I think I saw a case like this last week and I'm pretty sure we just used plain old gauze behind the ear and wrapped the head with more gauze. Did we need to be doing pressure dressings the whole time? And what about the reevaluation after 24 hours? Should we be doing that for all scalp lacerations?",
-        "color": "yellow"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Isn't the reevaluation after 24 hours just to check for hematoma formation? I thought that was a standard practice for all scalp lacerations, not just deep ones?",
-        "color": "green"
-      },
-      {
-        "id": 8,
-        "parent_id": 6,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Yeah, that's right. The reevaluation is just to check for hematoma formation. I think we should be doing that for all scalp lacerations, regardless of depth. Has anyone else had any issues with hematoma formation in scalp lacerations?",
+        "text": "I think it's also important to remember that risk scores are just tools, and they shouldn't be used as the sole basis for decision-making.  A good clinician should always use clinical judgment and consider the patient's individual circumstances before making a diagnosis or treatment plan.",
         "color": "blue"
       },
       {
         "id": 9,
-        "parent_id": 1,
-        "user": "Dr. 'Ziggy' Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "You know what they say: 'a little bit of pressure can go a long way...in the other direction'. I think we need to be careful with those pressure dressings and not cause more harm than good. Has anyone seen any studies on the optimal amount of pressure to use in scalp lacerations?",
-        "color": "purple"
+        "parent_id": 7,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "I've heard that some people use the TIMI risk score to stratify patients with ACS.  Has anyone else heard of this?",
+        "color": "green"
       },
       {
         "id": 10,
         "parent_id": 9,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Actually, Ziggy, I think the optimal amount of pressure is just enough to prevent hematoma formation. We don't want to be too aggressive with the pressure and end up causing more harm. Have you seen any studies on this topic?",
-        "color": "green"
+        "user": "Dr. Zachary Brown",
+        "role": "EP",
+        "city": "Calgary, AB",
+        "text": "Yeah, I've heard of TIMI before.  It's a scoring system that takes into account age, sex, blood pressure, heart rate, ECG findings, and other factors to predict the risk of myocardial infarction.  But I've never used it in practice - I just get a good sense of the patient's risk from talking to them and reviewing their chart.",
+        "color": "blue"
       },
       {
         "id": 11,
         "parent_id": 10,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Wait, what's with all the pressure talk? Are we trying to inflate the patient or something? Just kidding, sort of. Seriously though, what's the reasoning behind using pressure dressings in scalp lacerations?",
-        "color": "yellow"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Good question, Chad. We use pressure dressings to try and prevent hematoma formation in scalp lacerations. Hematomas can cause further complications, like abscess formation and necrosis, so we want to minimize the risk of that happening.",
-        "color": "blue"
-      },
-      {
-        "id": 13,
-        "parent_id": 12,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "A hematoma can also lead to increased ICP and potentially even herniation, so we need to be careful when managing scalp lacerations. Does anyone have any suggestions for how we can improve our approach to managing these types of cases?",
-        "color": "purple"
-      },
-      {
-        "id": 14,
-        "parent_id": 13,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I think we should be using a more individualized approach when managing scalp lacerations. Each patient is unique and may require a different level of care. Has anyone else seen any studies on this topic?",
-        "color": "green"
-      },
-      {
-        "id": 15,
-        "parent_id": 14,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Yeah, I agree with Maya. We need to be taking a more holistic approach to managing scalp lacerations. We can't just rely on the ATLS guidelines and expect everything to work out. What else can we do to improve our outcomes in these cases?",
-        "color": "purple"
-      },
-      {
-        "id": 16,
-        "parent_id": 15,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Maybe we can start by consulting with other specialties, like neurosurgery or otolaryngology, to get their input on managing scalp lacerations? Has anyone else had any experience with this?",
-        "color": "green"
-      },
-      {
-        "id": 17,
-        "parent_id": 16,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Yeah, that's a good idea, Kevin. We should be collaborating with other specialties to provide the best possible care for our patients. Let's try to coordinate with neurosurgery and otolaryngology to get their input on managing scalp lacerations.",
-        "color": "blue"
-      },
-      {
-        "id": 18,
-        "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "You're all overthinking this. A pressure dressing is just a pressure dressing. It's not like it's going to make or break the patient's outcome. Can we just stick to what we know and not overcomplicate things?",
-        "color": "red"
-      },
-      {
-        "id": 19,
-        "parent_id": 18,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Actually, Victor, I think we should be taking a more nuanced approach to managing scalp lacerations. We need to consider the individual patient's needs and provide personalized care. Overthinking is not a bad thing in this case.",
-        "color": "purple"
-      },
-      {
-        "id": 20,
-        "parent_id": 19,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I think we should be using both approaches, Victor and Aris. We should use the pressure dressing as a prophylactic measure to prevent hematoma formation, but also be prepared to take a more nuanced approach if the patient's condition changes.",
-        "color": "green"
-      },
-      {
-        "id": 21,
-        "parent_id": 20,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "I think we're getting a bit off track here. Can we just summarize what we've discussed so far?",
-        "color": "blue"
-      },
-      {
-        "id": 22,
-        "parent_id": 21,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "TL;DR: We're discussing the best approach to managing scalp lacerations, specifically the use of pressure dressings to prevent hematoma formation.",
-        "color": "purple"
-      },
-      {
-        "id": 23,
-        "parent_id": 22,
-        "user": "Dr. Ziggy",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "I think we've got it covered. Can we just close this discussion and move on?",
-        "color": "yellow"
-      },
-      {
-        "id": 24,
-        "parent_id": 23,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Agreed. Thanks for the discussion, everyone.",
-        "color": "green"
-      },
-      {
-        "id": 25,
-        "parent_id": null,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "In my day, we just used a good old-fashioned bandage and called it a day. This pressure dressing business is all a bunch of hooey.",
-        "color": "red"
-      },
-      {
-        "id": 26,
-        "parent_id": 25,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "LOL, Dr. Thorne, you're such a traditionalist.",
-        "color": "blue"
-      },
-      {
-        "id": 27,
-        "parent_id": 26,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Actually, I think Dr. Thorne has a point. We should be open to traditional methods and not just rely on new-age technology.",
-        "color": "purple"
-      },
-      {
-        "id": 28,
-        "parent_id": 27,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I still think we should be using the best evidence-based practice, even if it means ditching the pressure dressings.",
-        "color": "green"
-      },
-      {
-        "id": 29,
-        "parent_id": 28,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "I'm with Dr. Gupta on this one. We should be prioritizing evidence-based practice.",
-        "color": "blue"
-      },
-      {
-        "id": 30,
-        "parent_id": 29,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Alright, alright, let's not rehash this debate. The evidence says we should use pressure dressings, so let's just stick to it.",
-        "color": "red"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Today I Learned: A Difficult Heat-Related Illness Case",
-    "body": "Just saw a fascinating case last night that made me question my knowledge of heat-related illnesses. A 35-year-old male presented to the ER with confusion, agitation, and a temperature of 42.5\u00b0C (108.5\u00b0F). Initial vitals showed a HR of 120, BP of 90/60, and a capillary refill time of 3 seconds.\n\nOn exam, he was diaphoretic and had pinpoint pupils. His skin was warm to the touch and had some petechiae on his extremities. The patient's past medical history was unremarkable, but he had been doing landscaping in 34\u00b0C (93.2\u00b0F) weather for several hours.\n\nThe resident initially thought he had heatstroke and started cooling him down with ice packs and evaporative cooling. However, the patient's vitals didn't improve, and his oxygen saturation started to drop.\n\nThat's when I realized that this might not be just heatstroke. The patient had some bizarre behavior, such as speaking incoherently and trying to get out of bed despite being extremely weak.\n\nI quickly called cardiology and consulted with a cardiologist. The patient was eventually diagnosed with a cardiac cause of heat intolerance - likely due to a stress cardiomyopathy.\n\nThis case made me realize how complex heat-related illnesses can be and how easy it is to misdiagnose them.",
-    "category": "emergency medicine",
-    "comments": [
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Ziggy",
-        "role": "Zalesky",
-        "city": "Vancouver",
-        "text": "TL;DR: Don't be too quick to cool someone down with ice packs and evaporative cooling. That's what I thought initially too, but it can actually worsen the patient's condition. I've seen it happen before!\n\nHere's a link to an article on heat-related illnesses that you might find helpful: https://www.annemergmed.com/article/S0196-0644%2810%2900050-2/abstract",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Rick",
-        "role": "Rage",
-        "city": "Windsor",
-        "text": "Are you kidding me? You're questioning your knowledge of heat-related illnesses? That's like questioning your ability to breathe. I mean, come on, we've all been there. Heatstroke, heat exhaustion, exertional heat illness... these are all common diagnoses in our field.\n\nI've seen patients come in with temperatures up to 42C (107.6F) and still manage to recover with just cooling and hydration.",
-        "color": "purple"
-      },
-      {
-        "id": 4,
-        "parent_id": 2,
-        "user": "Sarah",
-        "role": "Sharp",
-        "city": "Laval",
-        "text": "Hi Ziggy! Thanks for sharing the article. I actually came across it last week when I was researching heat-related illnesses for a lecture. Did you know that exertional heat illness is the leading cause of death among high school athletes in the US? It's alarming!\n\nI'd like to add that it's not just about cooling the patient down. We need to also focus on identifying the underlying cause, such as dehydration or cardiac issues.",
-        "color": "pink"
-      },
-      {
-        "id": 5,
-        "parent_id": 3,
-        "user": "Dr. Thorne",
-        "role": "Aris",
-        "city": "Toronto",
-        "text": "Rick, with all due respect, your previous comment was a bit too dismissive. While it's true that we've all seen our share of heat-related illnesses, there's always room for improvement in our diagnostic skills and treatments. As we know, heatstroke and heat exhaustion are often misdiagnosed or undertreated, leading to serious consequences.\n\nI think this case highlights the importance of maintaining a high level of vigilance when it comes to heat-related illnesses.",
-        "color": "blue"
-      },
-      {
-        "id": 6,
-        "parent_id": 1,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's",
-        "text": "Bless your heart, Doc! I had a similar experience with a patient last month. Turns out they had a rare condition called malignant hyperthermia. We had to quickly intubate them and hook them up to an ECMO machine.\n\nJust a reminder that these cases can be super tricky, so we always need to keep our thinking caps on!",
-        "color": "yellow"
-      },
-      {
-        "id": 7,
-        "parent_id": 2,
-        "user": "Kevin",
-        "role": "Park",
-        "city": "Edmonton",
-        "text": "Ziggy, thanks for sharing the article! Can you tell me more about exertional heat illness in high school athletes? How do we identify it?\n\nAre there any specific signs or symptoms we should look out for during sports physicals?",
-        "color": "green"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Ziggy",
-        "role": "Zalesky",
-        "city": "Vancouver",
-        "text": "Hi Kevin! Exertional heat illness is typically characterized by symptoms such as dizziness, nausea, headaches, and muscle cramping during or after intense exercise. We need to be aware of these signs and symptoms during sports physicals and educate coaches and athletes on heat safety.\n\nHere are some resources you can use for your lecture:\n\n* NCAA Exertional Heat Illness Prevention and Response Guidelines\n\n* Exertional Heat Illness in High School Athletes: Prevention and Management (Pediatrics journal article)",
-        "color": "purple"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Today I Learned: The importance of treating malignant otitis externa with IV antibiotics",
-    "body": "Just saw a patient with what I thought was your run-of-the-mill otitis externa. Turns out it was malignant otitis externa. I've been treating it with topical antibiotics, not realizing it was severe enough to require IV antibiotics. Had to send her to the ICU. Can anyone share some insight into the proper treatment of malignant otitis externa?",
-    "category": "emergency medicine",
-    "comments": [
-      {
-        "id": 2,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Malignant otitis externa (MOE) is a potentially life-threatening infection that requires timely recognition and aggressive treatment. MOE is characterized by necrotizing infection of the external auditory canal, with potential extension to the skull base and surrounding structures. I've seen the morbidity and mortality of MOE firsthand when it's not treated promptly.",
-        "color": "purple",
-        "links": [
-          "https://emedicine.medscape.com/article/1014758-overview"
-        ]
-      },
-      {
-        "id": 3,
-        "parent_id": null,
-        "user": "Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "I agree with Dr. Gupta. MOE is an HCPAPs nightmare. I always think of it when I see a patient with significant external canal disease, especially if they have diabetes or immune compromise. What's the current recommended treatment for MOE?",
-        "color": "blue",
-        "links": []
-      },
-      {
-        "id": 4,
-        "parent_id": 2,
         "user": "Leo Chen",
         "role": "MS1",
         "city": "Montreal, QC",
-        "text": "Isn't IV antibiotics sufficient for MOE? I thought I read that topical antibiotics were ineffective",
+        "text": "I've seen TIMI used in some studies, but I'm not sure how it compares to other risk scores.  Does anyone know more about its accuracy?",
         "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "IV antibiotics are not sufficient for MOE. You need to aggressively debride the infected tissue, often with surgical debridement. IV antibiotics are just part of the treatment plan. MOE is a multi-disciplinary disease that requires a comprehensive approach, including otolaryngology, infectious disease, and pain management.",
-        "color": "purple"
-      },
-      {
-        "id": 6,
-        "parent_id": 3,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Are there any specific antibiotics that have shown efficacy against MOE? I thought I read that Pseudomonas aeruginosa was the primary organism involved",
-        "color": "green"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Yes, Pseudomonas aeruginosa is the primary organism involved, but MOE is often polymicrobial. I've seen Pseudomonas, Staphylococcus aureus, and Enterobacteriaceae co-existing in MOE. The recommended antibiotics are broad-spectrum IV antibiotics, such as Piperacillin/Tazobactam or Meropenem.",
-        "color": "purple"
-      },
-      {
-        "id": 8,
-        "parent_id": 3,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Can anyone comment on the importance of pain management in MOE? I've seen patients with severe pain and difficulty managing their pain",
-        "color": "blue"
-      },
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Today I Learned: 'Complete' vs 'Incomplete' Spinal Cord Injuries, and When to Expect a U-Turn in Neurological Progress (TL;DR: Don't Miss the Boat on SCIWORA!)",
+    "body": "Just had a 'aha!' moment (again) on a case of spinal cord injury. I'm writing this to remind myself and maybe save someone else from falling into the same trap. So here goes:\n\n\nI was dealing with a 26-year-old male who got into a high-speed car accident. He presented to the ER with a C-spine immobilization for what seemed to be a minor trauma. Initial CT was negative, but follow-up MRI revealed an incomplete spinal cord injury at C6-C7. Now here's where things got hairy:\n\nThe patient's injury was labeled as an \"incomplete\" SCI, which got me thinking about the differences between complete and incomplete SCI. As I dug deeper, I realized that this patient's MRI actually showed some level of neural tissue preservation, which pointed towards an incomplete injury. But here's the thing:\n\nSpinal shock can make it really hard to differentiate between complete and incomplete injuries, especially in the initial stages.\n\nSo, what's the takeaway from this experience?\n\n1. **Keep an open mind**: SCI can be tricky to diagnose, and it's not always clear-cut.\n2. **Look out for SCIWORA**: If you suspect ligamentous injury, order an MRI ASAP, even if the initial CT is negative.\n3. **Know the signs**: Pay attention to the patient's neurological status, especially if there's a gradual improvement or worsening over time.",
+    "category": "emergency_medicine",
+    "comments": [
       {
         "id": 9,
-        "parent_id": 2,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "This is such a great discussion! My question is: What are the common comorbidities associated with MOE?",
-        "color": "green"
+        "parent_id": null,
+        "user": "Dr. May Patel, FRCPC, PGY2.",
+        "role": "Physician",
+        "city": "Vancouver, BC",
+        "text": "TL;DR: Don't miss the boat on SCIWORA! Excellent reminder, Dr. Dan. I've had similar experiences where an initial negative CT made me doubt the diagnosis. I never ordered that MRI (big mistake). One of my colleagues pointed out that SCIWORA can masquerade as musculoskeletal injuries. Any other tips for diagnosing SCIWORA?",
+        "color": "blue"
       },
       {
         "id": 10,
         "parent_id": 9,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "MOE is often seen in diabetic patients, immunocompromised patients, and patients with chronic otitis externa. Additionally, tobacco use and alcoholism are also risk factors.",
+        "user": "Dr. Aris Thorne, FRCSC, Staff Physician.",
+        "role": "Physician",
+        "city": "Toronto, ON",
+        "text": "Great question, @Dr. May! In my experience, SCIWORA can be a tough nut to crack. The key is to suspect it in patients with significant ligamentous instability. I like to use the Ottawa Ankle Rules and the NEXUS criteria to guide my decision-making. And yes, MRI is essential once you suspect SCIWORA.",
+        "color": "green"
+      },
+      {
+        "id": 11,
+        "parent_id": 9,
+        "user": "Leo Chen, MS1",
+        "role": "Student",
+        "city": "Montreal, QC",
+        "text": "Hi, Doc! Can I ask, what are the Ottawa Ankle Rules and the NEXUS criteria? Are they related to the Western Ontario and McMaster Universities Osteoarthritis Index (WOMAC)? I'm not sure I get the connection.",
         "color": "purple"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Dr. Barb Miller, FRCPC, EP.",
+        "role": "Physician",
+        "city": "Winnipeg, MB",
+        "text": "Nice try, @Leo! The Ottawa Ankle Rules and the NEXUS criteria are actually guidelines for diagnosing ankle fractures and cervical spine injuries, respectively. They help emergency physicians decide whether to order imaging or not. No relation to WOMAC, which is a pain scale.",
+        "color": "orange"
+      },
+      {
+        "id": 13,
+        "parent_id": null,
+        "user": "Sarah Jenkins, MS3.",
+        "role": "Student",
+        "city": "Ottawa, ON",
+        "text": "Thanks for the clarification, @Dr. Barb! One more question: How long does spinal shock typically last? Can it resolve on its own, or are we looking at weeks or even months of bedrest?",
+        "color": "pink"
+      },
+      {
+        "id": 14,
+        "parent_id": 13,
+        "user": "Dr. Kevin Park, PGY1.",
+        "role": "Physician",
+        "city": "Edmonton, AB",
+        "text": "Good question, @Sarah! Spinal shock can last anywhere from days to weeks, but it's not just about bedrest. We need to focus on preventing further injury, managing pain, and promoting neurological recovery. And yes, it's not uncommon for patients to experience fluctuations in their condition.",
+        "color": "gray"
+      }
+    ]
+  },
+  {
+    "title": "Just had a doozy of a case, folks! Respiratory Distress with a twist",
+    "body": "Had a patient with severe respiratory distress last night, initially presented as a CHF dx, but then turns out it's actually CAGE from a rapid ascent to altitude. Anyone else ever seen this, and what's your go-to management algorithm? TLDR, I'm still salty about missing this diagnosis",
+    "category": "EM",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "MD",
+        "city": "Toronto, ON",
+        "text": "Ah, great case! Yes, CAGE is a real thing and can be tricky to diagnose. I usually look for the combo of respiratory distress, neurological symptoms (loss of consciousness, seizure, etc.), and a recent history of high-altitude ascent. Noninvasive ventilation can be helpful in stabilizing the patient. We should get the ER docs to do a grand rounds on this. [link to paper on CAGE](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4411912/)",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MD",
+        "city": "Ottawa, ON",
+        "text": "That's a great point, Dr. Thorne! And didn't we discuss this in our last EM conference? Can someone link to the slides? I'm still trying to understand the pathophysiology behind CAGE and how it relates to gas bubbles forming in the arteries.",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Hey Sarah, I think the key takeaway is that the gas bubbles can cause occlusion of the cerebral arteries, leading to ischemia and neurological symptoms. We should also think about DPD (Decompression Pulmonary Injury) which can occur in divers who surface too quickly. Has anyone else seen that?",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "I don't get it guys, what's the big deal with CAGE? Isn't it just like a weird respiratory disease or something?",
+        "color": "pink"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Aris Thorne",
+        "role": "MD",
+        "city": "Toronto, ON",
+        "text": "Ha ha, Chad, it's not just a weird disease! It's actually a serious condition that can cause long-term damage to the brain and respiratory system. We should make sure to teach this in med school so future docs don't miss it. [link to EM conference on CAGE](https://www.acep.org/Patient-Centered-Medicine/Air-and-Space-EM/Decompression-Sickness-and-CAGE)",
+        "color": "purple"
+      },
+      {
+        "id": 6,
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "MD",
+        "city": "Mississauga, ON",
+        "text": "I'm curious, how common is CAGE compared to other respiratory conditions? Does anyone have any data on that?",
+        "color": "orange"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Victor Sterling",
+        "role": "MD",
+        "city": "Calgary, AB",
+        "text": "Ha! You think I'm going to share data with you? You're in EM, not ICU! But seriously, I'm not aware of any studies on the incidence of CAGE. We should get our research team to look into it.",
+        "color": "red"
+      },
+      {
+        "id": 8,
+        "parent_id": 1,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "I'm the patient from last night! Thanks for taking care of me, Dr. Gupta! Can I ask, what would you have done differently in my case?",
+        "color": "brown"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Maya Gupta",
+        "role": "MD",
+        "city": "Mississauga, ON",
+        "text": "Ha ha, Barnaby! Thanks for being so honest! I think in hindsight, I would have given you a more thorough physical exam to identify any neurological symptoms earlier. And of course, I would have ordered a FAST exam to rule out CAGE. Great learning experience for me!",
+        "color": "orange"
       }
     ],
-    "image": "https://www.osmosis.org/_next/image?url=https%3A%2F%2Fd16qt3wv6xm098.cloudfront.net%2FgquUt32BRWOjKM2XoNMHjxuMSnmu5zBu%2F_.jpg&w=640&q=75"
+    "image": "https://www.jems.com/wp-content/uploads/2015/12/20924-1411JEMS_vent1.jpg"
   }
 ]
