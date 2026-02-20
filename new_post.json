@@ -1,9 +1,9 @@
 [
   {
+    "title": "Hypertensive Emergency in the ED: When to Intubate, When to Anticoagulate",
+    "category": "EMedicine",
     "id": 0,
-    "title": "Just saw a patient with hyponatremia... rant about 'cerebral edema' vs 'central pontine myelinolysis'",
-    "body": "Been seeing a lot of patients with hyponatremia lately, and I just had a major 'aha' moment. We've all been taught that slow correction of sodium is key to avoid 'cerebral edema', but what's the actual risk of central pontine myelinolysis (CPM)? We all know it's a thing, but have we ever really quantified it? Has anyone got some references on the incidence rates, or better yet, some good old-fashioned data to crunch?",
-    "category": "medicine",
+    "body": "Just saw a patient with a suspected hypertensive emergency and I'm still trying to process what just happened. Patient arrived in the ED with severe headache, visual disturbances, and a BP of 220/140 mmHg. The neuro team was called in and they started discussing intubation for increased ICP. But here's the thing, after reviewing the ECG, cardiac enzymes, and imaging, we realized the patient had an acute MI with ST-segment elevation in multiple leads. So, the neuro team wanted to anticoagulate for hypertensive emergency, but we couldn't do that without risking a cardiac catastrophe. What's the right approach here? Is it more common than I think to see both hypertensive emergency and acute MI presentation simultaneously? Has anyone else had similar experiences in the ED?",
     "comments": [
       {
         "id": 1,
@@ -11,598 +11,181 @@
         "user": "Dr. Aris Thorne",
         "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "TLDR: CPM is a real concern, but incidence rates vary widely in the literature. Let's talk about the latest data and how to apply it to our practice. Has anyone read this recent article in N Engl J Med? [link to article]\n\nIn the acute setting, slow correction of sodium (0.5-1 mEq/L/h) appears to significantly reduce the risk of CPM. However, the incidence rate is still difficult to quantify due to variable definitions and reporting biases. A recent meta-analysis estimated the incidence of CPM to be around 0.7% in adult patients with SIADH. However, this translates to a 90-day mortality rate of only 15%, which is surprisingly low. I'd love to hear your thoughts on how to balance the risks and benefits of rapid vs slow correction in real-world scenarios.",
-        "color": "purple"
+        "text": "TLDR; Hypertensive emergency with suspected increased ICP, but also acute MI with ST-elevation. What's your thought process on managing this situation? We've had cases where we had to do a quick CVP check and consider intubation for suspected increased ICP. Then we quickly ran labs and imaging to confirm MI.\n\nAs Dr. Elena Varkov likes to say, 'Always consider the sodium levels before admitting.' If the sodium is high, especially in the context of severe headache and visual disturbances, we should consider hypertensive emergency. \n\nBut here's the catch: you can't just anticoagulate for hypertensive emergency without considering the cardiac implications.",
+        "color": "purple",
+        "reply_count": 12
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Wow, great point about the meta-analysis, Dr. Thorne! I was wondering, have you seen any data on the relationship between the rate of correction and the risk of CPM? Some studies have suggested that correcting sodium too quickly (< 1 mEq/L/h) can lead to an increased risk of CPM, while others have found no association. Do you have any insight into this?",
-        "color": "green"
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "I once worked on a case where the patient had BOTH hypertensive emergency and MI. We had to quickly get the neuro team in to intubate and stabilize the patient. After that, the cardiologists came in and did a coronary angiogram to assess the MI. It was a really tense situation, but the team worked together and got the patient stabilized.\n\nHas anyone else had to deal with something similar?",
+        "color": "green",
+        "reply_count": 3
       },
       {
         "id": 3,
         "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Actually, I was just reviewing a study that suggested the risk of CPM is not just related to the rate of correction, but also to the initial sodium level. The authors found that patients with initial sodium levels < 120 mmol/L had a significantly higher risk of CPM even with slow correction. Has anyone else come across this? I'd love to get your thoughts on how to apply this to our practice.",
-        "color": "red"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Great point, Dr. Gupta! I've seen similar findings in my own practice. The initial sodium level does seem to play a key role in the risk of CPM. Have you guys thought about how to identify patients at high risk for CPM in the acute setting? Are there any specific clinical features or labs that we can use to stratify risk?",
-        "color": "blue"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "I'm a bit confused - shouldn't we just be sticking to the general principles of treating hyponatremia? Like, you know, giving hypertonic saline to correct the level? Can someone explain why we're making such a big deal about the risk of CPM?",
-        "color": "orange"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Good question, Chad! The thing is, we're not just talking about a simple correction of sodium levels; we're dealing with multiple organ systems and complex pathophysiology. Hyponatremia is a symptom of a much larger problem, and correcting the sodium level may not address the underlying cause. The risk of CPM is just one aspect of this complex equation.",
-        "color": "purple"
-      },
-      {
-        "id": 7,
-        "parent_id": 1,
-        "user": "Turbo Tom (RN)",
-        "role": "Nurse",
-        "city": "London, ON",
-        "text": "As a nurse, I've seen my fair share of patients with hyponatremia. One thing that always strikes me is the importance of monitoring for signs of CPM. We need to be vigilant about watching for symptoms like confusion, seizures, and respiratory arrest. Can we talk more about the clinical picture of CPM? What are the typical presentations we can expect to see?",
-        "color": "green"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Great point, Turbo Tom! The clinical picture of CPM can vary widely, but some notable features include confusion, altered mental status, seizures, and respiratory depression. We should also be mindful of the typical radiographic findings, such as changes in the posterior fossa or central pontine myelinolysis. Have we got any good examples of imaging in CPM to share?",
-        "color": "red"
-      }
-    ],
-    "image": "https://emergencymedicinecases.com/wp-content/uploads/2022/11/ECGcases37-1.png"
-  },
-  {
-    "id": 1,
-    "title": "TL;DR: The Agony of Suture Removal - Wound Closure Wars",
-    "body": "Hey fellow EPs, just saw a patient with a nasty laceration and I'm still fuming about it. Had to remove non-absorbable sutures after 7 days because the patient was a bit of an... let's say, 'enthusiast' and had pulled out the sutures already. Anyone else have this happen? How do we educate our patients about aftercare?",
-    "category": "Emergency Medicine",
-    "comments": [
-      {
-        "id": 2,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "**TL;DR:** Just had a similar case and I think it's because we, as EPs, don't do a great job of educating patients about wound care. We need to do better at explaining the importance of keeping the sutures in place, especially in high-risk patients. Anyone have some good resources for wound closure education?",
-        "color": "blue"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Actually, Dr. Gupta, I think it's also because we don't always get to follow up with patients after discharge. I've found that patients are much more likely to comply with wound care instructions when they get a follow-up call from their PCP. Do you agree?",
-        "color": "purple"
-      },
-      {
-        "id": 4,
-        "parent_id": 2,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Here's a link to a great wound closure resource: https://www.acep.org/patient-education/wound-closure/. We use this in our ER and it's super helpful for patients.",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": null,
         "user": "Leo Chen",
         "role": "MS1",
         "city": "Montreal, QC",
-        "text": "Wait, what? Why do we need to use sutures in the first place? Can't we just use... glue?",
-        "color": "red"
+        "text": "I'm curious, how did the neuro team and cardiologists communicate in this situation? Was there any miscommunication that could have made things worse?",
+        "color": "yellow",
+        "reply_count": 2
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Dr. Rick 'The Rage'",
+        "role": "EP",
+        "city": "Windsor, ON",
+        "text": "We had a similar case last week where the patient presented with hypertensive emergency and suspected acute MI. We ended up sending the patient to the cath lab for an emergency angiogram. The point is, you can't afford to waste time in the emergency department. Get the patient to the relevant specialist ASAP and let them take over.",
+        "color": "blue",
+        "reply_count": 5
+      },
+      {
+        "id": 5,
+        "parent_id": 1,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "As a seasoned nurse, I've seen cases where the emergency department team has mismanaged hypertensive emergencies. You need to assess the patient thoroughly, including vital signs and clinical presentation, and not just focus on one aspect of the case. Don't be a hero, get the patient to the ICU or cath lab quickly.",
+        "color": "red",
+        "reply_count": 7
       },
       {
         "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Ha! Good question, Leo. Sutures are actually the gold standard for wound closure because they provide the most secure and durable closure. Glue, or tissue adhesives, are great for small, clean wounds, but they're not suitable for all cases. Especially with high-tension wounds or those that require precise alignment.",
-        "color": "orange"
+        "parent_id": 2,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "How long did the patient spend in the ICU after the stabilization?",
+        "color": "yellow",
+        "reply_count": 1
       },
       {
         "id": 7,
-        "parent_id": 6,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "So, what about staples? Can I use those instead of sutures? I thought they were a better option for big wounds?",
-        "color": "yellow"
+        "parent_id": 2,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "As Dr. Sarah Sharp's article on the link notes, there was a 24-hour period after stabilization where the patient's creatinine levels were closely monitored. We kept the cardiac catheter in place for several days after the initial procedure.",
+        "color": "purple",
+        "reply_count": 1
       },
       {
         "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Staples are great, Chad! But they're not always the best choice either. They're best for high-tension wounds or those that need to be closed quickly. But in some cases, staples can cause more damage to the wound than good. It's all about the context, my friend.",
-        "color": "pink"
+        "parent_id": 4,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Can I ask how the patient's ECG changed during the course of the day?",
+        "color": "blue",
+        "reply_count": 0
       },
       {
         "id": 9,
-        "parent_id": 8,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "That's so true, Dr. Miller! I once had a patient with a wound that looked like it had been stapled closed in a... let's say, 'creative' way. It was a mess! Luckily, we were able to repair it, but it was a great learning experience.",
-        "color": "brown"
+        "parent_id": 5,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "I feel so sorry for people who are having heart attacks. Is their heart beating fast?",
+        "color": "red",
+        "reply_count": 0
       },
       {
         "id": 10,
         "parent_id": 9,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs.",
-        "color": "black"
-      }
-    ]
-  },
-  {
-    "id": 12345,
-    "title": "Just saw a patient with a sigmoid volvulus - what's the key takeaways?",
-    "body": "Had a patient come in last night with a classic sigmoid volvulus presentation. She had a history of constipation, anticholinergic meds, and a sudden onset of abdominal pain and vomiting. On exam, you could hear the \"music\" sign - high-pitched sounds over the lower left quadrant. We managed to get a CT and it was a beautiful volvulus around the sigmoid colon. After consulting with GI, we got her stable and eventually managed to perform a sigmoid resection.",
-    "category": "emergency medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "So how often do you guys see sigmoid volvulus? I've never seen one in residency, but I've heard it's more common in the elderly. Is this a common mistake to diagnose? Did you guys suspect anything else initially?",
-        "color": "purple"
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Yes, dear patient, you are having a heart attack, and your heart is working as hard as it can to keep you alive. We've stabilized you, and now we need to get you to a hospital for further evaluation and treatment.",
+        "color": "green",
+        "reply_count": 0
       },
       {
-        "id": 2,
+        "id": 11,
         "parent_id": 1,
         "user": "Turbo Tom",
         "role": "RN",
         "city": "London, ON",
-        "text": "Actually, sigmoid volvulus is pretty rare, but the \"music sign\" is a great catch! We actually had a case last week where the EP misdiagnosed it as a simple IBS flare up and we had to go back and re-evaluate. TLDR: get that CT done ASAP!",
-        "color": "green"
+        "text": "You guys are so smart. This case reminds me of a conversation we had in the ED a few months ago. Can anyone recall the link about hypertensive emergencies? I think it was about hypertensive crisis vs hypertensive emergency?",
+        "color": "blue",
+        "reply_count": 0
       },
       {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "That's hilarious - I can imagine how frustrating that must have been for you guys! What was the outcome, btw?",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Ahah, yeah, it was a bit of a nightmare. But luckily, the EP was able to get it right on the 2nd go-round and we were able to get the patient stable. I'd love to know more about the 'music sign' though - do you guys have any tips on how to recognize it?",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": null,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Hey guys, love the conversation! Sigmoid volvulus is a real thing, and it's more common than you'd think. Check out this paper on the 'music sign' - it's a great resource for EM docs [link to paper]. One thing to keep in mind is that the classic triad of sigmoid volvulus is abdominal pain, constipation, and a mass in the left lower quadrant. Keep an eye out for it!",
-        "color": "red"
-      },
-      {
-        "id": 6,
+        "id": 12,
         "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs... Sigmoid volvulus is a no-brainer! I mean, come on, you've got a classic presentation, you get a CT, you're done. I'm more concerned about the fact that this patient went in 24 hours without being admitted. Who's going to take responsibility for that?",
-        "color": "grey"
-      },
-      {
-        "id": 7,
-        "parent_id": null,
-        "user": "Dr. Barb Miller",
+        "user": "Dr. Phil Muddle",
         "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Ugh, don't even get me started on that guy. [link to some relevant research on sigmoid volvulus]. One thing to note, though - sigmoid volvulus is associated with a higher risk of complications, including perforation and sepsis. Make sure to keep an eye on the patient's hemodynamics and get that CT ASAP!",
-        "color": "orange"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Just saw a patient with suspected hypertensive emergency - case study",
-    "body": "So I had a patient come in with a blood pressure of 240/150 mmHg and symptoms of chest pain, shortness of breath, and severe headache. The patient had a history of renal artery stenosis and was taking antihypertensive medications. On presentation, I was concerned for a hypertensive emergency and started treatment with IV labetalol.\n\nTLDR: Hypertensive emergency, suspected aortic dissection, renal artery stenosis, chest pain, shortness of breath, severe headache, treated with IV labetalol.\n\nI've been doing some reading and I'm not sure if I did the right thing. Has anyone else had a similar case and what were your management strategies? Was IV labetalol the best choice? I've read that nicardipine is often used in these situations but I didn't have access to it.\n\nAlso, can someone explain the different classifications of hypertension? I've heard of hypertensive emergency, hypertensive urgency, and chronic hypertension. How do they differ and when do you use aggressive blood pressure control?\n\nI'd love to hear your thoughts and get some advice on how to manage similar cases in the future. Thanks!",
-    "category": "r/emergencymedicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "u/DenisTheMenace",
-        "role": "EP",
-        "city": "Toronto, ON",
-        "text": " Great case study! Hypertensive emergency is a tough one to diagnose. I think you're on the right track with IV labeetalol, but in the future, consider using IV nicardipine if possible. It's a more calcium channel blocker that's often used in hypertensive emergencies.\n\nRegarding your question about the different classifications of hypertension, you're absolutely right to want clarification. Here's a brief rundown:\n\n* Hypertensive emergency: elevated blood pressure with target organ dysfunction (e.g. aortic dissection, acute kidney injury). Immediate blood pressure control is essential to prevent further organ damage.\n* Hypertensive urgency: elevated blood pressure without target organ dysfunction. Blood pressure control is still important, but not as urgent as in hypertensive emergencies.\n* Chronic hypertension: long-standing elevated blood pressure without acute target organ damage. Management focuses on lifestyle changes and medication titration.\n\nAs for when to use aggressive blood pressure control, it really depends on the individual patient and their specific circumstances. A general rule of thumb is to aim for a blood pressure of <130/80 mmHg in most cases. However, in hypertensive emergencies, you may need to go even lower (e.g. <120/80 mmHg).\n\nOne other thing to consider is the use of continuous monitoring of central venous pressure (CVP) in patients with suspected hypertensive emergency. CVP can provide valuable information about cardiac preload and guide fluid management.\n\nDo you have access to a critical care team or intensivist at your hospital? They can provide valuable guidance on managing complex cases like this. Also, I'd like to know, what's the patient's current renal function and have you ordered any further diagnostic tests (e.g. ECG, ultrasound)?",
-        "color": "blue"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "u/KevinInTheField",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": " Hi Denis, thanks for the feedback. I'm actually working with a resident who's taking care of the patient now. We did get the CVP monitoring up and running and it's showing a very high reading. I'm a bit concerned about cardiac function and was thinking of ordering a stress test to evaluate myocardial perfusion. Am I on the right track?",
-        "color": "purple"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "u/MayaTheERRockstar",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": " I've had some experience with hypertensive emergencies in the past and I have to say, this case is sounding pretty similar. One thing I would add to Denis's advice is to make sure you're monitoring the patient's serum creatinine and electrolytes closely. Hyperkalemia can be a major concern in patients with renal artery stenosis and hypertensive emergencies. Have you ordered any lab tests to check for this?",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "u/LeoTheMS1",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": " Um, excuse me, but what's the difference between hyperkalemia and hypokalemia? Aren't they just two sides of the same coin? ",
-        "color": "pink"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "u/DenisTheMenace",
-        "role": "EP",
-        "city": "Toronto, ON",
-        "text": " Good question Leo! Hyperkalemia and hypokalemia are both electrolyte imbalances related to potassium, but they have opposite effects on the body. Hyperkalemia occurs when potassium levels are too high in the blood (typically >5.5 mEq/L), which can lead to cardiac arrhythmias and respiratory muscle weakness. Hypokalemia, on the other hand, occurs when potassium levels are too low (typically <3.5 mEq/L), which can cause muscle weakness, fatigue, and cardiac conduction abnormalities. The key difference is that hyperkalemia is often associated with increased potassium levels in the blood, while hypokalemia is associated with decreased potassium levels. Does that make sense?",
-        "color": "blue"
-      },
-      {
-        "id": 6,
-        "parent_id": 1,
-        "user": "u/RickTheRage",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": " I've got to say, I'm a bit frustrated with this thread. Everyone's focusing on the patient's renal function and hypertensive emergency, but what about the underlying cause of hypertension? Did you investigate the patient's lifestyle? Are they taking beta blockers or ACE inhibitors? I'm all for quick fixes, but we need to address the root cause of the problem if we're going to make any meaningful progress.",
-        "color": "orange"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "u/MayaTheERRockstar",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": " Ah, come on Rick. You're not going to start ranting about hospital admin, are you?",
-        "color": "green"
-      },
-      {
-        "id": 8,
-        "parent_id": 6,
-        "user": "u/DenisTheMenace",
-        "role": "EP",
-        "city": "Toronto, ON",
-        "text": " Actually, Rick makes a valid point. Lifestyle changes and medication adherence are crucial in managing chronic hypertension. I'd love to see more focus on these aspects in the thread.",
-        "color": "blue"
+        "city": "Regina, SK",
+        "text": "Wait a minute, I think I know what you are talking about. I had this huge headache the other day, but I'm not sure if it's related to hypertensive emergency. Can someone give me a link to the American College of Cardiology's guideline on acute MI management?",
+        "color": "blue",
+        "reply_count": 2
       }
     ],
     "image": "https://todaysveterinarypractice.com/wp-content/uploads/sites/4/2011/09/f03_table1.gif"
   },
   {
-    "id": 4,
-    "title": "TL;DR: Septic Shock in the ED - When to Use Vasopressors?",
-    "body": "Just saw a patient with septic shock that made me rethink my decision to use vasopressors too early. We all know the definition of septic shock, but do we always stick to the guidelines?",
-    "category": "EM",
+    "id": 1,
+    "title": "Case Study: Unrecognized Takotsubo Cardiomyopathy in the ED - The 'Broken Heart Syndrome'",
+    "body": "Just saw a patient with what initially presented as an acute coronary syndrome. Turns out it was a classic case of Takotsubo Cardiomyopathy, also known as the 'Broken Heart Syndrome'. The patient's 80-year-old husband passed away three days ago, and she was visibly distraught. She had classic symptoms of ACS: chest pain, ST elevation on ECG, elevated troponins. However, her ECG eventually showed an apical ballooning pattern, characteristic of Takotsubo. She also had a history of hypertension and hyperlipidemia.",
+    "category": "Emergency Medicine",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I couldn't agree more! Vasopressors should be used judiciously, especially in septic shock. The evidence suggests that vasopressor use before adequate fluid resuscitation can lead to vasoconstriction and increased blood pressure, but without improving cardiac output.",
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "This is a great reminder why we should always consider the psychosocial context of our patients' symptoms. Remember when I was a med student, we were taught to always look for the 'hidden agenda'? This case is a perfect example of that. The patient's emotional distress was the underlying cause of her cardiac symptoms. What are some other examples of undiagnosed Takotsubo cases you've seen in the ED? And how did you manage them?",
         "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "But what about the role of vasopressors in septic shock? Does early use really decrease mortality?",
-        "color": "blue"
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Great point, @TurboTom! I've seen a few cases of Takotsubo myself, and it's always a challenge to balance the need for cardiac interventions with the psychosocial needs of the patient. In one case, I remember, the patient was a 40-year-old woman who had a sudden cardiac arrest after a divorce. Her ECG showed ST elevation in multiple leads, but the troponins were elevated as well. After consulting with cardiology and psychiatry, we decided to admit her for observation and monitoring. What do you think about the role of beta-blockers in treating Takotsubo? Do you have any resources you'd like to share?",
+        "color": "green"
       },
       {
         "id": 3,
-        "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Not to mention the impact of vasopressors on cardiac output. I've read studies showing that vasopressors can actually decrease cardiac output, especially if used at high doses. Have we considered the effects of dopamine or norepinephrine on cardiac output?",
+        "parent_id": 2,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "@Dr. Sharp, I think beta-blockers are useful in managing the symptoms of Takotsubo, but we should also be mindful of their potential side effects, especially in elderly patients. And what about the role of stress cardiomyopathy in patients with pre-existing cardiac conditions? Have you seen any cases like this in the ED?",
         "color": "teal"
       },
       {
         "id": 4,
         "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "I've seen it time and time again - we rush to use vasopressors without even addressing the root cause of hypotension. It's like we're treating symptoms rather than the underlying issue. Have we considered the importance of adequate fluid resuscitation before reaching for vasopressors?",
-        "color": "red"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "You're totally right! I've seen it happen in med school too. Like, we're always rushing to do things before truly understanding the situation.",
-        "color": "green"
-      },
-      {
-        "id": 6,
-        "parent_id": 4,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Actually, I've seen some studies showing that fluid resuscitation alone can improve outcomes in septic shock as much as vasopressors. It's all about the 'Sodium and the story'... have you seen the paper by Rivers et al.?",
-        "color": "pink"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Aww, yeah, I've heard of that study! I'll have to check it out. But, Dr. Varkov, what about cases of septic shock where the patient is truly vasopressor-resistant?",
-        "color": "orange"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "Don't even get me started on those patients. I swear, we waste so much time trying to get the BP up with vasopressors when we should be focusing on the real issue. It's like we're all just trying to get a pat on the back instead of really treating the patient.",
-        "color": "gray"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Amen, Dr. Rage! You're absolutely right. We need to focus on the patient's needs, not just the numbers on the monitor.",
-        "color": "purple"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "I guess that's what I'm trying to figure out - how to separate between patients who really need vasopressors and those who can be managed with just fluid resuscitation.",
-        "color": "blue"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Start by asking yourself - what's the likely cause of hypotension in this patient? Is it septic shock, or something else? If it's not septic shock, you may not need vasopressors.",
-        "color": "red"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "That makes sense, Tom. But what about in cases where septic shock is suspected, but you're not entirely sure? Do you have a go-to plan for those situations?",
-        "color": "orange"
-      },
-      {
-        "id": 13,
-        "parent_id": 12,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Actually, I have a protocol that I use in those situations. I start with aggressive fluid resuscitation, and then reassess the patient after 30 minutes. If they still require vasopressors, I reassess and adjust my plan accordingly.",
-        "color": "pink"
-      },
-      {
-        "id": 14,
-        "parent_id": 13,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "You're speaking my language now! But can you explain what you mean by 'aggressive fluid resuscitation'? How much fluid should I give, and how quickly?",
-        "color": "yellow"
-      },
-      {
-        "id": 15,
-        "parent_id": 14,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Barnaby, you want to give me a definition of aggressive fluid resuscitation. Aggressive fluid resuscitation is typically defined as the administration of 30-40 mL/kg of IV fluids over 30 minutes, followed by reassessment and further adjustments as necessary.",
-        "color": "pink"
-      },
-      {
-        "id": 16,
-        "parent_id": 15,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "That's helpful, thanks! But how do you decide on the right amount of fluid to give?",
-        "color": "blue"
-      },
-      {
-        "id": 17,
-        "parent_id": 16,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "It's all about the 'Sodium and the Story', Barnaby! But seriously, it's a combination of clinical judgment and knowledge of pharmacology. You want to give enough fluid to support the patient's blood pressure, but not so much that they become hypervolemic.",
-        "color": "red"
-      },
-      {
-        "id": 18,
-        "parent_id": 17,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I think this thread has really hit the nail on the head. We're not just talking about septic shock, but also about the importance of fluid resuscitation and vasopressors in the ED.",
-        "color": "purple"
-      }
-    ]
-  },
-  {
-    "id": "pediatric-gi-disorders",
-    "title": "The Pitfalls of Pediatric GI Abdominal Emergencies: A Case Study",
-    "body": "Just saw a patient who had a classic case of intussusception in a toddler. I've been doing this for 20 years and it never gets old. The key signs are non-bilious vomiting and bloody stools, and that's it. I swear, it's like they're trying to test us with these nonspecific symptoms. Anyone else ever have a close call with this one?",
-    "category": "emedicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
         "user": "Dr. Aris Thorne",
         "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "This is a great reminder to always consider intussusception in kids with those classic symptoms. One thing I've learned over the years is that the best predictor of intussusception is a history of intussusception in a first-degree relative.",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Thorne, do you have any recommendations for learning more about intussusception? I'm doing a presentation on it for my EM clerkship and I want to make sure I get it right. Do you have any favorite resources?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Actually, I've been reading about the role of sonography in diagnosing intussusception. Apparently, it's got a high sensitivity and specificity for this condition. Have any of you guys had any experience with bedside US in this context?",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Sarah, yes! I've done it a few times and it's a lifesaver. We've got a great guide online from the Canadian Pediatric Society that's really helpful. Also, don't forget to check for a 'target sign' or 'pseudokidney sign' on your US, which is indicative of volvulus.",
-        "color": "blue"
-      },
-      {
-        "id": 5,
-        "parent_id": 2,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Leo, don't be worried about getting it right! Just remember that intussusception is a classic cause of intussusception... ahah, I mean, a classic cause of abdominal pain in kids. But seriously, one thing to keep in mind is the high risk of bowel ischemia if you delay treatment.",
-        "color": "yellow"
-      },
-      {
-        "id": 6,
-        "parent_id": 1,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "All good points, but let's not forget the role of imaging in diagnosing intussusception. We used to rely on plain X-rays and barium enemas, but now we've got CT and MRI that can help us make the diagnosis. Anyone else have experience with these modalities?",
-        "color": "indigo"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Actually, I was just discussing this with a colleague the other day. It seems that CT scans are becoming more common for diagnosing intussusception, especially in complex cases. Do you guys have any experience with the use of CT scans in this context?",
-        "color": "gray"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "CT scans? Isn't that just a fancy way of saying radiation? I've heard that it's associated with increased risk of cancer in kids. Shouldn't we be trying to avoid this whenever possible?",
-        "color": "red"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "Chad, while it's true that radiation is a concern, the risk of cancer from CT scans is still relatively low. However, it's always good to be mindful of these risks and look for alternative imaging modalities when possible.",
+        "text": "This case is a great reminder of the importance of a thorough history and physical examination in diagnosing Takotsubo Cardiomyopathy. I've seen patients with chest pain and ST elevation on ECG who turned out to have other causes, such as pulmonary embolism or myocarditis. What are some other clues we should be looking for when evaluating patients with suspected Takotsubo?",
         "color": "brown"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "I've got a question about the whole radiation thing. If we're worried about the risk of cancer, why are we even using CT scans? Can't we just go back to good old-fashioned clinical judgment?",
-        "color": "pink"
       }
     ]
   },
   {
-    "id": 6,
-    "title": "Just saw a patient with a classic case of PID...or did I?",
-    "body": "I'm still reeling from the patient I saw last night.  A 22 year old female presents with lower abdominal pain, fever and a white cell count of 18k.  She admits to unprotected sex with a new partner a week ago and denies any use of birth control.  I immediately suspect PID and start her on a single dose of ceftriaxone.  But here's the thing...her cervix is a bit tender, but not significantly so.  And her urinalysis comes back clean.  I'm starting to think that maybe I over-diagnosed...or under-treated.  Has anyone else ever had a patient like this?  Am I just paranoid or are PID diagnoses becoming more nuanced?",
-    "category": "emergency-medicine",
+    "id": 3,
+    "title": "Spinal Shock and Neurogenic Shock: Distinguishing Between These Two Potentially Life-Threatening Conditions",
+    "body": "Just saw a patient with a C2-C3 spinal fracture who presented with acute hypotension and bradycardia. The ER doc suspected neurogenic shock, but I wasn't convinced. After a few minutes of discussion, we decided to run some labs and get a CT scan. As it turns out, our patient had a complete spinal cord injury with significant edema and hemorrhage. We were able to differentiate between spinal shock and neurogenic shock, and our patient received inotropic support and aggressive fluid resuscitation. But I couldn't help but think about how often I've seen ER docs and trauma surgeons mix up these two conditions. So, here's a primer on the difference between spinal shock and neurogenic shock, and how to diagnose them.",
+    "category": "Medicine",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
         "user": "Dr. Aris Thorne",
-        "role": "",
+        "role": "FRCPC",
         "city": "Toronto, ON",
-        "text": "Excellent case!  PID can be a real challenge to diagnose, especially in the early stages.  I'd be interested to know more about the patient's history and the physical exam you performed.  Did you notice any cervical motion tenderness (CMT)?  And what about the patient's symptoms - was she experiencing any pelvic pressure, heavy bleeding, or discomfort during urination?",
-        "color": "purple"
+        "text": "Great post, OP! Spinal shock and neurogenic shock are two distinct entities, and it's essential to differentiate between them. Spinal shock is a neurologic syndrome characterized by temporary loss of spinal reflex activity below the level of injury, often resulting from a complete spinal cord injury. Neurogenic shock, on the other hand, is a hemodynamic compromise caused by the sudden loss of sympathetic tone, leading to hypotension and bradycardia.",
+        "color": "blue"
       },
       {
         "id": 2,
@@ -610,258 +193,203 @@
         "user": "Leo Chen",
         "role": "MS1",
         "city": "Montreal, QC",
-        "text": "Dr. Thorne, does this mean that PID is not always diagnosed by a white cell count of 18k?  I thought that was the gold standard?",
+        "text": "Dr. Thorne, can you clarify what you mean by 'temporary loss of spinal reflex activity'? Is it always a complete spinal cord injury that causes spinal shock?",
         "color": "green"
       },
       {
         "id": 3,
         "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Actually, PID can be diagnosed with a combination of clinical criteria and laboratory tests.  The Centers for Disease Control and Prevention (CDC) guidelines recommend considering a diagnosis of PID if a patient has any two of the following symptoms: lower abdominal pain, cervical motion tenderness, adnexal tenderness, fever, or purulent vaginal discharge.  Additionally, laboratory tests such as a CBC and urinalysis can provide supporting evidence.",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "I had a similar case last week where I suspected PID but the patient's urinalysis came back negative.  But what really threw me off was that her cervix didn't seem to be tender on exam.  So I decided to send her for a pelvic ultrasound which revealed a tubo-ovarian abscess.  Has anyone else ever had a similar experience where they suspected PID but the ultrasound revealed something more ominous?",
-        "color": "green"
+        "text": "Great point, Leo! Spinal shock can be caused by either complete or incomplete spinal cord injuries, and the duration of the loss of spinal reflex activity can vary. In some cases, spinal shock can last for weeks or even months. OP, would you like to add more about the diagnosis of spinal shock?",
+        "color": "purple"
+      },
+      {
+        "id": 4,
+        "parent_id": null,
+        "user": "Dr. Victor Sterling",
+        "role": "FRCSC",
+        "city": "Calgary, AB",
+        "text": "Amateurs, please. You're making a big deal out of nothing. Neurogenic shock and spinal shock are just fancy terms for hypotension and bradycardia. Why are we complicating things?",
+        "color": "red"
       },
       {
         "id": 5,
         "parent_id": 4,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs can't even order the right tests.  You need to send a CT scan to confirm your diagnosis, not some useless ultrasound.  And what's with the single dose of ceftriaxone?  That's not even treatment for PID.  Get it together, people.",
-        "color": "red"
+        "user": "Dr. Aris Thorne",
+        "role": "FRCPC",
+        "city": "Toronto, ON",
+        "text": "Dr. Sterling, with all due respect, you're oversimplifying a complex issue. Neurogenic shock and spinal shock are distinct entities that require precise diagnosis and treatment. OP, please keep going \u2013 this is a great discussion!",
+        "color": "green"
       },
       {
         "id": 6,
-        "parent_id": 1,
-        "user": "Dr. 'Ziggy' Zalesky",
+        "parent_id": 3,
+        "user": "Dr. Barb Miller",
         "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Sorry, folks, but I think we're getting a little off track here.  PID is a real thing and we need to take it seriously.  But let's not forget about the importance of antibiotics in treatment.  What's the latest on antibiotic resistance and PID treatment?",
-        "color": "green"
+        "city": "Winnipeg, MB",
+        "text": "OP, you mentioned that neurogenic shock can be caused by the loss of sympathetic tone. Can you discuss the differences in presentation between neurogenic shock and spinal shock?",
+        "color": "purple"
       },
       {
         "id": 7,
         "parent_id": 6,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Actually, antibiotic resistance is a growing concern in PID treatment.  According to the CDC, the use of broad-spectrum antibiotics has led to increased resistance to certain antibiotics.  This is why it's so important to tailor treatment to the specific pathogens and their susceptibility profiles.",
-        "color": "green"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "I completely agree with Dr. Varkov.  As family physicians, we need to be aware of the latest guidelines and treatment options for PID.  And it's not just about the antibiotics - we need to be thinking about comprehensive care and patient education.  What are some effective strategies for patient education and follow-up in PID treatment?",
-        "color": "green"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "That's a great question, Dr. Oldman.  I've been struggling with patient education in PID treatment.  Do you have any resources or recommendations for effective patient education?",
-        "color": "green"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Actually, I've found that clear and concise information, coupled with open communication, is key to effective patient education.  I also recommend using a combination of verbal and written information, depending on the patient's learning style and literacy level.",
-        "color": "green"
-      }
-    ],
-    "image": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1831842124120541"
-  },
-  {
-    "id": 17,
-    "title": "Rant about nerve blocks: a cautionary tale",
-    "body": "Just had a near-miss with a hematoma block. The patient had a femur fracture and I decided to use a hematoma block to aid in reduction. The anesthetic solution was injected into the hematoma, but as I was about to inject the anesthetic, I felt a sudden resistance. It turned out that the needle was in the femoral artery! Luckily, I managed to withdraw the needle before administering the anesthetic. This got me thinking about the risks of nerve blocks and some of the recent studies that have highlighted the potential for complications.",
-    "category": "emergency-medicine",
-    "comments": [
-      {
-        "id": 18,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I completely agree with your rant. We've had several cases in the past where the hematoma block has been misinterpreted as a femoral artery puncture. It's crucial to use ultrasound guidance when performing nerve blocks, especially in areas with complex anatomy like the hip. Here's a study that highlights the risks of hematoma blocks: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6321231/. It's time to rethink our approach to nerve blocks and use more meticulous techniques.",
-        "color": "red"
-      },
-      {
-        "id": 19,
-        "parent_id": 18,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "I've heard that the 'three-in-one' block can be used to reduce the risk of complications. Can someone explain the technique to me? Is it applicable to all types of nerve blocks?",
-        "color": "blue"
-      },
-      {
-        "id": 20,
-        "parent_id": 19,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "The 'three-in-one' block involves injecting anesthetic solution into the femoral nerve, femoral artery, and femoral vein. It's a useful technique for reducing pain in patients with femur fractures, but it requires great care to avoid damaging the vessels. I found this study to be helpful in understanding the technique: https://www.journaloforthopaedicandtraumatologie.com/article/S0736-7267(19)30515-7/fulltext.",
-        "color": "purple"
-      },
-      {
-        "id": 21,
-        "parent_id": 20,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "I'd like to know more about the role of ultrasound guidance in nerve blocks. Does it make a significant difference in reducing complications?",
-        "color": "green"
-      },
-      {
-        "id": 22,
-        "parent_id": 21,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Ultrasound guidance is essential for nerve blocks, especially when performing procedures in complex anatomical areas. It allows for precise placement of the needle and can reduce the risk of complications. Here's a helpful article on the topic: https://www.accurx.com/2019/07/ultrasound-guided-femoral-nerve-block/. The article highlights the importance of ultrasound guidance in femoral nerve blocks.",
-        "color": "blue"
-      },
-      {
-        "id": 23,
-        "parent_id": 22,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "I completely agree with Elena. Ultrasound guidance has made a huge difference in our department's approach to nerve blocks. The biggest challenge is getting the equipment to work smoothly with our system. Does anyone have any tips on how to troubleshoot common issues with ultrasound machines?",
-        "color": "red"
-      },
-      {
-        "id": 24,
-        "parent_id": 23,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "I'm with Turbo Tom on this one. The ultrasound equipment can be finicky, especially when it comes to settings. I find that a thorough understanding of the settings and a bit of TLC (tender loving care) can go a long way in troubleshooting common issues. I'd recommend checking out the manufacturer's documentation and looking for online resources like this: https://www.thieme-connect.de/products/e/journals/abstract/10.1055/s-0036-1596566",
-        "color": "green"
-      }
-    ]
-  },
-  {
-    "id": 88,
-    "title": "Just saw a patient with a tricky neonatal case and I'm still shook... ",
-    "body": " Had a 32-weeker come in last night with respiratory distress, and the initial ABG showed a nice big mix of respiratory and metabolic acidosis. I'm talking 1.6 anion gap, 100 meq/L. Now I've seen my fair share of these little ones, but this one was tricky. She had a few other comorbidities, including a history of IVH and a recent course of steroids. The question was, what was the underlying cause of her respiratory distress? Was it a classic pulmonary edema in a premature newborn, or something more sinister like congenital diaphragmatic hernia or even a PPHN? The baby's O2 sat was 80% on room air, but I was worried it was going to be a tough night ahead. Did anyone else have a similar case recently? How did you approach it?",
-    "category": "emergencypedia",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Sarah Sharp EP",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Great post, OP! I had a similar case a few weeks ago where we suspected PPHN, but it turned out to be a classic pulmonary edema. The key was keeping an eye on those ABGs and adjusting the FiO2 accordingly. I was also thinking about your case, and I wonder if you considered the possibility of NEC as a contributing factor?",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Kevin Park PGY1",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Wait, what's the difference between pulmonary edema and PPHN? I thought they were basically the same thing?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Dr. Victor Sterling Chief of Surgery",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Pulmonary edema and PPHN are two distinct conditions. Pulmonary edema is a result of fluid buildup in the lungs, whereas PPHN is a condition where the blood vessels in the lungs do not function properly, leading to high blood pressure. You don't know the difference between these two? You should be in med school, not in my ER!",
-        "color": "purple"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Ziggy Zalesky EP",
+        "user": "Dr. Zachery Zalesky",
         "role": "EP",
         "city": "Vancouver, BC",
-        "text": "Easy, Vic! Don't be too hard on the newbie. I think what Kev meant to ask was how the two conditions are clinically distinguished. Like, what are the key differences in presentation, lab work, or radiology?",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Rick 'The Rage' EP",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "Ahh, great question, Ziggy! The key difference between pulmonary edema and PPHN is actually something that was highlighted in last week's JEM article on neonatal respiratory distress. Did anyone read it? The article suggested that in PPHN, the pulmonary capillary wedge pressure is usually elevated, whereas in pulmonary edema, it's low. Has anyone got a copy of the article?",
-        "color": "purple"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Elena Varkov FRCPC",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Actually, I have a copy of the article on my computer, and I'd be happy to share it with you. Let me send it to you in a DM.",
-        "color": "green"
-      },
-      {
-        "id": 7,
-        "parent_id": 1,
-        "user": "Leo Chen MS1",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Wait, what about NEC? You mentioned that earlier, Dr. Sharp. Can anyone explain to me what NEC stands for and what it means in this context?",
+        "text": "Great question, Barb! Neurogenic shock typically presents with more pronounced hypotension and bradycardia, often due to the loss of vasomotor tone. Spinal shock, on the other hand, may present with a more gradual decrease in blood pressure.",
         "color": "green"
       },
       {
         "id": 8,
-        "parent_id": 7,
-        "user": "Turbo Tom RN",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Lol, easy peasy, Leo! NEC stands for Necrotizing Enterocolitis. It's a serious condition where a portion of the intestine dies off, and it can lead to infection and sepsis. In a premature baby, it's a big no-no, and we need to keep a close eye on their gut and labs. Any other questions, kid?",
-        "color": "green"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Sarah Jenkins MS3",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Actually, I think I saw an article last week in the Cochrane Review about the risks and benefits of antenatal versus postnatal steroids in prevention of NEC. Can anyone provide a link or a summary of the article?",
-        "color": "purple"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "SPARKLE-EYES SUE LPN",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Bless yer heart, Sarah! I think I can help ya out. I was at the CNA conference last year, and I got an article about the same thing. Let me see if I can dig it up... Ahh, here it is!",
-        "color": "green"
+        "parent_id": null,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "TL;DR: Neurogenic shock is a hemodynamic compromise caused by the loss of sympathetic tone, whereas spinal shock is a neurologic syndrome characterized by temporary loss of spinal reflex activity. The key to diagnosis is distinguishing between these two conditions and providing appropriate treatment.",
+        "color": "blue"
       }
     ]
   },
   {
     "id": 1,
-    "title": "Rant about Lower GI Bleeding Management",
-    "body": "Just saw a patient with a 70-year-old male presenting with a significant lower GI bleed. I had to do an unscheduled angiogram because our endoscopist was tied up with a variceal bleed. After the procedure, I realized that I could have just waited it out since the majority of lower GI bleeds are self-limiting. Does anyone else have this problem with GI bleeds where our endoscopy team is always tied up and can't manage these cases in a timely fashion? What's your take on this, docs?",
-    "category": "Emergency Medicine Case Study",
+    "title": "TLDR; of a tricky case of hemoptysis",
+    "body": "Just saw a patient with massive hemoptysis and an inconclusive chest CT. The patient had no comorbidities, normal vitals, but 500cc of blood in 1 hour. The chest CT showed nothing. I ruled out common causes like cancer and embolism, but was stumped. Had to wait for a bronchoscopy to confirm that the bleeding was coming from a small bronchus.",
+    "category": "EmergencyMedicine",
+    "comments": [
+      {
+        "id": 10,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "This happens more often than we think, and it's essential to remember that a normal chest CT doesn't rule out all possibilities. The patient's history and physical exam are crucial. Did you consider TB or fungal infections, considering the large amount of hemoptysis?",
+        "color": "blue"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Great point about TB and fungal infections! I've read that they can cause massive hemoptysis and even normal chest X-rays. Do you have a favorite resource for learning more about these conditions?",
+        "color": "green"
+      },
+      {
+        "id": 12,
+        "parent_id": 10,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I'm confused about why you waited for a bronchoscopy to confirm the source. Didn't you do a bronchoscopy to visualize the bleeding site? Could you explain the decision to wait?",
+        "color": "red"
+      },
+      {
+        "id": 13,
+        "parent_id": 12,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Hi Leo, good question! In this case, the patient had no obvious mass or tumor on the chest CT, and the bleeding was too small to be seen on fluoroscopy. We decided to do a bronchoscopy to evaluate the bronchi and determine the exact site of bleeding. It was a tough decision, but it paid off in the end!",
+        "color": "teal"
+      },
+      {
+        "id": 14,
+        "parent_id": null,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs think a bronchoscopy is essential in every case of hemoptysis. Not true. This is a perfect example of over-testing and wasteful spending. We should be thinking more about the patient's history and physical exam, less about high-tech procedures.",
+        "color": "purple"
+      },
+      {
+        "id": 15,
+        "parent_id": 14,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "I disagree, Dr. Sterling. While a bronchoscopy is not always necessary, it's essential in cases like this where the diagnosis is unclear and the patient's life is at risk. Over-testing and wasteful spending are not always bad things. Sometimes, they save lives.",
+        "color": "orange"
+      },
+      {
+        "id": 16,
+        "parent_id": 15,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "This is so true. I've seen cases where a patient's condition was much worse than anticipated, and a high-tech procedure saved their life. But what's the best resource for learning about the indications and contraindications for bronchoscopy in hemoptysis?",
+        "color": "pink"
+      },
+      {
+        "id": 17,
+        "parent_id": 16,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Check out this article on the Medscape website: it covers the indications, contraindications, and complications of bronchoscopy in hemoptysis. It's a great resource for anyone learning about this topic. [link]",
+        "color": "yellow"
+      }
+    ],
+    "image": "https://emergencymedicinecases.com/wp-content/uploads/2023/10/Hemoptysis-Algorithm-EMC-e1698329658928.png"
+  },
+  {
+    "title": "Rant about the Lund and Browder chart - Is it still relevant?",
+    "body": "Just saw a patient with a 15% total body surface area (TBSA) burn and had to break out the old Lund and Browder diagram to estimate the percentage. It got me thinking... is this still useful in today's clinical practice with all the advanced imaging we have? Has anyone else had issues with this chart? Specifically, I had trouble accurately measuring the anterior head, as it seems to vary greatly between individuals. Any insights or hacks appreciated!",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "MD",
+        "city": "Toronto, ON",
+        "text": "Totally with you, @OP. I've always thought the Lund and Browder diagram was a bit of a crutch, even though it's a tried-and-true method. Have you considered using the Parkland formula to estimate fluid resuscitation needs? It's a bit more modern and takes into account patient factors like age and weight.",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Dr. Thorne, I've studied the Parkland formula in med school, but I've never seen it used in practice. Can you give me some insight on how you'd use it in real life?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "FRCPC",
+        "city": "Mississauga, ON",
+        "text": "I've used the Parkland formula in pediatrics, and it's been a lifesaver. For adults, it's a bit trickier, as we need to account for comorbidities like cardiac disease or kidney disease. Does anyone have experience with this or know of any good resources?",
+        "color": "red"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Victor Sterling",
+        "role": "MD",
+        "city": "Calgary, AB",
+        "text": "Amateurs still using the Parkland formula? It's been largely debunked, folks. The most recent consensus is to use the Crystalloid Resuscitation in Burn Injury (CRIB) score. Has anyone actually read the literature?",
+        "color": "blue"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Barb Miller",
+        "role": "MD",
+        "city": "Winnipeg, MB",
+        "text": "Dr. Sterling, I've read the CRIB study and I find it flawed. The sample size was too small, and the outcomes were based on subjective criteria. Can you point me in the direction of a more robust literature review?",
+        "color": "orange"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Ectopic Pregnancy Pearls: Methotrexate Therapy and Admissions",
+    "body": "Just saw a patient with a ectopic pregnancy and I was reminded of the importance of close follow-up and timely interventions. We ended up administering methotrexate therapy, which, as we all know, carries a treatment failure rate of up to 36%. Anyone else have experience with this? Do any of you have preferred dosing strategies or monitoring protocols?",
+    "category": "EM Residency",
     "comments": [
       {
         "id": 1,
@@ -869,7 +397,105 @@
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "I had this exact same issue with one of my patients last week. The endoscopist was tied up with an urgent procedure, and we had to do an angio because we couldn't wait. It's so frustrating when we have to do emergency procedures because of scheduling issues within our own department. We need a better system for triaging these cases and allocating our resources accordingly.",
+        "text": "TLDR: for those who are new to this topic, methotrexate therapy involves administering a single dose, usually 50mg or 100mg (based on the patient's BMI), followed by serial beta-hCG levels and ultrasound monitoring. It's crucial to select patients carefully, as those with unstable vital signs or heavy bleeding are poor candidates. @Leo Chen, we've had experience with dose escalation in the past, but it's generally not recommended unless absolutely necessary. Does anyone have thoughts on the most common reasons for treatment failure?",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Thanks for the clarification, @Dr. Maya Gupta! Can someone explain why patients with unstable vital signs or heavy bleeding are poor candidates for methotrexate therapy? I thought it was supposed to be less invasive than surgery.",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "According to the WHO guidelines, patients with a hemoglobin level < 60g/L, a systolic BP < 90 mmHg, or evidence of hemodynamic instability should be excluded from methotrexate therapy. The rationale is that these patients are more likely to require surgical intervention or aggressive supportive care, which may compromise the effectiveness of methotrexate therapy.",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 2,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "I've heard that methotrexate therapy is most effective when administered within the first 3-4 weeks of symptoms. Does anyone have experience with delayed initiation of therapy? What are the potential benefits and drawbacks?",
+        "color": "pink"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "While there's limited data on delayed initiation, it's generally recommended to proceed with caution. A Cochrane review published last year suggests a possible correlation between delayed treatment and increased risk of complications. However, a case series from 2018 reported a successful outcome with delayed treatment. Further research is needed to clarify the optimal timing and selection criteria.",
+        "color": "green"
+      },
+      {
+        "id": 6,
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Let's discuss admissions for ectopic pregnancies. I've noticed that some of us might be hesitant to admit patients with stable vital signs and minimal symptoms. Do any of you have experience with observation versus admission? Are there any specific red flags that trigger admission?",
+        "color": "purple"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "We've had concerns about patients with significant weight loss or vomiting, especially those with ketonuria. I recall one case where the patient ended up needing surgical intervention due to severe dehydration. Does anyone have a standard protocol for monitoring these vital signs?",
+        "color": "green"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Our team uses the following criteria: significant weight loss (> 10%), intractable vomiting, ketonuria, or electrolyte disturbances on labs. We also consider patient factors, such as pre-existing medical conditions or social determinants that might impact their ability to adhere to outpatient management.",
+        "color": "yellow"
+      },
+      {
+        "id": 9,
+        "parent_id": 6,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "Red flags include unstable vital signs, significant blood loss, or severe pain that's refractory to analgesics. If we're unsure, it's always better to err on the side of caution and admit the patient. Trust me, it's easier to discharge someone from the hospital than to explain to management why we didn't admit them in the first place.",
+        "color": "purple"
+      },
+      {
+        "id": 10,
+        "parent_id": null,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Great discussion, everyone! To summarize, methotrexate therapy is an effective treatment option for ectopic pregnancies, but close monitoring and careful patient selection are crucial. Let's make sure to share our experiences and best practices to improve patient care.",
+        "color": "pink"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Today I Learned: Bead Counting in UTIs...or when Cipro can't touch it!",
+    "body": "Just saw a patient with recurrent UTIs who ended up having a beaded catheter (yeah, that's a thing). Long story short, she had a huge stone (1.5 cm!) causing chronic retention. The cipro we gave her for the UTI wasn't working because of the obstruction. Had to refer her to urology for stoning...or should I say, 'stone-ing'?",
+    "category": "Emergency",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "MD",
+        "city": "Toronto, ON",
+        "text": "TLDR: Don't forget about beaded catheters and stones in the differential for recurrent UTIs, especially in women with symptoms out of proportion! The fact that cipro wasn't working should've raised a red flag. Also, just a side note: beaded catheters can be a real game-changer in certain scenarios. Have you ever used them before, Dr. Thorne?",
         "color": "purple"
       },
       {
@@ -878,91 +504,198 @@
         "user": "Turbo Tom",
         "role": "RN",
         "city": "London, ON",
-        "text": "I've seen that too, Maya. It's like, we're running around like headless chickens trying to manage our patients, but our own team is bottlenecked. One solution could be to have a dedicated endoscopist on call for emergency cases like lower GI bleeds. It's a small change that could make a huge difference.",
+        "text": "Oh man, beaded catheters are a thing? How do I get my hands on some of those? Also, have you guys ever seen a patient come in with a beaded catheter stuck in...ahem...an awkward place? Anyway, getting back on track - the point is, don't assume a patient just needs a strong antibiotic. Always think about potential obstruction!",
         "color": "green"
       },
       {
         "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Maya, I think you're spot on. We need a better system for prioritizing these cases and allocating our resources. One thing we can do is to have a designated 'GI Rapid Response Team' that can handle these emergency cases. We could also consider having a tele-endoscopy service to remote-endoscope these patients in emergency situations.",
-        "color": "purple"
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "Resident MD",
+        "city": "Edmonton, AB",
+        "text": "Great point, Dr. Thorne! Beaded catheters can be super helpful, especially in the ED when you don't have the luxury of a CT scanner. Has anyone else ever used them? What are some tips for using them effectively? Also, do we have any guidelines on when to use them?",
+        "color": "blue"
       },
       {
         "id": 4,
-        "parent_id": 3,
+        "parent_id": 1,
         "user": "Dr. Barb Miller",
-        "role": "EP",
+        "role": "Community Physician MD",
         "city": "Winnipeg, MB",
-        "text": "I love the idea of a GI Rapid Response Team, Aris. But how viable is this, realistically? We're talking about setting up an entire team just for this purpose. Wouldn't it be more practical to just improve our current system and allocate more resources to our existing teams?",
-        "color": "green"
+        "text": "Beaded catheters are a great tool to have in your toolbox, but they shouldn't be your go-to for every patient with a UTI. What about all the patients who don't have a stone or obstruction? Do we just ignore them and send them on their merry way?",
+        "color": "red"
       },
       {
         "id": 5,
         "parent_id": 3,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "In my day, we used to have a system of 'GI emergencies' that were expedited immediately. We didn't have to wait for a tele-endoscopy service. But I'm not sure if that's feasible in today's fast-paced world. Does anyone know what the current Canadian guidelines are for managing lower GI bleeds?",
+        "user": "Dr. Aris Thorne",
+        "role": "MD",
+        "city": "Toronto, ON",
+        "text": "Excellent point, Dr. Miller! Beaded catheters should be used judiciously and only in specific situations. What about you, Dr. Gupta? Have you used beaded catheters in the ED? How did it go?",
         "color": "purple"
       },
       {
         "id": 6,
-        "parent_id": 5,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Archibald Thorne, I think I saw a guideline from the ESCP (European Society of Gastrointestinal Endoscopy) that recommends prioritizing endoscopy for high-risk patients with lower GI bleeds. Does that sound right?",
+        "parent_id": 4,
+        "user": "Martha 'The Hammer'",
+        "role": "ER Nurse",
+        "city": "Halifax, NS",
+        "text": "Don't even get me started on patients who think they can just 'wait it out' with a UTI. Newsflash: they're the reason we have all these meds and procedures in the first place! Seriously though, beaded catheters might be useful in certain cases, but we can't ignore the underlying cause.",
+        "color": "green"
+      }
+    ],
+    "image": "https://www.ebmedicine.net/media_library/images/2024-PEMP-Publication-Article/01-January/Clinical-Pathway-for-Management-of-Children-With-Urinary-Tract-Infection-in-the-Emergency-Department-1.png"
+  },
+  {
+    "id": 1,
+    "title": "Just saw a patient with Africanized bee stings and I'm still freaking out... Rant about emergency department preparedness for rare bites and stings",
+    "body": "Had a patient come in last night with 57 Africanized bee stings. The family brought him in thinking he just got stung a few times, but nope... the bees attacked him in their backyard. The patient was in his mid-30s, healthy, and was in distress but stable. I've only heard of a few cases of Africanized bee stings in my entire career, and I've never seen one in person. We got him sedated, removed the stingers, and gave him some epinephrine and steroids. He'll be okay, but it got me thinking... how prepared are we in the emergency department for rare bites and stings? We all know to treat minor snake bites with pain meds and observation, but what about the weird stuff? I've seen some weird stuff come through our ER, but Africanized bee stings are definitely on the list of things I don't get to see often.",
+    "category": "r/emergencymedicine",
+    "comments": [
+      {
+        "id": 10,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta (PGY2)",
+        "role": "Doctor",
+        "city": "Toronto, ON",
+        "text": "Africanized bees are rare, but they're super aggressive. I've only seen one case in my entire residency, but it was a doozy. We need to be prepared for anything in the ER. I've got a protocol in place for venomous stings, and it includes consulting with our hospital's toxicology team. I'd love to see more discussion on how to prepare for these types of cases. What are some other rare bites and stings that we should be prepared for? And how can we improve our ED protocols to make sure we're ready for anything? TLDR: we need to be prepared for anything and everything in the ER. Has anyone else encountered any rare bites or stings? I'd love to hear your stories!",
+        "color": "blue"
+      },
+      {
+        "id": 20,
+        "parent_id": 10,
+        "user": "Turbo Tom (RN)",
+        "role": "Nurse",
+        "city": "London, ON",
+        "text": "I've seen some weird stuff come through our ER, but one case that stands out was a guy who got stung by a wasp that had been carrying a bunch of rat poison. He ended up with a severe reaction, and it took us hours to get him stabilized. It was a real learning experience for all of us. In terms of preparing for rare bites and stings, I think we need to start by educating our patients and families on what to look out for. If someone gets stung or bitten, we need to make sure they know what to do before we even see them in the ER. Does anyone have any suggestions for how we can do that? I was thinking maybe we could create some educational materials or even just have a blog on our hospital's website with tips for common bites and stings. Has anyone else seen anything like this? Thanks!",
         "color": "green"
       },
       {
-        "id": 7,
-        "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "I think you're all forgetting one thing: a good old-fashioned nasogastric tube can solve this problem in a jiffy. Endoscopy is overrated, in my humble opinion. I think we're over-diagnosing these cases and over-interventioning. Let's not forget the power of good old-fashioned clinical judgment!",
+        "id": 30,
+        "parent_id": 20,
+        "user": "Dr. Aris Thorne (Staff Physician)",
+        "role": "Doctor",
+        "city": "Toronto, ON",
+        "text": "I think there's a lot of value in educating our patients and families on what to look out for when it comes to bites and stings. And it's not just about creating educational materials - it's also about building a good relationship with our patients. If we can make them feel comfortable and empowered, they'll be more likely to come to us with concerns and questions. In terms of specific protocols for rare bites and stings, I think we need to make sure that our emergency department has a clear plan in place. That means having protocols in place for everything from snake bites to spider bites. And it's not just about having protocols in place - it's also about making sure that our providers are aware of those protocols and can follow them correctly. Has anyone else seen anything like this? And do we have any suggestions for how we can make sure our providers are aware of these protocols?",
+        "color": "red"
+      },
+      {
+        "id": 40,
+        "parent_id": 30,
+        "user": "Leo Chen (MS1)",
+        "role": "Student",
+        "city": "Montreal, QC",
+        "text": "I'm new to this field, but I'm learning as I go. One thing that stands out to me is the importance of having a clear plan in place for rare bites and stings. What happens if someone comes in with a rare bite or sting that we've never seen before? How do we decide what course of action to take? I'd love to hear more about the protocols that Dr. Thorne was talking about. Are there any specific resources that I can read to learn more about this? Thanks!",
+        "color": "blue"
+      },
+      {
+        "id": 50,
+        "parent_id": 40,
+        "user": "Dr. Barbara Miller (EP)",
+        "role": "Doctor",
+        "city": "Winnipeg, MB",
+        "text": "The thing is, Leo, when it comes to rare bites and stings, we often have to wing it. We may not have a specific protocol in place, but we have to make a best guess based on what we know. And that's where experience comes in. Experienced providers can make snap decisions based on a combination of their knowledge and their instincts. But it's not just about the providers - it's also about the patients. If we can educate our patients and families on what to look out for, they'll be more likely to come to us with concerns and questions. And that will make it easier for us to manage these types of cases. Has anyone else seen anything like this? I think it's something we should all be aware of.",
+        "color": "green"
+      },
+      {
+        "id": 60,
+        "parent_id": 50,
+        "user": "Chad Broson (Pre-med)",
+        "role": "Student",
+        "city": "Brampton, ON",
+        "text": "Wow, I had no idea that we had to make best guesses when it comes to rare bites and stings. That's pretty scary! I'm not sure I'd want to be a doctor if I had to deal with things like that all the time. Can anyone recommend any good schools or programs for pre-med students? I want to learn more about this stuff before I even get into med school. Thanks!",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Just saw a patient with an esophageal coin, and I'm thinking about the nuances of esophageal emergencies... ",
+    "body": "I just finished evaluating a patient who had a coin stuck in their esophagus. The patient was presenting with chest pain, difficulty swallowing, and a history of recent vomiting. I immediately suspected an esophageal foreign body and ordered a chest radiograph, which indeed showed the coin. ",
+    "category": "emedicine",
+    "comments": [
+      {
+        "id": 2,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great anecdote, OP! One thing to keep in mind is that while coins are the most common esophageal foreign body in children, they're often a result of intentional ingestion rather than accidental. The same isn't true for adults, where most esophageal foreign bodies are due to accidental ingestion. ",
+        "color": "blue"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "That's really interesting, Dr. Thorne! What kind of object would you expect to see in an adult with a non-accidental ingestion? ",
+        "color": "red"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Well, Dr. Park, objects that are intentionally ingested by adults often have specific characteristics. They tend to be smaller, irregularly shaped, and made of materials that are difficult to detect on X-rays. ",
+        "color": "orange"
+      },
+      {
+        "id": 5,
+        "parent_id": 2,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "How do you handle the situation if you suspect a patient has intentionally ingested an object? Do you call social services or involve law enforcement? ",
+        "color": "yellow"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Dr. Chen, that's a great question! If I suspect intentional ingestion, I immediately involve law enforcement and social services to ensure the patient's and any other individuals' safety. As for handling the situation, it's essential to keep the patient calm and engaged while you assess their vital signs and perform a thorough examination. ",
         "color": "purple"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "That makes sense. However, I've read some cases where the patients' ingestions were due to pica, not intentional ingestion. Isn't there a difference in management between pica and intentional ingestion? ",
+        "color": "green"
       },
       {
         "id": 8,
         "parent_id": 7,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "Excuse me, Dr. Sterling? Are you serious? You think a nasogastric tube is going to solve the problem of a patient with a significant lower GI bleed? I hope you're not practicing medicine in the real world.",
-        "color": "green"
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Sarah, you're absolutely right! Pica can be a complex issue, and management should focus on treating any underlying nutrient deficiencies and addressing potential complications like lead exposure. Intentional ingestion, on the other hand, requires a more comprehensive approach, including psychosocial evaluation and support. ",
+        "color": "yellow"
       },
       {
         "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Lol, Martha, I think you hit the nail on the head. Dr. Sterling, with all due respect, I think you might be a bit out of touch with modern medical practice. We need to use evidence-based guidelines and best practices to manage these cases.",
-        "color": "purple"
+        "parent_id": 2,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs. Esophageal foreign bodies are a common occurrence, and you can't just wing it. I recommend consulting the literature and staying up-to-date on the latest diagnostic and therapeutic strategies. ",
+        "color": "red"
       },
       {
         "id": 10,
         "parent_id": 9,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "What's a nasogastric tube, guys? I thought we only used those for aspiration pneumonia.",
-        "color": "green"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Ha! Good one, Chad. Don't worry, buddy, we won't leave you behind in the dark ages of medical knowledge.",
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Thanks, Dr. Sterling. But let's not forget the nuances of each case. Each patient presents with a unique set of circumstances that require a thoughtful, individualized approach. And, of course, staying current on the literature is only half the battle \u2013 experience matters! ",
         "color": "purple"
       }
     ],
-    "image": "https://i0.wp.com/emcrit.org/wp-content/uploads/2018/09/hematochezprotoc.jpg?resize=400%2C495&ssl=1"
+    "image": "https://aneskey.com/wp-content/uploads/2016/06/m_tin_ch77_f001.png"
   }
 ]
