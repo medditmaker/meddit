@@ -1,108 +1,117 @@
 [
   {
-    "id": 1,
-    "title": "Just saw a patient with suspected necrotizing soft tissue infection... had to get the OR ready ",
-    "body": "Had a patient come in last night with a weird- looking abscess on his leg. He's a 40yo construction worker, been feeling pretty crummy for a couple of days, and the pain is out of proportion to the physical findings. We all know where this is going... necrotizing soft tissue infection (NSTI). I had to get the OR ready and call in the surgical team. It's always a bad vibe when you see one of these patients. They can go either way, but it usually doesn't end well. I was wondering if anyone had any pearls on how to manage these tough cases? Is it always a case of 'cut it out and give 'em some IVs'? Or are there some other tricks we can use to tip the scales in our favor?",
-    "category": "emergency medicine",
+    "id": 0,
+    "title": "Just saw a patient with potential APAP toxicity and I'm still scratching my head",
+    "body": "I've been an EM doc for over 10 years, but I still find myself second-guessing certain diagnoses. Last night, we got a patient in with a serum acetaminophen level of 10mcg/mL, but she had taken it a full 24 hours prior. She had some minor gastrointestinal symptoms and was otherwise asymptomatic. We started her on NAC, but the question on everyone's mind is... was it a true overdose or just a false positive?",
+    "category": "EmergencyMedicine",
     "comments": [
       {
-        "id": 2,
+        "id": 1,
         "parent_id": null,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Ah man, that's tough! I had a case like that too... ended up taking out the whole leg. Always a gamble with these patients tho. The thing is, you gotta trust your gut instinct and not get too bogged down in the details. We don't always have the luxury of time. What was the surgical plan on your patient, did you have a good outcome? ",
+        "user": "Dr. Aris Thorne",
+        "role": "MD",
+        "city": "Toronto, ON",
+        "text": "I've seen this before where the lab error causes a false positive result. We need to get the lab to repeat the test and see if the levels are still elevated.",
         "color": "purple"
       },
       {
-        "id": 3,
-        "parent_id": 2,
+        "id": 2,
+        "parent_id": 1,
         "user": "Leo Chen",
         "role": "MS1",
         "city": "Montreal, QC",
-        "text": "What does your gut instinct tell you to look for when you suspect NSTI? Do you have any red flags that you always keep in mind? Like, is it just pain out of proportion to physical findings, or are there other things you look for?",
+        "text": "What's the protocol for false positives, Dr. Thorne? Should we still be treating her for potential toxicity just in case?",
         "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Victor Sterling",
+        "role": "MD",
+        "city": "Calgary, AB",
+        "text": "I think the bigger issue here is the fact that we're treating a potential overdose with NAC without any clear indication of toxicity. This is just another example of how we're over-medicating our patients and wasting resources.",
+        "color": "blue"
       },
       {
         "id": 4,
-        "parent_id": 2,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Actually, I was reading this paper the other day by Dr. Stevens that talked about the importance of fascial edema in these cases. Apparently, it's one of the early signs of NSTI. Have any of you guys had experience with this? And do you have any tips on how to detect it?",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
+        "parent_id": 3,
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "Yeah, I've seen it before... it's definitely one of the key features. And it's not just about feeling the fascia, you have to actually see the skin changes and the swelling. That's what makes it so tough - it's not always just about feeling, it's about seeing and acting.",
+        "text": "I understand where you're coming from, Dr. Sterling, but what about the patient's symptoms? Shouldn't we at least consider the possibility that she had an actual overdose?",
+        "color": "red"
+      },
+      {
+        "id": 5,
+        "parent_id": null,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "I've got some good reading for you guys on APAP toxicity: https://www.nejm.org/doi/abs/10.1056/NEJM200308073430203?rfr_id=44441",
         "color": "purple"
       },
       {
         "id": 6,
-        "parent_id": 5,
+        "parent_id": 1,
         "user": "Dr. Elena Varkov",
         "role": "FRCPC",
         "city": "Quebec City, QC",
-        "text": "But that's exactly what makes it so tricky - the skin changes can be subtle. I've seen patients come in with what looks like a minor bug bite or a minor trauma, but it's actually NSTI. You have to keep an open mind and consider all the possibilities.",
-        "color": "blue"
+        "text": "I agree with Dr. Thorne, we need to get the lab to repeat the test and clarify the situation. Meanwhile, I'd like to suggest we also look into the patient's medical history and check for any potential co-morbidities that could be contributing to the elevated levels.",
+        "color": "gold"
       },
       {
         "id": 7,
-        "parent_id": null,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Okay, so what's the general consensus on whether or not to admit these patients? I've heard some of the consultants say that it's always a good idea to err on the side of caution and admit them. Others say that if they're otherwise stable, they can be managed as outpatients. Can anyone clarify the thought process behind this?",
-        "color": "purple"
+        "parent_id": 5,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Thanks for the reference, Dr. Zalesky! I've been looking for a good summary article on APAP toxicity. TL;DR: what's the consensus on the role of NAC in treating APAP toxicity?",
+        "color": "teal"
       },
       {
         "id": 8,
         "parent_id": 7,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Does it have something to do with the risk of complications or the likelihood of needing surgical intervention? Like, are there certain lab values or clinical criteria that you use to determine whether or not to admit?",
-        "color": "green"
+        "user": "Dr. Aris Thorne",
+        "role": "MD",
+        "city": "Toronto, ON",
+        "text": "The consensus is that NAC is still the gold standard for treating APAP toxicity, even in cases of uncertain etiology. The main thing is to get the patient's acetaminophen level rechecked and monitor for any signs of liver damage.",
+        "color": "maroon"
       },
       {
         "id": 9,
-        "parent_id": 8,
+        "parent_id": 6,
         "user": "Dr. Barb Miller",
         "role": "EP",
         "city": "Winnipeg, MB",
-        "text": "Exactly. The decision to admit is always a nuanced one. You have to consider all the different factors, including their past medical history, their mental status, and the extent of the infection, just to name a few. There's no one-size-fits-all approach here.",
-        "color": "blue"
+        "text": "I've seen some patients develop fulminant liver failure from APAP toxicity, so we can't just sit around waiting for the lab results. We need to act quickly and decisively to prevent any further damage.",
+        "color": "silver"
       },
       {
         "id": 10,
-        "parent_id": 9,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Is it ever a good idea to prescribe antibiotics for patients with suspected NSTI? Or are we generally better off getting them to the OR ASAP?",
-        "color": "green"
+        "parent_id": null,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Just a side note, guys, we need to get the patient's consent before starting any new treatments. Have we talked to her about NAC and its potential risks?",
+        "color": "fuchsia"
       },
       {
         "id": 11,
         "parent_id": 10,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "Abso-frickin'-lutely! We've got papers coming out of our ears on this one. The key is to get the antibiotics started ASAP, ideally within 3 hours of presentation. Don't worry about the specifics - just get 'em on the right meds ASAP.",
-        "color": "purple"
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Good point, Tom! I'll make sure to get the patient's consent before proceeding. Thanks for the reminder!",
+        "color": "orange"
       },
       {
         "id": 12,
-        "parent_id": 11,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "But what kind of antibiotics? Should we be going for the big guns like vancomycin and metronidazole, or is that just overkill?",
-        "color": "green"
+        "parent_id": 3,
+        "user": "Dr. Archibald Thorne",
+        "role": "MD",
+        "city": "Saskatoon, SK",
+        "text": "Back in my day, we didn't have all these fancy treatments and tests. We just used good old-fashioned medical judgment and observation to diagnose and treat our patients.",
+        "color": "lavender"
       },
       {
         "id": 13,
@@ -110,665 +119,910 @@
         "user": "Dr. Sarah Sharp",
         "role": "EP",
         "city": "Laval, QC",
-        "text": "Exactly what everyone wants to know... what are the evidence-based recommendations? According to the guidelines from the IDSA, we should be starting with broad-spectrum therapy like vancomycin and piperacillin-tazobactam. After that, we can reassess and adjust as needed.",
+        "text": "Respectfully, Dr. Thorne, while I appreciate your nostalgic perspective, times have changed and we do have evidence-based treatments and tests that can make a real difference in patient outcomes.",
+        "color": "plum"
+      },
+      {
+        "id": 14,
+        "parent_id": null,
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "I'd like to weigh in on this discussion. From a surgeon's perspective, I think we often overlook the importance of proper diagnosis and treatment in preventing downstream complications.",
+        "color": "crimson"
+      },
+      {
+        "id": 15,
+        "parent_id": 14,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "Agreed, Dr. Stone. A thorough and accurate diagnosis can make all the difference in treatment and outcomes. I'd like to add that we should also be considering the patient's social and economic background when making treatment decisions.",
+        "color": "amber"
+      },
+      {
+        "id": 16,
+        "parent_id": 15,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Wow, you guys are really knowledgeable! I've got a ton of questions. Can someone explain to me what APAP toxicity is in simple terms?",
+        "color": "pink"
+      },
+      {
+        "id": 17,
+        "parent_id": 4,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "APAP toxicity refers to the damage caused by taking excessive amounts of acetaminophen, a common medication found in many over-the-counter pain relievers and cold medications.",
+        "color": "silver"
+      },
+      {
+        "id": 18,
+        "parent_id": 16,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Think of it like this, Chad: APAP toxicity is essentially liver damage caused by taking too much of the same medication that's supposed to help you feel better.",
+        "color": "red"
+      },
+      {
+        "id": 19,
+        "parent_id": 18,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "To summarize, APAP toxicity occurs when a person takes too much acetaminophen, causing damage to their liver and potentially other organs. The good news is that with prompt and proper treatment, many people can recover from APAP toxicity.",
+        "color": "plum"
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": 1,
+    "title": "Frustrating case of acute angle closure glaucoma",
+    "body": "Just saw a patient with acute angle closure glaucoma who was diagnosed based on symptoms alone - no IOP measurements, no imaging, no mention of pain. I'm still shaking my head about it. Had to admit her and treat her with IV mannitol, acetazolamide, and steroids. Anyone else deal with this kind of stuff regularly? TLDR; acute angle closure glaucoma is a no-brainer diagnosis, folks!",
+    "category": "emergency_medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "Resident",
+        "city": "Mississauga, ON",
+        "text": "Oh man, that's a tough one. I've only seen a few cases of AACG in my short time as a resident, and it was only after I had done some extra reading. Did you know that AACG can be a u-shaped or V-shaped pupillary light reflex? And what about the importance of checking for posterior synechiae? It's so easy to miss that initial presentation. Also, I think I've seen some cases where patients present with 'top-of-the-head' nausea/vomiting? Was that one of your patient's presentations?",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Wait, can you explain what posterior synechiae are? I thought it was just... a thing when people have glaucoma?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Kevin Park",
+        "role": "Intern",
+        "city": "Edmonton, AB",
+        "text": "So I've heard that AACG can be caused by pupillary dilation due to certain medications... I forget which ones... Can someone remind me?",
         "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Medications like atropine and cyclopentolate can cause pupillary dilation, but AACG is more related to the structural changes in the trabecular meshwork than just pupillary dilation. Don't get me wrong, medications can definitely exacerbate the problem, but... TL;DR; it's not just eye drops.",
+        "color": "red"
+      },
+      {
+        "id": 5,
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "I once had a patient come in with AACG and I didn't recognize the symptoms at first because I was too busy thinking he was just a 'crazy old guy'. What a waste of time... Does anyone have any tips on how to avoid missing AACG in the future?",
+        "color": "yellow"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "Don't be like Turbo Tom, kids. Always think AACG when you see those classic symptoms. I've made mistakes too, but at least I admit it now. Also, get the patient to the ER ASAP. We don't have all day.",
+        "color": "magenta"
+      },
+      {
+        "id": 7,
+        "parent_id": 1,
+        "user": "Brock Stone",
+        "role": "Surgeon",
+        "city": "Hamilton, ON",
+        "text": "I've had patients with AACG who are... let's say, 'less than ideal' for surgery. How do you guys decide whether to operate on someone with AACG or not?",
+        "color": "orange"
+      },
+      {
+        "id": 8,
+        "parent_id": 1,
+        "user": "Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "If a patient with AACG is a high-risk surgical candidate, what's the best course of action? I've seen some literature suggest using topical medications to reduce IOP before even considering surgery. Thoughts?",
+        "color": "brown"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "You're absolutely right, Sarah! Topical meds can be a great option for reducing IOP in high-risk patients. But what do you guys think about using subconjunctival injections of triamcinolone? I've heard they can be super effective for this use.",
+        "color": "pink"
+      },
+      {
+        "id": 10,
+        "parent_id": 1,
+        "user": "Dr. Elena Varkov",
+        "role": "Internist",
+        "city": "Quebec City, QC",
+        "text": "...Can someone explain the pathophysiology of AACG? It's not like I can just go back to med school or anything... I swear, I had this down, but somehow it's all gone fuzzy... Thanks in advance, geniuses!",
+        "color": "cyan"
+      }
+    ]
+  },
+  {
+    "id": 1234,
+    "title": "Just saw a patient with Alcoholic Ketoacidosis (AKA) and I'm still reeling. Anyone else have a memorable AKS case?",
+    "body": "I just had a patient come in with AKA after a night on the town. Classic presentation: nausea, vomiting, abdominal pain after heavy drinking. But what really threw me off was the anion gap metabolic acidosis (AGMA). I mean, I've seen plenty of ketones in my time, but this patient's blood work was off the charts! And then it hit me - AKA. Had to give some IV NS, 0.1-0.14 U/kg/h of regular insulin and some potassium to boot. But it got me thinking - what are some tell-tale signs of AKS? And what's the key to making the diagnosis?",
+    "category": "CME",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "TL;DR: AKS is caused by heavy alcohol intake, depleting glycogen stores, leading to lipolysis and ketoacid formation. Anion gap metabolic acidosis is the hallmark. Treat with IV NS, regular insulin, and potassium. Got a good summary of the pathophysiology in [this EM docs article](https://www.emdocs.net/alcohol-ketoacidosis/)",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Hi Dr. Gupta, thanks for the summary! I was wondering, what are some specific lab values we should be looking for to diagnose AKS? And what about blood/urine cultures - do we need to get those for every patient?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Good questions, Leo! To diagnose AKS, look for an anion gap (AG) > 10-12 mEq/L, with serum bicarbonate (HCO3) < 18-20 mEq/L. Also, get a urine ketone level to confirm. And yeah, for AKS, you'll want to consider getting blood/urine cultures to check for infections, but it's not always necessary. [This article on Medscape](https://emedicine.medscape.com/article/235155-overview#showall) has some great info on the diagnostic workup.",
+        "color": "purple"
+      },
+      {
+        "id": 4,
+        "parent_id": null,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "AKS - the patient is literally 'burning' themselves to death with that booze. And the lab values are off the charts too. Just like Dr. Gupta said, anion gap is the key. What's funny is that sometimes these patients don't even know they're sick. I mean, they're just 'talking the talk' and you're like, 'hold up, buddy, you got some serious acidosis going on there!'",
+        "color": "purple"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Ha! Yeah, Turbo Tom, it's like a different language sometimes. 'I'm fine, doc' *hiccup*. 'Nah, buddy, you're not fine. You're got a pH 7.1 and your AG is off the roof.' And then suddenly they get a reality check. But for real though, AKA patients need a solid management plan in place. IV fluids, insulin, potassium, and possibly some bicarbonate if the HCO3 is super low. Don't forget to check for Wernicke's and Korsakoff's too.",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "TLDR; Severe pelvic fractures are a nightmare. Just saw a patient with...",
+    "body": "I had a miss last night with a 45yo male who presented with severe pelvic pain after a high-speed MVA. His vitals were unstable and he had significant retroperitoneal bleeding. The CT scan showed a fracture-dislocation of the pelvic ring with multiple fractures of the pubic rami. We managed to stabilize him with angiography and embolization, but I was wondering if anyone has strategies for managing these cases?",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Severe pelvic fractures are a true challenge. In addition to the strategies mentioned, I always make sure to get a good imaging of the acetabulum. We've had cases where the fracture-dislocation of the pelvic ring was not the only issue. I'd love to hear from others: what are your experiences with acetabular fractures in the context of severe pelvic fractures?",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I've been reading up on the topic and I was wondering if you could clarify the role of internal fixation in managing severe pelvic fractures? My professor mentioned it's only necessary for certain types of fractures, but I'm not sure what those are.",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "According to the literature, internal fixation is indeed only necessary for certain types of pelvic fractures. Type III fractures, for example, have a higher risk of complications and require open reduction and internal fixation. Has anyone else seen this in practice?",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "I've seen cases where the fracture-dislocation of the pelvic ring was not the only issue. Can we talk about the importance of thorough examination and imaging in these patients? I've had cases where we initially thought it was just a simple fracture-dislocation, but the CT scan showed multiple fractures of the pubic rami.",
+        "color": "red"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I completely agree with Dr. Park. In our hospital, we have a protocol for managing suspected pelvic fractures. It includes a thorough examination, imaging with CT scan, and a consultation with orthopedic surgery if necessary. Has anyone else developed a similar protocol?",
+        "color": "purple"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "I've seen some great resources online for developing a protocol for managing pelvic fractures. Has anyone else come across the 'ABCDE Assessment' protocol?",
+        "color": "green"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "I've used the ABCDE Assessment protocol in the past and it's been very helpful. However, I've also found that a thorough history and physical examination are crucial in managing these patients",
+        "color": "blue"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "I've seen some great resources online for managing pelvic fractures, including a blog post by Dr. Thorne that I'd like to share with the group. Has anyone else read it?",
+        "color": "red"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "I've read Dr. Thorne's blog post and it's very informative. However, I think it's also important to consider the long-term consequences of pelvic fractures in our patients",
+        "color": "purple"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "I've seen some great resources online for managing pelvic fractures, including a study on the long-term consequences of pelvic fractures. Has anyone else come across it?",
+        "color": "green"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "I've come across the study and it's very enlightening. However, I think it's also important to consider the role of orthopedic surgery in managing these patients. Has anyone else seen cases where orthopedic surgery made a difference?",
+        "color": "blue"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "I've seen cases where orthopedic surgery made a huge difference in managing pelvic fractures. However, I think it's also important to consider the timing of surgery. Has anyone else seen cases where delaying surgery made a difference?",
+        "color": "red"
+      },
+      {
+        "id": 13,
+        "parent_id": 12,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "I've seen cases where delaying surgery made a huge difference in managing pelvic fractures. However, I think it's also important to consider the sodium levels in these patients. Has anyone else seen cases where hypovolemic shock was an issue?",
+        "color": "purple"
       },
       {
         "id": 14,
         "parent_id": 13,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Awesome - thanks for clarifying! What about the role of hyperbaric oxygen therapy in the management of NSTI? Is that something we should be considering?",
+        "user": "Dr. Phil Muddle",
+        "role": "EP",
+        "city": "Regina, SK",
+        "text": "I've seen cases where hypovolemic shock was an issue with pelvic fractures. However, I think it's also important to consider the importance of IV fluids in these patients. Has anyone else seen cases where fluid resuscitation made a difference?",
         "color": "green"
       },
       {
         "id": 15,
         "parent_id": 14,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Actually, there's mixed evidence on this one. Some studies suggest it may be beneficial in certain situations, while others show no benefit or even harm. We should be considering it on an individual basis, but not jumping to conclusions.",
-        "color": "purple"
+        "user": "Dr. Rick 'The Rage'",
+        "role": "EP",
+        "city": "Windsor, ON",
+        "text": "I've seen cases where fluid resuscitation made a huge difference in managing pelvic fractures. However, I think it's also important to consider the role of trauma protocols in these patients. Has anyone else seen cases where trauma protocols made a difference?",
+        "color": "blue"
       }
     ],
-    "image": "https://www.ebmedicine.net/media_library/images/2022-EMP-Publication-Article/05-May/Clinical-Pathway-for-Managing-Skin-and-Soft-Tissue-Infections-in-the-Emergency-Department-TH.png"
+    "image": null
   },
   {
-    "id": 1,
-    "title": "Rant about Vasopressors in the ED: A tale of two patients, CAGE, and the perfect storm",
-    "body": "Just saw a patient with a classic case of cerebral arterial gas embolism (CAGE) after a rapid ascent, and it got me thinking about the nuances of vasopressor use in the emergency department. TL;DR: When do we reach for norepinephrine, and when is epinephrine the way to go? \n\nThe patient with CAGE presented with sudden onset of seizures, blindness, and hemiplegia. We quickly intubated and got her on 100% FiO2. I knew we had to act fast, so I reached for epinephrine to try and stabilize her blood pressure. But here's the thing: did I really make the right choice? I mean, norepinephrine could have done the job just as well, maybe even better.\n",
-    "category": "Emergency Medicine",
+    "id": 4,
+    "title": "Rant about Hemoptysis: A Case of False Alarm and a Missed Pulmonary Embolism",
+    "body": "Just saw a patient with hemoptysis and I'm still reeling from the experience. The 35-year-old woman came in with a mild cough and occasional blood-tinged expectoration. Vital signs were stable, oxygen saturation was 98%, and the chest x-ray showed no abnormalities.\n\nThe ER doc ordered a bronchoscopy, which revealed a minimal amount of blood in the bronchial tree, but no visible lesions or abnormalities. A chest CT was performed, which again showed no signs of pulmonary embolism or tumor.\n\nBut then it hit me - what if it's not just hemoptysis? What if it's a pulmonary embolism that's causing the hemoptysis? I've seen it happen before - a patient comes in with mild symptoms, and we miss the PTE because we're focusing on the obvious.\n\nHas anyone else ever been in this situation? How do you work up a patient with hemoptysis - CT or US first?",
+    "category": "medicine",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Dr.",
-        "city": "Toronto, ON",
-        "text": "I totally get where you're coming from, but it's a bit more complicated than that. The situation with CAGE is an extreme example of hypotension due to embolic occlusion of the cerebral arteries. In such cases, epinephrine can be an effective choice because it has both alpha and beta-1 agonist effects, which can help improve coronary and cerebral perfusion. However, we need to be mindful of the potential for cardiac arrhythmias, especially ventricular fibrillation.\n\nThat being said, norepinephrine can also be effective, especially in situations where the primary goal is to improve systemic vascular resistance. The key is to choose the right agent based on the specific situation and clinical context.\n\nTL;DR: Both epinephrine and norepinephrine have their place in vasopressor therapy, but we need to choose wisely based on the unique circumstances of each patient.\n\nRelated article: \n\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC5719646/\n\nSource: 'The Perfect Storm' of vasopressor choice",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Thank you, Dr. Thorne, for the clarity. So, when would you use norepinephrine over epinephrine? Would it be in cases of low cardiac output or systemic vasodilation?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Actually, I've read that norepinephrine is more effective in cases of anaphylaxis, whereas epinephrine is preferred in traumatic cardiac arrest. Could someone clarify this point?",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Here's a story that might help: I recently saw a patient with a traumatic spinal cord injury who was hypotensive and had significant bradycardia. We added norepinephrine to maintain a MAP of 65 and simultaneously administered a continuous infusion of epinephrine at a rate of 1 mcg/kg/min through our central line for cardiac arrest management. The patient's HR improved, and they're now recovering well.\n\nTo me, this case underscores the importance of combining multiple agents to tailor the therapeutic response to the patient's unique needs. Does anyone agree?",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Barb Miller",
-        "role": "Dr.",
-        "city": "Winnipeg, MB",
-        "text": "Agreed. The use of multiple vasopressor agents in conjunction can provide enhanced treatment effects, particularly in complex cases where the primary goal is to restore end-organ perfusion. What's your take on the potential interactions between epinephrine and norepinephrine? Can we anticipate any adverse effects from combining these two agents?",
-        "color": "green"
-      },
-      {
-        "id": 6,
-        "parent_id": 1,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "As someone who's experienced vasopressor use firsthand, I think it's essential to acknowledge that there's a delicate balance between the benefits of increasing blood pressure and the risks associated with tachycardia and arrhythmias. What strategies do our medical professionals use to prevent these adverse effects?",
-        "color": "green"
-      },
-      {
-        "id": 7,
-        "parent_id": 1,
-        "user": "Dr. Elena Varkov",
-        "role": "Dr.",
-        "city": "Quebec City, QC",
-        "text": "One strategy we employ to mitigate these risks is titration. Titration helps us ensure that we're using the lowest effective dose to achieve our desired hemodynamic effects and minimize side effects.",
-        "color": "green"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Maya Gupta",
-        "role": "Dr.",
-        "city": "Mississauga, ON",
-        "text": "How about adding vasopressin, especially in cases of cardiac arrest due to anaphylaxis? Does anyone have experience using vasopressin in this context?",
-        "color": "green"
-      }
-    ]
-  },
-  {
-    "id": 202,
-    "title": "TLDR: Just saw a patient with suspected carbon monoxide poisoning and I'm still reeling.",
-    "body": "We had a 35-yr-old male patient present to the ED with symptoms of headache, dizziness, and nausea. Upon initial vitals, his pulse ox was normal, but his COHb level was 40%.",
-    "category": "Emergency Medicine",
-    "comments": [
-      {
-        "id": 201,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I've seen a few cases of CO poisoning in my time, but this one really got me thinking. The patient's wife initially thought he had just eaten a bad tuna sandwich for lunch!",
-        "color": "red"
-      },
-      {
-        "id": 202,
-        "parent_id": 201,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Lol, yeah. The wife was totally clueless. But seriously, CO poisoning is such an underdiagnosed condition. Did you know that standard pulse oximetry is unreliable in the presence of increasing COHb? The SaO2 reading will be artificially high or normal.",
-        "color": "green"
-      },
-      {
-        "id": 203,
-        "parent_id": 201,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "I didn't know that. So what did you do in the ED? Did you use a cooximeter or bed-side pulse ox?",
-        "color": "blue"
-      },
-      {
-        "id": 204,
-        "parent_id": 202,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Great point by @TurboTom. And yes, a cooximeter is the gold standard for diagnosing CO poisoning. We should all be familiar with the 'classic' presentation of headache, dizziness, and nausea, but also keep in mind that symptoms can range from a 'flu-like' illness to coma.",
-        "color": "red"
-      },
-      {
-        "id": 205,
-        "parent_id": 203,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Wait, so how do you diagnose CO poisoning? Is it just a high COHb level?",
-        "color": "purple"
-      },
-      {
-        "id": 206,
-        "parent_id": 205,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Exactly, @Leo! It's a high COHb level, but also keep in mind that baseline levels can be as high as 5% in nonsmokers and 10% in smokers. And don't forget to consider other risk factors like exposure to gas- or propane-powered motors or heaters.",
-        "color": "red"
-      },
-      {
-        "id": 207,
-        "parent_id": 205,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Got it. So we need to consider the symptoms, risk factors, and a high COHb level to make a diagnosis. But what about treatment? Did you give the patient oxygen?",
-        "color": "blue"
-      },
-      {
-        "id": 208,
-        "parent_id": 207,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "You bet we did! We administered 100% oxygen via a non-rebreather mask. And we also made sure to transport the patient to a well-ventilated area. Did you know that COHb levels can take up to 4-6 hours to decline?",
-        "color": "green"
-      },
-      {
-        "id": 209,
-        "parent_id": 202,
         "user": "Dr. Ziggy Zalesky",
         "role": "EP",
         "city": "Vancouver, BC",
-        "text": "What about follow-up? Did the patient require any long-term treatment? And how common is CO poisoning, anyway?",
-        "color": "red"
-      },
-      {
-        "id": 210,
-        "parent_id": 209,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Actually, @Ziggy, the patient did require some follow-up. We admitted him for observation and made sure to monitor for any signs of neurological damage. And as for the commonality of CO poisoning, it's estimated that ~50,000 persons are seen in the ED each year. Not trivial!.",
-        "color": "red"
-      },
-      {
-        "id": 211,
-        "parent_id": 209,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "B'y, that's right. CO poisoning is a serious business. I've worked in the ED for 10 years, and I've seen me share o' cases. Don't ferget the importance o' proper ventilation in the treatment room!",
-        "color": "red"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Airway Management: When to Intubate and When to Just Get a Better View?",
-    "category": "Emergency Medicine",
-    "body": "Had a patient come in with a known difficult airway and a high suspicion of aspiration. Rushed into intubating with the video laryngoscope without fully assessing for signs of hypoxia. Turned out it was just a fancy epiglottis. Anybody have any good guidelines or pearls for when to intubate and when to just use a fancy scope and see what's going on?",
-    "role": "MD",
-    "city": "Chicago, IL",
-    "color": "blue",
-    "image": "https://m.media-amazon.com/images/I/71I+z6oPtGL._AC_UF1000,1000_QL80_.jpg"
-  },
-  {
-    "id": 101,
-    "title": "Just saw a patient with pelvic inflammatory disease (PID) and I'm reminded of why we need to be meticulous about pelvic pain.",
-    "body": "Just saw a young woman, 25, presenting with left lower quadrant pain, mild fever, and a history of unprotected sex with a new partner. Her initial vitals were stable, but she had a white count of 18k/mL. The physical exam was notable for tenderness in the adnexal region. A urine pregnancy test was negative, and her last menstrual period was 2 weeks prior.\r\n\r\nI started her on a broad-spectrum antibiotic regimen and admitted her to the hospital for further evaluation and monitoring. Her PID turned out to be caused by Chlamydia trachomatis, and she'll need to undergo a follow-up treatment and get a repeat culture. TLDR: PID is a serious condition that requires a high index of suspicion and a thorough workup. Don't be too quick to write it off as appendicitis or pelvic pain due to IBS!.",
-    "category": "Today I Learned",
-    "comments": [
-      {
-        "id": 102,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "So crucial to keep PID on our radar. I've seen some young women present with PID symptoms, but also have a history of pelvic floor dysfunction, which can complicate the differential diagnosis. Remember to get a thorough obstetric and gynecologic history, and don't be afraid to involve the OB-GYN team early on. The sooner you catch PID, the better the outcome for the patient. Have a look at this study: \u201cClinical guidelines for the diagnosis and treatment of pelvic inflammatory disease\u201d by the CDC. [link to CDC website].",
-        "color": "purple"
-      },
-      {
-        "id": 103,
-        "parent_id": 102,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Thanks for the link! I'll make sure to bookmark it. Do you think it's still necessary to perform an endometrial biopsy in every case of suspected PID? I remember learning that it's a helpful tool for diagnosing PID, but I've also heard some controversy around its sensitivity.",
-        "color": "green"
-      },
-      {
-        "id": 104,
-        "parent_id": 102,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Great mention, Dr. Gupta! I completely agree that obtaining a thorough obstetric and gynecologic history is key in managing PID patients. One thing I\u2019d like to add is the importance of screening for human papillomavirus (HPV) and HIV. Have you seen anyone present with HPV-related PID?",
+        "text": "TLDR: Hemoptysis is not just about bleeding from the lungs, guys. It's a symptom of another process. I've had PTEs misdiagnosed as hemoptysis before, but it's also possible that the PTE is causing the hemoptysis.",
         "color": "blue"
       },
       {
-        "id": 105,
-        "parent_id": 104,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "Ah, ah, ah, my dear colleagues, I recall a case I treated back in the 1950s where a young woman presented with PID caused by syphilis. The good old days! It was a much simpler time, but the principles remain the same. Keep your diagnostic hat on and don't be afraid to get a little creative in your assessment.",
-        "color": "red"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Frustrating TB diagnosis in the ED: A case study",
-    "body": "Just saw a patient with pulmonary TB who had been to 3 EDs before being admitted to our hospital. I'm still shaking my head over the missed diagnosis. The patient, a 35-year-old male with HIV, presented with a 3-month history of productive cough, night sweats, and weight loss. Initial chest X-ray (CXR) showed diffuse infiltrates, but we didn't consider TB until the 3rd ED visit. A sputum smear stain finally revealed acid-fast bacilli, and we started treatment. This case highlights the challenges of diagnosing TB in the ED, where we often rely on nonspecific symptoms and imaging findings. What are your strategies for diagnosing TB in the ED?",
-    "category": "EMERGENCY MEDICINE",
-    "comments": [
-      {
         "id": 2,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "TB is such a diagnostic nightmare! I recently saw a patient with miliary TB who presented with multiorgan failure and ARDS. The CXR showed diffuse nodules, but it wasn't until we did a CT scan that we saw the characteristic 'eggshell' calcifications. I'm a big proponent of CT scans in suspected TB, especially in immunocompromised patients like HIV+. @Dr. Maya Gupta [link to paper on miliary TB]",
-        "color": "purple"
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "I think you're right, Dr. Z. PTEs can cause hemoptysis, but it's also possible that the patient has a lung tumor or a PLE. The key is to get a good history and physical and then order some tests. Do you always order a CT or US first?",
+        "color": "green"
       },
       {
         "id": 3,
-        "parent_id": 2,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Wait, what's the difference between primary and secondary TB? And how do we diagnose it? I'm so confused @Dr. Maya Gupta",
-        "color": "green"
+        "parent_id": 1,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "I'm not sure I agree with you, Dr. Z. If the patient has stable vitals and a normal chest x-ray, I'm not sure I'd want to order a CT unless there's a high suspicion of PTE. I've read that CTs can be false positives for PLEs.",
+        "color": "red"
       },
       {
         "id": 4,
         "parent_id": 3,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "Primary TB occurs when a person is first infected with M. tuberculosis, usually via inhalation of aerosolized bacteria. This often results in latent TB infection, which can progress to active TB disease if the individual's immune system is compromised or if they're re-exposed to TB. Secondary TB is reactivation of latent TB infection. As for diagnosis, the primary tools are CXR, sputum smear stain, and culture. However, keep in mind that TB can present atypically, especially in HIV+ patients.",
-        "color": "orange"
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Fair point, PGY1. But what about the patient who comes in with a PLE and a low suspicion score? Don't we want to catch that too? Maybe the answer is not to just rely on one test, but to get a good history, do a physical, and then order a combination of tests.",
+        "color": "purple"
       },
       {
         "id": 5,
-        "parent_id": null,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "TB diagnosis in the ED is indeed challenging, especially when considering the spectrum of presentations. I've encountered cases where TB was masquerading as other conditions, such as COPD or bronchitis. It's crucial to consider TB in any patient with persistent cough, especially if they're immunocompromised. The American Thoracic Society guidelines provide a comprehensive framework for diagnosis and treatment of TB.",
-        "color": "blue"
+        "parent_id": 4,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "I think Dr. Z has a point. We need to think outside the box and consider all the possibilities. What about ordering a D-dimer test first? Do you guys use that in your ER?",
+        "color": "green"
       },
       {
         "id": 6,
         "parent_id": 5,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Dr. Varkov, can you walk us through your approach to evaluating a patient with suspected TB? Do you prioritize any specific labs or imaging over others?",
-        "color": "green"
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Actually, we do order D-dimer tests, but only if we have a high suspicion of PTE. Otherwise, we usually stick to clinical judgment and the PES rule.",
+        "color": "blue"
       },
       {
         "id": 7,
         "parent_id": 6,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "When evaluating a patient for TB, I follow the American Thoracic Society guidelines. Initial workup includes a thorough history, CXR, and sputum smear stain. If these aren't conclusive, I proceed with blood tests (e.g., TB-IGRA), and if necessary, further imaging like a CT scan. It's essential to consider the patient's risk factors for TB and the specific clinical context.",
-        "color": "blue"
-      },
-      {
-        "id": 8,
-        "parent_id": null,
-        "user": "Dr. Rick 'The Rage'",
+        "user": "Dr. Ziggy Zalesky",
         "role": "EP",
-        "city": "Windsor, ON",
-        "text": "TB diagnosis in the ED is a joke! We need better tools and more time to work up these patients. I've seen too many cases where we're just winging it, relying on 'clinical gestalt'. The system is broken, folks. We need to demand better.",
-        "color": "red"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I couldn't agree more, Dr. Rage! As residents, we're expected to make rapid-fire diagnoses in high-acuity cases. TB diagnosis often requires time, resources, and a more nuanced approach. Perhaps we should push for earlier collaboration with infectious disease specialists or better education on TB diagnosis?",
+        "city": "Vancouver, BC",
+        "text": "That's exactly what I was getting at, guys. The PES rule - Prevalence, Exclusion, and Symptoms. We need to use a combination of these factors to make a diagnosis. And don't forget about the patient's history and physical!",
         "color": "purple"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "RN perspective: TB diagnosis is just one piece of the puzzle. We need to consider the social determinants of health and the patient's access to care. Many patients are asymptomatic until late in the disease, and by then, it's too late. Let's focus on primary and secondary prevention, not just late-stage diagnosis.",
-        "color": "green"
-      }
-    ]
-  },
-  {
-    "title": "TLDR: Neonatal Aspiration Syndrome is still a thing",
-    "id": 1234,
-    "body": "Just saw a patient with severe respiratory distress and a chest xray that screamed neonatal aspiration syndrome (NAS). As some of you may know, NAS has seen a decrease in incidence due to the implementation of routine suctioning immediately following birth being abandoned.\n\nHowever, in our case, the mother had a history of a vaginal delivery with a 1:10 meconium stained amniotic fluid (MSAF). The newborn was not provided with any respiratory support at birth and now presents with tachypnea, nasal flaring and stridor.\n\nAs a side note, it's crucial not to forget that babies born to mothers with meconium stained amniotic fluid should be suctioned in the delivery room. Don't let your pediatrician tell you otherwise!",
-    "category": "emergency medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "color": "purple",
-        "text": "Great reminder, but it's worth noting that routine deep suctioning has been abandoned due to the potential vagal stimulation and bradycardia associated with it. We should be selective and only suction when there's an obvious obstruction to spontaneous breathing or if the baby requires positive pressure ventilation. Any thoughts on the management of your patient?"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "color": "green",
-        "text": "Wait, I thought suctioning was bad because it could lead to bradycardia? Why do we suction at all?"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "color": "blue",
-        "text": "'Vagal stimulation' can cause bradycardia. When we suction, the vagus nerve is stimulated and can lead to a heart rate decrease. We only suction when necessary, i.e., if we need to relieve an airway obstruction or when we're giving positive pressure. Otherwise, we should avoid it. Does that clarify things, @Leo?"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "color": "red",
-        "text": "You're all overthinking this. In my day, we suctioned immediately after birth and it was never a problem. Amateurs nowadays think they know better... The real question is, did we just waste our time suctioning?"
-      },
-      {
-        "id": 5,
-        "parent_id": 3,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "color": "teal",
-        "text": "I think I can provide some insight, young @Leo. Back in my day, we used to call this 'vagal nerve irritation.' When the baby's airway is obstructed, the vagus nerve gets irritated and the heart rate slows down. @Dr. Sarah Sharp, you're absolutely right to be vigilant about suctioning and avoiding vagal stimulation."
-      },
-      {
-        "id": 6,
-        "parent_id": 4,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "color": "brown",
-        "text": "I think @Dr. Victor Sterling is forgetting that the American Academy of Pediatrics (AAP) recommends against routine deep suctioning. This change in policy has led to a decrease in NAS incidents. @Leo, don't take it personally, we're just adapting to the latest evidence."
-      },
-      {
-        "id": 7,
-        "parent_id": null,
-        "user": "Dr. Phil Muddle",
-        "role": "EP",
-        "city": "Regina, SK",
-        "color": "yellow",
-        "text": "Uh, hello everyone... Is it, um, Monday today? I'm getting a bit turned around. Anyone help me out with what we're talking about?"
       },
       {
         "id": 8,
         "parent_id": 7,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "color": "orange",
-        "text": "Hey, @Dr. Phil! Don't worry, we gotcha. We're discussing neonatal aspiration syndrome and the appropriate suctioning techniques. Want to clarify something for me?"
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "That makes sense, Dr. Z. But what about the patient who has a low PES score, but still has hemoptysis? Do we order a CT then?",
+        "color": "green"
       },
       {
         "id": 9,
         "parent_id": 8,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "color": "gray",
-        "text": "Actually, can someone explain to me the rationale behind suctioning with a bulb syringe? I thought we were using those 'mechanical suction devices'? What's the advantage of a bulb syringe over the latter?"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "color": "dark green",
-        "text": "'Mechanical suction devices' are great, but what's wrong with a good ol' fashioned bulb syringe? I've used those babies for years. Maybe they're not as efficient, but at least they don't break down mid-resuscitation"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "color": "pink",
-        "text": "Actually, @Dr. Brock, in my experience, the bulb syringe can be quite effective in relieving airway obstruction. But what I find concerning is that it's not commonly taught in pediatric residency programs... I had to learn from experience. Any thoughts, @Dr. Sarah Sharp?"
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "I think we need to consider the context of the patient. If they're young and healthy, and have a low PES score, maybe we don't need to order a CT. But if they're older or have comorbidities, we might want to be more cautious.",
+        "color": "red"
       }
-    ],
-    "image": "https://i.ytimg.com/vi/zZKwXOAUf9M/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCbCwfoF3UDAlPNISznAReRmgTldA"
+    ]
   },
   {
-    "title": "Today I Learned: Renal Colic in Kidney Stone Disease",
-    "body": "I just encountered a challenging case of renal colic in an ED patient with kidney stones. As ER docs, we know to expect severe pain, nausea, vomiting, and diaphoresis. But what really caught my attention was the 'sludge' passed in the urine due to extracorporeal shock wave lithotripsy.",
-    "category": "emergency medicine",
+    "id": 1456,
+    "title": "Rant about Traumatic Shock - Missed a classic! (TLDR)",
+    "body": "Had a miss last night with a patient who presented with shock, no obvious cause, and a completely unremarkable exam. I've been thinking about it all night...",
+    "category": "Emergency Medicine Case Study",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": {
-          "name": "Leo Chen",
-          "city": "Montreal, QC",
-          "role": "MS1"
-        },
-        "text": "Dr. Gupta, I've read that patients with small unilateral stones <5 mm can be discharged with pain control and follow-up. However, what about the risk of complications like infection or ureteral obstruction?",
-        "color": "purple"
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "TLDR: Don't miss ectopic pregnancy! I've done a case presentation on this exact scenario during my PGY2 year.",
+        "color": "blue"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": {
-          "name": "Dr. Maya Gupta",
-          "city": "Mississauga, ON",
-          "role": "PGY2"
-        },
-        "text": "Excellent question, Leo! According to the literature, patients with small stones (<5 mm) and no complicated infection can be safely discharged with pain control and follow-up. However, it's essential to educate patients about signs of complications, such as fever, persistent vomiting, or uncontrolled pain.",
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Great reminder, @Dr. Maya! I've seen cases where the 'classic' symptoms of rupture ectopic pregnancy (e.g., sharp pain, hemodynamic instability) were absent. Did you notice any red flags in the patient's history or physical exam?",
         "color": "green"
       },
       {
         "id": 3,
-        "parent_id": null,
-        "user": {
-          "name": "Dr. Sarah Sharp",
-          "city": "Laval, QC",
-          "role": "EP"
-        },
-        "text": "I agree with Dr. Gupta. Noncontrast helical CT is the gold standard for diagnosing ureteral stones, but what about the role of ultrasound in this scenario? Does anyone have experience using ultrasound for kidney stones?",
+        "parent_id": 1,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Haha, nice one @Dr. Maya! I love how you tied this to a case presentation. For those who don't know, I'll link to the article: [1](https://www.ncbi.nlm.nih.gov/pubmed/24335623).",
         "color": "orange"
       },
       {
         "id": 4,
-        "parent_id": 3,
-        "user": {
-          "name": "Dr. Victor Sterling",
-          "city": "Calgary, AB",
-          "role": "Chief of Surgery"
-        },
-        "text": "Amateurs still use ultrasound for kidney stones? Really? It's outdated technology. Noncontrast CT remains the best modality for diagnosing ureteral stones.",
-        "color": "red"
+        "parent_id": 2,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Hi all, @Dr. Sarah asked if there were any red flags in the patient's history or physical exam. I was thinking about this - can someone elaborate on what made you think it was an ectopic pregnancy?",
+        "color": "gray"
       },
       {
         "id": 5,
         "parent_id": 4,
-        "user": {
-          "name": "Turbo Tom",
-          "city": "London, ON",
-          "role": "RN"
-        },
-        "text": "Hey, Dr. Sterling, ease up! Ultrasound is still a useful tool in the ED, especially when we're worried about contraindications to CT, like kidney damage or contrast allergy. And don't forget, we have ultrasound experts on our team!",
-        "color": "lightblue"
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Great question @Leo! In this patient's case, I noticed they had a history of irregular menstrual cycles and had taken a pregnancy test earlier that day. Plus, the presentation was atypical for what I've typically seen. Did we miss something obvious?",
+        "color": "violet"
       },
       {
         "id": 6,
-        "parent_id": null,
-        "user": {
-          "name": "Chad Broson",
-          "city": "Brampton, ON",
-          "role": "Pre-med"
-        },
-        "text": "Wait, what about pregnancy testing in females of childbearing age? Is that a must for kidney stone patients?",
-        "color": "pink"
+        "parent_id": 3,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Thanks for sharing that article @Dr. Barb! I just bookmarked it for later. Can someone explain to me why a patient with an ectopic pregnancy might not have the 'classic' symptoms?",
+        "color": "lightblue"
       },
       {
         "id": 7,
         "parent_id": 6,
-        "user": {
-          "name": "Dr. Henry Oldman",
-          "city": "Victoria, BC",
-          "role": "CCFP"
-        },
-        "text": "Excellent question, Chad! Yes, pregnancy testing is crucial in females of childbearing age with suspected kidney stones. We need to consider the potential impact of medications and imaging on fetal development. Don't forget to involve obstetrics if necessary!",
-        "color": "brown"
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs. An ectopic pregnancy with no symptoms is like a patient with aortic dissection who doesn't have back pain. It's a myth perpetuated by those who can't tell the difference between a 'classic' presentation and a 'rare' one.",
+        "color": "red"
       },
       {
         "id": 8,
-        "parent_id": null,
-        "user": {
-          "name": "Dr. Archibald Thorne",
-          "city": "Saskatoon, SK",
-          "role": "Physician"
-        },
-        "text": "Folks, let's not forget the importance of urologic consultation in these cases. Patients with complete obstruction, fever, and potential sepsis require emergent urologic evaluation.",
-        "color": "gold"
+        "parent_id": 7,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Oh boy, here we go. @Dr. Victor, you're wrong of course. Ectopic pregnancies with no symptoms are not myths. The literature is clear on this. And by the way, did you know that aortic dissections can present with abdominal pain too? #notmydentist",
+        "color": "green"
       },
       {
         "id": 9,
         "parent_id": 8,
-        "user": {
-          "name": "Dr. Kevin Park",
-          "city": "Edmonton, AB",
-          "role": "PGY1"
-        },
-        "text": "Dr. Thorne, can you elaborate on when to involve urology emergently? Are there specific criteria or patient populations we should be aware of?",
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Haha, nice burn @Dr. Maya! I think I'm starting to get the gist of it though - an ectopic pregnancy without symptoms can be a real challenge. Can someone recap the key takeaways from the discussion so far?",
         "color": "lightgreen"
       },
       {
         "id": 10,
         "parent_id": 9,
-        "user": {
-          "name": "Dr. Thorne",
-          "city": "Saskatoon, SK",
-          "role": "Physician"
-        },
-        "text": "Excellent question, Dr. Park! We should involve urology emergently in patients with complete obstruction, fever, or potential sepsis. Additionally, patients with solitary or transplanted kidneys require close monitoring and potential intervention.",
-        "color": "maroon"
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "TLDR: Don't miss ectopic pregnancy, especially if the patient has a history of irregular menstrual cycles and/or atypical presenting symptoms. Also, aortic dissections can have diverse presentations (back pain, abdominal pain, etc.).",
+        "color": "green"
       },
       {
         "id": 11,
-        "parent_id": null,
-        "user": {
-          "name": "Sparkle-Eyes Sue",
-          "city": "St. John's, NL",
-          "role": "LPN"
-        },
-        "text": "Ladies and gents, I just wanted to share that our ED has started using a pain management protocol specifically for renal colic. We've seen great success with it! Would be happy to share it with you all.",
-        "color": "lightblue"
+        "parent_id": 10,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "Can't emphasize enough how important it is to stay vigilant and think 'ectopic pregnancy' in all these types of cases. You never know who's gonna end up on your stretcher.",
+        "color": "red"
       },
       {
         "id": 12,
         "parent_id": 11,
-        "user": {
-          "name": "Martha 'The Hammer'",
-          "city": "Halifax, NS",
-          "role": "RN"
-        },
-        "text": "Sue, I've heard about that protocol. Can you give us a bit more detail? How does it differ from our current pain management approach?",
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Thanks all for the discussion! It's really helped clarify things for me. One more question - what would be a good next step in managing a suspected ectopic pregnancy in the ED?",
         "color": "purple"
+      },
+      {
+        "id": 13,
+        "parent_id": 12,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "For a suspected ectopic pregnancy in the ED, our protocol is to start with a transvaginal ultrasound followed by possible surgical intervention. Has anyone else got a similar protocol?",
+        "color": "green"
+      },
+      {
+        "id": 14,
+        "parent_id": 13,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "That sounds like a solid protocol! In our ED, we start with a quantitative beta hCG followed by ultrasound if the patient remains suspicious for an ectopic. We also have a rapid response team for surgical intervention if needed.",
+        "color": "blue"
+      },
+      {
+        "id": 15,
+        "parent_id": 14,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Awesome, thanks all for the insight! One more thing - can you recommend some resources for learning more about ectopic pregnancy diagnosis and management?",
+        "color": "gray"
+      },
+      {
+        "id": 16,
+        "parent_id": 15,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Here are some resources I found helpful: [1](https://www.acep.org/patient-care/critical-care/ectopic-pregnancy-diagnosis-management/), [2](https://www.acog.org/Clinical-Guidance-and-Publications/Committee-Opinions/Committee-on-Obstetric-Practice/The-Role-of-Diagnostic-Ultrasound-in-Pregnancy).",
+        "color": "orange"
+      },
+      {
+        "id": 17,
+        "parent_id": 16,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Thanks for sharing those resources! Can someone explain to me exactly how an ectopic pregnancy happens (in super simple terms) so I can impress my med school interviewers",
+        "color": "lightblue"
+      },
+      {
+        "id": 18,
+        "parent_id": 17,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Haha, of course! An ectopic pregnancy occurs when a fertilized egg implants outside the uterus, usually in the fallopian tube. This is usually due to abnormal fertilization or fallopian tube damage. Got it?",
+        "color": "green"
       }
     ]
   },
   {
-    "id": 1234,
-    "title": "Today I learned... pediatric resuscitation is not just about chest compressions, folks!",
-    "body": "Just saw a patient with a 6 month old who coded during a routine check-up. The parents were devastated. I've been seeing a lot of pediatric cases like this lately and it got me thinking... are we doing enough to prepare for pediatric resuscitations?",
-    "category": "resuscitation",
+    "id": 6,
+    "title": "Toxic Alcohols: Clinical Pearls and Common Pitfalls",
+    "body": "Just saw a patient with acute methanol poisoning and I'm reminded of how easy it is to mismanage these cases. Let's review the key takeaways and avoid some common pitfalls.\n\nWe all know the 'rule of 100': for every 100mL of methanol or ethylene glycol ingested, the risk of severe toxicity increases by 20%. However, this rule was based on a 1986 study and has been largely debunked by more recent literature.\n\nThe real issue with toxic alcohols is that they can cause a wide range of symptoms, from mild GI distress to severe CNS depression, and everything in between. And let's not forget the long-term effects on renal function and vision.\n\nSo, what are the clinical pearls and common pitfalls we should be aware of?\n\nTLDR: Don't rely on the 'rule of 100', use a more nuanced approach to diagnose and manage toxic alcohol ingestions, and don't forget about the long-term consequences.",
+    "category": "Medicine",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": "r/EmergencyPhysician",
-        "role": "",
-        "city": "",
-        "text": "I think we need to revisit the ACLS guidelines for pediatrics. The current algorithm is not very user-friendly for non-peds docs. Plus, have you seen the latest on pediatric cardiac arrest registries? They're showing some crazy high rates of return of spontaneous circulation (ROSC) even with minimal interventions. I'm not saying we shouldn't be prepared, but maybe we can focus on prevention and early intervention instead of just trying to salvage the patient after cardiac arrest.\n\nSource: [Pediatric Cardiac Arrest Registry (PCAR)](https://www.pediatriccardiacarrestregistry.org/)\n\nTLDR: We need to rethink our approach to pediatric resuscitations.",
-        "color": "green"
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "I completely agree with your post. The 'rule of 100' is outdated and has been replaced by more accurate calculations based on blood levels. For example, a study published in the Annals of Emergency Medicine in 2019 demonstrated that the risk of severe toxicity increases by 40% for every 10mg/dL increase in blood methanol level. What are your thoughts on the use of fomepizole in these cases?\n\nEdit: @LeoChen, please don't quote me on that paper, I don't have the exact cite handy.",
+        "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "I completely agree with you, EMT. As a staff physician, I've seen my fair share of pediatric cardiac arrests, and it's always a tragedy when it happens. I think we need to focus on prevention, early recognition, and rapid intervention. Have you seen the latest on the use of pulse oximeters in pediatric resuscitations? They're showing some promising results.\n\nSource: [Pulse oximetry in pediatric cardiac arrest](https://doi.org/10.1007/s00184-020-03801-1)\n\nAlso, have you heard about the Canadian Pediatric Critical Care Network? They're doing some amazing work in this area, and I think we could learn a lot from their expertise.\n\nTLDR: Prevention, early recognition, and rapid intervention are key. Let's work together to make a difference!",
-        "color": "purple"
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Thanks for the correction Dr. Sharp! I've been studying the use of fomepizole and I'm still a bit unclear on whether it's effective in reversing methanol toxicity. Can you provide more context on how to use it in these cases?\n\nEdit: I've been going over the literature and I think I understand it better now. But can you clarify how you determine the appropriate dose of fomepizole?",
+        "color": "green"
       },
       {
         "id": 3,
         "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Hey guys, as an ER nurse, I've seen my fair share of pediatric codes, and I gotta say, the key to success is often not in the chest compressions, but in the initial assessment and stabilization of the patient. We need to remember to take a deep breath, calm down, and focus on the ABCs (airway, breathing, circulation). And don't forget to check for signs of shock, early on! It's crazy how often I see docs missing those signs because they're too focused on the 'big picture'.\n\nLet's prioritize those pediatric patients, people!",
-        "color": "red"
-      },
-      {
-        "id": 4,
-        "parent_id": 2,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Dr. Thorne, I couldn't agree more about the importance of prevention and early recognition. As an EP, I've seen some heartbreaking cases where we could have intervened earlier if only we'd recognized the signs. I think we need to put in more resources for continuing education and training on these topics. Have you seen the recent study on pediatric cardiac arrest in the ER? It highlighted the importance of early recognition and rapid intervention.\n\nSource: [Pediatric cardiac arrest in the emergency department](https://doi.org/10.1016/j.annemergmed.2020.02.018)\n\nLet's work together to spread the word and prioritize these patients!",
-        "color": "orange"
-      },
-      {
-        "id": 5,
-        "parent_id": null,
-        "user": "r/EmergencyPhysician",
-        "role": "",
-        "city": "",
-        "text": "TLDR: Prevention, early recognition, and rapid intervention are key. Let's prioritize those pediatric patients, people!\n\nAnd please, everyone, don't forget to check for signs of shock and early recognition!",
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Hi Dr. Sharp, I'm a bit concerned about the use of fomepizole in these cases. I've been reading that it can cause serious side effects like hemolysis and renal failure. Can you weigh in on the risks vs benefits?\n\nTLDR: @Dr. Sharp, how do you balance the risk of adverse effects with the potential benefits of fomepizole?",
         "color": "green"
       },
       {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Just to clarify, what are the typical symptoms of methanol poisoning? I've been studying for my boards and I've come across some conflicting info on the topic.\n\nEdit: I've been reading the literature and I think I have a good understanding now. But can you give me an example of a case you've seen in the ER where methanol poisoning was suspected?",
+        "color": "blue"
+      },
+      {
+        "id": 5,
+        "parent_id": 1,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "Wow, I had no idea that methanol was still a thing. I'm so glad I was admitted to the hospital after eating a bunch of stuff from the garage. How long does it take for the symptoms to kick in?\n\nEdit: @Dr. Sharp, do you think I'll be okay?",
+        "color": "red"
+      },
+      {
         "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "@Barnaby Finch, I'm glad you were admitted to the hospital! The symptoms of methanol poisoning can vary depending on the dose and the individual, but generally onset is rapid, within 30 minutes to 1 hour. The key is to quickly identify the toxin and start treatment, as the longer you wait, the more severe the symptoms will be.",
+        "color": "green"
+      },
+      {
+        "id": 7,
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "What about the use of hemodialysis in these cases? Is that a viable option for managing methanol toxicity?\n\nEdit: @Dr. Sharp, can you give me an example of a case where hemodialysis was used to treat methanol poisoning?",
+        "color": "green"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "@Dr. Gupta, sure thing! Hemodialysis is indeed a viable option for managing methanol toxicity, especially in cases where the blood levels are extremely high or when the patient has renal impairment. It's also useful for removing the toxin quickly when there's no time to wait for fomepizole to take effect.",
+        "color": "green"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Thanks Dr. Sharp! That makes a lot of sense. But what's the deal with the 'rule of 100' and where did it come from?\n\nEdit: I've been doing some research and I think I understand the history behind it. Can you confirm or deny my theory?",
+        "color": "blue"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "@Leo Chen, that's a great question! The 'rule of 100' was indeed a landmark paper, but it has since been largely debunked by more recent literature. The paper you're thinking of is probably the 1986 study by Hovda, which demonstrated that the risk of severe toxicity increases by 20% for every 100mL of methanol ingested. However, this study has been criticized for its methodology and limitations.",
+        "color": "green"
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": 1,
+    "title": "Had a tough case last night: Acute Respiratory Distress Syndrome (ARDS). Any pearls?",
+    "body": "Patient presented with fever, chills, and hypoxia. We were initially worried about sepsis, but the ABG and CXR suggested a more specific diagnosis. I remembered that patients with sickle cell anemia are particularly prone to Acute Chest Syndrome (ACS), and the history fit the bill.",
+    "category": "Medical",
+    "comments": [
+      {
+        "id": 11,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great reminder! Sickle cell patients can be notoriously tricky. ACS should always be on your radar, especially with respiratory symptoms. Has anyone else had experience with the 'classic' presentation of ACS? For me, it's that combination of chest pain, tachypnea, and hypoxia.",
+        "color": "blue"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Hi Dr. Thorne! I've only read about it in my textbooks, but isn't there something called the \"classic\" chest pain pattern in ACS? Is that what you're thinking of?",
+        "color": "red"
+      },
+      {
+        "id": 13,
+        "parent_id": 11,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs still referencing outdated guidelines. The latest consensus is against the term 'classic' presentation. Just use the diagnostic criteria like everyone else.",
+        "color": "green"
+      },
+      {
+        "id": 14,
+        "parent_id": 13,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Oh come on, Dr. Sterling, don't be a buzzkill! Leo's just trying to learn. And besides, I think Dr. Thorne was just using 'classic' as a heuristic, not an official diagnosis. Anyone else have experience with managing ACS in the ED?",
+        "color": "purple"
+      },
+      {
+        "id": 15,
+        "parent_id": 11,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Thanks for the reminder, Dr. Thorne! I've seen a few cases where the CXR was normal initially, but as the patient progressed, we saw that characteristic \"batwing\" pattern on the follow-up film.",
+        "color": "orange"
+      },
+      {
+        "id": 16,
+        "parent_id": 15,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Oh yeah? What kind of Batwing pattern are we talking about? The one where the opacification is worse at the bases?",
+        "color": "pink"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Today I learned about the risks of button battery ingestion in toddlers and why we need to take it seriously",
+    "body": "Just saw a sweet 2 year old who ingested a button battery. Luckily, we were able to get it out and the kid is fine. But it got me thinking about the risks of button battery ingestion. Did you guys know that these batteries can cause severe burns and perforation of the esophagus in as little as 2 hours? And if we don't get them out fast enough, it can lead to long-term damage and even death. We need to take this seriously and make sure parents and caregivers are aware of the risks. We can't just write off these ingestions as minor, especially in toddlers.",
+    "category": "emergency_medicine",
+    "comments": [
+      {
+        "id": 1,
         "parent_id": null,
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "Urgent query: What are some of the most common causes of pediatric cardiac arrest in the ER? I'm trying to learn more about this and prepare for my next shift!\n\nThanks in advance, ER veterans!",
+        "text": "I had a similar case last week. We were able to get the battery out, but the kid required an urgent endoscopy and was in the hospital for 2 days. The ER doc was worried about the risk of perforation, so we did a chest CT to rule it out. It was a tense night, but luckily the kid is fine. This highlights the importance of prompt recognition and treatment of button battery ingestion.",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Wow, that's crazy. What happens if you miss the initial time window and the burn is already severe? Do we have any treatments for that? And what about button batteries with a protective covering? Are they safer?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Great question, Leo. If we miss the initial time window, we can try to flush out the esophagus with water or saline, but it's not always effective. In severe cases, we may need to perform a laparotomy to remove the battery and repair any damage. And yes, batteries with protective coverings are safer, but it's not foolproof. We still need to take all reported ingestions seriously.",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Lol, I had a friend's kid ingest a button battery and they just gave them some milk and it was fine. Do doctors really recommend just getting a CT scan to rule out perforation? That sounds like overkill.",
+        "color": "red"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "That's not right, Chad. Button battery ingestions are serious business and require prompt medical attention. We don't recommend just giving milk or any liquid to flush it out. And yes, a CT scan may be necessary to rule out perforation or other complications. This is not a minor ingestion.",
+        "color": "purple"
+      },
+      {
+        "id": 6,
+        "parent_id": 1,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "In my day, we didn't have all these fancy diagnoses and treatments. If a child ingested a button battery, we would just use some old-fashioned folk remedies and hope for the best. None of this fuss about CT scans and laparotomies. What's wrong with the good old days?",
+        "color": "orange"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Dr. Thorne, with all due respect, those 'good old days' were exactly that - old. We have evidence-based medicine now, and it's much safer and more effective. We don't know what we're doing without CT scans and laparotomies. We're not just talking about button battery ingestions here, we're talking about potential perforations and long-term damage.",
+        "color": "brown"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Just saw a patient with ACS and I was wondering...",
+    "body": "whether we should be using nitrates or nitroglycerin in the setting of low-probability ACS. Patient presented with chest pain and had a low-risk troponin, but a high-sensitivity troponin was positive. Should we be considering these medications in this case?",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "TLDR: Don't use nitrates in low-probability ACS. The evidence is clear that nitrates don't improve outcomes and can even worsen ischemia. Instead, we should focus on identifying the underlying cause of the pain and treating accordingly. Link to a study on this topic: [1] (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6235116/)",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "@Dr. Thorne, but what about the patient with unstable angina? Shouldn't we use nitrates in that case to reduce the pain and prevent ischemia?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Actually @Dr. Thorne, the study you mentioned is from 2017 and doesn't reflect the latest guidelines. Have you read the 2020 ESC guidelines on this topic?",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Zachary Smith",
+        "role": "MS4",
+        "city": "Ottawa, ON",
+        "text": "@Dr. Miller, can you clarify what you mean by 'latest guidelines'? Which specific recommendation are we discussing?",
+        "color": "pink"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "The 2020 ESC guidelines recommend the use of nitrates in specific situations, such as in patients with a history of ischemia or in those with evidence of coronary artery disease. We should be considering the individual patient's risk factors when deciding whether to use nitrates.",
+        "color": "red"
+      },
+      {
+        "id": 6,
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "This is all well and good, but let's not forget about the patient's blood pressure. We should be monitoring the BP closely in patients receiving nitrates, as they can cause hypotension.",
         "color": "yellow"
       },
       {
@@ -777,81 +1031,46 @@
         "user": "Dr. Henry Oldman",
         "role": "CCFP",
         "city": "Victoria, BC",
-        "text": "Ah, great question, Maya. As a family physician, I see a lot of pediatric patients, and I can confirm that hypoxia, respiratory failure, and cardiac anomalies are some of the most common causes of cardiac arrest in this age group. We need to be vigilant!\n\nSource: [Pediatric cardiac arrest in the emergency department](https://doi.org/10.1016/j.annemergmed.2020.02.018)\n\nStay on your toes, my dear resident!",
-        "color": "blue"
+        "text": "Great point @Turbo Tom! Hypotension is a potential side effect of nitrates, and we should be cautious when used in elderly patients or those with pre-existing hypotension.",
+        "color": "orange"
       },
       {
         "id": 8,
-        "parent_id": 6,
-        "user": "Sparks-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Hiya Maya! As a nurse from the Rock, I've seen me share o' pediatric codes, and I'd say it's always due to preventABLE causes. Make sure you're checkin' those vitals good and regular, and keep those airways pat! You'll be doin' great, girlie!\n\nKeep in mind, don't be afraid to ask for help, either! We're all a team here! \n\nGood luck, love!",
-        "color": "lavender"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Rant about Puncture Wounds",
-    "body": "Just had to deal with another frustrating case of a puncture wound. The patient showed up with a small entry wound, but on examination, we found a large tract of tissue damage behind the wound. Had to do an extensive cleaning and debridement, and still worried about potential complications like abscesses or sepsis. What are your strategies for managing these cases?",
-    "category": "Emergency Medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs still trying to figure out puncture wounds after all these years. The key is antibiotics, not some fancy debridement technique. Just use a broad-spectrum antibiotic like cephalexin and you're good to go. See [this article](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4441946/) for more info.",
+        "parent_id": 1,
+        "user": "Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "This conversation is all about the 'what' rather than the 'why'. We need to be talking about the pathophysiology behind ACS and why nitrates are or aren't effective.",
         "color": "purple"
       },
       {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "@Dr. Sterling, are you kidding me? Antibiotics are not the answer for every puncture wound. What about the patient with a cat bite who shows up with signs of cellulitis? We need a more nuanced approach than just 'throwing antibiotics at the problem'.",
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Actually @Brock Stone, the pathophysiology of ACS is quite well understood. Coronary artery occlusion leads to myocardial ischemia, and nitrates work by vasodilating the coronary arteries and reducing preload.",
         "color": "green"
       },
       {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Dr. Barb Miller",
+        "id": 10,
+        "parent_id": 1,
+        "user": "Dr. Phil Muddle",
         "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "@Dr. Gupta, I'm with you. Antibiotics are not the solution for every puncture wound, especially cat bites. We need to consider the risk of infection, patient factors like immunocompromise, and the wound characteristics itself. See [this study](https://www.ncbi.nlm.nih.gov/pubmed/29116431) on wound infections in cat bites.",
-        "color": "blue"
+        "city": "Regina, SK",
+        "text": "Wait, so what's the takeaway from all this? Should we be using nitrates in low-probability ACS?",
+        "color": "pink"
       },
       {
-        "id": 4,
-        "parent_id": 1,
+        "id": 11,
+        "parent_id": 10,
         "user": "Dr. Aris Thorne",
         "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "@Dr. Sterling, I understand your frustration, but we need to consider the complexities of puncture wounds. Debridement is crucial in removing devitalized tissue and reducing the risk of infection. Not to mention, antibiotics are not a cure-all. We need a combination of antibiotics, debridement, and close monitoring for signs of infection.",
-        "color": "red"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "@Dr. Thorne, I'm a bit confused. What's debridement? Is it like a surgical procedure?",
+        "text": "TLDR: No, we shouldn't be using nitrates in low-probability ACS. The evidence is clear that they don't improve outcomes and can even worsen ischemia.",
         "color": "purple"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "@Leo Chen, debridement is indeed a surgical procedure. It involves removing dead tissue, including dead bacteria, to promote healing and reduce the risk of infection. It's a crucial step in managing puncture wounds.",
-        "color": "green"
       }
     ],
-    "image": "https://emottawablog.com/wp-content/uploads/2023/04/Screen-Shot-2023-04-11-at-11.54.40-AM-1080x675.png"
+    "image": null
   }
 ]
