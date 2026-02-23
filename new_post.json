@@ -1,81 +1,310 @@
 [
   {
     "id": 0,
-    "title": "Had a miss last night... undifferentiated bacterial pneumonia in an otherwise healthy teenager",
-    "body": "I've been working in the ED for 10 years and I still can't shake the feeling of 'what if?' when I miss a diagnosis. Last night was no exception. We saw a 16-year-old kid come in with a day of fever, fatigue, and a dry cough. Vitals were stable, but he was clearly uncomfortable. He'd had a viral prodrome a few days prior, and his CXR showed some patchy infiltrates, but no clear consolidation.\n\n    I started him on ceftriaxone and azithromycin, thinking it was just a case of CAP, but the Gram stain was negative. Now, I know what you're thinking... 'just run some more tests'... but our kid had no underlying conditions, no travel history, and no known exposures. The mom was convinced he'd eaten bad sushi the day before, but the patient himself was adamant he'd just been 'eating normal'.\n\n    So, I'm stuck between a rock and a hard place - do I trust my gut and keep him on the empiric antibiotics, or do I start panicking and chase some crazy diagnosis? Anyone else deal with this sort of thing? Am I just being paranoid? Any tips on managing CAP in teens? TLDR: undifferentiated CAP in a healthy teenager with no clear source of infection.",
-    "category": "Emergency Medicine",
+    "title": "Today I learned that cardiogenic shock isn't always hypotension",
+    "body": "Had a miss last night - cardiogenic shock with a normal BP. Our patient had a large myocardial infarction with extensive anterior wall involvement and new mitral regurgitation. The cardiologist said it was due to a papillary muscle rupture but didn't give a clear explanation of the physiology behind the shock. I've been reading up and it seems like there are different forms of cardiogenic shock, not just the one caused by low CO. Can someone ELI5 or explain the different types of cardiogenic shock and why it might still occur with a normal SBP?",
+    "category": "emergency-medicine",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": "Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Dude, don't overthink it. CAP is a diagnosis of exclusion. I mean, what's the big rush? You've got cultures coming back, and if it's not bacterial, you'll know soon enough. And trust me, a kid with no underlying conditions is not going to die from a viral prodrome. Just make sure they're comfortable and stable, and you've got a good plan in place for discharge. Oh, and by the way, good job for keeping it at the bedside, not ordering a million tests.",
-        "color": "orange"
+        "user": "Brian Hiestand",
+        "role": "CCFP",
+        "city": "Vancouver",
+        "text": "Cardiogenic shock occurs when there's a mismatch between CO and O2 demand of the tissues. It's not just about low blood pressure anymore. There are different forms like stunned myocardium, high-output shock, and low-output shock. In your case, the papillary muscle rupture would cause a sudden increase in volume load on the heart, leading to a decrease in contractility. Despite the normal SBP, the heart is still struggling to meet the O2 demand of the body. Check out chapter 49 in Tintinalli for a detailed explanation.",
+        "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Ziggy's right on the money, but what about those cases where the kid's not just a little unwell? I mean, our hospital's got a policy of admitting any patient with a fever over 102 or who's short of breath... but what's the threshold for admitting a teenager with undifferentiated CAP? And what about the cost and resource utilization? Do we really need to be sticking people in the hospital for a potentially self-limited illness like CAP?",
-        "color": "lightblue"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Good point, Kevin. And to answer your question, I'd say the threshold for admission is more about clinical judgment than a fixed number or policy. If the kid's clearly uncomfortable or unstable, of course, admit them. But if they're just feeling a little miserable, I say let 'em go home with a good dose of fluids and rest. Although, we should probably get more data on this... maybe run a study on the outcomes of CAP patients treated as outpatients vs. those admitted? Link to some literature on this?",
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Calgary",
+        "text": "Yeah, Brian's right. And don't forget to consider the preload and afterload on the ventricle. High-output cardiogenic shock can occur when there's a sudden increase in blood volume or a decrease in systemic vascular resistance. In your patient, it could be a combination of things like papillary muscle rupture, tamponade, or increased venous return. You gotta think about the whole circulatory system, not just the heart. Here's a nice resource that explains it better: https://emedicine.medscape.com/article/157511-treatment#d4",
         "color": "green"
       },
       {
-        "id": 4,
+        "id": 3,
         "parent_id": 2,
-        "user": "Barb Miller",
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Toronto",
+        "text": "Sorry, guys, I'm a bit confused. Isn't cardiogenic shock just when the heart isn't pumping enough blood? How does high-output shock fit into this? And what about the different types of cardiogenic shock?",
+        "color": "light-blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Sarah Sharp",
         "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "You know, when I was working in the ER, I used to love it when the med students would start asking the 'what-ifs'. Like, 'what if it's not CAP?' or 'what if it's something more serious?'... Meanwhile, the patient's in the room, feeling crummy and getting anxious by the minute. So here's a piece of advice: when you're on shift, don't get lost in the weeds of what-ifs. Keep the patient at the forefront, and use your clinical judgment to guide your decisions. Now, that being said, I do think we need to talk more about the role of point-of-care urine antigen tests for Streptococcus pneumoniae in CAP... has anyone else used these?",
-        "color": "blue"
+        "city": "Montreal",
+        "text": "Don't be confused, Leo. High-output cardiogenic shock is when the heart is trying to pump more blood, but is failing due to a problem like a papillary muscle rupture. The 'high-output' refers to the increased demand for blood flow, not the actual output. You can see that in cases of tamponade, cardiac rupture, or severe mitral regurgitation. The different types of cardiogenic shock are actually more nuanced than just 'low-output' or 'high-output.' There's left ventricular failure, right ventricular failure, and even cardiogenic shock with normal CO. The key is understanding the pathophysiology behind it. Check this out: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4397614/",
+        "color": "green"
       },
       {
         "id": 5,
-        "parent_id": null,
-        "user": "Rage",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "Ugh, don't even get me started on the 'what-ifs'. I've got better things to do than sit around wondering about every single case I see. You know what's what? The what-is: our patient's got a bad case of community-acquired pneumonia, and we need to treat the heck out of it. Let's not worry about the hypotheticals and just get to work... Link to some decent antibiotic guidelines?",
-        "color": "red"
+        "parent_id": 1,
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton",
+        "text": "As a surgeon, I can tell you that the diagnosis of cardiogenic shock is often over-estimated and treated like it's the end of the world. In most cases, the patient isn't in shock at all, just decompensated CHF. You need to look beyond the normal BP and think critically about the other signs and symptoms. Like I said in a previous post, it's all about the 'Sodium and the story.' Get that right, and you can treat this thing like a routine admission.",
+        "color": "silver"
       },
       {
         "id": 6,
         "parent_id": 5,
-        "user": "Archie Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "Amen to that, Rage! Now, I know some of you may be thinking, 'but what about the nuances of antibiotic selection?' or 'what about the role of the ID doc in CAP management?' Let me tell you, back in my day, we didn't have all these fancy guidelines and whatnot. We just used our clinical judgment and treated the patient based on how they presented. Now, I'm not saying that's the best way to do things nowadays, but we shouldn't forget the basics of good clinical care. Anybody else remember when...?",
-        "color": "purple"
+        "user": "Brian Hiestand",
+        "role": "CCFP",
+        "city": "Vancouver",
+        "text": "Come on, Brock! While it's true that some cases of cardiogenic shock may present differently, you can't just dismiss the diagnosis without proper evaluation. And by the way, 'the Sodium and the story' is a great catchphrase, but it doesn't replace the actual pathophysiology.",
+        "color": "light-blue"
+      },
+      {
+        "id": 7,
+        "parent_id": 1,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Calgary",
+        "text": "TL;DR: Cardiogenic shock isn't just hypotension. There are different forms depending on CO and O2 demand mismatch. Think about preload, afterload, and volume load on the heart. And, Brock, don't just dismiss patients based on BP alone. Thanks, guys!",
+        "color": "green"
+      },
+      {
+        "id": 8,
+        "parent_id": null,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Ottawa",
+        "text": "Just wanted to add that cardiogenic shock can also occur in patients with chronic conditions like CHF. In these cases, it's often a sign of decompensation or a worsening of the underlying disease. Thanks for the discussion, everyone!",
+        "color": "yellow"
+      },
+      {
+        "id": 9,
+        "parent_id": 1,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Toronto",
+        "text": "Over-diagnosis of cardiogenic shock in the ER is a major issue. I've seen too many unnecessary transfers to ICU and unnecessary invasive procedures. It's time to get some data-driven medicine in this field.",
+        "color": "gold"
       }
     ],
-    "image": "https://emergencymedicinecases.com/wp-content/uploads/2019/09/CAP-card.001.jpeg"
+    "image": "https://emergencymedicinecases.com/wp-content/uploads/2022/01/Cardiogenic-Shock-Simplified.png"
   },
   {
-    "id": 1,
-    "title": "Missed diagnosis of electrolyte imbalance leads to near-miss",
-    "body": "Just saw a patient with a missed diagnosis of electrolyte imbalance that led to near-miss. A 3-year-old boy presented with vomiting and seizures, and the admitting team thought it was just a case of gastroenteritis. They corrected the dehydration with IV fluids, but didn't check the electrolytes. I got called in for a consult because the boy wasn't responding to treatment, and his potassium levels were severely low (1.2 mEq/L). I quickly ordered a correction protocol for potassium, and his condition stabilized. This got me thinking about how often do we miss electrolyte imbalances in pediatrics, and what are some key takeaways to avoid this in the future?",
-    "category": "Clinical Anecdote",
+    "title": "Just saw a patient with an esophageal foreign body and had a stark reminder why we should always consider esophageal emergencies in the differential.",
+    "body": "I just got done evaluating a 5 y/o with a reported history of a coin lodged in the esophagus. On physical exam, the kid was drooling, refusing to eat, and had obvious signs of distress. X-ray confirmed it. The parents thought it was just a cough, but the kid's presentation was textbook. I was reminded that 10% of pediatric foreign body ingestions are esophageal and that prompt removal within 24 hrs of ingestion is key.",
+    "category": "emergency medicine",
     "comments": [
       {
-        "id": 1,
+        "id": 2,
         "parent_id": null,
         "user": "Dr. Aris Thorne",
         "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "Great case! This highlights the importance of electrolyte balance in pediatrics. We often focus on hydration, but it's equally important to check electrolytes, especially in cases of vomiting or diarrhea. One thing that comes to my mind is the importance of rapid correction of electrolytes in life-threatening situations, such as seizures or cardiac arrest. We need to remember that the rapid correction of electrolytes, especially potassium, can be just as dangerous as the imbalance itself.\n\nTLDR: Don't forget to check those electrolytes, kids!",
+        "text": "Couldn't agree more, OP. It's alarming how many times we see these cases and it's often avoidable with proper supervision. Did you get a chance to assess their GCS and oxygen saturation?",
+        "color": "yellow"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "GCS was 14 and oxygen sat was 94%. Thankfully, it was a non-verbal refusal to eat at the initial presentation, which is often the first sign. Just a reminder to get the story and stay vigilant.",
+        "color": "orange"
+      },
+      {
+        "id": 4,
+        "parent_id": null,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs. It's all a matter of proper education and parental supervision. We've had this discussion before. What's the point of rehashing it all over again?",
+        "color": "blue"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Come on, Vic. It's not about rehashing but highlighting the importance of vigilance. We see the best of humanity when we step up to the plate and prevent unnecessary harm. What do you say to the family that had to endure this stress?",
+        "color": "green"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Well, we all make mistakes. The parents were great, thankfully unaware of the severity. If I may add, it's crucial to assess for any potential complications such as aspiration, esophageal stricture or even esophageal cancer. We can't let the fear of litigation get in the way of doing what's right. ",
+        "color": "pink"
+      },
+      {
+        "id": 7,
+        "parent_id": null,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "TLDR: What type of X-ray did you do on the patient, was it a PA or lateral view?",
+        "color": "cyan"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Leo, we used the PA view as a baseline, followed by barium swallow series to confirm and assess for any signs of mucosal injury. Always key to assess the airway status",
+        "color": "lavender"
+      },
+      {
+        "id": 9,
+        "parent_id": null,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "+1 for this post, thanks for the reminder. What do you do if someone comes in with a coin that has penetrated the esophagus?",
+        "color": "brown"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "PGY1, in that case, we would follow our hospital protocol, which involves a team approach. In simple terms, consult GI, consult anesthesiology to get the patient prepped for possible endoscopy or even surgery.",
+        "color": "gray"
+      },
+      {
+        "id": 11,
+        "parent_id": null,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "So this is the stuff we gotta know for med school?",
+        "color": "magenta"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "Indeed, Chad. Familiarize yourself with the common presentations and pitfalls. In this specific case, the key takeaways are the importance of airway assessment and the high index of suspicion for esophageal emergencies. Keep this thread for future reference.",
+        "color": "red"
+      },
+      {
+        "id": 13,
+        "parent_id": null,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "I would add that it is also important to keep the family informed about their child's condition and follow up plan. It can be a huge stress relief for the family",
         "color": "purple"
+      },
+      {
+        "id": 14,
+        "parent_id": 13,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Totally, Elena! Communication and empathy can save the day. I like to explain things to the parents as if we were all part of a team working for the child's best interest.",
+        "color": "green"
+      },
+      {
+        "id": 15,
+        "parent_id": null,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Ah, it always makes me cry thinkin' about how precious they are when they're hurtin'. Keep doin' what ye're doin', and thanks a million for the tips!",
+        "color": "white"
+      },
+      {
+        "id": 16,
+        "parent_id": null,
+        "user": "Dr. Phil Muddle",
+        "role": "EP",
+        "city": "Regina, SK",
+        "text": "Umm... can anyone explain to me again what happened and what this has to do with esophageal emergencies? I think I must have missed something.",
+        "color": "turquoise"
+      },
+      {
+        "id": 17,
+        "parent_id": 16,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Phil, the post is about a patient with a coin lodged in the esophagus, which is a classic case of esophageal emergency. The story is meant to highlight the importance of vigilance and proper assessment.",
+        "color": "maroon"
+      },
+      {
+        "id": 18,
+        "parent_id": null,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "LOL, good luck explaining this to our pre-regs guys.",
+        "color": "gold"
+      },
+      {
+        "id": 19,
+        "parent_id": null,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "",
+        "text": "I was wondering if this thread had any connection with my own experience of experiencing chest pains after accidentally swallowing a battery?",
+        "color": "silver"
+      },
+      {
+        "id": 20,
+        "parent_id": 19,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Ah, Barnaby, that's a whole different story. Sorry to hear that you experienced chest pain. I'm glad you sought medical attention.",
+        "color": "blue"
+      },
+      {
+        "id": 21,
+        "parent_id": 20,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs. What this patient needs is someone with real expertise.",
+        "color": "red"
+      },
+      {
+        "id": 22,
+        "parent_id": 21,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Vic, don't be like that. We all have our own expertise. And, just to clarify, Barnaby, a button battery ingestion is a true emergency and requires immediate medical attention.",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "CASE STUDY: Central vs Peripheral Vertigo in the ED",
+    "body": "Just saw a patient with classic peripheral vertigo symptoms - severe spinning, nystagmus, and intolerance to head movement. But here's the thing, I initially thought it was central vertigo due to the mild onset and lack of prodromal symptoms. After doing some HINTS bedside testing and reviewing the literature, I realized my mistake. Has anyone else had similar experiences with this tricky differential diagnosis? TLDR: Peripheral vertigo often presents with sudden onset and intense symptoms, but central vertigo can mimic these symptoms, especially in older patients with posterior fossa lesions.",
+    "category": "Medical Anecdote",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Thanks for sharing this! I've had similar experiences with peripheral vertigo mimicking central symptoms, especially in older patients with a history of TIA or stroke. One thing to keep in mind is that peripheral vertigo often has a higher frequency, but the duration is typically shorter. Central vertigo symptoms can be more variable, but usually have a higher intensity. Has anyone used the 'Dizziness or Vertigo Algorithm' developed by the AAN to guide their decision-making?",
+        "color": "purple",
+        "links": [
+          {
+            "title": "AAN Vertigo Algorithm",
+            "url": "https://www.aan.com/Patients/Health-Information/Dizziness-and-Vertigo/"
+          }
+        ]
       },
       {
         "id": 2,
@@ -83,7 +312,7 @@
         "user": "Leo Chen",
         "role": "MS1",
         "city": "Montreal, QC",
-        "text": "Thanks, Dr. Thorne, for the great advice! I've heard that rapid correction of electrolytes can lead to hyperkalemia or hypokalemia, but I'm not sure what the mechanisms are. Can someone explain it to me in more detail?",
+        "text": "Hi Dr. Gupta, what's the difference between vertigo and dizziness? I've seen both terms thrown around in the ED, but I'm not sure when to use each.",
         "color": "green"
       },
       {
@@ -92,363 +321,17 @@
         "user": "Dr. Kevin Park",
         "role": "PGY1",
         "city": "Edmonton, AB",
-        "text": "Great topic, Dr. Thorne! In pediatrics, we need to be cautious when correcting electrolytes, especially in young children. One thing to keep in mind is the concept of 'osmotic shift' - when we correct electrolytes too quickly, it can lead to shifts in fluid distribution and potentially worsen the imbalance. This is especially true with potassium and sodium.",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "I've seen it before - the near-miss scenario. Don't forget to think about the underlying cause, Dr. Aris. Sometimes, kids have electrolyte imbalances due to adrenal insufficiency or thyroid dysfunction. We need to keep an eye out for those underlying conditions when we see electrolyte imbalances on the surface.",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": null,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Love it! Don't miss the electrolytes in pediatrics. It's like what Dr. Thorne said, we need to think 'Sodium and the story' when we see those patients. Always a good reminder!",
+        "text": "Great point about the algorithm! But how do you incorporate it into your workflow in the ED? Do you use it as a starting point for your diagnostic workup, or do you rely more on clinical judgment?",
         "color": "purple"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "You bet your bottom dollar we do, Turbo! Don't forget to check those electrolytes before we start pushing fluids. We've got to think about the whole picture, not just hydration.",
-        "color": "green"
-      },
-      {
-        "id": 7,
-        "parent_id": null,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "This is a great discussion, but I want to add some nuance. When it comes to correcting electrolytes, we need to consider the underlying physiology and the child's specific needs. For example, a child with heart failure may require more aggressive correction of electrolytes to prevent cardiac arrhythmias.",
-        "color": "blue"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Well said, Sarah! Nuance is key when it comes to electrolyte management. Remember, it's not just about pushing fluids or correcting electrolytes quickly. We need to consider the child's underlying physiology and the potential consequences of our actions.",
-        "color": "green"
-      },
-      {
-        "id": 9,
-        "parent_id": 7,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "Ugh, this is all so theoretical. Can we get to the practical side of things? What are the actual protocols for correcting electrolytes in pediatrics? Who's got the algorithm?",
-        "color": "red"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "Sorry, Dr. Rick, but this is the wrong approach. We need to focus on the underlying physiology and the child's specific needs, not just memorize some algorithm. Trust me, I've seen enough cases to know that it's not that simple.",
-        "color": "green"
-      }
-    ]
-  },
-  {
-    "id": "post_1",
-    "title": "Rant about missed strokes in ED - a case study from last night",
-    "body": "Had a close call last night in the ED.  A 55yo male with a history of hypertension and diabetes came in for a complaint of confusion and difficulty speaking.  Initial vitals were BP 220/100, HR 110, and O2 sat 96% on RA.  He was slightly lethargic and had a mild left facial weakness. I initially thought it was a possible TIAs.   However, on closer examination, he had a clear left hemiparesis and decreased level of consciousness.  We ordered a head CT and it showed a massive MCA infarct.   The patient ended up in a rehab facility for the rest of his life.  His wife claimed he had been experiencing symptoms for hours, but no one else was aware of it.  He was seen by another doc, and he sent him back out.  We have an RTQA coming up in 3 months and I am still traumatized by this case. I keep thinking about what we could have done differently.    TLDR; patient with stroke symptoms sent back out from ED, ends up with major brain damage.   Does anyone have any experience with missed strokes?  What are some strategies for recognizing them?  Is this a common issue in our field?",
-    "category": "EM",
-    "comments": [
-      {
-        "id": "1",
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "This is a tough case.  In my experience, missed strokes are often the result of over-reliance on the NIHSS score.   The patient in this case was likely scored in the 20s, which isn't low enough to warrant a thorough workup.   We need to think about the patient's history and physical exam.   For example, did the patient have a recent head or neck trauma?  Did they have a known vascular risk factor?   Did the patient have a fever?  All of these can increase the likelihood of a stroke.    I always remind myself that the NIHSS score is just a tool and should not be solely relied upon.  What do you guys think?",
-        "color": "purple"
-      },
-      {
-        "id": "2",
-        "parent_id": "1",
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "I love your emphasis on the physical exam, Dr. Thorne.  In this case, the patient had a clear hemiparesis.  This is a red flag for stroke.  I think we all need to be more diligent about performing thorough exams and less reliant on scoring systems.   I've got a case study on this topic on my blog: https://tinyurl.com/yz3f45.  It's a more detailed write-up, but it might be something to check out.  Thanks for bringing this up!",
-        "color": "green"
-      },
-      {
-        "id": "3",
-        "parent_id": "1",
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "What's the NIHSS score stand for?  Is it like a scorecard or something?",
-        "color": "purple"
-      },
-      {
-        "id": "4",
-        "parent_id": "3",
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "The NIHSS stands for the National Institutes of Health Stroke Scale.  It's a 15-item assessment tool used to quickly determine the severity of a stroke.  I've got a handout on this topic if you're interested",
-        "color": "blue"
-      },
-      {
-        "id": "5",
-        "parent_id": "1",
-        "user": "Dr. Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "I've been doing this for 20 years and I've never missed a stroke.  You guys just need to relax and trust your own judgment.  This NIHSS score thing is just a tool to help you out.  We don't need to be so paranoid about it.",
-        "color": "red"
-      },
-      {
-        "id": "6",
-        "parent_id": "5",
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "I'm not going to respond to this as I think it's unprofessional.  But as for missed strokes, I think we need to take a more holistic approach to patient care.  This includes paying attention to the patient's history, physical exam, lab results, and imaging.  By combining these pieces of information, we can often arrive at a more accurate diagnosis.  Let's focus on improving our skills and teamwork to better identify and manage strokes in the ED.",
-        "color": "green"
-      }
-    ]
-  },
-  {
-    "id": 11,
-    "title": "Just saw a patient with a scalp laceration that made me rethink my pressure dressing strategy",
-    "body": "Had a case last night where I placed a pressure dressing on a deep scalp laceration and the patient ended up with a perichondral hematoma. Thankfully, the CT scan showed no skull fracture. But it got me thinking, when should we really be using pressure dressings on scalp lacerations? Dr. Thorne, I'd love to hear your take on this.",
-    "category": "CME Review",
-    "comments": [
-      {
-        "id": 13,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": {
-          "text": "Pressure dressings are a must on deep scalp lacerations, especially those that involve the frontalis muscle. The goal is to reduce the chance of hematoma formation and minimize the risk of a perichondral hematoma. I like to use gauze strips behind the ear to apply pressure, and then wrap the head circumferentially with gauze.\n\nThe key is to reevaluate the patient after 24 hours to ensure that no hematoma has accumulated. If it has, we need to remove the pressure dressing and reassess our management plan.\n\nTLDR: Use pressure dressings on deep scalp lacerations to prevent hematoma formation and perichondral hematoma.",
-          "color": "blue"
-        }
-      },
-      {
-        "id": 16,
-        "parent_id": 13,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": {
-          "text": "Thank you, Dr. Thorne! I was thinking that pressure dressings might not be necessary on superficial lacerations. Can you clarify when we can skip using them?\n\nSpecifically, I was thinking of a case where the patient had a small, superficial laceration near the hairline. Would we still need to use a pressure dressing in that scenario?",
-          "color": "brown"
-        }
-      },
-      {
-        "id": 17,
-        "parent_id": 16,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": {
-          "text": "Great follow-up question, Leo! Superficial lacerations, especially those near the hairline, typically don't require pressure dressings. However, if the laceration is deep or involves the frontalis muscle, I'd still recommend using a pressure dressing to minimize the risk of hematoma formation.\n\nThat being said, the key is to assess each patient individually and use your clinical judgment. If you're unsure, it's always better to err on the side of caution and use a pressure dressing.\n\nThanks for keeping me on my toes, Leo!",
-          "color": "blue"
-        }
-      },
-      {
-        "id": 19,
-        "parent_id": 13,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": {
-          "text": "Amateurs. You're all making this way too complicated. If it's a scalp laceration, just close it and don't worry about the pressure dressing. The hematoma will either form or it won't. Who cares?",
-          "color": "red"
-        }
-      },
-      {
-        "id": 20,
-        "parent_id": 19,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": {
-          "text": "Ah, come on, Vic. You're not going to sit here and tell us that pressure dressings don't have a place in scalp lacerations? That's not how we practice medicine.\n\nPressure dressings can make a real difference in preventing hematoma formation and minimizing the risk of perichondral hematoma. You can't just dismiss the evidence-based medicine here.",
-          "color": "blue"
-        }
-      },
-      {
-        "id": 22,
-        "parent_id": 20,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": {
-          "text": "Evidence-based medicine? You want to talk about evidence-based medicine? I'll show you some evidence: a scalpel, some sutures, and a successful outcome.\n\nDon't get me wrong, pressure dressings might be useful in certain cases, but they're not a magic bullet. You need to use your clinical judgment and not rely on a one-size-fits-all solution.\n\nTLDR: Pressure dressings aren't a guarantee of success. Use your brain.",
-          "color": "red"
-        }
-      },
-      {
-        "id": 23,
-        "parent_id": 22,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": {
-          "text": "Wow, Vic, you're a real stand-up guy. I love how you can just dismiss the evidence and tell us to use our 'clinical judgment'.\n\nAs for you, Dr. Thorne, thank you for clarifying when pressure dressings might be useful. I appreciate your take on this.\n\nTLDR: Pressure dressings are useful in deep scalp lacerations, especially those involving the frontalis muscle.",
-          "color": "pink"
-        }
-      },
-      {
-        "id": 24,
-        "parent_id": 23,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": {
-          "text": "Thanks, Dr. Gupta! I'm glad I could help. And, Vic, don't worry, I won't be sending you a 'Dear Vic' letter anytime soon. You can keep your opinions, and I'll stick to the evidence-based medicine.",
-          "color": "blue"
-        }
-      }
-    ],
-    "image": "https://www.aafp.org/dam/brand/aafp/pubs/afp/issues/2017/0515/cover.jpg"
-  },
-  {
-    "id": 1,
-    "title": "Just had a dilated cardiomyopathy case that made me think...",
-    "body": "Had a 35-year-old woman present with orthopnea and fatigue. She had a cardiac cath last month showing EF 20% with no CAD. She's been on carvedilol + furosemide but today's echo showed an enlarged ventricle with poor contractility. I'm thinking dilated cardiomyopathy with constrictive cardiomyopathy as a consideration given the pericardial effusion on echo. But here's the thing - she also had elevated troponin levels at admission... and a normal coronary angiogram from last month. Anyone have thoughts on this case? Should I be considering a myocardial infarction or something else entirely?\n\nTLDR: Dilated cardiomyopathy, EF 20%, what's the deal with the troponin?",
-    "category": "Emergency Medicine",
-    "comments": [
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Well, let's start by ruling out a myocardial infarction. The troponin levels are not diagnostic for MI; they're elevated in many other conditions, including heart failure. That being said, I'd be concerned about a condition like Takotsubo cardiomyopathy. Have you checked for any precipitating stressors in her life, like a recent physical or emotional trauma?\n\nRead more about Takotsubo cardiomyopathy here: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4307183/",
-        "color": "purple"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Thorne, how do we diagnose Takotsubo cardiomyopathy? Is it just a clinical diagnosis or can we rely on some biomarkers?",
-        "color": "green"
       },
       {
         "id": 4,
         "parent_id": 3,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Actually, I think it's a bit more complicated than that. While there are some studies suggesting that specific biomarkers like BNP and troponin may be elevated in Takotsubo cardiomyopathy, these are not uniformly diagnostic. The diagnosis is often made based on a combination of clinical presentation, laboratory findings, and imaging studies. The Mayo Clinic consensus statement on Takotsubo cardiomyopathy does provide some guidance on diagnostic criteria, but these can be challenging to apply in clinical practice.\n\nSee the Mayo Clinic statement here: https://www.mayoclinic.org/guideline-updates/2018/06/takotsubo-cardiomyopathy/",
-        "color": "blue"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Just to add to the discussion, it's also worth considering other causes of elevated troponin levels in the absence of MI, such as cardiac surgery or myocardial stress testing. Have you checked her medical history to see if she's had any recent surgeries or stress tests?",
-        "color": "purple"
-      }
-    ]
-  },
-  {
-    "id": 12,
-    "title": "Today I Learned: Seizure duration and the 5-minute rule. Rant about over-reliance on the 30-minute status epilepticus cutoff. ",
-    "body": "Just saw a patient with a prolonged seizure that lasted exactly 29 minutes and 59 seconds, and the 30-minute rule would have sent us into full-blown status epilepticus mode. Meanwhile, seizures < 30 minutes are often not that uncommon, and we tend to downplay their significance.\n\nHas anyone else noticed that we over-rely on the 30-minute cutoff for status epilepticus, and that it can be overly simplistic? I'm all for consistency and clear guidelines, but we need a more nuanced approach to seizure duration and its prognostic implications.\n\nTL;DR: 30-minute status epilepticus rule might be too strict; we need to re-evaluate seizure duration and its clinical significance. Any thoughts?",
-    "category": "Emergency Medicine",
-    "comments": [
-      {
-        "id": 5,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Spot on, Dr. Festekjian! I've seen cases where patients have had seizures for 10-20 minutes without any obvious precipitating factors. Maybe it's time to revise our approach to seizure duration and focus more on clinical judgment and context, rather than just the clock.\n\nHas anyone looked into the European guidelines on status epilepticus? I think they have a more nuanced approach to defining status epilepticus, and it might be worth adapting some of those recommendations for our own practice. [link to European guidelines](https://url.com/status-epilepticus-guidelines) \n\nColor: blue",
-        "color": "blue"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "I've been saying this for years: the 30-minute rule is a cop-out. It's like we're relying on a crutch to avoid doing a proper assessment of the patient. I've seen too many cases where patients have had seizures for hours without any obvious complications, and we'd have sent them home if we'd followed the standard protocol. \n\nWhat's the current thinking on using serum glucose and electrolyte levels to guide treatment? And can we get some more data on the prognostic implications of prolonged seizures? \n\nColor: green",
-        "color": "green"
-      },
-      {
-        "id": 7,
-        "parent_id": 5,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Hi Dr. Gupta, I'm a bit confused - what do you mean by 'European guidelines on status epilepticus'? Are you saying we should adopt those guidelines for our practice? And what are some of the key differences between our current guidelines and the European ones? Thanks!",
-        "color": "#808080"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Hey Leo, the European guidelines on status epilepticus (SE) are a bit more comprehensive than our current guidelines. They emphasize the importance of clinical judgment and individualized care, rather than just relying on the 30-minute rule. They also discuss the use of serum glucose and electrolyte levels to guide treatment. \n\nHere's a link to the main paper on the subject: [link to paper](https://url.com/euro-se-guidelines)\n\nIt's not that we need to adopt the entire guidelines, but rather learn from some of the key recommendations and incorporate them into our own practice.",
-        "color": "#808080"
-      },
-      {
-        "id": 9,
-        "parent_id": null,
-        "user": "Dr. 'Ziggy' Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Lol, Martha, you know you're speaking my language now! I've had patients with prolonged seizures that were totally fine afterwards, and I've sent others to the hospital for what turned out to be minor issues. We need to get back to using some common sense and not just relying on the clock.\n\nHas anyone else noticed that the patients we're most worried about often have the least obvious presentations? And what's the deal with the current obsession with getting serum glucose levels ASAP? Can't we just use the 10-15 minute glucose slide test and save everyone some time?",
-        "color": "red"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Haha, Zigs, you're totally right about the patients we worry about most often having the least obvious presentations! I've had patients come in with subtle symptoms that we've blown way out of proportion. And don't even get me started on the 10-15 minute glucose slide test! That thing is a lifesaver. I use it all the time to screen for hypoglycemia. Anyone else love it as much as us?",
-        "color": "#C4FA5D"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Uh, guys, I think we're getting a bit sidetracked here... Can someone explain what the deal is with the 30-minute rule and how it relates to status epilepticus? I thought we were discussing this as a way to re-evaluate seizure duration, but it seems we're veering off into random territory... Help!",
-        "color": "#808080"
-      }
-    ]
-  },
-  {
-    "id": 7,
-    "title": "Lessons Learned: Disaster Preparedness in the ED - A Reality Check",
-    "body": "As many of us know, disaster preparedness is crucial in emergency medicine. Yesterday, I attended a workshop focused on disaster medicine and wanted to share some takeaways from the experience. The workshop highlighted several key points, including the importance of having robust communication networks, effective triage protocols, and sufficient resources for mass casualties. It also emphasized the need to regularly update and exercise our disaster plans to ensure effectiveness. A key takeaway for me was the critical role that mental health support plays in disaster response. I'd love to hear your thoughts on disaster preparedness and any experiences you've had with it.",
-    "category": "medicine",
-    "comments": [
-      {
-        "id": 4,
-        "parent_id": 7,
         "user": "Dr. Victor Sterling",
         "role": "Chief of Surgery",
         "city": "Calgary, AB",
-        "text": "Amateurs in the ED think they're prepared for disasters, but I've been dealing with these situations for years. The key to any successful disaster response is having a solid team in place, and that starts with the surgeons. You can't just throw a bunch of docs in the mix and expect to handle a mass casualty event. You need experienced leaders, adequate resources, and a clear plan of action.",
-        "color": "red",
-        "likes": 10
+        "text": "Amateurs relying on algorithms rather than clinical acumen. What's wrong with a good old-fashioned history and physical? The algorithm is nothing more than a guideline for those who can't think for themselves.",
+        "color": "red"
       },
       {
         "id": 5,
@@ -456,279 +339,725 @@
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "Respectfully, @Dr. Sterling, I think you're forgetting one crucial aspect: the role of nurses in disaster response. Without our quick thinking and efficient triage, the scene would quickly become chaotic. We also have access to a wealth of information from past events and can draw on that experience to provide critical care.",
-        "color": "blue",
-        "child": [
-          {
-            "id": 6,
-            "parent_id": 5,
-            "user": "Turbo Tom",
-            "role": "RN",
-            "city": "London, ON",
-            "text": "Amen to that! As a nurse, I've seen firsthand how critical it is to have a cohesive team in place, and @Dr. Gupta hit it on the head when she mentioned efficient triage. That's where our training comes in - staying calm under pressure and communicating effectively with the team.",
-            "color": "yellow"
-          },
-          {
-            "id": 7,
-            "parent_id": 5,
-            "user": "Sarah Jenkins",
-            "role": "MS3",
-            "city": "Ottawa, ON",
-            "text": "I'd love to hear more about past experience on disasters and the information you've gathered. Have you come across any particularly helpful resources or guidelines?",
-            "color": "teal"
-          }
-        ]
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "As a specialist, I agree with @Dr. Sterling on the need for experienced leaders and adequate resources. However, the ED's role in disaster response also includes providing emotional support to patients and families affected. That's equally as important, especially when considering the psychological impact of mass casualties. Anyone have suggestions for effective communication strategies in high-stress situations?",
-        "color": "purple",
-        "likes": 5
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "What kind of resources or strategies do you recommend for communicating effectively in emergency situations?",
-        "color": "green",
-        "likes": 2
-      },
-      {
-        "id": 10,
-        "parent_id": 7,
-        "user": "Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "Disaster preparedness is a joke - it's all hype and nothing more than a bunch of bureaucrats trying to justify their paychecks. Until we can have a solid system in place that actually addresses the root causes of disasters, this is all just a waste of time.",
-        "color": "red",
-        "likes": 0,
-        "child": [
-          {
-            "id": 11,
-            "parent_id": 10,
-            "user": "Martha 'The Hammer'",
-            "role": "RN",
-            "city": "Halifax, NS",
-            "text": "I'd love to see the 'logic' behind your stance, @Brock. You can't just dismiss effective disaster planning because it's not perfect.",
-            "color": "yellow",
-            "likes": 10
-          }
-        ]
-      }
-    ],
-    "image": "https://em.umaryland.edu/files/uploads/ems/7179489_orig.jpg"
-  },
-  {
-    "title": "Today I Learned: Approach to Traumatic Shock - The Art of Occult Injuries",
-    "category": "Casual Conversation",
-    "body": "Just saw a patient with cardiac tamponade and I was reminded of how easy it is to miss these occult injuries in traumatic shock. Does anyone else have a strategy for staying vigilant for these less common causes?",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I always ask myself 'Is there something more sinister going on here?' whenever I'm dealing with a traumatically injured patient in shock. It's like a reflex to me now. I've been doing this long enough to know that sometimes the obvious explanation just isn't the right one. Does anyone else do this?",
-        "color": "purple",
-        "children": [
-          {
-            "id": 3,
-            "parent_id": 1,
-            "user": "Leo Chen",
-            "role": "MS1",
-            "city": "Montreal, QC",
-            "text": "What do you mean by 'something more sinister'?",
-            "color": "green"
-          },
-          {
-            "id": 4,
-            "parent_id": 1,
-            "user": "Dr. Sarah Sharp",
-            "role": "EP",
-            "city": "Laval, QC",
-            "text": "I completely agree with you. Sometimes it's the subtle signs that give away the diagnosis. Like in cardiac tamponade, the patient might have a normal BP but a low perfusion status due to the compression of the heart. Or in tension pneumothorax, the patient might have a normal lung exam but a severe respiratory distress. We need to be aware of these subtleties to make the right diagnosis.",
-            "color": "green"
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "parent_id": null,
-        "user": "Dr. Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "I think we're getting a bit too obsessed with all this 'veterinarian- medicine' (Sorry, I had to!). Sometimes the obvious explanation is the right one. I've been doing this for 20 years and I still haven't seen a cardiac tamponade yet.",
-        "color": "orange",
-        "children": [
-          {
-            "id": 5,
-            "parent_id": 2,
-            "user": "Chad Broson",
-            "role": "Pre-med",
-            "city": "Brampton, ON",
-            "text": "Can you explain what you mean by 'obvious explanation is the right one'? Do you not think that we should be considering all possibilities even in a common case?",
-            "color": "green"
-          },
-          {
-            "id": 6,
-            "parent_id": 2,
-            "user": "Dr. Archibald Thorne",
-            "role": "Physician",
-            "city": "Saskatoon, SK",
-            "text": "I must say, I somewhat agree with the good Dr. Stone. Sometimes, when I was a young physician, I would go overboard trying to diagnose all sorts of unlikely conditions. Now, when I have an odd case, I try to stick with the most likely explanation and not get too carried away. After all, 'Occam's Razor' still applies!",
-            "color": "blue"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Frustrated with end-of-life care discussions in the ER",
-    "body": "Had a difficult patient encounter last night where the family was adamant that the pt's advance directive was 'just a formality'. They wanted us to 'do everything'. We had to have a lengthy discussion about goals of care, prognosis, and the futility of continued resuscitation. I wish there was a better way to address these conversations with patients and families before they end up in the ER.",
-    "category": "r/emergencymedicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "u/DrArisThorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "I totally understand where you're coming from. These conversations are never easy, but they're essential. I think the key is to have them early and often. We can't expect patients and families to think about end-of-life care until it's too late. I like to use a ' prognostic chunking' approach: framing prognosis in terms of hours to days, days to weeks, etc. Have you tried that?",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "u/LeoChen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Prognostic chunking, that sounds like a great approach! How do you determine which 'chunks' to use? Is it based on the patient's underlying condition or their functional status?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "u/DrSarahSharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "I agree with Aris. Prognostic chunking is a great way to communicate complex information to patients and families. I also like to use the 'ABCDE' framework: assess the patient's A(utonomy), B(information), C(onfidentiality), D(ignity), and E(ncounter support). It helps ensure we're addressing the patient's and family's emotional and practical needs.",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "u/ChadBroson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "What about when patients or families refuse to discuss end-of-life care? How do you handle those situations?",
-        "color": "orange"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "u/DrKevinPark",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "That's a great question, Chad. I think it's essential to acknowledge the patient's and family's wishes while also ensuring we're providing the best possible care. Maybe we can 'park' the conversation for now and revisit it later when they're more receptive?",
+        "text": "Dr. Sterling, with all due respect, we all use our clinical judgment in conjunction with guidelines. The algorithm simply helps us organize our thought process and identify red flags. Don't you ever miss a diagnosis because you rely too heavily on your 'clinical acumen'?",
         "color": "green"
       },
       {
         "id": 6,
         "parent_id": 1,
-        "user": "u/MarthaTheHammer",
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "I'm not a doctor, but I've had vertigo for months. Does anyone have any advice on how to manage it besides going to the ED?",
+        "color": "purple"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Barnaby, me poor lad, I'm so sorry to hear that. Have you tried vestibular rehabilitation physical therapy? It's helped many of me patients with chronic vertigo. Also, try reducing your salt intake and caffeine consumption. Some people find it helps with the spinning.",
+        "color": "pink"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Martha 'The Hammer'",
         "role": "RN",
         "city": "Halifax, NS",
-        "text": "As a nurse, I've seen plenty of situations where families are unwilling to discuss end-of-life care. What I've learned is that sometimes they just need a safe space to process their emotions. We can offer them a private room or a quiet area and take things at their pace.",
-        "color": "orange"
+        "text": "Sparkle-Eyes, while your suggestions are well-intentioned, we shouldn't be doling out medical advice on Reddit. Let's stick to the facts, shall we?",
+        "color": "gray"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Martha, you're right. However, sometimes sharing our experiences and advice can be helpful. Just make sure to give accurate info and avoid scaring people. Sparkle-Eyes, your suggestions were great, but perhaps we can provide more evidence-based recommendations?",
+        "color": "green"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Hey guys, I've been working on a project to create an online resource for emergency medicine topics. Would love some input from you all. Any ideas for topics I should cover?",
+        "color": "blue"
       }
     ]
   },
   {
-    "title": "Just saw a patient with a spinal cord compression case. What are your go-to tests for diagnosing anterior cord syndrome vs central cord syndrome?",
-    "body": "I'm an EP at a busy hospital in a major city. Yesterday I saw a 35-year-old patient who'd been in a MVC. He had a C2 fracture and complained of quadriparesis with more severe weakness in his upper extremities than lower extremities. His exam was consistent with central cord syndrome. But what are your go-to tests for differentiating between anterior cord syndrome and central cord syndrome? I've read that MRI can show anterior cord compression, but I've also seen cases where CT was sufficient.",
+    "id": 3,
+    "title": "Child Abuse and Neglect: A Never-Ending Lesson",
+    "body": "Just saw a patient with a classic case of Munchausen syndrome by proxy. The child had multiple injuries and illnesses, but the parents' inconsistent stories and conflicting reports raised red flags. I've seen it before, but it never gets any easier. Every time, I wonder how someone can do this to their own child. We need to keep fighting for these kids, and for their parents, too, who often don't even realize what's happening. Does anyone have any recent cases to share? Or tips on how to handle these situations?",
     "category": "Emergency Medicine",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "MD",
+        "city": "Toronto, ON",
+        "text": "TLDR: Munchausen Syndrome by Proxy. One of the most heartbreaking cases in EM. It's all about the power dynamics \u2013 the parents feel a sense of control, but it's at the expense of their child's well-being. We need to be vigilant and report any suspicious cases to authorities. I've seen it in pediatric patients, but it can happen in any age group. [link to article on Munchausen Syndrome by Proxy](http://www.medscape.com/viewarticle/883111)",
+        "color": "blue"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MD",
+        "city": "Ottawa, ON",
+        "text": "Great post, Dr. Thorne! I've noticed that in some cases, the parents are so invested in their child's 'sickness' that they start to manufacture evidence, even fabricating symptoms or lab results. What's the best way to deal with this? Should we trust our own clinical judgment, or try to 'debunk' their fake symptoms?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Dr. Maya Gupta",
+        "role": "MD",
+        "city": "Mississauga, ON",
+        "text": "I agree with Sarah, Dr. Thorne. It's essential to be aware of our own biases and not get sucked into the parents' narrative. In my experience, the most effective way to address these cases is to focus on the child's best interests and not engage with the parents' manipulation. Let's keep in mind that our job is to protect the child, not to 'win' an argument with the parents. What's your approach, Dr. Gupta?",
+        "color": "purple"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "I'm a pre-med student, and I'm doing a research project on child abuse and neglect. Can you guys provide some resources on the topic? I'd love to learn more about it!",
+        "color": "gray"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Elena Varkov",
+        "role": "MD",
+        "city": "Quebec City, QC",
+        "text": "Ah, Chad! There are many excellent resources available online. Here are a few articles and websites that might be helpful:\n\n\t* The American Academy of Pediatrics (AAP) has a wealth of information on child abuse and neglect. Check out their [website](http://www.aap.org).\n\n\t* The National Child Abuse and Neglect Clearinghouse (NCAN) provides [resources](http://www.calib.ca.gov/cab/child-abuse-and-neglect-clearinghouse) for professionals and parents.\n\n\t* The Munchausen Syndrome by Proxy page on [Wikipedia](http://en.wikipedia.org/wiki/Munchausen_syndrome_by_proxy) is a great starting point. Good luck with your research!",
+        "color": "pink"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Archibald Thorne",
+        "role": "MD",
+        "city": "Saskatoon, SK",
+        "text": "In my day, we called it 'factitious disorder.' A most distasteful condition, indeed. I remember one case where a mother would deliberately induce infections in her child just to get attention. The social worker had to intervene before things got out of hand.",
+        "color": "brown"
+      },
+      {
+        "id": 7,
+        "parent_id": 1,
         "user": "Turbo Tom",
-        "role": "",
+        "role": "RN",
         "city": "London, ON",
-        "text": "For me, it's always a CT of the cervical spine first. If I see an anterior cord compression on the CT, that's a big red flag for anterior cord syndrome, but sometimes you'll see a more central compression on the CT that's consistent with central cord syndrome. In those cases, I'll get an MRI to better visualize the cord and look for any signs of compression or injury. TLDR: CT for anterior cord compression, MRI for more complex cases.",
+        "text": "This is why we need more social workers and psychologists on our teams! We can't just 'fix' these cases without addressing the underlying issues. [link to article on the role of mental health professionals in EM](http://www.healthcaredirect.com/emergency-medicine-social-work)",
+        "color": "red"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Ain't that the truth, Turbo Tom? We need a holistic approach that includes mental health support, social services, and education for parents. It's all about the child's well-being, and we need to work together to get it right!",
+        "color": "orange"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "I've seen too many cases where the child's best interest comes last. We need to get back to basics and start focusing on the evidence, not the parents' stories. Let's not forget, folks: the child is the victim here.",
+        "color": "yellow"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. Henry Oldman",
+        "role": "MD",
+        "city": "Victoria, BC",
+        "text": "Well said, Martha! We need to rely on our clinical judgment and the evidence, not get manipulated by the parents' narrative. A long-term view of the child's history and physical exam are crucial in these cases.",
+        "color": "teal"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Leo Chen",
+        "role": "Pre-med",
+        "city": "Montreal, QC",
+        "text": "I'm confused \u2013 isn't the diagnosis of Munchausen Syndrome by Proxy pretty rare? What are the most common signs and symptoms we should look out for?",
+        "color": "gray"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Dr. Kevin Park",
+        "role": "MD",
+        "city": "Edmonton, AB",
+        "text": "Leo, you're right \u2013 Munchausen Syndrome by Proxy is a relatively rare diagnosis. However, it's essential to be aware of the potential signs and symptoms, such as inconsistent stories, conflicting reports, and a general sense of manipulation. Remember, a child's illness can be a 'factitious' or 'fabricated' condition, and it's crucial to consider this diagnosis in the context of the child's behavior and the parents' behavior.",
+        "color": "green"
+      }
+    ],
+    "image": "https://www.cdc.gov/mmwr/volumes/69/wr/figures/mm6949a1-F1.gif?_=33542"
+  },
+  {
+    "id": 1,
+    "title": "Rant about Low-Probability ACS: When to Ditch the Workup?",
+    "body": "Just saw a patient with typical chest pain that was described as pleuritic, positional, sharp, and stabbing. Initial ECG and cardiac biomarkers were normal, and the troponin was trending downward. Despite my initial instinct to keep her in the hospital for a few more hours of observation, she was discharged home after a brief conversation with the ER doc and the admitting cardiologist. As an EP, I'm left wondering: when can we safely ditch the workup for a patient with possible ACS?",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great post, [username]! I think the key is to look at the pretest probability of ACS based on the patient's history, physical, and initial ECG. If we're <2%, I'm with you on ditching the further workup. That being said, we should always have a low threshold for admitting patients with unstable angina symptoms, even if the workup is initially unrevealing. Have you ever used the HEART score to risk-stratify these patients?",
         "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "I agree with Turbo Tom. Anterior cord compression on a CT is a big risk factor for anterior cord syndrome, but it's not the only thing to consider. Clinical correlation is key. Have the patient got any history of motor weakness or sensory loss? Any bowel or bladder incontinence? You need to look at the whole picture and not just rely on one test. And always remember that anterior cord syndrome is a medical emergency. Time is of the essence here.",
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs who don't bother to get the patient's story right are often the ones missing the big one. We need to get a better history, especially when it comes to atypical symptoms like pleuritic chest pain. I've seen patients with NSTEMI who presented with what sounded like a classic case of 'tension headache.' Don't be so quick to ditch the workup, EPs. Let's not forget, the diagnosis is 9/10 clinical.",
         "color": "green"
       },
       {
         "id": 3,
         "parent_id": 1,
-        "user": "Sarah Jenkins, MS3",
-        "role": "",
-        "city": "Ottawa, ON",
-        "text": "What about using MRI to look for diffusion restriction? My teacher said it's a good way to diagnose spinal cord injury, especially in the acute phase.",
-        "color": "blue"
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Lol, love the 'tension headache' reference, Doc V! But seriously, you're right \u2013 we need to get a better history. I've been using the Calgary Chest Pain Rule to help me decide when to admit or discharge patients with possible ACS. Has anyone else tried this?",
+        "color": "green"
       },
       {
         "id": 4,
-        "parent_id": 3,
-        "user": "Turbo Tom",
-        "role": "",
-        "city": "London, ON",
-        "text": "Diffusion restriction is a great way to look for acute injury, but it's not specific to spinal cord. In my experience, it's been more commonly used to look for brainstem injury or other intracranial pathology. So while it's a useful tool, it's not a substitute for a thorough clinical exam and a high-quality MRI. And remember, the key is to look for the whole picture, not just focus on one test or finding.",
-        "color": "purple"
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "I've read that the HEART score is a useful tool for risk-stratifying patients with possible ACS. Can someone explain how it's calculated? Is it just a simple checklist, or is there more to it?",
+        "color": "blue"
       },
       {
         "id": 5,
-        "parent_id": 2,
-        "user": "Dr. Kevin Park, PGY1",
-        "role": "",
+        "parent_id": 4,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
         "city": "Edmonton, AB",
-        "text": "I've seen cases where patients with anterior cord syndrome have normal CT scans but abnormal MRI scans. What's the thinking here? Is the CT just missing it, or is there something else going on?",
+        "text": "According to my reading, the HEART score is a 10-point scale based on 5 clinical variables: history (2 points), ECG (2 points), biomarkers (2 points), chest pain characteristics (2 points), and risk factors (2 points). Is that correct? How do we apply this score in practice?",
+        "color": "blue"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "That's right, Doc K! The HEART score is a useful tool, but like all risk-stratification tools, it's not foolproof. We should consider other factors like the patient's clinical presentation, ECG changes, and biomarker trends when deciding whether to admit or discharge. TLDR: don't rely solely on the HEART score.",
+        "color": "purple"
+      },
+      {
+        "id": 7,
+        "parent_id": 2,
+        "user": "Dr. Barbara Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "The thing is, [username], EPs are already doing a better job of identifying atypical symptoms than you give us credit for. But let's not get sidetracked \u2013 we do need to talk about the importance of getting a good history, especially from patients with uncertain symptoms. Remember that 5% rule?",
+        "color": "green"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Hey guys, I'm just starting out in med school, and I'm not sure what the 5% rule is. Can someone explain it in simple terms?",
+        "color": "blue"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "Ah, [username], I think you're referring to the 5% threshold for admitting patients with uncertain symptoms? In general, if you think the patient's probability of ACS is <5%, you might want to consider a more conservative approach \u2013 e.g., sending them home for further evaluation or monitoring before deciding to admit. Any thoughts, guys?",
+        "color": "red"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I see what you mean, Doc H. But what if the patient is still experiencing symptoms, and you're worried about a cardiac issue? In that case, wouldn't it be better to err on the side of caution and admit them, even if the risk is <5%?",
+        "color": "blue"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "Good heavens, young man! Of course, we must always err on the side of caution when it comes to cardiac issues. I recall a patient from my time, a chap who came in with a classic case of angina pectoris... Ah, but I'm getting ahead of myself. Any other thoughts on this, my dear colleagues?",
+        "color": "red"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "I'm a bit confused, Doc. Are we talking about the 5% rule again? I had a weird experience with chest pain recently, but the doctor said it was just a pulled muscle... Could you help me figure out what's going on with my symptoms?",
+        "color": "teal"
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "title": "Rant about neonatal resuscitation in the real world",
+    "body": "Just had a nightmare with a neonate that died due to poor resuscitation. We all knew it was going to be a tough one, birth mom was 14 weeks premature, and the kid was blue from the get-go. But seriously, who remembers the correct sequence for neonatal resuscitation in the heat of the moment? I'm talking about the temperature stuff first, then the airway, then the breathing. Who needs a protocol when the baby's not breathing?",
+    "category": "emergency medicine",
+    "comments": [
+      {
+        "id": 101,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Amateurs, am I right? I mean, come on, we all know this. Temperature, airway, breathing, circulation, and protection of the airway, breathing, and circulation (ABCs and P). The ACOG guidelines are clear - temperature control with a radiant warmer or a polyethylene bag, and then clear the airway with suctioning only if necessary. You can't just start suctioning like a mad scientist without thinking, it can cause more harm than good.",
+        "color": "purple"
+      },
+      {
+        "id": 102,
+        "parent_id": 101,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Wait, what do you mean by 'temperature control'? Do we use some kind of thermometer, or is it more like a temperature probe? And when do we do the airway suctioning - is it at the very beginning, or after we've done the initial ABCs?",
+        "color": "green"
+      },
+      {
+        "id": 103,
+        "parent_id": 101,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "TBH, I hate when the interns get the sequence wrong. Like, what even is the point of learning this stuff if you're not gonna remember it? I mean, I get it, it's stressful, but you gotta stay calm and follow the protocol. Temperature control is basically just making sure the kid doesn't get too cold or too hot - use a radiant warmer or bag, and make sure it's set to the right temp. Airway suctioning should only be done if the kid is having trouble breathing, or if they just spit out some meconium, you feel?",
+        "color": "purple"
+      },
+      {
+        "id": 104,
+        "parent_id": 103,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Actually, if I recall correctly, the AHA suggests that suctioning the airway in a neonate should not be done unless the kid has a confirmed airway obstruction. Otherwise, like you said, it's best to just keep them quiet and warm and let their airway clear on its own. And re: temperature control, the CDC recommends using a thermometer or a thermal probe to assess the neonate's temp. Does anyone have some references on this stuff I can use for my presentation?",
+        "color": "green"
+      },
+      {
+        "id": 105,
+        "parent_id": 101,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Y'all are talking about suctioning, but what about those polyethylene bags? Do they really keep the kid warm? And how do we get the oxygen flowing if the kid is still trying to breathe on their own?",
+        "color": "purple"
+      },
+      {
+        "id": 106,
+        "parent_id": 105,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "Actually, the polyethylene bags are designed to provide a warm, humidified environment for the neonate. As far as oxygen flow, the kid will usually start breathing on its own after a bit, unless they've got some underlying issue, of course. And don't forget, folks, the golden rule is to keep the kid calm and quiet - it's usually the momma who'll get anxious and start freaking out while we're trying to resuscitate the kid. Just keep telling them to breathe deep and relax, like they're at a yoga retreat or something.",
+        "color": "pink"
+      },
+      {
+        "id": 107,
+        "parent_id": null,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I don't know guys, I feel like we're overthinking this. Can't we just give the kid some oxygen and let them breathe on their own? What's the worst that could happen?",
+        "color": "green"
+      },
+      {
+        "id": 108,
+        "parent_id": 107,
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "Overthinking? You think?! This is serious business, kid. If we don't do it right, the kid's gonna code. Oxygen won't fix everything, no matter how much you breathe into them. Let's get back to the basics here - ABCs and P, remember? And what's up with this 'golden rule' guy? Calm and quiet? Are you kidding me? That kid needs some serious air support, like pronto.",
+        "color": "purple"
+      },
+      {
+        "id": 109,
+        "parent_id": 101,
+        "user": "Dr. Phil Muddle",
+        "role": "EP",
+        "city": "Regina, SK",
+        "text": "Uh, I think I remember this stuff from med school... isn't there something about using the Bag-and-Mask Ventilation if the kid's not breathing on their own? And doesn't the ACOG say to use a face mask or a resuscitation bag if the kid's not breathing at all? Is that right?",
+        "color": "pink"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Just saw a patient with a classic case of posterior epistaxis... ",
+    "body": "TLDR: patient with significant posterior epistaxis, failed anterior packing, ended up with 2-3 days of hospitalization and an ENT consult. Anyone else have to deal with this in the ER?",
+    "category": "emergency-medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Oh man, this is a tough one. I once saw a patient with an undiagnosed coagulopathy who presented with a 24 hour anterior epistaxis that ended up in a nasal packing failure and eventual transfusion. One thing that might help prevent the posterior migration is using a nasal speculum to digitally compress the posterior septum before packing. Has anyone else had success with this?",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Hi Dr. Maya, I'm not sure about digitally compressing the posterior septum. Wouldn't that just cause more bleeding in the posterior part of the nasal cavity?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Actually, Dr. Maya, I think you might be thinking of a different intervention. In the context of nasal packing, a nasal speculum is often used to visualize the bleeding site. I'd be curious to hear more about the digital compression technique you're referring to.",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Lol, just read about the 'digital compression technique' and it seems to be a common practice. So, Dr. Maya, can you share some more about how you learned about it?",
+        "color": "green"
+      },
+      {
+        "id": 5,
+        "parent_id": 3,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Thanks, Sarah, that makes sense. I'm still a bit unclear about the procedure. Can you link to a resource where I can learn more?",
         "color": "green"
       },
       {
         "id": 6,
         "parent_id": 5,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "The thinking is that the anterior cord compression may be a transient or intermittent finding, especially if the cord is still in a vulnerable state after the injury. In those cases, the MRI may be more sensitive than the CT. It's also possible that the CT scan isn't capturing the full extent of the compression, maybe because it's more central or the compression is not as severe. The key is to have a good clinical correlation and use all the available information to make a decision.",
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Here's a link to an SMACC abstract on nasal packing that mentions digital compression. [link]. Also, I'd recommend checking out the latest edition of Tintinalli's Emergency Medicine for more comprehensive information.",
         "color": "green"
       },
       {
         "id": 7,
-        "parent_id": 5,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I've found that some patients with anterior cord syndrome have a 'sparing' of the anterior cord on MRI, which can be a red flag. What's your take on this? Is this still consistent with anterior cord syndrome?",
-        "color": "blue"
+        "parent_id": null,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "I'm still a bit confused about the role of nasal packs in managing epistaxis. In my limited experience, it seems like they just cause more problems than they solve. Has anyone else had a similar experience?",
+        "color": "purple"
       },
       {
         "id": 8,
         "parent_id": 7,
-        "user": "Turbo Tom",
-        "role": "",
-        "city": "London, ON",
-        "text": "Yeah, that's a great point. The 'sparing' of the anterior cord is often associated with anterior cord syndrome, especially in the context of a high anterior cord compression. But like with any other diagnosis, it's not the only thing to consider. Look at the whole picture and use clinical correlation to come to a diagnosis.",
-        "color": "purple"
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "I've seen my fair share of epistaxis and in my opinion, nasal packs are often used as a crutch when we don't take the time to properly evaluate and manage the patient. What about using anterior packs with an elastic bandage to control the bleeding? I've had success with that approach.",
+        "color": "green"
       }
     ],
-    "image": "https://www.ebmedicine.net/media_library/images/2021-EMP-Publication-Article/10-October/Clinical-Pathway-for-Emergency-Department-Management-of-Blunt-Cervical-Trauma-in-Adult-Patients-TH.png"
+    "image": "http://emupdates.com/wp-content/uploads/2017/12/epistaxis.png"
+  },
+  {
+    "id": 7,
+    "title": "Just saw a patient with severe respiratory depression after PSA, TLDR: PSA dose calculation and monitoring is key",
+    "body": "I'm still trying to process what just happened in the ED last night. We had a 65-year-old patient coming in for a routine procedure, and given his history of COPD and asthma, I decided to use a moderate dose of midazolam (0.05 mg/kg) and fentanyl (2 mcg/kg) for procedural sedation.\n\nFast forward to 10 minutes later, the patient is unresponsive and requiring BVM. Luckily, we were able to get him intubated quickly, but the code was long and intense. The patient ended up requiring a 2-hour admission for respiratory failure.\n\nNow, I know what you're thinking - 'PSA dose calculation and monitoring is key, etc.' And you're right. But what I want to bring up is the importance of considering the patient's physiological reserve and the depth of sedation when choosing a PSA regimen.\n\nIn patients with significant comorbidities like COPD and asthma, the risk of respiratory depression is much higher, even with moderate doses of opioids and benzodiazepines. And let's not forget the potential for synergistic effects between these agents, which can increase the risk of respiratory depression even further.\n\nSo, what can we do to mitigate these risks? First, let's focus on choosing a PSA regimen that balances effectiveness with safety. In patients with significant comorbidities, I often opt for a combination of etomidate and fentanyl, which has a lower risk of respiratory depression compared to midazolam and fentanyl.\n\nSecond, let's make sure we're monitoring our patients closely, not just for respiratory depression but also for other potential complications like hypotension and cardiac arrest. And finally, let's be realistic about the limitations of PSA and be prepared to escalate care quickly if things go sideways.\n\nTL;DR - PSA dose calculation and monitoring is key, but we also need to consider the patient's physiological reserve and choose a regimen that balances effectiveness with safety.",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great reminder, OP. The key is to find that sweet spot between effective sedation and safety. I try to use etomidate as a first-line agent whenever possible, especially in high-risk patients like those with COPD.\n\nOne thing I want to add is the importance of pre-procedure evaluation and optimization. Have you considered adding a formal pre-procedure assessment to your workflow? This can help identify patients who are at high risk for complications and allow us to take steps to mitigate those risks.\n\nBy the way, have you seen this paper on etomidate dosing in high-risk patients? [link]\n\nUpvotes: 50",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Dr. Thorne, I've been reading about the use of etomidate in high-risk patients, but I'm still a bit unclear on the optimal dosing strategy. Can you elaborate on this paper you mentioned? Specifically, what do the authors recommend for high-risk patients like those with COPD?\n\nAlso, what's the best way to monitor for respiratory depression in these patients? Are there any specific parameters or tools you recommend using?\n\nDownvotes: 2",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Great discussion, everyone! Just wanted to chime in and say that I've found etomidate to be an incredibly useful agent in my experience with high-risk patients. One thing I've noticed is that it's essential to be mindful of the patient's hemodynamic status, as etomidate can cause significant vasodilation and hypotension.\n\nHas anyone else encountered this issue, or have any tips for managing it? I'd love to hear.\n\nUpvotes: 25",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Love this thread! Just want to say that I've seen some crazy complications from PSA, and I'm all about emphasizing the importance of careful monitoring and dose calculation. One thing I always do is check the patient's vitals every 5 minutes during the procedure, and I make sure our anesthesiologist is aware of any changes or concerns.\n\nDoes anyone else have a similar workflow or any other monitoring tips to share?\n\nUpvotes: 10",
+        "color": "green"
+      },
+      {
+        "id": 5,
+        "parent_id": 3,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Hi, Dr. Gupta! Great point about the importance of monitoring hemodynamic status. What do you mean by 'significant vasodilation and hypotension'? Can you explain a bit more?\n\nI've been reading about etomidate and its effects on blood pressure, but I'm still a bit confused.\n\nDownvotes: 1",
+        "color": "blue"
+      },
+      {
+        "id": 6,
+        "parent_id": 4,
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "Turbo Tom, I completely agree with you about the importance of monitoring and dose calculation. One thing I do is consult with anesthesia before proceeding with PSA, especially in high-risk patients. It's always better to err on the side of caution and make sure we're both on the same page.\n\nDoes anyone else have any tips for improving our PSA workflow or reducing complications?\n\nUpvotes: 40",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Today I Learned: Don't forget to order a D-dimer on that COPD exacerbation!",
+    "body": "I had a patient come in with a classic presentation for a COPD exacerbation. Wheezy, coughing up a lung, etc. I did the usual workup: CXR, ABGs, got the patient on oxygen and steroids, and sent them to the floor for monitoring. But as I was filling out the discharge meds, I remembered to mention to the patient to follow up with their pulmonologist to adjust their inhalers...and then it hit me: I never ordered a D-dimer! Thankfully, the patient didn't have a pulmonary embolism. But man, I felt like a rookie. Has anyone else had a 'duh' moment like this in their career? TLDR: Always remember to order a D-dimer in COPD exacerbation! (1 vote) [r/EM](https://www.reddit.com/r/EM/)",
+    "category": "Medical Stories",
+    "comments": [
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "#1 reason why we have EM attending rounds: to remind us to order the D-dimer! It's a good thing I was there to cover for you. COPD exacerbations can be tricky, especially with comorbidities like CHF or diabetes. And, of course, there's the issue of PTE as a cause of death. Anyways, don't be too hard on yourself. We've all been there.\n\nAlso, has anyone noticed an increase in COPD exacerbations this winter? I've seen a handful of them in just the past week.",
+        "color": "purple"
+      },
+      {
+        "id": 5,
+        "parent_id": 3,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "Ah, yes, yes, yes, PTE! I was saying to myself just last week in my office, 'Good Lord, these patients with COPD are going to kill us all off one day!' But in my day, we didn't have all these new-fangled D-dimer tests. No sir, we relied on the good ol' CXR, ECG, and basic clinical judgment. And you know what? It worked just fine back then!\n\nBy the way, has anyone heard of this new contraption called 'statin'? The patients with CAD or CHF seem to be benefiting from it. Can we talk more about that in class next week?",
+        "color": "green"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "I had a similar experience with a patient who presented with a COPD exacerbation, but the interesting thing was the patient's blood glucose levels. They were significantly elevated, and as an aside, the patient told me they'd recently started a new diabetes medication. I brought this up with the team, and we ended up ordering an HbA1c to rule out diabetes as a potential precipitant of the exacerbation.",
+        "color": "blue"
+      },
+      {
+        "id": 7,
+        "parent_id": 2,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Wait, but how did you know the patient was on new meds? Was it just a clinical hunch or did you have a specific reason to think that? Could you expand on that for me?",
+        "color": "red"
+      },
+      {
+        "id": 9,
+        "parent_id": 7,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "It was a combination of things, but the main reason was when I asked the patient about changes in their routine medications, they mentioned they'd recently started a new metformin regimen. But it wasn't until I looked at the patient's history that I saw they'd been previously on metformin and had been stable.",
+        "color": "green"
+      },
+      {
+        "id": 11,
+        "parent_id": 9,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Isn't metformin an SGLT-2 inhibitor though? Could this be related to the new class of diabetes medications that's been getting so much attention in the literature?",
+        "color": "purple"
+      },
+      {
+        "id": 13,
+        "parent_id": 11,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Actually, metformin is a biguanide, not an SGLT-2 inhibitor. And yes, there's been a lot of recent research on the impact of SGLT-2 inhibitors on cardiovascular outcomes. Perhaps we can discuss that in our EM rotation?",
+        "color": "green"
+      },
+      {
+        "id": 15,
+        "parent_id": 13,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "What if we forget to order the D-dimer and the patient ends up with a pulmonary embolism? Is that not a worse outcome than the patient getting a D-dimer and then having false positives or false negatives?",
+        "color": "blue"
+      },
+      {
+        "id": 17,
+        "parent_id": 15,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Wait, wait, wait! As a pre-med student, I thought the gold standard for diagnosing pulmonary embolism was the CT scan? Why would we even need a D-dimer if we can just do a CT scan?",
+        "color": "red"
+      },
+      {
+        "id": 18,
+        "parent_id": 17,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Aren't D-dimers for ruling in pulmonary embolism, not diagnosing? So even if the D-dimer is negative, if you still suspect a pulmonary embolism, you would order a CT scan?",
+        "color": "blue"
+      },
+      {
+        "id": 20,
+        "parent_id": 18,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "You're both right, in that D-dimers can be useful for ruling in pulmonary embolism and CT scans are better for diagnosing. But let's not forget, D-dimers also have a high false positive rate, which is why we often see patients with elevated D-dimers who end up being perfectly fine. So, always consider the patient's context and other risk factors when deciding whether to order a D-dimer or head straight to the CT scan.",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "id": 12345,
+    "title": "Urinary Retention Rant: The Catheter Conundrum",
+    "body": "Had a crazy shift last night with multiple patients presenting with urinary retention. One guy had a 1200cc bladder and still managed to void less than 100cc after the cath was placed. Anyone else have experience with this? TLDR: How do you manage patients with giant bladders after catheterization? \n\nI know the standard protocol is to monitor urine output for 4-6 hours, but what about those patients who just won't pass the urine? \n\nI've tried everything: foley cath, intermittent cath, even had to call urology to help with the Coud\u00e9 cath. \n\nAnybody got some tips or tricks for managing these patients? Help a doc out!",
+    "category": "emergency medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Oh man, I totally feel you. I had a patient with a 1500cc bladder last week and he was still voiding less than 100cc after the cath was placed. I ended up having to call the urologist to help with the Coud\u00e9 cath as well. They recommended using a 24Fr foley cath and leaving it in for a few days to help the bladder recover. Has anyone else tried this approach?",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I've always wondered about the optimal catheter size for patients with giant bladders. Do you think a larger catheter would just create more problems or is there a sweet spot somewhere?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Actually, according to one study, using a larger catheter can lead to increased bladder spasms and discomfort. Maybe we should be focusing on optimizing the catheter placement technique instead? Has anyone looked into using 3D ultrasound to guide catheter placement?",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 2,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Lol, Leo, don't worry about the optimal catheter size, just get the job done! We've got enough to worry about without getting bogged down in the nuances of catheter sizing. But seriously, has anyone tried using a catheter with an embedded antispasmodic?",
+        "color": "red"
+      },
+      {
+        "id": 5,
+        "parent_id": 3,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "Sarah, you're spot on about optimizing catheter placement. I've seen urologists use 3D ultrasound to guide catheter placement, and it's a game changer. I'm not aware of any studies on the use of 3D ultrasound for catheter placement, though. Has anyone got a link or a reference for that?",
+        "color": "orange"
+      },
+      {
+        "id": 6,
+        "parent_id": 4,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Thanks for the chuckle, Turbo! But seriously, using a catheter with an embedded antispasmodic? That's actually not a bad idea. Has anyone tried this?",
+        "color": "pink"
+      },
+      {
+        "id": 7,
+        "parent_id": 5,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Hey Martha, I think you might be thinking of the study by [author name] where they used 3D ultrasound to guide catheter placement in patients with complex urological conditions. It's a bit of a long story, but basically, they found that using 3D ultrasound improved catheter placement accuracy and reduced complications.",
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "parent_id": 6,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Kevin, actually, I tried using a catheter with an embedded antispasmodic last week, and it worked like a charm! The patient was able to void without any issues.",
+        "color": "purple"
+      },
+      {
+        "id": 9,
+        "parent_id": 7,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Aww, thanks for sharing, Maya! I'll have to remember that trick for next time.",
+        "color": "green"
+      },
+      {
+        "id": 10,
+        "parent_id": 8,
+        "user": "Dr. Phil Muddle",
+        "role": "EP",
+        "city": "Regina, SK",
+        "text": "Wait, what's going on? I thought we were talking about catheters... Did I miss something? Can someone bring me up to speed?",
+        "color": "blue"
+      }
+    ],
+    "image": "https://www.ebmedicine.net/media_library/images/2021-EMP-Publication-Article/03-March/Clinical-Pathway-for-Emergency-Department-Diagnosis-and-Treatment-of-Acute-Urinary-Retention-in-Adult-Males-Thumbnail.png"
   }
 ]
