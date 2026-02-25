@@ -1,16 +1,16 @@
 [
   {
-    "title": "Just saw a patient with a wound closure conundrum",
-    "body": "Today I learned that wound closure is not just about the method, but about the technique. I had a patient come in with a laceration that was under moderate tension. I was tempted to use staples, but then I remembered that I needed to consider the cosmetic outcome, not just the strength of the closure. Dr. Thorne reminded me that the technique of closure is key, not the specific device.",
-    "category": "Wound_Closure",
+    "title": "Just saw a patient with otitis externa - reminder to think about MRSA.",
+    "body": "Just had to re-treat a pt for otitis externa with ofloxacin drops - after a quick culture, it came back MRSA. Reminder to think about Pseudomonas, but don't forget about MRSA, especially in this climate. Anybody have tips on managing MRSA in the external auditory canal?",
+    "category": "Emergency Medicine",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": "Dr. Ziggy Zalesky",
+        "user": "Ziggy Zalesky",
         "role": "EP",
         "city": "Vancouver, BC",
-        "text": "Lol, nice reminder, Dr. Heitz! In our ER, we always say 'it's not about the suture, it's about the stitch.' Wound tension is a huge factor, but don't forget about the depth of the wound, too! Have you guys seen that study on the benefits of delayed closure for wounds under tension? ",
+        "text": "Yeah, we had a case last year where the culture came back with both Pseudomonas and MRSA. We had to change to a cocktail of antibiotics. Anyone know if there's been any recent updates on preferred treatment for both Pseudomonas and MRSA?",
         "color": "purple"
       },
       {
@@ -19,152 +19,626 @@
         "user": "Sarah Jenkins",
         "role": "MS3",
         "city": "Ottawa, ON",
-        "text": "Actually, Dr. Zalesky, I read that study and it said that delayed closure for wounds under tension doesn't necessarily have a significant impact on cosmetic outcome. Can you clarify what you mean by 'depth of the wound'? Does that refer to the depth of the laceration or the thickness of the skin?",
+        "text": "Actually, I think some newer studies are suggesting that a combination of ofloxacin and ciprofloxacin may be effective against both Pseudomonas and MRSA in otitis externa. Has anyone else heard about this?",
         "color": "green"
       },
       {
         "id": 3,
         "parent_id": 1,
+        "user": "Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I had a similar experience with a patient who had otitis externa with MRSA. We had to use a wick to deliver the antibiotics to the affected area. Does anyone else use this as a treatment option? Is it a good idea to use a wick in all cases of otitis externa with MRSA?",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 2,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Sarah, I think you may be thinking of a different type of infection. While ofloxacin and ciprofloxacin may be effective against both Pseudomonas and MRSA in some cases, it's not clear if they would be a good combination for otitis externa specifically.",
+        "color": "purple"
+      },
+      {
+        "id": 5,
+        "parent_id": 3,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Maya, a wick can be a good idea in some cases of otitis externa with MRSA, but it's not a replacement for systemic antibiotics. We often use a combination of both in our hospital. Has anyone else found this to be effective?",
+        "color": "blue"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Yeah, I think we have to be careful not to overuse wicks in otitis externa. While they can be useful in some cases, they can also cause more harm than good if not used properly. Has anyone else seen any complications from wick use?",
+        "color": "green"
+      },
+      {
+        "id": 7,
+        "parent_id": 1,
         "user": "Dr. Kevin Park",
         "role": "PGY1",
         "city": "Edmonton, AB",
-        "text": "I'm not sure I agree with delayed closure in all cases, either. Don't we risk leaving in more tension on the wound, which can lead to more scarring? ",
+        "text": "I had a patient with otitis externa who was diagnosed with MRSA. We had to admit them for IV antibiotics. Has anyone else had to admit a patient for MRSA otitis externa?",
+        "color": "purple"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Kevin, I think your patient may have been in a more severe case than most. While IV antibiotics are sometimes necessary, many cases of MRSA otitis externa can be managed with oral antibiotics. Has anyone else had experience with oral antibiotics for MRSA otitis externa?",
+        "color": "green"
+      },
+      {
+        "id": 9,
+        "parent_id": 1,
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "I'm just going to say it - I'm tired of seeing MRSA otitis externa in my ER. Can we all please be more careful with our antibiotic use and reduce the risk of MRSA infections? Thanks!",
+        "color": "red"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Brock, I agree with you, but we also have to balance the need to be careful with antibiotic use with the need to treat our patients effectively. We can't just stop using antibiotics altogether!",
+        "color": "yellow"
+      }
+    ],
+    "image": "https://images.squarespace-cdn.com/content/v1/5681a0e2d8af1011fc075fca/1452362439781-AIR6AB66775DWU0LXXC4/AOE+perichondritis+c.jpg"
+  },
+  {
+    "id": 1,
+    "title": "Just saw a patient with severe metabolic alkalosis and I'm still shaking my head",
+    "body": "So I had a patient come in with severe metabolic alkalosis and a pH of 7.63. The patient had a history of vomiting for 3 days due to a viral gastroenteritis. I ordered a blood gas and electrolytes, but I was a bit concerned because the patient's HCO3 level was sky high at 45 mmol/L. I started wondering if the patient might have a underlying renal issue, or maybe even a medication side effect contributing to her alkalosis. But then I remembered that the patient had been on IV fluids for dehydration, and I realized that the bicarbonate in the fluids must have contributed to her elevated HCO3 levels. I managed to get her corrected with some aggressive treatment, but I learned a valuable lesson about not underestimating the effects of fluids on electrolyte levels. Anyone else had a similar case recently?",
+    "category": "emergency-medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I think you made the right call, @OP. Metabolic alkalosis due to IV fluids is a common cause of elevated HCO3 levels. But I do want to add that we should also consider other potential causes of alkalosis, like excessive use of antacids or proton pump inhibitors. Have you heard of the 'alkalois loop'?",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Actually, @OP, the patient's renal function might be more relevant to this case than you think. Metabolic alkalosis can be a sign of renal acidbase disturbances, such as type II RTA. Have you considered running a urine acidbase panel on this patient?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I'm not sure I understand the 'alkalois loop', @Dr. Maya Gupta. Can you explain it in more detail?",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "I remember doing a case study on metabolic alkalosis in nursing school. It was a long story, but basically the patient had been taking Tums for a few weeks and developed alkalosis as a result. Don't you think it's possible the patient might have been taking some kind of antacid?",
+        "color": "red"
+      },
+      {
+        "id": 5,
+        "parent_id": 3,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Ah, good point @Leo Chen! The 'alkalois loop' is a term used to describe the phenomenon of metabolic alkalosis that occurs when a patient takes too much antacid or other alkalizing agents. It's a vicious cycle because the patient's body tries to compensate for the alkalosis by increasing renal excretion of HCO3, which in turn causes the patient to need even more antacid. Make sense?",
+        "color": "purple"
+      },
+      {
+        "id": 6,
+        "parent_id": 2,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "I think @Sparkle-Eyes Sue might be onto something. Let's get a list of the patient's medications and see if they're taking anything that might be contributing to the alkalosis. And yes, a urine acidbase panel would be a good idea too.",
+        "color": "green"
+      },
+      {
+        "id": 7,
+        "parent_id": 1,
+        "user": "Dr. Rick 'The Rage'",
+        "role": "EP",
+        "city": "Windsor, ON",
+        "text": "Ugh, you're all so focused on the fluids and the medications, but what about the patient's underlying disease process? I bet this patient is just another example of our healthcare system's failure to provide adequate care. Get with the times, people!",
+        "color": "gray"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I understand where you're coming from, @Dr. Rick, but let's not get too caught up in the system. This is an emergency medicine forum, let's stick to the case at hand. We'll worry about the systemic issues later.",
+        "color": "purple"
+      },
+      {
+        "id": 9,
+        "parent_id": 1,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "I recall a case in the 1950s where a patient developed severe metabolic alkalosis from excessive vomiting. The patient was treated with a 'soda water' enema, which sounds barbaric now, but it worked like a charm. Anyone else remember that treatment?",
+        "color": "brown"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "That's interesting @Dr. Archibald. I've heard of using sodium citrate as an antidote for severe alkalosis, but I'm not sure about the 'soda water' enema.",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "id": 1234,
+    "title": "Just had a scalp laceration repair gone wrong... TLDR?",
+    "body": "Had a patient come in with a scalp laceration that I ended up having to take back to surgery after I initially closed it. The patient had a history of epilepsy and I didn't do a CT scan pre-operatively. The patient ended up having a temporal lobe injury and had to be taken to surgery for evacuation. I'm beat up about it. Has anyone else ever had a case like this?",
+    "category": "emergency_medicine",
+    "comments": [
+      {
+        "id": 1111,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "That's a tough one, OP. The thing is, scalp lacerations can be tricky to evaluate, especially if they're not obviously deep. But in hindsight, it sounds like you could've done a better job assessing for possible skull fracture, especially given the patient's history of epilepsy. Always a good idea to err on the side of caution and get a CT scan, especially if you're unsure. Would love to hear more about this case, though! Did you discuss it with the patient and their family?",
+        "color": "blue"
+      },
+      {
+        "id": 1112,
+        "parent_id": 1111,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Dr. Thorne, just to clarify, wouldn't you say that the patient's history of epilepsy would've actually made them more vulnerable to skull fracture, which would be a contraindication for primary closure? I've been trying to wrap my head around this case, and I'd love to hear your thoughts!",
+        "color": "red"
+      },
+      {
+        "id": 1113,
+        "parent_id": null,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "OP, just a thought: in the future, you might want to consider using a CT scan as a 'screening tool' to assess for possible skull fracture before deciding on primary closure. It's not a perfect science, and there's been some debate in the literature about the use of CT scans in this context. I'd love to hear more about your take on this!",
+        "color": "purple"
+      },
+      {
+        "id": 1114,
+        "parent_id": 1113,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Dr. Sharp, that's a great point! I've been looking into the literature on this, and it seems like the consensus is shifting towards using CT scans more liberally in cases like these. Can you point me in the direction of some good papers on this topic? ",
+        "color": "green"
+      },
+      {
+        "id": 1115,
+        "parent_id": null,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "OP, I've seen my fair share of scalp lacerations over the years, and I've learned to trust my instincts when it comes to these things. If I'm unsure about the depth of a laceration or the presence of a possible skull fracture, I always err on the side of caution and suggest a CT scan to the patient and their family. It's better to be safe than sorry, especially when it comes to the brain! Can anyone share any good tips for communicating with patients and their families about this?",
+        "color": "pink"
+      },
+      {
+        "id": 1116,
+        "parent_id": 1115,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Martha 'The Hammer', I completely agree with you about trusting your instincts and erring on the side of caution. In my experience, patients and their families are usually grateful for your candor and willingness to explore all options. That being said, have you ever encountered a situation where a patient or their family is pressuring you to skip the CT scan and go with primary closure? How do you handle those situations?",
+        "color": "orange"
+      },
+      {
+        "id": 1117,
+        "parent_id": 1116,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "Dr. Miller, I have to say that I'm impressed by your approach to communicating with patients and their families! As a patient myself, I can attest to the importance of clear and compassionate communication. Would you be willing to share some tips on how to approach these conversations?",
+        "color": "yellow"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Just saw a patient with salicylate toxicity and I'm reminded of why I hate these cases... TLDR: Always check for co-ingestion with acetaminophen!",
+    "body": "I've been practicing EM for over 10 years and I still get frustrated with the unpredictability of salicylate toxicity. Last night, I saw a 55-year-old woman with a history of chronic pain, who had ingested 5 grams of ASA (Aspirin) 2 hours prior to arrival. Her initial vitals were stable, but on presentation, she was tachypneic and tachycardic with a temperature of 38.5\u00b0C. ABG showed a respiratory alkalosis with a mixed acid-base disorder (anion gap of 20).",
+    "category": "emergency medicine",
+    "comments": [
+      {
+        "id": 24,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great reminder, folks! Always remember that salicylate toxicity can masquerade as infection or pulmonary embolism. I always check ASA levels and acetaminophen levels in these cases. [link to article on salicylate toxicity](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4444195/)",
+        "color": "purple"
+      },
+      {
+        "id": 25,
+        "parent_id": 24,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "What's the difference between ASA and acetaminophen toxicity? Are they similar in presentation?",
+        "color": "green"
+      },
+      {
+        "id": 26,
+        "parent_id": 24,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Great point about the potential for co-ingestion with acetaminophen. We have a protocol in place at our institution for checking acetaminophen levels in all patients with salicylate toxicity. Do you guys have a similar protocol?",
+        "color": "green"
+      },
+      {
+        "id": 27,
+        "parent_id": 25,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Chad, ASA toxicity typically presents with features of anion gap metabolic acidosis, respiratory alkalosis, and non-cardiogenic pulmonary edema, whereas acetaminophen toxicity typically presents with features of coagulopathy and hepatic failure. The key is to look for the presence of anion gap metabolic acidosis, which is often seen in ASA toxicity.",
+        "color": "indigo"
+      },
+      {
+        "id": 28,
+        "parent_id": 25,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Chad, the key difference between ASA and acetaminophen toxicity lies in their underlying pathophysiology. Salicylates work by inhibiting cyclooxygenase, leading to a compensatory respiratory alkalosis. Acetaminophen, on the other hand, causes necrosis of the liver parenchyma, leading to coagulopathy and hepatic failure.",
+        "color": "indigo"
+      },
+      {
+        "id": 29,
+        "parent_id": 24,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "As a nurse, I always check ASA levels and acetaminophen levels in patients with altered mental status. It's a red flag for potential toxicity and we can get a head start on treatment.",
+        "color": "green"
+      },
+      {
+        "id": 30,
+        "parent_id": 26,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Kevin, we do have a similar protocol in place at our institution for checking acetaminophen levels in patients with salicylate toxicity. We've seen cases where patients have ingested both ASA and acetaminophen, which made diagnosis and treatment challenging.",
+        "color": "indigo"
+      },
+      {
+        "id": 31,
+        "parent_id": 26,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Kevin, have you considered using point-of-care testing for ASA and acetaminophen levels? We've adopted this approach at our institution and it's been game-changing for our patients.",
+        "color": "indigo"
+      },
+      {
+        "id": 32,
+        "parent_id": null,
+        "user": "Dr. Rick 'The Rage'",
+        "role": "EP",
+        "city": "Windsor, ON",
+        "text": "Ugh, salicylate toxicity is the worst. I've seen too many cases where patients have died due to delayed diagnosis. We need to be more aggressive in checking ASA levels and acetaminophen levels in patients with altered mental status.",
+        "color": "red"
+      },
+      {
+        "id": 33,
+        "parent_id": 26,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "Kevin, as a family physician, I often see patients with chronic pain who are on long-term ASA therapy. How do you guys handle these cases, particularly in terms of monitoring for potential toxicity?",
+        "color": "green"
+      },
+      {
+        "id": 34,
+        "parent_id": 33,
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "Henry, I think we should focus on preventing chronic pain patients from becoming dependent on ASA. Encouraging non-pharmacological therapies and educating patients about the risks of long-term ASA therapy could go a long way.",
+        "color": "indigo"
+      },
+      {
+        "id": 35,
+        "parent_id": 34,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Brock, I agree. Patients who are on chronic ASA therapy often have complex pain syndromes that require a multidisciplinary approach. We should be encouraging our patients to seek out pain management clinics and other non-pharmacological therapies.",
+        "color": "indigo"
+      },
+      {
+        "id": 36,
+        "parent_id": null,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "You know, I've been an ER nurse for 30 years and I've seen my fair share of salicylate toxicity cases. One thing that always gets me is the lack of public awareness about the risks of ASA toxicity. We need to do more to educate the public about the dangers of long-term ASA therapy.",
+        "color": "red"
+      },
+      {
+        "id": 37,
+        "parent_id": 37,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Martha, that's a great point. What can we do as ER physicians to raise awareness about the risks of ASA toxicity?",
+        "color": "green"
+      },
+      {
+        "id": 38,
+        "parent_id": 37,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Martha, we can start by educating our patients about the risks of long-term ASA therapy and encouraging them to seek out pain management clinics and other non-pharmacological therapies. We can also partner with community organizations to raise awareness about the dangers of ASA toxicity.",
+        "color": "indigo"
+      },
+      {
+        "id": 39,
+        "parent_id": 38,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Ugh, please, let's not get too caught up in raising awareness. At the end of the day, it's our job as ER physicians to diagnose and treat ASA toxicity. Let's focus on what we do best.",
+        "color": "red"
+      }
+    ],
+    "image": "https://rebelem.com/wp-content/uploads/2018/05/Salicylate-Toxicity.png"
+  },
+  {
+    "id": 4,
+    "title": "Airway Management: When Do You Abandon Ship on Intubation?",
+    "category": "Emergency Medicine, Critical Care",
+    "author": "Dr. Kevin Park, PGY1",
+    "body": "Just saw a patient with a difficult intubation last night that made me think about the when to abandon ship on intubation. The patient had a known difficult airway due to facial trauma and had a high index of suspicion for a basilar skull fracture. The first two attempts at intubation were unsuccessful, but the patient's oxygen saturation was still above 90%.\n\nThe next several attempts at intubation were unsuccessful, and we were starting to see some desaturation on the pulse oximeter. The patient also started to have some tachypnea and was showing signs of respiratory distress. We decided to insert a bougie and try to get a more stable airway.\n\nHowever, the bougie also failed, and we were starting to worry about the patient's airway. We called the surgeon to come and do a cricothyrotomy. But before they arrived, the patient's oxygen saturation started to drop precipitously, and we had to start mask ventilation ASAP.\n\nIt turned out that the patient had a perforated esophagus and was going into shock. We had to do an emergent cricothyrotomy to get a stable airway, and the patient ended up in ICU for a few days. \n\nSo, the question is: when do you abandon ship on intubation? At what point do you decide to go to surgical airway? Is it after 3 failed attempts? 5? 10? Or is it when the patient starts to show signs of desaturation or respiratory distress? I'd love to hear your thoughts on this.",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta, PGY2",
+        "role": "Resident",
+        "city": "Toronto, ON",
+        "text": "Well said, Kevin. The key is to know when to bail on intubation and go to surgical airway. I've found that if the patient is desaturating or showing signs of respiratory distress, it's probably time to switch to a surgical airway. Also, if you're using a bougie and it's not working, it's probably time to try a surgical airway. I'd say go for the surgical airway after 3-4 failed attempts.",
+        "color": "blue"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Sarah Sharp, EP",
+        "role": "Emergency Physician",
+        "city": "Laval, QC",
+        "text": "I agree with Maya. The key is to know your failures early on. If you're not getting the oxygen saturation above 90% after 3-4 attempts, it's probably time to switch to a surgical airway. Also, pay attention to the patient's overall condition. If they're showing signs of respiratory distress or desaturation, it's probably time to switch. And don't forget to use a bougie! It can make all the difference in getting a stable airway.",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": null,
+        "user": "Dr. Elena Varkov, FRCPC",
+        "role": "Internist",
+        "city": "Quebec City, QC",
+        "text": "I think it's also important to consider the patient's underlying condition. For example, if the patient has a traumatic brain injury, you may want to consider a surgical airway sooner rather than later to avoid exacerbating the injury.",
+        "color": "red"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "Hear, hear, Elena! And don't forget about the old-school technique of using a laryngeal mask airway. It's not as popular these days, but it can still be useful in certain situations.",
+        "color": "purple"
+      },
+      {
+        "id": 5,
+        "parent_id": null,
+        "user": "Dr. Victor Sterling, Chief of Surgery",
+        "role": "Surgeon",
+        "city": "Calgary, AB",
+        "text": "I couldn't agree more, Kevin. The key is to be aware of your failures early on and switch to a surgical airway sooner rather than later. And let's be real, folks, if you're not getting the oxygen saturation above 90% after 3-4 attempts, it's probably time to admit you're beaten.",
+        "color": "orange"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Maya Gupta, PGY2",
+        "role": "Resident",
+        "city": "Toronto, ON",
+        "text": "Wait, what's with the condescending tone, Victor? We're just trying to have a discussion here.",
+        "color": "green"
+      },
+      {
+        "id": 7,
+        "parent_id": 5,
+        "user": "Dr. Elena Varkov, FRCPC",
+        "role": "Internist",
+        "city": "Quebec City, QC",
+        "text": "Haha, oh Victor, always with the 'Amateurs' comments. Can't you see we're just trying to learn from each other?",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "COPD Exacerbation: Ventilation-Perfusion Mismatch and the 'Quiet Chest'",
+    "body": "Had a patient with chronic bronchitis present to triage with a 6-month history of progressive dyspnea and a 'quiet chest' physical exam. Classic presentation of a COPD exacerbation. However, what got me thinking was the underlying pathophysiology driving this presentation...",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 25,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "TL;DR COPD exacerbations are primarily due to ventilation-perfusion mismatch. The 'quiet chest' is due to the fact that the airway resistance increases, reducing lung volume and making it harder for gas exchange. @Dr. Zalesky, what's your take on this? Should we be looking for signs of increased airway resistance in these patients?",
+        "color": "purple"
+      },
+      {
+        "id": 26,
+        "parent_id": 25,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "I'm always looking for signs of increased airway resistance, especially in patients with severe COPD. Pursed-lip breathing, accessory muscle use, and paradoxical respirations are all red flags. But what about the role of hypoxemia in COPD exacerbations? Does anyone have a good resource on this?",
+        "color": "green"
+      },
+      {
+        "id": 27,
+        "parent_id": 26,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "What's hypoxemia got to do with COPD exacerbations? Is it just a coincidence or is it a direct consequence of ventilation-perfusion mismatch?",
+        "color": "blue"
+      },
+      {
+        "id": 28,
+        "parent_id": 27,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Hypoxemia in COPD exacerbations is a result of the increased ventilation-perfusion mismatch. As the patient's lung function declines, they have to breathe harder and faster, which further exacerbates the mismatch. Think of it like a vicious cycle: as they breathe harder, they hyperventilate, leading to respiratory alkalosis, which in turn worsens the ventilation-perfusion mismatch... It's a bit overwhelming, I know, but the key takeaway is that hypoxemia is a direct consequence of the ventilation-perfusion mismatch.",
+        "color": "purple"
+      },
+      {
+        "id": 29,
+        "parent_id": 28,
+        "user": "Dr. Phil Muddle",
+        "role": "EP",
+        "city": "Regina, SK",
+        "text": "I get it now. Thanks @Dr. Gupta! I think we can all agree that managing COPD exacerbations requires a solid understanding of the underlying pathophysiology. But what about the role of oxygen supplementation in these patients? Do we always need to give O2, or is that overkill?",
+        "color": "pink"
+      },
+      {
+        "id": 30,
+        "parent_id": 29,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Give the COPD patient O2? Are you kidding me? That's just going to enable them to smoke more cigarettes, if you ask me. Not to mention the risk of respiratory depression...",
+        "color": "red"
+      },
+      {
+        "id": 31,
+        "parent_id": 30,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Actually, @Dr. Sterling, controlled O2 supplementation is essential in managing COPD exacerbations. By correcting hypoxemia, we can reduce the work of breathing and prevent respiratory failure... Just my two cents. Thanks for the lively discussion!",
+        "color": "purple"
+      },
+      {
+        "id": 32,
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "As nurses, we need to stay up-to-date on our understanding of COPD exacerbations. Great discussion here... One thing I'm curious about is the role of non-invasive ventilation (NIV) in managing these patients. Has anyone had experience with this?",
+        "color": "pink"
+      },
+      {
+        "id": 33,
+        "parent_id": 32,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "I've used NIV with great success in patients with COPD exacerbations. The key is to identify those patients who will benefit from it... I like to use the 'MRC score' to gauge their severity. Has anyone else used this tool?",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "id": 1024,
+    "title": "Had a tough miss last night...Child abuse and neglect, anyone?",
+    "body": "Just saw a patient with a classic case of child abuse and neglect. Mother was 'overly concerned' with costs of treatment, while the father seemed indifferent. The 5yo had clear signs of delayed growth and possible neglect. We admitted them, but I couldn't shake off the feeling that I missed something. Am I just being a paranoid ER doc? TLDR: What are some red flags for child abuse and neglect? Has anyone seen something similar recently? Share your experiences, folks!",
+    "category": "emergency-medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "TL;DR? No worries, OP! Child abuse and neglect are always tough. In our system, we have a dedicated team that evaluates and treats suspected cases. For us, it's not just about the physical symptoms, but also the social and emotional context. We use the MCHAT-R to screen for potential abuse.",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Dr. Thorne, what's the MCHAT-R? I've heard of it, but I'm not sure what it is. Can you explain it in simple terms?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Great post, OP! Child abuse and neglect are often under-recognized in EDs. One thing to keep in mind is that not all abuse leaves physical marks. Emotional and psychological abuse can be just as damaging. We had a case a while back where the parents were over-controlling and isolating their child from the world. It was a tough one to spot.",
         "color": "blue"
       },
       {
         "id": 4,
         "parent_id": 3,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Actually, Dr. Park, delayed closure can reduce tension on the wound, especially in cases where the wound is severely contaminated or the patient is at high risk of infection. It's all about finding that balance between promoting healing and minimizing scarring.",
-        "color": "purple"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Can you explain more about the mechanism behind delayed closure? How does it reduce tension on the wound?",
-        "color": "green"
-      },
-      {
-        "id": 6,
-        "parent_id": 1,
-        "user": "Dr. Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "Wound tension is a major factor in scar formation, but let's not forget about the importance of wound debridement in preventing infection and promoting healing. What's the best method for debridement, anyway? ",
-        "color": "red"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "We use enzymatic debridement on most wounds, but mechanical debridement can be effective in cases where there's a lot of devitalized tissue. Have you seen that study on the use of ultrasound for wound debridement? I've been meaning to read it.",
-        "color": "blue"
-      },
-      {
-        "id": 8,
-        "parent_id": 6,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "What about the role of dressing in wound care? I've been using these fancy foam dressings and I'm not sure if they're worth it. Do they really improve wound healing rates?",
-        "color": "green"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Lol, Dr. Varkov, those foam dressings are a total game-changer! They keep the wound moist and reduce the risk of infection. I swear by them.",
-        "color": "purple"
-      },
-      {
-        "id": 10,
-        "parent_id": 8,
         "user": "Chad Broson",
         "role": "Pre-med",
         "city": "Brampton, ON",
-        "text": "Wait, what? Foam dressings? Aren't those just, like, a luxury item or something?",
-        "color": "red"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Haha, Chad, you're thinking like a pre-med student! But seriously, foam dressings are a total win-win. They save time and money in the long run. Just make sure to follow the manufacturer's instructions.",
-        "color": "blue"
-      }
-    ],
-    "image": "https://m.media-amazon.com/images/I/81BMVswOsJL._AC_UF1000,1000_QL80_.jpg"
-  },
-  {
-    "id": 1,
-    "title": "TIL: Frostbite and Hypothermia are a lot more complicated than we think",
-    "body": "Just had a patient come in after a skiing accident, complaining of numbness and pain in one hand. Initial presentation was classic for 2nd-degree frostbite, but things got complicated from there.",
-    "category": "clinical anecdote",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "That's a great case! Frostbite can be tricky to diagnose and manage. What did the patient's core temperature end up being?",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "TLDR: I know frostbite is bad, but don't I just treat it with warm water and topical aloe vera? Asking for a friend...",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs. It's not that simple. You need to assess the depth of the frostbite, and if it's severe, you need to consider debridement and potentially antibiotics.",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "I was taught that rewarming should be done slowly and carefully, around 38-39\u00b0C. But I've also seen some studies saying 37\u00b0C is safe. Has anyone else come across this?",
-        "color": "yellow"
+        "text": "Dr. Gupta, how do you identify emotional and psychological abuse in EDs? Are there any specific signs or symptoms to look out for?",
+        "color": "lightblue"
       },
       {
         "id": 5,
-        "parent_id": 4,
+        "parent_id": 1,
         "user": "Dr. Elena Varkov",
         "role": "FRCPC",
         "city": "Quebec City, QC",
-        "text": "Actually, Dr. Park, the key is to assess the patient's circulatory status and choose a rewarming temperature that's gentle enough to avoid reperfusion injury.",
-        "color": "orange"
+        "text": "OP, I had a similar case a while back where the mother was 'over-medicalizing' her child. She was taking her to the ED every other day with trivial complaints. We eventually discovered that she had Munchausen syndrome by proxy. It was a tough one to diagnose, but our inter-disciplinary team worked together to get it sorted.",
+        "color": "red"
       },
       {
         "id": 6,
-        "parent_id": 4,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Yeah, and let's not forget about the risks of rewarming too quickly. I've seen cases where it's led to arrhythmias and even cardiac arrest.",
-        "color": "pink"
+        "parent_id": 5,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Dr. Varkov, can you explain what Munchausen syndrome by proxy is? I've heard of it, but I'm not sure what to look out for.",
+        "color": "green"
       },
       {
         "id": 7,
@@ -172,8 +646,8 @@
         "user": "Turbo Tom",
         "role": "RN",
         "city": "London, ON",
-        "text": "As a nurse, I've seen a lot of frostbite cases where the diagnosis was clear-cut, but the treatment was suboptimal. What are some of the common pitfalls we can avoid?",
-        "color": "purple"
+        "text": "Just a thought - as nurses, we often get caught in the middle between doctors and parents. How do we advocate for these kids without getting in over our heads? Has anyone had any experience with this?",
+        "color": "yellow"
       },
       {
         "id": 8,
@@ -181,159 +655,170 @@
         "user": "Martha 'The Hammer'",
         "role": "RN",
         "city": "Halifax, NS",
-        "text": "One thing that comes to mind is not recognizing the severity of the frostbite early on. We need to be aware of the risk of amputation if we're not aggressive with treatment.",
-        "color": "green"
+        "text": "Turbo, I totally get what you mean. We need to stand up for these kids without crossing professional boundaries. As RNs, we have a unique role in observing behavioral cues that may indicate abuse or neglect.",
+        "color": "pink"
       },
       {
         "id": 9,
-        "parent_id": 7,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "And don't forget about the importance of patient education! We need to make sure patients know how to recognize the early signs of frostbite and take preventive measures.",
-        "color": "yellow"
+        "parent_id": 8,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Martha, can you give me some specific examples of behavioral cues that may indicate abuse or neglect?",
+        "color": "green"
       },
       {
         "id": 10,
         "parent_id": 1,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "This is a great topic. I've been thinking about frostbite a lot lately, especially since we've had so many cases in the past few winters.",
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "TL;DR? Great thread! Has anyone else found that social determinants of health play a huge role in child abuse and neglect? How do we address these underlying factors in our practice?",
         "color": "orange"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Dr. Park, yes! Social determinants are key. We need to think beyond the bedside and consider the broader environmental and socioeconomic factors that contribute to child abuse and neglect.",
+        "color": "brown"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Dr. Sharp, can you give an example of how you address social determinants in your practice?",
+        "color": "lightblue"
+      },
+      {
+        "id": 13,
+        "parent_id": 12,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Dr. Sharp, that's a great question. As an EP, I have a great support system from my team to help identify and address social determinants in our patients.",
+        "color": "red"
+      },
+      {
+        "id": 14,
+        "parent_id": 1,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs, child abuse and neglect are obvious, but the real challenge is finding the cases that don't fit the mold. Don't forget to look out for the hidden patterns in the families you see.",
+        "color": "gray"
+      },
+      {
+        "id": 15,
+        "parent_id": 14,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Dr. Sterling, that's quite a statement. Can you give some examples of 'hidden patterns' in families that you've seen?",
+        "color": "blue"
+      },
+      {
+        "id": 16,
+        "parent_id": 15,
+        "user": "Leon Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Dr. Gupta, what do you mean by 'hidden patterns'?",
+        "color": "green"
+      },
+      {
+        "id": 17,
+        "parent_id": 1,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Lovely discussion, everyone! As LPNs, we see the children and families before they come into the ED. Has anyone had success with early intervention programs or initiatives to prevent child abuse and neglect?",
+        "color": "lightgreen"
+      },
+      {
+        "id": 18,
+        "parent_id": 17,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Sparkle-Eyes Sue, that's a great question! We have a great partnership with our local community clinics to provide early intervention services and preventive programs.",
+        "color": "red"
       }
-    ]
+    ],
+    "image": "https://www.cdc.gov/mmwr/volumes/69/wr/figures/mm6949a1-F1.gif?_=33542"
   },
   {
-    "id": 2,
-    "title": "TL;DR: A frustrating case of inhalation injury in a 'walk-in' patient",
-    "body": "I saw a case last night that really made me go off on inhalation injuries.  A 'walk-in' patient came in with a chief complaint of dyspnea and SOB.  His story was that while walking outside, he smelled something burning and started experiencing symptoms.  I immediately went on high alert for any signs of inhalation injury.",
+    "id": 42,
+    "title": "Rant: Acute Coronary Syndromes - Low-Probability ACS: How Do We Risk-Stratify?",
+    "body": "Had a patient with chest pain the other day and I'm still thinking about the whole case. We ended up diagnosing LAD occlusion, but it was a doozy. They had a low-probability ACS, no objective evidence of acute coronary ischemia or infarction, no STEMI or NSTEMI on the ECG...and let me tell you, it was a tough call. What are everyone's thoughts on low-probability ACS? How do you folks risk-stratify in these cases?",
     "category": "Emergency Medicine",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": "Leo Chen, MS1",
-        "role": "Suffix",
-        "city": "Montreal, QC",
-        "text": "What a great case!  I would love to know more about what made you suspect inhalation injury.",
+        "user": "Dr. Maya Gupta",
+        "role": "Fellow",
+        "city": "Toronto, ON",
+        "text": "TLDR: We need a better system for risk-stratifying low-probability ACS. Here's the deal...in a low-probability ACS, you've got patients with chronic angina or exertional angina that's not worsening. These patients don't have the typical risk factors for ACS: no prior MI, no PCI or CABG, no unstable angina or rest angina. However, they can still present with ACS symptoms. One study showed that low-probability ACS patients had a higher incidence of cardiac events than high-probability patients...and here's the kicker: these patients were more likely to have been discharged from the ED without further evaluation!",
         "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Dr. Aris Thorne, Staff Physician",
-        "role": "Suffix",
-        "city": "Toronto, ON",
-        "text": "Thank you Leo!  As soon as he came in, I noticed that he had a fine 'smoky' odor to his breathing.  His saturation was low at 85% on room air.  I also noticed that his bronchi were a deep char-red color on chest xray.  With all these signs, I suspected inhalation injury and quickly ordered a bronchoscopy to confirm.",
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "But Dr. Gupta, isn't low-probability ACS just a way to say 'undiagnosed or mild ACS'? What's the difference really?",
         "color": "green"
       },
       {
         "id": 3,
-        "parent_id": 2,
-        "user": "Leo Chen, MS1",
-        "role": "Suffix",
-        "city": "Montreal, QC",
-        "text": "That's so interesting!  I had never heard of a 'smoky' odor being a sign of inhalation injury.  Is there a specific term for this?",
-        "color": "green"
+        "parent_id": 1,
+        "user": "Dr. Rick 'The Rage'",
+        "role": "EP",
+        "city": "Windsor, ON",
+        "text": "You know, this is just like the ED system: we're just trying to cover our butts with low-probability ACS because we don't want to get sued for missed MI. I mean, who gets to make the call here?",
+        "color": "purple"
       },
       {
         "id": 4,
-        "parent_id": 2,
-        "user": "Dr. Aris Thorne, Staff Physician",
-        "role": "Suffix",
-        "city": "Toronto, ON",
-        "text": "Ah, yes.  The term is 'smoky odor sign.'  It's a classic sign of inhalation injury and was first described by Smith and Lee in a study published in the Chest Journal.",
+        "parent_id": 3,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "Dr. Rage, my boy, we've always got to rely on our clinical expertise. If we're suspicious of ACS, we need to err on the side of caution.",
         "color": "green"
       },
       {
         "id": 5,
         "parent_id": 4,
-        "user": "Leo Chen, MS1",
-        "role": "Suffix",
-        "city": "Montreal, QC",
-        "text": "Wow, that's so cool!  I need to remember that for shelf exams.  Do you have the reference handy?",
-        "color": "green"
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "And that brings me to what I like to call the 'sodium and the story' approach: we need to know the patient's sodium, the story they're telling us, and their cardiac risk factors before we can make an accurate diagnosis.",
+        "color": "purple"
       },
       {
         "id": 6,
         "parent_id": 5,
-        "user": "Dr. Aris Thorne, Staff Physician",
-        "role": "Suffix",
-        "city": "Toronto, ON",
-        "text": "Actually, I do have it handy.  Here's the reference. [insert reference here]",
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Sodium is just one piece of the puzzle. What about the patient's lipid profile? And what about their family history?",
         "color": "green"
       },
       {
         "id": 7,
-        "parent_id": 2,
-        "user": "Dr. Ziggy Zalesky, EP",
-        "role": "Suffix",
-        "city": "Vancouver, BC",
-        "text": "Nice save on this case, Doc!  Just one thing though - how did you manage his airway?",
-        "color": "blue"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Aris Thorne, Staff Physician",
-        "role": "Suffix",
-        "city": "Toronto, ON",
-        "text": "Good question, Ziggy!  Due to the extent of his inhalation injury, I had to secure his airway with an endotracheal tube.  Luckily, our ED has a bronchoscope on-site, which allowed us to perform the procedure quickly and safely.",
-        "color": "blue"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Victor Sterling, Chief of Surgery",
-        "role": "Suffix",
-        "city": "Calgary, AB",
-        "text": "That's right, Doc.  We can't emphasize enough the importance of having bronchoscopy resources readily available in our EDs.  It makes all the difference in the world for these types of cases.",
-        "color": "black"
-      },
-      {
-        "id": 10,
-        "parent_id": null,
-        "user": "Leo Chen, MS1",
-        "role": "Suffix",
-        "city": "Montreal, QC",
-        "text": "Wow, I learned so much from this conversation.  I have one question - what's the best way to determine the severity of inhalation injury?",
-        "color": "purple"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Dr. Maya Gupta, PGY2",
-        "role": "Suffix",
-        "city": "Mississauga, ON",
-        "text": "Good question, Leo!  For assessing severity, we use a combination of clinical exam, imaging (e.g. chest xray), and lab values (e.g. ABG).  The ARDS score can also be helpful in predicting which patients need more aggressive management.",
-        "color": "green"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Leo Chen, MS1",
-        "role": "Suffix",
-        "city": "Montreal, QC",
-        "text": "That's helpful to know.  Do you have any tips for managing patients with inhalation injury in the hospital?",
-        "color": "purple"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Just had a patient come in with a weird case of Pelvic Inflammatory Disease (PID)",
-    "body": "So I had this 25-year-old female come in with severe lower abdominal pain and a low-grade fever. Her vitals were stable, but she was pretty miserable. After an ultrasound and a urine culture (which unfortunately we sent to the lab 2 hours ago so I won't have the answer), the CT scan showed signs of inflammation around the uterus. I suspected PID, so I started her on ceftriaxone and metronidazole. But here's the weird part: she's on a 4-day course of antibiotics... and the patient is an ORTHOTOPIC SURGEON!",
-    "category": "clinical anecdate",
-    "comments": [
-      {
-        "id": 7,
-        "parent_id": null,
+        "parent_id": 6,
         "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I had a similar case last week. I started her on ceftriaxone and azithromycin, since gonorrhea is a common cause of PID. But what caught my attention was that she had a history of a laparoscopic hysterectomy 6 months ago and still has a string of granulation tissue at the cornual region. What's your take on that?",
-        "color": "blue"
+        "role": "Fellow",
+        "city": "Toronto, ON",
+        "text": "That's right, Dr. Varkov! We need to consider all risk factors, including lipid profile and family history. And did you know that one study found that patients with low-probability ACS had a higher incidence of metabolic syndrome?",
+        "color": "purple"
       },
       {
         "id": 8,
@@ -341,683 +826,249 @@
         "user": "Leo Chen",
         "role": "MS1",
         "city": "Montreal, QC",
-        "text": "Is the granulation tissue from the previous surgery a cause for concern? Can it lead to more complications?",
+        "text": "That's really interesting, Dr. Gupta. But what about low-probability ACS patients with ST-segment elevation ECGs? Should we be treating them differently?",
         "color": "green"
       },
       {
         "id": 9,
         "parent_id": 8,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Good question, Leo! Yes, the granulation tissue can cause further problems. If it's not removed and there's ongoing irritation, the PID can become chronic. I ended up consulting the surgical team, and we did an exploratory laparoscopy to look for any adhesions or tubal damage. We'll have to keep an eye on her progress.",
-        "color": "blue"
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "You know what? I don't want to get into the weeds here, but yes, if you've got a low-probability ACS patient with an ST-segment elevation ECG, I'd say you've got a STEMI on your hands.",
+        "color": "purple"
       },
       {
         "id": 10,
-        "parent_id": null,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Just a thought, guys: have you considered the role of the patient's age in PID development? I know it's often linked to sexually transmitted infections, but maybe there are other factors at play here?",
-        "color": "red"
+        "parent_id": 9,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "But wait, isn't the STEmi criteria different from the low-probability ACS one? And isn't there a study showing that STEMI patients can present without ST-segment elevation?",
+        "color": "green"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "You're absolutely right, Sarah. I've got a link to a study on just that. [link to study]",
+        "color": "purple"
       },
       {
         "id": 12,
-        "parent_id": 10,
-        "user": "Dr. Sarah Sharp",
+        "parent_id": 6,
+        "user": "Dr. 'Ziggy' Zalesky",
         "role": "EP",
-        "city": "Laval, QC",
-        "text": "Great point, Turbo Tom! Research shows that PID is indeed more common in younger women, likely due to increased sexual activity and higher prevalence of STIs. But age can also be a factor in the severity of symptoms and the potential for chronic PID. Maybe we should consider running some STI tests?",
+        "city": "Vancouver, BC",
+        "text": "Dr. Varkov, can you tell us a bit more about the sodium story? I'm intrigued",
         "color": "green"
       },
       {
         "id": 13,
         "parent_id": 12,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "STIs are more common in younger populations, right? So we should be more vigilant in testing and treating STIs in younger females with PID?",
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Well, the sodium story is all about trying to identify the cardiac risk factors in patients with abnormal sodium levels, but it's a tough call because we need more data to make a definitive diagnosis. But what we do know is that low sodium levels can be associated with cardiac complications like arrhythmias and MI",
         "color": "purple"
       },
       {
         "id": 14,
         "parent_id": 13,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Exactly, Leo! That's why I always stress the importance of thorough sexual history taking. But don't forget to consider other potential causes, such as IUD use or pelvic organ prolapse, which can also lead to PID.",
+        "user": "Dr. Maya Gupta",
+        "role": "Fellow",
+        "city": "Toronto, ON",
+        "text": "And did you know that another study found a link between low sodium levels and increased cardiac mortality?",
         "color": "green"
       },
       {
         "id": 15,
-        "parent_id": null,
-        "user": "Dr. Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "I've seen cases where PID develops from a post-partum infection. Can we talk about the relevance of pregnancy and post-partum care in PID development?",
-        "color": "orange"
+        "parent_id": 14,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "This is all well and good, but we should also be discussing the potential pitfalls of low-probability ACS. I mean, are we just trying to cover our butts?",
+        "color": "purple"
       },
       {
         "id": 16,
         "parent_id": 15,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Dr. Stone, isn't that true? I've heard of cases where PID was a complication of pregnancy. But what's the exact link between pregnancy and PID?",
-        "color": "pink"
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "I don't get it: why are we trying to cover our butts? Can someone explain it to me like I'm 5?",
+        "color": "green"
       },
       {
         "id": 17,
         "parent_id": 16,
-        "user": "Dr. Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "Excellent follow-up question, Sparkle-Eyes Sue! It seems that pregnant women are more susceptible to PID due to several factors, including hormonal changes and increased bacterial ascent from the lower genital tract. But there's also evidence that certain STIs, like Chlamydia, are more common in pregnant women. I'm not sure if we should prioritize STI testing during pregnancy, though.",
-        "color": "orange"
-      },
-      {
-        "id": 18,
-        "parent_id": null,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Actually, Dr. Stone, some studies suggest that PID can also occur following abortion, especially if there's incomplete evacuation of the uterus. Should we consider discussing this with patients undergoing abortion?",
-        "color": "purple"
-      },
-      {
-        "id": 19,
-        "parent_id": 18,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Great point, Sarah! Incomplete evacuation of the uterus can indeed lead to PID. And yes, we should certainly discuss this with patients undergoing abortion, especially if there's any suspicion of infection.",
-        "color": "blue"
-      },
-      {
-        "id": 20,
-        "parent_id": null,
-        "user": "Dr. Phil Muddle",
-        "role": "EP",
-        "city": "Regina, SK",
-        "text": "Hmmm... I'm not sure what's happening here, but can someone explain why we're focusing on PID when we have so many other pressing issues in the ER?",
-        "color": "red"
-      },
-      {
-        "id": 21,
-        "parent_id": 20,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Good question, Dr. Muddle! PID is definitely a concern, but let's not forget that our ER is a high-risk setting for many other conditions. Prioritizing one over the other is all about balancing resources and focusing on the most urgent cases.",
-        "color": "green"
-      },
-      {
-        "id": 22,
-        "parent_id": 21,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Wait, I just realized we haven't even talked about the role of ultrasound in diagnosing PID. Can someone explain the benefits and limitations of ultrasound in this context?",
-        "color": "purple"
-      },
-      {
-        "id": 23,
-        "parent_id": 22,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "I think ultrasound can be really helpful in visualizing the pelvic organs and identifying adhesions or tubal damage. But isn't it true that its accuracy can be affected by operator experience?",
-        "color": "green"
-      },
-      {
-        "id": 24,
-        "parent_id": 23,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Exactly, Leo! Operator expertise is crucial when interpreting ultrasound images. But in general, ultrasound can be a valuable tool in diagnosing PID, especially in settings where CT scans are not readily available.",
-        "color": "blue"
-      }
-    ],
-    "image": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1831842124120541"
-  },
-  {
-    "id": 1234,
-    "title": "Rant about the difficulty of getting a surgical airway right",
-    "body": "Just saw a patient with a difficult airway last night and my resident and I could not manage to get the cricothyroidotomy right. The patient is stable and we bagged them effectively, but the whole episode left me shaking my head. We are taught that if we can't intubate and can't bag effectively, a surgical airway is the next step. But when you actually try to do it, it's way harder than it seems. Can anyone else out there relate to this or is it just me being incompetent?",
-    "category": "Emergency Medicine",
-    "role": "Staff Physician",
-    "city": "Toronto, ON",
-    "color": "red",
-    "comments": [
-      {
-        "id": 567890,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I totally feel you! I've had a few close calls with surgical airways. I think the key is to stay calm and remember the anatomy. It's a lot simpler than you think, but you need to focus. I always try to visualize the procedure in my head before I start, and to use a lot of lubricant on the scope. And of course, have a good resident to assist you! By the way, have you seen this video on surgical airway technique? <https://www.youtube.com/watch?v=dQw4w9WgXcQ>",
-        "color": "blue"
-      },
-      {
-        "id": 123456,
-        "parent_id": 567890,
         "user": "Dr. Kevin Park",
         "role": "PGY1",
         "city": "Edmonton, AB",
-        "text": "That video is great! I've seen it before but it's always good to review. What do you think about the different techniques for surgical airways? Like, do you prefer the quick tracheotomy vs the percutaneous cricothyroidotomy?",
-        "color": "green"
-      },
-      {
-        "id": 901234,
-        "parent_id": null,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "As an EP, I see a lot of patients who need a surgical airway. And you know what? Most of the time we get it right on the first try. The problem is, when we mess it up, the patient can get really sick, really fast. I always say to my residents, 'It's not about being the fastest or the most efficient, it's about being the most careful.' Don't be discouraged by a tough case, just take your time and think it through.",
+        "text": "It's just a way of saying we don't want to get sued for misdiagnosis. Think about it, we can't always make a definitive diagnosis in the ED, so we're just trying to play it safe.",
         "color": "purple"
       },
       {
-        "id": 234567,
-        "parent_id": 901234,
+        "id": 18,
+        "parent_id": 17,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "I think I get it: it's like when I was in school and I didn't want to get an F on the test, so I just played it safe and got a C instead. But what if we're missing the real problem?",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Just had a case of pediatric abdominal pain that taught me a valuable lesson about the limits of diagnostic imaging... ",
+    "body": "I've been practicing emergency medicine for over a decade, and I still get frustrated by the lack of evidence-based guidelines for diagnosing abdominal pain in pediatric patients. I saw a 7-year-old girl come in with a 2-day history of persistent lower GI bleeding, which initially presented as melena, but later became bloody and painful rectal bleeding. Her blood work and urinalysis were unremarkable, but an abdominal CT scan revealed a small volvulus of the cecum.\n\nI was relieved that we had identified the cause of her symptoms, but then I started thinking about the risks associated with pediatric diagnostic imaging. The literature is replete with studies highlighting the potential harm caused by radiation exposure in children, and yet we continue to order CT scans as a first-line diagnostic tool for abdominal pain.\n\nIs there a better way to approach abdominal pain in pediatric patients? Should we be relying more on clinical judgment and history, supplemented by targeted lab tests and diagnostic procedures? I'd love to hear from my colleagues about their experiences and strategies for managing this challenging condition.",
+    "category": "r/emergencymedicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "MD",
+        "city": "Toronto, ON",
+        "text": "Great post, OP! I couldn't agree more about the limitations of diagnostic imaging in pediatric patients. One strategy I've found helpful is to use the Ottawa Abdominal Pain tool as a first-line screening instrument. It's quick, easy to use, and helps to identify patients who are at low risk for serious pathology. From there, we can focus on targeted lab tests and diagnostic procedures to identify the likely cause of symptoms. What are your thoughts on this approach?",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
         "user": "Leo Chen",
         "role": "MS1",
         "city": "Montreal, QC",
-        "text": "I'm confused, how do you know when the patient needs a surgical airway? Like, what are the signs and symptoms that indicate we need to switch to a surgical airway from a regular intubation?",
-        "color": "yellow"
-      },
-      {
-        "id": 345678,
-        "parent_id": 234567,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Great question, Leo! The key is to watch for signs of impending failure, like decreased oxygen saturation, increase in respiratory rate, or decreased respiratory effort. If you see any of these signs, it's time to switch to a surgical airway. And don't forget to call for help! A surgical airway is a team effort.",
-        "color": "blue"
-      },
-      {
-        "id": 456789,
-        "parent_id": 345678,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "I've heard that the cricothyroidotomy technique is not recommended because it can cause subglottic stenosis. Is that true? And if so, what alternative techniques are there?",
+        "text": "Hi Dr. Thorne, I've heard of the Ottawa Abdominal Pain tool, but I'm not sure how it works. Can you explain the algorithm a bit more?",
         "color": "green"
       },
       {
-        "id": 567890,
-        "parent_id": 456789,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Yes, it's true that cricothyroidotomy can cause subglottic stenosis. But it's a small risk compared to the risk of not intubating the patient at all! That being said, there are alternative techniques like the percutaneous dilatational tracheotomy (PDT) or the rapid sequence insertion (RSI). But these require a lot of skill and practice, so it's best to stick with what you know.",
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "I completely agree with Dr. Thorne's approach. As a PGY1, I've been learning more about the Ottawa Abdominal Pain tool and how to incorporate it into my practice. One question I have is how to manage patients who are at high risk for serious pathology, but still don't have clear evidence on imaging or lab tests. Do you have any tips for navigating this challenging scenario?",
+        "color": "orange"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Great question, Dr. Park! In my experience, it's essential to take a very detailed history and perform a thorough physical exam to identify any red flags for serious pathology. I also like to use the 'Sodium and the story' approach, where I try to identify the key components of the patient's story that are relevant to the diagnosis. Does anyone have any other tips for navigating these challenging cases?",
+        "color": "purple"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Wow, I love this conversation! As a pre-med student, I'm fascinated by the complexities of pediatric abdominal pain. Can someone explain why we can't just use a simple MRI or CT scan to diagnose everything?",
         "color": "blue"
       },
       {
-        "id": 678901,
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Sarah Sharp",
+        "role": "MD",
+        "city": "Laval, QC",
+        "text": "Great question, Chad! The thing is, while MRI and CT scans are incredibly useful tools, they're not without their risks and limitations. Radiation exposure is a significant concern in pediatric patients, and repeated imaging studies can lead to a range of complications, including increased risk of cancer. That's why we need to rely on a combination of clinical judgment, history, and targeted lab tests to identify the likely cause of symptoms before we order imaging studies.",
+        "color": "green"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Amazeballs conversation, guys! Can someone tell me more about the Ottawa Abdominal Pain tool? I've heard it's a great resource for nurses, but I'm not sure how to access it or how to use it in practice.",
+        "color": "purple"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Henry Oldman",
+        "role": "MD",
+        "city": "Victoria, BC",
+        "text": "Hi Turbo Tom! The Ottawa Abdominal Pain tool is a freely available online resource that can be accessed through the Ottawa Hospital's website. It's a simple, user-friendly tool that helps clinicians identify patients who are at low risk for serious pathology, allowing us to avoid unnecessary imaging and lab tests. I highly recommend checking it out!",
+        "color": "orange"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Rant about diverticulitis admission vs. conservative management",
+    "body": "Just saw a patient with a classic diverticulitis presentation: severe left lower quadrant pain, temperature up, and a WBC of 18. But what got me was that our ER doc had it flagged for admission, citing 'complicated diverticulitis' and potential for abscess or perforation. Meanwhile, our attending, Dr. Aris Thorne, was all about conservative management and sending them home on IV antibiotics. The question is, who's right here?",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 1,
         "parent_id": null,
         "user": "Dr. Ziggy Zalesky",
         "role": "EP",
         "city": "Vancouver, BC",
-        "text": "Rant about the lack of exposure to surgical airways in ER residency! I remember doing maybe 5-10 surgical airways in 2 years of residency, and yet I see them all the time in the ER. It's like we're not learning the skills we need to succeed!",
-        "color": "red"
-      },
-      {
-        "id": 789012,
-        "parent_id": 678901,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I totally agree with you, Doc! Surgical airways are a crucial skill for ER physicians. Maybe we should just make them a required part of the ER curriculum? Like, a minimum number of surgical airways they have to perform during residency?",
-        "color": "blue"
-      },
-      {
-        "id": 890123,
-        "parent_id": 789012,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Hey, hey! Let's not forget the nurses! We're the ones who get to see the patient's airway in real-time, and we're the ones who can help the physician get that airway right! Can we just take a moment to appreciate the RNs and their skill?",
-        "color": "purple"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Today I Learned: When managing status epilepticus, antiepileptic medication and brain MRI can be deferred to the outpatient setting in nonconvulsive status epilepticus",
-    "body": "Just saw a patient with nonconvulsive status epilepticus and it got me thinking... have any of you guys ever deferred antiepileptic meds and brain MRI to the outpatient setting? I know it's a bit unconventional, but the patient's altered mental status didn't seem to be affecting their level of consciousness, just their behavior. Anyway, just threw that out there. TLDR: can we discuss when it's ok to skip the antiepileptics and brain MRI in NCSE?",
-    "category": "r/ emergencymedicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs don't know the first thing about managing status epilepticus. You need to intubate the patient and pump them full of benzodiazepines before trying to wean them onto antiepileptics. Don't bother with the brain MRI unless you're looking for a way to pad your medical bills. Link to a study that says otherwise.",
+        "text": "Preach, premed. We need to stop over-admitting these patients. With proper treatment, 90% of them can go home and recover. And let's be real, most of those 'complicated' diverticulitis cases are just fancy words for 'we don't want to admit them'. [link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4759642/)",
         "color": "blue"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "@Dr. Sterling, I understand where you're coming from, but sometimes less is more. When it comes to nonconvulsive status epilepticus, the data suggests that a more conservative approach may be beneficial. The American Academy of Neurology recommends deferring antiepileptic medication and brain MRI in patients with nonconvulsive status epilepticus who have a stable mental status. I'd love to discuss this further and provide some evidence-based literature on the topic.",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "@Dr. Thorne, can you provide some sources to back up the AAN's recommendations? I'd love to take a closer look at the evidence supporting conservative management of NCSE. Are there any specific antiepileptic medications that are recommended over others in this setting?",
-        "color": "purple"
-      },
-      {
-        "id": 4,
-        "parent_id": 2,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "I've seen this situation play out time and time again. If the patient is stable and showing no signs of neurological decline, why throw the kitchen sink at them? Let's focus on supporting their mental status and getting them comfortable, not trying to 'cure' them with medications and fancy tests. Has anyone else noticed that antiepileptic meds can be as much of a problem as the seizure itself?",
-        "color": "blue"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Phil Muddle",
-        "role": "EP",
-        "city": "Regina, SK",
-        "text": "@Turbo Tom, you're preaching to the choir. I've seen some of these patients end up on a cocktail of medications that do more harm than good. I'm not sure if we're looking at NCSE or just plain old-fashioned polypharmacy... Does anyone have any advice on how to navigate these complex medical situations?",
-        "color": "green"
-      },
-      {
-        "id": 6,
-        "parent_id": 1,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "@Dr. Sterling, I'd love to challenge your assertion that NCSE can be managed without antiepileptic medication or brain MRI. In fact, the literature suggests that NCSE is often a sign of underlying seizure activity that can be life-threatening if left untreated. Can we discuss the risks and benefits of aggressive management vs conservative approach?",
-        "color": "purple"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "@Dr. Sharp, I've been reading about this topic and I'm a bit confused. When do we know if a patient has NCSE vs. another underlying condition? Are there any specific clinical features or lab results that can help us make this distinction?",
-        "color": "blue"
-      },
-      {
-        "id": 8,
-        "parent_id": 6,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "I've worked with a few families who have had loved ones go through NCSE. To me, it's all about keeping them comfortable and focused on their mental health. Has anyone else noticed that NCSE can have a profound impact on a patient's quality of life?",
-        "color": "purple"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "@Sparkle-Eyes Sue, you're hitting the nail on the head. People often forget that NCSE is about more than just seizures - it's about the person as a whole. We need to focus on patient-centered care and supporting these individuals through what can be a very difficult time.",
-        "color": "green"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "@Dr. 'The Rage', I agree completely. When managing NCSE, we need to consider the patient's overall health and well-being. Are there any specific tools or resources that we can use to assess and support our patients?",
-        "color": "blue"
-      }
-    ]
-  },
-  {
-    "id": 8,
-    "title": "Just saw a patient with a massive PE and I'm still trying to figure out the Wells' criteria",
-    "body": "I've been an EP for 10 years, but I still get caught up in the weeds when it comes to VTE risk stratification. So, I'm hoping some of my colleagues can help me out. Patient presents with sudden onset chest pain, tachycardia, and a CT angiogram showing a large saddle embolus. Wells' score is a bit tricky to calculate with the new updates, but I got: \n\nSuspected DVT: 3 (yes, I know it's not exactly the same as PE, but what's the diff, right?)\nAlternative diagnosis less likely: 3\nHeart rate > 100: 1.5\nPrior VTE: 1.5\nActive malignancy: 1\nHemoptysis: 1\nImmobilization > 4 weeks: 1.5\n\nThat's a total of 13 points, putting our patient in the 'high risk' category. But was it really? Any thoughts, folks? Is there a more elegant way to do Wells' in the ER?",
-    "category": "emergency_medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "u/Dr_Ziggy_Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "TLDR; You messed up Wells' score. Just kidding, kind of.",
-        "color": "purple",
-        "children": [
-          {
-            "id": 10,
-            "parent_id": 1,
-            "user": "u/Leo_Chen",
-            "role": "MS1",
-            "city": "Montreal, QC",
-            "text": "Dr. Zug! Thanks for the vote of confidence. Seriously, though, what's the deal with the alternative diagnosis part? Shouldn't they just ask if the patient is a smoker or something?",
-            "color": "blue"
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "parent_id": null,
-        "user": "u/Sarah_Sharp_EP",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "I think the issue is that Wells' was originally designed for DVT, not PE. The scoring system has been modified, but it's still not perfect.",
-        "color": "red",
-        "children": [
-          {
-            "id": 11,
-            "parent_id": 2,
-            "user": "u/Chad_Broson",
-            "role": "Pre-med",
-            "city": "Brampton, ON",
-            "text": "I think I understand the issue. So, like, the old Wells' score for DVT was 1.5 for 'suspected DVT'? But for PE, it's 3? That's like, a whole point difference! No wonder it's hard to apply it to PE.",
-            "color": "pink"
-          },
-          {
-            "id": 12,
-            "parent_id": 2,
-            "user": "u/Dr_Aris_Thorne",
-            "role": "Staff Physician",
-            "city": "Toronto, ON",
-            "text": "Actually, Sarah, the Wells' score for DVT is a bit more nuanced than that. You have to consider the clinical context, including the patient's history of VTE, recent trauma, or surgery...",
-            "color": "brown"
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "parent_id": null,
-        "user": "u/Sparkle-Eyes_Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Yer want to keep it simple, I'm all fer that! So, when in doubt, just use the PERC rule...",
-        "color": "green",
-        "children": [
-          {
-            "id": 13,
-            "parent_id": 3,
-            "user": "u/Dr_Victor_Sterling",
-            "role": "Chief of Surgery",
-            "city": "Calgary, AB",
-            "text": "Amateurs! PERC is for the faint of heart. Where's the clinical judgment?",
-            "color": "orange"
-          }
-        ]
-      }
-    ],
-    "image": "https://danboater.org/travel-health-and-safety/images/deep-vein-thrombosis-dvt-infographic-dan-boater-lores.png"
-  },
-  {
-    "id": 1001,
-    "title": "Just saw a patient with shock who didn't respond to fluids...",
-    "category": "emergency-medicine",
-    "body": "I just saw a patient who presented with shock, tachycardia, and wide pulse pressure. They were administered a liter of saline and 20 mg of epi, but unfortunately, their blood pressure remained refractory to treatment. What should I have done differently?",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I think it's essential to reevaluate your initial fluid challenge and assess for potential occult bleeding. Bedside ultrasound can help identify the source of shock, such as a ruptured ectopic pregnancy or intra-abdominal bleeding. Has anyone reviewed the patient's ultrasound?",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "What's the protocol for bedside ultrasound in shock? Do we need to refer the patient to radiology or can we do it ourselves?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "@Leo, in our hospital, we have a protocol for EPs to perform bedside ultrasound in shock. The views I'd recommend include subcostal cardiac, parasternal long-axis cardiac, and inferior vena cava. Would be happy to share the protocol with you! [link to hospital policy]",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "I'd like to add that in patients with shock, we should also be looking for signs of adrenal insufficiency, such as hypotension not responding to fluids and vasopressors. Have any of you considered checking the patient's cortisol levels?",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "@Elena, I'm not sure I agree with checking cortisol levels in every patient with shock. We should focus on the obvious causes of shock first, such as hypovolemia or cardiac tamponade. Only if those are ruled out should we consider more occult causes.",
-        "color": "orange"
-      },
-      {
-        "id": 6,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "As a nurse, I've noticed that often the most obvious signs of shock are overlooked. In this case, I'd suggest reviewing the patient's vital signs and lab results from the ED to ensure we're not missing any clues. Sometimes a second set of eyes can make all the difference!",
-        "color": "green"
-      },
-      {
-        "id": 7,
-        "parent_id": 1,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "What's the most common cause of shock in adults? Is it related to hypovolemia or cardiac issues?",
-        "color": "red"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "@Chad, in my experience, the most common cause of shock in adults is hypovolemia, particularly hemorrhagic shock. However, cardiac causes such as cardiogenic shock are also prevalent. It's essential to consider both when evaluating a patient with shock.",
-        "color": "blue"
-      },
-      {
-        "id": 9,
-        "parent_id": 1,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "I'm confused... why are they calling me 'patient' if I'm a patient? Shouldn't they call me 'Mr. Finch'?",
-        "color": "yellow"
-      }
-    ]
-  },
-  {
-    "posts": [
-      {
-        "id": 8,
-        "title": "Rant about missed incarcerated hernias",
-        "body": "Had a miss last night with a 35-year-old male presenting with a 2-day history of abdominal pain, vomiting, and a palpable mass in the left upper quadrant. The patient was afebrile, with normal vitals. On exam, the hernia was reducible, but not easily so. The ECG and labs were normal. I sent him home thinking it was a case of a sliding hiatal hernia, only to receive an ER stat report later that night saying the patient had developed peritonitis and was now in septic shock. Luckily, the patient made it to the OR and had a good outcome.",
-        "category": "emedicine",
-        "comments": [
-          {
-            "id": 1,
-            "parent_id": null,
-            "user": "Dr. Aris Thorne",
-            "role": "Staff Physician",
-            "city": "Toronto, ON",
-            "text": "TLDR, you missed a strangulated hernia. It's a surgical emergency, and we all know that.",
-            "color": "purple"
-          },
-          {
-            "id": 2,
-            "parent_id": 1,
-            "user": "Turbo Tom ",
-            "role": "RN",
-            "city": "London, ON",
-            "text": "Not to pile on, but I think I've seen Dr. Thorne's point before. Incarcerated hernias can be tricky to diagnose. Can you walk us through what you were thinking when you saw the patient?",
-            "color": "green"
-          },
-          {
-            "id": 3,
-            "parent_id": 1,
-            "user": "Dr. Phil Muddle",
-            "role": "EP",
-            "city": "Regina, SK",
-            "text": "Huh? I thought hernias were always surgical emergencies if they got strangulated. Was this a special case?",
-            "color": "blue"
-          },
-          {
-            "id": 4,
-            "parent_id": 2,
-            "user": "Dr. Aris Thorne",
-            "role": "Staff Physician",
-            "city": "Toronto, ON",
-            "text": "Exactly, Turbo! When I see a hernia that's not easily reducible, I think about incarceration. The key is to evaluate the entire patient, not just the hernia. Look for signs of strangulation like pain, tenderness, and erythema.",
-            "color": "purple"
-          },
-          {
-            "id": 5,
-            "parent_id": 4,
-            "user": "Dr. Maya Gupta",
-            "role": "PGY2",
-            "city": "Mississauga, ON",
-            "text": "I see what you mean, but what if the patient's not showing any signs of strangulation? Can we really just assume it's an incarcerated hernia?",
-            "color": "orange"
-          },
-          {
-            "id": 6,
-            "parent_id": 5,
-            "user": "Dr. Aris Thorne",
-            "role": "Staff Physician",
-            "city": "Toronto, ON",
-            "text": "Good question, Maya. We can't, but we also can't assume it's not an incarcerated hernia based on lack of signs. That's when the 'educated guess' comes in. We use our experience and knowledge to make a clinical decision.",
-            "color": "purple"
-          },
-          {
-            "id": 7,
-            "parent_id": 6,
-            "user": "Turbo Tom ",
-            "role": "RN",
-            "city": "London, ON",
-            "text": "EdCuated guess? I love it. Can we use the old '4 P's' to guide us: Pain, Pulsation, Peritonitis, and Paralysis?",
-            "color": "green"
-          },
-          {
-            "id": 8,
-            "parent_id": 7,
-            "user": "Dr. Archibald Thorne",
-            "role": "Physician",
-            "city": "Saskatoon, SK",
-            "text": "Yes, indeed! The 4 P's! But we mustn't forget the 'P' of 'Pressure'. The patient's pressure is often elevated.",
-            "color": "blue"
-          },
-          {
-            "id": 9,
-            "parent_id": 8,
-            "user": "Sparkle-Eyes Sue",
-            "role": "LPN",
-            "city": "St. John's, NL",
-            "text": "Wow, that's so true! I've seen patients where the only sign is a low-grade fever and a slightly elevated BP. Thank you for the reminder, Doc!",
-            "color": "pink"
-          },
-          {
-            "id": 10,
-            "parent_id": 9,
-            "user": "Dr. Sarah Sharp",
-            "role": "EP",
-            "city": "Laval, QC",
-            "text": "As an aside, has anyone else noticed that some hospitals are shifting to using the '5 P's': Pain, Pulsation, Peritonitis, Paralysis, and Pressure? Same idea, but with an extra 'P' for good measure.",
-            "color": "orange"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Just saw a patient with a complex cervical spine fracture. What are your go-to references for management?",
-    "body": "Had a tricky one last night where the patient, a 35-year-old male, presented with a hyperextension injury from a car accident. Initial imaging showed a burst fracture of the atlas, with significant displacement of the C1-2 joint. I knew I had to get him to a stable environment ASAP, but I was unsure of the best approach for management.\n   I ended up consulting with neurosurgery and we decided to go with a halo vest. But I'd love to hear from you all about your experiences with cervical spine fractures. What are your favorite references for management? Are there any new guidelines or recommendations that I should be aware of?",
-    "category": "Emergency Medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I've had some experience with cervical spine fractures in my residency. For burst fractures, I always refer to this paper by Patel et al. (2018) - it's a great overview of the current management options and it covers some of the nuances of different types of fractures. I've also found the Cervical Spine Research Society guidelines to be super helpful in terms of guiding treatment decisions. TLDR: always get a CT scan if you're unsure, and consider consulting neurosurgery early if there's any displacement.",
-        "color": "blue"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "I've had some experience with cervical spine trauma in the ICU. For patients with spinal cord injuries, I always check their sodium levels - hypnatremia can be a major contributor to spinal cord swelling and worse outcomes. Have you guys ever seen any patients with spinal cord injuries due to sodium imbalances? And do you have any go-to references for managing these patients?",
-        "color": "pink"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "That's a great point, Dr. Varkov! I've seen some cases where the sodium levels were severely abnormal, and it affected the patient's overall outcome. For managing spinal cord injuries, I always refer to this paper by Marino et al. (2015) - it's a great review of the latest research on rehabilitation techniques and outcomes.",
-        "color": "purple"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "What about the role of MRI in cervical spine injuries? Is it always necessary to get an MRI in addition to the CT scan?",
-        "color": "yellow"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Yes, MRI can be really helpful in cervical spine injuries, especially if there's any suspicion of cord injury or compression. I usually get an MRI if the patient is showing any signs of neurological deficits or if the CT scan is unclear. It's always better to be safe than sorry, right?",
-        "color": "blue"
-      },
-      {
-        "id": 6,
-        "parent_id": 3,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "I've also found the American Academy of Orthopaedic Surgeons (AAOS) guidelines to be helpful for managing cervical spine fractures. They have a great flowchart that can guide treatment decisions.",
-        "color": "pink"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
         "user": "Sarah Jenkins",
         "role": "MS3",
         "city": "Ottawa, ON",
-        "text": "That's a great resource, Dr. Varkov! Can you tell us more about the flowchart and how it helps guide treatment decisions? I've had some trouble understanding how to apply the guidelines in practice.",
+        "text": "@Dr. Ziggy Zalesky, but what about the risk of abscess or perforation? Shouldn't we err on the side of caution and admit them?",
+        "color": "pink"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "@Sarah Jenkins, exactly. We need to consider the balance between benefit and risk. For most patients, outpatient treatment is perfectly safe and effective. Let's not forget the importance of patient autonomy and avoiding unnecessary hospitalizations.",
         "color": "red"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "@Dr. Aris Thorne, couldn't agree more, but what about those patients who really do need to be admitted? Like those with severe sepsis or who need IV fluids?",
+        "color": "orange"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "@Turbo Tom, you're absolutely right. Those patients do need to be admitted, but we need to be more careful with our diagnoses. We've all seen these cases where the patient's 'abscess' turned out to be just a big ol' infected diverticulum. The ER doc needs to be more skeptical!",
+        "color": "purple"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "@Dr. Victor Sterling, ugh, come on Vic. We've got enough of your condescending 'amateurs' comments. Just provide some evidence to back up your claims, instead of just pontificating.",
+        "color": "gray"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "@Martha 'The Hammer', I think Martha has a point, but can someone clarify what Dr. Sterling means by 'infected diverticulum'? Is that just a fancy way of saying diverticulitis?",
+        "color": "green"
       },
       {
         "id": 8,
@@ -1025,28 +1076,19 @@
         "user": "Dr. Elena Varkov",
         "role": "FRCPC",
         "city": "Quebec City, QC",
-        "text": "The flowchart is actually pretty straightforward. It's based on the patient's clinical presentation and the imaging findings. I can try to break it down for you if you'd like - maybe we can even do a diagram or something.",
-        "color": "pink"
+        "text": "@Dr. Kevin Park, an infected diverticulum is a type of diverticulitis characterized by a contained collection of purulent material within the diverticulum. It's a distinct entity that doesn't always require admission, but we need to be aware of the possibility especially in those with complicated disease",
+        "color": "brown"
       },
       {
         "id": 9,
-        "parent_id": 8,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Hey guys, I'm just a pre-med student, but I'm interested in learning more about cervical spine fractures. Can you recommend any online resources or textbooks that I can use to learn more?",
-        "color": "orange"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
+        "parent_id": 1,
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "Ha ha, Chad, good luck with med school! For cervical spine fractures, I always recommend checking out the Cervical Spine Research Society website - they have a ton of resources and guidelines for emergency physicians. You can also try searching for online courses or lectures on the topic. And of course, there's always the trusty textbook by Levine and Ducker.",
-        "color": "blue"
+        "text": "TL;DR: @Dr. Ziggy Zalesky's point about over-admitting patients. We should focus on providing high-quality care in the ED and considering factors like patient autonomy, benefit vs. risk, and evidence-based medicine before sending patients home or admitting them.",
+        "color": "yellow"
       }
     ],
-    "image": "https://pubs.rsna.org/cms/10.1148/rg.220131/asset/rg.220131.fp.png_v03"
+    "image": "https://images.squarespace-cdn.com/content/v1/549b0d5fe4b031a76584e558/9df329f6-7a55-44c7-af32-e626976f7c25/Acute+diverticulitis+management+for+the+Emergency+Medicine+Provider+Final+Draft.jpg"
   }
 ]
