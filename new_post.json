@@ -1,54 +1,214 @@
 [
   {
-    "id": 1,
-    "title": "Today I learned that treating a patient with Pelvic Inflammatory Disease (PID) requires a multi-faceted approach.",
-    "body": "Just saw a patient with PID and I realized that we tend to focus on treating the symptoms rather than addressing the underlying causative agents. According to our latest EM guidelines, PID is a term used to describe a spectrum of infections of the female upper reproductive tract, including endometritis, salpingitis, tubo-ovarian abscess, and pelvic peritonitis. We need to suspect PID in any sexually active female patient presenting with lower abdominal pain, vaginal discharge or bleeding, and a fever. Neisseria gonorrhoeae and Chlamydiatrachomatis are the most common pathogens responsible for PID, but it's essential to remember that other microorganisms can also cause it. Our latest EM guidelines recommend a single-dose antibiotic treatment regimen for PID, which includes a combination of azithromycin or doxycycline for Chlamydia and ceftriaxone for gonorrhea. The key is to get a thorough sexual history to identify any potential risks and to counsel the patient on safe sex practices.",
-    "category": "emergency_medicine",
+    "id": 0,
+    "category": "medicine",
+    "title": "Just had the craziest syncope patient last night... (TLDR: think I nailed it, but want input)",
+    "body": "So, we had this 45-year-old dude comes in, saying he passed out (syncope) after getting out of the shower. He said he was feeling fine, then suddenly his face went blank, and next thing he knew, he was on the floor. No history of significant medical conditions, no meds. No family history of sudden cardiac death.\n\n   I ordered a basic workup: ECG, BNP, CBC, BMP. He's got a mildly elevated troponin, so I'm thinking MI, but the ECG is a bit weird... it's got some signs of hypertrophic cardiomyopathy (HCM). He's got a small Q wave in V2 and inverted T waves in multiple leads. I've never actually seen HCM, but it's the closest thing I've come to it. We're running the rest of the workup now.\n\n   Anyway... I'm wondering if y'all have seen anything like this before? Was my initial workup enough? Should I have gotten a stress test or something? (TLDR: was my syncope diagnosis correct, or should I get a second opinion?)",
     "comments": [
       {
-        "id": 2,
+        "id": 1,
         "parent_id": null,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "A great point, Dr.! And a key part of treating PID is also to ensure that the patient is counselled on safe sex practices and referred for STD screening. Did you consider ordering an ultrasound to check for any complications such as an ovarian cyst or adhesions?[1] https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4441136/",
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Thanks for the post! As for your question, I think you're on the right track. Hypertrophic cardiomyopathy can definitely present with syncope due to decreased diastolic filling time. That's why I'd recommend getting an echo and, probably, a stress test. The troponin might be a false positive, but better safe than sorry.",
         "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Wait, what's the difference between hypertrophic cardiomyopathy and an MI? Are they both structural problems with the heart?",
+        "color": "green"
       },
       {
         "id": 3,
         "parent_id": 2,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "But if we do an ultrasound, wouldn't that confirm the diagnosis and eliminate the need for empirical antibiotic treatment? Shouldn't we instead focus on empirically treating the patient based on the clinical presentation rather than ordering unnecessary tests?",
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Yeah, great question Leo. HCM is a structural abnormality with the heart due to thickening of the left ventricular wall. MI, on the other hand, is caused by a blockage of blood flow, usually due to a blood clot or plaque buildup. In HCM, the heart wall is thickened, making it harder for blood to flow out. So, in a way, they're both structural issues but caused by different factors. Does that make sense?",
         "color": "green"
       },
       {
         "id": 4,
-        "parent_id": 2,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Actually, Sarah, an ultrasound would help us identify any complications that may require surgical intervention. For example, if the patient has a tubo-ovarian abscess, surgery may be necessary to drain it. Additionally, an ultrasound can help us monitor the patient's response to treatment and identify any signs of complications such as sepsis or perforation. Let's not forget that PID is a spectrum of disease that can result in infertility, chronic pain, and other long-term consequences if left untreated.",
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Actually, wouldn't it be more like a 'cardiac syndrome of shock', or something similar? You know how the troponin is mildly elevated... isn't that indicative of myocardial injury?",
         "color": "blue"
       },
       {
         "id": 5,
-        "parent_id": 3,
+        "parent_id": 4,
         "user": "Dr. Aris Thorne",
         "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "A excellent question, Sarah Jenkins! And a key point to consider when it comes to treating PID is the importance of using a multi-modal approach that includes both medical and surgical treatment when necessary. While antibiotics are a crucial component of treatment, surgery may be necessary to address any complications such as an ovarian cyst or adhesions. And let's not forget the importance of counselling the patient on safe sex practices and referring them for STD screening.",
-        "color": "pink"
+        "text": "Ah, you think it's a cardiac syndrome of shock, huh? That's a good point. But with the signs of HCM on the ECG, and that troponin, I think we should consider HCM a priority. Although, we can't rule out the possibility of MI entirely. Maybe we can arrange a stress test to see how his heart responds?",
+        "color": "red"
       }
     ],
-    "image": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1831842124120541"
+    "image": "https://www.frontiersin.org/files/Articles/497130/fcvm-06-00180-HTML/image_m/fcvm-06-00180-g001.jpg"
   },
   {
     "id": 1,
-    "title": "Delirium vs Pseudocoma: Don't Get Tripped Up",
-    "body": "Just had a patient come in with a 24hr history of disorientation and agitation. Initial vitals were all normal, but the chart was filled with red flags: 'patient has been drinking for days', 'has a history of substance abuse', 'has a history of 'mood disorders'. The patient was agitated, but showed no signs of focal neurological deficits. What got me was when I tested the patient's cranial nerves. Pupils were constricted, but otherwise normal. No evidence of nystagmus, no abnormalities on the Hachinski scale. My take was that this patient was suffering from a pseudocoma. But I've been seeing some recent studies that make me doubt this. Has anyone else seen this in their practice? What do you all think? I've been following this recent study on pseudocoma (https://www.ncbi.nlm.nih.gov/pubmed/31534422) and I'm curious to hear your input on the matter",
-    "category": "Medicine",
+    "title": "TLDR: Never remove an esophageal foreign body with a Foley catheter",
+    "body": "Had a miss last night when our ER doc attempted to remove a coin from a child's esophagus using a Foley catheter. The patient ended up with a severe aspiration pneumonia and we had to intubate them. Just a reminder: never try to remove an esophageal foreign body with a Foley catheter. You'll end up in the ICU like we did.",
+    "category": "emedicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Amen to that! Esophageal foreign bodies are a classic ER conundrum. Coins present a unique challenge because they're often stuck in tight spaces and can be difficult to visualize. In our hospital, we usually send them to GI for endoscopy and removal. Never, ever try to use a Foley catheter.",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Can you clarify what you mean by 'tight spaces'? Are you referring to the esophageal muscular layer or the lumen?",
+        "color": "blue"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Thanks for sharing this important lesson, Dr. Zalesky. It's a good reminder that even seasoned ER docs can make mistakes. Always important to consult with specialists when in doubt, especially when dealing with esophageal foreign bodies.",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "I'm a bit concerned about what happened here. How did the ER doc even attempt to use a Foley catheter in the first place? Was there a miscommunication between team members?",
+        "color": "red"
+      },
+      {
+        "id": 5,
+        "parent_id": 2,
+        "user": "Dr. Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Good question, Barnaby. It was a junior doc who attempted the removal. They were trying to save time and thought it would be a simple procedure. Big mistake. Lesson learned: never compromise patient safety for the sake of speed.",
+        "color": "purple"
+      },
+      {
+        "id": 6,
+        "parent_id": 1,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Wow, crazy story, guys! Can someone explain to me what the exact mechanism of injury was? Was the Foley catheter forced through the esophagus or did it just get wedged in there?",
+        "color": "orange"
+      },
+      {
+        "id": 7,
+        "parent_id": 3,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "Thanks for the refresher course, Dr. Sharp. One thing to keep in mind is that esophageal foreign bodies can be tricky to manage, especially if they're stuck in tight spaces like Dr. Zalesky mentioned. When in doubt, it's always better to err on the side of caution and consult with specialists.",
+        "color": "green"
+      },
+      {
+        "id": 8,
+        "parent_id": 4,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "This post is a great reminder of the importance of proper training and supervision in the ER. Junior docs, take heed: always follow established protocols and never try to wing it.",
+        "color": "red"
+      },
+      {
+        "id": 9,
+        "parent_id": 1,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "I'm so glad we have this forum to share our experiences and learn from each other's mistakes. Can someone please share some resources or studies on the best practices for managing esophageal foreign bodies?",
+        "color": "pink"
+      },
+      {
+        "id": 10,
+        "parent_id": 6,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Check out this article on Medscape: 'Management of Esophageal Foreign Bodies' It provides a comprehensive review of the topic, including best practices for removal and prevention of complications.",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Just saw a patient with anaphylaxis and it got me thinking... ",
+    "body": "I had a patient come in with signs and symptoms of anaphylaxis the other night. Luckily we were able to get epinephrine on board quickly and the patient is doing okay. What always gets me is how quickly things can go south in a patient with anaphylaxis. I mean, one minute they're fine and the next they're crashing. Anybody else have any experience with this? How do you manage patients with suspected anaphylaxis? Do you use the 'Megascore' system or do you go with your gut? Should I have ordered some antihistamines on the way out? TL;DR - What are your anaphylaxis management strategies?",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great post! Anaphylaxis is a great topic. The 'Megascore' system is a tool that I use to help assess patients with suspected anaphylaxis. It's not a diagnostic tool per se, but rather a way to gauge the severity of the reaction. The acronym stands for Mu, ECG changes, Gastric issues, Angioedema, Seizures, Cardiovascular compromise, O2 desaturation, Respiratory distress, Euphoria, and other symptoms. If a patient scores high on the 'Megascore' system, it's likely they have anaphylaxis. However, if their score is low, it's unlikely. It's not a replacement for clinical judgment, but more of a guideline. As for management, epinephrine is key. I administer it IM or IV depending on the patient's stability. I also use antihistamines and steroids to help control symptoms. The key is to act quickly and be prepared for the unexpected. Link to article on Megascore: https://www.academicemergencymedicine.com/content/10/1/14",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "What is the Megascore system? I've never heard of it before. Is it a formal assessment tool or something you just made up? I'm a bit confused",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Ah, great question Leo! The Megascore system is a tool that I made up (no jokes, folks!). It's a mnemonic device that helps me remember the key aspects of anaphylaxis. Each letter in the word stands for a different symptom: M - Mucosal changes, E - ECG changes, G - Gastric issues, A - Angioedema, S - Seizures, C - Cardiovascular compromise, O - O2 desaturation, R - Respiratory distress, E - Euphoria, and other symptoms. It's not a formal assessment tool, per se, but rather a way to quickly gauge the severity of the reaction. Think of it as a 'rule of thumb' rather than a formal diagnostic tool",
+        "color": "purple"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "I'm not sure I agree with the Megascore system. It seems like it might be a bit simplistic and may not capture the nuances of anaphylaxis. Have you ever used any other assessment tools or guidelines?",
+        "color": "green"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Ah, Sarah, you're absolutely right! The Megascore system is far too simplistic. As a Chief of Surgery, I've seen my fair share of anaphylaxis cases, and I can tell you that each patient is unique. We need to use a more comprehensive approach, one that takes into account the patient's medical history, the severity of the reaction, and the specific symptoms they're experiencing. I'm not sure I'd recommend using the Megascore system at all",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Just saw a patient with decompression sickness from a scuba dive...",
+    "body": "Today I saw a patient who was scuba diving and had a really bad time.  He went down deep, stayed too long, and ascended without exhaling.  He had a pulmonary barotrauma and a CAGE (cerebral arterial gas embolism) that almost killed him.  I'm still trying to get him to talk to the neuro team... TLDR; Decompression sickness is real and it's a killer.",
+    "category": "emergency medicine",
     "comments": [
       {
         "id": 2,
@@ -56,8 +216,8 @@
         "user": "Dr. Aris Thorne",
         "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "Great case, OP! One thing to consider is the concept of \u201cneuroleptic malignant syndrome\u201d. This can present with agitation, altered mental status, and even fever. Has anyone ruled out dopamine antagonists or MAOIs in this patient's history?",
-        "color": "blue"
+        "text": "I've seen this too many times.  It's amazing how many people don't get it.  You can't just breathe compressed air at depth and then pop up to the surface.  The gas laws are real folks.  We need to do a better job of educating our dive buddies.",
+        "color": "purple"
       },
       {
         "id": 3,
@@ -65,8 +225,8 @@
         "user": "Dr. Victor Sterling",
         "role": "Chief of Surgery",
         "city": "Calgary, AB",
-        "text": "Amateurs. You'd think after all these years, people would know better than to confuse pseudocoma with delirium. Read the study I linked (https://www.ncbi.nlm.nih.gov/pubmed/31534422). It clearly shows that pseudocoma is associated with decreased cerebral blood flow on SPECT imaging. You can't just rely on clinical examination alone!",
-        "color": "red"
+        "text": "Amateurs.  Don't come crying to me when you get a patient with a pulmonary barotrauma.  You can't just send them to the 'neuro team' and expect that to solve the problem.  We need to be able to treat this stuff in-house.",
+        "color": "green"
       },
       {
         "id": 4,
@@ -74,25 +234,446 @@
         "user": "Dr. 'Ziggy' Zalesky",
         "role": "EP",
         "city": "Vancouver, BC",
-        "text": "Whoa, hold on there, Vic! I'm not sure I agree. I think the study OP linked is actually quite convincing. The cases they present are very similar to my own experience with pseudocoma. But what I do agree with is that we need to be careful not to confuse these two conditions. Has anyone else had experience with this in their practice?",
-        "color": "yellow"
+        "text": "Oh, come on Vic.  You're not still arguing about whether or not DCS exists, are you?  We all know it's a real thing and we all know how to treat it.  Let's just get our buddy fixed up and let the neuro team do their thing.",
+        "color": "green"
       },
       {
         "id": 5,
+        "parent_id": 2,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Yeah, and it's not just about the DCS.  We need to be thinking about the underlying pathology.  Is this guy going to have long-term sequelae?  We need to be monitoring him closely for things like post-dive neurological symptoms.",
+        "color": "green"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "So, does CAGE mean we're looking at a stroke or something?",
+        "color": "blue"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Yes, Leo, CAGE stands for Cerebral Arterial Gas Embolism.  It's a type of stroke caused by gas bubbles in the brain.  We usually see it in people who have been diving too deep or too long.",
+        "color": "purple"
+      },
+      {
+        "id": 8,
         "parent_id": 4,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "What's DCS again?",
+        "color": "orange"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Oh, man, not you again, Chad.  DCS stands for Decompression Sickness.  It's a condition caused by rapid changes in pressure that lead to gas bubbles forming in the body.",
+        "color": "green"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "So, what's the 'Sodium and the story' again, doc?",
+        "color": "lightblue"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Ha!  Oh, Barnaby, you're killing me.  The 'Sodium and the story' is just a silly phrase we use to remember to always get the sodium levels and the patient's story straight when we're admitting someone.  It's a bit of a joke, really.",
+        "color": "green"
+      }
+    ],
+    "image": "https://i0.wp.com/dontforgetthebubbles.com/wp-content/uploads/2023/10/image-4.png?resize=410%2C1024&ssl=1"
+  },
+  {
+    "id": 1234,
+    "title": "Frustrated with Acute Cholecystitis Diagnoses in the ED. Rant about... Murphy's Sign vs HIDA Scans?",
+    "body": "Just witnessed another missed case of acute cholecystitis tonight due to overreliance on ultrasound. While it's true that ultrasound is sensitive for cholecystitis, especially with signs like Murphy's sign, I think we're missing the bigger picture. Has anyone else had trouble diagnosing cholecystitis, particularly when ultrasound shows... nothing? In this case, our patient was rushed to the OR, and what did they find? A large gallstone impaction causing cholecystitis. Meanwhile, our HIDA scan results are still pending... Any advice on when to trust ultrasound vs HIDA scans? Or, is it just me being an over-caffeinated EP?",
+    "category": "EmergencyMedicine",
+    "comments": [
+      {
+        "id": 12,
+        "parent_id": null,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "AMateurs always relying on HIDA scans. In my day, we diagnosed cholecystitis with a good ol' fashioned physical exam and some basic history-taking. Remember, EPs are supposed to be masters of history-taking. It's your patients who are clueless about their own symptoms.",
+        "color": "blue"
+      },
+      {
+        "id": 13,
+        "parent_id": 12,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "I mean seriously, an ultrasound showing no gallstones? You should at least get an ERCP done or a CT scan to rule out a stone stuck in the CBD.",
+        "color": "blue"
+      },
+      {
+        "id": 14,
+        "parent_id": 12,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "@Dr. Victor Sterling, love the 'in my day' attitude, but let's keep things relevant. HIDA scans are actually really useful for diagnosing cholecystitis when ultrasound isn't cooperating. Have you seen that recent study showing...?",
+        "color": "yellow"
+      },
+      {
+        "id": 15,
+        "parent_id": 14,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Sorry, I'm getting cut off... basically, the study showed that HIDA scans had a sensitivity of 97% and a specificity of 90% for cholecystitis in patients <60yo, while ultrasound was only 70% sensitive in the same age group.",
+        "color": "yellow"
+      },
+      {
+        "id": 16,
+        "parent_id": 12,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Excuse me, sirs, but shouldn't we be talking about how to optimize our ultrasound techs' skills to avoid missing stones? Is it just me or is this more about equipment quality than EP expertise? Asking for a friend... (aka. me, Leo )",
+        "color": "pink"
+      },
+      {
+        "id": 17,
+        "parent_id": 16,
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "Hey, OP! I had a similar case last week, and I was wondering if anyone had any advice on how to approach it? I was thinking of doing a thorough history, looking for any evidence of substance abuse or mood disorders, and then doing some imaging to rule out any structural abnormalities. What do you guys think?",
+        "text": "Ahaha Leo, your humility is endearing! However, seriously, optimizing ultrasound skills is a great way to avoid unnecessary HIDA scans. Has anyone had experience with online ultrasound courses or workshops?",
+        "color": "purple"
+      },
+      {
+        "id": 18,
+        "parent_id": 12,
+        "user": "Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "I'm getting tired of hearing about how sensitive HIDA scans are. They're expensive, and trust me, I've seen too many cases where those scans came back normal and the patient ended up having a stone in CBD.",
+        "color": "black"
+      },
+      {
+        "id": 19,
+        "parent_id": 18,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "That's a great point, Dr. Stone, but what about when ultrasound shows no gallstones, and the patient's symptoms persist? How do you decide between HIDA scan and CT scan?",
+        "color": "purple"
+      },
+      {
+        "id": 20,
+        "parent_id": 19,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "I love this discussion, all ye fine folks! As an LPN, I've seen too many EPs getting frustrated with 'negative' ultrasounds. But what if I told you, I once witnessed an EP who used a 3rd-party radiologist to review the ultrasound images, and subsequently, the patient was diagnosed with cholecystitis and had a HIDA scan confirming the diagnosis? Food for thought, right?",
+        "color": "green"
+      },
+      {
+        "id": 22,
+        "parent_id": null,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "I think we should be talking about the actual clinical utility of HIDA scans vs CT scans for diagnosing cholecystitis. After reviewing the recent literature, I found that HIDA scans are actually more cost-effective than CT scans for acute cholecystitis, provided there's a high suspicion based on clinical presentation.",
+        "color": "red"
+      },
+      {
+        "id": 23,
+        "parent_id": 22,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "I agree, Dr. Sharp, but what about situations where there's a high likelihood of complications? Shouldn't we err on the side of caution with HIDA scans or CT scans as needed?",
+        "color": "blue"
+      },
+      {
+        "id": 24,
+        "parent_id": 22,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Sorry to sound so clueless, but what's the deal with 3rd-party radiologists reviewing ultrasound images? Is that a new thing or a common practice in Canadian hospitals?",
+        "color": "purple"
+      },
+      {
+        "id": 25,
+        "parent_id": 24,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Hey Chad, I think the 3rd-party radiologist reviewing images is actually more common than you'd think in the ER. It helps improve resident education and ensures accurate diagnoses.",
+        "color": "blue"
+      },
+      {
+        "id": 26,
+        "parent_id": 24,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "What a waste of time, you young'uns are spendin' more time dilly-dallyin' in here than it takes me to take a patient's vitals...",
+        "color": "red"
+      },
+      {
+        "id": 27,
+        "parent_id": 26,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "^ Martha 'The Hammer', you can't help but love this woman for tellin' it straight!",
+        "color": "yellow"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Rant about Supine Hypotension Syndrome in Pregnancy",
+    "category": "emergency-medicine",
+    "body": "Just had a case where a 35yr old woman, who had been kicked in the stomach, presented with severe hypotension and tachycardia. Initially, we thought it was just shock from blood loss, but it turned out the uterus was compressing the inferior vena cava, causing the supine hypotension syndrome. I know it's a textbook scenario, but this time it hit home. We ended up needing to elevate the legs and give a blood transfusion. TLDR: Never underestimate the power of a well-placed pillow. Now I wanna know - what are your experiences with this condition? Has anyone else ever had a 'textbook' case not quite go according to plan?",
+    "comments": [
+      {
+        "id": 2,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great reminder, OP. Supine hypotension is a classic, but it can be a real challenge to diagnose in the heat of the moment. One thing to keep in mind is that patients with preeclampsia or multiple gestations may be at higher risk for this condition. Also, I've found that a quick bedside echo can help confirm the diagnosis. Has anyone else found that useful?",
+        "color": "red"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Thanks, Dr. Thorne! I've also read that a CUSUM of the inferior vena cava on ultrasound can be helpful in diagnosing supine hypotension. Is there anywhere I can find more information on using bedside echo in this scenario?",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 2,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Actually, I've done a review of the literature on supine hypotension and I couldn't find any significant correlation between preeclampsia or multiple gestations and the risk of supine hypotension. Can anyone speak to the accuracy of this finding?",
+        "color": "green"
+      },
+      {
+        "id": 5,
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "OP, can you elaborate on what you mean by 'well-placed pillow'? I've had patients with supine hypotension before and we always just put them on their left side. Did I miss something?",
         "color": "purple"
       },
       {
         "id": 6,
         "parent_id": 5,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "",
+        "text": "Ah, I think I can help clarify that! I was the patient OP was talking about. Yes, they put me on my side, but then they also put a pillow under my right shoulder to elevate it and take pressure off the vena cava. Made all the difference for me!",
+        "color": "gray"
+      },
+      {
+        "id": 7,
+        "parent_id": 5,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Haha, love the transparency, Barnaby! But seriously, folks, let's not forget that supine hypotension is just one part of the bigger picture. We need to be thinking about placental abruption, preterm labor, and uterine rupture, too. Can anyone share their favorite resources for staying on top of the high-risk obstetrics?",
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Hey Ziggy! I've found the ACOG guidelines on high-risk obstetrics to be super helpful. Anyone else use those?",
+        "color": "orange"
+      },
+      {
+        "id": 9,
+        "parent_id": 7,
         "user": "Dr. Elena Varkov",
         "role": "FRCPC",
         "city": "Quebec City, QC",
-        "text": "Actually, I think the first thing to do is get a head CT to rule out any acute hydrocephalus or other structural abnormalities. And then, yes, do a thorough history and physical to look for any signs of substance abuse or withdrawal. Has anyone else seen this in their practice?",
+        "text": "While I agree with keeping high-risk obstetrics top of mind, let's not forget about the patient's underlying condition. In this case, the patient had a ruptured spleen, so we needed to be prepared for that too. Any thoughts on how to differentiate between splenic and uterine sources of hemorrhage in pregnancy?",
+        "color": "pink"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "I've had success with bedside FAST to quickly evaluate for splenic injury. Anyone else use that in this scenario?",
+        "color": "brown"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Rant about Thermal and Chemical Burns: A Clinical Anecdote from the Front Lines",
+    "body": "I just got done assessing a patient with a 30% TBSA full-thickness burn from a house fire. It's moments like these that remind me why we do what we do. The patient's wife called 911, but the kids were trapped inside. Luckily, they managed to rescue them all, but the burns are extensive. When I saw the patient's chart, I was struck by the sheer volume of medications they were on: benzodiazepines for anxiety, fentanyl for pain, and even some experimental treatments for inhalation injury. It's times like these that I wish our healthcare system was better equipped to handle burn patients. We're talking about a patient with a >60% risk of mortality, and the best we can do is stabilize them and hope for the best. I'm not asking for much. Just give us the right tools, the right training, and the right support. We'll do the rest. TLDR: Burn patients deserve better.",
+    "category": "Burn Injuries",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "I wholeheartedly agree with this post. As physicians, we have a responsibility to advocate for our patients. In the case of burn patients, we need to push for better care coordination, especially when it comes to post-discharge rehabilitation. I'd love to hear from others on this topic.",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "I'm not sure I entirely agree with the post. Don't get me wrong, burn patients deserve better, but I think we need to look at the bigger picture. Burn injury is a complex issue that requires a multifaceted approach. What specific changes would you propose to improve care?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "As a junior resident, I've been seeing a lot of burn patients lately. One thing that strikes me is the lack of resources for follow-up care. Patients often have to travel long distances for wound dressings and follow-up appointments. Can anyone speak to this issue?",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 2,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Sarah, I think you're overlooking the sheer volume of research that's gone into burn care. We have protocols in place for everything from wound dressings to inhalation injury. The problem is, we need to do a better job of translating that research into everyday practice. I'd love to see more discussion on this.",
+        "color": "green"
+      },
+      {
+        "id": 5,
+        "parent_id": 3,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Kevin, I think you're raising a red flag about a bigger issue. We need to look at our resources and prioritize patients who need it most. Maybe we can revisit our allocation of resources and make sure we're not shortchanging our burn patients. Any thoughts on this?",
+        "color": "purple"
+      },
+      {
+        "id": 6,
+        "parent_id": 3,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "I'm not sure if this is the right forum for this, but I've seen a lot of burn patients come through our unit. One thing that strikes me is the lack of emphasis on prevention. Can we talk about some strategies for reducing burn injury in our communities?",
+        "color": "green"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Great point, Turbo. As community physicians, we have a unique opportunity to make a difference. What specific strategies would you propose for preventing burn injury?",
+        "color": "purple"
+      },
+      {
+        "id": 8,
+        "parent_id": 1,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "I just wanted to say that I think this post is a great reminder of why we do what we do. As caregivers, we have a responsibility to advocate for our patients. Thank you for sharing your thoughts!",
+        "color": "pink"
+      }
+    ],
+    "image": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1095607412602260"
+  },
+  {
+    "id": 1,
+    "title": "Just had to admit a 30yo with 120 fire ant stings. Anyone else have experience with these tiny terrors?",
+    "body": "She arrived after a hike in the woods and had a full-body rash, urticaria, and signs of anaphylaxis. Had to administer some epi and get her stable before we could start treating the stings. Now she's on IV fluids and steroids.",
+    "category": "emergency medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Wow, that's crazy! I've seen a few cases, but never this many stings. Did you have to use anaphylaxis protocols?",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Yup, had to go into full-on anaphylaxis mode. Administered epinephrine, steroids, and antihistamines. Had her in the ICU for a while, just to be safe.",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs. You didn't give her any Atropine?",
+        "color": "red"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Actually, we did give her Atropine, but I think the real take-home is that we have to be more vigilant with our Hymenoptera stings.",
+        "color": "purple"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Thanks for sharing, doc! I'm curious - did you have to do any special dressing for the stings?",
+        "color": "purple"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Yeah, we used a topical cream to help reduce the sting pain. Also, made sure to remove any remaining stingers carefully.",
         "color": "green"
       },
       {
@@ -101,208 +682,131 @@
         "user": "Sparkle-Eyes Sue",
         "role": "LPN",
         "city": "St. John's, NL",
-        "text": "Hey, guys! I've worked in a few ERs, and I've seen a lot of pseudocoma cases. I think the key is to just be patient and listen to the patient. Sometimes, they'll tell you things that no one else has heard before because they're so out of it. Has anyone else had experience with talking to pseudocoma patients?",
-        "color": "pink"
+        "text": "Bless her heart! Did you have to send her for any imaging studies after the attack?",
+        "color": "blue"
       },
       {
         "id": 8,
         "parent_id": 7,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Haha, yeah! I was thinking the same thing! I mean, pseudocoma patients are always telling you weird stuff, right? But seriously, has anyone else seen cases where the patient was actually faking it? Like, they were just trying to avoid going to work or getting in trouble at home or something?",
-        "color": "orange"
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Actually, we did have to get some imaging to rule out any complications like airway edema or cardiac involvement.",
+        "color": "purple"
       },
       {
         "id": 9,
         "parent_id": 8,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "Are you kidding me?! Of course, they're faking it! They're in med school to learn about medicine, not to actually help patients. This is the worst part of being a doc - dealing with all the fake patients who think they can get away with it. Has anyone else had to deal with these kinds of patients?",
-        "color": "red"
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Cool, thanks for the tip! By the way, has anyone heard of any new treatments for anaphylaxis?",
+        "color": "blue"
       }
     ]
   },
   {
-    "id": 2,
-    "title": "TL;DR: I saw a patient with a clenched fist injury last night and I'm still trying to process what I did wrong.",
-    "body": "Just saw a patient with a clenched fist injury... or so I thought. Turns out it was a 'fight bite' (https://en.wikipedia.org/wiki/Fight_bite) and I ended up treating it like a simple laceration. Luckily it all turned out okay, but it made me realize how easy it is to miss the diagnosis of a clenched fist injury.",
-    "category": "emergency_medicine",
+    "id": 12345,
+    "title": "Had a tough case last night...",
+    "body": "Just saw a patient with a positive blood culture, afebrile, clinically well, and no source of infection. My senior suggested that we start IV antibiotics and admit, but I was unsure. We ended up doing a sepsis workup, and the results were normal. The patient ended up completing their course of oral antibiotics.",
+    "category": "EM",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": "dr_aris_thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Ah, a good reminder to always think of 'fight bites' when seeing patients with clenched fist injuries. The key is to examine the tendons and nerves distal to the wound and assess for potential injury. I've seen cases where the tendon damage wasn't evident at first glance, but made a significant difference in the patient's outcome. Did you consider consulting a hand specialist?",
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "That's a tough one, OP. In our hospital, we follow the same protocol. The key is to make sure the patient is not sick and doesn't have any new symptoms. If they're low-risk, we can usually complete the course of oral antibiotics without IV antibiotics. Did you check for immunizations?",
         "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "leo_chen",
+        "user": "Leo Chen",
         "role": "MS1",
         "city": "Montreal, QC",
-        "text": "What are the symptoms of a clenched fist injury vs a 'fight bite'? How do you differentiate between the two?",
+        "text": "Dr. Gupta, what do you mean by 'low-risk'? Is it based on the child's age or some other factor?",
         "color": "green"
       },
       {
         "id": 3,
         "parent_id": 1,
-        "user": "sarah_jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "A study published in the Journal of Hand Surgery found that clench fist injuries (CFI) have a higher risk of tendon damage compared to 'fight bites' (https://www.ncbi.nlm.nih.gov/pubmed/30251151). The study suggests that the mechanism of injury, specifically the direction of the force, plays a significant role in determining the type of injury.",
-        "color": "blue"
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Good question, Leo! In our hospital, we use the following risk factors to determine if a patient is low-risk: age < 3 months, immunization status, and presence of a focus of infection. If the patient is low-risk, we can usually complete the course of oral antibiotics without IV antibiotics.",
+        "color": "green"
       },
       {
         "id": 4,
-        "parent_id": 1,
-        "user": "turbo_tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Just a quick RN perspective - have you guys ever noticed that patients with clenched fist injuries often have a weird, awkward demeanor? Like, they're trying to play it cool, but you can tell they're hiding something. Just something to consider when evaluating the patient's story.",
+        "parent_id": null,
+        "user": "Dr. Rick 'The Rage'",
+        "role": "EP",
+        "city": "Windsor, ON",
+        "text": "This is exactly why I hate hospital policy. We're stuck following some arbitrary protocol that's not based on evidence. What's the point of having an internist on staff if we're just going to follow some canned guidelines?",
         "color": "purple"
       },
       {
         "id": 5,
         "parent_id": 4,
-        "user": "dr_victor_sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs. You're getting too bogged down in the minutiae. The real issue with clenched fist injuries is the potential for infection, not the mechanism of injury or the patient's demeanor.",
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Easy for you to say, Rick. You're not the one dealing with the parents' anxiety or the insurance company's demands for 'value-based care'. Sometimes, we need to follow the policy to ensure consistency and continuity of care.",
         "color": "green"
       },
       {
         "id": 6,
-        "parent_id": null,
-        "user": "dr_maya_gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I've seen several cases of clenched fist injuries that didn't require surgery, but did require prompt antibiotic treatment due to the risk of infection. What are the current guidelines for antibiotic use in clenched fist injuries?",
-        "color": "purple"
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Dr. Gupta, I've heard that non-UTI SBI incidence is estimated to be 3%-8% in infants 57-90 days of age. Should we be concerned about this in our patient?",
+        "color": "green"
       },
       {
         "id": 7,
         "parent_id": 6,
-        "user": "sparkle_eyes_sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "A great question, Dr. Gupta! According to the AEM section of the Infectious Disease Society's guidelines (https://www.idsofc.org/), clenched fist injuries are considered a high-risk injury for infection. They recommend a 3-day course of oral antibiotics, such as cephalexin or clindamycin.",
-        "color": "green"
-      }
-    ]
-  },
-  {
-    "title": "Today I Learned...the horrors of TIA mimicry - A cautionary tale",
-    "body": "Just saw a patient with a 2-day history of symptoms that started as a 30-second episode of numbness in their left arm and leg, which resolved, only to recur as a 15-minute episode of weakness in the same limbs, which also resolved. The patient was otherwise asymptomatic. I'm sure many of you have seen this before, but I wanted to share my frustrations with TIAs. Is there a better way to differentiate between a TIA and a stroke in the ED? Specifically, is there any data on the role of NIHSS scores in predicting outcomes after TIA? I've heard mixed reviews on the effectiveness of the score in this context.",
-    "category": "Emergency Physicians",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physicians",
-        "city": "Toronto, ON",
-        "text": null
-      }
-    ],
-    "image": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1186%2Fs12245-024-00780-5/MediaObjects/12245_2024_780_Fig1_HTML.png"
-  },
-  {
-    "id": 1,
-    "title": "Rant about pediatric seizures and status epilepticus in the ED",
-    "body": "Just came off a long shift and had to watch a child seize for over 20 minutes because of 'delayed' diagnosis (I'm not calling the ER doc an amateur). I had to remind the nurses to get a stat glucose and ECG because we all know that's the first thing to check in a seizing child. Meanwhile, the parents were freaking out and the ER doc was getting defensive. \nTLDR; pediatric seizures are a huge pain in the butt to diagnose and manage in the ED. Always remember to check the glucose, ECG, and look for signs of status epilepticus. Don't be a hero and think you can manage it yourself. Call your consultant!",
-    "category": "pediatrics",
-    "comments": [
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Ahaha, love the rant! Pediatric seizures are indeed a challenge. I think the key is to stay calm, assess the child quickly, and get labs done ASAP. Remember to check for signs of status epilepticus, like prolonged seizure activity, altered mental status, or autonomic instability. Always better to err on the side of caution and get the patient to the ICU if you're unsure. And don't even get me started on the ER doc's excuses... 'delayed diagnosis'? Give me a break! We all know it's a team effort in the ED. Thanks for sharing, OP!",
-        "color": "blue"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Hi Dr. Thorne! I'm a first-year med student, and I'm learning about pediatric seizures in my lectures. Can you explain what you mean by 'autonomic instability' in the context of status epilepticus?",
-        "color": "yellow"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Haha, love the rant, OP! As a nurse, I've seen my fair share of seizing kids. One thing I always think about is the possibility of metabolic disorders, like hypoglycemia or electrolyte imbalances. We should also be thinking about infections and structural brain abnormalities in the differential diagnosis of seizures. Thanks for reminding us all to stay vigilant!",
-        "color": "purple"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "Totally agree, Turbo Tom! Metabolic disorders are a crucial consideration in pediatric seizures. Have you all seen the latest guidelines on the diagnosis and management of hypoglycemia in children? [link to guidelines]",
+        "text": "Great point, Sarah! Yes, we should definitely consider UTI in infants 57-90 days of age. The American Academy of Pediatrics recommends that we obtain a urine culture and consider antibiotics if the culture is positive. Did anyone get a urinalysis on this patient?",
         "color": "green"
-      },
-      {
-        "id": 6,
-        "parent_id": 2,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Hi Dr. Thorne, thanks for the clarification on signs of status epilepticus. Can you also talk about the role of imaging in the diagnosis of seizures in children? When should we be ordering CT scans or MRIs?",
-        "color": "yellow"
-      },
-      {
-        "id": 7,
-        "parent_id": 1,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "Ugh, pediatric seizures are the WORST. The worst. I've had to deal with so many parents freaking out and 'know-it-all' specialists in the ICU who think they can handle everything. Just when I think I've seen it all, a kid in status epilepticus walks in and I have to deal with it. And yes, always check the glucose and ECG, but what about the poor management of seizures in the ICU? [rants on about ICU management]",
-        "color": "red"
       },
       {
         "id": 8,
         "parent_id": 7,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Dr. 'The Rage', we hear you loud and clear. ICU management of seizures is indeed a challenge. Have you read the latest guidelines on the treatment of status epilepticus in adults? We should be thinking about the similarities and differences between pediatric and adult management... [link to guidelines]",
-        "color": "blue"
-      },
-      {
-        "id": 9,
-        "parent_id": 1,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Hey guys, I'm not an ER doc yet (pre-med student here!), but I have to ask: what's the deal with seizures having a 'postictal' phase? Can someone explain it to me in simple terms? Thanks!",
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Actually, the AAP recommends a urine culture as the first step in evaluating a febrile infant. We should also obtain a urinalysis to look for urinary tract abnormalities.",
         "color": "purple"
       },
       {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "Ah, Chad, my young friend! The postictal phase refers to the time after the seizure activity has stopped, but the child might still be confused, disoriented, and vulnerable to injury. It's a critical period to monitor the child closely and ensure they're safe and stable. Think of it like the 'storm after the hurricane' - we've gotta be there to pick up the pieces!",
+        "id": 9,
+        "parent_id": 8,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Thanks, Dr. Thorne. I'll make sure to follow up on that.",
         "color": "green"
+      },
+      {
+        "id": 10,
+        "parent_id": null,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Hey guys, just wanted to chime in and say that I love seeing these discussions in the EM community. Keep it up!",
+        "color": "purple"
       }
     ]
   },
   {
-    "title": "Rant: When to Wait for Oral Intake after Sedation",
-    "body": "Just saw a patient with significant anxiety and required procedural sedation for an IV catheter placement. The patient had eaten a light meal 2 hours prior. I was reminded that the recommended 3 hour wait period for oral intake can be safely shortened with lower levels of sedation like moderate sedation ('conscious sedation'). What are your thoughts on the topic? Have we become too risk-averse or is there truly less risk with shorter wait periods?",
+    "id": 9999,
+    "title": "Just saw a patient with status asthmaticus... and I had another 'aha' moment.",
+    "body": "Yesterday, I had the worst case of status asthmaticus I've seen in ages. A 35-year-old female patient, wheezing, short of breath, and oxygen sat at 70% on room air. She had a history of asthma controlled with ICS and SABA. But this time, she'd been on a new medication that her p-doc had prescribed to help with her chronic pain. Turns out, it was the culprit behind her acute exacerbation. Just when I thought I'd seen it all... So, to all my fellow physicians, I implore you: be aware of the medications that can trigger asthma exacerbations, including certain antidepressants, antihistamines, and painkillers. And if you ever have a patient on these meds, have them carry an EpiPen and a copy of their medication list with them at all times.",
     "category": "emergency medicine",
     "comments": [
       {
@@ -311,475 +815,73 @@
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "TIL (Today I Learned) that the 3 hour wait period is more of a guideline. In practice, the risk of aspiration is low with lower levels of sedation. However, I always err on the side of caution in the ED and wait the full 3 hours. I've seen my fair share of 'stat' CT scans and know how bad aspiration can be.",
+        "text": "Great reminder, Dr. Thorne! That particular medication can indeed cause bronchospasm in some patients. I remember a case where a patient developed status asthmaticus after taking a single dose of a pain reliever. TLDR: always review the patient's medication list, even for seemingly minor changes. [Link to Medscape article on medication-induced asthma](https://www.medscape.com/viewarticle/878121)",
         "color": "blue"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "I disagree, my dear Dr. Gupta. In my day, we didn't wait for 3 hours to put in an IV. We used to say, 'A penny saved is a penny earned.' Waiting for 3 hours to put in an IV when the patient is already anxious is like treating the symptoms and not the disease. We should be focusing on sedation and anxiety control, not worrying about a little bit of food in the esophagus.",
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Wow, that's terrifying! What would you tell us to look for on the patient's history to identify potential asthma exacerbation triggers?",
         "color": "red"
       },
       {
         "id": 3,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "I'm just a nurse and not a doctor, but I've seen some horror stories of aspiration in the ED. My vote is to wait the full 3 hours. We can't afford to have our patients having a medical emergency because of our hasty decisions.",
-        "color": "purple"
+        "parent_id": 2,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Leo, good question! When reviewing a patient's history, look for red flags such as recent changes in respiratory symptoms, medication changes (as we discussed earlier), and allergies. Also, don't forget to ask about environmental exposures, like pollution, smoke, or pet dander. Oh, and remember to get an ECG and an ABG if possible, especially if the patient has a history of cardiac disease or is on high-dose ICS.",
+        "color": "orange"
       },
       {
         "id": 4,
-        "parent_id": 2,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Dr. Thorne, while I understand your point, I think we are overestimating the risk of aspiration. In most cases, it's a rare complication that we can avoid. But when it happens, it can be disastrous. Dr. Gupta's approach is cautious but not overcautious. I think it's a reasonable approach to wait the full 3 hours, especially in high-risk patients.",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": 3,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Hey, folks! As a nurse, I have to ask: What about patients who have had gastric surgery? Don't they have a higher risk of aspiration? Should we be even more cautious in those cases?",
-        "color": "blue"
-      },
-      {
-        "id": 6,
         "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Sorry to be a newbie, but how does the 3 hour wait period come from? Is there a specific study or guideline that I can read?",
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "This is exactly why we need to get back to basic medicine. Sometimes, it's the simplest things that we overlook (like a change in meds!). Keep up the good work, Dr. Thorne! I have a question though - what's your approach to treating patients with suspected asthma exacerbations? Do you use a stepwise approach, starting with beta-agonists alone?",
         "color": "purple"
       },
       {
-        "id": 7,
+        "id": 5,
         "parent_id": 4,
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "Dr. Miller, I'm glad you brought up high-risk patients. While I agree that waiting the full 3 hours is a good default, I think we need to consider individual patient factors. For example, patients with severe COPD or those who are intubated may not need to wait as long. Dr. Thorne, would you agree that sedation and anxiety control are more important in some cases than waiting for 3 hours?",
-        "color": "green"
-      },
-      {
-        "id": 8,
-        "parent_id": 6,
-        "user": "Dr. 'Ziggy' Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "TIL that the 3 hour wait period is actually an American guideline. Our Canadian colleagues don't follow it. I'm no expert, but it seems like we can use our discretion on a case-by-case basis. Maybe we can look at the APAN or other Canadian guidelines for evidence-based recommendations?",
-        "color": "blue"
-      },
-      {
-        "id": 9,
-        "parent_id": 1,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Ranting about nothing. I've seen patients with aspiration complications and it's a serious business. We should be following evidence-based practices, not just winging it. Let's look at the evidence and make an informed decision.",
-        "color": "red"
-      },
-      {
-        "id": 10,
-        "parent_id": 7,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Hey, doc! What about ketamine as an alternative? Isn't it used for sedation in some cases? I'm not a doctor, but I've seen the ED TV shows where they use it in the field.",
-        "color": "purple"
-      }
-    ]
-  },
-  {
-    "id": 6,
-    "title": "Today I Learned that ETCO2 doesn't always confirm tracheal tube placement",
-    "category": "Emergency Medicine",
-    "body": "Just saw a patient with a history of neck trauma and a difficult airway. We managed to get an ET tube in but the CO2 level was delayed in returning. Ended up having to do a bedside ultrasound to confirm proper placement. Has anyone else experienced a similar situation and what was the plan B?",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs using ETCO2 to confirm tracheal tube placement. Of course it's not always reliable. Use a fibreoptic scope or a bougie to confirm placement. And what's with the lack of proper cervical spine stabilization in this story?",
-        "color": "red"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "@Dr. Sterling, while I agree with you on the importance of cervical spine stabilization, the use of ETCO2 as a confirmation method is still widely taught and accepted in the literature. Can you elaborate on why you prefer fibreoptic scopes or bougies?",
-        "color": "blue"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Um, @Dr. Sterling, I've seen ETCO2 used to confirm intubation in many textbooks. Can we get a source for this advice? I want to make sure I'm understanding it correctly",
-        "color": "purple"
-      },
-      {
-        "id": 4,
-        "parent_id": 2,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "@Dr. Thorne, I've heard that fibreoptic scopes are more accurate than ETCO2 but are they harder to use? Can you give us some pearls on how to use them effectively?",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": 2,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "ETCO2 delayed? Ultrasound to the rescue! But seriously, what about using the bougie technique I've been reading about? Anyone have experience with it?",
-        "color": "orange"
-      },
-      {
-        "id": 6,
-        "parent_id": 3,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "@Leo, I think @Dr. Sterling was trying to say that ETCO2 is not foolproof and we should use it in conjunction with other methods to confirm placement. Remember the story of the patient who died because the ET tube was placed in the esophagus?",
-        "color": "blue"
-      },
-      {
-        "id": 7,
-        "parent_id": 4,
-        "user": "Dr. Barbara Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "@Sarah, yes, fibreoptic scopes can be challenging to use, especially in patients with difficult airways. But with practice, you'll get better. Remember to use the smallest diameter scope possible and don't forget to lubricate the scope!",
-        "color": "green"
-      },
-      {
-        "id": 8,
-        "parent_id": 5,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Bougie technique? Isn't that like using a flexible stylet to help guide the ET tube in? I thought that was a no-go?",
-        "color": "purple"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "@Chad, you're absolutely right. The bougie technique involves using a flexible stylet to guide the ET tube. I've heard it's a useful technique in patients with difficult airways but I need to brush up on my knowledge. Anyone have a good resource to share?",
-        "color": "blue"
-      },
-      {
-        "id": 10,
-        "parent_id": 1,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Can we talk about something more practical here? How do we manage a patient with a history of neck trauma and a difficult airway in the ED? What are our priorities and what's the best practice?",
-        "color": "orange"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "@Ziggy, in my experience, the key is to stabilize the patient's neck and then use a combination of fibreoptic laryngoscopy and bougie technique to secure the airway. But what about the role of cricoid pressure?",
-        "color": "green"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "@Henry, I agree that cricoid pressure is an important consideration, but we also need to consider the risk of esophageal rupture in patients with neck trauma. Can we weigh the risks and benefits of different airway management strategies?",
-        "color": "blue"
-      },
-      {
-        "id": 13,
-        "parent_id": 12,
-        "user": "Dr. Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "@Elena, I think we're getting too caught up in the details. What's most important is to get the patient's airway secured and then take it from there. Can we agree on that?",
-        "color": "red"
-      }
-    ],
-    "image": "https://my.clevelandclinic.org/-/scassets/images/org/health/articles/intubation"
-  },
-  {
-    "id": 1,
-    "title": "Today I Learned - Upper GI Bleeding: More Than Meets the Eye",
-    "body": "Just saw a patient with a classic case of upper GI bleeding - peptic ulcer disease with a history of NSAID use. Easy peasy, right? Wrong. The real issue was her chronic constipation and anemia. Turns out, she's been taking laxatives for years, which is likely causing her to have a more rapid transit time. This in turn may be exacerbating her ulcer disease. Has anyone else come across this association? Just wondering if I'm missing something.",
-    "category": "Emergency Medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I've definitely seen cases like this where laxatives have led to a vicious cycle of worsening constipation and GI bleeding. It's amazing how much of a difference a change in bowel habits can make in the presentation of GI bleeding. Remember that patient who had melanoma and her history of using Ex-Lax to 'stay regular'? Scary stuff. TLDR: Be suspicious of 'benign' causes of GI bleeding, especially in patients with a history of laxative use.",
-        "color": "blue"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "So, Dr. Gupta, if a patient is taking laxatives, how do you assess for GI bleeding? Is it just a matter of ordering an EGD and colonoscopy? Also, what are some tips for managing these patients long-term?",
-        "color": "purple"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Guys, what's the deal with upper GI bleeding and weight loss? I've read that it's a major risk factor, but why is that? Can someone simplify it for me?",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 2,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Okay, Sarah, I think I can help out on that. So, when it comes to assessing a patient with laxative use and suspected GI bleeding, the first step is to get a thorough history. We want to know about their bowel habits, their history of bleeding, and any changes in their bowel habits. Then, we'll likely want to order some initial labs like a CBC, BMP, and maybe even an EGD or colonoscopy depending on the clinical presentation. Has anyone else got any tips for managing these patients?",
-        "color": "red"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "Ugh, upper GI bleeding is a pain in the butt. Always think it's just a peptic ulcer disease, but then you find out it's actually something way more serious like a gastric varix. Has anyone else had a case like this that just blew up in their face?",
-        "color": "orange"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Don't be such a complainer, Rick. It's just another case of upper GI bleeding. What's the big deal? You're probably just going to end up admitting them anyway and getting paid to do nothing.",
-        "color": "purple"
-      },
-      {
-        "id": 7,
-        "parent_id": 5,
-        "user": "Dr. 'Ziggy' Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Hey Rick, I think Dr. Sterling is trying to be a bit too harsh. Actually, gastric varices are a real concern and should be taken seriously. But yeah, I'm sure your patient will be just fine and get a few days of IV fluids and then be sent home happy as a clam. Am I right?",
-        "color": "green"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "Ziggy's got it right. These patients are not to be taken lightly. And for the love of all things holy, please, just remember to check for a history of alcohol abuse before diagnosing these cases. It makes a difference.",
-        "color": "blue"
-      },
-      {
-        "id": 9,
-        "parent_id": null,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "You know, I've been seeing a lot of these upper GI bleeding cases from patients who are on long-term NSAID use. Any suggestions on how to wean these patients off these meds? I hate having to give them opioids for pain control. Have any of you experienced this before?",
-        "color": "purple"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Don't be too hard on yerself, Doc! There's ways to handle these patients. You might wanna think about giving them some alternative pain control options like acetaminophen or ibuprofen-free pain medications. Or even get them set up with some physical therapy or something to help with their pain levels.",
-        "color": "green"
-      },
-      {
-        "id": 11,
-        "parent_id": null,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "Gentlemen and ladies, do not be too hasty in assuming the patient's history of NSAID use is the sole cause of their upper GI bleeding. We must not forget the importance of the physical examination and the role of the physician in diagnosing disease. 'There's no substitute for a careful history and a good physical exam.' Am I right?",
-        "color": "blue"
-      }
-    ]
-  },
-  {
-    "id": 8,
-    "title": "CASE STUDY: Dilated Cardiomyopathy - Can't Miss Signs",
-    "body": "Just saw a patient with a suspected dilated cardiomyopathy last night. It's a doozy, guys. The patient is a 35-year-old male with a past medical history of hypertension and hyperlipidemia. He presents with a 2-day history of shortness of breath and orthopnea. The chest x-ray shows cardiomegaly with biatrial enlargement, and the ECG is nonspecific. I'm thinking of starting him on some ACE inhibitors and maybe even a diuretic. But before I get into the weeds, I want to hear from you folks. What are some other signs I should be looking for in a patient with suspected dilated cardiomyopathy?",
-    "category": "Emergency Medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "R2",
-        "city": "Mississauga, ON",
-        "text": "Great post, everyone! Dilated cardiomyopathy is a challenging diagnosis to make, but there are a few key signs to look for. One of the most important things to remember is that a significant portion of patients with DCMP will present with symptoms of heart failure, such as dyspnea, orthopnea, and pedal edema. Another important sign to look for is a low voltage or diffuse ST elevation on the ECG. In addition, a chest x-ray showing cardiomegaly with biatrial enlargement is also a key diagnostic finding. One thing to keep in mind is that DCMP can present with a wide range of symptoms, from asymptomatic to severe heart failure, so a high index of suspicion is necessary. TLDR; Look for signs of heart failure, low voltage on the ECG, and cardiomegaly on the chest x-ray.",
-        "color": "blue"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Great job pointing out the low voltage on the ECG, Dr. Gupta! I had a question about the ECG in DCMP. I thought I read that the ECG in DCMP can be nonspecific, but you mentioned low voltage. Can you clarify what the most common ECG findings are in DCMP?",
-        "color": "purple"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Kevin Park",
-        "role": "R1",
-        "city": "Edmonton, AB",
-        "text": "Another great point, Dr. Gupta, is the importance of looking for signs of right-sided heart failure, such as ascites and jugular venous distension. Can you tell me more about the prognosis in patients with DCMP? Is it generally worse than in other forms of cardiomyopathy?",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "R2",
-        "city": "Mississauga, ON",
-        "text": "Excellent questions, Leo and Dr. Park! The ECG in DCMP can be nonspecific, but low voltage or diffuse ST elevation are commonly seen. One study found that 64% of patients with DCMP had a low voltage on the ECG. As for prognosis, DCMP has a poor prognosis, especially in the first year after diagnosis. The mortality rate is estimated to be around 30-50% at one year, and even higher in those who require heart transplantation.",
-        "color": "blue"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Can I ask a question about treatment? What are the most important considerations when deciding whether to initiate ACE inhibitors in a patient with DCMP? Are there any contraindications I should be aware of?",
-        "color": "purple"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Maya Gupta",
-        "role": "R2",
-        "city": "Mississauga, ON",
-        "text": "Great question, Sarah! ACE inhibitors are a mainstay of treatment in DCMP, but there are some key contraindications to consider. For example, patients with severe hypertension or renal failure may be at increased risk of hypotension and acute kidney injury. Additionally, patients with significant aortic stenosis or renal artery stenosis may be at increased risk of adverse effects.",
-        "color": "blue"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Missed opportunity in sexual assault management?",
-    "body": "Just had a patient come in with a history of intimate partner violence, but I failed to consider the risk of pregnancy and subsequently didn't perform an abdominal exam or obtain the necessary labs. Had a colleague point out my mistake after the fact and now I'm kicking myself for being so careless. Has anyone else had a similar experience where they missed something in a high-stakes case like this? How do you ensure you're not missing any crucial details in these situations?",
-    "category": "Emergency Medicine",
-    "comments": [
-      {
-        "id": 2,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": " Omg yes, I've been there too! It's so easy to get tunnel vision when dealing with high-stress cases. To prevent this, I've started implementing a 'stop, pause, and think' checklist when dealing with patients who have a history of abuse or trauma. It includes things like 'ask about risk of pregnancy', 'perform a thorough physical exam', and 'obtain necessary labs'. Has anyone else found something like this helpful?",
-        "color": "purple"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Love the checklist idea, Dr. Gupta! In our ER, we've also started using a 'trauma protocol' that includes specific tasks and questions to ask patients who have a history of abuse or trauma. One thing we've added recently is a 'pregnancy screen' to ensure we're checking for potential fetal injury. Has anyone else found that these protocols are effective in preventing missed opportunities like yours?",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 2,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "So, what are some other things we should consider when dealing with patients who have a history of abuse or trauma? Are there some specific labs or tests that are always necessary?",
-        "color": "blue"
-      },
-      {
-        "id": 5,
-        "parent_id": 2,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Actually, the key to not missing crucial details is to have a good bedside manner and take the time to listen to the patient's story. Often, patients will give away key information if you take the time to ask the right questions. In our ER, we've started implementing ' trauma-informed care' practices that prioritize patient-centered care and empowerment.",
-        "color": "red"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Ugh, don't get me started on trauma-informed care. It's all a bunch of touchy-feely nonsense that gets in the way of real medicine. What patients need is good old-fashioned treatment, not a bunch of emotional hand-holding. Can we please focus on the actual medical issues here?",
-        "color": "orange"
-      },
-      {
-        "id": 7,
-        "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Actually, I think trauma-informed care is a great approach. By prioritizing patient-centered care, we can actually improve patient outcomes and reduce the risk of missed opportunities like Dr. Thorne's. Has anyone else looked at the research on trauma-informed care and its impact on patient outcomes?",
+        "text": "Great question, Dr. Varkov! In our ED, we follow a stepwise approach as you mentioned. If we suspect a patient has asthma exacerbations, we'd start with low-dose SABA (e.g., albuterol) or ICS if they're on it. If symptoms persist after 15-30 minutes, we escalate to high-dose SABA or add an ICS. We also consider subcutaneous epinephrine (1:1,000 dilution) if the patient is unresponsive to other treatments. Of course, this is all while we're working up the patient (e.g., ABG, ECG, chest X-ray). What about you, Dr. Varkov? How do you approach treating patients with suspected asthma exacerbations?",
         "color": "pink"
       },
       {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Yeah, I've looked at the research, and it's clear that trauma-informed care is a game-changer. Not only does it improve patient outcomes, but it also reduces the risk of malpractice suits. That's why I always try to prioritize patient-centered care in my practice.",
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Well, we've recently switched to using the Canadian Asthma Consensus guidelines. We also consider adding systemic corticosteroids in the ED, especially if the patient is not improving on SABA/ICS. We've had some great results with that approach. Another thing we do is try to minimize the amount of oxygen patients receive, as you mentioned earlier. Would love to hear more about your experience with systemic steroids in status asthmaticus!",
         "color": "brown"
       },
       {
-        "id": 9,
-        "parent_id": 7,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "Ugh, you're all missing the point. The real issue here is that the hospital administration is too focused on paperwork and bureaucracy. If we had more time to focus on actual patient care, we wouldn't be missing opportunities like Dr. Thorne's. Can we please get back to the basics and focus on patient care?",
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "That's great to hear, Dr. Varkov! I've actually had some success with systemic steroids in the past. When I used methylprednisolone 100mg IVQ6, I've seen patients improve significantly within 1-2 hours. However, I do make sure to give them a thorough review of their symptoms and adjust their treatment plan accordingly. Do you have a specific protocol for deciding when to use systemic steroids?",
         "color": "gray"
       },
       {
-        "id": 10,
-        "parent_id": 1,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Actually, I think the problem is that we get so caught up in trying to follow the latest protocols and guidelines that we forget about the basics of good patient care. Has anyone else noticed this trend in our ER?",
-        "color": "turquoise"
+        "id": 8,
+        "parent_id": null,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "OMG, you guys are so smart! I just learned about asthma exacerbations and it's soooo complicated. Can someone please break it down like I'm 5 years old? ",
+        "color": "yellow"
       }
     ],
-    "image": "https://ars.els-cdn.com/content/image/1-s2.0-S0736467920307885-gr2.jpg"
+    "image": "https://www.ebmedicine.net/media_library/images/2023-PEMP-Publication-Article/07-July/Clinical-Pathway-for-Emergency-Department-Management-of-Pediatric-Asthma-Exacerbations-TH.png"
   }
 ]
