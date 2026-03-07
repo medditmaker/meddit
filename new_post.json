@@ -1,9 +1,8 @@
 [
   {
-    "id": 0,
-    "title": "Just saw a patient with diverticulitis and I'm still scratching my head...",
-    "body": "So I had a patient come in last night with a classic presentation of diverticulitis: left lower quadrant pain, fever, and leukocytosis. I ordered a CT scan and it came back with a phlegmon (a collection of infected tissue). Easy peasy, right? Wrong. The patient was sent home from a community clinic 3 days ago with a diagnosis of 'abdominal pain', and was on NSAIDs the whole time. I'm talking chronic pain, no fever, no white blood cells. Now, 3 days later, she comes in with a full-blown infection. What's going on here? Am I missing something or is this some kind of ' diverticulitis by proxy'? Has anyone else seen this before?",
-    "category": "r/EMed",
+    "title": "HHS vs. DKA: A Real-World Dilemma",
+    "body": "Just saw a patient with a classic HHS case last night and it got me thinking about the nuances between HHS and DKA. Who else has had a tricky case like this where the difference between HHS and DKA was a matter of life and death?",
+    "category": "EMStories",
     "comments": [
       {
         "id": 1,
@@ -11,268 +10,258 @@
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "Oh man, I've seen this before. I was a resident at a community hospital and one of the attendings would prescribe NSAIDs for every patient with abdominal pain. I was like, 'Doc, are we trying to turn these patients into pharmaceutical factories?!'. Long story short, I'm not surprised this patient was sent home with an incorrect diagnosis. Can we talk about the lack of diagnostic acumen in community medicine?",
-        "color": "blue"
+        "text": "HHS and DKA are both hyperglycemic crises, but with distinct differences. In HHS, you see a much more pronounced volume depletion and a 'non-ketotic' profile. In DKA, you see significant ketosis and a more pronounced metabolic acidosis. It's all about recognizing the 'osmotic' diuresis in HHS. We did a great review on this in our EM Journal club last month - https://emjournal.net/hyperosmolar-hyperglycemic-state-hhs/. TLDR: think 'non-ketotic' and 'osmotic' for HHS.",
+        "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Ugh, I'm so sorry to hear that Maya. I had a patient a few weeks ago who was prescribed metformin for her 'hypoglycemia' when in fact she was presenting with early pancreatic cancer. Can you believe it? Anyway, back to your patient. Did you check for other sources of infection like a urinary tract infection or a bowel obstruction?",
-        "color": "purple"
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Wait, what's the key difference between HHS and DKA? I know HHS is usually in Type 2 diabetics, but is it just the ketones?",
+        "color": "green"
       },
       {
         "id": 3,
         "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Excuse me, but what's a phlegmon? I thought that was just a fancy name for 'infected tissue' or something?",
-        "color": "pink"
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "The key thing to remember is that in HHS, the glucose is usually >600 mg/dL and the osmolality is >315 mOsm/kg. You can also use the 'counterregulatory' hormones to make the diagnosis. Check out this post from the Endocrine Journal - https://endojournal.net/diabetes/hyperosmolar-hyperglycemic-state/.",
+        "color": "orange"
       },
       {
         "id": 4,
         "parent_id": 3,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Ahaha, Leo you're thinking about abscesses! A phlegmon is actually a collection of infected tissue that's contained within the intestinal wall. Think of it like a big ball of gunk that's trapped inside the colon. Now that we know that, let's get back to the patient's diagnosis. Has anyone seen this patient before? Did they notice any unusual symptoms or findings?",
-        "color": "green"
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "How do you usually handle HHS and DKA in the ED? Do you get a CT head for cerebral edema or just focus on the fluid resuscitation and glucose control?",
+        "color": "blue"
       },
       {
         "id": 5,
-        "parent_id": 1,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "You're all talking about the patient with diverticulitis but let's not forget the bigger picture here. We have a system in place that's designed to churn out patients like widgets, with or without accurate diagnoses. What's going on with our EMR systems and how do we get the docs to actually practice 'medicine' rather than just clicking boxes on a screen?",
-        "color": "orange"
+        "parent_id": 4,
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "Don't waste your time with a CT head unless you have a clear indication. In HHS and DKA, you're usually chasing a 'volume-depletion' and 'electrolyte imbalance' rather than a neurological emergency. Focus on the 'fluid resuscitation' and 'insulin' and you'll be fine - trust me, I've been around the block a few times.",
+        "color": "red"
       },
       {
         "id": 6,
         "parent_id": 5,
-        "user": "Turbo Tom",
+        "user": "Martha 'The Hammer'",
         "role": "RN",
-        "city": "London, ON",
-        "text": "RICK I AGREE ENTIRELY!!! Can we also talk about the lack of resources for nurses to actually do real nursing? We're getting bogged down with paperwork and charting, leaving zero time for actual patient care. Has anyone seen any decent articles or research on this topic?",
-        "color": "red"
+        "city": "Halifax, NS",
+        "text": "Respectfully, I disagree with my 'colleague' here. In HHS, we usually see a high risk of cerebral edema and a need for mannitol. I'd never advise 'wasting' precious time on a CT head, especially if the patient's neuro status is deteriorating.",
+        "color": "pink"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Rick 'The Rage'",
+        "role": "EP",
+        "city": "Windsor, ON",
+        "text": "I agree with Martha and think that HHS and DKA are both high-risk conditions that require a 'multidisciplinary' approach. You can't just 'wound down' with a few bags of IV fluids and some insulin - we need a 'critical approach' here! https://annemergmed.com/article/diabetic-ketoacidosis-an-update-on-pathophysiology-diagnosis-and-management/",
+        "color": "indigo"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "In my day, we just called it 'apoplexy' and treated it with a healthy dose of 'liniment' and some good old-fashioned 'folk remedy'. But I suppose that's a bit of a 'vintage' approach these days",
+        "color": "brown"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Ah, you'll get no argument from me, Dr. Thorne! But don't you think it's time to 'get with the times' and start using some of that fancy-pants 'evidence-based' medicine? After all, 'we can learn from our mistakes and make a brighter future'!",
+        "color": "yellow"
       }
     ],
-    "image": "https://images.squarespace-cdn.com/content/v1/549b0d5fe4b031a76584e558/9df329f6-7a55-44c7-af32-e626976f7c25/Acute+diverticulitis+management+for+the+Emergency+Medicine+Provider+Final+Draft.jpg"
+    "image": "https://images.squarespace-cdn.com/content/v1/5c0e3a9c9d5abbd00a203bb0/1545056307152-8IJ388HTIHFDYC5I2LA5/images_ITS_1.jpg"
   },
   {
-    "id": 12345,
-    "title": "Just saw a case of pediatric status epilepticus where...",
-    "body": "I'm still scratching my head over this one. 12 year old kid comes in seizing for 10 minutes. Blood glucose was low, but otherwise unremarkable. Had to do a stat CT to rule out intracranial pathology. Luckily, it came back normal. What really got me was when the family doc said 'I didn't think they were that bad off.' Um, really? The kid was seizing for 10 minutes, and you're not sure if they're 'that bad off'?! Has anyone else had a patient with status epilepticus present with such a low glucose level? TLDR; status epilepticus, low glucose, stat CT, pediatric.",
-    "category": "EM",
+    "id": 1,
+    "title": "COPD Exacerbation Red Flag for Drowning, not just a bad cough! (TLDR: ventilation-perfusion mismatch, wheezing doesn't correlate with severity, pulse paradoxus)",
+    "body": "I had a patient this AM with a 68-yo M, who presented with a 3-day history of worsening dyspnea and a 'productive' cough. His sats were 92% on 2L NC, but his CXR showed 'atelectasis'...  After ordering a ABG, I was surprised to see his PaCO2 was 45 and PaO2 was 58... I immediately got him on oxygen and contacted respiratory. We ended up intubating him due to respiratory failure and, as we were getting him ready, I asked my nurse to page his family and get them down here. As they were waiting outside (the OR was in use), his nurse (TL;DR: our Martha 'The Hammer') comes out and tells me, 'You know what's interesting about this patient?' I say, 'Uh... no?' She says, 'I found out his daughter died of COPD 3 yrs ago... and his son had a severe COPD exacerbation 2 wks ago... and he's still smoking.' I'm like, '... what?' She then proceeds to tell me that she spoke to the patient's wife and that he was indeed smoking like a chimney right up until he presented. I'm like, 'Okay, okay, I think we have a smoking gun here!'  Now, I love an intellectual exercise as much as the next med doc, but in this case, I'm pretty sure it was a matter of life and death. So, what we're calling today is a RED FLAG for COPD exacerbation (and potentially fatal!). TLDR: when in doubt, COPD it's an acute exacerbation! ",
+    "category": "Medicine",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "MD",
+        "user": "Dr. Ari Thorne",
+        "role": "Staff Physicians",
         "city": "Toronto, ON",
-        "text": "That's a great example of why we need to be more vigilant with our diagnostic work-up. I often see families downplay their child's symptoms, thinking they're 'just a kid being a kid.' But we know better. That being said, I've seen cases where the glucose level was normal, but the seizure activity persisted. What do you guys think? Is it possible that this kid's seizures were caused by something other than low glucose?",
-        "color": "blue"
+        "text": "Wise beyond his years, Martha. The key, of course, is identifying that ventilation-perfusion mismatch, where hypoxemia and hypercapnia occur simultaneously. This patient's ABG revealed an elevated PaCO2 and low PaO2, indicating severe hypoxemia. That coupled with his tachypnea and wheezing (and, of course, smoking history) should've had us on high alert for COPD exacerbation.",
+        "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MD",
-        "city": "Ottawa, ON",
-        "text": "Actually, the literature suggests that low glucose is a pretty common cause of status epilepticus in kids. Maybe this kid's family doc just didn't pick up on it? I've heard of some cases where the family thought the seizure was related to a 'fever' or an 'infection,' when in reality it was a hypoglycemic event.",
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Dr. Thorne, what exactly does the ABG indicate in this scenario?",
         "color": "green"
       },
       {
         "id": 3,
         "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "As an RN, I've seen cases where the patient's family didn't even realize the kid was seizing! They thought it was 'just a tantrum' or something. It's crazy how often we underestimate the severity of a child's symptoms. Can we please make a note to ourselves to be more aggressive in our diagnostic work-up, and to communicate better with our patients and their families?",
-        "color": "purple"
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "I've seen cases where the patient's ABG showed a normal PaO2, but the PaCO2 is high due to the V/Q mismatch. Does that sound right?",
+        "color": "green"
       },
       {
         "id": 4,
-        "parent_id": 2,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Jenkins is right, low glucose is a common cause, but what about the kid's family doc not picking up on it? Do we have any resources that recommend how to approach these situations? Should we be looking for other causes of status epilepticus, or is it always low glucose?",
-        "color": "orange"
+        "parent_id": 3,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "Good point, Miss Jenkins! In fact, the ABG can show a PaO2 within the normal range, but the PaCO2 can be significantly high, indicating a ventilation-perfusion mismatch. But, in this case, the patient's PaO2 was also low, so it's not just the hypercapnia that's the issue.",
+        "color": "green"
       },
       {
         "id": 5,
-        "parent_id": 3,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "Turbo Tom is spot on. We need to be more aggressive in our work-up, and communicate better with patients and families. But let's not forget the importance of patient history. We need to ask more questions about the child's recent symptoms, medical history, and social history. Sometimes, it's the 'obvious' question that we forget to ask.",
-        "color": "red"
+        "parent_id": 1,
+        "user": "Kevin Chen",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "How do you determine the severity of a COPD exacerbation?",
+        "color": "green"
       },
       {
         "id": 6,
-        "parent_id": 4,
-        "user": "Dr. Maya Gupta",
-        "role": "MD",
-        "city": "Mississauga, ON",
-        "text": "Leo, great question! Actually, there's a fantastic paper by Dr. Wijdicks that recommends using a simple, 5-question algorithm to rule out hypoglycemia in kids with status epilepticus. We can definitely link to that in the comments.",
-        "color": "blue"
+        "parent_id": 5,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "We typically use a combination of clinical assessment, including the patient's history, symptoms, and physical exam findings, along with objective measurements like pulse oximetry and ABGs. Does anyone have experience with the GOLD guidelines?",
+        "color": "green"
       },
       {
         "id": 7,
-        "parent_id": null,
-        "user": "Dr. Victor Sterling",
-        "role": "MD",
-        "city": "Calgary, AB",
-        "text": "This whole conversation is just more proof that emergency medicine is too focused on 'diagnostic testing' rather than 'good old-fashioned medicine.' What do you guys think? Should we just 'rule out' the 'obvious' stuff, and then focus on 'treating the whole patient'?",
-        "color": "pink"
+        "parent_id": 1,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "I think I saw something about COPD and V/Q mismatch in med school... can anyone explain it to me in simple terms?",
+        "color": "green"
       },
       {
         "id": 8,
         "parent_id": 7,
-        "user": "Dr. Aris Thorne",
-        "role": "MD",
-        "city": "Toronto, ON",
-        "text": "Dr. Sterling, I'm not sure you're giving us enough credit. We do focus on 'treating the whole patient,' but that doesn't mean we should ignore the 'obvious' stuff. The problem is that 'obvious' can be very context-dependent. We need to stay vigilant and adapt our approach based on the specific situation.",
-        "color": "purple"
-      },
-      {
-        "id": 9,
-        "parent_id": 7,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Wait, 'rule out hypoglycemia in kids with status epilepticus'...? Like, what's that all about? Can someone please explain it in simple terms?",
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Ah, boyo, it's simple as can be! The ventilation-perfusion mismatch means that the patient's lungs are gettin' more oxygen than they're needin', but the blood's not gettin' enough of it! It's like tryin' to put gas in yer car when it's already overfilled, me boyo!",
         "color": "green"
       }
     ]
   },
   {
     "id": 1,
-    "title": "Today I Learned: Don't Miss the Saddlebags in CRAO - Retinal Detachment is the Real Killer",
-    "body": "Just saw a patient with CRVO in the ED and I'm still shaking my head about the missed diagnoses. We all know that CRVO is a medical emergency, but what really got my attention was the discussion about CRAO and retinal detachment. It's not uncommon for ER docs to get these two conditions mixed up, but trust me, retinal detachment is the real killer. CRAO is a nightmare, but retinal detachment is where the real damage is done. I started thinking about the anatomy of the eye and how easily we can miss these subtle signs. Has anyone else had a case where they missed the saddlebags in CRAO and ended up with a retinal detachment diagnosis? What are some strategies for distinguishing between these two conditions?",
+    "title": "Today I Learned: The art of diagnosing seizures in kids, and the dangers of Sandifer's syndrome",
+    "body": "Just saw a 5-year-old girl come in with what looks like a classic seizure, but her mom swears she's been doing it for days as a 'drama queen'. Meanwhile, her EEG looks weird, but I can't figure out why. Can anyone help me out? Also, what's the best way to differentiate between a febrile seizure and Sandifer's syndrome? I've always been a bit fuzzy on this.",
     "category": "Emergency Medicine",
     "comments": [
       {
         "id": 2,
         "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "M.D.",
-        "city": "Toronto, ON",
-        "text": "I've had my share of CRAO and retinal detachments, and I can confidently say that the saddlebags are a great teaching tool. It's all about the vitreous humor and how it affects the retinal periphery. Think of it like this: CRAO is a blockage in the retinal vessels, while retinal detachment is a tear in the retina itself. The vitreous humor can actually cause a retinal detachment by pulling on the delicate tissues. I always make sure to check for any suspicious changes in the vitreous humor during my exams. TLDR: CRAO vs retinal detachment = look for saddlebags and vitreous humor changes.",
-        "color": "blue"
+        "user": "U/SarahJenkins",
+        "role": "",
+        "city": "Ottawa, ON",
+        "text": "TLDR: make sure to check for electrolyte imbalances and metabolic disorders when diagnosing seizures in kids! The American Academy of Pediatrics recommends checking for hypocalcemia and hypomagnesemia, but let's not forget about the metabolic factors. Have you guys seen that article on Sandifer's syndrome and gastric reflux? It's a game-changer. [link](http://bit.ly/3e4y4fG)",
+        "color": "green"
       },
       {
         "id": 3,
         "parent_id": 2,
-        "user": "Leon Chen",
-        "role": "M1",
-        "city": "Montreal, QC",
-        "text": "Dr. Thorne, can you elaborate on what you mean by 'suspicious changes in the vitreous humor'? How do you assess for this during an exam? I'm still a bit murky on the anatomy of the eye.",
-        "color": "purple"
+        "user": "U/Dr_ZiggyZalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Sarah, great point about the electrolytes! But let's not forget about the clinical scenario - if this kid's having seizures that aren't stopping, what's the hold-up? Maybe we need to get the pediatric neurology team in here to take a look. Has anyone seen the 'status epilepticus' protocol we're supposed to be using at our hospital?",
+        "color": "blue"
       },
       {
         "id": 4,
-        "parent_id": 2,
-        "user": "Sarah Jenkins",
-        "role": "M3",
-        "city": "Ottawa, ON",
-        "text": "I've seen plenty of CRAO and retinal detachments, but I've also had patients present with what looked like retinal detachment but ended up being CRAO. Isn't the presence of hemorrhages in the vitreous humor a key distinguishing factor? I've read that in CRAO, the hemorrhages are typically confined to the posterior pole, while in retinal detachment, they can be more widespread. Am I right?",
-        "color": "green"
+        "parent_id": 3,
+        "user": "U/Dr_ArisThorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great point, Ziggy! Status epilepticus is a code red in our hospital, and we need to get the patient stabilized ASAP. I always ask myself, 'What's the most likely cause of this seizure - is it a medication side effect, or something more sinister like a tumor? What labs and imaging should we be ordering?' Anyone else out there have the 'Sandifer's syndrome' article bookmarked?",
+        "color": "teal"
       },
       {
         "id": 5,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "M1",
-        "city": "Montreal, QC",
-        "text": "Has anyone seen this study on the accuracy of bedside ultrasonography in diagnosing CRVO vs retinal detachment? It seems like a really quick and efficient way to rule out the conditions, but I'd love to hear more about the pros and cons. [link to study]",
-        "color": "purple"
+        "parent_id": 4,
+        "user": "U/ChadBroson",
+        "role": "",
+        "city": "Brampton, ON",
+        "text": "Wait, so Sandifer's syndrome is like, a real thing now? I remember learning about it in med school, but I thought it was just a catch-all for 'we don't know what's going on'. Do you guys think it's a big deal?",
+        "color": "lightblue"
       },
       {
         "id": 6,
         "parent_id": 5,
-        "user": "Dr. Maya Gupta",
-        "role": "Resident",
-        "city": "Mississauga, ON",
-        "text": "Actually, Leo, I've used bedside ultrasonography in a few cases and it's been a total game-changer. It's not a substitute for formal imaging, of course, but it's great for getting a quick sense of the anatomy and detecting any signs of vitreous humor changes or retinal detachment. I've linked to a great video tutorial on how to use the equipment [link to video].",
-        "color": "blue"
-      },
-      {
-        "id": 7,
-        "parent_id": null,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "M.D.",
-        "city": "Windsor, ON",
-        "text": "Ultrasonography is a total waste of time and resources in the ER. We should be focusing on the real killers: sepsis, cardiac arrest, and trauma. These CRVO and retinal detachment diagnoses are just a bunch of 'nice to have' niceties.",
-        "color": "red"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Martha 'The Hammer'",
+        "user": "U/TurboTom",
         "role": "RN",
-        "city": "Halifax, NS",
-        "text": "Actually, Rick, CRVO and retinal detachment are pretty serious conditions that require prompt attention. I've seen too many patients come in with delayed diagnoses and go on to suffer serious complications. As an ER nurse, it's my job to advocate for my patients and make sure that everyone gets the best care possible. I don't think it's about 'nice to have' niceties, but rather about saving lives.",
-        "color": "purple"
-      },
-      {
-        "id": 9,
-        "parent_id": 1,
-        "user": "Dr. Barb Miller",
-        "role": "M.D.",
-        "city": "Winnipeg, MB",
-        "text": "I've done a bunch of research on CRAO and retinal detachment and I'd love to share my thoughts. From my perspective, it's all about risk stratification and identifying high-risk patients. What are some of the key risk factors that everyone should be aware of? I'd love to know more about how to approach these patients in terms of diagnosis and treatment.",
-        "color": "blue"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Kevin Park",
-        "role": "Intern",
-        "city": "Edmonton, AB",
-        "text": "Dr. Miller, I think one of the key risk factors is a history of hypertension or diabetes. Both of these conditions can lead to compromised retinal vasculature and an increased risk of CRAO or retinal detachment. What about patients with other comorbidities, such as heart disease or COPD? Should we be concerned about these conditions as well?",
-        "color": "purple"
+        "city": "London, ON",
+        "text": "Haha, bro Chad, you're killing me with these 'real thing' questions. But seriously, it's worth learning about - Sandifer's can cause some wild symptoms, and it's not something you want to miss. We should have a podcast episode on this sometime, I'll send Aris a pitch!",
+        "color": "red"
       }
-    ],
-    "image": "https://www.roshreview.com/blog/wp-content/uploads/sites/2/2024/02/Image-Retinal-Detachment-@8x-991x1024.png"
+    ]
   },
   {
     "id": 1,
-    "title": "CASE STUDY: Sexual Assault and Intimate Partner Violence",
-    "body": "Just saw a patient with a case of attempted sexual assault. She presented with a history of being out drinking and then suddenly feeling very intoxicated. She also reported waking up naked with genital soreness. Upon examination, she had a few lacerations and bruising on her cervix. The patient did shower before coming in, and we were unable to recover any sperm or acid phosphatase. My question is, what are the protocols for handling sexual assault cases in the ED, and how can we improve our chances of recovering evidence? Shouldn't the patient have doused herself? Also, what are some common injuries associated with intimate partner violence? Help me out, folks!",
+    "title": "Just saw a patient with cirrhosis and spontaneous bacterial peritonitis (SBP). Anyone else run into this tricky diagnosis?",
+    "body": "Had a 42-year-old male patient present with worsening ascites and edema, altered mental status, and a history of alcohol abuse. Lab results showed elevated bilirubin and AST levels. I was convinced it was a case of hepatic encephalopathy, but the CT scan and ultrasound showed a lot of ascites fluid. Then, the Gram stain came back positive for E. coli, and we confirmed SBP with a paracentesis. I had to give him a bolus of cephalosporin and lactulose ASAP. Has anyone else dealt with this situation before?",
     "category": "Emergency Medicine",
     "comments": [
       {
-        "id": 2,
+        "id": 1,
         "parent_id": null,
         "user": "Dr. Aris Thorne",
         "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "",
+        "text": "Great catch! I've seen a few cases of SBP in my ER. The key is to suspect it if the patient has cirrhosis and ascites, and to not waste time. I always remember, 'If you hear hoofbeats, think horses, not zebras.' But in this case, it's more like, 'If you see cirrhosis and SBP, treat it aggressively!'",
         "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "What's the protocol for treating SBP? Should we just give antibiotics and fluids, or is there something else that works better?",
+        "color": "green"
       },
       {
         "id": 3,
         "parent_id": 2,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Dr. Thorne, isn't it true that the patient should not have showered or doused before coming in, as this can decrease the chances of recovering evidence?",
-        "color": "green"
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Antibiotics and fluids are the bare minimum. Don't forget to give the patient lactulose to manage their hepatic encephalopathy. And don't waste your time with too many lab tests \u2013 this is an SBP, not a mystery diagnosis!",
+        "color": "purple"
       },
       {
         "id": 4,
-        "parent_id": 2,
+        "parent_id": 3,
         "user": "Leo Chen",
         "role": "MS1",
         "city": "Montreal, QC",
-        "text": "Yes, what about the chain of custody for evidence collection? And what's the protocol for an anoscopy in male patients?",
-        "color": "red"
+        "text": "But what about the 'tiger team' approach to SBP treatment? I thought we were supposed to give the patient a bolus of cefotaxime and metronidazole, and then follow up with daily paracentesis and lab checks?",
+        "color": "green"
       },
       {
         "id": 5,
@@ -280,222 +269,500 @@
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "Great questions, Leo! For female patients, the cervix and vagina should be examined for any trauma, discharge, or abrasions. If anal penetration is reported, the rectum should be examined as well. As for the anoscopy in male patients, it can help detect rectal trauma or lacerations more easily. And regarding evidence collection, make sure to use a prepackaged rape kit and maintain the chain of custody. We should never leave the kit unattended. Check out this resource for more info on forensic evidence collection: [link to resource]",
-        "color": "blue"
+        "text": "Actually, the 'tiger team' approach is more for cases of community-acquired pneumonia. But for SBP, the current consensus is to give the patient a bolus of cefotaxime and metronidazole, and then continue with oral antibiotics (usually ciprofloxacin) and lactulose for 7 days. And of course, don't forget to do daily paracentesis and lab checks to monitor the patient's response.",
+        "color": "purple"
       },
       {
         "id": 6,
-        "parent_id": null,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs don't know the first thing about collecting evidence. You need to follow proper protocol, and that means not contaminating the scene or the patient. We can't just let patients shower and then assume we can still recover evidence. It's not that hard to follow the rules, folks.",
-        "color": "orange"
+        "parent_id": 5,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Okay, I think I get it now. So, we give the patient some antibiotics to treat the bacterial infection, some lactulose to manage the hepatic encephalopathy, and some fluids to help them recover from the ascites. Is that right?",
+        "color": "green"
       },
       {
         "id": 7,
         "parent_id": 6,
-        "user": "Dr. Ziggy Zalesky",
+        "user": "Dr. 'Ziggy' Zalesky",
         "role": "EP",
         "city": "Vancouver, BC",
-        "text": "Spare us the lecture, Doc. We know the importance of proper protocol, but sometimes life gets in the way. What about when the patient is a minor and can't give consent? Do we still have to follow the same protocols?",
+        "text": "You got it, Chad! But let me give you some more practical advice. Always remember, SBP is a surgical emergency, and you need to get the patient to ICU ASAP to manage their fluid status and prevent further complications. Don't try to fix it with just oral antibiotics and lactulose \u2013 that's like using a Band-Aid to fix a bullet wound!",
+        "color": "purple"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Thanks, Dr. Zalesky. That makes a lot of sense. I've been reading that the risk of renal failure in these patients is higher if they receive certain types of antibiotics \u2013 can anyone tell me more about that?",
+        "color": "green"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Actually, the risk of renal failure is higher if the patient receives certain types of NSAIDs (nonsteroidal anti-inflammatory drugs), not antibiotics. But it's true that patients with cirrhosis and SBP are more susceptible to renal failure due to their poor liver function and increased intravascular volume. We should be monitoring their renal function closely and giving them fluids as needed.",
+        "color": "purple"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Okay, I think I understand now. So, the bottom line is that SBP is a medical emergency that requires early recognition and aggressive treatment with antibiotics, lactulose, and fluids. And we should be careful not to give the patient any NSAIDs or other medications that could worsen their renal function. Is that correct?",
+        "color": "green"
+      },
+      {
+        "id": 11,
+        "parent_id": null,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "And don't forget to give the patient a bolus of octreotide to manage their ascites and prevent any further complications! I've seen many cases where patients with cirrhosis develop severe ascites and then develop SBP. It's all about managing the ascites and preventing infection. Let's not underestimate the importance of paracentesis and lab checks!",
+        "color": "purple"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Thanks, Dr. Varkov. That makes sense to me now. But what about the patient's nutritional status? Shouldn't we be giving them some kind of nutrition to help manage their cirrhosis and prevent any further complications?",
+        "color": "green"
+      },
+      {
+        "id": 13,
+        "parent_id": 12,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "Actually, patients with cirrhosis and SBP often have poor nutritional status due to their liver disease. The best approach is to give them a balanced diet rich in protein, vitamins, and minerals. Avoiding foods high in salt and sugar can also help manage their ascites and edema. I always recommend patients with cirrhosis keep a food diary to track their eating habits and stay hydrated with plenty of fluids.",
+        "color": "purple"
+      },
+      {
+        "id": 14,
+        "parent_id": 13,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "That makes a lot of sense. And what about the patient's mental status? How do we manage the hepatic encephalopathy?",
+        "color": "green"
+      },
+      {
+        "id": 15,
+        "parent_id": 14,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Don't forget to give the patient lactulose and rifaximin to manage their hepatic encephalopathy. And make sure to get a psychiatry consultation ASAP to assess their mental status and provide guidance. These patients can rapidly deteriorate if you don't catch the hepatic encephalopathy early.",
+        "color": "purple"
+      }
+    ],
+    "image": "https://thecurbsiders.com/wp-content/uploads/2023/06/PastedGraphic-1.png"
+  },
+  {
+    "id": 1,
+    "title": "Just saw a patient with severe hyperphosphatemia and I'm still trying to wrap my head around the differential.",
+    "body": "Had a patient come in with a serum phosphorus level of 10.5 mg/dl. Initially, we thought it might be due to rhabdomyolysis, which is a common cause of hyperphosphatemia. However, after running some labs, we discovered that his creatinine kinase levels were normal, so rhabdomyolysis was unlikely.",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 10,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta PGY2",
+        "role": "Dr.",
+        "city": "Mississauga, ON",
+        "text": "*Just read the textbook* (yeah, I know, old school) and hyperphosphatemia can also be caused by tumor lysis syndrome. I've seen cases of Burkitt lymphoma and leukemia presenting with severe hyperphosphatemia due to rapid cell turnover. Has anyone else seen this? Any suggestions for initial management?",
+        "color": "purple"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Dr. Sarah Sharp EP",
+        "role": "Dr.",
+        "city": "Laval, QC",
+        "text": "Actually, I had a case of Burkitt lymphoma last year who presented with severe hyperphosphatemia. We managed it with aggressive hydration, phosphate binders, and eventually, hemodialysis. The kid is alive and doing well. I linked some references online that discuss the use of ascorbic acid in conjunction with other treatments. Has anyone else heard about this?",
+        "color": "green"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Leo Chen MS1",
+        "role": "Mr.",
+        "city": "Montreal, QC",
+        "text": "What's the pathophysiology behind tumor lysis syndrome? Is it just due to the rapid breakdown of cells releasing phosphate into the bloodstream?",
+        "color": "blue"
+      },
+      {
+        "id": 13,
+        "parent_id": 12,
+        "user": "Dr. Elena Varkov FRCPC",
+        "role": "Dr.",
+        "city": "Quebec City, QC",
+        "text": "Actually, it's a bit more complex than that. Tumor lysis syndrome occurs when there's an overwhelming load of tumor cells that undergo rapid necrosis, leading to a massive release of cell contents into the bloodstream. This includes phosphate, potassium, and uric acid, among other things. It's a classic example of a 'storm' in medicine. We need to be prepared for it.",
+        "color": "green"
+      },
+      {
+        "id": 14,
+        "parent_id": 13,
+        "user": "Dr. Kevin Park PGY1",
+        "role": "Mr.",
+        "city": "Edmonton, AB",
+        "text": "What about other causes of hyperphosphatemia? What about respiratory acidosis? Isn't that a common cause?",
+        "color": "blue"
+      },
+      {
+        "id": 15,
+        "parent_id": 14,
+        "user": "Dr. Victor Sterling Chief of Surgery",
+        "role": "Dr.",
+        "city": "Calgary, AB",
+        "text": "Respiratory acidosis is a classic cause of hyperphosphatemia, especially in patients with chronic obstructive pulmonary disease (COPD). The increased carbon dioxide levels in the blood lead to hypophosphatemia, which is a common issue in emergency medicine. Anybody who hasn't seen a COPD patient with renal failure from hyperphosphatemia is living in a dream world.",
+        "color": "purple"
+      },
+      {
+        "id": 16,
+        "parent_id": 15,
+        "user": "Dr. Maya Gupta PGY2",
+        "role": "Dr.",
+        "city": "Mississauga, ON",
+        "text": "Thanks, Chief. That's exactly what I was thinking. However, I'd like to know more about the mechanism behind it. Is it due to the increased phosphaturia from the kidneys?",
+        "color": "green"
+      },
+      {
+        "id": 17,
+        "parent_id": 16,
+        "user": "Dr. Phil Muddle EP",
+        "role": "Dr.",
+        "city": "Regina, SK",
+        "text": "Actually, I think it's a bit more complicated than that. Maybe someone can clarify the renal physiology behind it?",
+        "color": "blue"
+      },
+      {
+        "id": 18,
+        "parent_id": 17,
+        "user": "Dr. Henry Oldman CCFP",
+        "role": "Dr.",
+        "city": "Victoria, BC",
+        "text": "The kidneys' primary response to respiratory acidosis is to increase phosphaturia to help alkalize the body fluids. This is because the kidneys are trying to buffer the excess hydrogen ions in the bloodstream by excreting more phosphate.",
+        "color": "green"
+      },
+      {
+        "id": 19,
+        "parent_id": null,
+        "user": "Turbo Tom RN",
+        "role": "Nurse",
+        "city": "London, ON",
+        "text": "All this talk about hyperphosphatemia has got me thinking... Have we all considered using sodium polystyrene sulfonate (SPS) in conjunction with phosphate binders? I've seen it work wonders in reducing phosphate levels. What's the experience of the medical community with SPS?",
+        "color": "purple"
+      },
+      {
+        "id": 20,
+        "parent_id": 19,
+        "user": "Dr. Barb Miller EP",
+        "role": "Dr.",
+        "city": "Winnipeg, MB",
+        "text": "Actually, I was thinking about using SPS last night for a hyperphosphatemic patient. I'd be interested in hearing some opinions about it from experienced physicians. What are the pros and cons of using it?",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "title": "Pediatric Airway Management: Don't Forget the Basics",
+    "body": "Just saw a patient with a suspected epiglottitis, and it got me thinking... Do we really use the Miller straight blade for endotracheal intubation in kids? And what's the deal with cuffed vs. uncuffed tubes? TLDR; let's review pediatric airway management. I'll share my anecdote and then we can dive deeper.",
+    "category": "resuscitation",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "100% agree, we need to revisit pediatric airway management. I've been using the 3-0 cuffed tube for all kids under 8, but I'm starting to question whether that's the best approach. Has anyone else seen any recent literature on tube sizes and types?",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Dr. Gupta, have you read the RECOVER trial? It didn't show a significant difference in complications between cuffed and uncuffed tubes in pediatric anesthesia.",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Thanks for the reference, Dr. Park! I'll have a look. But I'm still curious, has anyone used the Broselow tape for estimating endotracheal tube size? I've been thinking about incorporating it into our pediatric resuscitation protocol.",
+        "color": "pink"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Yeah, we use the Broselow tape in our ER, and it's super helpful. But don't forget to also use your clinical judgment and consider the patient's neck size, skin thickness, and other factors when choosing the right tube.",
+        "color": "blue"
+      },
+      {
+        "id": 5,
+        "parent_id": null,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "You folks are getting into the weeds with ET tube sizes, but let's not forget about the basics of pediatric airway management. What are your takeaways from the latest EP guidelines on this topic?",
+        "color": "red"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Zachary",
+        "role": "EP",
+        "city": "Toronto, ON",
+        "text": "Great point, Dr. Varkov! According to the EP guidelines, pediatric airway management should focus on a head-in-hand approach, with a emphasis on proper head positioning, jaw thrust, and oropharyngeal suctioning.",
+        "color": "orange"
+      },
+      {
+        "id": 7,
+        "parent_id": 1,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Excuse me, but what's a 'head-in-hand approach'? Is it some new technique? Can someone explain?",
         "color": "yellow"
       },
       {
         "id": 8,
         "parent_id": 7,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Hey, is it true that intimate partner violence can cause abdominal injuries in pregnant patients? I've been studying for my med school exams and I want to make sure I get it right.",
-        "color": "pink"
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Haha, good question, Chad! A head-in-hand approach in pediatric airway management refers to the technique of gently supporting the patient's head and neck with one hand while using the other hand to perform airway maneuvers. Think of it like a gentle 'seatbelt' for the airway.",
+        "color": "purple"
       },
       {
         "id": 9,
         "parent_id": 8,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Yeah, Chad, you're on the right track. Abdominal injuries can cause some pretty serious complications in pregnant patients. Make sure to check out this resource for more info on prenatal care and intimate partner violence: [link to resource]. We should also educate our patients about the importance of proper wound care and seeking medical attention ASAP.",
-        "color": "purple"
+        "user": "Dr. Rick 'The Rage'",
+        "role": "EP",
+        "city": "Windsor, ON",
+        "text": "Ugh, pediatric airway management is a nightmare. We're still stuck on 16+age/4 for ET tube sizing? I swear, the Broselow tape is the only thing that keeps us from killing our patients.",
+        "color": "brown"
       },
       {
         "id": 10,
-        "parent_id": null,
-        "user": "Dr. Phil Muddle",
-        "role": "EP",
-        "city": "Regina, SK",
-        "text": "I don't understand what all the fuss is about. Can someone just explain it to me like I'm five years old? I get confused easily.",
-        "color": "cyan"
+        "parent_id": 9,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Thanks for the vent, Dr. Rage! I feel you. It's always a challenge to balance the Broselow tape with clinical judgment in pediatric airway management. But the RECOVER trial did show that the Broselow tape can be an effective tool for sizing ET tubes.",
+        "color": "pink"
       },
       {
         "id": 11,
-        "parent_id": 10,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "Good grief, Doc. It's not that hard. Just remember: showering and douche can contaminate evidence, and intimate partner violence can cause all sorts of injuries. Don't contaminate the scene, and don't underestimate the patient's symptoms. Now go take a nap and come back when you're feeling more alert.",
-        "color": "green"
-      }
-    ]
-  },
-  {
-    "id": 1000,
-    "title": "ELDER ABUSE: How To Spot It and When to Report",
-    "body": "I wanted to share a case from last week that really stuck with me and got me thinking about elder abuse. I had a 75-year-old woman come in with a suspicious injury on her arm - what looked like a bruise, but the story she gave didn't quite add up.\n\nAt first, I thought maybe she had fallen at home or something, but as I started asking more questions, it became clear that she was being taken care of by her son, who was controlling her finances and keeping her isolated from the rest of the family. When I pressed him for more information, he got defensive and claimed that his mom was just being dramatic about the injury.\n\nFast forward to the EM consult, and I realized that this case fit all the criteria for elder abuse - physical, emotional, and financial. The EM doc and I both felt a sense of urgency to report this to Adult Protective Services, but we also wanted to make sure that we'd done our due diligence in evaluating the case and gathering evidence. What do you all do when you suspect elder abuse in the ED?",
-    "category": "CME",
-    "comments": [
-      {
-        "id": 1001,
         "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Great post! This is actually a really common scenario in the ED, and it's easy to see how the perpetrators can manipulate the system. In cases like this, it's essential to get a good history from the patient when possible, and to involve a social worker or APS as soon as possible. One thing to keep in mind is that we should be aware of the different forms of elder abuse, including neglect, abandonment, and self-neglect.\n\nHere's a great resource from the National Institute on Aging: [link to NIA website].\n\nTL;DR: Suspect elder abuse in patients with suspicious injuries or inconsistencies in their story, and involve APS/social workers as soon as possible.",
-        "color": "blue"
-      },
-      {
-        "id": 1002,
-        "parent_id": 1001,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "What happens when the patient's abuser is also their caregiver? Do we still report the case, or do we need to consider the patient's best interests?",
-        "color": "purple"
-      },
-      {
-        "id": 1003,
-        "parent_id": 1002,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Great question, Leo! In cases where the abuser is also the caregiver, we definitely want to prioritize the patient's safety and well-being. However, we also need to consider the potential consequences of reporting the case, such as putting the patient in harm's way or disrupting their access to care.\n\nIn these scenarios, it's often a good idea to involve a team of professionals, including social workers, APS, and law enforcement if necessary. We can also try to find ways to support the patient directly, such as connecting them with a trusted family member or close friend.\n\nHere's a case study from the ACP-ASIM's Elder Abuse Toolkit: [link to case study].\n\nTL;DR: Prioritize the patient's safety and well-being in cases where the abuser is also the caregiver, while also considering potential consequences of reporting the case.",
-        "color": "green"
-      },
-      {
-        "id": 1004,
-        "parent_id": 1003,
         "user": "Barnaby Finch",
         "role": "Patient",
         "city": "Surrey, BC",
-        "text": "I was abused by my caregiver and I had to report them to APS. They listened to me and got me out of that situation! Can anyone else share their story?",
-        "color": "red"
+        "text": "Hey, what's going on here? I'm just trying to understand this whole pediatric airway management thing. Can someone explain it to me in simple terms?",
+        "color": "yellow"
       },
       {
-        "id": 1005,
-        "parent_id": null,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Thanks for sharing this case, Dr. Gupta. This is a great reminder of how important it is to stay vigilant for elder abuse in the ED. What are some red flags you look for when evaluating a patient for elder abuse?",
-        "color": "purple"
-      },
-      {
-        "id": 1006,
-        "parent_id": 1005,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Great question, Dr. Park! Some common red flags for elder abuse include inconsistent or suspicious injuries, changes in behavior or mood, unexplained financial transactions or changes in financial situation, and unexplained hospitalizations or emergency department visits.\n\nHere's a great resource from the Elder Abuse and Neglect section of the ACP-ASIM's Elder Health Toolkit: [link to ACP-ASIM website].\n\nTL;DR: Look for inconsistencies or suspicious injuries, changes in behavior or mood, unexplained financial transactions, and unexplained hospitalizations/emergency department visits when evaluating patients for elder abuse.",
-        "color": "green"
-      },
-      {
-        "id": 1007,
-        "parent_id": null,
-        "user": "Dr. Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "This is a great topic to discuss! What about the relationship between elder abuse and mental health? Are we seeing more cases of elder abuse in the ED due to decreased access to mental health services?",
-        "color": "purple"
-      },
-      {
-        "id": 1008,
-        "parent_id": 1007,
-        "user": "Dr. Gupta",
+        "id": 12,
+        "parent_id": 11,
+        "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "Absolutely, Dr. Zalesky! We are seeing an increase in cases of elder abuse in the ED, and mental health is a growing concern. In fact, studies have shown that a significant proportion of elder abuse cases involve individuals with mental health issues, such as dementia or depression. When we're evaluating patients for elder abuse, we need to consider whether mental health factors are contributing to the situation.\n\nHere's a great article from the Gerontology section of the JAMA Network: [link to JAMA article].",
-        "color": "green"
+        "text": "No worries, Barnaby. Pediatric airway management is a way of taking care of your airway when you need help breathing, usually because you're critically ill or injured. Think of it like a gentle support system for your airway, like a 'seatbelt' that keeps it safe.",
+        "color": "purple"
       }
     ]
   },
   {
-    "id": 1,
-    "title": "Just saw a patient with a new valve murmur on exam and was wondering if anyone has seen anything similar recently?",
-    "body": "Just saw a patient with a new valve murmur on exam and was wondering if anyone has seen anything similar recently. The patient had no prior history of valvular disease but presented with acute shortness of breath and chest pain. Bedside echocardiogram showed a large perivalvular leak. Anyone have any pearls on how to manage this in the ED?",
-    "category": "CME",
+    "id": 123,
+    "title": "Rant about misdiagnosing Wolff-Parkinson-White (WPW) syndrome",
+    "body": "Had a miss last night when I diagnosed a 19yo patient with supraventricular tachycardia (SVT) as WPW syndrome. She had a narrow QRS complex on her ECG and was experiencing palpitations. I was about to admit her for cardioversion when the cardiology team arrived and did an EP studies which showed a delta wave characteristic of WPW. I felt stupid and I know I'm not alone in making this mistake. Has anyone else had a similar experience? TLDR; Don't assume a narrow QRS complex is WPW syndrome.",
+    "category": "MedicalMistakes",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
+        "user": "DrArisThorne",
+        "role": "StaffPhysician",
         "city": "Toronto, ON",
-        "text": "Great case! Valvular emergencies can be tricky to diagnose and manage. In this situation, I'd recommend stat ECG, troponin, and ABG to rule out MI or CHF. Also, consider sending a stat echo to cardiology for further evaluation. Has anyone used the Mayo Clinic valvular dysfunction nomogram to guide their diagnosis?",
+        "text": "WPW syndrome is a classic example of how ECG interpretation can be tricky. The narrow QRS complex is a key feature, but it's not exclusive to WPW. Other causes of narrow QRS complex tachycardia include atrioventricular nodal reentrant tachycardia (AVNRT) and orthodromic bypass tachycardia. It's great that you acknowledged the error and learned from it. The key take away is to always consider the differential diagnosis and not jump to conclusions. Has anyone else had a similar experience with misdiagnosing AVNRT?",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "LeoChen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I've always struggled with understanding the difference between WPW syndrome and AVNRT. Can someone explain the delta wave in WPW syndrome? Is it just a slurred upstroke or something more specific?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "DrMayaGupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "The delta wave is a key feature of WPW syndrome. It's a distinctive slurred upstroke in the QRS complex, often referred to as a 'hump' or 'bulge'. This occurs because the electrical impulse is being conducted through an accessory pathway, causing a delay in ventricular contraction. So, it's not just any old slurred upstroke, but a very specific morphology that's characteristic of WPW.",
+        "color": "purple"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "SarahJenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "That's so cool! I've read that the delta wave can be positive or negative, depending on the orientation of the electrical axis. Can someone confirm if this is true?",
+        "color": "green"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "DrSarahSharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Yes, that's correct! The delta wave can be biphasic or negative in lead II, for example, due to the altered electrical axis. It's a subtle feature, but a key one in diagnosing WPW syndrome. Has anyone else had experience with interpreting the delta wave in patients with WPW?",
+        "color": "purple"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "TurboTom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "As a nurse, I've seen many patients with WPW syndrome come through the ER. One thing I've noticed is that they often have a very wide tachycardia range, like from 120-200 beats per minute. Does anyone have any advice on how to manage these patients?",
+        "color": "green"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "DrBrockStone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "As a surgeon, I'm often asked to consult on patients with WPW syndrome who require surgical intervention. In general, I recommend ablation or cardioversion, depending on the patient's overall condition and the presence of symptoms. But, as someone mentioned earlier, we need to consider the differential diagnosis and not jump to conclusions.",
+        "color": "purple"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "MarthaTheHammer",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "As a veteran ER nurse, I've seen my fair share of WPW syndrome patients. One thing I want to emphasize is the importance of proper ECG interpretation and not relying solely on symptomatology.",
+        "color": "green"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "DrPhilMuddle",
+        "role": "EP",
+        "city": "Regina, SK",
+        "text": "I think what's being said is really important. I mean, we all get it wrong sometimes, but it's how we learn from those mistakes that counts. And in the case of WPW syndrome, it's not just about recognizing the delta wave, but also considering the overall clinical picture.",
+        "color": "purple"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "LeoChen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Thanks so much for this discussion! I feel like I have a much better understanding of WPW syndrome now.",
+        "color": "green"
+      }
+    ],
+    "image": "https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3820728158338100965"
+  },
+  {
+    "id": 1,
+    "title": "Just saw a patient with cerebral arterial gas embolism (CAGE) after a dive... long story, but want to know what you guys think",
+    "body": "Had a guy present with loss of consciousness, seizure, and some pretty severe neurologic deficits after a dive. I'm thinking CAGE but want to get your guys' thoughts. Was on a commercial dive and exceeded the recommended depth limits. Pulmonary overinflation is a concern and I'm wondering if that might have contributed to the embolism. Any stories or advice?",
+    "category": "emergency medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Ooh, good case study OP! One thing to keep in mind is that CAGE can also occur with air travel, even at cruising altitudes. The mechanisms are a bit different, but it's worth considering. I've seen some pretty weird cases over the years... TLDR: it's all about gas expansion and rupture. Can't wait to hear more about your patient.",
         "color": "blue"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "I've used the Mayo Clinic nomogram before, and it's been a game-changer for me. However, I've also found that it's not perfect and can be tricky to apply in real-life scenarios. Has anyone else had issues with the nomogram or has a better way of approaching valvular function assessment?",
-        "color": "purple"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "I've had a few patients with perivalvular leaks, and the management can be tough. What's the general consensus on the use of anticoagulation in these patients? Has anyone had any issues with bleeding or thrombosis?",
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Wait, isn't CAGE more specific to high-pressure gas expansion in the pulmonary circuit? I'm thinking of the whole 'inertial effects' thing... Can you explain more about the gas expansion mechanism, Dr. Z?",
         "color": "green"
       },
       {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Great question, @Dr. Ziggy Zalesky. In general, the goal is to balance the risk of bleeding against the risk of thromboembolism. I've seen cases where anticoagulation has been beneficial, but I've also seen cases where it's worsened the situation. Can we discuss some of the nuances of anticoagulation management in valvular emergencies?",
+        "id": 3,
+        "parent_id": 2,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Good catch, Sarah! You're absolutely right. It's all about inertial effects and gas expansion in the pulmonary circuit. Think of it like a bubble trying to break free from the capillary bed. When the pressure drops, the bubble expands and can get stuck in a smaller vessel... long story short, it's a real thing",
         "color": "blue"
       },
       {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Dr. Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "This is a great opportunity to discuss the role of interventional radiology in managing perivalvular leaks. Has anyone else seen cases where IR has been beneficial in sealing the leak?",
+        "id": 4,
+        "parent_id": null,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Just had a thought: we should talk about CAGE in the context of other types of decompression sickness (DCS). Like, what's the difference between CAGE and a 'typical' DCS presentation?",
         "color": "red"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Great point, Turbo! To clarify, CAGE is just a subset of DCS. The main difference is that CAGE occurs when gas expands in the pulmonary circuit (like Dr. Z explained). In contrast, other types of DCS might present with more systemic manifestations... but I'm happy to keep the conversation going!",
+        "color": "purple"
       },
       {
         "id": 6,
         "parent_id": 5,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "@Dr. Brock Stone, I've seen a few cases where IR has been used to successfully seal the leak. However, it's not always straightforward, and we need to be careful about selecting the right patients for this approach. What's the general consensus on patient selection?",
-        "color": "purple"
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "Can we talk about the timing of CAGE? I've seen cases where the patient presents hours after surfacing, long after the dive. How does that work?",
+        "color": "orange"
       },
       {
         "id": 7,
-        "parent_id": 4,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Regarding anticoagulation management, I'd like to mention that the most recent guidelines from the ACC recommend against the use of anticoagulation in patients with significant perivalvular leaks. Has anyone else seen this in clinical practice?",
-        "color": "green"
+        "parent_id": 6,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Interesting question, Martha! I think it's related to the kinetics of gas expansion and distribution. When the pressure drops, gas can expand and get stuck in smaller vessels... but it takes time for the body to respond. I'm thinking it's a matter of gas diffusion and transport across the capillary bed.",
+        "color": "pink"
       },
       {
         "id": 8,
         "parent_id": 7,
-        "user": "Dr. Phil Muddle",
-        "role": "EP",
-        "city": "Regina, SK",
-        "text": "Uh, wait, what? I thought we were using anticoagulation to prevent thromboembolism? Can someone explain this to me?",
-        "color": "pink"
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Wait, isn't that related to 'delayed gas bubbles' or something? I've read about that in my textbooks... can someone explain it to me?",
+        "color": "green"
       },
       {
         "id": 9,
@@ -503,368 +770,169 @@
         "user": "Dr. Henry Oldman",
         "role": "CCFP",
         "city": "Victoria, BC",
-        "text": "@Dr. Phil Muddle, it's actually quite straightforward. The guidelines recommend against anticoagulation because of the increased risk of bleeding. We've had several cases where anticoagulation has exacerbated the situation.",
-        "color": "red"
+        "text": "Delayed gas bubbles, Leo! That's exactly what you're thinking of. It's when gas bubbles form and get trapped in the body, often hours or even days after the initial exposure. Great job thinking of that!",
+        "color": "brown"
       },
       {
         "id": 10,
-        "parent_id": 1,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "This is super interesting! Can someone explain the physics behind perivalvular leaks? Why do they happen?",
-        "color": "yellow"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Great question, @Chad Broson. It's actually quite fascinating. Perivalvular leaks occur when there's abnormal communication between the valve and the surrounding tissue. This can be due to various factors such as trauma, inflammation, or even infection.",
-        "color": "blue"
-      },
-      {
-        "id": 12,
-        "parent_id": 1,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "This is a great reminder that we need to be careful not to delay diagnosis in cases of suspected valvular emergencies. Can we discuss some tips on how to stay up to date with the latest developments in this field?",
-        "color": "green"
-      },
-      {
-        "id": 13,
-        "parent_id": 12,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Absolutely, @Dr. Kevin Park. I recommend following reputable sources such as the ACC and the ESC for updates on valvular emergencies. We also have a great online platform for sharing case studies and learning from each other.",
-        "color": "purple"
-      },
-      {
-        "id": 14,
-        "parent_id": 13,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Has anyone else heard about the upcoming ESC Congress? Would love to learn more about the latest updates on valvular emergencies.",
-        "color": "red"
-      },
-      {
-        "id": 15,
-        "parent_id": 14,
-        "user": "Dr. Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "Actually, @Dr. Ziggy Zalesky, I heard that the ESC Congress will have a special section dedicated to valvular emergencies. We should totally plan to attend!",
-        "color": "pink"
-      },
-      {
-        "id": 16,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Wow, this is so great! Thank you for sharing your experience and knowledge with us. Can I ask a question about the management of perivalvular leaks?",
-        "color": "yellow"
-      },
-      {
-        "id": 17,
-        "parent_id": 16,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Of course, @Leo Chen! What would you like to know?",
-        "color": "blue"
-      },
-      {
-        "id": 18,
-        "parent_id": 17,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "I was just wondering, what are some of the key factors that we should consider when deciding whether to refer a patient with a perivalvular leak to interventional radiology?",
-        "color": "purple"
-      },
-      {
-        "id": 19,
-        "parent_id": 18,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "When deciding whether to refer to IR, we need to consider the severity of the leak, the patient's symptoms, and their overall risk profile. We should also think about the potential benefits and risks of the procedure.",
-        "color": "green"
-      },
-      {
-        "id": 20,
-        "parent_id": 19,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Thanks, @Dr. Maya Gupta! That makes sense. And one more question, what are some of the common pitfalls or mistakes that we should avoid when managing perivalvular leaks?",
-        "color": "yellow"
-      }
-    ],
-    "image": "https://www.ebmedicine.net/productImages/Cardiac-Valve-Emergencies-App.jpg"
-  },
-  {
-    "id": 100,
-    "title": "TLDR; Anticholinergic Toxicity: A Clinically Relevant Case Study for Emergency Physicians",
-    "body": "Just saw a patient with what I initially thought was a textbook case of anticholinergic toxicity. She was a 35-year-old female who presented to the ED with confusion, agitation, and hallucinations. Her vitals were tachycardic, and her temperature was elevated. Her lab workup was mostly unremarkable, with only slightly elevated creatine phosphokinase levels.\n\nOn further questioning, the patient revealed that she had ingested several packets of what she thought was her grandmother's prescription medication, which turned out to be over-the-counter anticholinergic agents. I immediately called poison control and arranged for activation of our hospital's tox consult service.\n\nThe tox consult confirmed my suspicion and also noted that the patient's symptoms were consistent with a cholinergic crisis, which is a life-threatening complication of anticholinergic toxicity. We intubated the patient and transferred her to our ICU for close monitoring and supportive care.\n\nThis case highlights the importance of a high index of suspicion for anticholinergic toxicity in patients presenting with confusion, agitation, and hallucinations. A thorough history and physical exam, along with appropriate lab work and consultation with a tox expert, can make all the difference in the management of this potentially deadly condition.\n\nTLDR; Anticholinergic toxicity in the ED: be vigilant, stay calm, and seek help when needed!",
-    "category": "Emergency Medicine",
-    "comments": [
-      {
-        "id": 1,
         "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Wow, what a great case! I've been dealing with a lot of similar presentations lately, and it's always a challenge to rule out other causes like infection or stroke. Did you consider the possibility of a zoonotic infection, especially given the patient's history of ingestion of unknown substances? By the way, have you seen that article on anticholinergic toxicity in the Lancet? It's a great review of the current literature!",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Jeez, LPNs don't usually get involved in toxology cases like this, but it sounds like a wild ride! I'm curious, what kind of supportive care did the patient receive in the ICU? Did she need any specific meds or interventions? Also, did the tox consult team mention anything about the specific agent responsible for the toxicity?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Thanks for sharing this case, Dr. Gupta! I'm just starting my PGY1 year, and I've been trying to get a grasp on toxology. Can you elaborate on the management of cholinergic crisis? I understand that it involves supportive care, but are there any specific antidotes or interventions that we should be aware of?",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Dr. Phil Muddle",
-        "role": "EP",
-        "city": "Regina, SK",
-        "text": "Wait, what? Anticholinergic toxicity? Isn't that just a fancy name for 'the patient took too many pills'?",
-        "color": "blue"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Ah, Dr. Muddle, you're not alone in your skepticism! Anticholinergic toxicity is often misdiagnosed or overlooked, but it's a serious condition that requires prompt recognition and treatment. As emergency physicians, we need to stay vigilant and think outside the box when it comes to tox cases. By the way, anyone has any experience with the anticholinergic toxicity algorithm published by the American College of Medical Toxicology?",
-        "color": "purple"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Yup, I've used that algorithm before! In fact, I've found it to be pretty helpful in cases like this. But let's be real, guys \u2013 toxology is all about patterns and experience. The more we see these cases, the better we'll get at recognizing them. Anyone else have any favorite resources or go-to tools for managing tox cases?",
-        "color": "green"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "As an internist, I can attest to the fact that toxology cases often involve a complex interplay of factors. In cases of anticholinergic toxicity, it's not just about the agent itself, but also about the patient's overall clinical picture, including their baseline medical history and any potential interactions. Anyone has any experience with the use of atropine or pralidoxime in such cases?",
-        "color": "purple"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
         "user": "Turbo Tom",
         "role": "RN",
         "city": "London, ON",
-        "text": "Oh man, just had a flashback to my med-surg days! Toxology cases can be a real challenge, but it's great to see everyone sharing their expertise and knowledge. As an RN, I've seen countless cases of anticholinergic toxicity, and I'm always amazed by how quickly the patient can decline. Anyone have any advice on how to quickly assess and prioritize these patients?",
+        "text": "Okay, guys and gals, let's wrap it up! Recap: CAGE is a subset of DCS, caused by gas expansion in the pulmonary circuit. Timing is related to kinetics of gas diffusion and distribution... any other questions or insights?",
         "color": "red"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Hey guys, sorry to interrupt, but I just wanted to ask \u2013 what's the current thinking on the use of activated charcoal in anticholinergic toxicity? I've been reading up on it, and it seems like it might be helpful in cases of oral ingestion, but what about IV or dermal exposure?",
-        "color": "green"
-      },
-      {
-        "id": 10,
-        "parent_id": 2,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "Hey everyone, I couldn't help but overhear the conversation. I've been experiencing some similar symptoms to the patient in the OP, and I'm worried I might've gotten ahold of some bad pills. Can anyone offer any advice or reassurance?",
-        "color": "blue"
       }
     ]
   },
   {
-    "id": 8,
-    "title": "TLDR, the first step in neonatal resuscitation is to maintain body temperature.",
-    "body": "Just saw a patient with a newborn requiring resuscitation and I was wondering if anyone knows if the recommended approach has changed over the years? The textbook still suggests routine deep suctioning following birth, but I know that's been debated in recent years.",
-    "category": "Emergency Medicine",
+    "title": "Just saw a patient with an accidental epinephrine injection... thoughts on management?",
+    "body": "Just saw a patient with an accidental epinephrine injection through an autoinjector in the ED today. I know we all have our protocols for managing this situation, but I had to think on my feet a bit. It turns out the patient had an epinephrine autoinjector in her backpack and it accidentally discharged, injecting the epinephrine into her own subcutaneous tissue. She ended up with significant digital ischemia. We managed to reverse it with some subcutaneous phentolamine injected directly through the original puncture site, but it made me wonder about our overall approach to these cases. What are your thoughts on the best way to manage accidental epinephrine injections in the ED? Should we be using the phentolamine mixture I had to whip up on the fly, or are there other options out there?",
+    "category": "emergency medicine",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": "rjscarfone",
-        "role": "PGY3",
-        "city": "Boston, MA",
-        "text": "Routine deep suctioning is definitely a thing of the past. As of 2015, the American Heart Association no longer recommends it. The American Academy of Pediatrics also changed their guidelines to recommend against routine deep suctioning. Pulse oximetry and ECG monitoring are now recommended as adjuncts to neonatal resuscitation. Check out the AAP's policy statement from 2015 for more info.",
-        "color": "purple"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "leo_chen",
-        "role": "MS1",
-        "city": "Toronto, ON",
-        "text": "Dr. Scarfone, can you clarify why routine deep suctioning was initially recommended? I want to understand the historical context.",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "kerrigans",
-        "role": "EP",
-        "city": "New York, NY",
-        "text": "The AHA 2010 guidelines recommend chest compressions within 30 seconds of birth. What are the current recommendations for the timing of cord clamping? I know the Cochrane review from 2017 had some nice info on the topic.",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "SarahJenkins",
-        "role": "MS3",
-        "city": "Chicago, IL",
-        "text": "The Cochrane review actually came out in 2019. The authors found that delayed cord clamping (\u226530 seconds) was associated with increased haematocrit levels and increased need for blood transfusions. However, they couldn't determine whether this improved long-term outcomes.",
-        "color": "green"
-      },
-      {
-        "id": 6,
-        "parent_id": 1,
-        "user": "TurboTom",
-        "role": "RN",
-        "city": "Vancouver, BC",
-        "text": "In our ED, we've seen an increase in newborns requiring resuscitation due to respiratory distress. What are some of the common causes of neonatal respiratory distress, and how are they typically managed?",
-        "color": "green"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "MayaGupta",
-        "role": "PGY2",
-        "city": "Boston, MA",
-        "text": "The common causes of neonatal respiratory distress are usually related to issues with surfactant production, lung immaturity, or infections. We assess for these issues with a detailed history, physical examination, and sometimes additional imaging. Management often involves supportive care, oxygen therapy, and sometimes surfactant replacement therapy. The best paper on this topic is probably the 2011 NICE guidelines.",
-        "color": "green"
-      },
-      {
-        "id": 8,
-        "parent_id": 1,
-        "user": "DrArisThorne",
-        "role": "Staff Physician",
-        "city": "Calgary, AB",
-        "text": "I think we need to remember that every newborn is different, and what works for one may not work for another. In my experience, the most important thing is to stay calm, assess the situation carefully, and tailor our management plan to the individual patient.",
-        "color": "green"
-      },
-      {
-        "id": 10,
-        "parent_id": 1,
-        "user": "MarthaHammer",
-        "role": "RN",
-        "city": "Ottawa, ON",
-        "text": "I've been nursing for over 30 years, and one thing that's consistent is that newborns are unpredictable. We need to stay flexible and adapt to the situation. Can we get back to the original question? Has anyone updated on the recommended approach to newborn resuscitation?",
-        "color": "green"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "DrZiggyZalesky",
+        "user": "Dr. 'Ziggy' Zalesky",
         "role": "EP",
         "city": "Vancouver, BC",
-        "text": "According to the text, the American Academy of Pediatrics recommends against routine deep suctioning. They also recommend the use of pulse oximetry or ECG monitoring as adjuncts to newborn resuscitation.",
-        "color": "green"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Today I Learned: GABHS pharyngitis can be a sneaky devil... ",
-    "body": "Had a patient in the ER last night with a classic case of 'strep throat', or so I thought. Turns out, the Centor criteria were met, but the rapid strep only turned up negative. I went on to do a throat culture, and guess what? Group A beta-hemolytic streptococcus positive. Moral of the story: don't get too comfortable relying on the rapid strep... ",
-    "category": "Emergency Medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "GABHS pharyngitis is definitely a sneaky devil. I've had patients where the rapid strep was negative, but the throat culture came back positive. It's always a good idea to keep a low index of suspicion for bacterial pharyngitis, especially in kids.\n\nDid you guys have a chance to talk to the patient about the importance of completing the full 10-day course of antibiotics? It's crucial to prevent complications like acute rheumatic fever and post-streptococcal glomerulonephritis.",
+        "text": "Great thread, folks! One thing I want to mention is that we've had a few cases where patients have accidentally injected epinephrine into themselves. In most of those cases, we were able to reverse the ischemia with a combination of nitroprusside and vasopressin. Has anyone else had experience with this? Does anyone have any opinions on the benefits and drawbacks of using phentolamine vs. nitroprusside/vasopressin in this situation?\n\nTL;DR: What are your thoughts on nitroprusside+vasopressin vs. phentolamine for accidental epinephrine injections?",
         "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Good point about completing the full course of antibiotics, Dr. Gupta. Do you guys have a protocol for following up with patients after they're discharged to ensure they're completing the antibiotics as directed?",
-        "color": "green"
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "@Dr. Ziggy, you're an EP, not a cardiologist. Don't get too caught up in all the fancy pharmacology. In my experience, a quick dose of IV fluids and some O2 will usually take care of the problem. Don't overcomplicate this one, folks.\n\nOh, and by the way, has anyone else noticed that our ER is over-diagnosing these types of cases? I mean, come on, it's just a little epinephrine. It's not like it's going to kill anyone.",
+        "color": "blue"
       },
       {
         "id": 3,
-        "parent_id": 1,
-        "user": "Turbo Tom RN",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Ugh, don't even get me started on patients who don't finish their antibiotics... It's like, come on, guys, you're putting the whole ER at risk. We could have a full-blown outbreak on our hands.\n\nSpeaking of which, does anyone have any experience with a new protocol for managing recurrent strep throat?",
+        "parent_id": 2,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "@Dr. Sterling, I think you're being a bit too quick to dismiss the idea of using phentolamine. While IV fluids and O2 may help, we're talking about digital ischemia here. Phentolamine has been shown to be effective in reversing this type of ischemia, and it's worth considering.\n\nThat being said, I do agree with you that we've been over-diagnosing these cases lately. Maybe it's time for a quality review of our protocols?\n\nDoes anyone else have thoughts on how to prevent these types of cases from happening in the first place?",
         "color": "green"
       },
       {
         "id": 4,
         "parent_id": 3,
-        "user": "Dr. Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Actually, Turbo, I've been following up on this, and it seems that there's a lot of debate about whether or not there's a correlation between recurrent strep throat and tonsillectomy. There's one study that showed a significant reduction in recurrent strep throat in patients who underwent tonsillectomy, but another study found no difference. It's pretty interesting.\n\nHas anyone else come across anything like this?",
-        "color": "green"
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "@Dr. Miller, I totally agree with you about the importance of phentolamine. I've seen it work like a charm in a few cases.\n\nAs for preventing these types of cases, I think we could do a better job of educating patients on how to use their epinephrine autoinjectors correctly. Maybe we could even develop some kind of educational program or pamphlet to hand out with each autoinjector?\n\nHas anyone else had any experience with patient education on this topic?",
+        "color": "yellow"
       },
       {
         "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "@Dr. Gupta, I like your idea about patient education. That's definitely worth exploring.\n\nIn the meantime, I think we should be emphasizing the importance of proper disposal of used epinephrine autoinjectors. If patients aren't disposing of them correctly, we may see more cases of accidental injections.\n\nHas anyone else had any experience with proper disposal protocols?",
+        "color": "orange"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Anaphylaxis Conundrum: When to Administer IV Epinephrine?",
+    "body": "Just saw a patient with a severe anaphylactic reaction to peanuts, requiring multiple doses of IM epinephrine. The question that kept popping up in my head was, 'When to transition to IV epinephrine?'.",
+    "category": "EMERGENCY MEDICINE",
+    "comments": [
+      {
+        "id": 1,
         "parent_id": null,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "I have to chime in here and say that I've seen some pretty nasty cases of bacterial pharyngitis in my internal medicine rotation. It's not just the strep throat, either. I've seen cases of Group C beta-hemolytic streptococcus, too.\n\nBut I have to ask, what's the deal with the rapid strep test? It's supposed to be so sensitive, but I've seen cases where it's just flat-out wrong.",
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "I totally agree with your conundrum. It's a tricky situation, especially when patients are refractory to IM epinephrine. The general consensus is to switch to IV epinephrine when there's cardiovascular compromise, such as hypotension or signs of shock. Have you considered the concept of 'epinephrine escalation'?",
         "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Epinephrine escalation? Can you explain that further? I've only read about it in textbooks, but never seen it in practice.",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Ah, great question, Leo! Epinephrine escalation refers to the gradual increase of epinephrine doses in patients who are refractory to standard dosing. It's typically done in a controlled environment, like an ER, where you can closely monitor the patient's response. The concept is based on the idea that some patients may require higher doses of epinephrine to overcome severe anaphylaxis. Have you come across any studies on this topic?",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Dr. Victoria Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs still thinking about IV epinephrine. The standard approach is to start with IM epinephrine and reserve IV epinephrine for cases where the patient is truly refractory. Anything less would be a frivolous use of resources. Has anyone considered the potential risks of IV epinephrine?",
+        "color": "blue"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Whoa, hold on, Vic! You can't just dismiss IV epinephrine without considering the risks. What about patients with cardiovascular compromise? Don't they deserve our best effort to stabilize them? Not to mention, some studies have shown that IV epinephrine can be life-saving in severe anaphylaxis. What's your take on the 'risks' you mentioned?",
+        "color": "red"
       },
       {
         "id": 6,
         "parent_id": 5,
-        "user": "Leo Chen MS1",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "That's a great point, Dr. Varkov! I remember learning about the rapid strep test in med school, and it's supposed to be super sensitive and specific. But I'm starting to think that it's just not that reliable...\n\nCan you guys explain to me why the rapid strep test might be wrong in certain cases?",
-        "color": "green"
+        "user": "Dr. Victoria Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "You want to know about risks? How about the increased risk of cardiac arrest, arrhythmias, or even mortality due to IV epinephrine? We need to be more cautious in our approach and not rush to IV epinephrine without exhausting all other options.",
+        "color": "blue"
       },
       {
         "id": 7,
-        "parent_id": 5,
-        "user": "Dr. Rick The Rage",
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Has anyone considered the role of vasopressors in anaphylaxis? I've had some successes using norepinephrine to support blood pressure in severe anaphylaxis patients.",
+        "color": "gold"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Ziggy Zalesky",
         "role": "EP",
-        "city": "Windsor, ON",
-        "text": "Freaking finally, someone is talking about the rapid strep test. I swear, it's one of the most useless tests in the ER. It's like, come on, guys, can't we just do a good old-fashioned throat culture like we used to?",
+        "city": "Vancouver, BC",
+        "text": "Love it, Maya! Norepinephrine can be a game-changer in severe anaphylaxis. I've used it in my practice as well, but what's the ideal dose range for its use in this setting?",
+        "color": "red"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Norepinephrine is not mentioned in our textbooks, but it sounds like a promising approach. Can we get a more detailed discussion on its use in anaphylaxis?",
+        "color": "green"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Of course, Leo! Norepinephrine is a vasopressor that can be used to support blood pressure in severe anaphylaxis patients. The ideal dose range has not been conclusively established, but studies suggest using low-dose norepinephrine (0.5-1 mcg/kg/min) via continuous infusion. Does this help clarify things, Leo?",
         "color": "green"
       }
     ],
-    "image": "https://erofdallastx.com/wp-content/uploads/2024/01/Pharyngitis-A-Comprehensive-Guide-to-Symptoms-Diagnose-Prevention-and-Treatment-ER-of-Dallas.jpg"
+    "image": "https://emupdates.com/wp-content/uploads/2021/01/anaphylaxis-algorithm.png"
   }
 ]
