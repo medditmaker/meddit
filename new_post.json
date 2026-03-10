@@ -1,9 +1,518 @@
 [
   {
     "id": 0,
-    "title": "Today I Learned: Hyperosmolar Hyperglycemic State - What a Pain!",
-    "body": "Had a rough night in the ER with a patient who had a HHS.  Just a heads up for those of you who may not have seen this before.  The patient was a 75-year-old lady with a history of type 2 diabetes.  She presented with severe abdominal pain and altered mental status.  Her labs showed a glucose of 900, osmolality of 355, and a pH of 7.4.  No significant ketosis, thank goodness.",
-    "category": "EM",
+    "title": "Ectopic Pregnancy: When to Admit? TLDR? - The Gray Zone is Killing Me",
+    "body": "Just saw a patient with an ectopic pregnancy and had to admit her overnight. Every time I think I've gotten better at triaging these cases, something like this happens and I question everything I've learned. The patient was 25 years old, 6 weeks pregnant, but presenting with severe abdominal pain, Nausea, and vomiting. Ultrasound confirmed an empty uterine cavity and a 2.5cm pseudosac in the left adnexa. I was planning to send her home with methotrexate but then the patient mentioned that the pain was getting worse over the last 24 hours. I'm not comfortable discharging her but I'm also worried about the hospital costs and the risk of a ruptured ectopic - Any thoughts on this one?",
+    "category": "Emergency Medicine CME",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Thorne, Staff Physician",
+        "role": "MD, Toronto",
+        "city": "Toronto, ON",
+        "text": "I always say that ectopic pregnancy is the 'perfect storm' of clinical diagnosis. The patients are usually young, but then they get symptoms that mimic any other abdominal condition, and the imaging can be non-conclusive. You made the right call, Dr. [Name], keeping this patient overnight and sending her to the OR for laparoscopy. It's always better to err on the side of caution when it comes to ectopic pregnancy.",
+        "color": "blue"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Sterling, Chief of Surgery",
+        "role": "MD, Calgary",
+        "city": "Calgary, AB",
+        "text": "Amateurs. The patient had a 'classic' presentation - I would have seen it coming a mile away. You should have just sent her home on methotrexate, Doc. Now we've wasted the patient's time, wasted hospital resources, and increased our risk of a ruptured ectopic. Don't get too comfortable in your ivory towers, folks.",
+        "color": "red"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Zalesky, EP",
+        "role": "MD, Vancouver",
+        "city": "Vancouver, BC",
+        "text": "I'm with Dr. Thorne on this one, guys. We see these cases all the time, but the gray zone is where we all get tripped up. Dr. [Name] made the right call. Anyone else want to share their take on when to admit an ectopic patient? BTW, has anyone seen that great article on the diagnosis of ectopic pregnancy in the emergency department? I'll link it in the comments below.",
+        "color": "purple"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Sparkle-Eyes Sue, LPN",
+        "role": "LPN, St. John's",
+        "city": "St. John's, NL",
+        "text": "Oh, I just love learning from all of you brilliant docs! I've seen a few ectopic pregnancies in my time as an LPN, but I've never had to deal with a ruptured ectopic. What happens if we don't catch it in time? How do we prevent these bad outcomes?",
+        "color": "green"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Heaton, Obstetrician",
+        "role": "MD, Halifax",
+        "city": "Halifax, NS",
+        "text": "Great question, Sparkle-Eyes Sue! A ruptured ectopic can lead to severe internal bleeding, shock, and even death. The key to preventing this is early diagnosis and intervention. That's why it's so important to have a high index of suspicion for ectopic pregnancy in our patients. We need to be proactive, not reactive.",
+        "color": "purple"
+      },
+      {
+        "id": 6,
+        "parent_id": 1,
+        "user": "Sarah Jenkins, MS3",
+        "role": "MS3, Ottawa",
+        "city": "Ottawa, ON",
+        "text": "I couldn't agree more with Dr. Sterling. The patient had a 'classic' presentation and we should have sent her home with methotrexate. Can anyone share any resources on when to discontinue methotrexate and transition to other treatments?",
+        "color": "yellow"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Park, PGY1",
+        "role": "Intern, Edmonton",
+        "city": "Edmonton, AB",
+        "text": "Actually, Sarah, methotrexate is usually stopped once the HCG levels have decreased significantly, and we've confirmed the ectopic pregnancy is resolving. I think that's the general guideline, anyway. Can anyone confirm? Thanks!",
+        "color": "green"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Mayra, FRCPC",
+        "role": "FRCPC, Montreal",
+        "city": "Montreal, QC",
+        "text": "Great question, Dr. Park! Yes, the current consensus is to discontinue methotrexate once the HCG levels have decreased below a certain threshold, and we've confirmed the ectopic pregnancy is resolving. Anyone have a favorite resource on this topic?",
+        "color": "blue"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Thorne, Staff Physician",
+        "role": "MD, Toronto",
+        "city": "Toronto, ON",
+        "text": "Actually, Dr. Mayra, I think we're getting a bit ahead of ourselves. We haven't even discussed the importance of beta hCG levels in the management of ectopic pregnancy. Any thoughts?",
+        "color": "purple"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Leo Chen, MS1",
+        "role": "MS1, Montreal",
+        "city": "Montreal, QC",
+        "text": "Oh, wow, beta hCG levels? I had no idea they were that important! Can someone explain how they play a role in diagnosing and managing ectopic pregnancy?",
+        "color": "pink"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Dr. Zalesky, EP",
+        "role": "MD, Vancouver",
+        "city": "Vancouver, BC",
+        "text": "Ha! Good question, Leo. Beta hCG levels can be a real game-changer in ectopic pregnancy. Essentially, the levels can indicate whether the ectopic is resolving or not. Any significant increase in levels can be a sign of persistent disease.",
+        "color": "green"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Sarah Jenkins, MS3",
+        "role": "MS3, Ottawa",
+        "city": "Ottawa, ON",
+        "text": "Oh, that's so cool! I had no idea beta hCG levels were used in this way. Thank you, Dr. Zalesky! BTW, can anyone recommend a resource on using beta hCG levels in the diagnosis and management of ectopic pregnancy?",
+        "color": "yellow"
+      },
+      {
+        "id": 13,
+        "parent_id": 12,
+        "user": "Chad Broson, Pre-med",
+        "role": "Pre-med, Brampton",
+        "city": "Brampton, ON",
+        "text": "Haha, sorry guys, but can I just say that I don't get why this is such a big deal? Can't we just use CT scans or something to diagnose ectopic pregnancy? Why are beta hCG levels so important?",
+        "color": "orange"
+      },
+      {
+        "id": 14,
+        "parent_id": 13,
+        "user": "Dr. Thorne, Staff Physician",
+        "role": "MD, Toronto",
+        "city": "Toronto, ON",
+        "text": "Ah, Chad, you'd be surprised how often CT scans can be misleading in ectopic pregnancy. They can sometimes show a normal-appearing uterine cavity with an ectopic, or vice versa. Beta hCG levels give us a more direct measurement of the body's response to the ectopic, which is crucial in managing the patient.",
+        "color": "blue"
+      },
+      {
+        "id": 15,
+        "parent_id": 14,
+        "user": "Sparkle-Eyes Sue, LPN",
+        "role": "LPN, St. John's",
+        "city": "St. John's, NL",
+        "text": "Okay, got it! I think I'm starting to understand the importance of beta hCG levels in ectopic pregnancy. Thanks, everyone, for your help and patience! I have a follow-up question, though- what about the role of USG in diagnosing ectopic pregnancy? Is it still relevant in this day and age?",
+        "color": "green"
+      }
+    ],
+    "image": "https://images.squarespace-cdn.com/content/v1/546e1217e4b093626abfbae7/1502207156967-KZC7Y5AGNEKQOMUBE5IT/image-asset.png"
+  },
+  {
+    "id": 1,
+    "title": "",
+    "body": "Had a tough one last night... patient presents with a classic 'fall from a height' mechanism but I couldn't shake off the feeling that I was missing something. After a lengthy history and physical, it turns out the patient had a pathognomonic flexion teardrop fracture and a subtle but significant ligamentous injury to the C7/T1 junction. It's a great reminder that in acute trauma, it's often the subtle signs that point to the worst injuries.\n\nTL;DR - Don't let your enthusiasm for the immediate trauma work cloud your judgment and don't be afraid to dig deep (especially when you've got a sneaky feeling something's off).\n\nLink to the paper I used to help me diagnose the ligamentous injury: https://onlinelibrary.wiley.com/doi/abs/10.1002/1529-6987(1998)23:6%3C1047::AID-AJA8%3E3.0.CO;2-W",
+    "category": "clinical_anechodotes",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": null,
+        "city": "Mississauga, ON",
+        "text": "AMEN, Dr. Sterling! I had a similar case last month where I was convinced that the patient had a minor contusion but ended up discovering a pretty nasty posterior sternoclavicular joint dislocation. It's all about staying vigilant and not being too quick to dismiss the patient's concerns. Can you share some thoughts on how you managed to diagnose the ligamentous injury?\n\nedit: I've linked to a relevant paper on the diagnosis of cervical spine injuries in the trauma patient \ud83d\udcbbhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC5339260/",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "I've been trying to get a better grasp on the pathophysiology of flexion teardrop fractures. From what I've read, it seems like the mechanism involved is a combination of hyperflexion and axial loading. Any further insight on that would be great.",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "I've got a question regarding the patient's mechanism of injury. Do you know if there was any suspicion of a high-impact mechanism (e.g., a motor vehicle accident)? The article you linked mentions that the patient had a history of a 'fall from a height', but in the paper, it specifically mentions a high-impact mechanism as a risk factor for ligamentous injuries.\n\nAlso, what was the duration between the injury and presentation?",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Maya Gupta",
+        "role": null,
+        "city": "Mississauga, ON",
+        "text": "I'd like to clarify that the patient didn't actually have a high-impact mechanism - it was just a fall from a height. The mechanism was a classic 'long axis' type, if you know what I mean. The article I linked to is a great resource for learning more about the pathophysiology of flexion teardrop fractures.\n\nedit: Dr. Sterling, can you tell us a bit more about the patient's presentation? Was there anything that particularly stood out to you initially?",
+        "color": "green"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Yes, I think I see what you mean. Thank you for clarifying that.\n\nDr. Sterling, do you know which imaging studies the patient underwent, and whether there were any notable findings on those studies?",
+        "color": "blue"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Maya Gupta",
+        "role": null,
+        "city": "Mississauga, ON",
+        "text": "I'd say that the key here was to not over-rely on the initial imaging and to instead trust the subtleties of the clinical picture. In this case, the patient had a pretty clear-cut flexion teardrop fracture, but what really stood out to me was the patient's history and physical exam findings.\n\nedit: TL;DR - Don't let your enthusiasm for trauma cloud your judgement - look for those tiny subtleties, even when they seem like a minor red flag.\n\nedit2: I just realized I forgot to include a crucial piece of information in the original post...",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "id": 12345,
+    "title": "Rant about near-drowning cases: How to avoid missing the subtle ones?",
+    "body": "Just saw a patient with a near-drowning case and it really got me thinking about how we can avoid missing the subtle signs. I've noticed that a lot of my colleagues are too quick to dismiss patients with 'only' respiratory distress without considering the full picture. We all know that drowning can cause asphyxia, but what about the cases that don't fit the textbook mold?\n\nIn my patient's case, they had a history of asthma, which made it harder for me to distinguish between a simple exacerbation and a more serious problem. But the patient's oxygen saturations were low, and their respiratory rate was elevated. That should have been my red flag. As it turns out, they had aspirated water, which led to hypoxia but not the usual 'cardiopulmonary arrest' I expected. It was more insidious... and I nearly missed it.",
+    "category": "Medical anecdotes",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "r/EP_Rulez",
+        "role": "",
+        "city": "Calgary, AB",
+        "text": "I totally agree with you! We should be more vigilant when it comes to near-drowning cases. I remember this study from last year that highlighted the importance of early intervention in these patients.\n https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7294915/\n\nI'd love to hear more about your patient's story and how you managed to miss the diagnosis initially.",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Edmonton, AB",
+        "text": "Thanks for sharing this, @EP_Rulez! I'm definitely adding it to my reading list. I think what's key in near-drowning cases is to consider the whole patient, not just the obvious respiratory symptoms. Do you find that a patient's mental status is often a reliable indicator of the severity of their condition?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Don't be ridiculous, @Maya! Of course, the patient's mental status is a great indicator of their condition, but it's not the only factor to consider. You need to look at the whole picture, including the ECG, the blood work, and the overall clinical presentation. Don't be like @EP_Rulez and get too caught up in the textbooks.",
+        "color": "orange"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Hi @EP_Rulez! I'm an MS1 and I'm really interested in learning more about near-drowning cases. Can you tell me more about the study you mentioned and how it relates to your patient's case? Is there anything specific that you would do differently next time you encounter a similar patient?",
+        "color": "pink"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Edmonton, AB",
+        "text": "Hey @Leo! The study I mentioned is actually a great resource for learning about near-drowning cases. One key takeaway is that even patients who don't aspirate water can still experience respiratory distress due to asphyxia. Next time, I would make sure to get a thorough history, including any medications the patient is taking, and be more attentive to changes in their mental status.",
+        "color": "green"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "r/EP_Rulez",
+        "role": "",
+        "city": "Calgary, AB",
+        "text": "TL;DR: near-drowning cases are all about being vigilant and considering the whole patient. Don't miss the subtle signs, folks! @Leo, I'm glad you found this thread helpful.",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "TL;DR: A Near Miss with a Hypersensitive Patient and our Disaster Preparedness Plan",
+    "body": "Rant about disaster preparedness. Just saw a patient with multi-drug resistance and a severe reaction to a common medication. I'm still trying to process the chaos that ensued in the ED. Has anyone else seen a patient with a similar reaction? Our ED was completely unprepared for the volume of patients we received that evening. We were forced to divert patients to an adjacent hospital due to overcrowding. I'm still trying to figure out how our disaster preparedness plan failed us.",
+    "category": "emergency medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "u/EmergencyDoc",
+        "role": "MD",
+        "city": "NYC",
+        "text": "I completely understand your frustration. I've been in ED management for 10 years and I've seen our share of disasters. However, I think it's essential to review our disaster preparedness plan and identify areas for improvement. Have you considered conducting a tabletop exercise to test our plan?",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "u/EM_Nerd",
+        "role": "RN",
+        "city": "Chicago",
+        "text": "Tabletop exercises are a great idea! I've done them before and they're super helpful in identifying potential weaknesses in our plan. Has anyone used the Hospital Emergency Incident Command System (HEICS) framework to develop their plan?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "u/JointCommission",
+        "role": "Quality Improvement Specialist",
+        "city": "IL",
+        "text": "We actually have a Joint Commission resource available for disaster preparedness. It provides a framework for developing a plan and conducting tabletop exercises. Does anyone know if our hospital has access to these resources?",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 2,
+        "user": "u/EmergencyDoc",
+        "role": "MD",
+        "city": "NYC",
+        "text": "Yes, we've used HEICS in the past. It's a great framework for developing a plan. But, I think what's missing is a clear communication plan. How can we ensure that our hospital is communicating effectively with local EMS, other hospitals, and healthcare facilities during a disaster?",
+        "color": "purple"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "u/EM_Nerd",
+        "role": "RN",
+        "city": "Chicago",
+        "text": "That's a great point! Communication is key during a disaster. Have you considered using a common operating picture (COP) system to facilitate communication among stakeholders?",
+        "color": "green"
+      },
+      {
+        "id": 6,
+        "parent_id": 4,
+        "user": "u/EmergencyDoc",
+        "role": "MD",
+        "city": "NYC",
+        "text": "That's a great idea! We can definitely look into implementing a COP system. I also think we need to train our staff on how to use these systems effectively. Who has experience with COP systems and can share their best practices with us?",
+        "color": "purple"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "u/EM_Nerd",
+        "role": "RN",
+        "city": "Chicago",
+        "text": "I've had experience with COP systems in the past. We used a system called ICS (Incident Command System) during a natural disaster. It worked well in facilitating communication among stakeholders. We should definitely consider it for our hospital.",
+        "color": "green"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "u/EmergencyDoc",
+        "role": "MD",
+        "city": "NYC",
+        "text": "Thanks for sharing your experience! I'll definitely look into ICS. Does anyone know if there are any resources available that can provide guidance on implementing a COP system in an ED setting?",
+        "color": "purple"
+      }
+    ],
+    "image": "https://em.umaryland.edu/files/uploads/ems/7179489_orig.jpg"
+  },
+  {
+    "id": 1234,
+    "title": "Just saw a patient with a COPD exacerbation and I'm reminded of the nuances in diagnosing asthma/COPD... ",
+    "body": "Just saw a patient with a COPD exacerbation and I'm reminded of the nuances in diagnosing asthma/COPD. They presented with classic symptoms: dyspnea, chest tightness, wheezing, and a productive cough. However, the trigger for the exacerbation was a bit more subtle. Apparently, our patient had been taking a decongestant for a minor cold and had an adverse reaction, leading to their current status. This brought up a great point in our department: the importance of considering the patient's entire medical history and not just focusing on their current symptoms. Does anyone else have any tips on how to differentiate between asthma and COPD in the ED?",
+    "category": "medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "TLDR; - great post! As we all know, differentiating between asthma and COPD can be challenging. One thing that always comes to mind is the type of symptoms the patient is experiencing. For me, it's always about looking for the presence of airflow obstruction, which is usually more pronounced in COPD. Additionally, patients with COPD tend to be older and have a higher smoking history. Of course, there are exceptions, but in general, these factors can help narrow down the diagnosis.",
+        "color": "blue"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Thanks for sharing, Aris! I completely agree about the importance of considering airflow obstruction. I like to think of it in terms of the patient's lung function tests: FEV1/FVC ratio, you know? If it's <70% predictive of COPD...",
+        "color": "yellow"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Thanks for the insight, Dr. Thorne! I was wondering, what kind of lung function tests would you recommend running on a patient with suspected COPD/asthma?",
+        "color": "lightblue"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Great discussion! One thing to keep in mind when differentiating between asthma and COPD is the patient's response to medication. Typically, patients with asthma respond well to bronchodilators. I find that a good way to test this is by administering a nebulized salbutamol treatment.",
+        "color": "pink"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Excellent point, Dr. Gupta! I've seen patients with asthma respond significantly to nebulized treatments. Would you mind elaborating on the dosing regimen you typically follow?",
+        "color": "gray"
+      },
+      {
+        "id": 6,
+        "parent_id": 4,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "In my experience, it's also essential to take into account the patient's comorbidities when diagnosing COPD vs. asthma. Certain conditions, such as heart failure, may affect the patient's respiratory status and make it difficult to determine the primary cause of their symptoms.",
+        "color": "red"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Well said, Dr. Varkov! Comorbidities can indeed play a significant role in the patient's overall health and should be taken into account when diagnosing and treating them.",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "TLDR: Acute vs Chronic Heart Failure: Can You Spot the Difference?",
+    "body": "Just saw a patient with acute heart failure (AHF) and realized how easy it is to misdiagnose. I've been working the night shift at Edmonton General for the past few months, and I've seen this patient multiple times for what I thought was chronic heart failure. But tonight, they presented with pulmonary edema, and I did a chest X-ray that showed interstitial edema. It turns out, I was wrong all along! So, what are the key differences between acute and chronic heart failure?",
+    "category": "Clinical Anecdote",
+    "comments": [
+      {
+        "id": 2,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great post, OP! Acute heart failure is all about volume overload, often caused by atrial fibrillation, acute MI, or ischemia. The hallmark of chronic heart failure is a gradual decline in cardiac function over time. The key is to look for signs of decompensation, such as peripheral edema, jugular venous distension, or S3 heart sounds. In your patient's case, the acute presentation suggested an acute exacerbation of chronic heart failure. Thanks for sharing!",
+        "color": "blue"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Dr. Thorne, can you elaborate on the S3 heart sound? I've heard it's related to an S4, but I'm not sure. And what about the difference between acute and chronic heart failure? Can you give us some numbers or stats?",
+        "color": "yellow"
+      },
+      {
+        "id": 4,
+        "parent_id": 2,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "This is a perfect example of the ER's over-diagnosing epidemic. Anyone can diagnose AHF with these vague symptoms. What's the real challenge is making a precise diagnosis. I'd like to see the patient's ECG and echo results before making a judgment call. The ER is always jumping to conclusions without considering the underlying pathophysiology.",
+        "color": "red"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Dr. Sterling, I disagree. The ER has to make quick decisions based on limited information. In this case, the patient presented with a high jugular venous distension, and interstitial edema on the chest X-ray, which are classic signs of AHF. Not to mention, the patient's history of hypertension, which puts them at risk for cardiac decompensation. Let's not forget, the ER is the most common place patients with AHF present.",
+        "color": "green"
+      },
+      {
+        "id": 6,
+        "parent_id": 1,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "OP, you're right to highlight the importance of identifying AHF. As a nurse, I see it all the time in the ER. Patients often present with dyspnea, orthopnea, and fatigue. It's crucial to assess the level of respiratory distress and oxygen saturation to determine the severity of the AHF. Don't forget to check the patient's fluid status and electrolytes, as these can impact the patient's response to treatment.",
+        "color": "purple"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Martha, can you tell us more about assessing fluid status? What are some of the key signs to look for? And how do you handle patients with hypotension?",
+        "color": "blue"
+      },
+      {
+        "id": 8,
+        "parent_id": 1,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "I remember when I first started practicing in the 1930s, heart failure was a relatively rare diagnosis. Now, with the rise of hypertension and diabetes, it's become a common diagnosis in the ER. One thing that's stuck with me is the importance of a thorough history and physical examination. In your patient's case, a detailed review of their past medical history and a physical examination that highlighted signs of fluid overload were key to making an accurate diagnosis.",
+        "color": "gray"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Dr. Thorne, can you elaborate on your experience during the 1930s? How did you diagnose heart failure back then, and what were some of the differences between then and now?",
+        "color": "pink"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Chad, if you want to learn more about Dr. Thorne's experience, I recommend checking out his book 'The Physician's Guide to Ancient Medicine'. He shares some fascinating stories about practicing medicine in the early 20th century.",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "id": 1024,
+    "title": "Missed PID in ED, now a major problem",
+    "body": "I'm still cringing about this patient from last night. 68F female with symptoms of lower abdominal pain, fever, and foul-smelling discharge. Initial US showed some periuterine fluid. Urinalysis was normal. I should have gotten a more aggressive workup. Now she's in the ICU with septicaemia, and I'm wondering if there are any clues that would have pointed me to PID sooner. Any pearls or pitfalls to watch out for in these cases?",
+    "category": ".com/medicine",
     "comments": [
       {
         "id": 1,
@@ -11,80 +520,237 @@
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "Oh man, that sounds rough.  HHS can be a real challenge to manage.  Did you use the serum osmolality formula to confirm the diagnosis?",
+        "text": "When I see those symptoms, I always try to get a more thorough history of sexual exposure. How many partners, how long ago the last exposure was, etc. PID can mimic so many other conditions, but often there are subtle clues that can make the diagnosis more likely. Have you considered checking for cervical motion tenderness or the 'triangle sign'?",
+        "color": "blue"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I thought the triangle sign was more of a gynob guy thing? Can you explain in more detail?",
+        "color": "red"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "@Leo, yes, the triangle sign is more commonly taught in gynob classes. Essentially, it's the area where the uterosacral ligaments attach to the cervix. In PID, this area can become inflamed and tender, forming a triangular-shaped mass. You can usually feel it with a bimanual exam. @Dr. Maya, are there any other clues that point to PID in the ED?",
+        "color": "purple"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "What about leukocytosis on the CBC? Wouldn't that be a red flag too?",
+        "color": "green"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Not necessarily, @Dr. Kevin. Leukocytosis can be seen in so many other conditions, it's not super specific. But in the context of the other symptoms and physical exam findings, it might tip us off. Remember, PID can present without significant leukocytosis, especially if the patient is on antibiotics already.",
+        "color": "red"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "I've read that certain patterns of pain, like 'hitch' or 'sinking' pain, might also be suggestive of PID. Is that true?",
+        "color": "purple"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Rick 'The Rage'",
+        "role": "EP",
+        "city": "Windsor, ON",
+        "text": "-sigh- Yes, and don't even get me started on the 'hitch' or 'sinking' pain. Can't people just use the term 'lower abdominal' like a normal human being? Anyway, yes, certain patterns of pain can be indicative, but it's just one piece of the puzzle.",
+        "color": "red"
+      }
+    ],
+    "image": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1835420043762749"
+  },
+  {
+    "id": 1,
+    "title": "Rant about the most infuriating case of the week",
+    "body": "I'm still getting angry thinking about this one. I'm a community EP in a tertiary center, and I just saw a patient with severe postpartum hemorrhage due to placental abruption. The patient had been experiencing heavy bleeding and severe abdominal pain since the night before, but her OB told her to 'just wait it out' for another 24 hours before coming in.",
+    "category": "r/emergencypm",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I've seen this all too often. The problem is that the OBs are often too quick to write off severe PPH as a 'placental abruption'. But the abruption is the symptom, not the diagnosis. We need to be teaching our OB colleagues to think more critically and do more thorough exams.",
         "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Actually, I think the formula is: Osm = 2[Na+]+ glucose/18.  I'm not sure if that's what we're using now, but I remember it from med school.",
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I'm not sure I agree. Sometimes placental abruption is the cause of PPH. But doesn't the patient's history and physical exam play a huge role in making that diagnosis?",
         "color": "green"
       },
       {
         "id": 3,
-        "parent_id": 2,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Thanks, Turbo!  I was about to google it.  Yep, that's the one.  So, Dr. Aris, how did you manage the patient?",
-        "color": "blue"
+        "parent_id": 1,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "I think we have to remember that OBs have a different approach to patient care. They're focused on fetal outcomes, not maternal health. And sometimes that means pushing patients through the system without necessarily getting to the root cause of the problem.",
+        "color": "purple"
       },
       {
         "id": 4,
-        "parent_id": 3,
-        "user": "Dr. 'Ziggy' Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "I've managed a few HHS patients myself and it's all about getting the fluids, electrolytes, and glucose levels under control.  But it's the risk of cerebral edema that worries me the most.  Does anyone have any tips on how to prevent this?",
+        "parent_id": 2,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Actually, wasn't it the ACOG guidelines that recommended OBs avoid immediate delivery for mild to moderate PPH due to risk of iatrogenic preterm labor? So wouldn't they be justified in delaying definitive treatment for this patient?",
         "color": "red"
       },
       {
         "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Cerebral edema is a major concern in HHS.  I've found that avoiding rapid correction of sodium, glucose, and hypovolemia can reduce the risk.  We also monitor the patient's neuro status closely and watch for any signs of impending cerebral edema.",
+        "parent_id": 3,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Hey, let's not forget the patient's Hx! Did anyone ask about the patient's previous uterine surgeries, hypertension, or other comorbidities that could be contributing to this mess? And can we also talk about the fact that we're still stuck with EMTALA in the US and Canada, which creates huge liability concerns for ER docs. TLDR;, it's a whole system issue.",
         "color": "orange"
       },
       {
         "id": 6,
-        "parent_id": 5,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "What's the significance of the pH in HHS?  Is it always going to be high like in DKA?",
-        "color": "pink"
+        "parent_id": 4,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Actually, no! The ACOG guidelines I read recommended delivering ASAP in cases of severe PPH due to risk of continued hemorrhage. That's what I'd do with my patient. What's the current consensus on that?",
+        "color": "blue"
       },
       {
         "id": 7,
+        "parent_id": 5,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "You're absolutely right, Tom. The patient's Hx could be a major contributor to her PPH. We need to get the patient's previous medical records ASAP. Can anyone recommend a good resource for electronic medical records that can help us get to the bottom of this?",
+        "color": "brown"
+      },
+      {
+        "id": 8,
         "parent_id": 6,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Dr. Ziggy's absolutely right! I've worked with him on several cases, and his bedside manner is always top-notch.",
+        "color": "yellow"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Today I Learned: Nausea and Vomiting are Not Just for Peds - Epic Story from the ER",
+    "body": null
+  },
+  {
+    "id": 1,
+    "title": "TLDR: How I learned to STOP diagnosing PID in under 5 minutes | Emergency Medicine Case Study",
+    "body": "Just saw a patient with pelvic pain and I had to think back to my internal medicine rotation for pelvic inflammatory disease (PID) management. After a quick review, I realized I was over-thinking it. So, here's a quick rundown on how to diagnose PID...",
+    "category": "r/emcrit",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "For the noobs out there, PID is an infection of the female upper reproductive tract (endometritis, salpingitis, tubo-ovarian abscess, and pelvic peritonitis). The most common pathogens are Neisseria gonorrhoeae and Chlamydia trachomatis, but others can be implicated. Key risk factors for PID are age (teenagers are most at risk), multiple sexual partners, new sexual partner in the last 30 days, and other STIs.",
+        "color": "#9900ff"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "TLDR - what are the top 3 things you want to ask a patient to figure out if they have PID? I'm making a flowchart in my head...",
+        "color": "#00ff00"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Are they sexually active? Have they had multiple partners? And have they had unprotected sex recently? Asking about recent sex history can give you clues for PID or other STIs.",
+        "color": "#cc33cc"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Actually, I've read that a new sexual partner in the last 30 days and presence of other STIs are the strongest predictors, not age. Can someone confirm this?",
+        "color": "#cc33cc"
+      },
+      {
+        "id": 5,
+        "parent_id": 1,
         "user": "Dr. Elena Varkov",
         "role": "FRCPC",
         "city": "Quebec City, QC",
-        "text": "Great question, Leo!  The pH in HHS is often normal or even slightly elevated, unlike in DKA where it's usually low.  This is because the acid-base disturbance in HHS is often mild and can be masked by the high glucose levels.",
-        "color": "purple"
+        "text": "The physical exam is crucial for diagnosing PID. Be sure to look for cervical motion tenderness, uterine tenderness, and adnexal tenderness. Also, be prepared to admit and start empirical antibiotics, even if the diagnosis is uncertain.",
+        "color": "#3333ff"
+      },
+      {
+        "id": 6,
+        "parent_id": 1,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "And when in doubt, err on the side of caution - PID is relatively common and can lead to long-term sequelae if left untreated.",
+        "color": "#3333ff"
+      },
+      {
+        "id": 7,
+        "parent_id": 5,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "So, if the patient has cervical motion tenderness, but no uterine tenderness, does that still warrant empirical treatment?",
+        "color": "#cc33cc"
       },
       {
         "id": 8,
         "parent_id": 7,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "I've heard that HHS is caused by insulin deficiency or resistance.  Is that true?",
-        "color": "green"
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Doesn't the literature support starting empiric treatment even if the patient has only cervical motion tenderness, due to the risk of PID?",
+        "color": "#cc33cc"
       },
       {
         "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "Yeah, that's right, Chad.  Insulin deficiency or resistance leads to hyperglycemia, osmotic diuresis, and hypovolemia, which can precipitate HHS.  But it's not just insulin - other factors like stress, infections, and certain medications can also contribute.",
-        "color": "red"
+        "parent_id": 1,
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "And what about the use of single-dose antibiotic regimens? Are they effective for PID?",
+        "color": "#9900ff"
       },
       {
         "id": 10,
@@ -92,722 +758,10 @@
         "user": "Sparkle-Eyes Sue",
         "role": "LPN",
         "city": "St. John's, NL",
-        "text": "I've seen cases where HHS was precipitated by severe infections.  What are some of the most common infections that can lead to HHS?",
-        "color": "blue"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "Good question, Sparkle-Eyes!  In my experience, the most common infections that can lead to HHS are urinary tract infections, pneumonia, and skin infections.  But I think it's worth noting that HHS can be a complication of any severe infection.",
-        "color": "purple"
+        "text": "We use single-dose ceftriaxone in our ED and it seems to work really well. Has anyone else had experience with this?",
+        "color": "#00ff00"
       }
     ],
-    "image": "https://i0.wp.com/emcrit.org/wp-content/uploads/2020/07/hhsdefinition.jpg?fit=1486%2C1102&ssl=1"
-  },
-  {
-    "id": 1,
-    "title": "Today I Learned: Don't Forget Skull Fracture in Scalp Lacerations!",
-    "body": "Just saw a patient with a scalp laceration that was supposed to be primary closed, but I ended up missing a tiny depression that was actually a small skull fracture. Luckily, the patient's CT scan was negative for any significant injury. But what's your protocol for assessing skull fracture in these situations? Do you think it's overkill to get a CT scan for every scalp laceration, or are there certain red flags to look out for? Has anyone else had a similar experience?",
-    "category": "Emergency Medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "TLDR: Get a CT scan for every scalp laceration over 3 cm in length, or if there's any suspicion of fracture. I've had a few cases where a small skull fracture was missed initially, but thankfully the patient only had minor symptoms. We shouldn't be relying solely on clinical examination for skull fracture detection - a CT scan is always the better option. \n\n[Source](https://radiopaedia.org/articles/skull-fracture?lang=us)",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Thanks for sharing this, Dr. Gupta! I'm a little concerned that we're being recommended to get a CT scan for every scalp laceration over 3 cm in length. Isn't that a bit of an overreaction? What about using the mechanism of injury and the patient's medical history to guide our decision-making?",
-        "color": "blue"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Actually, Leo, I agree with Dr. Gupta. We've seen too many cases of delayed diagnosis of skull fracture and its consequences. And it's not just about the size of the laceration - it's also about the mechanism of injury, the patient's age, and other risk factors. Let's not forget that even small skull fractures can be associated with significant morbidity. A CT scan is always the better option when in doubt. \n\n[Source](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4441416/)",
-        "color": "purple"
-      },
-      {
-        "id": 4,
-        "parent_id": 2,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "I'm not convinced by the argument that we need to get a CT scan for every scalp laceration over 3 cm in length. What about the radiation exposure and the increased risk of complications? Don't we need to consider the risks and benefits of each case? I'd love to see some data on the incidence of delayed diagnosis of skull fracture in scalp lacerations.",
-        "color": "orange"
-      },
-      {
-        "id": 5,
-        "parent_id": 3,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Good point, Sarah! The radiation exposure is indeed a concern. However, we need to weigh this against the potential consequences of delayed diagnosis or missed fracture. In my experience, the benefits of a CT scan in these situations far outweigh the risks. But I do agree that we should always consider the patient's individual risk factors and medical history. Maybe we can develop some guidelines for when to get a CT scan in scalp lacerations?",
-        "color": "purple"
-      },
-      {
-        "id": 6,
-        "parent_id": 2,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Lol, you guys are all arguing about the wrong thing! What about the fact that we can't trust patients to give an accurate history of the injury? I've seen patients who've fabricated stories about the mechanism of injury just to try and get a 'free' CT scan. How do we avoid getting caught up in these situations?",
-        "color": "green"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Exactly, Turbo! And it's not just about fabrication - we also need to consider the possibility of Munchausen syndrome or factitious disorder. As ER docs, we need to be aware of these conditions and how to diagnose them. Maybe we can discuss some clinical tips for identifying patients who are 'faking' it?",
-        "color": "purple"
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "title": "Frustrating cases of bowel obstruction: a reminder to think outside the box",
-    "body": "Just saw a patient with a sigmoid volvulus that had me scratching my head. The patient, a 75-year-old woman with a history of anticholinergic use, presented with severe left lower quadrant pain and abdominal tenderness. The patient had no bowel movements for 3 days and passed flatus only once. The abdominal x-ray showed a large air-fluid level in the rectosigmoid region.\n\nWhat struck me was the patient's lack of pain relief despite the presence of a large mass on the abdominal exam. After a brief conversation with my resident, we agreed that this was likely a case of sigmoid volvulus due to the patient's history and symptomatology. We promptly performed a CT scan, which confirmed the diagnosis and revealed a midline mesenteric defect. We were able to successfully reduce the volvulus with a colonoscope and relieve the obstruction.\n\nThis case got me thinking... when do you suspect sigmoid volvulus and what are the red flags? In my experience, the most common presentation is in elderly patients (>60 years old) with a history of anticholinergic use or previous pelvic surgery. The presence of chronic constipation, abdominal pain, and a palpable mass should raise suspicion for sigmoid volvulus. A high index of suspicion and prompt imaging studies are key to making an accurate diagnosis.",
-    "category": "Emergency Medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "u/Dris_Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Great case, Dr! Sigmoid volvulus is indeed a classic presentation in elderly patients. What I find interesting is the association with anticholinergic use. Have you come across any studies that explore this link further?\n\nAlso, I'd love to hear more about your experience with colonoscopic reduction of sigmoid volvulus.",
-        "color": "blue"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "u/Ziggy_ERdoc",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Thanks for sharing, Dr! I've had my fair share of sigmoid volvulus cases in the ER. One thing that stands out to me is the importance of a good abdominal examination. A palpable mass and tenderness in the left lower quadrant are classic signs that shouldn't be missed. I'd love to hear more about your experience with sigmoid volvulus in the elderly population. Have you noticed any differences in their presentation compared to younger patients?\n\nTLDR: don't forget to examine the patient's abdomen!",
-        "color": "red"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "u/Leo_MS1",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Wow, Ziggy's post made me think about the importance of abdominal exams. Can someone clarify what constitutes a palpable mass in sigmoid volvulus? Is it a specific size or shape? And what kind of tenderness should we be looking for?",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 2,
-        "user": "u/Sarah_MS3",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Great question, Leo! A palpable mass in sigmoid volvulus is typically a large, tender mass in the left lower quadrant. The mass is often due to the volvulus, which can cause a significant amount of inflammation and edema. In terms of tenderness, it's usually a focal tenderness in the area of the mass.\n\nI'd also like to add that a high degree of suspicion is key when diagnosing sigmoid volvulus. The patient's history and presentation should raise red flags, and a prompt abdominal x-ray or CT scan can confirm the diagnosis.",
-        "color": "purple"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "u/Chad_Pre-med",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "I've heard of sigmoid volvulus, but I'm not sure how it's treated. Can someone explain the steps involved in reducing the volvulus and relieving the obstruction?",
-        "color": "orange"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "u/Dr_Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Great question, Chad! Requiring a sigmoid volvulus typically involves a colonoscopy to identify the point of obstruction and relieve the volvulus. The procedure may involve a combination of endoscopic decompression, balloon intubation, or even a laparoscopic approach. It's a highly technical procedure, but the key is to relieve the obstruction and avoid complications like bowel ischemia.\n\nIt's worth noting that the choice of treatment depends on the severity of the case and the patient's overall health.",
-        "color": "yellow"
-      }
-    ]
-  },
-  {
-    "id": "hand_injuries",
-    "title": "Rants about Clenched Fist Injuries (aka Fight Bites): Lessons Learned from a Missed Diagnosis",
-    "body": "Just had a patient come in with a clenched fist injury that almost got missed. I've seen these before, but this one caught me off guard. Clenched fist injuries, also known as \"fight bites,\" occur when a patient throws a punch that impacts the front teeth of another individual and leads to lacerations over the dorsal metacarpophalangeal joint. These injuries can be tricky to diagnose, especially in patients who are hesitant to disclose the true cause of their injuries.",
-    "category": "Emergency Medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr_Ziggy_Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Amen to that, OP! Fight bites are a classic in EM. I've seen a few in my time, and each one has a unique twist. What made this case particularly tricky for you? Was it the presentation or the patient's history?",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr_Aris_Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "For me, it was a combination of both. The patient's history of a recent bar fight initially led me to suspect a simple laceration. However, upon further examination, I noticed that the laceration extended deeper into the soft tissues, and I had to dig deeper to find the underlying tendons and nerves involved. Luckily, I caught it before it was too late. Any suggestions on how to improve my assessment skills for these cases?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Leo_Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "What should I be looking for when assessing a clenched fist injury? Are there any specific signs or symptoms that I should be aware of?",
-        "color": "purple"
-      },
-      {
-        "id": 4,
-        "parent_id": 2,
-        "user": "Sarah_Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Actually, Dr. Thorne, I found a great review article on clenched fist injuries that covers the assessment and management strategies. It's got a great summary of the anatomy involved and some practical tips for diagnosis. I think you might find it useful (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5421432/). Can I ask, Dr. Zalesky, what's the best way to handle patients who are hesitant to disclose the true cause of their injuries?",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Chad_Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Lol what's a clenched fist injury? Is that like a fancy way of saying you got punched in the hand? Can someone explain it in simpler terms?",
-        "color": "purple"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Turbo_Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Haha Chad, you're close! It's actually a specific type of injury that occurs when someone gets punched in the hand, but it's not just about the punch itself. It's the way the punch causes the person's fist to slam into their own hand, which can lead to some pretty nasty injuries. Think of it like a combination of a laceration, a fracture, and a tenderness all rolled into one. TLDR: it's a complicated hand injury",
-        "color": "green"
-      },
-      {
-        "id": 7,
-        "parent_id": 1,
-        "user": "Dr_Sarah_Shar",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "I've found that using a combination of imaging studies (like X-rays and CT scans) and physical examination to assess the extent of the injury can be super helpful. Has anyone else had success with this approach?",
-        "color": "purple"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr_The_Rage",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "Yeah, I've used imaging studies to rule out any fractures or other complications. But what about the patient's risk of long-term damage? Should we be doing more to prevent or treat conditions like tendonitis or nerve damage?",
-        "color": "green"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Dr_Henry_Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "Actually, I think we should be focusing more on the patient's long-term history and family medical history to identify any potential genetic predispositions. It's amazing how often patients come in with injuries that have a clear pattern of inheritance. Has anyone else noticed this?",
-        "color": "purple"
-      },
-      {
-        "id": 10,
-        "parent_id": 1,
-        "user": "Martha_The_Hammer",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "TLDR: just treat the patient, not the label. Don't let the diagnosis get in the way of providing good patient care. Has anyone else had to deal with the bureaucratic red tape that comes with treating unusual injuries?",
-        "color": "green"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Barnaby_Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "Huh? What does that even mean? Can someone explain it to me in a simpler way?",
-        "color": "purple"
-      },
-      {
-        "id": 12,
-        "parent_id": 10,
-        "user": "Dr_Phil_Muddle",
-        "role": "EP",
-        "city": "Regina, SK",
-        "text": "Oh boy, where do I even start? Okay, let me try to simplify it: when a patient comes in with an unusual diagnosis, we have to deal with a bunch of bureaucratic hoops to jump through. It's like trying to solve a puzzle while being attacked by a swarm of bees. Anyone else have experience with this?",
-        "color": "green"
-      }
-    ],
-    "image": "https://lacerationrepair.com/wp-content/uploads/2013/10/img_4146.jpg"
-  },
-  {
-    "id": 1,
-    "title": "Just saw a patient with spinal cord compression from an anterior vertebral body fracture. Had to think about SCIWORA and the nuances of neurogenic shock.",
-    "body": "I love days like today. Patient comes in with C5-C6 fracture, can't move his arms or legs, and is complaining of severe neck pain. Classic signs of spinal cord compression. But what about SCIWORA? Can't just rely on flexion-extension films, so I sent him for CT. But what about the mechanism of injury? Was it a flexion, extension, or rotation injury? And how do I know if it's just a ligamentous injury?",
-    "category": "Case study",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "SCIWORA is a great example of when imaging findings don't match clinical symptoms. I saw a patient a few weeks ago with a C4-C5 fracture and no abnormalities on plain films, but he had significant neck pain and stiffness. Turns out he had a herniated disc and epidural hematoma. Always a tough diagnosis to make! [link to article on SCIWORA](http://radiopaedia.org/articles/sciwora)",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Sharp, can you clarify what the clinical symptoms of SCIWORA are? Is it just neck pain and stiffness or are there other signs?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I've heard that the key to diagnosing SCIWORA is to look for asymmetrical findings on imaging, such as a larger disc herniation on one side. Has anyone else heard this?",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Dr. Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "Don't forget to consider other causes of neurogenic shock, such as high cervical spine fractures. I had a patient last week with a C1-C2 fracture and was in full-blown neurogenic shock.",
-        "color": "red"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Dr. Stone, can you elaborate on how you diagnosed the C1-C2 fracture? Was it a CT or MRI?",
-        "color": "orange"
-      },
-      {
-        "id": 6,
-        "parent_id": null,
-        "user": "Dr. Phil Muddle",
-        "role": "EP",
-        "city": "Regina, SK",
-        "text": "What is neurogenic shock anyway? Is it just hypotension and bradycardia or is there more to it?",
-        "color": "pink"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "Neurogenic shock is a complex condition characterized by vasodilation and decreased vascular tone. It's not just hypotension and bradycardia, but also involves a decrease in systemic vascular resistance. [link to article on neurogenic shock](http://emedicine.medscape.com/article/783142-overview)",
-        "color": "green"
-      }
-    ]
-  },
-  {
-    "title": "Case Report: Near-Miss with Sudden Cardiac Death - Lessons Learned",
-    "body": "Just saw a patient with a near-miss for sudden cardiac death and I'm still reeling from the experience. A 25-year-old athlete presented to our ED with a single episode of syncope during a soccer game. Initial vitals were unremarkable, but the ECG showed a broad QRS complex with a left bundle branch block pattern.",
-    "category": "EM",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Great case report! The patient's ECG is classic for Hypertrophic Cardiomyopathy (HCM). Have you guys considered getting an MRI to rule out HCM in young athletes with unexplained syncope? This has been a game-changer in our hospital's sports medicine program.\n\nTL;DR: Be suspicious of HCM in young athletes with unexplained syncope, even if the ECG and physical exam are normal.\n\nhttps://journals.sagepub.com/doi/full/10.1177/1352458518805111",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Thorne, can you explain why the ECG was abnormal in this patient? I thought the ECG was a great tool for diagnosing HCM?\n\nI looked online and found this: [link to Wikipedia article on ECG changes in HCM](https://en.wikipedia.org/wiki/Hypertrophic_cardiomyopathy#ECG)",
-        "color": "blue"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Great reminder, Dr. Thorne! HCM is a leading cause of sudden cardiac death in young athletes. I've seen several cases in my career, and it's always a tragedy. The MRI is a key tool in diagnosing HCM, especially in cases where the ECG is normal.\n\nDr. Chen, the ECG can be normal in HCM, especially if the patient doesn't have significant outflow tract obstruction. The MRI is more sensitive for detecting left ventricular hypertrophy and other abnormalities associated with HCM.",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Dr. Sharp, can you explain why the MRI is more sensitive than the ECG for detecting HCM? I've always been taught that the ECG is a great tool for diagnosing cardiac conditions.",
-        "color": "red"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Good question, Dr. Park! The MRI is more sensitive for detecting HCM because it can visualize the left ventricle and assess for left ventricular hypertrophy, which is a hallmark of the disease. The ECG can be normal in HCM if the patient doesn't have significant outflow tract obstruction, but the MRI will still pick up on the LVH.\n\nI had a case recently where the ECG was normal, but the MRI showed significant LVH and we diagnosed HCM. So, don't rely on the ECG alone, guys!",
-        "color": "yellow"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Lol, thanks for the explanation, Dr. Zalesky! I'm still in undergrad, but I'm trying to learn as much as I can about EM. Can you guys recommend any resources for learning more about HCM and other cardiac conditions?",
-        "color": "orange"
-      },
-      {
-        "id": 7,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Great discussion, everyone! As Dr. Thorne mentioned, suspicion of HCM should be high in young athletes with unexplained syncope. I'd like to add that a thorough family history and physical exam are crucial in identifying patients at risk.\n\nHas anyone else used the San Francisco Syncope Rule to evaluate patients with syncope? I've found it to be a useful tool in our hospital's ED.",
-        "color": "brown"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Ah, yes, the San Francisco Syncope Rule! It's a great tool for evaluating patients with syncope, especially in conjunction with a thorough history and physical exam. I've seen cases where patients presented with multiple risk factors, but the ECG and cardiac enzymes were normal.\n\nI'd like to add that a careful assessment of the patient's mental status and neurological function is also essential, especially if there are concerns about a seizure or other neurological event.",
-        "color": "pink"
-      }
-    ]
-  },
-  {
-    "id": 15,
-    "title": "Just had a high-risk PE in the emergency department and it made me think about our D-dimer protocol...",
-    "body": "Just saw a patient with a high-risk Wells score of 7 and a positive CT pulmonary angiogram for a large pulmonary embolism. I ordered a D-dimer and started them on heparin, but it made me realize that our hospital's D-dimer protocol needs an update.",
-    "category": "r/EMERGENCYMED",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Our hospital is actually considering implementing a revised D-dimer protocol that takes into account the age and BMI of the patient. It's based on the work by  Stein PD et al. (2014).\n\nHave any of you guys heard about this new approach? It might be worth considering, but I'd love to hear your thoughts.",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Yes, I've seen the guidelines. What I don't understand is how they determine the age threshold for the lower-extremity DVT risk. Is it based on the Wells score or something else?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "I'm a bit skeptical about the Stein protocol. We've been using the Pulmonary Embolism Rule-In Criteria (PERC) and it's been working pretty well for us. Has anyone else tried it?",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "I've read a bit about PERC, but I'm not sure how to apply it in practice. Can you explain more about the criteria?",
-        "color": "blue"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "The PERC criteria include things like a low probability Wells score, recent surgery or trauma, and a negative D-dimer. Let me send you a reference so you can look it up in more detail. [link to a study]",
-        "color": "green"
-      },
-      {
-        "id": 6,
-        "parent_id": 1,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "Gentlemen, remember that the key to diagnosing PE is still a high clinical suspicion. D-dimer tests are useful but not foolproof. Always keep a healthy dose of skepticism when interpreting the results.",
-        "color": "purple"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "I couldn't agree more, Dr. Thorne. The art of emergency medicine is all about combining clinical experience with scientific evidence. Keep it up!",
-        "color": "green"
-      }
-    ],
-    "image": "https://danboater.org/travel-health-and-safety/images/deep-vein-thrombosis-dvt-infographic-dan-boater-lores.png"
-  },
-  {
-    "title": "Today I Learned: TB Diagnosis is a Pain",
-    "body": "Just saw a patient come in with a classic presentation of TB: prolonged febrile cough, weight loss, and a few weeks of night sweats. Easy enough, right? Not so much. I ordered a sputum sample for acid-fast staining, but the patient's HIV status is unknown and I'm already worried about the yield.",
-    "category": "EmergencyMedicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "I feel your pain, @username. TB diagnosis can be a real challenge in the ED. Acid-fast staining has a high sensitivity for pulmonary TB, but the yield can be lower in HIV patients. Have you considered using a TB antigen test? These can help differentiate TB from other conditions and may be more useful in patients with unknown HIV status.\n\nSource: [CDC guidelines on TB diagnosis](https://www.cdc.gov/tb/topic/diagnosis/default.htm)",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Thanks for the tip, @Dr. Aris Thorne! I've heard that the Pha-L test is a relatively new option for TB antigen detection. Can anyone speak to its sensitivity and specificity compared to acid-fast staining? Also, are there any specific patient populations where it's more useful?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Wait, what's the Pha-L test? I've only heard of acid-fast staining and culture for TB diagnosis. Can someone explain the difference?",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "The Pha-L test is an immunochromatographic assay that detects the lipoarabinomannan (LAM) antigen in urine or blood. It's a relatively new and rapid test for TB diagnosis, especially useful in resource-limited settings. However, its sensitivity and specificity are still being evaluated.\n\nSource: [Clinical Infectious Diseases study on the Pha-L test](https://academic.oup.com/cid/article/63/2/e41/3044449)",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "I've had some experience with the Pha-L test and it's been really useful in my practice. However, it's essential to be aware of the possible false positives and negatives, especially in patients with extrapulmonary TB.\n\nSource: [European Respiratory Journal study on the Pha-L test](https://erj.ersjournals.com/lookup/doi/10.1183/09031936.00134214)",
-        "color": "green"
-      },
-      {
-        "id": 6,
-        "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Regarding the yield of acid-fast staining in HIV patients, don't we also need to consider the possibility of TB meningitis? Has anyone had experience with diagnosing TB meningitis in the ED?",
-        "color": "green"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "Ah, yes, TB meningitis is indeed a serious and potentially life-threatening condition. In the good old days, we used to rely on the presence of caseating granulomas seen under the microscope to diagnose TB meningitis. However, with the advent of CT and MRI scanning, the diagnosis has become much more straightforward.\n\nSource: [Archives of Neurology study on TB meningitis](https://jamanetwork.com/journals/archneur/fullarticle/417718)",
-        "color": "green"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Urinary Retention in the ED: A Cautionary Tale",
-    "body": "Just saw a patient with acute urinary retention and I'm still steaming about it. He comes in with a 2L Foley and a creatinine of 3.5. I'm thinking 'this guy's got a renal stone' but what does he tell me? He's had a Foley since Christmas and he's been 'peeing' about 50mL/h for weeks. He doesn't know what's causing it and hasn't seen a urologist.\n\nI order a KUB and a renal ultrasound but let me tell you, it's what came back afterwards that really got my goat. His bladder is like a balloon - 600cc. Now I'm worried about renal damage.\n\nWe get him cathed up and start treating the infection but here's the thing: we almost missed a secondary diagnosis. His renal function is still impaired and he's still not peeing much. We had to start dialysis to keep him from crashing.\n\nTL;DR: Acute urinary retention can be a sign of a bigger issue - make sure to look for secondary diagnoses, especially renal impairment.",
-    "category": "emergency-medicine",
-    "comments": [
-      {
-        "id": 2,
-        "parent_id": null,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs. This is exactly what happens when you don't keep up with your urology knowledge. A Foley since Christmas? That's not a red flag? A creatinine of 3.5? No kidding, he's got renal impairment. What are you even doing here?",
-        "color": "red"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Dr. Sterling, I think we can all agree that urinary retention is a serious issue, but let's not forget that it's a red flag for other conditions. In this case, the patient had no idea what was causing it and hadn't seen a urologist. We can all learn from this and remember to look for secondary diagnoses, especially renal impairment. By the way, have you seen this article on urology Pearls for ED Docs?",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Yeah, yeah, great article on Pearls for ED Docs. But let's get back to the case. Did anyone notice that the patient was on a bunch of NSAIDs and his BUN was slightly elevated? Maybe we're looking at a case of NSAID-induced kidney injury? We always have to be thinking about these potential adverse effects, right?",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Wait, what do NSAIDs do to kidney function? I thought they just reduced inflammation...",
-        "color": "yellow"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Exactly, Leo! NSAIDs can cause decreased kidney function, specifically by reducing prostaglandins, which are necessary for renal perfusion. It's a classic case of 'don't mess with the kidney's prostaglandins, kid.' Seriously, though, we should keep this in mind and consider this as a possible cause of our patient's renal impairment.",
-        "color": "purple"
-      },
-      {
-        "id": 7,
-        "parent_id": null,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Actually, I think we're all forgetting one crucial point - the KUB and ultrasound. Those tests are usually done when you suspect a kidney stone or other issues with kidney function. Did anyone think about the possibility of... *dramatic voice*... a uric acid crystal-induced acute kidney injury?",
-        "color": "orange"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Whoa, easy there, Sarah. Let's not forget that the patient had a Foley for weeks and was pissing 50mL/h. I think our culprit is more likely to be renal impairment or maybe... *whispers*... a neurogenic bladder.",
-        "color": "pink"
-      }
-    ]
-  },
-  {
-    "id": 1234,
-    "title": "TL;DR: Don't forget to target your temperature management in malignant heat illnesses! Just saw a wild case last night...",
-    "body": "I just got done running a code for a 35-year-old guy who was out mowing his lawn in 40\u00b0C (104\u00b0F) weather. We got him out quick, but his core temp was 42.5\u00b0C (108.5\u00b0F) and I was worried he was going to go into DIC. We managed to get him cooled down with some targeted temp management, but I realized afterwards we should have gone with ECMP first. Luckily, he's alright now, but it got me thinking about malignant heat illnesses and how to stay on top of them in the ED. I know we all hate thinking about heat-related illnesses, but they can be so sneaky. I've started carrying a thermometer in my bag now. Has anyone else had any wild cases like this?",
-    "category": "medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "MD",
-        "city": "Toronto, ON",
-        "text": "I had a case like this a few years ago, and I can attest to the importance of targeted temperature management. Don't have to look too far to see the benefits, but one thing I always keep in mind is to make sure the patient is on 24hr telemetry. If that core temp starts climbing again, you want to catch it before the kidneys fail. Have you guys considered using acetaminophen or NSAIDs as adjuncts to cooling measures?",
-        "color": "blue"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MD",
-        "city": "Ottawa, ON",
-        "text": "Good point about telemetry, Dr. Thorne! And yeah, I've used both of those agents in the past. The key is to keep them out of the way of the cooling blankets, since those will be pulling from the same source. Also, one thing that's really helpful for me is to look for any potential clues early on that might indicate the patient's at higher risk for malignant heat illness. Some studies show that a heart rate > 100 is a strong predictor. Anyone seen anything like that?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "MD",
-        "city": "Calgary, AB",
-        "text": "You're still worried about malignant heat illness? Give me a break, doctors. This is Canada, folks. We don't get heat strokes here. I've spent 20 years in ERs here and I've never seen a single case of malignant heat illness. Amateurs get worked up over trivial stuff like heat exhaustion, but not heat stroke.",
-        "color": "orange"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. 'Ziggy' Zalesky",
-        "role": "MD",
-        "city": "Vancouver, BC",
-        "text": "Dude, Dr. Sterling, malignant heat illness is real! I see it all the time when the heat dome hits. You might not know this about us, but we get some pretty brutal summers here. And let me tell you, heat stroke is no joke. We need to remember to take it seriously and keep our cool (no pun intended). By the way, does anyone know the best way to handle a patient who's on beta agonists?",
-        "color": "red"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Beta agonists, dude... I had a patient on those meds in the summer of '22. I remembered it was a big no-no to give them anything with a vapo-coolant, but what did you guys end up using to manage the patient's core temp in the end?",
-        "color": "pink"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "Vapo-coolants, eh? I had a few patients with those meds, and let me tell you, their families were so confused when we tried to cool them down with ice packs. But honestly, I think the best way to manage patients on beta agonists in heat-related emergencies is the old-fashioned way\u2014just don't overdo it with the cooling measures. We have to remember that these patients are sensitive.",
-        "color": "purple"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Kevin Park",
-        "role": "MD",
-        "city": "Edmonton, AB",
-        "text": "Ice packs, huh? I see what you're saying, Martha! But isn't that the opposite of what everyone's saying nowadays? We're always looking for ways to cool down these patients more efficiently. What do you guys think about using fans to circulate the air?",
-        "color": "brown"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Chad Broson",
-        "role": "non-med",
-        "city": "Brampton, ON",
-        "text": "Fans? I love using fans! But what about all the fancy temperature management stuff, like that whole 'targeted cooling' thing we learned in med school? Does anyone know more about the actual benefits of using that as opposed to just a plain ol' cooling blanket?",
-        "color": "gray"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Maya Gupta",
-        "role": "MD",
-        "city": "Mississauga, ON",
-        "text": "Chad, let's be honest\u2014fans are the best way to keep a patient cooler when it comes to malignant heat illness. But for the sake of the patients, let's try using those fancy temperature management techniques. That being said, when I'm working ERs, I love using the temperature management apps that let you track your patients' body temperatures over time. What are some of your favorite temperature management apps?",
-        "color": "turquoise"
-      }
-    ],
-    "image": "https://www.vdh.virginia.gov/content/uploads/sites/23/2021/04/April-2021-Heat-Related-Illness-787x1024.jpg"
+    "image": "https://images.squarespace-cdn.com/content/v1/546e1217e4b093626abfbae7/1526904650655-8UD1CT6PJ2Z5TGP11P8M/Lightning+Learning+-+Pelvic+Inflammatory+Disease.png"
   }
 ]
