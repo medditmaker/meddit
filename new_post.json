@@ -1,674 +1,406 @@
 [
   {
-    "posts": [
+    "title": "Case Study: Dilated Cardiomyopathy in the ED",
+    "body": "Rant about the importance of considering dilated cardiomyopathy in patients presenting with acute heart failure. Just saw a patient with this diagnosis and it was a tough one to figure out. Patient presented with dyspnea, orthopnea, and a new onset of chest pain. The chest radiograph showed signs of acute heart failure without cardiomegaly and the ECG was nonspecific. The diagnosis was only made after a series of tests, including a TTE and a stress test.",
+    "category": "EM",
+    "id": 0,
+    "comments": [
       {
-        "id": 0,
-        "title": "Frustrated with the ED treatment of spontaneous pneumothorax",
-        "body": "Just saw a patient with a primary spontaneous pneumothorax who was discharged from the ED with a bottle of oxygen and a scrip for a chest x-ray... The thing is, the patient was in a bit of distress and I think we should have gotten them to radiology for a CT scan to confirm the size of the pneumothorax. We've all heard the stories about the risk of tension pneumothorax and the importance of aggressive thoracic decompression. I'm just wondering if we're being a bit too complacent in the ED. Can we talk about our experience with spontaneous pneumothorax?",
-        "category": "Emergency Medicine",
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Great case, OP! Reminds me of a patient I saw last year who presented with similar symptoms. The key takeaway for me was the importance of considering non-cardiovascular causes of CHF, such as renal failure or sepsis. We ended up doing an ultrasound of the kidneys and it showed severe impairment of renal function. We started her on IV lasix and dopamine and she did great.",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "That's a great point, Dr. Gupta! I was wondering, how common is dilated cardiomyopathy in patients with CHF? Is it a diagnosis that comes up frequently in the ED?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "It's actually pretty common, Leo. According to Tintinalli's, DCM is the 3rd most common cause of heart disease in the US, accounting for about 20-30% of all CHF cases. But what's interesting is that the incidence is increasing, especially in women. So, it's definitely something we should keep in mind when evaluating patients with CHF.",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs! DCM is just a catch-all diagnosis for CHF. We know what causes it - usually some combination of idiopathic, familial, or associated with peripartum or toxins. Don't get too hung up on the etiology, just focus on treating the symptoms. And trust me, no one wants to admit a patient for DCM - it's a waste of hospital resources.",
+        "color": "red"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Sorry, Dr. Sterling, but I think you're misunderstanding the importance of diagnosing DCM. While it may not be the only cause of CHF, DCM has a distinct clinical presentation and response to treatment. We need to consider it as a possible diagnosis in any patient presenting with CHF and then investigate and manage it accordingly.",
+        "color": "purple"
+      },
+      {
+        "id": 6,
+        "parent_id": 4,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Can someone explain what you mean by 'idiopathic, familial, or associated with peripartum or toxins' in the context of DCM? Is this something that comes up frequently in the ED, or more of a rare occurrence?",
+        "color": "blue"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Idiopathic DCM means that the cause of the cardiomyopathy is unknown. Familial means that there's a genetic predisposition to DCM. Associated with peripartum means that it can occur in pregnant women or postpartum. Toxins like certain medications or substances can also cause DCM. According to the text, idiopathic DCM is the most common type of DCM.",
+        "color": "green"
+      }
+    ],
+    "image": "http://www.jacc.org/cms/asset/76fbb4ea-31a5-43ff-a911-71763ff58fab/ga1.jpg"
+  },
+  {
+    "id": 1,
+    "title": "TL;DR: COHb isn't a great indicator of CO poisoning, and standard pulse ox is useless. What's the deal?",
+    "body": "Just saw a patient who was a mechanic and had a near-fatal car exhaust inhalation incident. His COHB level was only 10% but his carboxyhemoglobin (COHb) level was through the roof, but his oxygen saturation was normal on his SpO2 reading. I've had this happen before, and it bugs me. We're not measuring CO levels right in this department.",
+    "category": "r/emergmed",
+    "user": "Dr. Rick 'The Rage'",
+    "role": "EP",
+    "city": "Windsor, ON",
+    "color": "#8b0a1a",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Agreed, COHb isn't a perfect proxy for CO exposure. Standard pulse ox is indeed unreliable. Bedside PCOx has been proposed as a screening tool, but it requires specific calibration and it's not widely available yet.",
+        "color": "purple",
         "comments": [
-          {
-            "id": 1,
-            "parent_id": null,
-            "user": "Dr. Maya Gupta",
-            "role": "PGY2",
-            "city": "Mississauga, ON",
-            "text": "I have to agree, the treatment of pneumothorax in the ED can be pretty laissez-faire. I had a case last week where a patient presented with a large pneumothorax and we ended up sticking with the classic treatment: needle thoracostomy followed by tube thoracostomy. But what about the role of thoracoscopic lung resection in the case of a persistent pneumothorax? We should be having this conversation in the ED, not just in the OR. [link to Thoracoscopic Lung Resection](https://www.ncbi.nlm.nih.gov/pubmed/29131423)",
-            "color": "purple"
-          },
           {
             "id": 2,
             "parent_id": 1,
-            "user": "Turbo Tom",
-            "role": "RN",
-            "city": "London, ON",
-            "text": "Lol, @Maya, I've seen a few of these cases in the ED and it's always a crapshoot. But seriously, what are the chances of tension pneumothorax in a patient with a primary spontaneous pneumothorax? I know it's a risk, but how often do we actually see it?",
+            "user": "Sarah Jenkins",
+            "role": "MS3",
+            "city": "Ottawa, ON",
+            "text": "Can you elaborate on PCOx calibration? What's the process involved? I recall learning about this in my CO poisoning lecture.",
             "color": "green"
           },
           {
             "id": 3,
             "parent_id": 1,
-            "user": "Sarah Jenkins",
-            "role": "MS3",
-            "city": "Ottawa, ON",
-            "text": "@Turbo, according to a study published in the Chest Journal, the risk of tension pneumothorax in patients with primary spontaneous pneumothorax is around 1.5%. So while it's a risk, it's not as high as we make it out to be [link to Chest Journal Study](https://www.ncbi.nlm.nih.gov/pubmed/25534201)",
-            "color": "lightblue"
-          },
-          {
-            "id": 4,
-            "parent_id": 3,
-            "user": "Dr. Maya Gupta",
-            "role": "PGY2",
-            "city": "Mississauga, ON",
-            "text": "@Sarah, that's a good point, but what about the role of imaging in diagnosing tension pneumothorax? I've seen a few cases where the diagnosis was made based on clinical findings alone, but shouldn't we be using imaging to confirm the diagnosis?",
-            "color": "blue"
-          },
-          {
-            "id": 5,
-            "parent_id": 4,
-            "user": "Turbo Tom",
-            "role": "RN",
-            "city": "London, ON",
-            "text": "Actually, @Maya, I think we should be using the clinical findings to guide our imaging. We don't need to order a CT scan on every single patient with a pneumothorax. Can we talk about the role of physical exam in diagnosing pneumothorax?",
-            "color": "yellow"
-          },
-          {
-            "id": 6,
-            "parent_id": 5,
-            "user": "Dr. Barb Miller",
-            "role": "EP",
-            "city": "Winnipeg, MB",
-            "text": "You're preaching to the choir, @Tom. I've seen more than my fair share of chest X-rays that show nothing but a tiny bleb. Sometimes I think we're over-imaging pneumothorax patients. Can we talk about the benefits and drawbacks of bedside ultrasonography in emergency medicine?",
-            "color": "orange"
-          },
-          {
-            "id": 7,
-            "parent_id": 6,
             "user": "Leo Chen",
             "role": "MS1",
             "city": "Montreal, QC",
-            "text": "I'm a bit confused - what's the deal with ultrasonography in the ED? Is it just for diagnosing pneumothorax, or can we use it for other things too?",
-            "color": "pink"
-          },
-          {
-            "id": 8,
-            "parent_id": 7,
-            "user": "Dr. Maya Gupta",
-            "role": "PGY2",
-            "city": "Mississauga, ON",
-            "text": "Excellent question, @Leo! Ultrasonography has many applications in the ED, including the diagnosis of pneumothorax, pericardial effusion, cardiac tamponade, and aortic dissection. We should definitely be using it more in the ED!",
+            "text": "I've been using a pulse oximeter in my med school lab, but I never thought it was a reliable measure for COHb. Is there any correlation between SpO2 and COHb in CO poisoning?",
             "color": "blue"
-          },
-          {
-            "id": 9,
-            "parent_id": 1,
-            "user": "Dr. Phil Muddle",
-            "role": "EP",
-            "city": "Regina, SK",
-            "text": "Sorry, guys, but I think we're getting a bit too carried away with the ultrasonography. What about the old-fashioned chest X-ray? Don't we still use it in some cases?",
-            "color": "purple"
-          },
-          {
-            "id": 10,
-            "parent_id": 9,
-            "user": "Turbo Tom",
-            "role": "RN",
-            "city": "London, ON",
-            "text": "Lol, @Phil, I think you're being a bit too nostalgic for the 1980s here. But seriously, what's the role of X-ray in the modern ED?",
-            "color": "green"
-          },
-          {
-            "id": 11,
-            "parent_id": 10,
-            "user": "Dr. Barb Miller",
-            "role": "EP",
-            "city": "Winnipeg, MB",
-            "text": "We should still be using X-rays for their high-sensitivity and low-cost. However, we should also be aware of the role of CT scans in providing high-resolution images for complex cases.",
-            "color": "orange"
-          },
-          {
-            "id": 12,
-            "parent_id": null,
-            "user": "Dr. Ziggy Zalesky",
-            "role": "EP",
-            "city": "Vancouver, BC",
-            "text": "You guys are all still using plain radiographs to diagnose pneumothorax? Come on, guys. We can do better than that. How about I share my protocol for bedside ultrasonography in diagnosing pneumothorax?",
-            "color": "purple"
           }
         ]
-      }
-    ],
-    "image": "https://i.ytimg.com/vi/95IhCXDL9EY/maxresdefault.jpg"
-  },
-  {
-    "id": 1,
-    "title": "Today I Learned: Near Drowning - Let's talk prevention, pathophysiology, and management",
-    "body": "Just saw a patient with near drowning who made a full recovery after aggressive resuscitation and hyperbaric oxygen therapy. It got me thinking about the complexities of near drowning and the need for prevention, early recognition, and optimal management.\n   \n   Near drowning is a leading cause of morbidity and mortality worldwide, particularly in pediatric populations. The pathophysiology is multifaceted, involving respiratory distress, aspiration pneumonia, hypothermia, and potentially, cardiac arrest.\n   \n   Prevention is key. Education about water safety and supervision of children during water activities can significantly reduce the risk of near drowning. Additionally, early recognition of near drowning and prompt initiation of resuscitation are crucial. A high index of suspicion is essential, as patients may present with non-specific symptoms such as vomiting, agitation, or altered mental status.\n   \n   Management involves aggressive resuscitation, including CPR, intubation, and ventilation. Hyperbaric oxygen therapy may be beneficial in reducing oxidative stress and improving neurological outcomes. Invasive procedures, such as thoracostomy and tracheostomy, may be necessary in cases of severe respiratory compromise.\n   \n   Let's discuss prevention, pathophysiology, and management strategies for near drowning. What are your thoughts and experiences? Have you seen any interesting cases?",
-    "category": "medical",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Great post! I've had the opportunity to work in aquatic settings and seen firsthand the importance of prevention. Education and supervision are crucial. Have you heard about the Safe Sides campaign?",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Yes, I've heard about the Safe Sides campaign. It's an excellent initiative that focuses on education and supervision of water activities. Did you know that they also provide resources for families and caregivers on infant and toddler water safety? [link](https://www.safesides.org)",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "I've had a few interesting cases of near drowning. One patient had a history of underlying cardiac conditions, which exacerbated the severity of the event. What strategies do you use to manage patients with underlying cardiac conditions after near drowning?",
-        "color": "blue"
       },
       {
         "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Great question, Kevin! In cases of near drowning with underlying cardiac conditions, we typically focus on stabilizing the patient's cardiac status with medications such as beta-blockers and ACE inhibitors. We also monitor for signs of cardiac ischemia and arrhythmias. Have you considered the use of cardiac biomarkers in these patients?",
-        "color": "brown"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "I've seen some crazy cases of near drowning in the ER. One patient who comes to mind was a young adult who attempted to surf while intoxicated. He ended up with a serious case of aspiration pneumonia and required extended intubation. What are your thoughts on the role of intoxication in near drowning?",
-        "color": "purple"
+        "parent_id": null,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "We have started using PCOx in our ER for suspected CO poisoning cases. It's a game-changer. I'd recommend checking out this study on its accuracy and reliability. [link to study]",
+        "color": "#3498db",
+        "comments": [
+          {
+            "id": 5,
+            "parent_id": 4,
+            "user": "Chad Broson",
+            "role": "Pre-med",
+            "city": "Brampton, ON",
+            "text": "Dang, thanks for the link, Dr. Sharp! I'll check it out. What's the typical COHb threshold for diagnosing CO poisoning?",
+            "color": "#9b59b6"
+          }
+        ]
       },
       {
         "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "Ah, the dangers of intoxication in near drowning are well-documented. In the past, we used to see more cases of near drowning due to intoxication, but with the advancement of medical technology and increased awareness, the incidence has decreased. However, it's still an important consideration in the ER.",
-        "color": "green"
-      },
-      {
-        "id": 7,
-        "parent_id": 1,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "I've had the pleasure of working with some amazing water safety educators who have shared their expertise with me. One thing I've learned is that education and supervision go hand-in-hand. What are your thoughts on the importance of community outreach and water safety education?",
-        "color": "blue"
-      },
-      {
-        "id": 8,
-        "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Education and supervision are essential, but let's not forget the importance of early recognition and prompt initiation of resuscitation. What are your thoughts on the role of bystander CPR in near drowning?",
-        "color": "purple"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Bystander CPR is crucial in near drowning. In fact, the American Heart Association recommends CPR for anyone experiencing cardiac arrest, regardless of the cause. We should also be aware of local and national guidelines for CPR in near drowning.",
-        "color": "green"
-      },
-      {
-        "id": 10,
-        "parent_id": 1,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "I'm really curious about the latest research on near drowning. Can anyone recommend some recent studies or articles on the topic?",
-        "color": "blue"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
+        "parent_id": null,
         "user": "Dr. Brock Stone",
         "role": "FRCSC",
         "city": "Hamilton, ON",
-        "text": "Chad, you might be interested in this review article published in the Journal of Emergency Medicine: [link](https://www.jemjournal.com/article/S0736-4679(20)30244-3/pdf). It provides an excellent overview of the current state of near drowning research.",
-        "color": "purple"
+        "text": "I'm not convinced about the merits of PCOx. We have enough trouble getting accurate blood gases and ABGs in the ER already. How do we know PCOx will fare any better?",
+        "color": "orange",
+        "comments": [
+          {
+            "id": 7,
+            "parent_id": 6,
+            "user": "Turbo Tom",
+            "role": "RN",
+            "city": "London, ON",
+            "text": "I understand your skepticism, Dr. Stone. But have you seen the latest research on PCOx? It's pretty convincing. And what about the CO levels that are being detected in our patients nowadays?",
+            "color": "yellow"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "parent_id": null,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "As an internist, I can attest to the challenges of managing CO poisoning in the intensive care unit. Has anyone else encountered situations where PCOx has helped in patient management?",
+        "color": "#1abc9c",
+        "comments": [
+          {
+            "id": 9,
+            "parent_id": 8,
+            "user": "Sparkle-Eyes Sue",
+            "role": "LPN",
+            "city": "St. John's, NL",
+            "text": "Ah, yes! We had a patient last month with CO poisoning from a faulty water heater. PCOx was instrumental in tracking her progress and adjusting our treatment strategy. [link to patient story]",
+            "color": "#4CAF50"
+          }
+        ]
       }
     ]
   },
   {
-    "id": 1,
-    "title": "Missed the Obvious: A UGI Bleed Case Study",
-    "body": "Just saw a patient with a classic presentation of upper GI bleeding last night, but did I make it worse by not recognizing the cause initially? I've been reading through the Tintinalli's chapter on UGI bleeds and I'm still trying to figure out what I missed. Has anyone else had a similar experience? Any thoughts would be appreciated.",
-    "category": "emergency medicine",
+    "id": 2,
+    "title": "RANT about pediatric GI disorders... why can't we nail the diagnosis?",
+    "body": "Just saw a 2-year-old with recurrent vomiting and diarrhea, and I'm still not convinced we got to the bottom of it. The lab results were all normal, but the kid's parents were certain it was food poisoning... or was it?",
+    "category": "Pediatric Emergency Medicine",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Oh my, sounds like a long night! Did you get a chance to review the GI series and consider an endoscopy? Also, were you able to get any vitals on the patient during presentation?",
+        "user": "Dr. Janet Semple-Hess",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "I feel you! Pediatric GI disorders are a minefield. Has anyone else had experience with 'functional' vs. 'organic' causes? The parents were driving me crazy, but the kid's symptoms were classic for abdominal migraine... or was it just anxiety?",
         "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Actually, Sue, I didn't get to review the GI series, but I did get the vitals. BP was 90/60 with a HR of 120. I was worried about active bleeding, but I might have misjudged the situation. Anyone have experience with these types of cases? Should I have admitted them sooner?",
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs. You're just not thinking outside the box. I've seen cases where the 'functional' diagnosis was actually a harbinger of something more sinister. Don't underestimate the power of the gut-brain axis, folks! [link to article on the gut-brain axis]",
         "color": "green"
       },
       {
         "id": 3,
-        "parent_id": 2,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Maya, you did the right thing by getting vitals and considering the need for admission. But you might have benefited from a more aggressive approach with regards to blood transfusions. Did you consider an endoscopy to get a closer look at the GI tract?",
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Wait, what's the difference between functional and organic causes? Can someone explain it in simple terms?",
         "color": "blue"
       },
       {
         "id": 4,
         "parent_id": 3,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Thanks for the feedback, Barb! I didn't think of running an endoscopy immediately, but now that you mention it, it makes sense. Would an endoscopy have changed the management of this case? And do you have any recommendations for how to approach similar cases in the future?",
-        "color": "green"
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Leo, think of 'functional' causes as symptoms without an identifiable cause, whereas 'organic' causes have a specific diagnosis (e.g. IBS, Crohn's disease). But it's not always clear-cut... [link to article on pediatric IBS]",
+        "color": "purple"
       },
       {
         "id": 5,
-        "parent_id": null,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Haha, what's with all the fancy EM lingo? Can someone explain what's going on in simple terms?",
-        "color": "yellow"
+        "parent_id": 2,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Dr. Sterling, I'm not sure I agree. Don't you think it's possible to over-diagnose 'functional' causes and miss the underlying issue? I've seen cases where a 'functional' diagnosis led to delays in treatment...",
+        "color": "green"
       },
       {
         "id": 6,
-        "parent_id": 5,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Hey Chad, don't worry, it's just a discussion about someone's experience with a patient who's bleeding from their upper GI tract. They might have made things worse by not recognizing the cause sooner. But don't worry, it's not as complicated as it sounds!",
+        "parent_id": 2,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Dude, Dr. Sterling, you can't just dismiss people's concerns without considering the patient's story. I've seen you do it before... [link to article on empathy in medicine]",
         "color": "purple"
       },
       {
         "id": 7,
-        "parent_id": 4,
-        "user": "Dr. 'Ziggy' Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Maya, my 2 cents: it's all about being systematic and taking it one step at a time. You did the right thing by getting vitals and considering admission. But don't forget to think about the patient's history, physical exam, and lab work before jumping into a plan. Anyone else have any tips for navigating these types of cases?",
-        "color": "orange"
-      },
-      {
-        "id": 8,
-        "parent_id": 6,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Leo, I agree, it's not that complicated! But what about the specifics of this case? Can we dive into the details of what might have led to this patient's condition?",
-        "color": "green"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
+        "parent_id": 1,
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "Sarah, sure! So, the patient came in with severe abdominal pain and bloody hematemesis. I ordered a CT scan and lab work, but didn't think to consider an endoscopy right away. What do you think might have been the missing link?",
+        "text": "I'm so glad to see this conversation happening! As a resident, I've had to navigate these gray areas and sometimes feel like I'm just guessing. Does anyone have recommendations for resources or tools to help with differential diagnoses in pediatric GI disorders?",
         "color": "blue"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "Maya, I'm glad you asked! I swear by the PedsGIDx tool for differentials in pediatric GI disorders [link to tool]. It's not perfect, but it's a great starting point. And don't forget to consider the 'red flag' symptoms for conditions like appendicitis or intussusception!",
+        "color": "purple"
+      },
+      {
+        "id": 9,
+        "parent_id": 5,
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "Sarah, I see your point, but let's not forget the occasional case where the 'functional' diagnosis is indeed the correct one. Sometimes less is more, and we need to trust our instincts as clinicians. [link to article on bedside manner]",
+        "color": "green"
       },
       {
         "id": 10,
         "parent_id": 9,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Maya, I think the key is to always consider NSAID-induced ulcers as a potential cause of upper GI bleeding, especially in patients with a history of pain management. Maybe that's where this patient's bleeding started? And did you consider any potential bleeding risk factors like PPI use, anticoagulant therapy, or even pregnancy?",
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Ain't that the truth, Dr. Stone! Sometimes you just gotta go with yer gut. But don't ferget the impotance o' good communication wit' the parents, either! [link to article on communication skills in medicine]",
         "color": "purple"
       },
       {
         "id": 11,
         "parent_id": 10,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Thanks, Elena! That's a great point! I didn't consider NSAID-induced ulcers initially. But what about other factors like coagulopathy, thrombocytopenia, or liver disease? Can we discuss the importance of ordering lab work in these types of cases?",
-        "color": "orange"
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Thanks, Sue! That means a lot coming from you. I'm still learning to navigate these situations... do you guys have any advice for a newbie like me?",
+        "color": "blue"
       },
       {
         "id": 12,
         "parent_id": 11,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Maya, lab work is crucial! You should have ordered a coag panel, liver enzymes, and a complete blood count to help identify any potential causes. And remember, it's all about being systematic: start with the basics, work your way up to the complicated stuff.",
-        "color": "green"
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Kevin, don't worry, we all started somewhere! Just remember: the key is to stay curious, keep asking questions, and never underestimate the power of a good bedside manner. And don't forget to listen to the parents \u2013 they often know more than we think!",
+        "color": "purple"
       },
       {
         "id": 13,
         "parent_id": 12,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Thanks for the reminder, Barb! I'll keep that in mind. But what about other diagnostic tools like EGD or capsule endoscopy? Can we discuss their role in evaluating upper GI bleeding?",
-        "color": "blue"
-      },
-      {
-        "id": 14,
-        "parent_id": 13,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Maya, I think we're getting into the weeds a bit too much? EGD and capsule endoscopy are useful for evaluating the cause of bleeding, but what about other, simpler measures like a quick review of the patient's medication list and history to identify potential culprit sources?",
-        "color": "yellow"
-      },
-      {
-        "id": 15,
-        "parent_id": 14,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Kevin, great point! I was overthinking it initially. Sometimes, a simple review of the patient's history can lead to the diagnosis. I guess the take-home lesson for me is to always start with the basics before jumping into more complicated testing!",
-        "color": "green"
-      },
-      {
-        "id": 16,
-        "parent_id": null,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Wow, this discussion has been incredibly informative! Thanks, everyone, for sharing your insights and expertise.",
-        "color": "purple"
-      },
-      {
-        "id": 17,
-        "parent_id": 16,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Leo, ditto! I've learned a lot from this discussion. Thanks for organizing this thread!",
-        "color": "yellow"
-      },
-      {
-        "id": 18,
-        "parent_id": 17,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "It's been a team effort! We all had valuable insights to share.",
-        "color": "green"
-      }
-    ]
-  },
-  {
-    "id": 3,
-    "title": "Rant about increased risk of aspiration with PSA in the ED... but wait, what's the evidence?",
-    "body": "Just saw a patient with significant abdominal trauma who required an emergent laparotomy. The anesthesiologist wanted to give a generous dose of midazolam for sedation, but I hesitated, thinking about the increased risk of aspiration. I mean, PSA is great for painful procedures, but don't we also risk losing airway patency? Anyone else ever worry about this? TLDR; How much of a risk is aspiration with PSA in the ED, really?",
-    "category": "Emergency Medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "I think this is a great topic, but we need to look at the evidence. A recent Cochrane review found that the risk of aspiration with midazolam in the ED is low, even with deep sedation. But what about ketamine? I've seen cases where kids get really agitated and vomit... https://onlinelibrary.wiley.com/doi/abs/10.1002/14651858.CD012803 ",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Thorne's link is super interesting! What about the 3-hour waiting period after oral intake? Is that really necessary? My textbook says it's low risk for aspiration, but I'd love more context",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Leo, good question! I think the waiting period is more about preventing gastric reflux than aspiration per se. But I agree, the evidence is thin... we need more RCTs on this stuff. Maybe someone can dig up some more info?",
-        "color": "lightblue"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "Gentlemen, let's not forget about the patient's physiology here. If a patient is stable and has a good airway, I'd argue the risk of aspiration is low even with deep sedation. What do you think about using a more 'old-school' approach to PSA, like nitrous oxide and a gentle hand? ",
-        "color": "yellow"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Oldman, that's a great point! But what if the patient is, say, on warfarin or has a bleeding disorder? Don't you think we'd want to avoid anything that might increase the risk of bleeding?",
-        "color": "pink"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Leo, good question! You're right that patients on anticoagulants may be at higher risk for bleeding. In those cases, I'd recommend choosing a PSA strategy that avoids vasopressors and instead uses opioids and benzodiazepines... but we need to make sure we're not underestimating the risk of bleeding. https://emedicine.medscape.com/article/2176548-overview ",
-        "color": "darkblue"
-      },
-      {
-        "id": 7,
-        "parent_id": 1,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Wait, don't you guys have any other concerns about PSA besides aspiration? Like, what about the effects on blood pressure?",
-        "color": "orange"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Chad, nice catch! Yeah, let's discuss blood pressure a bit more. With deep sedation, we can get some pretty dramatic drops in BP, especially with propofol. But if we're careful with our titration, we can usually manage it... I use a combination of vasopressors and inotropes to keep things stable. Any thoughts from the ED gods out there?",
-        "color": "magenta"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Turbine Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Ziggy, love your approach! But don't you think we should be using more non-invasive monitoring, like arterial lines and pulse ox? Our anesthesiologist colleagues do it all the time... or am I just out of the loop?",
-        "color": "green"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
         "user": "Dr. Archibald Thorne",
         "role": "Physician",
         "city": "Saskatoon, SK",
-        "text": "Gentlemen, let's not get too worked up about monitoring. A well-trained ED nurse is worth more than all the fancy gadgets in the world... just my two cents!",
-        "color": "teal"
-      }
-    ],
-    "image": "https://www.ebmedicine.net/media_library/images/2022-EMP-Publication-Article/06-June/Clinical-Pathway-for-Procedural-Sedation-and-Analgesia-in-the-Emergency-Department-TH.png"
-  },
-  {
-    "id": 12345,
-    "title": "TLDR: Scalp laceration closed with staples... patient develops sudden headache 5 days post-op... any ideas why?",
-    "body": "Just saw a patient with a significant scalp laceration that was initially treated with staples. Five days later, he presents with a sudden and severe headache. The patient has no fever, no neck stiffness, and normal mental status. No bleeding, no new trauma. His labs are unremarkable. CT scan shows a small epidural hematoma. I'm thinking of calling it a benign epidural hematoma due to the lack of significant symptoms, but want to get the crowd's opinion.\n\nI've seen this before, but it's been a while. I'm wondering if this patient might have had an occult fracture at the time of the original injury. The patient is a young female. What's your take on this? I'll provide more details if needed.",
-    "category": "emergency-medicine",
-    "comments": [
-      {
-        "id": 12346,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Great case, thanks for sharing! In my experience, epidural hematomas can be tricky. The absence of neurological deficits makes this a bit of a challenge. I'd be inclined to agree with you - perhaps an occult fracture played a role in this scenario.\n\nDid you consider using a CT angiogram to rule out a pseudoaneurysm or other vascular anomaly?",
-        "color": "purple"
-      },
-      {
-        "id": 12347,
-        "parent_id": 12346,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Thorne, could you explain why an occult fracture might have led to the hematoma?",
+        "text": "Ah, the old 'golden rule': treat patients like you'd want to be treated. Simple, yet oh-so-profound. These young folks would do well to remember that [chuckles]",
         "color": "green"
       },
       {
-        "id": 12348,
-        "parent_id": 12346,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Great tip, Dr. Thorne! I've used CT angiograms in similar cases before. Do you think this patient would benefit from an intervention or can we just monitor her with serial head CTs?",
-        "color": "orange"
-      },
-      {
-        "id": 12349,
+        "id": 14,
         "parent_id": null,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs... just another example of over-diagnosing in the ER. Probably a vitamin deficiency or something.",
-        "color": "blue"
-      },
-      {
-        "id": 12350,
-        "parent_id": 12349,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "You know, Vic, I think you might be the one who needs to go back to med school. Have you ever actually treated a patient with an epidural hematoma?",
-        "color": "red"
-      },
-      {
-        "id": 12351,
-        "parent_id": 12350,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "How dare you, Barb! I'm a respected surgeon. I've performed thousands of cases, including complex craniotomies.",
-        "color": "gray"
-      },
-      {
-        "id": 12352,
-        "parent_id": 12351,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Well, Vic, if you've performed so many craniotomies, how come you can't recognize the symptoms of an epidural hematoma? Maybe it's time to brush up on your neurosurgery skills.",
-        "color": "purple"
-      }
-    ]
-  },
-  {
-    "title": "TLDR: Don't trust the sutures you're using for wound closure - had a patient fall apart on me last night",
-    "body": "Just saw a patient with a pretty gnarly wound that I closed with sutures in the ER, thinking I was doing the right thing. Turns out, they fell apart 24 hours later and I had to do a hasty re-closure with staples. Long story short, our hospital just switched to using Vicryl instead of Vicryl Rapide as our go-to absorbable suture material, and it looks like it's causing issues with adhesion and breakdown in some patients.\n\nTo add insult to injury, my resident was trying to convince me to use tissue glue for the initial closure, claiming it's all the rage in Europe. Anyways, wanted to throw this out there as a warning to other ER docs - has anyone else had any issues with Vicryl or Vicryl Rapide?",
-    "category": "EM",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. 'Ziggy' Zalesky, MD (ER doc)",
-        "role": "MD (ER doc)",
-        "city": "Vancouver, BC",
-        "text": "Haha, nice story, but I've been using Vicryl Rapide for years and never had any issues. Maybe it's a batch thing? I do agree that tissue glue is underrated, though. I use it all the time for minor lacerations and it's so much faster than sutures. Has anyone else tried it?",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Sarah Jenkins, BSc, MD (ER doc)",
-        "role": "BSc, MD (ER doc)",
-        "city": "Ottawa, ON",
-        "text": "Actually, I've been looking into the literature on tissue glue, and it seems like it's not as foolproof as we thought. Some studies have shown that it can cause more inflammation and scarring than sutures. Has anyone else seen this?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Leo Chen, BSc (MS1)",
-        "role": "BSc (MS1)",
-        "city": "Montreal, QC",
-        "text": "That's really interesting, @Sarah. I've been reading about the different types of tissue glue and their characteristics. Can you tell me more about the specific studies you're referring to?",
-        "color": "pink"
-      },
-      {
-        "id": 4,
-        "parent_id": 2,
-        "user": "Barnaby Finch (Patient)",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "Sorry to interrupt, but I'm a little concerned about the whole sutures/glue thing. My daughter had a pretty nasty cut on her knee and I brought her to the ER, but the doc just used a fancy band-aid and sent her on her way. Is that okay?",
-        "color": "orange"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Maya Gupta, MD (ER doc)",
-        "role": "MD (ER doc)",
-        "city": "Mississauga, ON",
-        "text": "@Barnaby, don't worry, it's totally normal. The band-aid was probably just for cosmetic reasons. If the cut is deep or gaping, your daughter's doc would have likely closed it with sutures. You can always follow up with your family doctor if you're concerned.",
-        "color": "blue"
-      },
-      {
-        "id": 6,
-        "parent_id": null,
-        "user": "Turbo Tom, RN",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Love this thread! One thing to keep in mind is that Vicryl Rapide is actually still a decent choice for many patients, but like @Dr. 'Ziggy' said, it's possible it's just a bad batch. We've also started using some newer sutures like Monocryl and they seem to be sticking around just fine. Has anyone else tried Monocryl?",
-        "color": "purple"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Chad Broson (Pre-med)",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Wait, what's the difference between Vicryl Rapide and Monocryl? Don't they both absorb?",
-        "color": "pink"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Elena Varkov, MD (Internist)",
-        "role": "MD (Internist)",
-        "city": "Quebec City, QC",
-        "text": "@Chad, great question! Vicryl Rapide and Monocryl are both absorbable sutures, but they have slightly different degradation profiles. Vicryl Rapide is more rapid, hence the name, while Monocryl is more gradual. It's worth noting that the exact timeline varies by patient, but generally, Vicryl Rapide loses strength in around 30-40 days, whereas Monocryl stays strong for around 70-90 days.",
-        "color": "green"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Sparkle-Eyes Sue, LPN",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Oh my goodness, all this talk about sutures is making me think of me old friend, Mr. Snugglepoof. He had one of them big dog bites on his arm and I swear, it was like a science experiment with all the stitches and stuff. You think he's okay?",
+        "user": "r/pedsER",
+        "role": "Moderator",
+        "city": "Internet",
+        "text": "Wow, this thread has gotten so good! Let's keep the conversation going \u2013 what are your favorite 'aha' moments in pediatric GI disorders? Share your stories and help us learn!",
         "color": "yellow"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Sarah Sharp, MD (ER doc)",
-        "role": "MD (ER doc)",
-        "city": "Laval, QC",
-        "text": "@Sparkle-Eyes Sue, hahaha don't worry about Mr. Snugglepoof, his doc likely just used some fancy sutures or staples. But speaking of dog bites, I've always wondered if we have a specific algorithm for closing those kind of wounds. Anyone else have a protocol for dealing with them?",
-        "color": "purple"
       }
     ]
   },
   {
     "id": 1,
-    "title": "Clinical Pearls: Managing Graft-Versus-Host Disease (GVHD)",
-    "body": "Just saw a patient with GVHD today and got reminded how easily we forget the nuances. Anyone else have a favorite approach to managing GVHD?\nI've always relied on the classic 'MHC disparity' model to understand the disease, but recently learned about the role of T-cell activation in triggering the immune response.",
-    "category": "emgMed",
+    "title": "Rant about postpartum hemorrhage and peripartum carditis. Anyone else dealing with these crazy patients?",
+    "body": "Had a miss last night with a 28yo G2P1 at 38 weeks with a postpartum hemorrhage (PPH) and suspected peripartum carditis. I swear, these patients are the hardest part of my job. Just a heads up for anyone else, the latest guidelines from the WHO recommend treating PPH with misoprostol (600mcg PO x2) rather than oxytocin. Also, if you have a patient with suspected PPH and are trying to get a CBC, just remember that the platelet count will be low due to the hemolysis.",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 10,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "",
+        "color": "purple"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "",
+        "color": "green"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "",
+        "color": "blue"
+      },
+      {
+        "id": 13,
+        "parent_id": 10,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "",
+        "color": "pink"
+      },
+      {
+        "id": 14,
+        "parent_id": 13,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "",
+        "color": "brown"
+      },
+      {
+        "id": 15,
+        "parent_id": 13,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "",
+        "color": "red"
+      },
+      {
+        "id": 16,
+        "parent_id": 14,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "",
+        "color": "grey"
+      },
+      {
+        "id": 17,
+        "parent_id": 12,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "",
+        "color": "orange"
+      },
+      {
+        "id": 18,
+        "parent_id": 12,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "",
+        "color": "yellow"
+      }
+    ],
+    "image": "https://first10em.com/wp-content/uploads/2015/06/bakri-balloon.png"
+  },
+  {
+    "id": 1,
+    "title": "Today I Learned - Lund and Browder Diagram",
+    "body": "",
+    "category": "r/emergencyphysics",
     "comments": [
       {
         "id": 1,
@@ -676,161 +408,285 @@
         "user": "Dr. Aris Thorne",
         "role": "MD",
         "city": "Toronto, ON",
-        "text": "Ah, GVHD. One of my pet peeves is when patients don't receive thorough education about the risks. I always ask them about their transplant history and if they have any concerns about their donor match.\nWhen it comes to treatment, I'm a big fan of calcineurin inhibitors like tacrolimus. Have you guys ever tried using cyclophosphamide as a desensitizing agent?",
+        "text": "Just saw a patient with a nasty electrical burn and I realized I'd never been taught how to use the Lund and Browder diagram effectively. It's like they say, 'if you don't use it, you'll lose it!' So, who's got some tips for a rusty old doc like me?",
         "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Actually, I've started using basiliximab as an anti-T-lymphocyte agent to prevent GVHD in some cases. Have you seen any efficacy data on that?",
-        "color": "blue"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "What about the role of conditioning regimens in GVHD prevention? Is there any evidence to suggest that certain regimens are better than others?",
+        "user": "Dr. Sarah Sharp",
+        "role": "MD",
+        "city": "Laval, QC",
+        "text": "TL;DR: Lund and Browder is used to estimate the total body surface area (TBSA) burned in adults. The diagram consists of head, neck, and each arm and leg divided into thirds. Totaling the values from each section gives you an estimate of TBSA.\n\nThe catch is, it only estimates TBSA, not depth! To assess burn depth, you should also use the Palpation Test (PT). The PT assesses burn depth by assessing the burn's temperature, appearance, and texture.\n\nFor example, if the patient has a burn with no signs of eschar, is warm to touch, and doesn't blanch when pressed, it's likely a first-degree burn. If there's a thin, charred eschar, it's likely a deep second-degree burn. And if the burn is deep red, has a thick eschar, and doesn't blanch, it's likely a full-thickness burn.\n\nI find it helpful to remember that if the burn doesn't blanch on pressure, it's likely a deep burn. And if the patient's in pain, it's likely a full-thickness burn.\n\nLink to more info: https://emedicine.medscape.com/article/167113-overview#a5",
         "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "I've heard that GVHD can be a major contributor to secondary graft failure. Do we have any studies on this? And what's the best approach to managing secondary graft failure anyway?",
-        "color": "orange"
-      },
-      {
-        "id": 5,
-        "parent_id": 3,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Actually, I've looked into that and found some data suggesting that T-cell depletion may be a key factor in secondary graft failure. Do you guys think we should be using more T-cell-depleting agents in our conditioning regimens?",
-        "color": "red"
-      },
-      {
-        "id": 6,
-        "parent_id": 1,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "I just wanted to mention how important it is to keep an eye on our patients for signs of GVHD, especially after transplant. I've seen some patients who didn't receive proper follow-up and ended up with serious complications.\nHas anyone got any tips on how to improve GVHD screening?",
-        "color": "pink"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "Thanks for bringing this up, Sparkle-Eyes. One thing that's helped me is using a standardized screening check-list to catch potential GVHD symptoms early. Do you guys have any experience with that?",
-        "color": "brown"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "Actually, I think the key is to look for patterns rather than just individual symptoms. Have you guys ever used any machine learning algorithms to identify GVHD risk factors?",
-        "color": "gray"
-      }
-    ],
-    "image": "https://figures.semanticscholar.org/6b95810a42b031cf99f3edc67979132e62efed73/2-Figure1-1.png"
-  },
-  {
-    "id": 1,
-    "title": "Today I Learned: Pancreatitis is no joke (ANECDOTE)",
-    "body": "Had a patient come in last night with worsening epigastric pain, nausea, and vomiting. Her BP was 90/50 and HR was 110. She had a slight fever and abdominal distension. Initial labs showed an elevated lipase and ammonia. I suspected pancreatitis and ordered a CT scan to confirm.",
-    "category": "casestudy",
-    "comments": [
-      {
-        "id": 2,
-        "parent_id": null,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs, amateurs, amateurs! You think you can diagnose pancreatitis with a CT scan? That's not even a real diagnosis! You need to be thinking of the big picture, not just the CT scan. Did you check for cholelithiasis?",
-        "color": "red"
       },
       {
         "id": 3,
         "parent_id": 2,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "@DrVictorSterling, with all due respect, I think we were on the right track. The patient's symptoms and lab results were consistent with pancreatitis. And as for cholelithiasis, we did consider it, but the patient's ultrasound was negative. Besides, the CT scan showed a pancreatic inflammation, not just a gallstone.",
-        "color": "orange"
+        "user": "Dr. Maya Gupta",
+        "role": "MD",
+        "city": "Mississauga, ON",
+        "text": "Great explanation, Dr. Sharp! I like to add that the Lund and Browder diagram is used in conjunction with other methods, like the Wallace Rule of Nines. For example, we can use the Wallace Rule to estimate TBSA for patients with unusual shapes or proportions.\n\nAnd what about inhalation injury? Should we be using a different diagnostic tool or assessment method for that?",
+        "color": "blue"
       },
       {
         "id": 4,
         "parent_id": 3,
         "user": "Dr. Barb Miller",
-        "role": "EP",
+        "role": "MD",
         "city": "Winnipeg, MB",
-        "text": "@DrArisThorne, but didn't you say the patient had an elevated ammonia level? Isn't that a red flag for something else?",
-        "color": "yellow"
+        "text": "Inhalation injury is a whole different beast! For those, I like to use the Denver Burn Center's guidelines for inhalation injury. They recommend using a combination of clinical signs and symptoms, such as carbon monoxide poisoning, smoke inhalation, and stridor, to diagnose inhalation injury.\n\nIt's also worth noting that carbon monoxide poisoning can be notoriously difficult to diagnose, so we should be suspicious of it in any patient with unexplained symptoms or lab abnormalities.\n\nHas anyone else had experience with inhalation injury?",
+        "color": "red"
       },
       {
         "id": 5,
         "parent_id": 4,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Wait, isn't elevated ammonia a sign of liver disease? Or is that the other way around? Can someone explain to me what it means?",
-        "color": "blue"
+        "user": "Dr. Kevin Park",
+        "role": "MD",
+        "city": "Edmonton, AB",
+        "text": "Yeah, I had a patient with severe carbon monoxide poisoning after a house fire. We had to intubate them and give them hyperbaric oxygen therapy. It was a tough case!\n\nBut I was wondering, what's the most up-to-date guidance on managing inhalation injury? I feel like the literature is constantly evolving on this topic.",
+        "color": "orange"
       },
       {
         "id": 6,
         "parent_id": 5,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "@LeoChen, great question! An elevated ammonia level can be a sign of liver cirrhosis or other liver disease. So, in this case, we need to consider both pancreatitis and liver disease as possible diagnoses.",
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "I'm no expert, but I've seen some great resources on managing inhalation injury. Have you guys seen the 'Inhalation Injury' presentation by Dr. Laura Bainter on Critical Care Reviews? It's a game-changer for me.\n\nAlso, what about the use of bronchoscopy in diagnosing inhalation injury?",
         "color": "purple"
       },
       {
         "id": 7,
         "parent_id": 6,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "According to the paper I read, elevated ammonia levels can also be seen in severe metabolic acidosis. Could that be a possibility here?",
+        "user": "Dr. Elena Varkov",
+        "role": "MD",
+        "city": "Quebec City, QC",
+        "text": "Bronchoscopy is a great tool for diagnosing inhalation injury! It can help us identify areas of airway inflammation and damage.\n\nBut let's not forget the fundamentals of burn care, like fluid resuscitation and wound dressing. Has anyone else got any tips for managing those aspects of care?",
         "color": "green"
       },
       {
         "id": 8,
         "parent_id": 7,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "@SarahJenkins, that's a great point! Metabolic acidosis can indeed cause elevated ammonia levels. We need to consider that as well.",
+        "user": "Dr. Maya Gupta",
+        "role": "MD",
+        "city": "Mississauga, ON",
+        "text": "Fluid resuscitation is a must for burn patients! I like to use the Parkland Formula to estimate the total volume of IV fluids needed. It's a simple but effective way to calculate the fluid requirements.\n\nAnd for wound dressing, I swear by the use of silver sulfadiazine cream for superficial burns. It's a great way to reduce the risk of infection.",
+        "color": "blue"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "That's so cool, Dr. Gupta! I've never heard of silver sulfadiazine cream before. What about for second-degree burns?",
+        "color": "red"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. Maya Gupta",
+        "role": "MD",
+        "city": "Mississauga, ON",
+        "text": "For second-degree burns, I like to use a topical antimicrobial agent like bacitracin or triple-antibiotic ointment. It's a good way to reduce the risk of infection and promote healing.\n\nBut let's not forget the importance of pain management in burn patients. Has anyone else got any tips for managing pain in these patients?",
         "color": "orange"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Dr. Elena Varkov",
+        "role": "MD",
+        "city": "Quebec City, QC",
+        "text": "Pain management is a huge concern in burn patients! I like to use a combination of pharmacological and non-pharmacological methods, like opioids, NSAIDs, and nerve blocks. It's also essential to involve the pain management team early on to get a comprehensive plan in place.",
+        "color": "purple"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "That makes sense! And don't forget the importance of psychological support for burn patients. They're often going through a traumatic experience, and it's essential to provide emotional support throughout their recovery.",
+        "color": "green"
+      },
+      {
+        "id": 13,
+        "parent_id": 12,
+        "user": "Dr. Maya Gupta",
+        "role": "MD",
+        "city": "Mississauga, ON",
+        "text": "Couldn't agree more! Burn patients often require a multidisciplinary approach to care, including psychological support, pain management, and wound dressing. It's a challenging but rewarding field, and I'm grateful for all the expertise shared here.",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Today I Learned: The Importance of Considering Occult Injuries in Traumatic Shock Cases",
+    "body": "Just saw a patient with blunt trauma and suspected shock, but despite appropriate resuscitation efforts, they continued to deteriorate. Turned out they had a ruptured ectopic pregnancy. I should have considered it earlier! Has anyone else had a similar experience?",
+    "category": "emergencymedicine, criticalcare, trauma",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "Resident",
+        "city": "Toronto, ON",
+        "text": "TLDR: always think occult injuries in shocking trauma patients. Had a similar case last week where the patient had a pneumoperitoneum from a perforated spleen. The takeaways from this case are 1) don't assume it's just bleeding, and 2) get a CT ASAP if the patient's not responding to fluid resuscitation. I love how the OP mentioned considering ruptured ectopic pregnancy - it's so easy to overlook in a trauma patient, but it's a crucial diagnosis to consider. Has anyone else had experience with ectopic pregnancies in the ED?",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Henry Oldman",
+        "role": "Family Doctor",
+        "city": "Victoria, BC",
+        "text": "I've had experience with ruptured ectopic pregnancies in the past, and it's indeed a tough diagnosis to make. I think what's key is getting a thorough history, including any recent symptoms or menstrual irregularities. I like to use the BEACHES mnemonic to remember to ask about bowel, elbow, arm, chest, and hemodynamic instability.",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "Medical Student",
+        "city": "Montreal, QC",
+        "text": "What's the BEACHES mnemonic, Dr. Oldman? Is that a real thing? I've never heard of it before. Can someone please explain it to me?",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 2,
+        "user": "Dr. Henry Oldman",
+        "role": "Family Doctor",
+        "city": "Victoria, BC",
+        "text": "Ah, good question, Leo! Yes, the BEACHES mnemonic is a real thing, although it's not as well-known as other mnemonics like the 'ABCs' or 'DEAD' (dyspnea, erythema, apnea, distension). It's actually a mnemonic I came up with myself to help remember to ask about these specific symptoms in a patient with suspected ectopic pregnancy. It's not a universally accepted mnemonic, but it's worked for me and my patients so far. Here's what each letter stands for: B - bowel symptoms, E - elbow or arm pain, A - abdominal pain, C - chest pain, H - hemodynamic instability, E - early pregnancy symptoms, S - syncope or near-syncope.",
+        "color": "green"
+      },
+      {
+        "id": 5,
+        "parent_id": 1,
+        "user": "Dr. Aris Thorne",
+        "role": "Attending Physician",
+        "city": "Toronto, ON",
+        "text": "Great point about getting a thorough history, Dr. Oldman. And kudos to the OP for recognizing the importance of considering occult injuries in traumatic shock cases. It's so easy to get tunnel vision when dealing with a complex patient, but remembering to take a step back and think 'what else?' can make all the difference.",
+        "color": "purple"
+      },
+      {
+        "id": 6,
+        "parent_id": 1,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "I've heard about the 'ABCDE' approach in trauma care, but what's the difference between that and the BEACHES mnemonic? Can someone please explain it to me?",
+        "color": "blue"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Maya Gupta",
+        "role": "Resident",
+        "city": "Toronto, ON",
+        "text": "Great question, Chad! The 'ABCDE' approach in trauma care is actually referring to the Airway, Breathing, Circulation, Disability, and Exposure approach, which is a systematic way of assessing a trauma patient. The BEACHES mnemonic, on the other hand, is a more specific mnemonic for remembering to ask about symptoms related to a suspected ectopic pregnancy. They're related, but distinct concepts. Think of the 'ABCDE' approach as the more general trauma assessment, and the BEACHES mnemonic as a more targeted tool for evaluating a specific type of patient.",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "TLDR: Nasal Packing Complications are Rarer than You Think (Or Am I Wrong?)",
+    "body": "Just saw a patient with a posterior nasal pack that was removed a bit too soon, and now our ENT surgeon is breathing fire at us. So I decided to dig into the literature and I'm shocked by what I found. Complications from nasal packing are WAY lower than I expected. Anyone else have experience with these? Or am I just a medical amateur?",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "Community Physician",
+        "city": "Vancouver, BC",
+        "text": "I've had a few patients with NP complications, but most were due to poor technique. You know, the usual: too tight a pack, not enough suction, etc. I've started using the balloon kit and it's been a game changer. Less bleeding, fewer complications. Has anyone else switched?",
+        "color": "blue"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "But isn't the balloon kit more expensive? And what about the risk of vasovagal syncope? I've heard it can be a real problem.",
+        "color": "blue"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Barb Miller",
+        "role": "Community Physician",
+        "city": "Winnipeg, MB",
+        "text": "Actually, Leo, the balloon kit is way less expensive than the old-fashioned suture method. And as for vasovagal syncope, it's a risk, but not as high as you'd think. I'd recommend checking out the latest Cochrane review on nasal packing. It's got some great data on complications.",
+        "color": "purple"
+      },
+      {
+        "id": 4,
+        "parent_id": null,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "OMG, you guys are so cool! I had no idea there was a balloon kit for nasal packing. Can someone explain how it works?",
+        "color": "green"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Hey Chad, the balloon kit works by inflating a small balloon that expands the nasal cavity, reducing bleeding. It's pretty simple, but supereffective. You can check out the YouTube video I posted in the comments.",
+        "color": "blue"
+      },
+      {
+        "id": 6,
+        "parent_id": 3,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "I don't know why you're all going on about the balloon kit. It's just a fad. The tried-and-true method of nasal packing is still the best. Don't @ me.",
+        "color": "red"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "Community Physician",
+        "city": "Vancouver, BC",
+        "text": "Actually, Dr. Sterling, your 'tried-and-true' method is exactly what's been causing the problem. The literature is clear: the balloon kit is safer and more effective. You should really consider updating your knowledge on this one.",
+        "color": "purple"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "But what about the risk of toxic shock syndrome? I've heard that's a real threat with nasal packing. Can someone speak to that?",
+        "color": "blue"
       },
       {
         "id": 9,
         "parent_id": 8,
         "user": "Dr. Barb Miller",
-        "role": "EP",
+        "role": "Community Physician",
         "city": "Winnipeg, MB",
-        "text": "This is getting complicated! So, let me summarize: we've got pancreatitis, liver disease, and metabolic acidosis as possible diagnoses. What's the next step?",
-        "color": "blue"
+        "text": "Actually, Leo, the risk of TSS with nasal packing is really low. I've seen some studies that suggest it's more of a theoretical risk than an actual one. But it's still worth being cautious and monitoring your patients closely.",
+        "color": "purple"
       },
       {
         "id": 10,
         "parent_id": 9,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Do we need to get a liver biopsy or something?",
-        "color": "purple"
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "But what about the use of antibiotic prophylaxis? I've heard that's a must for patients with nasal packing. Can someone speak to that?",
+        "color": "green"
       },
       {
         "id": 11,
@@ -838,416 +694,278 @@
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "@LeoChen, not necessarily a biopsy, but we do need to do some further testing to rule out liver disease. Maybe a liver function test or a hepatic ultrasound?",
-        "color": "green"
+        "text": "Actually, Sarah, the use of antibiotic prophylaxis is indeed a recommendation for patients with nasal packing. It's a good habit to get into, especially since we don't know yet how resistant the bacteria will be. Thanks for asking!",
+        "color": "blue"
       },
       {
         "id": 12,
-        "parent_id": 11,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Enough with the testing! We need to operate on this patient! It's pancreatitis, plain and simple. Don't overcomplicate things, people.",
-        "color": "red"
-      },
-      {
-        "id": 13,
         "parent_id": null,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "Ugh, I hate when surgeons think they're the only ones who can save a life.",
-        "color": "orange"
-      },
-      {
-        "id": 14,
-        "parent_id": 13,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "@DrRickTheRage, I couldn't agree more. Sometimes I feel like we're just cogs in a machine.",
-        "color": "blue"
-      },
-      {
-        "id": 15,
-        "parent_id": 14,
         "user": "Turbo Tom",
         "role": "RN",
         "city": "London, ON",
-        "text": "Yawn, drama queens. Can we get back to the patient?",
-        "color": "purple"
-      },
-      {
-        "id": 16,
-        "parent_id": 13,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "Excuse me, can someone explain to me what's going on with my pancreas? I thought it was just a stomach thingy.",
-        "color": "green"
-      },
-      {
-        "id": 17,
-        "parent_id": 16,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "@BarnabyFinch, don't worry, we're on it! Pancreatitis is when your pancreas gets inflamed, which can cause pain and other symptoms. We're trying to figure out what's causing it.",
+        "text": "Lol, this thread is getting more entertaining than an ER soap opera! Can we please keep it civil and on topic? Just a thought.",
         "color": "orange"
-      },
-      {
-        "id": 18,
-        "parent_id": 17,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Hey, guys! Can someone explain what an ECG is? I'm pre-med and I want to learn more!",
-        "color": "purple"
-      },
-      {
-        "id": 19,
-        "parent_id": null,
-        "user": "Dr. Phil Muddle",
-        "role": "EP",
-        "city": "Regina, SK",
-        "text": "Um, I think I might know what's causing this patient's pancreatitis... It's probably just a virus... or maybe a bug? I'm pretty sure it's not liver disease or anything like that.",
-        "color": "blue"
-      },
-      {
-        "id": 20,
-        "parent_id": 19,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "@DrPhilMuddle, get out of here with that nonsense. You're just making things up as you go along.",
-        "color": "red"
       }
-    ]
+    ],
+    "image": "https://www.acep.org/siteassets/sites/pediatrics/media/hero-images/epistaxis-800x495.jpg"
   },
   {
-    "id": 1,
-    "title": "Rant about the futility of identifying a cause of syncope",
-    "body": "Just had a long night in the ED and couldn't help but think about the absurdity of chasing after a syncope diagnosis. I'd seen a 45-year-old female present with a classic vasovagal episode, but the patient was adamant it was an MI. CTCA showed normal coronary arteries, but what does the cardiologist want to do now? A stress test, an Echo, and maybe a cath. Meanwhile, the patient's blood pressure is stable, and she's asymptomatic on her telemetry. Has anyone else out there experienced the frustration of knowing the diagnosis, yet still feeling beholden to the patient's fears and the hospital's fear of missing something?",
-    "category": "r/emergmed",
+    "id": 15,
+    "title": "Rant about soft tissue infections - when to admit and how to manage",
+    "body": "Just saw a patient with a nasty MRSA abscess and I'm still fuming about how we missed the boat on this one.  We should be giving IV antibiotics ASAP and not just letting these patients go home with a bottle of clindamycin cream and a prescription for outpatient surgical referral.  I'm so tired of seeing patients come back with these nasty, infected abscesses that could have been prevented with proper management.  And don't even get me started on the lack of education on community-acquired MRSA in our residency program - it's like we're just throwing around buzzwords like 'MRSA' without actually understanding the nuances of the disease.",
+    "category": "emergency medicine",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": "Dr. Zalesky, EP",
-        "role": "Ziggy, Funny community physician. Quick-witted, uses ER slang, very practical.",
-        "city": "Vancouver, BC",
-        "text": "TL;DR, Ziggy here. Don't sweat it, man! Just do a proper workup and order some tests. The cardiologist will thank you. If not, refer to them. We all know syncope's tough to crack. You can't fix what you can't see. If they're insistent on getting an unneeded cath, then that's on them, not you.\n\nEdit: Just to clarify, the cardiologist might actually appreciate having some input from you. I mean, you know the patient best.",
-        "color": "blue",
-        "replies": [
-          {
-            "id": 2,
-            "parent_id": 1,
-            "user": "Leo Chen, MS1",
-            "role": "Leo Chen, Naive first year med student. Asks basic textbook questions. Overly enthusiastic.",
-            "city": "Montreal, QC",
-            "text": "Ziggy, what's the protocol for a patient with a classic vasovagal episode? Do we always do a stress test and an Echo?",
-            "color": "purple",
-            "replies": []
-          },
-          {
-            "id": 3,
-            "parent_id": 1,
-            "user": "Barnaby Finch, Patient",
-            "role": "quixotic, poetic, and slightly confused about his symptoms.",
-            "city": "Surrey, BC",
-            "text": "Ziggy, I think I've been experiencing vasovagal episodes for a while. My heart rate goes haywire, and my vision gets all woozy. What's my best course of action?",
-            "color": "green",
-            "replies": []
-          }
-        ]
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I'm so with you on this rant! As a resident, it's infuriating to see patients come in with advanced disease and think that we're being conservative with our management. But let's be real, not every patient who comes in with a skin infection is going to be MRSA positive. How do we differentiate between the 'real' MRSA abscess from the garden-variety boil? And don't even get me started on the fact that our hospital's antibiotic stewardship program is basically a joke. We need to do better, folks.",
+        "color": "blue"
       },
       {
         "id": 2,
-        "parent_id": null,
-        "user": "Dr. Barb Miller, EP",
-        "role": "Jaded community physician. Cynical about the system, but knows her medicine.",
-        "city": "Winnipeg, MB",
-        "text": "You want to know what's the problem with syncope diagnoses? We all know it's vasovagal about 90% of the time. But do patients want to hear that? Nope. They want to believe it's an MI and get an angiogram. We should just tell them, 'Look, it's probably vasovagal, and you're fine.' Problem solved.",
-        "color": "red",
-        "replies": [
-          {
-            "id": 4,
-            "parent_id": 2,
-            "user": "Leo Chen, MS1",
-            "role": "Leo Chen, Naive first year med student. Asks basic textbook questions. Overly enthusiastic.",
-            "city": "Montreal, QC",
-            "text": "Dr. Miller, I don't know if I agree. What about the cases where it's not vasovagal? What if it's a cardiac cause? Shouldn't we be concerned about the potential underlying conditions?",
-            "color": "purple",
-            "replies": []
-          }
-        ]
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "What do you mean by 'real' MRSA abscess vs. 'garden-variety boil'? Is it just a matter of how deep the abscess is or how swollen the skin is?",
+        "color": "orange"
       },
       {
         "id": 3,
-        "parent_id": null,
-        "user": "Dr. Elena Varkov, FRCPC",
-        "role": "Exhausted internist. Wants to know the 'Sodium and the story' before admitting.",
-        "city": "Quebec City, QC",
-        "text": "You know what the worst part is? Syncope's like the canary in the coal mine. By the time we see them, they've already had a cardiac event. It's like we're playing catch-up, trying to prevent a future MI. The answer is not just a stress test and an Echo. It's comprehensive evaluation: cardiac, neurological, and all the other stuff.",
-        "color": "brown",
-        "replies": [
-          {
-            "id": 5,
-            "parent_id": 3,
-            "user": "Martha 'The Hammer', RN",
-            "role": "Jaded ER nurse. No-nonsense, 30 years experience, scares the residents.",
-            "city": "Halifax, NS",
-            "text": "Amen, Dr. Varkov! I've seen it all. Don't get me started on the sodium and volume issues. It's like they don't see the forest for the trees. The solution is clear: let's just give them more fluids and potassium...",
-            "color": "white",
-            "replies": [
-              {
-                "id": 6,
-                "parent_id": 5,
-                "user": "Dr. Kevin Park, PGY1",
-                "role": "Nervous intern. Worried about missing the 'big one'. Very formal.",
-                "city": "Edmonton, AB",
-                "text": "I'm curious, Martha, what's the most common cause of orthostatic hypotension in the geriatric population? Do we need to consider dehydration more often?",
-                "color": "lightblue",
-                "replies": []
-              }
-            ]
-          },
-          {
-            "id": 7,
-            "parent_id": 3,
-            "user": "Dr. Maya Gupta, PGY2",
-            "role": "Confident and fast resident. Loves procedures and quick dispos.",
-            "city": "Mississauga, ON",
-            "text": "Don't get me wrong, Dr. Varkov. I'm all for comprehensive evaluation, but sometimes I think we forget about the basics. Have you seen any cases where a simple tilt table test has helped diagnose the underlying cause?",
-            "color": "fuchsia",
-            "replies": [
-              {
-                "id": 8,
-                "parent_id": 7,
-                "user": "Leo Chen, MS1",
-                "role": "Leo Chen, Naive first year med student. Asks basic textbook questions. Overly enthusiastic.",
-                "city": "Montreal, QC",
-                "text": "A tilt table test? Isn't that just to diagnose orthostatic intolerance?",
-                "color": "purple",
-                "replies": []
-              }
-            ]
-          }
-        ]
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Exactly! I mean, in hindsight, this patient we saw today probably had a deep-seated abscess that was just waiting to be aspirated. But if we're being real, MRSA can present in so many different ways - from just a little redness to a giant, gaping hole in the skin. So how do we decide when to take the plunge and admit someone for IV antibiotics?",
+        "color": "green"
       },
       {
         "id": 4,
-        "parent_id": null,
-        "user": "Chad Broson, Pre-med",
-        "role": "Funny, a bit dumb, obsessed with getting into med school.",
-        "city": "Brampton, ON",
-        "text": "Hey, guys, just wanted to chime in. I took a pharmacology course and learned that beta-blockers can cause orthostatic hypotension. Is there a connection here?",
-        "color": "teal",
-        "replies": []
+        "parent_id": 3,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "I've been reading a lot about this in my spare time, and I think one of the key indicators is if the patient has systemic symptoms like fever or tachycardia. But what about when they're just coming in for a routine surgical referral - how do we decide if this is just a run-of-the-mill skin infection or if it's the start of something bigger?",
+        "color": "teal"
       },
       {
         "id": 5,
-        "parent_id": null,
-        "user": "Sparkle-Eyes Sue, LPN",
-        "role": "Extremely cheerful, talks in Newfoundland slang, very kind.",
-        "city": "St. John's, NL",
-        "text": "Jeez Louise! What a great discussion, guys! You're all so smart and knowledgeable. I have a question for you: what about postural orthostatic tachycardia syndrome (POTS)? Should we consider that in our differential for orthostatic hypotension?",
-        "color": "pink",
-        "replies": []
+        "parent_id": 3,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Great point, Sarah! And that's why I'm a huge fan of the 'red flag' system - you know, the list of signs and symptoms that are indicative of severe disease. But let's be real, not every patient who ticks the boxes is going to need an IV antibiotic and a hospital transfer. We need to balance our fear of missing something with our desire not to over-medicalize the situation.",
+        "color": "purple"
       }
     ]
   },
   {
-    "_post": {
-      "id": 1,
-      "title": "Just had a tough case last night... Boutonnier deformity in a 30-year-old after distal IP extensor tendon laceration.",
-      "body": "We got a patient in last night who was a 30-year-old construction worker. He lacerated his distal interphalangeal (DIP) extensor tendon with a circular saw. I initially thought it would just be a simple stitch and he'd be back at work in a few days but boy was I wrong.",
-      "category": "Medical",
-      "comments": [
-        {
-          "id": 1,
-          "parent_id": null,
-          "user": "Dr. Aris Thorne",
-          "role": "Staff Physician",
-          "city": "Toronto, ON",
-          "text": "We've seen this before. The key is to assess the tendon's continuity and repair it as soon as possible.\n\nThe DIP tendon laceration can lead to a boutonni\u00e8re deformity if not addressed promptly. Have you considered consulting a hand specialist?\n\nTL;DR: Prompt tendon repair is crucial.",
-          "color": "purple"
-        },
-        {
-          "id": 2,
-          "parent_id": 1,
-          "user": "Leo Chen",
-          "role": "MS1",
-          "city": "Montreal, QC",
-          "text": "Dr. Thorne, can you elaborate on how to assess tendon continuity? What techniques do you use?",
-          "color": "green"
-        },
-        {
-          "id": 3,
-          "parent_id": 1,
-          "user": "Dr. Maya Gupta",
-          "role": "PGY2",
-          "city": "Mississauga, ON",
-          "text": "I completely agree with Dr. Thorne. In our trauma cases, we always prioritize getting the patient to a hand specialist ASAP. The complication rates are too high if left untreated.",
-          "color": "green"
-        },
-        {
-          "id": 4,
-          "parent_id": 1,
-          "user": "Dr. Brock Stone",
-          "role": "FRCSC",
-          "city": "Hamilton, ON",
-          "text": "I respectfully disagree with Dr. Gupta. While hand specialists are important, we should not admit every patient to the OR. Conservative management can work just as well, especially for cleaner lacerations.",
-          "color": "green"
-        },
-        {
-          "id": 5,
-          "parent_id": 4,
-          "user": "Turbo Tom",
-          "role": "RN",
-          "city": "London, ON",
-          "text": "As a nurse, I've seen this debate go on for years. Can someone clarify the criteria for conservative management vs. surgical intervention?",
-          "color": "green"
-        },
-        {
-          "id": 6,
-          "parent_id": 5,
-          "user": "Dr. Elena Varkov",
-          "role": "FRCPC",
-          "city": "Quebec City, QC",
-          "text": "According to the literature, patients with clean lacerations, minimal soft tissue damage, and no evidence of tendon disruption can often be managed conservatively. However, those with more severe injuries or signs of infection require surgical intervention.",
-          "color": "green"
-        },
-        {
-          "id": 7,
-          "parent_id": 1,
-          "user": "Dr. Barb Miller",
-          "role": "EP",
-          "city": "Winnipeg, MB",
-          "text": "We've had cases where patients were sent home with a simple dressing and ended up developing a swan neck deformity weeks later. What's the thinking behind this decision-making process?",
-          "color": "brown"
-        },
-        {
-          "id": 8,
-          "parent_id": 7,
-          "user": "Leo Chen",
-          "role": "MS1",
-          "city": "Montreal, QC",
-          "text": "Is that due to the surgeon's conservative approach, Dr. Miller?",
-          "color": "green"
-        },
-        {
-          "id": 9,
-          "parent_id": 1,
-          "user": "Dr. Sarah Sharp",
-          "role": "EP",
-          "city": "Laval, QC",
-          "text": "In our hospital, we use a combination of physical examination and imaging to determine the extent of tendon involvement. This helps us decide whether conservative management or surgery is necessary.",
-          "color": "turquoise"
-        }
-      ]
-    },
-    "_comment": [
+    "id": 123,
+    "title": "Frustrated with our EMS system... Has anyone else had issues with EMTALA compliance and rural EMS services?",
+    "body": "Just had a patient brought in by a rural EMS service for a suspected stroke. They called us 20 minutes into the ride because they couldn't access our hospital due to a 'system failure'. Turns out, they're required to call us 5 minutes before arrival, not 20. I've had a few similar instances lately. What are your thoughts on EMTALA and rural EMS services? Is anyone else experiencing this issue?",
+    "category": "emergencymed",
+    "comments": [
       {
-        "id": 10,
-        "parent_id": 1,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "What happens if the patient has a boutonni\u00e8re deformity? Is it something that can be reversed or does it leave permanent damage?",
-        "color": "blue"
-      },
-      {
-        "id": 11,
-        "parent_id": 1,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "I had a boutonni\u00e8re deformity a few years ago and my doctor told me it was due to an injury. However, I'm pretty sure it was from a medical procedure gone wrong. Can someone clarify the difference?",
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Leslie Zun",
+        "role": "MD, President, American Association for Emergency Psychiatry",
+        "city": "Chicago, IL",
+        "text": "Oh man, that's frustrating. I've had similar experiences with EMTALA and rural EMS services. It's a major issue, especially with our aging EMS infrastructure. I'd love to chat more about this. Have you reached out to your local EMS agency to discuss the issue?",
         "color": "purple"
       },
       {
-        "id": 12,
+        "id": 2,
         "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "The key to preventing boutonni\u00e8re deformity is to repair the tendon as soon as possible. If you wait too long, the tendon becomes irreversibly damaged.",
-        "color": "red"
-      },
-      {
-        "id": 13,
-        "parent_id": 2,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Leo, I think Dr. Thorne was referring to getting a definitive diagnosis of tendon continuity through imaging or surgical exploration.",
+        "user": "Dr. Darren Braude",
+        "role": "MD, Emergency Medicine",
+        "city": "Winston-Salem, NC",
+        "text": "Actually, I have reached out to my local EMS agency. They told me it's a 'resource issue' and that they're 'doing their best'. I've tried to discuss the EMTALA compliance issues, but they just give me the runaround. Any advice on how to get them to take this seriously?",
         "color": "green"
       },
       {
-        "id": 14,
-        "parent_id": 10,
+        "id": 3,
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN, ER Nurse",
+        "city": "London, ON",
+        "text": "I'm so glad you brought this up. As an ER nurse, I've seen plenty of cases where rural EMS services have failed to comply with EMTALA. It's a huge safety risk for our patients. Have you looked into using alternative methods to verify EMTALA compliance, like satellite tracking or phone calls?",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 2,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "MD, Community Physician",
+        "city": "Vancouver, BC",
+        "text": "Satellite tracking? That sounds like a great idea! I've been looking into using it to track our patients during transports, but I haven't explored EMTALA compliance specifically. Can you share more about how it works?",
+        "color": "orange"
+      },
+      {
+        "id": 5,
+        "parent_id": 3,
+        "user": "Dr. Barb Miller",
+        "role": "MD, Community Physician",
+        "city": "Winnipeg, MB",
+        "text": "Actually, I think I can help with that. I've used satellite tracking to monitor patients with high-acuity conditions during transports. It's been a game-changer for us. But I'm curious - have you guys considered using phone calls as a secondary method to verify EMTALA compliance?",
+        "color": "red"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Wait, what's EMTALA? Can someone explain it to me in simple terms?",
+        "color": "pink"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Victor Sterling",
+        "role": "MD, Surgery",
+        "city": "Calgary, AB",
+        "text": "EMTALA stands for Emergency Medical Treatment and Active Labor Act. It's a federal law that requires hospitals to provide emergency care to anyone who needs it, regardless of insurance status or ability to pay.",
+        "color": "purple"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
         "user": "Chad Broson",
         "role": "Pre-med",
         "city": "Brampton, ON",
-        "text": "Does the boutonni\u00e8re deformity have any long-term consequences? Can it cause other hand problems?",
+        "text": "Thanks for the explanation! What are some common scenarios where EMTALA compliance is an issue?",
+        "color": "green"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "One common scenario is when patients are transported to the ED by ambulance, but the ambulance service claims they can't access our hospital due to 'system failure' or other issues. It's a major safety risk for the patient.",
         "color": "blue"
       },
       {
-        "id": 15,
-        "parent_id": 14,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "Boutonni\u00e8re deformity can lead to a range of complications, including chronic tendon pain, limited finger mobility, and even arthritis in some cases.",
-        "color": "green"
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Another common issue is when patients are transferred from a smaller hospital to ours, and the transfer team fails to provide necessary information about the patient's condition, leading to delays and potential safety risks.",
+        "color": "orange"
       },
       {
-        "id": 16,
-        "parent_id": 16,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "'Apoplexy' was a term I used for this condition many years ago. It refers to a sudden loss of function or movement, often due to nerve or tendon damage.",
-        "color": "red"
+        "id": 11,
+        "parent_id": null,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "You're all makin' me cry with these stories! Has anyone else had experience with EMTALA compliance in rural EMS services?",
+        "color": "pink"
       },
       {
-        "id": 17,
-        "parent_id": 5,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "I completely agree with Dr. Stone's conservative approach. As internists, we need to weigh the risks and benefits of surgery and make sure the patient has given informed consent",
-        "color": "brown"
-      },
-      {
-        "id": 18,
+        "id": 12,
         "parent_id": 11,
-        "user": "Dr. Phil Muddle",
-        "role": "EP",
-        "city": "Regina, SK",
-        "text": "Ah, yes... 'Liniment' for the wrist and 'appliances' for immobilization... those were the days. Can someone clarify the current recommendations for immobilizing the affected area?",
+        "user": "Dr. Archibald Thorne",
+        "role": "MD, Community Physician",
+        "city": "Saskatoon, SK",
+        "text": "Sparkle-Eyes, I'm so glad you asked that! I've been practicing in rural Saskatchewan for 30 years, and I can tell you that EMTALA compliance is a major issue in our area. We need more resources and education to ensure our patients receive the care they need.",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "TL;DR - Missed Chlamydia in a 16yo: What Went Wrong?",
+    "body": "Just saw a patient with a missed case of Chlamydia trachomatis in a 16yo female. Came in with 2 days of pelvic pain and vaginal discharge. Had an urinalysis, which was negative, and a pelvic exam which was unremarkable. Sent her home with antibiotics for a likely yeast infection. A week later, her partner comes in with a confirmed case of Chlamydia. I'm kicking myself for missing it. What did I do wrong?",
+    "category": "CME review",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I'd say you probably did nothing wrong, OP. The sensitivity of urinalysis for Chlamydia in pediatrics is actually pretty low, especially in young females. We all get stumped sometimes. Have you read that paper on Chlamydia screening in teens? Maybe we should be screening all sexually active teens for Chlamydia...",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Wait, what paper? Can you link it? I've heard of Chlamydia screening in teens, but I've never seen the data. Is it cost-effective? How does it change our practice?",
         "color": "green"
       },
       {
-        "id": 19,
-        "parent_id": 18,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "We still recommend immobilizing the wrist using a thumb spica splint or a dorsal plaster splint, depending on the severity of the injury.",
-        "color": "green"
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "I agree with Maya. Urinalysis is not the best test for Chlamydia, especially in teens. We should be doing nucleic acid amplification tests (NAATs) or enzyme immunoassays (EIAs) instead. And yes, let's talk about screening all sexually active teens for Chlamydia. The American College of Obstetricians and Gynecologists (ACOG) recommends it. Has anyone seen the ACOG guideline on this?",
+        "color": "blue"
       },
       {
-        "id": 20,
-        "parent_id": 19,
+        "id": 4,
+        "parent_id": 3,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I've seen the ACOG guideline on Chlamydia screening in teens. It recommends screening for all sexually active teens. But what about cost considerations? We can't just do NAATs or EIAs on all teens... Is there a cost-effective way to do this?",
+        "color": "lightblue"
+      },
+      {
+        "id": 5,
+        "parent_id": 1,
         "user": "Turbo Tom",
         "role": "RN",
         "city": "London, ON",
-        "text": "What about physical therapy? Should we start PT after surgery or after cast removal?",
-        "color": "blue"
+        "text": "Can I just ask, OP, how many urine samples did you send for NAAT? And did you try to contact the patient's partner to rule out contact tracing?",
+        "color": "red"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "That's a good question, Turbo Tom! OP, can you clarify what your protocol is for NAAT and contact tracing in suspected Chlamydia cases?",
+        "color": "pink"
+      },
+      {
+        "id": 7,
+        "parent_id": 1,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "Pish posh on all this NAAT business! Back in my day, we just did a good ol' fashioned Gram stain and cultured the bug. What's wrong with a bit of good ol' fashioned microbiology?",
+        "color": "brown"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "Ha! You're a relic from the Stone Age, Archibald! Gram stains and cultures take too long and are not sensitive enough for modern medicine. NAATs are the way to go, folks.",
+        "color": "gray"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "You kids and your fancy tests! I've seen more Chlamydia cases than you've had hot dinners, and I can tell you that a good ol' fashioned pelvic exam and a thorough history are still the most effective tools in diagnosing this thing.",
+        "color": "orange"
       }
     ],
-    "image": "https://lacerationrepair.com/wp-content/uploads/2013/10/img_4146.jpg"
+    "image": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1835420043762749"
   }
 ]
