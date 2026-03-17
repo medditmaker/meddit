@@ -1,982 +1,632 @@
 [
   {
     "id": 0,
-    "title": "Just saw a patient with a massive pulmonary embolism and wanted to rant about how I was misled by a Wells score of 2",
-    "body": "Just saw a patient come in with a suspected pulmonary embolism. I ran the Wells score and got a score of 2. I thought, 'this patient is low risk', but it turns out they had a massive pulmonary embolism. I was wondering if anyone has ever seen this before and if they have any pearls to share on how to improve our assessment of patients with low Wells scores.",
-    "category": "emergency medicine",
+    "title": "Today I Learned: Dehydration Electrolyte Management - The 'Grey Zone'",
+    "body": "Rant about: I just saw a patient with a serum sodium of 126 mmol/L, and I was unsure about how to proceed with fluid management. This got me thinking about the 'grey zone' of dehydration and electrolyte management. Has anyone else encountered this issue? Specifically, in the 125-135 mmol/L sodium range, do we stick to a 'one-size-fits-all' approach for rehydration, or do we individualize based on clinical features, such as signs of cerebral edema or acute kidney injury?\n\nThis question is really relevant in the context of the 'Tintinalli's' chapter [1], which discusses mild to moderate dehydration management in children (I'm sure that's not the target audience for this post, but bear with me).\n\nTL;DR: Help me out with some advice on how to approach dehydration and electrolyte management in the 'grey zone' of serum osmolality",
+    "category": "Medical Stories",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": "Dr. Kevin Park, PGY1",
-        "role": "Resident",
-        "city": "Edmonton, AB",
-        "text": "I'm so glad you shared this, I've had a similar experience. I always thought the Wells score was supposed to be a guideline, but I never realized it's not foolproof. Have you considered the role of troponin elevation in diagnosing PE? I've had patients with low Wells scores but elevated troponins.",
-        "color": "blue"
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Great post, Dr. Aris! This is a common issue that comes up in the ER. For me, the key is to evaluate the patient's volume status first. I think of it like this:\n\n* Mild dehydration (e.g., serum osmolality < 290 mOsm/kg): I'll stick to oral rehydration in most cases, as the risks of IV fluids are usually higher than the benefits.\n* Moderate dehydration (e.g., serum osmolality 290-300 mOsm/kg): Here, I'll consider IV fluids, especially if there's evidence of ongoing losses or significant hypotension. However, I'll still aim to correct hyponatremia slowly to avoid osmotic demyelination.\n* Severe dehydration (e.g., serum osmolality \u2265 300 mOsm/kg): In this case, I'll use IV fluids aggressively, but with close monitoring for signs of cerebral edema, especially in the first 24 hours.\n\nAs for specific sodium levels, I agree with [2] that a sodium of 125-135 mmol/L doesn't necessarily dictate a specific rehydration strategy. I'll look for other signs, such as decreased urine output, tachycardia, or decreased blood pressure, to guide my decision. Do you have any other info that might help me make a more informed decision, OP?",
+        "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Totally agree with OP! And don't forget about D-dimer! Elevated D-dimer with low Wells score can be a red flag. We had a case last week where the patient had a low Wells score but an elevated D-dimer. We ended up scanning and found a subsegmental PE.",
-        "color": "red"
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "@Dr. Maya Gupta Great points! I completely agree that a thorough evaluation of the patient's volume status is crucial. However, I also consider the underlying cause of the hyponatremia. For instance, if the patient has diabetes insipidus or renal disease, I'd be more aggressive with fluid management and aim for a slower correction of the sodium level. Additionally, I'd keep an eye out for signs of cerebral edema, as mentioned earlier. Have you encountered any cases where the patient's hyponatremia was a result of underlying adrenal insufficiency or other endocrine disorders?",
+        "color": "green"
       },
       {
         "id": 3,
         "parent_id": 1,
-        "user": "Leo Chen, MS1",
-        "role": "Medical Student",
+        "user": "Leo Chen",
+        "role": "MS1",
         "city": "Montreal, QC",
-        "text": "I'm a bit confused. Can someone explain why the Wells score wouldn't catch this patient? Was their presentation different somehow?",
-        "color": "purple"
+        "text": "@Dr. Maya Gupta @Dr. Elena Varkov I'm a bit confused about the distinction between mild and moderate dehydration. Can someone clarify for me when exactly we should switch from oral rehydration to IV fluids? Is it based on the patient's weight or the degree of ongoing losses?",
+        "color": "yellow"
       },
       {
         "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Maya Gupta, PGY2",
-        "role": "Resident",
-        "city": "Mississauga, ON",
-        "text": "Good question Leo! Sometimes patients with low Wells scores can still have high-risk disease, especially if they have other comorbidities. For example, this patient might have had a history of cancer or other cardiovascular disease that made them high-risk.",
-        "color": "green"
+        "parent_id": 1,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "I love this thread! As an ER nurse, I've seen my fair share of dehydration and electrolyte issues. One thing that's always stuck with me was the importance of reassessing the patient's volume status on a regular basis. We can't just 'set it and forget it' when it comes to fluid management. I'll often ask the doc to reassess the patient's vital signs and clinical status every hour or two to ensure we're on the right track.",
+        "color": "blue"
       },
       {
         "id": 5,
         "parent_id": 1,
-        "user": "Chad Broson, Pre-med",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Can someone clarify what troponin elevation has to do with PE? I thought troponins were just for MI.",
-        "color": "red"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Sparkle-Eyes Sue, LPN",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Ahh dearie, troponin elevation ain't just for MI, ya know? Elevated troponin can also be seen in PE, especially in patients with right ventricular dysfunction. We had a lady come in last week with a PE and a high troponin, but it turned out her MI was actually a PE-induced MI!",
-        "color": "blue"
-      },
-      {
-        "id": 7,
-        "parent_id": 2,
-        "user": "Dr. Elena Varkov, FRCPC",
-        "role": "Internist",
-        "city": "Quebec City, QC",
-        "text": "Thanks for the D-dimer mention! We should also consider the utility of imaging in low-risk patients. Studies have shown that a normal CT scan can help exclude PE.",
-        "color": "green"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Sarah Sharp, EP",
-        "role": "Emergency Physician",
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
         "city": "Laval, QC",
-        "text": "Agreed! But what about patients with a low Wells score and an elevated D-dimer? Should we always scan them?",
-        "color": "purple"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Aris Thorne, Staff Physician",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "I think we need a more nuanced approach. If a patient has a low Wells score but an elevated D-dimer, I'd say consider imaging, but don't just jump to scanning. Consider the clinical context, the patient's risk factors, and the results of other tests before deciding.",
-        "color": "blue"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Sarah Jenkins, MS3",
-        "role": "Medical Student",
-        "city": "Ottawa, ON",
-        "text": "I see. So, it's a balance between the sensitivity of imaging and the specificity of the Wells score. Got it!",
-        "color": "green"
-      },
-      {
-        "id": 11,
-        "parent_id": 1,
-        "user": "Rant about D-dimer",
-        "role": "No role",
-        "city": "",
-        "text": "TL;DR: D-dimer is a huge pain in the butt. Can we just get rid of it? Anyone else tired of ordering D-dimer all day?",
-        "color": "red"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "I'm with OP, but we can't just get rid of D-dimer. It has its uses! What about those patients with low clinical suspicion but elevated D-dimer?",
-        "color": "purple"
-      },
-      {
-        "id": 13,
-        "parent_id": 12,
-        "user": "Dr. Elena Varkov, FRCPC",
-        "role": "Internist",
-        "city": "Quebec City, QC",
-        "text": "I agree with Turbo Tom. D-dimer can be useful in low clinical suspicion patients, especially if they have risk factors for PE. We just need to be more careful in interpreting the result.",
-        "color": "green"
-      },
-      {
-        "id": 14,
-        "parent_id": 13,
-        "user": "Chad Broson, Pre-med",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Wait, what? Low clinical suspicion but elevated D-dimer? Can someone explain this to me...?",
-        "color": "red"
-      },
-      {
-        "id": 15,
-        "parent_id": 14,
-        "user": "Dr. Aris Thorne, Staff Physician",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Aha! Low clinical suspicion means we wouldn't normally suspect PE, but D-dimer is elevated, suggesting PE might be a possibility. So, we need to re-evaluate the patient and consider imaging.",
-        "color": "blue"
-      },
-      {
-        "id": 16,
-        "parent_id": 15,
-        "user": "Sparkle-Eyes Sue, LPN",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Now I get it, thank ya, Doc! But what about those patients with high clinical suspicion and a normal D-dimer? Are we just wastin' our time orderin' D-dimer on those folks?",
-        "color": "purple"
-      },
-      {
-        "id": 17,
-        "parent_id": 16,
-        "user": "Dr. Elena Varkov, FRCPC",
-        "role": "Internist",
-        "city": "Quebec City, QC",
-        "text": "Actually, it's the opposite. Patients with high clinical suspicion and a normal D-dimer are at lowest risk for PE, so we can consider D-dimer in these cases.",
-        "color": "green"
-      },
-      {
-        "id": 18,
-        "parent_id": 17,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "Finally someone gets it right! Now, if we could just get the doctors to stop wavin' D-dimer like it's a magic wand...",
-        "color": "red"
-      },
-      {
-        "id": 19,
-        "parent_id": 18,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Haha, amen to that!",
-        "color": "purple"
+        "text": "Great thread! One thing I'd like to add is the importance of considering the patient's underlying comorbidities. For example, if a patient has a history of congestive heart failure, we may want to be more cautious with fluid management to avoid exacerbating pulmonary edema. Does anyone have any tips for assessing the patient's fluid status in these complex cases?",
+        "color": "orange"
       }
     ],
-    "image": "https://danboater.org/travel-health-and-safety/images/deep-vein-thrombosis-dvt-infographic-dan-boater-lores.png"
+    "image": "https://emergencymedicinecases.com/wp-content/uploads/2022/11/ECGcases37-1.png"
   },
   {
     "id": 1,
-    "title": "Rant about chronic pain: The importance of referral and definitive diagnostic testing",
-    "body": "Just saw a patient with complex regional pain syndrome that was referred to us after failing multiple medications. The patient had been in pain for over a year and had been treated by their primary care physician and pain specialist without any success. The pain was described as a burning, shooting pain in their arm that was exacerbated by even the slightest touch. I decided to refer the patient to a specialist for definitive diagnostic testing, which revealed a peripheral nerve injury. This got me thinking about the importance of referral and definitive diagnostic testing in cases of chronic pain. What are your experiences with patients with chronic pain?",
-    "category": "Emergency Medicine",
+    "title": "Hyperphosphatemia - What's the Take-home Message for ER Docs?",
+    "body": "Just saw a patient with severe hyperphosphatemia (phosphate level of 7.5 mmol/L) secondary to rhabdomyolysis. She was admitted to the ICU for further management. What are the key management steps for hyperphosphatemia?",
+    "category": "emergency-medicine",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Excellent post! Chronic pain is one of the most challenging conditions to manage in the ED. I've seen many patients who have been referred to us after failing multiple medications and still no clear diagnosis. In my experience, referral to a specialist is crucial in these cases. Not only do they have the expertise to diagnose the underlying cause of the pain, but they can also provide targeted treatment options that the ED might not be equipped to offer. Have you considered referring your patient to a multidisciplinary pain clinic?",
-        "color": "purple"
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "When managing hyperphosphatemia, the first thing to keep in mind is that it's a marker of renal failure. In the acute setting, I focus on correcting hypocalcemia, which can lead to severe cardiac complications.\n\nIn this case, did you check her calcium levels? Was she given any phosphate binders, like calcium carbonate or calcium acetate?\n\nAlso, have you considered the role of hemodialysis in your patients with severe hyperphosphatemia?\n\nTLDR: Hyperphosphatemia is a marker of renal failure, so correct hypocalcemia and consider phosphorus binders or hemodialysis. ",
+        "color": "green"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "That's really interesting, Dr. Thorne. Can you explain why you think referral to a specialist is more effective than treating the patient in the ED? Do you think it's because they have more access to resources or because they have more training in pain management?",
-        "color": "green"
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "What's the mechanism behind the hyperphosphatemia in rhabdomyolysis? Is it a release of phosphate from the muscles?",
+        "color": "blue"
       },
       {
         "id": 3,
         "parent_id": 1,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Don't forget to check for hyperphosphatemia in patients with renal failure! It can lead to serious cardiovascular complications. In my experience, patients with hyperphosphatemia often have underlying muscle damage or other complications.\n\nHas anyone tried using succinylcholine in these patients? I've heard it can lead to cardiac arrest.\n\nLink to relevant literature: [1](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4419243/)",
+        "color": "orange"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "I've seen patients with hyperphosphatemia develop severe respiratory acidosis due to hypoventilation. Have you guys ever seen this? Any suggestions for managing respiratory acidosis in these patients?\n\nAlso, has anyone tried using potassium binders to manage hyperkalemia in patients with renal failure?",
+        "color": "purple"
+      },
+      {
+        "id": 5,
+        "parent_id": 3,
         "user": "Dr. Kevin Park",
         "role": "PGY1",
         "city": "Edmonton, AB",
-        "text": "I'm curious about how you approach diagnostic testing in patients with chronic pain. Do you typically order imaging studies or lab tests to rule out any underlying conditions?",
-        "color": "brown"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "I've heard that some patients with chronic pain may have abnormal lab results, but that these results don't necessarily correlate with their symptoms. Can you speak to that, Dr. Park?",
-        "color": "blue"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "I've worked with patients who have been referred to specialists for pain management, and I've seen mixed results. Some patients have gotten excellent care, while others have been frustrated by long wait times or lack of availability. Have you had any experiences with specialists being overwhelmed or hard to reach?",
-        "color": "purple"
+        "text": "Thanks for the reminder about hyperphosphatemia in renal failure! I'll make sure to check those levels more closely. What about the relationship between hyperphosphatemia and osteodystrophy in patients with renal failure? Have you guys seen any patients with osteodystrophy due to hyperphosphatemia?",
+        "color": "red"
       },
       {
         "id": 6,
-        "parent_id": 5,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "That's really interesting, Turbo Tom. Can you tell us more about the patients who got excellent care compared to those who didn't? Were there any factors that distinguished the two groups?",
-        "color": "green"
-      },
-      {
-        "id": 7,
-        "parent_id": 1,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "I must say, I disagree with the notion that referral to a specialist is always the best course of action. In my experience, some patients with chronic pain are better managed by their primary care physician, especially if they have a strong doctor-patient relationship. What are your thoughts on this, Dr. Thorne?",
-        "color": "purple"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "I agree with you, Dr. Thorne. However, I think referral to a specialist is often necessary when the patient's pain has not responded to standard treatments. Would you agree that we should reserve referral to specialists for patients who have failed first-line treatments?",
-        "color": "purple"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "That's an interesting point, Dr. Thorne. Can you define what you mean by first-line treatments? Are we talking about medications, physical therapy, or something else?",
-        "color": "blue"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I've seen patients who have been on multiple opioids for chronic pain and still haven't seen any improvement. In my experience, referral to a specialist is often necessary to reassess their pain management plan and develop a more comprehensive plan. Have you had any experiences with patients who have benefited from a comprehensive pain management plan?",
-        "color": "green"
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "title": "Just saw a patient with Acute Urinary Retention (AUR) from a large prostate stone. Had to think outside the box to avoid complications.",
-    "body": "Just saw a patient with AUR from a large prostate stone that was obstructing his urethra. He presented with suprapubic pain, inability to void, and a distended bladder. I ordered a bedside ultrasound to estimate residual volume, which came back around 500cc. Given his symptoms and lab results, I decided to insert a 16-French Coud\u00e9 catheter with copious intraurethral lubrication, including a topical anesthetic (2% lidocaine jelly). Luckily, the procedure was a success, and he was able to void without any complications. But what really got me thinking was the fact that his prostate-specific antigen (PSA) was slightly elevated, which could indicate prostate cancer. Should I have sent him for an immediate urology consult or a PSA repeat after the catheter was removed?",
-    "category": "emergency medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "MD",
-        "city": "Toronto, ON",
-        "text": "Great case! I'd say it's always better to err on the side of caution when it comes to prostate cancer. I'd recommend sending him for a follow-up PSA and a digital rectal exam (DRE) after the catheter is removed. We also need to make sure he's not a candidate for watchful waiting or active surveillance. Has anyone else had experience with this?",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Wait, what does PSA stand for again? I always get it confused with prostatic massage!",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Thanks for bringing this up, @Aris. I've had a few patients with AUR from prostate stones who ended up requiring emergent urology consults. It's always better to be safe than sorry. Does anyone have any tips on how to insert a Coud\u00e9 catheter without any complications?",
-        "color": "purple"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Ooh, I've got a tip! Make sure you use lots of lubricant, and consider using a 22-French catheter if the patient is really swollen. I've also heard that using lidocaine gel can help reduce the discomfort during insertion.",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Interesting discussion. Has anyone considered the role of alpha-blockers in the management of AUR? I've had success with doxazosin in similar cases.",
-        "color": "purple"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "I've read that alpha-blockers can actually increase the risk of hemodynamic instability in patients with severe urinary retention. Should we be cautious with their use?",
-        "color": "green"
-      },
-      {
-        "id": 7,
-        "parent_id": 5,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "I agree with @Elena's suggestion to consider alpha-blockers. However, we should also think about the patient's underlying comorbidities and potential for drug interactions. Have any of you used alpha-blockers in patients with heart failure?",
-        "color": "purple"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "I've had some concerns about the use of alpha-blockers in patients with renal impairment. Has anyone looked into the impact on electrolyte balance?",
-        "color": "green"
-      },
-      {
-        "id": 9,
-        "parent_id": 1,
-        "user": "Dr. Phil Muddle",
-        "role": "EP",
-        "city": "Regina, SK",
-        "text": "Umm, what's with all this talk about prostate cancer? Can someone explain it to me like I'm five?",
-        "color": "purple"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Lol, don't worry @Phil! I'll try to break it down for you. Prostate cancer is a type of cancer that starts in the prostate gland, which is basically a bunch of tiny glands that make urine come out. It can grow and spread to other parts of the body, but with early detection, treatment is usually easier.",
-        "color": "green"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Thanks @Chad! I think that's a great explanation for anyone who's not an expert. One more thing to consider is that PSA is not a perfect screening tool and can be elevated in non-cancerous conditions. Does anyone have any thoughts on this?",
-        "color": "purple"
-      },
-      {
-        "id": 12,
-        "parent_id": 1,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "I remember when I was a nurse, we used to do all these crazy tests to try to diagnose prostate cancer. Now we just stick with the PSA and DRE. Has anyone seen any interesting studies lately?",
-        "color": "green"
-      },
-      {
-        "id": 13,
-        "parent_id": 12,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Actually, @Martha, I've been looking into some new studies on MRI for prostate cancer screening. It might be a promising alternative to PSA and DRE!",
-        "color": "purple"
-      },
-      {
-        "id": 14,
-        "parent_id": 13,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "That sounds like a great idea! Can we look at some of that research later? I'm intrigued.",
-        "color": "green"
-      },
-      {
-        "id": 15,
-        "parent_id": 14,
-        "user": "Dr. Aris Thorne",
-        "role": "MD",
-        "city": "Toronto, ON",
-        "text": "Absolutely! I'd love to share some studies with you all. Let's move the discussion to a virtual meeting room and keep the conversation going."
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Chest Pain Conundrum: Case Study and Discussion",
-    "body": "Just had a case last night that still has me scratching my head. A 50-year-old male presents to our ED with sudden onset chest pain. Initial vitals wereBP 180/120, HR 120, and O2 sat 88% on RA. The patient was sweating and complaining of nausea, but denied any recent exertion or trauma. We get a 12-lead ECG which shows... ",
-    "category": "Emergency Medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Ziggy_Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Sounds like a classic ACS, but don't forget to check for esophageal rupture, especially after a episode of forceful vomiting... ",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Sarah_Shar",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Agreed, Ziggy, but we should also consider pulmonary embolism, especially given the tachycardia and hypoxia. Did we get a D-dimer? ",
-        "color": "blue"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Leo_Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Wait, what's a D-dimer? Do we need to get one if we're already suspecting ACS or pulmonary embolism? ",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Maya_Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Leo, a D-dimer is a blood test that helps rule out pulmonary embolism. If you're already suspecting ACS, you might not need to get one, but it's still a useful diagnostic tool. ",
-        "color": "purple"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Archibald_Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "In my day, we used to rely on the Wells score to help diagnose pulmonary embolism. Anyone else still use that? ",
-        "color": "blue"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Brock_Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "Actually, Archie, the Wells score is still a useful tool, but we also use the Ottawa score, which some people find more accurate. ",
-        "color": "purple"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Sarah_Shar",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Thanks for the clarification, Brock! By the way, has anyone tried the Pulmonary Embolism Rule-in Criteria (PERC) score? I've seen some good studies on that one... ",
-        "color": "blue"
-      }
-    ],
-    "image": "https://www.thecardiologyadvisor.com/wp-content/uploads/sites/17/2024/01/DDI_ChestPain_2000pxwide_FINAL-scaled.jpg"
-  },
-  {
-    "id": 1,
-    "title": "Hyperosmolar Hyperglycemic State (HHS): Don't Let the Mildness Deceive You!",
-    "body": "Had a miss last night with a 77 y/o with HHS, glucose > 1000, but presentation was subtle to say the least. Only reason I caught it was because the RN asked me to 'smell' the patient, and I caught a whiff of that sweet sweet ketosis. Anyone else have experience with HHS? ",
-    "category": "Emergency Medicine",
-    "comments": [
-      {
-        "id": 2,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "TLDR: Don't let your guard down with HHS. The patient I saw the other day presented with 'just weakness' and a mild ketosis, but once we corrected the sodium and ketones, they started seizing. It was a close call and a good reminder for me to always prioritize HHS in my differential, even if it seems like a 'mild' case.",
-        "color": "darkblue"
-      },
-      {
-        "id": 3,
         "parent_id": 2,
         "user": "Chad Broson",
         "role": "Pre-med",
         "city": "Brampton, ON",
-        "text": "I've been studying for my MCATs and I'm trying to memorize some of the key differences between DKA and HHS. Can someone summarize the key points for me? Is it just the absence of ketosis?",
+        "text": "Does anyone have any tips on how to prevent hyperphosphatemia in patients with rhabdomyolysis? I've heard it's a leading cause of morbidity and mortality...",
         "color": "gray"
       },
       {
-        "id": 4,
-        "parent_id": 2,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Great topic! To add to Maya's comment, keep in mind that HHS is often associated with type 2 diabetes, elderly patients, and a higher risk of complications like cerebral edema and seizures. We should also be mindful of the potential for delayed treatment in HHS, as the initial presentation can be so non-specific.",
-        "color": "green"
+        "id": 7,
+        "parent_id": 3,
+        "user": "Sparkle-Eyes Susan",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Bless your heart! Hyperphosphatemia is a sign of renal failure, not a cause! You've got to fix the underlying issue, love! Has anyone tried using a phosphate-restricted diet to manage hyperphosphatemia?",
+        "color": "pink"
       },
       {
-        "id": 5,
+        "id": 8,
         "parent_id": 4,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "How do you prioritize the treatment of HHS? I know we should correct the glucose and electrolytes, but what's the best order of operations?",
-        "color": "lightblue"
-      },
-      {
-        "id": 6,
-        "parent_id": 1,
         "user": "Dr. Elena Varkov",
         "role": "FRCPC",
         "city": "Quebec City, QC",
-        "text": "I have a case review from a year ago where we had a patient who presented with HHS and had a marked elevation in their serum osmolality. We did a thorough workup and found out that they had been taking too much glucagon, which is a less common cause of HHS. It just goes to show you how multifaceted this condition can be.",
-        "color": "darkgreen"
+        "text": "Respiratory acidosis in hyperphosphatemia can be a serious complication! Have you guys considered the role of non-invasive ventilation (NIV) in these patients? I've had good success with NIV in patients with respiratory acidosis...",
+        "color": "brown"
       },
       {
-        "id": 7,
-        "parent_id": 6,
+        "id": 9,
+        "parent_id": 2,
         "user": "Barnaby Finch",
         "role": "Patient",
         "city": "Surrey, BC",
-        "text": "Glucagon? I've never even heard of that being an issue in HHS. Can someone explain how that works?",
+        "text": "What a fascinating topic! Can anyone explain the mechanism behind the relationship between hyperphosphatemia and hypocalcemia? Is it a result of the same underlying renal failure process?",
+        "color": "lavender"
+      },
+      {
+        "id": 10,
+        "parent_id": 5,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Hyperphosphatemia can be a sign of a much larger issue - like rhabdomyolysis or renal failure! Keep an eye out for these other potential complications when you see a patient with hyperphosphatemia...",
+        "color": "turquoise"
+      },
+      {
+        "id": 11,
+        "parent_id": 7,
+        "user": "Dr. Phil Muddle",
+        "role": "EP",
+        "city": "Regina, SK",
+        "text": "You're absolutely right! Hyperphosphatemia can be a result of many underlying conditions!\n\nAlso, has anyone considered the role of magnesium repletion in hyperphosphatemia? I've heard it can help regulate phosphate levels...",
+        "color": "chartreuse"
+      },
+      {
+        "id": 12,
+        "parent_id": 9,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "What's all this fuss about hyperphosphatemia? It's just a fancy name for kidney failure, if you ask me. In my day, we just called it 'urine trouble'...\n\nAnyway, has anyone got any remedies for the patient's renal failure?",
+        "color": "teal"
+      },
+      {
+        "id": 13,
+        "parent_id": 10,
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "Renal failure is a serious issue! You've got to catch it early, love. Hyperphosphatemia is just one of many signs - keep an eye out for other markers, like oliguria or hyperuricemia...",
+        "color": "crimson"
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "title": "TLDR: Epistaxis - what's the protocol for posterior packs? And can we just stop giving amoxicillin/clavulanate?",
+    "body": "Just saw a patient with posterior epistaxis last night... Had to put in a nasal pack, and let me tell you, it was a real pain. But what's the protocol for posterior packs? Do we really need to have ENT consult for every single one, or can we get some guidelines on when to deviate?",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 1001,
+        "parent_id": null,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "TLDR: we don't need to give amoxicillin/clavulanate anymore. The evidence says it's unnecessary. And regarding posterior packs, I agree we can get some guidelines on when to deviate from the standard protocol. Maybe we can discuss this in the ER conference?",
         "color": "purple"
+      },
+      {
+        "id": 1002,
+        "parent_id": 1001,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "I completely agree with Dr. Sharp. The antibiotic prophylaxis for nasal packing has been a topic of debate for a while. Have we considered looking into alternative agents like cephalexin or doxycycline?",
+        "color": "green"
+      },
+      {
+        "id": 1003,
+        "parent_id": 1001,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "As a nurse, I can attest that those nasal packs are a real pain to deal with. And what's with the 0.05% oxymetazoline and 0.25% phenylephrine sprays? Can someone explain the reasoning behind those particular agents?",
+        "color": "green"
+      },
+      {
+        "id": 1004,
+        "parent_id": null,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I'm just an MS1, but isn't the 0.05% oxymetazoline supposed to be used for vasoconstriction? And doesn't it have some potential side effects?",
+        "color": "purple"
+      },
+      {
+        "id": 1005,
+        "parent_id": 1004,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Thanks for correcting me, Leo! Yes, the 0.05% oxymetazoline is used for vasoconstriction, and it does have some potential side effects like rebound congestion and nasal dryness. Good thing we have alternatives like oxymetazoline!",
+        "color": "blue"
+      },
+      {
+        "id": 1006,
+        "parent_id": 1001,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Can someone explain to a pre-med like myself why we bother with posterior packs at all? What's the point of sticking a pack in someone's nose?",
+        "color": "green"
+      },
+      {
+        "id": 1007,
+        "parent_id": 1006,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "Great question, Chad! Posterior packs are used to control posterior epistaxis, which can be a life-threatening condition if left untreated. The pack helps to put pressure on the bleeding vessel and control the bleeding.",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "title": "Rant about distinguishing between asthma and bronchiolitis in toddlers",
+    "body": "Had a miss last night with a 2-year-old with respiratory distress who I misdiagnosed as bronchiolitis. Turns out, she had asthma. I know, I know, it's a classic mistake. But I learned a valuable lesson and I want to share it with all the EM docs out there. So, how do you distinguish between asthma and bronchiolitis in toddlers? And why is it so hard?",
+    "category": "emergency medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Ahhh, this is a great topic! Distinguishing between asthma and bronchiolitis can be really tough, especially in toddlers. One trick I like to use is to look for the presence of a preceding upper respiratory infection. If the child had a cold or a sinus infection before developing respiratory distress, it's more likely to be bronchiolitis.",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Dr. Thorne, what about the role of reversibility in the diagnosis of asthma? Do you still rely on the albuterol response test, or have you moved on to other methods?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Actually, I was wondering if anyone has any experience with using fractional exhaled nitric oxide (FeNO) levels to distinguish between asthma and bronchiolitis. I've read some studies that suggest it's a useful marker, but I'm not convinced.",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Sorry to ask a basic question, but what's the typical presentation of asthma in toddlers? Is it just wheezing, or are there other symptoms that are more characteristic?",
+        "color": "orange"
+      },
+      {
+        "id": 5,
+        "parent_id": null,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Asthma in toddlers is all about the reversibility, my friends. Get that albuterol in there and watch the child's airway go from obstructed to patent. It's like magic! ",
+        "color": "red"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Ha! Easy for you to say, Ziggy. But have you ever tried to get a 2-year-old to inhale a bronchodilator through a mask? It's not exactly child's play. Anyone have any tips?",
+        "color": "pink"
+      },
+      {
+        "id": 7,
+        "parent_id": null,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Ahhh, the classic 'I'm a doctor, therefore I'm an expert' mistake. Let me tell you, folks, distinguishing between asthma and bronchiolitis is child's play compared to the real challenges we face in the ER. But hey, I'm happy to provide some advice... as long as you call it that and not 'expert opinion'.",
+        "color": "gray"
       },
       {
         "id": 8,
         "parent_id": 7,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "TLDR: Glucagon raises glucose levels by stimulating glycogenolysis and gluconeogenesis. If you're taking too much of it, you can end up with HHS, especially if you're also not using insulin.",
-        "color": "darkblue"
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Dr. Sterling, do you have any evidence to back up your 'expert advice'? Or is it just more of the same ol' condescending attitude we've come to expect?",
+        "color": "purple"
       },
       {
         "id": 9,
         "parent_id": 8,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "I've seen glucagon overuse in HHS patients more than once, and it's a huge red flag. Don't forget to ask about their medication regime and look for any signs of glucagon toxicity!",
-        "color": "red"
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I'm with Dr. Sharp on this one. Evidence-based medicine is not optional, people. Can we stick to the facts and leave the armchair quarterbacking for the NFL?",
+        "color": "green"
       },
       {
         "id": 10,
-        "parent_id": 4,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs, HHS is just a bunch of hype. I'm sure it's over-diagnosed and you're all just wasting your time thinking about it.",
+        "parent_id": 1,
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "Ahhh, enough about the asthma-bronchiolitis differential. What about the real elephant in the room - the fact that 99% of these cases are just viral infections and we're wasting our time and resources. ",
         "color": "brown"
       },
       {
         "id": 11,
         "parent_id": 10,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Dr. Sterling, I think you're mistaken. HHS is a serious condition with significant morbidity and mortality if left untreated. Let's focus on the facts and what we can do to improve patient care.",
-        "color": "darkblue"
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Actually, Dr. Stone, there are some very real and very serious consequences to missing the diagnosis of asthma in toddlers. Let's not forget about the impact on long-term lung function and the role of early treatment in preventing chronic disease.",
+        "color": "blue"
       },
       {
         "id": 12,
-        "parent_id": 11,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Preach, Dr. Thorne! It's not all about the dollars and cents; it's about taking care of our patients.",
-        "color": "green"
+        "parent_id": 10,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "Ahhh, Dr. Stone, you're at it again with your 'we're wasting our time' routine. As a nurse who's seen her fair share of asthmatic toddlers, let me tell you - the last thing they need is some condescending doctor telling them they're just being dramatic. Get some empathy, buddy. ",
+        "color": "pink"
       },
       {
         "id": 13,
         "parent_id": 12,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Amen to that, Doc! And don't forget, we've got Sparkle-Eyes Sue working her magic on the wards to make sure our patients get the best care around!",
-        "color": "purple"
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Ahhh, bless your heart, Martha! You're a real firecracker, aren't you? But seriously, has anyone seen this nice article on the early diagnosis of asthma in the Journal of Pediatrics?",
+        "color": "yellow"
       },
       {
         "id": 14,
         "parent_id": 13,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Thanks, Turbo! I'm just doin' me job and makin' sure those patients get the TLC they need!",
-        "color": "lightblue"
-      },
-      {
-        "id": 15,
-        "parent_id": 4,
         "user": "Chad Broson",
         "role": "Pre-med",
         "city": "Brampton, ON",
-        "text": "Okay, I think I've got it. So, HHS is like DKA, but with less ketosis, more glucose, and a higher risk of complications. Right?",
+        "text": "Wow, I didn't know that asthmatic toddlers could be so... fiery. Can someone explain to me why this topic is so important?",
+        "color": "purple"
+      },
+      {
+        "id": 15,
+        "parent_id": 14,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "Umm, hello? Isn't the reason this topic is important because it's about distinguishing between asthma and bronchiolitis in toddlers? Like, isn't it a life-or-death thing?",
         "color": "gray"
       },
       {
         "id": 16,
         "parent_id": 15,
-        "user": "Dr. 'Ziggy' Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Not bad, Chad! You're on the right track. Just remember, it's all about the clinical presentation and the patient's specific circumstances.",
-        "color": "green"
-      },
-      {
-        "id": 17,
-        "parent_id": null,
-        "user": "Dr. Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "Hey, let's not forget about the surgical angle here. We've seen HHS patients who require emergency surgery for things like bowel obstruction or infarction. It's a game-changer when you're on the clock.",
-        "color": "darkblue"
-      },
-      {
-        "id": 18,
-        "parent_id": 17,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "Amen, Dr. Stone. Don't forget to page us when we've got a potential surgical candidate.",
-        "color": "red"
-      },
-      {
-        "id": 19,
-        "parent_id": 16,
         "user": "Dr. Archibald Thorne",
         "role": "Physician",
         "city": "Saskatoon, SK",
-        "text": "In my day, we just called it 'diabetic coma.' We didn't have all these fancy terms for it. But I suppose it's better to be precise, eh?",
+        "text": "Ah, patience young man! Barnaby, you are absolutely right. This is indeed a crucial topic. Remember, folks, when it comes to the diagnosis and treatment of asthma in toddlers, the key is to approach each case with a healthy dose of skepticism and a commitment to thorough, evidence-based medicine.",
         "color": "brown"
       },
       {
-        "id": 20,
-        "parent_id": 19,
-        "user": "Dr. Rick 'The Rage'",
+        "id": 17,
+        "parent_id": 16,
+        "user": "Dr. Phil Muddle",
         "role": "EP",
-        "city": "Windsor, ON",
-        "text": "Good luck with that, Doc. You think the docs nowadays don't know how to take care of a diabetic coma? Ha!",
-        "color": "darkgreen"
+        "city": "Regina, SK",
+        "text": "Ahhh, what day is it again? Oh yeah, today it's the day we discuss the finer points of asthma diagnosis in toddlers. Thanks for the refresher course, Archibald!",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "title": "Frustrated with DVT risk assessment - need help from the ER community!",
+    "body": "Just saw a patient with a DVT who had a high-risk score, but the CT scan was negative. I re-ran the Wells' score and got a much lower risk assessment. I'm worried I missed something, but can't find anything in the literature to support changing the scoring system. Has anyone else run into this issue? Is it just a matter of 'garbage in, garbage out'? Am I missing something? Anyone have any pointers on how to reconcile this discrepancy?",
+    "category": "EmergMed",
+    "comments": [
+      {
+        "id": 101,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "I've seen this issue too! One thing to consider is the patient's clinical history and exam. Just because the Wells' score is low doesn't mean the patient doesn't have a DVT. I remember a case where the patient had a low-risk score but a CT scan revealed a proximal vein thrombosis. Make sure you're not just relying on the scoring system, take a step back and look at the big picture. Also, have you considered using the simplified Wells' score?",
+        "color": "blue"
+      },
+      {
+        "id": 102,
+        "parent_id": null,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "You're just over-diagnosing like all ER docs. The Wells' score is a blunt instrument, and you should be using your clinical judgment. If the CT scan is negative, then the patient doesn't have a DVT. Don't bother with it. (Amateurs)",
+        "color": "red"
+      },
+      {
+        "id": 103,
+        "parent_id": 102,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "But Dr. Sterling, what about the patient's symptoms and history? Shouldn't those be considered when making a diagnosis? And what does the term 'Amateurs' mean? Isn't that a bit condescending?",
+        "color": "green"
+      },
+      {
+        "id": 104,
+        "parent_id": 101,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Thanks for the tip, Dr. Thorne. I completely agree, we should be thinking about the patient's overall clinical picture when making a diagnosis. And I've used the simplified Wells' score a few times with good results. Do you recommend using it as a primary tool or as a quick check to see if the results match the patient's history?",
+        "color": "purple"
+      },
+      {
+        "id": 105,
+        "parent_id": 104,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Great question, Dr. Gupta! I like to think of the simplified Wells' score as a quick rule-out tool. If the score is low, it's a good idea to do a thorough clinical exam and take a good history. But if the score is high, it's a good indicator that a DVT or PE might be present. So, I think it's useful to use both the simplified and detailed scoring systems depending on the situation.",
+        "color": "blue"
+      },
+      {
+        "id": 106,
+        "parent_id": 103,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Uh, guys, isn't it better to use the detailed Wells' score? I mean, the simplified one seems kinda basic, right? Also, what's the difference between a DVT and a PE? And why should we care about these things anyway?",
+        "color": "green"
+      },
+      {
+        "id": 107,
+        "parent_id": 106,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "Good heavens, young man! A DVT is a blood clot in the deep veins of the leg, while a PE is a blood clot that breaks loose and travels to the lungs. These conditions can be quite serious, so we must take them very seriously. As for the Wells' score, I think it's a good starting point, but we must also use our clinical judgment and experience.",
+        "color": "purple"
+      },
+      {
+        "id": 108,
+        "parent_id": 107,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Thanks, Dr. Thorne. I completely agree, we must use our clinical judgment and experience when evaluating these patients. And don't forget to consider the patient's overall clinical picture, including any symptoms or signs of DVT or PE. The Wells' score can be a useful tool, but it's not a substitute for good old-fashioned clinical exam.",
+        "color": "blue"
+      },
+      {
+        "id": 109,
+        "parent_id": 5,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Rant about...: I'm so fed up with the ER docs relying too heavily on the Wells' score. It's a quick fix, but we need to think about the patient as a whole, not just a score. Can we please have a more holistic approach to diagnosing DVT and PE?",
+        "color": "green"
+      },
+      {
+        "id": 110,
+        "parent_id": 109,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "Amen to that, Turbo Tom! As a nurse, I see the patients' charts and it always seems like the ER docs are just checking boxes on a form. We need to take a more thoughtful approach to patient care. Can we please have more discussion about this in the ER community?",
+        "color": "red"
+      },
+      {
+        "id": 111,
+        "parent_id": 10,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Actually, the discussion is happening right here. And maybe we can take it a step further and talk about how to implement a more patient-centered approach to DVT and PE diagnosis. Any ideas, folks?",
+        "color": "purple"
       }
     ]
   },
   {
     "id": 1234,
-    "title": "Just saw a patient with complete spinal cord syndrome and it got me thinking about the nuances of neurological evaluation in the ER.",
-    "body": "We all learn about the major patterns of neurological injury in med school, but seeing it up close reminds us of how subtle these distinctions can be. I had a patient with complete spinal cord syndrome from a C6 fracture. The patient had normal sensation above C6 but was completely paralyzed and had lost all deep tendon reflexes below that level. We immediately intubated and started him on high-dose steroids. The question was whether he had an incomplete or complete spinal cord syndrome. In the acute phase, it can be hard to tell the difference. The patient may not have sensation at the level of injury, but still have some degree of motor function. This is what we call spinal shock, folks. It's a real thing, and it can last for weeks. So, how do we tell the difference between an incomplete and complete spinal cord syndrome in the ER?",
-    "category": "emergency medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Sarah Jenkins, MS3",
-        "role": "suffix",
-        "city": "Ottawa, ON",
-        "text": "Great reminder! In my neurology rotation, we discussed the Brown-S\u00e9quard syndrome, which is essentially a type of incomplete spinal cord syndrome. Does anyone have tips for evaluating someone with suspected Brown-S\u00e9quard syndrome?",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta, PGY2",
-        "role": "suffix",
-        "city": "Mississauga, ON",
-        "text": "Yes, we should also consider the central cord syndrome, which is another type of incomplete spinal cord injury. It's characterized by greater weakness in the upper extremities than lower extremities. I always keep in mind the classic case description of the 'cape-over-the-shoulders' appearance on imaging.",
-        "color": "red"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Leo Chen, MS1",
-        "role": "suffix",
-        "city": "Montreal, QC",
-        "text": "Can you explain more about the cape-over-the-shoulders appearance? I'm not familiar with this term.",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Barb Miller, EP",
-        "role": "suffix",
-        "city": "Winnipeg, MB",
-        "text": "Ah, great question, Leo! The cape-over-the-shoulders appearance refers to the loss of signal intensity in the central cord on MRI. It looks like a cape draped over the shoulders of the spinal cord. Very classic. Now, back to the topic at hand - how do we work up these patients?",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": null,
-        "user": "Dr. Rick 'The Rage', EP",
-        "role": "suffix",
-        "city": "Windsor, ON",
-        "text": "Ugh, don't even get me started on the paperwork for spinal cord injuries. We need to start using EMRs that can track our patients' neurological progress more effectively. Anyway, where were we? Ah yes, workup.",
-        "color": "orange"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Turbo Tom, RN",
-        "role": "suffix",
-        "city": "London, ON",
-        "text": "Haha, love the rage, Rick! In all seriousness, though, we should definitely be using the NEER score to assess our patients' neurological status. It's got everything from level of consciousness to reflexes. Has anyone else used it in their practice?",
-        "color": "yellow"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Victor Sterling, Chief of Surgery",
-        "role": "suffix",
-        "city": "Calgary, AB",
-        "text": "Amateurs, using the NEER score? No, no, no. We use the ASIA scoring system, which is far more robust and reliable. Any ER doc worth their salt knows that.",
-        "color": "pink"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Maya Gupta, PGY2",
-        "role": "suffix",
-        "city": "Mississauga, ON",
-        "text": "Actually, Victor, ASIA is just one scoring system, and it has its own limitations. I think we should be using a combination of different assessment tools to get a more comprehensive picture of our patients' neurological status.",
-        "color": "gray"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Sarah Jenkins, MS3",
-        "role": "suffix",
-        "city": "Ottawa, ON",
-        "text": "That's a great point, Maya. And what about the use of imaging in spinal cord injuries? When should we order an MRI vs. a CT?",
-        "color": "brown"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Aris Thorne, Staff Physician",
-        "role": "suffix",
-        "city": "Toronto, ON",
-        "text": "Excellent question, Sarah. Typically, we order a CT scan first to rule out other causes of trauma. If the CT shows no significant injury, then we can proceed with an MRI to evaluate for spinal cord compression or other neurological damage.",
-        "color": "turquoise"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Dr. Barb Miller, EP",
-        "role": "suffix",
-        "city": "Winnipeg, MB",
-        "text": "I agree with Aris. And don't forget to order a CT of the head in all trauma patients, regardless of their neurological status. We've seen plenty of spinal cord injuries with no obvious neurological deficit, but who knows what other damage may have occurred?",
-        "color": "silver"
-      }
-    ]
-  },
-  {
-    "title": "Lacerations to the Face and Scalp: A Review of the Literature and Clinical Pearls",
-    "body": "Just got back from a shift and I'm still fuming about a case I saw last night. A young man presents with a deep scalp laceration sustained in a bar fight. The cops said it was a pretty messy scene. The patient's mom brought him in, looking worried and frustrated. I could tell she was concerned about permanent damage to his face... and I'm starting to think she might be right.\n\nHere's the kicker: I was trying to decide whether to close the wound with absorbable sutures or staples, and I started researching the best approach. It's easy to get caught up in the 'what ifs' of trauma medicine, but I realized that my primary concern should be wound healing, not 'getting it right.'\n\nSo, I wanted to share my findings with all you ER gurus out there and get your take on it. I've been reading up on the latest from the Journal of Trauma and Acute Care Surgery, and here's what I found out...\n\n",
-    "category": "AMA",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "TLDR, folks: the key to closing deep scalp lacerations is to create a secure, tight closure that doesn't compromise perfusion. For those who don't know, perfusion refers to the flow of blood through the scalp, especially important in this case since we're dealing with a deep wound. In this case, I'd recommend using a combination of running and bolsters with a non-absorbable monofilament suture to ensure a nice, tight closure.\n\nBut let's not forget about the basics: hemostasis should always be our top priority. Use direct pressure or vessel clamping if needed to control bleeding at the wound edges. Irrigate the area well, too, to minimize the risk of infection.\n\nWhat do you folks think, fellow physicians?",
-        "color": "blue"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Perfusion, schmerfusion. You young docs are always worried about getting it right, but the truth is, lacerations will always heal. What matters is minimizing complications down the line,\n\nAnd in this case, my take would be to stick with a traditional running suture. Don't overcomplicate things with bolsters or any of that jazz. Just keep it simple and make sure the closure is tight.\n\nOh, and by the way, can someone please explain to me what's with this 'AMA' nonsense? Are we all secretly in some sort of doctor's union?",
-        "color": "red"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Dr. 'Ziggy' Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Amateurs! Don't @Victor. I'm all for keeping things simple, but let's not forget that we are dealing with human tissue here. The scalp can be a tricky place, especially when it comes to suturing. I'd recommend using a combination of 5-0 absorbable suture for the muscular layer and 6-0 non-absorbable suture for the epidermal layer.\n\nAnd trust me, @DrThorne, your perfusion comment wasn't as crazy as it seemed. You gotta keep the scalp's circulatory system in mind when dealing with deep lacerations. Don't want to risk compromising perfusion and ending up with all sorts of weird complications down the line. Not to mention potential long-term damage to the patient's appearance.",
-        "color": "gold"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Sorry, @ziggy, I'm all confused now. So, should we use absorbable or non-absorbable suture for the scalp? I thought absorbable was always the way to go because it'd dissolve later...",
-        "color": "silver"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Don't worry, @Leo! It's not that complicated. Absorbable sutures are actually better for the deeper layers of the scalp, like the galea aponeurotica. Non-absorbable sutures, on the other hand, work better for the epidermal layer. Of course, always make sure to close the wound in layers, like the skin and then the subcutaneous tissue.\n\nI should also mention that, as with any trauma patient, we gotta pay close attention to hemostasis and perfusion, just like @DrThorne mentioned.\n\nBy the way, I'd love to get your take on debridement, @ziggy. Should we be doing it aggressively on these scalp lacerations, or is that just crazy talk?",
-        "color": "orange"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. 'Ziggy' Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "You know, @Sarah, I think we gotta be more aggressive with debridement on scalp lacerations than we are with other types of trauma. The fact is, the scalp's got a lot of dead space \u2013 especially after a deep laceration \u2013 and we don't want that crap festering and causing all sorts of bacterial crap to multiply. Plus, you get a better chance of getting everything out before closing the wound.\n\nNow, like I said, @DrThorne, perfusion's important. You don't want to end up compromising circulation to the wound, which could lead to complications like infection or even a potential fracture. Not that I'm saying all scalp lacerations lead to fracture, @Leo, but it's definitely a consideration.",
-        "color": "green"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Amateurs! @Ziggy, I think you're totally forgetting about the pressure dressings, aren't you? I mean, we gotta keep that pressure on to prevent hematoma formation.\n\nAnd what about the patient's mom, guys? You ever think about that? We get so caught up in the medical aspect of all this that we forget about the emotional toll it takes on the families of our patients. This mom was seriously worried sick about her kid's scalp wound.",
-        "color": "blue"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "@TurboTom, that's a great point. As nurses, we are the frontline staff in many of these cases \u2013 and families do rely on us for emotional support. Remember, the ER is not just a place for medical interventions, but it's also a hub for families and loved ones. Don't get so caught up in the technical aspects of trauma medicine and forget the humanity behind all this.",
-        "color": "green"
-      },
-      {
-        "id": 9,
-        "parent_id": 1,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "Hi! I was the one who posted about my deep scalp laceration earlier. Thank you so much for your thoughtful responses. You guys are so smart and I feel a lot better now.",
-        "color": "purple"
-      }
-    ],
-    "image": "https://www.aafp.org/dam/brand/aafp/pubs/afp/issues/2017/0515/cover.jpg"
-  },
-  {
-    "id": 1,
-    "title": "TLDR: The Dark Side of Intimate Partner Violence: A Clinician's Perspective",
-    "category": "Emergency Medicine",
-    "body": "Just saw a patient with a classic history of intimate partner violence. She had a defensive laceration on her forehead, consistent with a fingernail scratch. The perpetrator? Her partner, whom she described as possessive and controlling. It got me thinking, how often do we miss the signs of intimate partner violence? And what can we do better to support these patients?",
+    "title": "Frustrating Head Trauma Case: Traumatic Brain Injury (TBI) Red Flags and Management",
+    "body": "Just saw a patient with a TBI and I'm still reeling from the encounter. TLDR: Don't miss this red flag for increased ICP! I've been an ED doc for 10 yrs, but this case was a tough reminder of the complexities of TBI. So, here's what happened: a 32 y/o male presented to our ED after a 10 ft fall, with a GCS of 15. He had no focal neuro deficits initially, but later developed worsening headache, vomiting, and decreased level of consciousness. I initially thought it was a simple concussion, but after reviewing the imaging, I suspected a more severe TBI. Long story short, he ended up requiring a craniotomy and spent 4 days in the ICU. During the case, I realized how easy it is to miss the red flags for increased ICP. Has anyone else had a similar experience recently? Any tips on spotting the subtler signs of TBI? One of the comments below linked to a great resource on TBI: https://emedicine.medscape.com/article/325135-overview",
+    "category": "EM",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
         "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "As a resident, I've seen my fair share of intimate partner violence cases. One thing that always gets me is the fact that victims often downplay the abuse or blame themselves. We need to be aware of these red flags and ask the right questions, like using a trauma-informed approach. Have any of you guys done any training on this?",
+        "role": "Resident",
+        "city": "Toronto, ON",
+        "text": "I completely agree with the OP! When I was in my ED rotation, our faculty member kept emphasizing how subtle the signs of increased ICP can be. The classic 'Cushing's triad' is a good starting point, but I've also seen cases where patients develop hypotension and bradycardia as early warning signs. Has anyone else come across any specific red flags for ICP in children? We see a disproportionate number of head injuries in kids, and I want to make sure I'm not missing anything. One resource I stumbled upon is this article: https://pediatrics.aappublications.org/content/141/4/e20172015",
         "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
         "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Yes, in my psychiatry rotation, we learned about trauma-informed care. It's all about understanding the patient's experiences and providing a non-judgmental space for them to share. I'd love to see more of this approach in EM. Can someone share some resources or links on this topic?",
-        "color": "green"
+        "role": "Intern",
+        "city": "Calgary, AB",
+        "text": "I'm a bit confused about the timeline you described, Dr. Gupta. If the patient arrived with a GCS of 15, how did he 'later develop worsening headache, vomiting, and decreased level of consciousness'? I thought these symptoms typically occurred immediately after the trauma...",
+        "color": "gray"
       },
       {
         "id": 3,
         "parent_id": 1,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "In our hospital, we have a dedicated trauma team that provides care to patients with suspected intimate partner violence. They use a standardized tool called the SAFE ( Screening, Assessment, and Follow-up Evaluation) tool to assess the patients. I'd recommend checking it out for your own practice.",
+        "user": "Dr. Barb Miller",
+        "role": "Physician",
+        "city": "Winnipeg, MB",
+        "text": "I've had patients with TBI present with 'normal' CT scans, only to develop signs of increased ICP hours later. The delay can be due to a combination of factors, including the patient's age, severity of the injury, and whether they're on seizure prophylaxis. Don't count on the CT scan alone to guide your treatment - get a Level of Care order and watch the patient closely!",
         "color": "blue"
       },
       {
         "id": 4,
-        "parent_id": 3,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "I looked into the SAFE tool, and it seems like a great resource. Can someone explain how it works and what kind of training we need to use it effectively?",
+        "parent_id": null,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Lol, I'm just trying to get into med school and Dr. Gupta is talking about Cushing's triad and TBI... what's up with this? Can someone explain this in simpler terms? Is TBI just like a concussion?",
         "color": "red"
       },
       {
         "id": 5,
-        "parent_id": 1,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Unfortunately, I've seen how easily intimate partner violence can be missed or downplayed in the ER. We need to be proactive in identifying cases and connecting patients with resources. Does anyone have any ideas on how to increase awareness among staff and patients?",
-        "color": "pink"
+        "parent_id": 4,
+        "user": "Dr. Sarah Sharp",
+        "role": "Physician",
+        "city": "Laval, QC",
+        "text": "Nice try, Chad, but TBI is WAY more complicated than a concussion. Think of it like this: concussions are just 'mild' TBIs. We're talking about significant brain injury here, requiring careful monitoring and potentially urgent interventions like ICP reduction or even craniotomy... don't worry, we can get you up to speed on this - just start reading!",
+        "color": "green"
       },
       {
         "id": 6,
-        "parent_id": 1,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "From what I've learned, intimate partner violence can occur in any relationship. It's not just about physical abuse, but also emotional and financial control. Can someone recommend some documentaries or books on this topic?",
-        "color": "brown"
+        "parent_id": 5,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "Amen, Dr. Sharp! I've seen patients in apoplexy from what looks like a minor fall, only to end up in our ICU. It's crucial to have a good 'feel' for when to err on the side of caution - and that usually means admitting them for observation, even if the CT scan looks 'normal'. Anyone agree with me on this?",
+        "color": "orange"
       },
       {
         "id": 7,
-        "parent_id": 1,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "As a family doc, I've seen many cases of intimate partner violence. One thing that stands out to me is the importance of taking a thorough history from both partners. What are some key questions to ask and red flags to look out for?",
+        "parent_id": 6,
+        "user": "Dr. Elena Varkov",
+        "role": "Internist",
+        "city": "Quebec City, QC",
+        "text": "I'm not sure I agree with you, Dr. Thorne. Have you considered what the implications are for patient length of stay and healthcare costs? I get where you're coming from, but we need to balance caution with resource utilization. Perhaps we can discuss this further in our next Grand Rounds?",
         "color": "yellow"
       },
       {
         "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "When taking a history from both partners, I always ask about control behaviors, like who makes decisions in the relationship, who controls the finances, and who has freedom to come and go as they please. It's amazing how often these patterns of control can reveal themselves.",
-        "color": "orange"
+        "parent_id": 1,
+        "user": "Dr. Victor Sterling",
+        "role": "Surgeon",
+        "city": "Calgary, AB",
+        "text": "Enough of this handwringing over TBI! The key is having clear and strict criteria for admission and monitoring - don't rely on intuition, use the Marshall criteria. If the patient's GCS is above 8, they're probably fine to send home with some basic instruction and a follow-up in 1 week. This over-admitting trend has got to stop - what's next, diagnosing a 'tummy ache' as appendicitis?",
+        "color": "pink"
       },
       {
         "id": 9,
-        "parent_id": 7,
-        "user": "Dr. Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "From an emergency surgery perspective, I've seen the devastating consequences of intimate partner violence. One of the key takeaways for me is the importance of immediate reporting to the authorities and connecting patients with a social worker or victim advocate.",
-        "color": "gray"
+        "parent_id": 8,
+        "user": "Turbo Tom",
+        "role": "Nurse",
+        "city": "London, ON",
+        "text": "Oh, for Pete's sake, Dr. Sterling - you can't just dismiss the patient's symptoms and risk missing the more severe cases. We need to listen to the patient's story and the nurse's assessment, not just rely on some formulaic criteria! We've seen this type of 'dismiss-and-expect-the-patient-to-go-away' attitude in EDs before - remember the 'Amateurs Guide to Being an ER Doc'? Not exactly our shining moment...",
+        "color": "brown"
       },
       {
         "id": 10,
         "parent_id": 9,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "As a bedside nurse, I've seen firsthand the impact of intimate partner violence on patients. One thing that's really important is taking the time to listen to patients and provide emotional support. It's not just about providing medical care, but also about acknowledging their strength and resilience.",
-        "color": "black"
+        "user": "Dr. John Ma",
+        "role": "Professor",
+        "city": "Ottawa, ON",
+        "text": "As a seasoned ED physician, I'm glad to see some critical thinking being applied here. In fact, a recent study showed that a systematic assessment, including the patient's GCS, neurological exam, and history of the event, can help predict the likelihood of increased ICP. I'll share the link: https://journalimpactfactor.org/articles/The-Score-System-as-a-Predictor-of-Intracranial-Pressure-Rise-After-Head-Injury-in-Adolescents. Dr. Sharp, I think you might find this relevant...",
+        "color": "light blue"
       }
-    ]
+    ],
+    "image": "https://tccc.org.ua/files/uploads/tccc-cmc13/module-13-head-injuries-14.jpg"
   },
   {
-    "id": 1,
-    "title": "Just saw a patient with Acute Angle Closure Glaucoma - a reminder of the importance of thorough history and exam in the Emergency Department",
-    "body": "As many of you know, Acute Angle Closure Glaucoma (AACG) is a medical emergency that requires prompt recognition and treatment. I saw a patient last night who had been misdiagnosed with a migraine for several hours, and it wasn't until she mentioned severe eye pain and decreased vision that we started to suspect AACG. Despite the fact that she had a known history of glaucoma, the ER doc had not asked her about her ocular history, and the only treatment she had received was acetaminophen for the 'headache'. Luckily, we were able to get her to the ophthalmologist quickly and she underwent urgent laser iridotomy. This case highlights the importance of taking a thorough history and performing a thorough physical exam, especially in patients with a pre-existing medical condition. It also raises the question - how many other cases of AACG are being missed in the ER every day? #AACG #EM",
-    "category": "emergency Medicine",
+    "title": "TL;DR: Trauma in Pregnancy = A Can of Worms",
+    "body": "Had a miss last night with a 28wk pregnant lady who presented with abdominal pain, vaginal bleeding, and uterine contractions. Initial impression was a ruptured ectopic but on closer inspection, she had evidence of significant abdominal trauma.",
+    "category": "Emergency Medicine",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": "Dr. 'Ziggy' Zalesky",
-        "role": "FP",
-        "city": "Vancouver, BC",
-        "text": "Great reminder, OP! AACG is a classic example of a 'red herring' symptom - the patient presents with a headache or eye pain, but the underlying cause is actually an emergency. It's amazing how often we see patients with AACG who have been misdiagnosed with a migraine or sinusitis. Thanks for sharing this case, and I'm glad the patient received prompt treatment!",
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Trauma in pregnancy is a can of worms. Fetal injuries are more likely in the 3rd trimester and are often associated with pelvic fractures or penetrating trauma. Uterine rupture is rare but has a very high fetal mortality rate. We need to be aware of the changes in pregnancy physiology that can make it difficult to assess the severity of injury.",
         "color": "purple"
       },
       {
@@ -985,70 +635,212 @@
         "user": "Leo Chen",
         "role": "MS1",
         "city": "Montreal, QC",
-        "text": "Thanks for sharing this case, OP! I'm curious - what were the vitals on this patient? Was their IOP elevated? And did they have any other symptoms, like corneal edema or an afferent pupil defect?",
+        "text": "Does that mean we should be doing pelvic exams to assess for genital trauma even if the patient is stable? I thought we were supposed to prioritize maternal stabily and survival over potential fetal risks?",
         "color": "green"
       },
       {
         "id": 3,
         "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I had a similar case last year where the patient had been taking steroids and had developed AACG. The key was to recognize the correlation between the use of steroids and the development of AACG. It just goes to show that a thorough history is everything in emergency medicine. Have any of you guys used the 'CAB' acronym to help remember the diagnosis of AACG - 'C' for 'Closed angle', 'A' for 'Acute angle closure', and 'B' for 'Blurred vision'?",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "That's a great acronym, Dr. Gupta! I'll have to remember that one. Can you explain more about the relationship between steroids and AACG? I've heard that it's due to the increased pressure on the eye from the steroid use, but can you elaborate on that?",
+        "user": "Dr. Rick 'The Rage'",
+        "role": "EP",
+        "city": "Windsor, ON",
+        "text": "Ugh, don't even get me started on trauma in pregnancy. The physiologic changes in pregnancy make it a nightmare to assess. Tachycardia, hypotension, or anemia can all be due to blood loss or normal physiologic changes. We need to remember that the patient may lose 30% of blood volume before showing signs of shock. And don't even get me started on the supine hypotension syndrome... (1) https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4723513/",
         "color": "orange"
       },
       {
-        "id": 5,
+        "id": 4,
         "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Just a reminder to all ER docs - when a patient presents with AACG, the most important thing is to get them to the OR ASAP for a laser iridotomy. The longer you wait, the worse the patient's vision will be. And don't even get me started on the importance of good anesthesia - we had a patient last week who developed a pneumothorax from the air pressure in the OR. Thanks for sharing this case, OP!",
-        "color": "red"
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "I'm surprised the patient didn't have more obvious symptoms. Was she presenting with any other signs of hemorrhage? And did you get a chance to assess the fetal well-being? Was there any fetal distress?",
+        "color": "blue"
+      },
+      {
+        "id": 5,
+        "parent_id": 3,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Dr. Rage, I see what you mean about the supine hypotension syndrome. But isn't that more of an issue with placental abruption? Can you clarify the difference?",
+        "color": "pink"
       },
       {
         "id": 6,
-        "parent_id": 5,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "Am I the only one who thinks that the use of the 'CAB' acronym is a bit gimmicky? I mean, we all know that AACG is a big deal, but do we really need an acronym to remember it? Just my two cents. And thanks for the reminder, Turbo - AACG is a red flag for ER docs to get the patient to the OR ASAP!",
+        "parent_id": 4,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "Uh, I think I understand what's going on. I was in a car accident and then I started feeling really crampy. And then I was bleeding. But what does it have to do with my baby?",
         "color": "purple"
       },
       {
         "id": 7,
         "parent_id": 5,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "Ah, my young colleague, Dr. Park, you are quite right. The supine hypotension syndrome is indeed more of an issue with placental abruption. But, my dear fellow, let me tell you that the key to managing trauma in pregnancy is to prioritize the mother's safety above all else. The fetal well-being will follow, I assure you.",
+        "color": "green"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I couldn't agree more, Dr. Thorne. But, in this case, we may have to consider the risks of continuing the pregnancy. We need to discuss this with the patient and her family.",
+        "color": "blue"
+      },
+      {
+        "id": 9,
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Wow, guys, this is like a textbook case. I remember this from med school... (2) https://emedicine.medscape.com/article/170124-overview",
+        "color": "purple"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Med school, ha! We all know how that went. But, seriously, thanks for the ref, Turbo. I needed that.",
+        "color": "pink"
+      }
+    ]
+  },
+  {
+    "title": "Today I Learned: Don't Miss Sigmoid Volvulus in the Elderly!",
+    "body": "Just saw a patient with sigmoid volvulus who had been presenting with symptoms of obstruction for 3 days. She's a 75-year-old woman on atenolol for hypertension, no previous surgeries, and no family history of bowel disease. The interesting thing is she's been taking atenolol for years, but her doc switched her to metoprolol last week, which has a stronger blockade on the M2 receptors. I've been thinking, is this a potential cause for her sigmoid volvulus?",
+    "category": "emergency medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Wow, that's an interesting case! I've seen sigmoid volvulus in the elderly, but never thought about the atenolol-metoprolol switch. Have you checked her electrolytes? And did you do a CT to rule out any other causes of obstruction? Also, what happened with the atenolol before the switch? Was it at an adequate dose? I'd love to hear more about this patient!",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
         "user": "Sparkle-Eyes Sue",
         "role": "LPN",
         "city": "St. John's, NL",
-        "text": "Oh my, I'm so glad to hear that the patient received prompt treatment, OP! I've had patients with AACG before, and it's always a challenge to get them to the OR in time. Thanks for sharing your experience, and I hope the patient makes a full recovery. Can anyone recommend any online resources for learning more about AACG?",
+        "text": "Hi Dr. Gupta! Ah, electrolytes! Don't forget to check those potassium levels! Low potassium can increase the frequency of action potentials in the smooth muscle, making it more susceptible to ischemia... You know, back in the day, we LPN's would give potassium supplements to prevent muscle cramps during exercise, but nowadays, we just check the levels!",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Wait, so you're saying sigmoid volvulus can be caused by atenolol? I thought that was just used for hypertension! Can someone explain that to me? Is it related to the M2 blockade?",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Aha! Sigmoid volvulus can be caused by atenolol, Leo! It's a classic case of 'drug-induced intestinal pseudoobstruction'. Atenolol, being an M2 blocker, relaxes the smooth muscle and increases the frequency of action potentials, leading to ischemia... I'm not sure about the specifics, but I think it's related to the blockade of the acetylcholine receptors...",
+        "color": "blue"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs! You think atenolol is the cause of sigmoid volvulus? I've seen more than 100 cases, and I can tell you, it's not the M2 blockade that's the issue. It's the fact that these patients are old, frail, and taking a gazillion medications. They're prone to electrolyte imbalances, decreased mobility, and a host of other risk factors. You should focus on the patient's history, not some theoretical pharmacology behind atenolol.",
+        "color": "red"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I understand where you're coming from, Dr. Sterling, but let's not forget that sigmoid volvulus is a preventable condition. If we consider the M2 blockade as a potential cause, perhaps we can develop new treatments to prevent this type of obstruction in the elderly. We shouldn't ignore the pharmacological aspect entirely!",
+        "color": "purple"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "Excuse me, gentlemen, but as a patient, I'd like to say that sigmoid volvulus is a very scary thing. Can we please just focus on providing good care and preventing these complications? Let's work together to develop better treatments and prevent such awful experiences. Don't forget about us, the end-users of this medicine!",
         "color": "pink"
       },
       {
         "id": 8,
         "parent_id": 7,
-        "user": "Dr. Sarah Sharp",
-        "role": "FP",
-        "city": "Laval, QC",
-        "text": "Actually, Sparkle-Eyes Sue, there are several online resources that are great for learning more about AACG. One of my favorites is the American Academy of Ophthalmology (AAO) website, which has a wealth of information on diagnosis and treatment. You can also check out the online journal 'Ophthalmology' for some of the latest research on AACG.",
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "Well, well, well! Look at all these young doctors arguing! I'll tell you what happened in my day: we used to call it 'gut volvulus', and we'd just give the patient morphine for pain relief. Nowadays, you've got all these fancy studies and treatments. Sometimes I think we're making this too complicated!",
+        "color": "brown"
+      },
+      {
+        "id": 9,
+        "parent_id": null,
+        "user": "Dr. Rick 'The Rage'",
+        "role": "EP",
+        "city": "Windsor, ON",
+        "text": "Ugh, you all are killing me with your fancy talk about medications and blockades! Can someone just tell me what's going on? Is this a new diagnosis or just some theoretical discussion? Don't give me any of that 'drug-induced pseudoobstruction' nonsense!",
+        "color": "red"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Haha, Dr. Rage, calm down! It's just a case study, folks. Don't worry about it too much. And for the love of all things good, let's not make it a turf war. We can disagree without being disagreeable. Okay, I'll give you a brief summary: sigmoid volvulus is more common in elderly patients on certain medications. We've got to keep an eye out for them and consider the pharmacological aspect in our diagnosis.",
         "color": "blue"
+      },
+      {
+        "id": 11,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "I think we've had a great discussion, everyone! Don't forget to remember the patient in all of this, no matter how complex the diagnosis might seem. We all want to provide the best care for our patients, no matter what their age or medical history.",
+        "color": "purple"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Amen to that, Dr. Thorne! Let's all take a deep breath and remember that we're here to make a difference in our patients' lives. And Dr. Gupta, nice job on highlighting the importance of medication review in this case!",
+        "color": "blue"
+      },
+      {
+        "id": 13,
+        "parent_id": 11,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Thanks, Dr. Sharp! I just want to re-emphasize that sigmoid volvulus is preventable, if we consider the medication history and take a more holistic approach to our diagnosis.",
+        "color": "purple"
       }
     ]
   },
   {
-    "id": 11,
-    "title": "Rant about missed appendicitis: The dangers of relying on 'classic' symptoms",
-    "body": "Just had a long night in the ER and I'm still fuming about that case. A 12-year-old kid comes in with classic appendicitis symptoms: fever, right lower quadrant pain, anorexia, nausea... but the pain migrates to the right upper quadrant. The family insists this is typical and we can't deny it. So we do a CT scan and it's clearly a perforated appendix. What really got me was the radiologist's note saying the pain migration is a sign of appendicitis, when in fact it's actually a sign of the appendix moving to a different location. Anybody else have experiences with this? Was I too hasty to send him in for surgery?",
-    "category": "Emergency Medicine",
+    "id": 12345,
+    "title": "Missed Hypertensive Emergency - A Rant and a Lesson",
+    "body": "Just saw a patient with a missed hypertensive emergency and it got me thinking... What's the distinction between hypertensive emergency and hypertensive urgency? Do we get too caught up in the 'urgency' label?",
+    "category": "emergency-medicine",
     "comments": [
       {
         "id": 1,
@@ -1056,7 +848,7 @@
         "user": "Dr. Aris Thorne",
         "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "TL;DR: We've all been there, but reliance on 'classic' symptoms can be deadly. Here's my two cents: in the era of 'ultrasound first', don't jump to conclusions based on the location of the pain. A good history and careful physical exam can make all the difference. And remember, the classic triad is a myth! ",
+        "text": "TLDR; Don't get too caught up in labels. Focus on clinical picture, not just BP numbers. Hypertensive emergencies are life-threatening, while urgency is a precursor to emergency or chronic HTN. We need to be aware of the patient's history, medication adherence, and potential secondary causes. Anyone recall the JNC7 Classification of Hypertension?",
         "color": "purple"
       },
       {
@@ -1065,7 +857,7 @@
         "user": "Leo Chen",
         "role": "MS1",
         "city": "Montreal, QC",
-        "text": "Thanks for sharing, Dr. Thorne. I'm curious - what specific characteristics of the physical exam would you look for in a case of suspected appendicitis?",
+        "text": "@Dr. Thorne Can you explain that JNC7 Classification of Hypertension? What are some key takeaways?",
         "color": "green"
       },
       {
@@ -1074,37 +866,73 @@
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "I've had similar experiences where I thought I had a classic case, only to find out the CT showed a different diagnosis. I think the key is to stay vigilant and not be afraid to ask for a second opinion. And by the way, great post, Dr. Thorne!",
-        "color": "blue"
+        "text": "@Dr. Thorne Agreed. But sometimes I think we get too focused on the 'urgency' label and miss the boat on the real issue. I had a patient once with severe HTN and no obvious secondary cause, but a ton of symptoms that pointed to hypertensive emergency. Long story short, the patient ended up needing emergent intervention. Moral of the story?",
+        "color": "orange"
       },
       {
         "id": 4,
         "parent_id": 3,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "What's the deal with the classic triad? I always thought it was like, 98% accurate or something!",
-        "color": "red"
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "@Dr. Gupta That's crazy! I'm glad you caught that. But what about when we're faced with a patient who's got a ton of symptoms but the HTN isn't the primary issue? I mean, I've seen patients with 'HTN' who are just hypochondriacs. How do we discern the real thing from a bunch of worried-well types?",
+        "color": "blue"
       },
       {
         "id": 5,
         "parent_id": 4,
-        "user": "Dr. 'Ziggy' Zalesky",
+        "user": "Dr. Sarah Sharp",
         "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Chad, Chad, Chad... the classic triad is a myth perpetuated by lazy medical students! I mean, come on, it's not like we need to memorize a bunch of vague symptoms to diagnose appendicitis. Let's focus on the facts: a high suspicion based on presentation + a good history and physical = the real deal. Now read the Wiki article on appendicitis and let's get this over with: https://en.wikipedia.org/wiki/Appendicitis",
-        "color": "green"
+        "city": "Laval, QC",
+        "text": "@Turbo Tom Great question. I think it's all about looking at the patient as a whole, not just their BP numbers. Are they on any new meds? Have they started a new exercise routine? Do they have any underlying medical conditions? The JNC7 Classification can help guide us, but ultimately it's up to us to use our clinical judgment and piece together the patient's history.",
+        "color": "teal"
       },
       {
         "id": 6,
         "parent_id": null,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Actually, I've found that the classic triad is more of a heuristic than a hard and fast rule. It's helpful in certain cases, especially in pediatric patients, but I've seen plenty of adults presenting with atypical symptoms. What I would caution is against relying too heavily on the triad - use it as one piece of the puzzle, not the whole picture!",
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Can someone explain why we care so much about 'hypertensive urgency' vs 'emergency'? Isn't it all just HTN?",
+        "color": "red"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "@Chad Broson Good question, but not quite accurate. Hypertensive urgency is more of a warning sign that HTN is getting out of control, while hypertensive emergency is a life-threatening crisis. Think of it like the difference between a warning light on your dashboard and a red alarm blaring in your ear.",
+        "color": "pink"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Rick 'The Rage'",
+        "role": "EP",
+        "city": "Windsor, ON",
+        "text": "@Sarah Jenkins That's a great analogy. But what about when we get bogged down in the details and forget the bigger picture? I mean, isn't it easy to get caught up in the numbers and forget about the underlying causes?",
         "color": "purple"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "@Dr. Rick The big picture is what we should always focus on. As family docs, we're used to looking at the patient as a whole, not just their BP numbers. Sometimes I think we lose sight of that in the ER.",
+        "color": "teal"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "@Dr. Oldman Amen, brother. We need to focus on the patient, not just the data. That's what it's all about.",
+        "color": "red"
       }
     ],
-    "image": "https://figures.semanticscholar.org/fb72d715df0e602db1d62564d937359226cafdee/2-Table3-1.png"
+    "image": "https://todaysveterinarypractice.com/wp-content/uploads/sites/4/2011/09/f03_table1.gif"
   }
 ]
