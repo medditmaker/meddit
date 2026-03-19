@@ -1,8 +1,9 @@
 [
   {
-    "title": "Had a miss last night... Stumbled upon a 'mysterious' sting, couldn't ID the culprit.",
-    "body": "Just saw a patient with a weird sting on his foot. Local reaction was crazy intense, but no systemic symptoms. Couldn't ID the stinger. Anyone seen this before? TLDR: sting with unclear vector.",
-    "category": "medscape",
+    "id": 0,
+    "title": "TL;DR of Hyperosmolar Hyperglycemic State - Can't seem to keep HHS from slipping my mind...",
+    "body": "Just saw a patient with HHS and it's still a mystery to me. The textbook says dehydration, electrolyte imbalances, and glucose >400 mg/dL are key features. But today's patient had none of the usual suspects. Glucose was 900 mg/dL, sodium was 135 mmol/L, and bicarbonate was 18 mEq/L. No dehydration, no electrolyte abnormalities... just a big ball of hyperglycemia. What am I missing? Has anyone else experienced this?",
+    "category": "r/emergencymedicine",
     "comments": [
       {
         "id": 1,
@@ -10,7 +11,78 @@
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "Was it a Hymenoptera sting? The local reaction sounds severe. Did you consider referring to an allergist? In my experience, if it's a wasp or bee sting, systemic symptoms often follow. Had a case like this last year and the patient ended up in ICU with anaphylaxis.",
+        "text": "HHS can masquerade as diabetic ketoacidosis (DKA) because the glucose is so high it masks the ketones. The patient may not present with the typical signs of DKA like acidosis and ketosis. In HHS, the acidosis is often muted due to the body's compensatory mechanisms. Has the patient's pH and anion gap been checked? If not, I'd recommend a stat ABG to rule out DKA.",
+        "color": "blue"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": " Wait, isn't HHS caused by dehydration and insulin deficiency? Why would someone get HHS with normal sodium and no symptoms of dehydration?",
+        "color": "red"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "@Chad, it's not just dehydration... dehydration is a symptom, not a cause. HHS is often caused by physiologic stress, like infections or surgeries, that lead to insulin deficiency. Dehydration can be a consequence of the hyperglycemia itself. Think about it like this: hyperglycemia causes osmotic diuresis, which leads to dehydration. But dehydration can also be caused by other factors like decreased perfusion or increased ADH. Make sense?",
+        "color": "purple"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I thought the primary cause of HHS was insulin deficiency. Is it the same thing as DKA? Can someone explain the difference?",
+        "color": "green"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "@Leo, you're getting close. Both HHS and DKA are caused by insulin deficiency, but the key difference is the body's counterregulatory response. In DKA, the counterregulatory response to insulin deficiency is hypercortisolism and lipolysis, leading to ketosis. In HHS, the counterregulatory response is mostly hyperglycemia with little to no ketosis. So, DKA is characterized by ketosis and acidosis, while HHS is characterized by extreme hyperglycemia and little to no acidosis.",
+        "color": "orange"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "That makes sense, but what about the relationship between glucagon and HHS? I thought glucagon was a key factor in both DKA and HHS.",
+        "color": "blue"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "@Sarah, you're on the right track. Glucagon is definitely involved in both DKA and HHS, but its role is different in each condition. In DKA, glucagon is elevated and promotes ketogenesis. In HHS, glucagon is often suppressed, which contributes to the lack of ketosis. So, while glucagon is important in both conditions, its effects are opposite in each.",
+        "color": "purple"
+      }
+    ],
+    "image": "https://emergencymedicinecases.com/wp-content/uploads/2020/10/Differentiating-DKA-from-HHS-1-600x313.png"
+  },
+  {
+    "title": "Missed Compartment Syndrome and the Futility of Delayed Diagnosis",
+    "body": "TLDR; Had a real wake-up call last night with a case of missed compartment syndrome. I'm still replaying the diagnosis in my head to see where I went wrong.\n\n               Just saw a patient with a pretty classic presentation of compartment syndrome. Severe, uncontrolled pain in the left lower leg, paresthesias, and a slightly swollen limb. I was distracted by the patient's history of hypertension and thought I'd rule out compartment syndrome. Big mistake. \n\n               As we all know, the key to diagnosing compartment syndrome lies in its hallmark symptom - pain out of proportion to examination (POPE). The sooner you get this diagnosis and get the patient imaged, the better the outcome. But I let my attention to detail slip, and I'm still haunted by the what-ifs. \n\n               Did I miss a crucial finding during the assessment? Was the history too vague to spot the diagnosis? Whatever the case, this serves as a reminder to never underestimate the importance of compartment syndrome. \n\n               TLDR; always keep compartment syndrome at the top of your differentials, especially in limb injuries. Don't get complacent even if the patient's history is complex. Get the patient imaged ASAP!",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Couldn't agree more. As a senior doc, we often see these cases where patients have a delayed diagnosis due to the subtleties of compartment syndrome. \n\n                    It's crucial to always consider this diagnosis when assessing limb injuries, regardless of the history. I'd like to see you follow this up with a link to a good review article or case study on compartment syndrome. \n\n                    One thing to add is that compartment pressures can take days to resolve after a compartment release. This can lead to a false sense of security in some cases. \n\n                    Always keep a high index of suspicion for compartment syndrome and don't be afraid to get the patient imaged if you're on the fence.",
         "color": "purple"
       },
       {
@@ -19,26 +91,372 @@
         "user": "Leo Chen",
         "role": "MS1",
         "city": "Montreal, QC",
-        "text": "What's anaphylaxis? Isn't it just a bad allergic reaction? Can you explain the difference between local and systemic symptoms?",
+        "text": "Hi docs, thank you for sharing this experience. Can you elaborate on how you assessed the limb injuries initially? \n\n                  Was it an isolated finding or part of a larger trauma evaluation? I want to make sure I don't miss similar red flags in the future.",
         "color": "green"
       },
       {
         "id": 3,
         "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "@Leo, anaphylaxis is a severe, life-threatening allergic reaction. It's not just a bad allergic reaction. Systemic symptoms include cardiovascular collapse, respiratory distress, and even death. Local symptoms are usually just erythema, edema, and pain at the sting site. In this case, the patient had a bad local reaction, but no systemic symptoms... yet!",
-        "color": "blue"
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "Fasciotomy, anyone? \n\n                  While we can all agree on the importance of compartment syndrome, let's not forget about the surgical management. As surgeons, we know how crucial prompt and adequate fasciotomy is in preventing further damage. \n\n                  In this case, what was the exact procedure performed and did the patient experience any post-op complications?",
+        "color": "green"
       },
       {
         "id": 4,
+        "parent_id": 2,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Good question, Leo! \n\n                  In this case, the patient initially presented with severe pain and paresthesias after a high-impact accident. We got him imaged ASAP, and the comp pressures were sky high. The team did a great job getting the fasciotomy done quickly. \n\n                  That being said, I think there's still a lot to be learned about compartment syndrome and how it affects different patient populations. \n\n                  Has anyone heard about any research on compartment syndrome and its impact on athletes? The link to the article I read recently was here.",
+        "color": "red"
+      },
+      {
+        "id": 5,
+        "parent_id": 1,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "You know what they say - delayed diagnosis equals delayed management. \n\n                  This case is a prime example of why nurses should advocate for immediate imaging and specialist involvement in suspected compartment syndrome cases. \n\n                  What was the patient's initial vitals and how did they change throughout the course of treatment?",
+        "color": "orange"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Great point, Martha. \n\n                  In this case, the patient's initial vitals were BP 140/90, HR 90, and SaO2 95%. \n\n                  Post-fasciotomy, the pressures dropped significantly and the vitals stabilized. \n\n                  Has anyone heard about any recent studies on the use of non-invasive methods for diagnosing compartment syndrome?",
+        "color": "blue"
+      },
+      {
+        "id": 7,
+        "parent_id": 3,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "While fasciotomy is a lifesaver, let's not forget about the underlying pathophysiology. \n\n                  Can you walk us through the exact mechanism behind compartment syndrome and how it affects tissue oxygenation?",
+        "color": "violet"
+      },
+      {
+        "id": 8,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Dr. Aris, could you elaborate on the role of compartment pressures in diagnosis and treatment? \n\n                  What are the typical cutoff values for diagnosis, and how do you decide when to intervene surgically?",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "title": "Today I learned: Beware of the 'Pseudocoma' - a tricky diagnosis in the ED!",
+    "body": "Had a miss last night with a patient presenting with a comatose state. After running the usual litany of labs and imagiing, we couldn't quite nail down the diagnosis. It wasn't until we noticed subtle signs of avoidance and resistance to eye movement, followed by a negative response to a manual eye opening test, that we started to suspect pseudocoma. Sure enough, our patient's history and response to caloric vestibular testing revealed a psychogenic origin to their nonresponsiveness. Anyone else ever had a similar experience? This diagnosis keeps me up at night! It's amazing how easily an individual can manufacture a 'coma' when they want to avoid responsibility or get attention.",
+    "category": "casual",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "OMG, I totally remember a case like this, but we called it a 'psychogenic pseudocoma'! One of our attendants, Dr. Aris Thorne, was absolutely fascinated by it. He explained that it's a classic example of malingering where patients feign a coma to avoid accountability for their actions... or to gain benefits. Do you think we should have a protocol to screen for this kind of thing? TLDR; Can we create a 'pseudocoma alert' to help us recognize potential fakers? [link to article on malingering](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4759246/)",
+        "color": "blue"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Love it, Kevin! Dr. Aris Thorne is actually writing a paper on this very topic. He says we should consider using the term 'pseudo-coma' instead of 'psychogenic pseudocoma' to avoid stigmatizing patients. Makes sense, considering it's often linked to underlying conditions like depression, anxiety, or even substance abuse. Do you have any tips on how to spot a potential pseudo-coma, OP? We get a ton of these cases in the ED, and it's hard to tell the difference between real and fake.",
+        "color": "pink"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "Hey, guys, I think I might have a little insight on this one. As someone who's actually experienced a comatose state (don't ask why, it's a long story), I can tell you that when my brain is 'asleep,' it's not just about being unresponsive. I remember feeling like my soul was trapped inside my body, unable to escape. When we 'awake' from that state, it's like emerging from a deep, dark ocean. So, to OP, maybe instead of looking for 'subtle signs of avoidance,' we should focus on finding what triggers those feelings in the first place?",
+        "color": "orange"
+      },
+      {
+        "id": 4,
+        "parent_id": 2,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Whoa, thanks for sharing that, Barnaby! It's like we're looking at this from two different angles. On one hand, we want to rule out anything serious and identify potential malingering. On the other hand, maybe we should focus on understanding the underlying causes and treating the patient's emotional pain. I'm starting to think that the term 'pseudocoma' is actually more about the label than the condition itself. Perhaps we should adopt a more compassionate approach, like you said, Barnaby.",
+        "color": "brown"
+      },
+      {
+        "id": 5,
+        "parent_id": 3,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "TLDR; Can we summarize this conversation? We seem to be having a discussion around the nuances of pseudo-coma, from its potential relation to psychogic disorders to treating patients with compassion. What does the community think? Should we start incorporating more empathy into our practice?",
+        "color": "green"
+      },
+      {
+        "id": 6,
+        "parent_id": 1,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Oh, don't let it get too deep, guys. Let's keep in mind that it's just a diagnosis, not the patient's fault. We need to focus on finding the root cause, be it a medical condition or a mental health issue. Compassion and understanding are always the way to go, but let's not get too caught up in labels.",
+        "color": "purple"
+      },
+      {
+        "id": 7,
+        "parent_id": 5,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Amen to that, Sparkle-Eyes Sue! I think we're getting a bit too caught up in the discussion around pseudo-coma, pseudo-label? How do we find the balance between empathy and clinical rigor?",
+        "color": "red"
+      },
+      {
+        "id": 8,
+        "parent_id": 2,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Can we talk about the 'sodium and the story' for a sec? I mean, what's a pseudo-coma without an underlying metabolic cause? Shouldn't we be ruling out hyponatremia, hyperglycemia, or even hypoxia before considering anything else?",
+        "color": "pink"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Exactly, Elena! That's what I said earlier. We should be doing a systematic approach to rule out any potential causes. Perhaps we can even create a flowchart or something to help us stay on track.",
+        "color": "green"
+      },
+      {
+        "id": 10,
+        "parent_id": 3,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "I think I have a solution here: What if we started asking patients about their motivations for faking a coma? Like, what's pushing them to do it, and how can we address the underlying issue?",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "title": "Intracranial Hemorrhage in the ED: Tricks of the Trade",
+    "body": "Just saw a patient with a suspected intracranial hemorrhage (ICH) and I realized I have a major pet peeve regarding ICH diagnosis in the ED. We're all guilty of it, even seasoned physicians. We get caught up in the excitement of a potential emergency case and we start diagnosing without doing the proper workup. Am I right, or am I right? \n\nSo, TLDR: ICH is a medical emergency, but we can't just jump to conclusions. Here's a case: 35-year-old male with a 3-day history of worsening headache. CT scan in the ED shows 'hypodensity in the left frontal lobe'. What do I do next? \n\nAnswer: Do not, I repeat, DO NOT assume it's an ICH without taking a blood sample for labs and getting the patient to a stat CT in 24-48 hours. Also, always keep in mind that you might be dealing with an epidural hematoma (EDH), which requires immediate surgical intervention!",
+    "category": "emergency medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Victor Sterling",
+        "role": "FRCSC",
+        "city": "Calgary, AB",
+        "text": "I've always been a bit skeptical of ICH diagnosis in the ED. What are the key signs of impending ICH that I need to watch out for? For example, what's the classic sign of impending ICH on the CT scan?\n\nAlso, has anyone come across any literature that compares the efficacy of CT to MRI in diagnosing ICH?\n\nThanks, folks!",
+        "color": "blue"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "FRCPC",
+        "city": "Toronto, ON",
+        "text": "Good question, @Dr. Victor Sterling! From my experience, a classic sign of impending ICH is hypodensity on the CT scan with some surrounding mass effect. Additionally, it's essential to note that a patient may have an epidural hematoma (EDH) with an intracranial pressure (ICP) that's slightly elevated.\n\nCheck out this paper by \u2005https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6461316/ for more info on the differences between ICH and EDH. \nGreat discussion!",
+        "color": "purple"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "What's the significance of an elevated ICP in a potential ICH case?",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Maya Gupta",
+        "role": "FRCPC",
+        "city": "Toronto, ON",
+        "text": "Good question, @Leo Chen! An elevated ICP can be a sign that the patient's ICH is worsening. If the ICP is not treated promptly, it can lead to herniation and brainstem compression.\n\nIn the case of an EDH, an elevated ICP can indicate impending herniation, which requires immediate surgical intervention.",
+        "color": "purple"
+      },
+      {
+        "id": 5,
+        "parent_id": null,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Rant about the lack of clear guidelines on when to admit a patient with a suspected ICH. I feel like we're all playing Russian roulette with our patients.\n\nTLDR: We should have clear guidelines on when to admit or discharge based on ICH severity, not just 'clinical judgment'.\n\nLink to a study that supports this: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5714453/ \n\nWhat's the deal, ER docs?",
+        "color": "red"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Amen to that, @Sarah Jenkins!\n\nIn my experience, clinical judgment alone is not enough. We need clear guidelines for ICH diagnosis and management. The paper you linked is a great example of the need for improvement in patient care.",
+        "color": "blue"
+      },
+      {
+        "id": 7,
+        "parent_id": 5,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "I agree that clear guidelines are essential. What kind of studies do we need to see to make a change in ICH management guidelines?\n\nCan someone point me to some relevant literature?",
+        "color": "green"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Barb Miller",
+        "role": "FRCPC",
+        "city": "Winnipeg, MB",
+        "text": "Good question, @Dr. Kevin Park! We need high-quality studies with large sample sizes, ideally prospective cohort studies or randomized controlled trials. The studies you're looking for are probably RCTs, as they provide level 1 evidence.",
+        "color": "purple"
+      },
+      {
+        "id": 9,
+        "parent_id": 5,
+        "user": "Dr. Victor Sterling",
+        "role": "FRCPC",
+        "city": "Calgary, AB",
+        "text": "To add to the discussion, I'd like to mention the importance of bedside ultrasonography in diagnosing ICH. It's a quick, non-invasive test that can help us make decisions about patient care.",
+        "color": "blue"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. Maya Gupta",
+        "role": "FRCPC",
+        "city": "Toronto, ON",
+        "text": "I couldn't agree more, @Dr. Victor Sterling! Ultrasonography is an excellent tool for diagnosing ICH, especially in patients with poor image quality on CT. Have you had experience with bedside US in the ED?",
+        "color": "purple"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Yes, I've used bedside US before, but I'm curious about what type of probe to use. Can someone recommend a specific type of probe?",
+        "color": "green"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Dr. Barb Miller",
+        "role": "FRCPC",
+        "city": "Winnipeg, MB",
+        "text": "Good question, @Leo Chen! I recommend using a curved linear array probe for bedside US in ICH diagnosis. It provides the best image quality, especially for evaluating ventricular size and ICP.",
+        "color": "purple"
+      }
+    ],
+    "image": "https://emergencymedicinecases.com/wp-content/uploads/2017/12/ICH-Golden-Hour-Card.jpeg"
+  },
+  {
+    "id": 1,
+    "title": "Just saw a patient with suspected ectopic pregnancy... ",
+    "body": " ... and I'm left wondering about the role of systemic steroids in suspected ectopic pregnancies. The patient presented with a closed cervical os, lower abdominal pain, and a beta-hCG of 1000. The ultrasound was inconclusive, and I was left with the dilemma of whether to start methotrexate therapy immediately or to wait for a follow-up ultrasound to confirm the diagnosis. TLDR: any opinions on using systemic steroids (e.g. methylprednisolone) in suspected ectopic pregnancies? Link to the relevant literature would be great!",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 12,
+        "parent_id": null,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Toronto, ON",
+        "text": "Thanks for the post, OP! As an EP, I can attest to the fact that systemic steroids can be game-changers in the management of suspected ectopic pregnancies. Methylprednisolone, in particular, has been shown to reduce the time to resolution of ectopic pregnancy from 30 days to 15 days in some studies [1]. The key is to use it in conjunction with methotrexate therapy, rather than as a replacement. The idea is to reduce intrauterine gestational sac size and thereby decrease the risk of rupture. Of course, this is just my two cents and I'd love to hear from others on this.",
+        "color": "purple"
+      },
+      {
+        "id": 13,
+        "parent_id": 12,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Dr. Sharp, can you provide more information on the dosage and frequency of methylprednisolone used in this context?",
+        "color": "orange"
+      },
+      {
+        "id": 14,
+        "parent_id": 13,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Toronto, ON",
+        "text": "Sorry for the vagueness, Leo! Typically, the dose used is 16 mg PO or IV every 8 hours for 3 days, followed by a taper over 2 weeks. Of course, the exact regimens may vary depending on the clinical scenario, but that's the general idea. And if anyone has access to the literature on this topic, feel free to share!",
+        "color": "purple"
+      },
+      {
+        "id": 15,
+        "parent_id": 12,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "What about the role of betamethasone in ectopic pregnancies? Isn't that used sometimes?",
+        "color": "green"
+      },
+      {
+        "id": 16,
+        "parent_id": 15,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Toronto, ON",
+        "text": "Good catch, Chad! Betamethasone can indeed be used in certain situations. However, from what I've read, the literature on its use is a bit more mixed than methylprednisolone. That being said, some studies suggest that it may be beneficial in reducing the size of intrauterine gestational sacs and promoting resolution of ectopic pregnancies.",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "title": "Just saw a patient with bronchiolitis and congestive heart failure - a reminder to think outside the box",
+    "body": "Just saw a patient that had me scratching my head. We admitted a 6 month old with suspected bronchiolitis for a respiratory syncytal virus (RSV) screen, but the chest xray and ECG were concerning for congestive heart failure (CHF). I know this can be tricky, but a quick look at the patient's history revealed significant tachypnea and feeding difficulties over the past few months. Luckily, our pediatric cardiologist was able to see the patient today and confirm the diagnosis of severe CHF. This got me thinking - how often do we miss CHF when it presents with wheezing symptoms? I've heard of cases where kids are being treated for asthma when in reality they have CHF. Anyone else have experiences with this? TL;DR - bronchiolitis and CHF can present similarly so don't forget to think of everything!",
+    "category": "medicine, emergency medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I've read about this in the textbook but never seen a case in person. How did you determine which one was the diagnosis? Also, what kind of CHF is more common in kids - dilated cardiomyopathy or HOCM?",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Leo, great question! In this case, it was dilated cardiomyopathy. The key was looking at the child's history - he had been having feeding difficulties and tachypnea for months, which was a red flag for CHF. We also did an ECG which showed signs of left ventricular dilation. Remember, CHF can present with wheezing symptoms, especially if you're not looking for the typical signs of heart failure like S3 gallops or peripheral edema. Always consider CHF in kids with respiratory distress!",
+        "color": "green"
+      },
+      {
+        "id": 3,
         "parent_id": 1,
         "user": "Sarah Jenkins",
         "role": "MS3",
         "city": "Ottawa, ON",
-        "text": "Actually, Dr. Gupta, it's not just a matter of local vs systemic symptoms. There's a difference between type I hypersensitivity and other forms of allergic reactions. Type I hypersensitivity is an IgE-mediated reaction, which is what causes anaphylaxis. Other forms of reactions may not be as severe.",
-        "color": "purple"
+        "text": "I've seen cases where kids with CHF have been misdiagnosed with asthma because the symptoms are so similar. The key is to look at the whole picture - including the child's history, physical exam, and lab results. I've also heard that echocardiograms can be a useful diagnostic tool in these cases. Has anyone else used them?",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Sarah, yes! Echocardiograms can be really helpful in diagnosing CHF, especially in cases where the ECG is not conclusive. I've used them several times to help confirm the diagnosis. Do you have any experience with transthoracic echocardiograms (TTEs)?",
+        "color": "pink"
       },
       {
         "id": 5,
@@ -46,267 +464,149 @@
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "Great point, @Sarah. You're absolutely right. Type I hypersensitivity is the culprit behind anaphylaxis. And in this case, since the patient had a severe local reaction, it's possible that it's a case of Hymenoptera allergy. Have any of you seen cases of Hymenoptera allergy in the ED?",
-        "color": "blue"
+        "text": "Kevin, yes, I've done a few TTEs myself! They're a great way to visualize the heart structure and function. I've also used them to diagnose issues with the heart valves and septal defects. Has anyone else used them to diagnose cardiac tumors?",
+        "color": "red"
       },
       {
         "id": 6,
         "parent_id": 5,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Actually, I've seen several cases of Hymenoptera allergy in the ED. It's more common than people think. In one case, a patient had a severe reaction to an EpiPen. He was treated with intravenous anaphylaxis management, and he recovered without major complications.",
-        "color": "green"
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "Ah, yes, cardiac tumors! Good show, young doctor! I've seen a few cases of rhabdomyomas myself. The key is to remember that CHF can present in kids in many different ways, so always think of all the possibilities. By the way, has anyone tried the 'cardiac tamponade calculator'?",
+        "color": "yellow"
       },
       {
         "id": 7,
         "parent_id": 6,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Wow, that's crazy. Thanks for sharing, @Sarah. It just goes to show that Hymenoptera allergy can be unpredictable and dangerous. Has anyone seen a case of fire ant sting allergy?",
-        "color": "blue"
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Haha, yeah, we've had a few cases of cardiac tamponade recently. Speaking of which, has anyone seen the new guidelines on management of cardiac tamponade in children? I heard they recommend pericardiocentesis for all cases?",
+        "color": "orange"
       },
       {
         "id": 8,
         "parent_id": 7,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Actually, I've seen a few cases of fire ant sting allergy. It's a thing, people. Fire ant venom is similar to Hymenoptera venom, so patients can cross-react. Always ask about insect stings when taking a history!",
-        "color": "purple"
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Actually, turbo, I think the guidelines still recommend pericardiocentesis only for cases with cardiac arrest. But we should definitely look into it further. In the meantime, has anyone tried using the 'pericardial fluid analysis' to help diagnose cardiac tamponade?",
+        "color": "brown"
       }
-    ],
-    "image": "https://my.clevelandclinic.org/-/scassets/images/org/health/articles/bug-bites.jpg?io=transform:fit,width:780"
+    ]
   },
   {
-    "id": 1,
-    "title": "TLDR: Nausea and Vomiting in the ED - A Painful Dilemma",
-    "body": "Just saw a patient with emesis that just wouldn't quit. The diagnosis was clear - but only once we sorted out the differential. Has anyone else seen this lately?",
+    "id": "thread1",
+    "title": "Just saw a patient with severe anticholinergic toxicity",
     "category": "medical",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
         "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
+        "role": "MD",
         "city": "Toronto, ON",
-        "text": "Absolutely - I've seen a bunch of cases this week alone. The key is getting beyond the obvious answers. For me, it's all about taking a careful history and physical. The patient's symptoms, medications, and social history can all hold clues to the diagnosis. We can't rely on just one piece of information to make a diagnosis, especially in vomiting patients. It's a multifaceted approach. One of the cases I saw was a young woman with chronic vomiting. Her history revealed she'd recently started a new medication that was known to cause gastrointestinal side effects. We got a quick consult with the PCP and changed the med - problem solved! Anybody have any pearls on how to quickly rule out certain conditions?",
+        "text": "Had a patient come in with severe anticholinergic toxicity. He was a 35-year-old male who took a handful of his grandfather's antihistamines by accident. He presented with tachycardia, hypertension, fever, and dry mucous membranes. We got him started on physostigmine and supportive care, but what really caught my attention was the presentation of mydriasis and decreased bowel sounds. Has anyone else seen this before?",
         "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Hi Dr. Thorne, thanks for your comment. I was thinking that we rule out certain conditions by taking a thorough history and then doing a quick physical, right? Like if the patient has abdominal pain, we're more likely to think about appendicitis or cholecystitis, and we'd do some labs and a CT to rule those out, is that correct?",
+        "user": "Dr. Victor Sterling",
+        "role": "MD CCFP",
+        "city": "Calgary, AB",
+        "text": "I see anticholinergic toxicity all the time in the ER, but what gets me is that these patients often present with 'atypical' symptoms. I've seen patients with severe hypertension and tachycardia, but normal temperature and even some patients with 'normal' blood pressure and tachycardia. The key is to always consider anticholinergic toxicity in patients with atypical presentations. Does anyone know what I mean by 'atypical'?",
         "color": "green"
       },
       {
         "id": 3,
-        "parent_id": 2,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "That's mostly right, Leo, though I'd add a few clarifications. First, while abdominal pain is a good clue, it's not a specific one - lots of conditions can cause it. We need to consider the pattern of the pain (e.g., location, intensity, radiation), associated symptoms (e.g., fever, vomiting), and the patient's overall health status. As for labs and imaging, they can be useful but should be guided by the history and physical, not the other way around. What's the worst-case scenario if you're wrong about the diagnosis, and what kind of harm could you do by ordering unnecessary tests?",
-        "color": "purple"
+        "parent_id": 1,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "MD EP",
+        "city": "Vancouver, BC",
+        "text": "Atypical symptoms in anticholinergic toxicity can be due to the fact that there is a complex interaction between the muscarinic and nicotinic receptors. The nicotinic receptors can mediate a cholinergic crisis, leading to symptoms like hypertension and tachycardia. But I always find it interesting to see how some patients present with what seems like a normal blood pressure and heart rate, but still have a cholinergic crisis. TLDR; it's all about the nicotinic receptors!",
+        "color": "blue"
       },
       {
         "id": 4,
-        "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "You're all missing the forest for the trees. The most common cause of vomiting in the ED is still viral gastroenteritis. We should stop overdiagnosing and just treat it as a viral illness unless we see specific signs of something else. All this fancy thinking is just unnecessary and wastes hospital resources.",
+        "parent_id": 2,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Can you explain what you mean by 'atypical' symptoms? Are there any specific symptoms that are more likely to occur with anticholinergic toxicity?",
         "color": "red"
       },
       {
         "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "I disagree, Dr. Sterling. While viral gastroenteritis is common, we can't just assume every case of vomiting is due to a virus. We have a responsibility to patients to consider other possible causes, especially given the increasing prevalence of antibiotic-resistant organisms. The stakes are too high to just stick with a blanket diagnosis. Has anyone else had a particularly puzzling case of vomiting that turned out to be something other than what they expected?",
-        "color": "purple"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "I had a patient a few weeks ago who presented with severe vomiting and abdominal pain. Initially, we thought it might be appendicitis, but the CT scan came back normal and the pain didn't respond to meds. Eventually, we discovered she had a rare condition called hyperthyroidism that was causing her symptoms. We had to do some additional testing to confirm the diagnosis, but it ended up being a great learning experience for me.",
-        "color": "lightblue"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
+        "parent_id": 3,
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "That's so cool, Sarah! I've never heard of hyperthyroidism presenting like that. Can you elaborate on how you figured it out and what the patient's outcome was?",
-        "color": "darkblue"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Yes, I can! It turned out that the patient had been experiencing some nonspecific symptoms like palpitations and heat intolerance, which we initially brushed off as just normal post-surgical symptoms after a recent laparoscopy. But then her vomiting and abdominal pain got severe, so I went back and dug up her lab work and noticed her calcium levels were pretty low. That's when I got the idea that it could be hyperthyroidism. We did a TSH level and it came back negative, and a thyroid ultrasound revealed an enlarged gland. We treated her with beta-blockers and radioactive iodine and she's doing much better now. I learned that even simple symptoms can be a symptom of something more complex and that a high index of suspicion is key!",
-        "color": "lightgreen"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Thanks for sharing your case, Sarah! It's a great reminder of how important it is to think outside the box and consider the full range of possible diagnoses when patients present to us with symptoms of nausea and vomiting. Anybody have any additional pearls to add to the conversation?",
+        "text": "I remember learning about the 'SLUDGE' and 'DUMBELS' effects in medical school. Do you think these are related to the nicotinic receptors too?",
         "color": "yellow"
       },
       {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "I've got one! I just saw a case of pyloric stenosis where the patient had projectile vomiting after eating solid foods. It was a classic presentation, but I wanted to know more about how to distinguish it from other causes of vomiting like gastric outlet obstruction. Has anyone had experience with these conditions?",
-        "color": "pink"
+        "id": 6,
+        "parent_id": 2,
+        "user": "Dr. Elena Varkov",
+        "role": "MD FRCPC",
+        "city": "Quebec City, QC",
+        "text": "The SLUDGE effect is actually due to muscarinic receptor agonism, leading to symptoms like secretions, lacrimation, urination, defecation, gastric emptying, emesis, and bronchospasm. The DUMBELS effect is more related to the nicotinic receptors, causing diarrhea, urination, muscle weakness, bradycardia, emesis, hypotension, abnormal lung, extreme salivation, and loss of reflexes.",
+        "color": "orange"
       },
       {
-        "id": 11,
-        "parent_id": 10,
+        "id": 7,
+        "parent_id": 3,
         "user": "Dr. Barb Miller",
-        "role": "EP",
+        "role": "MD EP",
         "city": "Winnipeg, MB",
-        "text": "I've worked with plenty of cases of pyloric stenosis, Kevin. The key to distinguishing it from other causes of vomiting is the timing and characteristics of the vomiting. In pyloric stenosis, the vomiting typically starts around 2-4 weeks of age and is projectile. If it's a gastric outlet obstruction, the vomiting will often be bilious and preceded by abdominal pain.",
-        "color": "lightgray"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Thanks for the clarification, Dr. Miller! I'll make sure to keep that in mind. Can anyone else add to the discussion or share their own thoughts on this topic?",
-        "color": "gray"
-      },
-      {
-        "id": 13,
-        "parent_id": 1,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "Hello, I'm a patient who's been experiencing some symptoms that might be related to the discussion in this thread. I'm feeling queasy and have had a bit of abdominal pain lately. I was wondering if any of you might have some advice or guidance on what to do next?",
-        "color": "teal"
-      }
-    ]
-  },
-  {
-    "id": 12,
-    "title": "Ectopic Pregnancy Dilemmas in the Emergency Department",
-    "category": "emergency-medicine",
-    "body": "Had a case last night where a patient presented with severe abdominal pain, which turned out to be an ectopic pregnancy. The patient was hemodynamically stable, but the beta-hCG levels were increasing rapidly. I was torn between starting methotrexate and performing an emergency laparoscopy. Anyone have any experience with this scenario? Can't decide whether to proceed with medical or surgical management.",
-    "comments": [
-      {
-        "id": 11,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "MD, Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Always weigh the risks and benefits of each approach. Medical management with methotrexate can be effective, but it's not without its side effects. The rising beta-hCG levels did make me concerned about possible rupture. Did you consider a surgical approach? Also, what were the patient's symptoms like?",
-        "color": "red"
-      },
-      {
-        "id": 13,
-        "parent_id": 11,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Sorry, Dr. Thorne, I'm a bit confused. You mentioned rising beta-hCG levels, but I thought ectopic pregnancies were often associated with lower beta-hCG levels. Can you clarify this?",
-        "color": "blue"
-      },
-      {
-        "id": 15,
-        "parent_id": 11,
-        "user": "Sarah Jenkins",
-        "role": "DO, MS3",
-        "city": "Ottawa, ON",
-        "text": "Actually, Dr. Thorne, the risk of rupture is a critical consideration. I remember a study by Barnhart et al. (2011) that showed a significant reduction in rupture rates with surgical intervention. Have you considered citing this paper or something similar to support your argument?",
-        "color": "yellow"
-      },
-      {
-        "id": 17,
-        "parent_id": 15,
-        "user": "Dr. Maya Gupta",
-        "role": "DO, PGY2",
-        "city": "Mississauga, ON",
-        "text": "Love that reference, Sarah! I'd actually use that study to support Dr. Thorne's argument. The reduction in rupture rates is a powerful point. I'd also add that surgical management may be more effective in patients with more complex anatomy.",
-        "color": "purple"
-      },
-      {
-        "id": 19,
-        "parent_id": 17,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "MD, EP",
-        "city": "Windsor, ON",
-        "text": "Ugh, this whole discussion is giving me a headache. The thing is, every case is unique, and we can't just rely on one study. We need to consider the specific anatomy, patient comorbidities, and other factors before making a decision. Just my two cents.",
-        "color": "orange"
-      },
-      {
-        "id": 21,
-        "parent_id": 19,
-        "user": "Dr. Elena Varkov",
-        "role": "MD, Internist",
-        "city": "Quebec City, QC",
-        "text": "I feel you, Dr. Rage. As internists, we're often faced with complex cases outside of the usual emergency department fare. The thing is, we also need to consider the broader clinical picture, not just the narrow focus on ectopic pregnancy. Did Dr. Thorne or Maya discuss the patient's overall condition, not just the pregnancy?",
+        "text": "I'm with Dr. Zalesky on this one. The nicotinic receptors can mediate a cholinergic crisis, leading to symptoms like hypertension and tachycardia. But it's great to see some of you trying to explore the nuances of anticholinergic toxicity.",
         "color": "pink"
       },
       {
-        "id": 23,
-        "parent_id": 21,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "Uh, excuse me, but can I just ask...what's an ectopic pregnancy? I've never heard of it before. Please explain it to me in simple language.",
-        "color": "brown"
-      },
-      {
-        "id": 25,
-        "parent_id": 23,
-        "user": "Martha 'The Hammer'",
+        "id": 8,
+        "parent_id": 2,
+        "user": "Turbo Tom",
         "role": "RN",
-        "city": "Halifax, NS",
-        "text": "Haha, love it, Barnaby! Don't worry, I'm here to help. An ectopic pregnancy is when the fertilized egg implants outside the uterus, usually in one of the fallopian tubes. It's a serious condition that requires medical attention ASAP.",
-        "color": "gray"
+        "city": "London, ON",
+        "text": "I've seen this time and time again. These patients always seem to have normal blood pressure and heart rate, but then we start running labs and suddenly their potassium is sky-high. Has anyone else seen this association with anticholinergic toxicity?",
+        "color": "purple"
       },
       {
-        "id": 27,
-        "parent_id": 25,
-        "user": "Chad Broson",
-        "role": "Student",
-        "city": "Brampton, ON",
-        "text": "Wow, I had no idea. That's crazy scary. Are there any symptoms to look out for, Martha?",
-        "color": "turquoise"
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Victor Sterling",
+        "role": "MD CCFP",
+        "city": "Calgary, AB",
+        "text": "That's a great catch, Turbo Tom. One of the things I love about anticholinergic toxicity is that it's not just about the muscarinic receptors. The nicotinic receptors can mediate all sorts of complex interactions, including alterations in potassium levels.",
+        "color": "green"
       },
       {
-        "id": 29,
-        "parent_id": 27,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "Good questions, Chad! Symptoms can vary, but common ones include abdominal pain, vaginal bleeding, and missed periods. If you suspect ectopic pregnancy, it's essential to seek medical help ASAP.",
-        "color": "silver"
+        "id": 10,
+        "parent_id": 5,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Dr. Gupta, what do you mean by 'complex interactions' between the muscarinic and nicotinic receptors?",
+        "color": "red"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Dr. Archibald Thorne",
+        "role": "MD",
+        "city": "Saskatoon, SK",
+        "text": "Well, young fellow, I suppose it's a bit like a complex game of dominoes. When the muscarinic receptors are stimulated, they can have all sorts of downstream effects on other systems. And when the nicotinic receptors are involved, it can lead to all sorts of complicated interactions as well.",
+        "color": "purple"
       }
-    ]
+    ],
+    "image": "https://scvmcmed.com/wp-content/uploads/2021/12/image.png"
   },
   {
-    "id": 1,
-    "title": "Today I Learned: Beta Blocker and Calcium Channel Blocker Toxicity - Clinical Pearls from a Recent Case",
-    "body": "Just saw a patient with beta blocker toxicity present with significant bradycardia and hypotension. Reminded me to think about calcium channel blocker toxicity as a cause of similar symptoms.\n\nIn the case, the patient had ingested a sustained-release beta blocker product, which delayed the onset of symptoms. The toxic effects primarily affected the cardiovascular system, causing sinus bradycardia, atrioventricular block, and hypotension.\n\nTLDR: Beta blocker and calcium channel blocker toxicity can present with similar symptoms, and sustained-release products can delay the onset of toxicity.",
-    "category": "clinical anecdote",
+    "title": "Rant about: How I lost a patient due to delayed diagnosis of Pulmonary Embolism",
+    "body": "Just had a wake-up call in the ED today. Patient 'Barnaby Finch' (age 32, never smoked) comes in complaining of sudden onset chest pain and shortness of breath. BP's are 90/60, HR's 110, O2 sats 88% on RA. D-dimer is high, but we delayed ordering a CT scan because 'it was a long wait' and 'we're short-staffed'. Long story short, patient coded in the ED, turned out to be a massive PE, and we had to call in a helicopter to rush him to the ICU. I just found out he's in cardiac arrest now... and it's all because we took too long to get him to the CT suite. I'm still shaken.",
+    "category": "emergency medicine",
     "comments": [
       {
         "id": 1,
@@ -314,653 +614,335 @@
         "user": "Dr. Aris Thorne",
         "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "Great reminder to rule out calcium channel blocker toxicity in patients with bradycardia and hypotension. Did you use a specific antidote protocol for the beta blocker toxicity? I always prefer to use digoxin-specific antibody fragments (Fab) for beta blocker toxicity, but I've also heard of using glucagon and calcium gluconate.",
+        "text": "That's a sobering story, Doc. Reminds me of the importance of prioritizing high-risk patients and not getting bogged down by wait times. D-dimer is high, get the patient to CT ASAP! We need to make sure we're not missing this diagnosis.",
         "color": "purple"
       },
       {
         "id": 2,
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Lol, that's what I've been saying all day, Doc! Don't let the 'wait times' get in the way of getting the patient to the CT suite. What was the actual delay time from when the lab results came back to when the CT was ordered? Asking because we need to quantify what's going wrong here.",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Interesting case! What Wells score did the patient have, if I might ask? Also, did they have any of the traditional risk factors for PE (e.g., recent surgery, trauma, estrogen use)? I'm trying to piece together why the diagnosis was so delayed.",
+        "color": "purple"
+      },
+      {
+        "id": 4,
+        "parent_id": 2,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "The delay from lab results to CT order was about 30 minutes. Patient had a moderate risk of PE based on the Wells score (4 points), and yes, they had a history of estrogen use and recent surgery.",
+        "color": "green"
+      },
+      {
+        "id": 5,
+        "parent_id": 3,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "That's a good point about the traditional risk factors. However, isn't there a more specific scoring system for PE, like the revised Geneva score or the PERC rule?",
+        "color": "purple"
+      },
+      {
+        "id": 6,
         "parent_id": 1,
         "user": "Dr. Victor Sterling",
         "role": "Chief of Surgery",
         "city": "Calgary, AB",
-        "text": "Amateurs. You're overcomplicating things. Just use some good old-fashioned supportive care and let the patient's body recover. No need for all these fancy antidotes and protocols. And by the way, beta blocker toxicity is not all that common, so don't get too worked up about it.",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Dr. 'Ziggy' Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "@Dr. Sterling, come on, man! You can't be serious about just using supportive care for beta blocker toxicity. That's exactly what got us sued all those years ago. And by the way, beta blocker toxicity is NOT rare - it's common, especially with sustained-release products. We need to take it seriously and use the right antidotes.",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "What's the difference between the various types of calcium channel blockers? And how do we differentiate between the different types of beta blocker toxicity?",
-        "color": "orange"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Good question, Leo. The main types of calcium channel blockers are phenylalkylamines (verapamil), benzothiazepines (diltiazem), and dihydropyridines (nifedipine). Verapamil and diltiazem tend to have more pronounced effects on the myocardium, whereas dihydropyridines tend to cause reflex tachycardia. Beta blocker toxicity can be differentiated based on the specific beta blocker ingested, as well as the presence of bradycardia and hypotension.",
-        "color": "green"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "I've heard that verapamil and diltiazem can also cause hyperglycemia and lactic acidosis in severe cases of toxicity. Is that accurate?",
-        "color": "blue"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "TLDR: Yes, it's true. Those two calcium channel blockers can cause some nasty metabolic derangements in severe cases. But hey, at least we can use some of those fancy-schmancy antidotes to counteract the effects!",
-        "color": "green"
-      },
-      {
-        "id": 8,
-        "parent_id": null,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "Good grief, what's all this fuss about? In my day, we just gave the patient some quinine and let the symptoms resolve on their own. None of this fancy antidote business.",
+        "text": "Amateurs! It's cases like this that remind me how clueless most ER docs are when it comes to real clinical medicine. Don't even get me started on how poorly we train ER physicians... (just kidding, sort of). Seriously though, how many ER physicians have the clinical expertise to manage this case? Too many of these docs have no business making high-stakes decisions like this.",
         "color": "red"
       },
       {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Oh my stars, Dr. Thorne! You're so funny! But seriously, what's quinine got to do with beta blocker toxicity?",
-        "color": "yellow"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Ha! Good one, Sparkle-Eyes. Quinine has nothing to do with beta blocker toxicity. Dr. Thorne here is just nostalgic for the good old days.",
-        "color": "purple"
-      },
-      {
-        "id": 11,
-        "parent_id": null,
-        "user": "Dr. Phil Muddle",
-        "role": "EP",
-        "city": "Regina, SK",
-        "text": "Huh? I thought digoxin-specific antibody fragments (Fab) were for digoxin toxicity, not beta blocker toxicity?",
-        "color": "orange"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Dr. 'Ziggy' Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "@Dr. Muddle, nope! Fab is specifically for treating beta blocker toxicity, as well as calcium channel blocker toxicity. It works by binding to the beta blockers and neutralizing them, thereby reversing their toxic effects. Make sense?",
-        "color": "green"
-      },
-      {
-        "id": 13,
-        "parent_id": 12,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "Wait, what? You're talking about antidotes and beta blockers and... Owwww, my head!",
-        "color": "pink"
-      }
-    ],
-    "image": "https://i0.wp.com/first10em.com/wp-content/uploads/2015/08/calcium-channel-blocker-poisoning1.png?fit=1024%2C576&ssl=1"
-  },
-  {
-    "title": "Today I learned about the complexities of ischemic stroke management.",
-    "body": "Just saw a patient with a cryptic presentation of ischemic stroke that highlighted the nuances of managing these patients. As I pondered the nuances of thrombolysis and the limitations of our current understanding of cerebral blood flow, I couldn't help but share this anecdote with the community.\n\nA 45 year-old male with a history of hypertension presented with sudden onset of right hemiparesis. The ECG was normal, and the lab work revealed a slightly elevated CRP. The head CT showed early signs of cerebral edema with no evidence of hemorrhage. Given the patient's time of onset was within the 3 hour window, we initiated thrombolysis with recombinant tissue plasminogen activator (rtPA).\n\nHowever, as we were administering the rtPA, our patient's blood pressure began to spike, reaching 220/120 mmHg. We quickly realized that the patient had a history of significant head trauma 2 months prior and a recent history of hypertension. In this scenario, are we considering the risks and benefits of thrombolysis, and are we considering alternative strategies, such as mechanical thrombectomy?\n\nTLDR; Cryptic ischemic stroke presentation in a patient with complex medical history highlights the need for careful consideration of thrombolysis risks and benefits, as well as the utility of alternative strategies like mechanical thrombectomy.\n\nEdit: Thank you for all the insightful comments! I'd like to highlight Dr. Maya Gupta's comments on the importance of carefully weighing the risks and benefits of thrombolysis in patients with complex medical histories.\n\nI'd like to ask the community to weigh in on the following:\n\n1. What are the key factors that should be considered when deciding whether to administer thrombolysis in a patient with a complex medical history?\n\n2. In patients with a history of significant head trauma, what are the contraindications for thrombolysis, and what alternative strategies can be employed?\n\n3. What are the current guidelines for mechanical thrombectomy in patients with acute ischemic stroke?\n\nPlease share your thoughts, and let's keep the discussion going!",
-    "category": "emergency medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "When considering the risks and benefits of thrombolysis in complex patients, I think we need to prioritize careful patient selection. In this case, the patient's history of significant head trauma and recent hypertension were red flags for potentially exaggerated intracerebral bleeding risk. Did we consider alternative strategies like endovascular thrombectomy, or did we lean towards rtPA?",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "I think we should also consider the patient's coagulopathy and potential bleeding risks. In our hospital, we have a protocol for pre-treatment coagulopathy evaluation before administering rtPA. Did we check the patient's PT/INR and PTT before initiating treatment?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "I'd like to ask, what are the criteria for selecting patients for endovascular thrombectomy, and how do we decide when to transition from rtPA to MEC in a patient with acute ischemic stroke? Are there specific imaging characteristics or clinical features that would sway us towards one treatment over the other?",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 2,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Hiya, friends! I just wanted to chime in and say that our hospital has a stroke protocol that includes a rapid evaluation and imaging protocol to help identify patients who may benefit from rtPA or MEC. We also have a multidisciplinary team that reviews each case and makes recommendations. How do you guys handle stroke cases in your hospital?",
-        "color": "yellow"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "That's a great question, Sue. In our hospital, we have a comprehensive stroke center with a dedicated team for acute ischemic stroke management. We use a combination of imaging modalities, clinical evaluation, and laboratory studies to guide our treatment decisions. We also have a strong focus on quality improvement and ongoing education for our staff to ensure we're providing the best possible care for these patients.",
-        "color": "pink"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Wow, that sounds amazing! I'm not even close to being that efficient in my stroke management skills yet. Can someone break down what the ideal imaging protocol for acute ischemic stroke would look like?",
-        "color": "orange"
-      },
-      {
         "id": 7,
         "parent_id": 6,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "Back in my day, we used to rely heavily on the classic 'spot sign' to identify potential hemorrhage. These days, I'm not entirely sure what the latest and greatest is, but I do know that non-contrast CT and CT angiography are still the mainstays of imaging in acute ischemic stroke.",
-        "color": "purple"
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "title": "Rant about Acute Urinary Retention: A Reality Check for EPs",
-    "body": "Just had to admit a 70-year-old man with an obstructive stone causing acute urinary retention. It got me thinking, have we become too reliant on 'easiest' solutions like passing a cath? What about exploring the underlying causes? TLDR: we need to be doing more than just cathing.",
-    "category": "Emergency Medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Hear, hear! I completely agree. We should be looking for modifiable risk factors like BPH, diabetes, and a history of pelvic surgery. It's not just about cathing, it's about preventing re-admissions and optimizing patient outcomes. @Leo Chen, don't get me wrong, cathing can be lifesaving, but we need to dig deeper.",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
         "user": "Leo Chen",
         "role": "MS1",
         "city": "Montreal, QC",
-        "text": "Thanks for the clarification, Dr. Sharp! But how do we prioritize the workup? I've seen patients with multiple comorbidities and a complex history. Do we start with a CT scan or try to get more history?",
+        "text": "Umm, Dr. Sterling, aren't you, um, somewhat contradicting yourself here? 'Clueless' vs. 'serious'... can you clarify what you mean by that?",
         "color": "blue"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Leo, don't worry, it's a great question! For me, it's about getting a sense of the patient's overall condition. If they're hemodynamically unstable or have severe symptoms, we prioritize the immediate workup. For others, a more focused approach is better. Check out this article on prioritizing medical imaging [link to article]",
-        "color": "orange"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs. We're too quick to cath every patient. I think we overemphasize the risks of delaying cathing. What about patients with a history of BPH or previous pelvic surgery who might benefit from a more gentle approach?",
-        "color": "red"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "I see what you're saying, Dr. Sterling, but isn't that a bit extreme? Don't we have a responsibility to manage patient expectations and provide evidence-based care? We need to weigh the risks and benefits of cathing vs. alternative approaches. Can anyone provide an example of a patient where alternative methods might be better?",
-        "color": "yellow"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Actually, Dr. Sharp, I think I have an example. I recently saw a patient with chronic retention and a history of pelvic radiation therapy. The urologist was concerned about the risk of catheter-induced urinary tract injuries. We tried alternative methods like bladder drills and pelvic relaxation exercises, which improved patient satisfaction and reduced the risk of complications.",
-        "color": "gray"
-      },
-      {
-        "id": 7,
-        "parent_id": null,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "Just adding my two cents as a nurse. We see the downstream effects of unnecessary cathing every day. Patients who are cathed unnecessarily are more likely to develop infections, UTIs, and other complications. I think we need to be more mindful of the patient's overall condition and less dependent on the 'easy' solution.",
-        "color": "brown"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Preach, Martha! You're right on track. And let's not forget the psychological impact of cathing on patients. We need to address the underlying causes, not just the symptoms.",
-        "color": "green"
-      },
-      {
-        "id": 9,
-        "parent_id": 1,
-        "user": "Dr. Phil Muddle",
-        "role": "EP",
-        "city": "Regina, SK",
-        "text": "Okay, I think I might be missing something. Can someone explain the difference between acute and chronic retention, and why it matters?",
-        "color": "pink"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Great question, Dr. Muddle! Acute retention is typically caused by obstruction, while chronic retention is often related to decreased bladder contractility. Understanding the distinction is crucial for choosing the right treatment approach. @Leo Chen, can you clarify the management algorithm for acute retention?",
-        "color": "orange"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Thanks for pointing that out, Dr. Sharp! According to the Urology guidelines, we should start with a urinary retention catheter and reassess the patient after 4-6 hours. If the patient shows no improvement, we may need to consider more advanced management options like uroflowmetry and voiding cystourethrogram.",
-        "color": "lightblue"
-      },
-      {
-        "id": 12,
-        "parent_id": 1,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "In my day, we didn't have all these fancy treatments for urinary retention. We just relied on good old-fashioned bladder stretching exercises and a bit of willpower. Patients back then didn't need catheters half the time!",
-        "color": "darkgray"
-      },
-      {
-        "id": 13,
-        "parent_id": 12,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Wow, Dr. Thorne, you're really old-school! Did you ever have to deal with, like, super-old people back in the day? Maybe ones with stones or stuff?",
-        "color": "blue"
-      }
-    ]
-  },
-  {
-    "id": 6,
-    "title": "Rant about opioid toxicities: how do you guys handle these patients in the ED?",
-    "body": "Just had another opioid tox come through and it got me thinking about my approach. Does anyone else have a standard protocol for dealing with these patients? I've been using naloxone 0.1-0.4mg IV, SC or IM initially, but sometimes it feels like we're just playing a game of whack-a-mole trying to keep them awake and breathing. Anyone have any tricks up their sleeves?",
-    "category": "Clinical Anecdote",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I'm with you, OP. Naloxone can be unpredictable, especially with mixed agonist-antagonist opioids like tramadol. I've started using an infusion of naloxone 0.5-1mg/hr in big overdoses (e.g. heroin or fentanyl). Works pretty well, but you gotta be careful with the dose.",
-        "color": "blue"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Wait, is naloxone actually working or are we just feeling good about ourselves? Like, does it have some placebo effect or something?",
-        "color": "gold"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "What about the difference between IV, SC and IM administration? Does it really matter which route we use for naloxone?",
-        "color": "orange"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "According to the literature, there's not much difference between IV and IM administration of naloxone in terms of onset or efficacy. But SC can be tricky, especially in kids or frail elderly. Anyone have experience with that?",
-        "color": "red"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Oh, it matters a LOT which route we use! Trust me on this. IV is way faster than any of the others, and we can get it in quickly. SC is nice and all, but don't get me wrong, IV is the clear winner here. Just don't forget the dose!",
-        "color": "turquoise"
-      },
-      {
-        "id": 6,
-        "parent_id": 1,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "I recall when we used to use nalorphine as a reversing agent for opioids. Not sure if that's still a thing, but I'm thinking maybe it's time to revisit some of these older meds?",
-        "color": "violet"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Actually, nalorphine is not as effective as naloxone, and it has more side effects, so it's generally not used anymore. But that's an interesting historical tidbit, Doc!",
-        "color": "black"
-      },
-      {
-        "id": 8,
-        "parent_id": 6,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Oh, I don't think so, Sarah. I'm pretty sure we still use nalorphine (aka Nalline) in some cases, especially for chronic pain patients on high-dose opioids. Maybe it's not the magic bullet, but it's definitely got some uses.",
-        "color": "green"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Dr. 'Ziggy' Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "And btw, has anyone else noticed how the fentanyl epidemic has changed our practice? We used to be super aggressive about reversing these tox, but now it's like we're just trying to keep them alive long enough for the police to arrive... or not.",
-        "color": "teal"
-      }
-    ],
-    "image": "https://emergencymedicinecases.com/wp-content/uploads/2018/10/Opiod-Overdose.jpg"
-  },
-  {
-    "id": 1,
-    "title": "TL;DR - Today I learned to think twice before using tissue adhesive on forehead lacerations",
-    "body": "I had a miss last night. A 30-year-old male patient came in with a deep (5mm) forehead laceration above his left eyebrow, obtained from a motorcycle accident. I closed the wound with 6-0 non-absorbable interrupted sutures and tissue adhesive in the epidermal layer. Fast forward 12 hours, the patient returns with a huge hematoma above the laceration site! Turns out the tissue adhesive failed to hold the wound edges together. After reevaluating the literature, I realized that tissue adhesive is not recommended for closing deep lacerations, especially on the forehead where adherence to bone is strong. Has anyone else had experience with tissue adhesive failure in similar cases?",
-    "category": "EM",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Great case! I've had similar issues with tissue adhesive on scalp lacerations. I'd recommend using staples or rapid absorbable sutures for deep lacerations instead. Has anyone used the Gore-Tex suture material for scalp closures? Heard it's great for preventing hematoma formation.",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Interesting point about the Gore-Tex suture material, Dr. Gupta! However, I've read that it's contraindicated for use in the scalp due to the increased risk of suture sinus tract formation. Would you happen to know of any studies confirming this?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Ah, great catch Sarah! You're absolutely right. I must have made an error in my previous statement. I'll make sure to correct you on that. Instead, what about using non-absorbable epidermal sutures (e.g., monofilament nylon) for scalp closures? Do you think that's a more reliable method?",
-        "color": "pink"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "I've had success with using a combination of rapid absorbable sutures and adhesive strips for scalp closures. What do you guys think about the role of adhesive strips in preventing hematoma formation?",
-        "color": "blue"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Interesting point about adhesive strips, Dr. Varkov! I've seen those used effectively in some cases, but I've also had patients develop skin irritation or allergic reactions. Do you have any tips on how to minimize those risks?",
-        "color": "yellow"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Great question, Turbo Tom! I'd recommend using a gentler adhesive strip, such as one coated with a silicone or hypoallergenic adhesive. Also, be sure to pre-medicate your patients with antihistamines or steroids if they have a history of skin allergies.",
-        "color": "orange"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "TLDR; I saw a patient with septic shock in ED last nite and I'm still trying to process the complexity of managing SIRS.",
-    "body": "Just saw a patient with septic shock in the ED last night and I'm still trying to process the complexity of managing SIRS. Patient presented with fever, tachycardia, and a sudden drop in blood pressure. I immediately thought of the possibility of sepsis and started working on resuscitation. But, as I delved deeper into the patient's history and labs, I realized that the situation was more nuanced than I initially thought.\n\nPatient had a complex history of diabetes, hypertension, and a prolonged history of IV drug use. The labs showed evidence of organ dysfunction, but the source of the infection was not immediately apparent. \n\nAs a resident, I'm still trying to wrap my head around the concept of SIRS and why it's such a critical part of the sepsis protocol. I've been reading up on it, but I'd love some insight from more experienced docs out there.",
-    "category": "emergency medicine",
-    "comments": [
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Toronto, ON",
-        "text": "Great case study! I think the key takeaway here is that sepsis can manifest differently depending on the underlying comorbidities of the patient. It's not just about the usual suspects like gram-negative rods or MRSA. Have you thought about the possibility of fungal or parasitic infections being the underlying cause?",
-        "color": "purple"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "That's a great point! I've read about fungal infections being a big concern in diabetic patients. What are some of the key lab values or imaging findings that you look for when suspecting a fungal infection in sepsis? And are there any specific treatment protocols you follow?",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": 3,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Calgary, AB",
-        "text": "But what about the patient's history of IV drug use? Doesn't that point towards a different set of infectious agents? Could you elaborate on why you thought it might not be related?",
-        "color": "purple"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Toronto, ON",
-        "text": "Exactly! IV drug use is a huge risk factor for certain types of infections, like endocarditis or osteomyelitis. But in this case, I was thinking more about the possibility of an IV line-related infection, like a peripheral line or a PICC line. Have you seen cases like that in the past?",
-        "color": "green"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Actually, I had a similar case a few years ago where a patient with sepsis had a history of IV drug use and an infected IV line. In retrospect, it was a pretty obvious diagnosis, but at the time, I was stumped. It just goes to show that we need to be aware of all the potential sources of infection and keep an open mind when evaluating patients.",
-        "color": "purple"
       },
       {
         "id": 8,
         "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "I love the clinical detail and discussion here! As an ER nurse, I have to say that I've seen my fair share of sepsis cases, but I always learn something new. Can anyone recommend some of the latest studies or guidelines for managing SIRS and sepsis in adults?",
-        "color": "blue"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Sara Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Great suggestion! The latest Surviving Sepsis Campaign guidelines are a must-read for anyone dealing with sepsis. Have you guys seen the 2022 update? It's all about personalizing treatment based on the individual patient's risk factors and comorbidities.",
-        "color": "red"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Ooh, I had to look up what SIRS stands for! Systemic Inflammatory Response Syndrome, right? So it's basically a sign that the body's going into overdrive, right? Can someone explain it in more plain speak for me, please?",
-        "color": "pink"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Today I learned about an obscure yet crucial complication of cirrhosis: hepatorenal syndrome (HRS)!",
-    "body": "Just saw a patient with cirrhosis present to the ED with worsening ascites and edema, altered mental status, and a history of recent GI bleed. The patient's labs showed elevated creatinine and BUN, but no clear evidence of intrinsic renal disease. I was stumped - what could be causing this functional renal failure? ",
-    "category": "Emergency Medicine",
-    "comments": [
-      {
-        "id": 10,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "HRS is a major complication of cirrhosis! It's defined as functional renal failure in cirrhotic patients in the absence of intrinsic renal disease. The key is to recognize that it often accompanies spontaneous bacterial peritonitis (SBP). Did you check the patient's ascitic fluid for signs of infection?",
-        "color": "purple"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "I recall a paper from last year that highlighted the importance of prompt treatment with albumin and midodrine in HRS. Has anyone seen any success with that treatment combo?",
-        "color": "green"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
         "user": "Dr. Rick 'The Rage'",
         "role": "EP",
         "city": "Windsor, ON",
-        "text": "TLDR: Don't just give them fluids, give them some protein and a bit of a stimulant. But seriously, folks, this is a life-or-death situation. We need to act fast. Has anyone got some resources on this topic? Maybe some up-to-date guidelines?",
-        "color": "green"
+        "text": "You know what's frustrating? When we get caught up in debates over scoring systems and traditional risk factors, while real patients are dying due to delays in diagnosis. Let's keep the focus on identifying the patient's needs and getting them the treatment they deserve.",
+        "color": "orange"
       },
       {
-        "id": 13,
-        "parent_id": 12,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "A good resource on HRS is the AASLD guidelines on the management of cirrhosis. Specifically, check out the sections on ascitic fluid analysis and the treatment of HRS. We should also consider consulting a hepatologist for guidance on these complex cases.",
-        "color": "purple"
-      },
-      {
-        "id": 14,
-        "parent_id": 13,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "I'm still not clear on the pathophysiology of HRS. Could someone explain the relationship between cirrhosis and renal failure in simplified terms?",
-        "color": "green"
-      },
-      {
-        "id": 15,
-        "parent_id": 14,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "In simple terms, HRS is caused by the cirrhosis-induced decrease in hepatic blood flow, leading to a decrease in renal blood flow and subsequently renal failure. The cirrhosis also impairs the liver's ability to metabolize substances that would normally be cleared by the kidneys, leading to a build-up of toxins that further exacerbate renal failure.",
-        "color": "purple"
-      },
-      {
-        "id": 16,
-        "parent_id": 15,
+        "id": 9,
+        "parent_id": 8,
         "user": "Chad Broson",
         "role": "Pre-med",
         "city": "Brampton, ON",
-        "text": "Wait, so you're saying that cirrhosis is like a big blockage in the liver's blood flow? Like a pipe clog?",
-        "color": "red"
+        "text": "Amen to that, Dr. Rick! What can we do to improve communication and make sure everyone's on the same page when a patient's life is on the line?",
+        "color": "pink"
       },
       {
-        "id": 17,
-        "parent_id": 16,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "Ah, my young friend, it's not quite that simple. The liver's blood flow is indeed compromised, but it's more accurate to think of it as a 'toxic soup' that's causing the renal failure. The liver's inability to clear the blood of waste products leads to a toxic build-up that ultimately damages the kidneys.",
-        "color": "purple"
-      },
-      {
-        "id": 18,
-        "parent_id": 17,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Now I'm gettin' a clear picture, boys and girls! But what about prophylaxis, is there any role for diuretics or ACE inhibitors in preventin' HRS?",
-        "color": "green"
-      },
-      {
-        "id": 19,
-        "parent_id": 18,
+        "id": 10,
+        "parent_id": 1,
         "user": "Dr. Elena Varkov",
         "role": "FRCPC",
         "city": "Quebec City, QC",
-        "text": "Actually, the latest guidelines suggest avoiding diuretics in cirrhotic patients, as they can precipitate HRS. ACE inhibitors may be beneficial in some cases, but we need more research to confirm their efficacy.",
+        "text": "From my experience, these kinds of cases often boil down to a communication breakdown between the ER physicians and the radiologists. Can we talk about how to streamline this process and make sure we're getting those CT scans done ASAP?",
+        "color": "brown"
+      }
+    ]
+  },
+  {
+    "posts": [
+      {
+        "id": 1,
+        "category": "today_il Learned",
+        "title": "TIL soft tissue infections are more aggressive than I thought... ",
+        "body": "Just saw a patient with necrotizing fasciitis and I'm still reeling. Thought I was seeing a classic spider bite case, but turns out it was a full-blown necrotizing infection. Had to call in the surgeon and give him a headless chicken impression (if you know, you know). But seriously, folks, do not underestimate the power of necrotizing soft tissue infections!",
+        "comments": [
+          {
+            "id": 1,
+            "parent_id": null,
+            "user": "Dr. Aris Thorne",
+            "role": "Staff Physician",
+            "city": "Toronto, ON",
+            "text": "TLDR: Always think the worst when it comes to soft tissue infections. Trust me, you don't want to delay the diagnosis.",
+            "color": "purple"
+          },
+          {
+            "id": 2,
+            "parent_id": 1,
+            "user": "Sarah Jenkins",
+            "role": "MS3",
+            "city": "Ottawa, ON",
+            "text": "Dr. Thorne, what did you do differently in diagnosis compared to the usual suspects like MRSA? Did you use the LIMA criteria?",
+            "color": "blue"
+          },
+          {
+            "id": 3,
+            "parent_id": 1,
+            "user": "Leo Chen",
+            "role": "MS1",
+            "city": "Montreal, QC",
+            "text": "What's the LIMA criteria and how does it apply to necrotizing fasciitis?",
+            "color": "gray"
+          },
+          {
+            "id": 4,
+            "parent_id": 3,
+            "user": "Dr. Aris Thorne",
+            "role": "Staff Physician",
+            "city": "Toronto, ON",
+            "text": "Ah, Leo, nice one! The LIMA criteria are a set of clinical criteria that help with the diagnosis of necrotizing soft tissue infections. It stands for: Localized area of cellulitis, Increased white cell count, Marked systemic toxicity, and Absence of systemic signs. It's not foolproof, but it helps to heighten suspicion. Now, let's not get too bogged down in the weeds here.",
+            "color": "brown"
+          },
+          {
+            "id": 5,
+            "parent_id": 1,
+            "user": "Dr. Victor Sterling",
+            "role": "Chief of Surgery",
+            "city": "Calgary, AB",
+            "text": "Amateurs like you, Dr. Thorne, are more likely to get patients killed with your loose diagnosis. Always think the worst? More like always think you know it all. What's the actual literature on this topic?",
+            "color": "red"
+          },
+          {
+            "id": 6,
+            "parent_id": 5,
+            "user": "Dr. Aris Thorne",
+            "role": "Staff Physician",
+            "city": "Toronto, ON",
+            "text": "Ah, come on, Dr. Sterling, no need to get your feathers ruffled. I'm just trying to educate on the importance of awareness when it comes to soft tissue infections. As for literature, check out the NEJM article by Stevens et al. from 1982. Still holds up today.",
+            "color": "green"
+          },
+          {
+            "id": 7,
+            "parent_id": 5,
+            "user": "Turbo Tom",
+            "role": "RN",
+            "city": "London, ON",
+            "text": "Dr. Sterling, chill, dude! Dr. Thorne was just trying to help. We've all been there with patients who seem fine one minute and then BAM! Necrotizing fasciitis the next. Maybe we should stick to the evidence-based guidelines instead of fighting each other?",
+            "color": "yellow"
+          },
+          {
+            "id": 8,
+            "parent_id": 7,
+            "user": "Dr. Victor Sterling",
+            "role": "Chief of Surgery",
+            "city": "Calgary, AB",
+            "text": "Evidence-based guidelines are for the birds, Tom. Real doctors use their instincts.",
+            "color": "darkgray"
+          },
+          {
+            "id": 9,
+            "parent_id": 8,
+            "user": "Dr. Sarah Sharp",
+            "role": "EP",
+            "city": "Laval, QC",
+            "text": "Actually, Dr. Sterling, the use of evidence-based guidelines has been shown to improve patient outcomes and decrease unnecessary procedures. Perhaps it's time to update your bedside manner?",
+            "color": "orange"
+          },
+          {
+            "id": 10,
+            "parent_id": 9,
+            "user": "Dr. Victor Sterling",
+            "role": "Chief of Surgery",
+            "city": "Calgary, AB",
+            "text": "You know what's evidence-based? Cutting loose the unnecessary chatter and getting on with the real patient care.",
+            "color": "black"
+          },
+          {
+            "id": 11,
+            "parent_id": 1,
+            "user": "Dr. Ziggy Zalesky",
+            "role": "EP",
+            "city": "Vancouver, BC",
+            "text": "Alright, let's keep it civil, folks! Soft tissue infections can be real tricky, but with the LIMA criteria and some common sense, we can avoid turning into Dr. Thorne's spiderman impressions. Has anyone got some tips for diagnosing MRSA?",
+            "color": "pink"
+          },
+          {
+            "id": 12,
+            "parent_id": 11,
+            "user": "Leo Chen",
+            "role": "MS1",
+            "city": "Montreal, QC",
+            "text": "I heard MRSA often presents with warm, red, tender lesions, and can be mistaken for spider bites. Are there any specific diagnostic tests or treatments?",
+            "color": "lavender"
+          },
+          {
+            "id": 13,
+            "parent_id": 12,
+            "user": "Dr. Ziggy Zalesky",
+            "role": "EP",
+            "city": "Vancouver, BC",
+            "text": "That's right, Leo! For MRSA, we usually start with a culture and Gram stain to confirm the diagnosis. Treatment involves clindamycin and/or vancomycin, depending on the severity and any allergies. Incision and drainage can be necessary for abscesses. And yes, it's easy to get fooled by spider bites, but that's where the LIMA criteria come in handy.",
+            "color": "bluegreen"
+          },
+          {
+            "id": 14,
+            "parent_id": 11,
+            "user": "Dr. Maya Gupta",
+            "role": "PGY2",
+            "city": "Mississauga, ON",
+            "text": "For MRSA, don't forget to use a contact lens on that abscess! You don't want any surprises when you're trying to drain it. Any thoughts on outpatient management for soft tissue infections?",
+            "color": "grayblue"
+          },
+          {
+            "id": 15,
+            "parent_id": 14,
+            "user": "Sparkle-Eyes Sue",
+            "role": "LPN",
+            "city": "St. John's, NL",
+            "text": "Aren't you referring to the contact precautions? We've got to get the patient's family to use gloves when handling their sores.",
+            "color": "pastel pink"
+          },
+          {
+            "id": 16,
+            "parent_id": 15,
+            "user": "Dr. Maya Gupta",
+            "role": "PGY2",
+            "city": "Mississauga, ON",
+            "text": "Exactly, Sparkle-Eyes! And for outpatient management, I like to use a combination of antibiotics, wound care, and monitoring. It's all about risk stratification, eh?",
+            "color": "turquoise"
+          },
+          {
+            "id": 17,
+            "parent_id": 16,
+            "user": "Martha 'The Hammer'",
+            "role": "RN",
+            "city": "Halifax, NS",
+            "text": "As the lead RN on this floor, I can attest that Martha has it right. You've got to have the antibiotics, but you've also got to watch those red flags for sepsis.",
+            "color": "maroon"
+          },
+          {
+            "id": 18,
+            "parent_id": 1,
+            "user": "Dr. Elena Varkov",
+            "role": "FRCPC",
+            "city": "Quebec City, QC",
+            "text": "Let's talk about sepsis. Do you guys have a go-to treatment protocol for suspicion of septic shock?",
+            "color": "dark blue"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "TIL that decompression sickness (DCS) from diving can masquerade as respiratory distress in ED #EMTIPS",
+    "body": "Had a patient with decompression sickness (DCS) present to the ED complaining of severe respiratory distress with cough and shortness of breath. Initial vitals: BP 160/90, HR 120, RR 30, Spo2 92%. Chest X-ray showed bilateral infiltrates and pulmonary edema. At first, I suspected acute respiratory distress syndrome (ARDS) due to the patient's symptoms and lab results. However, after further questioning, it turned out the patient had been on a recreational scuba diving trip and exceeded the recommended dive time.",
+    "category": "EMTIPS",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "",
+        "city": "Mississauga, ON",
+        "text": "Great teaching moment!\n\nDecompression sickness (DCS) is an underdiagnosed condition in ED. It typically presents within minutes to hours of surfacing after a dive, with symptoms ranging from mild to severe.\n\nIn this case, the patient likely had Type I DCS, 'pain-only', which is characterized by mild symptoms like joint or muscle pain. However, Type II DCS, 'limbed DCS', can manifest with severe respiratory distress, neurological symptoms, or even death.\n\nKey differentiators from ARDS or other respiratory causes are the history of diving, delayed onset of symptoms, and the specific type of radiographic findings. Always ask about diving or flying history in patients presenting with unexplained respiratory distress!",
         "color": "purple"
       },
       {
-        "id": 20,
-        "parent_id": null,
-        "user": "Dr. Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "Can we wrap this up? I've got a patient waiting for me and I need to get back to the OR.",
-        "color": "red"
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "That's so cool!\n\nWhat specific radiographic findings are typical in DCS?",
+        "color": "blue"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Dr. Maya Gupta",
+        "role": "",
+        "city": "Mississauga, ON",
+        "text": "Great question, Leo!\n\nIn DCS, you might see diffuse, bilateral lung infiltrates, often described on chest X-ray as 'ground-glass opacities'. These findings may be accompanied by pleural effusions or pneumothoraces. However, in some cases, the X-ray may appear normal or show only mild pulmonary edema. CT scans can be more sensitive in detecting DCS-related lung injuries.\n\nIt's essential to note that not all patients with DCS will have these specific radiographic findings. A diagnosis is primarily based on clinical history and symptoms.",
+        "color": "purple"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Thank you for sharing this case, Dr. Gupta! It's crucial to consider DCS in the differential diagnosis of patients presenting with unexplained respiratory distress, especially in scuba divers.\n\nHow did you manage this patient, and was the diagnosis confirmed through further testing or treatment?",
+        "color": "orange"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Maya Gupta",
+        "role": "",
+        "city": "Mississauga, ON",
+        "text": "Yes, great follow-up question! \n\nGiven the high suspicion for DCS, I initiated treatment with 100% oxygen, IV hydration, and anti-inflammatory medication (prednisone). Further testing, including hyperbaric oxygen therapy, was not required in this case, as the patient showed significant improvement after initial treatment.\n\nThe diagnosis was confirmed based on the clinical presentation, history, and response to treatment. However, if DCS is suspected, further testing with a hyperbaric chamber or other specific diagnostic modalities might be necessary.",
+        "color": "purple"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Awesome!\n\nCan hyperbaric oxygen therapy help with the symptoms or just the diagnosis?",
+        "color": "pink"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Hyperbaric oxygen therapy (HBOT) can both aid in diagnosis and help alleviate symptoms. However, its primary role is in the treatment of Type II DCS, where it can help stabilize the patient and reduce the severity of the decompression sickness.\n\nIn the case of Type I DCS, like this patient, HBOT is not usually necessary, and treatment can be primarily symptomatic.\n\nFor more information on HBOT, I highly recommend checking out this lecture on the American Academy of Underwater Sciences website [link to resource]",
+        "color": "orange"
       }
     ],
-    "image": "https://thecurbsiders.com/wp-content/uploads/2023/06/PastedGraphic-1.png"
+    "image": "https://my.clevelandclinic.org/-/scassets/images/org/health/articles/acute-respiratory-stress-syndrome"
   }
 ]
