@@ -1,9 +1,9 @@
 [
   {
     "id": 0,
-    "title": "Just saw a patient with suspected appendicitis and I'm left wondering...",
-    "body": "Just saw a patient with a 2 day history of worsening abdominal pain that started near the umbilicus and migrated to the right lower quadrant. Classic appendicitis, right? I ordered some labs, a CT scan, and we're waiting for results. Anyone else out there have experience with the diagnostic dilemma that is acute appendicitis?",
-    "category": "Emergency Medicine",
+    "title": "TIL that dehydration can masquerade as almost anything in the ED.",
+    "body": "Had a case last night where a 35-year-old guy comes in complaining of 'heartburn' that's been going on for weeks. BP 90/40, tachycardic, and dry as the Sahara desert. Turns out he's been vomiting for days and hasn't had a sip of water. Not only did he have dehydration, but also signs of renal compromise and likely some degree of electrolyte imbalance. We ended up admitting him for aggressive rehydration and monitoring. Just a reminder that dehydration can present in so many different ways, and it's often not just about the patient's subjective symptoms.",
+    "category": "emergency medicine",
     "comments": [
       {
         "id": 1,
@@ -11,8 +11,8 @@
         "user": "Dr. Victor Sterling",
         "role": "Chief of Surgery",
         "city": "Calgary, AB",
-        "text": "Amateurs. You'd think after all these years you'd know the signs and symptoms of appendicitis. Fever, vomiting, abdominal pain... it's a no-brainer. What's the hold up?",
-        "color": "red"
+        "text": "I'm not surprised. We see this all the time. Patients coming in with vague complaints and a BP of 80/40. Always dehydration, never sepsis. Amateurs.",
+        "color": "blue"
       },
       {
         "id": 2,
@@ -20,324 +20,187 @@
         "user": "Dr. Ziggy Zalesky",
         "role": "EP",
         "city": "Vancouver, BC",
-        "text": "Hold up, Chief? You mean you've given up on the art of clinical diagnosis? \"It's a no-brainer, Ziggy\"? That's not exactly the sort of nuanced discussion we need when it comes to complex cases like this.",
-        "color": "purple"
+        "text": "Oh come on Vic, don't be so harsh. Dehydration is a legit concern, and we should always have a low threshold for suspecting it. Plus, sepsis is a close second when it comes to ED emergencies. TLDR - always consider dehydration and sepsis, even if the patient's history is weird.",
+        "color": "red"
       },
       {
         "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Ah, but that's where you're wrong, Chief. The truth is, we don't have a magic bullet when it comes to diagnosing appendicitis. We rely on a combination of clinical intuition, laboratory findings, and imaging. It's a multifaceted approach, and sometimes we just need to think outside the box.",
-        "color": "blue"
+        "parent_id": null,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "What do I do if I see a patient with dehydration? Is there a specific workup or treatment protocol I should follow?",
+        "color": "purple"
       },
       {
         "id": 4,
         "parent_id": 3,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Thinking outside the box, Dr. Thorne? Can you elaborate on that? I've heard the term thrown around, but I'm not entirely sure what it means.",
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Great question, Leo! The initial workup for dehydration includes a thorough history and physical exam, focusing on signs of dehydration (e.g. decreased urine output, tachycardia, dry mucous membranes). We also need to identify and address any underlying causes, such as vomiting or diarrhea. Treatment usually involves aggressive rehydration with IV fluids, and sometimes blood work to check for electrolyte imbalances.",
         "color": "green"
       },
       {
         "id": 5,
-        "parent_id": 3,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Actually, Dr. Thorne, I think what he's getting at is the concept of considering alternative diagnoses. We can't just assume appendicitis every time we see a patient with RLQ pain. What about appendicular mass, or diverticulitis?",
-        "color": "red"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Wait, what's an appendicular mass? Like, is it a type of tumor or something?",
-        "color": "purple"
-      },
-      {
-        "id": 7,
         "parent_id": 1,
         "user": "Dr. Elena Varkov",
         "role": "FRCPC",
         "city": "Quebec City, QC",
-        "text": "Okay, let's calm down, everyone. I think what we're trying to say is that diagnosing appendicitis is tricky, and we need to consider all the possible explanations. Does anyone have any experience with appendicitis, particularly in adults?",
-        "color": "green"
+        "text": "Vic's right, but we should also consider other possibilities like diabetic ketoacidosis or adrenal insufficiency. Can't just write off the patient as 'dehydrated'. Always consider the underlying cause and workup accordingly.",
+        "color": "red"
+      },
+      {
+        "id": 6,
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Y'all should also consider checking for underlying electrolyte imbalances, especially in cases of severe dehydration. We've had cases where patients were 'just dehydrated' on the surface, but had actual electrolyte issues that needed addressing.",
+        "color": "blue"
+      },
+      {
+        "id": 7,
+        "parent_id": null,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Does anyone know a good algorithm for diagnosing dehydration? Or is it more of a clinical judgment thing?",
+        "color": "purple"
       },
       {
         "id": 8,
         "parent_id": 7,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Actually, I have some experience with adult appendicitis. It's more likely to occur in people over 60, and it can present with atypical symptoms, like fever or abdominal mass. And, of course, there's the issue of atypical pain, which can masquerade as other conditions.",
-        "color": "red"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Atypical pain, Dr. Miller? That makes sense. Can you elaborate on what you mean by that?",
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "Ah, young Chad, dehydration is indeed a clinical diagnosis, but there are some guiding principles. The European Society for Pediatric Gastroenterology, Hepatology, and Nutrition (ESPGHAN) has a set of criteria for diagnosing dehydration in children, which can be adapted for adults as well. Essentially, it comes down to assessing the patient's clinical presentation, fluid status, and electrolyte levels.",
         "color": "green"
       },
       {
+        "id": 9,
+        "parent_id": 5,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Aye aye, Dr. Varkov, I agree! We should always be thinkin' about the underlying causes and doin' a thorough workup. And don't ferget to ask about the patient's meds, doc!",
+        "color": "red"
+      },
+      {
         "id": 10,
-        "parent_id": 3,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "Thinking outside the box, indeed, Dr. Thorne. I think what we're missing here is a good old-fashioned physical exam. We've gotten so caught up in imaging and testing that we forget the value of a good ol' fashion stethoscope.",
+        "parent_id": null,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "30 years on the floor and I can tell you that dehydration is a serious business. We're not just talking about a 'bit of vomiting' here. Get it right, folks!",
         "color": "blue"
       }
     ],
-    "image": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1186%2Fs13017-020-00306-3/MediaObjects/13017_2020_306_Fig2_HTML.png"
+    "image": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1334300168736706"
   },
   {
     "id": 1,
-    "title": "Community-Acquired Pneumonia: A Never-Ending Battle in the ED",
-    "body": "Just saw a patient with CAP and I am still trying to wrap my head around the latest guidelines. Has anyone else noticed how the definition of mild CAP has changed over the years? Used to be just a few symptoms, now it's a laundry list. And don't even get me started on the RSV testing.",
-    "category": "EM",
+    "title": "Frustrating case of PID... or was it?",
+    "body": "Rant about... Just saw a patient with pelvic inflammatory disease (PID) that made me wonder about the nuances of diagnosing PID. The patient was a 22-year-old woman with a 2-day history of pelvic pain. Her vitals were normal, and physical exam revealed lower abdominal tenderness and guarding. Labs showed elevated WBC and CRP. However, her PID workup (cervical culture, vaginal swab, and ultrasound) was negative.\n\nI asked for an endometrial biopsy, but it was sent for analysis without a plan of action. The patient was sent home with a 'likely PID' diagnosis and a follow-up appointment in a week. I was frustrated that we couldn't come up with a concrete plan.\n\nTLDR: What are your guys' experiences with PID? How do you approach the diagnosis and management of suspected PID cases?",
+    "category": "EmergencyMedicine",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "TLDR: The definition of mild CAP has indeed expanded to include more symptoms. This is largely driven by the recognition that even seemingly mild cases can quickly deteriorate. I'd argue that the shift towards more aggressive treatment is warranted, given the potential consequences of delays in care. Has anyone seen the latest CHEST guidelines on CAP?",
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I've seen similar cases where the PID workup is negative, but the patient still has significant symptoms. I've found that it's essential to consider other potential causes, such as ovarian cysts or adnexal torsion. Have you guys explored these differentials?",
         "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs. You're all just perpetuating the trend of over-diagnosing CAP. I'm convinced that half of these cases are just viral syndromes. You need to start thinking outside the box, people. What about the role of viral load in CAP diagnosis?",
-        "color": "red"
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Yeah, I've seen a few cases like that. One of my favorite questions to ask is: 'Does the patient have any recent sexual activity?' It often gives you a clue about the likelihood of PID. Also, have you considered getting a urine culture to rule out a concurrent UTI?",
+        "color": "green"
       },
       {
         "id": 3,
         "parent_id": 1,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "Actually, I was at a conference last week and heard some interesting stuff on the subject of viral load. Apparently, there's a new study that suggests viral load is a significant predictor of CAP progression. Has anyone seen it?",
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "I'm not sure if I missed this, but what about the role of imaging in suspected PID? I've heard it's not always necessary, but in certain cases...",
         "color": "blue"
       },
       {
         "id": 4,
         "parent_id": 1,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Um, hi guys. What's viral load? Is that like when you have a lot of viruses in your body? Can someone explain it to me like I'm 5?",
-        "color": "pink"
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Hi! Can I ask a question about the endometrial biopsy? Why was it sent for analysis without a plan of action? Was it a reflex test or was there something specific you were looking for?",
+        "color": "red"
       },
       {
         "id": 5,
         "parent_id": 4,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Ha ha, nice try, Chad! Viral load refers to the amount of virus present in a person's blood or other bodily fluids. In the context of CAP, it's thought to play a significant role in determining the severity of symptoms and the likelihood of complications. Anyone have a link to the CHEST guidelines?",
-        "color": "yellow"
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Hey Leo! We sent the biopsy for analysis because we were looking for evidence of endometritis. Sometimes, even if the other PID workup is negative, we can still see evidence of endometrial inflammation. It's a way to confirm the diagnosis or rule out other causes.",
+        "color": "purple"
       },
       {
         "id": 6,
-        "parent_id": 3,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "Wait, so you guys are talking about CAP and I'm still trying to figure out if I've got bronchitis or pneumonia? Can someone walk me through the diff between the two, please?",
-        "color": "orange"
+        "parent_id": 1,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "When I was in practice, we used to use a more conservative approach to managing PID. We would start with oral antibiotics and only admit if the patient didn't respond. Does anyone still use this approach?",
+        "color": "blue"
       },
       {
         "id": 7,
         "parent_id": 6,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Not to downplay your symptoms, Barnaby, but CAP and bronchitis are often lumped together. Think of it like this: CAP is a specific diagnosis characterized by an infection of the lung parenchyma, whereas bronchitis is more of a catch-all term for any inflammation of the bronchial tubes. That being said, the treatment approaches are often similar, so let's not get too bogged down in the details.",
-        "color": "purple"
-      },
-      {
-        "id": 8,
-        "parent_id": 2,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "Victor, come on. You know as well as I do that the diagnosis of CAP is often a crapshoot. Sure, you might see some pattern on the CXR, but it's not like we're dealing with some kind of precise science here. What about the role of CXR in diagnosis?",
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "Hi! I'm a bit confused. Can you explain this to me? Why would I be admitted if I didn't respond to oral antibiotics?",
         "color": "red"
       },
       {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "Ah, good question, young man! If you don't respond to oral antibiotics, it means the infection is more severe than we initially thought. We might need to add IV antibiotics or even consider surgery to drain the abscess.",
+        "color": "blue"
+      },
+      {
         "id": 9,
-        "parent_id": 8,
+        "parent_id": 1,
         "user": "Dr. Elena Varkov",
         "role": "FRCPC",
         "city": "Quebec City, QC",
-        "text": "Actually, Rick, I've been following some recent literature on the use of CXR in CAP diagnosis. And it seems that CXR can indeed play a valuable role in identifying complications, such as consolidation or cavitation. But what about the use of CT scans? Does anyone have thoughts on that?",
+        "text": "I've seen cases where the patient has a high white blood cell count, but the culture is negative. Could this be a sign of another infection? Has anyone else seen this?",
+        "color": "purple"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "I've read that a high WBC count can be seen in other conditions, such as appendicitis or diverticulitis. Have you guys considered these differentials?",
         "color": "blue"
       }
     ]
   },
   {
-    "post": {
-      "id": 1,
-      "title": "Today I Learned: Sexually Transmitted Infections in Pediatrics",
-      "body": "Just saw a patient with pelvic inflammatory disease (PID) and it got me thinking... Have any of you seen a case of PID that was a direct result of a sexually transmitted infection (STI) in a pediatric patient? I've heard it's not uncommon, but I've never actually seen it in person. Thoughts?",
-      "category": "emergency medicine",
-      "comments": [
-        {
-          "id": 1,
-          "parent_id": null,
-          "user": "Dr. Maya Gupta",
-          "role": "PGY2",
-          "city": "Mississauga, ON",
-          "text": "Actually, I've seen a few cases in the past year. The key is to maintain a high index of suspicion in pediatric patients who present with urinary symptoms. It's not just about looking for leukocytes and nitrites... although that's a good starting point. We need to think about the whole patient - their sexual history, their relationships, their overall health. And don't forget about co-infections like HIV and syphilis!",
-          "color": "purple"
-        },
-        {
-          "id": 2,
-          "parent_id": 1,
-          "user": "Leo Chen",
-          "role": "MS1",
-          "city": "Montreal, QC",
-          "text": "I had a question about the diagnostic workup for PID... Do you guys typically send a urine culture and Gram stain in all pediatric patients with suspected PID, or do you reserve those for certain risk factors?",
-          "color": "green"
-        },
-        {
-          "id": 3,
-          "parent_id": 1,
-          "user": "Sarah Jenkins",
-          "role": "MS3",
-          "city": "Ottawa, ON",
-          "text": "Great discussion, Dr. Gupta! But what about the role of chlamydia and gonorrhea in PID? I've read that these organisms can cause asymptomatic infection in up to 70% of cases.",
-          "color": "green"
-        },
-        {
-          "id": 4,
-          "parent_id": 1,
-          "user": "Dr. Phil Muddle",
-          "role": "EP",
-          "city": "Regina, SK",
-          "text": "Ha! Asymptomatic chlamydia - love it! But seriously, I think the key is to stay vigilant. I once had a patient present with symptoms that sounded suspicious - she was a teenager with a new partner, and her mother was a healthcare worker with a questionable past. Luckily, we were able to pick up the chlamydia before it caused any serious damage. Lesson learned... always consider STIs in the differential! [link to paper on asymptomatic chlamydia]",
-          "color": "purple"
-        },
-        {
-          "id": 5,
-          "parent_id": 4,
-          "user": "Chad Broson",
-          "role": "Pre-med",
-          "city": "Brampton, ON",
-          "text": "OMG, that sounds like a wild case! Can you tell us more about the symptoms and diagnosis? I want to learn more about this!",
-          "color": "blue"
-        },
-        {
-          "id": 6,
-          "parent_id": 1,
-          "user": "Dr. Zachary Thorne",
-          "role": "Staff Physician",
-          "city": "Toronto, ON",
-          "text": "I've seen a few pediatric cases of PID as well, and I think we need to be careful not to miss the subtle signs. For example, I once had a patient present with abdominal pain and fever - but on further examination, I noticed that her cervix was tender to the touch and her uterus was deviated. Long story short, she ended up with a diagnosis of PID and responded well to treatment.",
-          "color": "green"
-        },
-        {
-          "id": 7,
-          "parent_id": 6,
-          "user": "Barnaby Finch",
-          "role": "Patient",
-          "city": "Surrey, BC",
-          "text": "Wait, what do you mean by 'cervix tender to the touch'?",
-          "color": "blue"
-        },
-        {
-          "id": 8,
-          "parent_id": 7,
-          "user": "Dr. Maya Gupta",
-          "role": "PGY2",
-          "city": "Mississauga, ON",
-          "text": "Aww, sorry to confuse you, Barnaby! By 'cervix tender to the touch', I mean that the cervix was inflamed and sensitive when pressed or palpated. It's a classic sign of PID!",
-          "color": "purple"
-        },
-        {
-          "id": 9,
-          "parent_id": 1,
-          "user": "Dr. Elena Varkov",
-          "role": "FRCPC",
-          "city": "Quebec City, QC",
-          "text": "I'd like to add that we need to consider the patient's socioeconomic status and access to healthcare when evaluating for PID. In some populations, delayed diagnosis and treatment may be more common. Let's not forget about equity in healthcare!",
-          "color": "green"
-        }
-      ]
-    }
-  },
-  {
-    "id": 12,
-    "title": "Today I Learned: Disaster Preparedness in the ER - Lessons from Puerto Rico",
-    "body": "Just had a patient in from Puerto Rico, where I worked a month after Maria. The ER was overwhelmed, but we managed to triage patients by priority. I realized that our local disaster plan is lacking in several areas. Has anyone else dealt with a massive disaster response in their ER? Lessons learned appreciated!",
-    "category": "Emergency Medicine",
-    "color": "blue",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "I can imagine the challenges. Our hospital has a disaster plan, but it's mostly focused on mass casualty events. Do you think the Puerto Rican situation could apply to other types of disasters, like hurricanes or floods? Would be great to get some insights.\n\nAlso, how did you triage patients? Did you use existing triage protocols or adapt something else?",
-        "color": "purple"
-      },
-      {
-        "id": 21,
-        "parent_id": 1,
-        "user": "Dr. 'Ziggy' Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Triage protocols can be useful, but it's all about resource management. I've seen some disasters where the triage system is more 'who gets to get treated first?' than anything else. Don't get me wrong, it's better than the alternative, but we need to rethink our priorities.\n\nAlso, the Puerto Rico situation highlights the importance of having a robust communication network. I've heard reports that hospitals were unable to communicate with each other, let alone with the authorities. That's unacceptable.",
-        "color": "green"
-      },
-      {
-        "id": 31,
-        "parent_id": 21,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Great points, Ziggy. Communication breakdowns can lead to chaos and even harm patients. Did you find that the communication issues were due to infrastructure damage or more systemic problems?",
-        "color": "purple"
-      },
-      {
-        "id": 11,
-        "parent_id": 12,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "I'm still fuming about the disaster response in the US. The government's lack of preparedness is a joke. We're talking years of infrastructure investments and they still can't get it right.\n\nWhat's the worst-case scenario for a disaster response? I mean, we all know what the best case looks like, but what if things go sideways?",
-        "color": "red"
-      },
-      {
-        "id": 41,
-        "parent_id": 11,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Dr. The Rage, I'm on board with the frustration, but let's not forget that disaster prep requires a lot of resources. In many cases, the best-case scenario is exactly that: the best case.\n\nAs for the worst-case scenario... I'd say it's when the disaster strikes and we're caught off guard. In that case, our ability to respond depends on how well we've planned, trained, and communicated.\n\nTo that end, the CDC has some great resources on disaster prep and response. Has anyone checked out their disaster preparedness toolkit?",
-        "color": "blue"
-      }
-    ],
-    "image": "https://em.umaryland.edu/files/uploads/ems/7179489_orig.jpg"
-  },
-  {
     "id": 1,
-    "title": "Carbon Monoxide Poisoning - The Gray Area between COHb and Symptoms",
-    "body": "Just saw a patient with a COHb level of 10% who was completely asymptomatic. I know CO poisoning can be tricky, but this seemed like a textbook case of exposure without effects. Has anyone else dealt with this gray area between COHb levels and symptoms? What's the real meaning behind this disconnect?",
-    "category": "emergency-medicine",
+    "title": "TLDR: Recent encounter with acute angle closure glaucoma, and the importance of prompt recognition and management",
+    "body": "Just saw a patient with acute angle closure glaucoma (AACG) last night, and it was a real eye-opener (pun intended). I've been practicing EM for over a decade, and it's astonishing how often I see this condition in its advanced stages. But in this case, the patient was a 40-yo female with no significant past medical history, and the symptoms presented suddenly - sudden headache, vision changes, and colored halos around lights. I had to act quickly to prevent further damage, and I'm grateful that I was able to get her to a hospital with ocular ultrasonography capabilities. I realized that AACG is often precipitated by factors like hypermetropia, anterior segment anomalies, or systemic conditions like hypertension. In this case, the patient had been using erythromycin 2% ointment to treat conjunctivitis, which is a known risk factor. TLDR: be aware of the red flags for AACG, especially in myopic or emmetropic patients, and don't delay evaluation with IOP measurement, visual acuity assessment, and ocular ultrasonography if you suspect AACG. Anyone else have any tips or tricks for managing this condition? What's the most common cause of AACG you've seen in your EM practice?",
+    "category": "emergency_medicine",
     "comments": [
       {
         "id": 11,
@@ -345,80 +208,80 @@
         "user": "Dr. Aris Thorne",
         "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "CO poisoning is a classic example of a 'silent killer.' The clinical presentation can be nonspecific, and even with elevated COHb levels, patients may not exhibit overt symptoms. It's essential to consider the patient's medical history, environmental exposures, and potential sources of CO exposure when evaluating for CO poisoning.\n\nOne case that comes to mind is a patient who was exposed to CO from a faulty heating system in their home. Despite having a significant level of COHb (25%), the patient remained asymptomatic, only presenting with mild headaches once CO exposure was noted. This highlights the need for awareness and prompt identification of CO poisoning, even in the absence of overt symptoms.\n\nTLDR: CO poisoning can manifest without symptoms, even with elevated COHb levels. Consider environmental and medical histories to accurately diagnose.",
+        "text": "The key to managing AACG is prompt recognition and rapid treatment with IOP-lowering agents. We have a protocol at our hospital that involves the administration of IV acetazolamide 500mg as soon as possible, followed by topical pilocarpine 4% to help open the angle. It's also essential to assess for and manage any precipitating factors, such as hypermetropia or systemic conditions like diabetes and hypertension. I've found that a thorough review of the patient's medications is also crucial, as certain agents like erythromycin can contribute to AACG in susceptible individuals. In this case, the patient's use of erythromycin eye ointment was a significant contributor, and we were able to avoid further damage by prompt recognition and treatment.",
         "color": "purple"
       },
       {
         "id": 12,
         "parent_id": 11,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Thorne, do you mean that even if a patient doesn't show symptoms, their COHb level can be high? And what's the cutoff for considering a high COHb level?",
-        "color": "blue"
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "@Dr. Aris Thorne - Agreed on the importance of recognizing the precipitating factors! I always make sure to ask about any new medications or eye drops the patient has started recently. And what about the role of ocular ultrasonography in diagnosing AACG? I've seen some cases where it helped identify the presence of a malignant glaucoma or a retinal detachment.",
+        "color": "green"
       },
       {
         "id": 13,
-        "parent_id": 11,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "Aris, don't even get me started on CO poisoning. I had a patient last week who was admitted with 30% COHb, and they just brushed it off as a 'cold.' I'm starting to think that most patients with CO exposure won't even complain... they'll just go to sleep and not wake up. It's a public health nightmare.",
-        "color": "red"
+        "parent_id": 12,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I've been wondering, how do we differentiate between AACG and other causes of red eye or vision changes? Are there any specific clinical features or diagnostic tests that can help us make a more accurate diagnosis?",
+        "color": "orange"
       },
       {
         "id": 14,
         "parent_id": 13,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Rick, you're telling me! That's why I always make sure to get a COHb level whenever I send someone for tox screens. Can't trust those patients to tell us they've been exposed to CO. I had a case last year where a patient came in with a 15% COHb level, asymptomatic as can be... only for them to reveal later that they'd been hanging out in their garage all night.\n\nTLDR: Get that COHb level, people! It's worth the risk of a few false positives. Better safe than sorry, right?",
-        "color": "green"
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "@Leo Chen - Great question! The red flags for AACG include sudden onset of blurred vision, eye pain, and sensitivity to light. We should also look for signs of increased intraocular pressure, such as corneal edema or shallow anterior chamber. On ocular ultrasonography, we may see signs like increased vitreous echoes or retinal detachment. According to the literature, the most common precipitating factors for AACG are hypermetropia and anterior segment anomalies, making thorough eye exams and assessments of the patient's refractive status crucial.",
+        "color": "purple"
       },
       {
         "id": 15,
         "parent_id": 14,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "As a side note, has anyone looked into the utility of pulse oximetry in patients with CO poisoning? I recall reading a paper on how it can mislead us into thinking patients are okay when they're not...\n\nTLDR: Pulse ox might not be the best tool in CO poisoning cases.",
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I've found that the use of topical medications like pilocarpine can be a game-changer in managing AACG. Have any of you had experience with other treatments, like trabeculectomy or laser iridotomy? And what about the role of systemic medical management, such as IV acetazolamide and topical timolol?",
         "color": "blue"
       },
       {
         "id": 16,
         "parent_id": 15,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Sarah, I think you're onto something there. I've had patients with CO exposure who looked great on pulse ox, but were actually doing pretty badly when we got them in. Don't trust the machine on this one, kids. Go old-school and get a COHb level.",
-        "color": "green"
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "@Dr. Maya Gupta - Pilocarpine is indeed an effective treatment for AACG, but it can have some unwanted effects, such as miosis or bradycardia. We've found that combining it with a beta-blocker, like timolol, can be beneficial in reducing IOP. However, systemic medical management often requires careful consideration of the patient's cardiovascular status and fluid balance. What do you think about the role of laser iridotomy in AACG management?",
+        "color": "orange"
       },
       {
         "id": 17,
         "parent_id": 16,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "I see what you're saying about not relying on pulse ox. But what's a good cut-off for COHb levels to diagnose CO poisoning? Is it 10%, 20%, or somewhere in between?",
-        "color": "blue"
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Is laser iridotomy a standard treatment for AACG? I've heard mixed opinions about its effectiveness.",
+        "color": "green"
       },
       {
         "id": 18,
         "parent_id": 17,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Leo, good question! There isn't a specific cut-off for COHb levels to diagnose CO poisoning. The American College of Medical Toxicology (ACMT) recommends using COHb levels in context, along with a thorough patient history and physical examination. Levels of 5-10% may be considered normal in non-smokers, for instance.\n\nTLDR: Use COHb levels in context, not in isolation.",
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "@Dr. Kevin Park - While laser iridotomy is sometimes used in AACG management, its effectiveness is not well established. A recent systematic review found that it may not be effective in reducing IOP or preventing complications. However, in certain cases, like in patients with anatomical features that contribute to AACG, laser iridotomy may be beneficial.",
         "color": "purple"
       },
       {
         "id": 19,
         "parent_id": 18,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "This is all so confusing, guys. Can we just get a clear answer on what the cutoff is for COHb levels to diagnose CO poisoning? Sorry if this is too basic, but as pre-med, I want to get it right!",
-        "color": "red"
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Thanks for the clarification! What about the prognosis for AACG? Is it generally a treatable condition?",
+        "color": "orange"
       },
       {
         "id": 20,
@@ -426,248 +289,241 @@
         "user": "Dr. Aris Thorne",
         "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "Chad, don't worry about being 'basic.' It's a great question. Unfortunately, there isn't a clear, one-size-fits-all answer. As Elena mentioned, COHb levels should be considered in context with the patient's history, physical, and symptoms. It's not just about the number.",
-        "color": "green"
-      },
-      {
-        "id": 21,
-        "parent_id": 20,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Thanks, Dr. Thorne! I guess what I'm getting at is that I need to look beyond just the COHb level and consider the whole patient when making a diagnosis.",
+        "text": "@Leo Chen - While AACG is generally a treatable condition, its prognosis can vary depending on the severity of the condition and the promptness of treatment. With rapid recognition and treatment, we can often prevent long-term vision loss or other complications. However, it's essential to educate patients about the importance of follow-up care and regular eye exams to monitor for potential progression or recurrence.",
         "color": "blue"
-      },
-      {
-        "id": 22,
-        "parent_id": 21,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "That's it, kids. That's the takeaway from today's discussion: don't rely solely on COHb levels when diagnosing CO poisoning. Consider the whole patient context. Now if you'll excuse me, I've got better things to do than deal with CO-poisoned patients who think they can just roll out of a garage and into hospital.",
-        "color": "red"
-      },
-      {
-        "id": 23,
-        "parent_id": null,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "Am I the only one thinking we should just start screening all patients for COHb levels whenever they present with headaches or something? It's just common sense, right?",
-        "color": "purple"
-      },
-      {
-        "id": 24,
-        "parent_id": 23,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Martha, I love you, but no. We don't want to be screening every Tom, Dick, and Harry for COHb levels. That's just wasted time and resources. We need to use our heads and think contextually about each patient.",
-        "color": "green"
-      },
-      {
-        "id": 25,
-        "parent_id": 24,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Good points from both Martha and Tom. I agree with Tom that we shouldn't start blanket-screening patients. But maybe we can establish some guidelines or protocols for when to order COHb levels, like for patients with suspected carbon monoxide exposure?",
-        "color": "blue"
-      },
-      {
-        "id": 26,
-        "parent_id": 25,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Ziggy, that's a great idea. Establishing some guidelines or protocols for ordering COHb levels can help us ensure consistency and accuracy in our diagnosis. We should also consider incorporating COHb levels into our emergency department algorithm for suspected CO poisoning.",
-        "color": "purple"
       }
     ]
   },
   {
-    "title": "Today I Learned: Don't forget to check for compartment syndrome in electric shock patients",
-    "body": "Just saw a patient with an electric shock who had a compartment syndrome that was hiding in plain sight. I was so caught up in treating their cardiac symptoms that I completely forgot to check for compartment syndrome. Luckily, the ortho consult was able to catch it and we got them to the OR in time. I'm sharing this as a reminder to all my EM doc friends out there to make sure you're checking for compartment syndrome in your electric shock patients. Rant about how frustrating it was to almost miss it, and how it's never too early to check for CS in a trauma patient.",
-    "category": "EM",
+    "id": 456,
+    "title": "Rant about anticholinergic toxicity in the elderly - what a pain to manage!",
+    "body": "Just had another elderly patient come in with suspected anticholinergic toxicity. The story of course was a typical case of polypharmacy gone wrong - three anticholinergic meds, and you guessed it, a whole host of systemic symptoms: dry mouth, delirium, constipation, and of course, urinary retention. What really got my goat was that the patient's PCP had prescribed these meds without realizing the cumulative effect. Anyhow, I just wanted to vent about how frustrating it is to manage these cases - the meds are everywhere, and it's like trying to solve a puzzle to figure out which one is the culprit. Has anyone else had similar experiences? How do you all approach these cases?",
+    "category": "emergency medicine",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Yikes, that's a good reminder. I've had patients where I thought I'd checked for CS, but really I was just focused on the more pressing issues. Did you end up using a pressure measurement or were you relying on classic signs like the 5 P's (pain, pallor, pulselessness, poikilothermia, and paresthesia)?",
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "TLDR; I completely agree with you, it's like a game of whack-a-mole trying to sort out the meds and their interactions. In my experience, the key is to take a good history and not to jump straight to lab work. Ask the patient about their medications, and if they're unsure, don't be afraid to dig deeper. Sometimes, it's the ones they forget that cause the biggest problems. Here's a link to a great article on the topic: <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5719837/>. It summarizes the risks and how to manage them.",
         "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Actually, I think it was a bit of both. We had the patient on a continuous ECG and their blood pressure was looking a bit concerning, so I started thinking about compartment syndrome a bit more. We also did a quick SBI on the patient and that raised our suspicion. Did you notice anything else about their case that made you think of CS?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "This is a great reminder about the importance of compartment syndrome in trauma patients. Do any of you have experiences with managing CS in patients with other injuries, like head trauma or burns?",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Just to clarify, what are the 5 P's for compartment syndrome? I've heard it's a mnemonic for something, but I'm not sure what it stands for.",
-        "color": "red"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "The 5 P's are: P - pain, P - pallor, P - pulselessness, P - poikilothermia, and P - paresthesia. I've also heard of the 6th P which is paraparesis or paralysis. It's a mnemonic device used to help remember the signs of compartment syndrome.",
-        "color": "purple"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "TL;DR: Today I learned that not all upper GI bleeds are created equal... and neither are we, as docs. Can we all just calm down and use some evidence-based care?",
-    "body": "Just saw a patient with a classic 'whirlpool' bleed and I'm still shaken. But I'm also reminded of how quickly we jump to conclusions (read: admit them) when they vomit 'coffee grounds'. Meanwhile, the poor guy's got a bleeding Meckel's diverticulum... and we all know how common those are in the elderly. I'm not saying don't admit them, but do we really need to rush in with 3L of NS and an NG tube? Can't we just take a closer look and stabilize them first? (I know this won't end well...)",
-    "category": "Casual Discussion, Emergency Medicine, Clinical Pearl",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Ooh, I'm so excited to join this convo! Just the other day, I was askin' one of me colleagues about that whirlpool sign and they said it's only about 50% sensitive... Can we talk more about what we do instead of 'rushing in w 3L of NS'?",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "@Sparkle-Eyes Sue great question! So, if I recall correctly, the whirlpool sign has a very high PPV (>95%) for UGIB, but not great sensitivity (around 50% as you said). So, if I see that whirlpool sign, I'd definitely be leaning towards UGIB, but maybe not quite jump to conclusions yet? Has anyone got some evidence-based algorithms they'd like to share?",
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs! You're all just scratching the surface. Anticholinergic toxicity is a symptom of a bigger problem - we need to address the root cause: ageism in medicine. It's time we stop treating seniors like they're old and feeble, and start giving them the respect they deserve. We need to listen to their concerns, take their symptoms seriously, and stop dismissing their complaints as 'just being old.' Has anyone read the latest paper on geriatric emergency care? (<https://jama.ama-assn.org/article/geriatric-emergency-medical-care-2019/>). It highlights the need for a more holistic approach to care.",
         "color": "green"
       },
       {
         "id": 3,
         "parent_id": 2,
-        "user": "Dr. Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "@Dr. Maya Gupta I love a good algorithm. But honestly, sometimes I think we're over-emphasizing the value of evidence-based medicine when it comes to acute GI bleeds. Can we all acknowledge that UGIB is a life-or-death situation and we need to get our patients on board ASAP, rather than debating which study says what?",
-        "color": "lightblue"
+        "user": "Dr. Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "I understand Dr. Sterling's point, but isn't a more holistic approach to care just a fancy way of saying 'take more time and be more patient'? As an intern, it's already overwhelming trying to manage the patient load, and with the increasing patient acuity, it's getting harder and harder to keep up. How do you balance the need for a more comprehensive approach with the demands of the ED?",
+        "color": "green"
       },
       {
         "id": 4,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Uh, guys? Can you please clarify what the 'whirlpool sign' is? I've never heard of it before... Is it just a fancy name for hematemesis?",
+        "parent_id": 3,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Exactly what I was thinking, Dr. Jenkins. And to Dr. Sterling's point, I think it's not about ageism, it's about taking a more patient-centric approach. The more we can understand a patient's values and goals, the better we can tailor our care to meet their needs. I've been reading about this new framework for geriatric care that focuses on identifying and addressing patients' values and preferences. Has anyone else heard about it? (<https://www.jgen.net/article/S1525-1496(18)31114-8/>)",
         "color": "purple"
       },
       {
         "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "@Leo Chen haha nice job trying to keep up! Okay, so the whirlpool sign is actually a pretty classic sign of UGIB - it's when you see the patient coughing up a mixture of blood and bile (the latter is that nasty-looking stuff), which looks like a whirlpool. Can be a real doozy to deal with!",
-        "color": "green"
+        "parent_id": null,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Oh man, you're all making me nostalgic for my ER days! Just wanted to add my two cents - when I used to work in the ER, we'd always do a 'meds reconciliation' to identify potential interactions. Does anyone still do that? Is it still a thing?",
+        "color": "blue"
       },
       {
         "id": 6,
         "parent_id": 5,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "Uh, guys? I might have a whirlpool sign? Just had a massive bout of vomiting after getting the worst coffee...I mean, stomach flu of my life. Do I need to go to the hospital now?",
-        "color": "lightblue"
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Absolutely, Turbo! In fact, it's even more crucial now with all the medications out there. We make sure to do a thorough medication list and check for potential interactions, especially with anticholinergics and other meds that can cause issues. But what about the patients who are on all the 'new' non-anticholinergic meds? Do we just assume they're safe?",
+        "color": "blue"
       },
       {
         "id": 7,
         "parent_id": 6,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "@Barnaby Finch don't you worry, Barnaby me lad! I'm sure it's just a virus... But maybe just to be safe, you should come on into the ER and we'll take a gander?",
-        "color": "purple"
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Wow, I have a million questions - isn't the new med class, like, safer and more effective than anticholinergics? How do we know it's okay to use them? Sorry, I'm just a bit lost - could someone explain it to me like I'm a first-year med student?",
+        "color": "green"
       },
       {
         "id": 8,
         "parent_id": 7,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Don't worry, Leo! We've all been there. The new med class, like you said, is often safer and more effective than anticholinergics, but it's not a free pass. We need to be mindful of the potential side effects and interactions, too. One thing to keep in mind is that they might not be as effective in managing symptoms, especially in elderly patients. It's a trade-off between effectiveness and safety, and we need to weigh those factors carefully.",
+        "color": "purple"
+      },
+      {
+        "id": 9,
+        "parent_id": 1,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Ah, dear Dr. Aris, you're not alone in your frustration! I've been working with elderly patients on the ward, and it's like you said - whack-a-mole time! We need to take their meds more seriously and get them to a geriatrician ASAP. Here's a link to a resource that's been helpful for me: <https://www.upei.ca/sites/default/files/gerictric-care.pdf>. Has anyone else used this?",
+        "color": "blue"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "Sparkle-Eyes Sue, I couldn't agree more! As a family doc, I see it every day - polypharmacy and ageism combined with a dash of cognitive load is a recipe for disaster. We need to take a more holistic approach to care, and I love the emphasis on geriatricians and polypharmacy management. Anyone have any tips on streamlining medication lists?",
+        "color": "purple"
+      }
+    ],
+    "image": "https://foamcast.org/wp-content/uploads/2017/09/Screen-Shot-2017-09-15-at-4.06.33-PM.png"
+  },
+  {
+    "id": 4,
+    "title": "TL;DR: How to rapidly reverse digital ischemia from accidental epinephrine injection",
+    "body": "Just saw a patient with digital ischemia from a faulty epinephrine autoinjector. Had to think fast to recall the only treatment that's consistently described to rapidly reverse digital ischemia - subcutaneous phentolamine injected into the original puncture site.",
+    "category": "Clinical Anecdote",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I learned this trick in residency and it's saved me a few times. We used to mix 0.5 mL of standard phentolamine solution (5 mg/mL concentration) with 0.5 mL of 1% lidocaine solution to create a 1 mL total volume containing 2.5 mg of phentolamine. Has anyone else used this protocol? Does it work in all cases?",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "Actually, I believe the standard phentolamine dose is 5-10 mg, not 2.5 mg. Maybe we can discuss this further and provide some references. @Dr. Maya Gupta",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Just wanted to drop in and say that we've had success with this treatment at our ER. I've attached a link to a case report that summarizes our experience. Thanks for sharing your knowledge, guys! [link]",
+        "color": "teal"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "That's great to hear, @Turbo Tom! I was wondering if anyone had experience with prophylactic antibiotics in these cases. I've seen some conflicting opinions online.",
+        "color": "gray"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "As a med student, I'd love some clarification on the mechanism of action of phentolamine in this scenario. Is it primarily an alpha-1 blockade?",
+        "color": "pink"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
         "user": "Dr. Kevin Park",
         "role": "PGY1",
         "city": "Edmonton, AB",
-        "text": "Uh, guys? How do we know it's not just a stomach bug? Can someone please walk me through the diagnostic algorithm for suspected UGIB?",
-        "color": "green"
+        "text": "Great point, @Leo Chen! Phentolamine is a non-selective alpha-adrenergic antagonist, which means it can block both alpha-1 and alpha-2 receptors. This is the basis for its use in reversing digital ischemia caused by epinephrine.",
+        "color": "blue"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "I've seen this before and it's a real game-changer. Just a warning to all you docs: if you do this treatment, be prepared for a possible anaphylactic response. We had one patient go into anaphylactic shock after receiving phentolamine.",
+        "color": "brown"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "Great point, @Martha 'The Hammer'! We should all be aware of the risks of anaphylaxis with phentolamine. Maybe we can discuss some precautions to take when administering this treatment?",
+        "color": "maroon"
       },
       {
         "id": 9,
         "parent_id": 8,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "@Dr. Kevin Park I got you! So, in a nutshell, we do a quick ABG (that's airway, breathing, circulation, FYI) to make sure they're stable... and then we go from there. If they're okay, we get a quick stat lab to check their hemoglobin and maybe a CT scan or something",
-        "color": "lightblue"
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "In my day, we used to call this 'apoplexy' caused by excessive epinephrine. Good to see that the treatment has evolved to include phentolamine.",
+        "color": "red"
       },
       {
         "id": 10,
-        "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "I hate to bring this up, but maybe we're all missing the point here? Can we talk about the real issue: how do we even know what percentage of UGIB is caused by actual peptic ulcers versus, say, cancer or bleeding varices?",
-        "color": "purple"
+        "parent_id": 9,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "What's the deal with the phentolamine dose? I read online that it can be as low as 2.5mg, but @Dr. Henry Oldman said 5-10mg. Who's right?",
+        "color": "orange"
       },
       {
         "id": 11,
         "parent_id": 10,
-        "user": "Dr. Rick 'The Rage'",
+        "user": "Dr. Ziggy Zalesky",
         "role": "EP",
-        "city": "Windsor, ON",
-        "text": "@Sarah Jenkins finally, someone who gets it! We're all just blindly following these half-baked guidelines without even considering the evidence... Meanwhile, patients are dying in the ER. Can we please, for once, just take a step back and actually review some of these studies?",
-        "color": "green"
+        "city": "Vancouver, BC",
+        "text": "Ladies and gentlemen, let's settle this once and for all. The dose of phentolamine is between 5-10mg, period. Don't believe me? Check the literature.",
+        "color": "yellow"
       },
       {
         "id": 12,
         "parent_id": 11,
-        "user": "Turb0 Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "I'm so sick of all this finger-pointing. Can't we all just, like, collaborate and try to do what's best for the patient for once? Maybe if we stopped worrying about our precious hospitalist 'pearls' and just listened to each other, we'd be farther ahead.",
-        "color": "lightblue"
-      },
-      {
-        "id": 13,
-        "parent_id": 2,
-        "user": "Dr. 'Ziggy' Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "@Turb0 Tom AMEN, brother! Now, who's up for a group chat about some of these studies? Can we all share our fave references for evidence-based UGIB care?",
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "What about the role of lidocaine in this mixture? I've seen some sources suggest that it's only used to reduce pain, not anaphylaxis.",
         "color": "purple"
       },
       {
-        "id": 14,
-        "parent_id": 5,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "Oh my, you all seem to be forgetting about one very important fact: most upper GI bleeds are due to... Peptic Ulcer Disease! (Am I the only one who still uses the term 'apoplexy'?)",
+        "id": 13,
+        "parent_id": 12,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Actually, lidocaine is used to reduce the pain associated with phentolamine administration, but also to help prevent anaphylaxis.",
         "color": "green"
+      },
+      {
+        "id": 14,
+        "parent_id": 13,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "How lovely! I'm glad we can have a friendly chat about phentolamine and lidocaine. Can we discuss the practicalities of administering this treatment in a busy ER?",
+        "color": "pink"
       },
       {
         "id": 15,
@@ -675,17 +531,52 @@
         "user": "Turbo Tom",
         "role": "RN",
         "city": "London, ON",
-        "text": "@Dr. Archibald Thorne good grief, Doc! We get it: PUD is important. But let's not get too distracted from the real issue: how to actually manage UGIB when it happens. You can't just tell us to 'just use some TLC and hope for the best' anymore",
-        "color": "lightblue"
+        "text": "Totally agree, @Sparkle-Eyes Sue! I've seen some ERs try to use phentolamine with a syringe, but that's just asking for trouble. Can we discuss some safer ways to administer this treatment?",
+        "color": "teal"
+      },
+      {
+        "id": 16,
+        "parent_id": 15,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "How about some real-life examples of successful phentolamine treatments? I'd love to see some case studies",
+        "color": "orange"
+      },
+      {
+        "id": 17,
+        "parent_id": 16,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Actually, we've had a few successful cases at our ER. Let me see if I can dig up some case reports",
+        "color": "purple"
+      },
+      {
+        "id": 18,
+        "parent_id": 17,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "That would be great, @Dr. Maya Gupta! As a med student, I'd love to learn from some real-life examples",
+        "color": "pink"
+      },
+      {
+        "id": 19,
+        "parent_id": 18,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "I think we've covered all the bases here. Thanks for the discussion, everyone! Let's keep the conversation going",
+        "color": "blue"
       }
-    ],
-    "image": "https://iem-student.org/wp-content/uploads/2018/05/GIB-Figure-1.png"
+    ]
   },
   {
-    "id": 7,
-    "title": "TLDR: Bronchiolitis vs Asthma in Kids - Don't Get it Wrong!",
-    "body": "Just saw a patient with a 12mo old kid with a fever and some wheezing - classic bronchiolitis. But here's the thing - a lot of pediatricians get this wrong and end up treating asthma. Don't be one of them! Here's a quick rundown: \n\n In kids under 2, a provisional diagnosis of asthma is made when there are signs and symptoms of wheezing, shortness of breath, cough, dyspnea, diminished air entry, or retractions and demonstration of reversibility with an inhaled \u03b22-agonist (e.g., albuterol).\n\n On the other hand, kids under 2 without a prior history or family history of wheezing and presenting during a respiratory viral epidemic with a preceding upper respiratory infection should be treated as having bronchiolitis.\n\n I had a resident last night tell me that the kid had 'croup' because of the stridor - NOPE. The kid had bronchiolitis from RSV! Don't fall for it guys!",
-    "category": "Pediatrics",
+    "id": 134,
+    "title": "Just saw a patient with sudden cardiac death after a sports-related activity... lessons learned?",
+    "body": "TL;DR: A 19-year-old male soccer player was rushed to the ED after experiencing sudden cardiac death during a game. Initial evaluation revealed a normal ECG and no history of cardiac disease.\n\n   We ordered a cardiac MRI and it showed a large left ventricular hypertrophy. The patient underwent an ICD implantation and made a full recovery.\n\n   Rant about: This case really highlights the importance of considering sudden cardiac death in young athletes, especially those with a history of exertional syncope or unexplained cardiac arrest.\n\n   Lessons learned:\n\n* Always consider underlying cardiac conditions in patients with exertional syncope\n* Get an ECG ASAP on patients with cardiac arrest, even if they're young and healthy\n* Cardiac MRI is a crucial diagnostic tool in evaluating cardiac disease\n* Don't hesitate to implant an ICD in patients with a history of sudden cardiac death\n\nWhat are some of your experiences with sudden cardiac death in young patients?",
+    "category": "emergency medicine",
     "comments": [
       {
         "id": 1,
@@ -693,295 +584,501 @@
         "user": "Dr. Aris Thorne",
         "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "Couldn't agree more, OP! One thing to add is that chest radiography should be considered if the patient fails to improve as expected, fever is present, there is concern for possible pneumothorax (pain or significant hypoxia) or foreign body (unilateral wheezing), or for patients with focal lung findings.",
+        "text": "I had a similar case last year where a 20-year-old male hockey player died from sudden cardiac death due to an arrhythmogenic right ventricular cardiomyopathy (ARVC). We should definitely consider ARVC as a possible cause in young athletes with exertional syncope or cardiac arrest. The San Francisco Syncope Rule is also a useful tool in identifying patients at high risk for adverse events. We should link this to our previous discussion on ARVC. [1]",
         "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "What do you mean by 'fails to improve as expected', Dr. Thorne? Is this referring to the kid's condition worsening or not improving despite treatment?",
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Thank you for sharing, Dr. Thorne. I've been reading up on ARVC and I had a question about the diagnostic criteria. Can you clarify how you diagnose ARVC in the ED?",
         "color": "green"
       },
       {
         "id": 3,
         "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs always make these kinds of mistakes. Bronchiolitis and asthma are two separate diseases, and you can't just diagnose based on symptoms alone. You need to do a thorough workup and order some tests. I mean, come on, kids under 2 with a fever and wheezing? It's either bronchiolitis or pneumonia. Don't be a rookie and over-diagnose.",
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I agree with Dr. Thorne that considering ARVC in young athletes with cardiac arrest is crucial. Has anyone had experience with ICD implantation in pediatric patients?",
         "color": "orange"
       },
       {
         "id": 4,
         "parent_id": 3,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I completely disagree with you, Dr. Sterling. While a workup and tests are always a good idea, you can't just dismiss the clinical presentation. I've seen plenty of bronchiolitis cases in the ICU where the kid had a normal chest x-ray but was still severely ill. And as for pneumonia, you need to consider the age of the kid, the season, and the viral load. It's not always cut and dry.",
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "As a PGY1, I haven't had experience with ICD implantation in pediatric patients, but I did learn about it in residency. Can someone clarify the indications for ICD implantation in young patients with cardiac disease?",
         "color": "blue"
       },
       {
         "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "ICD implantation is generally recommended in patients with a history of sudden cardiac death or life-threatening arrhythmias, regardless of age. However, the decision to implant an ICD should be individualized based on the patient's specific cardiac condition.",
+        "color": "red"
+      },
+      {
+        "id": 6,
+        "parent_id": 1,
+        "user": "Dr. Rick 'The Rage'",
+        "role": "EP",
+        "city": "Windsor, ON",
+        "text": "I'm so glad we're having this discussion. I've seen far too many young patients die from cardiac issues that could have been prevented. We need to do better and start taking this seriously.",
+        "color": "yellow"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "I couldn't agree more, Dr. Rage. I've seen patients with undiagnosed hypertrophic cardiomyopathy (HCM) who go on to suffer cardiac arrests. We should be screening young athletes for HCM and other cardiac conditions.",
+        "color": "brown"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I'm not sure if we're over-screening or under-screening for HCM. Can someone explain the risks and benefits of cardiac screening in young athletes?",
+        "color": "pink"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "In my day, we didn't screen for HCM or other cardiac conditions in young athletes. We just assumed they were healthy enough to play sports. But times have changed, and now we know better.",
+        "color": "black"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "I'm just a LPN, but I'm curious - what's the current thinking on cardiac screening in young athletes? Is it a waste of time and resources, or is it a necessary measure to prevent cardiac-related deaths?",
+        "color": "orange"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Just saw a patient with anaphylaxis, got some important pearls to share",
+    "body": "TL;DR: Epinephrine dosing, antihistamines, and steroids are key in treating anaphylaxis. But what about the nuances? I had a patient last night who presented with severe anaphylaxis, and I thought I'd share my experience.",
+    "category": "medicine",
+    "comments": [
+      {
+        "id": 1,
         "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "FRCPC",
+        "city": "Toronto, ON",
+        "text": "Great experience to share! What's the key take-home point for you regarding anaphylaxis management?",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Ah, thanks for sharing, Dr. Thorne! For me, one important pearl is to remember that epinephrine dosing can vary greatly depending on the patient's weight and underlying conditions. What's your general approach to epinephrine dosing?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "I'm so glad you're sharing this experience. For me, one key take-home point is that anaphylaxis patients often present in multiple shock states (cardiovascular, respiratory, etc.). How did you manage the patient's shock state?",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 2,
+        "user": "Dr. Victor Sterling",
+        "role": "FRCSC",
+        "city": "Calgary, AB",
+        "text": "Amateurs. Epinephrine dosing is simple: 0.3-0.5mg IM every 5 minutes until symptoms resolve. Don't overcomplicate it.",
+        "color": "red"
+      },
+      {
+        "id": 5,
+        "parent_id": 3,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Ha! Good one, Dr. Sterling. But seriously, what about the nuances? How do you handle patients presenting in multiple shock states?",
+        "color": "purple"
+      },
+      {
+        "id": 6,
+        "parent_id": 4,
+        "user": "Dr. Aris Thorne",
+        "role": "FRCPC",
+        "city": "Toronto, ON",
+        "text": "Ah, thanks for chiming in, Dr. Sterling. But, Dr. Gupta, you had asked about epinephrine dosing. In short, the key is to start with a lower dose (0.1mg IM) and escalate as needed, taking into account the patient's weight and underlying conditions.",
+        "color": "blue"
+      },
+      {
+        "id": 7,
+        "parent_id": 2,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Excuse me, but what about antihistamines and steroids? Do they play a role in treating anaphylaxis?",
+        "color": "green"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
         "user": "Dr. Ziggy Zalesky",
         "role": "EP",
         "city": "Vancouver, BC",
-        "text": "Haha, love the passion, guys! But let's not forget the most important thing: kids are not just little adults. They have different physiological responses to illness, and we need to take that into account. For example, kids under 2 with bronchiolitis may not always have a classic 'wheezing' sound, and their respiratory rate may be different from adults. Don't forget to consider the kid's age and developmental stage when diagnosing!",
+        "text": "Ah, thanks for asking, Leo! Antihistamines like diphenhydramine are crucial in treating anaphylaxis, as they block the peripheral action of histamine. Steroids like hydrocortisone should be given IV ASAP, even if not immediately available.",
+        "color": "purple"
+      },
+      {
+        "id": 9,
+        "parent_id": 7,
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "I would caution against overusing antihistamines, as they can worsen hypotension. Steroids are a good idea, but let's not get too excited.",
+        "color": "red"
+      },
+      {
+        "id": 10,
+        "parent_id": 5,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Great point, Dr. Stone! How do you manage the risk of antihistamine-induced hypotension in anaphylaxis patients?",
+        "color": "green"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Sorry to be a pain, Dr. Gupta, but I think there's a bigger issue here: education. Patients often don't recognize the early signs of anaphylaxis, and it's on us to teach them!",
+        "color": "purple"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Amen to that, Sue! Patient education is key in preventing anaphylaxis-related morbidity. We need to empower patients with accurate information on early warning signs and treatment options.",
+        "color": "blue"
+      }
+    ],
+    "image": "https://emupdates.com/wp-content/uploads/2021/01/anaphylaxis-algorithm.png"
+  },
+  {
+    "id": 7,
+    "title": "TLDR: Ischemic Stroke - What are the Latest AHA Guidelines?",
+    "body": "Just saw a patient with presumed ischemic stroke and couldn't shake the feeling that I was following outdated protocols. I dug into the latest AHA guidelines and I'm still trying to make sense of some of the changes.",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "The latest AHA guidelines are a doozy, folks. What with the changes to the time goals from ED arrival for physician evaluation, activation of stroke team, and beginning head CT... it's enough to make your head spin. Specifically, the goal is to have the patient on thrombolytic therapy within 4.5 hours of symptom onset. Anyone else having trouble wrapping their head around the new timeline?",
+        "color": "blue"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "I was wondering, Dr. Thorne, how do you handle the situation where the patient arrives in the ED outside of these time goals? Is it still safe to administer thrombolytic therapy?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "@Dr. Park - from what I remember, the guidelines now suggest that the time is measured from the last known time the patient was at baseline neurologic status. So, if the patient's symptoms started 6 hours ago but they were asymptomatic until 2 hours ago, you'd wait until 2 hours ago to start the clock.",
+        "color": "purple"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "I've had some issues with patients' families not wanting to disclose symptoms or last baseline neuro status, making it harder to adhere to these guidelines. Has anyone else encountered this and how do you handle it?",
+        "color": "blue"
+      },
+      {
+        "id": 5,
+        "parent_id": 1,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "@Dr. Miller - I've had the same issue. Have you found any strategies that help?",
+        "color": "green"
+      },
+      {
+        "id": 6,
+        "parent_id": 4,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "I approach these situations by explaining to the family that disclosing this information helps us provide more effective care for their loved one. I also try to involve a family member or caregiver in the discussion, as often they know the patient's history and can vouch for the accuracy of their symptoms.",
+        "color": "purple"
+      },
+      {
+        "id": 7,
+        "parent_id": null,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "I don't understand why anyone's getting so worked up about these guidelines. We're in the business of saving lives, not following arbitrary timelines. The only thing that matters is what's going to result in the best outcome for the patient.",
+        "color": "orange"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "@Dr. Sterling - respectfully, I disagree. These guidelines are in place for a reason - to ensure we're providing the most effective care possible for our patients. They're not arbitrary, but evidence-based.",
+        "color": "blue"
+      },
+      {
+        "id": 9,
+        "parent_id": null,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I've been wondering... what are some of the most challenging parts of implementing these guidelines in practice?",
+        "color": "red"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "One thing that can be tough is dealing with patients who arrive after the time goals have passed. It can be tough to balance the desire to provide more comprehensive care with the reality of the timeline.",
+        "color": "purple"
+      },
+      {
+        "id": 11,
+        "parent_id": 9,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "I agree with Dr. Gupta - dealing with these situations requires a lot of clinical judgment and communication with the patient and family.",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "id": 12345,
+    "title": "When patients with advanced cancer present to the ED: A tricky case of do-not-resuscitate orders and POLST/MOLST forms",
+    "body": "Just saw a patient with stage IV cancer who was brought into the ED in respiratory distress. His primary care physician had told me that this patient had an advance directive in place, but we couldn't find the actual paperwork. I had to call the hospital's ethics committee for guidance.",
+    "category": "ClinicalAnecdote",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "rjkmd",
+        "role": "FACP",
+        "city": "Boston, MA",
+        "text": "TL;DR: Don't just rely on the PCP's word for the patient's wishes. Verify the paperwork and inform the family ASAP. Has anyone else ever had a similar experience? I'm wondering if there's a more efficient system we could put in place to handle these situations. Link to a useful resource: [AMA's POLST/MOLST guidelines](https://www.ama-assn.org/system/files/2017-11/ama-polst-molst-guidelines.pdf)",
+        "color": "red"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "johngoodloe",
+        "role": "FACEM",
+        "city": "Norman, OK",
+        "text": "Great point, @rjkmd. In my experience, the PCP isn't always aware of the patient's wishes or has access to the paperwork. We need to make sure we're involving the patient's family members and proxy decision makers in these discussions.",
+        "color": "blue"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "geetikagupta",
+        "role": "MD",
+        "city": "Ann Arbor, MI",
+        "text": "How do you verify the patient's wishes when the paperwork can't be found? I've had cases where the patient's family members are unsure of their wishes or don't agree on what the patient would want. Any suggestions on how to navigate these situations?",
+        "color": "orange"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "kevinpark",
+        "role": "PGY2",
+        "city": "Edmonton, AB",
+        "text": "I've had similar experiences, @rjkmd. I think it's essential to involve the patient's primary care physician in these discussions and get their input on the patient's wishes. Has anyone ever used a patient portal to access their medical records?",
+        "color": "yellow"
+      },
+      {
+        "id": 5,
+        "parent_id": 3,
+        "user": "mayagupta",
+        "role": "FRCPC",
+        "city": "Mississauga, ON",
+        "text": "When the paperwork can't be found, I try to get as much information as possible from the patient's family members and proxy decision makers. Sometimes, they may not know the patient's wishes, but they can provide valuable insight into the patient's values and goals.",
+        "color": "purple"
+      },
+      {
+        "id": 6,
+        "parent_id": 4,
+        "user": "abigailhankin",
+        "role": "FACEM",
+        "city": "Atlanta, GA",
+        "text": "Yes, many patient portals allow access to medical records, including advance directives. It's worth exploring whether this is an option in your hospital's system.",
+        "color": "green"
+      },
+      {
+        "id": 7,
+        "parent_id": 5,
+        "user": "johnma",
+        "role": "MD",
+        "city": "Oklahoma City, OK",
+        "text": "Excellent point, @mayagupta. It's always better to err on the side of caution when it comes to patients' wishes. We should make sure to document everything thoroughly, including any conversations with family members and proxy decision makers.",
+        "color": "teal"
+      }
+    ]
+  },
+  {
+    "title": "TLDR: PID - What's the deal with single-dose treatment regimens?",
+    "body": "Had a miss last night when I prescribed a single-dose azithromycin for PID, only to have the patient come back with a complicated abscess the next day. Been reading up on the literature and I think I understand the reasoning behind the recommendation, but I'd love some clarification from fellow EPs. Are we sacrificing efficacy for the sake of convenience, or is there real benefit to single-dose treatment for PID?",
+    "category": "EM",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": " MD",
+        "city": "Toronto, ON",
+        "text": "I'm with you on this - the single-dose approach has been a bone of contention among our group. The theory behind it is, of course, to increase compliance and reduce the burden on our patients to follow up for additional doses. However, as you can attest, the risks associated with PID are very real, and it's hard to convince patients to prioritize their health when they're feeling otherwise asymptomatic.\n\nOne thing that's struck me is the lack of prospective trials evaluating the efficacy of single-dose treatment regimens. Do any of you know of any studies addressing this question directly?\n\n**TL;DR**: single-dose treatment regimens may be convenient, but we need more research to determine their efficacy.\n",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": " MD",
+        "city": "Ottawa, ON",
+        "text": "Actually, Dr. Thorne, there was a Cochrane review published last year evaluating the effectiveness of single-dose treatment regimens for PID. The conclusion was that, while there was some evidence supporting the use of single-dose regimens for uncomplicated PID, there was a lack of data to support their use in more complex cases. [1]\n\nI guess the takeaway is that we should be cautious in recommending single-dose treatment for all PID cases.\n\n[1] \"Single-dose treatment regimens for pelvic inflammatory disease: a Cochrane review\" (2022). Cochrane Database of Systematic Reviews.",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Chad Broson",
+        "role": " Pre-med",
+        "city": "Brampton, ON",
+        "text": "OMG, guys, I had no idea there were different types of PID! Like, is it just me or do we only ever talk about the gonococcal and chlamydial strains? What about the other pathogens, like anaerobes or whatever?",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Barb Miller",
+        "role": " MD",
+        "city": "Winnipeg, MB",
+        "text": "Chad, you're not alone, I was just as clueless until I started working in this field. Anaerobic bacteria, like Peptostreptococcus and Bacteroides, are indeed a common cause of pelvic abscesses in PID patients. We should keep in mind that these organisms can be tough to kill with antibiotics alone, so patients may need surgical intervention in addition to medical therapy.\n\n**Side note**: I've been thinking of starting a blog to discuss these kinds of topics with other clinicians - what do you guys think? Would you follow a medical-focused subreddit?",
+        "color": "blue"
+      },
+      {
+        "id": 5,
+        "parent_id": 1,
+        "user": "Dr. Victor Sterling",
+        "role": " MD",
+        "city": "Calgary, AB",
+        "text": "Amateurs. You're all missing the point. Single-dose treatment regimens aren't about efficacy or convenience; they're about saving money. We're over-prescribing antibiotics left and right, and it's a waste of resources.\n\nThe solution isn't to abandon single-dose regimens entirely, but to work on improving patient compliance and reducing unnecessary antibiotic use.",
         "color": "purple"
       },
       {
         "id": 6,
         "parent_id": 5,
         "user": "Leo Chen",
-        "role": "MS1",
+        "role": " MS1",
         "city": "Montreal, QC",
-        "text": "That's so true, Dr. Zalesky! I've noticed that kids under 2 with bronchiolitis often have a very low-grade fever, but still have a high respiratory rate. And their oxygen saturation can be really low too, even if they look okay. It's all about being aware of these subtle differences!",
-        "color": "green"
+        "text": "Dr. Sterling, I'm not sure I agree with your assessment. From what I've learned in med school, patient compliance is a huge problem when it comes to antibiotic treatment plans. Can you elaborate on your suggestions for improving compliance?\n\nAnd, um, can I ask what you mean by \"over-prescribing\" antibiotics?",
+        "color": "blue"
       },
       {
         "id": 7,
         "parent_id": 6,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "Amen to that, Leo! As a family doc, I've seen my fair share of bronchiolitis cases, and it's always a challenge to diagnose. But I've found that the key is to pay attention to the kid's overall clinical picture, including their appetite, sleep patterns, and stool output. If they're eating poorly, sleeping a lot, or having diarrhea, it's likely bronchiolitis. Don't forget the importance of a thorough history, folks!",
-        "color": "blue"
+        "user": "Dr. Elena Varkov",
+        "role": " FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Leo, I think Dr. Sterling was referring to the increasing resistance of bacteria to antibiotics, rather than simply over-prescribing them.\n\nTo expand on this, antibiotic misuse can drive the selection and spread of resistant organisms, making treatment more challenging in the long run.\n\nIn terms of improving patient compliance, I think it's essential to emphasize the importance of adherence to treatment regimens and provide clear, concise instructions to patients.",
+        "color": "purple"
       },
       {
         "id": 8,
         "parent_id": 7,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "Uh, I think I might have bronchiolitis, guys. My doctor said I had a 'chest infection' but I've been coughing up a lot of mucus and feeling really tired. Do I need to go see a specialist?",
-        "color": "grey"
+        "user": "Dr. Kevin Park",
+        "role": " PGY1",
+        "city": "Edmonton, AB",
+        "text": "Dr. Varkov, I completely agree with your point about the importance of clear communication with patients. However, what about the economic aspect of this issue? From what I've learned, the high cost of antibiotics can actually disincentivize patients from following through with their treatment plans.",
+        "color": "blue"
       },
       {
         "id": 9,
         "parent_id": 8,
-        "user": "Dr. Phil Muddle",
-        "role": "EP",
-        "city": "Regina, SK",
-        "text": "Don't worry, Barnaby! It sounds like you might have bronchiolitis, but we need to get you a proper diagnosis. Can anyone tell me what day it is?",
-        "color": "orange"
+        "user": "Turbo Tom",
+        "role": " RN",
+        "city": "London, ON",
+        "text": "Dr. Park, you bring up an excellent point about the economic aspect of antibiotic treatment. As an ER nurse, I've seen firsthand how expensive antibiotic prescriptions can be for patients who can't afford them.\n\nDo we discuss this topic in our nursing curriculum? I feel like I'm only scratching the surface of the issues surrounding antibiotic use and resistance.\n\n**Side note**: Has anyone tried using online resources to help patients understand the importance of antibiotic stewardship?",
+        "color": "purple"
       },
       {
         "id": 10,
-        "parent_id": 9,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Haha, nice one, Dr. Muddle! But seriously, Barnaby, we need to get you in for a proper workup. If you're coughing up mucus and feeling tired, that's a red flag. Get to the ER or urgent care ASAP, and make sure to bring your meds and medical history!",
+        "parent_id": null,
+        "user": "Martha 'The Hammer'",
+        "role": " RN",
+        "city": "Halifax, NS",
+        "text": "30+ years in the ER and I'm still not sure about single-dose treatment regimens. Maybe it's just an old-school nurse in me, but I like seeing patients come in for follow-up to ensure they're recovering properly. Anyone else think this approach is worth the extra visit time?",
         "color": "green"
       },
       {
         "id": 11,
-        "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "I'd like to add that in kids under 2 with bronchiolitis, the viral load is often very high. This can lead to increased mucin production, which can cause airway obstruction and increased respiratory rate. The literature shows that kids with a high viral load tend to have more severe disease. Can anyone link to some studies on this?",
+        "parent_id": 10,
+        "user": "Sparkle-Eyes Sue",
+        "role": " LPN",
+        "city": "St. John's, NL",
+        "text": "Ah, Martha, you're preachin' to the choir! I'm with you on the importance of follow-up care. When patients come back in for a check-in, it's a great opportunity to reinforce prevention strategies and educate them on signs of potential complications.",
         "color": "blue"
       },
       {
         "id": 12,
         "parent_id": 11,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "[1] This study showed that kids with high RSV viral loads tend to have more severe bronchiolitis. [2] This review article discusses the role of mucin production in airway obstruction and increased respiratory rate. Check it out!",
-        "color": "purple"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "*Wells' Score: How to Avoid a 'False Negative' in Pulmonary Embolism Diagnosis?",
-    "body": "Had a close call last night with a patient who presented with a 2-week history of unilateral calf swelling, but a seemingly innocuous 3.5cm calf circumference. The patient was hemodynamically stable and had no symptoms suggestive of a pulmonary embolism (PE). However, given the subtle clinical presentation and a D-dimer level of 500ng/mL (normal <500), I had to consider the possibility of a PE, particularly in the context of recent travel and cancer diagnosis.\n\nAfter consulting with my colleague, I re-ran the Wells' score (Table 25-2) and realized that my initial calculation was incorrect. The correct calculation is as follows:\n\n1 pt for suspected DVT (which turned out to be incorrect, but let's discuss that later)\n3 pts for alternative diagnosis less likely than PE\n1.5 pts for heart rate >100 beats/min\n1.5 pts for prior VTE\nTotal: 6 points\n\nIn retrospect, the patient's score was 6 out of 9, placing them in the 'high risk' category for pulmonary embolism. I'm still kicking myself for not considering this possibility earlier. Any thoughts on how to avoid a \n\nfalse negative in this scenario?",
-    "category": "Emergency Medicine",
-    "comments": [
-      {
-        "id": 2,
-        "parent_id": null,
-        "user": "Ziggy Z",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "TL;DR: Always, always, always re-run that Wells' score, folks! \n\nI've seen this happen too many times where we get tunnel vision and miss the bigger picture. A low D-dimer doesn't exclude a PE, guys! Remember the sensitivity curve: 90% at 500ng/mL, but only 20% at 100ng/mL. \n\nSparkNotes for Wells' score:\n- Suspected DVT: yes/no\n- Alternative diagnosis less likely than PE: yes/no\n- Heart rate >100 beats/min: yes/no\n- Prior VTE: yes/no\n- Immobilization within prior 4 weeks: yes/no\n- Active malignancy: yes/no\n- Hemoptysis: yes/no\n\nAnyways, kudos to OP for being proactive and reviewing the case. Can someone clarify the VTE risk assessment in this patient?",
-        "color": "purple"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Great reminder about the Wells' score! In this case, the VTE risk assessment should be based on the patient's history of cancer and recent travel. According to the Kistler et al. 2008 study, patients with a history of cancer and recent travel have a VTE risk of approximately 15-20%.\n\nAs for the patient's VTE history, can someone please clarify if this patient has a history of documented VTE?",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 2,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Kudos to Ziggy for the reminder! In this scenario, I would recommend considering the patient's entire clinical picture, including symptoms, lab results, and previous medical history. A re-run of the Wells' score is a great idea, but also consider the probability of PE based on the patient's symptoms and risk factors.\n\nRegarding the VTE risk assessment, can someone clarify if this patient has a history of documented VTE?",
-        "color": "yellow"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Doc, I think the patient has a history of VTE, but I'm not sure if it's fully documented. Can someone clarify if we should be looking for an existing VTE risk assessment or just go with the Wells' score?",
-        "color": "blue"
-      },
-      {
-        "id": 6,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "I've seen this happen before, guys! A low D-dimer doesn't exclude a PE. Remember, the 2016 CHEST guidelines recommend considering a repeat CT pulmonary angiography (CTPA) even if the D-dimer is <500ng/mL if there's high clinical suspicion.\n\nCan someone clarify if we should be doing a repeat CTPA on this patient?",
-        "color": "purple"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Great point, Turbo Tom! However, according to the 2019 ERCP guidelines, a repeat CTPA should only be considered if there's a substantial change in the patient's clinical presentation or if the initial CTPA was inconclusive.",
-        "color": "green"
-      },
-      {
-        "id": 8,
-        "parent_id": 1,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "Hello, doctors! I'm the patient in question here. I just wanted to clarify a few things. I've been experiencing symptoms for over 2 weeks now, and I've been to see several doctors. They all told me I was fine, but I just can't shake off this feeling that something's wrong. Can someone please help me figure out what's going on?",
-        "color": "red"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Hi, Barnaby! Thank you for reaching out. It's great that you're advocating for yourself. Can you please tell me more about your symptoms and when you first started experiencing them?",
-        "color": "green"
-      },
-      {
-        "id": 10,
-        "parent_id": 1,
-        "user": "Tina Chen",
-        "role": "EP",
-        "city": "Montreal, QC",
-        "text": "TL;DR: Great job, OP, for being proactive and considering the patient's entire clinical picture! However, I have to nitpick - why didn't the patient's cancer diagnosis and recent travel increase their VTE risk in the initial assessment?",
-        "color": "purple"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Ziggy Z",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Tina, that's a great point! The patient's cancer diagnosis and recent travel do increase their VTE risk. However, in this case, the patient's D-dimer level was normal (<500), which might have led the initial assessment team to underestimate the VTE risk.\n\nCan someone clarify the role of D-dimer levels in assessing VTE risk?",
-        "color": "green"
-      }
-    ]
-  },
-  {
-    "title": "Just saw a patient with... Thoracic Trauma - the often overlooked but devastating injuries of blunt chest trauma",
-    "body": "I'm still reeling from the case presentation I just witnessed, and I had to share it with you all to get your thoughts and insights. A 25yr old male was brought in from the scene of a high-speed MVC, with no apparent life-threatening injuries initially. But, upon further examination and imaging, we found a significant hematoma in the mediastinum. The patient had a GCS of 14, but his aortic isthmus had a large pseudoaneurysm. I know some of the more seasoned ER Docs out there will say 'been there, done that,' but I'm still shaken up about it. Anyone want to share their take on this or have any pearls to add? TL;DR - aortic injuries can present with seemingly minor symptoms and are a major concern in thoracic trauma.",
-    "category": "emergency medicine, trauma",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
         "user": "Dr. Maya Gupta",
-        "role": "PGY2",
+        "role": " PGY2",
         "city": "Mississauga, ON",
-        "text": "I've seen a few cases like this as a PGT2. The thing that sticks out in my mind is that aortic injuries can often be missed on initial presentation because of the lack of external signs. The key is to keep a high index of suspicion and use clinical judgment to decide whether further imaging is needed. Have any of you guys found any particularly useful resources when it comes to assessing aortic injuries? I'm thinking maybe a review article or a webinar?",
+        "text": "Sparkle-Eyes, that makes sense, especially for patients who might not be adhering to treatment plans. Do we have any data on the effectiveness of follow-up visits in reducing complications and promoting patient education?",
         "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "I've seen it happen where the ER crew is so focused on the chest Xray that they almost overlook the other injuries. In this case, the patient's aortic injury was a perfect example of the devil being in the details. What's your take on whether the patient should've gone straight to CT for further evaluation, or if the ER crew should've gotten to the bedside faster?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "As an EP, I've done plenty of bedside US in the past, but I also agree on the merits of taking things slow and methodically to assess for other injuries. Did anyone notice the patient's GCS when coming in? Sometimes you see patients who look fine but are actually in bad shape... I've found it useful to review the initial vitals as an indicator of how much to suspect trauma, especially with patients who come in complaining of pain but seem pretty good otherwise.",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "What does GCS stand for? I thought I had it memorized, but it doesn't seem to be coming to me. And do you guys remember that one trauma case we did in class where the patient had all these other symptoms besides the primary one?",
-        "color": "teal"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "You think this guy's aorta was fine? Just because the patient didn't present right away with symptoms, don't get complacent, or you might as well be wearing a 'Kevorkian's got it' t-shirt to the ward.",
-        "color": "red"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "What do you mean, Dr. Rage? Did I do something wrong when I got injured?",
-        "color": "teal"
-      },
-      {
-        "id": 7,
-        "parent_id": 1,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "I saw that case too, Doc. The funny thing about thoracic trauma is how it's so often overlooked because of the initial presentation. Remember this patient's history where he came in with chest pain and ended up having a ruptured spleen? It's all about thinking outside the box and using all the tools you've got to make that initial diagnosis.",
-        "color": "brown"
-      },
-      {
-        "id": 8,
-        "parent_id": 1,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "What does ruptured spleen mean? Can you explain it to me like I'm in med school?",
-        "color": "teal"
-      },
-      {
-        "id": 9,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Well said, Docs! This is a great example of the complexities involved in trauma assessment. It goes to show that as a team, we can pick apart each thread and learn to recognize patterns. Has anyone heard about new research in the field? Maybe we can link some interesting articles in the thread. Also, thanks for the discussion.",
-        "color": "blue"
       }
     ],
-    "image": "https://www.ebmedicine.net/media_library/images/Extra-Articles/23-11-November/Clinical-Pathway-for-the-Management-of-Suspected-Blunt-Thoracic-Trauma-in-Pediatric-Patients-1.png"
+    "image": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1831842124120541"
   }
 ]
