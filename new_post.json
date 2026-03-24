@@ -1,1020 +1,741 @@
 [
   {
     "id": 0,
-    "title": "Just saw a patient with suspected dilated cardiomyopathy - what are your thoughts?",
-    "body": "I had a patient come in last night with suspected dilated cardiomyopathy. She's a 45yoF who presented with dyspnea on exertion and orthopnea. Her ECG showed nonspecific ST changes and her chest x-ray showed an enlarged cardiac silhouette. My concern is that this could be constrictive pericarditis, especially with the presence of these non-specific troponins. But the physical exam showed no signs of constriction. What are your thoughts on this diagnosis and treatment? Anyone have any case studies or pearls to share?",
-    "category": "Emergency Medicine",
+    "title": "Rant about necrotizing soft tissue infections",
+    "body": "Had a miss last night dealing with a 38 yr old male presenting with severe pain and swelling in the leg. The patient's wife said he'd been having symptoms for 24 hours but she didn't think much of it... turns out it was a necrotizing soft tissue infection. Patient now on antibiotics and waiting for OR for surgical debridement. Anyone else had a case like this recently? Thoughts on how to improve recognition and treatment of these aggressive infections?",
+    "category": "emergency_medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": 0,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs. This is a classic case of soft tissue infection gone wrong. We need to be more aggressive in our treatment and get these patients to the OR ASAP. I've seen too many of these cases where we're too slow and the patient pays the price. Anybody got some data on the outcomes of delayed treatment?",
+        "color": "blue"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Come on Vic, that's easy for you to say but I bet you've never had to deal with the ER's limitations. We can't just rush everyone off to OR without stabilizing the patient. That being said, I do agree we should be pushing these cases harder. Has anyone seen the paper by Stevens et al (2014) on the outcomes of early vs. delayed debridement?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Wait, isn't necrotizing soft tissue infection more common in people with diabetes or other immunosuppressed conditions? How did the patient's past medical history come into play in this case?",
+        "color": "purple"
+      },
+      {
+        "id": 4,
+        "parent_id": 2,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Actually, Leo, necrotizing soft tissue infections can occur in anyone, regardless of comorbidities. The key is prompt recognition and treatment. But to add some nuance, did the patient receive prompt antibiotics in the ED? If so, were they effective in slowing down the infection?",
+        "color": "green"
+      },
+      {
+        "id": 5,
+        "parent_id": 3,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Excellent point Maya. As an internist, I've seen my fair share of soft tissue infections but the key is to not just focus on the patient's comorbidities but also their electrolyte and fluid status. The patient's sodium, potassium, and pH can all impact their response to treatment.",
+        "color": "blue"
+      },
+      {
+        "id": 6,
+        "parent_id": 4,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "I completely agree with Elena. It's not just about the antibiotics and debridement, but also making sure the patient's ABCs are stable first. Has anyone tried using hyperbaric oxygen therapy in their practice?",
+        "color": "green"
+      },
+      {
+        "id": 7,
+        "parent_id": 5,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "What's hyperbaric oxygen therapy? Is that like, a fancy way of getting more oxygen to the tissue?",
+        "color": "purple"
+      },
+      {
+        "id": 8,
+        "parent_id": 6,
+        "user": "Dr. Rick 'The Rage'",
+        "role": "EP",
+        "city": "Windsor, ON",
+        "text": "Ugh, not this again. Hyperbaric oxygen therapy is a legitimate treatment for certain cases of soft tissue infections, Chad. Look it up. But the real problem is that our hospitals don't have the facilities to implement it properly. We're stuck with outdated treatments.",
+        "color": "red"
+      },
+      {
+        "id": 9,
+        "parent_id": null,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "I've had patients with soft tissue infections go on to make full recoveries without hyperbaric oxygen therapy. It's not a magic bullet, folks! What's most important is getting those patients stable and getting them to the OR ASAP.",
+        "color": "yellow"
+      }
+    ],
+    "image": "https://www.ebmedicine.net/media_library/images/2022-EMP-Publication-Article/05-May/Clinical-Pathway-for-Managing-Skin-and-Soft-Tissue-Infections-in-the-Emergency-Department-TH.png"
+  },
+  {
+    "id": 1,
+    "title": "TLDR: Advance care planning with unclear patient decision-making capacity",
+    "body": "Had a tricky case last night. Patient was a 72yo gentleman with a GCS of 8 and unable to speak due to dysphagia. His wife reported that he had previously expressed wishes to not intubate and \"go peacefully\". However, his medical directive only mentioned that he wanted to avoid \"heroic measures\", but didn't specify what that meant. His wife is adamant that he would want all life-saving measures, despite saying no to intubation.",
+    "category": "emergency_medicine",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": "Sarah_Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Thanks for sharing! I agree that constrictive pericarditis is a concern, but the lack of signs of constriction on the physical exam is not entirely reassuring. I've seen a few cases where patients had constrictive pericarditis with minimal or no physical exam findings. Have you considered the possibility of a restrictive cardiomyopathy, especially given her age and presentation?\n\nIn my review of the literature, the best predictor of constrictive pericarditis is the presence of a pericardial effusion on CXR. Do you think an echo would be helpful to rule in or out constrictive pericarditis?",
+        "user": "Dr. Aris Thorne",
+        "role": "MD",
+        "city": "Toronto, ON",
+        "text": "I'm with Sarah. In cases where a patient has unclear decision-making capacity, we should consider involving a geriatric psychiatrist or a palliative care consult to help navigate the situation. We need to balance respecting the patient's autonomy with ensuring they receive the care they need. Have you considered a trial of non-invasive ventilation (NIV) to see if it helps improve his GCS?",
         "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Dr_Aris_Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Great point Sarah! I agree that a restrictive cardiomyopathy should be considered, especially given the age and presentation. I've had experience with these cases and can say that it's not uncommon for patients to present with minimal physical exam findings. As for the echo, I think it's an essential tool in this case. I'd recommend doing a bedside echo to evaluate for signs of constriction, such as an abrupt drop in ventricular filling during inspiration. If the echo is inconclusive, then a formal transesophageal echo may be necessary.",
-        "color": "blue"
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "But isn't non-invasive ventilation still an \"intervention\"? How would we determine what constitutes a \"heroic measure\" vs. a medically necessary treatment?",
+        "color": "green"
       },
       {
         "id": 3,
         "parent_id": 1,
-        "user": "TurbTom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "I'm just a nurse, but I've seen a few cases where the echo showed signs of constrictive pericarditis but the patient turned out to have a restrictive cardiomyopathy. It's not always clear-cut, but I think an echo is a good idea to rule in or out constrictive pericarditis.",
-        "color": "yellow"
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I think we need to consider the patient's functional status and his ability to make decisions. If he's unable to communicate, we should err on the side of caution and involve his surrogate decision-maker. Maybe we can also consider conducting a mini-mental status exam (MMSE) to assess his cognitive function?",
+        "color": "green"
       },
       {
         "id": 4,
-        "parent_id": 1,
-        "user": "Dr_Victor_Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs, amateurs, amateurs! You're all worrying about constrictive pericarditis and not thinking about the obvious - this patient is probably just a classic case of hypertensive cardiomyopathy! Get the patient on some beta-blockers and digoxin, and let's not forget the aspirin for secondary prevention. Constrictive pericarditis is a rare disease in the ED - let's not get distracted by red herrings.",
-        "color": "red"
+        "parent_id": 3,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "But isn't the MMSE only a screening tool? And what about patients who are able to score high on the MMSE but still make poor decisions due to underlying cognitive disorders?",
+        "color": "green"
       },
       {
         "id": 5,
         "parent_id": null,
-        "user": "Dr_Phil_Muddle",
-        "role": "EP",
-        "city": "Regina, SK",
-        "text": "Uh, what? Am I the only one who thinks we're all just trying to confuse ourselves? Can someone please explain the difference between constrictive pericarditis and restrictive cardiomyopathy? I'm just a simple ED doc, but I thought they were both basically the same thing?",
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs. This is nothing but a case of unclear patient preference. We need to respect that and involve the patient's surrogate or decision-maker. Stop trying to second-guess the patient!",
+        "color": "red"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Aris Thorne",
+        "role": "MD",
+        "city": "Toronto, ON",
+        "text": "Respectfully, Doc, we can't just dismiss the issue. We need to consider the complexities of the situation and involve the right experts to help guide us. That's why we have consult teams, to provide a second opinion and help navigate these tough situations.",
+        "color": "purple"
+      },
+      {
+        "id": 7,
+        "parent_id": 5,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "I'm not sure I agree with you, Dr. Sterling. The patient's surrogate and advance directive provide valuable information, but we still need to consider the patient's functional status and ability to make decisions. We can't just prioritize the patient's autonomy without considering the potential consequences of our decisions.",
+        "color": "green"
+      },
+      {
+        "id": 8,
+        "parent_id": null,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "What a wonderful discussion, everyone! I just wanted to share a resource from the Canadian Medical Protective Association on advance care planning and unclear patient decision-making capacity. It's a great reference for navigating these complex cases.",
+        "color": "lightblue"
+      },
+      {
+        "id": 9,
+        "parent_id": null,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "TL;DR: advance care planning is a minefield! We need to involve experts, consider the patient's functional status, and prioritize their autonomy while respecting their surrogate and advance directive.",
+        "color": "green"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "Amen to that, Turbo! And let's not forget to involve the patient's family and support system in the decision-making process.",
+        "color": "lightblue"
+      }
+    ]
+  },
+  {
+    "title": "Today I Learned about Fever Management",
+    "body": "Just saw a case that highlighted the grey area of fever management in kids. A 2-year-old with a blood culture positive for E. coli, but no systemic signs of sepsis despite a fever of 104F. The question is, do we admit for observation or discharge with oral antibiotics?",
+    "category": "r/emergmed",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Toronto, ON",
+        "text": "I've had a few similar cases. The key is to assess for any signs of systemic involvement. In this case, the child's lack of systemic signs and negative ultrasound make discharge possible, but we should make sure the family is aware of the risks of sepsis and the need for close follow-up. TL;DR: Grey area, but discharge is okay if no systemic signs.",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "But doesn't the American Academy of Pediatrics recommend admitting for observation in cases of fever in kids? I'm thinking of the policy statement on fever management...",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "Actually, Sarah, the AAP policy is focused on outpatient management, not inpatient admission. In fact, it recommends oral antibiotics for select cases of outpatient treated UTIs. We should prioritize individualized care based on the child's clinical presentation, rather than relying on blanket policies.",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": null,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Dr. Gupta, do you think we should also consider the role of fever phobia in this case? I've heard some colleagues mention it in the context of pediatric fever management...",
+        "color": "purple"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Toronto, ON",
+        "text": "Great point, Leo! Yes, fever phobia is a real concern in pediatric fever management. Educating families about the risks and benefits of antibiotic use is crucial in reducing unnecessary admissions and improving patient outcomes. A recent review by [1] highlights the importance of family education in fever management.",
         "color": "green"
       },
       {
         "id": 6,
         "parent_id": 5,
-        "user": "Sarah_Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Hey Dr. Muddle! It's not that simple, unfortunately. Constrictive pericarditis is characterized by thickening of the pericardium, which restricts the heart's ability to fill and pump blood. Restrictive cardiomyopathy, on the other hand, is a group of diseases that cause stiffening of the heart muscle itself, leading to impaired filling and pumping. Think of it like a tight squeeze on a balloon (constrictive pericarditis) vs. a rigid, stuck-together balloon (restrictive cardiomyopathy). I'll send you a link to a good review article if you'd like!",
-        "color": "purple"
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Just had to deal with a family who was insistent on 'just in case' admission. The thing is, when we don't have clear criteria for admission, we end up doing unnecessary work and exposing our patients to unnecessary risks. Dr. Gupta's point about fever phobia is spot on. We should be pushing back on unnecessary admissions and advocating for evidence-based care.",
+        "color": "blue"
       },
       {
         "id": 7,
         "parent_id": 6,
-        "user": "Dr_Aris_Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Thanks for explaining it in a way that makes sense! And Sarah, please do send me that link - I'd love to review it and get a better understanding of these tricky cases.",
-        "color": "blue"
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "I have to say, I'm still a bit worried about missing the diagnosis of sepsis. How do we differentiate between a self-limiting illness and true sepsis in these cases? What's the key thing to look for?",
+        "color": "purple"
       },
       {
         "id": 8,
-        "parent_id": null,
-        "user": "Leo_Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "So, to clarify, you all are saying that constrictive pericarditis and restrictive cardiomyopathy are different conditions with different causes and presentations? And that constrictive pericarditis is more common, especially in men and the elderly?",
+        "parent_id": 7,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Great question, Dr. Park. The key is to assess for systemic signs of sepsis, such as altered mental status, significant hypotension, or evidence of organ dysfunction. In this case, the child's lack of systemic signs makes sepsis unlikely. But we should always be vigilant and monitor for changes in the child's condition.",
         "color": "green"
       },
       {
         "id": 9,
         "parent_id": 8,
-        "user": "Dr_Ziggy_Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Hey Leo! Yep, that's right. And to add to that, constrictive pericarditis is often associated with malignancies, TB, and autoimmune disorders, whereas restrictive cardiomyopathy is more often idiopathic or secondary to sarcoidosis or amyloidosis.",
-        "color": "yellow"
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "I'm confused... isn't fever bad for kids? Shouldn't we just give them antibiotics as a precaution?",
+        "color": "purple"
       },
       {
         "id": 10,
         "parent_id": 9,
-        "user": "Sarah_Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Thanks, Ziggy! One last thing to clarify: what's the best way to manage a patient with suspected constrictive pericarditis? I've seen some cases where treatment with steroids and anti-inflammatory agents has been tried, but with mixed results.",
-        "color": "purple"
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Toronto, ON",
+        "text": "Not exactly, Barnaby! While fever can be uncomfortable, it's usually a sign of the body's natural response to infection. Antibiotics are not always needed, especially if the illness is viral in nature. In fact, overuse of antibiotics can lead to antibiotic-resistant bacteria and other complications.",
+        "color": "blue"
       },
       {
         "id": 11,
         "parent_id": 10,
-        "user": "Dr_Aris_Thorne",
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "Actually, the overuse of antibiotics is a huge problem. We should be focusing on reducing unnecessary use, especially in outpatient settings. That review by [2] I mentioned earlier highlights the importance of judicious antibiotic use.",
+        "color": "green"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "This is all so confusing... can someone explain it to me like I'm 5? Do kids need antibiotics for fever or what?",
+        "color": "purple"
+      },
+      {
+        "id": 13,
+        "parent_id": 12,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "Chad, let me try to simplify it for you. Antibiotics are not always needed for fever, especially if the illness is viral in nature. We should focus on treating the underlying cause of the fever, rather than just giving antibiotics as a precaution.",
+        "color": "blue"
+      },
+      {
+        "id": 14,
+        "parent_id": null,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "I'd like to add a note on the importance of up-to-date immunizations in reducing the risk of certain illnesses, such as bacterial meningitis. As we discuss fever management, let's not forget the role of preventable measures like immunization!",
+        "color": "green"
+      },
+      {
+        "id": 15,
+        "parent_id": 14,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "Indeed, Dr. Sharp! One can't emphasize the importance of immunization enough. And let us not forget the role of traditional remedies, such as willow bark and calomel, in managing fever... ah, the good old days... *chuckles*",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "id": 1234,
+    "title": "Rant about acid-base disorders in the ED",
+    "category": "EM",
+    "body": "Just saw a patient with severe respiratory acidosis. It's a reminder of how often we overlook the basics of acid-base balance in the ED. \n\nWhat are the key things to look for when evaluating acid-base disorders? How do you ensure you're not missing a metabolic component in a patient with obvious respiratory issues?",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Victor Sterling",
+        "role": "FRCSC",
+        "city": "Calgary, AB",
+        "text": "Amateurs always forget that PCO2 is a reflection of ventilation, not just a number in the lab. You need to evaluate the respiratory effort behind these numbers. And don't even get me started on how often I see patients with 'respiratory acidosis' who are actually just hyperventilating because of anxiety. Link to my previous post on the topic: https://www.reddit.com/r/EM/comments/123456/respiratory_acidosis_is_not_always_a_respiratory/",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Dr. Sterling, just to clarify, how do you assess the respiratory effort behind PCO2? Is it a physical exam finding or something you look for in the lab? I've always been a bit confused about how to interpret PCO2.",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Barb Miller",
+        "role": "FRCPC",
+        "city": "Winnipeg, MB",
+        "text": "I think Dr. Sterling's point is that PCO2 is a reflection of ventilatory status, but it's also a reflection of metabolic status. Don't forget to evaluate the anion gap and the electrolytes when interpreting acid-base disorders. Link to a great paper on the topic: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4724710/",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Thanks, Dr. Miller! I've always been a bit skeptical of the anion gap as a way to diagnose metabolic acidosis. Can you explain why it's a useful tool and when you would use it?",
+        "color": "green"
+      },
+      {
+        "id": 5,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Has anyone else noticed how often acid-base disorders are associated with other electrolyte imbalances? I had a patient the other day with severe hyperphosphatemia and hypocalcemia. Any tips on how to manage these cases?",
+        "color": "purple"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Actually, hyperphosphatemia is often due to renal failure, which can also cause metabolic acidosis. But you're right, managing these cases can be tricky. I like to use phosphate binders like calcium carbonate or calcium acetate. Has anyone else had success with these?",
+        "color": "green"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Thanks, Dr. Varkov! But what about the use of sodium bicarbonate in these cases? I've seen some of my colleagues use it to correct acidosis, but I'm not sure about its effectiveness.",
+        "color": "green"
+      },
+      {
+        "id": 8,
+        "parent_id": null,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "As a nurse, I've seen plenty of acid-base disorders come through the ER doors. One thing I always keep in mind is that PCO2 can be a sign of underlying respiratory issues, even if the patient's symptoms don't seem to match. So I always make sure to ask about recent changes in respiratory status, even if it's not immediately apparent.",
+        "color": "blue"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Phil Muddle",
+        "role": "EP",
+        "city": "Regina, SK",
+        "text": "Thanks for the advice, Turbo Tom! One thing that always confuses me is when to use IV fluids in the treatment of acid-base disorders. Any tips on how to know when to use them?",
+        "color": "green"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Actually, IV fluids are rarely used in the treatment of acid-base disorders. They can be helpful in some cases of dehydration or shock, but they're not typically indicated for acid-base balance. Does anyone have experience with using IV fluids in this context?",
+        "color": "purple"
+      }
+    ],
+    "image": "https://i0.wp.com/iem-student.org/wp-content/uploads/2018/07/Pitch-Deck-Slides-Business-Infographic-3.png?fit=800%2C2000&ssl=1"
+  },
+  {
+    "id": 1,
+    "title": "Today I learned a crucial lesson about intracranial hemorrhage",
+    "body": "Just saw a patient with a massive intracranial hemorrhage and it made me realize how easily we can miss the diagnosis. I'm going to share a case study to highlight the importance of thorough imaging and clinical correlation. TLDR: A 45-year-old man presents with sudden severe headache, vomiting, and confusion. CT scan shows a 3cm intracerebral hemorrhage. What are the take-home points from this case?",
+    "category": "EM/ED",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Great post, @Sparkle-Eyes Sue! This highlights the importance of rapid imaging and clinical correlation in patients with acute headache. We often forget that intracranial hemorrhage can present with a wide range of symptoms, making it a diagnostic challenge. Did you perform an MRI to evaluate the extent of the hemorrhage?",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Thanks, @Dr. Maya Gupta! Yes, we did perform an MRI, and it showed a 2.5cm hematoma on the left parietal lobe. What are your thoughts on the use of MRI in intracranial hemorrhage diagnosis? Do you think it's essential in all cases?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs! You're relying too much on imaging. Clinical correlation is key. In this case, the patient's presentation (sudden severe headache, vomiting, and confusion) is classic for intracranial hemorrhage. We don't need to over-imagelogical",
+        "color": "red"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "I've seen @Dr. Victor Sterling's response, and I have to disagree. While clinical correlation is crucial, imaging is essential in detecting intracranial hemorrhage, especially in patients with a negative CT scan. Has anyone else had experience with using CT angiography to evaluate for vasculature abnormalities in patients with suspected intracranial hemorrhage?",
+        "color": "blue"
+      },
+      {
+        "id": 5,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "What about the pathophysiology behind intracranial hemorrhage? Is it primarily related to hypertension or vasculopathies? Can you provide some insights or references on the topic?",
+        "color": "orange"
+      },
+      {
+        "id": 6,
+        "parent_id": 3,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "@Dr. Victor Sterling, I understand your point about clinical correlation, but imaging can help identify complications like hydrocephalus or brain herniation. How would you approach a case like this without relying on imaging?",
+        "color": "pink"
+      },
+      {
+        "id": 7,
+        "parent_id": 5,
+        "user": "Dr. Aris Thorne",
         "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "Good question, Sarah! As I mentioned earlier, an echo is crucial in this case. If the echo shows signs of constriction, we may need to consider a pericardiocentesis to relieve the pressure and allow the heart to fill properly. This can be a delicate procedure, so it's essential to have it done by an experienced team. The steroids and anti-inflammatory agents can be given as a trial, but they're not always effective and may even worsen the condition.",
+        "text": "Intracranial hemorrhage is primarily related to hypertension, vasculopathies, and trauma. A study by Qureshi et al. (2001) found that hypertension was the most common cause of intracerebral hemorrhage. It's essential to keep in mind that patients with hypertension are at increased risk of developing intracerebral hemorrhage.",
+        "color": "gold"
+      },
+      {
+        "id": 8,
+        "parent_id": 6,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Thank you, @Dr. Aris Thorne, for providing that insight. In the case I described, the patient had a history of hypertension, which makes sense given the pathophysiology. Does anyone have any experience with using antihypertensive therapy to prevent intracranial hemorrhage in patients with chronic hypertension?",
+        "color": "silver"
+      },
+      {
+        "id": 9,
+        "parent_id": 7,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I found a paper by Anderson et al. (2019) that discusses the use of antihypertensive therapy to prevent intracranial hemorrhage in patients with chronic hypertension. Would you like me to share the reference?",
+        "color": "purple"
+      },
+      {
+        "id": 10,
+        "parent_id": 1,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "I'm the patient from the case study. Thank you for sharing my story and helping others understand the importance of intracranial hemorrhage detection. If I may ask, what can I do to prevent a similar situation in the future?",
+        "color": "green"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "@Barnaby Finch, it's great to see you engaging in your care! Maintaining good blood pressure control, avoiding anticoagulation therapy when possible, and getting regular check-ups can help prevent intracranial hemorrhage. Does anyone have any additional advice?",
         "color": "blue"
       },
       {
         "id": 12,
         "parent_id": 11,
-        "user": "Dr_Victor_Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Pffft, let the experts handle it! You're all way over your heads with this one. Pericardiocentesis is a serious procedure and not something to be taken lightly. If the echo shows signs of constriction, we need to operate and take out that offending pericardium.",
+        "user": "Martha The Hammer",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "I've cared for patients with intracranial hemorrhage, and I can attest to the importance of maintaining good blood pressure control. Don't forget to consider the role of smoking and excessive alcohol use in increasing the risk of intracranial hemorrhage!",
         "color": "red"
       },
       {
         "id": 13,
         "parent_id": 12,
-        "user": "Dr_Aris_Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Sorry, Vic, but that's just not always an option. Sometimes, the pericardium is too adherent to the myocardium to remove it safely. In those cases, pericardiocentesis may be the best way to relieve the pressure and stabilize the patient. And please, let's not get ahead of ourselves - we can't just operate without a thorough evaluation and discussion with a consultant.",
-        "color": "blue"
-      }
-    ],
-    "image": "https://pubs.rsna.org/cms/10.1148/rg.250001/asset/images/rg.250001.fig1.jpg"
-  },
-  {
-    "id": "HHS_2024",
-    "title": "Hyperosmolar Hyperglycemic State - Not a Simple DKA! TLDR: Remember to check sodium and don't forget to give mannitol for cerebral edema",
-    "body": "Rant about... Hyperosmolar Hyperglycemic State (HHS). I had a case last night that reminded me how easy it is to miss this diagnosis. I've been practicing for 10 years and still had to brush up on my knowledge. Thought I'd share with the community.",
-    "category": "Emergency Medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "M.D.",
-        "city": "Toronto, ON",
-        "text": "Great reminder, Dr. ! HHS is a classic case of 'don't let your guard down'. I always make sure to check the sodium level and glucose > 600 mg/dL. And of course, mannitol for cerebral edema. One thing to keep in mind is that HHS often presents with more nonspecific symptoms like weakness, dyspnea, and chest or abdominal pain. Thanks for the reminder!",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "M.D.",
-        "city": "Calgary, AB",
-        "text": "@Dr. Aris Thorne - You're absolutely right, Dr. ! However, I'd like to clarify that we shouldn't be so quick to diagnose HHS without considering other possible causes of hyperglycemia, such as medication non-adherence or other medical conditions. Don't jump to conclusions, folks!",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "@Dr. Aris Thorne - I've been studying for my EM shelf and I had a question about HHS. What's the typical laboratory value for serum osmolality in HHS? Is it > 30 mOsm/kg?",
-        "color": "purple"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Aris Thorne",
-        "role": "M.D.",
-        "city": "Toronto, ON",
-        "text": "@Leo Chen - Good question, doc! According to the literature, serum osmolality in HHS is typically > 315 mOsm/kg. So, not 30 mOsm/kg, but 315 mOsm/kg. Glad I could help clarify that for you!",
-        "color": "purple"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Dr. Sarah Sharp",
-        "role": "M.D.",
-        "city": "Laval, QC",
-        "text": "Just to add to this discussion, I'd like to mention that HHS often occurs in patients with underlying chronic conditions, such as CHF, renal disease, or neurologic conditions. Also, it's essential to perform a thorough physical examination to assess for signs of dehydration and electrolyte imbalance.",
-        "color": "green"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "@Dr. Sarah Sharp - That's a great point, doc! I was just reviewing the case of a patient who presented with HHS and I noticed that they had a history of CHF. I would not have guessed that as a primary consideration if not for your reminder. Thanks for the insight!",
-        "color": "purple"
-      },
-      {
-        "id": 7,
-        "parent_id": 1,
-        "user": "Martha 'The Hammer'",
-        "role": "R.N.",
-        "city": "Halifax, NS",
-        "text": "I've worked in the ER for over 20 years and I still get calls from the nurses saying 'I think we have a DKA/HHS mix-up!' It's like they're trying to confuse us on purpose.",
-        "color": "green"
-      },
-      {
-        "id": 8,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "R.N.",
-        "city": "London, ON",
-        "text": "Lol, @Martha 'The Hammer', I feel you! ER is like playing a game of 'spot the difference' between DKA and HHS. But seriously, it's like 'Hey, let's throw some sodium and glucose at this patient and see if they magically get better...' Not exactly the most ideal plan of care.",
-        "color": "purple"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "@Turbo Tom - That's a pretty good summary of the situation. But what do you mean by 'spot the difference' between DKA and HHS? What are the key differences in presentation between the two?",
-        "color": "purple"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Turbo Tom",
-        "role": "R.N.",
-        "city": "London, ON",
-        "text": "@Leo Chen - Think of it like this, Leo: DKA is like a classic 'I want to die from this' patient, whereas HHS is more like 'I'm too tired to care about this.' But seriously, DKA tends to have more severe metabolic acidosis and ketosis, while HHS often presents with less severe acidosis and more severe hyperosmolality. Plus, HHS patients tend to have more signs of dehydration and electrolyte imbalance.",
-        "color": "purple"
-      },
-      {
-        "id": 11,
-        "parent_id": null,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "Uh, excuse me? Am I the only one who doesn't understand what you guys are talking about? I thought I just came in for a routine check-up, not to be discussed like I was a bug under a microscope.",
-        "color": "green"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Dr. Sarah Sharp",
-        "role": "M.D.",
-        "city": "Laval, QC",
-        "text": "@Barnaby Finch - Don't worry, Barnaby! We're just discussing a medical topic. HHS is a serious condition that requires prompt treatment. We're not talking about you specifically, just general medical knowledge.",
-        "color": "purple"
-      },
-      {
-        "id": 13,
-        "parent_id": null,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "M.D.",
-        "city": "Windsor, ON",
-        "text": "Ugh, can we please just get back to the topic at hand? This convo is like watching paint dry. Let's focus on the clinical aspects of HHS. Who's got a minute to link some good resources on this?",
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Thank you, @Martha The Hammer, for emphasizing the importance of lifestyle factors! Is there anything else we can do to improve our detection and management of intracranial hemorrhage?",
         "color": "green"
       },
       {
         "id": 14,
         "parent_id": 13,
-        "user": "Dr. Maya Gupta",
-        "role": "M.D.",
-        "city": "Mississauga, ON",
-        "text": "@Dr. Rick 'The Rage' - Here, @Dr. Rick: [link to article on HHS](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5444448/). Good resource on the pathophysiology and treatment of HHS.",
-        "color": "purple"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "TB Case Study: Miliary TB",
-    "body": "Had a miss last night... A 35-year-old woman with HIV on HAART presents with 3 days of worsening fevers and cough productive of pink frothy sputum. CXR shows a miliary pattern consistent with Miliary TB. I was initially stumped because of her normal CXR from 6 months ago. Any thoughts on what I should have done differently? TLDR: How likely is Miliary TB in a HIV pt with normal prior CXR?",
-    "category": "Emergency Medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "MD",
-        "city": "Toronto, ON",
-        "text": "Great case! In HIV pts with normal prior CXR, Miliary TB is still a possibility, especially with symptoms like fevers, cough, and weight loss. It's essential to consider the patient's HIV status, TB exposure history, and recent travel history when interpreting the CXR. I always order a chest CT to better visualize the extent of pulmonary disease and rule out other causes like sarcoidosis or lymphangitic carcinomatosis.",
-        "color": "blue"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "So, Dr. Thorne, what would be the diagnostic workup for this patient? Would you perform an acid-fast bacilli smear and culture on sputum, or would you proceed with a biopsy?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Great question, Leo! In this scenario, I would recommend proceeding with a bronchoscopy and brushing for AFB smear and culture. The patient's symptoms and presentation are highly suggestive of pulmonary TB, and a biopsy would allow us to confirm the diagnosis and rule out malignancy. Has anyone else used a bronchoscopy in a similar case?",
-        "color": "purple"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
         "user": "Dr. Elena Varkov",
         "role": "FRCPC",
         "city": "Quebec City, QC",
-        "text": "I completely agree with Dr. Gupta's approach. When I had a similar case last year, I performed a bronchoscopy and found extensive inflammation and granulomatous disease in the lungs. The patient went on to receive TB treatment and had a great outcome. The key is to have a high index of suspicion for TB in HIV-positive patients with respiratory symptoms.",
-        "color": "brown"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "You guys are forgetting one important piece of information. When I saw this patient, I noticed that she had a history of recent travel to a TB-endemic area, which made me even more suspicious of pulmonary TB. Has anyone else used travel history in their diagnosis?",
-        "color": "red"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "TB history, recent travel history, and HIV status are all crucial pieces of information when diagnosing TB. It's essential to consider the patient's entire clinical picture, rather than just focusing on one symptom or test result.",
-        "color": "orange"
-      },
-      {
-        "id": 7,
-        "parent_id": 4,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Dr. Varkov, what kind of laboratory tests would you run for this patient to confirm the diagnosis of TB? Would you do an AFB smear and culture, or proceed with geneXpert or TB-NAAT?",
-        "color": "gray"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Aris Thorne",
-        "role": "MD",
-        "city": "Toronto, ON",
-        "text": "Sarah, for a diagnosis of pulmonary TB, I would recommend using a combination of laboratory tests, including AFB smear and culture, and molecular tests like geneXpert. GeneXpert is particularly useful in identifying rifampicin-resistant TB, which is becoming increasingly important in the era of TB treatment.",
-        "color": "pink"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "So, Dr. Thorne, what's the most common cause of TB in HIV-positive patients? Is it Miliary TB, or something else?",
-        "color": "yellow"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "The most common cause of TB in HIV-positive patients is pulmonary TB, often presenting with symptoms like cough, fever, and weight loss. Miliary TB is a possibility, but it's more common in immunocompromised HIV patients on HAART.",
-        "color": "purple"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Wow, guys, this is so cool! I'm definitely going to remember this for my med school exams. Thanks for the discussion!",
-        "color": "olive"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Haha, welcome to the world of emergency medicine, Chad! You're going to have plenty more exciting cases like this one.",
-        "color": "orange"
-      }
-    ]
-  },
-  {
-    "id": 3,
-    "title": "Today I Learned - The Dark Art of Tracheal Intubation (TL;DR: multiple attempts increase adverse events)",
-    "body": "Just saw a patient with a cervical spine injury and a difficult airway. We ended up placing an EGD and then proceeding with a tracheostomy because of the high risk of cervical spine instability. This got me thinking about the importance of successful first-pass intubation (FPI) rates and the impact of multiple intubation attempts on patient outcomes.",
-    "category": "medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "FPI rates of >90% are a realistic goal for our team. We've implemented a checklist to ensure we're prepared for each intubation attempt, and it's made a huge difference. Have you considered using a bougie to facilitate intubation in these high-risk cases?",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "That's so cool! I've heard of using a bougie, but I'm not sure how it works. Can you explain the mechanism behind it?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I completely agree with you, @DrArisThorne. FPI rates are crucial in critical care. We should also be advocating for EGD proficiency in all emergency physicians. What are your thoughts on using ultrasound guidance for EGD placement?",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Oh man, I just learned about EGD in school last week! Can someone explain the differences between EGD and other airway management devices?",
-        "color": "red"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Great question, @ChadBroson! EGDs are essentially supraglottic devices that allow for airway management without intubation. They're commonly used in emergency situations where FPI is difficult or impossible. However, they can have complications such as aspiration and laryngeal trauma.",
-        "color": "orange"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Aye, I've seen me fair share o' EGDs gettin' used in the ER. But I'm curious, what's the deal with transtracheal jet ventilation? I thought that was a thing of the past?",
-        "color": "yellow"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "Transtracheal jet ventilation (TTJV) is still used in pediatric anesthesia and in specific situations where intubation is not feasible. However, it's true that its use has decreased with the advancement of other airway management techniques. TTJV can be quite risky, so it's not something we should be advocating for without clear indications.",
-        "color": "purple"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "I've worked with TTJV in the past, and it's not pretty. Can we please focus on developing our skills in more modern airway management techniques? Like, can we talk about the LMA or the I-Gel?",
-        "color": "green"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "Come on, guys! Let's not forget about the importance of surgical airways when all else fails. I've had to perform a tracheostomy in the past, and it's no picnic. We should be emphasizing surgical airway training in our residency programs.",
-        "color": "red"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "Ah, my dear colleagues, surgical airways are indeed a last resort. But we must not forget the art of traditional airway management, which was mastered by physicians of my generation. The use of a laryngoscope and a well-placed intubating bougie can still be an effective combination.",
-        "color": "blue"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "That's so true, @DrArchibaldThorne. I've been reading a lot about the history of airway management, and it's amazing how far we've come. Can you recommend some resources for learning traditional airway management techniques?",
-        "color": "yellow"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Dr. Phil Muddle",
-        "role": "EP",
-        "city": "Regina, SK",
-        "text": "Hmmm, well... uh... I think I might have misplaced my notes. Can someone help me out and recommend some resources?",
-        "color": "orange"
-      },
-      {
-        "id": 13,
-        "parent_id": 12,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Don't worry, @DrPhilMuddle! I've got you covered. Check out the latest issue of the Canadian Journal of Emergency Medicine for a comprehensive review on traditional airway management techniques.",
-        "color": "purple"
-      }
-    ],
-    "image": "https://my.clevelandclinic.org/-/scassets/images/org/health/articles/intubation"
-  },
-  {
-    "id": 4,
-    "title": "Today I Learned: Hypoglycemia Can Be a Total Bear to Dx...",
-    "body": "Just saw a patient with what I thought was a classic case of a seizure, only to find out it was actually hypoglycemia. We're talking confusion, altered mental status, even a few nice focal neuro deficits. I was ready to write the script for the neuro consult... until I did the blood glucose check. Needless to say, I was both impressed and humbled by the presentation. Anyone else have a recent close call with a mistaken diagnosis? TLDR: Don't sleep on hypoglycemia, folks! The key is being able to pick up on those subtle adrenergic hormone symptoms... or so I thought. Dr. Barb Miller pointed out in a recent podcast (linked below) that these symptoms can be absent in neonates and infants with severe hypoglycemia, so don't count on those classic symptoms to save the day. What are some other pitfalls to watch out for in diagnosing hypoglycemia? See below for the full discussion.",
-    "category": "emergency-medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. 'Ziggy' Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "I've had my fair share of missed hypoglycemia cases too. One thing that's key is being aware of the possibility of hyperinsulinemia in these patients. I recall a particularly tough case where a young diabetic patient came in with what looked like a classic TIA, only to find out it was actually insulin-induced hypoglycemia. The moral of the story: always consider the underlying metabolic state, even if it's not immediately apparent.",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Dr. Zalesky, could you elaborate on the relationship between hyperinsulinemia and hypoglycemia in diabetic patients? I've read that it can be due to increased insulin sensitivity... or something? I'm trying to wrap my head around the physiology.",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Dr. 'Ziggy' Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Great question, Sarah! To break it down, increased insulin sensitivity in diabetic patients can lead to hypoglycemia due to an excessive insulin-to-glucose ratio. The body becomes too effective at removing glucose from the bloodstream, leading to a drop in blood glucose levels. Think of it like a perfect storm of insulin activity. You can also consider the role of insulin autoantibodies in some patients, which can amplify the insulin response... but that's a rabbit hole for another time. The key takeaway is that hyperinsulinemia can mask the symptoms of hypoglycemia, making it even more challenging to diagnose.",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "I'd like to add that hypoglycemia is a common complication in patients with sepsis and other critical illnesses. The symptoms can be nonspecific, and it's essential to be vigilant about checking blood glucose levels in these patients. In the context of sepsis, the body's inflammatory response can lead to insulin resistance, glucose dysregulation, and ultimately, hypoglycemia. It's a classic pitfall in these cases, but it's crucial to recognize the connection and take prompt action.",
-        "color": "blue"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Elena, you bring up a fantastic point about sepsis and hypoglycemia. I've worked with quite a few patients who have presented with sepsis-induced hypoglycemia, and it's indeed a critical complication to be aware of. From the nursing perspective, we need to be proactive in monitoring blood glucose levels and reporting any potential abnormalities to the medical team. It's all about early recognition and intervention to prevent further complications.",
-        "color": "brown"
-      },
-      {
-        "id": 6,
-        "parent_id": 4,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "I've seen patients with sepsis-induced hypoglycemia in my practice as well, and it's amazing how quickly the condition can spiral out of control. In retrospect, I should have suspected hypoglycemia earlier, especially given the patient's symptoms of altered mental status and decreased level of consciousness. As family physicians, we need to be more proactive in monitoring for these complications and seeking help when needed.",
-        "color": "green"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "TLDR; Carbon Monoxide Poisoning - The Unsuspecting 'Masked' Diagnosis",
-    "body": "Just wanted to share a recent case I had in the ER where I misdiagnosed a 35 y/o male with what I initially thought was just 'flu-like' symptoms... Turns out he was suffering from severe carbon monoxide poisoning! I've been re-reading Chapter 127 in Tintinalli's and I wanted to share some key 'take-home' points regarding this diagnosis. As we all know, CO poisoning is notorious for its 'stealthy' presentation, and I was reminded of this case where a 'classic finding' of cherry red lips was notably absent... The patient presented with 'flu-like' symptoms (headache, dizziness, nausea, and vomiting), but no one suspected CO poisoning, as the patient didn't mention any recent exposure to smoke or fumes. Luckily, we had a pulse oximeter handy and were able to quickly confirm COHb levels were elevated, making it a clear case of CO poisoning. The use of bedside pulse cooximetry in the ED to screen for CO exposure is still under investigation, but it's essential to keep it in mind, especially in patients presenting with these nonspecific symptoms. After some quick research, I dug up some interesting facts about CO poisoning... Did you know that baseline COHb levels can be as high as 5% in nonsmokers and 10% in smokers? So, it's all about taking the history and doing the right investigations to confirm the diagnosis! Anybody have similar cases or 'pearls' to share regarding CO poisoning?",
-    "category": "r/emergencymedicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Great case, OP! One thing I always find helpful in diagnosing CO poisoning is checking the patient's past medical history... As we all know, CO is a silent killer, and people with pre-existing heart conditions or lung diseases are at higher risk. I was working a shift last week where a patient with COPD presented with sudden onset dyspnea and SOB... Initially, we thought it was a simple exacerbation, but we managed to get a hold of a pulse cooximeter and it came back positive for elevated COHb levels. It was a game-changer in terms of patient management. Do you guys have any experience with using bedside pulse cooximetry in the ED?",
-        "color": "blue"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Hi Dr. Maya, thank you for your comment! That sounds like a very interesting case... I was wondering if the patient with COPD had a history of smoking or if there were any other risk factors that contributed to their CO poisoning?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Lol, nice catch on the pulse cooximetry! I always try to sneak in a 'pulse ox' whenever I can... But seriously, CO poisoning is a killer, and we need to stay vigilant. I've been having some issues with the new pulse cooximeters we got in our hospital... Anyone else have any experience with them?",
-        "color": "pink"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Hi Doc Ziggy, I was wondering if you could provide some more info about the issues you're having with the new pulse cooximeters? Are they the newer models from Dr\u00e4ger or the ones from Nonin Medical?",
-        "color": "yellow"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Hey Sarah, I think I can shed some light on that... We switched over to the Dr\u00e4ger ones and at first, they seemed great, but then we started noticing some issues with the calibration and stuff... Not sure if anyone else has had similar probs?",
-        "color": "purple"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Just saw a patient with a case of 'gut-wrenching' pelvic pain",
-    "body": "I saw a 25-year-old female with a history of vaginal bleeding and pelvic pain. On physical exam, she had a tender uterus and adnexa, but no obvious cervical motion tenderness or vaginal bleeding. She had a recent history of being out drinking and reported waking up with a sore vagina and no memory of how she got home. She showered before coming to the ED and couldn't recall if she had changed her underwear.",
-    "category": "Emergency Medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Great case! Always a tough one to navigate. Did you consider the possibility of a urinary tract infection or pelvic inflammatory disease? And what about the patient's mental health - was she showing any signs of depression or anxiety?",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "I've read that UTI and PID can present with pelvic pain and UTI. Was the patient's temperature elevated?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "What about the possibility of a sexually transmitted infection? Should we have ordered an STI panel?",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I would have liked to know more about the patient's reproductive history and whether she's on any birth control. Did you do a speculum exam and check for any cervical lesions?",
-        "color": "red"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Why did she shower before coming to the ER? Wouldn't that have contaminated any potential evidence?",
-        "color": "orange"
-      },
-      {
-        "id": 6,
-        "parent_id": null,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "Ugh, patients like this always drive me crazy. I'd have liked to know more about her social history and whether she's been in any abusive relationships. And don't even get me started on the fact that she showered before coming to the ER... what was she thinking?",
-        "color": "purple"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "I completely agree with you, Dr. Rick. These patients are always a delicate situation. And didn't you say that you'd like to know more about her history of intimate partner violence? Did you consider using a validated instrument like the HITS or the DASS-21?",
-        "color": "green"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Victoria Park",
-        "role": "FRCPC",
-        "city": "Calgary, AB",
-        "text": "I'd love to see a reference on the use of the HITS and DASS-21 in evaluating IPV. Can you provide some cites, Dr. Aris?",
-        "color": "blue"
-      },
-      {
-        "id": 9,
-        "parent_id": null,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "Back in my day, we didn't have all these fancy instruments and questionnaires. We just used our common sense and a good old-fashioned physical exam. Am I missing something here?",
-        "color": "purple"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Ha! Well, Dr. Archibald, you're not missing anything, per se. But with the complexity of modern medicine and the prevalence of IPV, we need to be using all the tools at our disposal to accurately diagnose and treat our patients.",
-        "color": "green"
-      }
-    ],
-    "image": "https://www.ebmedicine.net/spaw/uploads/aboutUs/Documentation%20Keys%20Emergency%20Medicine%20Practice.JPG"
-  },
-  {
-    "id": 1,
-    "title": "Just saw a patient with a 4cm PE, still no clue how this happened... Rant about 'safe' DVTs and the limits of Wells' Score",
-    "body": "I've been seeing a ton of patients with DVTs lately, and I'm starting to lose my mind. We've all used Wells' Score to estimate the risk of PE, but how often do we actually think about when it's 'safe' to treat a DVT as a 'benign' condition? I saw a patient last night who had a 4cm clot in their left popliteal vein, and yet their D-dimer was only 1.4 (normal range). Their Wells' Score would have given them a score of 2 (moderate risk), but in my gut, I knew something was off. Turns out, they had been on bedrest for 6 days post-surgery, and their leg had been elevated the entire time. I've seen patients with DVTs develop PEs in as little as 2-3 days, so it's not like this patient's risk was low. I'm starting to wonder whether we're being too liberal in our use of Wells' Score, and whether we should be considering other factors like mobility and DVT location when deciding when to treat a patient for suspected PE.",
-    "category": "emergency medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta, PGY2",
-        "role": "",
-        "city": "Toronto",
-        "text": "TLDR: Don't put patients with DVTs on bedrest unless absolutely necessary! That's like asking for a PE.",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Victor Sterling, Chief of Surgery",
-        "role": "",
-        "city": "Calgary",
-        "text": "Amateurs. You're being too aggressive with your treatment of DVTs. I see patients with multiple comorbidities who don't need 'aggressive' treatment just because they have a DVT. Sometimes it's okay to just manage the symptoms and not overtreat.",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Sparkle-Eyes Sue, LPN",
-        "role": "",
-        "city": "St. John's",
-        "text": "Oh my goodness, I completely agree with Dr. Gupta! I had a patient last week who was on bedrest for 6 days, and they developed a huge clot in their leg. We had to rush them to the OR for thrombectomy. It was terrifying. Can we please, please, please talk more about safe DVTs and how to prevent them?",
-        "color": "purple"
-      },
-      {
-        "id": 4,
-        "parent_id": 2,
-        "user": "Dr. Kevin Park, PGY1",
-        "role": "",
-        "city": "Edmonton",
-        "text": "Excuse me, Dr. Sterling? What do you mean by 'comorbidities'? Don't patients with DVTs already have comorbid conditions? How do you distinguish between which patients need aggressive treatment and which don't?",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": 3,
-        "user": "Dr. Barb Miller, EP",
-        "role": "",
-        "city": "Vancouver",
-        "text": "Sue, can you tell us more about the patient's symptoms and what the OR team did to manage the clot?",
-        "color": "purple"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Sparkle-Eyes Sue, LPN",
-        "role": "",
-        "city": "St. John's",
-        "text": "Yes, of course! The patient had acute leg pain and swelling that progressed rapidly. The OR team had to do an emergency thrombectomy to remove the clot. They also used a mechanical catheter to break up any remaining clots. The patient is doing well now, thank goodness. But it was a close call.",
-        "color": "purple"
-      },
-      {
-        "id": 7,
-        "parent_id": 2,
-        "user": "Dr. Rick 'The Rage', EP",
-        "role": "",
-        "city": "Windsor",
-        "text": "Sterling's full of it as usual. You can't put patients with DVTs at risk of PE just to save a buck on treatment. That's not what medicine is about.",
-        "color": "green"
-      },
-      {
-        "id": 8,
-        "parent_id": 1,
-        "user": "Dr. Sarah Sharp, EP",
-        "role": "",
-        "city": "Montreal",
-        "text": "TLDR: Can we talk about when to use Wells' Score vs. D-dimer for diagnosing PE?",
-        "color": "purple"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Dr. 'Ziggy' Zalesky, EP",
-        "role": "",
-        "city": "Vancouver",
-        "text": "Sharpie, we should be using Wells' Score for low-risk patients (e.g., those with low D-dimer) and D-dimer for high-risk patients (e.g., those with symptoms of PE). That way, we can reduce the number of 'false negatives' and get the right diagnosis.",
-        "color": "purple"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Sarah Sharp, EP",
-        "role": "",
-        "city": "Montreal",
-        "text": "Ziggy, that makes sense. But what about in cases where the D-dimer is borderline (e.g., 1.8-2.7)? Do we re-run the D-dimer in 24 hours or treat for PE?",
-        "color": "purple"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Dr. Ziggy Zalesky, EP",
-        "role": "",
-        "city": "Vancouver",
-        "text": "In cases where the D-dimer is borderline, I usually recommend repeating the D-dimer in 24 hours if the patient is clinically stable. If not, we should be prepared for PE and start treatment. This way, we can reduce the number of unnecessary treatments and get the right diagnosis.",
-        "color": "purple"
-      },
-      {
-        "id": 12,
-        "parent_id": 8,
-        "user": "Turbo Tom, RN",
-        "role": "",
-        "city": "London",
-        "text": "Lol, you guys are making this way too complicated! Just remember, D-dimer < 500 (or local lab's cut-off) is generally considered to be within the 'safe' zone. If it's borderline or > 500, we should be using Wells' Score to estimate the risk of PE.",
-        "color": "green"
-      },
-      {
-        "id": 13,
-        "parent_id": 12,
-        "user": "Dr. Barb Miller, EP",
-        "role": "",
-        "city": "Vancouver",
-        "text": "Tom, that's a great point! You're right, we shouldn't be worrying about whether the D-dimer is 'borderline' or not. Let's just focus on whether the risk of PE is low (< 10% according to Wells')",
-        "color": "purple"
-      },
-      {
-        "id": 14,
-        "parent_id": 12,
-        "user": "Sparkle-Eyes Sue, LPN",
-        "role": "",
-        "city": "St. John's",
-        "text": "Oh my goodness, Tom, you are a lifesaver! I had a patient in pre-op last night who had a borderline D-dimer (1.8). Thank you for reminding me to use Wells' Score instead of getting bogged down in D-dimer details.",
+        "text": "I've worked in a neurology department and seen firsthand the devastating effects of undiagnosed intracranial hemorrhage. In addition to maintaining good blood pressure control, consider implementing protocols for imaging studies and ensuring that patients receive timely and accurate diagnoses. This can be achieved through multidisciplinary teams and quality improvement initiatives.",
         "color": "purple"
       },
       {
         "id": 15,
-        "parent_id": 12,
-        "user": "Barnaby Finch, Patient",
-        "role": "",
-        "city": "Surrey",
-        "text": "TLDR: Sorry, folks. I don't get what you're all talking about. Can someone explain DVT, PE, and Wells' Score in simple terms?",
-        "color": "green"
-      },
-      {
-        "id": 16,
-        "parent_id": 15,
-        "user": "Dr. Ziggy Zalesky, EP",
-        "role": "",
-        "city": "Vancouver",
-        "text": "Barnaby, I'd be happy to explain! A DVT (deep vein thrombosis) is when blood clots form in one of the veins in your legs. If these clots break loose, they can travel to the lungs and cause a PE (pulmonary embolism). Pulmonary embolism is a life-threatening condition that requires prompt medical attention.",
-        "color": "purple"
-      }
-    ]
-  },
-  {
-    "id": 12,
-    "title": "Today I learned that calcium channel blocker toxicity is a real challenge to diagnose and manage.",
-    "body": "Just saw a patient with calcium channel blocker toxicity and it got me thinking... have you guys ever had to deal with this? It's a tough call, I mean, it's not like you're going to just 'suspect' the diagnosis. You gotta have some good clinical pearls to make it work.",
-    "category": "r/EMedicine",
-    "comments": [
-      {
-        "id": 21,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "StaffPhysician",
-        "city": "Toronto, ON",
-        "text": "...my take is that you need to think about the timing of ingestion, the symptoms, and the ECG patterns. With severe toxicity, you might see things like bradycardia, hypotension, and even cardiac arrest. And let's not forget about the hyperkalemia and hypocalcemia...",
-        "color": "blue"
-      },
-      {
-        "id": 22,
-        "parent_id": null,
-        "user": "Dr. Victor Sterling",
-        "role": "ChiefOfSurgery",
-        "city": "Calgary, AB",
-        "text": "...you guys are all over-diagnosing this, Amateurs. It's not like you're going to see some crazy ECG pattern and go straight to IV calcium without thinking. You gotta rule out everything else first...",
-        "color": "red"
-      },
-      {
-        "id": 23,
-        "parent_id": 21,
+        "parent_id": 14,
         "user": "Leo Chen",
         "role": "MS1",
         "city": "Montreal, QC",
-        "text": "...Dr. Thorne, can you clarify what you mean by 'timing of ingestion'? Is it like, we should look for ingestion within a certain timeframe before presenting to the ED?",
-        "color": "grey"
-      },
-      {
-        "id": 24,
-        "parent_id": 21,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "...I agree with Dr. Thorne, but what about the role of digoxin levels in this case? Shouldn't we be checking those too?",
-        "color": "green"
-      },
-      {
-        "id": 25,
-        "parent_id": 22,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "...Dr. Sterling, I don't think you're giving us the full picture here. We do need to be careful about over-diagnosing, but we also can't just dismiss the possibility of calcium channel blocker toxicity because of a few 'Amateurs'. Let's keep an open mind, shall we?",
-        "color": "purple"
-      },
-      {
-        "id": 26,
-        "parent_id": 25,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "...totally agree with Dr. Gupta! And let's not forget about the role of our nursing friends in the ED... we can't diagnose it without them, lol!",
-        "color": "blue"
-      },
-      {
-        "id": 27,
-        "parent_id": 26,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "...so if we suspect calcium channel blocker toxicity, what's the best protocol to follow? Is it like, get the IV fluid going and then maybe some Atropine?",
+        "text": "@Dr. Elena Varkov, that's a great point about implementing protocols for imaging studies. Would you like me to look up some references on this topic?",
         "color": "orange"
       },
       {
-        "id": 28,
-        "parent_id": 27,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "...Chad, it's a bit more complicated than just IV fluids and Atropine... but yeah, that's a good start. You'll also want to consider giving some Calcium gluconate and maybe even some Phosphorus...",
-        "color": "purple"
-      },
-      {
-        "id": 29,
-        "parent_id": 28,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "...Dr. Gupta, can you walk us through the reasoning behind giving Phosphorus? I know it's related to the Ca++ levels or something...",
-        "color": "grey"
-      },
-      {
-        "id": 30,
-        "parent_id": 21,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "...I think we're all getting a bit too caught up in the treatment plan here... let's take a step back and look at the pathophysiology of calcium channel blocker toxicity. Can someone explain the mechanism behind how these meds work in the first place?",
-        "color": "red"
+        "id": 16,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "I'm still having trouble understanding the pathophysiology behind intracranial hemorrhage. Can you provide a simple explanation or recommend a resource?",
+        "color": "blue"
       }
     ]
   },
   {
-    "id": 1,
-    "title": "TLDR; Regional Anesthesia 101: Nerve Blocks and Beyond",
-    "body": "Just saw a patient with a compound fracture and wanted to discuss the nuances of regional anesthesia. What are some of your favorite blocks to use and why? Do you have any go-to techniques for avoiding toxicity? I've heard of the 3-in-1 block, but what's the deal with that?",
-    "category": "EmergMed",
+    "title": "The Dark Side of Healthcare: A Realistic Perspective on Partner Violence.",
+    "body": "Had a case last night that really stuck with me. A 25-year-old female patient presents with significant bruising and swelling on her forehead, cheek, and jaw. Initial history reveals a 'simple altercation at a bar', but further probing reveals a history of intimate partner violence (IPV) that goes back 5 years.",
+    "category": "r/EmergencyMedicine",
     "comments": [
       {
-        "id": 2,
+        "id": 1,
         "parent_id": null,
         "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "As we all know, regional anesthesia is a game-changer for ED pain management. I've found the '3-in-1' block to be absolutely fantastic for fractures, especially in the hand or foot. By injecting LA into the fascial planes, you get a nice spread of anesthesia without compromising the patient's neurovascular status. Make sure to hold firm pressure for 5 minutes to promote cephalad distribution of the anesthetic. [1] Has anyone else had success with this technique?",
+        "role": "Staff",
+        "city": "Toronto",
+        "text": "As ER physicians, we need to think about IPV in every patient who presents with trauma, regardless of the reported mechanism. The evidence is clear: IPV is a leading cause of injury and death among young women. We need to educate ourselves and our patients about the warning signs and resources available. Has anyone had a particularly difficult case of IPV to deal with recently?",
         "color": "purple"
       },
       {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary",
+        "text": "Amateurs, always jumping to conclusions. IPV is not a leading cause of injury or death. You're just trying to stir up drama in the ER. Focus on the patient's actual injuries and you'll see that most of the trauma is just a result of 'accidents'. ",
+        "color": "green"
+      },
+      {
         "id": 3,
-        "parent_id": 2,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Thorne, what's the best approach when it comes to selecting the right type of block for a particular patient? I've seen people use the 'digital blocks' for minor procedures, but when should we use the 'transarterial' block?",
+        "parent_id": 1,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver",
+        "text": "@Victor, you're just trolling us now. IPV is a serious public health issue that requires our attention and action. We need to take a step back and look at the big picture: IPV affects 1 in 4 women in the US. We can't just dismiss it as an 'individual problem'. Have you read the study by the CDC on IPV? It's online.",
         "color": "green"
       },
       {
         "id": 4,
-        "parent_id": 2,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "I love using the 'hematoma block' for fractures! Not only does it reduce pain, but it also helps with reduction and immobilization. Just make sure to aspirate and inject carefully to avoid complications. [2]",
-        "color": "green"
+        "parent_id": 3,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal",
+        "text": "Wait, what's IPV? I thought you meant, like, infidelity? Could someone explain the difference?",
+        "color": "blue"
       },
       {
         "id": 5,
         "parent_id": 4,
         "user": "Dr. Barb Miller",
         "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Hematoma block is great, but what about patient selection? Are there any specific criteria we should use to determine who's a good candidate for this type of block?",
+        "city": "Winnipeg",
+        "text": "IPV stands for Intimate Partner Violence. It's a pattern of behavior in which one partner tries to control and dominate the other. That can include physical, emotional, and financial abuse. Think of it like this: any abuse in a romantic relationship, regardless of the type, is a red flag.",
+        "color": "green"
+      },
+      {
+        "id": 6,
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London",
+        "text": "I've seen it all, folks. From the bruises and cuts to the emotional manipulation. We need to remember that IPV is not just about physical violence - it's about power and control. And trust me, the patients don't just walk into the ER one day - they've been carrying this burden for a long time.",
+        "color": "green"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval",
+        "text": "Turbo, you're so right. As ER physicians, we need to create a safe space for our patients to open up about IPV. We need to be aware of the warning signs and know where to refer patients for help. Have any of you come across any resources or hotlines that might be helpful for patients?",
+        "color": "green"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax",
+        "text": "I have a resource that I've found super helpful: the National Domestic Violence Hotline. They have a website and a hotline that patients can access for support and guidance. Also, the US Department of Justice has a guide for healthcare providers on responding to IPV cases.",
+        "color": "green"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon",
+        "text": "Good heavens, young folks! I recall a patient from the 1950s who suffered from 'hysteria' due to what we'd call IPV today. It's been a long-fought battle, but I'm encouraged by your efforts to raise awareness and provide resources for patients.",
+        "color": "purple"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. Maya Gupta",
+        "role": "Resident",
+        "city": "Mississauga",
+        "text": "Thank you, Dr. Archibald! It's heartening to know that you've seen this issue firsthand. We'll keep fighting for our patients, even if it's just one case at a time.",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Rant about pericarditis and restrictive cardiomyopathy: Can't we just get this right?",
+    "body": "Just saw a patient with suspected pericarditis and restrictive cardiomyopathy. For the love of all things holy, can't we just get this right?! It's like we're talking different languages here. So, I'm sitting here with this poor guy who's been having chest pain for weeks, and we order the usual tests - ECG, chest X-ray, troponins, etc. And what do we find? The ECG is classic for pericarditis with widespread ST-segment elevation, but the troponins are normal, so it's gotta be pericarditis, right? Wrong! The chest X-ray shows a normal cardiothoracic ratio, so it can't be restrictive cardiomyopathy...or so I thought.\n\nLong story short, we managed to get the patient into echo and the findings were classic for restrictive cardiomyopathy - increased left ventricular wall thickness, decreased ejection fraction, and all the bells and whistles. And then I saw it, the patient's chart had a notation saying they had pericarditis a few weeks back. So now we have to figure out which one is the 'real' diagnosis. Did pericarditis trigger restrictive cardiomyopathy or is this a new diagnosis entirely?\n\nFolks, this is what happens when we don't take the time to learn about cardiology. We end up diagnosing based on textbook definitions rather than real-life clinical presentations. Let's all take a deep breath and remember that cardiology is not about checking off boxes on a list, it's about being able to piece together seemingly disparate pieces of information to arrive at the correct diagnosis.",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Well said, OP. I think we often forget that cardiology is more about clinical correlation than just reading ECGs and echo reports. The fact that the patient had pericarditis a few weeks back makes me think we're looking at a case of takotsubo cardiomyopathy, not restrictive cardiomyopathy. Have you considered this possibility?",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "What a bunch of amateur hour, folks. We should be focusing on the fact that the patient presented with chest pain and dyspnea, not some esoteric diagnosis like takotsubo cardiomyopathy. I mean, come on, can't we just admit the patient and treat them with some good old-fashioned rest and hydration? We don't need to make this any more complicated than it has to be.",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I'm a bit confused, OP. What exactly is the difference between pericarditis and restrictive cardiomyopathy? Can someone explain it to me in simple terms?",
         "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Simple terms? Okay, Leo. So, pericarditis is an inflammation of the pericardium, the sac around the heart, while restrictive cardiomyopathy is a disease where the heart muscle becomes stiff and can't relax properly. Think of it like trying to squeeze juice out of a wet sponge vs. trying to squeeze juice out of a dry sponge. The wet sponge won't give up much juice, while the dry sponge will crush and get squished. That's kinda what's happening in restrictive cardiomyopathy.",
+        "color": "pink"
+      },
+      {
+        "id": 5,
+        "parent_id": 1,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Great example, Dr. Gupta! I think we often forget that cardiology is all about understanding the pathophysiology behind different diseases. But, back to the OP's rant - I think what's really bothering you is that we're not taking the time to read up on these conditions and learn about the latest research. We need to do better, folks.",
+        "color": "turquoise"
       },
       {
         "id": 6,
         "parent_id": 5,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Um, isn't toxicity risk higher with certain types of blocks, like the 'fascial plane' block? Can someone clarify this for me?",
-        "color": "yellow"
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "TL;DR - can someone summarize what the OP's rant is about?",
+        "color": "gray"
       },
       {
         "id": 7,
@@ -1022,73 +743,224 @@
         "user": "Dr. Elena Varkov",
         "role": "FRCPC",
         "city": "Quebec City, QC",
-        "text": "Toxicity risk is indeed higher with certain blocks, like the 'fascial plane' block, but it's also dependent on the type and dose of local anesthetic used. We should always follow the maximum recommended dose and use a combination of monitoring and clinical judgment to minimize risk.",
-        "color": "blue"
+        "text": "TL;DR - The OP is ranting about how we're not taking cardiomyopathies seriously enough and how we need to learn more about them. Specifically, they're talking about the importance of distinguishing between pericarditis and restrictive cardiomyopathy.",
+        "color": "brown"
       },
       {
         "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Great points, Dr. Varkov! Just to add, we should also be mindful of patient comorbidities and adjust our dosing accordingly. [3]",
-        "color": "green"
+        "parent_id": 1,
+        "user": "Dr. Rick 'The Rage'",
+        "role": "EP",
+        "city": "Windsor, ON",
+        "text": "Folks, let's get real for a second. This whole rant is just a symptom of a larger problem - hospital administration. We're so bogged down in paperwork and bureaucracy that we can't focus on what really matters - patient care. I mean, who cares about the nuances of cardiomyopathy when you're in charge of triaging 50 patients in the ER?",
+        "color": "red"
       },
       {
         "id": 9,
         "parent_id": 8,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "I've seen some EDs use the '3-in-1' block with some success, but what about the 'digital block'? When's the best time to use this technique?",
-        "color": "yellow"
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Amen to that, Dr. Rick. We need to start prioritizing patient care over administrative tasks. But, OP, let's not throw the baby out with the bathwater. We still need to figure out how to make cardiology education more accessible and practical for emergency physicians.",
+        "color": "orange"
       },
       {
         "id": 10,
         "parent_id": 9,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Ooh, good question, Turbo Tom! I've heard the 'digital block' is great for minor procedures, especially on the hands and feet. Just make sure to assess and document neurovascular status beforehand!",
-        "color": "pink"
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Couldn't agree more, Dr. Miller. I think we need to start by making cardiology more integrated into emergency medicine education. Maybe we can even create some online resources or webinars to help EM physicians learn more about these complex conditions.",
+        "color": "purple"
+      }
+    ],
+    "image": "https://pubs.rsna.org/cms/10.1148/rg.250001/asset/images/rg.250001.fig1.jpg"
+  },
+  [
+    {
+      "id": 17,
+      "title": "Case study: Bacterial Meningitis in a 25 year old with a petechial rash",
+      "body": "Just saw a patient with a 3 day history of fever, headache, and neck stiffness. Physical exam revealed a petechial rash on the trunk and extremities. Labs showed CSF pleocytosis with a predominance of neutrophils, positive Gram stain for gram-negative diplococci, and a positive PCR for Neisseria meningitidis. The patient was treated with ceftriaxone and dexamethasone. Had a bit of a scare when the patient's rash appeared, but fortunately it was a classic case of meningococcemia. Rant about how easily this can be treated with timely antibiotics, but how often it's not diagnosed properly due to the nonspecific symptoms in the early stages.",
+      "category": "Emergency Medicine"
+    },
+    {
+      "id": 1,
+      "parent_id": null,
+      "user": "Dr. Aris Thorne",
+      "role": "Staff Physician",
+      "city": "Toronto, ON",
+      "text": "Kudos to the OP for recognizing the petechial rash! That's a classic sign of meningococcemia. Did you consider the Meningococcal Disease Work\u0443\u043f in the ED to help guide diagnosis and treatment?",
+      "color": "purple"
+    },
+    {
+      "id": 2,
+      "parent_id": 1,
+      "user": "Dr. Victor Sterling",
+      "role": "Chief of Surgery",
+      "city": "Calgary, AB",
+      "text": "Amateurs need to stop posting about how easy it is to treat bacterial meningitis. I've seen patients die from this condition, and it's not all sunshine and rainbows. Don't forget to consider the patient's underlying conditions, such as HIV or asplenia, which increase their risk of invasive disease.",
+      "color": "green"
+    },
+    {
+      "id": 3,
+      "parent_id": 1,
+      "user": "Dr. 'Ziggy' Zalesky",
+      "role": "EP",
+      "city": "Vancouver, BC",
+      "text": "Totally agree with Dr. Thorne. That Meningococcal Disease Work\u0443\u043f is a game-changer. I also make sure to consider the patient's travel history, especially if they've been to a region with high meningococcal carriage rates. Has anyone else heard about the new conjugate meningococcal vaccines? They seem like they might be game-changers in preventing invasive disease.",
+      "color": "blue"
+    },
+    {
+      "id": 4,
+      "parent_id": 1,
+      "user": "Martha 'The Hammer'",
+      "role": "RN",
+      "city": "Halifax, NS",
+      "text": "As a nurse, I've seen firsthand how quickly patients with bacterial meningitis can deteriorate. Make sure to get those CSF cultures and PCR results ASAP to guide treatment. Don't forget to consider the patient's mental health and social support system, which can greatly impact their outcome.",
+      "color": "red"
+    },
+    {
+      "id": 5,
+      "parent_id": 3,
+      "user": "Leo Chen",
+      "role": "MS1",
+      "city": "Montreal, QC",
+      "text": "Dr. Zalesky, can you explain more about how to use the Meningococcal Disease Work\u0443\u043f? I've heard it's a decision-making tool, but how do we actually use it in practice?",
+      "color": "purple"
+    },
+    {
+      "id": 6,
+      "parent_id": 3,
+      "user": "Dr. Maya Gupta",
+      "role": "PGY2",
+      "city": "Mississauga, ON",
+      "text": "Thanks for the reminder about the conjugate meningococcal vaccines, Dr. Zalesky! I'll make sure to discuss those with my patients who fit the high-risk criteria.",
+      "color": "green"
+    },
+    {
+      "id": 7,
+      "parent_id": 4,
+      "user": "Dr. Henry Oldman",
+      "role": "CCFP",
+      "city": "Victoria, BC",
+      "text": "Well said, Martha. As family physicians, we need to consider the whole patient, including their mental health and social support system. That's especially important in rural or remote areas where access to care may be limited.",
+      "color": "blue"
+    },
+    {
+      "id": 8,
+      "parent_id": 5,
+      "user": "Dr. Barb Miller",
+      "role": "EP",
+      "city": "Winnipeg, MB",
+      "text": "Good question, Leo! The Meningococcal Disease Work\u0443\u043f is a simple decision-making tool that helps guide diagnosis and treatment. You can find it online or in your EM resource book. basically, it's a series of yes/no questions that help you determine whether the patient needs immediate antibiotic treatment.",
+      "color": "purple"
+    },
+    {
+      "id": 9,
+      "parent_id": 8,
+      "user": "Leo Chen",
+      "role": "MS1",
+      "city": "Montreal, QC",
+      "text": "Thanks, Dr. Miller! I think I understand now. Can you give me an example of how to use it in practice?",
+      "color": "green"
+    },
+    {
+      "id": 10,
+      "parent_id": 9,
+      "user": "Dr. Barb Miller",
+      "role": "EP",
+      "city": "Winnipeg, MB",
+      "text": "Sure thing, Leo! Let's say you have a patient with a fever and headache, but no petechial rash. You'd ask yourself, 'Does the patient have a risk factor for invasive meningococcal disease?' If the answer is yes (e.g. they're HIV positive or have asplenia), then you'd proceed with antibiotic treatment right away. If the answer is no, then you'd continue to monitor the patient and consider other causes of meningitis.",
+      "color": "blue"
+    }
+  ],
+  {
+    "id": 101,
+    "title": "Rant about the challenges of diagnosing acute asthma in children",
+    "body": "Just saw a patient with a 5-year-old wheezing kid who had a CXR showing bilateral sub-segmental atelectasis. I was stumped. The kid was on 5 L of O2 at a FiO2 of 0.4, and the pediatrician had already ordered a slew of labs, including a CXR. The mom was beside herself, wondering what was wrong with her kid. I took a step back, thought about my airway management training, and decided to take a different approach.\n\nHas anyone else had a similar experience where a seemingly straightforward asthma attack revealed itself to be something more complicated?",
+    "category": "emergency_medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "MD",
+        "city": "Vancouver, BC",
+        "text": "This reminds me of the time I saw a 3-year-old with a severe asthma exacerbation in the ER. The kid was hypoxemic, tachypneic, and had a clear history of asthma. I ended up intubating the kid, and the CXR showed bilateral patchy infiltrates. But here's the thing - the kid had a normal PEFR, no wheezing on auscultation, and no obvious triggers. What we found out later was that the kid had a severe case of pertussis. The CXR showed the infiltrates, but the kid's symptoms were actually from the pertussis. Long story short, always keep pertussis high on your differential, especially in kids with asthma.\n\nTL;DR: Keep pertussis high on your differential when assessing kids with asthma.\n\nSource: [www.cdc.gov/whooping-cough](http://www.cdc.gov/whooping-cough)",
+        "color": "blue"
       },
       {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "Ah, wonderful thread, everyone! I'm an old patient with a broken ankle. Do you folks have any advice on how to manage pain with regional anesthesia, especially if I'm on blood thinners?",
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Wow, that's a great case, Dr. Z! I've been learning about pertussis in my pediatric rotation, but I've never thought about it in the context of asthma. Can you tell me more about the diagnosis? Were there any specific signs or symptoms that you noticed in the kid?",
+        "color": "lightblue"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Barb Miller",
+        "role": "MD",
+        "city": "Winnipeg, MB",
+        "text": "Yeah, I remember seeing a case like this a few years ago. The kid had a classic asthma exacerbation, but the CXR showed a different story. We ended up admitting the kid and treating for pertussis. It just goes to show that you can't always rely on the usual suspects. Sometimes you need to think outside the box.\n\nBTW, Dr. Z, what was the kid's outcome like?",
+        "color": "red"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "MD",
+        "city": "Vancouver, BC",
+        "text": "The kid made a full recovery, but it was a long road. We had to treat the pertussis with antibiotics, and the kid spent several days in the ICU. But yeah, it just goes to show that you can't always rely on the usual suspects. Sometimes you need to think outside the box.\n\nThat being said, I do want to mention that the kid's parents were very non-compliant with vaccination. They were anti-vaxxers, and it's a miracle the kid didn't end up worse.\n\nTL;DR: Never underestimate the power of vaccination. Don't be afraid to advocate for it!",
+        "color": "orange"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "TL;DR: How I just learned to hate wasp stings for a different reason",
+    "body": "Today I learned that wasp stings in my ED just changed from a minor nuisance to a potential harbinger of something sinister. We had a 45-year-old male come in with a routine wasp sting to the chest, presented with only minor swelling and a small rash. Unremarkable vitals, normal labs. Easy discharge right?",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Not necessarily. Did you notice the patient had a severe reaction to diphenhydramine during treatment? That's when red flags started waving in my head. Remember that fire ant venom can cross-react with other Hymenoptera stings. This could be anaphylaxis.",
         "color": "purple"
       },
       {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Barnaby, great to see you here! When it comes to managing pain on blood thinners, we should be cautious with the type and dose of LA used. Perhaps we can discuss some case studies to illustrate this further?",
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Aren't fire ant venom and wasp stings different species? I thought they didn't typically cross-react.",
         "color": "green"
       },
       {
-        "id": 13,
-        "parent_id": 12,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Dr. Sharp, would you recommend avoiding certain types of blocks altogether when patients are on blood thinners?",
+        "id": 3,
+        "parent_id": 1,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Wait, did you guys get the patient's history on file? I was told it was a first-time exposure to wasp venom. So, how does this relate to past sensitivities?",
         "color": "blue"
       },
       {
-        "id": 14,
-        "parent_id": 13,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "It's not a hard-and-fast rule, Kevin, but we should definitely be cautious and consider the risks vs. benefits when using regional anesthesia in patients on blood thinners.",
-        "color": "blue"
+        "id": 4,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "I've seen this exact phenomenon before. When patients are exposed to different species of Hymenoptera, it can indeed trigger anaphylactic reactions. There's a great article on the EM:RAP blog discussing this phenomenon - https://emrap.cast.org/episode/case-14-0005-wasp-sting- allergy/",
+        "color": "red"
       }
     ],
-    "image": "https://images.squarespace-cdn.com/content/v1/57b5e6e0ebbd1ad42af1f8b6/1523281220781-HR9MKJ49IABVK8RFN80R/Local+anesthetic+table+without+draft.jpg"
+    "image": "https://my.clevelandclinic.org/-/scassets/images/org/health/articles/bug-bites.jpg?io=transform:fit,width:780"
   }
 ]
