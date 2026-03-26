@@ -1,9 +1,63 @@
 [
   {
     "id": 0,
-    "title": "High-Risk PE: When to Thrombolyze?",
-    "category": "Emergency Medicine",
-    "body": "Had a tough decision to make last night. Patient was a 35 yr old PMH of DVT and PE with a new PE on the CT scan. 3 months postpartum. She's stable but high risk (Wells score: 8).",
+    "title": "Rant about mechanical ventilation in the ED: a clinical paradox?",
+    "body": "Just saw a patient with severe pneumonia requiring intubation and mechanical ventilation. I've been thinking a lot about the paradox of mechanical ventilation in the ED. On one hand, it's a lifesaver for patients with severe respiratory failure. On the other hand, it can lead to ventilator-associated pneumonia (VAP), acute respiratory distress syndrome (ARDS), and other iatrogenic complications.\n\nHas anyone else noticed that the more you try to 'optimize' ventilation, the more complications you seem to cause? I mean, we're all for minimizing tidal volumes and plateau pressures, but at what cost? And don't even get me started on the overuse of non-invasive ventilation (NIV). I've seen patients with severe respiratory failure who were treated with NIV for hours before being intubated. By the time they were intubated, it was too late and they developed VAP.\n\nSo, what's the takeaway here? Should we be more cautious with mechanical ventilation in the ED? Or should we just stick with the 'one-size-fits-all' approach and hope for the best?",
+    "category": "respiratory",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Preach, brother! I've been saying this for years. We need to rethink our approach to mechanical ventilation in the ED. The 'one-size-fits-all' approach is just not working anymore. I think we need to focus more on individualized ventilation strategies, taking into account the patient's specific lung pathology and comorbidities.\n\nAnd don't even get me started on NIV. It's a crutch for nurses who can't manage a patient's respiratory status. I mean, come on, if a patient needs to be intubated, let's just intubate them already! The unnecessary use of NIV is leading to delayed intubation and increased risk of complications.\n\nOne link that might be useful is this study on individualized ventilation strategies in critically ill patients: [link to study].",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I'm not sure I agree that NIV is a crutch. I've been reading about it in my respiratory physiology notes and it seems like a great way to improve gas exchange without intubating. I'm not sure I buy the idea that it's just for nurses who can't manage a patient's respiratory status.\n\nCan you elaborate on why you think NIV is being overused? Do you think it's because of nurse bias or something else?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "I think Dr. Zalesky is onto something here. Individualized ventilation strategies are the future of mech ventilation. We need to focus more on the patient's specific needs, rather than following a one-size-fits-all approach.\n\nHas anyone seen this paper on personalized ventilation in critically ill patients? [link to paper]. It outlines some interesting strategies for optimizing ventilation based on individual patient characteristics.",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "That paper looks really interesting, Dr. Varkov. Can you explain how they're using machine learning to optimize ventilation? I'm not familiar with the algorithms they're using. Are they based on any particular machine learning model or are they a novel approach?",
+        "color": "red"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "The paper is using a form of reinforcement learning to optimize ventilation. They're using a neural network to learn from patient data and adapt ventilation parameters in real-time. It's a really cool application of machine learning in critical care.\n\nI've also been looking at some studies on the use of machine learning in mech ventilation, and it looks like it has a lot of potential for improving patient outcomes. Maybe we can discuss this further in our next journal club?",
+        "color": "yellow"
+      }
+    ],
+    "image": "https://images.squarespace-cdn.com/content/v1/549b0d5fe4b031a76584e558/1580747160373-XQ8Y1J5AG2PBBRXEYJHO/peds+vent+%282%29.png"
+  },
+  {
+    "id": 1,
+    "title": "Just had a tricky case of missed appendicitis... Rant about the limitations of clinical diagnosis and the importance of bedside teaching.",
+    "body": "Had a patient with classical appendicitis symptoms that I completely misdiagnosed because I didn't think to consider a pelvic appendix. She was referred to me with complaints of worsening abdominal pain and nausea, but I wrote it off as a gastroenteritis. Luckily, she had a wise grandma who insisted on bringing her to the ER. I was thoroughly embarrassed when the CT scan revealed a perforated appendix.",
+    "category": "emergency medicine",
     "comments": [
       {
         "id": 1,
@@ -11,8 +65,8 @@
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "We need to thrombolyze ASAP! Have you run an Echo? Does she have right heart strain? With a high Wells score, the risk of mortality without thrombolysis is high. I'd also consider getting a stat ECG to evaluate for RVMI. Did you do a V/Q scan to rule out PE? In high-risk patients, I'm always worried about the MELD score... Have you checked that out? (Source: <https://www. Chestjournal.org/article/S0012-3692%2819%2900473-6/abstract>).",
-        "color": "blue"
+        "text": "TL;DR, did you know that the classic signs and symptoms of appendicitis are present in only 50% of cases? I learned this from a study on the diagnostic accuracy of appendix pain localisation. This is a great reminder that we need to think beyond the textbook diagnosis. It's also a perfect opportunity to discuss the importance of bedside teaching and resident supervision. @Dr. Kevin Park, can you share your thoughts on how we can improve our resident's ability to diagnose appendicitis?",
+        "color": "purple"
       },
       {
         "id": 2,
@@ -20,44 +74,302 @@
         "user": "Dr. Kevin Park",
         "role": "PGY1",
         "city": "Edmonton, AB",
-        "text": "Echo results showed mild right ventricular dysfunction. ECG was normal. V/Q scan was suggestive of PE, but not diagnostic. MELD score was 10. Should we still thrombolyze even though she's stable? I'd love to hear any experience from the EPs out there.",
+        "text": "@Dr. Maya Gupta, I couldn't agree more. I think one of the biggest challenges for residents is that we're not taught enough about appendicitis in med school. We don't get enough hands-on experience in the wards, and we're expected to diagnose it based on online tutorials and textbooks. What are your recommendations for improving our education on this topic?",
         "color": "green"
       },
       {
         "id": 3,
-        "parent_id": 2,
+        "parent_id": 1,
         "user": "Dr. Elena Varkov",
         "role": "FRCPC",
         "city": "Quebec City, QC",
-        "text": "We had a similar case last year. We ended up starting her on LMWH given the high MELD score and mild RV dysfunction. The goal was to prevent further PE while we stabilized her. Did you consider anticoagulating her to bridge the time until a decision to thrombolyze can be made? Have you read the latest ESC guidelines on PE treatment? (Source: <https://www.escardio.org/Journals/European-Heart-Journal/European-Heart-Journal-Online-First/Pages/European-Heart-Journal-Long-version- The-management-of-acute-pulmonary-embolism>.pdf).",
-        "color": "red"
+        "text": "Great discussion, everyone! I had a patient last week with a complex medical history and a confusing presentation. I ended up calling a family meeting and involving our hospital's palliative care team. Can we talk about the importance of interdisciplinary care and communication in emergency medicine?",
+        "color": "blue"
       },
       {
         "id": 4,
         "parent_id": 3,
-        "user": "Turb0-Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "I'm just going to put in my 2\u00a2 here... Have you folks considered the patient's postpartum status? I'd like to see her get some extra support with her breastfeeding and get her a lactation consultation. Sometimes, the little things make a big difference.",
-        "color": "purple"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
         "user": "Dr. Rick 'The Rage'",
         "role": "EP",
         "city": "Windsor, ON",
-        "text": "What's wrong with you EPs? Don't you know the latest RCTs on PE management?! We should be thrombolyzing ASAP, not messing around with anticoagulants! What's the holdup? Don't get me started on the latest Canadian guidelines... (Source: <https://www.acep.org/Clinical--Practice-Management/ACP-Vancouver-2019-PE-Guideline-Update/>).",
+        "text": "@Dr. Elena Varkov, I couldn't agree more. Interdisciplinary care is essential in emergency medicine. I had a patient last month who was in cardiac arrest and required a thoracotomy. The ICU team, the surgeon, and I had to work together seamlessly to save the patient's life. It was a great reminder that emergency medicine is not just about diagnosis, but also about communication and collaboration.",
+        "color": "orange"
+      },
+      {
+        "id": 5,
+        "parent_id": null,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "Uh, guys... I just got back from the hospital and I'm still trying to figure out what happened. Can someone explain appendicitis to me in plain English?",
+        "color": "pink"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "@Barnaby Finch, great question! Appendicitis is an inflammation of the appendix, a small pouch at the end of the large intestine. It can be caused by a blockage, infection, or other issues. Symptoms can include abdominal pain, nausea, vomiting, and fever. We have a great summary on our department's website, but I can give you a simple explanation if you'd like.",
+        "color": "purple"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "Yeah, that makes sense. But what about the pain? Is it always in the lower right side?",
+        "color": "pink"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "@Barnaby Finch, the pain can actually be anywhere, but it's most commonly felt in the lower right side. This is because the appendix is usually located in the right lower quadrant of the abdomen. However, the pain can also be felt in other areas, such as the navel or even the back. It's always a good idea to get checked out by a doctor if you experience persistent or severe abdominal pain.",
+        "color": "blue"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Hey guys! I'm just a pre-med student, but I'm learning as much as I can. Can you recommend any online resources or videos that would be helpful for learning more about appendicitis?",
+        "color": "green"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "@Chad Broson, I think a great resource for learning about appendicitis is the American College of Surgeons' (ACS) website. They have a wealth of information, including a comprehensive guide to appendicitis diagnosis and treatment. Dr. Phil Muddle, can you suggest any other online resources that might be helpful for pre-med students like Chad?",
+        "color": "purple"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "@Chad Broson, a fine young fella such as yourself might benefit from perusing the Journal of the American Medical Association (JAMA). They have a wealth of scholarly articles on all manner of medical topics. Now, I digress. Appendicitis, you say? Ah yes, a most dreadful condition indeed.",
+        "color": "orange"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Ha! Thanks for the suggestion, Dr. Thorne. However, Chad might appreciate something a bit more focused on emergency medicine. I think the Society for Academic Emergency Medicine (SAEM) website has a great section on appendicitis diagnosis and treatment.",
+        "color": "purple"
+      },
+      {
+        "id": 13,
+        "parent_id": 12,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Wow, thank you all so much for your help! I'm really going to check out those resources. One last thing, what are some of the most common complications of appendicitis?",
+        "color": "green"
+      },
+      {
+        "id": 14,
+        "parent_id": 13,
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "@Chad Broson, great question! Common complications of appendicitis include intra-abdominal abscess, wound infection, adhesion formation, bowel obstruction, and infertility. These can occur due to a perforated appendix, which can lead to peritonitis and other systemic complications.",
+        "color": "blue"
+      },
+      {
+        "id": 15,
+        "parent_id": 14,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Thank you, Dr. Stone! I've learned so much today. Can someone summarize the key points for me?",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "title": "Just had a weird TB case today... (TLDR: Don't rely on CXR, get a bloody sputum smear)",
+    "body": "Cab start with I'm still trying to process what I just saw in the ED... This 32yo dude comes in with a 3-day history of fevers, chills, productive cough and some weight loss. He's a known HIV patient on HAART, so I immediately start thinking TB. However, I didn't get a sputum smear on him, just did a CXR, which looked pretty normal... I mean, it had a few patchy infiltrates, but nothing that screamed TB to me.\n\nFast forward to this am, I got a call from the ID doc saying the TB culture is positive, and it's a pretty nasty strain. My resident pointed out that the sputum smear was positive as well, and I'm kicking myself for not even doing it...\n\nTLDR: In TB cases, especially in HIV+ patients, you gotta get a bloody sputum smear, and it's not just an 'extra test'. I know it's not the most sensitive test, but at least it's better than nothing. And if you don't get it, you're just playing ' diagnostic roulette'... Don't rely on CXRs alone, folks!",
+    "category": "r/emergencymed",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Couldn't agree more, OP! And don't forget to check the acid-fast stain results. I've had cases where the sputum smear was negative, but the acid-fast stain was positive. The ED utility of getting sputum smear results quickly is huge, but you gotta make it happen!",
+        "color": "blue"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Hi OP, can you clarify what the ID doc meant by 'nasty strain'? Was it drug-resistant TB or something else? I've been reading up on TB cases and I'm still confused about the different types... Also, can you link to the case study or any online resources you used to learn about this? Thanks!",
+        "color": "red"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Thanks for posting this, OP! I had a similar case a few months ago where the patient's sputum smear was positive, but the TB culture was negative. It turned out she had a non-tuberculous mycobacterium infection. TB culture is still the gold standard, but it takes forever to get results... Do you guys think we should be checking for NTM in more cases?",
+        "color": "purple"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Turbo Tom (RN)",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "As a nurse, I always get a sputum smear in any TB suspect, just in case. And you're right, OP, even if the smear is negative, it's still a good idea to check the acid-fast stain. I've seen cases where the smear was negative, but the stain was positive. One thing I'd like to add, though, is that the quality of the smear matters a lot. If it's not done right, the results will be crap...",
+        "color": "green"
+      },
+      {
+        "id": 5,
+        "parent_id": null,
+        "user": "Dr. Rick 'The Rage'",
+        "role": "EP",
+        "city": "Windsor, ON",
+        "text": "This topic is a pet peeve of mine, folks. We're always talking about how great sputum smear is, but nobody thinks about the logistics. I mean, have you ever tried to get a sputum smear from a patient who's having a massive hemoptysis event? Not fun, let me tell you... We need to think about the whole 'test utility' and not just the test itself. Get a sputum smear, sure, but make sure you can get the results in a timely manner...",
         "color": "orange"
       },
       {
         "id": 6,
         "parent_id": 5,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "I'm going to side with Turb0-Tom here. We need to support our patients, especially postpartum women. Let's not forget about the human element. What's the state of her breastfeeding? Has she got good support? It's not just about the MELD score... It's about the overall picture.",
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Agree with you, Dr. Rick. We need to think about the whole ED workflow, not just the individual tests. What about using point-of-care diagnostics for TB smear, like the BD MGIT system or whatever? That would save so much time and hassle... Has anyone used these systems in their EDs?",
+        "color": "blue"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Actually, I've used the BD MGIT system in my ED, and it's a game-changer! The turnaround time is amazing, and the results are super reliable. We got a bunch of false negatives with the sputum smear, but the MGIT system nailed it every time. You guys should look into it, for sure... [link to article about BD MGIT system]",
+        "color": "purple"
+      },
+      {
+        "id": 8,
+        "parent_id": null,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Hey guys, just a question from a pre-med student... What's the difference between TB smear and TB culture? Is one more accurate than the other? I'm totally confused... Thanks!",
+        "color": "red"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Hi Chad, the difference between TB smear and TB culture is that the smear is more sensitive, but less specific. It's used to rule out TB quickly, while the culture takes longer to grow, but is more specific... Think of it like a rapid test versus a gold standard test. But hey, in our EDs, we don't always have that luxury, so we use both smear and culture when we can... [link to article about smear vs culture]",
+        "color": "blue"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Leo Chen (MS1)",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Thanks, Dr. Sharp! I think I understand now... So, in a nutshell, we use a sputum smear to quickly rule out TB, and then confirm it with a culture if the smear is positive. Or, if the culture is negative, but we still suspect TB, we can use another test, like the QuantiFERON or whatever... Can you guys clarify what other tests we use to diagnose TB, and in what situations?",
+        "color": "purple"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Exactly, Leo! The QuantiFERON is a great tool for diagnosing TB, especially in low-resource settings where cultures are hard to get. But, it's not a replacement for culture, just a complementary test... For example, if we have a patient with a high clinical suspicion for TB, but the smear and culture are negative, we can use the QuantiFERON to help guide treatment decisions... Check out the CDC guidelines on this [link to CDC guidelines]",
+        "color": "blue"
+      },
+      {
+        "id": 12,
+        "parent_id": null,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "Wait a minute, guys... I thought TB was all about the culture, not the smear? Can someone please clarify what's going on here? I'm a bit confused...",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "A Tale of Two Infections: Managing Otitis Externa in the ER",
+    "body": "Just saw a patient with a classic case of otitis externa, or 'swimmer's ear'. I was reminded of the importance of proper management, especially when it comes to recalcitrant cases or complications like malignant otitis externa. So, let's dive in and discuss the best practices for managing otitis externa in the ER.",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great topic, OP! Otitis externa is a common condition, but it's easy to miss or misdiagnose, especially in pediatric patients. I always make sure to ask about swimming or excessive ear cleaning, as these are key risk factors. What I'd like to know is: have you considered the use of topical antibiotics in conjunction with the oral options?",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Totally agree with Dr. Thorne, but what about in cases where the ear canal is severely impacted? Have you tried using a wick or cotton balls to help deliver the topical meds?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "I've seen some crazy cases of otitis externa in my time, but what really stands out is how often it's caused by overuse of Q-tips or other objects in the ear canal. Anyone else have any strategies for educating patients on proper ear care?",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Ooh, that's an excellent point, Dr. Miller! I was wondering if you had any resources or handouts that might be helpful for patients to understand this? Maybe something like a diagram or infographic?",
         "color": "yellow"
+      },
+      {
+        "id": 5,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Actually, I'd like to bring up the point about malignant otitis externa. I've read that it's increasing in incidence, especially among immunocompromised patients. Has anyone else noticed this trend, and what's the best approach in terms of management and referral?",
+        "color": "red"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "That's a great point, Sarah! I've also seen some cases of malignant otitis externa and it's always a challenge to manage. Can you recommend any resources or papers on the topic that I might find helpful?",
+        "color": "purple"
       },
       {
         "id": 7,
@@ -65,657 +377,616 @@
         "user": "Dr. Archibald Thorne",
         "role": "Physician",
         "city": "Saskatoon, SK",
-        "text": "What's all the fuss about? In my day, we didn't need all these fancy guidelines and whatnot. We just used our heads and common sense. Now, I'm not saying that's the worst thing in the world, but let's not forget the basics... What's the patient's mental status? Is she stable? Does she need to be in hospital?",
-        "color": "pink"
+        "text": "Good heavens, young Dr. Park! You're thinking about malignant otitis externa? Why, that's a sign of a fine physician in the making! As for resources, I'd recommend checking out the paper by Dr. Choo and colleagues in the Laryngoscope Journal. Excellent work!",
+        "color": "blue"
       },
       {
         "id": 8,
-        "parent_id": null,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "I'd like to share a case from my own practice. Similar to this one, I had a patient with a high-risk PE but who was stable. I ended up starting her on tPA, but with some caveats. Before any treatment, I had to evaluate the risk-benefit ratio carefully and discuss it with her husband. It's not just about the patient's life or limb, but also about the long-term risks and benefits of tPA. (Source: <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5714594/>).",
-        "color": "brown"
+        "parent_id": 7,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Haha, thanks, Dr. Thorne! But seriously, how do you guys handle the pain in these patients? I've seen some pretty miserable cases, and the patients are always begging for meds. Any suggestions?",
+        "color": "green"
       },
       {
         "id": 9,
         "parent_id": 8,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "I think I might be the patient in question...? I had a bit of a weird dream last night and when I woke up, I thought my arm was still in a sling. Is that relevant to this discussion? Can someone explain it to me like I'm 5?",
-        "color": "gray"
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "Pain management in otitis externa? Ha! Just use some good old-fashioned acetaminophen and ibuprofen, and make sure to remind the patient to use ear drops. Don't be a hero, kids!",
+        "color": "red"
       },
       {
         "id": 10,
         "parent_id": 9,
-        "user": "Dr. Phil Muddle",
-        "role": "EP",
-        "city": "Regina, SK",
-        "text": "I love this thread! Can someone remind me what a tPA is and when we use it in the first place? Is it like an MRI machine or something?",
-        "color": "black"
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Actually, Martha, I think we can do better than that. Have you considered using a combination of topical antibiotics and pain meds, like diclofenac or ibuprofen? It's shown to be effective in managing pain in these patients.",
+        "color": "purple"
       },
       {
         "id": 11,
         "parent_id": 10,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "tPA stands for tissue plasminogen activator, which is a clot-busting medication used to treat ischemic strokes and some types of PE. We use it to break down the blood clots and restore blood flow to the affected area.",
-        "color": "blue"
-      },
-      {
-        "id": 12,
-        "parent_id": null,
         "user": "Chad Broson",
         "role": "Pre-med",
         "city": "Brampton, ON",
-        "text": "Can someone explain to me why we're not just using like, a simple medication to dissolve the blood clots instead of this super-complicated procedure? I mean, isn't that just basic science?",
-        "color": "purple"
+        "text": "Wow, this is all so helpful! I'm hoping to get into med school and specialize in EM, so thank you all for the advice and resources. Can someone point me to some good books or online courses on EM?",
+        "color": "yellow"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Actually, Chad, I think you should check out the American College of Emergency Physicians (ACEP) website for some excellent resources on EM. They have a lot of online courses and books that are worth checking out.",
+        "color": "blue"
       },
       {
         "id": 13,
-        "parent_id": 12,
-        "user": "Turbo-Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Oh boy, Chad... Blood clots are not like dissolving sugar cubes in hot water. It's much more complicated than that. There are various types of clots, and each requires a different approach. tPA is a very specific type of medication that targets clot formation, but it's still not as simple as popping a pill and watching the magic happen.",
+        "parent_id": 6,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "I'd like to add that malignant otitis externa is often a sign of an underlying systemic disease, such as diabetes or immunocompromised status. So, it's essential to screen for these conditions in your patients.",
+        "color": "red"
+      },
+      {
+        "id": 14,
+        "parent_id": 13,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "Wait, do you mean I might have a systemic disease just because I have otitis externa? What does that even mean?",
+        "color": "yellow"
+      },
+      {
+        "id": 15,
+        "parent_id": 14,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Begorrah, Barnaby, don't be alarmist! It's just a precautionary measure. But, indeed, it's essential to get a thorough history and physical examination.",
         "color": "green"
+      },
+      {
+        "id": 16,
+        "parent_id": 6,
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "I'd like to emphasize the importance of proper ear canal cleaning and hygiene in preventing otitis externa. Just make sure to use sterile saline solution and avoid using cotton swabs or any other objects that might push wax further into the ear.",
+        "color": "blue"
+      },
+      {
+        "id": 17,
+        "parent_id": 16,
+        "user": "Dr. Phil Muddle",
+        "role": "EP",
+        "city": "Regina, SK",
+        "text": "Ah, Dr. Stone, you're talking my language now! I always tell patients to use the 'ear-blob' method, where they use their index finger to clean the outer ear only.",
+        "color": "purple"
+      },
+      {
+        "id": 18,
+        "parent_id": 17,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "Ha! That's great advice, Phil. And speaking of the 'ear-blob' method, have you considered using a warm compress to help loosen up the earwax?",
+        "color": "red"
       }
     ],
-    "image": "https://danboater.org/travel-health-and-safety/images/deep-vein-thrombosis-dvt-infographic-dan-boater-lores.png"
+    "image": "https://www.osmosis.org/_next/image?url=https%3A%2F%2Fd16qt3wv6xm098.cloudfront.net%2FgquUt32BRWOjKM2XoNMHjxuMSnmu5zBu%2F_.jpg&w=3840&q=75"
   },
   {
-    "id": 1,
-    "title": "TLDR: Cirrhosis Complication - How many of you got hepato-renal syndrome on your boards?",
-    "body": "Just saw a patient with worsening ascites, SpB and worsening encephalopathy. Had a patient like this last week, too. Anybody else get these cases and know how to differentiate between SpB and HRS? We all know the criteria, but what's your take-home message? Should we be looking for signs of intrinsic renal disease? What's the typical electrolyte and fluid balance in HRS? Is there a specific order to evaluate in SpB or HRS? Got any favorite articles or reviews on this topic? Can't get enough of those nasty SpB antibiotics and IV albumin!",
-    "category": "/r/EMdocs",
+    "id": 4,
+    "title": "Today I Learned: Carbon Monoxide Poisoning is More than Just COHb Levels",
+    "body": "Just saw a patient with classic carbon monoxide poisoning symptoms (headache, dizziness, nausea, vomiting) after a garage door opener malfunctioned in their home.  They had no history of smoking and were found unresponsive by their family.  COHb levels were 38% and she was transferred to ICU for further management.  After doing some further review in the ED, I realized that while COHb levels are good for confirming poisoning, they don't necessarily correlate with symptoms or prognosis.  Has anyone else seen this before?  Any recommendations for management in the ICU?",
+    "category": "Emergency Medicine",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": "Dr. Victor Sterling, Chief of Surgery",
-        "role": "MD",
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Great post! I've seen this before in my internship. COHb levels don't necessarily predict the severity of poisoning.  I've had patients with low COHb levels but high clinical severity (e.g. altered mental status, ischemic ECG changes).  The \"classic findings\" listed in the textbook are great, but we also need to consider other causes of hypoxia in the ED (e.g. pneumonia, DKA).  Has anyone heard of the use of bedside pulse co-oximetry to screen for CO exposure in the ED?  It's still an area of investigation.",
+        "color": "darkblue"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I've read that COHb levels can be elevated in non-exposed patients due to smoking and other factors.  Is that correct?  Can you clarify the baseline COHb levels in smokers and nonsmokers?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "According to the article, baseline COHb levels in nonsmokers can be as high as 5% and up to 10% in smokers.  That's a great point about the limitations of COHb levels in diagnosing CO poisoning.  We need to consider other factors such as symptoms, exposure history, and physical exam findings.",
+        "color": "darkgreen"
+      },
+      {
+        "id": 4,
+        "parent_id": 2,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Yes, Leo, COHb levels can be elevated in non-exposed patients due to smoking and other factors.  Smoking is a significant source of CO exposure, even at home.  We should always ask patients about smoking status and consider it when interpreting COHb levels.",
+        "color": "purple"
+      },
+      {
+        "id": 5,
+        "parent_id": null,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Just a nursing perspective: when we're transporting patients with suspected CO poisoning, we use pulse co-oximetry to monitor COHb levels in real-time.  It's a great tool for tracking the patients' response to treatment and adjusting our therapy accordingly.  Has anyone else used this in their ED?",
+        "color": "orange"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Awesome, Turbo Tom!  Pulse co-oximetry is a game-changer for us ER docs too.  I've used it to monitor COHb levels in patients who were exposed to CO and also in those with suspicious symptoms (e.g. altered mental status).  It's always worth a try, especially if we're unsure about the diagnosis.",
+        "color": "blue"
+      },
+      {
+        "id": 7,
+        "parent_id": 5,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "So, does anyone know if COHb levels go back to normal after treatment?  Like, can patients just stop smoking and their levels will go back down?",
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Not exactly, Chad.  CO can bind to hemoglobin for up to 3-4 months after exposure.  Patients with significant poisoning may experience long-term neurological and cognitive problems.  We need to monitor them for signs of delayed effects, even after the COHb levels have normalized.",
+        "color": "pink"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Cool, thanks for clarifying that.  Can you also tell us about the role of blood co-oximetry in diagnosing CO poisoning?  Is it the most reliable method?",
+        "color": "darkpurple"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "According to the text, blood co-oximetry is the most reliable test for diagnosing carbon monoxide poisoning, especially in symptomatic patients.  I think the key point is that elevated carboxyhemoglobin (COHb) levels confirm exposure, but they don't always correlate with the severity of symptoms or prognosis.  Has anyone else reviewed the article on this topic?",
+        "color": "darkblue"
+      }
+    ]
+  },
+  {
+    "id": 1234,
+    "title": "Today I Learned - Distinguishing Hypoglycemia from Other Causes of Altered Mental Status",
+    "body": "Just saw a patient with altered mental status that had me scratching my head... Turns out it was a classic case of hypoglycemia. But what really got me thinking was how easily it can be misdiagnosed. I've been doing ER work for over a decade, and I still find myself overthinking this scenario. So, I thought I'd share my thoughts and see if the community can help me refine my approach.\n\nThe patient was a 6-month-old infant with a history of poor feeding, lethargy, and temperature instability. The parents reported that the baby had been acting 'off' for a few hours, but they thought it was just a virus. By the time we got to the hospital, the baby was completely unresponsive. My mind was racing with all the possible causes of altered mental status in infants - from sepsis to stroke.\n\nI ordered a stat glucose level, which came back at 40 mg/dL. Of course, that narrowed the differential significantly, but I wanted to make sure I didn't miss anything else. I also ordered a head CT, lumbar puncture, and some blood work to rule out other causes. The CT was clear, the LP showed some white blood cells, but not a lot. The blood work was unremarkable. I then gave the patient some IV dextrose, and within minutes, they started to come around.\n\nThe key takeaways for me were 1) the importance of prompt glucose testing in altered mental status cases, 2) not to underestimate the severity of hypoglycemia in young children, and 3) the need to remain vigilant and think outside the box when it comes to diagnosing critical illnesses in infants.",
+    "category": "emergency medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "TLDR: Great lesson learned here, but what would you do differently now that you've thought it through? Do you think we should be administering glucose prophylactically in all altered mental status cases?",
+        "color": "blue"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Great question, Kevin! I think it's a great point, but I'd caution against administering glucose prophylactically. In pediatrics, we're seeing a lot of cases of hypoglycemia masquerading as seizures, so it's essential to get that glucose level sooner rather than later. I'd love to see some evidence on the use of glucose prophylaxis in altered mental status cases. Maybe someone has some good research on this topic?",
+        "color": "purple"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Actually, I think we should be administering glucose prophylactically in all altered mental status cases. The evidence suggests that hypoglycemia is often missed in the ED, and it's a critical illness that requires prompt treatment. By giving glucose early, we can head off a lot of morbidity and mortality. Maybe we should make glucose testing and administration the standard of care in all altered mental status cases?",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
         "city": "Calgary, AB",
-        "text": "Amateurs. It's either a spontaneous bacterial peritonitis or a hepatorenal syndrome. Don't get me started on the bloody ascitic taps. In HRS, you'll find an absence of urinary sodium in the face of elevated creatinine. And SpB, it's that pesky polymicrobial infection, don't you just know it? You should've just done the abdominal paracentesis and taken a gram stain like a real doc. [link to a study](https://www.journalofhepatology.com/article/S0168-8278(13)00415-7/fulltext)",
+        "text": "I agree with Sarah. The Amateurs in the ED are constantly missing the boat on hypoglycemia. We need to make glucose testing and administration the standard of care to avoid another case like this. And what about glucose testing in the field? Should we be sending our paramedics out with glucose kits so they can test and treat patients on the spot?",
+        "color": "red"
+      },
+      {
+        "id": 5,
+        "parent_id": null,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "I couldn't agree more, Dr. Sterling. And I think we need to talk more about the importance of handovers and communication between shifts. This baby's nurse reported that the parents had mentioned something about the baby not feeding well, but the nurse didn't think to report it. If we had better communication, maybe this wouldn't have happened.",
+        "color": "yellow"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Spot on, Sue! And what about patient education? We need to educate our patients on the signs of hypoglycemia and the importance of reporting it to medical staff. Maybe we could put together some flyers or a pamphlet to distribute to our patients?",
+        "color": "purple"
+      },
+      {
+        "id": 7,
+        "parent_id": null,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I'm new to ER med, and I'm curious about the head CT. Did you do a CT head for seizure activity or just to rule out other causes? And what about the lumbar puncture? Was that to check for meningitis or something else?",
+        "color": "blue"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Great question, Leo! We did the head CT to look for any hemorrhage or other signs of acute injury. The lumbar puncture was to check for meningitis, but also to get some cerebrospinal fluid for analysis. We wanted to make sure we didn't miss anything.",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "TIL: The Importance of Pressure Dressings for Scalp Lacerations?",
+    "body": "I'm writing this as a frustrated rant today because I had a miss last night that's still got me scratching my head. Had a 45-year-old guy come in with a fairly deep scalp laceration that was about 2 cm long. No obvious signs of infection, no loss of consciousness, but he did give a pretty solid blow to his head when it happened. Anyway, we closed the laceration, put some staples in, and sent him home with some pain meds and instructions to follow up in a couple of days. But what's got me steaming is that when I went over the case in morning rounds, our senior resident mentioned that she thought we should've put a pressure dressing on. I asked her why, and she said it's because we didn't assess for a perichondral hematoma, and if we leave that dressing on for the next 24 hours, we might be able to prevent it from happening. I never thought about that before... has anyone else had experiences like this, where a pressure dressing might've made a difference? Should we be defaulting to these dressings for all scalp lacerations, or only certain cases? And what's the protocol for discontinuing them, anyway?",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": 2,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Toronto, ON",
+        "text": "TL;DR: Yes, definitely consider a pressure dressing for scalp lacerations, especially if they're deep or gaping. It's not just about preventing perichondral hematomas - it's also about minimizing risk of infection. We actually had a case last week where a patient came in with a scalp laceration that we didn't put a pressure dressing on, and it ended up getting infected. Long story short, we could've potentially prevented that outcome with a dressing. One thing to note is that you should place the gauze squares behind the ear to apply pressure, and then wrap the head circumferentially with gauze. Leave it on for 24 hours, reevaluate, and then remove if no hematoma has accumulated.",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Calgary, AB",
+        "text": "Great point, @DrMayaGupta! And yeah, it's not just about the scalp - we should be thinking about pressure dressings for other areas too, like the forehead or lips. It's all about reducing the risk of complications. One thing that's always tripped me up is remembering to remove the dressing after 24 hours... can anyone share their protocol for discontinuing these things?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Dr. Vic Sterling",
+        "role": "Chief of Surgery",
+        "city": "Edmonton, AB",
+        "text": "Come on, everyone, let's calm down. We're not talking about life-or-death situations here. Pressure dressings are just a precautionary measure, and we shouldn't be defaulting to them for every single scalp laceration. Let's focus on assessing the patient and using our best judgment.",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Vancouver, BC",
+        "text": "@DrVicSterling, I understand where you're coming from, but we shouldn't be so quick to dismiss this concept. Remember the case I mentioned earlier where the patient ended up getting infected? That could've been prevented with a simple pressure dressing. It's always better to err on the side of caution when it comes to wound care.",
+        "color": "purple"
+      },
+      {
+        "id": 5,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Hey guys, I just had a question about pressure dressings... how do you know when to take them off? Is it just a matter of waiting 24 hours, or are there some other factors we should be considering?",
+        "color": "pink"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Toronto, ON",
+        "text": "@LeoChen, great question! Yeah, it's not just a matter of waiting 24 hours... you should reevaluate the patient after 24 hours and take off the dressing if no hematoma has accumulated. If you do see a hematoma, you can either leave the dressing on for a bit longer or take it off and reassess.",
+        "color": "purple"
+      },
+      {
+        "id": 7,
+        "parent_id": 2,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Ha! You guys and your wound care protocols. I've seen it all - pressure dressings, negative pressure dressings, gauze, etc. One thing to keep in mind is that you should be assessing the patient for signs of infection regardless of whether you're using a pressure dressing or not.",
+        "color": "orange"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Calgary, AB",
+        "text": "@TurboTom, absolutely! And it's not just about assessing for infection - we need to be thinking about the bigger picture here. Pressure dressings are just one tool in our toolbox. We need to be considering the patient's overall risk factors, their medical history, their age... all of that.",
+        "color": "green"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Toronto, ON",
+        "text": "Exactly, @DrElenaVarkov! And it's not just about individual cases either - we need to be thinking about population-level outcomes too. That's why it's so important for us to stay up-to-date on the latest wound care research and guidelines.",
+        "color": "purple"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "What? You're all talking about... wounds? I had a wound! My doctor said it was going to heal on its own.",
+        "color": "gray"
+      },
+      {
+        "id": 11,
+        "parent_id": 1,
+        "user": "Dr. Rick 'The Rage'",
+        "role": "EP",
+        "city": "Windsor, ON",
+        "text": "Ugh, this conversation is going nowhere. Let's just get back to basics, people. We don't need to be using pressure dressings for every single scalp laceration. Common sense should prevail here.",
+        "color": "red"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Toronto, ON",
+        "text": "@DrRickTheRage, I understand where you're coming from, but we need to be thinking about the nuances here. We can't just dismiss pressure dressings out of hand.",
+        "color": "purple"
+      },
+      {
+        "id": 13,
+        "parent_id": 3,
+        "user": "Dr. Philip 'Phil' Muddle",
+        "role": "EP",
+        "city": "Regina, SK",
+        "text": "I think I need to go take a nap. This conversation is giving me a headache. Can we start fresh in the morning?",
+        "color": "blue"
+      },
+      {
+        "id": 14,
+        "parent_id": 13,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Don't worry, @DrPhilMuddle! You're not alone. I've seen this conversation go off the rails before. But honestly, folks, when it comes to wound care, let's just focus on doing what's best for the patient, okay?",
+        "color": "pink"
+      }
+    ],
+    "image": "https://www.aafp.org/dam/brand/aafp/pubs/afp/issues/2017/0515/cover.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Rant about UTI misadventures in the ED",
+    "body": "Just had a particularly frustrating patient with a possible upper tract infection who ended up being a case of asymptomatic bacteriuria (ABU)...",
+    "category": "emergency medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Victor Sterling, FRCPC",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "TLDR: You're just not catching on that 80% of UTIs are caused by E. coli, and the only ones who need admission are the ones with pyelonephritis. ABU's a waste of resources.",
         "color": "red"
       },
       {
         "id": 2,
         "parent_id": 1,
         "user": "Dr. Maya Gupta, PGY2",
-        "role": "MD",
-        "city": "Mississauga, ON",
-        "text": "Thanks for the advice, Vics. I guess I should've also checked for systemic inflammatory response syndrome, right? Would you recommend starting IV albumin in HRS, or is that more of a bridge to transjugular intrahepatic portosystemic shunt (TIPS)? Have you got a personal protocol for this?",
-        "color": "cyan"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Turbo Tom, ER Nurse",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Don't forget to get that bedside ultrasound, folks! You should be looking for ascitic fluid in the upper abdomen, particularly in those patients with diaphragmatic doming. And don't even get me started on those pesky ascitic fluid pH levels... Remember, a pH <7.3 is bad news.",
-        "color": "pink"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Martha 'The Hammer', ER Nurse",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "Hear, hear, TT. Don't get me started on the fluid dynamics in HRS. Can someone explain why it's got to be an absolute rise in creatinine rather than a relative reduction? Got any favorite ultrasound tips for this diagnosis?",
-        "color": "magenta"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Barb Miller, EP",
-        "role": "MD",
-        "city": "Winnipeg, MB",
-        "text": "Good point, MH. I think it's because in HRS, it's about the relative oliguria and hypernatremia. The relative reduction in GFR, you know? But don't quote me on that one. Would love to get an official answer from a Nephrologist. Anybody with some insight?",
-        "color": "yellow"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Rant about wound closure vs infection... when do you actually have to close the wound?",
-    "body": "Just saw a patient with a large laceration on the forehead who came in a week after the injury. I was about to pack the wound and close it tomorrow when my attending said 'wait, do you have any evidence that you need to close this wound at all? Are we just doing it for cosmetic reasons?' This got me thinking... when do we actually have to close wounds in the ED versus when can we just pack and let the patient do their own thing? Has anyone else dealt with this situation or have some solid references to share on this topic?",
-    "category": "EM",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "u/Dr_Kevin_Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "TLDR: wound closure is overrated. I've had patients with lacerations that healed fine on their own. It's the docs who can't leave well enough alone who get sued when stuff gets infected... just my 2 cents. Refer to the Tintinalli chapter on wound closure for more",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "u/Sparkle-Eyes_Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Bless your heart, Dr. Park! I've seen it too! But don't you think that's a bit of an oversimplification? Like, what about when we do need to close wounds? My grandma had a big laceration on her hand that got infected before we closed it...",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "u/Dr_Mayas_Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Actually, Sue, it sounds like a textbook case of a 'clean and dirty' wound. If the wound is clean and closed properly, the risk of infection is low. But if it's dirty or contaminated, we need to err on the side of caution and pack the wound instead of closing it. I've been reading up on the current guidelines and it seems like the key is to assess the wound's risk factors beforehand. Check out this article from JAMA on wound closure practices",
-        "color": "purple"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "u/Leo_Chen_MS1",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Wait, Dr. Gupta, so you're saying that clean wounds need to be closed ASAP, but dirty wounds get packed and closed later? Can someone clarify the exact criteria for what makes a wound 'dirty'? Is it just contaminated with bacteria or something else?",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "u/Dr_Barb_Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Leo, yes, that's correct. A 'dirty' wound is one that's contaminated with bacteria, debris, or other foreign material. When in doubt, it's always better to err on the side of caution and pack the wound to allow it to heal on its own. As for the exact criteria, check out the Infectious Diseases Society of America guidelines on wound infection prevention",
-        "color": "purple"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "u/Sarah_Jenkins_MS3",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Actually, Dr. Miller, I've been reading about a study that suggests packable wounds have a higher risk of infection than closed wounds. Can someone link to more info on this study?",
-        "color": "green"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "u/Chad_Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Lol what's packable and closed mean, can someone explain that to me in simple terms? Like a med student, please",
-        "color": "purple"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "u/Dr_Sarah_Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Simple terms, my man! A packable wound is one that's not closed with sutures or staples, but rather packed with gauze or dressing to allow it to heal on its own. A closed wound, on the other hand, is one that's actually been sutured or stapled shut. Got it?",
-        "color": "green"
-      }
-    ]
-  },
-  {
-    "id": "2023-03-26-puncture-wounds-bites",
-    "title": "Unsatisfying outcomes with cat bites despite thorough debridement and dressing: A discussion",
-    "body": "TL;DR: Cat bites, thorough debridement and dressing, still getting infections. What's going on? I saw a 22yo with a deep laceration on her thumb after being bitten by a cat. Thorough debridement, dressing, and s/s of no signs of infection, but she was discharged to follow up in 2 days. 2 days later, she's back, and it's already been contaminated. I feel like I'm not doing something right. Does anyone else experience this? Maybe it's my dressing that's failing me? Or is it the patient's immune system that's just going haywire? Or what am I missing here? Help a doc out!",
-    "category": "Emergency Medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
         "role": "Resident",
-        "city": "Toronto, ON",
-        "text": "Yeah, I've struggled with this before too. My thought is that cat bites are particularly prone to infection, not just because of the way they cause puncture wounds, but also because cats carry more C. felis than the average dog. You might want to try a course of antibiotics and a more aggressive approach to debridement in these cases.",
-        "color": "purple",
-        "children": [
-          {
-            "id": 2,
-            "parent_id": 1,
-            "user": "leoChen (MS1)",
-            "role": "Medical Student",
-            "city": "Montreal, QC",
-            "text": "But Dr. Gupta, doesn't C. felis only cause oral-tissue infections? Wouldn't that explain the high rate of infection in cat bites, as opposed to dog bites? And wouldn't a more aggressive approach to debridement be better suited to wounds caused by dog bites?",
-            "color": "green"
-          },
-          {
-            "id": 3,
-            "parent_id": 1,
-            "user": "Dr. Sarah Sharp",
-            "role": "EP",
-            "city": "Laval, QC",
-            "text": "Actually, C. felis can cause a range of infections, depending on the severity of the wound. But yes, I agree that a more aggressive approach to debridement might be beneficial in cat bites. I'd also recommend a more vigilant follow-up in these cases, just to catch any signs of infection early on.",
-            "color": "blue"
-          }
-        ]
-      },
-      {
-        "id": 4,
-        "parent_id": null,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "Ah, the old cat bite conundrum! Yes, I've seen this in my day. I think it's all about recognizing the risk factors and taking a more proactive approach to management. I'd recommend a course of antibiotics as well, and don't be afraid to use a more aggressive dressing or even a skin graft if needed.",
-        "color": "pink",
-        "children": [
-          {
-            "id": 5,
-            "parent_id": 4,
-            "user": "Leo Chen (MS1)",
-            "role": "Medical Student",
-            "city": "Montreal, QC",
-            "text": "Uh, Dr. Thorne, isn't that a bit of an old-school approach? Don't you think we should be thinking more about evidence-based medicine here? Like, have any studies been done on the effectiveness of skin grafts in cat bite wounds?",
-            "color": "orange"
-          },
-          {
-            "id": 6,
-            "parent_id": 4,
-            "user": "Dr. Maya Gupta",
-            "role": "Resident",
-            "city": "Toronto, ON",
-            "text": "Ha! Dr. Thorne, you're such a card. I love your old-school approach, though. I'll stick to the latest research, but it's always good to hear from someone who's been around the block a few times.",
-            "color": "purple"
-          }
-        ]
-      },
-      {
-        "id": 7,
-        "parent_id": null,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "Guys, can we talk about something a bit more concrete? How do you all handle debridement in these cases? I've seen some pretty gnarly stuff in my time, but I've also seen some pretty botched attempts at debridement... any tips?",
-        "color": "red",
-        "children": [
-          {
-            "id": 8,
-            "parent_id": 7,
-            "user": "Dr. Sarah Sharp",
-            "role": "EP",
-            "city": "Laval, QC",
-            "text": "Absolutely, Barnaby! Debridement can be a tricky business, especially in cat bites. I recommend using saline solution and a blunt instrument to get rid of any dead tissue. And please, for the love of all things good, don't be afraid to take your time and do it slowly. It's better to err on the side of caution in these cases.",
-            "color": "blue"
-          },
-          {
-            "id": 9,
-            "parent_id": 7,
-            "user": "Turbo Tom (RN)",
-            "role": "Nurse",
-            "city": "London, ON",
-            "text": "Ha! Barnaby, you want to talk about debridement? I've got a whole tutorial on it in 3 parts on YouTube... just sayin'. Seriously, though, debridement is a tough spot to be in, especially when you're trying to balance the patient's comfort with the need for thorough cleaning.",
-            "color": "yellow"
-          }
-        ]
-      }
-    ],
-    "image": "https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3841627454696218871"
-  },
-  {
-    "id": 1,
-    "title": "Nontraumatic shock etiology: How much occult should you be looking for?",
-    "category": "Emergency Medicine",
-    "body": "Rant about: I had a challenging case of nontraumatic shock last night and got to thinking about how much occult disease we as ER docs should be looking for. I mean, we know volume and pressor support are the first lines, but what about those pesky cardiac tamponades, tension pneumos, and adrenal insufficiencies? Have you all had similar experiences or am I just being paranoid?",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr_Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Great question, always looking for that 'big one'. In my experience, it's the patient who doesn't respond to initial treatment that requires the most scrutiny. A careful history and physical, coupled with judicious use of bedside ultrasound, can often uncover the culprit. I'd love to hear from some of the EPs out there, what's your approach in these situations?",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo_Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Thorne, I've been reading about the utility of focused ultrasound in identifying cardiac tamponade. Can you clarify how you'd use it in this context? Would you recommend a specific protocol or view?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr_Stan",
-        "role": "FRCPC",
-        "city": "Calgary, AB",
-        "text": "I always get a chuckle out of the 'big one' comments. In reality, it's often the small stuff that kills us. Take the patient with hypotensive shock secondary to occult bleeding. A quick FAST exam and focused ultrasound can make a world of difference in terms of identifying the source of bleeding. Check out this paper on the utility of ultrasound in trauma: https://www.acutecaretesting.org/en/articles/aeroscout-intra-abdominal-hemorrhage ",
-        "color": "orange"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Maya_Gupta",
-        "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "What Dr. Stan said. I've been using bedside ultrasound to great effect in identifying pericardial effusions. The 2D view of the subcostal and parasternal long-axis views are especially useful. And don't even get me started on the IVC. Remember, it's not just about the number, but the trend. If that IVC is shrinking, you're on the right track!",
+        "text": "Easy for you to say, Vic. But what about the 20% caused by other organisms? And what about the patient who was septic and you missed it?",
         "color": "blue"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Kevin_Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Great tip, Dr. Gupta! I've found that using the focused assessment with sonography for trauma (FAST) exam to be particularly useful in identifying intraperitoneal fluid. Can you walk me through your algorithm for FAST exam?",
-        "color": "red"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr_Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "TL;DR: The FAST exam is a valuable tool, but it's not a substitute for a good old-fashioned history and physical. Don't rely too heavily on technology, always keep your wits about you.",
-        "color": "purple"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Martha_Hammer",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "Amen to that, Dr. Miller. I've seen too many docs rely on tech to do their jobs. A good nurse's observation skills are unmatched, and we should be pushing for more clinical correlation.",
-        "color": "pink"
-      },
-      {
-        "id": 8,
-        "parent_id": 1,
-        "user": "Ziggy_Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Shout out to Dr. Thorne for asking the right questions. As EPs, we need to stay vigilant and not fall into the trap of the obvious. Remember, ' Occult' doesn't just apply to disease, but also to our own biases and assumptions.",
-        "color": "gold"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Elena_Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Couldn't agree more, Dr. Zalesky. In fact, I'd say that's the most important takeaway from this discussion. What's your approach to avoiding the 'obvious' pitfalls?",
-        "color": "silver"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Sparkle-Eyes_Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Jus' want ta say, we nurses are often the first ones ta notice somethin's off. Dey need ta listen ta us, eh?",
-        "color": "lavender"
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "title": "Today I learned about the importance of maintaining chain of custody and not performing certain activities after a sexual assault.",
-    "body": "Just saw a patient with a complex presentation of a sexual assault. Patient complained of abdominal pain, vaginal discharge, and a history of being out drinking with a new partner and waking up with no memory of what happened. They had showered and changed before presenting to the ED. I decided to proceed with an evidence exam, but was reminded of the importance of maintaining chain of custody and not allowing the patient to shower or change before the exam. This prevents degradation of evidence such as sperm or acid phosphatase. Has anyone else seen a case where a patient had already showered or changed before presenting?",
-    "category": "Medical",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Great reminder! I had a similar case last month where the patient had showered and changed before presenting. Luckily we were still able to collect DNA evidence from the scene, but it was a close call. One thing to keep in mind is also not allowing the patient to use toilet paper or wipes after the assault, as this can also compromise evidence. We should start keeping a pre-packaged rap kit stocked in the ED, it's crucial to get the evidence collection process right the first time.",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "That makes sense. I've been wondering what happens if the patient has already showered or changed before presenting. Do you think the evidence is completely unusable, or can you still get something from it?",
-        "color": "green"
       },
       {
         "id": 3,
-        "parent_id": 1,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "In my experience, it's always better to err on the side of caution when it comes to evidence collection. If the patient has showered or changed, it's better to not use the evidence from the ED, and start the collection process again from scratch. We can't afford to risk contaminating the evidence, as this can ruin the whole case.",
-        "color": "blue"
+        "parent_id": 2,
+        "user": "Dr. Kevin Park, PGY1",
+        "role": "Intern",
+        "city": "Edmonton, AB",
+        "text": "How can we tell if it's an upper or lower UTI? Is it just based on physical exam or is there a certain criteria we should be looking for?",
+        "color": "lightblue"
       },
       {
         "id": 4,
-        "parent_id": 2,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "Leo, the evidence collected in the ED is usually considered to be tampered with, so it's not admissible in court. However, if the patient has showered or changed before presenting, we can still try to collect evidence from the scene, such as hair, fibers, or even footprints. It's always a good idea to have a forensics expert on call to help with this.",
-        "color": "red"
-      },
-      {
-        "id": 5,
         "parent_id": 3,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Martha, I agree that it's always better to err on the side of caution, but in my experience, the patient's story and the physical exam findings are usually more telling than the ED evidence. Of course, this isn't always the case, and we need to consider the patient's credibility and potential for deception.",
-        "color": "pink"
-      },
-      {
-        "id": 6,
-        "parent_id": 4,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "Leo, it seems to me that the forensic expert's role is not just to collect evidence, but to assess the patient's credibility and the circumstances surrounding the assault. It's always a good idea to have a seasoned expert on call to review the case and provide guidance.",
-        "color": "yellow"
-      },
-      {
-        "id": 7,
-        "parent_id": 5,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Turbo Tom, I see what you mean about the patient's story and physical exam findings being more telling than the ED evidence. But in cases where the patient is uncooperative or seems to be hiding something, how do we assess their credibility and figure out what's really going on?",
-        "color": "orange"
-      },
-      {
-        "id": 8,
-        "parent_id": 6,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "Listen, folks, if we're going to get into this level of detail, we need to have some expert witnesses on call, not some 'seasoned expert' who's got better things to do. I mean, come on, let's get this right!",
-        "color": "brown"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Just saw a patient with 'vague' postpartum bleeding that turned out to be a massive abo isoimmunization... TLDR: be on the lookout for 'vague' vaginal bleeding in postpartums!",
-    "body": "Had a case last night that really got my heart racing. So patient presents with 'vague' vaginal bleeding postpartum, no other symptoms, no fever, no pain...just a few clots and some spotting. 'Don't worry doc, I'm just being a paranoid new mum'... I'm thinking 'just postpartum hemorrhage, common, no big deal'...but then I get the H and H and we find out the patient is Rh neg and the baby is Rh pos...the fetus has been bleeding into the abdominal cavity the whole time and now the mum is starting to become isoimmunized. We rush her to the OR and do an emergent c-section... baby is saved, mum is saved...just a huge amount of work and stress...anyone else ever see anything like this?",
-    "category": "r/emergmed",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Medical Doctor",
-        "city": "Toronto, ON",
-        "text": "Oh man, that's a great case! We see this type of thing a lot more often than we think. It's always key to have a high suspicion for abo isoimmunization in Rh neg patients with postpartum bleeding...just remember that this type of bleeding can start up to 6 weeks postpartum so always keep that in mind... ",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "Nurse",
-        "city": "London, ON",
-        "text": "Loved that case doc! You're totally right...we always stress the importance of being careful when it comes to postpartum bleeding...but it's cases like these that make you feel like, 'I'm making a difference!'...also, on a side note, did you know that the American College of OB-GYN has a great protocol for checking for abo isoimmunization in postpartum patients? [link to ACOG protocol](https://www.acog.org/Clinical-Guidance-and-Publications/Committee-Opinions/Committee-on-Obstetric-Practice/Abdominal-Obstruction-In-Newborns)?",
+        "user": "Dr. Barb Miller, EP",
+        "role": "Community Physician",
+        "city": "Winnipeg, MB",
+        "text": "Actually, it's more about the history and patient presentation. Flank pain and fever suggest pyelonephritis, but you gotta look for the red flags like immunocompromised or underlying conditions.",
         "color": "green"
       },
       {
-        "id": 3,
+        "id": 5,
         "parent_id": 1,
-        "user": "Leo Chen",
+        "user": "Leo Chen, MS1",
         "role": "Medical Student",
         "city": "Montreal, QC",
-        "text": "Hi Dr. Thorne, I was wondering if you could clarify what an 'abo isoimmunization' is? And also, how can it affect the mother and fetus?",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Aris Thorne",
-        "role": "Medical Doctor",
-        "city": "Toronto, ON",
-        "text": "Great question Leo! Abo isoimmunization refers to the sensitization of a Rh neg mother to Rh pos blood in the fetus. This can occur during pregnancy or postpartum and is a major risk factor for hemolytic disease of the newborn (HDN)... basically, the mother's immune system starts to attack the red blood cells of the fetus. As for the mother, it can lead to complications such as anemia, preeclampsia, and even death if left untreated. But don't worry, it's super easy to prevent and treat if you catch it early!",
+        "text": "Wait, so we're not admitting patients with ABU? But isn't that just a fancy name for...?",
         "color": "purple"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "Resident",
-        "city": "Mississauga, ON",
-        "text": "Wow, this case makes me realize how important it is for new mums to get follow-up care after delivery. I mean, I always make sure to schedule a follow-up with my patients...but after reading this, I'm going to make sure to stress the importance of those follow-ups! Do any of you have any tips for communicating with new mums about the importance of follow-up care?",
-        "color": "green"
       },
       {
         "id": 6,
         "parent_id": 5,
-        "user": "Dr. Barb Miller",
-        "role": "Physician Assistant",
-        "city": "Winnipeg, MB",
-        "text": "Actually, Maya, I have a great tip for you. When communicating with new mums about follow-up care, I always try to use a 'teach-back' approach. I explain the importance of follow-up care using simple language and then ask them to repeat it back to me in their own words. If they can't explain it to me, I know they might not fully understand! [link to article on teach-back approach](https://journals.lww.com/joponnline/Fulltext/2019/01000/Educating_Patients_in_Practice__A_Better_.5.aspx)",
-        "color": "green"
-      }
-    ],
-    "image": "https://first10em.com/wp-content/uploads/2015/06/bakri-balloon.png"
-  },
-  {
-    "id": 1,
-    "title": "Today I Learned: EGD placement as the gold standard in surgical airway management",
-    "body": "Just saw a patient with a severe maxillofacial injury who needed a surgical airway. I decided to place an EGD (endotracheal guidewire) to secure the airway. What are your thoughts on the current guidelines for surgical airway management? Do you think EGD placement is the best approach in this scenario?",
-    "category": "emergency medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Great topic! In our trauma guidelines, we recommend EGD placement as the gold standard in surgical airway management. It's a quick and effective way to secure the airway in emergency situations. The key is to have a skilled provider place the guidewire as quickly as possible to minimize hemodynamic instability. Have you considered using a bougie-assisted approach to facilitate EGD placement?",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Ah, bougie-assisted approach? What's the rationale behind that? How does it help with EGD placement?",
-        "color": "blue"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Leo, a bougie-assisted approach allows for easier visualization of the tracheal rings and can help guide the EGD into place. It's especially useful in difficult airway scenarios where direct laryngoscopy may not be feasible. Here's a study that summarizes the benefits of bougie-assisted EGD placement: [link to journal article](https://www.ncbi.nlm.nih.gov/pubmed/29146491)",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs will still struggle to place an EGD properly. It requires skill and practice to get it right. I've seen too many cases where the EGD gets stuck or misplaced, leading to complications. We need to focus on building expertise in surgical airway management, not just following guidelines.",
-        "color": "red"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. 'Ziggy' Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Hey Vic, let's not be too hard on our colleagues. We all have to start somewhere. And yeah, EGD placement can be tricky, but with practice and education, we can improve our skills. Besides, what's the alternative? Do you propose we just give up and intubate by feel?",
+        "user": "Dr. Henry Oldman, CCFP",
+        "role": "Family Physician",
+        "city": "Victoria, BC",
+        "text": "ABU's actually the presence of bacteria in the urine without symptoms. It's not an infection, per se. So, we don't admit for treatment.",
         "color": "orange"
       },
       {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Actually, Ziggy, there is an alternative. Awake fiberoptic intubation can be a great option in difficult airway scenarios. It allows for more precise control and avoids the need for surgical airway placement.",
-        "color": "pink"
-      },
-      {
         "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "That's a great point, Elena. Awake fiberoptic intubation is a valuable skill for emergency physicians to possess. Have you found any resources that can help teach this technique?",
-        "color": "yellow"
+        "parent_id": 2,
+        "user": "Turbo Tom, RN",
+        "role": "RGN",
+        "city": "London, ON",
+        "text": "And don't even get me started on ABU diagnosis in pregnant women! Any guesses for the best urine sample method?",
+        "color": "pink"
       },
       {
         "id": 8,
         "parent_id": 7,
-        "user": "Dr. Phil Muddle",
-        "role": "EP",
-        "city": "Regina, SK",
-        "text": "Uh, what's the question again? Wait, is it about awake fiberoptic intubation? Oh yeah, I've seen some nice tutorials on YouTube... [link to YouTube video]",
-        "color": "brown"
+        "user": "Sparkle-Eyes Sue, LPN",
+        "role": "Licensed Practical Nurse",
+        "city": "St. John's, NL",
+        "text": "You're right, Turbo! Midstream urine sample and send it off stat! Don't wanna miss that diagnosis!",
+        "color": "yellow"
       },
       {
         "id": 9,
-        "parent_id": 8,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "HAHAHA, Phil, you're such a goofball! Just kidding, but actually, YouTube can be a great resource for learning tricky techniques like awake fiberoptic intubation. Have you checked out the SMACC Conference videos?",
-        "color": "grey"
+        "parent_id": 7,
+        "user": "Martha 'The Hammer', RN",
+        "role": "RGN",
+        "city": "Halifax, NS",
+        "text": "Midstream might not always work with catheterized patients, Sue. Maybe we should get some input from our nephrology colleagues?",
+        "color": "brown"
       },
       {
         "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "Enough chit-chat, let's get back to the topic at hand. In what scenarios do you recommend awake fiberoptic intubation over EGD placement?",
+        "parent_id": 5,
+        "user": "Dr. 'Ziggy' Zalesky, EP",
+        "role": "Community Physician",
+        "city": "Vancouver, BC",
+        "text": "Ziggy's got a great article on ABU diagnosis on Medscape - gotta link it up for y'all!",
+        "color": "gray"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Dr. Aris Thorne, Staff Physician",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Thanks, Ziggy! And don't forget the American College of Physicians' latest guidance on ABU management - great refresher!",
+        "color": "lightgreen"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Community acquired pneumonia in adolescents: got caught out last night",
+    "body": "Had a 15yo presenting with cough, fever, SOB and a viral prodome. Ran the usual labs and sent her to CXR. The film showed multifocal consolidations in the lower lobes. I was about to admit her when I remembered reading about Chlamydophila pneumoniae being a common cause of CAP in teens. Did a PCR on the sputum and it came back positive. Ended up not admitting her and treating her as an outpatient. TLDR: Chlamydophila pneumoniae is a common cause of CAP in adolescents, get the PCR done if you're not sure what to do with young adults presenting with CAP.",
+    "category": "EMCME",
+    "comments": [
+      {
+        "id": 10,
+        "parent_id": 1,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great reminder, thanks for posting this! Chlamydophila pneumoniae is indeed a common cause of CAP in teens. Always a good idea to get a PCR done if you're not sure what's going on. By the way, have you considered the case of a teen with a negative PCR but still presenting with CAP? We had a case like that recently and ended up admitting them. Would love to hear your take on it.",
         "color": "blue"
       },
       {
         "id": 11,
         "parent_id": 10,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Brock, I think Elena mentioned that awake fiberoptic intubation is a good option in cases where surgery is not immediately feasible. Additionally, it can be useful in patients with cervical spine injuries where EGD placement may be risky. What are your thoughts on this?",
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs. Negative PCR means it's something else. We should be looking at other causes of CAP, not Chlamydia. Let's not waste our time with unnecessary testing.",
+        "color": "red"
+      },
+      {
+        "id": 12,
+        "parent_id": 10,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Hey Vic, didn't you get a bit carried away there? We all know that negative PCRs aren't always definitive. Chlamydophila pneumoniae is a legitimate cause of CAP and we shouldn't be ruling it out just because of a negative test. Maybe we should be considering the pre-test probability here? What were the clinical clues that pointed you towards another diagnosis?",
+        "color": "green"
+      },
+      {
+        "id": 13,
+        "parent_id": 12,
+        "user": "Dr. Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Yeah, I agree with Ziggy. Clinical judgment still has a place in EM. Maybe we should be discussing the case where the PCR was negative but the patient still had CAP?",
         "color": "purple"
+      },
+      {
+        "id": 14,
+        "parent_id": 13,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I had a question about this discussion. If the PCR is negative but the patient still has CAP, what are the next steps in terms of diagnosis and management? Should we be doing further testing or proceeding with empiric antibiotic therapy?",
+        "color": "red"
+      },
+      {
+        "id": 15,
+        "parent_id": 14,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Leo, in cases where the PCR is negative but the patient still has CAP, we should be considering empiric antibiotic coverage for the most likely pathogens. Our hospital protocol recommends covering for S. pneumoniae, H. influenzae, and M. catarrhalis. We should also be considering further testing such as chest CT or bronchoscopy if the patient's condition doesn't improve with antibiotics.",
+        "color": "blue"
+      },
+      {
+        "id": 18,
+        "parent_id": 16,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Oh my stars, I had a patient with CAP once and I was so worried about it. Turns out it was just a bad case of the flu. But my manager told me I did the right thing by getting her to the ER right away. Do you think we should be teaching LPNs like me more about CAP diagnosis and management?",
+        "color": "pink"
       }
     ]
   },
   {
-    "id": 15,
-    "title": "Cardiomyopathies and Pericardial Disease: A Review of the Literature",
-    "body": "Just saw a patient with dilated cardiomyopathy and I was reminded of how often the cardiomyopathies are overlooked in our ED. As we all know, the cardiomyopathies are a diverse group of diseases that can present with a wide range of symptoms and signs. From dilated cardiomyopathy to hypertrophic cardiomyopathy, the list of subtypes goes on and on.\n\nWhat's the difference between dilated and restrictive cardiomyopathy? And how do we differentiate between cardiac amyloidosis and dilated cardiomyopathy? I know I always get these mixed up.",
-    "category": "Emergency Medicine",
+    "id": 1,
+    "title": "Today I learned a valuable lesson about intimate partner violence in the ER: the lack of documentation can be just as problematic as an assault itself",
+    "body": "Just saw a patient with clear signs of intimate partner violence (IPV). Physical evidence and a clear statement from the patient all pointed to a severe assault. But the nurse's note barely mentioned it, and I almost missed it. The patient had to be probed multiple times to get the necessary details. The thing that hit me was how often we dismiss IPV because it's a \"soft issue\" or not our priority. I realized that our documentation can be just as toxic as the abuse itself. Has anyone else dealt with this in their practice?",
+    "category": "EM",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
         "user": "Dr. Maya Gupta",
-        "role": "Intern",
+        "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "Great post! As a 2nd year EM resident, I'm constantly getting confused between the different cardiomyopathies. Here's a quick rundown on how I differentiate between them: Dilated cardiomyopathy is characterized by decreased systolic function, whereas restrictive cardiomyopathy is characterized by increased ventricular stiffness. The key in differentiating between the two is looking for signs of pericardial effusion or calcification. I also like to use the 'atrial enlargement' criteria to help diagnose restrictive cardiomyopathy.\n\nBut what about the relationship between cardiac amyloidosis and dilated cardiomyopathy? From what I've read, cardiac amyloidosis is actually a form of restrictive cardiomyopathy that results from the deposition of amyloid fibrils in the myocardium. And what about the role of genetic testing in the diagnosis of cardiomyopathies? I know we don't have a formal policy on ordering genetic tests for cardiomyopathy patients.\n\nTL;DR: Here's how I differentiate between dilated and restrictive cardiomyopathy: look for signs of pericardial effusion or calcification and use the 'atrial enlargement' criteria to help diagnose restrictive cardiomyopathy. Cardiac amyloidosis is actually a form of restrictive cardiomyopathy, and genetic testing may be beneficial in certain cases.",
-        "color": "blue"
+        "text": "It's shocking how often this happens. I remember a case where the nurse just noted that the patient was 'anxious' and didn't suspect IPV at all. We need to do better. Documentation is key here. Have you heard about the new IPV screening tool that's been gaining popularity?",
+        "color": "purple"
       },
       {
         "id": 2,
@@ -723,81 +994,82 @@
         "user": "Leo Chen",
         "role": "MS1",
         "city": "Montreal, QC",
-        "text": "Hi @Dr. Maya Gupta, I'm a first year med student and I'm still trying to grasp the concepts of cardiomyopathy. Can you clarify the definition of cardiac amyloidosis? Is it the same as cardiac fibrosis?",
+        "text": "What's the new IPV screening tool you're talking about? Is it something we should be using in our practice?",
         "color": "green"
       },
       {
         "id": 3,
         "parent_id": 1,
-        "user": "Dr. Sarah Sharp",
-        "role": "Staff Physician",
-        "city": "Laval, QC",
-        "text": "Great points, @Dr. Maya Gupta! I've found that one of the best ways to differentiate between dilated and restrictive cardiomyopathy is by looking at the patient's history and physical exam. For example, a patient with restrictive cardiomyopathy may have a history of hypertension or coronary artery disease, whereas a patient with dilated cardiomyopathy may have a history of heart failure or cardiomyopathy. It's also important to remember that cardiac amyloidosis can present with a wide range of symptoms, including heart failure, arrhythmias, and conduction abnormalities.\n\nOne thing I've found helpful in diagnosing cardiomyopathy is using the 'echo' criteria. This includes looking for signs of left ventricular systolic dysfunction, left atrial enlargement, or right ventricular systolic dysfunction. I've also found that using imaging studies like cardiac MRI and CT scans can be helpful in diagnosing cardiomyopathy.\n\nTL;DR: Here's how I differentiate between dilated and restrictive cardiomyopathy: look at the patient's history and physical exam, and remember that cardiac amyloidosis can present with a wide range of symptoms.",
-        "color": "pink"
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Great point about documentation. I've seen nurses just focus on the physical trauma without considering the emotional impact. Have you come across any resources that address this?",
+        "color": "blue"
       },
       {
         "id": 4,
         "parent_id": 3,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Hi @Dr. Sarah Sharp, I think you're absolutely right about the importance of a thorough history and physical exam in diagnosing cardiomyopathy. However, I've also found that ordering a cardiac MRI can be helpful in diagnosing cardiomyopathy, especially in patients with atypical presentations. What are your thoughts on this?",
-        "color": "purple"
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "There's a great article by the CDC on IPV in the ER. It emphasizes the importance of training for physicians and nurses to recognize the signs of IPV. I'll link it in the comments below.",
+        "color": "red"
       },
       {
         "id": 5,
-        "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "This is all a bunch of hogwash. The cardiomyopathies are just a fancy way of saying 'I have no idea what's wrong with my patient'. If we just focused on treating the symptoms and not getting caught up in all these esoteric diagnoses, we'd do a lot better.",
-        "color": "orange"
+        "parent_id": 4,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "That's a great resource. Have you considered the intersectionality of IPV? How do we address the specific needs of patients from different cultural backgrounds?",
+        "color": "purple"
       },
       {
         "id": 6,
         "parent_id": 5,
-        "user": "Dr. Maya Gupta",
-        "role": "Intern",
-        "city": "Mississauga, ON",
-        "text": "I agree with @Dr. Victor Sterling that over-diagnosis and over-testing can be a problem in the ED. However, I think it's also important to consider the potential benefits of diagnosing cardiomyopathy, such as improved patient outcomes and reduced morbidity.\n\nOne thing that's worth noting is that cardiac amyloidosis has a wide range of symptoms and can mimic other conditions, such as coronary artery disease or heart failure. So, while @Dr. Victor Sterling may be right that we should focus on treating symptoms, it's also important to consider the potential underlying causes of those symptoms.",
-        "color": "blue"
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs think they can handle the nuance of IPV. We need evidence-based solutions, not fluffy theories.",
+        "color": "red"
       },
       {
         "id": 7,
-        "parent_id": 1,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "This is such a complex topic! I've found that working with a multidisciplinary team, including cardiology and radiology, can be super helpful in diagnosing cardiomyopathy. What are some of your favorite resources for learning more about cardiomyopathy?",
-        "color": "yellow"
+        "parent_id": 6,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Amateurs? Really? This is a serious public health issue. We need to listen to each other and learn from our experiences, not dismiss the hard work we're doing.",
+        "color": "blue"
       },
       {
         "id": 8,
         "parent_id": 7,
-        "user": "Dr. Sarah Sharp",
-        "role": "Staff Physician",
-        "city": "Laval, QC",
-        "text": "Great question, @Sparkle-Eyes Sue! I've found that the American Heart Association's (AHA) guidelines on cardiomyopathy are super helpful. I also recommend checking out the National Institutes of Health (NIH) website for more information on cardiomyopathy. And of course, @Sparkle-Eyes Sue, working with a multidisciplinary team is key!",
-        "color": "pink"
-      },
-      {
-        "id": 9,
-        "parent_id": 7,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "I've also found that the UpToDate online resource is super helpful for learning more about cardiomyopathy. And hey, @Sparkle-Eyes Sue, don't forget about the importance of patient education!",
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Love it, Dr. Maya. We can do better than snarky comments from surgeons. This is about patient care, not whose ego we should stroke.",
         "color": "green"
       },
       {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "TL;DR: How can we improve our documentation and care for patients experiencing IPV in the ER? Any resources or advice?",
+        "color": "purple"
+      },
+      {
         "id": 10,
-        "parent_id": 7,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "All these resources are just a bunch of hype. You can't trust what you read on the internet, folks. We need more real-world experience and less theory.",
-        "color": "orange"
+        "parent_id": null,
+        "user": "Dr. Phil Muddle",
+        "role": "EP",
+        "city": "Regina, SK",
+        "text": "Wait, what day is it today? Oh yeah, we have that conference on IPV soon. I think I'm supposed to give a talk?",
+        "color": "red"
       }
-    ]
+    ],
+    "image": "https://ars.els-cdn.com/content/image/1-s2.0-S0736467920307885-gr2.jpg"
   }
 ]
