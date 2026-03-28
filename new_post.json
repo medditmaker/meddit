@@ -1,790 +1,1111 @@
 [
   {
-    "id": 0,
-    "title": "Just saw a patient with severe epiglottitis and wanted some opinions on the management",
-    "body": "Just had a patient come in with what initially looked like a mild sore throat, but quickly escalated to severe respiratory distress. Turns out it was epiglottitis, and my team and I had a bit of a rough time trying to secure her airway. Has anyone else out there had to deal with this scenario before?",
-    "category": "pediatric_emergency_medicine",
+    "title": "Just saw a patient with suspected aortic dissection, can we review the Stanford classification?",
+    "body": "Had a miss last night, thought it was a routine MI, but upon further review, the patient had anterior chest pain radiating to the back, and I missed the aortic dissection. So I thought let's get down to business, can we review the Stanford classification for aortic dissections? HTN 101: Aortics should never be missed, especially when we're dealing with type A dissections. Can we break it down like we're talking about a baseball game? Who's with me?",
+    "category": "emergency-medicine",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "name": "Dr. Ziggy Zalesky",
+        "user": "u/ER_Nurse",
+        "role": "RN",
+        "city": "Los Angeles, CA",
+        "text": "Stanford classification time! So we got two types of aortic dissections: Type A ( Stanford A) - involves the ascending aorta (proximal to the renal arteries) which typically requires immediate surgery, and Type B (Stanford B is actually DeBakey type III) - involves the descending aorta (distal to the renal arteries) which might require medical management initially. Remember the '6 P's' of aortic dissection: Pain (tearing chest pain), Pallor (hypotension), Pulselessness, Paralysis (focal neuro deficit), Poikilothermia (hypothermia), and altered level of consciousness (altered mental status). Let's try to keep it in mind, folks! https://academic.oup.com/hrtj/article/15/11/1533/6094442",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "u/ResidentMD",
+        "role": "Resident",
+        "city": "New York, NY",
+        "text": "ER_Nurse, what about type A vs type B? How do we differentiate between the two? Is it based on symptoms or imaging findings? Asking for a friend who's going to do a paper on this.",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "u/emergencymed",
+        "role": "Physician",
+        "city": "Chicago, IL",
+        "text": "ER_Nurse, you're absolutely right! Stanford classification is just one way to categorize aortic dissections. Another way to think about it is the DeBakey classification, which has three types: I (involving both the ascending and descending aortas), II (involving only the ascending aorta), and III (involving only the descending aorta). But, like you mentioned, the 6 P's are what we should really focus on. Remember, pain is not just limited to the chest, it can radiate to the back and abdomen too. Keep that in mind when evaluating your aortic dissection patients!",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "u/MS3_medstudent",
+        "role": "Medical Student",
+        "city": "Boston, MA",
+        "text": "I had a question about the '6 P's'. Is it a specific diagnostic criterion for aortic dissection? Or is it more of a symptomatology checklist?",
+        "color": "pink"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "u/emergencymed",
+        "role": "Physician",
+        "city": "Chicago, IL",
+        "text": "MS3_medstudent, great question! The 6 P's are indeed a symptomatology checklist, but a really important one. They were originally described by Dake and Kato as a way to diagnose acute aortic dissection. So, it's not a specific diagnostic criterion, but rather a framework for thinking about the presentation of aortic dissection. Think of it like a differential diagnosis - if you see these symptoms, you need to start thinking about aortic dissection as a possibility. But remember, aortic dissection is a complex condition, and we need to use all the tools in the toolkit to make a diagnosis. Imaging studies, history and physical, labs... it's all part of the equation. Good luck with med school!",
+        "color": "blue"
+      },
+      {
+        "id": 6,
+        "parent_id": 1,
+        "user": "u/u/InternMed",
+        "role": "Resident",
+        "city": "San Francisco, CA",
+        "text": "ER_Nurse, what about the management of aortic dissection? What's the main goal? Is it to repair the tear or to stabilize the patient?",
+        "color": "green"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "u/emergencymed",
+        "role": "Physician",
+        "city": "Chicago, IL",
+        "text": "InternMed, great question! The main goal of managing aortic dissection is to stabilize the patient and prevent further progression of the dissection. Repairing the tear is not always the primary goal, especially if the patient is unstable. Stabilizing the patient means controlling blood pressure, heart rate, and pain, and making sure they're getting adequate oxygenation and circulation. The type of repair (if it's necessary) will depend on the location and extent of the dissection. It's a big decision, and you need to have a good team on hand. Surgery is often required, but endovascular repair (TEVAR) is also an option. The key is to get these patients to the OR as quickly and safely as possible.",
+        "color": "blue"
+      }
+    ],
+    "image": "http://emupdates.com/wp-content/uploads/2010/06/AoD-evaluation-pathway-12-09.pdf-1-page.jpg.jpg"
+  },
+  {
+    "id": 1,
+    "title": "Jaundice in the ED: What's Your Rule of Thumb?",
+    "body": "Just saw a patient with jaundice and a host of other signs and symptoms that suggested cholestasis. Reminded me of the classic 'HEPATITIS RULE OF THUMB': 'HEPATIC'... Hemolysis, Etiology, Pancreatitis, Ascites, Tumor, Infections, Jaundice, Cirrhosis. Can anyone give me a quick primer on the different types of jaundice? Should we be thinking about cholestasis, prehepatic, or posthepatic?",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Jaundice is a yellowish discoloration of skin, sclera, and mucous membranes resulting from elevated levels of bilirubin in the circulation. The causes can be classified as prehepatic, hepatic, and posthepatic. Prehepatic refers to conditions that cause hemolysis, such as G6PD deficiency, thalassemia, or sickle cell disease. Hepatic refers to conditions that affect the liver, such as viral hepatitis, autoimmune hepatitis, or cirrhosis. Posthepatic refers to conditions that block the flow of bile, such as gallstones, tumors, or strictures. It's essential to determine the underlying cause of jaundice to provide appropriate treatment.",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "I've read that Gilbert syndrome is a type of jaundice caused by a mutation in the UGT1A1 gene. It's characterized by intermittent jaundice, particularly in the context of illness or fasting. Can someone explain the pathophysiology behind this?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "In terms of imaging studies, what are the advantages and disadvantages of ultrasound, CT, and MRI in diagnosing the cause of jaundice?",
+        "color": "yellow"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "I've heard that ERCP is a good diagnostic tool for gallstones. What are the indications and contraindications for ERCP?",
+        "color": "orange"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Rick 'The Rage'",
+        "role": "EP",
+        "city": "Windsor, ON",
+        "text": "ERCP is essential for diagnosing and treating pancreatic and biliary disorders. The indications include suspected gallstones, pancreatitis, or biliary obstruction. Contraindications include coagulopathy, sphincter of Oddi dysfunction, or a high risk of bleeding. I recommend referring patients to a skilled gastroenterologist or surgeon for ERCP.",
+        "color": "red"
+      },
+      {
+        "id": 6,
+        "parent_id": 1,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "What are the key components of the clinical examination for jaundice? Should we be looking for signs of hepatic encephalopathy, asterixis, or abdominal tenderness?",
+        "color": "blue"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "I always assess the patient's level of consciousness, presence of asterixis, and abdominal tenderness. I also check for signs of liver failure, such as ascites, edema, or hypotension. Remember to perform a thorough review of medications and lab results to identify potential causes of jaundice.",
+        "color": "purple"
+      },
+      {
+        "id": 8,
+        "parent_id": 1,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "How do you approach the diagnosis and management of cholestasis in the ED? What laboratory tests and imaging studies do you order?",
+        "color": "yellow"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "For diagnosing cholestasis, I usually order liver function tests (LFTs), including AST, ALT, alkaline phosphatase, and total and direct bilirubin. Imaging studies can include ultrasound, CT, or MRI. I also consider performing a liver biopsy if the diagnosis remains unclear.",
+        "color": "green"
+      },
+      {
+        "id": 10,
+        "parent_id": 8,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "When managing cholestasis, it's essential to rule out other causes of abdominal pain, such as pancreatitis or gastrointestinal obstruction. I recommend consulting with a gastroenterologist or surgeon for further evaluation and management.",
+        "color": "purple"
+      },
+      {
+        "id": 11,
+        "parent_id": 1,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "What are the key takeaways from this discussion on jaundice in the ED? Can you summarize the main points for me?",
+        "color": "yellow"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "The key takeaways include understanding the pathophysiology of jaundice, recognizing the different types of jaundice, and using a systematic approach to diagnose and manage the condition. It's also essential to consider the patient's overall clinical context, including laboratory tests, imaging studies, and physical examination findings.",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "title": "Just saw a patient with syncope and was reminded why this is so tricky - what are your top tips for diagnosis and management?",
+    "body": "A 72yo female presents to the ED with a history of several episodes of syncope. Initial ECG shows a normal sinus rhythm and no notable abnormalities. She has a few days of symptoms of lightheadedness and near-syncope episodes. Past medical history of hypertension, hyperlipidemia, and type 2 diabetes. Social history of occasional tobacco use and moderate wine consumption.\n   She has no family history of sudden cardiac death. Physical examination reveals a slightly obese woman with no abnormalities on cardiac auscultation. Initial labs are unremarkable, including normal electrolytes and a cardiac enzyme panel.\n   She returns 2 hours after initial evaluation with a 2-day history of progressive shortness of breath and orthopnea. What is your approach, and where do you go next?",
+    "category": "EMedicine",
+    "comments": [
+      {
+        "id": 1001,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "To me, this patient's case screams for a thorough cardiac evaluation and monitoring for potential cardiac causes of syncope. We need to rule out arrhythmias, conduction abnormalities, and structural cardiac disease. Get a Holter monitor for 24 hours and consider an echocardiogram to rule out hypertrophic cardiomyopathy, and also obtain a stress test to evaluate for potential coronary artery disease.",
+        "color": "blue"
+      },
+      {
+        "id": 1002,
+        "parent_id": null,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "I strongly disagree with my colleague. This patient has no risk factors for cardiac disease, and her presentation is classic for vasovagal syncope. What we really need to do is rule out any potential gastrointestinal causes, such as a gastric band or other gastrointestinal foreign body. Also, get an abdominal ultrasound to rule out any potential intra-abdominal issues.",
+        "color": "red"
+      },
+      {
+        "id": 1003,
+        "parent_id": 1001,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY1",
+        "city": "Mississauga, ON",
+        "text": "Wait, what about the patient's shortness of breath and orthopnea symptoms? Shouldn't we consider a pulmonary embolism or cardiac tamponade?",
+        "color": "purple"
+      },
+      {
+        "id": 1004,
+        "parent_id": 1002,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "What about checking her sodium and potassium levels as these can affect cardiac conduction and contractility. Also, a 24-hour urine protein could indicate renal disease.",
+        "color": "green"
+      },
+      {
+        "id": 1005,
+        "parent_id": 1004,
+        "user": "Dr. Ziggy Zalesky",
         "role": "EP",
         "city": "Vancouver, BC",
+        "text": "Nice catch on the sodium levels! Can we also consider checking her cardiac biomarkers, such as BNP and troponins to rule out any cardiac ischemia or strain?",
+        "color": "red"
+      },
+      {
+        "id": 1006,
+        "parent_id": 1001,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I'm a little concerned about the lack of cardiac monitoring during the patient's presentation. Shouldn't we consider a more aggressive workup for cardiac arrhythmias?",
+        "color": "blue"
+      },
+      {
+        "id": 1007,
+        "parent_id": 1002,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Actually, I think we're overthinking this. Based on her history and physical, I think this patient is just experiencing vasovagal syncope. Can we just do a thorough history and physical and rule out any obvious cardiac causes?",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Today I Learned: Acetaminophen Toxicity Can Be a Bitch",
+    "body": "Had a miss last night with a young patient who came in with abdominal pain, NAD, and a slightly elevated bilirubin. Turned out to be an acetaminophen overdose from a intentional ingest. I was pretty sure it was an overdose but didn't trust my initial labs. Thankfully, I consulted the tox doc who ordered a stat acetaminophen level and confirmed my suspicions. Anybody else have any experience with this? The nomogram can be pretty tricky, especially with timing.",
+    "category": "Toxicology",
+    "comments": [
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Aris Thorne",
+        "role": "MD",
+        "city": "Toronto, ON",
+        "text": "Great teaching moment, OP! Acetaminophen toxicity is one of the most common causes of acute liver failure in the Western world. And yes, the nomogram can be a bit tricky, but it's essential to get it right. I always tell my residents that if the patient presents within 8 hours, we start the NAC, regardless of the level. It's always better to err on the side of caution. And by the way, don't forget to check the patient for potential co-ingestions. Some of those other drugs can amplify the toxicity.",
+        "color": "purple"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Vic",
+        "role": "MD",
+        "city": "Calgary, AB",
+        "text": "Amateurs. This is a classic example of over-diagnosis. I'm sure the liver was just fine and the patient was probably just having a bad day. Don't waste my time with this. The patient should have just been sent home with a Tylenol",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 2,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Wait, didn't we learn in class that if the patient presents within 10 hours, we start the NAC regardless of the level? Why do we need to check for co-ingestions if we're already starting the NAC?\n\n[link to a textbook chapter on acetaminophen toxicity]",
+        "color": "blue"
+      },
+      {
+        "id": 5,
+        "parent_id": 3,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Actually, Dr. Vic, I think the patient would have benefited from a more thorough evaluation. A recent study published in the Journal of Toxicology showed that even with levels that are within the normal range, patients with acetaminophen toxicity can still experience liver damage. Would you like me to cite the paper?",
+        "color": "teal"
+      },
+      {
+        "id": 6,
+        "parent_id": 4,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "MD",
+        "city": "Vancouver, BC",
+        "text": "Leo, buddy, the key is timing. If the patient presents within 8 hours, we start the NAC regardless of the level. Within 10 hours, it's a bit murkier. And don't even get me started on co-ingestions. Some of those other drugs can really kick it up a notch.",
+        "color": "orange"
+      },
+      {
+        "id": 7,
+        "parent_id": 2,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Umm...what nomogram are we talking about?\n\n[link to a Wikipedia article on the Matthew nomogram]",
+        "color": "pink"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Kevin, the Matthew nomogram is used to estimate the risk of liver damage based on the level of acetaminophen and the time elapsed since ingestion. If you're not familiar with it, you should definitely check it out. But don't worry, it's not as tricky as it sounds.\n\n[link to a YouTube video explaining the math behind the nomogram]",
+        "color": "brown"
+      },
+      {
+        "id": 9,
+        "parent_id": 1,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "You all are forgetting the most crucial step: checking the patient's sodium levels. I've seen patients develop seizures and coma due to hyponatremia, which was exacerbated by the acetaminophen toxicity. Always ask the question 'What's the sodium?'",
+        "color": "gray"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Aren't sodium levels just a fancy way of saying 'fluid balance'? We've all seen patients with hyponatremia after a severe fluid bolus. Shouldn't we be focusing on addressing the underlying cause instead of just chasing symptoms?",
+        "color": "lavender"
+      },
+      {
+        "id": 20,
+        "parent_id": 10,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Sparkle-Eyes is spot on, but it's not just about fluid balance. Sodium levels can be a reflection of a whole host of underlying issues, including adrenal insufficiency and other endocrine disorders. Don't get me started on the whole 'fluid overload' thing...anyway, gotta get back to work",
+        "color": "fuchsia"
+      }
+    ],
+    "image": "https://emergencymedicinecases.com/wp-content/uploads/2023/03/Acetaminophen-Poisoning-CARD.png"
+  },
+  {
+    "id": 1,
+    "title": "<3 Sudden Cardiac Death: The Dark Horse of Pediatric ER",
+    "body": "TLDR; A missed diagnosis of hypertrophic cardiomyopathy in an adolescent with syncope almost ended in a Code Blue. Let this be a sobering reminder to stay vigilant.",
+    "category": "r/EMCrit",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "The takeaway here is that syncope in adolescents is rarely benign. Even with a thorough history and PE, we can miss some red flags. Has anyone else ever encountered a patient with hypertrophic cardiomyopathy without a clear family history?",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "All the time, Maya! And what's even crazier is when these patients present with 'typical' symptoms of cardiac disease only to have the HCM diagnosis revealed on a later echo. Has anyone come across any guidelines on screening asymptomatic individuals for HCM?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Actually, there are some decent recommendations from the Canadian Cardiovascular Society on HCM screening. Would also recommend reviewing the recent consensus on sports participation for athletes with HCM.",
+        "color": "red"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "This really highlights the need for more training in pediatric ER. I've never encountered a case like this...what are the most common red flags to keep an eye out for in adolescent syncope?",
+        "color": "blue"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Great question, Leo! Look for signs of cardiac disease, such as chest pain, shortness of breath, or palpitations, especially during exertion. Also, if the patient has a family history of cardiac diseases, especially HCM or arrhythmias. Keep in mind that some patients with HCM may have a 'silent' presentation.",
+        "color": "purple"
+      },
+      {
+        "id": 6,
+        "parent_id": 4,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "And don't forget about ECG findings, such as a Sokolow-Lyon index >3.5 or deep T wave inversions in leads V1-V4. These can indicate HCM. Also, be aware of any history of syncope, near-syncope, or unexplained falls.",
+        "color": "orange"
+      },
+      {
+        "id": 7,
+        "parent_id": 2,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "You guys bring up some great points. As a family doc, I often see patients who've been 'written off' as 'just' anxiety or panic attacks, only to have an HCM diagnosis revealed later. It's always a sobering reminder to keep an open mind.",
+        "color": "pink"
+      },
+      {
+        "id": 8,
+        "parent_id": 6,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "Aye, HOCM, not HCM! Hypertrophic obstructive cardiomyopathy is a far cry from hypertrophic cardiomyopathy, me laddies. But yes, the ECG findings are crucial in diagnosing these chaps.",
+        "color": "brown"
+      },
+      {
+        "id": 9,
+        "parent_id": 7,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Oh my stars, I had no idea about the HOCM vs HCM distinction! Thanks, Doc Oldman, for the clarification. It's always a learning experience for me here on r/EMCrit.",
+        "color": "yellow"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. Rick 'The Rage'",
+        "role": "EP",
+        "city": "Windsor, ON",
+        "text": "Don't worry about it, Sparkle-Eyes...we've all got our own pet peeves and acronyms to confuse. Just remember, stay vigilant and always consider HCM, especially in those teens with a history of syncope.",
+        "color": "gray"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Rant about acute pancreatitis in elderly pts",
+    "body": "Just saw a patient with acute pancreatitis in their 80s. The classic pain in the MIP radiating to the back, constant and boring. But what really caught my eye was the low-grade fever, tachycardia, and hypotension. I've heard Dr. Cydulka mention that cholecystitis and biliary colic have been reported as postoperative complications. Has anyone else seen this in their practice? Should we be considering pancreatic cancer or just a run-of-the-mill case of pancreatitis? Any tips for managing these pts? TLDR: Acute pancreatitis in the elderly - what's the take-home?",
+    "category": "r/emergencymedicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Kevin Park",
+        "role": "",
+        "city": "Edmonton, AB",
         "text": "",
         "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "name": "Dr. Maya Gupta",
-        "role": "PGY2",
+        "user": "Dr. Maya Gupta",
+        "role": "",
         "city": "Mississauga, ON",
-        "text": "Ah man, we've been there too. The key is to get the patient seated and upright, and then assess for any signs of impending airway loss. In our case, we ended up using a combination of bag-valve-mask ventilation and heliox to try and relax the airway muscles. Did you guys have to intubate or use any other airway adjuncts?",
-        "color": "green"
+        "text": "I've had a few cases in my second year and the thing that stood out to me was the importance of monitoring their hemodynamic status. We need to be quick to get them on IV fluids and maybe even some blood. Also, have you considered the role of NSAIDs in the pathogenesis of pancreatitis? It's a common source of iatrogenic causes.",
+        "color": "blue"
       },
       {
         "id": 3,
         "parent_id": 2,
-        "name": "Leo Chen",
-        "role": "MS1",
+        "user": "Leo Chen",
+        "role": "",
         "city": "Montreal, QC",
-        "text": "Wait, heliox is used for asthma attacks, isn't it? How does it work for epiglottitis?",
-        "color": "blue"
+        "text": "Thanks for the tip, Dr. Gupta! I didn't know that about NSAIDs. Do you think we should be ordering a lipase level in all cases of AP, or is it more reserved for those with severe symptoms?",
+        "color": "green"
       },
       {
         "id": 4,
         "parent_id": 3,
-        "name": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Actually Leo, heliox is more commonly used in asthma because it's denser than air, which can help to decrease airway resistance. But in the case of epiglottitis, we used it to try and relax the airway muscles, as Dr. Gupta mentioned. It can be a bit of a tricky thing to use, though, because it can take a while to kick in. Did we end up using a cuffed or uncuffed tube for this patient?",
+        "user": "Dr. Elena Varkov",
+        "role": "",
+        "city": "Quebec City, QC",
+        "text": "While I agree with Dr. Gupta, let's not forget the role of steroids in the treatment of AP. They can help with the inflammatory response and reduce the risk of complications. And for your question, Leo, I always order a lipase level in all cases of AP. It's one of the best ways to confirm the diagnosis.",
         "color": "red"
       },
       {
         "id": 5,
         "parent_id": null,
-        "name": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "OMG, epiglottitis is soooo rare. Do you guys think it's actually a thing, or was it just a misdiagnosis?",
-        "color": "light_blue"
+        "user": "Dr. Archibald Thorne",
+        "role": "",
+        "city": "Saskatoon, SK",
+        "text": "",
+        "color": "purple"
       },
       {
         "id": 6,
         "parent_id": 5,
-        "name": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Chad, while it's true that epiglottitis is a relatively rare condition, it's definitely a thing. The key is to recognize the signs and symptoms, which can range from a sore throat to severe respiratory distress. In this case, our patient had a classic presentation, and we were able to get a positive blood culture within 24 hours. Does anyone have any experience with the different types of airway adjuncts that can be used in pediatric patients?",
-        "color": "orange"
+        "user": "Turbo Tom",
+        "role": "",
+        "city": "London, ON",
+        "text": "Doc Thorne, what brings you here? You're usually stuck in the 50s. What do you mean by 'the old-timey way'?",
+        "color": "blue"
       },
       {
         "id": 7,
         "parent_id": 6,
-        "name": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "I've seen a lot of kids with supraglottic airway devices. Have you guys used those? How effective are they?",
-        "color": "violet"
+        "user": "Dr. Archibald Thorne",
+        "role": "",
+        "city": "Saskatoon, SK",
+        "text": "Just trying to bring a bit of wisdom from the 18th century to the 21st, my young friend. In the old days, we didn't have all these fancy diagnostic tests and treatments. We relied on good old-fashioned observation and a solid history, which is still just as valuable today.",
+        "color": "red"
       },
       {
         "id": 8,
         "parent_id": 7,
-        "name": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Supraglottic airway devices are a good option, but they can be a bit tricky to insert. Did we end up using one of those in this case?",
-        "color": "yellow"
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "",
+        "city": "Vancouver, BC",
+        "text": "",
+        "color": "green"
       },
       {
         "id": 9,
-        "parent_id": null,
-        "name": "Dr. Phil Muddle",
-        "role": "EP",
-        "city": "Regina, SK",
-        "text": "What's the latest on ET tubes for kids? I thought we were supposed to use the 16+ age divided by 4 formula to determine the size.",
-        "color": "pink"
+        "parent_id": 8,
+        "user": "Dr. Barb Miller",
+        "role": "",
+        "city": "Winnipeg, MB",
+        "text": "Ziggy, what are you laughing at? And for the record, 'the old-timey way' is still the best way to do medicine - a good ol' fashioned physical exam and some common sense.",
+        "color": "blue"
       },
       {
         "id": 10,
         "parent_id": 9,
-        "name": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Actually Phil, the 16+age divided by 4 formula is just a guideline. We actually use the resuscitation measuring tapes to determine the correct tube size.",
-        "color": "brown"
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "",
+        "city": "Vancouver, BC",
+        "text": "Just kidding, Barb! You know I respect your old-school approach. I just like to think that we can still use all that new-fangled technology to make our lives easier, not harder.",
+        "color": "red"
       },
       {
         "id": 11,
         "parent_id": 10,
-        "name": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs like you don't even know what a real formula is. It's 16+age divided by 4, and don't even get me started on resuscitation measuring tapes. What a joke.",
+        "user": "Dr. Kevin Park",
+        "role": "",
+        "city": "Edmonton, AB",
+        "text": "But that's the thing - technology is just a tool, and what's most important is the relationship we build with our patients and how we apply the knowledge to their specific situation. Not just blindly following an algorithm.",
         "color": "green"
       },
       {
         "id": 12,
         "parent_id": 11,
-        "name": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Actually, Dr. Sterling, I think you'll find that the resuscitation measuring tapes are the most accurate way to determine tube size. And as for your formula, while it's true that it's been around for a long time, it's not without its flaws.",
-        "color": "brown"
+        "user": "Dr. Barb Miller",
+        "role": "",
+        "city": "Winnipeg, MB",
+        "text": "",
+        "color": "blue"
       },
       {
         "id": 13,
-        "parent_id": 12,
-        "name": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Jeez, you guys are like a bunch of cats fightin' over a bag of fish. Can't we all just get along?",
-        "color": "light_green"
+        "parent_id": null,
+        "user": "Rush Limb",
+        "role": "",
+        "city": "",
+        "text": "What's the take-home from this discussion?",
+        "color": "purple"
       },
       {
         "id": 14,
         "parent_id": 13,
-        "name": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Hey Sue, I think we can all agree that what we're really trying to do here is provide the best possible care for our patients. And to that end, we can all learn from each other's experiences.",
-        "color": "green"
-      },
-      {
-        "id": 15,
-        "parent_id": 14,
-        "name": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "Uh, guys? Can we talk about something else? I have a fever and my throat hurts.",
-        "color": "purple"
-      },
-      {
-        "id": 16,
-        "parent_id": null,
-        "name": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "Actually Barnaby, your symptoms sound a lot like epiglottitis. Let me take a look.",
-        "color": "light_green"
-      }
-    ],
-    "image": "https://3.bp.blogspot.com/-11WL0euBu2I/WP5Ky97bhKI/AAAAAAAACMA/uWbunIIWkfQp4HOX_j3ZvesHcRLHp1Y5gCLcB/s640/dsi.png"
-  },
-  {
-    "id": 1,
-    "title": "Today I Learned: Vomiting is not always what it seems",
-    "category": "EmergencyMedicine",
-    "body": "Just saw a patient with intractable vomiting. History of appendicitis, surgery, and constipation. Vomiting bilious stuff. Thought it was simple gastroenteritis... until the CT scan showed a small bowel obstruction. Long story short: the 'vomit' was actually bile from the obstruction. Don't assume what you see in the vomit!",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs diagnosing vomiting without basic labs and imaging. What's the sodium level? Was there any fever or leukocytosis? This is just another case of ED over-diagnosis. TLDR: Vomiting isn't always what it seems, but so what? Get the basics right.",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Actually, I've learned that a careful history and physical can make all the difference. Our patient's vomiting was indeed related to the bowel obstruction, but it was a complex one with multiple layers of risk factors. The sodium level was slightly low, and the patient had a low-grade fever. We ended up admitting them for further management.",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": null,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "A long time ago, we didn't have all these fancy tests. We relied on the art of diagnosis. The history, the physical, and a bit of common sense. It's all about pattern recognition, my friends. Don't rely on a single 'aha' moment. Build your case with a thorough evaluation.",
-        "color": "pink"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "I never knew you had to consider bowel obstruction as a cause of vomiting... Can you explain more about the layers of risk factors you mentioned?",
-        "color": "blue"
-      },
-      {
-        "id": 5,
-        "parent_id": 3,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "I think it's high time we talk about the importance of pattern recognition. It's not just about being smart; it's about developing a good old-fashioned 'nose' for what's going on. The patient's history, demographics, and physical exam clues all came together to form a comprehensive picture.",
-        "color": "orange"
-      },
-      {
-        "id": 6,
-        "parent_id": 4,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Risk factors like previous abdominal surgery, constipation, and even certain medications can predispose to bowel obstruction. I like to remember this mnemonic: 'SCAMPS' - S - Surgery, C - Constipation, A - Age, M - Medications, P - Previous conditions, S - Stricture. Does that help, Leo?",
-        "color": "purple"
-      },
-      {
-        "id": 7,
-        "parent_id": 5,
         "user": "Chad Broson",
-        "role": "Pre-med",
+        "role": "",
         "city": "Brampton, ON",
-        "text": "Pattern recognition is like a puzzle! Can you explain more about how you 'put it all together' from the patient's history and physical exam?",
-        "color": "green"
-      },
-      {
-        "id": 8,
-        "parent_id": 6,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "I know some people are going to say 'TLDR: This is old news.' But trust me, guys, when you're on the wards, it's not always that simple. The patient's sodium level was a bit low, and they were a bit tachycardic. We ended up getting the CT scan, and boom - small bowel obstruction. Don't underestimate the basics, people.",
-        "color": "blue"
-      },
-      {
-        "id": 9,
-        "parent_id": 1,
-        "user": "Dr. 'Ziggy' Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "The other day, I saw a patient with chronic vomiting. We ordered some basic labs, did the CT scan, and found a small tumor in the bowel. It turned out to be a metastasis from a colon cancer. Moral of the story: vomiting's not always a benign condition.",
-        "color": "orange"
-      },
-      {
-        "id": 10,
-        "parent_id": 8,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "Don't get me started on sodium levels. In my day, we always measured them first thing. It's amazing how often you see a patient with a low sodium, and a basic work-up can reveal the cause.",
-        "color": "purple"
-      },
-      {
-        "id": 11,
-        "parent_id": 9,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Great example of how vomiting can be a symptom of something more sinister. As a resident, I've seen cases where patients were vomiting, and we ended up finding something entirely different going on. Always keep an open mind and consider all possibilities.",
-        "color": "green"
-      },
-      {
-        "id": 12,
-        "parent_id": 9,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Vomiting can be a real challenge! As an ER nurse, I've seen some pretty weird stuff. The other day, a patient came in with intractable vomiting. We ended up finding that they had a small tumor in the bowel.",
-        "color": "blue"
-      },
-      {
-        "id": 13,
-        "parent_id": null,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "One way to remember the different causes of vomiting is to use this acronym: 'VOMIT' - V - Viral, O - Obstruction, M - Medication-related, I - Infection, T - Metabolic. Just a trick I use to help me keep my wits about me.",
-        "color": "pink"
-      },
-      {
-        "id": 14,
-        "parent_id": 13,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "As someone who's experienced intractable vomiting, I can attest that this is a real challenge. I had some pretty severe symptoms, and it took a while to figure out what was going on. In the end, it was a tiny tumor.",
-        "color": "orange"
-      },
-      {
-        "id": 15,
-        "parent_id": 14,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "We need to talk about the importance of empathy in practice. As a nurse or physician, you have to stay calm, patient, and understanding when dealing with difficult patients. It makes all the difference.",
-        "color": "purple"
-      },
-      {
-        "id": 16,
-        "parent_id": 15,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "You're right, Dr. Miller! As a nurse, I always try to find the silver lining, no matter how tough things get. Empathy's key to making a difference in people's lives.",
-        "color": "green"
-      },
-      {
-        "id": 17,
-        "parent_id": 15,
-        "user": "Dr. Phil Muddle",
-        "role": "EP",
-        "city": "Regina, SK",
-        "text": "As someone who's always a bit... lost, I'm going to try to remember to focus on empathy. It's so easy to get caught up in the details and forget about the person in front of you.",
-        "color": "blue"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Today I Learned: Otitis Externa - Don't Forget the Acetic Acid!",
-    "body": "Just saw a patient with otitis externa and I was reminded how often we miss this diagnosis. So, here's the take-home: for otitis externa, we need to think acetic acid! It can help differentiate from other causes of ear pain and also aid in diagnosis by demonstrating the pH of the external auditory canal. Has anyone else found this useful in their practice?",
-    "category": "emergencymed",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Great reminder! I've also found that using a wick can be super helpful for delivering topical antibiotics directly into the ear canal. Anyone else use these wicks?",
-        "color": "blue"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Thorne, what kind of wick do you use? Is it a specific brand or just a piece of cotton?",
-        "color": "lightblue"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I've found that the absorbable wicks work really well. They come in different shapes and sizes, but they're great for delivering meds directly to the site.",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": null,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs think otitis externa is just about swimming and earwax. Newsflash: it's often caused by MRSA. Don't forget to check for skin lesions and get a culture before prescribing any meds.",
+        "text": "",
         "color": "red"
       },
       {
-        "id": 5,
-        "parent_id": 4,
+        "id": 15,
+        "parent_id": 14,
+        "user": "Rush Limb",
+        "role": "",
+        "city": "",
+        "text": "",
+        "color": "green"
+      },
+      {
+        "id": 16,
+        "parent_id": 15,
+        "user": "Chad Broson",
+        "role": "",
+        "city": "Brampton, ON",
+        "text": "You know I'll be using 'the old-timey way' when I get accepted into med school.",
+        "color": "blue"
+      },
+      {
+        "id": 17,
+        "parent_id": null,
         "user": "Dr. Sarah Sharp",
-        "role": "EP",
+        "role": "",
         "city": "Laval, QC",
-        "text": "Dr. Sterling, I agree that MRSA needs to be considered in these cases, but we can't just ignore the role of pseudomonas. The literature is clear: it's a major player in otitis externa. And don't even get me started on the importance of cultures.",
+        "text": "",
         "color": "purple"
       },
       {
-        "id": 6,
-        "parent_id": null,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Has anyone else had a patient that ended up having a wick inserted into the ear canal? I just had the most adorable little tot with a bad case of otitis externa and it was a nightmare trying to get the wick in!",
-        "color": "pink"
+        "id": 18,
+        "parent_id": 17,
+        "user": "Dr. Maya Gupta",
+        "role": "",
+        "city": "Mississauga, ON",
+        "text": "Sarah, I think you and I have covered some crucial points in this discussion. Thanks for bringing attention to the importance of hemodynamic monitoring and steroid use. TLDR: Pancreatitis is a multifactorial disease.",
+        "color": "red"
       },
       {
-        "id": 7,
-        "parent_id": 6,
+        "id": 19,
+        "parent_id": 18,
+        "user": "Dr. Kevin Park",
+        "role": "",
+        "city": "Edmonton, AB",
+        "text": "",
+        "color": "green"
+      },
+      {
+        "id": 20,
+        "parent_id": 19,
+        "user": "Dr. Maya Gupta",
+        "role": "",
+        "city": "Mississauga, ON",
+        "text": "",
+        "color": "red"
+      },
+      {
+        "id": 21,
+        "parent_id": 20,
         "user": "Turbo Tom",
-        "role": "RN",
+        "role": "",
         "city": "London, ON",
-        "text": "Sparkle-Eyes, yes! That little tot might have been adorable, but getting the wick in was probably a nightmare for us ER nurses too! I swear, half the time it's more about getting the patient to lie still long enough than anything else.",
-        "color": "teal"
+        "text": "I think we've covered a lot of ground today. Thanks for keeping it all on track.",
+        "color": "blue"
+      },
+      {
+        "id": 22,
+        "parent_id": null,
+        "user": "Brock Stone",
+        "role": "",
+        "city": "Hamilton, ON",
+        "text": "",
+        "color": "purple"
+      },
+      {
+        "id": 23,
+        "parent_id": 22,
+        "user": "Dr. Barb Miller",
+        "role": "",
+        "city": "Winnipeg, MB",
+        "text": "",
+        "color": "green"
+      },
+      {
+        "id": 24,
+        "parent_id": 23,
+        "user": "Brock Stone",
+        "role": "",
+        "city": "Hamilton, ON",
+        "text": "",
+        "color": "red"
+      },
+      {
+        "id": 25,
+        "parent_id": 24,
+        "user": "Dr. Barb Miller",
+        "role": "",
+        "city": "Winnipeg, MB",
+        "text": "",
+        "color": "blue"
+      },
+      {
+        "id": 26,
+        "parent_id": null,
+        "user": "Archibald",
+        "role": "",
+        "city": "",
+        "text": "",
+        "color": "purple"
+      },
+      {
+        "id": 27,
+        "parent_id": 26,
+        "user": "Dr. Henry Oldman",
+        "role": "",
+        "city": "Victoria, BC",
+        "text": "",
+        "color": "red"
+      },
+      {
+        "id": 28,
+        "parent_id": 27,
+        "user": "Archibald",
+        "role": "",
+        "city": "",
+        "text": "",
+        "color": "green"
       }
     ]
   },
   {
-    "id": 1,
-    "title": "Frustrating case of PID - What am I missing?",
-    "body": "Just saw a patient with pelvic inflammatory disease (PID) and I'm still trying to figure out what I could have done better. The patient was a 22-year-old female presenting with lower abdominal pain, fever, and leukorrhea. The urinalysis showed leukocytes and bacteria, and the endocervical cultures grew Neisseria gonorrhoeae. I started her on ceftriaxone and metronidazole, but the patient's symptoms persisted. After reevaluating the case, I realized that I should have asked more detailed questions about her sexual history and obtained a pelvic examination. What am I missing?",
-    "category": "r/EMed",
+    "id": 123,
+    "title": "I saw a patient with pulmonary edema and the EP's response was... ",
+    "body": "Just saw a patient with severe pulmonary edema and the EP's response was to order a stat chest xray and send the patient to ICU without even checking the patient's hemodynamics or ordering a echocardiogram. The patient had a history of heart failure and was presenting with severe respiratory distress, but the EP seemed to be relying solely on the chest xray to guide their management. I was surprised and concerned by this approach, as I know that pulmonary edema can be a complex diagnostic and management challenge, and relying solely on imaging may not provide the full picture. Has anyone else seen this kind of thing? How do you approach patients with pulmonary edema?",
+    "category": "emergency medicine",
     "comments": [
       {
-        "id": 2,
+        "id": 1,
         "parent_id": null,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "@Dr. Aris Thorne, Great case! I think the issue was that you didn't get a thorough sexual history. What was her number of sexual partners, and did she have a new partner recently? PID is a red flag for other STIs, especially chlamydia. Did you consider ordering a chlamydia PCR?",
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I've seen this kind of thing before and it's frustrating. Pulmonary edema can be a complex condition and relying solely on imaging can lead to missed diagnosis and delayed treatment. In my practice, I always look for a combination of clinical signs, physical examination findings, and laboratory results to guide my management. For example, I would expect to see signs of fluid overload, such as tachypnea, tachycardia, and jugular venous distension, as well as changes in oxygen saturation. I would also order an echocardiogram to assess left ventricular function and a CXR to look for signs of pulmonary edema. It's great that you spoke up and highlighted the importance of a comprehensive approach to managing these patients. Have you seen any other EPs using similar approaches in the past?",
+        "color": "blue"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Dr. Gupta, you make a great point about the importance of a comprehensive approach to managing pulmonary edema. I was wondering if you could elaborate on how you assess fluid overload in these patients? What specific findings would you expect to see on physical examination and how do you prioritize your differential diagnosis?",
         "color": "purple"
       },
       {
         "id": 3,
-        "parent_id": 2,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "@Dr. Ziggy Zalesky, That's a great point! I didn't ask about her number of sexual partners or if she had a new partner recently. I did consider ordering a chlamydia PCR, but I was worried about over-testing. What do you think the threshold is for ordering a chlamydia test?",
-        "color": "green"
+        "parent_id": 1,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "I've seen plenty of EPs who don't know their stuff and rely on imaging to guide their management. Pulmonary edema is just one of many conditions where the diagnosis is based on a combination of clinical signs and symptoms, not just a single test result. What's the point of having a medical degree if you can't even do a proper physical examination? I swear, some of these EPs wouldn't know a cardiac arrhythmia if it bit them.",
+        "color": "red"
       },
       {
         "id": 4,
-        "parent_id": 2,
-        "user": "Dr. Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "I'm surprised you didn't admit her overnight for observation. PID can quickly escalate to a severe infection. Next time, consider calling the patient back in a few hours to reassess her symptoms.",
+        "parent_id": 3,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Dr. Sterling, I understand your frustration, but let's keep the conversation constructive. Instead of making personal attacks, can we discuss how we can improve our practice and provide better care for our patients? Perhaps we can share resources or best practices for managing pulmonary edema?",
         "color": "blue"
       },
       {
         "id": 5,
         "parent_id": 4,
+        "user": "Dr. Phil Muddle",
+        "role": "EP",
+        "city": "Regina, SK",
+        "text": "I think what Dr. Sterling is trying to say is that we need to be more mindful of when to order imaging and how to use the results to inform our management. I've seen patients with pulmonary edema where the CXR was normal, but the patient still had significant fluid overload. Can we talk about how to use imaging in a more judicious way?",
+        "color": "green"
+      }
+    ],
+    "image": "https://www.unitekemt.com/wp-content/uploads/2021/01/pexels-rodnae-productions-6520049.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Today I learned that Pelvic Inflammatory Disease (PID) may be caused by a spectrum of infections, including endometritis, salpingitis, tubo-ovarian abscess, and pelvic peritonitis. The pathogens involved are not just Neisseria gonorrhoeae and Chlamydia trachomatis, but also vaginal flora, gram-negative rods, streptococci, and mycoplasmas. I'm frustrated that PID is still a major cause of infertility, cancer, and urogenital complications, and I wish there was a better way to identify, treat, and prevent it.",
+    "body": "I had a case last night where a 25-year-old woman presented with severe pelvic pain and a history of unprotected sex with multiple partners. She was tested for PID, but the results were inconclusive. I'm wondering if anyone else has had similar experiences with PID and if there are any new diagnostic tools or treatments available.",
+    "category": "emergency medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "@Dr. Brock Stone, I agree that PID can quickly escalate, but in this case, the patient's symptoms were not severe enough to warrant admission. What are the criteria for admission in PID?",
+        "text": "PID is a classic diagnosis that's easy to miss, but it's crucial to consider it in patients with acute pelvic pain, especially in young women. I've seen cases where PID was misdiagnosed as appendicitis or diverticulitis. A good history and physical exam, combined with imaging studies like CT or ultrasound, can help identify the diagnosis. And remember, PID is often a result of untreated sexually transmitted infections (STIs) like gonorrhea or chlamydia. Have you considered screening for these STIs?",
+        "color": "blue"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "I've read that the use of single-dose antibiotics has been shown to be effective in treating PID, but I'm not sure about the evidence base. Can you provide some references or point me in the right direction?",
+        "color": "purple"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "I've heard that PID is often associated with other STIs like syphilis and HIV. Do we need to screen for these infections as well?",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "As an internist, I'm often called upon to evaluate patients with PID. I've found that patients with HIV or other immunocompromised conditions may present with Atypical symptoms or laboratory findings. We should always consider these possibilities when evaluating patients with PID.",
+        "color": "orange"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I've heard that HIV is a significant risk factor for PID. Can you explain why this is the case?",
+        "color": "pink"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "HIV increases the risk of PID by impairing the immune system's ability to fight off infections. Women with HIV are more likely to have untreated gonorrhea or chlamydia, which can lead to PID. Additionally, the same behaviors that put women at risk for HIV (such as unprotected sex) also increase their risk for PID. It's a vicious cycle, and as healthcare providers, we need to be aware of these connections.",
+        "color": "blue"
+      },
+      {
+        "id": 7,
+        "parent_id": null,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "PID is, like, super serious, and I've heard that the earlier we catch it, the better the outcome. Can you guys recommend any good resources for learning more about PID?",
+        "color": "red"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "I recommend the CDC's guidelines for the diagnosis and treatment of PID. They're a great resource for any healthcare provider. You can find them online by searching for 'CDC PID guidelines'.",
+        "color": "purple"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "I've used the CDC guidelines many times in my practice, and they're super helpful. But I'd also like to add that a clear understanding of the patient's reproductive history and any previous STIs is crucial in making a diagnosis.",
+        "color": "green"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. Phil Muddle",
+        "role": "EP",
+        "city": "Regina, SK",
+        "text": "Wait, what's the difference between PID and pelvic inflammatory disease in pregnancy? Are they the same thing?",
+        "color": "orange"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "Good question, Dr. Muddle! PID in pregnancy is a different entity altogether. It's often caused by chorioamnionitis or endometritis, and can lead to preterm labor, fetal infection, and even maternal death. It's a serious condition that requires prompt diagnosis and treatment.",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "id": "scalp_lacerations",
+    "title": "Today I Learned: Scalp Lacerations - A Primer for the ED",
+    "body": "Just saw a patient with a scalp laceration that was initially classified as a minor wound. However, upon closer inspection, I realized that it was a more complex injury that required a thorough evaluation and repair. I've been in the ED for 5 years, and I still find myself re-evaluating my approach to scalp lacerations. Has anyone else had a similar experience? What are your go-to algorithms for evaluating and managing scalp lacerations?",
+    "category": "emergencymedicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Great topic! Scalp lacerations can be deceptive, as they often appear superficial but can be associated with underlying skull fractures or other serious injuries. Our hospital protocol calls for a thorough evaluation, including palpation of the scalp to assess for potential fractures and a CT scan if there's any suspicion. Has anyone else found that a CT scan is often unnecessary?",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "I've had a few cases where a CT scan was unnecessary, but it's always better to err on the side of caution. I've also found that a thorough neuro check, including a GCS, can help identify potential TBI.",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "What's the threshold for ordering a CT scan? Is it based on the mechanism of injury, the size of the laceration, or something else?",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "I've found that a high-quality, detailed photograph of the scalp laceration can be incredibly helpful in assessing the depth and extent of the injury. Has anyone else found this technique useful?",
+        "color": "purple"
+      },
+      {
+        "id": 5,
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Yes, I've used this technique many times! It's especially helpful when the patient is unable to provide a clear description of the injury. Do you have any recommendations for photographing scalp lacerations?",
         "color": "purple"
       },
       {
         "id": 6,
-        "parent_id": 2,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "I've seen cases where PID is caused by a foreign body in the vagina. Did you check for any foreign objects, such as a forgotten IUD?",
-        "color": "orange"
+        "parent_id": 5,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "I use a smartphone camera with a good light source and a macro lens to get a high-quality photo. I also make sure to document the orientation of the laceration, including any notable features like scalp tenderness or swelling.",
+        "color": "green"
       },
       {
         "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "@Dr. Barb Miller, That's a good point. I've heard that foreign bodies can cause PID. What's the best way to diagnose a foreign body in the vagina?",
+        "parent_id": null,
+        "user": "Dr. Phil Muddle",
+        "role": "EP",
+        "city": "Regina, SK",
+        "text": "I've had a few cases where a scalp laceration was associated with a underlying subdural hematoma. Has anyone else had a similar experience?",
+        "color": "purple"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Yes, I've had a few cases where a scalp laceration was followed by a subdural hematoma. It's essential to have a high level of suspicion for TBI in these patients.",
+        "color": "purple"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "I've also found that a thorough review of the patient's medical history and laboratory results can help identify potential risk factors for TBI.",
         "color": "green"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "What's the best way to evaluate TBI in the ED? Is it based on the GCS, or are there other important factors to consider?",
+        "color": "blue"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "The GCS is just one part of the evaluation for TBI. We also need to consider the patient's history, including any reported loss of consciousness or amnesia, and a thorough physical examination, including a careful assessment of the patient's level of alertness and orientation.",
+        "color": "purple"
       }
-    ],
-    "image": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1835420043762749"
+    ]
   },
   {
     "id": 1,
-    "title": "Today I Learned - The Fine Art of Gastric Lavage, or How I Spent 30 Minutes Washing Away a Patient's Hope",
-    "body": "Just saw a patient with a nasty case of lithium toxicity and decided to try my hand at gastric lavage. Let's just say it didn't exactly end as planned...\n\nSo, for those of you who may still be practicing this art form, I'd love to hear your tips and tricks. Was I doing it wrong? Should I have just gone for a nice, easy intubation? \n\nTLDR: lithium toxicity, gastric lavage, anyone have a flow diagram I can steal?\n\nEdit: Added a link to a paper on gastric lavage for those interested!",
+    "title": "Today I learned about the limitations of low- probability acute coronary syndrome (LPACS) criteria.",
+    "body": "Just saw a patient with chest pain and a low-probability ACS score. Turned out they had a NSTEMI. Makes me wonder how often we're underestimating ACS in the ED.",
     "category": "Emergency Medicine",
     "comments": [
       {
         "id": 1,
-        "parent_id": 0,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "LMAO, gastric lavage. That's like trying to take a Ferrari for a spin with a chainsaw. Don't get me wrong, I'm sure it's a great theory, but in practice...not so much. I'd rather just stick with a good ol' fashioned gastric tube and some warm tap water. Am I the only one who thinks this is all a bit of a joke?\n\nTLDR: stick with what works, folks!",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Actually, I've been reading about this in my emergency medicine rotation and it seems like gastric lavage has a pretty high success rate when done properly. Of course, 'properly' being the key word there...I'd love to hear more about your experiences, Dr. Z.\n\nEdit: Can you link to a study or something that supports this? I'd love to read up on it!",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Haha, sorry Dr. Z, but I think you're just trying to get a rise out of us. I've only had to do gastric lavage a few times, but it seems like a straightforward procedure. Can anyone explain how it's supposed to work, though? I feel like I'm just winging it when I do it.",
-        "color": "purple"
-      },
-      {
-        "id": 4,
-        "parent_id": 2,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Thanks for the vote of confidence, PGY1! Okay, so to clarify, gastric lavage is supposed to work by removing a toxic substance from the stomach using a gastric tube and irrigation. Sounds easy peasy, but trust me, it's not as simple as it sounds...\n\nI'll post a link to a flow diagram that might help. In the meantime, can anyone recommend a good source for gastric lavage techniques? I've seen some real horror stories in the literature.",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "I've got a lot of experience with gastric lavage, and I have to say, it's not something I recommend unless the patient is absolutely symptomatic. Of course, we all know that's often just a gray area, don't we? \n\nI'd love to hear more about your experience with gastric lavage, OP. What made you decide to try it out?",
-        "color": "purple"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Thanks for sharing your experience, OP! I've been doing a bit of a literature review on gastric lavage, and it seems like there's a real lack of high-quality evidence out there. Can we all agree that this is one procedure where we really need to be careful and evidence-based?",
-        "color": "green"
-      }
-    ]
-  },
-  {
-    "id": 6,
-    "title": "Pneumothorax gotcha: Remember the lung point! ",
-    "body": "Had a miss last night in the ER, pneumothorax missed on upright CXR . Thankfully the patient was stable and the ultrasound showed the classic lung point. Had me thinking... in a stable pt, which is the best view to use and how sensitive are ultrasound and upright CXR in pneumothorax? Anyone have some insights on this? TLDR: pneumothorax gotcha story with a lesson.",
-    "category": "emergency medicine",
-    "comments": [
-      {
-        "id": 1,
         "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "...In my experience, the upright CXR is the most sensitive and specific for pneumothorax. However, its sensitivity drops significantly in the presence of large bullae or when the patient is not able to sit up straight. Ultrasound, on the other hand, is a great tool for pneumothorax detection, especially in stable patients. The lung sliding sign and the absence of B-lines are classic findings in pneumothorax. But let's not forget the lung point! It's a telltale sign of a pneumothorax and can be missed easily if you're not paying attention. Has anyone else found this to be a challenging diagnosis to make? And what about the sensitivity of chest CT in pneumothorax?",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
         "user": "Dr. Victor Sterling",
         "role": "Chief of Surgery",
         "city": "Calgary, AB",
-        "text": "Amateurs are always getting caught up in the nuances of pneumothorax diagnosis. The fact is, if your patient has a large pneumothorax, you'll know it by the way they present clinically. The lung point is just a fancy way of saying 'there's air in the pleural space.' Don't get me wrong, it's a useful tool, but it's not a diagnosis. Anyone who thinks it's a substitute for good old-fashioned history and physical exam is drinking the Kool-Aid. Link to a paper I wrote on the subject: [link to a PDF](http://example.com/pneumothorax_paper.pdf)",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "I had a question about the upright CXR. Is it true that the sensitivity drops when the patient is not able to sit up straight? And what about using a chest CT to detect pneumothorax? Is that a reliable diagnostic tool?",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": " Actually, Dr. Sterling, the lung point is a specific sign of pneumothorax and not just a result of air in the pleural space. It's been studied extensively in the literature and is a crucial finding for diagnosis (1). As for the sensitivity of chest CT, it's been shown to be nearly 100% for detecting pneumothorax, especially in the presence of large bullae (2). Here's a link to a review article on the topic: [link to a review article](http://example.com/pneumothorax_review.pdf)",
-        "color": "purple"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Thanks for the links, Sarah! I'll have to read up on this when I get a chance. One thing I always found interesting about pneumothorax is how often it's missed in patients with COPD and other chronic lung diseases. Has anyone else noticed this trend in their practice?",
+        "text": "Amateurs overuse LPACS criteria to avoid admitting patients with potential ACS. Don't be fooled by the score; clinical judgment is key.",
         "color": "red"
       },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "Pneumothorax is always a 'gotcha' in patients with COPD and other chronic lung diseases. The symptoms can be nonspecific and the patient may not even notice a difference until the pneumothorax has progressed to a significant size. It's a classic case of 'do not let the trees hide the forest.' We need to stay vigilant in patients with chronic lung disease and not assume that they're just having a flare-up of their disease.",
-        "color": "green"
-      },
-      {
-        "id": 7,
-        "parent_id": 1,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "I think it's worth noting that the American College of Radiology recommends using a chest CT as the primary imaging modality for suspected pneumothorax (3). Has anyone else had experience with this in their practice?",
-        "color": "purple"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "I had a case recently where the chest CT showed a small pneumothorax that was not visible on the upright CXR. It's definitely a useful tool to have in our diagnostic arsenal. But what about the radiation exposure associated with CT scans? Is it a concern in patients with suspected pneumothorax?",
-        "color": "blue"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Radiation exposure is always a concern in any imaging study. However, the benefit of using a chest CT in suspected pneumothorax outweighs the risk in most cases. The alternative is a prolonged course of antibiotics and observation, which can be just as hazardous for the patient. As Dr. Sharp mentioned earlier, the ACR recommends using CT as the primary imaging modality, and for good reason.",
-        "color": "red"
-      }
-    ],
-    "image": "https://i.ytimg.com/vi/95IhCXDL9EY/maxresdefault.jpg"
-  },
-  {
-    "id": 1,
-    "title": "Aortic Dissection - That Thing That Kills You When You Least Expect It",
-    "body": "Just saw a patient with aortic dissection and it reminded me of how poorly we do at diagnosing this condition.  I've had some great mentors who taught me that the key is to think about it from the very start of the evaluation. The patient had been having chest pain for hours, and initially thought it was just indigestion.  The key here is the pattern of the pain. It's not your typical angina or pericarditis, it's a tearing pain that radiates to the back.  So, what did I do wrong?",
-    "category": "emergency medicine",
-    "comments": [
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Dr. Ziggy Zalesky, EP",
-        "role": "MD",
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
         "city": "Vancouver, BC",
-        "text": "The thing with aortic dissections is that they are so darn rare that we tend to forget about them.  Like, less than 1/100000 admissions.  So, it's easy to write off a patient with chest pain as just having a panic attack or whatever. But, when I was a resident, my mentor used to say that 99% of aortic dissections present in one of two ways: a) classical tearing pain to the back, or b) a sudden-onset, severe chest pain.  So, we need to be on the lookout for these patterns. Anyone else have experience with this?",
-        "color": "purple"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Turbo Tom, RN",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "That's a great point, Ziggy.  And don't even get me started on how often we miss the diagnosis because of ECGs and troponins coming back normal.  But, I've learned that sometimes the only clue is the patient's story, especially if they're over 50 with a history of hypertension.  Did anyone else use the Stanford or DeBakey classifications for aortic dissection?",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Dr. Victor Sterling, Chief of Surgery",
-        "role": "MD",
-        "city": "Calgary, AB",
-        "text": "Amen to that, Dr. Zalesky.  I've had my fair share of aortic dissections come through my operating room, and let me tell you, they are a nightmare to fix.  But, seriously, the key to diagnosing this condition is to think 'rupture' from the start.  So, what are the other risk factors for aortic dissection?  I'm talking Marfan's syndrome, bicuspid aortic valve, connective tissue disorders...?",
-        "color": "purple"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Leo Chen, MS1",
-        "role": "Student",
-        "city": "Montreal, QC",
-        "text": "Umm, isn't aortic dissection usually something like 50% or more men over 50 with hypertension?  I read that somewhere...  Also, doesn't Marfan's syndrome have a high incidence of aortic dissection?",
-        "color": "light blue"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Sarah Jenkins, MS3",
-        "role": "Student",
-        "city": "Ottawa, ON",
-        "text": "Actually, Leo, I think it's more like 75% or so of patients are men over 50 with hypertension.  And, yeah, Marfan's syndrome carries a high risk for aortic dissection, like up to 30% or more.",
-        "color": "light green"
-      },
-      {
-        "id": 7,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta, PGY2",
-        "role": "Resident",
-        "city": "Mississauga, ON",
-        "text": "Okay, so let's talk about the diagnosis.  I know this is a bit off-topic, but I had a case a few months ago where the patient presented with syncope and was diagnosed with a type B aortic dissection.  I was wondering if anyone had experience with the management of these patients?  Should we be thinking about endovascular therapy or what?",
-        "color": "purple"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Chad Broson, Pre-med",
-        "role": "Student",
-        "city": "Brampton, ON",
-        "text": "Wait, isn't aortic dissection like, a totally different thing from an aneurysm?  I thought they were kinda like the opposite?",
-        "color": "light blue"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Barnaby Finch, Patient",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "Yes, actually, I've had both an aneurysm and a dissection.  And let me tell you, it's a nightmare to manage.  But, I guess the key is to think about the location of the dissection?  Is it in the ascending or descending aorta?",
+        "text": "Not so fast, Victor. LPACS criteria are useful for identifying low-risk patients. But we still need to consider clinical presentation, ECG, and biomarkers. I'd love to see your data to support your claim.",
         "color": "orange"
       },
       {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Phil Muddle, EP",
-        "role": "MD",
-        "city": "Regina, SK",
-        "text": "Yeah, Barnaby's right.  And let's talk about imaging.  We've all got CT aortograms in our back pockets.  But, what about transesophageal echocardiography?  Has anyone used that for aortic dissection?",
-        "color": "purple"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Just saw a patient with suspected PID and I had to remind myself of the nuances of diagnosis...tl;dr for the ER docs among us",
-    "body": "Just saw a 22-year-old female with a 3-day history of lower abdominal pain, irregular periods, and dysuria. The patient has a history of 3 partners in the past year. Physical exam revealed a tender cervix, guarding, and adnexal tenderness. Lab results showed a WBC count of 18,000, ESR of 50. The patient was empirically treated with ceftriaxone and doxycycline for suspected PID. As I was writing the order, I realized that I had to consider the nuances of PID diagnosis, beyond just the DRE and CT findings... has anyone else had a recent case of PID where the diagnosis was tricky? Some discussion on the subtleties of PID diagnosis would be great!)",
-    "category": "emergency medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "TLDR; PID diagnosis can be tricky, especially in young women with symptoms of a UTI. A high index of suspicion and considering the nuances of PID are key. Did you consider a pelvic ultrasound for this patient, given her symptoms?",
-        "color": "blue"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Wait, what's the diff between UTI and PID? And when do we use a pelvic ultrasound vs a CT scan?",
-        "color": "red"
-      },
-      {
         "id": 3,
         "parent_id": 1,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Great point, Maya! The patient's symptoms were classic for PID, but I also wanted to consider the possibility of a UTI. A pelvic ultrasound is a reasonable next step in this case, especially since the patient has no history of sexual transmission. Thanks for the reminder on PID nuances!",
-        "color": "purple"
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "I'm so tired of doctors arguing over LPACS. Can't we just focus on what matters: getting the patient to a CT scan or cath lab ASAP? TLDR: let's not overthink it.",
+        "color": "pink"
       },
       {
         "id": 4,
-        "parent_id": 3,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Can you elaborate on how to differentiate between a UTI and PID on physical exam? What are some red flags for PID that we should look out for?",
-        "color": "green"
+        "parent_id": 2,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Ziggy, what do you think about the use of coronary CT angiography in LPACS patients? I've seen some studies suggesting it's effective for ruling out significant CAD.",
+        "color": "light blue"
       },
       {
         "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "That's a great question, Barb. But isn't CT angiography contraindicated in patients with high-risk features for ACS? I'm confused about the utility of CT in this context.",
+        "color": "blue"
+      },
+      {
+        "id": 6,
         "parent_id": 1,
         "user": "Dr. Henry Oldman",
         "role": "CCFP",
         "city": "Victoria, BC",
-        "text": "I've had experience with PID cases in young women, and I find that a thorough sexual history is essential in diagnosing PID. Did you get a chance to discuss the patient's sexual history with her?",
-        "color": "orange"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Ha! You're speaking my language now, Dr. Oldman! A thorough sexual history is crucial in diagnosing PID. Did you consider using an online resource like CDC to help guide your diagnosis?",
-        "color": "yellow"
+        "text": "As a family doc, I've seen many patients with low-probability ACS scores who ultimately had coronary disease. It's crucial to consider the totality of the clinical picture, not just one criterion.",
+        "color": "brown"
       },
       {
         "id": 7,
-        "parent_id": 1,
-        "user": "Dr. Phil Muddle",
-        "role": "EP",
-        "city": "Regina, SK",
-        "text": "Uh, sorry, guys, can someone please clarify the difference between PID and ectopic pregnancy? I always seem to get those confused...",
-        "color": "pink"
+        "parent_id": 6,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "That's a great point, Dr. Oldman. Can you speak to the role of history-taking in diagnosing ACS? I've read that a thorough history can be just as accurate as a CT angiogram in many cases.",
+        "color": "gray"
       },
       {
         "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "Good heavens, Dr. Muddle! PID and ectopic pregnancy are two distinct conditions, though they can present similarly in young women. PID is a bacterial infection of the upper reproductive tract, while ectopic pregnancy is the implantation of a fertilized egg outside the uterus. Don't you recall learning about the symptoms of PID during your residency?",
-        "color": "brown"
+        "parent_id": 1,
+        "user": "Dr. Rick 'The Rage'",
+        "role": "EP",
+        "city": "Windsor, ON",
+        "text": "LPACS criteria are a waste of time. We should be focusing on getting the patient to a coronary cath lab, not babysitting their risk factors. Get a grip, guys.",
+        "color": "purple"
       },
       {
         "id": 9,
         "parent_id": 8,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Gotcha, gotcha! Thanks, Dr. Thorne! You're a lifesaver!",
-        "color": "gray"
+        "user": "Dr. Phil Muddle",
+        "role": "EP",
+        "city": "Regina, SK",
+        "text": "Sorry, Rick, but I think you're being a bit too dramatic. LPACS isn't about 'risk factors' \u2013 it's about identifying low-risk patients who might not need further testing.",
+        "color": "green"
       },
       {
         "id": 10,
         "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Thanks, everyone, for the great discussion on PID diagnosis! One final thought: don't forget to consider the nuances of PID in young women with symptoms of a UTI, and don't hesitate to reach out to a colleague if you're unsure about the diagnosis.",
-        "color": "blue"
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "In my day, we didn't worry about 'LPACS scores' or 'NSTEMIs.' We just treated the patient based on symptoms and clinical judgment. I'm not sure why we need all these fancy criteria now.",
+        "color": "gold"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "I understand your skepticism, Dr. Thorne, but the reality is that we have a lot more data on coronary disease now. LPACS criteria help us identify high-risk patients who need more aggressive management.",
+        "color": "teal"
+      },
+      {
+        "id": 12,
+        "parent_id": 1,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "Wait, what's going on? Are we talking about some kind of 'LPACS thingy'? Can someone explain it to me in simple terms?",
+        "color": "tan"
+      },
+      {
+        "id": 13,
+        "parent_id": 12,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Don't worry, Barnaby! LPACS stands for Low Probability Acute Coronary Syndrome. It's like a scoring system to see if you're at high risk for a heart attack. Easy peasy!",
+        "color": "coral"
       }
     ],
-    "image": "https://images.squarespace-cdn.com/content/v1/546e1217e4b093626abfbae7/1526904650655-8UD1CT6PJ2Z5TGP11P8M/Lightning+Learning+-+Pelvic+Inflammatory+Disease.png"
+    "image": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1186%2Fs40560-018-0285-9/MediaObjects/40560_2018_285_Fig1_HTML.gif"
   }
 ]
