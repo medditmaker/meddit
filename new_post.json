@@ -1,635 +1,437 @@
 [
   {
     "id": 0,
-    "title": "Unstable Angina: Don't Let Me Down",
-    "body": "Fellow EPs, has anyone else experienced frustration with diagnosing unstable angina? I saw a patient last night who presented with chest pain at rest, but all the classic risk factors and ECG changes were absent. I ended up ordering a stress echo and it came back normal, but the patient was still experiencing symptoms. I'm wondering if I should have considered other diagnoses or if I just didn't catch something obvious. TLDR; how do you guys deal with the grey area between stable and unstable angina?",
-    "category": "emergency medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Ziggy Zalesky, MD",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Don't you guys ever get tired of playing 'diagnostic roulette' with these patients? Unstable angina is all about clinical judgment and we all know that's harder than it sounds. I remember a patient I saw a few months ago who had classic symptoms of angina but no changes on the ECG. We ended up doing a cardiac MRI and found a weird mass on the heart that we didn't catch on the CT. It was a rare case of cardiac sarcoidosis. Moral of the story? Don't rule out the impossible until you've considered the unlikely.",
-        "color": "blue"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen, MS1",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "What's the difference between unstable angina and stable angina in terms of the pathophysiology? I know unstable angina is more related to plaque rupture and thrombosis but how does that manifest clinically? Can you explain it in simpler terms for a first-year med student like me?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Maya Gupta, PGY2",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "In addition to the clinical presentation, what's your approach to risk stratifying patients with suspected unstable angina? Do you use any specific scoring systems or biomarkers to assess their risk of cardiac events?",
-        "color": "purple"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Kevin Park, PGY1",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "What scoring system do you recommend for risk stratification of unstable angina? I've heard of the PURPLE score but I'm not sure how well it's validated. Can you explain the different components of the score and how to use it in clinical practice?",
-        "color": "orange"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Henry Oldman, CCFP",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "In my experience, unstable angina is often under-diagnosed in primary care and over-diagnosed in the ER. How do you guys handle the grey area between stable and unstable angina? Do you have any tips for identifying high-risk patients in the outpatient setting?",
-        "color": "red"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Sarah Jenkins, MS3",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "What's your take on the role of biomarkers in the diagnosis of unstable angina? I've read that troponin levels can be elevated in both stable and unstable angina, so how do you guys use biomarkers in clinical practice?",
-        "color": "pink"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Barnaby Finch, Patient",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "I'm a bit confused - I thought unstable angina was just a fancy term for angina, but my doctor says it's more severe. Can someone explain the difference to me in simple terms?",
-        "color": "brown"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Phil Muddle, EP",
-        "role": "EP",
-        "city": "Regina, SK",
-        "text": "Barnaby, unstable angina is indeed a more severe form of angina, often characterized by rest pain and signs of cardiac ischemia. Think of it like a 'code red' situation - the patient needs immediate medical attention. I'll send you a link to a good online resource for more info.",
-        "color": "yellow"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Archie Thorne, MD",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "I remember a case from the 1920s where a patient presented with chest pain and was diagnosed with 'tuberculous angina'. It was actually a rare manifestation of tuberculosis of the heart. I wonder if we're just scratching the surface of the complexities of angina... ",
-        "color": "grey"
-      },
-      {
-        "id": 10,
-        "parent_id": null,
-        "user": "Turbo Tom, RN",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Has anyone else noticed that unstable angina is often the ' elephant in the room' - everybody knows it's a high-risk condition, but nobody really talks about it. It's like we're all walking around with our heads in the sand, waiting for the patient to just 'have a MI'...",
-        "color": "teal"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Elena Varkov, FRCPC",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Tom, you hit the nail on the head! Unstable angina is often the tip of the iceberg, with underlying conditions like CAD, HF, or diabetes that we need to address. How do you recommend we prioritize our treatment strategies to tackle this 'elephant in the room'?",
-        "color": "green"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Ziggy Zalesky, MD",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Great point, Elena! I think we need to start with a comprehensive assessment of the patient's risk factors and medical history. Then, we can tailor our treatment strategies to address those specific needs. But it's all about having that tough conversation with the patient - telling them it's not just about the symptoms, but about the underlying conditions that need to be managed...",
-        "color": "blue"
-      },
-      {
-        "id": 13,
-        "parent_id": null,
-        "user": "Chad Broson, Pre-med",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Can someone explain how to perform a stress test? I've heard it's a key diagnostic tool for unstable angina, but I want to make sure I get it right. Do you guys have any tips for interpreting the results?",
-        "color": "brown"
-      },
-      {
-        "id": 14,
-        "parent_id": 13,
-        "user": "Maya Gupta, PGY2",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Chad, a stress test is actually a non-invasive test that measures the heart's response to exercise or other types of stressors. It's often used to diagnose conditions like angina or CAD. Think of it like a 'stress test' for your heart... Here are some tips for interpreting the results:",
-        "color": "purple"
-      }
-    ],
-    "image": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1186%2Fs40560-018-0285-9/MediaObjects/40560_2018_285_Fig1_HTML.gif"
-  },
-  {
-    "id": 1,
-    "title": "Case Study: Procedural Sedation - when is enough, enough?",
-    "body": "Had a bit of a close call with a patient last night. 55yo female, presented to the ED with a known history of severe obstructive sleep apnea. Needed a central line placement for a potential infection on her right arm. The anesthesiologist consulted and decided to perform the procedure under moderate sedation (conscious sedation). The patient's ASA score was 3, limited by her SAD but otherwise unremarkable. Everything seemed to be going smoothly, but the patient started to show signs of respiratory distress during the procedure. Her SpO2 dropped to 82% despite having supplemental O2 at 6L/min. The anesthesiologist decided to go ahead with IV push of propofol, but unfortunately, the patient's V/F ratio started to deteriorate. We had to call a rapid response and get the patient intubated ASAP. Luckily, the patient made it through and is in stable condition now.",
-    "category": "Emergency Medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Wow, glad to hear the patient made it out okay. But a few things that stuck out to me - was the patient's last oral intake considered a contraindication to sedation? And secondly, were we prepared for a potential anoxic brain injury? As we know, patients with OSA are at a heightened risk of brain injury from hypoxia. Maybe consider using ketamine as an alternative anesthetic agent in the future? ",
-        "color": "blue"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Thanks for sharing, Dr. Thorne! I'm just curious to know - what is the general consensus on using ketamine in patients with OSA? I've heard it can increase ICP, but I'm not sure if that's a major concern in this scenario.",
-        "color": "purple"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Great question, Leo! According to the recent Cochrane review, ketamine does have a potential to increase ICP in patients with OSA, especially when used at higher doses. However, in this particular scenario, we were looking at a moderate sedation, and the doses were pretty low. Plus, the patient's SAD was pretty bad, so maybe the risk of ICP increase was outweighed by the potential benefits of ketamine? Worth considering for future cases though!",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Glad the patient made it though - but I gotta say, Dr. Thorne, I've had a few close calls myself with sedation, and I think we need to be talking about the bigger picture here. When do we draw the line between sedation and general anesthesia? I mean, the patient was getting pretty close to general anesthesia, if you ask me. Shouldn't we be having a conversation about this in terms of patient safety?",
-        "color": "purple"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Barb, come on - you're being too cautious. We've been sedating patients for centuries, and it's worked just fine. What's changed is that we're getting too many litigious parents in here thinking they know more than us. Newsflash: they don't. It's time to stop worrying about lawsuits and focus on treating the patients.",
-        "color": "red"
-      },
-      {
-        "id": 6,
-        "parent_id": 4,
-        "user": "Dr. 'Ziggy' Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Oh, come on, Victor - you're not helping. I think what Barb is getting at is that we need to be having a more nuanced conversation about sedation and anesthesia. It's not just about giving patients meds and making them comfortable - we need to be thinking about the risks and benefits, and having a clear plan in place for emergencies. Maybe we can get some of our anesthesiology colleagues to weigh in on this?",
-        "color": "blue"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I think Ziggy's got a point! It would be super helpful to get some input from the anesthesiologists on this. Maybe we could even organize a multidisciplinary conference to discuss the finer points of sedation and anesthesia?",
-        "color": "green"
-      }
-    ]
-  },
-  {
-    "id": 12345,
-    "title": "The perils of first-time intubation attempts: a cautionary tale",
-    "body": "Just saw a patient with a tricky airway and I'm reminded of the importance of confirming tube placement immediately with ETCO2. I was able to secure the tube on the first attempt, but the patient's saturations were dropping during the process. Thankfully, we were able to stabilize them with some quick oxygen and a bag-valve-mask.",
-    "category": "Emergency Medicine",
-    "comments": [
-      {
-        "id": 12346,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "TLDR, confirm tube placement ASAP with ETCO2 and keep an eye on those saturations!",
-        "color": "royalblue"
-      },
-      {
-        "id": 12347,
-        "parent_id": 12346,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "What's the recommended depth for the tube? I always seem to be second-guessing myself.",
-        "color": "purple"
-      },
-      {
-        "id": 12348,
-        "parent_id": 12347,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I'd aim for 21-25 cm with the head in neutral position. The key is to get that ETCO2 tracing to match up with the EtCO2. You can also use the pilot balloon to estimate the correct placement, but don't rely solely on that.",
-        "color": "darkblue"
-      },
-      {
-        "id": 12349,
-        "parent_id": 12346,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "One thing to keep in mind is that multiple intubation attempts are associated with Adverse Events (AEs). We should do everything in our power to set up success on the first attempt.",
-        "color": "lightgreen"
-      },
-      {
-        "id": 12350,
-        "parent_id": null,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs still thinking they can intubate on the first try. I've lost count of how many times I've seen a first-timer struggle to get the tube in.",
-        "color": "red"
-      },
-      {
-        "id": 12351,
-        "parent_id": 12350,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Actually, multiple intubation attempts are associated with adverse events (AEs) such as PONV, hypotension, and bronchospasm, among others. So, we should strive to get it right on the first try.",
-        "color": "darkblue"
-      },
-      {
-        "id": 12352,
-        "parent_id": 12349,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "I recall a case from my days where the patient was having trouble getting oxygenated through the tube, so we ended up using a bougie to facilitate the placement. It's a useful tool to have in your armamentarium.",
-        "color": "gray"
-      },
-      {
-        "id": 12353,
-        "parent_id": 12352,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Great example, Dr. Thorne! Using a bougie can be a lifesaver in situations where the laryngoscope isn't cooperating. And I've found that having a second person assist with the external laryngeal manipulation can really make a difference.",
-        "color": "darkblue"
-      },
-      {
-        "id": 12354,
-        "parent_id": null,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Just remember, if you're having trouble getting the tube in, don't be afraid to call for help. And if possible, try to get a portable chest x-ray to confirm the tube's placement.",
-        "color": "teal"
-      },
-      {
-        "id": 12355,
-        "parent_id": 12354,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "I'm still not entirely sure about the chest x-ray thing... can someone clarify?",
-        "color": "purple"
-      },
-      {
-        "id": 12356,
-        "parent_id": 12355,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Don't over-rely on the chest x-ray to confirm tube placement. You should always prioritize clinical correlation, such as listening for bilateral lung sounds, before calling it a success.",
-        "color": "darkblue"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Just saw a patient with a lightning strike injury and I'm still trying to process it all... TLDR: I'm looking for input from fellow EPs on how to manage these complex cases.",
-    "body": "Hey fellow EPs, I just got back from a code blue and I'm still trying to wrap my head around what happened. Patient 'Barnaby Finch' from rural BC rolled into the ED after being struck by lightning during a storm. He's got multiple injuries, including a severe burn on his arm, a weird 'tic-like' movement on his left side, and a weird rash spreading up his chest. I've already sent off a stat CT and I'm waiting for the lab results, but I'm wondering if anyone has any experience with these types of cases?\n\nI know we've all heard the stories about lightning strike patients, but I've never actually seen one before. I'm starting to feel like I'm in over my head here...\n\nTLDR; Has anyone else dealt with a lightning strike patient before? How did you manage the case?\n\nEdit: I should add that Barnaby's vitals are all good, except for a bit of a weird rash spreading up his chest. I'm getting worried it might be something serious...\n\nEdit 2: Oh, and yeah, his burn looks pretty bad too. He's got second- and third-degree burns on his arm and torso. Still, his vitals are good, so I'm hoping it's not going to be a huge deal...\n\nEdit 3: Finally got the lab results back. Everything looks good so far, except for a low hemoglobin level (hence the weird tic-like movement?). I'm still worried about that rash though...\n\nEdit 4: Okay, so things just got even weirder. Barnaby's vitals dropped about 20 minutes ago, and his rash just got a lot more pronounced. I'm thinking maybe it's some kind of weird toxic reaction to the lightning strike...",
+    "title": "Rant about patient decision-making in ED... or maybe just me?",
+    "body": "Just had another day in the ER where I felt like I was doing more harm than good in terms of patient care. Patient comes in with severe chest pain, 3+ days of shortness of breath, and a fever that won't quit. I do all the right things, get the cath lab on standby, consult cardiology, etc... and the patient's family is literally telling me that we need to 'just give Grandma some oxygen and send her home'. Now I know that's not a good outcome, but here's the thing: we did do all those things. We did give her oxygen, we did give her fluids, and we did do an ECG. The problem is that we didn't do an ECHO, a CXR, or a CT scan... and the family is still trying to tell me that we're not doing anything to help.",
     "category": "emergency-medicine",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": "Dr. Aris Thorne",
+        "user": {
+          "name": "Dr. Aris Thorne",
+          "city": "Toronto, ON"
+        },
         "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Hey there! I'm Dr. Aris Thorne, on-call this weekend. I've seen a few lightning strike cases before, and I'll tell you, they're always a challenge. Firstly, let me commend you on keeping a level head despite the initial shock (no pun intended). Now, regarding Barnaby's case, I'd say we need to focus on a few key areas:\n\n First, get him on high-flow O2 ASAP. We don't know the extent of his injuries yet, but I'm sure you've already sent off a stat CT. Once we get those results, we can plan the next steps, but for now, let's prioritize his breathing.\n\n Second, that rash on his chest is definitely not normal. I'd like to see some pictures of it. If it's spreading, we might have to consider some antihistamines or steroids to manage the potential allergic reaction.\n\n Third, let's not forget about Barnaby's hemoglobin level. A low hemoglobin level can be a sign of internal bleeding or damage to the hematopoietic system. We might need to transfuse him with some blood products if the level gets too low.\n\n Fourth, his burn might be more severe than we initially thought, so let's get some consults for wound care and potentially transfer him to a burn unit if necessary.",
+        "text": "I feel you, OP. One thing that's been stuck in my head all day is the importance of identifying who is making decisions for the patient. If the patient is able to make their own decisions, then that's one thing, but if not, we need to talk to the family and see what the patient's advance directives are. In this case, did we have a clear conversation with the family about the patient's wishes and what we found during that conversation? Or was it a case of family members just trying to get Grandma home quickly?",
         "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Thorne, thank you for your advice! I was wondering if you could explain the reasoning behind prioritizing high-flow O2? Is it because the patient might need to be intubated later on, or is it just a precautionary measure?",
+        "user": {
+          "name": "Turbo Tom",
+          "city": "London, ON"
+        },
+        "role": "RN",
+        "text": "Great point, Dr. Thorne! And I'd also add that in a situation like this, it's not just about the patient's advance directives - it's also about having a clear plan for how we're going to manage Grandma's symptoms and what our goals are for her care. Are we trying to get her home, or are we trying to stabilize her so that she can get to the hospital? We need to be having those conversations with the family and with the patient themselves, if possible.",
         "color": "green"
       },
       {
         "id": 3,
         "parent_id": 1,
-        "user": "Sarah Jenkins",
+        "user": {
+          "name": "Sarah Jenkins",
+          "city": "Ottawa, ON"
+        },
         "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "I completely agree with Dr. Thorne's assessment! However, I was wondering if we should also consider the possibility of neurological damage from the lightning strike. Some cases I've read about have reported damage to the nervous system, including the brain and spinal cord. Should we be screening for symptoms of neurological damage, such as numbness or weakness in the limbs?",
+        "text": "But what about when the patient doesn't have an advance directive and we don't have time to get in touch with the surrogate decision maker? In that case, shouldn't we just follow the family's wishes and try to get Grandma home quickly?",
         "color": "blue"
       },
       {
         "id": 4,
         "parent_id": 3,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Sarah, you're starting to sound like one of those 'amateurs' who can't even do a basic trauma assessment without bringing up the 'neuro stuff.' Let me tell you, we've seen plenty of lightning strike patients before, and most of them are fine. This guy's got a bad burn and a low hemoglobin level, big whoop. You're worrying too much about something that's probably just minor, Sarah.",
+        "user": {
+          "name": "Dr. Maya Gupta",
+          "city": "Mississauga, ON"
+        },
+        "role": "PGY2",
+        "text": "Actually, Sarah, that's not necessarily true. Even if we don't have a clear advance directive or a surrogate decision maker, we still need to have a conversation with the family about the patient's condition and what our goals are for care. We can't just blindly follow the family's wishes if they're not aligned with what's best for the patient. But, I do think that in some cases, we might need to make a decision quickly, especially if the patient is deteriorating rapidly. In those situations, we need to be able to make a decision based on the information we have at the time, even if it's not ideal.",
         "color": "red"
       },
       {
         "id": 5,
-        "parent_id": null,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Okay, okay, let's not fight amongst ourselves here! Dr. Thorne, you're right, of course, about prioritizing high-flow O2. And Dr. Sterling, I understand your skepticism, but we can't afford to rule out any possibilities, especially when it comes to neurological damage. Sarah, can you point us to some good sources on neurological damage after lightning strikes?",
-        "color": "yellow"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Actually, I think I do have some sources that might help on that. There was a case study on Medscape a few years ago that reported some pretty interesting findings on neurological damage after lightning strikes. Let me see if I can dig it up...\n\nAnd I'll try to keep this in mind, Turbo! You're right, of course, we shouldn't be fighting amongst ourselves. Thanks for keeping us all on track!",
-        "color": "green"
-      },
-      {
-        "id": 7,
-        "parent_id": null,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Oh my goodness, I just realized that this is my first time seeing a lightning strike patient, and I'm getting a bit overwhelmed... Has anyone else dealt with these kinds of cases before and can give me some advice on how to manage the stress?! I don't want to mess up anything important!",
-        "color": "purple"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Dr. Park, take a deep breath and relax, my friend! We've all been there. It's normal to feel a bit overwhelmed, especially in high-stress situations like this. Just remember to keep your priorities straight, focus on your patient's needs, and trust your training. You'll be fine! And if you're feeling really overwhelmed, just grab a cup of coffee, take a step back, and try to visualize the situation. It'll all make more sense when you've got a clear head.",
-        "color": "green"
-      },
-      {
-        "id": 9,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Okay, let's get this back on track. We've got a complex case of a lightning strike patient with multiple injuries, and we still need to figure out his neurological status. Who's on board with running some neuro checks and getting some consults for his burn wound?",
-        "color": "purple"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Agreed! I'll get the neuro team on the phone and we can start running some checks. Meanwhile, Dr. Gupta's got this under control. Let's move forward!",
-        "color": "yellow"
-      },
-      {
-        "id": 11,
-        "parent_id": 9,
-        "user": "Dr. Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "Wait a minute, what's going on here? We've got a patient with a complex case and I'm the only surgeon on call. Who's got a plan to manage my workload and make sure I don't get burned out?",
-        "color": "red"
-      }
-    ],
-    "image": "https://emergencymedicinecases.com/wp-content/uploads/2019/06/Electrical-injuries.jpg"
-  },
-  {
-    "id": 1234,
-    "title": "Hemoptysis Hindsight: The Dangers of Pseudo-hemoptysis",
-    "body": "Had a close call last night with a patient who presented with massive hemoptysis. Initial imaging suggested a giant bulla but it was actually an iatrogenic pneumothorax due to recent central line placement. Luckily, the patient recovered well after tube thoracostomy. Got me thinking: how often do we miss pseudo-hemoptysis in the ER? Anyone have a high-yield algorithm for distinguishing this from the real deal?",
-    "category": "Emergency Medicine",
-    "comments": [
-      {
-        "id": 5,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I think the key is a careful review of the CXR in the context of clinical presentation. Often, the 'massive hemoptysis' is actually a small, localized bleed that's not causing a significant change in lung volume. We were using this algorithm from the 2014 Chest paper to identify pseudo-hemoptysis: [ref1](https://www.ncbi.nlm.nih.gov/pubmed/24489643)",
-        "color": "blue"
-      },
-      {
-        "id": 9,
-        "parent_id": 5,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Gupta, can you elaborate on what you mean by 'not causing a significant change in lung volume'? For example, if a patient has a bulla that's 50% of the lung field, but it's not causing significant volume loss, can we still call it pseudo-hemoptysis?",
-        "color": "green"
-      },
-      {
-        "id": 12,
-        "parent_id": 9,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "What I mean is that the bulla might be causing some volume loss, but if the patient's overall lung function is still well-compensated, then it's not necessarily pseudo-hemoptysis. Think of it like this: if you have a 10% PFT defect in the setting of a bulla that's 70% of the lung field, it's not necessarily pseudo-hemoptysis, but rather a small bleed with a lot of local effect. Does that make sense?",
-        "color": "blue"
-      },
-      {
-        "id": 15,
-        "parent_id": 5,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "I've been reading a lot about this topic and I had a question about the algorithm you mentioned. Isn't it true that some of the predictive values for pseudo-hemoptysis in that paper were based on very small cohorts? How reliable is that algorithm in clinical practice?",
-        "color": "red"
-      },
-      {
-        "id": 18,
-        "parent_id": 15,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "That's a great point, Sarah. Yes, the cohorts in the 2014 Chest paper were relatively small, but I think the key takeaway is that there were some consistent findings across subgroups that suggest pseudo-hemoptysis is actually a pretty common phenomenon in patients with certain diagnoses (e.g. PAP). Of course, no algorithm is perfect, but I think this one's worth a shot in clinical practice. What do you guys think?",
-        "color": "blue"
-      },
-      {
-        "id": 21,
-        "parent_id": 18,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "Let me tell you, as someone who's been dealing with pseudo-hemoptysis for years, I can attest that the diagnosis is often more a matter of degree than actual hemoptysis. So while algorithms and predictive values are fun to discuss, don't forget the real issue: most patients are walking around with chronic conditions like PAP or lung abscesses without even realizing it. It's up to us to pick up on subtle cues in the chart",
-        "color": "green"
-      }
-    ]
-  },
-  {
-    "id": 15,
-    "title": "Rant about Syncope Evaluation: When to Suspect a Structural Cause",
-    "body": "Just saw a patient with syncope who ended up getting a CT coronary artery calc. scan due to a high suspicion of structural cardiac disease. Had to review my knowledge on this and I'm frustrated because this is something we should know!",
-    "category": "r/emergencyphysicians",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "AMEN to that! I've lost count of how many times I've seen a patient get admitted for syncope and it turns out to be a cardiac issue despite no arrhythmias or ECG changes. We need to be thinking about structural causes, especially in those >60yo. Did you get the results back yet?",
-        "color": "red"
-      },
-      {
-        "id": 2,
         "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Hey Dr. Gupta! What's the best way to approach the evaluation of syncope in the ED? Should we be ordering imaging studies like CT or echocardiography?",
-        "color": "blue"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "@Dr. Gupta, I completely agree with you. I've seen many cases where a CT coronary artery calc. scan has been instrumental in diagnosing a structural cardiac cause. In our hospital, we have a protocol for ordering these exams based on risk factors like age, hypertension, and smoking history. Perhaps we should share our protocols with other departments?",
-        "color": "purple"
-      },
-      {
-        "id": 4,
-        "parent_id": 2,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "@Leo, great question! When evaluating syncope, we need to consider a broad differential that includes cardiac, neurologic, and miscellaneous causes. Imaging studies like CT or echocardiography are useful in structural cardiac disease cases, but we should also be thinking about other conditions like orthostatic hypotension, vasovagal syncope, or even psychological causes.",
-        "color": "pink"
-      },
-      {
-        "id": 5,
-        "parent_id": 3,
-        "user": "Turbo Tom",
+        "user": {
+          "name": "Martha 'The Hammer'",
+          "city": "Halifax, NS"
+        },
         "role": "RN",
-        "city": "London, ON",
-        "text": "Hey, guys! As a nurse, I'd like to add that sometimes our patients can give us clues about their underlying conditions. I had a patient last week who mentioned a history of palpitations and exertional syncope, and her ECG showed some nonspecific ST changes. Turns out, she had a cardiac myxoma! Who knew?",
+        "text": "You know, I used to work in a hospital where they did a thing called a 'Family Meeting' to go over all this stuff. It was always a nightmare, but it was useful in the end. Has anyone else had any experience with those?",
         "color": "orange"
       },
       {
         "id": 6,
-        "parent_id": 2,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "Guys, what about cases where the patient has a history of anxiety or PTSD? Do we still think about structural cardiac disease in those situations?",
-        "color": "lightblue"
+        "parent_id": 5,
+        "user": {
+          "name": "Dr. Kevin Park",
+          "city": "Edmonton, AB"
+        },
+        "role": "PGY1",
+        "text": "I had a Family Meeting in medical school and it was a complete disaster. We all just stood there staring at each other, trying to come up with something to say. But now that I think about it, it might be a good idea to try and have a similar conversation with the family in the ED, if we're going to be making a decision together.",
+        "color": "gray"
       },
       {
         "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "@Barnaby Finch, great question! While anxiety or PTSD may increase the likelihood of vasovagal syncope, it's still essential to consider structural cardiac disease in these cases, especially if the patient has risk factors like hypertension or smoking history. Did you know that there's a great review article on this topic in the Canadian Medical Association Journal?",
+        "parent_id": 5,
+        "user": {
+          "name": "Dr. Archibald Thorne",
+          "city": "Saskatoon, SK"
+        },
+        "role": "Physician",
+        "text": "I used to do Family Meetings all the time back in my day. We'd get the whole family in the hospital room and just sit there in silence for a bit, until someone would finally talk. It was always very... enlightening.",
         "color": "brown"
       },
       {
         "id": 8,
-        "parent_id": 5,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Wow, I had no idea about the cardiac myxoma case! Can we get some more resources on this topic? I'd love to learn more about it for my own nursing practice.",
-        "color": "green"
+        "parent_id": 1,
+        "user": {
+          "name": "Dr. John E. Gough",
+          "city": "Greenville, NC"
+        },
+        "role": "Professor",
+        "text": "One thing that's always stuck in my head is the importance of using medical information coupled with the patient's functional status to formulate a prognosis. In situations like this, where the patient is deteriorating rapidly, we need to be able to make a decision quickly based on what we know about their condition and what we can expect to happen in the near future.",
+        "color": "pink"
       },
       {
         "id": 9,
         "parent_id": 8,
-        "user": "Dr. Phil Muddle",
-        "role": "EP",
-        "city": "Regina, SK",
-        "text": "Uh, excuse me, folks? Can someone tell me what a cardiac myxoma is? Is it a type of tumor or something?",
-        "color": "yellow"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Leo Chen",
+        "user": {
+          "name": "Leo Chen",
+          "city": "Montreal, QC"
+        },
         "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Hey, @Dr. Muddle! A cardiac myxoma is a type of benign tumor that can occur on the heart valves or septum. They're usually asymptomatic but can cause obstructive symptoms like syncope if they become large enough.",
-        "color": "purple"
+        "text": "But how do we know what the patient's functional status is? Do we just estimate it based on what the family tells us?",
+        "color": "yellow"
       }
-    ]
+    ],
+    "image": "https://www.jems.com/wp-content/uploads/2025/06/clemson-fire-ems-edit-1024x536.jpg"
   },
   {
-    "id": 10,
-    "title": "Today I Learned: Never underestimate the power of a well-placed hematoma block",
-    "body": "Just saw a patient with a nasty ankle fracture come in, and our resident was trying to use a regional block to aid in reduction. I've always been a fan of these blocks, but I was surprised by the effectiveness of a hematoma block in this case. The patient's pain scores dropped significantly and we were able to reduce the fracture with much less force than usual. Has anyone else had success with hematoma blocks in trauma patients?",
-    "category": "emedicine",
+    "id": 1,
+    "title": "Acute Angle Closure Glaucoma and ER Misadventures: A Tale of Two Patients",
+    "body": "Just saw a patient with acute angle closure glaucoma (AACG) who was sent from the ED after a mild headache and eye pressure, but I think it's a textbook case of how AACG can masquerade as a benign condition. The patient's IOP was 50mmHg, but they were only given acetaminophen and sent home without a proper ophthalmic workup. Thankfully, the patient made it back to the ER, but this got me thinking... how often do we miss AACG in the ED?",
+    "category": "Emergency Medicine",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": "Dr. Barbara Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "TLDR; I've used hematoma blocks in a few trauma patients and they've always worked like a charm. One thing to keep in mind is that you need to aspirate before injecting the anesthetic to make sure you're not injecting directly into a blood vessel. That being said, I've never had any issues with this approach.\n\nAlso, if you're having trouble getting the pain scores down, you might want to consider using a combination of local anesthetics and opioids. I've found that this approach tends to work better than either one alone.\n\n[Link to a case study on hematoma blocks in trauma patients](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6353213/)",
+        "user": "Dr. Maya Gupta",
+        "role": "MD",
+        "city": "Toronto, ON",
+        "text": "TLDR: AACG is a true emergency. We should be thinking of it in any patient with eye pressure, especially if they have a history of glaucoma or are on medications that can precipitate it (e.g. topiramate). The key is to get an eye exam ASAP, not just a simple IOP check. And don't forget to get that pupil dilation! [www.aao.org/...](http://www.aao.org/...)",
         "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Hi Dr. Miller, thanks for sharing your experience with hematoma blocks. I was wondering if you could elaborate on how you choose the location for the injection. Is there a specific landmark or anatomical structure that you look for?",
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Hi Dr. Gupta, can you explain why AACG is so hard to diagnose? Is it due to the variability of symptoms or something else?",
         "color": "green"
       },
       {
         "id": 3,
         "parent_id": 1,
-        "user": "Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Hi Dr. Miller, I was wondering if you could recommend any resources for learning more about hematoma blocks. I've only just started learning about this technique in med school, and I'd appreciate any tips or tricks you might have.",
-        "color": "orange"
+        "user": "Dr. Maya Gupta",
+        "role": "MD",
+        "city": "Toronto, ON",
+        "text": "Great question, Leo! AACG can present with a wide range of symptoms, from mild eye pressure to severe eye pain and even loss of vision. The key is to think of it in patients with risk factors (e.g. older adults, diabetes, previous eye surgery). And as for why it's hard to diagnose, it's often because we're not getting a comprehensive eye exam, especially if we're relying on just an IOP check.",
+        "color": "purple"
       },
       {
         "id": 4,
         "parent_id": 1,
-        "user": "Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "In my day, we used to call this technique an 'intravenous regional anesthetic'. I'm glad to see that it's still being used today. One thing to keep in mind is that this technique can be dangerous if not performed correctly, so make sure to follow all necessary precautions. And for goodness' sake, don't be like Dr. Park here and ask for resources on everything!",
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Thanks, Dr. Gupta! I've heard that AACG can also cause symptoms like colored halos around lights and even nausea. Can you elaborate on those symptoms?",
         "color": "blue"
       },
       {
         "id": 5,
         "parent_id": 4,
-        "user": "Maya Gupta",
+        "user": "Dr. Maya Gupta",
+        "role": "MD",
+        "city": "Toronto, ON",
+        "text": "Colored halos around lights are a classic symptom of AACG, caused by the cornea and lens not being able to clear properly. And nausea is also a common symptom, thought to be due to the increased pressure in the eye. Remember to ask your patients about these symptoms if you suspect AACG!",
+        "color": "purple"
+      },
+      {
+        "id": 6,
+        "parent_id": 1,
+        "user": "Dr. Victor Sterling",
+        "role": "MD",
+        "city": "Calgary, AB",
+        "text": "Amateurs always overdiagnosing AACG. The vast majority of these cases resolve on their own with acetaminophen and rest. Stop worrying about it!",
+        "color": "red"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Maya Gupta",
+        "role": "MD",
+        "city": "Toronto, ON",
+        "text": "Not buying it, Doc. AACG is a real emergency that requires immediate medical attention. And trust me, we don't want to miss those cases!",
+        "color": "purple"
+      },
+      {
+        "id": 8,
+        "parent_id": 6,
+        "user": "Dr. Sarah Sharp",
+        "role": "MD",
+        "city": "Laval, QC",
+        "text": "Love how the 'experts' dismiss the actual evidence. AACG is a condition that requires early diagnosis and treatment. Don't ignore the literature!",
+        "color": "gold"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Haha, nice burn, Dr. Sharp! What literature supports the notion that AACG is an emergency?",
+        "color": "orange"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. Sarah Sharp",
+        "role": "MD",
+        "city": "Laval, QC",
+        "text": "[www.ncbi.nlm.nih.gov/pubmed/...](http://www.ncbi.nlm.nih.gov/pubmed/...) and [www.ncbi.nlm.nih.gov/pubmed/...](http://www.ncbi.nlm.nih.gov/pubmed/...). Check out these studies for a solid understanding of AACG's presentation and treatment!",
+        "color": "gold"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Today I Learned that the initial diagnosis of lower GI bleeding is often elusive... Rant about the challenges",
+    "body": "Just had a patient come in with severe hematemesis and melena. Lower GI bleed suspected. Ordered CT angio and endoscopy. Endoscopy revealed a 1cm duodenal ulcer, but what really got me was that CT showed no active bleeding site. What's the deal with this? Why do we always struggle to find the source of lower GI bleeds?",
+    "category": "emergency medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "TLDR: Lower GI bleeds can be tough to diagnose. CT angio is good but not always foolproof. Endoscopy can miss things, especially if the ulcer is in a hard-to-reach spot. One trick I use is to order a tagged red blood cell scan if I'm still unsure...",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Spare me the TLDRs, Dr. Aris. In all seriousness, have you considered the possibility that the bleed is coming from a source other than the traditional duodenum or colon? Maybe try looking at the ileum or rectum too... Amateurs.",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Lol what's with the Amateurs, Dr. Victor? You think the EPs are just winging it here? In reality, we often use a combo of CT angio, endoscopy, and RBC scans to get to the bottom of it. Have you seen this paper on the use of CT enterography in suspected small bowel injury? ",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Actually, Dr. Ziggy, the paper you're thinking of is probably this one by Singh et al... Great article, but I've found it's not as straightforward as they make it look. Has anyone else had success with CT enterography in your practice?",
+        "color": "gray"
+      },
+      {
+        "id": 5,
+        "parent_id": 2,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Dr. Victor, is it common for GI bleeds to be caused by things other than ulcers or varices? Can someone explain the difference between small bowel lesions and large bowel lesions? Thanks!",
+        "color": "pink"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Leo, a small bowel lesion typically refers to a problem in the small intestine, whereas a large bowel lesion is in the large intestine (colon). Some common examples of small bowel lesions include Crohn's disease, NSAID-induced ulcers, and radiation enteritis...",
+        "color": "yellow"
+      },
+      {
+        "id": 7,
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Rant about RNs having to deal with the aftermath... We're on the front lines here, people. If the diagnosis and treatment aren't done correctly, we're left to deal with the mess. Anyone else tired of explaining to families why the bowel prep wasn't followed to the letter?",
+        "color": "red"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "Preach, Turbo Tom! I've had to deal with my fair share of 'I didn't take my meds as directed' complaints. Anyone have a good article on the importance of proper bowel prep? Maybe something on the benefits of adding some fiber to the prep?",
+        "color": "orange"
+      }
+    ]
+  },
+  {
+    "post_id": 1,
+    "title": "TLDR: Don't forget to consider the DeBakey classification in your aortic dissection workup. Just saw a weird case that reminded me of the importance of this classification.",
+    "body": "Just saw a patient with a 60 year old man presenting with acute chest pain radiating to the back. After working him up, it turned out to be a type II DeBakey aortic dissection (only ascending aorta involved). I had a moment of panic when I realized I didn't know the typical features of this type of dissection. Luckily, I was able to quickly review the classic literature (1) and get him the right care. Long story short, the DeBakey classification is essential for guiding management of aortic dissection. Don't let it slip your mind, especially when working up this diagnosis.\n\nReferences:\n[1] DeBakey ME, Henly WS, Cooley DA, Crawford ES, Morris GC, Beall JW, Abbott OA. Surgical treatment of dissecting aneurysm of the aorta. Surgery. 1965 Apr;57(4):644-53. PMID: 14280835",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Zachary Lee",
+        "role": "FP",
+        "city": "Toronto, ON",
+        "text": "I completely agree! The DeBakey classification can be tricky to remember, but it's super important for guiding therapy. One thing to keep in mind is that type II dissections often present with more subtle symptoms, so we need to be extra vigilant. I always think back to that study by Suzuki et al (2) that highlighted the importance of prompt surgical intervention in this subset of pts.",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Love the reference, Zach! And don't forget, the Stanford classification is also important to consider, especially when it comes to risk stratification. Have you guys read the latest paper by Hagan et al (3) on this topic? It's a game-changer!",
+        "color": "yellow"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Excuse me, what's the difference between the DeBakey and Stanford classifications? Are they not just the same thing?",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Zachary Lee",
+        "role": "FP",
+        "city": "Toronto, ON",
+        "text": "Great question, Sue! While both classifications are used to describe aortic dissections, they have some key differences. The Stanford classification is more simplistic and only looks at involvement of the ascending aorta (type A) vs. descending aorta (type B). In contrast, the DeBakey classification divides dissections into three types based on the extent of involvement (I-III). Think of it like a hierarchy: Stanford is like a binary decision tree, while DeBakey is like a flowchart ",
+        "color": "blue"
+      },
+      {
+        "id": 5,
+        "parent_id": 2,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Tom, I've read the paper, and I completely disagree with the author's conclusions. The evidence just isn't there to support the claims they're making about risk stratification.",
+        "color": "red"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Oh come on, Elena! Don't be such a buzzkill! I think it's a solid paper, and the authors are just trying to make things more concrete for us. We can have a nuanced discussion about the limitations of the study instead of throwing grenades at the whole thing",
+        "color": "orange"
+      },
+      {
+        "id": 7,
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "Dr. Thorne, I'm surprised you would say such a thing! Dr. Park is just trying to learn, after all. That being said, I do appreciate your tip about the precautions needed for this technique. What are some of the specific things we need to be aware of?",
+        "text": "Sorry to interrupt, but has anyone considered the potential benefits of combining the two classifications? Instead of just using one or the other, maybe we could create a hybrid system that incorporates the strengths of both?",
         "color": "pink"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Zachary Lee",
+        "role": "FP",
+        "city": "Toronto, ON",
+        "text": "Maya, that's a great idea! But before we start experimenting with new classification systems, we need to make sure the benefits outweigh the risks. Has anyone considered the potential impact on inter-rater reliability, for example?",
+        "color": "gray"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Wait, what's inter-rater reliability?",
+        "color": "green"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. Zachary Lee",
+        "role": "FP",
+        "city": "Toronto, ON",
+        "text": "Don't worry, Sue! Inter-rater reliability is just a fancy way of saying how well different observers agree on a particular diagnosis. It's an important concept in medical research, but we can discuss it another time",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "title": "Just had to reduce a giant inguinal hernia in the ED... with a patient who didn't want to go to surgery.",
+    "body": "So I had a 70-year-old dude come in complaining of a sore groin. He mentioned he might have 'inserted something' into his rectum but wasn't really sure what had happened. Long story short, after some gentle probing and an anoscopy, we found the hernia and managed to push it back up. Easy peasy.\n\nBut here's the thing: when we went to do the reduction, the patient basically freaked out and said he was 'not going to let us cut him' (no prior medical history of anxiety or trauma, BTW). So we had to figure out a way to get the hernia out without putting him under. Anybody else ever encounter this situation before? Any tips for calming down an anxious patient in a non-surgical situation?",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Ah, I've been here before. I think the key is to reassure the patient that this is just a temporary measure and it's not a substitute for surgical repair. I also recommend using a regional block instead of just IV sedation to make the patient more comfortable.",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "I second Dr. Thorne's comment. It's also crucial to communicate with your anesthesiologist and the OR team, in case the patient needs to be taken back for a 'code white.' I'd also recommend bringing in a surgical resident or attending to assist in the event something goes south.",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "What do you mean by 'code white' and how does that relate to the patient's situation?",
+        "color": "teal"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Sorry, Leo. I made an assumption about your familiarity with hospital lingo. A 'code white' is a hospital's code for an unstable patient who needs immediate surgical attention. In your case, the patient's anxiety could be triggering a cascade of complications that might necessitate an emergency OR intervention.",
+        "color": "purple"
+      },
+      {
+        "id": 5,
+        "parent_id": 1,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs like some of you here would send this patient to the OR without a second thought but I've seen too many botched surgical repairs to count. Hernias are usually self-limiting and can wait for elective surgery. Let them go home and avoid the complications that come with surgical repair.",
+        "color": "red"
       },
       {
         "id": 6,
@@ -637,17 +439,17 @@
         "user": "Dr. Aris Thorne",
         "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "One thing that's really important is to make sure the patient understands the risks and benefits of this technique. You also need to be aware of any allergies or medical conditions that might affect the patient's response to the anesthetic. And of course, it's always a good idea to have a backup plan in case something goes wrong.",
-        "color": "yellow"
+        "text": "While I understand your skepticism, Dr. Sterling, hernias can sometimes cause bowel obstruction, strangulation, or even rupture. We need to take these complications into account when deciding whether or not to intervene.",
+        "color": "purple"
       },
       {
         "id": 7,
-        "parent_id": 4,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "I don't see why we're still talking about this technique. It's old-fashioned and not very effective. What we really need is a good old-fashioned open reduction and internal fixation. That's what gets the patient fixed up quickly and efficiently. Hematoma blocks are just a waste of time.",
-        "color": "red"
+        "parent_id": 6,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "That's so true. And in the ED, we need to err on the side of caution. Can someone please explain the difference between small bowel obstruction vs. hernia reduction failure?",
+        "color": "blue"
       },
       {
         "id": 8,
@@ -655,99 +457,394 @@
         "user": "Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "Dr. Sterling, I think you're misunderstanding the point of hematoma blocks. They're not meant to replace traditional surgery, but rather to provide additional pain relief and make the reduction process easier. And as Dr. Miller pointed out, they can be very effective in the right circumstances.",
+        "text": "Great question, Sarah! Intussusception is a key differentiator. Small bowel obstruction is more of a general term for any obstruction within the small intestine, while intussusception specifically refers to one segment of intestine telescoping into another. It's usually associated with volvulus and can be fatal if not treated promptly. Hernia reduction failure, on the other hand, typically presents with more localized pain and potentially more diffuse peritonitis.",
+        "color": "green"
+      },
+      {
+        "id": 9,
+        "parent_id": 1,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "It's also worth noting that hernias in older adults are often associated with occult malignancies. I make sure to always get a thorough surgical history before pushing on a hernia sac.",
+        "color": "orange"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Jaundice Conundrum in the ED",
+    "body": "Just saw a patient with a classic presentation of jaundice - yellow discoloration of skin and sclera, elevated bilirubin, and a history of pancreatic malignancy. But what really got me was when the patient's son mentioned that his grandfather had a similar condition in his 70s. I started thinking about the possibilities - could this be a case of familial intrahepatic cholestasis?",
+    "category": "emergency medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": 6,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "That's a great case, OP! In cases like these, it's essential to consider the possibility of familial intrahepatic cholestasis. Have you considered running a gene panel for the patient and their family members?",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Dr. Gupta, I was wondering if you could clarify what the different types of familial intrahepatic cholestasis are? Is it just one condition, or are there different subtypes?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Leo, great question! There are several types of familial intrahepatic cholestasis, including PFIC1 (caused by mutations in the ABCB11 gene), PFIC2 (caused by mutations in the ABCC2 gene), and PFIC3 (caused by mutations in the ABCC3 gene). Each of these conditions has distinct clinical and genetic features.",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "OP, I also wanted to mention that it's essential to consider the patient's medication list when evaluating jaundice. Certain medications, such as estrogens and sulfonamides, can cause cholestasis.",
+        "color": "green"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Dr. Varkov, what other medications can cause cholestasis? Are there any specific ones that I should be aware of?",
+        "color": "pink"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Chad, great question! Other medications that can cause cholestasis include anabolic steroids, amiodarone, and valproic acid. It's also essential to consider the patient's use of herbal supplements and dietary medications.",
+        "color": "green"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Martha \"The Hammer\"",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "I've seen patients with cholestasis due to herbal supplements, and it's always a challenge to get them to stop using them. Has anyone else experienced this?",
+        "color": "brown"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Martha, yes! I had a patient last year who was using a herbal supplement for 'detox' and developed severe cholestasis. I had to explain to him that the supplement was causing the problem, and it was a tough conversation to have.",
         "color": "purple"
       },
       {
         "id": 9,
-        "parent_id": 8,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Hi Maya, thanks for clarifying the point of hematoma blocks. I was wondering if you could also speak to the potential complications of this technique. How do we minimize the risk of adverse reactions or other problems?",
-        "color": "green"
+        "parent_id": null,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Has anyone else ever worked on a case where the patient's jaundice was caused by a medication that they'd been taking for years? I had a patient last week who was on a beta blocker for hypertension, and it turned out that it was causing her cholestasis.",
+        "color": "gray"
       },
       {
         "id": 10,
         "parent_id": 9,
-        "user": "Maya Gupta",
-        "role": "PGY2",
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Turbo Tom, yes! I had a patient last year who was on a beta blocker for heart failure, and it caused cholestasis. It was a good reminder that we should always consider the possibility of medication-induced cholestasis, even in patients who have been on their medications for a long time.",
+        "color": "green"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "Sorry to interrupt, but I'm not sure what's going on with my own jaundice. Could someone explain it to me in simple terms? I'm a bit of a poet, and I don't want to sound like a fool.",
+        "color": "brown"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "Don't worry, Barnaby! Cholestasis is a condition where the bile ducts in your liver get blocked, causing your skin and eyes to turn yellow. It's often caused by medications, infections, or genetic conditions.",
+        "color": "green"
+      }
+    ],
+    "image": "https://i1.wp.com/iem-student.org/wp-content/uploads/2021/05/joundice-e1617613268718.png?fit=1000%2C563"
+  },
+  {
+    "id": 1,
+    "title": "Rant about diagnosing pediatric abdominal pain",
+    "body": "I'm still fuming about last night's case. A 2yo presenting with abdominal pain, vomiting, and a fever of 38.5. Initial workup showed a normal CBC, slightly elevated CRP, and a plain film radiograph showing non-specific bowel gas patterns. After a series of increasingly aggressive abdominal exams, a CT scan was ordered, which showed a tiny Meckel's diverticulum. Meanwhile, my resident was convinced that it was appendicitis and was pushing for an urgent CT scan. We managed to temper the resident's expectations and performed a quick ultrasound, which didn't show any signs of appendicitis. We're lucky she didn't do a CT scan.\n\nI'm frustrated with the over-reliance on CT scans in pediatrics. We all know that Meckel's diverticulum can be a diagnostic nightmare, but do we really need to order a CT scan on every patient with non-specific symptoms?",
+    "category": "medical",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "FRCPC",
+        "city": "Vancouver, BC",
+        "text": "TLDR: CT scans are overused in pediatrics. Preach! I swear, I've seen residents order CT scans for patients with nothing more than a 'gut feeling'. I've even had patients sent from my ED to the OR for a 'possible appendicitis' diagnosis based on a CT scan, only to find out the next day that the 'ultrasound was normal' (i.e., no signs of appendicitis). What's the deal with that?!\nsome great resources on the topic: [link to an article on overdiagnosis of acute appendicitis in children](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1445-2197.2012.06151.x)",
+        "color": "purple"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Phil Muddle",
+        "role": "FRCPC",
+        "city": "Regina, SK",
+        "text": "Huh?",
+        "color": "green"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "FRCPC",
         "city": "Mississauga, ON",
-        "text": "Good question, Sarah. To minimize the risk of complications, we need to make sure we're using the correct dose of anesthetic and following the appropriate administration protocols. We should also be monitoring the patient closely for any signs of adverse reactions, such as changes in heart rate or blood pressure. And of course, having a backup plan in place can help mitigate any unexpected issues.",
-        "color": "pink"
+        "text": "Can someone clarify the relevance of the Meckel's diverticulum diagnosis? Wasn't it just a incidental finding on the CT scan? Why is it significant? Does it require surgical intervention?",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 2,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "FRCPC",
+        "city": "Vancouver, BC",
+        "text": "The Meckel's diverticulum was the likely culprit, but I couldn't confirm for certain without a gastroscopy. So I'm not entirely convinced it was the main issue. Still, it's a great reminder that incidental findings on imaging studies can sometimes be the key to diagnosis. So, what's your take on incidental findings in pediatric imaging? Good or bad?",
+        "color": "purple"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Archibald Thorne",
+        "role": "FRCPC",
+        "city": "Saskatoon, SK",
+        "text": "Good, I say! Many an interesting case has been solved by a keen eye for the incidental finding. Take the classic example of a chest X-ray done for, say, a respiratory complaint, only to reveal a 'small shadow' that upon further investigation is found to be a pulmonary hamartoma!",
+        "color": "green"
+      },
+      {
+        "id": 6,
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "What about using more 'high-yield' imaging modalities like ultrasound in pediatrics? Some centers have started using point-of-care ultrasound to identify signs of appendicitis, which can potentially reduce the need for CT scans. Anyone else experimenting with this?",
+        "color": "green"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Henry Oldman",
+        "role": "FRCPC",
+        "city": "Victoria, BC",
+        "text": "We've been using point-of-care ultrasound in our ED for a while now, and I can confidently say that it's saved us from at least one unnecessary CT scan per week. But I do think it requires a certain level of clinical expertise to perform and interpret. Are there any online resources or courses that you'd recommend for those looking to get started with ultrasound?",
+        "color": "purple"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Sarah Sharp",
+        "role": "FRCPC",
+        "city": "Laval, QC",
+        "text": "I've been following the work of Dr. Brian Helfand on ultrasound in pediatrics. He has a great series of videos on YouTube that demonstrate the basic principles of pediatric ultrasound.\n\nAdditionally, I'd recommend checking out the Society of Emergency Ultrasound (SEUS) website, which offers a wealth of educational resources and tutorials.",
+        "color": "green"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "What about the economics of ultrasound in pediatrics? Wouldn't the cost of purchasing and maintaining the ultrasound equipment offset any potential savings from reduced CT usage?",
+        "color": "purple"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Actually, when you consider the costs of a full CT suite, including radiation exposure, contrast dye, and personnel time, ultrasound is likely a cost-effective alternative. Additionally, we should factor in the potential benefits of reduced radiation exposure and improved patient outcomes.",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "title": "Just had a patient with Wolff-Parkinson-White syndrome (WPW) who almost got sent home from our ER after a quick physical exam.",
+    "body": "So, here's the context: 25 year-old male, presents to the ER with a 2-hour history of palpitations and shortness of breath. On Exam, a classic \"bizarre response** (short PR, long QRS) to a Valsalva maneuver makes me think WPW.\n\nI ordered an ECG, and sure enough, the P-P waves are conducting through an accessory pathway (AP). The patient has Type A WPW, with a short PR interval (\u223c100 ms) and a characteristic delta wave.\n\nHowever, what follows is the important part: the patient starts to feel better after a few hours, and the ECG starts to look more normal. It was almost too tempting to discharge the patient with a quick lecture about avoiding strenuous exercise and checking their electrolytes regularly.\n\nBUT, after a quick consultation with cardiology, they remind me that patients with WPW are at an increased risk of developing atrial fibrillation (AFib), especially if they have a history of trauma or are taking certain medications.\n\nSo, the patient gets admitted to the observation unit for monitoring, and we start to run some labs to assess their cardiac function.\n\nTL;DR: Don't underestimate the importance of a good history and physical exam when it comes to WPW syndrome. Those accessory pathways can be tricky!\n\nEdit: I just looked it up, and here's the reference to the Brugada drugs list (https://www.brugadadrugs.org). Great resource for identifying medications that can exacerbate WPW!\n\n**Bizarre response**: the abnormal prolongation of the PR interval during a Valsalva maneuver",
+    "category": "r/EMedicine",
+    "comments": [
+      {
+        "id": 103,
+        "parent_id": null,
+        "user": "Dr. Victor Sterling",
+        "role": "MD",
+        "city": "Calgary, AB",
+        "text": "Amateurs. You think you can just diagnose WPW by feeling for it on a Valsalva maneuver? Please. The gold standard is always an electro-physiology study (EPS). Anything else is just amateur hour. And as for Brugada drugs, that's just a list of meds that can cause... well, Brugada syndrome. Not exactly relevant to WPW, if you ask me.",
+        "color": "blue"
+      },
+      {
+        "id": 104,
+        "parent_id": 103,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Um, isn't Valsalva a good indicator of WPW? I thought we learned that in first-year med school? And aren't Brugada drugs the same thing as medications that can prolong the QT interval?",
+        "color": "green"
+      },
+      {
+        "id": 105,
+        "parent_id": 103,
+        "user": "Dr. Maya Gupta",
+        "role": "FRCPC",
+        "city": "Mississauga, ON",
+        "text": "Dr. Sterling, you're being a bit dramatic, don't you think? While an EPS is the gold standard, a bedside Valsalva can still give us some clues. And the Brugada drugs list is actually useful for identifying potential triggers for WPW, which is why we bring it up in this context. And as for the risk of AFib, that's a good point to consider, especially if the patient has a history of trauma or is on certain meds.",
+        "color": "purple"
+      },
+      {
+        "id": 106,
+        "parent_id": 105,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Sorry to be a bother, but could you clarify the relationship between WPW and Brugada syndrome for me? I thought they were two separate conditions?",
+        "color": "green"
+      },
+      {
+        "id": 107,
+        "parent_id": 104,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Leo, my friend, you are 100% right! The Valsalva maneuver is a great test for WPW. And as for Brugada drugs, it's all about the Q10 interval, not just WPW.",
+        "color": "blue"
+      },
+      {
+        "id": 108,
+        "parent_id": 106,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Hey Sarah, here's a great resource on WPW vs Brugada: https://emedicine.medscape.com/article/156341-overview. TL;DR: while they're related conditions, they're not the same thing, and here's why...)",
+        "color": "orange"
       }
     ]
   },
   {
     "id": 1,
-    "title": "Today I Learned: Graft-Versus-Host Disease (GVHD) Diagnosis - Clinical Pearls from a Recent Miss",
-    "body": "Just saw a patient with severe GVHD and it got me thinking about our approach to diagnosing this condition. We all know the symptoms - jaundice, anemia, abdominal pain, etc., but how often do we miss it in the acute period?\n\nOur patient presented with a 5-day history of diarrhea and abdominal pain. The initial lab work showed mild thromocytopenia, but the GI team wasn't convinced GVHD was the cause. It wasn't until we ran a 24-hour urine test that we finally diagnosed it.\n\nHere's the thing: GVHD diagnosis can be tricky. The symptoms can be non-specific, and the diagnostic tests are not always reliable. So what else can we do to make this diagnosis?\n\nTLDR; anyone have any tips on how to improve our GVHD diagnosis? Should we be using more advanced tests like the 24-hour urine test? Are there any new biomarkers that have been shown to be helpful?",
+    "title": "Today I Learned: Don't overlook hypertensive emergencies hiding in plain sight",
+    "body": "Had a fascinating case last night and wanted to share it with you all. We saw a 45-year-old male presenting with severe headaches, visual changes, and chest pain. Initial BP was 215/115 mmHg. What caught my eye was the absence of any obvious signs of target organ dysfunction... or so I thought. Turns out, the patient had been taking a new antidepressant medication for 2 weeks, which was likely the culprit behind the hypertensive emergency. I've been ruminating on this case all night, wondering how many other similar cases we may be missing in the ER. Any thoughts or experiences?",
     "category": "Emergency Medicine",
     "comments": [
       {
-        "id": 5,
+        "id": 1,
         "parent_id": null,
         "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
+        "role": "MD",
         "city": "Toronto, ON",
-        "text": "Great post! GVHD diagnosis is indeed challenging, but there are some clinical pearls we can learn from. For example, have you seen the updated guidelines on GI symptoms of GVHD published in Blood? They provide some useful criteria to help us diagnose this condition.\n\nAlso, I'd like to suggest we use a combination of lab tests, including the 24-hour urine test, as well as clinical assessment. Don't forget to look for other signs of GVHD, such as oral ulcers and skin rash.\n\nOne thing that got me thinking is the role of imaging in GVHD diagnosis. Have you all used PET scans or CT scans to assess GVHD activity? What are your thoughts on this topic?",
+        "text": "Love this! I recall a similar case where a patient's new beta blocker was the likely culprit. Did you consider checking for preeclampsia or renal artery stenosis in this patient?",
         "color": "purple"
       },
       {
-        "id": 10,
-        "parent_id": 5,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Dr. Thorne, that's a great question about imaging in GVHD diagnosis. I came across a study published in the Journal of Nuclear Medicine that looked at the correlation between PET scan results and GVHD severity. The authors found a significant association between increased 18F-FDG uptake and GVHD activity.\n\nHowever, I've also seen some cases where the PET scan results were inconclusive, so I'm curious - do you have any insights on when to best use PET scans or CT scans in GVHD diagnosis?",
-        "color": "green"
-      },
-      {
-        "id": 20,
-        "parent_id": 5,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Dr. Thorne, I completely agree with your suggestions on using a combination of lab tests and clinical assessment. But what about the use of biomarkers like soluble TNF-alpha receptor and IL-2 receptor? Have you all seen any studies on their utility in GVHD diagnosis?",
-        "color": "blue"
-      },
-      {
-        "id": 25,
-        "parent_id": 20,
+        "id": 2,
+        "parent_id": 1,
         "user": "Turbo Tom",
         "role": "RN",
         "city": "London, ON",
-        "text": "Great question, Dr. Gupta! I've seen some studies that suggest biomarkers like soluble TNF-alpha receptor and IL-2 receptor can be helpful in diagnosing GVHD, but they are not 100% reliable. Has anyone else come across any recent studies on this topic?",
-        "color": "red"
+        "text": "As a nursing perspective, I'd like to add that we often see patients come in with 'hyperten- tive headaches' or 'tension headaches' that may be indicative of underlying HTN. It's essential to keep a high index of suspicion, especially in patients with a history of substance abuse or on certain medications.",
+        "color": "green"
       },
       {
-        "id": 30,
-        "parent_id": 25,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Actually, I've seen some studies that suggest the IL-2 receptor might be a useful biomarker for GVHD, especially in patients with a history of graft-versus-host disease. Has anyone else looked at this association?",
-        "color": "yellow"
+        "id": 3,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MD",
+        "city": "Ottawa, ON",
+        "text": "I'd like to point out that the patient's symptoms were likely due to hypertensive encephalopathy. Has anyone else seen cases where the patient presents with headache, visual disturbances, and altered mental status as the primary symptoms?",
+        "color": "pink"
       },
       {
-        "id": 35,
-        "parent_id": null,
+        "id": 4,
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "MD",
+        "city": "Mississauga, ON",
+        "text": "As a resident, I've learned that hypertensive emergencies can masquerade as other conditions. What are some red flags that we should be looking for in our patients that might suggest a hypertensive emergency?",
+        "color": "blue"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Great question, Dr. Gupta! Red flags might include sudden onset of severe headache, visual disturbances, chest pain, or palpitations in a hypertensive patient. We should also consider checking for signs of target organ damage, such as fundoscopy or an ECG.",
+        "color": "green"
+      },
+      {
+        "id": 6,
+        "parent_id": 1,
         "user": "Leo Chen",
         "role": "MS1",
         "city": "Montreal, QC",
-        "text": "I'm new to the field, but I've been reading about GVHD diagnosis and I'm curious - what's the current status of the diagnosis guidelines? Have they been updated recently?",
+        "text": "Thanks for sharing this story, Dr. Thorne! I'm curious, what treatment did you end up giving the patient, and how did you manage their blood pressure?",
+        "color": "yellow"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Aris Thorne",
+        "role": "MD",
+        "city": "Toronto, ON",
+        "text": "Great question, Leo! We ended up starting the patient on a rapid-acting antihypertensive, and close monitoring in the ICU to manage their BP. It's essential to have a clear plan in place for managing hypertensive emergencies, including having a team approach and being prepared for potential complications.",
         "color": "purple"
       },
       {
-        "id": 40,
-        "parent_id": 35,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Thanks for asking, Leo! The guidelines have indeed been updated recently, and you can find them on the Blood journal website. They provide some useful criteria for diagnosing GVHD, including the 24-hour urine test, which our OP mentioned.",
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Kevin Park",
+        "role": "MD",
+        "city": "Edmonton, AB",
+        "text": "In my limited experience, I've seen some cases where the patient's BP was managed with more conservative measures, such as saline locks and IV meds. Have any of you had success with these approaches?",
+        "color": "orange"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Maya Gupta",
+        "role": "MD",
+        "city": "Mississauga, ON",
+        "text": "While conservative measures may be helpful in some cases, the key is individualizing care to each patient's needs. We should consider the patient's specific risk factors, comorbidities, and clinical presentation when making decisions about BP management.",
+        "color": "blue"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Great discussion, all! It's crucial to remember that patients with hypertensive emergencies may present with subtle signs, so we need to stay vigilant and consider the possibility of this condition even in seemingly 'low-risk' patients.",
         "color": "green"
       }
     ],
-    "image": "https://figures.semanticscholar.org/6b95810a42b031cf99f3edc67979132e62efed73/2-Figure1-1.png"
+    "image": "https://todaysveterinarypractice.com/wp-content/uploads/sites/4/2011/09/f03_table1.gif"
   }
 ]
