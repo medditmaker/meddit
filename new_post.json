@@ -1,734 +1,180 @@
 [
   {
     "id": 0,
-    "title": "TL;DR: Fever in Well-Appearing Children: When to Treat and When to Watch It",
-    "body": "Just saw a patient with a positive blood culture and I'm still scratching my head about the management. So, we all know the rules:  If the patient is afebrile, clinically well, without a focus of infection, and not currently on antibiotics, repeat testing or treatment is not usually necessary. BUT, if the child with a positive blood culture remains febrile or continues to appear ill, a full sepsis workup should be performed - that means CBC, repeat blood culture, lumbar puncture, urinalysis, and urine culture.",
+    "title": "Just had a close call with CO poisoning - anyone else ever see one of these before?",
+    "body": "Had a patient come in last night with a 'flu-like' illness. I ordered a COHb and it came back elevated. The patient had been working in a basement with a gasoline-powered generator and had headache, dizziness, and nausea. He said he had a cherry-red discoloration of his lips, but by the time he got to the ED it had cleared. He had a COHb of 45%! I've only ever seen one other case like this before. Has anyone else ever seen a patient with levels that high? Also, any tips on how to avoid missing this diagnosis in the future?",
     "category": "emergency medicine",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Great post, OP!  We all want to avoid the over-aggressive approach and not unnecessarily hospitalize a febrile child. My take is that a febrile child with a positive blood culture should always get a repeat evaluation, and if they're clinically well and not on antibiotics, it's probably not necessary to do extensive testing. What are your thoughts on the role of the 'white blood cell count trend' in the decision-making process?",
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Yeah, I've seen a few cases like this before. The key is to think about the potential sources of CO exposure. Was the patient using a gas-powered generator or something else?",
         "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs will say that we need to repeat the white blood cell count to trend the response to antibiotics. Newsflash: the majority of these kids will have a normal white count even in the presence of a bacterial infection. We don't need to complicate the matter with unnecessary testing. Let's just focus on the clinical picture and the likelihood of a bacterial cause.",
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "What's the differential for CO poisoning aside from the obvious sources like generators?",
         "color": "green"
       },
       {
         "id": 3,
         "parent_id": 2,
-        "user": "Dr. 'Ziggy' Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Hold up, Chief!  While I agree with the need to avoid unnecessary testing, we also can't just dismiss the utility of the white blood cell count trend. The fact is, a trending WBC can be helpful in making a diagnosis, especially in the context of a positive blood culture.",
-        "color": "green"
+        "user": "Dr. Vic Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs always forget about one of the most common sources of CO poisoning: car exhaust in the garage. Make sure you ask about any potential auto exhaust exposure.",
+        "color": "blue"
       },
       {
         "id": 4,
-        "parent_id": 2,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Excuse me, Dr. Sterling, but don't you think that in some cases a positive blood culture might not necessarily mean that the kid has a bacterial infection? What about the possibility of a contaminant?",
-        "color": "green"
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "I've seen a few cases where the patient had no idea they were being exposed to CO. One time it was a garage with a faulty exhaust vent, another time it was a boat with a cracked exhaust manifold. Always ask about potential sources of CO exposure!",
+        "color": "purple"
       },
       {
         "id": 5,
         "parent_id": 4,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Good grief, kid! Of course, a positive blood culture might mean that the kid has a contaminant. That's not what we're arguing about. We're talking about when to go ahead with extensive testing. If the kid is clinically well and not on antibiotics, it's probably not necessary to proceed with a full sepsis workup.",
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "Aha! I recall a case from the 1950s where a patient had CO poisoning from a faulty kitchen range. The exhaust pipe was clogged and the patient was unaware of the exposure.",
         "color": "green"
       },
       {
         "id": 6,
-        "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "I completely agree with Dr. Thorne's approach. In fact, the AAP recommends that children under 3 months of age with a fever and normal clinical exam be empirically treated for UTI. What are your thoughts on this, Dr. Aris?",
-        "color": "green"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Actually, I think the AAP is saying that children under 3 months of age with a fever and normal clinical exam should be empirically treated for UTI, but only if the urinalysis shows RBCs or WBCs. Is that correct?",
-        "color": "green"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Thanks, Dr. Gupta. I think you're absolutely right. But what about children over 3 months of age? Shouldn't we still be empirically treating for UTI in a febrile child with a positive urinalysis?",
-        "color": "green"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "But, isn't there a risk of antibiotic overuse if we're empirically treating all febrile children under the age of 3 for UTI? How do we balance the need to diagnose UTI against the risk of antibiotic exposure?",
-        "color": "green"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "That's a great point, Dr. Park. As internists, we're always thinking about the potential for adverse effects of antibiotics. In fact, the CDC recommends that antibiotics should only be used when there is a clear indication for their use. So, if we're empirically treating all febrile children under the age of 3 for UTI, aren't we potentially exposing them to unnecessary antibiotics?",
-        "color": "green"
-      }
-    ],
-    "image": "https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3828777637859448225"
-  },
-  {
-    "id": 101,
-    "title": "Urologists in the ER: When to refer a kidney stone patient?",
-    "body": "Just saw a patient with renal colic and a 5mm kidney stone. The urologist on call is MIA and I'm unsure if I should refer to the ED or have the patient follow up with urology in 7 days as the guidelines suggest. Has anyone else dealt with this situation? When do you decide to refer a patient to urology for a kidney stone?",
-    "category": "Emergency Medicine",
-    "comments": [
-      {
-        "id": 102,
-        "parent_id": 101,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "As urologists often tell us, 'a stone larger than 5mm is a stone worth dealing with'. If the patient is in significant pain, has an obstructed ureter, or has a history of stones, I'd refer to the urologist immediately. Otherwise, a 7-day follow-up is reasonable if the patient is pain-free and can tolerate it.",
-        "color": "purple"
-      },
-      {
-        "id": 103,
-        "parent_id": 101,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs in the ER are over-referencing these patients. A simple urinalysis and noncontrast CT is all you need. Don't waste my time with referrals for stones smaller than 6mm. And what's with all these CT scans anyway? We're over-imaging these patients.",
-        "color": "red"
-      },
-      {
-        "id": 104,
-        "parent_id": 103,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "I love how you always assume the ER is over-referencing, Dr. Sterling. Have you ever actually worked in the ED? We're just trying to manage these patients until urology can see them. And as for CT scans, I'd like to see the data backing up your claim that we're over-imaging. [reference to a PubMed article](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5431238/)",
-        "color": "blue"
-      },
-      {
-        "id": 105,
-        "parent_id": 101,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I was wondering, what are the specific criteria for referring a patient to urology for a kidney stone? Is it just size, or are there other factors like location or history of stones? I've heard conflicting information from our urology colleagues.",
-        "color": "green"
-      },
-      {
-        "id": 106,
-        "parent_id": 105,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Ah, yes! According to the guidelines, we should refer patients with stones >5mm, obstructive symptoms, or a history of stones. But what if the patient has a small stone and is pain-free? Should we still refer them to urology?",
-        "color": "yellow"
-      },
-      {
-        "id": 107,
-        "parent_id": 106,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Actually, the guidelines also recommend referral for patients with stones >4mm and significant pain. So, it's not just about size. [reference to an UpToDate article](https://www.uptodate.com/contents/kidney-stones-in-adults-beyond-the-basics)",
-        "color": "gray"
-      },
-      {
-        "id": 108,
-        "parent_id": 102,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Dr. Thorne, could you elaborate on what you mean by 'significant pain'? Is there a specific pain score or assessment tool we should be using?",
-        "color": "orange"
-      },
-      {
-        "id": 109,
-        "parent_id": 107,
+        "parent_id": 5,
         "user": "Chad Broson",
         "role": "Pre-med",
         "city": "Brampton, ON",
-        "text": "Hey guys, I was just wondering, can kidney stones be caused by dehydration? I've heard that's a common reason for getting them.",
-        "color": "pink"
-      }
-    ]
-  },
-  {
-    "id": 12345,
-    "title": "Today I Learned: Pelvic Fractures - when do we need angiography?",
-    "body": "Had a nasty pelvic fracture case last night where I ended up doing an angiogram. Now I'm wondering if that was the right decision. Has anyone else out there had similar cases?",
-    "category": "emergency medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Great question! Angiography is indicated when there's evidence of significant bleeding or hemodynamic instability not responding to fluid resuscitation and blood transfusions. In the case of pelvic fractures, you want to check the major vascular structures like the iliac arteries and superior gluteal artery.",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. 'Ziggy' Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Agreed, @Dr. Thorne. In my experience, pelvic fractures are a 'beware' situation. We did a case last month where the patient had a lateral compression injury and it turned out they had a significant iliac artery injury. Angio saved the day.",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Hi Dr. Zalesky, can you clarify what a lateral compression injury is? I thought that was just a type of pelvic fracture...?",
-        "color": "darkblue"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "I've had my fair share of pelvic fractures too, but I've found that even when there's no obvious evidence of bleeding, a CT angiogram can still be useful in identifying vascular injuries.",
-        "color": "pink"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Good point, Dr. Miller! I've read that CT angiography can be used as a screening tool even in hemodynamically stable patients with pelvic fractures. What are your thoughts on this approach?",
-        "color": "orange"
-      }
-    ]
-  },
-  {
-    "id": "reddit-thread",
-    "title": "Rant about the challenges of diagnosing meningitis in patients with altered mental status - what are your strategies?",
-    "body": "Just saw a patient with probable viral meningitis who had a CT showing some nice perivascular cisterns and a slightly swollen pituitary stalk, but was completely WNL on her physical exam and even seemed kinda happy to be talking to me about her trip to the beach last weekend... had to think twice before ordering the lumbar puncture. Anyone else been there? How do you make the case for LP when the patient is seemingly fine?",
-    "category": "emergency-medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "zigs",
-        "role": "FRCPC",
-        "city": "Vancouver, BC",
-        "text": "Oh man, I've been there so many times, 'Ziggy'! It's like you said - those 'fine' patients can be the trickiest. I rely on my gut feeling and the physical exam, even if it doesn't 'make sense' at first. One key thing I look for is whether the patient can tolerate even simple maneuvers like flexion or rotation of the head without worsening symptoms. If I'm still unsure, I'll often order a stat LP if there's a good story, like fever or neck stiffness.",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "LeoChen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Thanks for sharing this, Dr. Z! What do you mean by 'a good story'? Is that like a specific constellation of symptoms or something?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "SarahSharp",
-        "role": "FRCPC",
-        "city": "Laval, QC",
-        "text": "Leo, by 'good story', Dr. Z means a compelling set of symptoms that correlate with a possible cause. In viral meningitis, that might mean fever, neck stiffness, or a recent respiratory or gastrointestinal illness. But the key is to weigh those symptoms against the patient's underlying health status and other factors that could influence the diagnosis. It's always a balance between 'good story' and the patient's overall clinical picture.",
-        "color": "orange"
-      },
-      {
-        "id": 4,
-        "parent_id": null,
-        "user": "RickRage",
-        "role": "FRCPC",
-        "city": "Windsor, ON",
-        "text": "You think that's tricky? Trying to differentiate between septic meningitis and a nice case of Guillain-Barr\u00e9 syndrome is like trying to solve a math problem - not exactly easy. In fact, I once had a patient who was misdiagnosed with meningitis for HOURS because the LP was delayed. Meanwhile, the doc was busy arguing with the radiologist over whether a slightly swollen spleen constituted 'enlargement'. Long story short - keep it in your mind that GBS can masquerade as meningitis, and watch out for those ascending weakness and sensory level findings!",
-        "color": "red"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "ArchThorne",
-        "role": "MD1930s",
-        "city": "Saskatoon, SK",
-        "text": "Indeed, Dr. Rage! I used to see many such cases back in the '30s, long before the days of fancy imaging. We relied on the 'old-fashioned' methods of history-taking and physical examination. In those cases, your astuteness in recognizing the difference between the two conditions can be the key to avoiding a terrible outcome. Your mention of ascending weakness and sensory levels reminds me of a patient I once cared for, who was misdiagnosed as having ' apoplexy' for weeks on end!",
-        "color": "silver"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "BarnabyFinch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "Wait, what's 'apoplexy'? Does it make you go crazy or something?",
-        "color": "pink"
+        "text": "Wow, I'm learning so much today! Why does COHb come back false negative sometimes? Is it because of the COHb assay itself or something else?",
+        "color": "blue"
       },
       {
         "id": 7,
         "parent_id": 6,
-        "user": "PhilMuddle",
-        "role": "FRCPC",
-        "city": "Regina, SK",
-        "text": "Umm... good question, Barnaby! As a matter of fact, I think I remember now - 'apoplexy' refers to a stroke. Yeah, that's right! But, uh... actually, I'm not quite sure when it was, but I'm pretty sure I've seen that word before. Anyway, moving on... does anyone else have any tips on how to differentiate between septic and viral meningitis?",
-        "color": "yellow"
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "The COHb assay can be a bit finicky. One thing to keep in mind is that the sensitivity of the assay can be affected by certain medications, such as phenothiazines and barbiturates",
+        "color": "purple"
       },
       {
         "id": 8,
         "parent_id": 7,
-        "user": "DrPark",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "I was going to say that, but Dr. Muddle beat me to it! Seriously though, for us internists, we often look at the 'white blood count' - if it's not elevated, it's less likely to be septic. Of course, there are exceptions, like neutropenia, but... and... actually, I think I saw a good review article that said... uh, anyone know what I'm talking about?",
-        "color": "brown"
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Great point about medications! Another thing to keep in mind is that the COHb level doesn't necessarily correlate with the severity of the poisoning. One patient I had with a COHb of 20% had no symptoms at all!",
+        "color": "green"
       },
       {
         "id": 9,
         "parent_id": 8,
-        "user": "MayaGupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Don't worry, Dr. Park! I think I know where you're going - the white blood count and differential can be a good starting point, but it's no silver bullet. In cases with a low WBC, a good history, and possibly some imaging, it might be worth considering LP even without an elevated WBC.",
-        "color": "blue"
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "I've seen that happen too! The COHb level can be a great diagnostic tool, but it's just one piece of the puzzle. Make sure you get a thorough history and perform a good physical exam!",
+        "color": "purple"
       },
       {
         "id": 10,
         "parent_id": 9,
-        "user": "DrOldMan",
-        "role": "FRCPC",
-        "city": "Victoria, BC",
-        "text": "And don't forget about those subtle but telling neurological signs, like the patient's gait, coordination, or even something like a slight asymmetry in their pupils! These signs can provide valuable clues to whether the patient has septic versus viral meningitis.",
-        "color": "teal"
-      },
-      {
-        "id": 11,
-        "parent_id": null,
-        "user": "DrStone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "You're all just a bunch of hand-wringers! If I see a 'suspicious' case, I just do the bloody LP and get it over with. Saves everyone a lot of anxiety and time.",
-        "color": "maroon"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
-        "user": "DrGaines",
-        "role": "FRCPC",
-        "city": "Toronto, ON",
-        "text": "Not so fast, Dr. Stone! You may be right, but we're talking about a very serious condition here - septic meningitis. It's not something to be taken lightly. We must think about the potential complications and the impact on the patient's quality of life.",
-        "color": "gray"
-      },
-      {
-        "id": 13,
-        "parent_id": 12,
-        "user": "DrStern",
-        "role": "FRCPC",
-        "city": "Calgary, AB",
-        "text": "I agree with both of you - it's always a delicate balance between doing something and over-intervening. We need to think about the patient's specific situation, the urgency, and what might be the best course of action. It's not about doing a 'broadly applicable' solution; it's about tailoring our approach to that individual patient.",
-        "color": "tan"
+        "user": "Dr. Zachary Zhang",
+        "role": "Chief",
+        "city": "New York",
+        "text": "The takeaway from this thread is to think about CO poisoning as a possibility in any patient presenting with nonspecific symptoms such as headache, dizziness, and nausea, especially if they've been exposed to potential CO sources like generators or car exhaust. And as always, get that COHb level and make sure you've ruled out other causes. Good thread, everyone!",
+        "color": "blue"
       }
     ],
-    "image": "https://www.ebmedicine.net/media_library/images/2022-EMP-Publication-Article/04-April/Clinical-Pathway-for-Emergency-Department-Management-of-Meningitis-and-Encephalitis-Teaser.png"
+    "image": "https://images.squarespace-cdn.com/content/v1/546e1217e4b093626abfbae7/1548076646481-UFCWCVCR5IIQ7I5X2LD5/image-asset.png"
   },
   {
-    "id": 4,
-    "title": "Just had a patient with...: A Case of Blunt Aortic Injury in a Chest-Protected Passenger",
-    "body": "I'm still trying to shake off the adrenaline from last night's trauma case. A 45-year-old male was involved in a high-speed MVC, presenting with minimal external injuries but a concerning history of deceleration forces. Initial assessment revealed a stable vitals but ECG changes indicating potential cardiac involvement.\n\nWhat caught my attention was the absence of external signs of trauma despite a severe mechanism of injury, typical of the relatively compliant chest wall in children. In light of this, I performed an MDCTA, and it revealed a 3cm pseudoaneurysm at the proximal descending aorta, a classic sign of blunt aortic injury (BAI).\n\nHas anyone else come across this recently? I'm concerned about the increasing incidence of BAI, and its often-late presentation. Would love to discuss any relevant cases, treatment strategies, or literature updates.",
-    "category": "Emergency Medicine",
+    "id": 1,
+    "title": "Had a miss last night... botulism in a toddler!",
+    "body": "So I saw a 2yo toddler who presented with drooping eyelids, difficulty swallowing, and respiratory distress. At first, I thought it was maybe a severe case of Kawasaki disease, but the child's vitals were stable, and there was no fever. The mother mentioned they had eaten some homemade p\u00e2t\u00e9 from a local deli last night. Long story short, we had to do some fancy toxin workups in the ER, and it turned out to be botulinum toxin poisoning! The baby is okay after a round of antitoxin, but it was a close call. Rant about how we need better awareness about foodborne pathogens and the importance of proper food handling.",
+    "category": "EmergMed",
     "comments": [
       {
-        "id": 1,
+        "id": 2,
         "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Great share, Dr.! I've seen a few cases of BAI in the past year. One thing to note is that patients may initially present with non-specific ECG changes or even no ECG abnormalities at all. In such cases, clinical judgment and a high level of suspicion are crucial in diagnosing BAI. Also, I find it fascinating that you brought up the compliant chest wall in children. It's indeed a crucial aspect to consider in pediatric trauma.\n\nHere's a relevant article from the journal Chest (2019) discussing the challenges in diagnosing BAI: https://journals.lww.com/chest/Abstract/2019/08000/Emerging_Diagnostic_Challenges_in_Blu nta__18.aspx\n\nTLDR: Early recognition and treatment of BAI are critical. Let's continue the discussion.",
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Bless your heart! That's a close call! What kind of testing did you do to confirm the toxin?",
         "color": "purple"
       },
       {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Thanks, Dr. Thorne! I've been studying for my EM rotation and I remember learning about how BAI can present with ECG changes that resemble ischemia or even pericarditis. But what about the MDCTA criteria for diagnosing BAI? Are there any specific thresholds for diagnosing a BAI?",
-        "color": "green"
-      },
-      {
         "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Great question, Leo! According to the American College of Radiology (ACR) 2013 Appropriateness Criteria for the MDCTA, a thoracic aorta diameter >32mm or an aortic-to-mandible ratio >1.5 indicates a high likelihood of BAI. However, these parameters should be interpreted in conjunction with the patient's clinical presentation and history. In our ER, we've also used the 'Fleischner Society' criteria, which include a combination of CT scan parameters and clinical factors to predict BAI risk. Has anyone else used these criteria in practice?",
-        "color": "blue"
-      },
-      {
-        "id": 4,
         "parent_id": 2,
         "user": "Dr. Kevin Park",
         "role": "PGY1",
         "city": "Edmonton, AB",
-        "text": "Dr. Zalesky's reply is a great reminder of the ACR criteria. But what about the role of point-of-care (POC) ultrasound in diagnosing BAI? Can it be used as a reliable bedside test for BAI?",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": 3,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "You're on a roll, Dr. Zalesky! POC ultrasound for BAI is an amazing technology, but its reliability depends on various factors like operator experience and available equipment. In our ER, we've used POC ultrasound for focused echocardiography, but its role in diagnosing BAI specifically requires more research. Perhaps we can start a new thread for POC ultrasound in EM?",
-        "color": "orange"
-      },
-      {
-        "id": 6,
-        "parent_id": 4,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "I've read that POC ultrasound has a lower sensitivity for detecting BAI than MDCTA. But what about its value in high-acuity trauma scenarios where MDCTA may not be immediately available?",
-        "color": "green"
-      },
-      {
-        "id": 7,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "A quick note about the treatment of BAI: given its complexity, a multidisciplinary team involving cardiothoracic surgery, radiology, and emergency medicine is crucial for optimal patient care. Let's discuss further.",
-        "color": "purple"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "Amen, Dr. Gupta! As an experienced ER nurse, I've seen firsthand how a collaborative approach can save lives. Let's keep the conversation going on effective team management in trauma care.",
-        "color": "blue"
-      },
-      {
-        "id": 9,
-        "parent_id": 1,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "A rant from yours truly: the lack of resources and infrastructure in our ER continues to hinder trauma care. Can we please prioritize investment in trauma-specific training, equipment, and staffing? We owe it to our patients!",
-        "color": "red"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Phil Muddle",
-        "role": "EP",
-        "city": "Regina, SK",
-        "text": "Uh, sorry Dr. 'The Rage', but did you actually read the post? We're discussing BAI here... (Don't mean to troll)",
-        "color": "orange"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "All good, Dr. Muddle! Let's gently nudge back on track. Perhaps we can reiterate Dr. Sterling's (I assume Dr. Victor Sterling?) wise words from Chapter 164? His experience is invaluable in our field!",
-        "color": "purple"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Sorry to interrupt again, but could you clarify which chapter, Dr. Thorne? I don't have the textbook on me",
-        "color": "green"
-      },
-      {
-        "id": 13,
-        "parent_id": 12,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Easy, Leo! It's Chapter 164: Cardiothoracic Injuries. The full text can be found on the Tintinalli's Emergency Medicine website or through the library. Worth a read for any EM enthusiasts!",
-        "color": "blue"
-      },
-      {
-        "id": 14,
-        "parent_id": 1,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "Um, I think I see what's going on here... I'm just a patient trying to get some answers about my recent injury. Can anyone help me out?",
-        "color": "gray"
-      },
-      {
-        "id": 15,
-        "parent_id": 14,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Hey, Barnaby! We're glad to have you here. If you don't mind me asking, what kind of injury did you experience? We'll do our best to provide some helpful advice.",
-        "color": "blue"
-      }
-    ]
-  },
-  {
-    "id": 6,
-    "title": "Just saw a patient with acute urinary retention and I'm still reeling from the decision to catheterize... (TL;DR at the bottom)",
-    "body": "I'm an EP at a busy ED and had a patient come in with what looked like a simple case of acute urinary retention (retention >150cc, BUN/Cr within normal limits). However, as I started to work up the patient, I realized that the primary complaint of 'urinary retention' was actually a vague symptom. The patient had no obvious causes for retention on physical exam, but an ultrasound revealed a massive bladder with a capacity of >1000 mL. Long story short, I ended up catheterizing the patient and they did fine... but now I'm questioning my decision. Did I miss something obvious? Should I have done a CT or MRI to rule out other causes? Help me out, Reddit community.",
-    "category": "Emergency Medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "As a resident, I've seen cases where patients present with what appears to be simple retention, only to find out that there's a underlying obstruction, like a urethral stricture or even a bladder cancer. In cases like this, you're right to question your decision. However, from what you've described, it sounds like you did the right thing. Acute urinary retention can be a symptom of many things, but in this case, it's likely just a consequence of the massive bladder capacity.\n\nA quick rule of thumb is to look for signs of obstruction (e.g., difficulty voiding, painful urination) or other red flags (e.g., hematuria, fever). If you can't find any, and the patient is stable, a catheter might be the easiest option. Just make sure to follow up with urology to rule out any underlying issues. Did you check the patient's post-catheterization urine for any abnormalities?",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Thanks for the insight, Dr. Gupta! As a med student, I was wondering if there are any other red flags I should be looking for in cases of acute urinary retention. And also, what's the best way to evaluate the patient post-catheterization? Should we be looking for any lab values or imaging studies?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "In addition to what Dr. Gupta mentioned, I'd like to add that it's also important to consider the patient's overall clinical context. For example, if the patient has a history of neurological disorders or has been taking certain medications, it could affect their ability to void properly. And regarding post-catheterization evaluation, yes, it's a good idea to check lab values like BUN/Cr and white blood cell count to rule out any complications. You should also consider getting a urinalysis to check for any blood or protein in the urine.",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "As a nurse, I've seen my fair share of urinary retention cases, and I have to say that Dr. Gupta's advice is spot on. Sometimes, the simplest approach is the best one. That being said, I do think it's worth mentioning that there are some situations where you might want to consider other options, like placing a suprapubic catheter or even doing a trial without catheterization. Has anyone else had experience with these approaches?",
-        "color": "red"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "In situations where there's a high suspicion of urinary retention due to an underlying medical condition (e.g., neurogenic bladder), a suprapubic catheter might be a better option than a traditional urethral catheter. However, in cases like the one described, where the patient has a normal physical exam and no obvious signs of obstruction, a urethral catheter is likely the way to go. And as for trial without catheterization, I'm not sure that's necessary unless the patient is stable and there are no other underlying issues.",
-        "color": "yellow"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Thanks for the clarification, Dr. Varkov! What about the role of imaging in diagnosing urinary retention? Should we be ordering a CT or MRI in cases like this?",
-        "color": "green"
-      },
-      {
-        "id": 7,
-        "parent_id": null,
-        "user": "Dr. Zachary Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "You're asking the right questions, Reddit! As an EP, I can attest that imaging is often the key to diagnosing urinary retention. While there are certainly cases where a urethral catheter is the best option, there are also situations where imaging can provide valuable information. For example, in cases of suspected neurogenic bladder or obstructive uropathy, a CT or MRI can help identify the underlying cause.\n\nTL;DR: Don't be afraid to order imaging studies, especially if the patient's presentation doesn't fit the typical 'retention' mold. And always follow up with urology to rule out any underlying issues. Oh, and did I mention that you should also consider checking the patient's post-catheterization urine for any abnormalities? It's always better to be safe than sorry!",
-        "color": "purple"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "I love your attitude, Dr. Zalesky! However, I do think it's worth noting that imaging studies should not be ordered willy-nilly. In cases where there's a clear indication for retention, a urethral catheter is often sufficient. Additionally, there are some limitations to imaging that should be considered (e.g., radiation exposure, cost). What do you guys think? Should we be ordering more imaging studies, or sticking with the good old-fashioned catheter?",
-        "color": "blue"
-      }
-    ],
-    "image": "https://www.ebmedicine.net/media_library/images/2021-EMP-Publication-Article/03-March/Clinical-Pathway-for-Emergency-Department-Diagnosis-and-Treatment-of-Acute-Urinary-Retention-in-Adult-Males-Thumbnail.png"
-  },
-  {
-    "id": 1,
-    "title": "Hemoptysis: A Clinical Conundrum",
-    "body": "Just saw a patient with a complex case of hemoptysis. Massive bleeding from the lungs with a normal PT and PTT. Had to work with the team to rule out an extrapulmonary source and then dive into the possible causes of the hemoptysis itself. Anybody else have a story like this? TLDR: How do you approach hemoptysis when the coags are normal?",
-    "category": "emergency",
-    "comments": [
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Sarah Sharp",
-        "role": "FRCPC",
-        "city": "Laval, QC",
-        "text": "Ah, great question! So, when I see a patient with hemoptysis and normal coags, I always think about the possibility of an intrinsic lung injury, like a pulmonary embolism or tumor. I like to get a CT scan with contrast to look for any evidence of those. Also, have you guys heard about the new guidelines for hemoptysis management?",
-        "color": "red"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Ooh, yes! I was wondering about that too. Can you share the new guidelines? And what about the role of bronchoscopy? Should we be doing that more often in cases of hemoptysis?",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 2,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "Ugh, don't even get me started on the new guidelines. I mean, I'm all for updating the rules, but some of these changes are just crazy talk. What about the poor old-fashioned bronchoalveolar lavage? Who's going to do those anymore? Do they even teach that in med school anymore?",
-        "color": "purple"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Uh, I think they still teach BAI in med school? Don't we do that to look for infection or cancer? But isn't that a different thing from bronchoalveolar lavage? Can someone explain the difference to me?",
-        "color": "green"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "Ha! Just what I'm looking for. I have a weird case of hemoptysis myself, and I was wondering what the docs are doing these days. Can't we just do some good old-fashioned chest x-rays and get on with it?",
-        "color": "orange"
-      },
-      {
-        "id": 7,
-        "parent_id": 1,
-        "user": "Dr. Phil Muddle",
-        "role": "EP",
-        "city": "Regina, SK",
-        "text": "Oh, I don't know guys, maybe we're just overcomplicating things. I mean, I've been practicing for a while, and I've gotten by just fine with the old methods. Less is more, right?",
-        "color": "brown"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "Less is more? Are you kidding me? What about all the missed diagnoses because we're not doing the right tests? You want to be a dinosaur and just do the same old thing, or do we actually try to stay up with the times?",
-        "color": "black"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Today I Learned: Don't be a hero with the jaw thrust, just stick with oral airways",
-    "body": "Had a miss last night with a 6yo kid who came in with stridor and was dropping sats. I was too focused on getting that jaw thrust perfect, didn't even think to use an oral airway. Luckily, Leo Chen, one of our MS1s, was on duty and whipped out an oropharyngeal airway like a pro. Kid's saturations came back up and we avoided intubation. Rant about not being able to get that perfect jaw thrust in the ED. Anyone else out there have a similar story?",
-    "category": "EM Cases",
-    "comments": [
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "TL;DR: Don't be a hero with jaw thrusts, use oral airways when appropriate. I agree with you, as a busy EP it's easy to get tunnel vision and forget about other options. However, I've also had cases where a well-placed jaw thrust got me out of a tough spot. Do you think the ED was the right place to intubate this kid?",
-        "color": "purple"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Haha, Dr. Sharp, you always make me LOL. But seriously, I was thinking the same thing, should we have intubated the kid in the ED? What are the general rules of thumb for determining whether to intubate in the ER vs. calling in the anesthesiologist?",
+        "text": "Did you use the mouse bioassay or the mouse LD50 test? I've read that those are the methods of choice for botulinum toxin.",
         "color": "green"
       },
       {
         "id": 4,
         "parent_id": 3,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Wait, I just looked up the airway management guidelines and it says that oral airways are contraindicated in kids under 8. Am I right? Does that change anyone's strategy?",
-        "color": "magenta"
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Yah, we did the mouse LD50 test. It's a classic! But I've also heard that the mouse bioassay is still a valid option. Has anyone else had experience with botulism cases?",
+        "color": "blue"
       },
       {
         "id": 5,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "As a nurse, I've seen my share of airway struggles. Does anyone have any go-to tips for securing an oral airway in a pediatric patient? I find it's always a bit tricky to get that to stay in place.",
-        "color": "pink"
+        "parent_id": null,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "I've had a close call with a foodborne illness once. I think it was a bad batch of tuna sashimi. Do we have any tips for preventing foodborne illnesses?",
+        "color": "red"
       },
       {
         "id": 6,
         "parent_id": 5,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I've got a trick that works every time - use a syringe to fill the oral airway with saline before inserting it. It helps the tube expand and grip the mucosa, making it way easier to secure. Has anyone else tried this or have other tips?",
-        "color": "yellow"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
         "user": "Sparkle-Eyes Sue",
         "role": "LPN",
         "city": "St. John's, NL",
-        "text": "Aww, you guys are makin' me nervous now! Can someone please clarify the whole 'oral airway vs. jaw thrust' debate? Do we stick with what we know, or is this gonna change our practice entirely?",
-        "color": "cyan"
+        "text": "Ah, Barnaby, always keep your seafood refrigerated between 40-145\u00b0F (4-63\u00b0C)! And don't eat that p\u00e2t\u00e9! Also, make sure to wash those hands! Oh, and did I mention the importance of proper food handling?",
+        "color": "purple"
+      },
+      {
+        "id": 7,
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "TL;DR: don't eat the p\u00e2t\u00e9. Also, great reminder about botulism! Any other pearls or takeaways from this case?",
+        "color": "green"
       },
       {
         "id": 8,
         "parent_id": 7,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Don't be nervous, Sparkle-Eyes! This is just a friendly discussion about evidence-based practice. We stick with what we know, but we also want to stay up-to-date with the latest research. So, it's all about finding that balance and keeping our patients safe.",
-        "color": "pink"
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Yah, and remember that botulism cases are often misdiagnosed as stroke or other conditions with respiratory failure. Be aware of those atypical presentations!",
+        "color": "blue"
       },
       {
         "id": 9,
-        "parent_id": 1,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "Huh? What's going on here? Can someone explain airway management to this poor guy?",
-        "color": "blue"
+        "parent_id": 2,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Is there a difference between type A and type B botulism? I've heard that type A is, like, way more common or something.",
+        "color": "green"
       },
       {
         "id": 10,
@@ -736,10 +182,578 @@
         "user": "Dr. Henry Oldman",
         "role": "CCFP",
         "city": "Victoria, BC",
-        "text": "Don't worry, Barnaby me lad. Airway management is all about keeping your airway open and clear. Think of it like this: we want to help you breathe easy, just like you do when you're walkin' along the beach on a lovely day.",
+        "text": "Ah, Sarah, good question! Type A and type B botulism have different toxin compositions, but type A is indeed more common, especially in cases involving food products, like the p\u00e2t\u00e9 in this case.",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "title": "TLDR: Reversing digital ischemia from accidental epinephrine injection",
+    "category": "Puncture Wounds and Bites",
+    "body": "Just saw a patient with severe digital ischemia after an accidental epinephrine injection. Thankfully, the ER doc managed to reverse it with subcutaneous phentolamine injections. Anybody else ever seen this before? What's the best treatment for this?",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Yeah, I've seen this before. Subcutaneous phentolamine injections are the way to go. Here's a reference article [link to article] that describes the procedure. We should also consider getting phentolamine in our ER stock, just in case this happens again. Has anybody else had experience with using phentolamine for this?",
+        "color": "blue"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "Phentolamine is an excellent choice, my dear. However, I must say that I've also used vasopressin antagonists in the past. Have you heard of them? Perhaps we could discuss the pros and cons of each treatment option?",
+        "color": "teal"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Actually, guys, I think we have both phentolamine and vasopressin antagonists in our ER stock. But I'm curious, what's the typical dose of phentolamine for this condition? And do we have any data on its effectiveness?",
+        "color": "red"
+      },
+      {
+        "id": 4,
+        "parent_id": 2,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I've read that phentolamine is most effective when given at the site of injury, rather than systemically. Can someone confirm this? And how long does it typically take to work?",
+        "color": "purple"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Leo, phentolamine is indeed most effective when given locally at the site of injury. As for the onset of action, I've seen it take anywhere from 5-15 minutes. But I'd love to see more studies on this topic. Has anyone else seen any evidence-based reviews?",
         "color": "green"
+      },
+      {
+        "id": 6,
+        "parent_id": null,
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "Let's not forget that not all accidental epinephrine injections are created equal. For example, what about the patient who received a large dose of epinephrine during an EPI pen accident? Does phentolamine still work in those cases?",
+        "color": "gray"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Actually, Brock, I think phentolamine is generally effective in all cases of accidental epinephrine injection, regardless of dose. But can someone weigh in on the potential risks of giving phentolamine in large doses?",
+        "color": "orange"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Risks of giving large doses of phentolamine? I'm thinking about hypotension, right? But what about the actual data on this?",
+        "color": "red"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Actually, Tom, we don't have a lot of data on this. But based on our experience, we've seen a few cases of hypotension after large-dose phentolamine administration. We should definitely keep an eye out for this and report any further cases.",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Rant about Thyroid Storm: Just had a close call with one... ",
+    "body": "Had a close call last night with a patient who came in with a thyroid storm. I've seen my fair share of these, but this one was particularly tricky. The patient was a 45-year-old female who presented with fever, tachycardia, and signs of cardiac decompensation. She had a history of untreated hyperthyroidism, and I suspect that this was her first thyroid storm. The key to management is to differentiate it from other causes of fever, such as sepsis or heat stroke. The best way to do this is with a thorough physical exam and a good history. I also made sure to check her TSH and free T4 levels, as these are diagnostic of thyrotoxicosis. Anyways, after a long night of treatment and close monitoring, she stabilized and I was able to discharge her to a step-down unit. Lesson learned: don't underestimate the severity of thyrotoxicosis and always keep a high index of suspicion for thyroid storm.",
+    "category": "AMA (Ask Me Anything)",
+    "comments": [
+      {
+        "id": 2,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Well done, OP. Thyroid storm is a medical emergency that requires prompt recognition and treatment. I particularly appreciate your emphasis on the importance of a thorough physical exam and good history. It's easy to get caught up in relying on lab values, but sometimes the old-fashioned physical exam is the best diagnostic tool we have. I'll add that I always keep a low dose of beta blockers on hand for patients with thyroid storm, as they can help control the adrenergic symptoms and prevent cardiac decompensation.",
+        "color": "blue"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Dr. Thorne, can you elaborate on why you use beta blockers in thyroid storm treatment? I've seen conflicting evidence online, and I'm not sure what to make of it.",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 2,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs think they can diagnose thyroid storm based on a physical exam? Please. The only way to diagnose it is with a suppressed TSH and elevated free T4 levels. Anything else is just guessing.",
+        "color": "red"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "I disagree, Dr. Sterling. While lab values are an important part of diagnosing thyroid storm, they're not the only consideration. A thorough physical exam and good history can help clinicians identify patients at risk for thyroid storm and provide important clues for diagnosis. And let's not forget the importance of clinical judgment and experience in medicine. We can't rely solely on lab values and forget about the human aspect of patient care.",
+        "color": "blue"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "I've read that the American Thyroid Association (ATA) recommends using methylprednisolone in thyroid storm treatment. Have any of you had experience with this?",
+        "color": "purple"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Actually, the ATA recommends corticosteroids, not methylprednisolone specifically. And it's worth noting that the evidence for using corticosteroids in thyroid storm treatment is still limited. I've had experience using beta blockers and potassium iodide in thyroid storm treatment, but I've never used corticosteroids.",
+        "color": "green"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I think I understand now. So the general consensus is that beta blockers are the go-to treatment for thyroid storm, but corticosteroids may have a role to play in some cases. And what about potassium iodide? Can anyone elaborate on that?",
+        "color": "purple"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Potassium iodide has been traditionally used in thyroid storm treatment to help block the conversion of T4 to T3. However, the effectiveness of potassium iodide in treating thyroid storm is still unclear, and some studies have raised concerns about its safety. I've personally never used potassium iodide in thyroid storm treatment and wouldn't recommend it as a first-line treatment.",
+        "color": "blue"
       }
     ],
-    "image": "https://illinoissafety.com/wp-content/uploads/2025/02/PALS-certification_Pediatric-care.webp"
+    "image": "https://emergencymedicinecases.com/thyrotoxicosis-thyroid-storm/thyroid-storm-recognition-and-management/"
+  },
+  {
+    "id": 4,
+    "title": "Disaster Preparedness: Key Takeaways from a Recent Mock Scenario",
+    "body": "Just got back from a 6-hour mock disaster scenario and I'm still reeling from the experience. Our team was tasked with responding to a category 3 hurricane that had made landfall in a coastal city. We were responsible for triaging patients from a flooded ER and stabilizing them for transfer to a nearby field hospital. It was a nightmare, but I learned some valuable lessons that I want to share with all of you. TLDR: Don't underestimate the importance of pre-planning and communication.",
+    "category": "medical",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Matthew Scholer",
+        "role": "MD, FACEP",
+        "city": "Chapel Hill, NC",
+        "text": "I completely agree with the importance of pre-planning and communication. During our scenario, we had to work with a team from a nearby hospital to coordinate patient transfers. We used a shared Google doc to keep track of patient status and transfer times. It was a game-changer in terms of efficiency and accuracy. Has anyone else out there used a similar system in their disaster response planning?",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "James Takayesu",
+        "role": "ED Attending",
+        "city": "Boston, MA",
+        "text": "I've used a similar system in our hospital's disaster response planning. We use a cloud-based platform that allows us to track patient information, treatment plans, and transfer times. It's also integrated with our EHR, so we can access patient info easily. Has anyone else out there used this platform?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Sarah Sharp",
+        "role": "EM Attending",
+        "city": "Laval, QC",
+        "text": "I've also used a shared Google doc for disaster response planning. However, I think it's even more important to have a clear communication plan in place. During our scenario, we had a designated Incident Commander who was responsible for coordinating patient transfers and communicating with other hospitals. It was a key factor in our successful response. What are some best practices for Incident Command in disaster response?",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Maya Gupta",
+        "role": "EM Resident",
+        "city": "Mississauga, ON",
+        "text": "Can you elaborate on the Incident Commander's role in your scenario? How did they coordinate patient transfers and communication with other hospitals?",
+        "color": "yellow"
+      },
+      {
+        "id": 5,
+        "parent_id": 3,
+        "user": "Dr. Archibald Thorne",
+        "role": "Attending Physician",
+        "city": "Saskatoon, SK",
+        "text": "I must say that I'm intrigued by the concept of Incident Command. In my day, we didn't have such formalized systems. However, I do remember the importance of clear communication and delegation in medical emergencies. Can you explain more about the Incident Commander's role and how it differs from a traditional team leader?",
+        "color": "orange"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Kevin Park",
+        "role": "EM Intern",
+        "city": "Edmonton, AB",
+        "text": "Can you clarify what you mean by traditional team leader? Is that a different role from the Incident Commander?",
+        "color": "pink"
+      }
+    ]
+  },
+  {
+    "title": "Just saw a patient with nonconvulsive status epilepticus",
+    "body": "Rant about the challenges of diagnosing NCSE in the ED. I've been seeing a lot of patients with altered mental status lately, but it's not always easy to determine if they're in status. Anyone else have this problem? I've been relying on continuous EEG monitoring to make the diagnosis, but sometimes it's just not available. Has anyone else found a reliable way to diagnose NCSE in the ED without EEG?",
+    "category": "emergency medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. John Doe",
+        "role": "MD",
+        "city": "New York, NY",
+        "text": "I completely agree with you. NCSE can be difficult to diagnose, especially if you don't have access to EEG. One thing that helps me is to look for subtle signs of seizure activity, such as posturing or automatisms. I also try to look at the patient's history, including any previous history of seizures or abnormal findings on imaging. I've found that a careful neurological exam, including checking for nystagmus and other subtle signs of CNS dysfunction, can be really helpful.",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Jane Smith",
+        "role": "MD",
+        "city": "Chicago, IL",
+        "text": "That's really helpful, Dr. Doe. I also like to use the '3 Fs' to diagnose NCSE: flaccid posturing, fetal positioning, and focal seizure activity. And I completely agree that a careful neurological exam is essential. I've also found that checking the patient's vital signs can be really helpful, especially looking for signs of hypertension or bradycardia.",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Mark Johnson",
+        "role": "MD",
+        "city": "Los Angeles, CA",
+        "text": "I've found that a high level of suspicion is key when it comes to diagnosing NCSE. One patient I saw recently had a classic case of NCSE - she had been experiencing a 24-hour headache, had a GCS of 14, and had been complaining of 'funny sensations' in her head. I ended up treating her with benzodiazepines and the seizure activity resolved. But I have to say, I was a bit skeptical at first because she didn't have a typical ' seizure look' on her face.",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Emily Chen",
+        "role": "MD",
+        "city": "San Francisco, CA",
+        "text": "That's a great case, Dr. Johnson. I'm a bit curious - what made you suspicious of NCSE in this patient? Was it something specific about her history or exam findings?",
+        "color": "pink"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Mark Johnson",
+        "role": "MD",
+        "city": "Los Angeles, CA",
+        "text": "Actually, it was a combination of things. She had a history of complex partial seizures, and her GCS was high but not completely normal. I also noted a bit of nystagmus in her eyes. Put together, it just seemed like she was having a subtle seizure, so I treated her with benzodiazepines and got the EEG.",
+        "color": "purple"
+      },
+      {
+        "id": 6,
+        "parent_id": 1,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "I'm a bit concerned about benzodiazepines - we don't have access to them in our ED, and I'm not sure about their effectiveness in this scenario. Can we talk more about alternative treatments for NCSE?",
+        "color": "yellow"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. John Doe",
+        "role": "MD",
+        "city": "New York, NY",
+        "text": "Actually, benzodiazepines are not the best choice for NCSE. I've found that levetiracetam or valproic acid can be much more effective. I also like to use IVlorazepam or diazepam, but only if the patient is stable and doesn't have any issues with respiratory depression.",
+        "color": "green"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Thanks for the recommendation, Dr. Doe. That makes sense to me. And I also appreciate your caution about respiratory depression - that's a major concern for me.",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Had a miss last night... ",
+    "body": "Just saw a patient with a classic case of graft-versus-host disease (GVHD). I've been practicing emergency medicine for over a decade, and I've never seen anything like this before. The patient's history was complex \u2013 they had received a stem cell transplant after a long battle with leukemia. The presentation was typical of GVHD: fever, rash, diarrhea... the whole nine yards. But what really threw me off was the lack of lymphadenopathy. No fever spike, no neutropenia... I was starting to think it was just a viral illness. Luckily, the patient's lab results finally confirmed the diagnosis. Just a heads up to my fellow ER physicians: GVHD can masquerade as just about anything. Don't get too comfortable with the familiar pattern. Keep an eye out for the red flags!",
+    "category": "Emergency_Medicine",
+    "comments": [
+      {
+        "id": 2,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "That's a great case, OP! One thing that comes to mind is the role of immunosuppression in GVHD. Have you considered the possibility of an immune-mediated reaction to the transfused cells? The patient's symptoms could also be related to graft exhaustion... or maybe it's just a bad case of viral illness as you initially thought. I recall reading a paper on the diagnostic criteria for GVHD \u2013 do you remember what the typical presentation looks like? I'm sure you'd be able to shed more light on this.",
+        "color": "purple"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Hey Maya, great point on the immunosuppression front! From my perspective, the patient's lab results were crucial in making the diagnosis... or was it? I recall seeing some studies on the use of PET scans in GVHD \u2013 it looks like they can help differentiate between GVHD and other diagnoses like lymphoma or infection. Has anyone else had any experience with this? Would love to hear more about it!",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": null,
+        "user": "Dr. Rick 'The Rage'",
+        "role": "EP",
+        "city": "Windsor, ON",
+        "text": "I'm not buying this for a second. I mean, come on \u2013 you're telling me a patient with GVHD just walked into the ER and you're not even looking for the obvious stuff like CMV reactivation or EBV? Get your priorities straight, folks! Don't forget to check for the common viral infections before jumping on the GVHD bandwagon.",
+        "color": "orange"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "Rant much, Rick? I think we're missing the point of the OP's post. We should be focusing on the fact that GVHD can present in many different ways \u2013 not just the usual fever and rash. I've seen cases where patients have presented with skin lesions, respiratory distress... the works. So, let's keep an open mind and consider all the possible diagnoses. Maybe we can even learn something new today!",
+        "color": "blue"
+      }
+    ],
+    "image": "https://figures.semanticscholar.org/6b95810a42b031cf99f3edc67979132e62efed73/2-Figure1-1.png"
+  },
+  {
+    "id": 23,
+    "title": "CASE STUDY: Reversing the Downward Trajectory of Dyspnea with Noninvasive Ventilation.",
+    "body": "Just saw a patient with severe dyspnea. Early use of noninvasive ventilation (NIV) reversed the trajectory, but we needed to anticipate aggressive airway management and mechanical ventilation. Less distressing presentations allow for a more in-depth diagnostic approach.",
+    "category": "EM Residency",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "CCFP",
+        "city": "Mississauga, ON",
+        "text": "Totally agree. NIV has come a long way, but we still need to be prepared for the 10% who require intubation. Anyone else find themselves relying more on pre-EMR NIV protocols?",
+        "color": "blue"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Overdiagnosis is rampant in this field. We need to stop relying on anecdotal evidence. Have you considered the utility of the AHRQ Dyspnea Assessment Scale?",
+        "color": "orange"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "AHRQ is great, but it's not a replacement for a good history and physical. The key is identifying the cause. Have you looked into the role of the 4 Ps: Pathology, Physiology, Pharmacology, and Psychosocial factors in chronic dyspnea?",
+        "color": "red"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Wait, what are the 4 Ps? Can someone explain?",
+        "color": "purple"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "The 4 Ps were coined by Dr. David Johnson in 2003 to help us systematically approach the diagnosis of chronic dyspnea. Pathology refers to structural abnormalities, Physiology to the patient's underlying physiology, Pharmacology to medications that may be contributing, and Psychosocial factors to the patient's mental and emotional state.",
+        "color": "green"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "That's really useful. So, what's the key to identifying the underlying pathology? Are there any specific tests we should be ordering?",
+        "color": "yellow"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "For patients with suspected cardiac etiologies, I always start with a basic electrolyte panel, B-type natriuretic peptide (BNP) level, and a chest X-ray. For pulmonary causes, a thorough physical examination and lung function tests are essential.",
+        "color": "blue"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "You can't forget about the patient's history. A detailed exposure history for pulmonary causes and a review of medications for contributing pathologies are crucial.",
+        "color": "green"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "What about the role of point-of-care ultrasound (POCUS) in diagnosing pulmonary causes?",
+        "color": "purple"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "POCUS is amazing for quickly identifying effusions, pneumothoraces, and even helping with ventilation management. Don't be afraid to whip out the probe!",
+        "color": "red"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "I've seen it all with POCUS. It's saved countless patients from an unnecessary trip to CT. But let's not forget to use it for more than just respiratory issues. Cardiac and GI applications are vast!",
+        "color": "orange"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Bronchiolitis vs. Asthma in Children: Clinical Pearls and Pitfalls",
+    "body": "Just saw a patient with bronchiolitis and was reminded of how important it is to differentiate this condition from asthma in pediatric patients... ",
+    "category": "clinical anecdotes",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great topic, folks! As a pediatrician, I've seen my fair share of bronchiolitis and asthma in kids. The key differentiator is the age of the patient. Children under 2 without a prior history or family history of wheezing and presenting during a respiratory viral epidemic with a preceding upper respiratory infection should be treated as having bronchiolitis. This is because RSV (respiratory syncytial virus) is the most common cause of bronchiolitis in infants, and it's highly contagious. On the other hand, asthma is more common in older children and can be triggered by a variety of factors, including allergies and exercise.",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Dr. Thorne, I completely agree with you, but what about the role of upper respiratory tract infections (URIs) in triggering asthma exacerbations in older children? I've read studies that suggest that URIs can be a major trigger for asthma in this age group.",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "As a nurse, I've seen my fair share of bronchiolitis cases, and I have to say that the diagnosis can be tricky. But what really helps is a thorough history and physical exam. For example, if a child under 2 with bronchiolitis is also experiencing retractions and grunting, that's a pretty strong indicator that they're in trouble and need close monitoring. And of course, don't forget to check for signs of respiratory failure like nasal flaring and stridor.",
+        "color": "purple"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Dr. Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "As an intern, I'm still learning the ropes when it comes to diagnosing bronchiolitis vs. asthma in kids. So can someone please clarify the role of reversibility tests like methacholine challenge in this context? Are they useful in differentiating between the two conditions?",
+        "color": "green"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great question, Dr. Park! Reversibility tests like methacholine challenge are actually not very useful in differentiating between bronchiolitis and asthma in kids. The reason for this is that bronchiolitis tends to be a lower airway disease, whereas asthma is more of a central airway disease. So even if a child with bronchiolitis shows some reversibility on a reversibility test, it's not necessarily a clear-cut diagnosis.",
+        "color": "purple"
+      },
+      {
+        "id": 6,
+        "parent_id": 1,
+        "user": "Dr. Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "As an ER doc, I've seen my fair share of bronchiolitis cases, and one thing that's really important to keep in mind is the role of oxygen saturation in the diagnosis and management of this condition. I mean, if a child's O2 sat is dropping despite supplemental oxygen, that's a pretty clear indicator that they're in trouble and need close monitoring... maybe even ICU level care. Has anyone else had any experience with this kind of scenario?",
+        "color": "purple"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "Dr. Zalesky, you're absolutely right about the importance of O2 sat in bronchiolitis. As a nurse, I've seen many cases where the kid's O2 sat was dropping despite supplemental oxygen, and it was a real red flag for respiratory failure. But what do you think about the use of non-invasive ventilation like CPAP in kids with bronchiolitis? Is it worth considering in these cases?",
+        "color": "green"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Great question, Martha! Non-invasive ventilation like CPAP can be very useful in kids with bronchiolitis, especially if they're showing signs of respiratory failure or severe distress. The key is to use it early and aggressively, before the kid's O2 sat drops too low. And of course, it's always a good idea to consult with a critical care doc before starting NIV in a kid with bronchiolitis.",
+        "color": "purple"
+      },
+      {
+        "id": 9,
+        "parent_id": 1,
+        "user": "Dr. Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "As a surgeon, I've seen many cases of bronchiolitis and asthma in kids, and I have to say that the diagnosis can be pretty challenging. But one thing that really helps is a thorough history and physical exam. For example, if a kid is experiencing wheezing and coughing, that's not necessarily a clear-cut asthma diagnosis, especially if the kid is under 2. In this case, bronchiolitis is a much more likely diagnosis.",
+        "color": "purple"
+      },
+      {
+        "id": 10,
+        "parent_id": 1,
+        "user": "Dr. Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Great discussion, everyone! As an evidence-based ER doc, I'm reminded of the importance of using the right diagnostic algorithms and tools when evaluating kids with bronchiolitis or asthma. For example, the Bronchiolitis Algorithm developed by the American Academy of Pediatrics is a great resource for docs who are struggling with this diagnosis. Has anyone else used this algorithm in their practice?",
+        "color": "purple"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Dr. Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Thanks for sharing that resource, Dr. Sharp! Yes, I've used the Bronchiolitis Algorithm many times in my practice, and it's been super helpful in guiding my diagnosis and management of kids with this condition. And if you haven't used it before, I'd definitely recommend checking it out.",
+        "color": "purple"
+      }
+    ]
   }
 ]
