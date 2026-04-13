@@ -1,705 +1,825 @@
 [
   {
-    "title": "Frustrating Low-Probability Acute Coronary Syndrome Case",
-    "body": "Had a miss last night... Patient presented with chest pain, no STEMI on ECG. Trop I and Trop T were normal. Had a coronary CT angiogram showing a 40% blockage in the LAD. The cardiologists were like 'oh well, it's asymptomatic, no big deal.' But this patient's 40% blockage is enough to put them at high risk of MI in the future. What's the take home message here? When do you get a patient a stress test in low-probability ACS? And should we be doing more cardiac workups?",
-    "category": "medical-case",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "(MD) CCFP",
-        "city": "Toronto, ON",
-        "text": "Great post OP. It's a shame we're still relying on troponins as the sole arbiter of ischemia. What about using fractional flow reserve or IVUS to assess the degree of stenosis? Maybe we're missing opportunities for prevention. Also, does anyone have access to the ESC guidelines on cardiac workups for low-probability ACS?",
-        "color": "blue"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "(MS1)",
-        "city": "Montreal, QC",
-        "text": "I'm new to this, but isn't fractional flow reserve only used to assess the physiological significance of stenosis in the cath lab? Can we use it in the ER as a quick diagnostic tool?",
-        "color": "yellow"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. 'Ziggy' Zalesky",
-        "role": "(EM)",
-        "city": "Vancouver, BC",
-        "text": "LFR (fractional flow reserve) is a great idea, but it's still in the lab. We need some practical solutions for the ED. One thought - what if we did a coronary CT angiogram with cardiac MR imaging? We could get a better view of perfusion and maybe pick up some more blockages. Thoughts?",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Barb Miller",
-        "role": "(EM)",
-        "city": "Winnipeg, MB",
-        "text": "That's not a bad idea, Ziggy. But have you seen the cost of cardiac MR imaging? And don't even get me started on the logistics of getting a patient set up for it. What about a stress test, like the OP said? Do we really need to be relying on CT or MR imaging?",
-        "color": "red"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Sarah Sharp",
-        "role": "(EM)",
-        "city": "Laval, QC",
-        "text": "Actually, I think we should be looking at the ESC guidelines and seeing what they say about stress testing in low-probability ACS. Can someone link me to the latest version?",
-        "color": "purple"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Victor Sterling",
-        "role": "(Cardio)",
-        "city": "Calgary, AB",
-        "text": "Here you go, Sharp https://www.escardio.org/~the-scope/cardiovascular-reviews/-/asset_publisher/x6BWKHkHdyUY/content/acute-coronary-syndrome-manifestations-and-diagnosis-guidelines,-2019. Page 13 has some good info on stress testing in this context.",
-        "color": "blue"
-      }
-    ]
-  },
-  {
-    "title": "TL;DR: Just lost a pediatric patient with epiglottitis and want to vent...",
-    "body": "Just saw a 5yo boy come in with a nasty case of epiglottitis. The fam said he was fine at home last night, but this am he was struggling to breathe. We intubated him, but he went anoxic and ended up with brain death. I've been wondering what we missed and if there's any way we could've done things differently. Has anyone else seen a case like this? Any tips for how to manage pediatric epiglottitis?",
+    "id": 0,
+    "title": "Frustrating case of Status Asthmaticus with a twist",
+    "body": "Just saw a patient with Status Asthmaticus that was triggered by an allergic reaction to a new fragrance at their workplace. I'd love to hear from other ER physicians about their experience with occupational asthma. Has anyone else come across this before?",
     "category": "emergency medicine",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Epiglottitis is a classic trap for us. Always think back to the first sign of respiratory distress - was it a barking cough? Stridor? Drooling? We should've gotten the EGD in ASAP, but I think we may have been too focused on IV epinephrine and prepping the OR.",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs. You should've just waited it out. Most kids can manage epiglottitis on their own. It was a waste of everyone's time. [1]",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. 'Ziggy' Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Lol @ Dr. Sterling. Amateurs indeed! Dr. Thorne, you bring up a great point about the early signs. What about this case, guys? Can we walk through the EGD video one more time to see if we missed something? Should we be looking for other red flags like a history of recurrent URI or immunocompromised?",
-        "color": "orange"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Wait, what's the difference between recurrent URI and immunocompromised? I thought they were the same thing?",
-        "color": "red"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Not exactly, Sarah! Immunosuppressed kids are more prone to serious infections bc their immune system is weakened. Recurrent URIs are more like, well, they get frequent colds. We should've asked more about his immunizations and medical history",
-        "color": "purple"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "And I thought we were doing great on the vaccination questions! Next time, let's also ask about travel history, especially if they're visiting family in high-risk areas. Just a sec thought - did we send the blood cultures and imaging? Was the patient stable pre-rapid sequence intubation?",
-        "color": "blue"
-      }
-    ]
-  },
-  {
-    "id": 3,
-    "title": "Rant about chronic pain in the ED: when is enough, enough?",
-    "body": "Just saw a patient with complex regional pain syndrome (CRPS) that had been misdiagnosed as a chronic pain issue for years. They had been taking high dose opioids for 5 years with minimal relief and significant side effects. When I took a closer look at the history and physical exam, I realized that the symptoms had actually started within 2 weeks of an acute injury and had never really resolved. I was able to diagnose CRPS type I and get them started on some evidence-based treatment plans. It made me think about how often we see patients in the ED with chronic pain complaints, and how often we default to opioids as a first line treatment. I know I'm not alone in feeling frustrated about this. Has anyone else had any experiences with chronic pain management in the ED? TL;DR: chronic pain management in the ED is tough, let's get on board with evidence-based treatments!",
-    "category": "EM",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Preach, OP! Chronic pain management in the ED is one of the toughest challenges we face. The problem is, it's so easy to get sidetracked by the 'opioid crisis' and default to pain meds. I've lost count of how many times I've said to myself, 'just give them a few pills and send them on their way.' But the truth is, most of those patients need more than just pain management \u2013 they need a complete overhaul of their treatment plan. We need to be doing more to recognize and treat CRPS, as well as other chronic pain conditions. Some useful resources: the Canadian Pain Society has a great guide to CRPS management and the PainBC website has some excellent info on chronic pain generally.",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Hi OP, thanks for this post! I'm really interested in learning more about chronic pain management. Can you elaborate a bit more on what you mean by 'evidence-based treatments'? Are there specific medications or therapies that you would recommend? Also, what kind of follow-up care do you usually recommend for patients with CRPS?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "I'm with OP on this. The opioid crisis has really skewed our perspective on pain management. And yes, it's easy to default to pain meds, but it's not just about the meds \u2013 it's about getting to the root cause of the problem. For me, it's about taking a holistic approach to care. We need to be looking at the whole patient, not just their symptoms. And we need to be doing more to educate patients about their treatment options. I've had some good luck with using virtual reality for pain management \u2013 it's been a game-changer for some of my patients.",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Hi Dr. Barb, virtual reality for pain management? That sounds like some crazy tech. Can you tell me more about it? I've been trying to do some research on it, but I'm not sure where to start.",
-        "color": "teal"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "I'm just gonna throw this out there: let's not forget about the role of the nursing staff in chronic pain management. We're often the ones who are seeing patients multiple times, and we have a unique perspective on their care. I've had some patients who are just really resistant to change, and they need someone to sit them down and have a real talk with them. We need to be more proactive in educating patients and advocating for them. Some good resources: the Canadian Nurses Association has a great guide to pain assessment and the Pain Nursing website has some excellent info on chronic pain management.",
-        "color": "violet"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "Amen, Turbo Tom! I couldn't agree more about the importance of nursing staff in chronic pain management. We need to be more proactive in advocating for our patients and pushing for better care. And yeah, some patients can be really resistant to change \u2013 it's like they're addicted to their pain meds. Okay, maybe not addicted, but you get my point.",
-        "color": "orange"
-      },
-      {
-        "id": 7,
-        "parent_id": 1,
         "user": "Dr. Sarah Sharp",
         "role": "EP",
         "city": "Laval, QC",
-        "text": "This is a great conversation, guys. One thing that I think we need to keep in mind is the importance of patient consent and autonomy in chronic pain management. We need to be having more honest and open conversations with our patients about their treatment options and the potential risks and benefits. Some useful resources: the Canadian Medical Protective Association has a great guide to informed consent and the Pain Medicine website has some excellent info on chronic pain generally.",
-        "color": "silver"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "Thank you, Dr. Sharp, for mentioning patient autonomy. As someone with chronic pain, I can attest to how frustrating it can be to be seen as just a 'chronic pain patient' rather than a whole person. I appreciate your emphasis on informed consent and open communication.",
-        "color": "pink"
-      },
-      {
-        "id": 9,
-        "parent_id": 7,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Hi Dr. Sharp, thanks for bringing up the importance of patient consent. Can you elaborate on what you mean by 'honest and open conversations'? Do you have any specific recommendations for how to have these conversations with patients?",
-        "color": "green"
-      },
-      {
-        "id": 10,
-        "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs. This is a topic for the pain specialists, not the ER docs. You're all just treating symptoms, not the underlying cause of the problem. If you can't even diagnose CRPS correctly, how can you expect to manage it effectively?",
-        "color": "black"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Victor, come on. We're not just treating symptoms \u2013 we're trying to help our patients achieve a better quality of life. And we need to be working together to do that. Chronic pain management is a team effort, and every player has a role to play. Your condescension is getting old, dude.",
+        "text": "I've seen my fair share of occupational asthma cases, but fragrance-induced asthma is less common. However, it's essential to consider it, especially if the patient works in a job where they're frequently exposed to strong chemicals or fragrances.",
         "color": "purple"
       },
       {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Victor, I have to agree with Dr. Thorne. We're not just treating symptoms \u2013 we're trying to help our patients achieve a better quality of life. And your comment just comes off as snobbish and elitist. Newsflash: we're all trying to do the best we can with the resources we have.",
-        "color": "blue"
-      }
-    ],
-    "image": "https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3862719440526509454"
-  },
-  {
-    "id": 12,
-    "title": "Just had a crazy night with a severe electrical injury and a weird lightning strike",
-    "body": "Just saw a patient come in with a severe electrical injury. The patient was a lineman working on a transformer when he got zapped. Had to intubate him and call for a cardio team. One of the most intense shifts I've had in a while. But things got even weirder when I found out he was also a storm chaser and had been tracking a lightning storm in the area. Turns out, he was hit by lightning during the incident. I've never seen anything like it. The combination of electrical and lightning injuries was a real challenge...",
-    "category": "clinical_anecdote",
-    "comments": [
-      {
-        "id": 6,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "MD",
-        "city": "Toronto, ON",
-        "text": "Fascinating case! The combination of electrical and lightning injuries is indeed rare. Did you get a chance to run some lab tests to confirm the extent of the injuries? I'd love to hear more about the specifics of the case, especially regarding the lightning strike. And by the way, have you seen the latest study on lightning injuries? ",
-        "color": "blue"
-      },
-      {
-        "id": 18,
-        "parent_id": 6,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Thorne! I've been studying for my boards and came across the study on lightning injuries. Can you please clarify what you meant by the 'unique pathophysiology' of lightning strikes? I'd love to know more about how it affects the body",
-        "color": "green"
-      },
-      {
-        "id": 19,
-        "parent_id": 6,
+        "id": 2,
+        "parent_id": 1,
         "user": "Sarah Jenkins",
         "role": "MS3",
         "city": "Ottawa, ON",
-        "text": "Dr. Thorne, I've been reading about the different types of injuries caused by lightning strikes. Isn't it true that the current can also cause cardiac arrest and renal failure? Can you elaborate on that?",
-        "color": "purple"
+        "text": "I've read about a case study where a perfume fragrance caused severe asthma in a patient. Did you use peak flow measurements to assess the severity of their asthma, Dr. Sharp?",
+        "color": "green"
       },
       {
-        "id": 10,
-        "parent_id": null,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Oh man, that's some crazy stuff! As a nurse, I've had to deal with my fair share of electrical injuries. But lightning? That's a new one for me. Did you guys have to transport the patient to a higher level of care or did you manage to stabilize him on the scene?",
-        "color": "orange"
-      },
-      {
-        "id": 13,
-        "parent_id": 10,
-        "user": "Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "Good question, Turbo! In my experience, lightning injuries often require a higher level of care due to the severity of the trauma. Did you guys consider admitting the patient for observation or did you manage to discharge him?",
-        "color": "red"
-      },
-      {
-        "id": 20,
-        "parent_id": 10,
+        "id": 3,
+        "parent_id": 1,
         "user": "Dr. Kevin Park",
         "role": "PGY1",
         "city": "Edmonton, AB",
-        "text": "Rant alert! I had a similar case last year and the patient ended up having to be air-lifted to a higher level of care. It was such a challenge to manage the patient's condition, especially given the remote location. Has anyone else dealt with a similar situation?",
-        "color": "pink"
-      },
-      {
-        "id": 2,
-        "parent_id": null,
-        "user": "Dr. Victor Sterling",
-        "role": "MD",
-        "city": "Calgary, AB",
-        "text": "Amateurs. You're over-reacting. It's just a simple electrical injury. The patient will be fine. Get some perspective, people.",
-        "color": "gray"
-      },
-      {
-        "id": 22,
-        "parent_id": 2,
-        "user": "Dr. Aris Thorne",
-        "role": "MD",
-        "city": "Toronto, ON",
-        "text": "I disagree, @Dr. Sterling. You can't just dismiss the severity of this case. The combination of electrical and lightning injuries is indeed a serious challenge for emergency physicians. Let's stay focused on providing the best possible care for our patients.",
-        "color": "blue"
-      }
-    ]
-  },
-  {
-    "id": 23,
-    "title": "TLDR: Just encountered a tricky case of nonconvulsive status epilepticus on shift. Had to think outside the box to avoid missing the diagnosis.",
-    "body": "Just saw a patient come in with a chief complaint of confusion and disorientation. I quickly noticed her vital signs were within normal limits, and her ECG was unremarkable. However, she was exhibiting repetitive automatisms and was unresponsive to verbal stimuli. I suspected status epilepticus, but a quick glance at her EEG revealed a non-convulsive pattern. I quickly realized that she was in a state of NCSE (Nonconvulsive Status Epilepticus) and needed immediate intervention.",
-    "category": "Emergency Medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Great case! NCSE is a tough one to diagnose, especially in the context of altered mental status. Has anyone else had a similar experience with NCSE? I've found that a quick look at the patient's prior medical history and any potential medication non-adherence can give clues to the diagnosis.",
-        "color": "blue"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Thanks for sharing the case, Dr. Thorne! I had a similar situation last year where the patient was on benzodiazepines and showed signs of NCSE. What's your take on the role of midazolam in NCSE treatment? Should we be considering IV midazolam in this scenario?",
-        "color": "orange"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Agree that NCSE diagnosis is challenging! I've used the '5-minute' rule of thumb to assess for possible status epilepticus - if a patient is unresponsive and shows signs of continued seizure activity after 5 minutes, get the EEG ready! Has anyone else used this method with success?",
-        "color": "red"
+        "text": "Peak flow measurements are crucial in assessing the severity of asthma. However, I've also seen cases where patients have a low peak flow reading despite minimal symptoms. Can someone explain the difference in interpreting these results?",
+        "color": "purple"
       },
       {
         "id": 4,
         "parent_id": 3,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Hi Dr. Gupta! Just wanted to clarify the '5-minute rule'. Is it more of a guideline or a hard and fast rule? And do you use it in conjunction with clinical judgment or is it a standalone assessment tool?",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "What a bunch of nonsense. Status epilepticus is obvious when the patient is convulsing like a wild animal. Don't get me started on nonconvulsive status - that's just an academic exercise for people who can't tell the difference between a seizure and a catatonic episode.",
-        "color": "purple"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Glad someone with your vast surgical expertise is weighing in on this, Dr. Sterling. But let's not forget that NCSE is a very real condition that requires prompt recognition and treatment. Maybe we can link to some resources that show you the difference between a seizure and a catatonic episode?",
-        "color": "blue"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Just encountered a tricky case of pediatric respiratory arrest in the ED... ",
-    "body": "Had a 5yo patient in respiratory arrest with no obvious cause on vitals and a clear history. Was about to do compressions when the nurse pointed out some faint inspiratory crackles on the chest xray. Turned out to be viral pneumonia, and the kid ended up going to the PICU. What are the odds of this in a previously healthy child? And has anyone else experienced similar cases?",
-    "category": "emergency medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "SarahJenkins",
-        "role": "MS3",
-        "city": "Ottawa,ON",
-        "text": "TLDR: Respiratory arrest in a 5yo with pneumonia. Great job catching that nurse!",
-        "color": "green"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "LeoChen",
-        "role": "MS1",
-        "city": "Montreal,QC",
-        "text": "What percentage of pediatric respiratory arrests are due to pneumonia? Can someone provide a source?",
-        "color": "purple"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "MayaGupta",
+        "user": "Dr. Maya Gupta",
         "role": "PGY2",
-        "city": "Mississauga,ON",
-        "text": "Great question, Leo! According to the American Heart Association (AHA) guidelines, respiratory infections are responsible for approximately 20-30% of pediatric cardiac arrests.",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "DrArisThorne",
-        "role": "StaffPhysician",
-        "city": "Toronto,ON",
-        "text": "As a wise attending once told me, 'Pneumonia can present in many different ways, from subtle signs to catastrophic failure.' This case reminds us of the importance of staying vigilant and not missing subtle cues.",
-        "color": "red"
+        "city": "Mississauga, ON",
+        "text": "Great question, Dr. Park! When interpreting peak flow readings, it's essential to consider the patient's age, sex, and height. A percentage of predicted normal (PPN) is a more accurate measure than an absolute value. This accounts for individual variability and makes comparisons across different populations more reliable.",
+        "color": "green"
       },
       {
         "id": 5,
-        "parent_id": 4,
-        "user": "ChadBroson",
-        "role": "Pre-med",
-        "city": "Brampton,ON",
-        "text": "Whoa, love the wisdom of Dr. Thorne! Can someone explain what makes this case more subtle? Was it the history? The age?",
-        "color": "pink"
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "I've seen many cases where fragrance-induced asthma is misdiagnosed. What are some red flags that might help us identify these cases earlier? Any tips for how to ask our patients about perfumes or fragrances when we're not sure if it's the culprit?",
+        "color": "purple"
       },
       {
         "id": 6,
-        "parent_id": 5,
-        "user": "DrZiggy",
-        "role": "EP",
-        "city": "Vancouver,BC",
-        "text": "Chad, good question! In this case, I think what made it more subtle was the age and presentation. The patient appeared to be otherwise healthy, with no history of underlying conditions, and the symptoms developed over several hours rather than acutely.",
-        "color": "grey"
+        "parent_id": 1,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Red flagging is crucial in identifying fragrance-induced asthma. One red flag is the presence of atopic dermatitis. Another is exposure to fragrances at work or in their daily life. To ask patients about perfumes or fragrances, try using open-ended questions like, 'What's your daily routine like? Are you exposed to any strong chemicals or fragrances?' This encourages patients to share information that might not be immediately apparent.",
+        "color": "green"
       },
       {
         "id": 7,
-        "parent_id": 1,
-        "user": "DrRickTheRage",
-        "role": "EP",
-        "city": "Windsor,ON",
-        "text": "Enough chit-chat, folks. What I want to know is, does anyone use a rapid sequence intubation (RSI) protocol for pediatric respiratory arrests? Should we be? Share your experiences!",
-        "color": "orange"
+        "parent_id": null,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "What's the main difference between asthma and COPD? Aren't they pretty much the same thing?",
+        "color": "purple"
       },
       {
         "id": 8,
         "parent_id": 7,
-        "user": "DrBarbMiller",
-        "role": "EP",
-        "city": "Winnipeg,MB",
-        "text": "Actually, we do use RSI in our ED, especially for pediatric patients with potential airway difficulties or those requiring emergent intubation.",
-        "color": "brown"
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Asthma and COPD are two distinct conditions. While both involve airflow obstruction, asthma is characterized by reversible airway inflammation, whereas COPD is marked by chronic inflammation of the airways, which results in irreversible airflow limitation. Think of it this way: asthma is like a sudden storm, while COPD is like a prolonged drought.",
+        "color": "green"
       },
       {
         "id": 9,
         "parent_id": 8,
-        "user": "SarahJenkins",
-        "role": "MS3",
-        "city": "Ottawa,ON",
-        "text": "That's interesting, Dr. Miller. Can you share your RSI protocol with us? I'm not familiar with the details.",
-        "color": "turquoise"
-      },
-      {
-        "id": 10,
-        "parent_id": 1,
-        "user": "TurbTom",
-        "role": "RN",
-        "city": "London,ON",
-        "text": "Well, well, well... looks like someone's sharing a war story from last night! I bet it's not as bad as I'd imagine, but still... what can you tell us about the kid's outcome, OP?",
-        "color": "yellow"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "DrRickTheRage",
-        "role": "EP",
-        "city": "Windsor,ON",
-        "text": "Actually, Turb, this was a tough case. The patient ended up on oxygen therapy for a few days, but made a full recovery.",
-        "color": "black"
-      }
-    ],
-    "image": "https://emcon.in/wp-content/uploads/2024/06/PREM.png"
-  },
-  {
-    "id": 1,
-    "title": "Just saw a patient with thyroid storm and it made me think...",
-    "body": "Just saw a patient with thyroid storm and it made me think about how often we see this condition in the ED. The patient was a 35 year old woman who presented with fever, tachycardia, and altered mental status. She had a history of Graves' disease and was on methimazole. The ECG showed atrial fibrillation and the labs showed an elevated T3 level. We managed to stabilize her but I couldn't help but think about how often we see patients with thyroid storm who are misdiagnosed as having a psychiatric condition or sepsis. Has anyone else seen this? Any tips for diagnosing thyroid storm in the ED?",
-    "category": "Emergency Medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "I've seen my fair share of thyroid storm cases in the ED. The key is to think about the patient's history of thyroid disease and the presence of any symptoms that could suggest thyrotoxicosis such as tachycardia, palpitations, and weight loss. It's also important to check for any precipitating factors such as stress, trauma, or infection. Once you suspect thyroid storm, the management is relatively straightforward: supportive care, beta blockers, and potassium iodide. Thanks for bringing this up, reminds me of an old case from med school.",
-        "color": "blue"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Thanks for the tip, Dr. Thorne! I've been studying thyroid disease in my rotation. In that case, I read that precipitating factors can include certain medications like amiodarone and NSAIDs. What are some other things that we should be mindful of in thyroid storm?",
-        "color": "purple"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
         "user": "Sarah Jenkins",
         "role": "MS3",
         "city": "Ottawa, ON",
-        "text": "I recently read a paper on the diagnosis and management of thyroid storm and it mentioned the importance of checking for hypercoagulability due to the increased risk of thrombosis. Did you guys consider checking for any coagulation abnormalities in this patient?",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Actually, I didn't check for coagulation abnormalities in this case, but it's a good point to consider. I do remember that one of my colleagues had a patient with thyroid storm who developed a pulmonary embolus. It's always good to think about these complications when managing these cases.",
-        "color": "blue"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Just wanted to chime in and say that we've had a few thyroid storm cases in the ER and it's always a challenge to manage. One thing we've found helpful is to use a combination of beta blockers and potassium iodide to control the hyperthyroid symptoms. Has anyone else used this combination?",
+        "text": "I've learned that a key difference between asthma and COPD is the presence of chronic bronchitis in COPD patients. Is that correct, Dr. Thorne?",
         "color": "purple"
       },
       {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "We've used that combination in the past as well. I think it's helpful to remember that the key to managing thyroid storm is to control the symptoms and prevent complications. It's all about thinking ahead and being prepared for the possible complications that can arise.",
-        "color": "green"
-      },
-      {
-        "id": 7,
-        "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs. You're all just pretending to be experts. I've seen thousands of thyroid storm cases and I can tell you that the best way to manage them is with surgery. No medication, no beta blockers, just surgery. Anyone who disagrees is just a novice.",
-        "color": "red"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
+        "id": 10,
+        "parent_id": 9,
         "user": "Dr. Aris Thorne",
         "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "Really, Dr. Sterling? Surgery is not the first line of treatment for thyroid storm. In fact, surgery is often contraindicated in these cases. The key is to manage the symptoms and prevent complications with medication and supportive care.",
-        "color": "blue"
-      },
-      {
-        "id": 9,
-        "parent_id": 1,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Aren't we all just trying to do what's best for the patient? I've seen some cases of thyroid storm in my experience and it's always been about getting the patient's symptoms under control and preventing complications. Can we all just agree on that and move forward?",
-        "color": "green"
-      }
-    ]
-  },
-  {
-    "id": 102,
-    "title": "Just saw a patient with suspected appendicitis... how do you approach this diagnosis in your ED?",
-    "body": "Just saw a patient with a classic presentation for appendicitis - severe RUQ pain, anorexia, and rebound tenderness. I started thinking about the nuances of diagnosis... is fever always a must? Can a high CRP and ESR be definitive in the right patient?",
-    "category": "Today I Learned",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Always approach appendicitis with a high level of suspicion. Fever is not always present, and a high CRP and ESR can be supportive, but not definitive. What's the patient's white blood cell count? Has the patient had previous appendicitis?",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "I thought a high white blood cell count was usually a good indicator of appendicitis? Dr. Thorne, can you clarify why not?",
+        "text": "That's correct, Sarah! Chronic bronchitis, characterized by a productive cough, is a hallmark of COPD. While asthma can sometimes present with a cough, it's often a dry cough, unlike the productive cough seen in COPD.",
         "color": "green"
       },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I agree with Dr. Thorne, Leo. While a high WBC is suggestive, it's not definitive. What about the patient's clinical presentation? Are there any red flags that might suggest alternative diagnoses, like Meckel's diverticulitis or Crohn's disease?",
-        "color": "yellow"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "OMG, what about ultrasound? Can't we just do an ultrasound and get a definitive diagnosis? ",
-        "color": "blue"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "In my experience, fever is more commonly associated with appendicitis in the elderly population. What about this patient's age and comorbidities, Dr. Thorne?",
-        "color": "orange"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Feesr in the elderly patients usually a bad sign of perforated appendix. I donno why you guys don't get it. Amateurs.",
-        "color": "red"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Dr. Sterling, I think we can all agree that fever in the elderly is concerning, but not always diagnostic. What about the patient's vital signs, Dr. Varkov? Do they have any signs of dehydration or shock?",
-        "color": "purple"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Actually, Dr. Sterling, a high fever in the elderly is indeed concerning for perforated appendix. We should always keep that in mind when evaluating patients. And, Dr. Thorne, I agree with your comments about fluid status.",
-        "color": "orange"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Today I learned... the importance of a timely diagnosis of Pulmonary Embolism (PE)",
-    "body": "Just saw a patient with a high Wells' score (8/10) who was sent home 2 days ago with a diagnosis of 'muscle cramp'... only to present in respiratory distress. Had to call the patient's family at midnight to let them know their loved one was code blue. Anyone else have these moments?",
-    "category": "emergency medicine",
-    "comments": [
       {
         "id": 11,
         "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "MD",
-        "city": "Toronto, ON",
-        "text": "So sorry to hear that. It's a good reminder to always keep a high index of suspicion for PE, especially in patients with high Wells scores or risk factors. Have you considered using the simplified PE rule from the CHEST 2019 guidelines? It's a quick and easy way to rule out PE. (https://www.ncbi.nlm.nih.gov/pubmed/31344191)",
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "This thread has been incredibly informative. Can I ask one more question: What's the most effective way to manage Status Asthmaticus in an acute setting?",
         "color": "purple"
       },
       {
         "id": 12,
         "parent_id": 11,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Wow, that sounds like a terrifying situation! Can you tell us more about the Simplified PE Rule? Is it a valid alternative to the Wells Score?",
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "The most effective way to manage Status Asthmaticus is with a combination of beta-agonist medications, corticosteroids, and oxygen therapy. Can someone elaborate on the dosing and administration of these medications?",
         "color": "green"
       },
       {
         "id": 13,
         "parent_id": 12,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "When managing Status Asthmaticus, it's essential to use a nebulizer to deliver medication directly to the airways. The typical regimen includes a combination of albuterol (2.5-5mg) and ipratropium bromide (250-500mcg). Oxygen therapy should be started at 2-3L/min and titrated up to achieve a SpO2 of at least 92%.",
+        "color": "purple"
+      },
+      {
+        "id": 14,
+        "parent_id": 13,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "One thing to keep in mind when administering oxygen is to make sure the patient is in a safe position to prevent nasal congestion. Have you ever seen cases where patients become despondent due to the high flow rate of oxygen?",
+        "color": "green"
+      },
+      {
+        "id": 15,
+        "parent_id": 14,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Despondency can indeed occur, especially if patients are not properly positioned or if they're in acute distress. A more comfortable position, such as sitting upright with a pillow under their head, can help alleviate symptoms and reduce anxiety.",
+        "color": "purple"
+      },
+      {
+        "id": 16,
+        "parent_id": 15,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Wow, I've learned so much from this thread! Is there a resource or a journal article that we can refer to for further reading on occupational asthma and Status Asthmaticus?",
+        "color": "green"
+      },
+      {
+        "id": 17,
+        "parent_id": 16,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "A great resource for further reading on occupational asthma and Status Asthmaticus is the American Thoracic Society's Position Paper on Occupational Asthma. The references cited in the paper will also provide excellent guidance on evidence-based treatment options.",
+        "color": "purple"
+      },
+      {
+        "id": 18,
+        "parent_id": 17,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Can I ask one final question: Are there any specific labs or tests that should be ordered for a patient with suspected occupational asthma?",
+        "color": "green"
+      }
+    ],
+    "image": "https://emergencymedicinecases.com/wp-content/uploads/2024/04/EM-cases-asthma-algo-V4.png"
+  },
+  {
+    "id": 1023,
+    "title": "Frustrating Miss Last Night: Difficulty Differentiating Pulmonary and Cardiac Causes of Dyspnea",
+    "body": "Just saw a patient with severe respiratory distress and was stuck on the differential of CHF versus pulmonary embolism. Anyone else have trouble differentiating between the two? In retrospect, I think I was over-reliant on the ECG and lab values... what are your guys' tips for making the distinction?",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP (ER Physician)",
+        "city": "Vancouver, BC",
+        "text": "TLDR: Cardiac and pulmonary causes of dyspnea share some similar red flags, but the key is to think about the patient's overall clinical picture. Ask yourself, is this a patient who would normally present with orthopnea, or is this a new development? Have they had any chest pain or palpitations? And don't forget to check the basics, like a bedside Valsalva maneuver to check for a possible PE vs. CHF.",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1 (Medical Student)",
+        "city": "Montreal, QC",
+        "text": "Dr. Zalesky, I've only just started my rotation in EM, but I think I'm getting better at distinguishing the two... do you think the presence of an S3 gallop on a cardiac exam would be a strong indicator of CHF?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1 (Resident)",
+        "city": "Edmonton, AB",
+        "text": "I think what @Leo is getting at is, an S3 gallop is often thought of as a hallmark of CHF... but in reality, it can also be present in other conditions like pulmonary embolism or even just a normal variant. So it's not foolproof. Has anyone else had experiences where an S3 gallop led them astray?",
+        "color": "lightblue"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3 (Medical Student)",
+        "city": "Ottawa, ON",
+        "text": "@Dr. Park, I think I may have seen that paper on the limitations of the S3 gallop in differentiating CHF from PE. Can you or Dr. Zalesky provide a link to that paper? I'd love to read up on it and learn more.",
+        "color": "yellow"
+      },
+      {
+        "id": 5,
+        "parent_id": null,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP (Family Physician)",
+        "city": "Victoria, BC",
+        "text": "I think this thread is a great reminder of how important it is to not get too hung up on individual signs and symptoms. In my experience, what really matters is whether or not the patient's overall story makes sense... and in this case, I think @Dr. Ziggy's advice to think about the whole patient is spot on.",
+        "color": "orange"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "None (quixotic)",
+        "text": "@Dr. Oldman, your words are as soothing as a gentle breeze on a summer day. You are right, we must not forget to listen to the patient's 'whole story.' But, alas, I fear that I, too, have been guilty of fixating on individual signs and symptoms... as a patient myself, I can attest that this can lead to much confusion and distress.",
+        "color": "pink"
+      },
+      {
+        "id": 7,
+        "parent_id": null,
+        "user": "Turbo Tom",
+        "role": "RN (Registered Nurse)",
+        "city": "London, ON",
+        "text": "Amen to that, @Barnaby! I've seen it time and time again, where nurses (and docs, too!) get so caught up in searching for a specific code or diagnosis that they forget to actually take care of the patient. Remember, people, we're not just solving puzzles, we're healing human beings.",
+        "color": "red"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Martha 'The Hammer'",
+        "role": "RN (Registered Nurse)",
+        "city": "Halifax, NS",
+        "text": "Amen, @Turbo! Preach, my friend. I've been a nurse for 30 years and I can tell you, some of the best care we can provide is when we take a step back, breathe, and just start talking to the patient. Like, really talking. Not just 'How are you feeling?' BS, but actual conversations.",
+        "color": "lightgreen"
+      },
+      {
+        "id": 9,
+        "parent_id": null,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "A most excellent discussion, my friends! In my day (the 1930s, of course), we didn't have all these fancy diagnostic tools... but we did have a good dose of common sense. And that's what this thread has reminded me: the art of medicine is not just about technology, but about people.",
+        "color": "brown"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP (ER Physician)",
+        "city": "Laval, QC",
+        "text": "@Dr. Thorne, couldn't agree more... although I do think our technology has its place! But I also know that sometimes, the simplest interventions are the most effective. Like, did you know that a quick chat with a patient can actually lower their cortisol levels and improve their symptoms?",
+        "color": "violet"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Rant about altered mental status and delirium in the ED.",
+    "body": "Today I learned that I over-looked a case of delirium due to hypoglycemia because I thought the patient's vitals were within normal limits. What are some common pitfalls that lead to missed diagnoses of altered mental status? How do we differentiate between delirium and other causes of altered mental status like depression or anxiety?",
+    "category": "r/EMcritique",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "One pitfall is neglecting to get a complete history and physical exam on patients with AMS, particularly those who are elderly or have a history of substance abuse. Delirium is often a diagnosis of exclusion, so we need to have a low threshold for ordering imaging and lab studies to rule out underlying causes.",
+        "color": "blue"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "What are some key findings on the physical exam that can help diagnose delirium? I've heard that patients with delirium often have fluctuating symptoms and difficulty with attention.",
+        "color": "purple"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "Great question Leo! The Simplified PE Rule is a clinical decision tool that uses age, D-dimer, and heart rate to rule out PE. It's similar to the Wells Score, but has been validated in several studies as a more accurate and efficient way to exclude PE (https://www.ncbi.nlm.nih.gov/pubmed/29531292). We've started using it in our ED and I think it's a game-changer!",
+        "text": "Great point, Leo! Fluctuating symptoms and difficulty with attention are indeed common in delirium. I also look for signs of agitation, aggression, or withdrawal, which can be indicative of an underlying cause. Has anyone else had success with using standardized assessment tools like the CAM-ICU or the Delirium Detection Algorithm?",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 2,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "According to a recent review in the Journal of the American Geriatrics Society, the CAM-ICU has a high sensitivity and specificity for diagnosing delirium, particularly in the ICU setting. However, I've also heard that it can be time-consuming to administer and score. Can anyone speak to their experience with using the CAM-ICU in practice?",
         "color": "blue"
+      },
+      {
+        "id": 5,
+        "parent_id": 1,
+        "user": "Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "I'm not a fan of standardized assessment tools like the CAM-ICU. They can be too rigid and fail to account for the complexity of individual patients. In my experience, a good old-fashioned history and physical exam, combined with a thorough review of systems, is often the most effective way to diagnose delirium.",
+        "color": "orange"
+      }
+    ]
+  },
+  {
+    "id": "2023-puncture-wounds-reddit-thread",
+    "title": "Just saw a patient with a puncture wound from an autoinjector - anyone else have this problem?",
+    "body": "I've been practicing ER for over 10 years, but this case still got me. A 32-year-old male patient came in with a digital ischemia from an accidental epinephrine injection. Luckily, I remembered that subcutaneous phentolamine injected into the original puncture site can rapidly reverse the ischemia.\n\nThe treatment involves mixing 0.5 mL of standard phentolamine solution (5 mg/mL concentration) with 0.5 mL of 1% lidocaine solution, creating a 1 mL total volume containing 2.5 mg of phentolamine. The patient was treated and discharged once the ischemia was resolved. However, I couldn't find any official guidelines on this treatment.\n\nTLDR: Accidental epinephrine injections from autoinjectors can cause digital ischemia, but phentolamine can reverse it.",
+    "category": "emergency-medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "I've seen this before, but it's always a good reminder. One thing to consider is that patients with immunodeficiency or comorbidities may require prophylactic antibiotics due to the increased risk of wound infections. See Tintinalli's Chapter 45, 'Soft Tissue Foreign Bodies' [1] for more.",
+        "color": "#4CAF50"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "What about the advance-and-cut technique for removing fishhooks from puncture wounds?",
+        "color": "#8B9467"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "This is just another example of amateurs rushing to treat patients without proper training. The 'treatment' you described is just a hack, not a real medical intervention. The right approach would be to admit the patient and closely monitor the wound for signs of infection.",
+        "color": "#FF0000"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Come on, Vic. We're talking about treating a patient in the ER with phentolamine, not performing open-heart surgery. It's not about 'rushing' but about making the best decision in the moment. And yes, antibiotics may be necessary, especially for immunocompromised patients [2].",
+        "color": "#6495ED"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Can you link to the studies you're referencing, please? Specifically, the Tintinalli chapter and the paper on antibiotic use in puncture wounds?",
+        "color": "#FFC080"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Sorry, Sarah, but the references are not publicly available. They're part of the Tintinalli textbook, which is a paywall-protected resource. If you're interested in learning more, I suggest you contact your hospital library for access.",
+        "color": "#4C5134"
+      },
+      {
+        "id": 7,
+        "parent_id": null,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "A great reminder of the importance of wound care. Puncture wounds can be particularly challenging due to their depth and difficulty in visualizing the full extent of the injury.",
+        "color": "#008000"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "I had a similar experience with a puncture wound from a cat bite. It was incredibly painful and took weeks to heal. I hope others will learn from my mistake and take wound care seriously.",
+        "color": "#6495ED"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Just saw a patient with suspected UTI... now I'm questioning everything",
+    "body": "",
+    "category": "medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Just saw a patient with suspected UTI symptoms, but no leukocyte esterase or nitrites on the UA. Now I'm questioning everything... what's the deal with asymptomatic bacteriuria (ABU)? Is it just me or does it feel like every other female patient I see has a 'positive' culture? Anybody have experience with this? Thanks!",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Haha, yeah, ABU is a thing... but don't worry, most times it's just a contaminant. Here's a fun fact: 1 in 5 women with ABU will develop a symptomatic UTI within 6 months... BUT, only 10% of those will require treatment! So, what's the takeaway, folks? Not all positive cultures are created equal. Anybody want to share some ABU management strategies?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "I'm all too familiar with ABU. So, here's the thing: most healthy, non-pregnant women with ABU don't need treatment. But what about our older adults or patients with complex medical histories? Anybody have experience treating UTIs in these populations?",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Actually, Dr. Miller, studies have shown that even in patients with risk factors, treatment of ABU does not prevent UTIs or symptoms from developing. Any thoughts on why our residents are so quick to prescribe antibiotics for ABU?",
+        "color": "green"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Good question, Sarah! I think part of the issue is that some of our residents aren't familiar with the guidelines or the underlying data. Also, let's be real, sometimes we just want to 'treat and forget'... but that's changing, folks! Thanks to all the awesome discussions on this thread. Can we move on to the fun stuff now (i.e. pyelonephritis)??",
+        "color": "green"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "'Amateurs' in the ED think pyelonephritis is all about 'fever and chills'... but what about all the other presentations? Can we discuss this further? Perhaps someone can link to a decent resource?",
+        "color": "green"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "Actually, I've got just the thing: a great review article on pyelonephritis from the Annals of Emergency Medicine. [link] Thanks for keeping us on our toes, Dr. Sterling! Anybody got any thoughts on the role of CT scans in diagnosing pyelonephritis?",
+        "color": "green"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Uh, isn't CT imaging generally reserved for complicated cases only? Or am I misremembering?",
+        "color": "green"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "By Jove, you're absolutely right, young fellow! CT scans are indeed reserved for complicated cases. In the good old days, we just relied on good ol' clinical judgment. (And by 'good ol' days', I mean before the advent of antibiotics...)",
+        "color": "green"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Uh, can we please revisit the whole topic of CT scans and pyelonephritis now? I want to make sure I understand the nuances.",
+        "color": "green"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Yeah, I've been studying for exams and I just want to clarify that pyelonephritis is like, a type of UTI, right? And is it true that the most common cause is E. coli?",
+        "color": "green"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "Haha, yeah, Chad, you're almost there! Pyelonephritis is a type of UTI, but it's more like... an upper UTI, if you will. And yes, E. coli is the most common cause, but what about other organisms?",
+        "color": "green"
+      },
+      {
+        "id": 13,
+        "parent_id": 12,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "Wait, what's going on? I thought this thread was about UTIs? Can we maybe get back on track?",
+        "color": "green"
+      },
+      {
+        "id": 14,
+        "parent_id": 13,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Aw, don't worry, Barnaby! We'll get back to the good stuff in a jiffy. But first, has anyone got any good ABU management tips to share?",
+        "color": "green"
+      },
+      {
+        "id": 15,
+        "parent_id": 14,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "You want to talk about ABU management? That's a whole different story. In my 30 years of nursing experience, I've seen it all... Okay, fine. I'll share one tip: don't be afraid to send those urine cultures for review. Trust me.",
+        "color": "green"
+      },
+      {
+        "id": 16,
+        "parent_id": 15,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Ooh, Martha 'The Hammer'! You're like, the ultimate nurse-physician combo! What's the deal with urine cultures, anyway?",
+        "color": "green"
+      },
+      {
+        "id": 17,
+        "parent_id": 16,
+        "user": "Dr. Phil Muddle",
+        "role": "EP",
+        "city": "Regina, SK",
+        "text": "Uh, I think... I'm pretty sure... that we use urines cultures to diagnose... um... wait, what was the question?",
+        "color": "green"
+      },
+      {
+        "id": 18,
+        "parent_id": 17,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Haha, Phil, Phil, Phil! You're like the comedy gold of this thread! (Just kidding, of course... sorta)",
+        "color": "green"
+      }
+    ],
+    "image": "https://www.ebmedicine.net/media_library/images/2024-PEMP-Publication-Article/01-January/Clinical-Pathway-for-Management-of-Children-With-Urinary-Tract-Infection-in-the-Emergency-Department-1.png"
+  },
+  {
+    "id": 1,
+    "title": "Frustrating case of a patient with a thermal injury",
+    "body": "Just saw a patient with a thermal injury from a car accident. She had a 2nd degree burn on her arm and a 3rd degree burn on her thigh. The initial assessment showed hypotension, tachycardia, and decreased level of consciousness. She was taken to the OR for debridement and grafting. However, during the surgery, I realized that her vital signs were not improving and her blood pressure was still low. I called the anesthesiologist to check the lab results and he told me that she had a severe anion gap metabolic acidosis. What are your thoughts on this case? How would you have managed it differently?",
+    "category": "r/EMedicine",
+    "comments": [
+      {
+        "id": 11,
+        "parent_id": null,
+        "user": "Dr. Victor Sterling",
+        "role": "MD",
+        "city": "Calgary, AB",
+        "text": "Amateurs, let's not get ahead of ourselves. We need to take a step back and assess the patient's overall condition. Has anyone checked for occult fractures, pneumothorax, or other injuries that could be contributing to her hypotension? We can't just jump into the OR without ruling out other potential causes.",
+        "color": "green"
       },
       {
         "id": 21,
         "parent_id": 11,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "Dear Dr. Aris Thorne, I was the patient who was sent home 2 days ago for muscle cramps. I must say, the care I received before you called my family was top-notch. I'm still a bit shaken by the experience, but I'm grateful for your diligence and the timely intervention. Thank you for sharing your story, it's made me realize how close I came to disaster. I've learned to always listen to my body and seek medical help when I'm uneasy!",
-        "color": "teal"
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Uh, I think I just read that in the chapter on burn injuries in my textbook. But can someone explain why the anion gap is important in this case?",
+        "color": "blue"
+      },
+      {
+        "id": 22,
+        "parent_id": 21,
+        "user": "Dr. Aris Thorne",
+        "role": "MD",
+        "city": "Toronto, ON",
+        "text": "Great question, Leo. The anion gap is a measure of the excess anions in the blood, which can indicate the presence of unmeasured anions such as lactate and ketones. In this case, the severe anion gap metabolic acidosis suggests that the patient is producing excessive amounts of lactic acid, which is a common occurrence in burn patients due to tissue hypoxia. Does that make sense?",
+        "color": "red"
+      },
+      {
+        "id": 31,
+        "parent_id": 11,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "I'm not sure I agree with you, Dr. Sterling. The patient's vital signs were already improving after the initial assessment and the lab results showed that she was acidotic. We should consider the possibility of a systemic inflammatory response syndrome (SIRS) and start her on IV fluids and antibiotics.",
+        "color": "purple"
+      },
+      {
+        "id": 41,
+        "parent_id": 31,
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "I would recommend against admitting her to the ICU unless absolutely necessary. We can manage her care in the ED and avoid unnecessary interventions. And what's with all the fuss about SIRS? We all know it's just a bunch of bureaucratic mumbo-jumbo.",
+        "color": "orange"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "The General Management of the Poisoned Patient: It's Not Just About the Protocol",
+    "body": "Just saw a patient with iron ingestion that had me questioning the status quo. They had ingested >60 mg/kg, had opacities on their abdominal radiograph, and were hemodynamically stable. My initial instinct was to follow the usual protocol, but then I remembered that the patient was still able to pass a nasogastric tube, and the opacities on the radiograph were likely due to iron rather than actual obstructions. I decided to proceed with gastric lavage using a 36F orogastric tube, but with a twist: I used warm tap water rather than saline. The patient's symptoms improved, and further testing revealed that the iron was still present in the stomach but not in sufficient quantities to cause any harm. The patient was sent home with close follow-up, and I couldn't help but wonder if I had just done a disservice to the usual protocol.",
+    "category": "emergency medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "",
+        "city": "Toronto, ON",
+        "text": "TLDR: Iron ingestion in a stable patient with opacities on abdominal radiograph. Did a 36F orogastric tube with warm tap water. Symptomatic improvement. Wondering if protocol should be tweaked.",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs. You shouldn't be doing gastric lavage in the first place. And what's with the warm tap water? You're just going to make the patient more uncomfortable. The protocol is in place for a reason, stick to it.",
+        "color": "red"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Haha, love the condescension, @Dr. Sterling. But, to the OP, great job thinking outside the box. Have you seen the literature on using warm liquids for gastric lavage? Some studies suggest it may be more effective than saline in removing certain poisons.",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Begorrah, @Turbo Tom, what studies are ye talkin' about? I'd love to take a gander. And @OP, don't be worried 'bout the protocol, just use your head, darlin'!",
+        "color": "blue"
+      },
+      {
+        "id": 5,
+        "parent_id": 2,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Actually, @Dr. Sterling, the American Academy of Emergency Medicine says that gastric lavage should not be done in all cases, especially if the patient is hemodynamically stable. Maybe we should be looking at the underlying physiology of the poisoning rather than just following the protocol?",
+        "color": "yellow"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "I don't know what I'd do without you, @Dr. Gupta. As internists, we're always having to think about the sodium story, but in the case of poisoning, it's not just about the sodium, it's about the entire picture. Did you all consider the role of calcium in this case? Maybe we should be looking at calcium levels, too?",
+        "color": "orange"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "I love the emphasis on the entire picture, @Dr. Varkov. In fact, the European Journal of Emergency Medicine just published a study on the role of calcium in iron poisoning, and it looks like it could be an important factor. We should definitely be checking calcium levels in all cases.",
+        "color": "pink"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Can someone explain the physiology of calcium in iron poisoning to me? I thought it was just about the iron causing GI upset?",
+        "color": "brown"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Ah, great question, @Dr. Park. The calcium in iron poisoning is thought to play a role in the development of systemic iron overload, which can lead to cardiac complications. So, we need to be checking calcium levels in addition to hemoglobin, hematocrit, and other markers.",
+        "color": "gray"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Wait, so the iron in my pre-med textbooks doesn't mention calcium? What else do I need to know for boards?",
+        "color": "black"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Begorrah, Chad, don't you worry, just stick to the facts, and ye'll be golden. And maybe spend some time reviewin' the physiology of iron poisoning. There's plenty of resources online.",
+        "color": "violet"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Rant about fractures: Don't forget to consider the patient's overall presentation!",
+    "body": "Just saw a patient with a distal femur fracture and initially thought 'debridement and irrigation, ORIF, done!' But wait, what about the valgus forces from the fall? How can we ensure the patient's knee is stable post-op? Any tips, ED physicians? TLDR: Don't just focus on the fracture, think about the bigger picture.",
+    "category": "emergency_medicine",
+    "comments": [
+      {
+        "id": 2,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "I totally disagree with the 'think outside the box' approach. As a wise physician once said, 'Focus on the wound, not the wound of the wound.' A stable distal femur fracture should be the primary goal. ORIF is the way to go. We can worry about the patient's knee stability post-op. But let's not forget about the patient's overall presentation - how are they doing on the floor? Are they on a regular floor or in a specialized unit?",
+        "color": "blue"
+      },
+      {
+        "id": 3,
+        "parent_id": null,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs. You're not thinking about the fracture's biomechanics. The valgus forces from the fall can lead to a varus deformity post-op. We need to consider the patient's soft tissue envelope and the potential for wound complications. A comprehensive approach requires consideration of all these factors. Don't just focus on the ORIF.",
+        "color": "red"
+      },
+      {
+        "id": 4,
+        "parent_id": 2,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Hi Dr. Aris, I'm a bit confused. So, you're saying that we should prioritize the patient's overall presentation over the fracture's stability? But isn't a stable fracture the foundation for successful treatment?",
+        "color": "purple"
+      },
+      {
+        "id": 5,
+        "parent_id": 2,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Actually, Dr. Aris, you mentioned thinking outside the box. That reminds me of the concept of 'systems thinking.' It's a framework for considering the interconnectedness of systems and how they affect each other. In this case, we need to think about the patient's overall presentation, the fracture's stability, and the potential for complications.",
+        "color": "green"
+      },
+      {
+        "id": 6,
+        "parent_id": 3,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Hey Dr. Victor, you're talking like a surgeon who's never seen the ER. Newsflash: we can't just 'think like' surgeons all the time. We need to take a closer look at the patient's overall presentation before deciding on a treatment plan. And, btw, can you clarify what you mean by 'biomechanics'?",
+        "color": "orange"
+      },
+      {
+        "id": 7,
+        "parent_id": 5,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Thanks for the systems thinking perspective, Sarah! It's essential to consider the interplay between different systems. I'd like to add that we also need to think about the patient's social determinants of health and how they might affect their treatment plan.",
+        "color": "purple"
+      },
+      {
+        "id": 8,
+        "parent_id": 6,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "What's this 'biomechanics' stuff, Dr. Victor? Is it like when I study for a test and I need to remember all the formulas? Can you explain it in simpler terms?",
+        "color": "red"
+      },
+      {
+        "id": 9,
+        "parent_id": 7,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Hi everyone, I'm a bit overwhelmed by all these concepts. Can we summarize what we've learned so far? I'd love to get some clarification on the patient's overall presentation, systems thinking, and biomechanics.",
+        "color": "green"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Aww, poor Dr. Kevin! Don't worry, buddy, I'll try to break it down for ya. So, we're talkin' about considerin' the patient's overall presentation - kinda like a big picture, eh? Then we got systems thinking, which is thinkin' about how all the different systems are connected, like a network. And, last but not least, biomechanics, which is like studyin' how the body's systems and mechanisms work together. Sound like a plan, sweetie?",
+        "color": "pink"
       }
     ],
-    "image": "https://www.researchgate.net/publication/305274811/figure/fig1/AS:613992842154023@1523398709833/Proposed-emergency-department-DVT-evaluation-algorithm-when-full-leg-vascular-duplex.png"
+    "image": "https://www.pacsurgentcare.com/wp-content/uploads/2025/12/fracture-and-dislocation-mobile-1.jpg"
   }
 ]
