@@ -1,492 +1,617 @@
 [
   {
-    "id": 0,
-    "title": "OTITIS EXTERNA CASE STUDY: Don't mess with the external auditory canal!",
-    "body": "Just saw a patient with otitis externa that turned out to be Malignant Otitis Externa. Long story short, it's a potentially life-threatening infection of the external auditory canal, but it's not just a 'swimmer's ear'. It's a big deal.",
+    "title": "ARDS - The Never-Ending Diagnosis",
+    "body": "Rant about: My frustration with diagnosing ARDS. Just saw a patient with sepsis-induced ARDS and I couldn't help but think about all the times I've made the diagnosis and sent it up stairs, just to have my patients die on the ICU.",
+    "category": "emergency",
+    "comments": [
+      {
+        "id": 0,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "I totally get what you're saying. It's like the diagnosis is a never-ending story - every time you think you've got it nailed, something pops up and makes you question yourself. Did you notice any specific lab values or imaging that made you suspect ARDS in this patient?",
+        "color": "blue"
+      },
+      {
+        "id": 1,
+        "parent_id": 0,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Hi Dr. Thorne, I'm curious about the difference between cardiac and pulmonary causes of dyspnea, especially in acute presentations. Can you explain when to suspect one over the other?",
+        "color": "green"
+      },
+      {
+        "id": 2,
+        "parent_id": null,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Amateurs! Let me tell you the story of a patient I saw last week with severe sepsis and ARDS. I started the patient on early noninvasive ventilation (NIV) and within 24 hours, the patient's oxygen requirement dropped by 50%! You can't deny the benefit of NIV in ARDS. Dr. Thorne, have you ever tried using NIV in your patients?",
+        "color": "red"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "That's fascinating, Dr. Zalesky! I've been following the literature on NIV in ARDS, and it seems to be a game-changer. Can you explain the mechanisms behind how NIV improves oxygenation in these patients?",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "I have to correct you, Leo. Cardiac causes of dyspnea are not always easy to spot, especially in acute presentations. You have to pay attention to the little things - a S3 gallop, edema, jugular venous distention... those are all red flags. And don't even get me started on BNP and troponin levels.",
+        "color": "green"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "OMG, what's a S3 gallop? Is it like a heart murmur? I've been studying for my MCAT and I couldn't find it in the textbook!",
+        "color": "orange"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Ah, bless your heart, Chad! A S3 gallop is a heart sound that's like a triple beat - boom-boom-BOOM. It's a sign of fluid overload and increased ventricular volume. Dr. Miller, can you explain why BNP and troponin levels are important in diagnosing cardiac causes of dyspnea?",
+        "color": "pink"
+      },
+      {
+        "id": 7,
+        "parent_id": null,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "I have to chime in on this conversation. As an internist, I deal with all sorts of fluid overload and cardiac dysfunction. But ARDS is a whole different ball game. Have you guys seen the latest guidelines on diagnosing and managing ARDS? They recommend using a P/F ratio of less than 300 as one of the criteria...",
+        "color": "purple"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "You're talking about the Berlin Definition of ARDS, Dr. Varkov. That's a game-changer. But what about patients with chronic hypoxemia? Do they fit into this category, or do we need to use a different definition?",
+        "color": "green"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Lol, Martha, you're always on my case about something. But seriously, what about patients with pulmonary embolism? Do we need to worry about ARDS in these patients too?",
+        "color": "red"
+      }
+    ],
+    "image": "https://i0.wp.com/rebelem.com/wp-content/uploads/2020/08/ARDS-SUMMARY-scaled.jpg?ssl=1"
+  },
+  {
+    "id": 12345,
+    "title": "Today I Learned: Carbon Monoxide Poisoning Can Be Tough to Diagnose",
+    "body": "So I had a case last night where a 32-year-old non-smoker came in with severe headache, confusion, and dizziness. She had been working in her garage with a kerosene heater. Her pulse ox was showing 100% saturation, but COHb levels were only 15%. I was thinking maybe this was just a weird lab error, but then I got to thinking - CO poisoning doesn't always present with classic cherry-red lips and a positive pulse ox. What are your thoughts, EMers? Any tips for diagnosing CO poisoning?",
     "category": "Emergency Medicine",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Yup, MOE is a sneaky one. The classic presentation is usually just a red, swollen ear canal with some discharge, but that's when most Docs are like, 'Oh, it's just OE, let's put some drops in it.' Not so fast! MOE can cause cranial nerve palsies, sepsis, and even death if you don't take it seriously! Has anyone else seen MOE in your practice? ",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Uh, what's the difference between OE and MOE? I thought OE was just a minor infection... ",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Good question Leo! OE (otitis externa) is a self-limited bacterial or fungal infection of the external auditory canal, whereas MOE (Malignant Otitis Externa) is a necrotizing infection that can spread to the surrounding tissues. Think of it like a spectrum: OE is the mild form, while MOE is the severe, life-threatening one. Both are serious, but MOE is a whole different ball game. ",
-        "color": "purple"
-      },
-      {
-        "id": 4,
-        "parent_id": null,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "I've never seen a case of MOE in my entire career. Don't these Docs just use their little flashlight to look in the ear and prescribe some antibiotics? This whole MOE thing is just a marketing ploy by the pharmaceutical industry.",
-        "color": "red"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Uh, really Dr. Sterling? You've never seen MOE? It's a real thing, and it's devastating. Maybe you should educate yourself a bit more before dismissing a valid medical condition? The pathogenesis of MOE is actually pretty complex and involves an interplay of local and systemic factors. Maybe start with some Medline searches and then you can come back to this thread and we can have a rational discussion.",
-        "color": "purple"
-      },
-      {
-        "id": 6,
-        "parent_id": 4,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "@DrSterling is that you? Trying to troll the Reddit community again? MOE is real, and it's not 'just a swimmers ear'! I've seen it firsthand, mate. Don't be so quick to dismiss real medical conditions. We're trying to learn and share knowledge here, not promote Big Pharma.",
-        "color": "blue"
-      },
-      {
-        "id": 7,
-        "parent_id": 5,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Actually, @TurboTom, I think Dr. Sterling was just trying to get a rise out of us. He's always like that. @DrSterling, really, come on, we're trying to help people here.",
-        "color": "green"
-      },
-      {
-        "id": 8,
-        "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "No, no, I was just pointing out that most Docs don't bother to do a thorough exam or use their clinical judgment. MOE is a rare thing, and most Docs wouldn't have a clue how to treat it.",
-        "color": "red"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Wait, so you're saying that MOE is only diagnosed in rare cases and most Docs just misdiagnose it as OE and give some random antibiotic? That sounds like a huge risk of undertreatment... ",
-        "color": "orange"
-      },
-      {
-        "id": 10,
-        "parent_id": 8,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "No, @Leo, you're misunderstanding @DrSterling's point, I think. He's saying that while MOE is rare, the current treatment for OE is pretty effective if done correctly. The risk lies in over-treatment, not under-treatment. @Leo, have you ever looked at the Cochrane review on OE treatment? ",
-        "color": "purple"
-      }
-    ],
-    "image": "https://www.osmosis.org/_next/image?url=https%3A%2F%2Fd16qt3wv6xm098.cloudfront.net%2FgquUt32BRWOjKM2XoNMHjxuMSnmu5zBu%2F_.jpg&w=3840&q=75"
-  },
-  {
-    "id": 1,
-    "title": "Today I Learned: When to suspect esophageal rupture in a patient with chest pain",
-    "body": "Just saw a patient with a classic presentation for esophageal rupture, Boerhaave's syndrome, and I was wondering if any of you have come across similar cases or have tips on how to distinguish it from other causes of chest pain?",
-    "category": "emergency_medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
         "user": "Dr. Aris Thorne",
         "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "Great case! Esophageal rupture can be tricky to diagnose, but look for sudden-onset, sharp substernal chest pain following forceful vomiting or retching. The patient was likely to be ill-appearing, tachycardic, febrile, and hypotensive. In this case, the patient had a history of heavy drinking, which is a common risk factor. Don't forget to order a CT scan of the chest and abdomen to diagnose the rupture.",
+        "text": "Great reminder that CO poisoning can be tricky to diagnose. I always think back to the case where a patient came in with 'flu-like' symptoms and was diagnosed with influenza - only to have a later COHb level come back at 30% . Key takeaways: always ask about exposure history, and don't rely solely on symptomatology or pulse ox. For more info on CO poisoning, check out this review article: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6457214/",
         "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs. You think anyone can just walk into the ER with a case of esophageal rupture and get a CT scan? These cases are rare, and you need a high index of suspicion to diagnose them. Have you even read the chapter on Boerhaave's syndrome in the ATLS manual?",
-        "color": "red"
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Dr. Thorne, that's a great point about exposure history! How would you recommend asking about it, though? Just a straightforward 'Have you been around any gas-powered engines or heaters lately?'?",
+        "color": "green"
       },
       {
         "id": 3,
         "parent_id": 2,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Of course, I've read the chapter. I've seen my fair share of Boerhaave's syndrome cases and know how to manage them. But let me ask you, Dr. Sterling, have you ever actually treated a patient with esophageal rupture? I think not.",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "I just read about esophageal rupture in my textbook! It sounds like so many other causes of chest pain... how can we distinguish it from, say, acute pericarditis or a pulmonary embolism? Can we discuss the diagnostic criteria?",
-        "color": "pink"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Leo, you're on the right track! The key to diagnosing esophageal rupture is the history, particularly the sudden onset of chest pain following a Valsalva maneuver. Look for associated symptoms like dyspnea, fever, and tachycardia. A CT scan of the chest and abdomen can be diagnostic if you see leakage of the esophagus or mediastinal air.",
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Leo, I like to ask a combination of direct and indirect questions. For example: 'Have you been working on any projects that involve gas-powered tools or equipment?' or 'Do you use a kerosene heater at home?' It's also worth inquiring about any recent renovations or repairs that may have involved gas-powered equipment. And yeah, a straightforward 'Have you been around any gas-powered engines or heaters lately?' is definitely a good place to start!",
         "color": "green"
       },
       {
-        "id": 6,
-        "parent_id": 1,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "I've had a few patients with esophageal rupture come through the ER, and I can attest to the importance of a high suspicion index. Look for patients who have a history of forceful vomiting or retching, and don't be afraid to order a CT scan or an ECG to rule out other causes of chest pain.",
-        "color": "yellow"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "I love how Dr. Miller just casually mentions ordering a CT scan like it's no big deal. Newsflash, Tom: we don't have $10K lying around for every patient with a weird symptom. Can we have a conversation about the futility of CT scans in every case?",
-        "color": "brown"
-      },
-      {
-        "id": 30,
-        "parent_id": 7,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Ah, Tom, you're just mad because you got to spend 10 minutes typing out a witty response. Seriously though, CT scans are a crucial diagnostic tool in the right circumstances. We need to use our clinical judgment to decide when the benefit outweighs the cost.",
-        "color": "purple"
-      },
-      {
-        "id": 15,
+        "id": 4,
         "parent_id": 1,
         "user": "Dr. Kevin Park",
         "role": "PGY1",
         "city": "Edmonton, AB",
-        "text": "Wow, I'm learning so much from this thread. What about the role of bedside ultrasound in diagnosing esophageal rupture?",
-        "color": "orange"
-      },
-      {
-        "id": 26,
-        "parent_id": 15,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Great question, Kevin! Bedside ultrasound can be a game-changer in the ER. We can look for signs of pneumomediastinum or air in the pleural space, which are indicative of an esophageal rupture.",
+        "text": "Dr. Thorne, what about the role of carboxyhemoglobin (COHb) levels in diagnosing CO poisoning? Are they always necessary, or can symptoms and exposure history be enough?",
         "color": "blue"
-      }
-    ]
-  },
-  {
-    "title": "Intimate Partner Violence and Abuse: A Difficult Diagnosis in the ED",
-    "body": "Just saw a patient with suspicious injuries and a history of intimate partner violence and abuse. The patient's partner was known to her and a family friend, making it difficult to get the patient to open up about the abuse. Does anyone else have experiences with these types of cases? How do you approach these patients and get them to trust you?",
-    "category": "medical",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "MD",
-        "city": "Toronto, ON",
-        "text": "Absolutely, this is a tough one. I've seen it many times. It's great that you recognized the abuse. The key is to establish trust and create a safe environment for the patient to open up. I always start by asking open-ended questions about their relationship and their feelings. I also make sure to have my nurse present, as they can sometimes provide a different perspective and a sense of calm. It's also essential to involve social services and make them aware of the situation. Has anyone had success with using the SANE program in these types of cases?",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Wow, thank you for sharing this, Dr. Thorne. How do you approach the patient if they initially deny any abuse? Do you have any specific strategies for breaking through that initial denial?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Dr. Aris Thorne",
-        "role": "MD",
-        "city": "Toronto, ON",
-        "text": "Great question, Leo. When dealing with denial, it's essential to approach with empathy and understanding. I always let the patient know that I'm there to support them, not to judge. I try to avoid accusatory language and instead focus on the facts. Sometimes, I'll ask the patient to tell me their side of the story, and I'll listen attentively to their response. I'm looking for inconsistencies or clues that might indicate abuse. Have any of you used a specific screening tool or risk assessment for IPV?",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "MD, FRCSC",
-        "city": "Calgary, AB",
-        "text": "I know some of you will disagree with me, but I've noticed that the ER is way too quick to label a patient as a victim of IPV. We need to be more cautious and consider other explanations for the patient's injuries. Am I the only one who thinks this?",
-        "color": "red"
       },
       {
         "id": 5,
         "parent_id": 4,
         "user": "Dr. Aris Thorne",
-        "role": "MD",
+        "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "Victor, I understand where you're coming from, but we can't ignore the prevalence of IPV in our society. The evidence is clear: IPV is a serious public health issue that requires our attention. We need to be vigilant in identifying and supporting victims. What specific concerns do you have about our current approach?",
-        "color": "green"
-      },
-      {
-        "id": 6,
-        "parent_id": 4,
-        "user": "Dr. Barb Miller",
-        "role": "MD, EP",
-        "city": "Winnipeg, MB",
-        "text": "I agree with Victor. We need to look beyond the obvious signs of IPV and consider other explanations for the patient's injuries. I've seen cases where patients were actually injured during a domestic dispute, but it wasn't IPV. We can't just assume the worst-case scenario and label the partner as the perpetrator. Has anyone else had experiences like this?",
+        "text": "Kevin, great question! While symptoms and exposure history can be highly suggestive of CO poisoning, I think it's always worth checking COHb levels, especially if the clinical suspicion is high. Remember that baseline COHb levels can vary widely, and smoking patients may have COHb levels as high as 10-15%. But if a patient presents with symptoms that are consistent with CO poisoning and they've been exposed to a known source, checking COHb levels can confirm the diagnosis and provide a quantitative measurement of the patient's exposure",
         "color": "blue"
       },
       {
-        "id": 7,
+        "id": 6,
         "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MD, MS3",
-        "city": "Ottawa, ON",
-        "text": "This is such a timely topic. I recently read an article about the importance of using a comprehensive approach to address IPV, including a thorough history and physical exam, documentation of injuries, and referrals to social services. Does anyone have tips on how to document IPV safely and effectively?",
-        "color": "purple"
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "I've seen cases where patients with CO poisoning have been misdiagnosed with other conditions, like sepsis or cardiac arrest. Is there any way to differentiate between CO poisoning and these other conditions?",
+        "color": "orange"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Dr. Varkov, great question! Differentiating between CO poisoning and other conditions can be tough, but here are a few tips. First, look for 'atypical' presentations of sepsis or cardiac arrest, such as isolated confusion or headache without fever or chest pain. Also, consider checking for other lab abnormalities, like elevated troponin or cardiac markers, which might be seen in cardiac arrest or myocardial infarction. Finally, don't forget to check for CO exposure history, as that's a crucial piece of the puzzle",
+        "color": "orange"
       },
       {
         "id": 8,
-        "parent_id": 7,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Oh, yeah! I've got some experience with documenting IPV. One thing that works for me is to use a body map to document any injuries, especially if the patient is embarrassed or hesitant to discuss them. It's also essential to be mindful of your documentation and ensure it's accurate and thorough. Have you guys used any electronic documentation tools to help with this?",
-        "color": "green"
+        "parent_id": 6,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Dr. Varkov, wouldn't it be helpful to know if CO poisoning can cause isolated cardiac abnormalities, like ECG changes or ischemic echoes?",
+        "color": "blue"
       },
       {
         "id": 9,
         "parent_id": 8,
-        "user": "Dr. Sarah Sharp",
-        "role": "MD, EP",
-        "city": "Laval, QC",
-        "text": "Actually, our hospital uses an electronic documentation system that includes a body map feature. It's been a game-changer in terms of accurately documenting injuries. Has anyone else had success with electronic documentation tools?",
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Kevin, absolutely! CO poisoning can indeed cause cardiac abnormalities, including ECG changes, ischemic echoes, and even cardiac arrest. So, if you suspect CO poisoning, it's worth getting an ECG and troponin check on your patient. This can help you differentiate between CO poisoning and other cardiac conditions",
         "color": "blue"
       },
       {
         "id": 10,
-        "parent_id": 9,
-        "user": "Chad Broson",
-        "role": "Pre-medicine",
-        "city": "Brampton, ON",
-        "text": "What's a body map? I've never heard of it. Is it like a diagram of the body or something?",
-        "color": "red"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Haha, yeah! It's exactly like that, Chad. A body map is a diagram of the body with areas marked for documenting injuries. It helps patients identify and describe their injuries more accurately. You'll learn about it in med school, I'm sure.",
+        "parent_id": 5,
+        "user": "Dr. Barbara Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "I've had my fair share of CO poisoning cases, and I can attest to how tricky it can be to diagnose. One thing that's always stuck in my head is the importance of history taking. Always ask about exposure history, including any recent events or activities that may have put the patient at risk. And don't be afraid to ask follow-up questions until you get the info you need",
         "color": "green"
       },
       {
-        "id": 12,
+        "id": 11,
         "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "MD, PGY2",
-        "city": "Mississauga, ON",
-        "text": "Just wanted to add that using a standardized approach to IPV screening and documentation can be really helpful. We have a protocol in place at our hospital that includes a series of questions and a physical exam to assess for IPV. Has anyone else implemented something similar?",
-        "color": "purple"
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Wow, I had no idea CO poisoning was so common! Can someone explain what happens to the body when it's exposed to CO?",
+        "color": "red"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Chad, when CO binds to hemoglobin, it forms carboxyhemoglobin (COHb), which reduces blood oxygen delivery to tissues. This can lead to tissue hypoxia, metabolic acidosis, and even neurological damage. In severe cases, CO poisoning can cause cardiac arrest, seizures, and even death So, it's super important to diagnose and treat CO poisoning ASAP",
+        "color": "red"
       },
       {
         "id": 13,
-        "parent_id": 12,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Aye, we have somethin' similar here too. I'm curious, Dr. Gupta, what kind of questions do you ask in your protocol? Are they specific to IPV or more general?",
-        "color": "blue"
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Can anyone explain what's the deal with pulse ox in CO poisoning? I thought pulse ox was always reliable, but somehow it can be way off in CO poisoning ?",
+        "color": "pink"
       },
       {
         "id": 14,
         "parent_id": 13,
-        "user": "Dr. Maya Gupta",
-        "role": "MD, PGY2",
-        "city": "Mississauga, ON",
-        "text": "We ask a combination of specific questions and more general ones. For example, we might ask about a patient's relationship dynamics, their feelings towards their partner, and any history of abuse. We also look for signs of manipulation or control. It's a delicate balance, but we try to be thorough and non-judgmental. Does anyone else have experience with these types of questions?",
-        "color": "green"
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Turbo, great question! In CO poisoning, pulse ox can be unreliable because COHb increases the amount of oxygen bound to hemoglobin, which can falsely elevate the pulse ox reading. This is known as 'co-oximetry artifact' So, if you suspect CO poisoning, you should get a blood gas or co-oximetry reading to get an accurate oxygen saturation level",
+        "color": "pink"
       },
       {
         "id": 15,
         "parent_id": 14,
         "user": "Dr. Elena Varkov",
-        "role": "MD, FM",
+        "role": "FRCPC",
         "city": "Quebec City, QC",
-        "text": "I'm so glad you brought this up, Dr. Gupta. As an internist, I've seen patients who have been victims of IPV, but it's not always immediately apparent. It's essential to ask the right questions and look for subtle signs. Does anyone have any tips on how to identify the warning signs of IPV, especially in patients who are less forthcoming?",
-        "color": "purple"
+        "text": "Thanks, Dr. Thorne! I had no idea about the co-oximetry artifact. What's the most important thing to remember when diagnosing CO poisoning?",
+        "color": "orange"
       }
     ]
   },
   {
     "id": 1,
-    "title": "Rant about esophageal emergencies today: button battery ingestion and esophageal perforation",
-    "body": "Just saw a patient with a button battery lodged in their esophagus. Quick reminder that button battery ingestion is a true emergency requiring prompt removal. The battery can cause mucosal injury and necrosis within hours. Once in the stomach, coins almost always pass spontaneously, but batteries can cause perforation and require immediate endoscopy. Remember to resuscitate the patient as needed and obtain radiographs to locate the battery. TLDR: button battery ingestion is a true emergency and requires immediate attention.",
-    "category": "EMedicine",
+    "title": "TL;DR: Seizure Duration - 5 minutes vs 30 minutes as criteria for Status Epilepticus",
+    "body": "Just saw a patient with a prolonged seizure and I was reminded of the ongoing debate in our field about the duration of seizure activity that warrants a diagnosis of Status Epilepticus (SE). Is it 5 minutes or 30 minutes? I've been seeing a lot of patients being diagnosed with SE based on a 5-minute EEG correlation, but our protocol states it has to be at least 30 minutes. Can anyone shed some light on this?",
+    "category": "emergmed",
     "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great topic, OP! The current consensus is that 5 minutes is a more clinically relevant time frame for diagnosing SE, whereas 30 minutes is more of a EEG correlate. The American Academy of Pediatrics (AAP) recommends using 5 minutes as a clinical criterion.",
+        "color": "purple"
+      },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Leo Chen MS1",
+        "user": "Leo Chen",
         "role": "MS1",
         "city": "Montreal, QC",
-        "text": "What are some red flags for button battery ingestion? Are there any specific radiographic findings that would indicate a need for urgent endoscopy?",
-        "color": "blue"
+        "text": "But what about the EEG correlation? Isn't that an important factor in diagnosing SE? Can't we use both 5 minutes of clinical criteria AND 30 minutes of EEG correlation?",
+        "color": "green"
       },
       {
         "id": 3,
         "parent_id": 2,
-        "user": "Sarah Jenkins MS3",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "According to the literature, the key is to look for a button battery on plain radiographs, especially if it's lodged in the esophagus. Also, the patient may present with respiratory distress, fever, or chest pain. A key point is that the battery can cause a rapid increase in pH, leading to electrolyte imbalances. Does anyone know a reliable resource for diagnosing and treating button battery ingestion?",
-        "color": "red"
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "While the EEG correlation is certainly useful, the EEG doesn't always correlate with clinical symptoms. And what if the patient has a seizure lasting only 4 minutes, but the EEG shows clear abnormalities lasting 30 minutes? Do we still diagnose SE based solely on the EEG?",
+        "color": "orange"
       },
       {
         "id": 4,
         "parent_id": 1,
-        "user": "Dr. Maya Gupta PGY2",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Another thing to keep in mind is that button battery ingestion can be a challenge in pediatric patients, especially if they're unable to communicate their symptoms. We had a case recently where a 3-year-old ingested a button battery and presented with respiratory distress. Does anyone have experience with managing such cases?",
-        "color": "orange"
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs! You're all over-complicating this. The fact is, most of the research says 5 minutes is the cutoff. Get on board, people! Our hospital protocol needs to be revised to match the evidence.",
+        "color": "red"
       },
       {
         "id": 5,
         "parent_id": 4,
-        "user": "Dr. Barb Miller EP",
+        "user": "Dr. Ziggy Zalesky",
         "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "In pediatric cases, we need to consider the possibility of esophageal necrosis and possible perforation. It's essential to have a high index of suspicion and quickly get the patient to the OR for an urgent endoscopy. I'd recommend checking out the American Academy of Pediatrics' guidelines on managing button battery ingestion. Has anyone had success with using a particular type of anesthesia in these cases?",
-        "color": "green"
+        "city": "Vancouver, BC",
+        "text": "Hold up, Chief. I think the literature is a bit more nuanced than that. There are some studies suggesting that 30 minutes may be a better cutoff, especially in pediatric patients. Maybe we should look at the latest research before revising our protocol?",
+        "color": "purple"
       },
       {
         "id": 6,
         "parent_id": 5,
-        "user": "Dr. Kevin Park PGY1",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "That's a great resource! I'll definitely look into those guidelines. But what about in adults? What are the key takeaways for managing button battery ingestion in adults?",
-        "color": "purple"
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "And what about the role of the clinical exam in diagnosing SE? We all know the classic seizure symptoms, but what about the patients who don't present with the typical 'tonic-clonic' activity? Can we still diagnose SE without an EEG correlation?",
+        "color": "green"
       },
       {
         "id": 7,
         "parent_id": 6,
-        "user": "Turbo Tom RN",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "For adults, it's often a more straightforward case of esophageal injury and potentially necrosis. We need to get them to the OR ASAP for an urgent endoscopy. Does anyone have a go-to protocol for getting the OR team called in quickly?",
-        "color": "brown"
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "That's a great point, Barb. The clinical exam is always key in diagnosing SE, especially in patients without typical seizure symptoms. We should be using the clinical exam to guide our decision-making, rather than relying solely on the EEG correlation.",
+        "color": "purple"
       },
       {
         "id": 8,
-        "parent_id": 7,
-        "user": "Martha 'The Hammer' RN",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "Yes, we can quickly get the OR team by activating the hospital's emergency response system. Has anyone had experience with managing esophageal perforation?",
+        "parent_id": 3,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "But what about the importance of a thorough history in diagnosing SE? Doesn't the history play a key role in determining the duration of the seizure activity?",
         "color": "orange"
       },
       {
         "id": 9,
         "parent_id": 8,
-        "user": "Dr. Aris Thorne Staff Physician",
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Actually, Kevin, the history is crucial in diagnosing SE, but it's not just about determining the duration of the seizure activity. We need to consider the context, the patient's medical history, and any potential contributing factors... the list goes on.",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "TL;DR: Amnesia after a night of drinking - what's going on here?",
+    "body": "Just saw a patient with severe amnesia after a night of drinking. The patient had no recollection of the previous night's events, but somehow managed to get to their apartment and pass out. I've seen cases like this before, but I'm always hesitant to rule out sexual assault. Has anyone else had experience with this?\n\nWhen I asked the patient if they were raped, they denied it, but then proceeded to tell me about their history of blacking out drunk on occasion. Does this mean they were just blackout drunk and can't remember anything, or is there something else going on here?",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 2,
+        "parent_id": null,
+        "user": "Turbo Tom RN",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "TL;DR indeed! First off, I love how you're thinking critically about this case. Amnesia after a night of drinking can definitely be a red flag for sexual assault, but it's also possible that the patient just had a really bad hangover. One thing to keep in mind is that blackout drinking is more common than we think, and it's often linked to alcohol use disorder.\n\nI've had patients who have experienced blackout drinking tell me that they'll sometimes wake up the next day with bruises or soreness that they have no memory of. It's usually a good idea to ask about the patient's drinking habits and see if they have a history of blackouts.",
+        "color": "red"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "leoMS1",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Thanks for the tip, Turbo Tom. But isn't it true that blackout drinking can also be a sign of other underlying issues, like trauma? I've read that some researchers think that blackout drinking may be a coping mechanism for people who have experienced trauma. If that's the case, then maybe we should be thinking about this patient's trauma history instead of just dismissing it as a hangover.",
+        "color": "purple"
+      },
+      {
+        "id": 4,
+        "parent_id": 2,
+        "user": "SarahJenkinsMS3",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "I've read some papers on this topic and it seems like blackout drinking is a complex issue that can't be reduced to just one cause. But in terms of the medical implications, isn't it true that blackout drinking can lead to anterograde amnesia? This means that the patient might not be able to form new memories after the blackout, which could explain the amnesia. Has anyone else had experience with patients who have experienced anterograde amnesia due to blackout drinking?",
+        "color": "green"
+      },
+      {
+        "id": 5,
+        "parent_id": 1,
+        "user": "BarbMillerEP",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Just a quick observation, but I've found that some patients who experience blackout drinking are more likely to have a history of trauma or other underlying psychological issues. But this of course doesn't mean that the patient in your case is definitely a victim of sexual assault. We should still be thinking about other potential explanations, like a simple hangover or even a head injury.",
+        "color": "orange"
+      },
+      {
+        "id": 6,
+        "parent_id": 4,
+        "user": "ZiggyZaleskyEP",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Thanks for bringing up the anterograde amnesia, Sarah! I've had some experience with this in my ER rotation. One thing to keep in mind is that anterograde amnesia can be caused by a variety of factors, including certain medications, head injuries, or even certain neurological conditions. So while it's possible that the patient's blackout drinking led to anterograde amnesia, we shouldn't necessarily jump to conclusions without further investigation.",
+        "color": "blue"
+      },
+      {
+        "id": 7,
+        "parent_id": 2,
+        "user": "ArisThorneStaffPhysician",
         "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "That's a great point, Martha. Esophageal perforation is a life-threatening condition that requires prompt recognition and treatment. It's caused by a tear in the lining of the esophagus, and if left untreated, it can lead to mediastinitis and sepsis. The key is to get the patient to the OR for an urgent repair of the perforation.",
-        "color": "pink"
+        "text": "I think it's worth exploring the patient's trauma history further. As we all know, trauma can have a profound impact on a person's mental and physical health. If the patient is experiencing amnesia and blackout drinking, it's possible that they're using these behaviors as a coping mechanism for underlying trauma. Has anyone else had experience with patients who have used substance abuse as a means of dealing with trauma?",
+        "color": "purple"
+      },
+      {
+        "id": 8,
+        "parent_id": 1,
+        "user": "RickRageEP",
+        "role": "EP",
+        "city": "Windsor, ON",
+        "text": "Ugh, another 'it could be anything' thread. Look, I get it, we need to be careful with diagnoses and all that jazz, but come on, folks. This patient is clearly a victim of something. We need to stop dancing around the problem and actually do some real detective work. Let's get to the bottom of this!\n\nTL;DR of my rant: we need to focus on the patient's story, not just a bunch of abstract theoretical possibilities.",
+        "color": "red"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "BarbMillerEP",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Thanks, Rick. I completely agree with you. We've got too many people in this thread who are focusing on the 'what if' and not enough who are considering the actual evidence. The patient's story is what matters most, and we need to listen carefully to what they're saying. By the way, has anyone else had experience with patients who have had to deal with delayed memories or delayed disclosure?",
+        "color": "green"
       },
       {
         "id": 10,
         "parent_id": 9,
-        "user": "Dr. Victor Sterling Chief of Surgery",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "I completely agree with Dr. Thorne. Esophageal perforation is a serious condition that requires immediate attention. However, I'd like to add that we should also be aware of other potential complications, such as pneumothorax and cardiac arrhythmias.",
-        "color": "gray"
+        "user": "LeoChenMS1",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Great question, Barb! I've read that some patients who experience delayed memories or delayed disclosure often have complex trauma histories. Does anyone know anything about the different types of trauma that can lead to delayed memory or disclosure?",
+        "color": "purple"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "SarahJenkinsMS3",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Actually, Leo, I think I can help with that. I've been looking into the research on trauma and memory, and it seems like there are several different types of trauma that can lead to delayed memory or disclosure. One type is complex trauma, which can result from repeated exposure to abuse or neglect over an extended period. Another type is psychological trauma, which can result from a single event or experience. Both of these types of trauma can disrupt the person's memory and sense of identity, making it more difficult for them to disclose what happened.",
+        "color": "green"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "ArisThorneStaffPhysician",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "I think Sarah's summary is spot on. Complex trauma and psychological trauma are both well-documented causes of delayed memory and disclosure. And as we all know, trauma can have a profound impact on a person's mental and physical health. It's so important that we approach these patients with kindness and compassion, and not just try to diagnose a 'problem' or 'disease' to fix. We need to be willing to listen deeply and understand the trauma they've experienced.",
+        "color": "purple"
       }
     ],
-    "image": "https://aneskey.com/wp-content/uploads/2016/06/m_tin_ch77_f001.png"
+    "image": "https://i1.rgstatic.net/publication/236631842_Male_Genital_Emergencies_Part_II/links/00b7d51890e9f3b6ab000000/largepreview.png"
   },
   {
-    "id": 1,
-    "title": "Just had to manage a pediatric airway in the ER and had to remind myself that oral airways aren't commonly used in peds",
-    "body": "Hey fellow ER docs, had a quick learning moment last night with a little one who had a possible epiglottitis. I tried to intubate with a Miller blade, but had to remind myself to use a straight blade instead. Then I couldn't find the correct tube size using the 16 + age/4 trick, so I used a resuscitation measuring tape instead.",
-    "category": "emergency",
+    "id": null,
+    "title": "Just had a close call with a compartment syndrome diagnosis",
+    "category": "emergency medicine",
+    "body": "Had a patient come in last night with severe left leg pain that seemed out of proportion to the exam. Initially, I thought it was just a deep vein thrombosis (DVT), but the patient mentioned worsening pain with passive stretching of the leg. As we started taking a closer look, we noticed the muscle compartments were swollen and tender. Luckily, we got a pressure reading of 35 mmHg, and we were able to get the patient to the OR for a fasciotomy. Long story short, this one hit me hard and made me realize how quickly compartment syndrome can progress and the importance of keeping a close eye on these patients. TLDR: compartment syndrome is a beast, don't miss it!",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Lol, I've fallen into that trap before too! Did anyone else know that oral airways aren't really used in peds? Dr. Miller, what's your take on that?",
-        "color": "blue"
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great post, @r/emergency_physician/. You're absolutely right that compartment syndrome can be a sneaky diagnosis. Remember, it's not just about the history; you need to get those pressures read ASAP. I always tell my residents to think of it as 'compartment pressure \u2265 40 mmHg'. Anything above that, and you're dealing with a high likelihood of compartment syndrome. I'm glad you were able to get that patient to the OR in time. [link to 'The Essentials of Compartments' by Paul R. Haller](https://link)",
+        "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Actually, oral airways can be useful in unconscious peds, especially when jaw thrust is required. But yeah, using a straight blade is a must for ped airways.",
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Wow, Dr. Thorne, what does the '40 mmHg' part mean? Is that like, a magic number or something? Can you explain what the pressures are telling you?",
         "color": "green"
       },
       {
         "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "I'm curious about the tube size calculation. Does anyone have a link to a resource that explains it? I've tried searching, but all I find are old-school texts.",
+        "parent_id": 2,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great question, @Leo Chen. So, the 40 mmHg is essentially an arbitrary value that most emergency physicians agree on. It represents the point at which compartment pressures exceed blood flow to the affected muscles, leading to the classic symptoms of compartment syndrome (pain out of proportion to the exam, weakness, paresthesias, etc.). Think of it as a red flag. If the pressures are above 40 mmHg, get that patient to the OR ASAP! But it's worth noting that some sources argue for a slightly higher threshold (45-50 mmHg). The key takeaway is that anything above 40 mmHg warrants further investigation and possibly an interventional procedure.",
         "color": "purple"
       },
       {
         "id": 4,
         "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Sarah, I think the Smith textbook has a good explanation of the tube size calculation in the ped chapter. It's also in the APLS guide, maybe?",
-        "color": "blue"
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "@Dr. Aris Thorne and @r/emergency_physician/, can you speak to the role of imaging in compartment syndrome? I've seen some cases where patients get a CT or MRI, but I'm not sure what the exact indications are. Thanks!",
+        "color": "green"
       },
       {
         "id": 5,
-        "parent_id": 1,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "This conversation is great! I was going to write a whole post about managing ped airways, but you guys are covering it! Keep it up!",
-        "color": "pink"
+        "parent_id": 4,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Good question, @Sarah Jenkins! Imaging, in general, has a limited role in the initial diagnosis of compartment syndrome. That being said, if your patient has any of the 'red flag' symptoms (such as an absent or diminished pulse, severe weakness, or significant neurologic deficits), it's worth getting some imaging done to rule out other potential causes (e.g., DVT, vascular injury). For example, if you notice a high compartment pressure alongside a significant discrepancy between clinical exam and imaging findings (e.g., the patient has a 'cold' leg on physical exam, but the D-dimer is negative), that should prompt further investigation.",
+        "color": "purple"
       },
       {
         "id": 6,
+        "parent_id": 4,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Thanks, @Dr. Maya Gupta. Can I ask, what's the deal with compartment pressures versus compartment size? It seems like there's a lot of variation in the literature about what constitutes a 'normal' compartment pressure. Do we really only care about pressures > 40 mmHg?",
+        "color": "green"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Wow, this thread has gone really deep. Is it true that compartment pressures are more important than actual compartment size?",
+        "color": "green"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Yes, it's true. The consensus in the literature is that compartment pressures are a more reliable indicator of compartment syndrome than actual compartment size. This makes sense, because what really matters is the pressure gradient across the compartment. Even a normal-sized compartment can develop pressures high enough to cause ischemia, and vice versa. When you're worried about compartment syndrome, focus on the pressure \u2013 it's a better surrogate for risk than actual compartment size.",
+        "color": "purple"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "So, what do we do if we're worried about a diagnosis of compartment syndrome, but our patient's pressures might not be above 40 mmHg? Should we still operate?",
+        "color": "green"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "Listen, kiddo, you want to err on the side of caution in situations like these. If your patient's showing red flag symptoms, it's time to talk to a surgeon. We don't want to be left wondering 'what if?' later. And trust me, 90%+ of the time, the surgeon will still do a fasciotomy, so you might as well get it over with.",
+        "color": "purple"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "But, Martha 'The Hammer', what about the potential complications from a fasciotomy? I've heard they can be significant.",
+        "color": "green"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Leon 'The Hammer' (Martha, I just noticed that we share a last name!)",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "Kiddo, don't you worry about that stuff. We nurses know that sometimes, the risks associated with a fasciotomy far outweigh the potential benefits of keeping your patient on the ward. Besides, those complications only happen in 10% or less of the cases. If you're thinking 'this might be compartment syndrome', just go ahead and call the surgeon.",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "A tough case of viral meningitis that taught me a thing or two",
+    "body": "Had a tricky case of viral meningitis come in last night, and it's got me thinking about the importance of differentiating between viral and bacterial meningitis. Anyone else have a similar experience?",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I'm no expert, but isn't viral meningitis usually just a symptom of a viral infection, whereas bacterial meningitis is a full-blown infection itself? Or am I way off base here?",
+        "color": "blue"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Leo, that's a good start! But it's more nuanced than that. Viral meningitis is usually caused by common viruses like enteroviruses, whereas bacterial meningitis is caused by encapsulated organisms like Neisseria meningitidis. The key is to identify the underlying cause rather than just treating the symptoms.",
+        "color": "green"
+      },
+      {
+        "id": 3,
         "parent_id": 2,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Excellent point, Sarah! And don't forget about the role of CSF analysis in diagnosing bacterial meningitis. A high white blood cell count, elevated protein, and decreased glucose are all red flags.",
+        "color": "purple"
+      },
+      {
+        "id": 4,
+        "parent_id": null,
         "user": "Dr. Victor Sterling",
         "role": "Chief of Surgery",
         "city": "Calgary, AB",
-        "text": "Amateurs! In my experience, oral airways are a waste of time in peds. Bag-valve-mask ventilation is the way to go! And don't even get me started on the 'resuscitation measuring tape' nonsense.",
+        "text": "Amateurs always over-diagnosing viral meningitis. In my experience, it's usually just a case of viral upper respiratory tract infection. Don't get me started on the unnecessary antibiotics.",
         "color": "red"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Dude, you're not going to win any popularity contests with that attitude. Viral meningitis is a real thing, and it's not just some minor case of a cold. It can have serious consequences like seizures, hydrocephalus, and even death.",
+        "color": "green"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Actually, I had a case last week where the patient presented with fever, headache, and neck stiffness, but the PCR on the CSF showed enterovirus. It turned out to be viral meningitis. So, let's not dismiss it too quickly.",
+        "color": "purple"
       },
       {
         "id": 7,
@@ -494,422 +619,268 @@
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "Ah, come on, Dr. Sterling! We all know you're an expert, but not everyone is as fortunate as you in their ped airway management skills.",
+        "text": "Great example, Barb! And to take it a step further, what was the patient's prognosis like after treatment? Did they make a full recovery?",
+        "color": "green"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "The patient had a pretty smooth recovery, actually. Just needed some supportive care like IV fluid, antipyretics, and close monitoring. Of course, it's always a good idea to follow up with an MRI or CT scan to rule out any complications.",
+        "color": "purple"
+      },
+      {
+        "id": 9,
+        "parent_id": null,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Hey guys, I'm a pre-med student and I just wanted to ask... what's the most common cause of viral meningitis?",
         "color": "blue"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great question, Chad! According to various sources, enteroviruses are the most common cause of viral meningitis. Specifically, Coxsackie virus is a common culprit.",
+        "color": "purple"
       }
     ]
   },
   {
-    "id": 12345,
-    "title": "TLDR: Anticholinergic toxicity in the ED - a real case study and a few take-home points.",
-    "body": "Just had a great case last night that reminded me how important it is to keep muscarinic and nicotinic effects on our radar, folks! A 75-year-old patient presented with hypertension, tachycardia, dry skin, hyperthermia, and altered mental status. We suspected anticholinergic toxicity from a likely medication overdose. Here's the deal, when diagnosing anticholinergic tox, don't just stop at the classic SLUDGE/DUMBELS presentation. I mean, we all know about the muscarinic effects, but the nicotinic effects can be just as deadly, and we need to look for signs like muscle fasciculations, respiratory failure, and neuromuscular blockade. Don't let the patient's presentation fool you, we've all heard 'it's just a little TCA overdose, I'm fine!' But I'm telling you, these patients can take a turn for the worse fast.",
+    "id": "OTITIS_EXTERNA",
+    "title": "AHA Moment: Got Burned by Malignant Otitis Externa, What's Your Protocol?",
+    "body": "Just saw a 62-year-old diabetic patient with severe otalgia and otorrhea, initially diagnosed with chronic otitis externa. But on further evaluation, we found P. aeruginosa infection extending to the skull base. This was our first red flag, but what got us really concerned was the lack of response to topical antibiotics. Malignant OTIS can present with such subtle symptoms that it's often missed, especially in atypical populations. Let's review our protocols and make sure we're considering this rare but serious condition in our differential diagnoses.",
     "category": "Emergency Medicine",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
         "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
+        "role": "",
         "city": "Toronto, ON",
-        "text": "I couldn't agree more, Dr. [OP]. We need to stay vigilant and consider anticholinergic tox in all patients presenting with altered mental status, especially with a history of polypharmacy. I like to use the mnemonic \"MUSCARinic Effect\" to remember the key symptoms (Muscle weakness, Urinary retention, Secretion decrease, Cardiac arrhythmias, Agitation, and Respiratory depression). What's your approach to management, when do you start considering intubation?",
+        "text": "TLDR: We all agree malignant otitis externa is a sneaky condition. However, I'd like to highlight that our first patient had a previous history of recurrent otitis externa, which led us to suspect a chronic infection. Nonetheless, we still underestimated the severity. To prevent similar scenarios, we need to incorporate risk-assessment tools into our clinical workflows.",
         "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Wow, I never knew nicotinic effects could be so deadly! Can someone clarify the difference between muscarinic and nicotinic effects? Are they mutually exclusive?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Actually, a recent paper by [Ref] found that patients with anticholinergic tox presenting with muscarinic effects are more likely to have a cardiac source than nicotinic effects. Not sure if this is relevant to our discussion, but thought it was a useful tidbit.",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Great reminder about the importance of considering anticholinergic tox in polypharmacy cases! Has anyone had experience with treating anticholinergic tox in a patient on an antipsychotic regimen?",
-        "color": "purple"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Actually, I had a case last year where the patient was on olanzapine and presented with anticholinergic tox symptoms. We were able to manage with hydration and supportive care, but I'm not sure if we would have done anything differently with intubation. Can anyone provide some guidance on when to intubate?",
-        "color": "green"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Zachary Thorne",
-        "role": "Staff Physician",
-        "city": "Calgary, AB",
-        "text": "In general, we intubate in cases of severe respiratory depression, muscle weakness, or neuromuscular blockade. But, it's worth considering intubation in cases of severe anticholinergic tox with altered mental status and difficulty airway management. Does anyone have a preferred method for securing the airway in these patients?"
-      },
-      {
-        "id": 7,
-        "parent_id": null,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "Love your posts, [OP], but one thing to remember is that the patient's vital signs are only part of the picture. Make sure to assess for signs of cardiac ischemia, as these patients can be prone to MI.",
-        "color": "purple"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Elena Varkov",
-        "role": "Intensivist",
-        "city": "Quebec City, QC",
-        "text": "Great reminder, Martha! Can you elaborate on your approach to assessing cardiac ischemia in patients with anticholinergic tox?",
-        "color": "green"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "For me, it's all about staying vigilant for signs of cardiac ischemia, even in the absence of traditional risk factors. Monitor the patient's electrocardiogram (ECG), and keep an eye on their troponin levels."
-      }
-    ],
-    "image": "https://scvmcmed.com/wp-content/uploads/2021/12/image.png"
-  },
-  {
-    "id": 7,
-    "title": "Today I Learned to always verify IV catheter function before dismissing shock in a 45yo hypertensive with a recent history of hypertension. #EMMeds",
-    "body": "Had a 45yo male present to our ED with acute decompensation of hypertension, presenting with severe headach and HTN. Initially, we suspected an acute MI or a hypertensive emergency. However, during our work-up, we discovered he had a large IV catheter in place, but it had malfunctioned. The patient's blood pressure skyrocketed as soon as we removed the IV and started a new one. Had we not double-checked the catheter, we may have missed this crucial diagnosis. Just a sobering reminder to always verify IV catheter function before dismissing shock in a hypertensive patient.",
-    "category": "Clinical Anecdote",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Lol, always a good reminder to double-check IVs! Had a similar situation with a patient who had a central line malfunctioning, leading to catastrophic consequences. I always make sure to verify the line before administering meds.",
-        "color": "blue"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "That's a great reminder, Turbo Tom. What's the protocol in your hospital for verifying IV catheter function?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "At our hospital, we have a checklist for verifying IV catheter function, including a flush test and a bolus test. Any patient with an IV catheter should undergo this verification process before administering meds.",
-        "color": "purple"
-      },
-      {
-        "id": 4,
-        "parent_id": null,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "I remember a case where a patient died due to a catheter malfunction. The anesthesiologist didn't verify the catheter function before administering a massive dose of propofol. The patient's blood pressure dropped catastrophically, leading to cardiac arrest. We need to take IV catheter verification seriously.",
-        "color": "red"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I'm so sorry to hear that, Dr. Rick. Can you elaborate on the specific steps you took to investigate the cause of the malfunctions? What was the root cause of the malfunction?",
-        "color": "green"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "I'm so sorry to hear that, Doc. As far as root causes go, it's always a combination of factors. In our hospital, the most common reason for IV catheter malfunctions is incorrect placement or inadequate flushing of the catheter. Just my two cents!",
-        "color": "blue"
-      },
-      {
-        "id": 7,
-        "parent_id": null,
-        "user": "Dr. Phil Muddle",
-        "role": "EP",
-        "city": "Regina, SK",
-        "text": "Just to clarify, the most common cause of catheter malfunction in our hospital is the 'human error' factor. We all make mistakes, especially during high-pressure situations.",
-        "color": "pink"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "Well, Phil, I don't think that's correct. Our hospital's research suggests that the most common cause of catheter malfunction is actually the quality of the IV catheter itself, not human error.",
-        "color": "green"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Agreed, Martha. Our hospital has seen a significant reduction in catheter malfunctions since we switched to using high-quality IV catheters. The quality of the catheter really does matter!",
-        "color": "blue"
-      },
-      {
-        "id": 10,
-        "parent_id": null,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "Excuse me, guys, but don't you think we're getting a bit sidetracked here? What's the takeaway from this conversation so far?",
-        "color": "purple"
-      }
-    ]
-  },
-  {
-    "id": 8,
-    "title": "CASE STUDY: Challenging Differential Diagnoses in Pediatric Abdominal Pain - Today I Learned",
-    "body": "Had a case last night that threw me for a loop. 12-month-old boy, presenting with severe abdominal pain that's been ongoing for 3 days. His mom brought him in after noticing he's been grunting and pulling his legs up to his chest whenever he cries. His Vitals: BP 80/40, HR 120, Temp 38.9, SpO2 98%. I'm thinking necrotizing enterocolitis (NEC), or maybe even appendicitis? His imaging is showing non-specific bowel thickening. TLDR; what's the best approach for differential diagnoses in this age group?",
-    "category": "Pediatric GI Disorders",
-    "role": "Physician",
-    "city": "Toronto, ON",
-    "style": "Wise and kind attending. Focuses on patient-centered care and high-level pearls.",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Dr.",
-        "city": "Toronto, ON",
-        "text": "When facing challenging cases like this, always keep the broad differential in mind, but ask yourself: 'What's the most likely diagnosis based on the child's signs and symptoms?' For this 12-month-old, I'd also think of intussusception or volvulus. Has he been vomiting or had bloody stools? Are there any palpable masses or tenderness in the abdomen? Remember, early recognition is key!",
-        "color": "blue"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "Mr.",
-        "city": "Montreal, QC",
-        "text": "Hi Dr. Thorne! Thanks for sharing your thought process. I'm wondering if the non-specific bowel thickening on imaging is a red flag for NEC? Should we be concerned about surgical consult at this point?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Barb Miller",
-        "role": "Dr.",
-        "city": "Winnipeg, MB",
-        "text": "NEC is a possibility, but we should consider other causes of bowel thickening as well. Have we run a stool test for giardiasis or inflammatory bowel disease? I always say, 'Don't jump to conclusions, especially in pediatrics \u2013 you never know what you're going to find.'",
-        "color": "purple"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Sarah Jenkins",
-        "role": "Ms.",
-        "city": "Ottawa, ON",
-        "text": "That's so true, Dr. Miller! I was reading a paper recently on pediatric GI pathology, and it highlighted the importance of considering less common causes of bowel thickening. Have you come across any studies on the use of fecal calprotectin in diagnosing NEC or intussusception?",
-        "color": "yellow"
-      },
-      {
-        "id": 5,
-        "parent_id": null,
         "user": "Dr. Victor Sterling",
-        "role": "Dr.",
+        "role": "",
         "city": "Calgary, AB",
-        "text": "This whole discussion seems like a classic case of EMERGENCY MEDICINE OVER-RATIONALIZATION. I'd bet my bottom dollar this kid has appendicitis! Any doctor who's been around the block a few times knows to trust their instincts and not complicate things with unnecessary testing. Let's keep it simple, shall we?",
-        "color": "orange"
+        "text": "Not to be a contrarian, but what about the use of CT scans as a diagnostic tool? We've been using them more frequently, but I'm concerned about radiation exposure in patients with limited life expectancy.",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "",
+        "city": "Vancouver, BC",
+        "text": "I'm all for incorporating more tools to enhance our diagnosis, but let's also focus on improving our knowledge of the condition. We must educate ourselves on the nuances of clinical presentation and laboratory findings to avoid missed diagnoses in the first place.",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 2,
+        "user": "Dr. Barb Miller",
+        "role": "",
+        "city": "Winnipeg, MB",
+        "text": "I see what you mean about CT scans, Vic, but what about MRI? Would it be a better option for diagnosing malignant otitis externa? We've had mixed results with CT scans.",
+        "color": "teal"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Leo Chen",
+        "role": "",
+        "city": "Montreal, QC",
+        "text": "I'm a little confused. What's the difference between CT and MRI scans in this scenario? I've only studied the basics.",
+        "color": "silver"
       },
       {
         "id": 6,
-        "parent_id": 5,
-        "user": "Dr. 'Ziggy' Zalesky",
-        "role": "Dr.",
-        "city": "Vancouver, BC",
-        "text": "Easy there, Doc. I respect your opinion, but appendicitis might not be the only diagnosis here. Can we discuss some red flags for appendicitis and see if we can rule it in or out? Any ER doc worth their salt knows to keep an open mind and consider the whole picture. And, btw, please don't say 'keep it simple' in this case; it's more complicated than you think.",
-        "color": "pink"
+        "parent_id": 3,
+        "user": "Dr. Sarah Sharp",
+        "role": "",
+        "city": "Laval, QC",
+        "text": "I think Ziggy hits the nail on the head. As healthcare providers, we must prioritize education and awareness of rare conditions like malignant otitis externa. This includes staying current with literature and sharing knowledge within our teams.",
+        "color": "red"
       },
       {
         "id": 7,
         "parent_id": 6,
-        "user": "Turbo Tom",
-        "role": "Mr.",
-        "city": "London, ON",
-        "text": "Haha, nice one, Dr. Z! Seriously, though, what's the typical approach to diagnosing appendicitis in the ED, and what kind of workup would you get for this kid?",
-        "color": "brown"
+        "user": "Barnaby Finch",
+        "role": "",
+        "city": "Surrey, BC",
+        "text": "I've been feeling overwhelmed by the sheer amount of medical information available online. Any recommendations on where to start when it comes to staying up-to-date with the latest research?",
+        "color": "pink"
       },
       {
         "id": 8,
-        "parent_id": 7,
-        "user": "Martha 'The Hammer'",
-        "role": "Ms.",
-        "city": "Halifax, NS",
-        "text": "Ah, I just love when the ER doc wants to over-rationalize things . Appendicitis is a simple diagnosis if you know your ABCs. Here's what I'd do: 'ABCs' stand for 'appendicitis, bowel obstruction, and cancer'. We should be concerned about an appendix rupture or cancer. If the patient is stable, I'd do a CT scan or contrast enema to visualize the appendix.",
-        "color": "gray"
+        "parent_id": 6,
+        "user": "Turbo Tom",
+        "role": "",
+        "city": "London, ON",
+        "text": "I second Sarah's point about the importance of education. We should also consider creating educational modules or workshops for our teams on rare conditions.",
+        "color": "orange"
       },
       {
         "id": 9,
-        "parent_id": 8,
-        "user": "Barnaby Finch",
-        "role": "Mr.",
-        "city": "Surrey, BC",
-        "text": "Thank you, Martha! This is so insightful. I've never thought about the broader differential for appendicitis. But what about non-operative management? Have we discussed this as an option?",
-        "color": "tan"
+        "parent_id": 7,
+        "user": "Dr. Archibald Thorne",
+        "role": "",
+        "city": "Saskatoon, SK",
+        "text": "I recall a lecture by Dr. Shelagh Cofer on the topic of otitis externa. She emphasized the importance of distinguishing between bacterial and fungal infections. Perhaps we should revisit her presentation?",
+        "color": "purple"
       },
       {
         "id": 10,
-        "parent_id": null,
-        "user": "Dr. Sarah Sharp",
-        "role": "Dr.",
-        "city": "Laval, QC",
-        "text": "I'd like to contribute a bit more about non-operative management. I've seen a few studies on the use of antibiotics and IV fluids in treating uncomplicated appendicitis. Has anyone else looked into these papers?",
-        "color": "turquoise"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "Dr.",
-        "city": "Windsor, ON",
-        "text": "GREAT IDEA, DR. SHARP! I just love when my docs suggest non-operative management for every little thing. I mean, who needs surgery, right? It's all about avoiding complications... NOT.",
-        "color": "magenta"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
+        "parent_id": 9,
         "user": "Dr. Maya Gupta",
-        "role": "Dr.",
+        "role": "",
         "city": "Mississauga, ON",
-        "text": "Rick, please calm down. Non-operative management has its place in certain cases. But don't forget, we're in the ED \u2013 our main goal is to stabilize the patient and prepare them for transfer to the OR if necessary. I'd suggest discussing the risks and benefits with your patient before proceeding.",
-        "color": "olive"
-      }
-    ]
-  },
-  {
-    "id": 10,
-    "title": "Rant about Acute Cholecystitis: How We Missed It (Again)!",
-    "body": "Just saw a patient with classic symptoms of acute cholecystitis, only to realize that we completely missed it last night. I know we're all busy, but a quick ultrasound would've saved us a lot of time and suffering. Has anyone else had a similar experience? What's the best way to differentiate between biliary colic and acute cholecystitis in the ED?",
-    "category": "EM Stories",
-    "comments": [
+        "text": "I think it's great that we have experienced clinicians like Dr. Cofer who can share their expertise with us. However, it's also essential that we continue to educate ourselves and stay current with the latest research.",
+        "color": "teal"
+      },
       {
         "id": 11,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "TL;DR: Always do an ultrasound when it's on the differential. Murphy's sign is not as sensitive as we think and can be easily missed. The best way to differentiate is to look for signs of peritonitis, such as diffuse abdominal tenderness and guarding, and to have a high index of suspicion in patients with risk factors for acute cholecystitis. Great case, OP!",
-        "color": "blue"
+        "parent_id": 3,
+        "user": "Chad Broson",
+        "role": "",
+        "city": "Brampton, ON",
+        "text": "I wish I knew more about malignant otitis externa. Can someone explain it in simple terms? I want to do better next time!",
+        "color": "silver"
       },
       {
         "id": 12,
-        "parent_id": 11,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Thorne, what exactly are the risk factors for acute cholecystitis?",
-        "color": "purple"
+        "parent_id": 8,
+        "user": "Sparkle-Eyes Sue",
+        "role": "",
+        "city": "St. John's, NL",
+        "text": "Love the idea of educational modules, Tom! Perhaps we can also include case studies and real-life scenarios to make learning more engaging? Who's with me?",
+        "color": "pink"
       },
       {
         "id": 13,
         "parent_id": 12,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Great question, Leo! The risk factors include a history of gallstones, obesity, diabetes, and female sex. But don't just take my word for it - a recent study published in the BMJ found that the strongest predictor of acute cholecystitis was a history of gallstones (odds ratio 3.3, 95% CI 1.8-6.1) [1].",
-        "color": "green"
-      },
+        "user": "Dr. Elena Varkov",
+        "role": "",
+        "city": "Quebec City, QC",
+        "text": "I'm on board with the idea of interactive learning, Sue. We should also emphasize the importance of collaboration and teamwork in diagnosing and managing rare conditions.",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "title": "TLDR: Don't Forget the Figure-Eight Suture for Extensor Tendon Repair in the Hand",
+    "body": "Had a miss last night with an un-repaired extensor tendon laceration at the DIP joint. The patient's hand surgeon said it would have taken 5-10 minutes to fix it if they were called in time. Had to splint it in extension for 6 weeks, hoping it wouldn't develop into a swan neck deformity. Has anyone had similar experiences with extensor tendon repairs?",
+    "category": "EM Residency",
+    "comments": [
       {
-        "id": 14,
-        "parent_id": 11,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs always forgetting the basics. A quick ultrasound would've saved the day. And don't even get me started on how often I see patients with acute cholecystitis who are misdiagnosed with biliary colic.",
-        "color": "red"
-      },
-      {
-        "id": 15,
-        "parent_id": 14,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Oh come on, Dr. Sterling, don't be so hard on the interns. We're just trying to do our best in a busy emergency department. And besides, I think Dr. Thorne's advice is spot on. We should always err on the side of caution and do an ultrasound when it's on the differential.",
-        "color": "purple"
-      },
-      {
-        "id": 16,
-        "parent_id": 15,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Err on the side of caution? Ha! In this department, we call that 'playing it safe.' You want to be a hero, not a zero. Get the ultrasound done, and don't waste my time with unnecessary diagnoses.",
-        "color": "red"
-      },
-      {
-        "id": 17,
-        "parent_id": 16,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Hey, hey, let's keep it civil, guys! We're all just trying to do our jobs to the best of our ability. And speaking of ultrasound, has anyone else had experience with the new Philips Luminesce? I had a chance to play with it the other day, and I was impressed with the image quality.",
-        "color": "green"
-      },
-      {
-        "id": 18,
-        "parent_id": 17,
+        "id": 1,
+        "parent_id": null,
         "user": "Dr. Sarah Sharp",
         "role": "EP",
         "city": "Laval, QC",
-        "text": "TL;DR: Yes, I've used the Philips Luminesce, and I love it! The image quality is indeed excellent, and it's so easy to use. But don't just take my word for it - check out this review from EM Rad [2] for a more detailed look.",
-        "color": "blue"
-      },
-      {
-        "id": 19,
-        "parent_id": 18,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "What's all this fuss about ultrasounds and new technology? Back in my day, we just used our sense and our wits to diagnose patients. No fancy machines needed!",
-        "color": "green"
-      },
-      {
-        "id": 20,
-        "parent_id": null,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Wait, what? So you're saying that we should do ultrasounds all the time? Wouldn't that just be over-diagnosing and wasting resources?",
+        "text": "Great reminder! In our residency, we learned to always repair extensor tendons at the time of initial presentation. If not repaired, it can lead to a swan neck deformity, which can be difficult to correct surgically. Remember, it's not just about splinting and hoping for the best. Every minute counts in hand trauma!",
         "color": "purple"
       },
       {
-        "id": 21,
-        "parent_id": 20,
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I had a question about the swan neck deformity. Can someone explain to me what happens during the swan neck deformity? Is it like a bony deformity or a soft tissue deformity?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
         "user": "Dr. Aris Thorne",
         "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "Actually, Chad, the opposite is true. A quick ultrasound can save a lot of time and resources in the long run. And it's not just about diagnosing, it's about providing the best possible care for your patients. Now let me show you what I mean... [posts image]",
+        "text": "Excellent point, Sarah. The swan neck deformity is actually a soft tissue deformity, characterized by hyperextension of the proximal interphalangeal joint and flexion of the distal interphalangeal joint. It's a result of the imbalance of the extensor and flexor tendons. Leo, I'd recommend checking out the video on the AAOS website to see it in action.",
         "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Just had a similar experience with an unrepaired extensor tendon laceration at the PIP joint. Ended up with a boutonniere deformity. Lesson learned: don't delay hand trauma repairs! The patient ended up with a permanent deformity. Has anyone else had experience with boutonniere deformities?",
+        "color": "orange"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "What's a boutonniere deformity? Is it like a weird finger thingy?",
+        "color": "pink"
+      },
+      {
+        "id": 6,
+        "parent_id": 4,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "Boutonniere deformity, Chad, is a condition where there's a fixed flexion deformity of the proximal interphalangeal joint and hyperextension of the distal interphalangeal joint. It's a result of the disruption of the central slip and the subsequent imbalance of the lateral bands. You should definitely check out the OrthoBullets article on this topic.",
+        "color": "brown"
+      },
+      {
+        "id": 7,
+        "parent_id": null,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs. All of you. Don't you know that the key to avoiding these deformities is to properly assess and repair the tendons in the first place? It's not rocket science, folks. Just use some common sense and follow the surgical guidelines.",
+        "color": "gray"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Oh, come on, Vic! We know you're a brilliant surgeon and all, but maybe we're just trying to share some practical advice with each other? No need to be condescending. Besides, we're trying to help each other out here.",
+        "color": "yellow"
+      },
+      {
+        "id": 9,
+        "parent_id": null,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Love the discussion, everyone! Just a friendly reminder that we should be using the figure-eight suture for extensor tendon repairs to minimize the risk of bowstringing. Has anyone had experience with this technique?",
+        "color": "purple"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Actually, Ziggy, I've had experience with the figure-eight suture, and I can attest to its effectiveness in minimizing bowstringing. However, I've also seen cases where it's been used improperly, leading to poor outcomes. Do you have any tips on how to properly tie the figure-eight suture?",
+        "color": "blue"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Great question, Kevin! Ziggy, can you share your tips on how to perfectly tie the figure-eight suture? I've struggled with it in the past, and I'm sure others have too.",
+        "color": "orange"
       }
     ],
-    "image": "https://coreem.net/content/uploads/2016/04/Image-1-Acute-Chole-US.jpg"
+    "image": "https://www.jhsgo.org/cms/10.1016/j.jhsg.2024.02.016/asset/1ad5e9b9-9bf7-4069-818e-9eeea321fa7a/main.assets/gr3_lrg.jpg"
   }
 ]
