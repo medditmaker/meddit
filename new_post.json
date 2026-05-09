@@ -1,17 +1,17 @@
 [
   {
     "id": 1,
-    "title": "Missed a big one last night - upper GI bleed in disguise... ",
-    "body": "Had a patient present with sudden onset hematochezia, thought it was a lower GI bleed and sent him for a CT scan. Turns out it was a Mallory-Weiss tear from recent gastroscopy. Just goes to show you always need to consider an upper GI source in these cases.",
-    "category": "emergency medicine",
+    "title": "Today I Learned: A Low-Probability Acute Coronary Syndrome (ACS) Conundrum",
+    "body": "Just saw a patient with chest pain and a 40s ECG that kept me up all night wondering if I was missing a STEMI. After a flurry of troponins and Echoes, I finally decided to send her home with a prescription for colchicine and a stern warning about the dangers of excessive red wine consumption. Am I an idiot or is this a common strategy for low-probability ACS?",
+    "category": "Emergency Medicine",
     "comments": [
       {
         "id": 2,
         "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "So true! Even with the classic 'red flag' symptoms like hematemesis or melena, we still have to consider a lower GI source. One of the takeaways for me from a recent study on this topic was that in 10% of cases of hematochezia, it was actually an upper GI bleed in disguise. We should consider this in all cases of GI bleeding, especially in those with a history of recent upper endoscopy.",
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Not an idiot, Ziggy here! Low-probability ACS is a real thing, and we're often too quick to rule out ACS in favor of a 'nice' ECG and a normal troponin. Have you heard of the 'HEART' score? It can really help us identify which patients are at high risk despite normal initial testing.",
         "color": "purple"
       },
       {
@@ -20,411 +20,311 @@
         "user": "Leo Chen",
         "role": "MS1",
         "city": "Montreal, QC",
-        "text": "What are some red flag symptoms for upper GI bleed? I thought it was just hematemesis and melena. What else should we be looking for?",
+        "text": "Thanks, Dr. Z! I've heard of the HEART score, but I'm not sure how to use it. Can you explain it in more detail and tell us how to implement it in practice?",
         "color": "green"
       },
       {
         "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Great question, Leo! Some red flags for upper GI bleed include a history of peptic ulcer disease, recent NSAID use, and a history of gastroscopy or bronchoscopy. We should also consider the risk factors for gastric varices like portal hypertony and liver cirrhosis. And of course, always a good idea to check the patient's INR if they're on anticoagulants.",
-        "color": "purple"
+        "parent_id": 2,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Yup, HEART score is a great tool for assessing low-probability ACS risk. It's based on 6 risk factors: age, sex, type of chest pain, ECG findings, biomarkers (troponin), and prior history of CAD. You can calculate the score and use it to estimate the probability of ACS. Has anyone seen the original paper on this?",
+        "color": "green"
       },
       {
         "id": 5,
+        "parent_id": 4,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Actually, I think I saw that paper, Dr. Sharp! Wasn't it published in the NEJM or something? Can you remind me what the exact cutoff values are for the score?",
+        "color": "green"
+      },
+      {
+        "id": 6,
         "parent_id": null,
         "user": "Dr. Victor Sterling",
         "role": "Chief of Surgery",
         "city": "Calgary, AB",
-        "text": "You people are over-diagnosing again. Half the time the patient is fine after a glass of water. Just admit them for observation and send them for an EGD later.",
-        "color": "bluegreen"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Come on, Vic! This is a serious case. We need to consider the patient's history and risk factors, not just assume it's an over-diagnosis. Remember the patient with the history of stomach ulcers? She almost died because we didn't take her to the OR promptly enough.",
-        "color": "purple"
+        "text": "Amateurs always rushing to calculate scores and whatnot. In my day, we didn't need fancy algorithms to diagnose ACS. A good old-fashioned physical exam and some clinical judgment were all we needed.",
+        "color": "red"
       },
       {
         "id": 7,
         "parent_id": 6,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "I'm so glad you brought this up, Dr. Thorne. Can you explain the difference between a non-variceal and a variceal upper GI bleed? I get a little confused when it comes to the treatment.",
-        "color": "green"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "A non-variceal bleed is usually due to NSAID use or a peptic ulcer, and can be managed with endoscopy and treatment of the underlying cause. Variceal bleeds are usually due to portal hypertension and cirrhosis, and require treatment with octreotide and possibly TIPS, depending on the severity. And of course, always a good idea to consider liver transplant if the patient is a candidate.",
-        "color": "purple"
-      },
-      {
-        "id": 9,
-        "parent_id": null,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Just a side note, but I had to deal with a patient recently who had a severe allergicreaction to omeprazole in the ER. Don't forget to check the patient's meds before giving any H2 blockers!",
-        "color": "fuchsia"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Phil Muddle",
-        "role": "EP",
-        "city": "Regina, SK",
-        "text": "Uh, what was the date again?",
-        "color": "lightblue"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "You're so funny, Phil! But seriously, don't you think you should know the date when you're working in the ER?",
-        "color": "purple"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Is it true that most upper GI bleeds are due to NSAID use? I heard my friend's sister got a bleed from taking ibuprofen and it was super close to death for her.",
-        "color": "blue"
-      },
-      {
-        "id": 13,
-        "parent_id": 12,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Not quite, Chad. While NSAID use is a risk factor, it's not the most common cause of upper GI bleed. According to the American College of Gastroenterology, the most common cause is gastric ulcer disease. NSAIDs do increase the risk, but it's not the leading cause.",
-        "color": "green"
-      },
-      {
-        "id": 14,
-        "parent_id": null,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Jeeze, I don't get why you people are so worked up about this. Can't you just give the patient some TUMS and call it a day?",
-        "color": "coral"
-      },
-      {
-        "id": 15,
-        "parent_id": 14,
         "user": "Dr. Elena Varkov",
         "role": "FRCPC",
         "city": "Quebec City, QC",
-        "text": "Sparkle, come on! You know better than that. We need to consider the underlying cause of the bleed and provide the appropriate treatment. And besides, TUMS aren't exactly the best choice for managing GI bleeding.",
-        "color": "purple"
-      },
-      {
-        "id": 16,
-        "parent_id": 15,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "I have to agree with Sue on this one. Can we just give the patient some antacids and send them home with a bottle of milk? I mean, it's not like they're gonna die from a little upper GI bleed.",
-        "color": "fuchsia"
-      },
-      {
-        "id": 17,
-        "parent_id": 16,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "Oh my word, what is the matter with you young whippersnappers? In my day, we treated upper GI bleeds with a good dose of castor oil and some beef broth. But I suppose you're all too busy playing with your gadgets and whatnot.",
-        "color": "magenta"
-      },
-      {
-        "id": 18,
-        "parent_id": 17,
-        "user": "Dr. Barbara Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Dr. Thorne, I think you might be getting a bit carried away with your antiquated approach. While I appreciate your dedication to your craft, some of us have moved on to more modern treatments like proton pump inhibitors and endoscopy.",
+        "text": "Uh, Dr. Sterling, I think you might be oversimplifying things a bit. While clinical judgment is crucial, we need to acknowledge that ACS is a complex disease with multiple potential causes and presentations. The HEART score can be a useful tool for identifying high-risk patients, even if we can't always use it to definitively diagnose ACS.",
         "color": "green"
-      }
-    ],
-    "image": "https://iem-student.org/wp-content/uploads/2018/05/GIB-Figure-1.png"
-  },
-  {
-    "id": 1,
-    "title": "TLDR: Hemoptysis - The Difficult Diagnosis",
-    "body": "Just saw a patient last night with hemoptysis, but the real challenge was figuring out the cause... I was initially stumped, but after some reflection, I realized that I missed a key step in the diagnostic process. I'm not the only one who's had this problem, I'm sure - hemoptysis is notoriously difficult to diagnose, with up to 30% of cases remaining undetermined after a thorough workup.",
-    "category": "EM",
-    "comments": [
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Hemoptysis is indeed a challenging condition to diagnose. One of the key steps in the diagnostic process is to differentiate between hemoptysis and pseudohemoptysis. In my experience, pseudohemoptysis is often a result of a cardiac issue, such as a dissecting aortic aneurysm or a cardiac tumor that's causing pulmonary hemorrhage. To determine this, we need to obtain a thorough history, including any previous medical conditions or risk factors for aortic dissection, and a thorough physical examination. We should also consider ordering an echocardiogram or a chest CT to confirm the presence of cardiac abnormalities. The takeaway here is that we can't rely solely on lab values or imaging; we need a more holistic approach to diagnosis.",
-        "color": "purple"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Hi Dr. Thorne, I was wondering, how do you determine if the hemoptysis is coming from the left or right side of the lung? In my textbooks, it says we can use a bronchoscopy, but is that really the best option?",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Ah, great question Leo! Yes, bronchoscopy is a useful tool to determine the source of bleeding in the airways. However, it's not always necessary. If we have a strong suspicion of a left-sided lung issue, we can try to diagnose it with a simple left-sided endoscopy, which is quicker and less invasive than bronchoscopy. Additionally, if we suspect a right-sided issue, we can try to visualize it with a chest X-ray or even a CT scan. The key is to use a combination of these tools, rather than relying on just one.",
-        "color": "purple"
-      },
-      {
-        "id": 5,
-        "parent_id": 2,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Dr. Thorne, I appreciate your point about the importance of considering cardiac causes of pseudohemoptysis. However, shouldn't we also consider the possibility of an iatrogenic cause, such as a ruptured airway during endoscopy or a bleeding complication from a recent procedure? I've seen cases where iatrogenic causes can be the most likely explanation for the bleeding.",
-        "color": "green"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Excellent point Sarah! Iatrogenic causes are indeed a possibility that we should always consider. In fact, iatrogenic causes account for up to 30% of cases of hemoptysis, according to some sources. It's crucial that we investigate all potential causes, including iatrogenic ones, to ensure accurate diagnosis. I appreciate your diligence in bringing this up.",
-        "color": "purple"
-      },
-      {
-        "id": 7,
-        "parent_id": null,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Hemoptysis is just the tip of the iceberg, folks. What about the patient's past medical history, their smoking status, and their family history? Don't forget to ask about any recent travel or potential exposures that might be related to their symptoms.",
-        "color": "purple"
       },
       {
         "id": 8,
         "parent_id": 7,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Amen, Barb! You're preaching to the choir here. I've seen patients come in with hemoptysis and no one thinks to ask about their meds or any recent changes to their regimen. It's all about the big picture, folks.",
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "I love how we're all discussing this, but what about when the patient has a normal ECG and troponin, but they're still having symptoms? What do we do then? Do we just send them home or keep them in hospital for observation?",
         "color": "green"
       },
       {
         "id": 9,
-        "parent_id": 7,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Excellent reminder Barb! Past medical history, current medications, and any recent changes are crucial when evaluating hemoptysis. And don't even get me started on the importance of considering alternative causes, such as pulmonary embolism or cardiac disease.",
-        "color": "purple"
-      },
-      {
-        "id": 10,
-        "parent_id": null,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "So... what's the deal with pseudohemoptysis? Is it just a fancy way of saying 'no idea what's going on'? LOL. Sorry, I know it's a serious topic, but I just want to make sure I understand it.",
+        "parent_id": 8,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Great question, Sue! In cases like that, we might want to consider additional testing, like a cardiac stress test or a coronary CT angiogram, to get more information. Or, we could try some medical therapy to see if it improves their symptoms. It's always a delicate balance between keeping them in hospital and not over-investigating.",
         "color": "green"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Ha! Not quite, Chad. Pseudohemoptysis refers to the appearance of blood in the sputum when there's actually no active bleeding from the lungs themselves. It can be caused by a variety of factors, including cardiac disease or even food coloring. The goal is to distinguish pseudohemoptysis from actual hemoptysis, which requires a thorough evaluation and diagnosis.",
-        "color": "purple"
       }
-    ]
+    ],
+    "image": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1186%2Fs40560-018-0285-9/MediaObjects/40560_2018_285_Fig1_HTML.gif"
   },
   {
-    "id": 2,
-    "title": "TL;DR: Syncope and Sudden Cardiac Death in Kids - What to Look out for and What to Keep in Mind",
-    "body": "Just saw a 15-yr-old with a classic case of syncope in the ER. The kid was a varsity football player, and his coach had brought him in after an episode of sudden collapse during practice. The kid was stable, but the coach was freaking out. I knew I had to rule out some serious cardiac causes, so I got the kid on a 12-lead ECG, and we ran some basic cardiac enzymes. Turns out, the kid had a normal ECG, and his troponins were negative. But I still kept him in the back, and consulted cardiology to get a second opinion. It turned out to be a classic case of neurally mediated syncope. The kid had been playing for a while without hydration, and got light-headed. But what really caught my eye was that the kid had a family history of hypertrophic cardiomyopathy, one of the most common causes of sudden cardiac death in young athletes. So, even though the kid had a normal ECG, it was crucial to get him to cardiology ASAP. What are your guys' take on this case? Have any of you had to deal with similar situations?",
+    "id": 1,
+    "title": "Just saw a patient with a complex femoral condyle fracture...",
+    "body": "Had to deal with a complex femoral condyle fracture last night. Patient was a young woman who fell off a bike. Initial plain films showed a nondisplaced but spiral fracture of the lateral femoral condyle. I ordered a CT to evaluate the extent of the fracture and potential articular involvement.\n\n   The CT showed a committed fracture with 2-3 mm of joint step-off. I discussed the case with our orthopods and we decided to take her to OR for an open reduction and internal fixation with a lateral plate. The whole procedure was a challenge due to the complex fracture pattern and her tenuous medical history.\n\n   But here's the thing... what's the best way to manage femoral condyle fractures? Do you prefer ORIF with a plate, or intramedullary nailing? What are the indications for each approach? Anybody have any experience with these fractures?",
     "category": "Emergency Medicine",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Great post, fellow! I couldn't agree more. Neurally mediated syncope is a classic cause of syncope, especially in young athletes. But, like you said, we can't forget about the cardiac causes. Hypertrophic cardiomyopathy is a huge red flag, especially in families with a history of it. Did you consider ordering an echocardiogram to rule this out, or were you relying on the ECG to clear the kid?",
-        "color": "blue"
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Great case! In my experience, the key to managing femoral condyle fractures is to evaluate the joint surface carefully. I usually use a CT angiogram to confirm the fracture pattern and any potential vascular injury. For comminuted and unstable fractures, I prefer intramedullary nailing because it allows for more precise reduction and better stabilization of the joint. However, if the fracture is more linear and there's no articular involvement, a plate-based approach might be sufficient.\n\n         Link to a nice review on femoral condyle fractures: https://www.orthopnw.com/patient-education/fractures-of-the-femur/",
+        "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs still ordering echocardiograms for every kid who faints? Get with the times, folks. A thorough history and physical, along with a 12-lead ECG, are all we need to diagnose neurally mediated syncope. And, by the way, hypertrophic cardiomyopathy is a diagnosis of exclusion. We need to stop jumping to conclusions and relying on fancy diagnostics.",
-        "color": "red"
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "I've seen Dr. Gupta's approach many times, especially for comminuted fractures. One thing she always reminds us is to check for any potential nerve or vascular injuries during the procedure. We had a case a few months ago where the patient had a femoral condyle fracture with a nerve injury... it was a real challenge to manage!",
+        "color": "green"
       },
       {
         "id": 3,
         "parent_id": 1,
-        "user": "Dr. Ziggy Zalesky",
+        "user": "Sarah Sharp",
         "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Come on, Vic, lighten up. I think we all get the point. But, to address your question, Dr. Thorne, I always order an echocardiogram in cases like this. It's a quick and easy test that can rule out some serious cardiac causes. And, who knows, it might just catch something that we wouldn't have seen on an ECG. Has anyone else got any thoughts on this? Maybe we can link some resources or guidelines for our ER docs to follow?",
-        "color": "purple"
+        "city": "Laval, QC",
+        "text": "Great discussion! For femoral condyle fractures, I also make sure to assess the patient's overall medical condition, including their nutritional status, co-existing conditions such as osteoporosis, and any potential for smoking cessation. This is crucial in determining the best management strategy for the patient.",
+        "color": "green"
       },
       {
         "id": 4,
-        "parent_id": 3,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "OMG, you guys are talking about fancy medical stuff! Can someone explain what an echocardiogram is? Like, is it a special test that shows the heart beating or something?",
+        "parent_id": 2,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great reminder, Turbo Tom! Nerve and vascular injuries can be devastating for a patient. When managing these injuries, we should always follow a step-wise approach to ensure thorough evaluation and timely intervention. I also recommend keeping an eye on the patient's pain management, especially if they have a potential nerve injury.",
         "color": "pink"
       },
       {
         "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Ha! Good luck with med school, Chad. An echocardiogram is a non-invasive ultrasound test that uses sound waves to create images of the heart and its blood vessels. It can help diagnose a range of cardiac conditions, including hypertrophic cardiomyopathy. And, yes, it can show the heart beating, but it's way more complicated than that. Maybe one day you'll be an ER doc and figure it out :)",
-        "color": "green"
+        "parent_id": 1,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "I'm new to emergency medicine and I have a question. What's the best way to evaluate a patient's overall medical condition, especially when it comes to assessing their nutritional status?",
+        "color": "blue"
       },
       {
         "id": 6,
         "parent_id": 5,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Gupta, you're so cool! Can you explain how the echocardiogram works? Like, what's the actual mechanism behind it?",
-        "color": "blue"
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Great question, Doc! When evaluating a patient's nutritional status, I recommend using the Mini-Nutritional Assessment (MNA) tool, especially if you're concerned about malnutrition or frailty. It's a quick and easy-to-use tool that can give you a good idea of the patient's nutritional status.",
+        "color": "green"
       },
       {
         "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Leo, nice question. An echocardiogram works by using high-frequency sound waves to create images of the heart. These sound waves are directed at the heart using a wand-like device called a transducer. The sound waves then bounce off the heart and return to the transducer, creating a detailed image of the heart and its blood vessels. The test is completely painless and non-invasive, but it does require some preparation.",
-        "color": "red"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "I'm no expert, but I was just wondering... does the echocardiogram show any signs of hypertrophic cardiomyopathy? Like, is it a specific indicator of the condition?",
-        "color": "purple"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Great question, Sparkle-Eyes! An echocardiogram can show signs of hypertrophic cardiomyopathy, such as an enlarged heart and thickened heart muscle. However, these signs are not exclusive to HCM, and a diagnosis is typically made based on a combination of clinical symptoms, imaging tests, and cardiac function measurements.",
-        "color": "green"
-      },
-      {
-        "id": 10,
-        "parent_id": 1,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "Can we please just stick to the topic at hand? We're all doctors here, for crying out loud! Let's not get sidetracked by the usual nonsense. The point is, neurally mediated syncope is a real diagnosis that we need to take seriously. And, yes, it's possible to over- or under-diagnose it. But that doesn't mean we should just throw our hands up and say 'oh well, it's just a faint'! What are your guys' strategies for diagnosing and managing NM syncope?",
-        "color": "red"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Dr. Barbara Miller",
-        "role": "FP",
-        "city": "Winnipeg, MB",
-        "text": "Thanks for cutting to the chase, Rick. I'm with you on this one. NM syncope is all too easy to over-look, especially in kids. My strategy is always to ask a thorough history and physical, and to look for any signs of cardiac or other underlying issues. And, of course, a 12-lead ECG is the first line of investigation. But what about the role of the family history? Should we be weighing that more heavily in our diagnoses?",
-        "color": "pink"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Dr. Ziggy Zalesky",
+        "parent_id": 5,
+        "user": "Dr. Zalesky",
         "role": "EP",
         "city": "Vancouver, BC",
-        "text": "I think family history should be a key consideration, Barbara. In cases like this, a positive family history of cardiac conditions like HCM or coronary artery disease can make a big difference in our diagnosis. But, of course, we also need to consider other factors like age, sex, and lifestyle. The San Francisco Syncope Rule is a great resource for this. Has anyone else got any tips or tricks for evaluating NM syncope?",
+        "text": "Another great tool is the Global Assessment of Falls (GAF) scale. It's a comprehensive tool that assesses a patient's risk of falls and provides a framework for developing a safety plan. Just think about it, we can use it for more than just falls risk!",
         "color": "purple"
-      },
-      {
-        "id": 13,
-        "parent_id": null,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "You guys are having a nice discussion, but let's not forget about the patient. What about the kid's story? Was he getting enough fluids and rest? Did he have any other symptoms besides syncope?",
-        "color": "green"
       }
     ]
   },
   {
-    "id": 3,
-    "title": "Trauma in Adults: When Do We Admit?",
-    "body": "Rant about... Trauma triage can be a minefield, folks. I saw a patient last night with multiple long-bone fractures and a suspected spinal injury, and I was on the fence about admitting. Anyone have thoughts on when to err on the side of caution? TLDR: when do we get comfortable admitting patients with non-specific symptoms?",
+    "title": "Rant about: missed genitourinary trauma in the ER",
+    "body": "Just saw a patient with a 'simple' laceration of the scrotum. Simple? It was actually a complex avulsion of the scrotum that required surgical intervention. I've been an emergency physician for 10 years and I've been missing genitourinary trauma cases left and right because I thought I knew what to look for. TLDR: genitourinary trauma is not something you can just 'think you know'. You need to be thorough in your exams and don't be afraid to call in a specialist. Anyways, just a rant.",
+    "category": "emergency-medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Physician",
+        "city": "Toronto, ON",
+        "text": "I completely agree with you, 'simple' cases are where we tend to miss our diagnoses. In my experience, the most commonly missed genitourinary trauma is penile and scrotal trauma. The key is to be thorough in your physical exam, looking for signs of injury such as swelling, ecchymosis, and tenderness. It's also crucial to obtain a proper history from the patient, including asking about any recent trauma or injuries. Don't be afraid to call in a urologist or a trauma surgeon if you're not sure what you're looking at.\n\nAs for penile fractures, they're more common than people think! They can be a challenging diagnosis, but if you suspect one, do not delay in calling in a specialist. The sooner the patient gets treatment, the better the outcome. Check out this link from the Urological Society of North America for more info: https://bit.ly/3qR4w6u\n\nLet's make sure to keep our patients safe and get them to the right specialists in time!",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Thank you for sharing your experience! I'm in my first year of med school and I'm still learning about genitourinary trauma. Can you elaborate on what to look for in a physical exam? What are some other red flags for suspected genitourinary trauma?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "I think it's interesting that you bring up the importance of a thorough physical exam. In our med school curriculum, we emphasize the use of FAST exams in emergency medicine. However, in cases of suspected genitourinary trauma, wouldn't it make more sense to use a modified ultrasound exam to assess the integrity of the scrotal or penile structures?",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Maya Gupta",
+        "role": "Resident",
+        "city": "Mississauga, ON",
+        "text": "Great point, Sarah. Modified ultrasound exams can be very helpful in assessing genitourinary trauma. However, it's also essential to remember that even with the best imaging studies, we can still miss subtle injuries. That's why it's crucial to maintain a high index of suspicion and not delay in calling in a specialist if you're unsure. I've had cases where a patient presented with what seemed like a 'minor' injury, but it turned out to be a severe case of scrotal avulsion.",
+        "color": "red"
+      },
+      {
+        "id": 5,
+        "parent_id": 1,
+        "user": "Dr. Brock Stone",
+        "role": "Surgeon",
+        "city": "Hamilton, ON",
+        "text": "As a surgeon, I've seen my fair share of genitourinary trauma. In my opinion, the most common mistake we make in the ER is underestimating the severity of these injuries. We get caught up in trying to be efficient and send the patient home, but that's exactly what we should avoid doing. Don't let your personal biases Cloud your judgment \u2013 if the patient presents with symptoms suggestive of genitourinary trauma, err on the side of caution and call in a specialist.",
+        "color": "purple"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Turbo Tom",
+        "role": "Nurse",
+        "city": "London, ON",
+        "text": "Amen to that, Dr. Stone. As a nurse, I've seen how quickly things can go wrong when we underestimate the severity of a patient's condition. It's always better to err on the side of caution and get the patient to a specialist as soon as possible. We can't predict every possible scenario, but we can at least keep our patients safe and get them the right treatment.",
+        "color": "orange"
+      },
+      {
+        "id": 7,
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "Resident",
+        "city": "Mississauga, ON",
+        "text": "I couldn't agree more with Dr. Stone. As a resident, I've learned the hard way that it's always better to be safe than sorry. A missed diagnosis can have severe consequences, especially in the case of genitourinary trauma. We owe it to our patients to be vigilant and get them the right care.",
+        "color": "red"
+      },
+      {
+        "id": 8,
+        "parent_id": 1,
+        "user": "Dr. Aris Thorne",
+        "role": "Physician",
+        "city": "Toronto, ON",
+        "text": "I think we've all learned something from this conversation. It's essential to keep our patients safe and get them to the right specialists in time. Genitourinary trauma may seem like a rare occurrence, but we can't underestimate its severity. Let's all make a conscious effort to be more vigilant and do the best we can for our patients!",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Just saw a patient with a classic case of status asthmaticus and had to wonder...",
+    "body": "Just saw a patient with a classic case of status asthmaticus and had to wonder, have we made any progress in management of this condition since the last century?",
     "category": "EmergencyMedicine",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Great topic, OP. I always think about the NEXUS criteria for neck and back injuries. Have you guys seen that the modified NEXUS tool is just as effective and easier to use?",
-        "color": "teal"
+        "user": "Dr. Victor Sterling",
+        "role": "FRCSC",
+        "city": "Calgary, AB",
+        "text": "I couldn't agree more, status asthmaticus is still a scourge on our EDs. We need to rethink our approach to initial bronchodilator therapy... [1] TLDR: We need to switch to IV anticholinergics as first line. What are we waiting for? (sarcasm)",
+        "color": "red"
+      },
+      {
+        "id": 11,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "I thought IV anticholinergics were only recommended for severe status asthmaticus when patients didn't respond to initial bronchodilators... [2] Could you elaborate on your recommendation, Dr. Sterling?",
+        "color": "blue"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Dr. Victor Sterling",
+        "role": "FRCSC",
+        "city": "Calgary, AB",
+        "text": "Good job, Sarah, you're absolutely right. My apologies for the confusion. We should stick with IV anticholinergics for severe status asthmaticus, but use them earlier in the course of treatment. Let's not overthink this... [3]",
+        "color": "purple"
+      },
+      {
+        "id": 13,
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Edmonton, AB",
+        "text": "I agree that IV anticholinergics have a place in status asthmaticus management, but what about the role of intravenous magnesium in this scenario?",
+        "color": "green"
+      },
+      {
+        "id": 14,
+        "parent_id": 13,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Dr. Gupta, IV magnesium is a great addition to the treatment armamentarium, but it's essential to note that some studies have questioned its efficacy in preventing intubation in severe status asthmaticus... [4] Can you elaborate on your experience with IV magnesium in this context?",
+        "color": "blue"
+      }
+    ],
+    "image": "https://emergencymedicinecases.com/wp-content/uploads/2024/04/EM-cases-asthma-algo-V4.png"
+  },
+  {
+    "id": 1,
+    "title": "Today I Learned: Don't underestimate the power of an IVC filter in a patient with submassive PE and anticoagulation failure",
+    "body": "I had a patient last night who was admitted with a submassive PE and anticoagulation failure. After trying to get a line and starting some low molecular weight heparin, I consulted the interventional radiologist to place an IVC filter. The patient was tachycardic, hypotensive, and had a low O2 saturation. I was told to admit them to ICU but the patient's condition rapidly deteriorated and I ended up giving them tPA in the ER. But what really got me was when the interventional radiologist called me to tell me that the IVC filter was inserted successfully and the patient's symptoms completely resolved within 30 minutes.",
+    "category": "emedicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Lol @ Ziggy what's the deal with IVC filters, do you still use them nowadays?\n\nICD: Inferior Vena Cava, I've heard they are a thing of the past, are they still a viable option?",
+        "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Wait, what's the modified NEXUS tool? I thought the regular NEXUS was the gold standard?",
-        "color": "blue"
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "Don't be so cocky, @Ziggy! IVC filters still have their place, especially in patients with recurrent PE and anticoagulation failure. But we shouldn't dismiss them as a treatment option just yet. Maybe the OP could share some more details about the patient's case?\n\nSource: [1]\n\n[1]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4724917/",
+        "color": "green"
       },
       {
         "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "OP, can I jump in and mention that the American College of Surgeons (ACS) Trauma Quality Improvement Program (TQIP) has some great data on trauma outcomes? We should totally review it for next month's morbidity and mortality conference",
-        "color": "purple"
+        "parent_id": 2,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "So Ziggy, @Martha, I'm a bit confused, can someone clarify the role of IVC filters in PE treatment? I thought they were only used as a last resort?",
+        "color": "blue"
       },
       {
         "id": 4,
         "parent_id": 3,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Thanks for the mention, Dr. Gupta! Have you guys seen the TQIP paper on injury severity scores? It's fascinating. Can someone explain to me why we can't just use the ISS to triage patients?",
-        "color": "red"
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Hi @Chad! So, IVC filters can be used as both a preventive measure and a treatment option for PE. They're especially useful in patients with recurrent PE, anticoagulation failure, or those who are at high risk of bleeding. But it's not just a last resort; they can also be used to prevent post-thrombotic syndrome and preserve renal function.\n\nSource: [2]\n\n[2]: https://www.sciencedirect.com/science/article/pii/S1556084413000357#\n\nTLDR: IVC filters are not a one-size-fits-all solution, and the decision to use them should be based on individual patient characteristics and risk factors.",
+        "color": "orange"
       },
       {
         "id": 5,
@@ -432,71 +332,319 @@
         "user": "Dr. Kevin Park",
         "role": "PGY1",
         "city": "Edmonton, AB",
-        "text": "Actually, the ISS is a great tool, but it has its limitations. For example, it doesn't account for certain injuries like head injuries or spinal cord injuries, which are super important. Anyone have insights on how to balance the use of ISS with clinical judgment?",
+        "text": "Thanks for clarifying @Dr. Maya Gupta! So, how do you determine which IVC filter is best for a patient? Are there any specific manufacturers or designs that you prefer?",
+        "color": "purple"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Also, what's the most common side effect or complication of IVC filters? I've heard they can cause some issues with clot formation or filter migration.",
+        "color": "purple"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Hi @Dr. Kevin Park! The decision to use a specific IVC filter should be based on individual patient characteristics and risk factors. There are several manufacturers and designs available, and the choice often depends on the patient's specific needs and comorbidities.\n\nCommon side effects or complications of IVC filters include filter migration, clot formation, or filter thrombosis. But these can often be managed with anticoagulation or other interventions.\n\nSource: [3]\n\n[3]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4631233/",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Just saw a patient with massive GI bleed, but it was NOT what I expected... ",
+    "body": "I've been on call for 36 hours, and just got done evaluating a patient with acute GI bleed. At first glance, it's a textbook case of upper GI bleed - bright red hematemesis, tachycardia, shock, the whole 9 yards. But as I dug deeper, it turned out to be a massive lower GI bleed from a sigmoid volvulus! Who else has ever seen this before, and what's the best approach to diagnosis?",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. 'Ziggy' Zalesky, EP",
+        "role": "Suffix",
+        "city": "Vancouver, BC",
+        "text": "Lol, nice one Dr. Thorne! Ziggy here, and I've had a similar experience. These sigmoid volvulus are always a challenge. My go-to for diagnosis is usually a contrast enema to rule out other causes.",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Victor Sterling, Chief of Surgery",
+        "role": "Suffix",
+        "city": "Calgary, AB",
+        "text": "Amateurs, always making rookie mistakes. The proper diagnosis is to do a laparotomy on sight. No need for all these fancy CT scans and contrast enemas.",
+        "color": "red"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Dr. Aris Thorne, Staff Physician",
+        "role": "Suffix",
+        "city": "Toronto, ON",
+        "text": "@Victor, I think you're forgetting that we're not always in a tertiary care center with a full surgical team on standby. In resource-limited settings, a contrast enema can be a life-saving tool.",
+        "color": "pink"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Sarah Jenkins, MS3",
+        "role": "Suffix",
+        "city": "Ottawa, ON",
+        "text": "I've just read an article on the topic of sigmoid volvulus, and it mentioned that the diagnosis should always start with an abdominal plain film to check for signs of bowel obstruction and volvulus.",
+        "color": "orange"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Maya Gupta, PGY2",
+        "role": "Suffix",
+        "city": "Mississauga, ON",
+        "text": "@Sarah, that's right! But what about when we're in the ER and don't have time to get a plain film? Do you think a focused ultrasound can help in these cases?",
+        "color": "light blue"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Elena Varkov, FRCPC",
+        "role": "Suffix",
+        "city": "Quebec City, QC",
+        "text": "I've had experience with focused ultrasound in the ER, and it's really useful for differentiating between solid and free fluid in the abdomen. But when it comes to sigmoid volvulus, I think I'd rather stick to the contrast enema.",
+        "color": "dark blue"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Leo Chen, MS1",
+        "role": "Suffix",
+        "city": "Montreal, QC",
+        "text": "Wait, what's the best way to differentiate between solid and free fluid with focused ultrasound? Can someone explain that to me?",
+        "color": "teal"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Barb Miller, EP",
+        "role": "Suffix",
+        "city": "Winnipeg, MB",
+        "text": "Ah, Leo, that's a great question! It's really all about looking for the 'mosaic sign' - when you see a lot of small, bright speckles on the ultrasound, it's usually free fluid. But when it's just a solid mass, it's more likely to be a bowel obstruction.",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Today I Learned: Ruptured AAA",
+    "body": "Just saw a patient with a ruptured AAA. Bedside ultrasound was super helpful in identifying the aneurysm, but not great for assessing rupture or retroperitoneal hemorrhage. The CT scan was the gold standard, but took way too long to get. Anyone else have experience with this? The ED doc who ordered the CT was being super slow, and I wanted to just take control of the situation. I ended up sending the patient to the OR, where it was discovered that the aneurysm was much larger than we initially thought. The patient's BP was all over the place, and we were able to get it under control with IV fluids and blood products. I'm just wondering if anyone has any experience or tips for managing ruptured AAAs in the ED. Was it a textbook case or not?",
+    "category": "emergency",
+    "comments": [
+      {
+        "id": 2,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great case! Ruptured AAAs can be a real challenge, especially when they come in undiagnosed or with unclear anatomy. I've had a few cases where the bedside ultrasound was not sensitive enough to detect the rupture. In those situations, I make sure to involve the vascular surgeon early to get their input on management. It's great that you recognized the patient's instability and got her to the OR quickly. It's a great reminder of the importance of having a clear head and communicating effectively with the team. One thing to consider is that the patient may require ongoing post-op care, including close monitoring of their vital signs and possibly interventions like vasopressors or mechanical support.",
+        "color": "purple"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Totally agree, Ari. I once had a patient with a ruptured AAA present with severe back pain and hypotension. The bedside ultrasound was inconclusive, but I got a hunch that it was an AAA. Long story short, we got the CT scan, and it showed a 6cm aneurysm. The patient ended up in the OR for an emergency repair. One thing I learned is that it's not just about repairing the aneurysm but also managing the patient's blood pressure. I used an arterial line to monitor the patient's blood pressure, and we were able to keep it relatively stable. But I also wanted to mention that sometimes, you can get lucky and get an image of the rupture on the bedside ultrasound, even if it's not perfectly visible. Not saying it's always the case, but just something to keep in mind.",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "I've seen a few cases of ruptured AAAs where the bedside ultrasound didn't show the rupture. In those situations, I make sure to keep a close eye on the patient's vitals and be prepared to escalate care quickly. Sometimes, you just have to trust your instincts and go with your gut. But one thing that's always bugged me is the lack of clear guidelines for managing ruptured AAAs in the ED. Can someone point me in the direction of some good resources or guidelines?",
+        "color": "blue"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I'm a medical student, and I'm doing my rotation in ER med. I've been trying to read up on the literature, but I couldn't find any clear guidelines for managing ruptured AAAs in the ED. Can anyone recommend some good reviews or articles on this topic?",
+        "color": "purple"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "I've been following the guidelines from the American College of Surgeons, which recommend early surgical repair for ruptured AAAs. However, I've also heard that the timing of surgical repair can be a bit tricky. Has anyone else had experience with this? Should we be prioritizing early repair or waiting for the patient to stabilize first?",
+        "color": "green"
+      }
+    ],
+    "image": "https://www.acepnow.com/wp-content/uploads/2017/01/ACEP_0117-pg11a.png"
+  },
+  {
+    "title": "Just saw a patient with thyroid storm and I'm still trying to process what a clusterf*ck it was... | r/emergencymedicine",
+    "category": "today-ilearned",
+    "body": "We had a 35 y/o female present with fever, tachycardia, and delirium. Initial vitals were 38.5 C, pulse was 150/min, and BP was 180/100 mmHg. Her TSH was undetectable and FT4 was significantly elevated. We started IV fluids, acetaminophen, and glucagon, but things escalated quickly. Patient's condition worsened, and we had to intubate her due to severe hyperthermia and respiratory failure. The OR was called, and we went into surgical crisis mode. It was a mess. We were lucky to have excellent anesthesiology support, but it was a real wake-up call for me. Anyone else have experience with thyroid storm? Tips for managing these cases?",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "MD, CM",
+        "city": "Toronto, ON",
+        "text": "I've seen a few cases of thyroid storm in my ER days. One thing that stands out is the importance of beta-blockers. We started our patient on propranolol, and it helped bring down her heart rate and core temp. Another key aspect is to keep in mind the patient's underlying anatomy. In this case, she had significant pre-existing cardiovascular disease. Did anyone else notice her chest X-ray? Was it consistent with cardiomegaly?",
+        "color": "blue"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "What's the difference between hyperthyroidism and thyrotoxicosis? And what exactly is thyroid storm? I know it's an acute, life-threatening manifestation, but what are the key features I should look out for?",
+        "color": "red"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Regarding beta-blockers, I've read that propranolol is the preferred choice due to its ability to block peripheral beta-1 and beta-2 receptors, whereas metoprolol only blocks the former. However, I was under the impression that patients with severe hyperthyroidism might require a different strategy. Can anyone clarify this or share their own experience?",
+        "color": "teal"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Maya Gupta",
+        "role": "FRCPC",
+        "city": "Mississauga, ON",
+        "text": "While beta-blockers are essential in managing the symptoms of thyroid storm, one must not forget the importance of addressing the underlying thyroid disease. I recall a patient who was treated with propylthiouracil (PTU) but had a rash as an adverse effect. How do you all manage patients on PTU for hyperthyroidism?",
+        "color": "green"
+      },
+      {
+        "id": 5,
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Just a random question, but has anyone ever had a patient with thyroid storm and pre-existing dementia? I had a patient a while back who had both, and I'm still trying to recall the exact management process. Was it a beta-antagonist + glucocorticoids + cooling protocol?",
         "color": "orange"
       },
       {
         "id": 6,
         "parent_id": 5,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "I think the OP raises a great point about clinical judgment. We often get caught up in trying to reduce trauma outcomes to a formula, but at the end of the day, it's about using your brain and recognizing that trauma patients are, well, unpredictable. Can't we just use some common sense?",
-        "color": "brown"
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Yes, that combination is correct. And don't forget to keep a close eye on the patient's hydration status and sodium levels. It's been documented in the literature that patients with thyroid storm can develop severe hyponatremia due to the syndrome of inappropriate antidiuretic hormone secretion (SIADH). Did anyone else encounter this in your patient?",
+        "color": "blue"
       },
       {
         "id": 7,
-        "parent_id": 6,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Wait, what do you mean by 'common sense' in trauma? I thought we were supposed to be following evidence-based guidelines?",
-        "color": "pink"
+        "parent_id": 1,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Has anyone else ever encountered thyroid storm in pregnancy? I've read about the increased risk of preeclampsia and congenital anomalies, but what's the most common presentation in these patients?",
+        "color": "purple"
       },
       {
         "id": 8,
         "parent_id": 7,
-        "user": "Dr. 'Ziggy' Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Good on ya, Leo! That's the million-dollar question. Common sense in trauma should mean recognizing that every patient is unique and using clinical judgment to make decisions. Otherwise, we're just trying to fit squares into triangles. Anyone got some tips on how to stay flexible in the ED?",
-        "color": "yellow"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
         "user": "Dr. Barb Miller",
         "role": "EP",
         "city": "Winnipeg, MB",
-        "text": "Love it, Ziggy! We need to prioritize patient safety and adapt to the situation at hand. That's the key to avoiding trauma burnout, if you ask me. Has anyone got some stress-reduction tips?",
-        "color": "darkgreen"
+        "text": "In my experience, thyroid storm during pregnancy often presents with fever, tachycardia, and volume depletion due to cardiac failure. I've also seen cases where patients develop pre-eclampsia as a result of untreated hyperthyroidism. Be sure to order TSH, FT4, and FT3 levels as part of the initial assessment.",
+        "color": "green"
+      },
+      {
+        "id": 9,
+        "parent_id": 7,
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "When managing thyroid storm in pregnancy, it's essential to consider the risks of antithyroid medications causing agranulocytosis and the increased risk of fetal thyroid dysfunction. Did anyone else have a patient who required delivery due to cardiac failure?",
+        "color": "blue"
       },
       {
         "id": 10,
         "parent_id": 9,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Actually, OP, the best thing about trauma is the camaraderie. You're all in this together, and that's what gets you through the tough nights. Just my two cents as a nurse, but I think it's worth emphasizing that trauma care is ultimately a team effort.",
-        "color": "silver"
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Actually, I recall a case where the patient's thyroid storm was complicated by severe preeclampsia. The team delivered the baby via cesarean section due to fetal distress, but it was a really tough decision. TL;DR: don't forget to order a beta-antagonist and consider magnesium sulfate for preeclampsia!",
+        "color": "purple"
       }
-    ],
-    "image": "https://news.llu.edu/sites/news.llu.edu/files/styles/crop_featured_image/public/cardiac-traumaroom.jpg?itok=QINgUDHv"
+    ]
   },
   {
     "id": 1,
-    "title": "TLDR: 4th year resident mistakes hypoglycemia for a seizure in the ER (rant)",
-    "body": "Had a doozy of a case last night, and I'm still steamed about it. Our fourth-year resident was working a solo shift on the ED when a young kid came in with a 2 minute generalized tonic clonic seizure. Resident called code, got the team going, and we were prepping for a potential stroke or other neuro emergency. Turns out, after checking the glucose, the kid was running at 22 mg/dL. Resident had written off the symptoms as some sort of complex partial, thinking the kid had a seizure disorder. Kid was given propofol to sedate them for further testing, which just lowered their glucose levels further.",
-    "category": "r/ACEP",
+    "title": "TLDR; Wound Closure: When to Use Non-Absorbable Sutures?",
+    "body": "**Just saw a patient with a nasty laceration on the scalp, non-absorbable sutures were used**",
+    "category": "emergency medicine",
     "comments": [
       {
-        "id": 6,
+        "id": 1,
         "parent_id": null,
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "Oh man, that's awful. Reminds me of the time our team thought a kid with hypoglycemia was having a TIA...  I just want to scream when I see this kind of thing happen. Did they do a glucose check before the code?",
-        "color": "black"
+        "text": "We often get a bit zealous with using non-absorbable sutures, but when do we really need to use them? I've seen colleagues using them for every laceration under the sun. In reality, non-absorbable sutures are best reserved for wounds that are under significant tension or high-risk for infection. In this case, the patient had a gaping laceration on the scalp that was going to be really hard to close with sutures, but it was also high-risk because of the dirt and debris. We ended up using a combination of non-absorbable sutures and tissue glue, and the patient did great. Has anyone else had similar cases?",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Hey Dr. Gupta, that makes sense. I've heard of non-absorbable sutures being used for wounds under tension, but what's the magic number for wound tension? Is it like, 'if it's longer than this or wider than this'...?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "I've always thought non-absorbable sutures were the default choice for lacerations on the scalp, but is that really true? I've been using them for ages, but I've heard some colleagues say it's not the best idea...?",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Ah, great question Dr. Park! Yeah, we should really be using absorbable sutures for scalp lacerations when possible, 'cause it's less work for the patient after surgery when they don't have to have them removed. And also it helps prevent 'suture-related trauma' in the long run. [1] Has anyone tried using those new 'self-dissolving' sutures we've been hearing about?",
+        "color": "pink"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Actually, Sue, I read an article that said those self-dissolving sutures aren't that great because they can have weird effects on wound healing. I think it's better to stick with old-fashioned absorbable sutures for now [2]. Don't agree?",
+        "color": "turquoise"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Uh, sorry to interrupt, but can someone explain the difference between absorbable and non-absorbable sutures again? Like, what happens when the absorbable sutures dissolve?",
+        "color": "orange"
       },
       {
         "id": 7,
@@ -504,551 +652,161 @@
         "user": "Dr. Ziggy Zalesky",
         "role": "EP",
         "city": "Vancouver, BC",
-        "text": "No kidding, right? I mean, basic bedside glucose testing is supposed to be second nature to us at this point. We've seen too many hypoglycemic kids in the ER at weird hours to ever miss it. The real question is, what was our resident doing during that initial assessment?",
-        "color": "blue"
+        "text": "Hey Leo, don't worry, kid! So, when absorbable sutures dissolve, they break down into their component parts, like collagen and glycolic acid. These get absorbed by the body and don't cause any problems. It's actually pretty cool science [3]!",
+        "color": "red"
       },
       {
         "id": 8,
-        "parent_id": 6,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Did the resident have any reason to think the patient was anything other than neuro? Was there something they saw on the initial assessment that made them think seizure?",
-        "color": "green"
-      },
-      {
-        "id": 9,
-        "parent_id": 6,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "I've seen this too many times. We have to remind ourselves that a child with altered mental status is essentially a hypoglycemic until proven otherwise. We need to be aggressive about those glucose checks, especially if we're unsure.",
-        "color": "purple"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "Agreed! Hypoglycemia is a classic masquerader. Our ER team should always be on the lookout for this possibility. I like to remember that it's not a 'neuro' thing unless they've been proven neuro. Otherwise, assume hypoglycemia until proven otherwise.",
-        "color": "orange"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "I use the 'hypoglycemia first unless proven otherwise' rule and it saves me from making silly mistakes. The thing is, it's not just about recognizing it, it's also about having an action plan for when you do encounter it. We should teach this to all medical students and residents as part of their training.",
+        "parent_id": 1,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "In my day, we used to use catgut sutures, which were, of course, absolutely absorbable. They were made from, ah, 'bovine intestinal mucosa', and were perfectly safe for the patient. Nowadays, I suppose all this fuss about absorption rates and 'non-absorbable' this and 'self-dissolving' that... [4]",
         "color": "yellow"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "This old doctor remembers when we used to call it 'sugar rush' or 'hypoglycemic seizure '. We need to teach these terms to the younger generation again. And yes, we should always keep those glucose checks handy.",
-        "color": "red"
-      },
-      {
-        "id": 13,
-        "parent_id": null,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "I remember our residency program talking about how many hypoglycemic kids show up in the ER with what seems like an obvious seizure but turns out to be low glucose. It's crazy how easy it is to misdiagnose this. What can we do to prevent this in the future?",
-        "color": "blue"
-      },
-      {
-        "id": 14,
-        "parent_id": 13,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "We should make sure all our ED team members get regular training on this topic, and also have a clear, systematic approach to managing altered mental status, especially in kids. This includes basic glucose checks as a default for anyone coming in with altered mental status.",
-        "color": "black"
-      },
-      {
-        "id": 15,
-        "parent_id": 14,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "That makes sense. So, we should have a checklist to make sure we're covering all the bases in a systematic approach?",
-        "color": "green"
-      },
-      {
-        "id": 16,
-        "parent_id": 15,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "Listen up, you young guns, our hospital has a standard protocol for dealing with altered mental status in kids that includes a basic glucose check and a specific algorithm for management. We need to stick to these and not wing it.",
-        "color": "purple"
-      },
-      {
-        "id": 17,
-        "parent_id": 16,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "I've been reading this Reddit forum for hours and I have to say, I'm a little overwhelmed. Can someone give a TLDR of what we're talking about here?",
-        "color": "blue"
-      },
-      {
-        "id": 18,
-        "parent_id": 17,
-        "user": "Turb0 Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Don't worry, buddy, it's just a reminder about hypoglycemia masquerading as a seizure. So we need to double down on bedside glucose checks and have a systematic approach to managing altered mental status. We're talking ER 101 stuff, but it's good to revisit and make sure we're all on the same page.",
-        "color": "black"
-      },
-      {
-        "id": 19,
-        "parent_id": null,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Well said, Turbo Tom. And let this be a reminder that we should always keep our basic skills sharp. Hypoglycemia is not just a trick question, it's a real emergency that requires immediate action. As surgeons, we need to stay vigilant and not fall for these kinds of 'traps' in the ER.",
-        "color": "green"
-      },
-      {
-        "id": 20,
-        "parent_id": 19,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "I couldn't agree more, Dr. Sterling. This is a great reminder that we all need to stay vigilant and not fall for these kinds of 'traps'. And I love how Turbo Tom put it - hypoglycemia is not just a trick question, it's a real emergency that requires immediate action.",
-        "color": "black"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "TLDR: Pelvic Fractures in the ED - when to ORIF?",
-    "body": "Just had a challenging case last night... A 35-year-old male, 5cm pelvic fracture, high-impact mechanism. Was debating whether to ORIF (open reduction and internal fixation) or not. Any fellow EPs have experience with this? Should we be pushing ORIF for all pelvic ring fractures, or is there a more conservative approach?",
-    "category": "EmergMed",
-    "comments": [
-      {
-        "id": 11,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "As a PGY2, I was always taught that for unstable pelvic fractures (as defined by a pelvic ring disruption), ORIF is the gold standard. However, in stable fractures, sometimes conservative management is okay. This review by the Journal of Orthopaedic Trauma (https://link.springer.com/article/10.1007/s11999-017-0574-7) provides some insight. TLDR: stable fractures can be managed conservatively, but unstable fractures require ORIF.",
-        "color": "blue"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Dr. Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Thanks for the link! I had read this article before, but it's good to revisit it. One thing I'm curious about is how you decided on the stability of the fracture in the case. Was there a specific criterion that made you decide to ORIF?",
-        "color": "green"
-      },
-      {
-        "id": 13,
-        "parent_id": 11,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "Young folks, remember that not all pelvic fractures require ORIF! In my day, we managed plenty of these with just analgesics and bed rest. The key is to look for signs of neurovascular compromise or instability.",
-        "color": "orange"
-      },
-      {
-        "id": 14,
-        "parent_id": 13,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Thanks for the history lesson, Dr. Thorne! I was wondering, do you have any tips for distinguishing between stable and unstable fractures?",
-        "color": "red"
-      },
-      {
-        "id": 15,
-        "parent_id": 14,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "Well, Leo, in my experience, unstable fractures have a worse CT scan, and you can often see the fracture displacement and ring disruption even on the plain films. But the real key is to assess for neurovascular compromise - check the pulses, motor, and sensory function of the lower extremities.",
-        "color": "purple"
-      },
-      {
-        "id": 16,
-        "parent_id": 15,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Great points, Dr. Oldman! Also, don't forget to look for any signs of hemorrhage or shock - if the patient is unstable, that's an absolute indication for ORIF.",
-        "color": "pink"
-      },
-      {
-        "id": 17,
-        "parent_id": 16,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Thanks for all the feedback, everyone. I'm going to keep this in mind for the future",
-        "color": "green"
-      },
-      {
-        "id": 18,
-        "parent_id": 14,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "One more thing, Leo - don't forget to get a pelvic CT scan to evaluate the fracture. The plain films may not always be sufficient, especially in more complex fractures.",
-        "color": "blue"
-      },
-      {
-        "id": 19,
-        "parent_id": 18,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Ah, thanks Dr. Sharp. I'll make sure to get the CT scan in the future",
-        "color": "red"
-      },
-      {
-        "id": 20,
-        "parent_id": 19,
-        "user": "Martha The Hammer",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "As a nurse, I just wanted to chime in and say that ORIF is not always the best option. We need to consider the patient's overall condition and what's in their best interest. Sometimes, conservative management is the way to go, especially if the patient has significant comorbidities.",
-        "color": "gray"
-      }
-    ],
-    "image": "https://i0.wp.com/www.aliem.com/wp-content/uploads/2017/07/Pelvic-Trauma-Binder-Position.jpg?resize=500%2C307&ssl=1"
-  },
-  {
-    "posts": [
-      {
-        "id": 13,
-        "title": "Rant about a close call with a thyroid storm",
-        "body": "Had a close call with a thyroid storm last night and I'm still shaking my head over it. The patient was a 35-year-old female presenting with fever, tremors, and chest pain. Vital signs were all over the place: BP 140/90, HR 120, T 103.5. Initial presentation was so convincing that we were already calling for a psychiatry consult, thinking it was an acute psychosis.\n\nAs you can imagine, the ER was a madhouse, with codes being called left and right. But amidst all the chaos, I managed to run a stat Tsh, which came back sky high. We quickly switched gears and started thinking thyroid storm.\n\nBut just as we were about to administer propylthiouracil (PTU), the patient's ECG went into V-tach and we had to intervene with cardioversion... long story short, we managed to stabilize her but I'm still fuming about our initial misstep.\n\nSo, has anyone else encountered this situation before? What are your favorite strategies for managing thyroid storm? Was our initial mistake something obvious that others have seen before?",
-        "category": "Emergency Medicine"
-      }
-    ],
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Glad you're shaken up about this, but let's take a step back and assess our initial thought process. We were calling for a psychiatry consult because the presentation was...",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Yeah, I was wondering the same thing - was our initial misdiagnosis due to a lack of focus on the thyroid storm or was there something specific we missed? Did you run any other thyroid function tests, like T4 or T3?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Of course, we ran the FT4 and FT3 - they came back through the roof. But here's the thing: our patient was on amiodarone for AFIB, which can affect thyroid function. So maybe we should've been more attentive to that in our initial assessment.",
-        "color": "purple"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Wait, what's amiodarone and how does it affect thyroid function? Is this something we should be aware of when prescribing medications?",
-        "color": "blue"
-      },
-      {
-        "id": 5,
-        "parent_id": 3,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Good question, Leo! Amiodarone is an anti-arrhythmic that can cause thyroid dysfunction, either by inhibiting thyroid hormone synthesis or by releasing preformed hormone stores. We should definitely keep that in mind when prescribing meds, especially in high-risk patients.",
-        "color": "purple"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "That makes sense. Is there anything else we should be keeping an eye out for in thyroid storm? Any specific lab values or ECG changes we should be looking for?",
-        "color": "blue"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Actually, Leo, thyroid storm can present with some pretty classic ECG changes, like wide QRS or even ventricular tachycardia. We should also be monitoring their liver enzymes and potassium levels closely, as thyroid storm can cause liver damage and hypokalemia.",
-        "color": "green"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Haha, don't forget to give the patient some cool compresses and acetaminophen, too! We can't forget about that hyperthermia aspect of thyroid storm... ",
-        "color": "gold"
       },
       {
         "id": 9,
         "parent_id": 8,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Wait, what about the propylthiouracil (PTU) we discussed earlier? Did we get that started in time?",
-        "color": "blue"
+        "user": "Martha The Hammer",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "Oh, you're going to tell us about the good old days, Dr. Thorne! Newsflash, doc: times change, wounds change, and so do the sutures we use. You're either with us, or... you're in a different time zone!",
+        "color": "indigo"
       },
       {
         "id": 10,
         "parent_id": 9,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "We actually started the PTU pretty quickly, but we should also consider adding beta-blockers to the mix. They can help slow down the heart rate and reduce the risk of arrhythmias.",
-        "color": "green"
-      },
-      {
-        "id": 11,
-        "parent_id": 2,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "Thanks for sharing your story, Doc. I'm glad I'm not the only one who gets these thyroid storms... Wait, what's PTU and how does it work?",
-        "color": "silver"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "PTU stands for propylthiouracil, a medication that works by inhibiting the production of thyroid hormones. It's a bit of an old-school treatment, but it's still effective in cases like thyroid storm. We'll discuss it in more detail in our thyroid storm module, okay, Leo? ",
-        "color": "purple"
-      }
-    ]
-  },
-  {
-    "id": 8,
-    "category": "r/EmergencyMedicine",
-    "title": "Bioterrorism in the ED: Recognizing and Preparing for a Potential Bioterrorism Attack",
-    "body": "Just saw a patient with a weird rash and history that had some classic features of a bioterrorism attack. It was a young adult who had been hiking in the woods and presented to the ED with a severe rash, fever, and chills. At first, it looked like a routine case of Lyme disease or another tick-borne illness, but the patient's symptoms were worsening rapidly, and I had to think beyond the usual suspects.\n\nTLDR: Recognize that bioterrorism can present in many ways, especially in the early stages. Be prepared to think beyond the common causes for symptoms, and don't be afraid to ask for help from colleagues and toxicology experts.\n\nSome bioterrorism agents to watch out for include: Anthrax, which presents with skin lesions, fever, and respiratory distress; Plague, which can mimic pneumonia or a urinary tract infection; and Ricin, a plant toxin that can cause severe respiratory distress.\n\nWhen I suspected bioterrorism, I immediately put the patient on isolation precautions, notified our infection control team, and called in our toxicology expert from the CDC. We also activated our ED's mass casualty plan and alerted the hospital administration.\n\nThe patient's labs came back positive for ricin exposure, and we were able to treat them appropriately. It was a good reminder of the importance of vigilance in the ED and the need for early recognition and preparedness for bioterrorism attacks.",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "MD",
-        "city": "Toronto, ON",
-        "text": "Great story, and a sobering reminder of the importance of recognizing bioterrorism. One thing to add is that in the early stages, it's not just about the symptoms - it's also about the epidemiology. Was there an outbreak in the area? Were there any other patients presenting with similar symptoms?\n\nAlso, kudos to the OP for being prepared and knowing when to call in the experts!",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "MD",
-        "city": "Calgary, AB",
-        "text": "Amateurs. You can't just rush into calling in the CDC without doing your homework. I've seen plenty of false positives and unnecessary anxiety in the ED over bioterrorism scares. We need to be more skeptical and rely on real-world evidence, not speculation and fear-mongering.\n\nAnd another thing - how do we know the patient wasn't just exposed to ricin through other means? We can't just leap to conclusions without solid evidence. This is why we have protocols and guidelines in place to prevent exactly this kind of unnecessary alarmism.\n\nI'd love to see the OP's thought process on this one and what they did to rule out other causes.",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Love it when the docs get all worked up about bioterrorism! Can't help but wonder what the real story is here - what's the backstory on this patient? What were they doing in the woods? And what's the actual evidence for ricin exposure?\n\nI'm not saying it's a conspiracy theory or anything, but it always pays to keep things in perspective and don't get too caught up in the hype.\n\nDoes anyone have the link to the CDC's guidelines for bioterrorism preparedness? Just curious!",
-        "color": "red"
-      },
-      {
-        "id": 4,
-        "parent_id": 2,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "I don't get why Dr. Sterling is being so hard on the OP. Isn't bioterrorism a real concern? Shouldn't we be prepared for anything?\n\nI thought the OP was being pretty responsible in calling in the experts and following the protocols. Can anyone help clarify what Dr. Sterling's issue is? Was it the approach or something else?\n\nAlso, does anyone have any favorite resources for learning more about bioterrorism and preparedness?",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Actually, Dr. Sterling's point is a good one - we do need to be more precise in our thinking when it comes to bioterrorism. The OP's initial presentation does sound a bit suspicious, but we can't just jump to conclusions without solid evidence.\n\nIn fact, the CDC guidelines mention that we should use a combination of clinical presentation, epidemiology, and lab results to make a diagnosis. So, while the OP is right to be vigilant, we should also be careful not to over-diagnose.\n\nDoes anyone have access to the CDC's guideline documents or recommendations on how to handle bioterrorism cases?",
-        "color": "blue"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Hey guys, let's not forget to consider the patient's cultural and social context when making a diagnosis! What was the patient's background, and did they have any pre-existing conditions? This can help us narrow down the differential diagnosis and avoid jumping to conclusions.\n\nAlso, I'm curious if anyone has experience with trauma patients presenting with similar symptoms - how do we prioritize our care and communicate with other healthcare providers in those situations?",
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "Actually, Martha, I think Dr. Thorne makes a good point about catgut sutures. We should be using absorbable sutures more often, especially for skin closure. Anyone got any tips on getting those sutures to absorb faster?",
         "color": "violet"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Great point, Sparkle-Eyes! Cultural and social context are crucial in patient care. In my experience, trauma patients often have complex presentations with multiple potential causes, so we need to be mindful of this and work closely with our colleagues from different disciplines.\n\nOne thing that's been really helpful for me is to keep a ' differential diagnosis sheet' in the ED where we can list all the potential causes of a patient's symptoms. This helps us to visualize the possibilities and ensure we're not missing anything.",
-        "color": "purple"
-      },
-      {
-        "id": 8,
-        "parent_id": 2,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "This is so cool! I've always been fascinated by bioterrorism, but I never knew how to get started learning more. Can anyone recommend some books or online resources for bioterrorism and preparedness?",
-        "color": "orange"
-      },
-      {
-        "id": 9,
-        "parent_id": 3,
-        "user": "Dr. Henry Oldman",
-        "role": "CFPC",
-        "city": "Victoria, BC",
-        "text": "Ah, bioterrorism is a great example of how our field has changed over the years. I remember when I started my residency, we rarely even discussed the possibility of bioterrorism. Now it's a major consideration in every ER. We've come a long way in terms of preparedness and knowledge.\n\nOne thing I've noticed is that more and more patients are presenting with vague symptoms that could be indicative of bioterrorism. As docs, we need to be vigilant and consider this possibility, even if the patient's primary complaint doesn't seem to match the typical presentation.\n\nGreat job to the OP for staying on top of things and being prepared.",
-        "color": "brown"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Case study: Pulmonary embolism, where did I go wrong?",
-    "body": "Just saw a patient with a likely pulmonary embolism (PE). The patient was a 40-year-old female with a known history of cancer on chemotherapy, recently underwent a 4-hour surgery, and now presents with a sudden onset of chest pain and shortness of breath. Her D-dimer is mildly elevated, and her chest X-ray suggests a possible PE. However, her CT angiogram shows a small filling defect in the main pulmonary artery. I'm pretty sure it's a PE, but the patient's symptoms are relatively mild. I'm considering discharge, but something doesn't feel right. Has anyone else encountered a similar case? Help me identify my mistake.",
-    "category": "emergency medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "TLDR: great job diagnosing the PE! One thing to consider is the patient's recent surgery and prolonged immobility, which increases her risk of VTE. Also, don't forget to assess for other possible causes of chest pain, such as cardiac or pulmonary issues. Have you considered a pulmonary function test (PFT) or echocardiogram?",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs always over-diagnose PEs. In this case, I'd be more concerned about a pneumothorax or atelectasis. You can't just rely on a D-dimer and CT angiogram; you need to consider the patient's clinical presentation and history. Don't be so quick to discharge; get a second opinion!",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. 'Ziggy' Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Zing goes the PE! Seriously, though, great job, OP. One thing to consider is the patient's hemoglobin level \u2013 could be related to blood loss from surgery. Also, don't forget to check for deep vein thrombosis (DVT) using Wells' score. What's the patient's hemoglobin level, OP?",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 2,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Um, excuse me, Dr. Sterling, but isn't a pneumothorax more common in patients with a history of smoking or trauma? And wouldn't a D-dimer be useful in ruling out PE? Sorry, I'm just a bit confused.",
-        "color": "blue"
-      },
-      {
-        "id": 5,
-        "parent_id": 3,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Great mention, Ziggy! What about thrombophilia \u2013 does the patient have a family history or recent travel? Also, how's the patient's renal function?",
-        "color": "blue"
-      },
-      {
-        "id": 6,
-        "parent_id": null,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "This is a perfect example of how to approach a complex case! In this scenario, I'd consider using the Wells' score to estimate the probability of PE and DVT. It's a great tool for clinical decision-making.",
-        "color": "purple"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Agreed, Sarah! I always teach my students to use the Wells' score to triage patients. However, don't forget the patient's clinical presentation and history \u2013 you can't just rely on a score. It's like doing a chest x-ray \u2013 it's a tool, not a diagnosis!",
-        "color": "green"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "TLDR: thanks for the reminder, Tom! What about the patient's blood work? Has anyone checked their lactate level, or INR?",
-        "color": "blue"
-      },
-      {
-        "id": 9,
-        "parent_id": 1,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "I don't know what's more frustrating \u2013 patients not following up or the lack of transparency in our healthcare system. Patients should be informed about their conditions and the risks associated with PEs.",
-        "color": "red"
-      },
-      {
-        "id": 10,
-        "parent_id": null,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "As a patient with a history of cancer and PEs, I can attest to the importance of informed decision-making. Communication is key! Don't just prescribe medication; explain the risks and benefits to the patient.",
-        "color": "purple"
       },
       {
         "id": 11,
         "parent_id": 10,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Amen, Barnaby! As an LPN, I see firsthand how patients are affected by the lack of transparency in the healthcare system. We need to do better!",
-        "color": "green"
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Ah, great question, Dr. Stone! I've heard that adding a little bit of 'fibrin glue' to the suture can help speed up absorption. Anyone tried this method? [5]",
+        "color": "brown"
       },
       {
         "id": 12,
         "parent_id": 11,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Fibrin glue? Never heard of this one. Is this like, a DIY thing you can make in the OR? Can we get a link to some studies on this?",
+        "color": "gray"
+      },
+      {
+        "id": 13,
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Alright, I think we've covered all the different options for wound closure... but what's the bottom line? Should we be using non-absorbable sutures for all scalp lacerations? The answer is no, but it depends on the case. So, next time you're faced with a nasty scalp wound, think about the absorption rate of those sutures and whether or not they're really necessary.",
+        "color": "pink"
+      },
+      {
+        "id": 14,
+        "parent_id": null,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Wow, thanks Dr. Gupta and everyone for the discussion! I think I need to brush up on my suturing skills... time to get some practice!",
+        "color": "blue"
+      },
+      {
+        "id": 15,
+        "parent_id": 14,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Haha, that's the spirit, Dr. Park! Don't forget to practice with some simulated lacerations on your patient mannequin. We don't want you causing any more scalp damage than necessary!",
+        "color": "yellow"
+      }
+    ]
+  },
+  {
+    "title": "Just saw a patient with a classic thermal injury and it got me thinking...",
+    "body": "Had a patient come in with a 2nd degree thermal burn to the anterior chest wall, estimated to be 10% of BSA. What got me was the history of immersion in a scalding hot tub water. On exam, she was alert and oriented, with no evidence of smoke inhalation. She denied any significant head trauma or loss of consciousness during the event. However, she did mention that she had consumed a few drinks that afternoon. TLDR: I'm worried about the possibility of inhalation injury, but I want to know when it's okay to send these patients home.",
+    "category": "emergency_medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Great point, Doc! I had a similar patient a few months ago. What were the vitals on this patient? Was her SpO2 above 95% on room air? Did you consider using a CXR to rule out inhalation injury?",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Hi Kevin, thanks for sharing your case. I'd like to add that the patient's airway was patent, and she had no signs of respiratory distress initially. However, the ECG showed a prolonged QTc interval, which worried me a bit. What do you think about the risks of Torsades de Pointes in these patients?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "You guys are missing the boat! Don't underestimate the importance of proper wound care in these patients. We need to emphasize the importance of thorough cleansing and debridement to prevent infection. Can someone link me a good resource on wound care for burn patients?",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
         "user": "Dr. Elena Varkov",
         "role": "FRCPC",
         "city": "Quebec City, QC",
-        "text": "Communication is one thing, but we also need to consider the socioeconomic factors that affect our patients' health outcomes. Patients from lower socio-economic backgrounds often have worse health literacy and outcomes.",
-        "color": "red"
+        "text": "Martha, thanks for the reminder! I completely agree with you. Here's a great resource on wound care for burn patients: \"Burn Wound Care: A Guide for Healthcare Providers\" available on the American Burn Association website. It's a comprehensive resource that covers everything from wound assessment to wound closure.",
+        "color": "purple"
+      },
+      {
+        "id": 5,
+        "parent_id": null,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "OMG, you guys are so mean! I thought I knew everything about burn injuries, but now I'm totally confused. Can someone explain the difference between 1st, 2nd, and 3rd degree burns in simple terms?",
+        "color": "orange"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Hey Chad, don't be too hard on yourself! The key to remembering the different types of burns is to think of them on a spectrum. 1st degree burns affect only the Epidermis, 2nd degree burns affect both the Epidermis and the Dermis, and 3rd degree burns affect all the layers of the skin, including the Hypodermis.",
+        "color": "green"
+      },
+      {
+        "id": 7,
+        "parent_id": null,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "Lol, what's going on here? I have a burn question too... what's the deal with the 'Rule of Nines' for estimating burn size? Is it like a game where you divide the body into squares?",
+        "color": "purple"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Barnaby, the Rule of Nines is indeed a useful tool for estimating burn size, but it's not just a game! The idea is to divide the body into areas that are approximately 9% of the total surface area. For example, the face is about 9% of the total body surface area, and so on. It's a simple way to estimate the size of the burn, but it's not a substitute for a more accurate measurement.",
+        "color": "green"
       }
     ],
-    "image": "https://www.researchgate.net/profile/Marco-De-Carlo-2/publication/335525881/figure/fig4/AS:798010166476800@1567271858130/Central-Illustration-Risk-adjusted-management-strategy-for-acute-pulmonary-embolism.png"
+    "image": "https://canadiem.org/wp-content/uploads/2023/10/approach-to-b-c_60923164-1-691x1024.png"
   }
 ]
