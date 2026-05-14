@@ -1,225 +1,296 @@
 [
   {
     "id": 0,
-    "title": "Today I Learned: Wound Closure in the ED - Don't Get Caught Off Guard!",
-    "body": "Hey fellow ER docs, just saw a patient with a nasty laceration that required a delayed closure. Reminded me of how important it is to consider the factors that influence wound closure, such as time since injury, wound tension, and risk of scar formation. Who else has a go-to protocol for wound closure in the ED?",
-    "category": "emergency-medicine",
+    "title": "Just saw a patient with possible APAP TOX 2 days after a single dose...",
+    "body": "I just saw a patient come in with lab results showing elevated liver enzymes and a history of a single dose of acetaminophen taken 2 days ago. The patient is now presenting with abdominal pain and nausea. The patient is still NAD and has a normal mental status. I'm thinking APAP TOX, but the timeline is off for the standard NAC dosing. Anyone else deal with APAP TOX that's a bit of a grey area?",
+    "category": "emedicine",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs. You think a little APAP TOX is going to kill the patient? You don't even need to think about this one. Just treat the patient with some fluids and send them home. I've seen more serious cases of APAP TOX than this. And what's with the 'grey area'? There are no grey areas in medicine, just common sense. [1]",
+        "color": "red"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
         "user": "Dr. Aris Thorne",
-        "role": "MD",
+        "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "Great point, OP! I always stress to my residents that primary closure is not always the best option, especially for high-tension wounds. Secondary closure or delayed closure can be just as effective, if not more so, and helps reduce the risk of complications. Has anyone else noticed the trend towards increased use of tissue adhesives in wound closure?",
+        "text": "Well, Chief, I think you might want to read up on the latest guidelines for APAP TOX. The RCTs have shown that NAC is still effective even outside the 24 hour window. And yes, there are grey areas, especially with the new formulation of APAP. We can't just rely on common sense anymore, we need to follow the evidence. [2]",
+        "color": "blue"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Hey Aris, don't be such a stickler for the guidelines. We know how this one plays out. The patient gets a little decompensated, we give some NAC, and they're good to go. I agree with Victor, this is not exactly a complicated case.",
+        "color": "pink"
+      },
+      {
+        "id": 4,
+        "parent_id": 2,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "I agree with Aris, though. We need to follow the evidence, and it looks like NAC is still effective outside the 24 hour window. But also, can we please consider the patient's individual risk factors, like comorbidities and other medications they're taking? We can't just give NAC to everyone with a elevated liver enzyme. That's not medicine.",
+        "color": "green"
+      },
+      {
+        "id": 5,
+        "parent_id": null,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Wait, what about the NAC dosing? How do we know when to give it and how much? Do we need to do some fancy calculation or can we just follow a general guideline?",
+        "color": "purple"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. May Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Hey Leo, the NAC dosing is actually pretty straightforward. You just need to calculate the patient's weight and the number of tablets they took, and then you use the Apotex nomogram to determine the dose. Easy peasy.",
+        "color": "orange"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "I think I'd love to learn more about that nomogram. Can we get a link to it? I'm still learning about all these fancy meds and meds.",
+        "color": "pink"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Actually, if I recall correctly, the Apotex nomogram is only used for the first 8 hours. After that, we just use the standard NAC dosing protocol.",
+        "color": "blue"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Oh, and also, I just wanted to chime in and say that the patient in this case should definitely be admitted for observation. We can't rule out other causes of elevated liver enzymes, like viral hepatitis or drug-induced liver injury.",
+        "color": "red"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I'm glad you agreed with me on that point, Kevin. As for the admission, I think we should also consider the patient's risk factors, like smoking or alcohol use, which could also contribute to liver dysfunction.",
+        "color": "green"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "I think we've covered most points now. Thanks everyone for contributing to this discussion. Remember, just because we're dealing with a common case, it's still important to follow the evidence and consider the individual patient's risk factors. [3]",
+        "color": "purple"
+      }
+    ],
+    "image": "https://emergencymedicinecases.com/wp-content/uploads/2023/03/Acetaminophen-Poisoning-CARD.png"
+  },
+  {
+    "id": 1,
+    "title": "TLDR; Frostbite: Don't forget about rewarming duration!",
+    "body": "Just saw a patient with fourth-degree frostbite and I'm still thinking about how to manage rewarming properly. Rewarming duration seems to be a point of contention in the literature.\n\nI've been using 20-30 minutes of circulating water at 37\u00b0C to 39\u00b0C (98.6\u00b0F to 102.2\u00b0F) but some of the literature suggests that rewarming is complete when the tissue is pliable and erythematous, which can take longer. Has anyone else experienced this? Should I be pushing the limits of rewarming duration or playing it safe?\n\nAlso, what's the deal with silver sulfadiazine? Is it still a go-to for preventing infection in frostbite patients?\n\nTL;DR; - is there a 'sweet spot' for rewarming duration and can we ditch silver sulfadiazine altogether?\n\nEdit: I know it's not entirely clear, but I'm more looking for a general consensus.",
+    "category": "emergedocs",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I've had similar experiences with rewarming duration. We use a protocol where we check the tissue hourly for pliability and erythema. If it's not looking good, we extend the rewarming time. I've seen some patients take up to 60 minutes to rewarm properly.\n\nAs for silver sulfadiazine, I'd love to ditch it, but I've seen some nasty infections in frostbite patients. Maybe we can start using a more modern antibiotic cream instead?",
         "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "MD",
-        "city": "Mississauga, ON",
-        "text": "I've been using tissue adhesives more often in my practice, especially for simple lacerations. They're quick and easy to apply, and patients love them. But have you guys noticed any differences in wound healing times or complications between tissue adhesives and sutures?",
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Hi Dr. Gupta! I'm a bit confused - can you clarify what you mean by 'pliability' when it comes to rewarming? Is it referring to skin elasticity? Also, isn't there a risk of burns with hot water rewarming?",
         "color": "green"
       },
       {
         "id": 3,
         "parent_id": 1,
-        "user": "Dr. Sarah Sharp",
-        "role": "MD",
-        "city": "Laval, QC",
-        "text": "According to my review of the literature, tissue adhesives have been shown to have similar healing times and complication rates compared to sutures. One study even suggested that tissue adhesives may reduce wound infections by 30%! Has anyone else heard about this?",
-        "color": "blue"
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "What a load of nonsense. You're making this up as you go along, aren't you, Dr. Gupta? Silver sulfadiazine is a proven treatment for preventing infections in frostbite patients. Don't be one of these 'Amateurs' who thinks they know better.",
+        "color": "red"
       },
       {
         "id": 4,
-        "parent_id": null,
-        "user": "Dr. Brock Stone",
-        "role": "MD",
-        "city": "Hamilton, ON",
-        "text": "I've always been a fan of sutures for wound closure. They're reliable and effective, and you can't go wrong with a good old-fashioned horizontal mattress suture. But what's your take on using hair apposition for wound closure?",
+        "parent_id": 3,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Oh, so the great 'Chief of Surgery' is back to try and bully us into line. Newsflash, Dr. Sterling: we've moved on from your antiquated ideas about frostbite treatment. Silver sulfadiazine may have been acceptable in the past, but we have more effective options available now. Don't get left behind, grandpa.",
         "color": "purple"
       },
       {
         "id": 5,
-        "parent_id": 4,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Hair apposition? Isn't that like, an ancient technique? I mean, I've seen it done in old textbooks, but I've never actually seen it used in real life. Is it still a viable option?",
-        "color": "green"
+        "parent_id": 1,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "Hey there, folks! I'm just chiming in to remind you that rewarming duration is indeed important, but it's not everything. Don't forget to assess the patient's overall vascular compromise and check for any signs of compartment syndrome before releasing them. A comprehensive approach always wins out over a one-trick pony solution.",
+        "color": "lightblue"
       },
       {
         "id": 6,
-        "parent_id": 4,
-        "user": "Dr. Henry Oldman",
+        "parent_id": 5,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Dr. Oldman, can you expand on your point about compartment syndrome? What warning signs should we be looking for, and how do we assess for it in frostbite patients?",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "title": "Today I learned that non-exertional heat stroke in the debilitated is a real thing",
+    "body": "Just saw a patient with a 75 y/o man who presented with confusion, agitation, and a temp of 42.5\u00b0C.  He had a DNR and no significant past med history.  His daughter reported that he had been having trouble walking lately and was bedbound for the past week.",
+    "category": "Medical Niche - Emergency Medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Victor Sterling",
         "role": "MD",
-        "city": "Victoria, BC",
-        "text": "Actually, hair apposition is a great technique for wound closure, especially for small lacerations. It's quick, easy, and the hair follicles help to anchor the wound edges. I've used it countless times in my practice and had excellent results. TLDR: don't knock it till you try it!",
+        "city": "Calgary, AB",
+        "text": "You can't just take someone's word for it when the patient can't answer for themselves.  Get the daughter to take the patient back to his place and have them bring back the meds he's been on.  Don't be a chump.",
         "color": "blue"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Come on Dr. Sterling! You're not going to lecture us about taking medical history from family members? That's like saying we should only trust medical history from the patient themselves... and we all know how reliable that is.",
+        "color": "orange"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Aris Thorne",
+        "role": "MD",
+        "city": "Toronto, ON",
+        "text": "I understand Dr. Sterling's skepticism but the most important thing is to treat the patient first.  We can discuss the reliability of medical history later.",
+        "color": "brown"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "So how do we tell if it's true non-exertional heat stroke or just heat exhaustion with a higher fever?  Is there a particular set of symptoms or labs that we should be looking out for?",
+        "color": "red"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Actually Leo, the key difference between heat exhaustion and heat stroke is the level of CNS dysfunction.  In heat exhaustion, the patient will usually have some autonomic dysfunction like profuse sweating and a low pulse.  In heat stroke, they'll have full-blown CNS dysfunction like confusion and seizures.",
+        "color": "gray"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "Sarah's got it right.  But we also need to consider other things like electrolyte imbalances, dehydration, and pre-existing conditions that might make the patient more susceptible to heat-related illnesses.",
+        "color": "black"
       },
       {
         "id": 7,
         "parent_id": 1,
-        "user": "Dr. Ziggy Zalesky",
+        "user": "Dr. Rick 'The Rage'",
         "role": "MD",
-        "city": "Vancouver, BC",
-        "text": "Hey guys, just wanted to chime in on the topic of wound closure. I've been using a combination of sutures and tissue adhesives in my practice and it's worked out great. But has anyone else thought about the role of negative pressure wound therapy (NPWT) in wound healing?",
-        "color": "green"
+        "city": "Windsor, ON",
+        "text": "Can I just say that we need to be realistic about the likelihood of dehydration in this case?  I've seen plenty of patients who were dehydrated to the point where they were having seizures, but in the end, it was just a potassium deficiency or a blood glucose issue.",
+        "color": "purple"
       },
       {
         "id": 8,
         "parent_id": 7,
-        "user": "Dr. Elena Varkov",
-        "role": "MD",
-        "city": "Quebec City, QC",
-        "text": "NPWT is a game-changer for wound healing! I've used it to great effect in my practice, especially for complex wounds or those with significant tissue loss. The results are dramatic - reduced fluid accumulation, improved tissue perfusion, and accelerated wound closure.",
-        "color": "blue"
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Wait, what's the difference between a potassium deficiency and dehydration?  Don't they both cause seizures?",
+        "color": "pink"
       },
       {
         "id": 9,
-        "parent_id": null,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "I've been trying to learn more about NPWT, but it's still a bit confusing to me. Can anyone explain the mechanism behind it? Do you need a specialized device or can you just use, like, a vacuum pump or something?",
+        "parent_id": 8,
+        "user": "Dr. Elena Varkov",
+        "role": "MD",
+        "city": "Quebec City, QC",
+        "text": "Not exactly, Chad.  Dehydration usually presents with a low urine output, dry mucous membranes, and orthostatic hypotension.  A potassium deficiency can cause muscle weakness, fatigue, and arrhythmias, but seizures are more of a sign of hyperkalemia.",
         "color": "green"
       },
       {
         "id": 10,
         "parent_id": 9,
-        "user": "Dr. Sarah Sharp",
-        "role": "MD",
-        "city": "Laval, QC",
-        "text": "Ah, great question Leo! NPWT works by applying a controlled negative pressure to the wound bed, which helps to enhance blood flow, reduce bacterial colonization, and promote tissue granulation. You can use a specialized device, but it's not necessary - a simple vacuum pump or even just gauze and a piece of tape will do in a pinch.",
-        "color": "blue"
-      }
-    ],
-    "image": "https://m.media-amazon.com/images/I/81BMVswOsJL._AC_UF1000,1000_QL80_.jpg"
-  },
-  {
-    "id": 1,
-    "title": "Complex Regional Pain in the ED: Rant About Opioid Avoidance",
-    "body": "Just saw a patient with complex regional pain syndrome (CRPS) type II that I almost sent home with a prescription for tramadol. Thankfully, my wise attending physician reminded me that chronic pain management in the ED is all about pain reduction and functional status, not complete pain eradication. The evidence-based management of chronic pain conditions should always be consulted before writing an rx for opioids. So, ED residents, let this be a reminder to avoid opioids for primary treatment of chronic pain and refer to the patient's pain specialist or primary care physician for further management.",
-    "category": "r/EmergencyMedicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "TLDR: Always a pleasure to revisit the fundamentals of chronic pain management. Complex regional pain syndrome is a classic example of where the ED's role is more about red flags and timely referral rather than Rx-ing opioids. Keep the pain reduction goal in mind and avoid being a 'prescription hero'!",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "I completely agree with Dr. Thorne. Can we also discuss the value of a detailed history and physical exam in making the diagnosis of CRPS? I was going to order an MRI, but our patient's history of numbness and tingling in the distribution of her sciatic nerve pointed towards a neuropathic pain component.",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Great point, Sarah! Can you clarify what you mean by 'neuropathic pain component'? Is that a separate entity from the CRPS or more of a co-morbidity?",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Actually, PGY1, the term you're looking for is 'neuropathic facet'. Not sure if I'm the only one, but I like to think of it as a 'CRPS cousin' with similar presenting symptoms, but more localized to the region of the original injury.",
-        "color": "pink"
-      },
-      {
-        "id": 5,
-        "parent_id": null,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Wait, so what's the main difference between CRPS type I and II? I've been reading that CRPS I is the newer/older name for RSD, but I'm not sure what CRPS II stands for.",
-        "color": "blue"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "Well, Leo, CRPS I and II refer to the same condition, just named differently due to the original description by Sudeck in 1900. Think of it more as a historical naming convention rather than a distinct clinical entity.",
-        "color": "orange"
-      },
-      {
-        "id": 7,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "I'm just going to add that when I'm interviewing patients with CRPS, I always ask about the 'burning sensation' and the 'temperature changes'. These are often subtle symptoms that can hint at CRPS. Has anyone else noticed this in their experience?",
-        "color": "fuchsia"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. 'Ziggy' Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Totally agree, Turbo. Those temperature changes can be a real clue. And don't forget to ask about pain in other parts of the body, like the face or hands.",
-        "color": "turquoise"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "I like askin' patients about their sleep habits, too. Sleep disturbances are common in CRPS, and it's a good way to assess their overall quality of life.",
-        "color": "silver"
-      },
-      {
-        "id": 10,
-        "parent_id": 1,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "Let's just get back to the point, folks: chronic pain management is a huge responsibility, and we need to be meticulous in our approach. I see way too many patients coming in for repeat opioid prescriptions without proper follow-up or management plans. We're not just prescribers; we're gatekeepers.",
-        "color": "red"
+        "user": "Dr. Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "So, what's the treatment for a potassium deficiency?",
+        "color": "yellow"
       },
       {
         "id": 11,
         "parent_id": 10,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "I, uh, I think I see what you mean, Doc. But honestly, it's just not that simple. Pain management is a long-term battle, and the system often lets us down. Can you tell me more about what you mean by 'proper follow-up'?",
-        "color": "gray"
+        "user": "Dr. Sarah Sharp",
+        "role": "MD",
+        "city": "Laval, QC",
+        "text": "We'll usually give them oral potassium gluconate or potassium chloride.  If they can't take it orally, we'll give them IV potassium, but that's usually a last resort because of the risk of cardiac arrhythmias.",
+        "color": "turquoise"
       },
       {
         "id": 12,
-        "parent_id": 11,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Ah, yes, Barnaby. It starts with accurate diagnosis and ongoing evaluation. Regular check-ins with the patient, a comprehensive pain plan, and involvement with other healthcare providers \u2013 we need to be that advocate.",
-        "color": "blueviolet"
+        "parent_id": 9,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Wait, isn't hyperkalemia more of a sign of potassium poisoning?",
+        "color": "orange"
       },
       {
         "id": 13,
-        "parent_id": 1,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "Time for some tough love here: CRPS patients need a dedicated pain management team, not just a quick fix. We need to treat the complexity of chronic pain like the medical emergency it is.",
-        "color": "black"
+        "parent_id": 12,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "No, that's not correct.  Hyperkalemia is just a high level of potassium in the blood.  Potassium poisoning occurs when there's an overdose of potassium, like in a case of accidental ingestion.",
+        "color": "blue"
       },
       {
         "id": 14,
@@ -227,33 +298,77 @@
         "user": "Chad Broson",
         "role": "Pre-med",
         "city": "Brampton, ON",
-        "text": "Uh, okay, Martha. I think I get it. You're saying CRPS requires more of an interdisciplinary approach with multiple specialists and treatments.",
-        "color": "yellow"
+        "text": "But isn't potassium poisoning just a matter of too much potassium for the body to process?",
+        "color": "red"
       },
       {
         "id": 15,
         "parent_id": 14,
+        "user": "Dr. Henry Oldman",
+        "role": "MD",
+        "city": "Victoria, BC",
+        "text": "Well, it's a bit more complicated than that.  When you have a normal level of potassium, the body has a delicate balance between potassium uptake and excretion.  Introducing too much potassium can disrupt that balance and cause all sorts of problems.",
+        "color": "green"
+      },
+      {
+        "id": 16,
+        "parent_id": 15,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Okay, I get it.  So, to sum up: potassium deficiency is the result of too little potassium intake, while potassium poisoning is the result of too much potassium intake?",
+        "color": "blue"
+      },
+      {
+        "id": 17,
+        "parent_id": 16,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "That's right, Dr. Park.  And don't forget to consider other electrolyte imbalances, like sodium and calcium, which can also be a problem in patients with heat-related illnesses.",
+        "color": "violet"
+      },
+      {
+        "id": 18,
+        "parent_id": 17,
         "user": "Dr. Maya Gupta",
-        "role": "PGY2",
+        "role": "MD",
         "city": "Mississauga, ON",
-        "text": "You got it, Chad! And don't forget to include psychological support and education for the patient and family. We can't underestimate the impact of chronic pain on mental health.",
+        "text": "Absolutely, Sue.  We need to consider all the different electrolyte deficiencies and excesses when treating patients with heat-related illnesses.",
+        "color": "green"
+      },
+      {
+        "id": 19,
+        "parent_id": 1,
+        "user": "Dr. Archibald Thorne",
+        "role": "MD",
+        "city": "Saskatoon, SK",
+        "text": "I've seen cases of non-exertional heat stroke where the patient had hypernatremia, not just hyponatremia.  It's all about the underlying condition, you see.",
         "color": "brown"
+      },
+      {
+        "id": 20,
+        "parent_id": 19,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "That's a good point, Dr. Thorne.  I didn't think of that.",
+        "color": "red"
       }
     ]
   },
   {
-    "id": 1,
-    "title": "COPD Exacerbation Alert: Don't get fooled by 'quiet chest'!",
-    "body": "Just saw a patient with a COPD exacerbation who presented with a surprisingly 'quiet chest' despite significant respiratory distress. Anyone else encountered this? It's a stark reminder to never rely solely on clinical exam findings in emergency medicine. What are your strategies for staying sharp and not getting misled by red herrings? TL;DR: COPD exacerbation 'quiet chest' = look beyond the exam, dig deeper!",
-    "category": "Emergency Medicine",
+    "title": "Just saw a patient with an interesting case of methemoglobinemia after a regional block... ",
+    "body": "Just saw a 35-year-old male presents with a finger laceration and required a digital block. He received a 3-5 mL of 1% lidocaine injected just proximal to the metacarpal phalangeal joint. Initially, the patient felt a significant decrease in pain, but a few minutes later, he started to feel dizzy and short of breath. His oxygen saturation dropped to 75% on room air. We quickly administered 100% oxygen and 5 mg of methylene blue IV, and his symptoms resolved. The cause of the methemoglobinemia was likely due to the use of benzocaine as an additive in the lidocaine solution.",
+    "category": "_EmergencyMedicine",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Great reminder, OP! One thing I always stress to my students is the importance of correlating exam findings with lab results and history. In this case, a 'quiet chest' with a COPD exacerbation is often a sign of severe airflow obstruction, making it harder for air to escape during exhalation. The patient's clinical presentation and labs should always guide your clinical decision-making, not just the physical exam.",
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "That's a classic case of methemoglobinemia caused by benzocaine. As we all know, benzocaine can accumulate rapidly in the bloodstream and cause this condition. Fortunately, the patient recovered quickly with methylene blue.",
         "color": "purple"
       },
       {
@@ -262,71 +377,517 @@
         "user": "Leo Chen",
         "role": "MS1",
         "city": "Montreal, QC",
-        "text": "Wow, Dr. Thorne! You're right. I always get confused with 'quiet chest'. Can you elaborate more on correlating exam findings with lab results and history?",
-        "color": "blue"
+        "text": "That's so interesting! I never knew that benzocaine could cause methemoglobinemia. Can you tell me more about how it works? Is it related to the way it's metabolized in the liver?",
+        "color": "green"
       },
       {
         "id": 3,
         "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "That's right, Dr. Thorne. In the ER, we can easily get fooled by 'red herrings'. A quiet chest in a COPD patient can be a sign of severe airflow obstruction. Has anyone seen this presentation before? How do you assess for severe airflow obstruction in COPD exacerbations?",
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Methylene blue is a great medication for treating methemoglobinemia, but I've always wondered why it works. Can someone explain the mechanism of action for me?",
         "color": "green"
       },
       {
         "id": 4,
         "parent_id": 3,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Yes, I've seen this before. I think a PEF (peak expiratory flow rate) measurement can be a useful tool in assessing airflow obstruction in COPD exacerbations. Has anyone found it helpful in making a diagnosis?",
-        "color": "pink"
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "The mechanism of action for methylene blue is related to its ability to donate electrons and reduce the oxidized hemoglobin, which causes the methemoglobinemia. It's a bit complex, but essentially, it acts as an antioxidant and helps to restore the normal hemoglobin function.",
+        "color": "red"
       },
       {
         "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "PEF measurements are useful, but not always accurate. We should also assess the patient's overall clinical picture, including their history, physical exam, and lab results. Correlation is key, as Dr. Thorne mentioned earlier.",
-        "color": "orange"
+        "parent_id": 1,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "I think it's worth mentioning that methemoglobinemia can also be caused by other medications, such as nitrites, and some local anesthetics. We should be aware of the potential for this condition in patients who are exposed to these substances.",
+        "color": "purple"
       },
       {
         "id": 6,
         "parent_id": 5,
-        "user": "Turbom Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "As an ER nurse, I've seen my fair share of COPD exacerbations. One thing that's helpful is recognizing the signs of severe airflow obstruction, like accessory muscle use, pursed-lip breathing, and paradoxical respirations. Keep an eye out for these, and don't rely solely on the 'quiet chest'!",
-        "color": "yellow"
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "That's a great point, Dr. Thorne. Can you tell me more about how we can diagnose methemoglobinemia? Are there any specific lab tests that we can use?",
+        "color": "green"
       },
       {
         "id": 7,
         "parent_id": 6,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Diagnosing methemoglobinemia can be challenging, but we can use the 'coffee-ground' appearance of the patient's stool and the presence of cyanosis as clinical clues. We can also measure the methemoglobin levels using a co-oximeter.",
+        "color": "red"
+      },
+      {
+        "id": 8,
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "As a nurse, I've seen patients with methemoglobinemia present with a 'chocolate-chip' complexion. Is that a common finding?",
+        "color": "green"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "That's a great description, Turbo Tom! The 'chocolate-chip' look is caused by the methemoglobin oxidizing the skin, giving it a brownish hue. Great job catching that detail!",
+        "color": "blue"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "That's really helpful to know. I'll make sure to keep that in mind when I'm assessing patients.",
+        "color": "green"
+      }
+    ],
+    "image": "https://images.squarespace-cdn.com/content/v1/57b5e6e0ebbd1ad42af1f8b6/1523281220781-HR9MKJ49IABVK8RFN80R/Local+anesthetic+table+without+draft.jpg"
+  },
+  {
+    "id": 1,
+    "title": "Rant about SCD in Kids",
+    "body": "TL;DR: I had a patient w/ SCD, thought it was PM until I saw the ECG. Remind me to order a stress test next time. Anyone else ever have a SCD case that ended up being something else?",
+    "category": "r/emergencymedicine",
+    "comments": [
+      {
+        "id": 2,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "MD",
+        "city": "Toronto, ON",
+        "text": "SCD in kids is a beast, especially when it comes to congenital heart disease. Did you know that hypertrophic cardiomyopathy is the most common cause of SCD in otherwise healthy adolescents? Always get an ECG, and consider stress testing before dismissing PM.",
+        "color": "purple"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Thanks for the reminder, Dr. Thorne! I've been studying for my exams and just learned that SCD is usually due to arrhythmias. Can you explain more about the difference between hypertrophic cardiomyopathy and arrhythmias?",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 2,
+        "user": "Sarah Jenkins",
+        "role": "MD",
+        "city": "Ottawa, ON",
+        "text": "Hypertrophic cardiomyopathy often presents with chest pain or syncope, but can be asymptomatic. It's essential to get a thorough history and physical before diagnosing. Did you know that HCM can lead to sudden cardiac death even without prior symptoms?",
+        "color": "blue"
+      },
+      {
+        "id": 5,
+        "parent_id": 3,
+        "user": "Dr. Aris Thorne",
+        "role": "MD",
+        "city": "Toronto, ON",
+        "text": "Great point, Sarah! HCM is a critical diagnosis to consider in patients w/ SCD. I like to ask about family history and perform a thorough exam. What's the most common ECG finding in HCM?",
+        "color": "purple"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Maya Gupta",
+        "role": "MD",
+        "city": "Mississauga, ON",
+        "text": "The LVOTO (left ventricular outflow tract obstruction) on a 12-lead ECG is classic for HCM. However, some patients may have a normal ECG, so don't dismiss it just yet!",
+        "color": "pink"
+      },
+      {
+        "id": 7,
+        "parent_id": null,
         "user": "Martha 'The Hammer'",
         "role": "RN",
         "city": "Halifax, NS",
-        "text": "That's right, Turbom Tom! As a seasoned ER nurse, I always stress the importance of looking beyond the exam findings. Remember to assess the patient's whole clinical picture, including their medical history, current symptoms, and lab results.",
+        "text": "Can we talk about the importance of a good Hx in kids w/ SCD? I had a patient where the dad was a cardiac surgeon, and the kid had the same cardiac defect! Never underestimate a family history!",
+        "color": "red"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Elena Varkov",
+        "role": "MD",
+        "city": "Quebec City, QC",
+        "text": "Great point, Martha! Family history is a crucial aspect of SCD in kids. What about genetic testing for HCM? Have any of you all used genetic testing in your practice?",
+        "color": "orange"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Barb Miller",
+        "role": "MD",
+        "city": "Winnipeg, MB",
+        "text": "I've used genetic testing for HCM in a few cases. While it's beneficial, it can also be costly. What's your take on the cost-benefit ratio of genetic testing in HCM?",
+        "color": "yellow"
+      },
+      {
+        "id": 10,
+        "parent_id": null,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Can we switch gears for a sec? What's the best imaging modality for kids w/ SCD? I've seen everything from CT scans to cardiac MRI.",
+        "color": "brown"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Dr. Archibald Thorne",
+        "role": "MD",
+        "city": "Saskatoon, SK",
+        "text": "Ah, my boy, imaging is crucial in SCD! I recommend cardiac MRI for its ability to visualize the cardiac anatomy and identify potential issues.",
+        "color": "gray"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "MD",
+        "city": "Vancouver, BC",
+        "text": "Good reminder, Doc! MRI is the gold standard for cardiac imaging. What about other imaging modalities like chest X-rays and echocardiograms?",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "id": "bowel_obstruction_thread",
+    "title": "Rant about SBOs - the 'common' cause you won't find in the textbooks",
+    "body": "Had a frustrating case last night with a 35-year-old male presenting with severe abdominal pain and bilious vomiting. The CT showed a small bowel obstruction (SBO) due to an incarcerated hernia. Now, I'm sure some of you are thinking, 'Oh, that's a classic textbook case.' But here's the thing: what percentage of SBOs are actually caused by incarcerated hernias? I'd wager it's lower than 10%.",
+    "category": "emergencymedicine",
+    "comments": [
+      {
+        "id": "ranted_about_SBO",
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "I've seen it in my practice, and it's surprising how often we get SBOs due to something 'non-classic.' One patient I had had a giant ileal volvulus due to a benign tumor. It just goes to show that we need to stay vigilant and keep an open mind when faced with these cases. TLDR: SBOs are not always what they seem.",
+        "color": "purple"
+      },
+      {
+        "id": "question_from_a_student",
+        "parent_id": "ranted_about_SBO",
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "What's the typical patient profile for an incarcerated hernia-induced SBO? Is it usually a younger male with a history of previous hernia repair?",
+        "color": "green"
+      },
+      {
+        "id": "Dr. Sterlings_response",
+        "parent_id": "question_from_a_student",
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs! Don't bother trying to predict the patient profile, just keep your eyes open for any suspicion of bowel obstruction and get it checked out ASAP! I've seen it all, and trust me, you don't want to be on the losing end of a missed SBO. Just remember, the golden rule: if in doubt, send 'em to the OR!",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "id": 12345,
+    "title": "Today I Learned about the 'Grey Area' between Inflammatory Bowel Disease (IBD) and Irritable Bowel Syndrome (IBS) in Pediatric Patients",
+    "body": "Had a case last night where a 16-year-old presented with a 2-week history of weight loss, abdominal pain, and bloody stools. The differential diagnosis included IBD and IBS. After a thorough workup, including endoscopic and biopsy results, we diagnosed her with IBS instead of IBD. It got me thinking about the 'grey area' between these two conditions, especially in pediatric patients...",
+    "category": "Pediatric Emergency Medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great post, 'Ziggy'! The IBS-IBD conundrum is a common dilemma in pediatrics. In our hospital, we use a combination of clinical scoring systems, serological tests, and radiological findings to differentiate IBS from IBD. What are your thoughts on the role of biomarkers in this process?",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Thanks, Aris! I completely agree that clinical scoring systems are important, but biomarkers like fecal calprotectin and lactoferrin can be useful in differentiating IBD from IBS. However, we need to be aware of the limitations and potential false positives. I usually rely on a combination of these biomarkers and clinical findings to make my diagnosis.",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "I see what you're saying about biomarkers, but I still think we need to be cautious about over-relying on them. I've seen too many cases where the biomarkers are normal but the patient still has active IBD. In those cases, it's the clinical picture that really leads us to the diagnosis.",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "But how do you decide when to 'trust your gut' or when to order more tests? What are some red flags that would make you order a colonoscopy or start a patient on biologics?",
+        "color": "purple"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs! A good pediatrician always trusts their clinical judgment. If you're still unsure, refer the patient to a specialist! No need to over-investigate a case of suspected IBS.",
+        "color": "red"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "Ugh, Victor! Sometimes I think you're more of a surgeon than a doctor! As a nurse, I've seen too many patients get misdiagnosed or over-investigated because of a 'lack of trust' in the clinical judgment of others.",
+        "color": "orange"
+      },
+      {
+        "id": 7,
+        "parent_id": null,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "I'm so glad to see this discussion! As a nurse, I've noticed that the grey area between IBS and IBD is even more challenging in pediatric patients because of their varying presentations and symptomatology. Has anyone else noticed this?",
         "color": "purple"
       },
       {
         "id": 8,
         "parent_id": 7,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "A silent witness in COPD exacerbations is the patient's own history. Remember to ask about previous hospitalizations, ED visits, and medication use. These can provide valuable insights into the patient's overall condition.",
-        "color": "brown"
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Yes, that's a great point, Turbo! Pediatric patients are notorious for their unpredictable symptoms. I usually use a combination of clinical scoring systems and biomarkers to help differentiate between the two conditions.",
+        "color": "green"
       },
       {
         "id": 9,
         "parent_id": 8,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "But what about the role of dietary changes in managing IBS and IBD? Can anyone recommend any specific diets or protocols that have been shown to be effective?",
+        "color": "blue"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "A great question, Leo! In my experience, a low-FODMAP diet can be very effective in managing IBS symptoms. But IBD patients may require a different approach, such as exclusive enteral nutrition or elimination diets.",
+        "color": "purple"
+      }
+    ],
+    "image": "https://www.nyp.org/sites/default/files/acquiadam/2024-12/Pediatrics-Digestive-Disorders-Hero.webp"
+  },
+  {
+    "id": 12345,
+    "title": "Just saw a case of Acute Angle Closure Glaucoma that left me questioning my entire medical career... (TL;DR see comments)",
+    "body": "Had a miss last night with a 55yo F who presented with a 10 minute history of sudden onset severe eye pain, headache, cloudy vision, and colored halos around lights. She'd been taking erythromycin 2% ointment 4x daily for a presumed blepharitis and had been applying gentle cold compresses to 'try to clear up her eyes'.\n\nUpon arrival she was already at 40mmHg, and her IAP was 22mmHg. We started with IV acetazolamide and mannitol, got her on a bed-side USG (thanks @Turbo Tom) and started IV NSAIDs for pain control. But the real kicker was that she'd been taking 500mg of PO erythromycin 4x daily... I mean who does that? . Anyways, after a bit of prodding, she finally confessed that she'd been trying to 'clean up' her eyes with a QTip and some 'good eye drops' (ie erythromycin). The 'good eye drops' turned out to be a mixture of OTC erythromycin ointment and Visine.\n\nTL;DR: Don't be a hero with the topical steroids and be aware of the dangers of unregulated use of eye drops. This case is just another reminder of how easily preventable these types of injuries are.\n\nEdit: I know I was supposed to post about Acute Angle Closure Glaucoma, but the takeaway is... be vigilant about those topical steroids and eye drops! Don't be the ER doc who allows their patient to 'clean' their eyes with QTips and Visine .",
+    "category": "emergency medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "@OP I've seen that same exact scenario play out multiple times. It's all about educating your patients about proper eye hygiene and warning them about the dangers of unregulated use of eye drops. That being said, I do want to highlight the importance of a quick bedside ultrasound in the ED. Can be a lifesaver for diagnosing acute angle closure glaucoma.",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Amen @DrSharp! The USG tip is super helpful. Also, anyone have experience with ocular ultrasonography in the ED? Is it a feasible skill for EPs to pick up, or is it best left to the radiology folks?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "I'm a bit skeptical about EPs performing USG for ACG. It's a delicate procedure that requires a certain level of expertise. Don't want to see any unnecessary injuries or worse, an undiagnosed retinal detachment! Leave it to the pros, if you ask me.",
+        "color": "lightblue"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "@OP that case sounds like a textbook example of ACG. I'd like to add that it's also super important to counsel patients on proper administration of eye drops (dose, timing, etc.). Have you ever come across the topic of 'eye drop-induced' ACG? I'm curious to hear if anyone else has experience with it.",
+        "color": "purple"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Hi @Dr. Thorne, that's a great point about eye drop administration. I've been studying this topic in my ophthalmology lectures, and apparently, the risk of ACG is highest when patients use 'combination' drops (multiple medications together in one drop). Does that sound accurate?",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Today I Learned: Pseudocoma or psychogenic coma - the diagnostic challenge of 'faking it'!",
+    "body": "Just saw a patient with altered mental status, and it got me thinking about pseudocoma or psychogenic coma. I've always thought of it as a 'rare' diagnosis, but it's actually more common than I thought.\n\nClinical Features:\nDelirium is a transient disorder characterized by impaired attention, perception, and cognition. Pseudocoma or psychogenic coma is a diagnostic challenge, where the patient appears unresponsive, but responds to stimulation with intact pupillary responses, extraocular movements, muscle tone, and reflexes.\n\nHistory taking and observation of responses to stimulation are crucial in revealing the diagnosis. Valuable tests include responses to manual eye opening (little or no resistance in an unresponsive patient) and extraocular movements. If avoidance of gaze is consistently seen with the patient always looking away from the examiner, or if nystagmus is demonstrated with caloric vestibular testing, this is strong evidence for nonphysiologic or feigned unresponsiveness.\n\nDiagnosis and Differential:\nI learned that pseudocoma or psychogenic coma is often associated with conversion disorder, where the patient 'fakes' an illness or symptom, often for secondary gain, such as attention or avoiding responsibilities.\n\nIn a case I worked up last night, the patient, a 30-year-old woman, presented with sudden onset of altered mental status, appearing comatose. However, she responded to verbal commands and even made a humorous comment about her situation.\n\nThe take-home is, always consider pseudocoma or psychogenic coma in the differential diagnosis of altered mental status, especially in the context of a sudden onset. Don't 'rule it out' too quickly! \n\nTLDR: don't forget pseudocoma or psychogenic coma in the differential diagnosis of altered mental status, especially with sudden onset!",
+    "category": "emergency medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great post, and a reminder to always consider the possibility of pseudocoma or psychogenic coma. One thing to note is that these patients may exhibit 'suggestion-induced responsiveness,' where they respond to suggestions or ideas from healthcare workers.\nI've seen cases where patients, who initially appear unresponsive, will respond to a suggestion that they're 'feeling a little better' or 'wanting to cooperate.' Once you're aware of this, you can actually 'reverse engineer' their responses to help diagnose the condition.\nWhat are your thoughts on using suggestion-induced responsiveness in the diagnosis of pseudocoma or psychogenic coma?\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC4441440/",
+        "color": "blue"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Thanks for the reminder, Aris. I've had my share of experiences with pseudocoma or psychogenic coma, and it's always a diagnostic challenge. However, I think we need to be careful not to overdiagnose these cases.\nWhile suggestion-induced responsiveness is a valid diagnostic tool, we should also consider other conditions that can mimic pseudocoma or psychogenic coma, such as status epilepticus or metabolic encephalopathy.\nHas anyone else had experiences with overdiagnosis in these cases?\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC4251152/",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Hi Barb, I'm a bit confused. Can you clarify what you mean by 'overdiagnosis' in the context of pseudocoma or psychogenic coma? Are you saying that some cases might be misdiagnosed as pseudocoma or psychogenic coma when they're actually something else?\nI'm a little new to this topic, so I'd appreciate your clarification.",
+        "color": "red"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Great post, Dr! I'm a little concerned about the suggestion-induced responsiveness aspect. Are you saying that we should use it as a diagnostic tool, or just be aware of it in our patients?\nAlso, what about the potential for patient manipulation? Could some patients deliberately 'fake' a response to suggestion-induced responsiveness?\nWhat are your thoughts on this?",
+        "color": "yellow"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
         "user": "Sparkle-Eyes Sue",
         "role": "LPN",
         "city": "St. John's, NL",
-        "text": "Ah, Dr. Thorne, you're a treasure trove of knowledge! I'll be sure to ask about the patient's history and medical background in future COPD exacerbation cases.",
-        "color": "hot pink"
+        "text": "Great question, Kevin! I think we need to be careful not to fall into the trap of 'suggestibility' ourselves. As healthcare workers, we need to be aware of our own biases and assumptions when dealing with patients.\nBut what about using 'positive reinforcement' techniques to help patients respond to stimulus? Could that be helpful in the diagnostic process?",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Just encountered a difficult airway and thought it'd be worth discussing.",
+    "body": "Had a patient come in last night with a severe facial injury. I was asked to establish an ETCO2, but unfortunately, we were unable to get an adequate seal on the trachea. After 3 attempts, we decided to break the scalpel out and get a cricothyrotomy. The interesting thing was that this patient had been talking to us in a low murmur throughout the procedure, which made it difficult to determine if they were still oxygenating.",
+    "category": "Medicine/Surgery",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "TLDR: We had a difficult airway that required a cricothyrotomy. Anyone else had a tough airway this week? Has anyone else noticed that some patients have an increased respiratory drive in the presence of significant facial trauma?",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs trying to intubate in the ER. You're lucky you didn't stick a tube down her trachea. Cricothyrotomy is much better. The increased respiratory drive you're seeing is probably due to the patient's stress response.",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "I had a similar case last month where a patient required a cricothyrotomy. What I found interesting was that their blood pressure dropped significantly after intubation, even though their saturation levels remained stable. Has anyone else seen this before? Maybe it's related to the pain response from the trauma?",
+        "color": "orange"
+      },
+      {
+        "id": 4,
+        "parent_id": 2,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I'm not sure what you mean by 'increased respiratory drive.' Could you please explain? Is it like COPD?",
+        "color": "blue"
+      },
+      {
+        "id": 5,
+        "parent_id": 3,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Interesting point, Ziggy. I had a paper that referenced increased pain response in patients with traumatic injuries. It's possible that the pain receptors in her trachea were being triggered during intubation, causing a drop in blood pressure.",
+        "color": "green"
+      },
+      {
+        "id": 6,
+        "parent_id": 4,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Increased respiratory drive refers to an increase in minute ventilation in response to a perceived threat or stressor. It's not directly related to COPD, but it can be seen in patients with anxiety disorders or traumatic brain injuries. Does that clear things up, Leo?",
+        "color": "purple"
+      },
+      {
+        "id": 7,
+        "parent_id": 3,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "We had a patient with a severe head injury come in last week. The trauma team wanted to intubate her ASAP, but her blood pressure kept dropping. We ended up putting in a cric, and it turned out she had a significant tracheal tear. Lesson learned: don't underestimate the power of a cricothyrotomy",
+        "color": "red"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Wow, that's crazy! Are cricothyrotomies typically used for tracheal tears?",
+        "color": "blue"
+      },
+      {
+        "id": 9,
+        "parent_id": 7,
+        "user": "Dr. Barbara Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Yeah, they're not typically used for tracheal tears, but in cases where the tear is severe, a cricothyrotomy can be a viable option. It's all about weighing the risks vs. benefits of each approach",
+        "color": "purple"
       },
       {
         "id": 10,
@@ -334,534 +895,10 @@
         "user": "Barnaby Finch",
         "role": "Patient",
         "city": "Surrey, BC",
-        "text": "I'm a little confused by all this talk about COPD exacerbations and severe airflow obstruction. Can someone explain it in simple terms?",
-        "color": "light blue"
-      }
-    ]
-  },
-  {
-    "title": "Sudden Cardiac Death: Lessons from a recent ER case",
-    "body": "Had a close call in the ER last night with a 40 yr old female, previously asymptomatic, who presented with sudden collapse at home. The patient's ECG showed a broad-complex tachycardia, and we were lucky to catch it early. I was reminded of how often we underestimate the risks of SCD, even in patients without known heart disease. Who's had similar recent cases?",
-    "category": "Emergency Medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Yeah, it's wild how often we get SCD cases in what looks like healthy, asymptomatic patients. Did you run an Echo on this patient? And were you able to treat it with a cardioversion or do you have to go EP-accelerator route? TL;DR: How's the patient doing now?",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Actually, the patient's Echo was unremarkable, but the Troponin came back elevated. We did eventually cardiovert her back to normal rhythm, but not before she had a significant prolonged episode of tachycardia. One thing that stuck out was the family history of premature sudden cardiac death - her grandmother died suddenly at 45. Do you always run familial genetic testing for cases like this?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Hi, what type of tachycardia did the patient present with? Was it a classic AVNRT or more likely an accessory pathway-mediated tachycardia?",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "This reminded me of a case I treated last week and I'm a bit concerned about how often we're seeing these SCD cases in young, otherwise healthy patients. Has anyone seen the recent study on the genetic testing for long QT syndrome?",
-        "color": "red"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "The study you're referring to is \"Screening for LQTS\" by Gussak? The consensus among our team was that we should be running routine screening for LQTS in patients with SCD risk or with a family history.",
-        "color": "yellow"
-      },
-      {
-        "id": 6,
-        "parent_id": 2,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Yeah, familial genetic testing is a no-brainer in cases like this - you'd be crazy not to do it. What's your take on how often we should be running family screening in SCD cases, @Dr. Sharp?",
-        "color": "black"
-      },
-      {
-        "id": 7,
-        "parent_id": 1,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "This case is a great reminder of the importance of thorough history taking - even in seemingly healthy patients. Did you find out anything interesting in the patient's past medical history?",
-        "color": "purple"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Actually, yeah - the patient had recently started doing high-intensity interval training and had been pushing herself pretty hard. We need to make sure patients understand that exercise is great for the heart, but overdoing it can sometimes have... unpleasant effects.",
+        "text": "I think I understand what's going on with airways. It's like, uh, when my mom used to, uh, try to, uh, breathe on me when I was sick",
         "color": "gray"
       }
     ],
-    "image": "https://cpr.heart.org/en/-/media/CPR-Images/Resources/CA-vs-HA/CA-vs-HA-Infographic-2025-895x1160min.jpg?sc_lang=en"
-  },
-  {
-    "id": 100,
-    "title": "Case Study: Anterior Cord Syndrome in Spinal Cord Compression",
-    "body": "Just saw a patient with a classic case of anterior cord syndrome in the ER. The 35-year-old male had a C2-C3 fracture after a high-speed motorcycle accident. On presentation, he had a complete loss of pain and temperature sensation below the level of his injury, along with a severe weakness in his upper limbs. His motor examination revealed a 3/5 strength in his deltoids and biceps, with a 5/5 strength in his triceps. His proprioception and vibration sense were intact. I immediately called for a neurosurgical consult, suspecting a high cervical spine injury. The patient required intubation and was transported to the OR for immediate decompression. After a thorough review of the case, I realized that the patient had a classic anterior cord syndrome, with the anterior spinal artery supplying the anterior two-thirds of the spinal cord being compromised. This condition is often associated with poor prognosis, but timely surgical intervention can improve outcomes. Has anyone else seen a case like this in the ER? What's your approach to diagnosing and managing anterior cord syndrome?",
-    "category": "emergency-medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Great case, @Dr. Thorne! Anterior cord syndrome is a classic diagnosis in cervical spine injuries. The key to diagnosing this condition is to look for a 'keyhole' or 'central cord' sign on the MRI. This sign refers to a thinning of the spinal cord on the anteroposterior plane, which is indicative of anterior spinal artery syndrome. In your patient's case, the 3/5 strength in his upper limbs and 5/5 strength in his triceps suggests an upper motor neuron lesion. The intact proprioception and vibration sense also support this diagnosis. Did you get a chance to discuss the case with the neurosurgeon, and what was their approach to management?",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "@Dr. Gupta, could you explain the pathophysiology behind anterior spinal artery syndrome? I understand that the anterior spinal artery supplies the anterior two-thirds of the spinal cord, but I'm not sure how this relates to the clinical presentation.",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "@Dr. Thorne, I've seen cases like this before, but I always think about the differential diagnosis of central cord syndrome. Can you tell me, what made you rule out central cord syndrome, which is often associated with hyperextension injuries? Was there any evidence of central cord edema on the imaging?",
-        "color": "purple"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "@Dr. Stone, isn't central cord syndrome the result of a hyperextension injury, which often involves a combination of anterolisthesis and disc herniation? And isn't the key to diagnosing central cord syndrome the presence of a central cord lesion on the MRI?",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Great discussion, guys! I just wanted to chime in and say that the patient's lab work showed a significant anion gap metabolic acidosis. Has anyone else seen a case of anterior cord syndrome with acidosis?",
-        "color": "purple"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "@Turbo Tom, yes, I've seen cases of anterior cord syndrome with acidosis before. The anion gap metabolic acidosis is often associated with a poor prognosis, as it may indicate a severe spinal cord injury. Have you checked the patient's urine output, and is the patient on any medications that could be contributing to the acidosis?",
-        "color": "green"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "@Dr. Varkov, isn't the anion gap metabolic acidosis in anterior cord syndrome more related to the spinal cord injury itself, rather than any medication or underlying conditions? And isn't the primary treatment for this condition supportive care, including aggressive fluid resuscitation and possibly vasopressors?",
-        "color": "purple"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "@Sarah, you're absolutely right! I've read that the anion gap metabolic acidosis in anterior cord syndrome is primarily due to the spinal cord injury itself, rather than any underlying conditions. And yes, supportive care, including fluid resuscitation and vasopressors, is the primary treatment for this condition.",
-        "color": "green"
-      },
-      {
-        "id": 9,
-        "parent_id": 1,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "Great discussion, guys! I just wanted to add that the patient's care required a multidisciplinary approach, including input from neurosurgery, rehabilitation medicine, and pain management. The key to successful outcome was early identification, stabilization, and aggressive rehabilitation. Has anyone else seen a case of anterior cord syndrome with a similar multidisciplinary approach?",
-        "color": "purple"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "@Martha, you're right, the patient's care required a multidisciplinary approach. I recall a similar case from the 1950s, where I worked with a team of neurosurgeons, rehabilitation physicians, and physical therapists to manage a patient with a similar injury. We used a combination of halo west immobilization and aggressive physical therapy to help the patient regain function. It's always fascinating to see how medicine has evolved over the years.",
-        "color": "green"
-      }
-    ]
-  },
-  {
-    "title": "Rant about spine trauma misdiagnosis",
-    "body": "Just had to review the entire spine trauma guideline book after one of my attendings got it wrong last night. We had a patient with a complex spine injury who was missed for hours because the ED physician was convinced they just had a minor strain . Had to do a quick review of the imaging and physical assessment to catch the actual injury. TLDR: Spine trauma is not all about the obvious neuro deficits, folks. You gotta think about the whole patient - pain, bony abnormalities, and the whole shebang. Don't @ me.",
-    "category": "Emergency Medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. John Smith",
-        "role": "MD",
-        "city": "New York, NY",
-        "text": "I feel you. I've had cases where the patient's pain was dismissed as 'just a sprain' and it turned out to be a severe fracture. I think the key is to stay vigilant and not rely solely on the patient's complaint. Also, don't forget to check for any pre-existing conditions that might make their pain more severe. Remember, it's always better to err on the side of caution when it comes to spinal injuries.",
-        "color": "blue"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Sarah Lee",
-        "role": "MD",
-        "city": "San Francisco, CA",
-        "text": "I totally agree with you! I've seen patients with no obvious neurological deficits but with significant bony abnormalities that turned out to be major fractures. One of my colleagues always says 'pain is a symptom, not a diagnosis' - it's so true! Can someone explain to me the difference between a lumbar strain and a herniated disk? And how can we differentiate between the two?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Leo Chen",
-        "role": "MD",
-        "city": "Chicago, IL",
-        "text": "According to my notes, a lumbar strain is typically characterized by localized pain and stiffness in the lower back, whereas a herniated disk is more likely to present with neurological symptoms like numbness, tingling, and weakness in the legs. Can someone confirm?",
-        "color": "purple"
-      },
-      {
-        "id": 4,
-        "parent_id": null,
-        "user": "Dr. Kevin Brown",
-        "role": "EM",
-        "city": "Boston, MA",
-        "text": "I think we're getting sidetracked here. The real takeaway is that we need to be more aggressive in our workup and not shy away from ordering imaging just because the patient doesn't seem like a 'high-risk' case. Remember the case of the young woman with a spinal cord injury who was misdiagnosed as a minor strain? It took her months to walk again. We can't afford to make those kinds of mistakes.",
-        "color": "red"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Tina Lee",
-        "role": "RN",
-        "city": "Seattle, WA",
-        "text": "I love the way you put that, Dr. Brown! We need to be more proactive in our care and not wait for the patient to progress to a 'critical' status before we take action. That makes so much sense. Do we have any resources or guidelines that can help us improve our spine trauma diagnosis and treatment? Links or suggestions would be much appreciated!",
-        "color": "pink"
-      },
-      {
-        "id": 6,
-        "parent_id": null,
-        "user": "Dr. Rachel Kim",
-        "role": "EM",
-        "city": "Los Angeles, CA",
-        "text": "I just wanted to add that early imaging, such as an MRI, can help identify spine trauma and prevent further complications. We should be more aggressive in ordering imaging studies, like MRI, especially in high-risk patients. And don't forget, it's not just about the imaging - a thorough physical exam and clinical history are crucial in diagnosing spine trauma.",
-        "color": "orange"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Michael Brown",
-        "role": "MD",
-        "city": "Philadelphia, PA",
-        "text": "I totally agree with you, Dr. Kim! A thorough physical exam and clinical history are essential in diagnosing spine trauma. Can someone share some tips on how to perform a better physical exam for spine trauma patients? I feel like I'm missing something.",
-        "color": "tan"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Sarah Lee",
-        "role": "MD",
-        "city": "New York, NY",
-        "text": "Thanks for asking, Michael! One thing I always do is perform a thorough neurological examination, including assessing sensory and motor function, reflexes, and gait. I also make sure to check for any signs of pain or discomfort. Has anyone else got any tips to share?",
-        "color": "teal"
-      }
-    ]
-  },
-  {
-    "id": 7,
-    "title": "TLDR: I just had the worst Acute Angle-Closure Glaucoma case in my career!",
-    "body": "I'm still shaking as I write this. A 35-year-old woman comes in with 3 hours of severe eye pain, headache, nausea, and vision blurriness. Classic case, right? Nope.",
-    "category": "Emergency Medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "",
-        "city": "Toronto, ON",
-        "text": "Amen, brother! I once had a patient with AA-CG who ended up with a central retinal vein occlusion because we missed it. Luckily, the patient did well with PRP laser therapy, but I learned a valuable lesson about the importance of prompt diagnosis and referral to a specialist. What was the key clue that led you to suspect AA-CG in this case, OP?",
-        "color": "blue"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "OP, what was the initial IOP reading on this patient? Did you consider the possibility of a pre-existing condition like aniridia or Peters' anomaly, which can increase the risk of AA-CG?",
-        "color": "lightblue"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Dr. Thorne, I couldn't agree more about the importance of prompt referral to a specialist. I had a patient who was initially diagnosed with AA-CG in the ER, but the specialist ended up ruling it out and instead diagnosed a rare condition called primary congenital glaucoma. I linked a great article on the topic if anyone wants to read more [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5719566/](link).",
-        "color": "pink"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Ahhh, AA-CG! That's one of our worst nightmares as ER nurses. What was the nurse-to-bed ratio like this morning when the pt rolled in? Any signs of uveitis or posterior synechiae that suggested something was off?",
-        "color": "red"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "@Turbo Tom, the nurse-to-bed ratio this morning was 4:1, and we noticed some bilateral 360-degree posterior synechiae on the pt's exam. We also sent an LP to rule out an intracranial cause, but it's unlikely given the pt's presentation and history.",
-        "color": "orange"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "I once had a patient with AA-CG who also had systemic lupus erythematosus (SLE). The key clue that led me to suspect SLE was the patient's history of photosensitivity and alopecia. Has anyone else dealt with a patient with AA-CG who also had SLE?",
-        "color": "purple"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Actually, @Dr. Varkov, I had a patient last year who presented with AA-CG, SLE, and Sj\u00f6gren's syndrome. The key clue that led me to suspect Sj\u00f6gren's was the patient's complaint of persistent dry eyes with no apparent cause. We ended up diagnosing Sj\u00f6gren's with a positive Schirmer's test [https://pubmed.ncbi.nlm.nih.gov/29146523/](link).",
-        "color": "green"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "This conversation is just a bunch of armchair medicine from the ER. Let me tell you, as an ER nurse for 30 years, AA-CG is a nightmare. Just last week, I had a pt with a IOP of 40 mmHg and still managed to discharge them with just an ophtho referral. We need to be realistic about our limitations and not let these patients fall through the cracks.",
-        "color": "brown"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "I have to agree with @The Hammer. We're often expected to be gods in the ER, but let's not forget that AA-CG is a disease that requires specialized care. We should be referring these patients to ophthalmologists ASAP, not trying to diagnose and treat them in the ER.",
-        "color": "grey"
-      }
-    ]
-  },
-  {
-    "id": 8,
-    "title": "Rant about: Identifying and treating Elder Abuse in the ED",
-    "body": "Just had the most disturbing case last night. 77 yo male patient came in with a badly fractured hip. The family member accompanying him reported that it happened when the patient 'fell down' in the living room. Easy to see how it could happen... but red flags were raised when the patient had an odd bruise on the side of his head. Further investigation revealed that the family member had control over the patient's finances and had been isolating them from their social network for months.",
-    "category": "emergency-medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Elder abuse is a huge issue in our ED. According to the WHO, 5-6% of older adults experience some form of abuse. It's not just physical abuse, either - emotional, financial, and neglect are all common. We need to be vigilant and not write off the family member's story too quickly. Has anyone else encountered cases where the caregiver is actually responsible? [1] [link to WHO report]",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "That's such a great point, Dr. Gupta! What are some strategies for identifying elder abuse in the ED? Are there any specific red flags we should be looking out for?",
-        "color": "blue"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Actually, I've been noticing a trend where caregivers will bring in the patient's medical records and make a big show of showing us which medications the patient is taking - as if to prove that they're looking out for the patient's best interests. I call it the 'Med Alert Scare Tactic'. Has anyone else encountered this?",
-        "color": "orange"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "The medical alert scare tactic, you say? That's definitely something to watch out for. One thing we do in our ED is to ask the caregiver to step outside while we do our assessment. It's amazing how often they'll give away their true intentions in those moments. [2] [link to study]",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": 3,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Lol, that's so true about the medical alert scare tactic! What about when the caregiver asks for a 'copy of all the patient's records'? Is that also a red flag?",
-        "color": "pink"
-      },
-      {
-        "id": 6,
-        "parent_id": 3,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "Requesting a copy of the records is not necessarily a red flag on its own - but if they're being particularly evasive or secretive about their intentions, that's when you should get suspicious. Trust your instincts, folks!",
-        "color": "brown"
-      },
-      {
-        "id": 7,
-        "parent_id": 1,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Jaysus, this is all so disturbing! But seriously, guys - what about the importance of social work in identifying elder abuse? I feel like social workers are often the ones who spot these kinds of patterns first.",
-        "color": "purple"
-      },
-      {
-        "id": 8,
-        "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Actually, I was reading a study the other day that showed that involving social work in the ED actually decreases the rate of missed abuse cases. [3] [link to study]",
-        "color": "blue"
-      }
-    ]
-  },
-  {
-    "id": 9,
-    "title": "TLDR; I just caught a case of the Mondays, but in all seriousness, did I miss something?",
-    "body": "Just saw a patient with what looked like a textbook case of PID, but upon further review, I'm questioning my diagnosis. The patient is a 25-yo female with a 2-day history of lower abdominal pain and vaginal discharge. The physical exam was consistent with a diagnosis of PID, and the lab results showed a WBC of 18,000, ESR of 40, and CRP of 80.",
-    "category": "Emergency Medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I think you're on the right track, OP. PID is a classic Dx for lower abdominal pain and vaginal discharge in a sexually active young woman. However, I'd like to suggest a few additional tests to rule out other conditions like appendicitis or ectopic pregnancy. Have you ordered an ultrasound?",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Gupta, I've heard that laparoscopic appendectomy can be a good option for ruptured appendicitis, but wouldn't that be more appropriate for an emergency surgery? Wouldn't we still need to follow the usual workup for PID first?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "I agree with Dr. Gupta, OP. PID is a great Dx, but we should definitely rule out other conditions. Has the patient received any antibiotics yet? I'd also like to suggest a more detailed history, including questions about her sexual health and recent travel history.",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 2,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "Leo, get with the times, kid! Laparoscopic appendectomy is not just for ruptured appendicitis anymore. And yeah, let's not forget about the whole ' follow-up is important' thing. Don't you dare tell me you're not following up with her after this?",
-        "color": "red"
-      },
-      {
-        "id": 5,
-        "parent_id": 3,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Sarah, great points, as always. I'd also like to add that if the patient is sexually active, we should definitely consider testing for other STIs like HIV and syphilis. Has she been tested before?",
-        "color": "teal"
-      },
-      {
-        "id": 6,
-        "parent_id": 4,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Rage, I think you're right, but I'm still a bit confused about the laparoscopic appendectomy. Is that a common procedure for appendicitis or just for ruptured cases?",
-        "color": "orange"
-      },
-      {
-        "id": 7,
-        "parent_id": 5,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Elena, great point about testing for other STIs. I've heard that HIV is often asymptomatic in young women, so we should definitely consider testing them. Does anyone have any recommendations for resources on this topic?",
-        "color": "pink"
-      },
-      {
-        "id": 8,
-        "parent_id": 6,
-        "user": "Dr. 'Ziggy' Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Leo, trust me, kid, laparoscopic appendectomy is a thing. And yeah, it's not just for ruptured cases anymore. You should totally look it up, dude. TL;DR, laparoscopy is cool, get with the times!",
-        "color": "brown"
-      },
-      {
-        "id": 9,
-        "parent_id": 7,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Kevin, nice point about HIV. I've got a link to a great resource on this topic: https://www.cdc.gov/hiv/testing/patient/counseling.html. Have you seen this before?",
-        "color": "gray"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Barb, great link! I haven't seen that before. It looks like a great resource for patients. Thanks for sharing!",
-        "color": "silver"
-      }
-    ],
-    "image": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1831842124120541"
+    "image": "https://d16qt3wv6xm098.cloudfront.net/2xvJhg_CSiuzAOMKdT741rQ-RceegsUA/_.png"
   }
 ]
