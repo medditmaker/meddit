@@ -1,9 +1,72 @@
 [
   {
     "id": 0,
-    "title": "Rant: Naloxone infusions in opioid tox - Am I missing something?!",
-    "body": "Today I got called to the ICU with a patient who had a near-miss with opioid tox. We got the patient back with some naloxone, but then discovered that they were on a PCA pump with morphine. Fast forward to the next morning: they're crashing all over again. We started an infusion of naloxone at 1/3 the initial dose, but the patient's still crashing. I'm starting to get a bit worried that we're not doing enough to reverse the tox.",
-    "category": "Emergency Medicine",
+    "title": "Just saw a patient with a near-miss intubation due to 'pre-emptive' paralysis - rant about EM airway management guidelines",
+    "body": "Just saw a patient with a near-miss intubation due to 'pre-emptive' paralysis. The resident and anesthesiologist were debating whether to paralyze the patient before intubation. I asked them to step back and reassess the airway, which was easily intubated without paralysis. This got me thinking - are our EM airway management guidelines too focused on 'pre-emptive' paralysis and not enough on rapid sequence intubation (RSI)? I've been racking my brain for resources on this topic, but can't seem to find any that provide a clear answer. Help!",
+    "category": "emergency medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "MD",
+        "city": "Vancouver, BC",
+        "text": "Lol, I've seen this debate play out before. The thing is, most EM airway guidelines emphasize pre-emptive paralysis, but in reality, RSI is way more effective and safer in most patients. We should be focusing on making RSI more accessible and easier to learn for our residents. Check out this ACEP article on RSI [link] - it's got some great pearls on how to make it work in the ED.",
+        "color": "blue"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Dr. Zalesky, you mentioned that RSI is more effective in most patients, but what about the ones who have a contraindication for paralysis? Like, what if they have a severe asthma attack and are on high-flow oxygen?",
+        "color": "pink"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Sarah Sharp",
+        "role": "MD",
+        "city": "Laval, QC",
+        "text": "Great point, Leo. RSI is definitely not one-size-fits-all. However, in the case of severe asthma, we can often use a 'wake-up' dose of reversal medication after the initial bolus of paralytic and anesthetic. This allows us to still get the benefits of RSI, but with a safety net for potential complications. Dr. Zalesky, do you have any other tips for managing airway emergencies in this population?",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Dr. Sharp, that's so cool! Is it true that the wake-up dose has to be customized to the patient's specific physiology?",
+        "color": "lavender"
+      },
+      {
+        "id": 5,
+        "parent_id": 1,
+        "user": "Dr. Archibald Thorne",
+        "role": "MD",
+        "city": "Saskatoon, SK",
+        "text": "In my day, we didn't need all these fancy airway management techniques. We just used good old-fashioned manual ventilation and waited for the patient to stabilize. What's wrong with the good old days?",
+        "color": "red"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Henry Oldman",
+        "role": "MD",
+        "city": "Victoria, BC",
+        "text": "Dr. Thorne, I appreciate your nostalgia, but the reality is that airway emergencies can be incredibly complex and unpredictable. RSI and other airway management strategies are designed to provide a standardized, evidence-based approach to these situations. While manual ventilation has its place, it's not always the most effective way to manage an airway in distress.",
+        "color": "brown"
+      }
+    ],
+    "image": "https://www.ems.gov/assets/EMS_pinwheel_graphic_4wings_F.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Anorectal abscesses: when it's more than just an abscess",
+    "body": "Just saw a patient with a large abscess, suspected to be a perianal abscess, but the CT scan shows it's actually originating from the intersphincteric space. Had to re-evaluate the treatment plan and ended up going with incision and drainage in the OR. Anyone else encounter this?",
+    "category": "EM Cases and Conundrums",
     "comments": [
       {
         "id": 1,
@@ -11,16 +74,97 @@
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "I agree with you - I had a similar case last week. We ended up doing an infusion of naloxone at 2/3 the initial dose, and the patient stabilized. But what's the rationale behind starting with a lower dose? I thought we were trying to avoid precipitating withdrawal?",
-        "color": "green"
+        "text": "TLDR: anorectal abscesses can be tricky. When I was a resident, we would always think perianal abscesses, but now I know to think intersphincteric space too. Did you look for any fistula-in-ano signs?",
+        "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Hi Dr. Gupta, what are fistula-in-ano signs? Are there any other spaces that can be a source of anorectal abscesses?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "@Leo Chen, good question! Fistula-in-ano signs include interdigit spaces, anovaginal fistula, and chronic anal pain. I'm not aware of any other spaces besides intersphincteric and anal glands. Can anyone confirm that?",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Actually, I've seen a case or two of an abscess originating from the submucosal space. It's a pretty rare occurrence, but it's good to know. Has anyone ever seen this or know what the treatment is?",
+        "color": "purple"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "I've got a case where I treated an abscess from the submucosal space with a combination of antibiotics and needle aspiration. It worked beautifully, but it's always good to have more opinions!",
+        "color": "green"
+      },
+      {
+        "id": 6,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "In terms of management, I've heard that incision and drainage in the OR is always the best option for these cases. What do you guys think about that?",
+        "color": "blue"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "I agree with @Sarah Jenkins, but I also think that there are situations where antibiotics alone can work. It really depends on the size of the abscess and the patient's overall condition. What's everyone else's experience?",
+        "color": "purple"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Turan Kayagil",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Here's a good article on the topic: [link][1]. The authors recommend antibiotics as first-line treatment for small abscesses and incision and drainage for larger ones. What do you guys think?",
+        "color": "green",
+        "url": "https://link.springer.com/article/10.1007/s11936-020-03241-0"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Missed Diagnosis: A Recent Case of Pulmonary Embolism",
+    "body": "I'm still reeling from the recent case of pulmonary embolism I missed last night. A 35-year-old female patient presented with unilateral leg swelling and dyspnea after a road trip. She had no significant past medical history and was on no medications. Her vitals were BP 120/80, HR 110, RR 24, and SpO2 92% on RA. Her ECG was unremarkable, and her Troponin was negative. The emergency physician on call ordered a D-dimer, which was elevated at 10,000 ng/mL. However, she was discharged with a diagnosis of cellulitis and instructed to follow up with her primary care physician.",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
         "user": "Dr. Maya Gupta",
-        "role": "PGY2",
+        "role": "PGY2, ER",
         "city": "Mississauga, ON",
-        "text": "TLDR, what's the deal with the pharmacokinetics of naloxone? Does the infusion rate actually affect the time to peak effect?",
+        "text": "That's a tough one! The elevated D-dimer was a red flag, but it's not uncommon in patients with malignancy or recent surgery. What made you discharge her?",
+        "color": "blue"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Phil Muddle, EP",
+        "role": "EP",
+        "city": "Regina, SK",
+        "text": "I agree. I would have done the same. Did she have any other symptoms that suggested a higher likelihood of DVT or PE? Was she able to move her leg normally?",
         "color": "green"
       },
       {
@@ -29,35 +173,134 @@
         "user": "Turbo Tom",
         "role": "RN",
         "city": "London, ON",
-        "text": "I've been doing some reading on this, and it seems that the infusions are actually a good idea. The problem is that the IV naloxone can have a shorter duration of action than the oral or transdermal, so you need to keep the infusion going to maintain the reversal of tox.",
+        "text": "Was the D-dimer done due to suspected DVT, or was it a blanket order for all patients with leg swelling? We need to be mindful of test ordering and not overutilize D-dimer, especially in the elderly.",
         "color": "purple"
       },
       {
         "id": 4,
-        "parent_id": 1,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "I've seen some papers on this topic, and it seems that the infusions are actually associated with a higher risk of recurrence. Maybe we should be looking at other strategies to prevent recurrence?",
-        "color": "red"
+        "parent_id": 3,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Amen to that, Turbo Tom! I've seen patients with D-dimer levels above 10,000 ng/mL and no thrombotic disorders. Can someone clarify the criteria for D-dimer ordering in our hospital?",
+        "color": "orange"
       },
       {
         "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Specifically, have you guys seen any good studies on the use of naltrexone for opioid tox? I think it's an underused agent in our ED.",
-        "color": "red"
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Wouldn't the Wells' score be helpful in this situation? We could have calculated it using her presentation and lab results to estimate the probability of DVT/PE.",
+        "color": "pink"
       },
       {
         "id": 6,
-        "parent_id": 4,
+        "parent_id": 5,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Excellent suggestion, Sarah! The Wells' score would have indeed been a useful tool in this case. We should always be mindful of using clinical prediction tools to guide our decision-making.",
+        "color": "brown"
+      },
+      {
+        "id": 7,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I was wondering if the patient had any family history of clotting disorders or previous DVT/PE? That could have increased our suspicion for PE.",
+        "color": "gray"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Good point, Leo! Family history of clotting disorders or previous VTE can indeed increase the likelihood of recurrent events. Let's not forget to ask about this in our patient history.",
+        "color": "turquoise"
+      },
+      {
+        "id": 9,
+        "parent_id": 1,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1, ER",
+        "city": "Edmonton, AB",
+        "text": "I'm so frustrated I missed this case! What's the next step in managing this patient now that we know she had a PE? Should we start anticoagulation or proceed with further investigation?",
+        "color": "red"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "Don't be too hard on yourself, Kevin! We've all missed diagnoses. Now that we know the patient had a PE, anticoagulation should be started immediately to prevent further clot formation. We can consider a follow-up CT pulmonary angiogram to assess for resolution of the clot.",
+        "color": "beige"
+      }
+    ],
+    "image": "https://www.researchgate.net/profile/Marco-De-Carlo-2/publication/335525881/figure/fig4/AS:798010166476800@1567271858130/Central-Illustration-Risk-adjusted-management-strategy-for-acute-pulmonary-embolism.png"
+  },
+  {
+    "id": 1234,
+    "title": "Frustrating case last night - Skull fracture with a twist!",
+    "body": "Just saw a patient with a scalp laceration from a fall down the stairs. She was pretty confused and had a weird gait. I got a stat CT and it turns out she has a depressed skull fracture. But here's the weird part - her Glasgow Coma Scale score was 15, which puts her in the mild TBI category. Anyone else ever see something like this?",
+    "category": "medical- anecdotes",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "I've seen similar cases where the patient's level of consciousness doesn't match the severity of the injury. It's like they're 'numb' to the trauma. Any thoughts on the pathophysiology behind this?",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "Actually, I've been reading about naltrexone as a potential agent for opioid tox. But aren't there some issues with its availability and dosing?",
+        "text": "I think it's related to the diffuse axonal injury (DAI) mechanism. The force from the fall can cause micro-tears in the white matter, leading to decreased consciousness. What do you guys think?",
         "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Wait, what's DAI? Is that like a type of concussion?",
+        "color": "lightblue"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "No, Leo, DAI is a type of traumatic brain injury that's caused by the back-and-forth motion of the brain within the skull. It's like a 'whiplash' injury to the brain. Here's a great review article on the topic: https://www.ncbi.nlm.nih.gov/pubmed/29915142",
+        "color": "darkblue"
+      },
+      {
+        "id": 5,
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "I've seen some weird stuff in my time, but this case takes the cake. I think it's also worth considering the possibility of a secondary TBI, like Cushing's syndrome. Have any of you guys seen cases like this before?",
+        "color": "orange"
+      },
+      {
+        "id": 6,
+        "parent_id": 1,
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "Actually, I think Turbo Tom might be onto something. We did a case study on Cushing's syndrome and it's pretty common in TBI patients. It's like their brain is 'frozen' in a state of hypervigilance. Has anyone else heard of this before?",
+        "color": "yellow"
       },
       {
         "id": 7,
@@ -65,17 +308,106 @@
         "user": "Dr. Elena Varkov",
         "role": "FRCPC",
         "city": "Quebec City, QC",
-        "text": "Yeah, I know what you mean. But it seems that it might be worth exploring further. Perhaps we could discuss this further with the pharmacy team?",
-        "color": "red"
+        "text": "Yeah, I've seen it before. It's like their autonomic nervous system is all messed up. But you guys are making me think - what's the treatment for Cushing's syndrome in TBI patients? Is it just supportive care or is there something more specific?",
+        "color": "pink"
       },
       {
         "id": 8,
         "parent_id": 7,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "I don't know if this is the right forum for this, but... shouldn't we be talking about the actual opioid tox protocol we're using? I mean, maybe we should be looking at revising the protocol to include more aggressive reversal or something?",
-        "color": "orange"
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "Ah, my dear colleagues, it's quite simple, really. We must treat the cause of the Cushing's, which is usually the TBI. We must get the patient's autonomic nervous system regulated, if you will. And I always say, 'A spoonful of sugar helps the recovery go down...' (laughs)",
+        "color": "lightgray"
+      },
+      {
+        "id": 9,
+        "parent_id": 1,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Wait, guys, I think I get it. So, it's like, the patient's brain is all messed up from the injury, and we're trying to figure out why? Is it like, a medical mystery or something?",
+        "color": "lightgreen"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Rant about aortic dissections and missed diagnosis last night...",
+    "body": "Had a miss last night and it's stuck with me. A 50yo M with sudden onset tearing chest pain radiating to the back. Classic aortic dissection symptoms. However, the patient had a history of COPD and was on 2L of oxygen at home. Chest X-ray showed hyperinflation of the lungs and ECG showed nonspecific ST segment changes.\n\nThe radiologist read the chest X-ray as 'normal' and the ER doc thought it was a pulmonary embolism (based on the oxygen saturation and the ECG changes). We finally got a CT aortogram and it showed a type B dissection.\n\nJust wondering if anyone else has ever had a similar experience and how you would have managed it differently. Also, does anyone have any tips on diagnosing aortic dissections in COPD patients?\n\nTLDR; Aortic dissection in a COPD patient with normal CXR and ECG changes.",
+    "category": "emergency-medicine-rant",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Aortic dissections are notoriously hard to diagnose, esp in the ER. I've had a few cases where we thought it was a PE or a STEMI at first. It's always a good reminder to keep a high index of suspicion for aortic dissections, especially in the right clinical context. One thing that's helped me is to remember that a normal CXR doesn't rule it out. I always try to get a CT aortogram ASAP if I suspect a dissection.\n\nFor COPD patients, I think it's worth noting that the oxygen saturation can be misleading. We had a case a few weeks ago where the patient was on 2L of oxygen at home but had a normal SpO2 at the hospital. However, once we got the CT aortogram, we found that it was a type B dissection that was causing the symptoms. In retrospect, we should have been more suspicious of a dissection due to the sudden onset of tearing chest pain.",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Thanks for sharing this case, Dr. Gupta! I was wondering what would be the best way to identify aortic dissections in the ER? Is it just a clinical suspicion based on the patient's symptoms and history?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "@Leo Chen, yes, it's primarily a clinical suspicion. However, we should also be looking for any abnormal physical exam findings, such as unequal pulses or blood pressure discrepancies. In addition, a D-dimer can be elevated in aortic dissections, so we should be cautious not to send the patient home if the D-dimer is high. Has anyone else had any experience with aortic dissections in the ER?",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "You're wasting your time trying to diagnose aortic dissections in the ER, folks. Send them straight to the CT scanner and let the radiologists do their magic. We can't diagnose everything based on the physical exam and a few lab tests. Sometimes you just have to trust your instincts and get the patient to the right specialist. And if it's not an aortic dissection, it's probably something much more straightforward, like a PE or a STEMI. So, stop over-thinking it and let's move on.",
+        "color": "purple"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "So, Dr. Sterling, what would be the key takeaways from this case? Is there anything we can do differently to improve outcomes for patients with suspected aortic dissections?",
+        "color": "green"
+      },
+      {
+        "id": 6,
+        "parent_id": 1,
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "I've seen a few cases of aortic dissections in the ER, and it's always a tough diagnosis. But one thing that's helped me is to keep in mind that aortic dissections are more common than we think. They're relatively rare, but they're not unheard of, especially in patients with a history of hypertension or Marfan syndrome. So, don't be afraid to keep an eye out for them in the ER.",
+        "color": "purple"
+      },
+      {
+        "id": 7,
+        "parent_id": 1,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Aortic dissections are also more common in older adults with hypertension. We should be particularly vigilant in patients with a history of uncontrolled hypertension. And remember, a normal CXR doesn't rule out a dissection, especially in patients with significant comorbidities.",
+        "color": "purple"
+      },
+      {
+        "id": 8,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "So, if we're suspecting aortic dissection, what's the best imaging modality to use?",
+        "color": "green"
       },
       {
         "id": 9,
@@ -83,990 +415,377 @@
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "Actually, that's not a bad idea, OP1. Perhaps we could discuss this further with the ED leadership?",
-        "color": "green"
+        "text": "CT aortogram is usually the best choice for diagnosing aortic dissections. It's non-invasive and can give us a good idea of the extent of the dissection. However, if we're unsure or the patient is a poor candidate for CT imaging, an MRI aortogram can be a good alternative. We should also be getting a D-dimer in all suspected aortic dissection cases.",
+        "color": "purple"
       },
       {
         "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "Can we just stop talking about protocols and pharmacokinetics and get back to the real issue at hand: the lack of staffing in our ED?",
-        "color": "darkblue"
+        "parent_id": 1,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "This is all really interesting, but I have a question. What's the deal with 'normal' chest X-rays in aortic dissections? Can someone explain that to me?",
+        "color": "green"
       },
       {
         "id": 11,
         "parent_id": 10,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Well, that's a topic for another day, OP. Back to the issue at hand: what's the consensus on Naloxone infusions for opioid tox?",
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "My young friend, it's quite simple really. A normal chest X-ray doesn't rule out aortic dissections. You see, in aortic dissections, the aorta may not be obviously enlarged or calcified on a CXR. But that doesn't mean there's no dissection. So, we should never rely solely on the CXR for diagnosis, and always get that CT aortogram or MRI to be sure.",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "TB in the ED: When CXR is 'Normal' but TB is Not",
+    "body": "Had a patient with a CXR that looked like a normal chest radiograph but with prolonged febrile cough illness. Had to consider TB in the ED, even with a normal CXR. Does anyone have strategies for diagnosing TB in the ED when CXR is inconclusive?",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "MD",
+        "city": "Toronto, ON",
+        "text": "TB in the ED can be tricky. For me, it's always about the patient's risk factors. If they're HIV-positive, or from a high-risk region (e.g. Asia, Africa, Latin America), I'm always thinking TB. Even with a normal CXR, I'd do a sputum acid-fast bacillus (AFB) stain and a PCR to rule it out. What about you? Do you have any favorite strategies for diagnosing TB in the ED?",
+        "color": "red"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Victor Sterling",
+        "role": "MD",
+        "city": "Calgary, AB",
+        "text": "Amateurs always making a big fuss about TB. In my day, we didn't have all these fancy tests. If the CXR was normal, you just didn't diagnose TB. If the patient had TB, you'd find out the hard way... in the ICU. My advice? Don't waste your time and resources on TB when you've got real emergencies to deal with. Just saying.",
+        "color": "blue"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "MD",
+        "city": "Vancouver, BC",
+        "text": "Oh come on, Victor! You can't just dismiss TB like that. TB can be a nasty disease, especially in immunocompromised patients. What about the recent study that found TB to be a leading cause of death in many developing countries? Not exactly irrelevant, if you ask me...",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 2,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Wait, so if the CXR is normal, does that mean I shouldn't suspect TB? What about the patient's symptoms? Like, if they have a prolonged febrile cough illness, shouldn't we still consider TB? Help me out, guys!",
+        "color": "purple"
+      },
+      {
+        "id": 5,
+        "parent_id": 1,
+        "user": "Dr. Barb Miller",
+        "role": "MD",
+        "city": "Winnipeg, MB",
+        "text": "TB is a pain in the butt, let me tell you. We get these patients from the shelters and the homeless population... all symptoms of a chronic illness, but no one knows what's going on until we do a sputum culture and it comes back positive for TB... months later. Just a nightmare to deal with. Anyways, back to your question... Aris, can you tell us more about the PCR test you mentioned? Is it sensitive enough to rule in TB?",
+        "color": "orange"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "PCR... isn't that like a DNA test? I thought we used PCR for diagnosis of certain bacterial infections? Can someone explain how PCR is used to diagnose TB?",
+        "color": "pink"
+      },
+      {
+        "id": 7,
+        "parent_id": 5,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Actually, Leo, PCR is a great tool for TB diagnosis. It's a molecular test that can detect the TB genome in a patient's sputum sample. However, its sensitivity and specificity can be improved by combining it with other tests, like the AFB stain and the culture. Victor, do you have any thoughts on how PCR should be used in diagnosing TB?",
+        "color": "red"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Can someone explain to me why we don't just use a TB rapid test? I mean, wouldn't that be quicker and more accurate? Why all these tests and protocols?",
+        "color": "blue"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Phil Muddle",
+        "role": "MD",
+        "city": "Regina, SK",
+        "text": "Ah, Tom, it's all about the 'gold standard'... or something like that. TB diagnosis is a multifaceted beast. We need to rule in and out TB, and the rapid tests may not be sensitive enough, especially in immunocompromised patients. Can we move on to the next question, please?",
+        "color": "purple"
+      },
+      {
+        "id": 10,
+        "parent_id": null,
+        "user": "Dr. Henry Oldman",
+        "role": "CFPC",
+        "city": "Victoria, BC",
+        "text": "TB diagnosis is always about the history and physical exam, too. What's the patient's travel history? Exposure to anyone with TB? Symptoms, of course. Cough, fever, night sweats... The physical exam is just as important as the lab results.",
+        "color": "red"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Yes! You're talking about the 'old school' approach, Doc. I've read about the importance of taking a thorough history and performing a physical exam in diagnosing TB. Can someone link to any online resources that discuss this further?",
         "color": "green"
       },
       {
         "id": 12,
         "parent_id": 11,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCCPC",
+        "city": "Quebec City, QC",
+        "text": "[Link to Journal Article]. See, even though the test results are coming back normal, TB diagnosis is all about the patient's history and physical exam. Trust your instincts, Docs! [smoking emojis] \ud83d\udc4d",
+        "color": "blue"
+      },
+      {
+        "id": 13,
+        "parent_id": 12,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Okay, so let me get this straight: TB diagnosis is about the lab results, but also about the patient's history and physical exam? And we can't just rely on the rapid tests? Got it. I think.",
+        "color": "red"
+      }
+    ],
+    "image": "https://images.squarespace-cdn.com/content/v1/546e1217e4b093626abfbae7/1540209225105-DG9AL2FELEN4R2J92LRM/Lightning+Learning+-+Tuberculosis.png"
+  },
+  {
+    "id": 123,
+    "title": "Just had a miss tonight with pediatric airway management... TLDR: Epiglottitis case and surgical airway debate",
+    "body": "Had a miss tonight with a 5yo who presented with epiglottitis... Thought it was a pretty straightforward intubation, but the tube kept falling out and we ended up needing a surgical airway. But here's the thing - the patient's mom was a RN and she kept telling us that we were being too aggressive with the sedation and that the child was fine. Now I'm second-guessing myself... Was I too hasty in calling for a surgical airway? Should I have tried more conservative management? Help me out, Reddit... Has anyone else had a similar experience with pediatric airways? What are your thoughts on balancing sedation with the need to intubate?",
+    "category": "CME",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "TLDR: Don't worry about missing it - epiglottitis can be a tough diagnosis. What's more important is realizing when to call for help. Surgical airways are a lifesaver, but they're not without risk. Make sure you've got a clear plan in place for airway management, and don't be afraid to ask for help when you need it. [link to American Academy of Pediatrics (AAP) guidelines on pediatric airway management](https://www.aap.org/en-us/Documents/airway_management_guidelines.pdf)",
+        "color": "blue"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "I couldn't agree more with Dr. Thorne. Amateurs think they can manage any pediatric airway, but let's be real - these kids are fragile. Don't mess around with intubation unless you've got an experienced team behind you. If you're not comfortable with a surgical airway, don't do it. It's as simple as that.",
+        "color": "red"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "Emergency Physician",
+        "city": "Vancouver, BC",
+        "text": "I've had my fair share of epiglottitis cases, and let me tell you - it's all about the initial presentation. If you're seeing a classic triad of fever, sore throat, and drooling, you've got yourself an epiglottitis diagnosis. But what about when it's not so clear-cut? That's when you need to think about all the other possibilities - croup, laryngitis, group A strep, etc. Don't be afraid to get a chest x-ray and some bloodwork to rule out other diagnoses.",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I've just completed my pediatric rotation and I'm still learning about epiglottitis. Can someone explain to me the difference between epiglottitis and croup? I know they both involve airway obstruction, but how do you tell them apart?",
+        "color": "purple"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Sarah Sharp",
+        "role": "Emergency Physician",
+        "city": "Laval, QC",
+        "text": "Great question, Leo! Epiglottitis is typically characterized by a more severe, less predictable airway obstruction, often with a higher level of fever and toxicity. Croup, on the other hand, tends to have a more chronic cough and stridor, with less systemic toxicity. But don't take my word for it - check out this great review article on pediatric airway emergencies by Dr. Thorne and colleagues: [link to article](https://www.ncbi.nlm.nih.gov/pubmed/29428111)",
+        "color": "green"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "A capital idea, Sara! In 1937, I myself wrote an article on the importance of distinguishing between these two conditions. You see, the key to effective management lies not in the diagnosis itself, but in the nuances of the presentation. Ah, and don't forget the classic ' thumb sign', a palpable epiglottis which is a hallmark of epiglottitis!",
+        "color": "blue"
+      },
+      {
+        "id": 7,
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Okay, let's get back to airway management... Has anyone else noticed how sedation can make a pediatric airway go from bad to worse? We've got a whole department of pediatric anesthesiologists who are experts in sedation management - can someone link to some resources for sedation protocols?",
+        "color": "purple"
+      },
+      {
+        "id": 8,
+        "parent_id": 1,
         "user": "Turbo Tom",
         "role": "RN",
         "city": "London, ON",
-        "text": "From what I see, it looks like the infusions are starting to get some traction. But we still need to do more studies on this before we make it standard practice.",
+        "text": "Huge fan of pediatric airway management, but one thing that gets me is when the ' experts' are more interested in debating the pros and cons of sedation rather than actually doing what needs to be done - i.e. managing the airway. Can we keep the discussion focused on the actual patient care and leave the debate for another time?",
+        "color": "blue"
+      },
+      {
+        "id": 9,
+        "parent_id": 3,
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "Aren't we getting a bit carried away with all this talk of sedation and airway management? In my book, if a child is struggling to breathe, we should just give 'em some oxygen and let nature take its course. What's the worst that could happen, right?",
+        "color": "red"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "Oh, for Pete's sake, Brock! Are you serious? If a child's struggling to breathe, we can't just sit back and do nothing. That's not 'nature taking its course', that's neglect. What do you mean, 'what's the worst that could happen'? What's going to happen is that the child is going to die on you.",
+        "color": "purple"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "You know, I think Brock was joking, but I think we should clarify that a child's airway should always be prioritized over everything else. I mean, we can't just leave a child struggling to breathe - it's our duty as medical professionals to act swiftly and effectively. [link to a great resource on pediatric airway emergencies](https://www.aap.org/en-us/Documents/airway_management_guidelines.pdf)",
+        "color": "green"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "Um... could someone maybe explain it to me in a way that a normal human being can understand? I mean, I'm just a patient, not one of you medical superheroes... What's the big deal about pediatric airway management, anyway?",
         "color": "purple"
       },
       {
         "id": 13,
+        "parent_id": 12,
+        "user": "Dr. Sarah Sharp",
+        "role": "Emergency Physician",
+        "city": "Laval, QC",
+        "text": "Ah, Barnaby, don't worry - we're just having a discussion about how to keep you and your fellow patients safe. It's really simple: if you're having trouble breathing, we need to act quickly to get an airway in place. It's like having a fire in the kitchen - we need to put it out before it gets out of control.",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Rant about Elder Abuse and Neglect in the ER",
+    "body": "I had a frustrating case last night. A 65-year-old patient presented with a suspicious injury, and upon investigation, we discovered that her daughter had been financially exploiting her. It got me thinking about the frequency and types of elder abuse we see in the ER. Anyone have any tips on how to identify and manage these cases?",
+    "category": "emergency-medicine",
+    "comments": [
+      {
+        "id": 11,
         "parent_id": null,
-        "user": "Dr. 'Ziggy' Zalesky",
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I've seen a lot of elderly abuse cases where the caregiver is the perpetrator. One thing that can be a red flag is if the patient is being treated poorly in front of you. For example, the caregiver yelling at them or interrupting them when they're trying to speak. Of course, this isn't always a definitive sign, but it's something to keep in mind.",
+        "color": "red"
+      },
+      {
+        "id": 12,
+        "parent_id": null,
+        "user": "Dr. Barb Miller",
         "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Well, this thread just got a whole lot more interesting. Anyone else have any experience with Naloxone infusions? What about their use in pregnancy or pediatrics?",
-        "color": "yellow"
+        "city": "Winnipeg, MB",
+        "text": "Elder abuse and neglect are often underreported. We need to do a better job of educating our patients and their families about the warning signs and the importance of reporting suspicious behavior.",
+        "color": "blue"
+      },
+      {
+        "id": 13,
+        "parent_id": 11,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "What are some specific medical or psychosocial signs that might indicate elder abuse or neglect? I know that some of the classic signs include bruising, dehydration, and failure to thrive, but are there any other specific indicators we should be looking for?",
+        "color": "green"
       },
       {
         "id": 14,
-        "parent_id": 13,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "From what I recall, the studies on Naloxone infusions in pregnancy are pretty thin. I don't think we have enough data to recommend this in pregnant women.",
-        "color": "red"
+        "parent_id": 11,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "A 2018 study published in the Journal of Elder Abuse & Neglect found that the most common types of elder abuse were financial exploitation (44.4%), physical abuse (22.3%), and emotional abuse (14.5%). It's worth noting that these types of abuse were often committed by family members or caregivers, rather than strangers.",
+        "color": "purple"
       },
       {
         "id": 15,
         "parent_id": 14,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "That's what I thought. Anyone else have some experience with Naloxone infusions in the pregnant patient?",
-        "color": "purple"
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Sarah, that's a great point. Financial exploitation is a huge issue in elder abuse cases. We need to do a better job of assessing patients' financial situations and identifying potential red flags, such as sudden changes in bank account activity or unpaid bills.",
+        "color": "red"
       },
       {
         "id": 16,
-        "parent_id": 15,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Actually, I did a case last year where a pregnant patient came in with opioid tox... yeah, we did an infusion of naltrexone, and it worked. Don't quote me on this though; I'm still trying to get the details out of my head.",
-        "color": "pink"
+        "parent_id": 12,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "I've seen cases where patients have been manipulated into making large financial transactions or signing over power of attorney. It's heartbreaking to see. We need to be aware of these tactics and take proactive steps to prevent them.",
+        "color": "blue"
       },
       {
         "id": 17,
         "parent_id": 16,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Wow, thanks for sharing that, OP3! I think we can all agree that more research is needed on this topic, especially when it comes to pregnant women. Maybe we should start a discussion with our hospital's research team?",
-        "color": "purple"
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "Turbo, that's a great point. One thing we can do is to take a more holistic approach to patient assessment. Rather than just focusing on their medical symptoms, we need to consider their social, emotional, and financial well-being as well.",
+        "color": "green"
       },
       {
         "id": 18,
-        "parent_id": null,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "I'll tell you what: back in the day, we used to just give the patient a big dose of naloxone and be done with it. No infusions, no PCA pumps... we just fixed 'em. Don't get me wrong, I'm all for trying new stuff, but I'm starting to think we're overcomplicating things.",
-        "color": "brown"
-      }
-    ],
-    "image": "https://emergencymedicinecases.com/wp-content/uploads/2018/10/Opiod-Overdose.jpg"
-  },
-  {
-    "id": 1,
-    "title": "Today I Learned to hate myself for missing this simple GvHD diagnosis...",
-    "body": "I had a patient come in with severe abdominal pain last night, and after ruling out all the obvious causes, I was convinced it was just a case of mesentric ischemia. Turns out, it was a 40-year-old woman with chronic graft-versus-host disease (GvHD) after a bone marrow transplant. I'm kicking myself for not even considering it in the differential. Has anyone else had this happen to them? What are your thoughts on identifying GvHD in the ED? Was I just being an idiot or was I genuinely blinded by my biases?",
-    "category": "medical",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Montreal, QC",
-        "text": "This is actually a great teaching moment, OP! GvHD can manifest in so many ways, and it's easy to get caught up in the more common diagnoses. To answer your question, I've seen several cases of GvHD-presenting as acute abdomen in the ED, and it usually involves some combination of abdominal pain, nausea/vomiting, and often a rash or pruritus. Did you end up sending the patient to imaging or did you go straight to CT or ultrasound?",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "So, I want to clarify - in the context of GvHD, what exactly does the acronym stand for? Is it graft versus host disease or graft versus host reaction?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Montreal, QC",
-        "text": "Hey Leo, GvHD stands for graft-versus-host disease, which is an immune response triggered by the donor T cells attacking the recipient's tissues. It's a major complication of allogeneic bone marrow or stem cell transplants, and it's a bit of a double-edged sword because the donor T cells can either fight off infections or cause GvHD",
-        "color": "purple"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I've had cases of GvHD that presented similarly, but also with some GI symptoms like diarrhea or constipation, so it's worth asking about bowel changes when taking a history. Did you check the patient's transplant history, medical record, or immunotherapy regimens to see if there were any red flags or risk factors for GvHD?",
-        "color": "purple"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Montreal, QC",
-        "text": "That's a great point, Maya! GvHD can really manifest in so many ways, and it's all about paying attention to the subtleties. I've seen patients with GvHD who had nothing but abdominal pain, but then you look deeper and find that their liver enzymes are all over the place, or their creatinine is elevated... You have to be like a detective trying to piece together the whole puzzle",
-        "color": "purple"
-      },
-      {
-        "id": 6,
-        "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "I'm not sure what's more impressive - the patient's ability to manifest such a complex condition as GvHD in the ED, or our collective inability as physicians to recognize it despite all the training and expertise we have. Sometimes I wonder if we're just too good at this job to trust our instincts anymore. Anyway, I'm sure it's a simple case now, right guys?",
-        "color": "red"
-      },
-      {
-        "id": 7,
-        "parent_id": 1,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Montreal, QC",
-        "text": "Ha! Victor, you're a legend in your own mind. But seriously, I think this case just goes to show that we need to stay humble and not assume we know everything. GvHD is a sneaky diagnosis that requires attention to detail and a willingness to think outside the box",
-        "color": "purple"
-      },
-      {
-        "id": 8,
-        "parent_id": 6,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Sterling, can you please clarify what you mean by 'too good at this job'? Are you saying that overconfidence or complacency can lead us to miss GvHD in the ED?",
-        "color": "green"
-      },
-      {
-        "id": 9,
-        "parent_id": 6,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "That's exactly what I'm saying, Leo. When you've been around the hospital block a few times, you start to think you know it all. You get too comfortable, and before you know it, you're missing the 'obvious' stuff like GvHD. It's a disease of the hubris, my friends",
-        "color": "red"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "I think Dr. Sterling has a point, Leo. As clinicians, we need to stay grounded and keep our egos in check. It's funny how we always get more confident with age, but that doesn't always translate to better decision-making. Has anyone seen the recent article on GvHD in the Lancet?",
-        "color": "purple"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Actually, Dr. Oldman, I think there was a great summary of GvHD on Medscape. Would you like me to send the link?",
-        "color": "purple"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "That would be fantastic, Maya! Thank you for offering. I'd love to see it",
-        "color": "purple"
-      },
-      {
-        "id": 13,
-        "parent_id": null,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "OP, you're not alone in missing that diagnosis. I've had nurses miss GvHD too, and it's always a wake-up call. Thanks for sharing this case study with us, and I'm sure we can all learn from it",
-        "color": "blue"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Just saw a patient with epiglottitis, and I'm reminded of the risks of rapid intubation...",
-    "body": "Just saw a patient with epiglottitis, and I'm reminded of the risks of rapid intubation. We all know that the goal is to maintain a secure airway, but have we ever stopped to think about the potential consequences of rushing into a procedure? I've seen my fair share of 'successful' intubations turn sour when we're too quick to push the tube down. Not only does it increase the risk of causing more damage to the airway, but it also sets up the patient for potential complications down the line. What's the best approach, guys? Should we be taking our time, or is rapid intubation still the way to go?",
-    "category": "emergency medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "MD",
-        "city": "Toronto, ON",
-        "text": "TLDR: take your time when intubating, folks! It's not worth the risk of causing more harm. I've had my share of 'successful' intubations turn sour when we were too quick to push the tube down. And don't even get me started on the potential for complications down the line. Here's a link to a study that supports what I'm saying: [link to study]. We should be taking a more conservative approach, rather than rushing into a procedure.",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": null,
-        "user": "Dr. Victor Sterling",
-        "role": "MD",
-        "city": "Calgary, AB",
-        "text": "Amateurs think they're so smart with their 'take your time, take your time' routine. But let me tell you, folks, sometimes you just have to move quickly. I've seen patients die in the ER from epiglottitis because we were too slow to intubate. And don't even get me started on the so-called 'studies' that support this conservative approach. [link to study counterargument]. We need to toughen up and get the job done.",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "So, Dr. Thorne and Dr. Sterling are saying we should take our time when intubating, but also be prepared to move quickly if needed? That sounds like a lot of pressure... Can someone explain to me what the exact protocol is for dealing with epiglottitis in the ER?",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MD",
-        "city": "Ottawa, ON",
-        "text": "I'm a bit skeptical of the idea that rapid intubation is always bad. Can we not just, like, balance the risks and benefits? I mean, sure, there's a risk of causing more harm, but isn't there also a risk of delaying treatment too much and letting the patient's airway get worse? Can anyone provide some evidence-based guidance on this?",
-        "color": "purple"
-      },
-      {
-        "id": 5,
-        "parent_id": 2,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Uh, Dr. Sterling, can we just clarify that you didn't really mean to imply that patients have died from epiglottitis due to delayed intubation? That sounds a bit... drastic. Can you provide some evidence for that claim?",
-        "color": "blue"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Yeah, let's just calm down, Dr. Sterling. Dr. Park is right, it's not good to use scare tactics to push our points. As for evidence, here's a study on the risks and benefits of rapid intubation: [link to study]. It might be helpful to review this before we get too worked up.",
-        "color": "green"
-      },
-      {
-        "id": 7,
-        "parent_id": 2,
-        "user": "Dr. Barb Miller",
-        "role": "MD",
-        "city": "Winnipeg, MB",
-        "text": "I have to jump in here and disagree with both of you. In my experience, the key to successful intubation is not speed, but rather attention to detail. I've seen patients who have been intubated too quickly end up with complications down the line, and I've seen patients who have been taken the time to get intubated safely. So, I think we should be advocating for a more nuanced approach, rather than simply saying 'take your time' or 'be quick'.",
-        "color": "purple"
-      },
-      {
-        "id": 8,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Just a suggestion, folks: have we considered the role of simulation-based training in teaching rapid intubation skills? I've seen some pretty impressive results from studies that have used simulators to practice intubation. Maybe we could discuss that a bit more?",
-        "color": "green"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Ooh, I love the idea of simulation-based training, Turbo Tom! I had a great experience with the sim lab program in medical school. Can you provide some more resources on how we could implement this in our own ER?",
-        "color": "yellow"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Sarah Sharp",
-        "role": "MD",
-        "city": "Laval, QC",
-        "text": "Actually, Sue, I think I have a bit more information on simulation-based training. We've been looking into implementing a program at our hospital, and I'd be happy to share the resources we've used. Also, I think Dr. Thorne was kind enough to share a study on this topic earlier in the thread. Check it out!",
-        "color": "blue"
-      }
-    ]
-  },
-  {
-    "title": "Case of the day: Esophageal Impaction and Perforation",
-    "body": "Just saw a patient with a classic case of esophageal impaction and perforation. A 45-year-old woman with a history of esophageal disease presented to the ER with severe retrosternal pain and dysphagia. Initial imaging revealed a coin lodged in her esophagus, which had apparently been there for days. We decided to take her to the OR for an emergency endoscopy to remove the coin. However, as we were about to start, she suddenly became hypotensive and tachycardic. CXR revealed a large pneumomediastinum, and we suspected an esophageal perforation. The patient ended up requiring a thoracotomy and repair of the perforation. What a crazy case! Just wondering if anyone has any other experiences with esophageal impactions and perforations?",
-    "category": "emergency medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Glad to hear you got the patient to the OR in time. Esophageal impaction and perforation are classic ER cases. One thing to note is that the patient's presentation was probably worsened by the coin getting stuck in her esophagus. The increased pressure and mucosal damage likely led to the perforation. We should also remind ourselves that the timing is crucial in these cases. Every hour counts!",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Thorne, can you clarify the mechanism of esophageal impaction and perforation? Is it really just a matter of increased pressure and mucosal damage?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "We should also consider the role of the coin in this case. Was it a round or irregular coin? Because, as we all know, round coins are more likely to get stuck in the esophagus and cause a perforation.",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "But wouldn't a round coin just pass right through, doc? That's what I thought was going to happen when I accidentally swallowed it. Oh dear, I do hope I don't have to come back to this ER again!",
-        "color": "red"
-      },
-      {
-        "id": 5,
-        "parent_id": 2,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Great question, Leo! In cases of esophageal impaction and perforation, the mechanism is indeed due to increased pressure and mucosal damage. However, it's also worth considering the role of the patient's underlying anatomy, as well as any pre-existing conditions they may have. The patient's esophagus is likely predisposed to impaction and perforation due to a weakened mucosa, etc.",
-        "color": "purple"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "That makes sense, Dr. Thorne. But wouldn't a CT scan be the best way to diagnose esophageal impaction and perforation, rather than just an X-ray?",
-        "color": "green"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Actually, Sarah, in this case, the X-ray was sufficient for diagnosis. But, in general, a CT scan can be useful in detecting esophageal impaction and perforation, especially if there are complications like mediastinitis or abscess formation",
-        "color": "blue"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "Ugh, don't even get me started on CT scans. They're a waste of time and resources. Just get the patient to the OR and let the surgeons do their thing. We're ER docs, not radiologists!",
-        "color": "red"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Oh, come on, Rick! Don't be so dramatic. We need to use the right diagnostic tools to make sure we're giving our patients the best possible care. And, besides, CT scans can be useful in detecting complications like esophageal perforation. It's not just about the OR, it's about making an informed decision",
-        "color": "green"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Actually, we should all be grateful for the ER docs' work in diagnosing and treating these cases. They're the ones on the frontlines, and we surgeons just get to clean up the messes. So, let's give some credit where credit is due, shall we?",
-        "color": "purple"
-      }
-    ],
-    "image": "https://aneskey.com/wp-content/uploads/2016/06/m_tin_ch77_f001.png"
-  },
-  {
-    "id": 1234,
-    "title": "Rant about Sepsis and Septic Shock... when did it all go wrong?",
-    "body": "Just had the most frustrating shift trying to resuscitate a patient with septic shock. Everything was textbook, but I'm starting to think we've lost sight of the big picture. Has anyone else noticed an increase in cases of sepsis lately? We're talking gram-negatives, gram-positives, fungi... the works. And don't even get me started on the nuances of septic shock - hypotension, lactate levels, vasopressors... it's a minefield. I'm all for evidence-based medicine, but sometimes I feel like we're over-thinking it. Am I missing something? Any pearls to share? TL;DR - sepsis is back and I'm lost",
-    "category": "emedicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Preach, bro! I've been saying it for years - sepsis is a crapshoot. And don't even get me started on the 'evidence-based' aspect. Have you seen the latest on gram-negative resistance? It's like playing a game of bacterial roulette! [link to paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5968495/). On a related note, I've been using a lactate level of 2.5 as my cutoff for septic shock. Thoughts?",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Ziggy, you're preaching to the choir! Resistance is the elephant in the room, and we can't keep sweeping it under the rug. As for lactate levels, I've seen them go as high as 5 without septic shock. It's all about the clinical context. Have you guys checked out the new Sepsis-3 criteria? [link to paper](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(16)00628-0/fulltext).",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Dr. Miller, what do you mean by 'clinical context'? Can you elaborate on that? I've heard mixed opinions on the Sepsis-3 criteria.",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Kevin, by clinical context, Dr. Miller means taking into account the whole picture - history, physical, lab results, radiology... everything. It's about using your best judgment as a clinician. And yeah, the Sepsis-3 criteria have been a bit of a controversy. But hey, we're emergency docs, right? We can handle a little nuance.",
-        "color": "purple"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "Sirs, I couldn't help but overhear your discussion. Do you think I might be experiencing... *ahem*... 'septic shock'?",
-        "color": "pink"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Barnaby, what makes you think you might have septic shock? Please tell us, so we can assess you properly.",
-        "color": "purple"
-      },
-      {
-        "id": 7,
-        "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Enough of this hand-wringing about sepsis! It's over-diagnosed and over-treated. We need to get back to basics and focus on the underlying cause of the infection. And by the way, what's with all these references to 'evidence-based' medicine? Don't you people know that medicine is an art, not a science?",
-        "color": "orange"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Oh, come on, Dr. Sterling! You know as well as I do that evidence-based medicine is the backbone of emergency medicine. And what's wrong with treating sepsis like any other medical condition? We have the tools, we have the techniques... let's get on with it!",
-        "color": "purple"
-      },
-      {
-        "id": 9,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Hey, hey, hey! Let's not forget about the nurses! We're the ones on the ground, day in and day out, dealing with the sepsis cases. What do you guys think about the new Surviving Sepsis Campaign guidelines? [link to paper](https://www.sccm.org/Advocacy/Evidence/Critical-Care/SSC)",
-        "color": "green"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Turbo, you're preaching to the choir! The SSC guidelines are a game-changer. We need to get more docs and nurses on board to make it happen.",
-        "color": "purple"
-      },
-      {
-        "id": 11,
-        "parent_id": 5,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Barnaby, I'd like to do a quick head-to-toe assessment to see if we can diagnose the underlying cause of your symptoms. Can you come with me, please?",
-        "color": "blue"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "Sirs, I'm not sure if I want to be diagnosed with... you know... *ahem*... septic shock. Can't it just be something else?",
-        "color": "pink"
-      },
-      {
-        "id": 13,
-        "parent_id": 1,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "Gentlemen, let's not forget about the importance of bedside manner. Sometimes, all a patient needs is a good listening ear and a friendly smile. [link to paper](https://www.jcge.org/article/S1079-6903(12)00017-X/figure/figure5)",
-        "color": "purple"
-      },
-      {
-        "id": 14,
-        "parent_id": 13,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Dr. Oldman, you're absolutely right! Bedside manner is paramount, especially in cases of sepsis. We need to make sure our patients feel comfortable and cared for.",
-        "color": "blue"
-      },
-      {
-        "id": 15,
-        "parent_id": 7,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Dr. Sterling, I couldn't help but overhear your comments. As an internist, I can attest to the importance of evidence-based medicine. We need to rely on the best available evidence to make informed decisions about our patients. And, by the way, have you talked to the pharmacists about the new antibiotic guidelines?",
-        "color": "orange"
-      }
-    ]
-  },
-  {
-    "title": "Just saw a patient with a crazy case of lightning-induced electrical injury... Any thoughts?",
-    "body": "So I was on call last night and we had a patient come in after being struck by lightning. The weird thing was that the patient was standing in the shower when it happened, but the strike didn't go through their body... it just seemed to flash over the surface. Anyone else ever seen a case like this? Any recommendations for treatment? Oh, and btw, the patient's vitals are stable, but I'm seeing some weird electrocardiogram changes that are really freaking me out. Should I be worried about a myocardial infarction? Help!",
-    "category": "Emergency Medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "TLDR: Lightning-induced electrical injury with flashover. Not through the body. Weird ECG changes. Worried about MI? I would recommend consulting cardiology and getting a stress echo ASAP. Have you seen any other complications like arrhythmias or conduction abnormalities? Also, did the patient have a witness statement or any details about the incident?",
-        "color": "blue",
-        "links": []
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Gupta, can you explain the concept of 'flashover'? Is it like when someone's hair is standing on end after static electricity? And what does it mean for the ECG changes? Are they talking about arrhythmias like ventricular fibrillation or something else?",
-        "color": "yellow"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "I think I saw a case like this a few years ago, but I don't think the patient had an MI. What do you guys think about the risk of secondary cardiac arrest after a lightning strike? Should we be monitoring these patients for longer than 24 hours? Has anyone got any good references for this?",
-        "color": "purple",
-        "links": [
-          "https://www.uptodate.com/contents/lightning-induced-cardiac-arrest"
-        ]
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "I'm worried about the electrolyte imbalance in this patient. Have you guys run a check for potassium, magnesium, and calcium? We should also consider an ECG with a 12-lead, if possible. What about the patient's renal function? Has anyone ordered a urine analysis or creatinine level?",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Dr. Varkov, I think you're right to worry about electrolytes. Can you explain how electrolyte imbalances affect cardiac function? Is it because of the changes in ion concentrations that affect the electrical conduction through the heart?",
-        "color": "blue"
-      },
-      {
-        "id": 6,
-        "parent_id": 1,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "I'm curious about the management of the patient's pain. We're using acetaminophen and opioids, but is that the best we can do? Have you guys seen any benefit from using other pain management modalities like ketamine or pregabalin?",
-        "color": "pink",
-        "links": [
-          "https://www.mdcalc.com/pain-management-in-lightning-induced-injuries"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 6,
-    "title": "Just saw a patient with suspected CO poisoning and wanted to share a learning moment.",
-    "body": "I just saw a patient presenting with mild symptoms of CO poisoning, but the blood cooximetry results were normal. The ED doc was about to discharge him when I brought up the classic case of a 40-year-old who got CO poisoning from a faulty generator in their garage. The key point that saved this patient's life was the elevated carboxyhemoglobin (COHb) level in the blood. I've always emphasized to my team that even with normal oxygen saturation readings on a pulse oximeter, CO poisoning can still be present due to the displacement of oxygen from hemoglobin.",
-    "category": "EmergencyMedicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "TDLR; Don't forget that the pulse oximeter can be unreliable in CO poisoning cases because the device calculates oxygen saturation based on the ratio of oxygenated to deoxygenated hemoglobin, which is skewed when CO binds to hemoglobin. I always use blood cooximetry as the gold standard for diagnosing CO poisoning. For those who want to read more on the topic, check out this thread by @TintinalliEM where they discuss the limitations of pulse oximetry in CO exposure cases.",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. 'Ziggy' Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "@DrSarahSharp, you're right about the limitations of pulse oximetry, but what's the optimal way to interpret COHb levels in the ED? Some studies have suggested that COHb >50% correlates with moderate to severe poisoning, while others argue that a level >10% should raise suspicion for CO exposure. Can you provide some insight on how to interpret these levels?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Good question, @DrZiggy! According to the @TintinalliEM article, the American College of Medical Toxicology recommends using the following COHb level cutoffs for severity of poisoning: mild (<10%), moderate (10-50%), and severe (>50%). However, I'd love to hear more from @DrArisThorne, who is always a wealth of knowledge on this topic.",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Just a minor correction @DrSarahSharp - the 'classic cherry-red lips' sign is actually relatively rare in living patients with CO poisoning. The skin can take on a pink or purple hue due to CO-hemoglobin's bright red color, but it's not always a reliable indicator.",
-        "color": "yellow"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Great discussion so far! To add to this, I read that patients with mild CO poisoning may initially present without overt symptoms, making it crucial for us to suspect and screen for CO exposure in any patient with a possible exposure history.",
-        "color": "red"
-      },
-      {
-        "id": 6,
-        "parent_id": 1,
+        "parent_id": 17,
         "user": "Martha 'The Hammer'",
         "role": "RN",
         "city": "Halifax, NS",
-        "text": "I completely agree that pulse oximetry can be unreliable in CO poisoning cases. My advice to the team is to always use blood cooximetry as the primary diagnostic tool. I'd like to share a link to a fantastic article on Medscape about the challenges of diagnosing CO poisoning in the ED: [link to article] @DrSarahSharp, what are your thoughts on using the ABG to help diagnose CO poisoning?",
-        "color": "purple"
-      },
-      {
-        "id": 7,
-        "parent_id": 1,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "What are the long-term effects of CO poisoning? I've heard that it can cause long-term neurological problems, like memory loss and cognitive impairments. Can someone clarify this for me?",
-        "color": "orange"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "@BarnabyFinch, yes, indeed, CO poisoning can lead to long-term neurological effects like memory loss, cognitive impairment, and even Parkinson's disease-like symptoms. It's crucial to refer these patients to a neurologist for further evaluation and management.",
+        "text": "I couldn't agree more, Dr. Oldman. We need to start thinking about our patients as whole people, rather than just medical cases. That means considering their cultural background, their support systems, and their overall quality of life.",
         "color": "red"
-      }
-    ],
-    "image": "https://images.squarespace-cdn.com/content/v1/546e1217e4b093626abfbae7/1548076646481-UFCWCVCR5IIQ7I5X2LD5/image-asset.png"
-  },
-  {
-    "id": "Diverticulitis_Drama",
-    "title": "Had a wild night last night... Diverticulitis, the great imitator.",
-    "body": "Just saw a 75yo male with worsening left lower quadrant pain, fever, and leukocytosis. The ER doc thought it was a complicated ulcer or even a renal stone, but the CT scan showed a massive diverticulitis abscess. I mean, who doesn't love a good diverticulitis presentation? Always a challenge, but never a dull moment. The patient was lucky to have made it to us, and I'm sure his primary doc will be hearing about this one.",
-    "category": "r/emergmed",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "TLDR: don't miss diverticulitis! I had a patient last month with similar symptoms and I was convinced it was a ureteral stone... turns out it was a 10cm diverticulitis abscess. Moral of the story: never assume a 'classic' presentation, especially in the elderly.",
-        "color": "purple"
       },
       {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Preach, Dr. Gupta! I've seen so many cases of diverticulitis get missed because the ER doc thinks it's something else. It's always a pain to deal with, but at least we can make a difference. By the way, have you guys seen the latest on 'complicated' diverticulitis? I thought I read somewhere that it's just a euphemism for 'we don't know what's going on'...",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "What's the most common presentation of diverticulitis? Is it really just a classic left lower quadrant pain?",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Actually, Leo, the classic presentation is more than just pain. It's usually accompanied by fever and leukocytosis, as well as a change in bowel habits. And, of course, a CT scan is always the way to go for confirmation.",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": 2,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Great point, Turbo Tom! And yes, 'complicated' diverticulitis is just a catch-all term for any diverticulitis case that doesn't fit the 'classic' mold. I always tell my students to keep an open mind and not to assume it's just a simple case.",
-        "color": "purple"
-      },
-      {
-        "id": 6,
-        "parent_id": 3,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Leo, don't worry if you don't know everything... yet. Just remember to never assume anything and to keep asking questions. And if you're still unsure, call the surgeon or a more senior doc for help. We're all in this together, right?",
-        "color": "green"
-      },
-      {
-        "id": 7,
-        "parent_id": 4,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Ha! You think you're so smart, don't you, Dr. Sharp? Well, let me tell you, I've seen more diverticulitis cases than you've had hot meals. And I can tell you that the diagnosis is often a no-brainer... unless, of course, it's a real 'challenge' like in this case. Amateurs.",
-        "color": "orange"
-      },
-      {
-        "id": 8,
-        "parent_id": 1,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Well, well, well... looks like we've got a lively discussion going on here! Let me just say that, as an old-timer, I've seen diverticulitis come and go... and I can tell you that the key to diagnosis is always to think outside the box. Or, in this case, the diverticulum.",
-        "color": "purple"
-      },
-      {
-        "id": 9,
-        "parent_id": null,
+        "id": 19,
+        "parent_id": 18,
         "user": "Chad Broson",
         "role": "Pre-med",
         "city": "Brampton, ON",
-        "text": "Uh, can someone explain to me why diverticulitis is so hard to diagnose? Is it just because the symptoms are similar to other conditions?",
-        "color": "pink"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Hey Chad, it's a bit of both, actually. The symptoms of diverticulitis can be similar to those of other conditions, and sometimes it takes a combination of clinical judgment and radiologic findings to make the diagnosis. Plus, diverticulitis can present in a variety of ways, so it's always good to keep an open mind and consider multiple possibilities.",
-        "color": "green"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "TLDR; Head Trauma in the Elderly: A Miss for me Last Night",
-    "body": "Just saw a patient with a severe head trauma and I'm kicking myself for not ordering a CT scan ASAP. 69 y/o male with a GCS of 13 was brought in after a fall down stairs with a 'mild' head injury. No signs of severe bleeding or neurological deficits, but I should've caught the subtle signs of cerebral edema on the CT and intubated him sooner. Lesson learned!",
-    "category": "clinical anecdote",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Yikes, that's a tough one! Did you get a chance to review the patient's GCS and other vitals from when he first arrived? I've seen cases where the initial score seems normal, but the patient's level of consciousness can change rapidly.",
+        "text": "I'm just a pre-med student, but it sounds like elder abuse and neglect are really complex issues. What are some resources we can use to learn more about these topics?",
         "color": "blue"
       },
       {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "That's a great point, @Dr. Gupta. I've also seen patients deteriorate quickly due to subtle changes in their vitals, especially their blood pressure and oxygen saturation. Did you get a chance to review the patient's blood work, including the BMP and coags?",
-        "color": "red"
-      },
-      {
-        "id": 3,
-        "parent_id": null,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "Are you kidding me?! This is a textbook case of Cushing's response! The patient's GCS may have been 13, but the subtle signs of increased ICP due to cerebral edema should've raised major red flags. Intubating him sooner would've saved his life.",
-        "color": "orange"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Thank you, @Dr. Rick. That makes sense now. I've learned that Cushing's response can manifest in different ways, including changes in the patient's mental status, but also pupillary dysfunction and even respiratory alkalosis. Can you recommend any resources for further reading?",
-        "color": "purple"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
+        "id": 20,
+        "parent_id": 19,
         "user": "Dr. Sarah Sharp",
         "role": "EP",
         "city": "Laval, QC",
-        "text": "Great discussion! I want to highlight the importance of a thorough neurological exam in these cases. @Dr. Gupta mentioned subtle changes in the patient's level of consciousness, but we also need to assess for focal neurologic deficits and signs of increased ICP. What are your thoughts on the role of imaging in managing head trauma?",
+        "text": "Chad, there are several online resources available, including the Canadian Gerontology Research Society and the World Health Organization's guidelines on elder abuse. We can also take advantage of educational programs and workshops in our area to learn more about these topics.",
         "color": "green"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "In my day, we relied more on clinical examination and less on imaging. Imaging is helpful, but it shouldn't replace a thorough neurological exam. What's the saying? 'A picture is worth a thousand words, but a clinical exam is worth a thousand pictures.'",
-        "color": "yellow"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. John 'Hammersmith'",
-        "role": "EP",
-        "city": "Brampton, ON",
-        "text": "Haha, love that saying, @Dr. Thorne! Imaging has its limitations, especially in subtle cases like this one. A thorough neurological exam is crucial, but let's not forget about the utility of CT and MRI in detecting subtle changes in brain pathology.",
-        "color": "pink"
-      },
-      {
-        "id": 8,
-        "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Fascinating discussion! I've got a question for @Dr. Gupta. What are some practical tips for identifying subtle signs of cerebral edema on the CT scan? I've been taught to look for signs of effacement, but what else should I be looking for?",
-        "color": "brown"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Great question, @Sarah! When I review the CT, I look for signs of effacement, midline shift, and even subtle changes in the patient's ventricular size. I also check the pressure gradient across the anterior and posterior cranial fossae. Have you had any hands-on experience with analyzing CT scans?",
-        "color": "teal"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Rant about Bioterrorism and Cytokine Storms",
-    "body": "Just saw a patient with possible anthrax exposure and I'm reminded of how little we know about bioterrorism in the ED. I mean, we all know the drill - Cipro, Doxy, and supportive care for most bioterror agents, but cytokine storms are a whole different beast. Can anyone comment on their experiences with this?",
-    "category": "Emergency Medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "MD, CCFP",
-        "city": "Toronto, ON",
-        "text": "TL;DR: Cytokine storms are the 'wild card' in bioterrorism. They can quickly lead to multi-organ failure and death. I've seen a few cases and it's terrifying. Our ED needs to be ready for the unknown and have a plan in place for these types of exposures. Has anyone else dealt with this?",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "MD, FRCSC",
-        "city": "Calgary, AB",
-        "text": "Amateurs like me need to understand that cytokine storms are just a part of the bioterrorism equation. The real challenge is identifying the agent and administering the correct antitoxin/antimicrobial. Don't get me wrong, cytokine storms are deadly, but without proper ID and treatment, it's all for naught. Anyone have a good summary on how to ID bioterror agents in the ED? (http://www.cdc.gov/bioterrorism/index.html)",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "I've seen a few patients come in after anthrax exposure and it's crazy how quickly cytokine storms can develop. Our ED has a dedicated bioterrorism protocol and our nurses are trained to recognize the signs of cytokine storms. We also have an infectious disease team on standby in case we need to transfer patients to a facility with better respiratory support.",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 2,
-        "user": "Dr. Aris Thorne",
-        "role": "MD, CCFP",
-        "city": "Toronto, ON",
-        "text": "Victor, ID protocols are crucial, but don't underestimate the importance of cytokine storms. They can develop rapidly and require immediate attention. Don't wait for the ID team - get the patient on high-flow oxygen, bronchodilators, and start steroids ASAP. Also, don't forget to check for anthrax vaccination in the patient's history!",
-        "color": "lightblue"
-      },
-      {
-        "id": 5,
-        "parent_id": 2,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Thanks for the reminder, Dr. Aris! I've seen cases where the patient had received anthrax vaccination and still developed cytokine storm. We need to think about cytokine storms as a potential complication in these patients.",
-        "color": "red"
-      },
-      {
-        "id": 6,
-        "parent_id": 3,
-        "user": "Dr. Henry Oldman",
-        "role": "MD, CCFP",
-        "city": "Victoria, BC",
-        "text": "I'd like to share my experience with cytokine storms in the context of bioterrorism. I've seen patients present with sudden onset of hypotension, tachycardia, and respiratory distress despite receiving proper antitoxin treatment. In these cases, we had to transition the patients to mechanical ventilation and aggressive fluid resuscitation. It's a scary situation, but it highlights the importance of a comprehensive bioterrorism protocol.",
-        "color": "darkblue"
-      },
-      {
-        "id": 7,
-        "parent_id": 1,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "I'm just a LPN, but I've seen some weird stuff in the ED. Can you clarify what cytokine storms are and how they relate to bioterrorism? I've heard rumors about cytokine storms causing ' apoptosis' (Google that one...)",
-        "color": "fuchsia"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Aris Thorne",
-        "role": "MD, CCFP",
-        "city": "Toronto, ON",
-        "text": "Sparkle-Eyes, cytokine storms are an 'uncontrolled' response by the immune system, releasing massive amounts of pro-inflammatory cytokines. These can cause apoptosis (programmed cell death) in various organs, leading to multi-organ failure. Bioterrorism agents like anthrax, smallpox, and botulism can trigger these storms, making cytokine storms a major concern in bioterrorism.",
-        "color": "silver"
-      },
-      {
-        "id": 9,
-        "parent_id": 6,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Oldman, I'm just a MS1, but I'd like to ask - how do we identify cytokine storms in patients with suspected bioterrorism exposure? Are there any specific labs or imaging studies that we should be looking for?",
-        "color": "yellow"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Henry Oldman",
-        "role": "MD, CCFP",
-        "city": "Victoria, BC",
-        "text": "Great question, Leo. We're looking for abnormal lab values like IL-6 elevations, C-reactive protein (CRP), and D-dimer. You might also see CT or MRI changes in the lungs or CNS. Of course, these findings won't be pathognomonic, but they'll help support the diagnosis of cytokine storms. Keep in mind that early intervention is key - let's get our patients on high-level care ASAP!",
-        "color": "orange"
       }
     ],
-    "image": "https://emergencymedicinecases.com/wp-content/uploads/2017/09/Disaster-Medicine-Card-compressed-320x240.jpeg"
+    "image": "https://mainedoenews.net/wp-content/uploads/2025/03/93707-capture.jpg?w=863&h=0&crop=1"
   }
 ]
