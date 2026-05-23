@@ -1,9 +1,9 @@
 [
   {
     "id": 0,
-    "title": "Today I Learned: The Importance of Recognizing Malignant Heat Stroke in Deprived Patients",
-    "body": "Just saw a patient with malignant heat stroke in a homeless shelter and it got me thinking... We all know the risk factors for heat-related illnesses, but are we doing enough to identify and treat these patients early on? I've seen cases where patients present with mild symptoms and we end up missing the diagnosis, leading to devastating outcomes. Does anyone else have strategies for quickly identifying high-risk patients and initiating treatment?",
-    "category": "Emergency Medicine",
+    "title": "Rant about status epilepticus management",
+    "body": "Just saw a patient with refractory status epilepticus last night and I'm still fuming about the whole ordeal. We're in the ED at the height of shift change, and our team is short-staffed. Patient's been seizing for 20 minutes and we're still waiting for the neuro ICU bed to become available. Anyone else have this nightmare scenario? TLDR: What are your top 3 tips for managing refractory status epilepticus in the ED?",
+    "category": "medical",
     "comments": [
       {
         "id": 1,
@@ -11,7 +11,606 @@
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "Lol, I totally agree with you. In our hospital, we've implemented a heat-related illness protocol that includes rapid cooling with ice packs, IV fluids, and early aggressive management of hyperthermia. But I think a bigger issue is patient presentation. Many vulnerable patients, like the homeless, often don't seek medical attention early on, so we have to rely on social workers and outreach teams to bring them in before they deteriorate. ",
+        "text": "Hate this scenario! Our team always makes sure to have a plan in place for status epilepticus, including having an EEG machine readily available and knowing the protocol for when to call for neuro ICU support. Also, we always initiate treatment with lorazepam or midazolam and escalate as needed. What about you guys? What's your go-to strategy?",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Lol @ 'plan in place'. We're still trying to get our team to agree on what constitutes status epilepticus... 'Oh, it's only 10 minutes, it's not status!' I swear, it's like they don't understand the risk of prolonged seizures.",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Sorry to derail, but what's the current consensus on the definition of status epilepticus? Is it still the American Epilepsy Society guidelines or has the IFC (International Federation of Clinical Neurophysiology) gotten some traction?",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "I'm no expert, but isn't status epilepticus just like, a really long seizure? I mean, I know there are risks and all, but can't we just give the patient some more meds?",
+        "color": "red"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Not exactly, Chad. Status epilepticus is a medical emergency that requires prompt recognition and treatment. While seizures can be a risk, the real danger lies in the prolonged effects on the brain, including damage to neurons and even the development of brain edema.",
+        "color": "orange"
+      },
+      {
+        "id": 6,
+        "parent_id": 1,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "I've seen some cases where patients were left untreated for longer than 5 minutes due to bureaucratic delays, and let me tell you, it's a nightmare. As an internist, I always make sure to communicate the urgency of the situation to our team and get the patient to neuro ICU ASAP.",
+        "color": "purple"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "That's a great point, Elena! As an emergency physician, I always prioritize rapid recognition and response to status epilepticus, especially in complex cases like refractory status. Our team should also make sure to document the treatment and follow-up plan clearly, so there's no 'lost in translation' issue.",
+        "color": "green"
+      },
+      {
+        "id": 8,
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "I'm not a doc, but I play one on the ward. Seriously though, as a nurse, I've seen too many patients get delayed or lost in the system due to EHR (Electronic Health Record) errors or lack of communication. We need to focus on efficient handovers and clear documentation, stat!",
+        "color": "blue"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "AMEN, Turbo Tom! As a family physician, I've seen the impact of poor handovers and EHR errors firsthand. We need to make sure our systems are working in our favor, not against us.",
+        "color": "purple"
+      },
+      {
+        "id": 10,
+        "parent_id": 1,
+        "user": "Dr. Rick 'The Rage'",
+        "role": "EP",
+        "city": "Windsor, ON",
+        "text": "This is why I hate admin. We're too busy worrying about EHRs and 'efficiency' to actually take care of patients. Get your hands dirty, people!",
+        "color": "red"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Lol @ 'get your hands dirty', Rick. I get where you're coming from, but we need to work WITH the system, not against it. That includes optimizing our workflows and using tech to our advantage.",
+        "color": "orange"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Point taken, Maya. But let's not forget the importance of human factor in healthcare. It's not just about EHRs and workflows, but also about empathy and effective communication with our patients and teams.",
+        "color": "green"
+      },
+      {
+        "id": 13,
+        "parent_id": 12,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Wow, this is so eye-opening. As a med student, I'm still learning about the complexities of status epilepticus management. Can anyone recommend some resources for staying up-to-date on the latest guidelines and best practices?",
+        "color": "blue"
+      },
+      {
+        "id": 14,
+        "parent_id": 13,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Check out the American Epilepsy Society's website for the latest guidelines and resources. Also, the IFC (International Federation of Clinical Neurophysiology) has some great materials on EEG interpretation and seizure management.",
+        "color": "purple"
+      },
+      {
+        "id": 15,
+        "parent_id": 14,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Thanks, Kevin. I'll definitely bookmark those resources. Also, has anyone used the SEEG (Stereo-Electroencephalography) protocol for refractory status epilepticus? I've heard it's been shown to have good efficacy in some cases.",
+        "color": "green"
+      },
+      {
+        "id": 16,
+        "parent_id": 15,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "We've used SEEG in some complex cases, and it's been a game-changer. However, it's not without risks, so we need to carefully weigh the benefits against the potential downsides.",
+        "color": "orange"
+      },
+      {
+        "id": 17,
+        "parent_id": 16,
+        "user": "Dr. Rick 'The Rage'",
+        "role": "EP",
+        "city": "Windsor, ON",
+        "text": "Yeah, because what we really needed was another fancy test to tell us what we already know... I mean, come on, folks, let's stick to the basics and get our patients the care they need.",
+        "color": "red"
+      }
+    ],
+    "image": "https://i0.wp.com/emcrit.org/wp-content/uploads/2022/07/statusepi.jpg?resize=450%2C701&ssl=1"
+  },
+  {
+    "id": 1,
+    "title": "Case Study: Anticholinergic Toxicity - the 'DUMBELS' and 'SLUDGE' effects",
+    "body": "Just saw a patient with a classic case of anticholinergic toxicity, and I couldn't help but think about the 'DUMBELS' and 'SLUDGE' mnemonic. For those who may not be familiar, these mnemonics refer to the muscarinic effects of acetylcholine, which can be summarized as:\n\nD - Diarrhea\nU - Urination\nM - Muscle fasciculations\nB - Bronchospasm\nE - Emesis\nL - Lacrimation\nS - Salivation\nG - Gastric contractions\nU - Uterine contractions\nD - Diaphoresis\nE - Erythema\n\nThese symptoms can occur due to the excess accumulation of acetylcholine in the case of organophosphate insecticide exposure, resulting in a cholinergic crisis. Our patient presented with SLUDGE-like symptoms, including diarrhea, urination, muscle fasciculations, bronchospasm, emesis, lacrimation, salivation, gastric contractions, uterine contractions, diaphoresis, and erythema. The patient was treated with atropine and pralidoxime, and made a full recovery.",
+    "category": "emedicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great case! I've seen this in the past, and it's always a challenge to manage. One thing to keep in mind is the importance of prompt treatment, as delayed treatment can lead to severe complications. Our department has a protocol for managing suspected organophosphate poisoning, which includes the use of atropine and pralidoxime. However, I've found that pralidoxime can have some nasty side effects, so we need to be careful about when to use it.\n\nTL;DR - Anticholinergic toxicity is a real emergency, and timely treatment is key!",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs. You think you can just treat this with atropine and pralidoxime? What about the underlying cause? We need to be looking at the patient's history, medications, and environmental exposures to determine the source of the poisoning. I've seen cases where the patient was exposed to multiple agents, and treatment was a nightmare.",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Hey Vic, good point, but let's not forget that the patient's symptoms were classic SLUDGE, and we need to treat the presenting symptoms, not just the assumed underlying cause. Of course, we need to investigate, but in this case, the treatment was straightforward. I've seen cases where the patient was exposed to multiple agents, and treatment was a nightmare - but those are the complex ones!",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "I've seen this in my practice, and it's always a challenge. One thing to keep in mind is the patient's overall clinical picture - are they presenting with SLUDGE symptoms, or is it more of a generalized anticholinergic syndrome? Our department has a protocol, but we need to be flexible and adjust treatment based on the individual patient's response.",
+        "color": "green"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Maria Rodriguez",
+        "role": "RN",
+        "city": "Brampton, ON",
+        "text": "Hi Dr. Miller, can you clarify what you mean by 'generalized anticholinergic syndrome'? I've seen cases where the patient had symptoms like confusion, agitation, and hallucinations, which seemed to be related to the overdose, but wasn't sure how to categorize it. Thanks!",
+        "color": "green"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Great question, Maria! By 'generalized anticholinergic syndrome', I mean a presentation that doesn't fit neatly into the SLUDGE category. It could be more of a confusion-agitation-hallucination picture, or even just a dry mouth and constipation. This is often related to the amount and duration of exposure to the toxin.",
+        "color": "green"
+      },
+      {
+        "id": 7,
+        "parent_id": 1,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Thanks for the great case, Dr. Thorne! I have a question - what about using pralidoxime in patients with renal failure? I read that it's not recommended due to the risk of toxicity.",
+        "color": "green"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great question, Kevin! You're absolutely right. Pralidoxime is metabolized by the liver, but its excretion is facilitated by the kidneys. In patients with renal failure, the risk of toxicity increases, and we need to exercise caution when using this agent.",
+        "color": "purple"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Rajesh Patel",
+        "role": "Consultant",
+        "city": "Ottawa, ON",
+        "text": "Thanks for the clarification, Dr. Thorne. Can you suggest any alternatives to pralidoxime for patients with renal failure? I've heard that some centers are using oximes like HI-6 or A-213.",
+        "color": "green"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great question, Rajesh! Yes, we have used HI-6 and A-213 in patients with renal failure, and they've been effective in some cases. However, more research is needed to confirm their safety and efficacy. I recommend checking out this study: [link to study]",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Jaundice in Older Patients: What's Behind the Yellow Hue?",
+    "body": "Just saw a patient in their 60s with jaundice. As we dug deeper, it turned out to be a hepatobiliary malignancy. The key takeaways were the lack of jaundice-related complications and a family history of cancer. Anyone else have a similar experience or insight?",
+    "category": "Emergency_Medicine",
+    "comments": [
+      {
+        "id": 10,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "In older patients, jaundice can indeed be a subtle symptom of malignancy. I recall a case where a patient presented with a liver mass and jaundice. The key was a thorough family history and physical exam. It's crucial to consider the differential diagnoses in this age group, including hepatobiliary malignancies. I always say, 'A soft liver is a happy liver... but not always a cancer-free one.' Anyone else have a similar experience?",
+        "color": "purple"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs. You're not going to catch every case with 'soft liver' and 'happy liver' nonsense. The fact is, jaundice in older patients can be caused by a wide range of conditions, including infections, medications, and more. We need to think outside the box and not get caught up in clich\u00e9s. I recommend checking out the latest issue of the Journal of Clinical Epidemiology for some real science on this topic.",
+        "color": "green"
+      },
+      {
+        "id": 12,
+        "parent_id": 10,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Actually, Dr. Sterling, the article you mentioned is behind a paywall, but I did some digging and found a review that summarizes the causes of jaundice in older patients. It cites studies showing that malignancies are a significant cause of jaundice in this age group. I'd be happy to send you the link if you'd like to take a look.",
+        "color": "green"
+      },
+      {
+        "id": 13,
+        "parent_id": 11,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Dr. Sterling, I'm not sure what you mean by 'Amateurs'... aren't we all just learning and trying to get better? Can you explain what you meant by that? And what journal article are you referring to specifically?",
+        "color": "purple"
+      },
+      {
+        "id": 14,
+        "parent_id": 13,
+        "user": "Dr. Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Leo, I was just joking, sort of. Look, I know we're all learners, but let's keep things real here. I'd rather not see a bunch of 'soft liver' diagnoses and missed opportunities. Let's focus on evidence-based medicine, okay?",
+        "color": "green"
+      },
+      {
+        "id": 15,
+        "parent_id": 12,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Here's the link to the review article I mentioned earlier. It's open access, so you can take a look without worrying about a paywall. [Link] Hope this helps, Dr. Sterling!",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "TLDR of Chest Pain: Not All What It Seeks",
+    "body": "Had a tough case last night in the ED. 65-yr-old male, no past medical history, presents with crushing retrosternal chest pain. ECG: normal. Troponins: negative. BP and HR within normal limits. Classic signs and symptoms of cardiac chest pain are there... or are they?",
+    "category": "Clinical Vignette",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "So, where do you think he had an ACS? His risk factors? Is there a pattern of pain he's describing?",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "The patient says, 'Doc I had it after taking a hot yoga class this morning.' Any ideas on how this plays into the diagnosis?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "turbotom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "I love it when patients tell the truth. So, doc, did you check for the classic symptom of cardiac pain, diaphoresis?",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Now, now, don't be too hard on the patient. We've all had those days when we just can't seem to shake the pain off. Did you do a thorough physical, or just rely on the ECG?",
+        "color": "blue"
+      },
+      {
+        "id": 5,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Is the patient on any meds? Could be some weird side effect? My textbooks say that's a big no-no (side effects causing chest pain, that is).",
+        "color": "green"
+      },
+      {
+        "id": 6,
+        "parent_id": 1,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Pathetic ED medicine. All they want to do is order a stat- Troponin, waste time, and overmedicate. You should've ruled out a PE and admitted the patient. The patient's symptoms are too severe - obvious pulmonary embolism red flag! Not your first rodeo, Doc",
+        "color": "red"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Come on, Victor, let the conversation happen. Don't you know this is r/EMedicine? We discuss our cases, share our experiences. Pulmonary embolism is a red flag, yes, but there are so many reasons for chest pain that need to be ruled out first. Did anyone notice I just threw in a 17-year-old textbook reference?",
+        "color": "purple"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Wait, wait, Dr Ziggy. I think I remember that 'textbook reference.' What was it, again? Table 17-2 of... Guide, 8th ed., Chapter 47, maybe? And I just happen to have a pdf on my phone - here's the reference: https://drive.google.com/file/d/1q7hj3m3m2/view?usp=sharing. Any other references out there, please share.",
+        "color": "green"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Oh man, oh man. That's such a useful resource. I just added it to my ER toolkit.",
+        "color": "green"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Thanks, Elena! I'll make sure to get the pdf. But also a quick question: can you remind us (and everyone else) what other causes of chest pain there are besides cardiac (ACS, etc)? Like, the table doesn't have all of them, right?",
+        "color": "blue"
+      },
+      {
+        "id": 11,
+        "parent_id": null,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Here's a good summary. Classic symptoms of potentially life-threatening causes of chest pain (according to that trusty Guide 8th ed.): https://www.wikiemerge.org/wiki/Posterior_Antral_Region_(Chamberlain_Ligament)",
+        "color": "purple"
+      }
+    ],
+    "image": "https://www.saem.org/images/default-source/publications/grace-1-guidelines-(ramzy).jpg?sfvrsn=1aa4d33b_0"
+  },
+  {
+    "id": 4,
+    "title": "'Today I Learned': Upper GI Bleeding - Don't Get Caught Off Guard",
+    "body": "Had a patient come in with severe vomiting, coffee-ground emesis, and hypotension. Initial vitals were 90/60 BP, HR 120, O2 90% on RA. Patient was visibly anemic, but no significant abdominal tenderness or guarding. Initial labs showed hemoglobin 7.5, MCV 80. FAST was negative. CT angiogram showed a 1 cm ulcer in the proximal duodenum. Endoscopy confirmed a gastric varix. After blood transfusion and stabilization, patient went for urgent EGD and variceal banding. Moral of the story: always consider the possibility of upper GI bleeding, even in asymptomatic patients. Never let your guard down! TLDR: Always check for signs of upper GI bleeding, even if patient appears asymptomatic.",
+    "category": "emergency_medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great reminder, 'Today I Learned'! As staff physicians, we often get tunnel vision and forget to consider the 'obvious' causes. I had a similar case last week where a patient presented with acute abdominal pain, vomiting, and hematemesis. Initially, I suspected a perforated duodenal ulcer, but the CT showed a gastritis with bleeding. It's easy to get caught off guard, especially when patients present with non-specific symptoms. Keep sharing your stories!",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs! You think you're so smart with your 'gastritis with bleeding' diagnosis? Don't forget the 5% that are caused by gastric varices! As we all know, the first step in diagnosing upper GI bleeding is to rule out the obvious causes... and I mean, the really obvious causes.",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Um, Dr. Sterling, I'm not sure what you mean by '5% caused by gastric varices.' Could you clarify? I thought varices were a rare but serious cause of upper GI bleeding...?",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Actually, Leo, you're right. Gastric varices are a rare but potentially life-threatening cause of upper GI bleeding. According to the ACG guidelines, the incidence is around 2-5%. I think what Dr. Sterling meant to say was that they should be included in the differential diagnosis, especially in patients with a history of cirrhosis or portal hypertension.",
+        "color": "yellow"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Great discussion! I always stress the importance of a thorough history and physical examination when it comes to diagnosing upper GI bleeding. In this case, a history of cirrhosis or portal hypertension should definitely raise the suspicion of gastric varices. Do most of you guys use the Rockall score to risk stratify patients with upper GI bleeding?",
+        "color": "red"
+      },
+      {
+        "id": 6,
+        "parent_id": 3,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "LOL @Dr. Sterling's comment! I mean, come on, guys, we're not trying to win a prize for most obscure diagnosis. Just keep it real and remember to consider the common causes first... like peptic ulcer disease or Mallory-Weiss syndrome.",
+        "color": "purple"
+      },
+      {
+        "id": 7,
+        "parent_id": null,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "As internists, we should always remember to evaluate the electrolytes and blood work in patients with upper GI bleeding. In this case, the patient's hemoglobin was low, and they probably had some degree of dehydration. Was anyone concerned about the possibility of CTEH (Cirrhosis with Hematemesis)?",
+        "color": "brown"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Aye, Dr. Varkov, dat's a good point! As LPNs, we often get caught up in the hustle and bustle of the ER, but we should always keep safety in mind. What kind of electrolytes were you looking out for in this patient? Was it sodium imbalances or something else?",
+        "color": "pink"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Uh, LPN Sue, I think Dr. Varkov was referring to the CTEH, not the electrolytes. CTEH stands for Cirrhosis with Hematemesis, right?",
+        "color": "blue"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Ah, Leo, you're absolutely right! CTEH is indeed an acronym for Cirrhosis with Hematemesis. Thank you for keeping me on my toes!",
+        "color": "brown"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Just saw a patient with nausea and vomiting...",
+    "body": "Had a case last night of a 35-year-old female presenting with nausea and vomiting that started 3 days ago. I've been going over the case in my head and was wondering if I missed anything. She had no fever, no abdominal pain, and no diarrhea, but her vomit was yellow-green and somewhat bilious. Her past medical history includes anxiety and depression, and she was taking Zoloft, which I was about to admit, but she mentioned she'd recently started taking CBD oil. I looked up the side effects and saw that it could cause nausea and vomiting, but I wasn't sure if it was the primary cause... Has anyone else seen this scenario before, and how would you determine if the CBD oil was the culprit?",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Aris Thorne",
+        "role": "",
+        "city": "Toronto, ON",
+        "text": "I've seen a few cases of CBD oil-induced nausea and vomiting, but the key is to get a complete list of medications and supplements the patient's taking. In this case, I'd want to know if the Zoloft was changed recently, and if the CBD oil was a new addition. We should also consider other causes of bilious vomiting, especially in someone with a history of abdominal surgery. I'd like to see a CT scan or a gastrografin swallow to rule out something like a gastric obstruction. TLDR, don't forget to look for alternative causes and get a medication list!",
+        "color": "purple"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "",
+        "text": "Wait, isn't CBD oil a Schedule 1 controlled substance in many places? I thought it was only recreational, not prescription?",
+        "color": "purple"
+      },
+      {
+        "id": 4,
+        "parent_id": 2,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "",
+        "text": "Great point, Leo! I was wondering the same thing, but Dr. Thorne had clarified that CBD oil is available over-the-counter in some places. I'd love to hear more about the CBD oil's side effect profile and how often we see it as a cause of NAUSEA and vomiting... Can we get some sources on this?",
+        "color": "green"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "",
+        "text": "Check out this article from the New England Journal of Medicine on CBD oil's side effect profile, it's super informative and has some great references. I think it's worth considering as a potential cause of NAUSEA and vomiting, especially in young adults.",
+        "color": "purple"
+      },
+      {
+        "id": 6,
+        "parent_id": 2,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "",
+        "text": "CBD oil is not a replacement for evidence-based treatment, and we should not be relying solely on anecdotal reports of its side effects. I'd like to see a well-designed study showing the efficacy of CBD oil in treating NAUSEA and vomiting. Let's not be swayed by the 'cool factor' of CBD oil!",
+        "color": "green"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "",
+        "text": "Oh, come on, Dr. Miller, you're being dramatic. Anecdotal reports are not always bad, and they can provide valuable insight into real-world clinical scenarios. Plus, it's not like we're giving CBD oil to patients as a treatment for NAUSEA and vomiting, we're just considering it as a potential cause. Get a grip, doctor!",
+        "color": "red"
+      },
+      {
+        "id": 8,
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "",
+        "text": "As the night shift nurse, I can attest to the fact that CBD oil is NOT just for recreational use anymore! It's on the rise in our ER, and we need to stay on top of its side effects. Anyone else have any other tips or tricks for managing CBD oil-related NAUSEA and vomiting?",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Today I Learned: Trauma in Pregnancy - A Crossover from Maternal to Fetal",
+    "body": "Had a case last night where a 32-week pregnant woman came in with abdominal pain and a history of a MVC. Abdominal and pelvic trauma suspected. Performed a sterile pelvic exam and found evidence of uterine contractions, vaginal bleeding, and a ruptured amniotic membrane. Fetal\u2013maternal hemorrhage occurred, which can lead to rhesus (Rh) isoimmunization in Rh-negative women. Anyone have experience with trauma in pregnancy? TLDR: Trauma in pregnancy is a Crossover from maternal to fetal.",
+    "category": "emergency_medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "",
+        "city": "Mississauga, ON",
+        "text": "Trauma in pregnancy is indeed a high-risk situation, especially in the 3rd trimester when the fetus is more vulnerable to injury. Have you considered the possibility of placental abruption? This is a leading cause of fetal distress and preterm labor, as it can compromise the placental perfusion and lead to decreased uteroplacental blood flow. Also, did you get an ultrasound to confirm the placental location and rule out an accreta?",
         "color": "purple"
       },
       {
@@ -20,71 +619,179 @@
         "user": "Leo Chen",
         "role": "MS1",
         "city": "Montreal, QC",
-        "text": "What's the protocol for treating malignant heat stroke? Does it involve IV medication to lower the body temp or just cooling with ice packs?",
+        "text": "Dr. Gupta, what's the difference between placental abruption and accreta? Are they related?",
         "color": "green"
       },
       {
         "id": 3,
+        "parent_id": 2,
+        "user": "Dr. Maya Gupta",
+        "role": "",
+        "city": "Mississauga, ON",
+        "text": "Great question, Leo! Placental abruption is when there's premature separation of the placenta from the uterus, depriving the fetus of oxygen and nutrients. Placenta accreta, on the other hand, is when the placenta grows too deep into the uterine wall, which can lead to severe bleeding and even rupture. Think of it like an invasivu vs a placental attachment disorder. They're related but distinct conditions. I recommend checking out the ACOG guidelines for more information.",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Wow, that's fascinating! But what about the risks of rhesus (Rh) isoimmunization? I've heard that it's really serious, but how common is it in trauma pregnancies?",
+        "color": "blue"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Chad, Rh isoimmunization is indeed a risk, but it's relatively rare. According to the AABB, Rh negative women have a 3-4% chance of developing isoimmunization after a significant hemorrhage. However, early treatment with RhoGAM can prevent the immune system from reacting to the fetal Rh-positive blood. It's worth noting that Rh isoimmunization can lead to severe complications, so timely evaluation and treatment is crucial.",
+        "color": "blue"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Great point, Dr. Miller! What about the role of ultrasound in diagnosing placental abnormalities? Are we seeing it early enough in patients with suspected trauma?",
+        "color": "red"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "As an ER nurse, I can attest that patients often present late with significant trauma. Ultrasound should be the first line in evaluating placental abnormalities, but we need to move quickly when these patients come in, especially if there's suspicion of hemoperitoneum.",
+        "color": "red"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Aye, lad, I couldn't agree more! It's a cryin' shame when patients present with delayed hemorrhage due to lack of early eval. We need to get those ultrasound results sooner rather than later, me boyo!",
+        "color": "orange"
+      },
+      {
+        "id": 9,
         "parent_id": 1,
-        "user": "Dr. Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "I disagree with the OP. We shouldn't be focusing on 'high-risk patients' or 'vulnerable populations.' The issue is that these patients often have multiple comorbidities and our healthcare system fails to provide adequate support. We need to address the root cause of the problem, not just treat the symptoms. TLDR: It's not about identifying high-risk patients; it's about fixing a broken system.",
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateur hour is over, folks. When dealing with trauma in pregnancy, one must always think 'mother first' and 'fetus second'. Don't waste your time with frivolous diagnostic tests and focus on stabilizing the mother.",
+        "color": "green"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. Maya Gupta",
+        "role": "",
+        "city": "Mississauga, ON",
+        "text": "I disagree, Dr. Sterling. In trauma pregnancies, we need to take a holistic approach that considers both maternal and fetal well-being. The initial sequence of trauma resuscitation remains unchanged, but we need to consider the unique physiology and risks associated with pregnancy.",
+        "color": "purple"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "I'm with Dr. Gupta on this one, Dr. Sterling. As a PGY1, I've seen some cases where we had to do multiple interventions simultaneously to save both the mother and the fetus. It's not just about 'mother first' or 'fetus second' \u2013 it's about doing what's best for both.",
+        "color": "blue"
+      }
+    ],
+    "image": "https://i0.wp.com/iem-student.org/wp-content/uploads/2019/10/Trauma-in-pregnancy.png?fit=1024%2C512"
+  },
+  {
+    "id": 8,
+    "title": "Just saw a patient with Acute Heart Failure... and a twist!",
+    "body": "Just saw a 45-year-old male patient with classic symptoms of acute heart failure: severe dyspnea, bilateral rales, and a faint S3 gallop. BP was sky-high at 180s/110. Chest X-ray showed signs of pulmonary edema. He also complained of a new-onset cough and a slight sore throat. What's the takeaway? The patient tested positive for COVID-19! Just another reminder to keep AHF on your radar during these crazy times. I know some of you are thinking 'what's the big deal?', but trust me, this patient needed a crash course in COVID-AHF. The ER took ages to get the diagnosis right, but thanks to a quick-thinking ICU doc and a team that didn't give up, the patient is finally on a road to recovery. Moral of the story: don't let COVID-19 foggy up your diagnosing game. Any of you have similar experiences with COVID-affected patients? Share your stories!",
+    "category": "r/emergencymedicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "TLDR: Don't underestimate the severity of COVID-AHF!\n\nThat's a timely reminder, OP! We all know how quickly COVID-19 can turn an otherwise straightforward AHF presentation into a life-or-death situation. I had a similar patient a few weeks ago, and it took us hours to get the COVID test results back. What's the protocol for COVID testing in your ER? We're using the BinaxNOW for rapid tests and sending all positives to the lab for PCR confirmation.",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "We're using the BinaxNOW as well, but I have to say, it's been a bit of a pain in the behind. The sensitivity is so low, and we've had a few false negatives. I know it's better than nothing, but I wish we had a more reliable rapid test. Has anyone heard anything about the new Abbott ID Now test?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs like you should stick to taking blood pressure, Tom. The sensitivity of the BinaxNOW is not the issue, it's the operators who can't follow instructions. I've seen you RNs messing up the test more often than not. Get your act together!",
         "color": "blue"
       },
       {
         "id": 4,
         "parent_id": 3,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "But doesn't fixing the system take a much longer time? In the meantime, aren't we obligated to do everything we can to protect these patients? I'm not saying we should just give them ice packs and send them home, but rather that we need to find ways to make our current system more effective in the short term.",
-        "color": "brown"
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Oh, I see. So now you're an expert on COVID testing, Vic? I've got news for you: even the CDC can make mistakes. And by the way, I'll have you know that we're following the exact protocol you provided in your 'Amateur's Guide to COVID Testing'. Don't @ me.",
+        "color": "green"
       },
       {
         "id": 5,
         "parent_id": 4,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "OMG, I'm so down with finding ways to make our system more effective! Can someone link me to any research articles or studies on this topic? I'd love to read more about it.",
-        "color": "pink"
-      },
-      {
-        "id": 6,
-        "parent_id": null,
         "user": "Martha 'The Hammer'",
         "role": "RN",
         "city": "Halifax, NS",
-        "text": "I've worked on the wards for 30 years, and I can tell you that it's not just about 'fixing the system.' It's about providing individualized care to each patient. When I was in training, we used to have more time to spend with patients, but now it's all about 'throughput' and 'bed management'... Sorry, I'm ranting. What I'm saying is that we need to focus on the patient, not just the disease.",
-        "color": "orange"
+        "text": "Vic, Vic, Vic... You think you're so smart just because you graduated at the top of your class. Newsflash: the only thing that's 'Amateur' is your bedside manner. I've seen plenty of doctors like you who think they know it all, but can barely make small talk with a patient. Get a grip, Vic!",
+        "color": "red"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. May Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Haha, nice burn, Martha! I've seen Vic in action, and let me tell you, he's all bluster and no substance. As for COVID testing, I agree with Tom that we need a more reliable rapid test. Has anyone heard anything about the new antigen test from Quidel? I've heard it's been showing really high sensitivity and specificity.",
+        "color": "purple"
       },
       {
         "id": 7,
         "parent_id": 6,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Amen, Martha! You're absolutely right. We need to bring back the art of medicine and focus on the patient as a whole person. But how do we do this when the system is stacked against us? Any ideas?",
-        "color": "purple"
+        "user": "Dr. Phil Muddle",
+        "role": "EP",
+        "city": "Regina, SK",
+        "text": "Uh... what's an antigen test? And what's Quidel? I'm a bit confused... Can someone explain this to me in simple terms? Oh, and by the way, I'm not sure what day it is, but I think it's time for my nap...",
+        "color": "yellow"
       },
       {
         "id": 8,
         "parent_id": 7,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "LOL, we should just start our own revolution! But on a more serious note, have you guys seen this article on the importance of social support in patient care? It's a game-changer. [link]",
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Don't worry, Dr. Muddle! An antigen test is a type of rapid test that detects specific proteins on the surface of the SARS-CoV-2 virus. Think of it as a 'super-powerful' version of the BinaxNOW. Quidel is a company that makes these tests. Their new antigen test has been showing impressive results in clinical trials!",
         "color": "green"
       },
       {
         "id": 9,
-        "parent_id": null,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "As a family doc, I think we often get lost in the shuffle. How can we, as emergency physicians, collaborate more effectively with family physicians to provide more comprehensive care?",
-        "color": "red"
+        "parent_id": 8,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Leo, you're making it sound like a magic pill. While I agree that Quidel's antigen test is promising, we need more data before we can make a decision. Can someone link me to the clinical trials? I'd love to take a closer look.",
+        "color": "purple"
       },
       {
         "id": 10,
@@ -92,654 +799,90 @@
         "user": "Sparkle-Eyes Sue",
         "role": "LPN",
         "city": "St. John's, NL",
-        "text": "Aren't we already doin' that up here in NL? Our hospital has this fab ER/Fam Med consult service that lets us collaborate in real time. Maybe we can share some of our experiences and learn from each other?",
-        "color": "yellow"
-      },
-      {
-        "id": 11,
-        "parent_id": null,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "Uh, guys? Can someone explain to me what's going on? I came to the ER with heat exhaustion and was treated with IV fluids and cooling blankets. But now I'm feeling a bit...disoriented. Is this a side effect of the treatment or something else entirely?",
+        "text": "Sorry to bring this up, but have you all seen the latest paper from the Journal of Infectious Diseases? It's a game-changer for COVID-AHF! The researchers found that patients with COVID were more likely to present with pulmonary embolism and acute kidney injury. We need to keep this in mind when evaluating patients with suspected COVID-AHF!",
         "color": "blue"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "My dear fellow, I think you're experiencing a classic case of delirium tremens. It's a common side effect of rapid cooling and rehydration. But don't worry, it's not caused by the treatment itself; rather, it's a sign that your body is fighting off the heat-related illness. Just rest and drink plenty of fluids, and you'll be back on your feet in no time!",
-        "color": "green"
-      },
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Just saw a patient with a tricky altered mental status case. Need your input, Reddit.",
+    "body": "So I'm working in the ED and a 35-year-old male comes in with a complaint of confusion and disorientation. He's been experiencing these symptoms for about a day now, and his friends say he's been acting strange. He's afebrile, but his blood pressure is a bit elevated at 160/90. His mental status is described as fluctuating between disorientation and confusion, with periods of lucidity. His past medical history is unremarkable, but he does have a history of recreational drug use.\n\nWhat am I missing here? Should I order any specific labs or imaging to rule out potential causes of his altered mental status?",
+    "category": "emergency medicine",
+    "comments": [
       {
         "id": 13,
-        "parent_id": 12,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "Are you kidding me, Archie? Delirium tremens is not a common side effect of heat-related illnesses! You're confusing it with some other condition. And by the way, what's with the 'rest and drink plenty of fluids' advice? We're emergency physicians, not primary care physicians!",
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "TL;DR: Patient with fluctuating altered mental status, history of substance abuse. I'd start by ordering a comprehensive metabolic panel, including glucose, electrolytes, and renal function. Let's see if we can identify any potential metabolic derangements. I'd also consider imaging the brain with a non-contrast head CT to rule out any structural abnormalities.",
         "color": "purple"
       },
       {
         "id": 14,
-        "parent_id": null,
-        "user": "Dr. Phil Muddle",
-        "role": "EP",
-        "city": "Regina, SK",
-        "text": "Uh, um, I think I might have missed the point of the conversation... Could someone summarize the discussion for me?",
-        "color": "blue"
+        "parent_id": 13,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Dr. Thorne, would you recommend ordering a serum osmolality test to check for hyperosmolar or hyposmolar states?",
+        "color": "green"
       },
       {
         "id": 15,
-        "parent_id": 14,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "For Pete's sake, Phil. It's about recognizing malignant heat stroke in vulnerable patients and the importance of early treatment. Now, if you'll excuse me, I have more important things to attend to.",
-        "color": "red"
-      }
-    ],
-    "image": "https://www.weather.gov/images/wrn/Infographics/2022/heat-symptoms-2022-final.png"
-  },
-  {
-    "id": 1,
-    "title": "Hypothermia and Frostbite Case Study: What Went Wrong and How Can We Improve?",
-    "body": "Just saw a patient with severe frostbite and hypothermia come into the ER last night, and it made me think about all the times we mess up with these patients. I'll give you the short story, but then we can get into the good stuff - where we went wrong and how we can improve.\n\nSo, patient presents with a core body temp of 30.5C, 4cm of frostbite on the left hand, and 2cm on the left foot. No significant past medical history, no chronic meds. We start by rewarming with warm IV fluids and a warm blanket. The patient's O2 sat drops to 90%, and we start giving oxygen.\n\nBut things start getting hairy when we try to debride the frostbite. We're talking about some real tissue loss here - the skin is mummified, and there's a lot of bleeding. We try to clean it up, but the patient's bleeding a lot, and we're worried about transfusions. The patient's hemoglobin drops from 15 to 12 in 20 minutes.\n\nWe call in the surgeon, but we're worried it's too late for amputation. We're talking about some real salvage attempts here, and it's a long shot if we can save the foot.\n\nThe questions is: what went wrong here? Was this preventable? And what can we do better in the future?\n\nTL;DR - patient presents with severe frostbite and hypothermia, rewarming goes awry, debridement is tough, and the patient's hemoglobin drops precipitously.\n\n**Edit:** I know a lot of you are gonna say, 'you shoulda done this or that', but just hear me out. This is a tough one, and we're all just learning.\n",
-    "category": "Emergency Medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Great case study, OP! I think the key takeaway here is that we need to be more aggressive in our initial rewarming efforts, particularly with patients who present with severe hypothermia. We should be aiming for a core temp of 32C ASAP, and not just 30.5C. What do you guys think? Should we be doing more rapid rewarming in these situations? ",
-        "color": "teal"
-      },
-      {
-        "id": 2,
-        "parent_id": null,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs. We all know rewarming is key, but let's not forget about the basics - keeping the patient warm, preventing further cold stress, and not overdoing it with the oxygen. I mean, come on, 90% O2 sat in a healthy patient? We're gonna make them acidotic, not get 'em warm. And don't even get me started on debriding without a solid game plan... OP, you need to learn from the experience and try again. Next time, don't let it get this far!",
-        "color": "purple"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Yikes, OP, I think we can all take a page from your ER's handbook here. In our ER, we've been doing some research on rapid rewarming protocols, and we're thinking about implementing something similar. Can you tell us more about what you did, and what you would do differently next time?",
-        "color": "pink"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Great points, Dr. Thorne! I think we can also discuss the role of antibiotics in frostbite treatment. I've read some research that suggests prophylactic antibiotics might help reduce the risk of sepsis... am I off-base? Should we be considering antibiotics for every frostbite patient?",
-        "color": "blue"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "TL;DR - antibiotics are not your friend in frostbite patients. We don't know enough about antibiotic resistance, and prophylactic antibiotics are just setting us up for failure. Let's not jump to conclusions here, folks!",
-        "color": "green"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Just saw a patient with a positive blood culture and I'm left wondering...",
-    "body": "Just saw a patient with a positive blood culture and I'm left wondering if we did enough to rule out sepsis. Patient was a 3-year-old with a 3-day history of fever and a blood culture that just came back. We'd had them on antibiotics for a couple of days already. Our sepsis protocol includes a full workup, but I didn't get the sense that the parents were on board with it. We ended up discharging them with a course completion. Anyone else think we should have done more?",
-    "category": "Pediatrics",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Sarah_Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "I've read the guidelines, and it looks like we followed them to the letter. The patient was afebrile, clinically well, and on antibiotics. If the blood culture is just a contaminant, we wouldn't typically need the full workup, right? [1] (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6543127/)",
-        "color": "blue"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr._Kevin_Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "I'm no expert, but isn't there a higher risk for sepsis in kids under 3? Like, isn't that why we do the full workup even with just a positive blood culture? [2] (https://www.aappublications.org/content/145/3/e20152286)",
-        "color": "purple"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Dr._Maya_Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Great question, Kevin! While it's true that younger kids are more prone to sepsis, the American Academy of Pediatrics recommends a more nuanced approach. We should consider factors like the patient's overall risk and the specifics of the case. A single positive blood culture might not be enough to warrant the full workup, especially if the patient is clinically well. [3] (https://pediatrics.aappublications.org/content/140/3/e20161955)",
-        "color": "red"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Turbo_Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "You guys are all missing the point: what about the sepsis protocol? Did we even do the basics? CBC, blood cultures, lumbar puncture...",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Martha_The_Hammer",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "I'm with you, Tom. As an RN, I've seen my fair share of sepsis cases. We always want to err on the side of caution. Did we get a CXR? Was the patient on pressors? We can't just discharge them without making sure they're stable.",
-        "color": "blue"
-      },
-      {
-        "id": 6,
-        "parent_id": 4,
-        "user": "Leo_Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Wait, what's a CXR? How do we know if the patient needs one? Can someone explain it to me?",
-        "color": "purple"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr._Sarah_Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Great question, Leo! A CXR is a chest X-ray. We order it to check for pneumonia or other pulmonary issues that might be contributing to the patient's symptoms. It's a basic diagnostic tool, especially in cases of suspected sepsis. [4] (https://www.ajr-online.org/article.aspx?articleid=2166671)",
-        "color": "green"
-      },
-      {
-        "id": 8,
-        "parent_id": 1,
-        "user": "Dr._Ziggy_Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Hey, let's not forget about the parents. We've got to keep them in the loop, too. Did we discuss the risks and benefits of the full workup with them? Did we get their consent?",
-        "color": "red"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Sparkle-Eyes_Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Aye, Ziggy, you're right. We've got to communicate with the parents in a way that's clear and respectful. Maybe we could have a family meeting to discuss the next steps?",
-        "color": "purple"
-      }
-    ]
-  },
-  {
-    "post": {
-      "id": 1,
-      "title": "Just saw a patient with sudden cardiac death and I'm still shaking... A reminder of the importance of a thorough cardiac evaluation in pediatric patients.",
-      "body": "I've been practicing as an EP for over 5 years, but last night's case still has me reeling. A 14-year-old male athlete presented to the ED with sudden onset syncope during a basketball game. Initial vitals were within normal limits, but his ECG showed a nonspecific ST elevation. I was worried, but also not convinced that it was a life-threatening arrhythmia. However, a bedside troponin draw showed a rise, and a further workup revealed a congenital artery anomaly. He required emergent catheterization and was transferred to the ICU. Just a reminder that sudden cardiac death can masquerade as syncope, and we need to remain vigilant in our evaluation of pediatric patients.",
-      "category": "Pediatrics",
-      "comments": [
-        {
-          "id": 1,
-          "parent_id": null,
-          "user": "Dr. Sarah Sharp",
-          "role": "EP",
-          "city": "Laval, QC",
-          "text": "TLDR: Congenital artery anomaly in a pediatric athlete. What's the take-home for ED docs? How do we increase our awareness and vigilance for this condition?",
-          "color": "red"
-        },
-        {
-          "id": 2,
-          "parent_id": 1,
-          "user": "Dr. Ziggy Zalesky",
-          "role": "EP",
-          "city": "Vancouver, BC",
-          "text": "Great reminder, Sarah. One thing that might be helpful is to perform a detailed family history and social history. This patient's family had a history of sudden cardiac death, which should have raised red flags. What do you guys think about incorporating the San Francisco Syncope Rule into our ED evaluation?",
-          "color": "green"
-        },
-        {
-          "id": 3,
-          "parent_id": 2,
-          "user": "Leo Chen",
-          "role": "MS1",
-          "city": "Montreal, QC",
-          "text": "Hi Ziggy, that's a great point about the family history. I've heard of the San Francisco Syncope Rule, but I'm not sure how it applies to pediatric patients. Can you explain why you think it's a good idea to use this rule in our ED?",
-          "color": "blue"
-        },
-        {
-          "id": 4,
-          "parent_id": 3,
-          "user": "Dr. Maya Gupta",
-          "role": "PGY2",
-          "city": "Mississauga, ON",
-          "text": "The San Francisco Syncope Rule is based on the idea that certain factors (e.g. ECG abnormalities, shortness of breath, low blood pressure) are associated with a higher risk of adverse outcomes in patients with syncope. While it was originally developed for adult patients, it's still a useful tool for us to consider in pediatric patients, especially when we're dealing with patients who have underlying cardiac conditions.",
-          "color": "purple"
-        },
-        {
-          "id": 5,
-          "parent_id": 1,
-          "user": "Turbo Tom",
-          "role": "RN",
-          "city": "London, ON",
-          "text": "Hey Sarah, that's a crazy case. I'm still trying to process it. Can you tell us more about the bedside troponin draw? What was the troponin level, and how long did it take to get the results?",
-          "color": "yellow"
-        },
-        {
-          "id": 6,
-          "parent_id": 5,
-          "user": "Dr. Sarah Sharp",
-          "role": "EP",
-          "city": "Laval, QC",
-          "text": "The bedside troponin level was 5x the normal range, which was a bit of a surprise. The results actually came back quickly, within 15 minutes, thanks to our hospital's point-of-care testing capabilities.",
-          "color": "gray"
-        },
-        {
-          "id": 7,
-          "parent_id": 1,
-          "user": "Dr. Brock Stone",
-          "role": "FRCSC",
-          "city": "Hamilton, ON",
-          "text": "What about the catheterization part of the story? Was it a routine procedure, or were there any complications?",
-          "color": "orange"
-        },
-        {
-          "id": 8,
-          "parent_id": 7,
-          "user": "Dr. Sarah Sharp",
-          "role": "EP",
-          "city": "Laval, QC",
-          "text": "The catheterization was uneventful, thankfully. The patient tolerated it well, and we were able to diagnose the congenital artery anomaly and get him the treatment he needed.",
-          "color": "pink"
-        }
-      ]
-    },
-    "image": "https://cpr.heart.org/en/-/media/CPR-Images/Resources/CA-vs-HA/CA-vs-HA-Infographic-2025-895x1160min.jpg?sc_lang=en"
-  },
-  {
-    "id": 23,
-    "title": "Genitourinary trauma in trauma resuscitation - where do we go wrong?",
-    "body": "Just had a case where we missed a scrotal laceration in a patient with abdominal trauma. I know we're all busy, but this is exactly the kind of thing that can bite us in the butt later. Has anyone else had a similar experience? Where do we go wrong in identifying genitourinary trauma in the trauma resuscitation process?",
-    "category": "emergency-medicine",
-    "comments": [
-      {
-        "id": 25,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Great question, OP! Genitourinary trauma is often overlooked in the trauma resuscitation process, but it's a critical consideration, especially in cases of abdominal or pelvic trauma. One thing to keep in mind is that even small lacerations or hematomas can significantly impair function and require prompt attention. It's all about keeping an open mind and doing a thorough examination, including a sterile pelvic exam when indicated.",
-        "color": "purple"
-      },
-      {
-        "id": 26,
-        "parent_id": null,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs. We don't need to be reminded of the importance of a sterile pelvic exam in trauma resuscitation. The key is to stay focused on the big picture and not get bogged down in minor details. If the patient is stable and doesn't have any obvious genitourinary trauma, it's not worth the added time and resources.",
-        "color": "blue"
-      },
-      {
-        "id": 27,
-        "parent_id": 25,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Thorne, can you clarify what you mean by 'keeping an open mind'? Is that just a way of saying be more thorough in our examinations? And do you have any tips on how to balance the need to stay focused on the big picture with the need to identify genitourinary trauma?",
-        "color": "green"
-      },
-      {
-        "id": 28,
-        "parent_id": 25,
+        "parent_id": 13,
         "user": "Sarah Jenkins",
         "role": "MS3",
         "city": "Ottawa, ON",
-        "text": "I've read that penile fractures are a type of genitourinary trauma that can be particularly difficult to diagnose. Can anyone speak to their experience with penile fractures? Are there any specific red flags or warning signs that should make us consider this diagnosis?",
-        "color": "red"
-      },
-      {
-        "id": 29,
-        "parent_id": 26,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Dr. Sterling, I think it's worth noting that while a sterile pelvic exam may take a few extra minutes, it's a critical part of ensuring we don't miss any genitourinary trauma. And I'd argue that it's better to err on the side of caution and explore further if we're unsure, rather than risking a delayed diagnosis and subsequent complications.",
-        "color": "purple"
-      },
-      {
-        "id": 30,
-        "parent_id": 26,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "I've worked in trauma units for years, and my advice is to trust your gut and trust your training. If you're unsure about genitourinary trauma, ask for help and do some further investigation. And for the love of all things holy, don't underestimate the importance of good communication between the trauma team and the patient.",
-        "color": "pink"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Rant about Status Epilepticus - Why do we still get it wrong?",
-    "body": "Just had a case of Status Epilepticus come into the ER and I'm still trying to wrap my head around it. We got the diagnosis eventually, but not before we spent 20 minutes arguing about whether it was a pseudoseizure (don't even get me started on that topic). It got me thinking, are we doing everything we can to catch Status Epilepticus early? And what are some best practices for managing it in the ER?",
-    "category": "emedicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Zalesky",
-        "role": "EP",
-        "city": "Vancouver",
-        "text": "Preach, bro! I've seen it happen where we're so focused on the 'classic' presentation that we miss the subtleties. And then you've got the patients who are just plain confused and don't know what's going on. Status Epilepticus is a sneaky devil. I think we need to be more aggressive with our diagnostics, especially if they're showing signs of impaired level of consciousness. We need to be thinking of Status Epilepticus in our head as soon as they start showing any of those symptoms. And speaking of diagnostics, has anyone seen the updated guidelines on EEG for Status Epilepticus? I haven't had a chance to dig through them yet but I've heard rumors of some big changes.",
+        "text": "I agree with Dr. Thorne's approach. However, I'd like to suggest adding a toxicology panel, including screening for opioids, benzos, and stimulants. It's also worth considering a lumbar puncture to rule out CNS infection or bleeding.",
         "color": "blue"
       },
       {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Sharp",
-        "role": "EP",
-        "city": "Laval",
-        "text": "Great point Dr. Zalesky. I've found that using the '5-minute rule' (1) can be a helpful way to identify Status Epilepticus. If a seizure lasts longer than 5 minutes or if the patient has more than one seizure without recovering, that's a big red flag for Status Epilepticus. And yeah, I've also been meaning to check out the updated EEG guidelines. Has anyone found a good resource for learning more about Status Epilepticus treatment algorithms?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal",
-        "text": "Sorry to ask such a newbie question, but what's the '5-minute rule' that Dr. Sharp mentioned? Is it in the AHA guidelines somewhere?",
+        "id": 16,
+        "parent_id": 15,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Great point, Sarah! A toxicology panel can definitely help identify potential substance use. I'd also suggest considering a neurology consult to get a more comprehensive assessment of the patient's mental status and potential neurological deficits.",
         "color": "red"
       },
       {
-        "id": 4,
-        "parent_id": 2,
-        "user": "Dr. Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary",
-        "text": "Actually, I'm quite familiar with the '5-minute rule' and I think it's a bunch of hooey. What do you mean by 'big red flag' Dr. Sharp? I've seen plenty of seizures that last longer than 5 minutes without turning into Status Epilepticus. Can't we just focus on the actual symptoms and not make up arbitrary rules?",
+        "id": 17,
+        "parent_id": 13,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Has anyone considered the possibility of a metabolic encephalopathy due to a underlying medical condition, such as uremia or hepatic encephalopathy? It's worth getting a hepatic panel and checking the patient's LFTs to see if there are any abnormalities.",
         "color": "orange"
       },
       {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Zalesky",
-        "role": "EP",
-        "city": "Vancouver",
-        "text": "Come on Dr. Sterling, don't be such a grump. The '5-minute rule' is a good starting point for identifying Status Epilepticus, but it's not foolproof. You need to use your clinical judgment and consider the whole picture. And by the way, the AHA guidelines support the use of the '5-minute rule' as one criteria for diagnosing Status Epilepticus.",
-        "color": "blue"
-      },
-      {
-        "id": 6,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London",
-        "text": "As a practical nurse, I've seen my fair share of Status Epilepticus cases come through the ER. One thing I've learned is the importance of early warning signs. If the patient is having a seizure and then suddenly becomes unresponsive or starts showing signs of respiratory distress, that's a huge red flag for Status Epilepticus. Get these patients to the bedside ASAP and start running diagnostics.",
-        "color": "purple"
-      },
-      {
-        "id": 7,
-        "parent_id": 1,
-        "user": "Dr. Miller",
-        "role": "EP",
-        "city": "Winnipeg",
-        "text": "I've also seen cases where patients develop Postictal Confusional States (PCS). It's like they come out of the seizure and then just sit there looking all zombie-like for hours. It's really scary. Can anyone recommend some resources for learning more about PCS?",
-        "color": "green"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Park",
-        "role": "PGY1",
-        "city": "Edmonton",
-        "text": "Uh, isn't PCS just a fancy way of saying 'post-seizure confusion'?",
-        "color": "red"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Gupta",
-        "role": "PGY2",
-        "city": "Mississauga",
-        "text": "No, no, no! Don't oversimplify it like that. PCS is a distinct entity that requires recognition and management. Think of it like a post-stroke state of reduced consciousness, but without the stroke. You need to be thinking of neuroprotection strategies and antipsychotics for PCS.",
-        "color": "blue"
-      },
-      {
-        "id": 10,
-        "parent_id": null,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa",
-        "text": "This thread is amazing. I've been studying for my EP shelf and this discussion is so relevant to what I'm learning. Does anyone have any other resources on Status Epilepticus they'd recommend?",
-        "color": "green"
-      }
-    ]
-  },
-  {
-    "id": 6,
-    "title": "Just saw a patient with a incarcerated hernia today and I'm still reeling from it...",
-    "body": "I've been in EM for 10 years, but today's case still stings. We get a 45-year-old male who comes in with vague abdominal pain. History of smoking, a bit of a cough, but nothing too out of the ordinary. I'm thinking maybe COPD-related pain. But when I palpate his abdomen, I feel a firm mass just above his inguinal ligament. Ultrasound confirms it - herniated bowel through a femoral hernia. Not just any hernia, but it's incarcerated. Red flags all over the chart: severe pain, nausea, vomiting. I'm thinking worst-case scenario: strangulation, necrosis, rupture. We spring into action - consult surgery, fluid resuscitation... But what really got me was when the patient's family member comes up to me, visibly shaken, and asks 'Doc, what happened to my brother's bowel?' And I have to break it to them... 'Ma'am, it's complicated. The blood supply to your brother's bowel has been compromised. We're doing everything we can to save it...'",
-    "category": "emergencymedicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "New York, NY",
-        "text": " TLDR: incarcerated hernia, severe pain, potential for strangulation\n\nI feel your pain Doc. I've had a few cases like this in my short residency career. One thing that always strikes me is how non-specific the symptoms can be. I mean, this guy's just complaining of vague abdominal pain, and we find out it's a hernia. It's a great reminder to always keep a close eye on our 'red flag' patients.\n\nHas anyone else had any experiences with femoral hernias? Are they more common in certain populations?",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Toronto, ON",
-        "text": "Hey Dr. Gupta, \n\nI'm pretty sure I read somewhere that femoral hernias are more common in women? Maybe it's because they're more likely to get hernias in general? Or is that just a myth?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Thanks for sharing this case, Doc! I'm still learning about hernias, but I was wondering: how do you differentiate between an incarcerated hernia and a strangulated hernia? Are there any specific clues we can look for?",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Vancouver, BC",
-        "text": "Great question, Leo. So, from what I've learned, the key difference is the presence of signs of strangulation, such as severe pain, tenderness, and possibly a palpable mass. However, I've also heard that incarceration can sometimes lead to strangulation if the hernia becomes compressed. Is there a specific time frame for when we should start worrying about strangulation, Doc?",
-        "color": "blue"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "Calgary, AB",
-        "text": "Hey guys, just wanted to chime in on the topic of femoral hernias. I've seen a few cases come through our ER, and I think it's worth mentioning that they're often associated with COPD and other chronic conditions. Maybe we can explore that a bit more?",
-        "color": "red"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
+        "id": 18,
+        "parent_id": 17,
         "user": "Dr. Elena Varkov",
         "role": "FRCPC",
-        "city": "Toronto, ON",
-        "text": "Great point, Turbo Tom! I've definitely seen that link between femoral hernias and COPD. One thing that's also worth mentioning is the importance of prompt surgical intervention. I mean, in this case, the patient's bowel could have been saved if we'd acted quicker. Do we have any guidelines on when to consult surgery for these types of cases?",
-        "color": "orange"
-      }
-    ],
-    "image": "https://d16qt3wv6xm098.cloudfront.net/8RYh-eg6TuS3XdlEqlcmRmXFQhmdVx8w/_.png"
-  },
-  {
-    "id": 7,
-    "title": "Today I Learned: 'Masked' Neurogenic Shock can be a Killer",
-    "body": "Just saw a patient with a severe cervical spine injury, presenting with stable vitals, no apparent neurological deficits, but a gradual decline in blood pressure over 4 hours. What really got my attention was the relative bradycardia in the face of hypotension. I initially suspected a classic compensatory tachycardia, but further exploration led me to reconsider. Upon re-examination of the ECG, I noticed a subtle sign of neurogenic shock - a junctional escape rhythm. After a dose of norepinephrine and a C-spine series, the patient's blood pressure stabilized, but the take-home lesson is that neurogenic shock can sometimes 'mask' as a more subtle presentation than what we expect. TLDR; Be aware of the potential for \"masked\" neurogenic shock.",
-    "category": "Emergency Medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Great case, OP! Neurogenic shock can be tricky to diagnose. A high index of suspicion is key in identifying the signs, such as hypotension, bradycardia, and warm peripheral skin, especially in the setting of acute trauma. I like to think back to the pathophysiology - the disruption of sympathetic outflow due to spinal cord injury leading to unopposed parasympathetic activity, resulting in vasodilation and decreased peripheral resistance. I also want to emphasize the importance of rapid diagnosis and treatment to prevent further complications, such as cardiac arrest or renal failure. [www.uptodate.com/...](http://www.uptodate.com/...) has some excellent resources on this topic.",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Thanks for sharing, Dr. Thorne! What about the role of spinal shock in neurogenic shock, and how does it differ from neurogenic shock in terms of presentation and management?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "I've read that neurogenic shock can masquerade as spinal shock, particularly in the early stages. Can you clarify the difference between these two conditions, Dr. Thorne? Specifically, I'm interested in the distinction between spinal shock as a temporary loss of reflex activity and neurogenic shock as a more persistent condition.",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 2,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Hey Leo, don't forget to check for any potential cervical spine injuries, especially in trauma cases. A cervical spine series or an MRI might give us more info on the extent of the injury. Also, what about the patient's neurological deficits - were they present initially, or did they develop later on?",
-        "color": "yellow"
-      },
-      {
-        "id": 5,
-        "parent_id": 3,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Sarah, the distinction between spinal shock and neurogenic shock is mostly a semantic one, as they both refer to the disruption of spinal cord function, albeit at different levels. Spinal shock, per se, is a temporary condition, whereas neurogenic shock is a more persistent state. Now, in terms of management, the key is to recognize and address the underlying cause of the shock. If it's spinal shock, you treat the patient accordingly; if it's neurogenic shock, you might need to provide more aggressive support, including vasopressors.",
-        "color": "blue"
-      },
-      {
-        "id": 6,
-        "parent_id": 2,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Leo, don't forget to keep an eye on the patient's IV site - neurogenic shock can lead to vasodilation, which might compromise the integrity of the IV site. And don't be afraid to ask for help if you're unsure about the diagnosis or management. We all make mistakes, and it's better to double-check and prevent any further complications.",
+        "city": "Quebec City, QC",
+        "text": "Great suggestion, Turbo Tom! Metabolic encephalopathy is a great differential diagnosis in this case. I'd also recommend checking the patient's blood urea nitrogen (BUN) and creatinine levels to assess renal function.",
         "color": "pink"
       },
       {
-        "id": 7,
-        "parent_id": 1,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Wow, this is so cool! I'm just learning about this stuff in med school, but seeing it in practice is amazing. Can someone explain the pathophysiology behind neurogenic shock in more detail? And what about the different types of shock - hypovolemic, cardiogenic, etc.?",
-        "color": "orange"
+        "id": 19,
+        "parent_id": null,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "Uh, I think I might have something to do with this? Can I just clarify what's going on here? Is my altered mental status related to my substance abuse? And what's the deal with all these tests and consults?",
+        "color": "white"
       },
       {
-        "id": 8,
-        "parent_id": 7,
+        "id": 20,
+        "parent_id": 19,
         "user": "Dr. Phil Muddle",
         "role": "EP",
         "city": "Regina, SK",
-        "text": "Hypovolemic, cardiogenic, and neurogenic shock all have unique pathophysiological mechanisms. Neurogenic shock, specifically, results from the disruption of sympathetic outflow due to spinal cord injury, leading to vasodilation, decreased peripheral resistance, and ultimately, hypotension. I like to think back to my med school days and the simple diagram showing the vasculature of the thoracic and abdominal cavity. It's really about the interplay between the sympathetic and parasympathetic nervous systems.",
-        "color": "green"
-      },
-      {
-        "id": 9,
-        "parent_id": 7,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "Don't get too carried away with the pathophysiology, Chad - it's all about recognizing the signs and symptoms in real-time. You gotta trust your gut instinct, rely on your training, and stay vigilant. Remember, every patient is unique, and it's up to you to think critically and make sound decisions.",
-        "color": "red"
+        "text": "Haha, hi Barnaby! Don't worry, we're just trying to figure out what's going on with your brain. It's not necessarily related to your substance abuse, but we do want to rule out any potential causes. We'll do our best to keep you updated on the situation.",
+        "color": "gray"
       }
-    ]
-  },
-  {
-    "id": 1024,
-    "title": "Case study: Altered mental status in the ED - when to get a brain CT?",
-    "body": "Just saw a patient with altered mental status in the ED and it got me thinking about when to get a brain CT. We all know that in the acute phase of a stroke, it's a no-brainer (pun intended). But what about other causes of altered mental status? I've been taught to look for signs of focal neuro deficits, posturing, and pupillary abnormalities as indicators of a brain lesion, but I've also been taught to look at the patient's mental status score, medical history, and potential exposure risks. So, when do we break out the CT scanner and when do we hold off? Has anyone else out there had to deal with this conundrum? I'd love to hear about your experiences.",
-    "category": "medical",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "MD",
-        "city": "Toronto, ON",
-        "text": "Great question! As we all know, every case of altered mental status is NOT a stroke. The history and physical exam are still king. In my experience, if you're concerned for a mass lesion (e.g. tumor, bleed), a head CT is a no-brainer. But if you're thinking metabolic encephalopathy, then you need to think about the patients' medications, fluid status, electrolytes, and renal function. And don't forget about the psychiatric causes! [1] (link to paper on psychiatric causes of AMS) Also, a quick AVPU or Glasgow Coma Scale can be super helpful in this scenario.",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "What's the AVPU scale? I've heard of it but I'm not sure what it stands for or how to use it.",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "AVPU stands for Alert, Verbal, Pain, Unresponsive. It's a quick way to assess a patient's level of consciousness. [2] (link to AVPU guide) You can use it to help determine when to get a brain CT. If the patient is Unresponsive, that's a red flag for a more severe underlying cause and a CT is likely warranted. But if they're Alert, you can consider other causes of their altered mental status.",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "I've heard that some hospitals have a protocol for getting a brain CT in patients with altered mental status. Do any of you guys know anything about those protocols? Are they based on the patient's history, physical exam, or some other factor?",
-        "color": "orange"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Yeah, I've seen those protocols. Some hospitals use a scoring system like the SALT-AMS [3] (link to SALT-AMS paper) to determine the likelihood of a brain lesion. Others use clinical judgment and rely on the history, physical exam, and lab results to decide when to get a CT. It's always a good idea to follow your hospital's protocol, but at the end of the day, it's up to the individual physician to use their best judgment.",
-        "color": "yellow"
-      },
-      {
-        "id": 6,
-        "parent_id": 1,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "In my experience, getting a brain CT in everyone with altered mental status would be a waste of resources and might even do harm. I've seen patients get a CT and find out they have something completely unrelated to their current condition. [4] (link to article on CT overuse) It's all about risk vs. benefit and trying to strike a balance.",
-        "color": "blue"
-      }
-    ]
+    ],
+    "image": "https://www.clinician.com/ext/resources/newsletters/e/EMR/2020/05/EMR051520-Table-1.jpg"
   }
 ]
