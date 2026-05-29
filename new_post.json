@@ -1,896 +1,1064 @@
 [
   {
-    "id": 0,
-    "title": "Today I learned that gastric lavage isn't as useless as I thought... ",
-    "body": "Just saw a patient with a massive potassium overdose. We did a gastric lavage and it actually seemed to help! I know the literature says it's not effective, but I'm not gonna argue with the 20% decrease in vitals.\n\nTLDR: Gastric lavage in a high-risk patient with a potentially life-saving outcome. Should we be reconsidering its use?",
-    "category": "Emergency Medicine",
+    "id": 12345,
+    "title": "Hypoglycemia 101: Avoiding Severe Neurological Injury in the ED",
+    "body": "Just saw a patient with classic hypoglycemia masquerading as a TIA. The moral of the story? We need to be vigilant about bedside glucose testing, especially in altered patients. Prompt recognition and treatment of hypoglycemia can make all the difference.",
+    "category": "emergency medicine",
     "comments": [
       {
-        "id": 1,
+        "id": 0,
         "parent_id": null,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "I've been a proponent of gastric lavage for years! It's not a silver bullet, but it's a low-risk intervention that can help in certain cases. We should definitely reconsider its use in high-risk patients. Has anyone else had success with it?\n\nAlso, has anyone looked into the latest studies on gastric lavage? I saw a tweet by @EM_News that mentioned a new meta-analysis that showed it's not as ineffective as we thought. I'd love to get the link!",
+        "user": "Dr. Aris Thorne",
+        "role": "M.D.",
+        "city": "Toronto, ON",
+        "text": "So many patients come in with hypoglycemia presenting as altered mental status or TIA symptoms. I'd love to share a case that illustrates this point. Last week, I had a patient who came in complaining of sudden onset confusion, headache, and weakness. Her glucose was 40, and she was responding to 50% dextrose IV.",
         "color": "purple"
       },
       {
-        "id": 2,
-        "parent_id": 1,
+        "id": 1,
+        "parent_id": 0,
         "user": "Dr. Maya Gupta",
-        "role": "PGY2",
+        "role": "M.D.",
         "city": "Mississauga, ON",
-        "text": "I completely agree with Sarah! I've seen it effective in a few cases, and it's always worth a shot. However, we do need to be mindful of the potential risks, especially in patients with compromised airways or bleeding disorders.\n\nRegarding the meta-analysis, I couldn't find anything from @EM_News. Could you share the link, Sarah?",
+        "text": "That's so true, Dr. Thorne. I had a patient present with suspected stroke symptoms, but after we got the glucose level, we realized it was just severe hypoglycemia. Do you have any tips for quickly identifying hypoglycemia in the ED?",
         "color": "green"
+      },
+      {
+        "id": 2,
+        "parent_id": 0,
+        "user": "Leo Chen",
+        "role": "M.D.",
+        "city": "Montreal, QC",
+        "text": "What's the difference between TIA symptoms and hypoglycemia in the ED?",
+        "color": "blue"
       },
       {
         "id": 3,
         "parent_id": 1,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "I'm not sure I agree with you guys. From what I've learned, gastric lavage is still not recommended in most cases. Can someone explain why we're reconsidering it?",
-        "color": "blue"
+        "user": "Dr. Aris Thorne",
+        "role": "M.D.",
+        "city": "Toronto, ON",
+        "text": "Great question, Leo. TIA symptoms typically occur within minutes to hours after a neurological event, whereas hypoglycemia symptoms can be more gradual. In hypoglycemia, patients often have autonomic symptoms such as tachycardia, sweating, and tremors before progressing to neurological symptoms like confusion and weakness.",
+        "color": "brown"
       },
       {
         "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Good question, Kevin! The current guidelines recommend against gastric lavage due to the risk of pneumonia, bleeding, and other complications. However, in high-risk patients like our potassium overdose case, the potential benefits may outweigh the risks.\n\nWe need to weigh the pros and cons carefully and consider each patient individually. And, of course, we should always follow local protocols and consult with specialists when necessary.",
-        "color": "purple"
-      },
-      {
-        "id": 5,
-        "parent_id": 2,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Has anyone considered the possibility that the patient's improvement might be due to the lavage, but also the supportive care and other interventions they received? We need to think critically about the entire patient journey, not just the one intervention.",
-        "color": "teal"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "Excellent point, Turbo Tom! The old adage 'the whole is greater than the sum of its parts' comes to mind. We must consider the complex interactions between interventions and patient factors when evaluating treatment outcomes.\n\nThis is especially true in emergency medicine, where time-sensitive decisions often involve balancing competing risks and benefits.",
-        "color": "gray"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Wait, so you guys are saying that sometimes doing NOTHING (or less, in this case) can be the best course of action? That kinda blows my mind! What are some other situations where less is more?",
-        "color": "orange"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Ha! Chad, you're thinking like a true medical student! Sometimes, doing less is better, especially in situations where the intervention itself carries significant risks or side effects.\n\nA few examples come to mind: in certain cases of asthma exacerbation, where theophylline or other medications might be used; for some types of shock, where fluid resuscitation alone might be sufficient...\n\nWe should be thinking critically about when to intervene, and when to let nature take its course!",
-        "color": "green"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Great examples, Maya! I'd also add that, in some cases, 'doing less' can mean focusing on the root cause of the problem rather than treating symptoms.\n\nLet's not forget the importance of addressing underlying factors, whether it's environmental, social, or psychological. That's where the true power of medicine lies!",
-        "color": "purple"
-      }
-    ],
-    "image": "https://figures.semanticscholar.org/6b95810a42b031cf99f3edc67979132e62efed73/2-Figure1-1.png"
-  },
-  {
-    "id": 1,
-    "title": "Case study: Subarachnoid hemorrhage masquerading as orthostatic syncope",
-    "body": "Just saw a patient with a classic case of subarachnoid hemorrhage (SAH) that was initially diagnosed as orthostatic syncope. The patient presented with a sudden onset headache, nausea, and vomiting after undergoing a routine spinal tap. His blood pressure was unremarkable, and initial vitals showed no abnormalities other than a slight orthostatic change in blood pressure. His symptoms completely resolved after a brief period of lying down, with no evidence of neurological deficits or alterations in mental status.",
-    "category": "Emergency Medicine",
-    "comments": [
-      {
-        "id": 2,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "I recently encountered a similar case where a patient presented with what initially appeared to be an orthostatic syncope. However, after performing a more thorough evaluation, we discovered that the patient had a posterior inferior cerebellar artery (PICA) aneurysm that had ruptured, leading to SAH. This highlights the importance of not jumping to conclusions and thoroughly evaluating patients with unexplained syncope, even in the absence of obvious neurological deficits.",
-        "color": "purple"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Can we discuss the role of PICA aneurysms in SAH a bit more? I've read that they can be a significant risk factor, especially in younger patients.",
-        "color": "green"
-      },
-      {
-        "id": 5,
         "parent_id": 2,
         "user": "Dr. Maya Gupta",
-        "role": "PGY2",
+        "role": "M.D.",
         "city": "Mississauga, ON",
-        "text": "Yes, let's talk about PICA aneurysms. They are a known risk factor for SAH, especially in patients with a history of hypertension or smoking. The typical presentation is a sudden, severe headache, often described as the 'worst headache of my life.' Initial imaging may show subtle findings, but subsequent MRA or CT angiography can reveal the aneurysm.",
-        "color": "green"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "What are some key takeaways from this case? How can we improve our diagnostic approach to avoid missing SAH masquerading as orthostatic syncope?",
-        "color": "teal"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "When evaluating patients with unexplained syncope, it's essential to perform a thorough neurological exam, including assessment of cranial nerves, motor strength, and reflexes. Don't forget to ask about any recent changes in mental status, headaches, or vision problems. Also, be mindful of the patient's history, including any history of trauma, substance abuse, or smoking.",
+        "text": "What are some common mistakes to avoid when diagnosing and treating hypoglycemia in the ED?",
         "color": "red"
       },
       {
+        "id": 5,
+        "parent_id": 1,
+        "user": "Dr. Kevin Park",
+        "role": "M.D.",
+        "city": "Edmonton, AB",
+        "text": "Does anyone know what the best approach is for managing hypoglycemia in critically ill patients?",
+        "color": "pink"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Elena Varkov",
+        "role": "M.D.",
+        "city": "Quebec City, QC",
+        "text": "Actually, the literature suggests using a combination of 50% dextrose and a continuous infusion of 10% dextrose to maintain glucose levels above 100 mg/dL.",
+        "color": "orange"
+      },
+      {
+        "id": 7,
+        "parent_id": 5,
+        "user": "Dr. Maya Gupta",
+        "role": "M.D.",
+        "city": "Mississauga, ON",
+        "text": "Also, it's worth noting that some patients with hypoglycemia may require glucagon administration, especially if they have severe refractory hypoglycemia secondary to oral hypoglycemic agents like sulfonylureas.",
+        "color": "purple"
+      },
+      {
         "id": 8,
         "parent_id": 7,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs. This is a trivial case. The patient simply had a vasovagal response to the spinal tap. Don't waste your time with pointless speculations about aneurysms and SAH.",
-        "color": "blue"
+        "user": "Dr. Maya Gupta",
+        "role": "M.D.",
+        "city": "Mississauga, ON",
+        "text": "TL;DR: Use 50% dextrose and a continuous infusion of 10% dextrose, and consider glucagon administration for refractory hypoglycemia due to sulfonylureas.",
+        "color": "green"
       },
       {
         "id": 9,
         "parent_id": 8,
-        "user": "Dr. Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Actually, Chief, this is a legitimate concern. SAH can be a life-threatening condition if not promptly diagnosed and treated. Your skepticism may lead to delayed diagnosis and worse outcomes.",
-        "color": "green"
+        "user": "Turbo Tom",
+        "role": "R.N.",
+        "city": "London, ON",
+        "text": "Thanks for sharing your expertise, Dr. Gupta! I'll make sure to add this to our ER's hypoglycemia protocol.",
+        "color": "blue"
       },
       {
         "id": 10,
         "parent_id": 9,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "I remember learning about the 'three H's' in SAH: 'Headache, Hypertension, and Hemiparesis'! Is there any new research that's changed our understanding of these classic symptoms?",
-        "color": "pink"
+        "user": "Dr. Aris Thorne",
+        "role": "M.D.",
+        "city": "Toronto, ON",
+        "text": "Great discussion, everyone! To wrap up, hypoglycemia is a common and potentially devastating ED diagnosis that requires prompt recognition and treatment. Let's all strive to be more vigilant about bedside glucose testing and to provide the best possible care for our patients.",
+        "color": "purple"
+      }
+    ],
+    "image": "https://www.uspharmacist.com/CMSImagesContent/2018/10/_HypoglyEmerg-T3.gif"
+  },
+  {
+    "id": 1,
+    "title": "TL;DR: Diverticulitis diagnosis and management got me wondering - what's everyones approach for imaging?",
+    "body": "Just saw a patient with a known history of diverticulitis come in with a new bout of lower left quadrant pain and fever. CT scan showed a 'phlegmon' which I think is just another word for inflamed colon with no clear abscess? Anyway, patient improved with IV fluids, antibiotics, and pain control, and was sent home with a plan to follow up in 2 weeks. Got me thinking, what's the protocol around imaging for diverticulitis? Should we be aiming for a 100% sensitivity CT scan or are there other ways to evaluate these cases? Anyone with pearls or wisdom, please share!",
+    "category": "EMergergency Medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "When I'm faced with a complicated diverticulitis, I always aim for a contrast-enhanced CT scan with both IV and oral contrast. It's the gold standard for evaluating the extent of disease and complications like phlegmon or abscesses. Don't get me wrong, I've heard some colleagues argue that MRI is superior, but I think the added expense and availability make CT the better choice. Thoughts?",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "I was taught that MRI is actually preferred for evaluating complex diverticulitis due to its higher sensitivity for detecting complications like abscesses and fistulas? Can you clarify, Dr. Thorne?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Actually, Sarah, I think there may be some nuance here. MRI is indeed excellent for identifying complications like abscesses, but its use is often limited by availability and cost. CT remains the preferred initial imaging modality due to its widespread availability and rapid turnaround time. That being said, an MRI can be a great additional tool for evaluating complex cases or when complications are suspected. Great question, though!",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs will overimagine the role of CT scans. If you're not planning a surgical intervention, there's no need to waste taxpayer dollars on CT scans when an ultrasound will suffice. Am I right?",
+        "color": "red"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Uh, no. That's not what I learned in med school, Chief. An ultrasound can be operator-dependent and missing a serious complication like an abscess or perforation would be catastrophic. CT scans provide a comprehensive look at the patient's anatomy and help me identify complications early on. Save the ultrasound for your ER consults, Chief.",
+        "color": "orange"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "You think you're some kind of expert now, Ziggy? An ultrasound can diagnose many diverticulitis complications with equal if not better performance than CT scans. Amateurs like you are just too quick to jump to CT scans without considering the risks.",
+        "color": "yellow"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Hey, let's keep it civil, Chief. The point is, in our ER, we use a combination of CT scans and clinical judgment to make decisions about patient care. The ultrasound is one tool we use, but it's not a replacement for CT scans. Don't @ me.",
+        "color": "purple"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Uh, sorry to interrupt, but I was just wondering, what's the difference between a phlegmon and an abscess? Are they just two different terms for the same thing, or are there actual clinical differences?",
+        "color": "green"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Ah, great question, Leo! A phlegmon refers to a localized collection of inflammatory cells and fluid within the wall of the colon, often resulting from a perforated appendix or diverticulitis. An abscess, on the other hand, is a more organized collection of pus. Think of it like a 'focus' of infection versus an abscess which is more like a 'center of pus'. Make sense?",
+        "color": "blue"
+      },
+      {
+        "id": 10,
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Hey, guys. Can we talk about the role of imaging for suspected diverticulitis? I've had RNs and docs alike tell me that we're over-imaging, but I still see a lot of patients coming in with unclear diagnoses and complications. Am I missing something?",
+        "color": "orange"
       },
       {
         "id": 11,
         "parent_id": 10,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Indeed, Sue! The classic 'three H's' are still relevant, but recent studies have emphasized the critical importance of non-contrast CT scans in identifying early signs of SAH. Let's discuss the role of imaging in the diagnosis of SAH.",
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "I think we get caught up in the radiologist's reports and forget the importance of the clinical exam. I still find a careful exam for tenderness, guarding, and rebound tenderness is essential in diagnosing diverticulitis.",
         "color": "purple"
-      }
-    ]
-  },
-  {
-    "id": 12,
-    "title": "Today I Learned: The Agony and the Ecstasy of Tracheal Intubation",
-    "body": "Had a miss last night with a 35-year-old female with a suspected spinal cord injury. We had a difficult time getting her to cooperate with the intubation attempt, and in the heat of the moment, I ended up using the EGD. But in retrospect, I was wondering if we should have considered a surgical airway earlier, especially given the patient's age and weight.",
-    "category": "Emergency Medicine",
-    "comments": [
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs still think they can make diagnoses with 'clinical exams'. Trust me, it's time to get with the times and use more imaging.",
+        "color": "red"
+      },
       {
         "id": 13,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Attending Physician",
-        "city": "Toronto, ON",
-        "text": "The key to successful intubation is often a combination of good technique, a skilled partner, and a little bit of luck. In this case, it sounds like you might have fallen victim to the 'zone of proximal development' - that narrow window of opportunity where the patient's airway becomes more difficult to manage as you get closer to success. Don't beat yourself up over it, though. It's a tough spot, and the EGD was the right call. (TLDR: check out this link on the zone of proximal development - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6449140/)",
-        "color": "purple"
+        "parent_id": 12,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Dude, come on. Clinical exams have value. They help us identify patients who need urgent attention. Don't @ me.",
+        "color": "orange"
       },
       {
         "id": 14,
         "parent_id": 13,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Thorne, I think you're referring to the ' zone of proximal development' as a concept from education theory? Can you elaborate on how it applies to anesthesia?",
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Hey guys, what's the best app for radiology education? I've been trying to get into med school but I need to brush up on my imaging skills?",
         "color": "green"
       },
       {
         "id": 15,
-        "parent_id": 13,
-        "user": "Dr. Maya Gupta",
-        "role": "Resident, Anesthesia",
-        "city": "Mississauga, ON",
-        "text": "@Dr. Aris Thorne, absolutely - the zone of proximal development is all about finding that sweet spot where the patient's airway is most receptive to intervention. We can use tools like the Miller maneuver, bougie-assisted intubation, and even a little bit of gentle traction to get the tube in. But it's also about reading the patient and adjusting our approach on the fly. Don't forget to check out the latest on bougie-assisted intubation - https://www.youtube.com/watch?v=L9sZ2u5sWYU)",
-        "color": "lightblue"
+        "parent_id": 14,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "Can someone please explain diverticulitis to me? I've been having some weird stomach pains and I'm worried it's me.",
+        "color": "purple"
       },
       {
         "id": 16,
         "parent_id": 15,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Gupta, that's really helpful. I've been trying to learn more about bougie-assisted intubation, but I haven't come across any resources on it. Can you recommend any good articles or videos on the topic?",
-        "color": "brown"
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Don't worry, Barnaby. You likely have something much more benign like a food intolerance or an appendicitis. Go see a doc and get a proper diagnosis. No diverticulitis here!",
+        "color": "blue"
       },
       {
         "id": 17,
-        "parent_id": 16,
-        "user": "Dr. Maya Gupta",
-        "role": "Resident, Anesthesia",
-        "city": "Mississauga, ON",
-        "text": "@Leo Chen, definitely check out the latest review from Anaesthesia & Intensive Care Medicine - 'Bougie-Assisted Tracheal Intubation: A Systematic Review' (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6463514/). It's a great overview of the literature. I also recommend checking out some videos from the likes of Dr. Andrew Kirkpatrick - he's got some excellent tutorials on bougie-assisted intubation.",
-        "color": "lightgreen"
-      },
-      {
-        "id": 18,
-        "parent_id": 13,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "What's all this fuss about the zone of proximal development? In my day, we just used a good ol' fashioned laryngoscope and got on with it. (Amateurs...)",
-        "color": "red"
-      },
-      {
-        "id": 19,
-        "parent_id": 18,
-        "user": "Dr. Aris Thorne",
-        "role": "Attending Physician",
-        "city": "Toronto, ON",
-        "text": "@Dr. Victor Sterling, come on, Vic - that's not the point. The point is that modern anesthesiology is all about finding the best approach for the individual patient. The zone of proximal development is just one tool in our toolkit. Don't write off something just because it's new.",
-        "color": "darkblue"
-      },
-      {
-        "id": 20,
-        "parent_id": 19,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "I think we could use some more context on the zone of proximal development - can anyone explain it in simpler terms? I feel like I'm stuck in the weeds",
-        "color": "lightbrown"
-      },
-      {
-        "id": 21,
-        "parent_id": 20,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "@Leo Chen, trust me, it's simpler than you think! Just think of it as the 'sweet spot' where the patient's airway is most receptive to intervention. We use various techniques to find that sweet spot, and then voila - intubation's a breeze!",
-        "color": "orange"
-      },
-      {
-        "id": 22,
-        "parent_id": 21,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Thanks for the explanation, @Turbo Tom! I feel a bit more confident now. But what about the surgical airway - can anyone recommend some good resources on that topic?",
-        "color": "brown"
-      },
-      {
-        "id": 23,
-        "parent_id": 22,
+        "parent_id": 17,
         "user": "Dr. Sarah Sharp",
-        "role": "Resident, Anesthesia",
+        "role": "EP",
         "city": "Laval, QC",
-        "text": "@Leo Chen, definitely check out the latest review from Anesthesia & Critical Care Medicine - 'Surgical Airway in Trauma Patients: A Systematic Review' (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6513145/). It's a great overview of the literature. I also recommend checking out some videos from the likes of Dr. Andrew Kirkpatrick - he's got some excellent tutorials on surgical airway placement.",
-        "color": "lightgreen"
-      },
-      {
-        "id": 24,
-        "parent_id": 13,
-        "user": "Dr. Aris Thorne",
-        "role": "Attending Physician",
-        "city": "Toronto, ON",
-        "text": "Well, I think that's a good summary of our discussion. To recap, the takeaway is that successful intubation is all about finding the best approach for the individual patient. We use tools like the zone of proximal development, bougie-assisted intubation, and even surgical airway placement to get the job done. Don't be afraid to seek out resources and advice from your colleagues - that's what we're here for.",
-        "color": "darkblue"
-      },
-      {
-        "id": 25,
-        "parent_id": 24,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Fine, have it your way. I still think I could've gotten the job done without all these frills and gizmos. (Amateurs...)",
-        "color": "red"
+        "text": "I want to link to a blog about evidence-based treatment for diverticulitis. Has anyone else come across this one?",
+        "color": "orange"
       }
     ]
   },
   {
     "id": 1,
-    "title": "Rant about abdominal trauma - CT vs. US?",
-    "body": "Had a miss last night with a 35yr old M/F with a decent mechanism of injury, but no significant findings on CT. Turns out she had a mesenteric injury and was in SIRS. I've been reviewing the guidelines and I'm starting to feel like CT is being overused in blunt abdominal trauma. What are your thoughts EM community? Should I go back to USing my trusty US probe?",
-    "category": "emergency-medicine",
+    "title": "Rant about: DVT vs Pulmonary Embolism diagnosis and treatment",
+    "body": "Just saw a patient with what looked like a textbook pulmonary embolism on the CT scan, but the patient's presentation was so weird that it kept throwing me off. I'm talking about a 30-year-old guy with sudden dyspnea and chest pain, but also had a fever and tachycardia. I ended up treating him for pneumonia instead of PE, and it wasn't until the next day when the lab results came back that we realized it was actually a large PE caused by a DVT in his leg. \n   One thing that kept bugging me was how easy it is for us to miss the diagnosis of DVT or PE. The most recent studies have shown that the majority of cases of PE are actually due to DVT. So the question is, what are we doing wrong? Is it that we're relying too much on the CT scan and not enough on the clinical presentation? Or are we just not taking the time to properly examine the patient?",
+    "category": "emergency",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "CT is still the gold standard, but you're right that it's not perfect. The problem is, US is not as great as we thought it was either, especially in pediatric patients. The ACR guidelines still recommend CT in stable patients with blunt trauma and risk factors for internal injury. However, I do agree that we do need to be more judicious with our imaging.",
-        "color": "purple"
+        "user": "Dr. Victor Sterling",
+        "role": "MD",
+        "city": "Calgary, AB",
+        "text": "Amateurs. We can't just rely on the clinical presentation. We need to use Wells' criteria to properly assess the patient's risk of PE. Anything less is just guessing. And by the way, have you seen the new studies on the use of D-dimer to rule out PE? It's a game-changer.",
+        "color": "blue"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs still think US is a good idea. I've seen too many cases where a CT would have changed the diagnosis and treatment. We need to stop over-diagnosing and just stick to what we know works.",
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "MD",
+        "city": "Vancouver, BC",
+        "text": "@Dr. Sterling, don't be such a jerk. You know as well as I do that relying solely on Wells' criteria is not enough. What about the patient who presents with no risk factors at all but still has a PE on the CT scan? We need to use our clinical judgment, not just some fancy criteria.",
         "color": "green"
       },
       {
         "id": 3,
         "parent_id": 2,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Dude, come on. You're not going to dismiss US altogether, are you? It's still a useful tool, especially in stable patients. The problem is when we start relying on it too heavily and forget about our other modalities. What do you guys think about the use of US in penetrating trauma?",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
         "user": "Leo Chen",
         "role": "MS1",
         "city": "Montreal, QC",
-        "text": "Excuse me Dr. Thorne, but can you clarify what you mean by 'risk factors for internal injury'? Do we have a specific definition for that?",
+        "text": "@Dr. Zalesky, what about using the SimpliRED d-dimer to rule out PE? I thought that was a reliable test. Can you explain more about how it works?",
         "color": "purple"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Great question, Leo. I should have clarified that. According to the ACP guidelines, the definition of high-risk blunt trauma includes: (1) an isolated high-speed motor vehicle collision, (2) a fall from a height, (3) a pedestrian struck by a vehicle, or (4) abdominal trauma with significant mechanism. We should also consider imaging in patients with any signs of abdominal wall trauma, tenderness, or peritoneal irritation.",
-        "color": "green"
-      }
-    ],
-    "image": "https://ars.els-cdn.com/content/image/1-s2.0-S2352556819304825-gr1.jpg"
-  },
-  {
-    "id": 234,
-    "title": "Today I Learned: Avoiding the Pitfalls of COPD Exacerbation in the ED",
-    "body": "As emergency physicians, we often underestimate the severity of COPD exacerbations, especially in patients who don't fit the typical profile. But let me tell you, I've learned a harsh lesson recently.",
-    "category": "emergencymedicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Preach, Dr. Thorne! I've seen way too many patients come in with mild symptoms, only to end up intubated and in the ICU. Can you tell us more about what you saw and what you learned from it?",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "TLDR: What specific symptoms were we missing that led to the severe exacerbation? Was it a missed beta-agonist dose, or something more complex?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "How did you manage to get the CT scan ordered on time in the ED? Is that something we should be doing for all COPD patients?",
-        "color": "green"
       },
       {
         "id": 4,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "I've been saying this for years: 'COPD patients are not just old people with wheezing'. You guys are always like, 'oh, just give them some more oxygen', but no... We need to dig deeper",
-        "color": "purple"
+        "parent_id": 3,
+        "user": "Dr. Maya Gupta",
+        "role": "MD",
+        "city": "Mississauga, ON",
+        "text": "@Leo, the SimpliRED d-dimer is a great test, but it's not foolproof. We need to consider other factors like the patient's risk factors and the clinical presentation when making the diagnosis. And by the way, have you seen the new guidelines on the use of anticoagulation for PE?",
+        "color": "green"
       },
       {
         "id": 5,
         "parent_id": 4,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Amen, sister! I've seen so many patients get written off as 'just COPD' when in reality they had underlying psych issues or malnutrition. Can we focus on getting to the root cause here?",
-        "color": "green"
+        "user": "Dr. Henry Oldman",
+        "role": "MD",
+        "city": "Victoria, BC",
+        "text": "@Dr. Gupta, yes, I've seen the guidelines. I still think we need to be careful with anticoagulation. We don't want to be causing more harm than good.",
+        "color": "blue"
       },
       {
         "id": 6,
         "parent_id": 5,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "What's the current best practice for assessing malnutrition in COPD patients? Do we need to be using some kind of screening tool?",
+        "user": "Dr. Elena Varkov",
+        "role": "MD",
+        "city": "Quebec City, QC",
+        "text": "@Dr. Oldman, I agree with you. Anticoagulation is a serious business, and we need to be careful when using it. But what about the patient who has a large PE and needs to be treated emergently? Do we just wait for the guidelines to catch up?",
         "color": "green"
       },
       {
         "id": 7,
-        "parent_id": 3,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Regarding the CT scan, Dr. Park - I think we can get by without it in most cases. The key is to use clinical judgment and look for red flags. Have you seen the paper by Dr. Celli on this topic?",
-        "color": "purple"
+        "parent_id": 2,
+        "user": "Sarah Jenkins",
+        "role": "MD",
+        "city": "Ottawa, ON",
+        "text": "@Dr. Zalesky, I'm with you. We need to use our clinical judgment and consider all the factors when making the diagnosis. But what about the role of imaging in diagnosing PE? Do we rely too much on the CT scan?",
+        "color": "blue"
       },
       {
         "id": 8,
         "parent_id": 7,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "What are some specific red flags that you'd recommend we look out for in COPD patients? I'd love to get a quick rundown of what to be on the lookout for.",
+        "user": "Dr. Kevin Park",
+        "role": "MD",
+        "city": "Edmonton, AB",
+        "text": "@Sarah, great question. I think we do rely too much on the CT scan. We need to use it in conjunction with other diagnostic tools, like the d-dimer and clinical criteria.",
         "color": "green"
       },
       {
         "id": 9,
         "parent_id": 8,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "Back in my day, we didn't have all these fancy tests and treatments. We just used our clinical acumen and common sense to figure out what our patients needed. Can you folks get back to basics?",
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "@Dr. Park, I'm a nurse and I've seen firsthand how important it is to use a combination of diagnostic tools. But what about the patient who has a normal CT scan but still presents with symptoms consistent with PE? How do we diagnose them?",
         "color": "purple"
       },
       {
         "id": 10,
         "parent_id": 9,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Lol @ Doc Thorne being all salty about the modern age. But seriously, what are some good resources for learning more about COPD and its management in the ED?",
+        "user": "Dr. Maya Gupta",
+        "role": "MD",
+        "city": "Mississauga, ON",
+        "text": "@Turbo, that's a great question. In cases like that, we need to rely on the clinical presentation and other diagnostic tools, like the d-dimer and clinical criteria. And of course, we need to consider other conditions that can mimic PE.",
         "color": "green"
       }
     ]
   },
   {
-    "id": 1,
-    "title": "Missed PID case last night...Rant about diagnosis and EM approach",
-    "body": "Had a patient come in with right lower quadrant pain, fever, and urinary symptoms. Initial vitals were tachycardic, BP 100/70. Initially diagnosed with pyelonephritis but didn't check a urine culture and the patient came back with a PID diagnosis 48 hours later. How do you guys catch this condition? I usually think about PID but sometimes I feel that I have a blindspot for this one.",
-    "category": "emergency medicine",
-    "comments": [
-      {
-        "id": 2,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Great post! PID can be tricky to diagnose, especially when patients present with non-specific symptoms. I always ask myself if the patient is sexually active and have they recently started a new sexual relationship. I also look for fever, abnormal cervical motion tenderness, and suprapubic tenderness. However, these symptoms can be subtle, especially in older adults or in patients with a low threshold for pain.\n\nOne thing that helps me is to consider the patient's risk factors for PID. Are they a young woman? Have they had multiple sexual partners? Have they used an IUD or have a history of PID? These factors increase the likelihood of PID.\n\nLastly, don't forget to consider other potential causes of abdominal pain such as appendicitis or ovarian torsion. A quick ultrasound can rule out these conditions and confirm the diagnosis of PID.",
-        "color": "blue"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "That's a great point about considering the patient's risk factors for PID. Can you explain more about what you mean by the patient's 'history of PID'?\n\nIs that referring to a previous episode of PID or something else entirely?",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 2,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "What's with the obsession over PID? It's not like it's something we don't diagnose every day. And as for the patient's history, of course, it refers to a previous episode of PID. Do we need to explain the basics of EM?",
-        "color": "red"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Actually, @Dr. Sterling, not everyone may be familiar with the basics of EM, and that's okay. We're here to learn and help each other. Plus, it's always good to refresh our knowledge and consider different perspectives.\n\nTo answer @Leo's question, a patient's history of PID would indeed refer to a previous episode of PID. It can be caused by a variety of factors, including bacterial vaginosis, trichomoniasis, or even a normal flora overgrowth.\n\nWhat I find helpful is to remember the 'STI triad': cervicitis, vaginitis, and pelvic inflammatory disease. This can help guide our physical exam and diagnostic testing.",
-        "color": "pink"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "I love the 'STI triad' mnemonic! However, I've also heard that there's another mnemonic that can be helpful in diagnosing PID: 'CEAP'. Can you explain what that stands for and how it relates to PID?",
-        "color": "purple"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Ahaha, @Sarah, I was waiting for you to mention the 'CEAP' mnemonic. CEAP stands for cervicitis, endometritis, and pelvic inflammatory disease, but it also includes 'adnexal tenderness' which is a crucial finding in PID. Remember, the 'C' in CEAP stands for 'cervicitis', but the 'A' is adnexal tenderness.",
-        "color": "orange"
-      },
-      {
-        "id": 8,
-        "parent_id": 1,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "What's all this commotion about PID? Why must we always discuss sex and STIs? In my day, we just called it 'the clap' and sent them on their merry way. Nowadays, it seems like we're always talking about the risks and consequences of PID. What's the harm in just treating it as a straightforward case of infection?",
-        "color": "brown"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Oh, come on @Dr. Thorne! PID is a serious condition that can lead to infertility, ectopic pregnancy, and even life-threatening complications like sepsis or abscesses. We need to take it seriously and not just 'send them on their merry way'. And by the way, STIs are still a major public health concern.",
-        "color": "yellow"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Rant about surrogate decision making in the ER",
-    "body": "Had a tough case last night where the patient's family was adamant we follow DNR orders, but the chart indicated the patient had never signed anything and none of the family members had any recollection of discussing this with the patient. After a long discussion with the family, we were unable to find any advanced directive or POLST form. The question is, what's the best way to navigate these situations?",
+    "title": "Approach to Traumatic Shock: A Cautionary Tale",
+    "body": "Just saw a patient with traumatic shock after a high-voltage electrical injury. Had all the classic signs of hypovolemic shock: tachycardia, tachypnea, hypotension, and oliguria. Did the usual ABCDE checks, but somehow missed a tension pneumothorax on the CXR. Thankfully, CT angiogram revealed a major vessel injury that was promptly treated. Had to think on our feet to identify the underlying cause and adjust our management plan.",
     "category": "Emergency Medicine",
     "comments": [
       {
-        "id": 11,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "This is a classic scenario. When we can't find any advance directives, I always go back to the patient's own words. Have they stated their wishes to a family member or friend? Has the patient ever discussed their values and goals of care with their family? This can be a powerful way to understand their likely wishes, even in the absence of formal directives.",
-        "color": "blue"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "But what if the patient has never discussed their wishes with anyone? Don't we just have to go with what the family wants? Or do we need to pursue a court order?",
-        "color": "green"
-      },
-      {
-        "id": 13,
-        "parent_id": 11,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Actually, the law varies by jurisdiction, but in general, we want to try to establish the patient's own wishes first. If that's not possible, we can look to the patient's family for guidance. But yes, if that's not clear either, a court order may be necessary.",
-        "color": "blue"
-      },
-      {
-        "id": 14,
-        "parent_id": 12,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "In our ER, we have a form called the 'Life-Sustaining Treatment Information Form' (SLITIF) that asks families to indicate what they think their loved one would want in terms of treatment. It's not a substitute for a formal advance directive, but it can be a useful tool in cases like this.",
-        "color": "green"
-      },
-      {
-        "id": 15,
-        "parent_id": 12,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "I had to deal with this situation with my grandmother once. The family was all arguing and nobody knew what she wanted. In the end, we just had to make the best decision for her given the circumstances.",
-        "color": "purple"
-      },
-      {
-        "id": 16,
-        "parent_id": 13,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "What about the patient's functional status? Should we take that into account when making treatment decisions?",
-        "color": "green"
-      },
-      {
-        "id": 17,
-        "parent_id": 16,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "Absolutely. The patient's functional status can provide valuable insights into their values and wishes. For example, if the patient is severely disabled, they may have a different perspective on the value of life-sustaining treatments than someone who is fully functional.",
-        "color": "blue"
-      },
-      {
-        "id": 18,
-        "parent_id": 16,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "But isn't that just a substitute for a formal advance directive? I mean, what if the patient's family doesn't agree with the patient's functional status?",
-        "color": "green"
-      },
-      {
-        "id": 19,
-        "parent_id": 17,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "That's a fair point, but a patient's functional status can provide a more nuanced understanding of their values and wishes. And if the family disagrees, we can use other tools, like the patient's history and the results of our assessment, to help guide our decision-making.",
-        "color": "blue"
-      }
-    ],
-    "image": "https://assets.cambridge.org/97810091/01950/large_cover/9781009101950i.jpg"
-  },
-  {
-    "id": 123,
-    "title": "Missed diagnoses in trauma: don't forget to think beyond the obvious!",
-    "body": "Just had a case last night where we missed a small bowel injury in a patient with a penetrating trauma to the back. We did a quick CT and thought we had covered everything, but the patient ended up having a small bowel infarction due to a missed diaphragmatic injury. It's a lesson we all know, but it never hurts to be reminded. Has anyone else ever had a similar experience? What are some strategies for avoiding these types of mistakes?",
-    "category": "emergency medicine",
-    "comments": [
-      {
         "id": 1,
         "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "TLDR: always be on the lookout for diaphragmatic injuries, even with a normal chest x-ray. I had a similar case a few months ago where we missed a diaphragmatic rupture and the patient ended up with a herniated liver. It was a total wake-up call. Here are a few things that helped us identify the injury in hindsight:\n\n1. Pay attention to the patient's history - a penetrating trauma to the back without any obvious injuries is a red flag for a diaphragmatic injury.\n2. Use a high-quality chest x-ray with a lateral view - a normal anterior-posterior (AP) x-ray might not show any signs of a diaphragmatic injury, but a lateral view might reveal a small herniation.\n3. Get a CT scan - a CT scan of the abdomen and pelvis can help identify any small bowel injuries or other complications.\n4. Don't be afraid to go back and re-evaluate the patient - sometimes, a missed diagnosis is just a matter of looking at the evidence again with fresh eyes.",
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "A great reminder that traumatic shock can have multiple etiologies. Always ask yourself: 'Have I missed something obvious?' I've had cases where a patient with trauma presented with severe hyperkalemia and rhabdomyolysis, only to reveal underlying injuries that required immediate intervention. Keep your mind open and your eyes peeled!",
         "color": "purple"
       },
       {
         "id": 2,
-        "parent_id": null,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "I couldn't agree more with Dr. Gupta's strategies! One thing I'd add is to make sure you're using a trauma protocol when evaluating patients with penetrating trauma. Our hospital has a great protocol that includes a quick CT scan, a pelvic exam to check for any genital trauma, and a thorough neurological exam to check for any signs of head trauma. It's amazing how often following a protocol can help you catch a missed diagnosis. Here are a few online resources that might be helpful: (PDF) Trauma Protocol for Penetrating Trauma (https://www.ovid.com/pdf/trauma-protocol-for-penetrating-trauma.pdf)\n\nAnother thing to keep in mind is the importance of communication between providers. In our case, we missed the diaphragmatic injury because the patient's chart was reviewed by a resident who was not familiar with the patient's history. If we had done a better job of communicating the patient's story to each other, we might have caught the injury sooner. It's a lesson we all know, but it's worth reinforcing.",
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "So, what specific signs should we look out for in patients with traumatic shock to avoid missing potential etiologies? Can someone clarify what 'multiple etiologies' means in this context?",
         "color": "green"
       },
       {
         "id": 3,
         "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Hi Dr. Gupta, could you clarify what you mean by 'diaphragmatic injury'? Is that a tear in the diaphragm itself, or something else? I'm a bit confused about the mechanism of injury and how it leads to small bowel infarction. Thanks!",
-        "color": "blue"
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs need to learn to think critically. Traumatic shock can have multiple etiologies, but the majority of cases are straightforward and result from bleeding or hypovolemia. Don't overcomplicate things, stick to the basics. And for goodness' sake, order an appropriate CT angiogram, stat!",
+        "color": "orange"
       },
       {
         "id": 4,
+        "parent_id": 2,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Leo, good question! When evaluating a patient with traumatic shock, look for signs of bleeding (e.g., tachycardia, hypotension, oliguria), but also be aware of potential etiologies such as cardiac tamponade, tension pneumothorax, or adrenal insufficiency. These conditions can present similarly to hypovolemic shock and require different treatments.",
+        "color": "pink"
+      },
+      {
+        "id": 5,
         "parent_id": 3,
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "Hi Leo! A diaphragmatic injury refers to a tear or rupture in the diaphragm, which is a dome-shaped muscle that separates the chest cavity from the abdominal cavity. When the diaphragm is torn, it can allow abdominal organs to herniate into the chest cavity, which can lead to complications such as small bowel infarction. The mechanism of injury is often a result of blunt trauma to the abdomen, which can cause a sudden increase in intra-abdominal pressure and lead to diaphragmatic rupture. It's a bit like when you blow up a balloon too much and it pops - the diaphragm can get 'blown up' too much and tear, allowing abdominal organs to escape into the chest.",
-        "color": "purple"
-      },
-      {
-        "id": 5,
-        "parent_id": 2,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Great point about communication, Dr. Gupta! It's so important to make sure everyone is on the same page when it comes to patient care. And I completely agree that following a trauma protocol can help catch missed diagnoses. Here's a link to a great resource on trauma care: (PDF) Advanced Trauma Life Support (ATLS) (https://www.atls.org/).\n\nOne thing I'd like to add is that even with a strong protocol in place, mistakes can still happen. It's how we respond to those mistakes that matters. In our case, the patient was transferred to the ICU and received prompt treatment for the small bowel infarction. It was a close call, but fortunately, the patient is doing well.",
-        "color": "green"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "AMEN to that, Dr. Sharp! Communication is key in trauma care, and it's so easy to get complacent when things are going smoothly. I've worked in trauma units for years, and I can tell you that even the smallest mistake can have big consequences. It's not just about following a protocol - it's about being vigilant and paying attention to the little things. And if you're ever in doubt, don't be afraid to ask for a second opinion.",
-        "color": "purple"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "TL;DR of acute cholecystitis in the ED: what you need to know",
-    "body": "Just saw a patient with acute cholecystitis and it got me thinking... Murphy's sign is still the most sensitive physical exam finding, but what about the ultrasound? And don't even get me started on choledocholithiasis. Has anyone else struggled with the differentiation between acute cholecystitis and biliary colic in the ED?",
-    "category": "emerg medicine",
-    "comments": [
-      {
-        "id": 2,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Great post! In my experience, ultrasound is still the best modality for diagnosing acute cholecystitis in the ED. The sensitivity and specificity are high, and it's non-invasive. One thing to keep in mind is that the patient may have a normal ultrasound in the first 4-6 hours of symptoms, so repeat imaging is often necessary. Has anyone else noticed this?",
-        "color": "purple"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": " Wait, what's the difference between biliary colic and acute cholecystitis? Can someone explain it to me like I'm a med student?",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Great question, Chad! Biliary colic is typically characterized by episodic pain in the right upper quadrant, often associated with gallstones. It's usually self-limiting and doesn't require immediate surgery. Acute cholecystitis, on the other hand, is an inflammatory condition of the gallbladder, often caused by obstruction of the cystic duct. Symptoms can include fever, jaundice, and signs of peritonitis. Has anyone else seen a case of acute cholecystitis with a low WBC count?",
+        "text": "Thank you, Dr. Sterling, for the condescending remark! Seriously though, in trauma, we often have to think outside the box and consider unusual causes for shock. Have any of you read about the case of cardiac tamponade in pediatric trauma? Would love to discuss.",
         "color": "blue"
       },
       {
-        "id": 5,
+        "id": 6,
         "parent_id": 4,
         "user": "Leo Chen",
         "role": "MS1",
         "city": "Montreal, QC",
-        "text": "I think I saw a case like that, Dr. Sharp! Do you remember the patient with the low WBC count and severe right upper quadrant pain? Wasn't it a case of acalculous cholecystitis?",
-        "color": "red"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "Acalculous cholecystitis is a good reminder that we shouldn't solely rely on the presence of gallstones for the diagnosis of acute cholecystitis. Other risk factors, such as diabetes, trauma, or prolonged fasting, can also contribute to the development of acalculous cholecystitis. Has anyone else noticed an increased incidence of acalculous cholecystitis in certain patient populations?",
-        "color": "violet"
+        "text": "Okay, I think I understand now. But what about monitoring for hyperkalemia and rhabdomyolysis? Are those things that should be on our radar when evaluating a patient with traumatic shock?",
+        "color": "purple"
       },
       {
         "id": 7,
-        "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "A lot of unnecessary drama over a simple topic. Acute cholecystitis is a surgical emergency, but let's not forget the importance of careful pre-op evaluation. Has anyone else encountered a case of acute cholecystitis with a high-risk patient?",
-        "color": "brown"
+        "parent_id": 5,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician (1930s)",
+        "city": "Saskatoon, SK",
+        "text": "You young whippersnappers don't know the old days! Back in my time, we had to worry about apoplexy and liniment-induced rashes. But, I digress. Hyperkalemia and rhabdomyolysis are indeed important considerations in trauma, especially in patients with high-voltage electrical injuries.",
+        "color": "green"
       },
       {
         "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Great point, Dr. Sterling! In my experience, patients with severe comorbidities or multiple medications can be at higher risk for complications during surgery. Have you had any cases where you had to delay surgery due to pre-op optimization?",
-        "color": "orange"
+        "parent_id": 6,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Yes, hyperkalemia and rhabdomyolysis are crucial to monitor for in trauma patients. I always ask myself: 'Have I ordered a creatinine level and a CK-MB to check for muscle damage?' It's amazing how often we miss these subtle signs of internal bleeding.",
+        "color": "blue"
       },
       {
         "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "Yes, I've had cases where I had to delay surgery due to pre-op optimization. But what about the use of HIDA scans in the diagnosis of acute cholecystitis? Are they still necessary in the ED?",
-        "color": "yellow"
+        "parent_id": 1,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "TL;DR: Traumatic shock can be a real pain in the butt! Keep your eyes open for bleeding, tension pneumothorax, adrenal insufficiency, and hyperkalemia/rhabdomyolysis. Don't be an amateur and overlook the obvious stuff. And for goodness' sake, order that CT angiogram!",
+        "color": "orange"
       },
       {
         "id": 10,
         "parent_id": 9,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "HIDA scans may not be necessary in the ED, but I think they can still be useful as an adjunct tool in the post-op period to evaluate for residual inflammation or stone clearance. Has anyone else had experience with follow-up HIDA scans in patients after gallbladder surgery?",
-        "color": "tan"
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Preach, Ziggy! We ER nurses see the patients firsthand and know that trauma can be a real challenge. Keep it real, folks, and don't be afraid to call for help when you need it.",
+        "color": "purple"
       }
-    ]
+    ],
+    "image": "https://mjm.mcgill.ca/article/download/872/version/1087/735/5347/Figure1.png"
   },
   {
-    "id": 9,
-    "title": "Today I Learned: Otitis Externa - More Than Just \"Swimmers Ear\"",
-    "body": "Had a weird case last night. 7yo boy with a 3-day history of itching, pain, and redness of the external ear. Dad says he's been swimming 3x a week. I'm pretty sure it's otitis externa, but I wanted to get some input from the group. What are your go-to treatments and what are some potential red flags for malignant otitis externa?",
-    "category": "medicine",
+    "title": "Just saw a patient with status asthmaticus... and it made me think... ",
+    "body": "I've seen my fair share of status asthmaticus cases, but last night's patient really made me think about the nuances of bronchodilator therapy. We had a 45 year old female with no past medical history who presents to our ED with worsening asthma symptoms. She had been taking her usual inhalers for months, but over the past week, her symptoms had been getting progressively worse. She was using her albuterol inhaler every 4 hours, but even that was starting to lose its efficacy. We decided to admit her and start her on continuous nebulized bronchodilators and steroids. However, despite our best efforts, she continued to deteriorate and required high flow oxygen therapy. That's when it hit me... have we been doing this wrong all along? We've been relying so heavily on bronchodilators, but are we missing the mark by not addressing the underlying inflammation? I started to look into some research on this and it got me thinking... has anyone else had this thought? Should we be shifting our focus to more anti-inflammatory medications in our bronchodilator therapy? ",
+    "category": "EM:ER",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Good call bringing this up. Otitis externa is often overlooked, but it's a common condition. I like to use ofloxacin otic drops 2-3 times a day for 7-10 days, depending on the severity of the symptoms. I also recommend teaching patients how to dry the ear canal with a towel after showering and to avoid sticking Q-tips in their ears. Has anyone heard of using acetic acid/hydrocortisone otic drops for this condition?",
-        "color": "blue"
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs think they can cure asthma with more medication. The key to managing asthma is lifestyle modification. Get patients to stop smoking, lose weight, and exercise regularly.",
+        "color": "red"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs, you're all overthinking this. The vast majority of otitis externa cases can be treated with just antibiotics. Stop using otic drops and just write a prescription for amoxicillin/clavulanate or some other sulfa-based antibiotic. And for goodness' sake, don't even think about using that fancy-schmancy acetic acid/hydrocortisone cocktail.",
-        "color": "red"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "I respectfully disagree, Vic. Otic drops are a more targeted therapy for otitis externa, and they have fewer side effects compared to oral antibiotics. What about the case of malignant otitis externa? Shouldn't we be considering that in our treatment plans?",
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "FP",
+        "city": "Vancouver, BC",
+        "text": "Come on Vic, that's easy for you to say when you get to tell people what to do. In the real world, patients are hard to motivate. Have you ever tried to get someone to use an inhaler correctly? It's like trying to train a cat.",
         "color": "blue"
       },
       {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "I was reading about otitis externa the other day, and I think it's worth mentioning that elderly patients, especially those with diabetes, are more at risk of developing malignant otitis externa. Do any of you have experience with this condition?",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "I had a patient come in last week with a severe case of otitis externa. I ended up using a hydrocortisone cream to help reduce inflammation, and it seemed to do the trick. Does anyone have experience with using topical steroids in this context?",
-        "color": "purple"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Actually, Sparkle-Eyes, hydrocortisone cream isn't the best choice here. The literature suggests that topical steroids can worsen the condition by pushing pus and debris further into the ear canal. Instead, I'd recommend using ofloxacin otic drops or another fluoroquinolone antibiotic.",
-        "color": "orange"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Thanks for the correction, Dr. Gupta! I guess I got carried away with the whole 'cortisone is magic' thing. Do you know of any other treatments for otitis externa that are worth considering?",
-        "color": "purple"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "From my experience, a combination of warm compresses, gentle ear cleaning with hydrogen peroxide, and some TLC usually does the trick for minor cases of otitis externa. Of course, this all depends on the severity of the symptoms and the patient's overall health.",
-        "color": "brown"
-      },
-      {
-        "id": 9,
+        "id": 3,
         "parent_id": 1,
         "user": "Leo Chen",
         "role": "MS1",
         "city": "Montreal, QC",
-        "text": "Excuse me, but I was wondering if anyone could explain the pathophysiology behind otitis externa? I've heard it has something to do with the pH balance of the ear canal, but I'm not entirely sure.",
+        "text": "I understand what you mean Dr. Sterling, but what about patients who have severe asthma? They often rely on medication to control their symptoms. Can we really just tell them to quit smoking and exercise?",
+        "color": "purple"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I think what Dr. Sterling is getting at, Leo, is that we should be using medication as a last resort, not the first line of treatment. Have you seen the latest guidelines from the Canadian Respiratory Guidelines? They recommend a more comprehensive approach to asthma management, including lifestyle modifications, patient education, and medication as needed.",
+        "color": "green"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Sarah Sharp",
+        "role": "FP",
+        "city": "Laval, QC",
+        "text": "I completely agree with Dr. Gupta. The evidence-based approach is the way to go. And have you seen the study on the effectiveness of inhaler therapy? It's been shown to be effective in managing symptoms, but only when used as part of a comprehensive treatment plan.",
+        "color": "orange"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "I'm so glad we're having this discussion. As a nurse, I see patients come in every day with asthma symptoms. And you know what the biggest challenge is? Getting them to use their inhalers correctly. Do you guys have any tips on how to educate patients on proper inhaler technique?",
         "color": "pink"
       },
       {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "Ahahahaha! I've been telling my residents the same thing for years. The key is to make it simple and straightforward. Show them how to prime the inhaler, how to use it correctly, and make sure they have a demo model to practice with. Don't be afraid to repeat yourself either",
+        "color": "brown"
+      },
+      {
+        "id": 8,
+        "parent_id": 6,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "I'm not sure I follow. What do you mean by 'prime the inhaler'? Isn't that just a fancy term for 'shake the can'?",
+        "color": "lightblue"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Ahahaha, Dr. Park! That's not entirely wrong, but there's a bit more to it than just shaking the can. Priming the inhaler means making sure the medication is fully dissolved and ready to be inhaled. It's an important step that can make a big difference in how well the medication works.",
+        "color": "lightgreen"
+      },
+      {
         "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "ER Physician",
-        "city": "Vancouver, BC",
-        "text": "Ah, Leo, you're asking the million-dollar question! Otitis externa is indeed related to the pH balance of the ear canal. Specifically, it's caused by a buildup of bacteria and fungi in the canal, often exacerbated by factors like swimming, trauma, or using Q-tips. Think of it like a fungal garden in there - we need to get rid of the weeds (bacteria and fungus) before the whole thing gets out of control!",
-        "color": "blue"
+        "parent_id": null,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "OMG you guys are all so smart! Can I just ask, what's a bronchodilator?",
+        "color": "yellow"
       },
       {
         "id": 11,
         "parent_id": 10,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "My boy, a bronchodilator is a medication that relaxes the muscles in the airways, making it easier to breathe. It's a key component in the treatment of asthma and COPD. But remember, my young friend, it's not just about the medication. Lifestyle modifications and education are just as important",
+        "color": "darkgray"
+      }
+    ]
+  },
+  {
+    "title": "Today I Learned: Don't Rely Too Heavily on the 'Low Probability ACS' Criteria",
+    "body": "Had a miss last night with a patient who fit all the low probability ACS criteria but ended up having an actual MI. I was so caught up in the 3-6% risk of cardiac event that I didn't follow up as closely as I probably should have.\nI've been ruminating on this case and I'm starting to think that the low probability ACS criteria shouldn't be used as a crutch to get out of ordering further testing. I mean, think about it, if we miss a MI in someone with a 'low probability' of having one, we're essentially trading a possible delay in diagnosis for a potential decrease in ED throughput.\nI've been looking into the literature and it seems like there are some other factors that could contribute to a low probability ACS, such as certain types of chest pain (pleuritic, positional, etc.) or normal ECGs. But we need to be aware of these factors and use them in conjunction with our clinical judgment, not as a substitute for it.\nTLDR: Don't rely too heavily on the low probability ACS criteria, use your judgment and get a good history and physical before sending someone home.",
+    "category": "medical",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "I couldn't agree more. I've seen this happen time and time again. Patients with low probability ACS get sent home with a diagnosis of costochondritis or reflux, only to come back a few days later with a heart attack. It's all about taking a step back and thinking critically. What was the patient's initial complaint? What did the history and physical reveal? These are the things that are going to keep us from missing a serious diagnosis like MI.",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
         "user": "Leo Chen",
         "role": "MS1",
         "city": "Montreal, QC",
-        "text": "WOW, thank you Dr. Zalesky! I was totally lost on that one. Can you tell me more about the specific pathogens responsible for otitis externa? I know pseudomonas is one of them, but are there others?",
-        "color": "pink"
+        "text": "Dr. Thorne, can you speak to what you mean by 'critical thinking'? How do we balance the need to keep our throughput high with the need to carefully evaluate each patient?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "What a bunch of hype. I've been doing this for 20 years and I've never seen anyone die from a missed diagnosis of low probability ACS. Let's not get carried away here.\nAlso, can someone explain to me why we're talking about the ED throughput instead of focusing on the medical management of these patients? The throughput is just a symptom of the real issue, which is that we're not using our resources effectively.",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Dr. Sterling, I think that's a bit short-sighted. The ED throughput is a critical component of our patients' care. If we're bogged down with unnecessary tests and admissions, it's going to affect the timely delivery of care to every patient in the ED.",
+        "color": "purple"
+      },
+      {
+        "id": 5,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Dr. Thorne, can you link to the literature that supports the idea that we should be more cautious with low probability ACS? I'd love to read up on this.",
+        "color": "green"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Actually, Sarah, there isn't really a specific article that addresses this topic directly. However, you can look up the literature on diagnostic error and how to avoid it. There are some great reviews out there that discuss the importance of critical thinking in emergency medicine.\nOne resource that I always recommend is the book 'Thinking in Emergency Medicine' by [Author]. It's a great resource for anyone looking to improve their critical thinking skills.",
+        "color": "purple"
+      },
+      {
+        "id": 7,
+        "parent_id": 1,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "I was just wondering, how do we define 'low probability ACS' in the first place? Is there a specific algorithm or criteria that we use?",
+        "color": "green"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Dr. Park, we use the low probability ACS criteria to identify patients who are at low risk of having an acute coronary syndrome. This can include patients with certain types of chest pain, normal ECGs, or other factors that decrease the likelihood of MI.\nHowever, it's worth noting that these criteria shouldn't be used in isolation. We need to take into account the patient's overall clinical context and use our clinical judgment to determine the best course of action.",
+        "color": "purple"
+      },
+      {
+        "id": 9,
+        "parent_id": 1,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "I'd love to add a little nuance to this conversation. While it's true that we shouldn't rely too heavily on the low probability ACS criteria, it's also important to remember that some patients who have low probability ACS will still go on to have MIs.\nIn these cases, the key is to have a high index of suspicion and follow up closely. I think this is where our clinical judgment comes into play.",
+        "color": "blue"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Dr. Varkov, I couldn't agree more. It's all about using our clinical judgment to evaluate each patient individually. Whether it's a patient with low probability ACS or not, we need to be aware of the potential for MI and take steps to mitigate that risk.",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Rant about advance directives in the ED",
+    "body": "Just saw a patient with a nasty head injury. We had to intubate and stabilize them, but the problem was their mom kept telling us to 'do everything'. We eventually found out they had an advance directive from years ago, but it was outdated and didn't reflect their current wishes. I know, 'CYA' and all that. But seriously, who hasn't had a patient's family go rogue on them?",
+    "category": "emergency medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr_Thorne",
+        "role": "MD",
+        "city": "Toronto, ON",
+        "text": "TLDR: advance directives matter. Can you share more about the patient's history? Was there any discussion about their wishes beforehand?",
+        "color": "blue"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Sarah_J",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Actually, I think I can provide some insight. In my emergency medicine rotation, we learned about the '4Rs of advance care planning':  1) Respect for patient autonomy, 2)  Respect for patient preferences, 3)  Respect for the patient's past decisions, and 4)  Respect for the patient's family values. Do you think this framework could be helpful here?",
+        "color": "#cccccc"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Maya_Gu",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I agree with Dr. Thorne. It's crucial to understand the patient's values and wishes beforehand. Have you guys considered using a 'Values-Clarification Interview' (VCI)? It can be a helpful tool to guide the discussion around advance care planning.",
+        "color": "#333333"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Brock_S",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "I'm more concerned about the legal implications. Has anyone thought about the patient's 'surrogate decision-maker'? Was that identified and contacted?",
+        "color": "#cc0000"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr_Elena_V",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Actually, this is where the POLST/MOLST forms come in. If the patient has one of those, it can clarify their wishes and identify their surrogate decision-maker. Have you guys looked at these forms in your EM rotations?",
+        "color": "#00cccc"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Leo_C",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I think I've seen these forms before. Aren't they like a 'physician's order' for advance care?",
+        "color": "#cccccc"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Sarah_J",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Exactly! POLST/MOLST forms are essentially a physician's order for advance care. They can help clarify the patient's wishes and avoid conflicts. I've read that some states/countries are even making them mandatory.",
+        "color": "#cccccc"
+      },
+      {
+        "id": 8,
+        "parent_id": 1,
+        "user": "Dr_Rick_R",
+        "role": "EP",
+        "city": "Windsor, ON",
+        "text": "Ugh, don't even get me started on these forms. We've got enough bureaucratic BS in the ED without having to deal with these. Can we just focus on treating the patient and not worrying about their advance directives?",
+        "color": "#999999"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr_Elena_V",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "I understand your frustration, Dr. Rick, but these forms are actually a tool to support patient autonomy and ensure that their wishes are respected. Can't we try to see the value in them?",
+        "color": "#cccccc"
+      },
+      {
+        "id": 10,
+        "parent_id": 8,
+        "user": "Maya_Gu",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I agree with Dr. Elena. Using POLST/MOLST forms can actually help reduce conflicts and improve patient satisfaction. Have you guys looked into any studies on the effectiveness of these forms?",
+        "color": "#333333"
+      },
+      {
+        "id": 11,
+        "parent_id": 1,
+        "user": "Dr_Archibald_T",
+        "role": "MD",
+        "city": "Saskatoon, SK",
+        "text": "In my day, we used to call it the 'physician's order for life-sustaining treatment'. But these new-fangled terms like POLST/MOLST confuse me.",
+        "color": "#cccccc"
       },
       {
         "id": 12,
         "parent_id": 11,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "ER Physician",
-        "city": "Vancouver, BC",
-        "text": "Good question, Leo! According to the literature, the most common pathogens responsible for otitis externa are Pseudomonas aeruginosa and Staphylococcus aureus. Of course, there are other bacteria and fungi that can cause the condition as well, but those two are the usual suspects. Does that make sense?",
-        "color": "blue"
+        "user": "Sarah_J",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Don't worry, Dr. Archibald! POLST/MOLST are just an update to the old physician's orders for life-sustaining treatment. They're trying to make it clearer and more standardized.",
+        "color": "#cccccc"
       }
     ],
-    "image": "https://www.osmosis.org/_next/image?url=https%3A%2F%2Fd16qt3wv6xm098.cloudfront.net%2FgquUt32BRWOjKM2XoNMHjxuMSnmu5zBu%2F_.jpg&w=3840&q=75"
+    "image": "https://www.jems.com/wp-content/uploads/2025/06/clemson-fire-ems-edit-1024x536.jpg"
+  },
+  {
+    "id": 15,
+    "title": "Today I learned that ABU is more common than UTIs in healthy women...",
+    "body": "Had a case come in yesterday where a 25 y/o healthy, non-pregnant woman presented with asymptomatic bacteriuria (ABU). She had a routine urinalysis and her provider sent her to me for further evaluation. Turns out, she had over 100,000 CFU/mL of E. coli which meets the usual cut-off for ABU. The interesting thing was that she had no symptoms whatsoever. I know we've discussed the nuances of ABU vs UTI before, but I wanted to throw it out there because it's a great reminder that asymptomatic bacteriuria is not the same as a UTI and shouldn't be treated as such. What are your thoughts on this?\n\nTL;DR - ABU vs UTI: what's the difference?\n\nReferences: CDC guidelines for ABU management",
+    "category": "emergency medicine",
+    "comments": [
+      {
+        "id": 16,
+        "parent_id": null,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "@OP good reminder. I just had a patient last week with ABU and it was hard to tell the difference between that and a low-grade UTI. Do you have any tips on how to differentiate between the two based on history and physical?\n\nEdit: I've heard that patients with ABU are more likely to have recurrences in the coming months. Is that true?",
+        "color": "blue"
+      },
+      {
+        "id": 17,
+        "parent_id": 16,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "@Dr.KevinPark yeah, I've heard that too. One way to differentiate is to look for a history of recurrent infections or persistent bacteriuria on previous urinalyses. If the patient has no symptoms and a consistent urine culture with no growth inhibition, it might be ABU. Also, patients with ABU are often asymptomatic, so a thorough physical exam is key to ruling out other causes. What's your take on the use of the dipstick in cases like this? Shouldn't it be used as a screening tool only?",
+        "color": "green"
+      },
+      {
+        "id": 18,
+        "parent_id": 17,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "@Dr.MayaGupta I'd agree with you that the dipstick shouldn't be used to diagnose ABU. But what about the use of antimicrobial therapy for asymptomatic bacteriuria? Some studies say it's okay to treat, while others say it's a waste of time. What's the current consensus on this topic?",
+        "color": "purple"
+      },
+      {
+        "id": 19,
+        "parent_id": 18,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "@Dr.BarbMiller yeah, that's another good point. Based on the latest guidelines from the Infectious Diseases Society of America (IDSA) and the American Urological Association (AUA), treatment of ABU is usually not recommended, unless there are specific high-risk patient populations or if the patient is experiencing symptoms. So, in this case, @OP, I'd probably not treat unless there were other risk factors present.",
+        "color": "gray"
+      },
+      {
+        "id": 20,
+        "parent_id": 19,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "@Dr.SarahSharp agree with you 100% - ABU should almost never be treated unless there's a clear indication to do so. And when we do treat, it's essential we're aware of the potential for antibiotic resistance development, especially when it comes to Gram-negative bacteria like E. coli.",
+        "color": "orange"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Frustrating encounter with cirrhosis - how do we manage SBP?",
+    "body": "Just saw a patient with cirrhosis who presented with worsening ascites and edema. The ER doc ordered a paracentesis and we found 1500 cells in the fluid - consistent with SBP. I know we should admit and start antibiotics, but how do we manage SBP without overusing the limited supply of aminoglycosides?",
+    "category": "EM",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "The key to managing SBP is to recognize it early. We should be regularly reviewing our ascitic patients for signs of infection. That being said, I agree with your concern about overusing aminoglycosides. Have you considered oral antibiotics like rifaximin or norfloxacin?",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs! You're worried about aminoglycosides when you should be worried about making the right diagnosis. Did you check the ascitic fluid for albumin gradient? And what was the patient's creatinine? We can't just throw antibiotics at this patient without proper workup.",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Uh oh, SBP is like the elephant in the room - everyone knows about it, but nobody wants to talk about it. Dr. Thorne, do you think we're using too many IV antibiotics? I've seen patients who've had multiple courses without any change in their condition. Can we discuss the optimal duration of treatment?",
+        "color": "purple"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Good point, Turbo. The optimal duration of antibiotic treatment for SBP is still a topic of debate. Some studies suggest 5-7 days, while others recommend longer courses. I think the key is to monitor the patient for clinical improvement and adjust the treatment plan accordingly. Has anyone seen the paper by Runyon et al. on this topic?",
+        "color": "green"
+      },
+      {
+        "id": 5,
+        "parent_id": 2,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I'm not sure I understand what Dr. Sterling means by 'albumin gradient'. Can someone explain that to me?",
+        "color": "purple"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Ah, good question, Leo. The albumin gradient is a measure of the difference between the ascitic fluid and serum albumin levels. It's a useful tool for diagnosing SBP, as it can help distinguish between transudative and exudative ascites. I think it's worth mentioning that the ascitic fluid should be sent for culture as well.",
+        "color": "green"
+      },
+      {
+        "id": 7,
+        "parent_id": 4,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Is it true that patients with cirrhosis and SBP have a high risk of developing hepatorenal syndrome? Can someone explain the pathophysiology behind this?",
+        "color": "purple"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Yes, it's true that cirrhosis and SBP can lead to hepatorenal syndrome. The exact mechanism is still not fully understood, but it's thought to be related to the renal vasculopathy secondary to decreased prostaglandin synthesis. I think it's worth mentioning that monitoring for HRS is an important part of managing these patients.",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "TL;DR: Don't overlook the spinal cord in pediatric trauma patients - A cautionary tale from the ER floor",
+    "body": "Just saw a patient with a traumatic mechanism and was surprised to see an unstable spinal fracture without obvious neurologic deficits. Reminded me of the American Pediatric Surgical Association principles of pediatric trauma care, which highlight the importance of 'clearing the cervical spine' in children.",
+    "category": "r/emergencymedicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Haha, yeah, we've all been there! Reminded me of the time I had a patient with a severe head injury and we were worried about a fracture, but ended up being a pseudotumor cerebri.",
+        "color": "blue"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Dr. Park, what's a pseudotumor cerebri? Is it something like a pseudocyst? Please explain, I'm curious!",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": null,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Actually, folks, in pediatric trauma, we need to be aware of the unique mechanisms of injury and clinical features associated with geriatric trauma patients. Falls are a leading cause of fatal and non-fatal injury in people \u226565 years of age.",
+        "color": "purple"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "Hear, hear, Dr. Sharp! And remember, in pediatric patients, spinal cord injuries often don't have associated fractures since the ligaments are relatively elastic. Just a fun fact, folks! But seriously, don't forget to order a cervical spine CT in kids with multisystem trauma.",
+        "color": "orange"
+      },
+      {
+        "id": 5,
+        "parent_id": 1,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Dude, can someone explain to me the difference between a spinal fracture and a spinal cord injury? Is it like, the bone breaks, but the cord is fine?",
+        "color": "pink"
+      },
+      {
+        "id": 6,
+        "parent_id": 4,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Haha, good question, Chad! The key difference is that a spinal fracture is just the bone, whereas a spinal cord injury is when the neural elements (like the spinal cord and nerve roots) are damaged too. Think of it like a spinal cord 'strike'... just the cord, no bone, but still a whole lotta damage!",
+        "color": "red"
+      },
+      {
+        "id": 7,
+        "parent_id": 4,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Actually, I think Dr. Stone was saying that pediatric patients don't often have spinal cord injuries without fractures. Can you clarify, Dr. Stone?",
+        "color": "purple"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "No, I was saying that pediatric patients often don't have associated fractures with spinal cord injuries because their ligaments are relatively elastic. But I appreciate the clarification, Sarah!",
+        "color": "blue"
+      },
+      {
+        "id": 9,
+        "parent_id": null,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Y'all, can we talk about the importance of 'clearing the cervical spine' (CCS) in kids? I feel like sometimes we get caught up in the trauma algorithm and forget to do this crucial step... Any thoughts, guys?",
+        "color": "green"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Actually, CCS is more important in adolescents and young adults than in pediatric patients. We need to be aware of the different age-specific risk factors for spinal cord injury.",
+        "color": "red"
+      },
+      {
+        "id": 11,
+        "parent_id": 9,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "Ah, but what about in patients with multisystem trauma, where the neck might be injured but we can't palpate it? That's a situation where we really need to get that cervical spine CT... I've had some close calls, folks.",
+        "color": "orange"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Dr. Oldman, can you explain to me when exactly do you order a CT scan of the cervical spine? Is it only in patients with multisystem trauma?",
+        "color": "pink"
+      },
+      {
+        "id": 13,
+        "parent_id": 12,
+        "user": "Dr. Phil Muddle",
+        "role": "EP",
+        "city": "Regina, SK",
+        "text": "Haha, Leo, it's not just multisystem trauma, but think about patients with head trauma, too. That's when the rules change a bit... We need to be more proactive with those CT scans.",
+        "color": "purple"
+      },
+      {
+        "id": 14,
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "TL;DR: Don't forget to consider the patient's whole story and not just their presentation. Pediatric trauma cases often involve more than just a straightforward injury.",
+        "color": "blue"
+      },
+      {
+        "id": 15,
+        "parent_id": null,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "My dear colleagues, it's high time we acknowledged the importance of the spinal cord in trauma patients. A thorough evaluation is crucial in every case, lest we risk missing the diagnosis.",
+        "color": "green"
+      }
+    ],
+    "image": "https://www.ebmedicine.net/media_library/images/2021-EMP-Publication-Article/10-October/Clinical-Pathway-for-Emergency-Department-Management-of-Blunt-Cervical-Trauma-in-Adult-Patients-TH.png"
   }
 ]
