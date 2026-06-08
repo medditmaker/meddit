@@ -1,162 +1,81 @@
 [
   {
     "id": 0,
-    "title": "TLDR: Heat stroke vs Malignant Heat Illness - Don't get them mixed up!",
-    "body": "Had a near miss last night with a patient who presented with exertional heat stroke, but I saw it as a malignant heat illness (MHI) at first. We managed to keep him alive, but it got me thinking about the difference between these two conditions.",
-    "category": "emergency medicine",
+    "title": "Rant about hyperosmolar hyperglycemic state (HHS)",
+    "body": "Just saw a case of HHS that made me realize how common it is and how easily it gets overlooked in favor of DKA. We all know the typical elderly patient with poorly controlled type 2 diabetes, presenting with weakness, dyspnea, and altered mental status. What I don't think we always appreciate is how quickly it can progress to cerebral edema and even death.",
+    "category": "medicine",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": "Dr. Maya Gupta",
+        "user": "Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "Yeah, MHI can be tricky to diagnose, especially in exertional cases. The key is to look for signs of end-organ dysfunction - eg, altered mental status, seizures, cardiovascular instability. Remember, heat stroke is just a subset of MHI.",
+        "text": "TIL HHS can present with seizures! I thought that was exclusive to cerebral edema. What's the key difference between the two, Dr. Sterling?",
         "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "That makes sense, but what about the temperature threshold? I thought heat stroke was >40\u00b0C, while MHI was >42\u00b0C?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Good catch, Kevin! The temperature threshold is one of the distinguishing features of MHI. While heat stroke can present with temps >41\u00b0C, MHI typically presents with temps >42\u00b0C. Also, don't forget the duration of heat exposure - MHI often has a longer duration.",
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Seizures in HHS are rare, but not impossible. It's all about the gradient of glucose and osmolality. Remember, a glucose level >600 mg/dL with minimal ketones is a strong pointer towards HHS. Don't be like me and over-diagnose with DKA.\n\nLink to the classic article by Kitabchi et al: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2561446/",
         "color": "blue"
       },
       {
-        "id": 4,
+        "id": 3,
         "parent_id": 1,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Another important factor to consider is the presence of coagulopathy. MHI can present with DVT, PE, or even spontaneous gastrointestinal bleeding. That's why it's crucial to do a thorough lab work-up, including a coagulation panel.",
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I thought HHS was primarily caused by insulin deficiency? Can someone please clarify the relationship between insulin resistance and HHS?",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Insulin resistance is indeed a key factor in HHS. In type 2 diabetics, the body's inability to produce enough insulin leads to hyperglycemia. This, combined with the inflammatory state caused by physiologic stress, results in the characteristic hyperosmolar state. The 2011 consensus statement by the American Diabetes Association clearly outlines the pathophysiology...\n\nLink to the ADA guidelines: https://diabetesjournals.org/care/article/34/5/1184/28836/Pathophysiology-of-Hyperosmolar-Hyperglycemic",
         "color": "purple"
       },
       {
         "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Thanks for bringing up coagulopathy, Elena. Can you speak to the mechanism behind it? Is it due to the heat stress itself, or is it more of a secondary effect?",
-        "color": "green"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "It's a bit of both, actually. The extreme heat stress can lead to endothelial damage, which can cause coagulopathy. However, the presence of systemic inflammation also plays a role. As you know, MHI can sometimes be triggered by an underlying condition, such as an infection or autoimmune disease.",
-        "color": "blue"
-      },
-      {
-        "id": 7,
-        "parent_id": null,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "I'm sick of seeing MHI cases where the patient is being stupid about hydrating themselves. Can we please just start educating the public about heat safety already?! Do we need a public awareness campaign?",
-        "color": "red"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "Ah, I completely agree, Rick. Heat safety education is crucial, especially among our vulnerable populations - eg, the elderly, young children. We should also be promoting heat safety guidelines for athletes, especially during outdoor competitions.",
-        "color": "green"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Have you seen the latest guidelines from the American College of Sports Medicine (ACSM)? They have some excellent recommendations for heat safety during exercise. I'd love to share some of them here.",
-        "color": "blue"
-      }
-    ],
-    "image": "https://www.weather.gov/images/wrn/Infographics/2022/heat-symptoms-2022-final.png"
-  },
-  {
-    "id": 1,
-    "title": "TLDR: Don't forget to think outside the box when it comes to pharyngitis! ",
-    "body": "Had a miss last night dealing with a 10 y/o who presented with a sore throat and a scarletinaform rash. Initially, I thought it was GABHS, but upon further evaluation, it turned out to be EBV pharyngitis. Lesson learned: always keep EBV in consideration when dealing with a fever, sore throat, and rash, even if the Centor criteria are present. Anyone else have any crazy pharyngitis cases recently? ",
-    "category": "emergency medicine",
-    "comments": [
-      {
-        "id": 2,
-        "parent_id": null,
-        "user": "Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": " Omg, I had a similar case last month! The kid had a negative throat culture and was non-responsive to amoxicillin. EBV antibodies came back positive and we ended up treating with valacyclovir. I was pretty sure it was GABHS initially, but it was a great learning experience to recognize the EBV symptoms. Has anyone had experience with EBV treatment in kids? Any tips or recommendations? ",
-        "color": "purple"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": " Ah, nice catch, Dr. Gupta! In our textbook, it mentiones that EBV pharyngitis may present similarly to GABHS, but with more systemic symptoms like hepatosplenomegaly and fever. What did you think of the valacyclovir treatment? Was it effective? And did you notice anything unusual during the treatment?",
-        "color": "green"
-      },
-      {
-        "id": 4,
         "parent_id": 2,
         "user": "Sarah Jenkins",
         "role": "MS3",
         "city": "Ottawa, ON",
-        "text": " Actually, a recent paper (https://jama.ama-assn.org/article/EV-disease-guideline) suggests that valacyclovir is not always necessary for EBV pharyngitis. The authors recommend watchful waiting and supportive care unless there are severe symptoms. What are everyone's thoughts on this? Should we be treating more conservatively? ",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": " Great discussion, everyone! As a wise and kind attending, I always say to trust your gut and consider the broader clinical picture. Remember, pharyngitis is a great imitator, and we must stay vigilant for the atypical presentations. EBV pharyngitis is just one of the many causes, and we must not forget the classics, like GABHS and adenovirus. Keep on learning and staying curious, and always think outside the box!",
+        "text": "Thanks for the link, Dr. Sterling! The Kitabchi et al article is an excellent review of HHS. It highlights the importance of correcting the volume deficit, electrolyte imbalance, and hyperglycemia in a timely manner. What's your take on the best approach to rehydration?",
         "color": "blue"
       },
       {
         "id": 6,
         "parent_id": 5,
-        "user": "Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": " I couldn't agree more, Dr. Thorne. And let's not forget the importance of a good history and physical exam. Sometimes, we get so caught up in the latest guidelines and treatments that we forget the basics. I always say, 'If you can't diagnose it, you can't fix it.' Thanks for the reminder!",
-        "color": "blue"
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "I'm with Kitabchi on this one. Crystalloid is the way to go when correcting the volume deficit. We don't want to overload the patient with too much fluid, or we'll end up with cerebral edema. And don't forget to check those sodium levels!",
+        "color": "green"
       },
       {
         "id": 7,
         "parent_id": 1,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": " Ugh, don't even get me started on the bureaucratic hoops we have to jump through to get a diagnosis right. I'm all for keeping EBV in mind, but let's not lose sight of the forest for the trees. When was the last time any of you had a decent consultation with a specialist? It's like they don't even care about what we're dealing with in the trenches...",
-        "color": "red"
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I'm still confused about the glucose level criteria for HHS. Does a glucose level of >600 mg/dL definitely exclude the possibility of DKA?",
+        "color": "green"
       },
       {
         "id": 8,
         "parent_id": 7,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": " Haha, burn, Barb! As a nurse, I've seen my fair share of ER docs getting roasted by the specialists. But seriously, it's all about communication and teamwork. Maybe we should start a Reddit AMA for specialists and EM docs to talk about their experiences and share war stories?",
-        "color": "green"
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "In HHS, the glucose level is usually >600 mg/dL, but the important thing is the ratio glucose/ketones. If the patient has minimal ketones, it's likely HHS. If there are significant ketones, it's more likely DKA. Remember, a high glucose level with minimal ketones points towards HHS.\n\nLink to a nice review on HHS vs DKA: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4751432/",
+        "color": "purple"
       },
       {
         "id": 9,
@@ -164,87 +83,140 @@
         "user": "Martha 'The Hammer'",
         "role": "RN",
         "city": "Halifax, NS",
-        "text": " ENOUGH about the soap opera drama! Let's get back to the important stuff \u2013 GABHS pharyngitis management. Has anyone got any tips on how to prevent post-streptococcal glomerulonephritis (PSGN)?",
+        "text": "In my experience, HHS is more common than DKA, especially in elderly patients. We need to educate ourselves and our teams to recognize the subtle signs of HHS, such as altered mental status. We can't afford to be complacent and 'wait and see'!",
         "color": "red"
       },
       {
         "id": 10,
         "parent_id": 9,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": " Ah, Martha, my friend, I've got a tip for you! PSGN is a known complication of GABHS pharyngitis, especially in children under 5. According to recent guidelines, we should be monitoring for oliguria, hypertension, and edema. Has anyone got any experience with managing PSGN in adults?",
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "I completely agree, Martha! As a team, we need to be proactive in recognizing and treating HHS. The key is a high index of suspicion and a thorough physical exam.",
+        "color": "purple"
+      }
+    ],
+    "image": "https://i0.wp.com/emcrit.org/wp-content/uploads/2020/07/hhsdefinition.jpg?fit=1486%2C1102&ssl=1"
+  },
+  {
+    "title": "Just Treated a Lightning Strike Victim, and I'm still Trying to Wrap My Head Around the Complications...!",
+    "body": "So we've got a 35-year-old guy who was hit by lightning during a storm while golfing. He's got second-degree burns over 20% of his body, but I'm more concerned about the electrical and neurological damage he sustained. I've been reading up on the literature, and I'm starting to get a sense of the scope of the complications we're looking at. TLDR: Lightning strikes are like nothing else in emergency medicine... has anyone else dealt with a case like this?",
+    "category": "EM",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "u/Dr_Aris_Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great OP, OP! Yeah, lightning strikes are a wild card. The thing is, most people who get hit by lightning are either in close proximity to the strike point or get thrown a considerable distance by the force of the shockwave, which can lead to secondary injuries like falls or blunt trauma (asymptomatic initially but can become apparent later). I always make sure to get a thorough neuro exam on these guys, especially the pupillary reactions and cranial nerve function, given the risk of spinal cord or brainstem involvement. Have you considered the possibility of cardiac involvement as well, e.g., myocardial infarction or ventricular dysrhythmias? Oh, and don't forget to check for post-injury seizures!",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Wow, thank you, Dr. Thorne! I had no idea about the secondary injuries from lightning strikes. But what about if the patient doesn't have any obvious signs of trauma? How do we diagnose neurologic damage in those cases?",
         "color": "blue"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr_Victor_Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs... you're all overthinking this. Most of these patients are going to have obvious signs of trauma. Just make sure to get a proper history, do a thorough physical exam, and maybe run some basic labs (e.g., CBC, electrolytes). If the patient is stable, get them to a facility with a neurosurgery service pronto... don't waste time on unnecessary testing. Oh, and someone please define 'post-injury seizures'... I'm not buying it.",
+        "color": "red"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "u/Dr_Ziggy_Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Lol Victor, always so eager to tell us we're wrong. But actually, lightning can cause subtle neurologic symptoms, and post-injury seizures are a real thing. For instance, there have been reports of post-renal transplant seizures due to the electrical damage. Plus, it's not just about the physical exam \u2013 you gotta consider the psychological toll on the patient and family, too. Get some CBT or PTSD support lined up ASAP! Meanwhile, if anyone's looking for more reading, I'd recommend this article on lightning-induced neurologic complications [link]",
+        "color": "green"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "SarahJenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Thanks for the link, Dr. Z! I read it last night and was amazed at the case reports of patients presenting days or even weeks later with symptoms like headaches, memory loss, or even hallucinations. My question is, are we seeing an increase in these cases with climate change and more frequent severe weather events?",
+        "color": "purple"
       }
     ]
   },
   {
     "id": 1,
-    "title": "Just saw a patient with an esophageal foreign body and wanted to rant about it.",
-    "body": "So I just saw a patient with a coin stuck in their esophagus. Not a first for me, but it got me thinking about the whole process of diagnosing and treating esophageal foreign bodies. From a practical standpoint, what's the consensus on the best approach to removing coins and other objects? Should we always be pushing for endoscopy, or are there cases where a Foley balloon catheter or even a barium study with follow-up endoscopy would be a better choice?",
-    "category": "Emergency Medicine",
+    "title": "TLDR; Just saw a patient with an incarcerated femoral hernia... or did I?",
+    "body": "I'm still trying to figure this one out. I've been an EP for 10 years and thought I knew my way around a hernia, but this case had me questioning everything.\n\nPatient presented with a 4cm firm, reducible mass in the upper medial thigh. History and physical were textbook hernia - except for one thing. The mass was not reducible with gentle pressure, but when I applied more force... it seemed to move into the thigh. Okay, maybe this is just an atypical reducible hernia I thought. But then my nurse pointed out the patient's vitals - 98.6\u00b0F fever, WBC 18, and the mass was erythematous and tender to the touch. Suddenly my textbook hernia didn't seem so textbook after all. I consulted ED ultrasound and the diagnosis was confirmed: an incarcerated femoral hernia. But here's the thing - I didn't take the patient to OR for an emergency surgery. Why not? I sent them to CT for a vascular workup. \n\nIt turns out the patient had some calcified plaque in the femoral artery and vein. The femoral canal was compromised, not by direct compression from the hernia, but by a small thrombosed vein. This wasn't a simple hernia repair - it required a vascular surgeon for an arterial bypass procedure.\n\nI'm still chewing on this one. How would you have managed this case? What other scenarios might mimic a hernia? I'm all ears...or in this case, all comments.",
+    "category": "EM",
     "comments": [
       {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "I'm with the endoscopy crew all the way. It's non-invasive, allows for direct visualization of the object, and minimizes the risk of perforation. Even with a simple coin, I'd rather not take any chances. And for more complex objects, like button batteries or sharp objects, it's a no-brainer. Has anyone else had success with endoscopy in their own practice?",
-        "color": "purple"
-      },
-      {
         "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs with their fancy endoscopes. In my day, we used good old-fashioned radiology and a bit of common sense to remove foreign bodies. What's wrong with using a Foley balloon catheter? It's a simple, proven technique that's been around for decades.",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Dr. Sterling, I think you're missing the point. The issue is the lack of real-time visualization and the increased risk of perforation with a Foley catheter. I'm not saying it's a bad technique, but in the hands of a novice, it's a recipe for disaster. Has anyone else encountered complications with Foley catheter removal?",
+        "parent_id": null,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Haha, love the twist, OP! You always teach me something new. But seriously, I can see how we might misdiagnose this as an uncomplicated hernia. I've had cases with similar presentation but with different etiologies.\n\nMy take on it - an incarcerated femoral hernia with compromised pelvic structures can indeed have an arterial component due to the intimate proximity of the femoral artery.\n\nI'm glad to see you're still learning, and we can all learn from your humility. One thing that comes to mind, though, is when might we see calcified plaque in young adults?",
         "color": "blue"
       },
       {
-        "id": 4,
+        "id": 3,
         "parent_id": 2,
-        "user": "Dr. Rick 'The Rage'",
+        "user": "Dr. Barb Miller",
         "role": "EP",
-        "city": "Windsor, ON",
-        "text": "Can we please take a step back and remember that we're dealing with human lives here? A Foley catheter is a valid technique in the right hands, and to dismiss it outright is short-sighted. Has anyone looked at the latest research on foreign body removal?",
+        "city": "Winnipeg, MB",
+        "text": "@Dr. Zalesky, excellent point on the location of the femoral artery. But I'd like to add that we need to keep in mind other possible causes for a 'stuck' or 'incarcerated' hernia - eg. a Richter's hernia.\n\nRichter's is a hernia where only a portion of the gut is incarcerated, and it can present similarly. Have we considered this in our differential?\n\nOh, and great job by OP in thinking critically and not rushing to surgery!",
         "color": "red"
       },
       {
-        "id": 5,
+        "id": 4,
         "parent_id": 3,
         "user": "Leo Chen",
         "role": "MS1",
         "city": "Montreal, QC",
-        "text": "Dr. Gupta, I'm a bit confused about the risks of a Foley catheter. Isn't it true that the main risk is aspiration? Can't we just be more careful with the patient's positioning and monitoring?",
-        "color": "yellow"
+        "text": "@Dr. Miller, thank you for explaining Richter's hernia! I've never seen one before. How do we distinguish between a Richter's and an incarcerated hernia on physical exam?",
+        "color": "green"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "@Leo Chen, great question. One way to differentiate between Richter's and incarcerated hernia is by the presence of bowel sounds or movement. If there are no sounds or movements in the area, it might be a Richter's.\n\nHowever, physical examination alone is not enough to make this diagnosis, and we need to rely on a combination of history, imaging studies, and potentially endoscopy to confirm.\n\nAlso worth mentioning is that incarcerated hernia may still have bowel sounds but with severe pain and tenderness.\n\nSo, while there's some overlap, it's all about the details - and a good clinical exam.",
+        "color": "purple"
       },
       {
         "id": 6,
-        "parent_id": 4,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Actually, it's not just about aspiration. The real concern is the risk of mucosal laceration and subsequent stricture. I've seen it happen to more than a few colleagues. Does anyone have some good resources on the latest guidelines for foreign body removal?",
+        "parent_id": 5,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "@Everyone, I gotta ask... isn't this all a bit too complicated for an 'average' EP?",
         "color": "orange"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "@Chad, I think @OP's post says otherwise. The thing about being an EP is that every patient is unique, and it's our job to stay up-to-date and adapt to new situations. It's not always straightforward.\n\nOf course, we all strive to make the right diagnosis and treatment plan, but at the end of the day, it's all about being willing to learn and admit when we're not sure.",
+        "color": "blue"
       }
     ]
   },
   {
-    "id": 3,
-    "title": "Just saw a patient with anticholinergic toxicity: a cautionary tale",
+    "id": 101,
+    "title": "Case study on compartment syndrome - when to refer and what to look for",
+    "body": "Just saw a patient with a potential compartment syndrome and wanted to walk through the thought process on what to do and when to refer. \n\nPatient presents with severe pain in the lower leg after injuring it in a car accident. Initial exam reveals decreased sensation and paresthesias. \n\nThe first question is, what do I do with this patient? Do I refer to ortho for further evaluation or do I work up the patient myself?",
     "category": "Emergency Medicine",
-    "body": "Just had a wild night shift and I wanted to share a case that still has me thinking. Patient comes in with confusion, agitation, and dilated pupils. The patient's wife reports that they had ingested a bottle of 'herbal' supplements that they'd been taking for a few weeks. I did a quick toxicology screen and sure enough, the patient had elevated levels of atropine and scopolamine. I knew the patient would need to be intubated ASAP due to the DUMBELS mnemonic (Dry mouth, Urination difficulty, Bradycardia, Excitement, Muscle weakness, and Loss of bowel control, and S-albumin in urine) but I was curious - what other potential causes of anticholinergic toxicity could I be missing? Turns out, the patient's wife had been using eye drop medication for her glaucoma and had accidentally given the patient the entire bottle. Talk about a potential disaster. TLDR; Anticholinergic toxicity is a real concern in the ED, don't get caught off guard! Thanks for sharing your experiences with anticholinergic toxicity - I know we've all had to deal with similar cases. What do you guys do to stay up-to-date with the latest toxicology pearls?",
     "comments": [
       {
         "id": 1,
@@ -252,16 +224,157 @@
         "user": "Dr. Aris Thorne",
         "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "Great case! I've seen similar cases where patients have ingested too many over-the-counter supplements or prescription medications without realizing it. One thing that's key is to always ask about medication lists and supplement history, no matter how minor or uneventful it may seem. It's also crucial to have a good toxicology knowledge and be familiar with the various antidotes and treatments. Remember that every patient with anticholinergic toxicity requires a comprehensive evaluation, including a complete history and physical exam, with a thorough review of medications and supplements.\n\nOne thing that caught my eye about this case was the use of the DUMBELS mnemonic. While it's a useful tool for remembering the muscarinic receptor effects of cholinergic agents, it's worth noting that there are also antimuscarinic effects to consider. Has anyone else encountered cases where antimuscarinic effects have led to confusion or agitation?",
+        "text": "Great post, Dr. Najarian! Compartment syndrome is a classic ED conundrum. I always think about it in terms of the 5 P's: pain, pallor, paresthesias, paralysis, and poikilothermia. But the key, as you mentioned, is to catch it early. Fasciotomy should be considered within 6 hours of symptoms onset to minimize permanent damage.\n\nOne question I do have is, what are the criteria you use to decide when to intubate a patient with impending compartment syndrome?\n\nTL;DR: Catch compartment syndrome early, fasciotomy within 6 hours, and be aware of the 5 P's.",
         "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs. You can't even remember the first thing about anticholinergic toxicity. The DUMBELS mnemonic is for muscarinic effects, period. Don't go confusing things with antimuscarinic effects. We don't want to see patients getting misdiagnosed and receiving unnecessary treatment.\n\nAs a surgeon, I've had to deal with my fair share of anticholinergic toxicity cases. It's not just about remembering a few mnemonics - it's about understanding the underlying physiology and pharmacology. You must know the difference between muscarinic and nicotinic receptors, as well as the specific agents that interact with each. Anything less is just amateur hour.\n\nTLDR; Stick to the basics, folks. No need to get all confusing about anticholinergic toxicity.",
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Great question, Dr. Thorne! As a nurse, I always look for clues like decreased capillary refill, increased pain with passive stretch, and decreased sensation.\n\nBut, to take it a step further, I'd like to know, what's the protocol for managing compartment syndrome in the OR? Do we do a unilateral or bilateral fasciotomy?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Love this post, Sandra! One of the biggest red flags for compartment syndrome is the 'pain out of proportion to examination' (PPE). It's a classic teaching point, but often gets overlooked in the hustle and bustle of the ED.\n\nI'd also like to add that the SIRS criteria can be useful in identifying patients at risk for compartment syndrome, particularly in the post-op setting.\n\nAnyone have experience with using the SIRS criteria in this context?\n\nTL;DR: Look for PPE, use SIRS criteria to identify high-risk patients.",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Thanks for the tip, Dr. Sharp! I've been studying for my boards and was wondering, what is the typical protocol for managing compartment syndrome in patients with tourniquet use?\n\nIs it different from patients with trauma-induced compartment syndrome?",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "title": "TLDR: Mechanical Ventilation in the ED - when to Intubate and when to proceed to a Surgical Airway?",
+    "body": "Just saw a patient with severe COPD exacerbation who was crashing fast. We were on the fence about intubating but ended up putting in a surgical airway after three failed intubation attempts. The patient is now stable and recovering in the ICU. Any experiences or insights on this topic would be appreciated.",
+    "category": "emergency",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "M.D.",
+        "city": "Toronto, ON",
+        "text": "This is a classic case of when to proceed to a surgical airway in the ED. In patients with severe respiratory distress and high work of breathing, a surgical airway can be a life-saving intervention. The key is to identify the high-risk features, such as altered mental status, severe hypoxia, or inability to mask ventilate. We need to educate our residents on the importance of early identification and management of these patients. [1] [2]",
+        "color": "blue"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leon Chen",
+        "role": "M.D.",
+        "city": "Montreal, QC",
+        "text": "Dr. Thorne, thank you for sharing your experience! Can you elaborate on what you mean by 'high-risk features'? Are there any specific lab values or imaging studies that you use to identify these patients?",
+        "color": "lightblue"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Sarah Sharp",
+        "role": "M.D.",
+        "city": "Laval, QC",
+        "text": "I completely agree with Dr. Thorne's assessment. In our institution, we have a strict protocol for rapid sequence intubation (RSI) in patients with severe respiratory distress. If the patient is unable to mask ventilate or has a failed RSI attempt, we proceed to a surgical airway. It's essential to have a clear understanding of the indications and contraindications for surgical airway placement. [3] [4]",
+        "color": "orange"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "What's the difference between a surgical airway and a cricothyrotomy? Can anyone explain the procedure in detail?",
+        "color": "pink"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Maya Gupta",
+        "role": "M.D.",
+        "city": "Mississauga, ON",
+        "text": "Great question, Chad! A surgical airway, also known as a tracheotomy, is a more definitive procedure that involves creating an incision in the anterior neck to access the airway. A cricothyrotomy, on the other hand, is a more emergent procedure that involves making an incision in the cricothyroid membrane to establish an airway. Both procedures can be lifesaving, but they require different skill sets and patient selection. [5]",
+        "color": "lightgreen"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "That's so fascinating! I had a patient last week who had a cricothyrotomy performed in the OR. The surgeon explained to me that it's a last resort when the patient is unable to breathe. Can you guys elaborate on the criteria for cricothyrotomy?",
+        "color": "purple"
+      },
+      {
+        "id": 7,
+        "parent_id": 1,
+        "user": "Dr. Elena Varkov",
+        "role": "M.D.",
+        "city": "Quebec City, QC",
+        "text": "I think we need to discuss the importance of proper patient selection for surgical airway placement. Are there any specific patient characteristics or comorbidities that contraindicate surgical airway placement?",
+        "color": "brown"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Great point, Dr. Varkov! In our institution, we have strict criteria for surgical airway placement. Patients with severe neck trauma, tracheal injuries, or recent surgical procedures are generally contraindicated. We also need to consider the patient's overall medical condition and any pre-existing comorbidities.",
+        "color": "cyan"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Kevin Park",
+        "role": "M.D.",
+        "city": "Edmonton, AB",
+        "text": "That's really helpful, Turbo Tom! Can you elaborate on the role of tracheal injuries in contraindicating surgical airway placement?",
+        "color": "lightorange"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "As an ER nurse, I've seen patients with tracheal injuries who have required emergent surgical airway placement. However, these cases are extremely rare and often require a multidisciplinary approach. We need to prioritize patient safety and stability before proceeding with surgical airway placement.",
+        "color": "darkred"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Today I Learned: Acute Valvular Dysfunction in the ED - A Case of 'The Silent Killer",
+    ",\n   \"body": "Had a patient present with new onset chest pain and shortness of breath. Bedside echo revealed a new diastolic murmur and acute RV dilation. Turns out, it was a case of acute prosthetic valve failure due to excessive anticoagulation. Never would have seen it coming if not for the echo.",
+    "category": "emedicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "That's a great catch! Acute prosthetic valve failure is often underdiagnosed in the ED. What's the protocol for emergent surgery in your hospital? Do you guys have a dedicated cardiac surgery team or do they fly in from another city?",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Turo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Yeah, we've got a great team for cardiac surgery. They're flown in for the bigger cases, but we've got a fantastic team of thoracic surgeons who can do the smaller ones on sight. Thanks for asking!",
         "color": "green"
       },
       {
@@ -270,328 +383,241 @@
         "user": "Leo Chen",
         "role": "MS1",
         "city": "Montreal, QC",
-        "text": "I'm curious - what's the best way to differentiate between muscarinic and nicotinic effects in the ED? Is there a specific test or diagnostic tool we can use?",
-        "color": "pink"
+        "text": "Excuse me, but what's the difference between acute prosthetic valve failure and a new presentation of valvular disease? Can someone explain the pathophysiology behind it?",
+        "color": "blue"
       },
       {
         "id": 4,
-        "parent_id": 1,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Leo, it's all about the history and physical exam. If you're unsure, just go with your gut and get some labs in. Don't worry too much about muscarinic vs. nicotinic - just treat the patient and worry about the details later. And trust me, I've seen my fair share of anticholinergic toxicity cases. You'll figure it out.\n\nBut to answer your original question, what's the best way to stay up-to-date with the latest toxicology pearls? I'd recommend following some of the major toxicology blogs and attending CME lectures on the topic. It's also great to have some experienced attendings to bounce questions off of. Does anyone have any favorite resources for staying current with toxicology?",
-        "color": "blue"
-      }
-    ],
-    "image": "https://foamcast.org/wp-content/uploads/2017/09/Screen-Shot-2017-09-15-at-4.06.33-PM.png"
-  },
-  {
-    "id": 4,
-    "title": "Today I Learned: Beware the 'Sludge' of Urolithiasis! Had a crazy case last night.",
-    "body": "Just saw a patient with urolithiasis who presented with renal colic after receiving outpatient extracorporeal shock wave lithotripsy. The resulting 'sludge' was passed in the urine and caused a classic case of renal colic. I was reminded of the importance of getting a urinalysis to assess for hematuria and infection, and checking serum renal function. Also, got a pregnancy test on the female patient, because you never know... Anyone else had a similar case? ",
-    "category": "Emergency Medicine",
-    "comments": [
+        "parent_id": 3,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Good question, Leo. Acute prosthetic valve failure is usually due to a sudden obstruction of the valve orifice, whereas a new presentation of valvular disease is more likely to be due to a pre-existing lesion that's become clinically significant. Does that make sense?",
+        "color": "green"
+      },
       {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "MD",
-        "city": "Toronto, ON",
-        "text": "Great case! I've seen this happen before. The key is to be vigilant and get that urinalysis ASAP. Also, don't forget to check the serum creatinine level to assess renal function. I always say, 'If it's not in the urine, it's not done!' ",
+        "id": 5,
+        "parent_id": 1,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "OMG, what's an RV dilation? I thought it was just a heart thing...",
+        "color": "red"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Don't be ridiculous, Chad. A dilation of the right ventricle is a serious thing and not just some triviality. Read up on the pathophysiology of acute RV failure if you want to learn something.",
         "color": "purple"
       },
       {
-        "id": 2,
+        "id": 7,
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Thanks for the reminder about the importance of bedside echo in identifying acute valvular dysfunction. Any tips on getting the kids to learn bedside ultrasound skills?",
+        "color": "green"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "You can't teach bedside skills without practicing. Have them watch old exams, then get them to practice on real patients. That's the only way to get them to be proficient.",
+        "color": "blue"
+      },
+      {
+        "id": 9,
+        "parent_id": 7,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Uh, what about the echo on this patient? Did you guys do a transesophageal or transthoracic?",
+        "color": "red"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Ah, good question, Chad! For this patient, we did a transthoracic echo. It's the go-to for routine evaluations, don't you agree?",
+        "color": "purple"
+      },
+      {
+        "id": 11,
+        "parent_id": 1,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "Wait, what about me? I had a similar case last week. Should I be worried about my heart valve?",
+        "color": "yellow"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Don't worry, my friend. It's unlikely to be you. We just need to rule out any potential causes of the new murmur. Come talk to us at the ED and we'll sort it out.",
+        "color": "green"
+      },
+      {
+        "id": 13,
         "parent_id": 1,
         "user": "Sarah Jenkins",
         "role": "MS3",
         "city": "Ottawa, ON",
-        "text": "Hi Dr. Thorne, thanks for sharing your experience! I'm curious to know, what did the urinalysis show? Was it indicative of infection or simply hematuria?",
-        "color": "green"
+        "text": "I think this is another case of the ED failing to recognize a high-risk patient. Should we be doing a full cardiac workup on everyone who presents with new symptoms?",
+        "color": "purple"
       },
       {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Dr. Aris Thorne",
-        "role": "MD",
-        "city": "Toronto, ON",
-        "text": "Great question, Sarah! The urinalysis showed mild hematuria and a slight increase in white blood cells. No signs of infection, fortunately. I've linked a great review article on the topic - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5431425/... ",
+        "id": 14,
+        "parent_id": 13,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Are you kidding me? You think every patient who comes in with new symptoms needs a full cardiac workup? That's an absolute waste of resources. We need to triage these patients to prevent unnecessary testing.",
         "color": "blue"
       },
       {
-        "id": 4,
+        "id": 15,
         "parent_id": 1,
         "user": "Dr. Ziggy Zalesky",
         "role": "EP",
         "city": "Vancouver, BC",
-        "text": "Love it, Dr. Thorne! I've got a similar case coming up today and I'm gonna be on high alert for those pesky stones. One question, did you consider a non-contrast helical CT to confirm the diagnosis?",
-        "color": "red"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Aris Thorne",
-        "role": "MD",
-        "city": "Toronto, ON",
-        "text": "Ahaha, nice one, Dr. Z! I did consider it, but ultimately decided on a clinical diagnosis based on the patient's history and physical exam. CT scans are a great tool, but let's not forget the old-fashioned way of doing things! That being said, if I had to do it again, I would probably get the CT just to be safe. Thanks for sharing your thoughts, folks!",
-        "color": "yellow"
-      },
-      {
-        "id": 6,
-        "parent_id": null,
-        "user": "Dr. Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "Rant about urolithiasis... How many of you have been burned by those pesky stones? I mean, I love the challenge, but come on! Renal colic is the worst. Has anyone tried using medical expulsive therapy? I've had some success with it... ",
-        "color": "brown"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Oh boy, here we go... Dr. Stone, you're gonna get us all in trouble with your contrarian views! Just kidding, but seriously, medical expulsive therapy can be a game-changer. What's your favorite agent?",
-        "color": "pink"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "Ahaha, thanks, Turbo! My favorite agent is nifedipine. I've had great success with it. But, I know what you're thinking... 'What about the literature, Brock?' Don't worry, I've got that covered. There's a great Cochrane review on the topic - https://www.cochrane.org/CD000119/GYN-medical-expulsive-therapy-for-ureterolithiasis...",
-        "color": "olive"
-      }
-    ]
-  },
-  {
-    "thread_title": "Vaginal Bleeding During Pregnancy: When to Worry",
-    "thread_text": "Just saw a patient with suspected placental abruption. Had to do an immediate stat ultrasound and transfuse her. Felt like I'd failed as a doctor. Was wondering if anyone has had similar experiences or has any pearls to share?",
-    "category": "Emergency Medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "u/Drcardio",
-        "role": "FRCPC",
-        "city": "Toronto, ON",
-        "text": "Yes. I had a similar case last year. The key is to think of abruption in anyone near term presenting with vaginal bleeding, especially if accompanied by abdominal pain and fetal distress. Always get an ultrasound ASAP and have blood crossmatched. Also, don't forget to ask about trauma, meds, and bleeding disorders. I've started using the 'A-M-I-S-T-E-R' mnemonic to remember the risk factors.\n\nTLDR: Abruption is a real possibility in any near-term patient with vaginal bleeding; always get an immediate ultrasound, and don't forget the 'A-M-I-S-T-E-R' mnemonic: Abuse, Medications, Intoxication, Smoking, Trauma, Emotional stress, and Endocrine disorders.\n\n[link to Wikipedia article on Placental Abruption](https://en.wikipedia.org/wiki/Placental_abruption)",
-        "color": "blue"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "u/SparkleEyesSue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Hi Drcardio, I'm so sorry to hear about your patient. That must be so stressful. I've worked with Drcardio on a few cases and I can attest that they have a heart of gold. I just wanted to add that I've found it helpful to use the 'P-A-R-A-M-E-D-I'C' mnemonic: Pain, Abnormal Vaginal Bleeding, Anemia, Rapid fetal distress, Muffled or irregular fetal heart sounds, Early Onset (less than 32 weeks), Diarrhea, Infection, and Cardiac issues. It's not as catchy as A-M-I-S-T-E-R, but it might be helpful for some of us LPNs. \n\nHave you guys considered having a placental abruption protocol in place for your emergency department?",
+        "text": "Alright, alright, let's not get too ahead of ourselves. We've got a great protocol for managing patients with new-onset heart failure. It involves a detailed history and physical, ECG, and of course, a transthoracic echo.",
         "color": "green"
       },
       {
-        "id": 3,
-        "parent_id": 2,
-        "user": "u/BarnabyFinch",
-        "role": "Patient",
-        "city": "London, ON",
-        "text": "Excuse me, I was just wondering... what exactly is this 'placental abruption' thingy? Is it something serious?",
-        "color": "lightblue"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "u/Drcardio",
-        "role": "FRCPC",
-        "city": "Toronto, ON",
-        "text": "@BarnabyFinch No worries, Barnaby! Placental abruption is when the placenta separates from the uterus before the baby is born, which can cause bleeding and oxygen deprivation for the baby. It can be a life-threatening situation for the mom and baby, which is why we have to act fast. But with proper care, like immediate ultrasound and transfusion, we can prevent serious complications. Would you like to know more?",
-        "color": "blue"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "u/Dr. Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "I'd like to add that placental abruption has a range of causes, including pregnancy-induced hypertension, smoking, trauma, and placenta previa. Always make sure to ask about the mom's smoking history and any trauma she might have experienced during her pregnancy.\n\nAlso, just a friendly reminder to all: make sure you're following the Canadian Hypertension Guidelines and using the right blood pressure cuff for the job,\n\n[link to Canadian Hypertension Guidelines](https://www.cps.ca/en/resources/clinical-policies/canadian-hypertension-guidelines)",
-        "color": "red"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "u/Leos Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Thank you so much for the reminder, Dr. Thorne! I've just started my family medicine rotation and I'm still learning about hypertension in pregnancy. Can someone please provide more information about the guidelines and how to assess for placental abruption? Maybe a flowchart or something?",
-        "color": "orange"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "u/Physician",
-        "role": "FRCPC",
-        "city": "Vancouver, BC",
-        "text": "@LeoChen Leo, it's my pleasure to help! I can give you a high-level overview of the guidelines and a flowchart that might be helpful. But let's keep it in the comments so everyone can see. \n\nTo assess for placental abruption, look for signs like vaginal bleeding, abdominal pain, fetal distress, and tachycardia. Make sure to take a thorough history, including any trauma or smoking history. Use the A-M-I-S-T-E-R mnemonic, and don't forget to check for pregnancy-induced hypertension. \n\n[link to flowchart](https://i.imgur.com/Z3RfK7M.png)",
-        "color": "yellow"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "TL;DR: Can't stop thinking about that 16mo old who came in last night...",
-    "body": "Just saw a patient with a classic respiratory presentation that's got me stumped... 16 mo old presents with 3 days of URI symptoms, now coughing up yellow gunk and having a low-grade fever.  Mom's a bit worried he's getting bronchiolitis.  I do the usual: history, exam, labs... and I'm stumped.  Can't find anything that says I should admit him... or should I?",
-    "category": "Emergency Medicine",
-    "comments": [
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "I know what you mean, OP.  I had a similar case last week. It's easy to get caught up in the 'I must admit this patient' mentality.  But sometimes, bronchiolitis just needs oxygen and IV fluids to ride out the storm.  Have you got a good feel for this patient's baseline, OP?",
-        "color": "blue"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "What's the plan for antibiotics, OP?  Is there a concern for secondary infection?",
-        "color": "yellow"
-      },
-      {
-        "id": 4,
-        "parent_id": 2,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Actually, Leo, bronchiolitis usually doesn't warrant IV antibiotics.  Antibiotic stewardship is key in EDs.  We're trying to prevent overuse of these meds.  Thanks for keeping us on our toes, though!",
-        "color": "red"
-      },
-      {
-        "id": 5,
-        "parent_id": 3,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "Ugh, great, another case where the MS can't tell the difference between bronchiolitis and pneumonia...  Come on, guys!  We need some basic EM theory to move forward!  Bronchiolitis = virus + no secondary infection.  Get it?",
-        "color": "orange"
-      },
-      {
-        "id": 6,
-        "parent_id": 4,
+        "id": 16,
+        "parent_id": 15,
         "user": "Turbo Tom",
         "role": "RN",
         "city": "London, ON",
-        "text": "Hey, hey, let's not get too worked up over the basics!  Bronchiolitis is just one of those diseases where we have to trust our instincts and not get too caught up in minute details.  Remember, we're all here to do our best for the patient.  No harm in a little uncertainty.",
-        "color": "purple"
-      },
-      {
-        "id": 7,
-        "parent_id": 5,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "Ugh, Tom, you're such a goofball!  Fine, let's move on. OP, can you tell us how the patient's doing? Did you have to admit him or can he go home?",
-        "color": "brown"
-      },
-      {
-        "id": 8,
-        "parent_id": 6,
-        "user": "OP",
-        "role": "",
-        "city": "",
-        "text": "Hey, Martha!  Patient went home with some IVFs and a prescription for albuterol.  Mom's still a bit worried, but we'll keep an eye on him.  Thanks for keeping me on my toes, guys!  Bronchiolitis = virus + no secondary infection, got it!",
-        "color": "pink"
-      }
-    ],
-    "image": "https://cdn2.hubspot.net/hubfs/212347/Blog/rsz_gettyimages-94690382.png"
-  },
-  {
-    "id": 8,
-    "title": "Rant about diverticulitis diagnosis: CT scan or not CT scan?",
-    "body": "Had a miss last night with a patient who presented with fever, severe LUT pain, and leukocytosis. The patient had all the classic symptoms of diverticulitis, but I still ordered a CT scan to confirm the diagnosis. The patient ended up having a perforated ulcer and had to be taken to the OR immediately. Now I'm wondering if I should have just stuck to clinical diagnosis and avoided the unnecessary radiation.",
-    "category": "emergency-medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Ziggy Zalesky",
-        "role": null,
-        "city": "Vancouver, BC",
-        "text": "TLDR: Don't order a CT scan for every episode of diverticulitis! We've all seen those articles citing the 80-90% sensitivity of CT scans, but we know that's not the real world. I'd be happy to share some studies on this topic, but in the meantime, remember the 3 Ps: patient history, physical exam, and clinical judgment!",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Barb Miller",
-        "role": null,
-        "city": "Winnipeg, MB",
-        "text": "I agree with Ziggy, but what about the patients who don't have a prior history of diverticulitis? Wouldn't it be better to err on the side of caution and order a CT scan to rule out more sinister causes of LUT pain?",
-        "color": "red"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Rick 'The Rage'",
-        "role": null,
-        "city": "Windsor, ON",
-        "text": "You know what's sinful? Ordering a CT scan without even trying to diagnose the patient clinically! Ziggy's right, we need to rely on our history and physical exam skills before sending someone for imaging.",
-        "color": "orange"
-      },
-      {
-        "id": 4,
-        "parent_id": 2,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Sorry to ask this, but what does 'the 3 Ps' refer to? I've heard of the 5 Ps of pneumonia, but not the 3 Ps of diverticulitis.",
+        "text": "Ha! You're absolutely right, Dr. Zalesky. Sometimes I think the most important tool we have is the one between our ears. Just use your old-fashioned bedside nursing skills and you'll get the job done.",
         "color": "blue"
       },
       {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "The 3 Ps refer to patient history, physical exam, and clinical judgment, kiddo! Don't worry if you haven't heard of 'em.",
-        "color": "green"
-      },
-      {
-        "id": 6,
-        "parent_id": 3,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I agree with Rick, but what about the patients who present with atypical symptoms or a new episode of diverticulitis? Wouldn't a CT scan be necessary to rule out complications?",
-        "color": "pink"
-      },
-      {
-        "id": 7,
+        "id": 17,
         "parent_id": 1,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "The sodium levels for this patient are critical. Anyone know what the normal range for sodium levels is after cardiac surgery?",
+        "color": "purple"
+      },
+      {
+        "id": 18,
+        "parent_id": 17,
         "user": "Dr. Kevin Park",
         "role": "PGY1",
         "city": "Edmonton, AB",
-        "text": "I've heard of a study that used decision rules to determine when to order a CT scan for diverticulitis. Can someone share the reference for me?",
-        "color": "yellow"
+        "text": "Good question, Dr. Varkov. Typically, you're looking for 135-145 mmol/L. Although, for patients with post-op cardiac surgery, anything within the range of 130-150 is usually okay.",
+        "color": "green"
       },
       {
-        "id": 8,
-        "parent_id": 7,
+        "id": 19,
+        "parent_id": 1,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "Don't forget, people. When it comes to managing these cases, always, always, always get a consult from cardiology ASAP. You can never go wrong with a second (or third, or fourth) opinion.",
+        "color": "blue"
+      }
+    ],
+    "image": "https://www.ebmedicine.net/productImages/EMP-22-08_800x200.jpg"
+  },
+  {
+    "id": 11,
+    "title": "Today I Learned: The Importance of Supralevator Spaces in Anorectal Disorders",
+    "body": "Just got done with a case where a patient came in with a rectal foreign body and an anorectal abscess that ruptured into the supralevator space. I've seen patients with rectal foreign bodies before, but this one was different. The infection had spread to the surrounding tissues and caused a massive abscess that had to be drained surgically. One of our surgical residents mentioned that this was a classic sign of a supralevator abscess, but I'd never really understood what that meant before. Can anyone else share their experience with supralevator abscesses? TLDR: Know your anorectal spaces, folks!",
+    "category": "emergency medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great case! Supralevator abscesses are indeed a serious complication of anorectal disorders. It's essential to remember that the supralevator space is an intermediate space that extends from the levator ani muscles to the pelvic diaphragm. When an infection spreads to this space, it can cause severe pelvic pain, nausea, and even sepsis. I always stress to my residents that anorectal disorders are not just limited to minor skin issues, but can have significant systemic consequences.",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Wait, why is it called a supralevator space? Is it because it's above the levator ani muscles?",
+        "color": "blue"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Exactly, Leo! The supralevator space extends superiorly to the pelvic diaphragm, and then inferiorly to the level of the levator ani muscles. It's a bit of a complex anatomy, but understanding the spatial relationships between these spaces is crucial for proper diagnosis and treatment. By the way, have you seen the article on anorectal spaces by Dr. Turan Kayagil in Tintinalli's Emergency Medicine?",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "I had a case last week where a patient came in with a rectal foreign body and an anorectal abscess that had spread to the submucosal space. It was a real pain to diagnose, but I remembered reading that submucosal abscesses can mimic rectal tumors on imaging. Has anyone else seen cases like this?",
+        "color": "pink"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
         "user": "Dr. Sarah Sharp",
         "role": "EP",
         "city": "Laval, QC",
-        "text": "The study you're thinking of is likely the Diverticulitis CT Use (DCAT) study. You can find it online, but basically, it showed that a combination of clinical judgment and decision-making rules can reduce unnecessary imaging without affecting patient outcomes.",
-        "color": "purple"
+        "text": "Yes, I've seen a few cases where submucosal abscesses have caused confusion with rectal tumors. The key is to remember that submucosal abscesses tend to cause more pain and tenderness on examination, whereas rectal tumors are usually asymptomatic. By the way, have you seen the article on anorectal tumors by Dr. Chad E. Branecki in Tintinalli's?",
+        "color": "brown"
+      },
+      {
+        "id": 6,
+        "parent_id": 4,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs, all of you. You think you know about anorectal spaces? I've been practicing for 30 years, and I still can't believe how often these cases get misdiagnosed. It's all about knowing the anatomy and staying up-to-date on the latest research. By the way, I've written an article on anorectal spaces that's coming out next month in the Journal of Emergency Medicine.",
+        "color": "red"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Come on, Vic. Let's not be too hard on our residents. We all learn from our mistakes, and it's essential to share our knowledge and experiences with each other. Plus, I'm sure your article will be a valuable contribution to the field.",
+        "color": "blue"
+      },
+      {
+        "id": 8,
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "TLDR: Anorectal spaces are a thing, folks. Know your anatomy, and don't be afraid to ask for help when you're unsure. And remember, if it's not in the textbook, it doesn't exist.",
+        "color": "yellow"
       }
     ]
   },
   {
-    "id": "ectopic_pregnancy_thread",
-    "title": "Rant about EP management in our hospital",
-    "body": "Just saw a patient with an EP that had a beta hCG of 4000. We started methotrexate and had a great plan for follow-up. But then I found out that the hospital policy is to admit all patients with EP regardless of beta hCG level. Anyone else have to deal with this level of bureaucratic red tape?",
-    "category": "r/emergencyphysicians",
+    "id": 12,
+    "title": "Frustrating Chronic Pain Case",
+    "body": "Had a patient present with chronic pain in her hand that started after a minor sprain 6 months ago. She complained of sharp, burning pain and allodynia. Classic symptoms for CRPS, but she had no history of trauma or nerve injury... just a minor sprain. Her primary care doc had already sent her to PT and meds, but nothing was working. I ended up referring her to pain management and started her on some conservative measures, but it's cases like this that make me question the system... ",
+    "category": "emergency_medicine",
     "comments": [
       {
         "id": 1,
@@ -599,9 +625,100 @@
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": null
+        "text": "Yeah, I've seen cases like this too. It's always tough when we're not sure what to do. Did you consider using a sympathetic nerve block? Maybe try to address the underlying issue with CRPS?",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "I don't get why we don't see more CRPS cases, it's so common! Can you blame us for trying meds and PT first? They're low risk, right? Did you ask her about her stress levels? CRPS can be triggered by stress too.",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Yeah, I get frustrated too, but we have to consider the bigger picture. CRPS can be a tough diagnosis, but we need to think about the whole system. Did you review her history and look for potential underlying causes like diabetes or rheumatoid arthritis?",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": null,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "What is CRPS? I've heard of it, but I'm not sure what it stands for. Can someone please explain?",
+        "color": "red"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "CRPS stands for Complex Regional Pain Syndrome. It's a chronic pain condition that can occur after trauma, surgery, or even a minor injury. Symptoms include burning pain, allodynia, and changes in skin temperature and color. We need to be careful not to miss this diagnosis, as it can have a significant impact on quality of life.",
+        "color": "purple"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "I've read that CRPS is caused by sympathetic nervous system dysfunction. Does that sound right to you guys? And is there a specific test to diagnose it?",
+        "color": "green"
+      },
+      {
+        "id": 7,
+        "parent_id": 5,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "I've seen a few papers on CRPS diagnosis. One of them mentioned the importance of looking at the patient's history and physical exam, including skin changes, temperature, and edema. Can you guys recommend any specific tests or imaging we should use?",
+        "color": "blue"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Rick 'The Rage'",
+        "role": "EP",
+        "city": "Windsor, ON",
+        "text": "Ugh, don't even get me started on CRPS diagnosis. We need to be looking for signs of sympathetic nervous system dysfunction, like temperature changes, edema, and vasospasm. And don't even get me started on the importance of using a sympathetic nerve block! Can someone link me to some good resources on this topic?",
+        "color": "purple"
+      },
+      {
+        "id": 9,
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "TL;DR: CRPS can be a tough diagnosis, but we need to consider the big picture and think about the whole system. Did anyone else have any experience with CRPS cases?",
+        "color": "green"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Yeah, I had a friend who had CRPS after a car accident. They ended up going to like 10 specialists before they got a diagnosis. Can we get a good resource on how to diagnose and manage CRPS?",
+        "color": "red"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "Actually, Chad, you might want to take a look at the American Academy of Pain Medicine's website. They have a great resource on CRPS diagnosis and management. It's a good place to start.",
+        "color": "blue"
       }
     ],
-    "image": "https://images.squarespace-cdn.com/content/v1/546e1217e4b093626abfbae7/1502207156967-KZC7Y5AGNEKQOMUBE5IT/image-asset.png"
+    "image": "https://eusem.org/media/k2/items/cache/7d13cc638b031f8ce1bae1b0204ae77c_XL.jpg"
   }
 ]
