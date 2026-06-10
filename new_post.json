@@ -1,910 +1,394 @@
 [
   {
     "id": 0,
-    "title": "TLDR: Just saw a patient with acute cholecystitis and realized how nuanced the diagnosis is... any tips?",
-    "body": "Had a patient last night with classic symptoms of acute cholecystitis: fever, RUQ pain, nausea, and a history of gallstones. But get this, her ultrasound was equivocal for cholecystitis, and I was like 'okay, let's get a HIDA scan.' But then I started thinking about the nuances of the diagnosis, and I'm like 'wait a minute...'. Does anyone else have a favorite trick for diagnosing or ruling out cholecystitis in a patient like this?",
-    "category": "r/EMericanPhysician",
+    "title": "Today I Learned: Missed Status Epilepticus in the ER due to over-reliance on 'normal' labs",
+    "body": "Had a miss last night and I'm still reeling from it. A 30-year-old patient presents with a single seizure, no other symptoms, normal lab work (Na 140, K 4, Glucose 110) and a head CT showing no acute changes. I let them go with a ' probable seizure' discharge instruction, and they returned 24 hours later with continued seizures, this time with a longer duration and altered mental status. Turned out it was non-convulsive status epilepticus, diagnosed on a subsequent EEG. What happened? Over-reliance on 'normal' labs, failure to escalate suspicion when patient's seizures didn't fit a straightforward 'seizure' narrative, and lack of a more aggressive approach in the initial evaluation. Anybody else have a similar experience?",
+    "category": "emergency-medicine",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": "Dr. Maya Gupta, FRCPC",
-        "role": "ER Doc",
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "Oh man, the bane of my existence is definitely the equivocal ultrasound. First of all, I always say 'if it's a sonographic Murphy's sign, it's probably cholecystitis.' Have you guys thought about doing a delayed ultrasound, where you wait like 30 minutes to see if the gallbladder still looks inflamed?",
+        "text": "This is a harsh reminder of how our biases can affect our decision-making in the ER. Labs are just one piece of the puzzle, and we need to be more vigilant in our initial evaluation. Have you considered re-reading your ER textbook on seizures and status epilepticus? [TLDR: Chapter 5, Seizures and Status Epilepticus](https://www.tintinalli.org/chapters/chapter-5)",
+        "color": "blue"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Dr. Thorne, what do you think about our ER's use of the 'SEAT' mnemonic to remember the key features of seizures and status epilepticus? Should we be using that in our initial evaluation as well?",
+        "color": "orange"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "I agree with Dr. Thorne - we need to do better in our initial evaluation. In our ER, we've started using the 'ABCDE' approach to quickly assess patients with seizures: A - alertness, B - breath sounds, C - cardio, D - dermatologic, and E - electrolytes. Anyone have experience with this approach, or do you have a different protocol?",
+        "color": "purple"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Dr. Sharp, I've read about the 'ABCDE' approach, but I'm not sure I agree with leaving out neuro checks (e.g., level of consciousness)? Shouldn't that be a key consideration in patients with seizures?",
+        "color": "green"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Sarah MS3, that's a great point. In our ER, we actually use a combination of the 'ABCDE' and 'SEAT' mnemonics to ensure we're covering all the key areas. The 'SEAT' part reminds us to check for 'S' - Status Epilepticus signs, 'E' - EEG, 'A' - Alcohol level, and 'T' - Temperature. I think this hybrid approach can be very effective.",
+        "color": "red"
+      }
+    ],
+    "image": "https://i0.wp.com/emcrit.org/wp-content/uploads/2022/07/statusepi.jpg?resize=450%2C701&ssl=1"
+  },
+  {
+    "id": 1,
+    "title": "TLDR: Soft Tissue Foreign Bodies - Lessons Learned from a Missed Glass Fragment",
+    "body": "Just saw a patient with a puncture wound from a broken beer glass who had a glass fragment lodged in his medial malleolus that went undiagnosed for 24 hours. It was only after we got a CT scan that we found it. I've been thinking a lot about this case and the challenges of diagnosing soft tissue foreign bodies. Has anyone else had a similar experience? What are your strategies for detecting these types of injuries?",
+    "category": "emergency medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "MD",
+        "city": "Toronto, ON",
+        "text": "Great case! I've had a few similar experiences where we've missed foreign bodies on initial presentation, only to have them show up on imaging later. In this case, it sounds like the patient's injury was quite complex. Did you consider the use of ultrasound to guide removal of the glass fragment?\n\nIn my experience, ultrasound is a valuable tool for detecting soft tissue foreign bodies, especially when they're small or irregularly shaped. However, we need to be mindful of the potential for false negatives, especially when the object is very small or not well-collimated.",
         "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Leo Chen, MS1",
-        "role": "Medical Student",
+        "user": "Leo Chen",
+        "role": "MS1",
         "city": "Montreal, QC",
-        "text": "Dr. Gupta, is the delayed ultrasound a thing? I always thought that only happened if the gallbladder was obstructed. Can you explain the difference?",
+        "text": "Dr. Thorne, can you clarify what you mean by 'collimated'?\n\nI've been studying ultrasound and I'm not entirely sure what that word means in this context.",
         "color": "green"
       },
       {
         "id": 3,
         "parent_id": 1,
-        "user": "Dr. Kevin Park, PGY1",
-        "role": "Intern",
-        "city": "Edmonton, AB",
-        "text": "TLDR: always get a stat CT to rule out perforation if you suspect cholecystitis. Just last week I had a patient who was admitted with cholecystitis and ended up needing a pericystic fluid aspiration for suspected perforation. The CT was a lifesaver.",
-        "color": "blue"
+        "user": "Sarah Jenkins",
+        "role": "MD",
+        "city": "Ottawa, ON",
+        "text": "I've had a few patients with soft tissue foreign bodies that were initially missed, but ultimately detected via CT scan. I think it's worth noting that CT scans can be a good option for detecting plastic or glass foreign bodies, which are often visible on plain radiographs. However, metal objects can be a bit trickier to visualize.\n\nHas anyone else had experience with radiopaque objects?",
+        "color": "orange"
       },
       {
         "id": 4,
         "parent_id": 3,
-        "user": "Sarah Jenkins, MS3",
-        "role": "Medical Student",
-        "city": "Ottawa, ON",
-        "text": "Dr. Park, isn't the CT more expensive than a HIDA scan? Shouldn't we prioritize the HIDA scan, especially in a patient who's clearly got cholecystitis?",
+        "user": "Dr. Victor Sterling",
+        "role": "MD",
+        "city": "Calgary, AB",
+        "text": "Amateurs like the OP would have been better off using an underpenetrated radiograph to visualize the foreign body in the first place. Instead of relying on CT scans for every minor complaint.\n\nLink to a paper on the use of radiography in soft tissue injuries: [https://www.jemr.net/article/S1934-6211(17)30341-1/ppt](https://www.jemr.net/article/S1934-6211(17)30341-1/ppt)",
         "color": "red"
       },
       {
         "id": 5,
-        "parent_id": null,
-        "user": "Turbo Tom, ER Nurse",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Can we get back to the case in point here? I was just watching the patient come in with the equivocal ultrasound, and I was like 'okay, I know this is gonna be a long day...'. Dr. Gupta, did you ever get the HIDA scan results?",
-        "color": "purple"
+        "parent_id": 4,
+        "user": "Dr. Maya Gupta",
+        "role": "MD",
+        "city": "Mississauga, ON",
+        "text": "I have to disagree with Dr. Sterling's approach. While underpenetrated radiographs can be useful, they may not provide sufficient detail for small or irregularly shaped foreign bodies. In this case, the glass fragment was only visible on CT scan.\n\nHas anyone else found success with ultrasound-guided removal of foreign bodies?",
+        "color": "blue"
       },
       {
         "id": 6,
         "parent_id": 5,
-        "user": "Sparkle-Eyes Sue, LPN",
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "I've seen a few cases where ultrasound was used to guide removal of foreign bodies, but we've had limited success. The key is to use a high frequency probe and to be gentle when probing the tissue. Does anyone have any tips on how to improve our technique?",
+        "color": "pink"
+      },
+      {
+        "id": 7,
+        "parent_id": null,
+        "user": "Dr. Barb Miller",
+        "role": "MD",
+        "city": "Winnipeg, MB",
+        "text": "I've been working in a community ER for a while now, and I've seen my fair share of foreign body injuries. But I have to say, I'm a bit of a skeptic when it comes to the role of ultrasound in detecting soft tissue foreign bodies. I think we need to be careful not to overestimate its utility.\n\nHas anyone else had experience with ultrasound in this context?",
+        "color": "gold"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Rick 'The Rage'",
+        "role": "MD",
+        "city": "Windsor, ON",
+        "text": "Ugh, don't even get me started on the role of ultrasound in soft tissue injuries. It's just a waste of time, if you ask me. We need to focus on good old fashioned physical examination and a thorough history.\n\nLink to a paper on the limitations of ultrasound in this context: [https://www.acr.org/Quality-Safety/Reports-and-Data/Reports/](https://www.acr.org/Quality-Safety/Reports-and-Data/Reports/)",
+        "color": "black"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Phil Muddle",
+        "role": "MD",
+        "city": "Regina, SK",
+        "text": "I'm a bit lost as to what's going on in this thread. Can someone summarize the main points for me?",
+        "color": "purple"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Sparkle-Eyes Sue",
         "role": "LPN",
         "city": "St. John's, NL",
-        "text": "I got the HIDA scan results for ya, Turbo Tom! She ended up having a gallstone causing intermittent cholecystitis. Poor thing's gonna be on IV fluids and pain meds for a while.",
-        "color": "green"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Rick 'The Rage', EP",
-        "role": "Physician",
-        "city": "Windsor, ON",
-        "text": "You think that's a long day? I had a patient last week with acute pancreatitis and a hemoglobin of 4. It took me 6 hours to stabilize the guy. HIDA scan schmaidia scan...",
-        "color": "red"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Elena Varkov, FRCPC",
-        "role": "Internist",
-        "city": "Quebec City, QC",
-        "text": "Dr. Rage, I think you might be trying to out-tough me. But seriously, pancreatitis is no joke. Have you guys considered using the Balthazar score to predict the prognosis?",
-        "color": "purple"
-      }
-    ],
-    "image": "https://media.springernature.com/m685/springer-static/image/art%3A10.1186%2Fs12893-021-01137-y/MediaObjects/12893_2021_1137_Fig1_HTML.png"
-  },
-  {
-    "id": 1,
-    "title": "Today I Learned: My ischemic stroke code was actually a TIA",
-    "body": "Just saw a patient with an ischemic stroke code, complete with massive infarct on the non-contrast CT. But here's the kicker: the patient was completely back to normal within 6 hours. It turns out he had a TIA (transient ischemic attack) and not an actual stroke. This got me thinking, how often do we over-treat TIAs as strokes?",
-    "category": "emergency medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Wow, that's a great lesson for all of us. TIAs are a huge source of unnecessary concern and unnecessary treatment. The American Heart Association recommends using the ABCD2 score to identify high-risk patients for stroke. Have you considered using this in your evaluation?",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Dr. Thorne, I'm not sure I understand the ABCD2 score. Can you explain it? And wouldn't we need a more formal diagnosis to confirm it's not a stroke?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs like us who don't know what they're doing keep throwing around terms like TIA. Newsflash: it's not a real diagnosis. It's just a bunch of voodoo to convince the patient and their family that they're not really sick. Get over it, folks.",
-        "color": "red"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Dr. 'Ziggy' Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "I love when Dr. Sterling tries to troll us. Let me set the record straight: TIA is a real diagnosis with real clinical implications. It's not just a bunch of voodoo. You, on the other hand, Sir, are a bunch of hooey. TL;DR: TIAs are a thing!",
-        "color": "blue"
-      },
-      {
-        "id": 5,
-        "parent_id": 2,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Great question, Sarah! The ABCD2 score is a tool that helps us identify patients who are at high risk for stroke after a TIA. It's based on five clinical factors: age, blood pressure, clinical features, duration of symptoms, and diabetes. Let me break it down for you:",
-        "color": "purple"
-      },
-      {
-        "id": 6,
-        "parent_id": 3,
-        "user": "Dr. 'Ziggy' Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Oh, come on, Dr. Sterling. Can't you just admit when you don't know what you're talking about? I mean, you're a Chief of Surgery, for crying out loud. Get some humility, brother.",
-        "color": "blue"
-      },
-      {
-        "id": 7,
-        "parent_id": 5,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Thank you, Dr. Thorne! That makes so much sense. And I have a follow-up question: what's the current thinking on when to start anticoagulation in a suspected TIA?",
-        "color": "green"
-      },
-      {
-        "id": 8,
-        "parent_id": 1,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "You're all missing the point here. TIAs are just a way for neuros to get more patients with more CTs, which, in turn, justifies their own existence. Wake up, sheeple. Don't get too caught up in the alphabet soup.",
-        "color": "orange"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "I understand where you're coming from, Martha, but that's not entirely fair. In a real-world setting, TIAs can be just as debilitating and frightening as strokes. We need to treat them with the same level of urgency and respect.",
-        "color": "purple"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Thorne, can you provide some tips on how to differentiate between a TIA and a stroke in the field? What are some key things to look out for?",
+        "text": "Aww, don't be afraid to ask questions, Dr. Muddle! We're all just tryin' to figure things out and help each other out.",
         "color": "green"
       },
       {
         "id": 11,
-        "parent_id": 7,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Sarah, I completely agree with you on anticoagulation. In the ED, I try to get an MRI as soon as possible to rule out a stroke. If that's negative, then it's probably a TIA. What are your thoughts on that?",
-        "color": "blue"
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "MD",
+        "city": "Toronto, ON",
+        "text": "I think this thread has highlighted the importance of a good physical examination and a thorough history in detecting soft tissue foreign bodies. But it's also clear that ultrasound and CT scans can be useful tools in certain situations.\n\nLet's keep the conversation going and see if we can't come up with some best practices for managing these types of injuries.",
+        "color": "purple"
       },
       {
         "id": 12,
         "parent_id": 11,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Dr. Gupta, thank you so much for your insight! Yes, I completely agree with you about the MRI. It's always better to err on the side of caution when it comes to stroke. But what about the role of thrombolysis in TIA vs. stroke?",
-        "color": "green"
-      },
-      {
-        "id": 13,
-        "parent_id": 4,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Ziggy, you're just like all the rest of the sheep, blindly following the rules without questioning. What's wrong with a little skepticism?",
-        "color": "red"
-      },
-      {
-        "id": 14,
-        "parent_id": 12,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Sarah, to be honest, I think thrombolysis is a bit like playing roulette with a high-stakes patient's life. But in the context of TIA, I think it's a necessary evil. We need to weigh the risks and benefits carefully. What do you think?",
-        "color": "blue"
-      },
-      {
-        "id": 15,
-        "parent_id": null,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "This is getting too deep for me. Let's just stick to patient safety, shall we?",
-        "color": "purple"
-      },
-      {
-        "id": 16,
-        "parent_id": 4,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Dr. Sterling, I think we have to agree to disagree on this one. But at the end of the day, the patient is the one who ultimately wins. We just have to get it right for them.",
-        "color": "orange"
-      },
-      {
-        "id": 17,
-        "parent_id": 15,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "Ugh, can we just agree that TIAs are a thing and we should respect our patients' time? Enough said.",
-        "color": "red"
-      },
-      {
-        "id": 18,
-        "parent_id": 14,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Dr. Gupta, I completely see your point about the risks and benefits of thrombolysis. But what about using antiplatelet agents in TIA?",
-        "color": "green"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Today I Learned: Don't forget to consider EBV in the child with non-responsive pharyngitis and a negative throat culture.",
-    "body": "Had a case last night that reminded me of the importance of EBV in the differential for pharyngitis. 3-year-old girl presents with a history of fever, sore throat, and fatigue. Throat culture comes back negative, but she's not improving. EBV should be a top consideration in these cases.",
-    "category": "Resident Horror Stories",
-    "comments": [
-      {
-        "id": 10,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Totally agree. EBV can present similarly to strep, and a negative throat culture doesn't rule it out. Did you consider the EBV antigen test? We've found it to be very useful in cases like these.",
-        "color": "purple"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "What's the EBV antigen test, and how accurate is it?",
-        "color": "green"
-      },
-      {
-        "id": 12,
-        "parent_id": 10,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "The EBV antigen test is a quick and easy way to check for EBV infection. It's not as sensitive as PCR, but it's a good starting point. We use it here as part of our ED EBV protocol. I'll send you a link to our ED protocols so you can check it out.",
-        "color": "purple"
-      },
-      {
-        "id": 13,
-        "parent_id": 12,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "I've heard that EBV can cause some funky physical exam findings. Can you tell me more about that? I want to be more aware of the 'EBV profile'",
-        "color": "green"
-      },
-      {
-        "id": 14,
-        "parent_id": 13,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "Ah, yes! EBV can cause some lovely cervical adenopathy, and a scratchy voice. I often see patients with EBV present with a classic 'strep' presentation, but with a hint of atopy. Remember, folks, EBV is a virus, but it's not just for college kids!",
-        "color": "purple"
-      },
-      {
-        "id": 15,
-        "parent_id": 14,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "Ugh, don't even get me started on college kids and EBV. We need to make sure we're considering EBV in all the right patients, not just the ones who 'fit the profile'. I've seen too many cases where we missed EBV because we were stuck on strep.",
-        "color": "green"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Just saw a patient with intractable nausea and vomiting - what's the protocol?",
-    "body": "So I saw a 35-year-old guy with a 3-day history of nausea and vomiting that's just getting worse. He's got no abdominal pain but he's got a headache, a little bit of fever, and he's been hydrating like crazy but getting dehydrated. His vomit's not projectile but it's not blood or bile either. He's on nothing but has had some ibuprofen. I'm thinking maybe it's a post-viral syndrome or something but I'm not sold. Has anyone else had to deal with this? What's the ER protocol for this? Thanks!",
-    "category": "emergency medicine",
-    "comments": [
-      {
-        "id": 2,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "TL;DR - Get a head CT, check for hyperemesis gravidarum, and consider a psychiatric consult. I had a similar case a few weeks ago and this is what I did (it turned out to be a pregnancy complication). Also, don't forget to get a urine osmolality to rule out diabetes insipidus. Check out this article for more: https://www.uptodate.com/contents/hyperemesis-gravidarum-beyond-the-basics. Hope that helps!",
-        "color": "blue"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Actually, I think you should consider checking for appendicitis and small bowel obstruction first, since those would present with fever and abdominal pain. Also, what about the patient's medication list? Maybe they're on something that's causing this.",
-        "color": "yellow"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
         "user": "Dr. Kevin Park",
         "role": "PGY1",
         "city": "Edmonton, AB",
-        "text": "That's right, Sarah. And don't forget to do a thorough exam, including a rectal exam to check for tenderness. Also, what about the patient's past medical history? Have they had any abdominal surgeries or liver disease?",
-        "color": "pink"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Excellent point, Kevin. A thorough exam is key. And yes, liver disease should definitely be considered. One thing to keep in mind is that some patients with cirrhosis can develop intractable nausea and vomiting due to ascites and other complications. So don't forget to ask about any liver disease in the patient's history.",
-        "color": "gray"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Tobias",
-        "text": "I had a case similar to this and the patient ended up having an inpatient stay for 3 days. The cause was a gastric volvulus with gastric outlet obstruction.",
-        "color": "red"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs always think it's a simple gastric volvulus. It's never that simple. In this case, we need to consider a more complex cause, like a gastric band or other gastric pathology.",
-        "color": "purple"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "Come on, Victor. You're not exactly making me feel comfortable. I think we're both on the same page here and we just need to dig a little deeper to get to the bottom of this.",
-        "color": "orange"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "I don't mean to ask a dumb question, but what if the patient is not getting dehydrated despite vomiting a lot? Could it be related to a different metabolic status or something? Thanks!",
-        "color": "green"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Ah, Leo, that's a great question! It could be related to a metabolic problem. You see, some patients can have a decreased renal function and become resistant to dehydration despite vomiting and diarrhea. But we need to remember that this is a rare scenario and usually not the primary cause.",
-        "color": "purple"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Turbo Tom",
-        "text": "Hey guys, have we considered the possibility of an infectious cause like toxoplasmosis? I remember reading a study recently that mentioned an increased risk of toxoplasmosis in patients with a history of vomiting and abdominal pain.",
-        "color": "red"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Ziggy Zalesky",
-        "role": "FRCPC",
-        "city": "Vancouver, BC",
-        "text": "Ziggy here. I think Tom's on to something. Toxoplasmosis is indeed a possibility, especially given the patient's symptoms. However, it's worth noting that the symptoms of toxoplasmosis can vary greatly from patient to patient, and some patients may not present with the typical gastrointestinal symptoms.",
+        "text": "Dr. Thorne, what do you think is the most common mistake we make when it comes to soft tissue foreign bodies?",
         "color": "blue"
       },
       {
         "id": 13,
         "parent_id": 12,
-        "user": "Dr. Sharp Sarah",
-        "role": "FRCPC",
-        "city": "Laval, QC",
-        "text": "Great point, Ziggy! And another thing to consider is the patient's occupation. Is the patient an immunocompromised individual or someone who interacts with animals frequently? Both of these factors can increase the risk of toxoplasmosis.",
-        "color": "gray"
+        "user": "Dr. Maya Gupta",
+        "role": "MD",
+        "city": "Mississauga, ON",
+        "text": "I think we tend to underestimate the importance of a thorough physical examination and history. It's easy to get caught up in ordering tests and relying on technology, but a good old-fashioned physical exam is still the best way to detect most foreign bodies.",
+        "color": "red"
       },
       {
         "id": 14,
         "parent_id": 13,
-        "user": "Rick The Rage",
-        "role": "FRCPC",
-        "city": "Windsor, ON",
-        "text": "Ugh, can we please stop with the toxoplasmosis crap? I've got a patient in right now who's having a bad reaction to a medication, and I don't have time for this BS. Thanks, guys.",
-        "color": "purple"
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "Um, excuse me, but what's going on here? I've been reading this thread and I'm a bit confused.",
+        "color": "pink"
       },
       {
         "id": 15,
         "parent_id": 14,
-        "user": "Barb Miller",
-        "role": "FRCPC",
-        "city": "Winnipeg, MB",
-        "text": "Ha! Rick, I get it, you're frustrated. But let's not shoot down potential causes without a thorough investigation. You never know what you might learn.",
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Hey Barnaby, don't worry, we're just having a chat about soft tissue foreign bodies. Nothing too exciting, I promise!",
         "color": "green"
       },
       {
         "id": 16,
         "parent_id": 15,
-        "user": "Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "I love seeing all this banter! Meanwhile, the patient's still vomiting, and we're talking about toxoplasmosis. What about considering some other, more mundane causes? Maybe the patient's just got a stomach flu and we're overcomplicating things.",
-        "color": "yellow"
-      }
-    ],
-    "image": "https://coppellemergencyroom.com/wp-content/uploads/2025/04/Persistent-Vomiting-scaled.webp"
-  },
-  {
-    "title": "Hyponatremia: When to Act Fast and Prevent the 'Osmotic Nemesis'",
-    "id": 2,
-    "username": "r/EmergencyMedicine",
-    "category": "clinical anecdote",
-    "body": "Just had a patient come in with severe hyponatremia (Na 90 mEq/L) and altered mental status. Patient had presented with severe vomiting and diarrhea overnight, and was given 1L of D5W as a 'rescue' fluid. I'm reminded that correction of hyponatremia, especially in the setting of acute illness, requires a careful approach to avoid cerebral edema and demyelination. Specifically, acute hyponatremia should be corrected at a rate no faster than 1-2 mEq/L/hr, while asymptomatic patients with mild hyponatremia can often be observed without aggressive fluid therapy. What are your strategies for managing hyponatremia in the ED, and any horror stories of rapid correction gone wrong?",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "TL;DR: Always, always, ALWAYS correct hyponatremia slowly (1-2 mEq/L/hr). Don't be seduced by those fancy papers recommending rapid correction - trust me, the osmotic demyelination syndrome will make you wish you'd taken the slow route. Link to a great review article on electrolyte management in the ED: https://www.uptodate.com/contents/correction-of-hyponatremia-beyond-the-basics\n\nAs for me, this case reminded me of a patient I had last year who developed CNS edema after rapid correction of hyponatremia... (long story, but the patient ended up on TPN for weeks)",
-        "color": "red"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Hi Dr. Gupta, thanks for sharing your experience. I've been learning about CNS edema in med school, but I'd love to hear more about your patient's case... Specifically, how did you manage the fluid shifts and electrolyte imbalance? And what were the outcomes for your patient?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Hi everyone, thanks for sharing your experiences. One thing that's been on my mind lately is distinguishing between central and peripheral hyponatremia... Has anyone got some tips on how to approach this in the ED? And are there any specific lab tests or imaging studies that can help us figure out the cause of the hyponatremia?",
-        "color": "blue"
-      },
-      {
-        "id": 11,
-        "parent_id": 3,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Hi Kevin, don't get too hung up on distinguishing between central and peripheral hyponatremia. The key is to assess the overall clinical picture, paying attention to symptoms like headache, nausea, and vomiting. That said, in patients with severe hyponatremia, an MRI can be useful in identifying brain edema and demyelination. And don't forget to check those electrolytes carefully - hypokalemia and hypomagnesemia can contribute to hyponatremia, especially in the setting of DKA or TPN",
-        "color": "magenta"
-      },
-      {
-        "id": 4,
-        "parent_id": null,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "TL;DR: Hyponatremia is a frequent complication of acute illnesses like DKA, CHF, and SIADH. Make sure to assess for underlying causes and correct electrolytes carefully. Don't be afraid to call in some help if you're not sure how to manage the patient... As for me, I've seen some crazy cases of hyponatremia in my intern years, including a patient who developed CNS edema after rapid correction of SIADH... Link to a great review article on SIADH and hyponatremia: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4444456/",
-        "color": "gray"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Wow, I had no idea hyponatremia could be so serious! What kind of treatments were used to manage the CNS edema in your patient, Dr. Varkov? And did anything unexpected happen in the hospital?",
-        "color": "yellow"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Just saw a patient with anaphylaxis and it made me realize how often we're over-triaging food related allergies",
-    "body": "I had a patient come in last night with symptoms that looked super convincing for anaphylaxis. Turns out it was just a severe allergic reaction to a food intolerance that didn't require epinephrine. Anyone else see this often?",
-    "category": "emergency_medicine",
-    "comments": [
-      {
-        "id": 6,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "I've seen it plenty of times. People get anaphylaxis on their first exposure to something and it's often due to a food intolerance. It's great that we're getting better at identifying it, but it also means we need to be more judicious with our use of epinephrine.\n\nOne thing to keep in mind is that anaphylaxis from food often presents with more gastrointestinal symptoms than cardiovascular ones. So, we need to be paying attention to cramping, vomiting, and diarrhea, in addition to respiratory distress. And, of course, let's not forget about the importance of a good history!\n\nI've found this article from Canadian Medical Association Journal to be super helpful on the topic:\nhttps://www.cmaj.ca/content/canmedj/204/4/e134",
+        "user": "Dr. Phil Muddle",
+        "role": "MD",
+        "city": "Regina, SK",
+        "text": "I think we've covered some great topics in this thread. Anyone have any final thoughts before we wrap things up?",
         "color": "purple"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Thanks for sharing the article, Dr. Thorne! I'll be sure to read it. Can you clarify what you mean by \"more gastrointestinal symptoms\"? Does that mean we should be paying more attention to stomach cramps and nausea in patients with anaphylaxis?",
-        "color": "green"
-      },
-      {
-        "id": 8,
-        "parent_id": 6,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs. I've never seen a case of anaphylaxis that wasn't caused by an IgE-mediated reaction. This \"food intolerance\" business is just a bunch of hooey. And don't even get me started on people self-diagnosing with online quizzes.\n\nBut, I suppose it's worth mentioning that in some cases, anaphylaxis can be caused by non-IgE-mediated mechanisms, such as direct release of histamine from mast cells. So, I suppose we shouldn't be too quick to dismiss the role of food intolerances.\n\nHowever, let's not forget that anaphylaxis is a clinical diagnosis. We need to be using our clinical judgement, not just relying on tests and online articles.",
-        "color": "blue"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Thanks for the insight, Dr. Sterling. You're right, IgE-mediated reactions are the most common cause of anaphylaxis. But, I'd argue that food intolerances can also present with symptoms that look like anaphylaxis. And, as you said, non-IgE-mediated mechanisms can also play a role.\n\nIt's about keeping an open mind and not being too quick to dismiss the possibility of a food intolerance. After all, it's much better to be safe than sorry and to err on the side of caution when it comes to patient safety.",
-        "color": "yellow"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I've had some experience with anaphylaxis in the ER and I've found that a good history is key. Asking about food intake and potential allergens can really help narrow down the cause.\n\nAlso, have any of you heard about the use of intravenous epinephrine in anaphylaxis? I've been reading about it and it seems like it might be a game-changer.",
-        "color": "pink"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "IV epinephrine is an interesting topic. I've seen it used in some cases, but it's definitely not a slam dunk. We need to be careful not to over-triage patients with this treatment. That being said, it's worth exploring further. Maybe we can get some more info from Dr. Gupta about her experience with it?",
-        "color": "orange"
-      },
-      {
-        "id": 12,
-        "parent_id": null,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "OMG, anaphylaxis is soooo serious!!! Is it true that you can die from it?",
-        "color": "purple"
-      },
-      {
-        "id": 13,
-        "parent_id": 12,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Haha, take a deep breath, Chad! Yes, anaphylaxis can be deadly, but we're pretty good at treating it nowadays. You'll learn all about it in med school, I'm sure.",
-        "color": "green"
       }
     ]
   },
   {
     "id": 123,
-    "title": "When to Distinguish Between Asthma and Bronchiolitis in Kids: A Clinical Conundrum",
-    "body": "Just saw a patient with a 9-month-old who presented with recurrent wheezing and coughing. The parents were concerned it was asthma, but I wasn't so sure. After a lengthy conversation, I came to the realization that the child had bronchiolitis, which is a common respiratory illness in infants, characterized by inflammation and congestion of the small airways. The key distinguishing feature between asthma and bronchiolitis in this age group is the presence of a preceding upper respiratory infection and a viral epidemic. Has anyone else had a similar dilemma, or what are your go-to strategies for differentiating these two conditions?",
-    "category": "Emergency Medicine",
+    "title": "Today I Learned: Acute Pancreatitis and the Systemic Inflammatory Response Syndrome (SIRS) Score",
+    "body": "Just saw a patient with severe acute pancreatitis and I was reminded of how quickly the disease can progress. I also realized that I forgot to assess for the SIRS criteria. I know I'm not the first person to overlook this, but I'm hoping to share my experience and learn from others.",
+    "category": "emergency medicine",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Toronto, ON",
-        "text": "As a resident, I've had my fair share of bronchiolitis-Asthas conundrums. One thing that helped me was to look for the presence of a preceding URI. Another factor to consider is the child's age. Bronchiolitis typically affects children under two, while asthma can manifest at any age.",
-        "color": "blue"
+        "user": "TurbulentTom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Lemme tell ya, doc, I've been in the ER for 10 years and I still see docs missing those SIRS points. Don't get me wrong, it's a busy place, but take a minute to assess those vital signs, would ya? [link to paper on SIRS score](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4419245/)",
+        "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Calgary, AB",
-        "text": "Thanks for the tip, Dr. Gupta! But what about children under one year old? Do they get bronchiolitis too?",
-        "color": "orange"
+        "user": "ArisThorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "@TurboTom, great reminder! When assessing for SIRS, we need to consider all the criteria, not just the vital signs. Have you guys seen the 1992 criteria or the 2016 modified SIRS score?",
+        "color": "green"
       },
       {
         "id": 3,
-        "parent_id": 2,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Calgary, AB",
-        "text": "Actually, Leo, under one is even more challenging. At that age, they're more at risk of developing bronchiolitis, especially if there's a family history of it or they've had a previous episode. We always need to be cautious when diagnosing asthma or bronchiolitis in very young infants.",
+        "parent_id": null,
+        "user": "SarahSharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Actually, we should be using the quick Sepsis-related Organ Failure Assessment (qSOFA) score in ED patients with suspected acute pancreatitis. Have we all heard of it?",
         "color": "blue"
       },
       {
         "id": 4,
-        "parent_id": 1,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Edmonton, AB",
-        "text": "I had a friend whose kid had bronchiolitis last year, and the doc gave them oxygen and all sorts of meds to breathe better. Is that just standard protocol or can be more tailored to the patient?",
+        "parent_id": 3,
+        "user": "ZiggyZalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "@SarahSharp, nice mention! The qSOFA score is a great tool for distinguishing between severe infection and other causes of shock. Can you explain the difference between SIRS and Sepsis-3?",
         "color": "red"
       },
       {
         "id": 5,
         "parent_id": 4,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Edmonton, AB",
-        "text": "Thanks for sharing, Chad! While oxygen therapy can be helpful in mild cases, more severe episodes may require hospitalization and IV fluids. Treatment goals include relieving respiratory distress, preventing complications, and minimizing morbidity. As always, individualized care is paramount, taking into account the child's specific needs and the clinical context.",
-        "color": "blue"
-      },
-      {
-        "id": 6,
-        "parent_id": 1,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Ottawa, ON",
-        "text": "In my day, we simply called it bronchitis. The viral nature of it wasn't fully understood until later. Do these children ever require hospitalization or can they be managed at home?",
-        "color": "purple"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Ottawa, ON",
-        "text": "Thanks for sharing your wisdom, Dr. Thorne. Hospitalization may be necessary in severe cases, particularly those with significant respiratory distress, hypoxia, or other complications. However, most cases can be managed with supportive care, including respiratory therapies and close monitoring.",
-        "color": "blue"
-      },
-      {
-        "id": 8,
-        "parent_id": null,
-        "user": "Dr. Sarah Sharp",
+        "user": "RickRage",
         "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Just a reminder, when diagnosing and differentiating asthma from bronchiolitis, it's essential to consider the patient's overall clinical picture, including the presence of an upper respiratory infection, fever, and the potential for a viral epidemic. Don't forget to check for co-existing conditions, such as gastroesophageal reflux disease (GERD). TLDR: Always think about the whole patient, not just the primary complaint.",
-        "color": "green"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Surrey, BC",
-        "text": "Thanks for the reminder, Dr. Sharp. What about the role of bronchodilators in this scenario? Do they play a key role in the treatment of asthma or bronchiolitis?",
-        "color": "yellow"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Surrey, BC",
-        "text": "Nice question, Dr. Park! Bronchodilators can be useful in asthma, but their role in bronchiolitis is more nuanced. In the acute setting, they may provide some benefit, but their long-term effectiveness is less clear. Be cautious when using them, especially in young children, as they may increase the risk of respiratory complications.",
-        "color": "blue"
-      },
-      {
-        "id": 11,
-        "parent_id": 1,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Regina, SK",
-        "text": "This has been super helpful, thanks everyone. One final question: what's the likelihood of having bronchiolitis again in the future? Is it a chronic condition?",
-        "color": "pink"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Regina, SK",
-        "text": "Thanks for asking, Barnaby! While some children may experience recurrent episodes of bronchiolitis, it's not typically considered a chronic condition in the classical sense. However, repeated infections can increase the risk of long-term respiratory complications, such as asthma. Be sure to follow up with your child's pediatrician to discuss any concerns or future management plans.",
-        "color": "blue"
-      },
-      {
-        "id": 13,
-        "parent_id": null,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "Laval, QC",
-        "text": "Kudos to all for the great discussion! Just a quick question: when you're seeing a child with a severe case of bronchiolitis, what's your go-to strategy for managing their oxygen levels?",
+        "city": "Windsor, ON",
+        "text": "@ZiggyZalesky, the Sepsis-3 criteria are a game-changer. Gone are the days of the 'traditional' definition of sepsis. Now we're focusing on organ dysfunction, which makes it harder to diagnose. But hey, at least the treatment is more tailored.",
         "color": "orange"
       },
       {
-        "id": 14,
-        "parent_id": 13,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Laval, QC",
-        "text": "Excellent question, Turbo Tom! Oxygen supplementation is a key aspect of managing severe bronchiolitis. In addition to pulse oximetry, I would recommend close monitoring of their respiratory status, including respiratory rate, effort, and work of breathing. If necessary, we can use non-invasive ventilatory support, such as NIPPV or BiPAP. Keep in mind that these therapies should be tailored to the individual patient's needs and clinical context.",
-        "color": "blue"
-      },
-      {
-        "id": 15,
-        "parent_id": null,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Montreal, QC",
-        "text": "30 years of ER experience and I still can't believe how often we see bronchiolitis in the summer months. Always remember to consider environmental factors, such as air quality and pollen levels, when evaluating these patients.",
-        "color": "green"
-      }
-    ],
-    "image": "https://cdn2.hubspot.net/hubfs/212347/Blog/rsz_gettyimages-94690382.png"
-  },
-  {
-    "id": 1,
-    "title": "Missed Mycoplasma pneumoniae in an asthmatic patient...TLDR; Don't forget to think about mycoplasma in asthma exacerbations",
-    "body": "Just saw a 45 yo woman with a 10 year history of severe asthma status post ER for a COPD-like presentation. She had been on high dose inhaled steroids and a LTRA but still had regular exacerbations. On her presentation, she had dyspnea, wheezing, and a history of 30 pack yr smoking. I was thinking more about chronic bronchitis and emphysema due to her smoking history but the chest x ray showed bilateral infiltrates. Turns out she had Mycoplasma pneumoniae on her ABG. This made me think, how often do we miss Mycoplasma pneumoniae in asthmatics?",
-    "category": "emergency medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Great point OP! I've had similar cases in the past where we thought it was just another asthma exacerbation. Mycoplasma pneumoniae can be tricky to diagnose, but it's worth considering in patients who are not responding to treatment or who have atypical presentations. Here's a paper that outlines the common presentations and diagnostic approaches:\n\nhttps://www.ncbi.nlm.nih.gov/pubmed/23161583\n\nTLDR; Don't forget to get a CXR and consider Mycoplasma pneumoniae if the patient's symptoms don't match their medication adherence.",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Dr. Thorne, thanks for sharing that paper. I was wondering, what are some other atypical presentations of Mycoplasma pneumoniae in asthmatics? I've heard that it can cause more systemic symptoms than just respiratory issues.",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs like OP and their friends should remember that Mycoplasma pneumoniae is just one of many potential causes of asthma exacerbations. We should be thinking about other possibilities like COPD, CHF, and even pulmonary embolism. Don't get too caught up in looking for Mycoplasma pneumoniae and forget about the other important causes.",
-        "color": "purple"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Dr. Sterling, I think you're missing the point. We can't just assume that every patient with asthma exacerbations has COPD or CHF. Mycoplasma pneumoniae is a common cause of atypical presentations, and we should be considering it in our differential diagnoses. Don't dismiss the evidence-based medicine just because you're a surgeon.",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Love the exchange between Dr. Thorne and Dr. Sterling! Just want to add that Mycoplasma pneumoniae can also cause skin and muscle symptoms like rash and myalgias. We should be thinking about the full spectrum of presentations, not just respiratory issues.",
-        "color": "purple"
-      },
-      {
         "id": 6,
-        "parent_id": 5,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Rash and myalgias? That sounds like a whole different disease. Can someone explain why Mycoplasma pneumoniae causes these systemic symptoms?",
-        "color": "green"
+        "parent_id": 1,
+        "user": "BrockStone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "@ArisThorne, I agree that we should look beyond the SIRS score for acute pancreatitis. But isn't the Modified Glasgow Prognostic Score (mGPS) more relevant for predicting outcomes than SIRS?",
+        "color": "pink"
       },
       {
         "id": 7,
         "parent_id": 6,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Great question, Chad! Mycoplasma pneumoniae can cause systemic symptoms because it can infect not just the respiratory tract, but also other tissues and organs like the skin, muscles, and even the CNS. This is known as 'atypical' presentation because it doesn't fit the typical picture of respiratory illness.",
-        "color": "purple"
-      }
-    ]
-  },
-  {
-    "id": 12,
-    "title": "Lacerations: when to splint and when to refer to hand surgery?",
-    "body": "Just saw a patient with a laceration to the extensor tendons over the distal interphalangeal (DIP) joint and was wondering when to splint and when to refer to hand surgery. A swan neck deformity or boutonniere deformity can occur if the tendon is not properly repaired. Is there a general rule of thumb for referral to a hand surgeon?",
-    "category": "emergency medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "When we see lacerations to the extensor tendons, it's crucial to assess the patient carefully. We need to examine the tendon carefully for any signs of rupture or significant damage. If we see an RSL (ring sign lateral) or an FHL (flexor hallucis longus) sign, we should consider an urgent referral to hand surgery. For minor injuries, we can always observe and splint in extension, but if there's any doubt, it's always better to err on the side of caution and refer. TLDR: Assessing the tendon damage is key, and if there's any doubt, referring to hand surgery is always the best option.",
-        "color": "purple",
-        "date": "yesterday at 14:00"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "@Dr. Aris, just to clarify, what is an RSL and FHL sign? I'm a bit confused and would love to learn more. And when you say observe and splint in extension, do you mean to observe for 1-2 weeks and then reassess?",
-        "color": "green",
-        "date": "yesterday at 14:40"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I totally agree with @Dr. Aris that assessing the tendon damage is crucial. I've seen patients with minor injuries who develop serious complications down the line. I'd suggest adding a figure-of-eight stitch to the extensor tendons to prevent further damage. Can we link some online resources for this technique?",
-        "color": "blue",
-        "date": "yesterday at 15:10"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "I must say that I disagree with @Dr. Aris's approach. Amateurs splinting everything and then referring it to hand surgery. We should be taking a more conservative approach, splinting and observing for weeks before considering surgery. What's the rush?",
-        "color": "red",
-        "date": "yesterday at 16:00"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": ">We can't just splint and observe forever! Some patients need immediate referral to hand surgery, or they may end up with permanent complications. Let's focus on accurate assessment and timely referrals instead of taking a too conservative approach. Has anyone got some real-world examples of patients who have benefited from early referral to hand surgery?",
-        "color": "purple",
-        "date": "yesterday at 17:00"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Oh man, I've seen plenty of patients who benefited from urgent referral to hand surgery. Like the case where I saw a patient with a 5-week old laceration over the wrist. The wound had become chronic and was causing significant pain and limited mobility. After surgery, the patient made a full recovery and returned to work in no time. Link to the wound care guidelines we use in the ER?",
-        "color": "orange",
-        "date": "yesterday at 18:00"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Awesome example, @Turbo! Yes, we should definitely get into habit of linking to wound care guidelines. Here's one from the CDC:",
-        "link": "https://www.cdc.gov/woundcare/index.html",
-        "date": "yesterday at 18:30"
+        "user": "HenryOldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "@BrockStone, great point about the mGPS! I use it all the time when assessing patients with acute pancreatitis. Does anyone have experience with the APACHE II score for predicting outcomes?",
+        "color": "brown"
       },
       {
         "id": 8,
         "parent_id": 7,
-        "user": "Dr. Barb Miller",
+        "user": "PhilMuddle",
         "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "I remember seeing a patient with a similar case many years ago. The wound had become chronic and was causing significant pain and limited mobility. In the end, the patient chose to pursue alternative therapy and refused surgery. It's fascinating how patients make different choices when it comes to their care.",
-        "color": "yellow",
-        "date": "yesterday at 20:00"
+        "city": "Regina, SK",
+        "text": "@HenryOldman, I think I used the APACHE II score once, but I'm not totally sure how it works. Can someone explain it to me in a way that's easy to understand?",
+        "color": "gray"
       },
       {
         "id": 9,
         "parent_id": 8,
+        "user": "ElenaVarkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "@PhilMuddle, don't worry, it's not that complicated. The APACHE II score takes into account various factors like age, temperature, and WBC count to predict mortality. But let's not get too caught up in scoring systems - what about the actual diagnosis and management of acute pancreatitis?",
+        "color": "blue"
+      },
+      {
+        "id": 10,
+        "parent_id": null,
+        "user": "LeoChen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I'm so lost. Can someone explain the difference between pancreatitis and pancreatic cancer?",
+        "color": "yellow"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "TL;DR - Don't miss the diagnosis of spinal cord compression in patients with neck pain - A missed diagnosis at my ER",
+    "body": "Just saw a patient with a classic presentation of spinal cord compression and I'm still fuming about the delay in diagnosis. The patient presented with severe neck pain, muscle weakness, and numbness in their arms. I ordered an x-ray, which showed a fracture at C7.",
+    "category": "CME review for emergency physicians",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "I'm so glad you shared this story. Spinal cord compression is a classic case of under-triage in the ER. Patients often present with non-specific symptoms, but a high index of suspicion is key to diagnosis.\n\nOne thing to keep in mind is that patients with thoracic and lumbar spines are less likely to present with spinal shock due to the higher sympathetic innervation. However, they may still present with severe pain and neurological deficits.\n\nWe have a great review article on spinal cord compression on our hospital's wiki, feel free to check it out: [link to article]",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
         "user": "Leo Chen",
         "role": "MS1",
         "city": "Montreal, QC",
-        "text": "Wow, that's a great point @Dr. Barb! It highlights the importance of patient-centred care and respecting patients' choices, even if they may not align with our recommendations.",
-        "color": "green",
-        "date": "yesterday at 20:30"
+        "text": "Dr. Thorne, can you explain what you meant by 'high index of suspicion'? Is it like when we're looking for a differential diagnosis?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Great example, Dr. Thorne! Spinal cord compression is such an important diagnosis to consider in patients with neck pain. I've seen patients with spinal cord compression who present with only minor symptoms, so it's essential to perform a thorough neurological assessment.\n\nOne tool I use to evaluate patients with suspected spinal cord compression is the ASIA scale (American Spinal Injury Association scale). Has anyone else used this scale?",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Dr. Sharp, what is the ASIA scale and how does it help in diagnosing Spinal Cord Injury (SCI)?",
+        "color": "blue"
+      },
+      {
+        "id": 5,
+        "parent_id": 3,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "The ASIA scale is an assessment tool that rates the integrity of the neurological pathway in individuals with SCI. It evaluates the function of 10 key neurologic levels (neck and back), and assigns a score from A to E based on the degree of impairment.\n\nA score of A indicates no motor or sensory loss, while a score of E indicates no motor or sensory function.",
+        "color": "blue"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Dr. Oldman, can you explain what the ASIA Impairment Scale (AIS) means and how it helps in diagnosing SCI?",
+        "color": "blue"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "The AIS is a scoring system that defines the severity of SCI based on the loss of motor and sensory function. The scores range from A to E, with A being no significant loss and E being total loss of motor and sensory function.\n\nThe AIS is used to predict the long-term outcome and potential for recovery for individuals with SCI.",
+        "color": "blue"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Thank you, Dr. Oldman! So, just to confirm, the ASIA Impairment Scale (AIS) is used to evaluate the severity of SCI, and the scores range from A to E, with A being the least severe and E being the most severe?",
+        "color": "blue"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "That's correct, Leo. The AIS scores are a crucial aspect of SCI assessment and help guide treatment and prognosis.",
+        "color": "blue"
       },
       {
         "id": 10,
@@ -912,11 +396,554 @@
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "I couldn't agree more with @Leo and @Dr. Barb. We should always prioritize patient-centred care and respect patient autonomy. It's our job as healthcare providers to educate and support, not dictate.",
-        "color": "blue",
-        "date": "yesterday at 21:00"
+        "text": "Great discussion, everyone! I just want to highlight the importance of considering other differential diagnoses in patients with neck pain, such as infectious causes or malignancy.\n\nWe should also discuss the role of imaging in the diagnosis of spinal cord compression, including MRI and CT scans. Has anyone had experience with these modalities?",
+        "color": "green"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "In my day, we used to rely more heavily on clinical judgment and physical examination to diagnose spinal cord compression. Now, with the advent of advanced imaging, it's much easier to confirm the diagnosis.\n\nHowever, I still believe that a thorough clinical examination is essential in evaluating patients with spinal cord compression.",
+        "color": "blue"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Aye, aye, Dr. Thorne! I've seen many cases where the diagnosis was clear but the patient's symptoms were not as pronounced as one would think. That's where the imaging comes in - it helps to confirm the diagnosis and rule out other causes.",
+        "color": "blue"
+      },
+      {
+        "id": 13,
+        "parent_id": 12,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "As a surgeon, I can attest to the fact that imaging plays a crucial role in the diagnosis and treatment of spinal cord compression. However, we must also consider the potential risks and complications associated with imaging, such as radiation exposure and sedation.",
+        "color": "blue"
+      },
+      {
+        "id": 14,
+        "parent_id": 13,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Good point, Dr. Sterling! As community physicians, we often have to balance the benefits of imaging with the risks and costs. We should also consider the impact on patient anxiety and the importance of a clear communication plan.",
+        "color": "blue"
+      },
+      {
+        "id": 15,
+        "parent_id": 14,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "One thing to consider is the patient's medical history and whether they have any underlying conditions that may affect their risk of complications from imaging.\n\nFor example, patients with bleeding disorders may be at increased risk of bleeding from an invasive procedure like a lumbar puncture.",
+        "color": "blue"
+      },
+      {
+        "id": 16,
+        "parent_id": 15,
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "Another thing to consider is the potential for complications from invasive procedures like lumbar puncture or CT scans. As surgeons, we need to be aware of the risks and take steps to minimize them.",
+        "color": "blue"
       }
     ],
-    "image": "https://www.jhsgo.org/cms/10.1016/j.jhsg.2024.02.016/asset/1ad5e9b9-9bf7-4069-818e-9eeea321fa7a/main.assets/gr3_lrg.jpg"
+    "image": "https://www.ebmedicine.net/media_library/images/2021-EMP-Publication-Article/10-October/Clinical-Pathway-for-Emergency-Department-Management-of-Blunt-Cervical-Trauma-in-Adult-Patients-TH.png"
+  },
+  {
+    "id": 4,
+    "title": "Missed Stillbirth in Domestic Violence - What to Look For in the ED",
+    "body": "Just saw a case that shook me up... a pregnant woman came in with a few 'minor' injuries, claimed she fell down the stairs. But the CT scan showed she had a pretty obvious fractured ribcage. Turns out, she had been hiding the truth - a stillbirth had occurred, and she was too embarrassed to tell anyone. I've heard of it before, but I never really thought about how a pregnant woman's story can be a red flag for this kind of trauma. TLDR, be aware of patients who claim to 'fall' often, have injuries at different stages of healing, and show signs of evasiveness or lack of concern. It's not just about the injuries themselves, but also about the pattern of presentation. Has anyone else seen this before? Any tips on how to approach these cases in the ED?",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great post, thanks for sharing! Yes, I've seen this before, and it's a good reminder to always keep a high index of suspicion for domestic violence in pregnant women. A few things to keep in mind: check for inconsistencies in the patient's story, look for multiple injuries at different stages of healing, and be aware of any delay between the time of injury and the patient's presentation for treatment. Also, pay attention to language cues - if the patient seems evasive or reluctant to disclose details, that can be a sign of something more serious. One resource I find helpful is the ACOG Committee Opinion on Domestic and Intimate Partner Violence. Have any of you read it?",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Uh, excuse me, Dr. Thorne, but what does ACOG stand for? And, like, what's Committee Opinion on Domestic and Intimate Partner Violence? Sorry to be a noob, but I'm just a first-year med student...",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs like you, Leo, are always asking basic questions. Fine, let me explain: ACOG is the American College of Obstetricians and Gynecologists. Committee Opinion is a document that provides guidance on a specific topic - in this case, domestic and intimate partner violence. Now, if you'll excuse me, I have more important things to attend to.",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "@Dr. Sterling, give the guy a break, man. We all had to start somewhere. And to answer Leo's question, it's not a bad thing to ask what ACOG stands for - it's a good opportunity to learn something new. By the way, has anyone seen the latest issue of the Journal of Emergency Medicine? There's a great article on recognizing and responding to intimate partner violence in the ED.",
+        "color": "orange"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "I actually read that article, @Ziggy. It's a really great resource for emergency physicians. One thing that struck me was the importance of taking a thorough history and performing a thorough physical exam in cases of suspected intimate partner violence. Have you guys found that to be true in your practice?",
+        "color": "pink"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "@Sarah, absolutely. In my experience, the key to making this diagnosis is to take a detailed history and perform a careful physical exam. Also, don't be afraid to ask open-ended questions and use nonverbal cues to pick up on potential red flags. The article mentioned something about the 'cycle of violence' - has anyone else heard of that?",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "CASE STUDY: Pediatric Orthopedics - A Complex Diagnostic Challenge",
+    "body": "Had a great case of misdiagnosis last night, and I wanted to share it with the community. We had a patient, a 3-year-old boy, with a suspected clavicle fracture. His parents had taken him to 3 different EDs already before we got him, and each time, they were told it wasn't a fracture, just a pulled rib. But we ran some advanced imaging modalities - CT, bone scan, and MRI - and lo and behold, it turned out he did have a fracture. It was a great reminder that even with the best equipment, sometimes it takes a fresh eye to diagnose these cases.",
+    "category": "Case Study",
+    "comments": [
+      {
+        "id": 10,
+        "parent_id": null,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Wow, that's a great case! I've been reading about pediatric orthopedics and I'm curious, what are the most common pitfalls in diagnosing fractures in children?",
+        "color": "purple"
+      },
+      {
+        "id": 12,
+        "parent_id": 10,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Leo, a big one is not taking into account ossifying growth centers. I read a great paper by Dr. Kleinman that goes over this in detail. It's all about considering the age and development of the child when interpreting radiographs.",
+        "color": "green"
+      },
+      {
+        "id": 13,
+        "parent_id": 10,
+        "user": "Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Good mention, Sarah! Another pitfall is not taking a thorough history, especially in cases where the parents might be hesitant to disclose certain details.",
+        "color": "green"
+      },
+      {
+        "id": 15,
+        "parent_id": null,
+        "user": "Dr. Philip Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "This is a great topic! I've been struggling to diagnose greenstick fractures. Can anyone offer some tips on how to identify these on a plain film?",
+        "color": "purple"
+      },
+      {
+        "id": 17,
+        "parent_id": 15,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Ah, greenstick fractures! Yeah, they can be tricky. But remember, they're all about the displacement of the cortex and periosteum. If you see the cortex is disrupted on one side but intact on the other, that's a good sign of a greenstick.",
+        "color": "green"
+      },
+      {
+        "id": 18,
+        "parent_id": 15,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "That makes sense, Barb. But what about the significance of the angulation? Is that a key factor in determining whether it's a greenstick or a complete fracture?",
+        "color": "green"
+      },
+      {
+        "id": 20,
+        "parent_id": 18,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs! You don't need to worry about the angulation, young one. The key is the displacement of the cortex. If it's displaced, it's a complete fracture. If it's not, it's a greenstick. Don't overcomplicate things.",
+        "color": "red"
+      },
+      {
+        "id": 22,
+        "parent_id": 20,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Actually, Victor, angulation can be a factor in determining the severity of the fracture. But I think we can agree that taking a comprehensive history and doing a thorough physical examination is crucial in diagnosing these cases.",
+        "color": "green"
+      },
+      {
+        "id": 25,
+        "parent_id": null,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "Hi, I'm the patient from the case study. I just wanted to say thank you for all the discussion. It really helps to understand what happened and how to prevent it in the future.",
+        "color": "yellow"
+      },
+      {
+        "id": 26,
+        "parent_id": 25,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Ah, nice to meet you, Barnaby! Hope you're doing better after the incident.",
+        "color": "green"
+      },
+      {
+        "id": 28,
+        "parent_id": null,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "You know, as an RN, I've seen my fair share of pediatric orthopedic cases. One thing that comes to mind is the importance of proper follow-up care. Can anyone speak to the best practices in managing these patients after discharge?",
+        "color": "purple"
+      },
+      {
+        "id": 30,
+        "parent_id": 28,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Great question, Turbo Tom! In my experience, it's essential to have a comprehensive care plan in place, including regular follow-ups with both the physician and physical therapist to ensure proper healing and rehabilitation.",
+        "color": "green"
+      },
+      {
+        "id": 32,
+        "parent_id": 28,
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "Yeah, but let's not forget about the cost-effectiveness of care, people! We need to make sure we're not overdoing it on the follow-ups and therapies. Keep it simple, silly!",
+        "color": "red"
+      },
+      {
+        "id": 35,
+        "parent_id": 32,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Ah, Brock, dear, sometimes less-is-more can be over-simplified. As a nurse, I've seen patients who needed extra care and attention to heal properly. Don't underestimate the value of comprehensive care, love.",
+        "color": "yellow"
+      }
+    ]
+  },
+  {
+    "title": "Rant about Beta Blocker and Calcium Channel Blocker Toxicity - TLDR; Just had to deal with a 50 yr old male coming in with symptoms of CA channel blocker toxicity from a sustained release nifedipine overdose",
+    "body": "Today I learned that sustained release nifedipine can cause delayed toxicity - 12-24 hours after ingestion. I had assumed it was only immediate release products that caused this. Luckily I was able to get in touch with toxicology and we managed to get him intubated and on pressors before he crashed. But this got me thinking - how many of you have dealt with this kind of case before? What are some tips or tricks you have for managing CA channel blocker toxicity?",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "",
+        "city": "Toronto, ON",
+        "text": "Great post! CA channel blocker toxicity can be a real challenge. For me, the key is to focus on the ABCs - airway, breathing, circulations. Make sure the patient has a secure airway and is on a high flow oxygen mask. I also like to use continuous cardiac monitoring and keep a close eye on the patient's vitals. Have you considered using sodium nitroprusside as a vasopressor in this scenario? It's been shown to be effective in managing hypotension associated with CA channel blocker toxicity.",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Thanks for the suggestion, Dr. Thorne! I've actually used sodium nitroprusside in a few cases of CA channel blocker toxicity and it's been effective. Can you speak to the dosing and titration strategy? I always find myself questioning whether to start low and titrate up or start high and hope for the best. Also, has anyone had experience with using vasopressin in this scenario?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs! You're all overthinking this. For CA channel blocker toxicity, the best thing you can do is give the patient some activated charcoal ASAP and call a cardiologist. They'll take care of the rest. Don't waste your time with fancy vasopressors and monitoring.",
+        "color": "orange"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Haha, Dr. Sterling, you're such a card! I think we can all agree that activated charcoal is a good starting point, but let's not dismiss the importance of close monitoring and vasopressor support. Has anyone considered the role of beta-agonists in managing CA channel blocker toxicity? I've seen some interesting articles on this topic.",
+        "color": "teal"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Beta-agonists? Really? I think we should focus on getting the patient's blood pressure up and managing any signs of cardiac dysfunction. Beta-agonists can be tricky to dose and titrate and I'm not sure they're worth the risk.",
+        "color": "pink"
+      },
+      {
+        "id": 6,
+        "parent_id": null,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Excuse me, Dr. Miller, but can you explain why beta-agonists might be a bad idea in this scenario? I thought they were generally safe and effective in managing cardiac dysfunction.",
+        "color": "blue"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Sorry, Leo! You're right that beta-agonists are generally safe and effective, but in the case of CA channel blocker toxicity, we're dealing with a different mechanism of action. The beta-agonists can actually worsen the patient's cardiac dysfunction and increase the risk of arrhythmias.",
+        "color": "purple"
+      },
+      {
+        "id": 8,
+        "parent_id": null,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "Can we please get back to the OP's original question? What are some other tips or tricks for managing CA channel blocker toxicity? I've seen some cases where the patient's blood pressure was so low that we had to use high-dose pressors just to keep them alive.",
+        "color": "red"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "That's right, Martha! High-dose pressors are sometimes necessary in cases of severe CA channel blocker toxicity. Has anyone else used high-dose dopamine or epinephrine in this scenario?",
+        "color": "green"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "Good heavens! You're all using high-dose pressors? In my day, we just used strychnine to get the patient's blood pressure up.",
+        "color": "purple"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Uh, Dr. Thorne, I think you might be joking, but just in case, can you please clarify that strychnine is not actually an approved treatment for CA channel blocker toxicity?",
+        "color": "blue"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "Good fellow! Of course, I was joking. But I will say that in my time, we used to use a combination of atropine and epinephrine to manage CA channel blocker toxicity.",
+        "color": "purple"
+      },
+      {
+        "id": 13,
+        "parent_id": null,
+        "user": "Dr. Rick 'The Rage'",
+        "role": "EP",
+        "city": "Windsor, ON",
+        "text": "This conversation is a perfect example of why I hate working in emergency medicine. You're all just arguing and throwing around fancy terms without actually addressing the root cause of the problem - which is that the patient's insurance is being cut off and they can't afford the meds they need!",
+        "color": "red"
+      },
+      {
+        "id": 14,
+        "parent_id": 13,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Ah, Dr. Rick, don't be so hard on yerself. And don't be so quick to blame the insurance coverage. Maybe we can work together to find a solution that helps the patient get the care they need?",
+        "color": "teal"
+      }
+    ],
+    "image": "https://coreem.net/content/uploads/2015/08/CCB-Toxicity-Healthforumworld.com_.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Today I Learned: Not everything that bleeds is an upper GI bleed... | emergency medicine |",
+    "body": "Just saw a patient with a classic case of lower GI bleeding and it got me thinking - how often do we rush to call upper GI bleeds when they're actually lower? \n   So, my patient came in with hematochezia and a history of diverticulosis. I immediately thought 'upper GI bleed in disguise' and started thinking about whether her pain was epigastric or periumbilical. \n   But then I took a step back and looked at her symptoms more closely... no nausea, no vomiting, just a few drops of bright red blood. And on exam, the pain was diffuse across her lower abdomen, not at all suggestive of an upper GI source. \n   So, what changed my mind? It was the classic history of diverticulosis combined with the lack of nausea and vomiting. I re-evaluated the situation and realized that, in this case, the most likely cause was indeed a lower GI bleed. \n   It got me thinking... how often do we rush to call upper GI bleeds and what are the most common causes of lower GI bleeding that we might be overlooking? \n   Thoughts, folks? Have any of you seen a similar case and what was the ultimate diagnosis? Was it a lower GI bleed or another etiology altogether? Let's discuss!",
+    "category": "emergency medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "M.D.",
+        "city": "Toronto, ON",
+        "text": "Great share! I've seen this too often in my practice. The key takeaway is to carefully evaluate the patient's symptoms and history to avoid making hasty assumptions about the source of the bleeding. And great reminder that lower GI bleeds can present differently than upper GI bleeds.",
+        "color": "red"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I'm still learning but from what I understand, the most common causes of lower GI bleeding are diverticular disease, vascular ectasias, and angiodysplasia. Can anyone elaborate on these conditions or provide any resources for further reading?",
+        "color": "blue"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Excellent points, Dr. Thorne! In addition to careful symptom evaluation, I also rely on imaging studies to help distinguish between upper and lower GI bleeds. Specifically, I use contrast-enhanced CT scans to identify the source of the bleeding. Has anyone else found this helpful?",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "I've heard that angiography can also be useful in identifying the source of lower GI bleeding. Can anyone provide more information on this approach and its diagnostic accuracy?",
+        "color": "yellow"
+      },
+      {
+        "id": 5,
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "LOL, we're all just a bunch of bleeding (no pun intended) medical experts trying to figure out why our patients are having so much trouble going to the bathroom. Seriously though, guys, if you haven't checked out the American Gastroenterological Association's guidelines on lower GI bleeding, I highly recommend it.",
+        "color": "purple"
+      },
+      {
+        "id": 6,
+        "parent_id": null,
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "Don't be afraid to admit your patients to the hospital for further evaluation and management. Remember, lower GI bleeding can be just as serious as upper GI bleeding and requires a coordinated care team to ensure the best outcomes.",
+        "color": "orange"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "I agree with Dr. Stone that admission is often necessary to manage lower GI bleeding effectively. Can anyone share their experience with endoscopic management of lower GI bleeding and its benefits in reducing hospital stay?",
+        "color": "pink"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Regional Anesthesia: A Cautionary Tale",
+    "body": "Just had a case of methemoglobinemia from a regional block. The patient was a young man who had a digital block for a finger laceration and received a combination of lidocaine and prilocaine. He started complaining of chest pain and shortness of breath about 30 minutes later. We did a stat ABG and found that his pH was 7.35, pCO2 was 25, pO2 was 65, and HCO3 was 22, but his methemoglobin level was 15%. We treated him with methylene blue and he made a full recovery. But it was a good reminder of the importance of proper dosing and technique when it comes to regional anesthesia. TLDR; Methemoglobinemia from a digital block with lidocaine and prilocaine - case report.",
+    "category": "CME review",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great post! Just a reminder that regional anesthesia is not without risks, particularly when it comes to the perineural space. I've seen cases of methemoglobinemia before, and it's always a challenge to diagnose and treat. How did you manage the patient's pain during the procedure? Did you use any adjunctive anesthetics?",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Thanks, Dr. Thorne! I've heard that the risk of methemoglobinemia is higher with prilocaine, but I didn't realize that lidocaine was also a culprit. Can you clarify the difference in their toxicity profiles?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Great post, OP! Did you consider using a different anesthetic for the digital block? I've had good luck with mepivacaine and bupivacaine for similar procedures. And what about the patient's hemodynamic response? Did he become hypotensive or anything?",
+        "color": "purple"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs. This is exactly why you can't just dump random anesthetics on the market without proper testing. The FDA needs to step up and regulate this stuff. And another thing, what was wrong with the patient's finger in the first place? Wasn't this just a case of a stupid little laceration?",
+        "color": "pink"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Dr. Sterling, I think you missed the point of the post. This is a warning about the risks of regional anesthesia, not a justification for its use in every case. And as for the patient's finger, it was a complex laceration with multiple tissue layers involved.",
+        "color": "green"
+      },
+      {
+        "id": 6,
+        "parent_id": 3,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Can you link to the article you used for your knowledge about regional anesthesia? I've seen some good ones recently and would love to get some more info.",
+        "color": "blue"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Here's a great article on regional anesthesia from the New England Journal of Medicine: [link](https://www.nejm.org/doi/full/10.1056/NEJMra1209334). It covers the basics and some advanced topics.",
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Awesome, thanks Dr. Gupta! I'll make sure to read that and pass it on to the rest of the team.",
+        "color": "green"
+      },
+      {
+        "id": 9,
+        "parent_id": null,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "You know, I've seen some pretty wild stuff with anesthesia over the years. What really gets my goat is when docs just dump a bunch of anesthetics on the market without even thinking about the potential risks. I mean, come on, people. We're talking about real lives here.",
+        "color": "red"
+      }
+    ]
   }
 ]
