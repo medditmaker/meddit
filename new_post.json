@@ -1,170 +1,579 @@
 [
   {
     "id": 0,
-    "title": "Just saw a patient with Hyperosmolar Hyperglycemic State (HHS) - some pearls on management",
-    "body": "Just saw a patient with HHS presenting with severe hyperglycemia (>600 mg/dL), hyperosmolality (>315 mOsm/kg) and minimal ketosis. Key points to note in management - avoid rapid correction of glucose, electrolytes, and sodium, as this can exacerbate cerebral edema, a known complication. Mannitol 1 g/kg IV can help in cases of acute change in neurologic status.",
-    "category": "emgemed",
+    "title": "Today I Learned about the risks of local anesthetics and their toxicity - any tricks for minimizing them?",
+    "body": "Just saw a patient who developed methemoglobinemia after a series of digital blocks. I'm still learning about local anesthetics and their potential toxicities. Has anyone else experienced this or have any tips for minimizing the risks? Any studies or papers on this topic would be appreciated.",
+    "category": "Emergency Medicine",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "MD",
-        "city": "Toronto, ON",
-        "text": "HHS is a critical emergency, and it's essential to address the underlying cause of hyperglycemia, whether it's insulin deficiency or resistance. We should also consider the role of counterregulatory hormones, such as cortisol and adrenaline, in the pathophysiology of HHS.",
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I've experienced a few cases of LA toxicity, and it's always a wake-up call. One thing I've learned is to be extremely cautious with the dose and concentration of LA used in digital blocks, especially in patients with pre-existing cardiovascular conditions. I've also found that using LA with a lower pH (like 2.5%) can reduce the risk of toxicity. Has anyone else noticed this trend?",
         "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
         "user": "Sarah Jenkins",
-        "role": "MD",
+        "role": "MS3",
         "city": "Ottawa, ON",
-        "text": "TLDR: Counterregulatory hormones, such as cortisol and adrenaline, play a crucial role in the pathophysiology of HHS. Can you elaborate on how these hormones contribute to the development of HHS, Dr. Thorne?",
+        "text": "That's really interesting, Dr. Gupta. Can you clarify what you mean by 'LA with a lower pH'? Is that specific to a certain type of LA or is it a general principle? And have you seen any studies on this topic?",
         "color": "green"
       },
       {
         "id": 3,
         "parent_id": 2,
-        "user": "Dr. Aris Thorne",
-        "role": "MD",
-        "city": "Toronto, ON",
-        "text": "Great follow-up question, Sarah! During stress, cortisol and adrenaline are released, leading to insulin resistance and decreased insulin secretion. This results in hyperglycemia, which further exacerbates hyperosmolality and dehydration. It's essential to address these hormones in the management plan.",
-        "color": "purple"
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "By LA with a lower pH, I mean solutions with a pH range of 2.5-3.5. This is specific to bupivacaine and ropivacaine, which have a lower pH than lidocaine and mepivacaine. As for studies, I've seen a few papers suggesting that using lower-pH LA solutions can reduce toxicity, but more research is needed. I'd love to see more data on this topic.",
+        "color": "green"
       },
       {
         "id": 4,
         "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "MD",
-        "city": "Calgary, AB",
-        "text": "Amateurs, let's not forget about the role of underlying comorbidities in the development of HHS. We should also consider the presence of infections, cardiovascular disease, and other chronic conditions that may contribute to the pathogenesis of HHS.",
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I've heard that using a 'test dose' before the actual block can help identify potential toxicity. Is that a common practice, and what's the procedure for a test dose?",
+        "color": "blue"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Oh, yes! A test dose is a crucial step in any regional block. We typically use a small amount of LA (e.g., 0.5-1 mL of 1-2% lidocaine) to test for toxicity before administering the full dose. The patient should be monitored for signs of LA toxicity, such as ECG changes, tachycardia, and hypotension. If any of these symptoms occur, the block can be stopped immediately.",
+        "color": "blue"
+      },
+      {
+        "id": 6,
+        "parent_id": 1,
+        "user": "Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "I've always been a fan of using nerve stimulators to monitor the spread of LA in regional blocks. Has anyone had any experience with these devices?",
+        "color": "brown"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "That's really interesting, Dr. Stone. What's the advantage of using a nerve stimulator over the traditional 'double-needle' technique?",
+        "color": "green"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Nerve stimulators offer a more precise way to monitor the spread of LA, which can reduce the risk of toxicity. They work by stimulating the nerve and checking for a motor response, which indicates the correct dosing.",
+        "color": "green"
+      },
+      {
+        "id": 9,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I've also heard that using an ECG monitor during regional blocks can help detect LA toxicity. Are there any specific criteria to look for on the ECG?",
+        "color": "blue"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Yes, that's right! We should be monitoring the ECG for changes in the ST segment, QRS duration, and QT interval. If we notice any of these changes, it's a sign of LA toxicity and we should stop the block immediately.",
+        "color": "blue"
+      }
+    ],
+    "image": "https://images.squarespace-cdn.com/content/v1/57b5e6e0ebbd1ad42af1f8b6/1523281220781-HR9MKJ49IABVK8RFN80R/Local+anesthetic+table+without+draft.jpg"
+  },
+  {
+    "id": 1,
+    "title": "Rant about sepsis and septic shock... still not a thing in my ER",
+    "body": "We all know sepsis and septic shock are a huge deal in EM, but honestly, we still see it every day. Just saw a patient with a possible MRSA skin infection and was amazed at how quickly things escalated. Anyone else have any thoughts on the topic?\n\nTLDR: Sepsis and septic shock are still a thing in EM. How do we improve outcomes?",
+    "category": "EmergencyMedicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "I couldn't agree more. Sepsis and septic shock are a complex issue, and we still have a lot to learn. I've been working on a protocol to improve our sepsis recognition and management, and it's been a game-changer. Here's a link to some of the resources I used: \n\nhttps://www.acep.org/Clinical---Practice-Resources/Research/Patient-Care/End-of-Life-Care/Sepsis-Guideline/\n\nHas anyone had success with their own protocols?",
+        "color": "blue"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "I've been reading up on sepsis and septic shock, and I'm interested in your protocol. Can you tell me more about it? What specific changes did you make?",
+        "color": "purple"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Rick 'The Rage'",
+        "role": "EP",
+        "city": "Windsor, ON",
+        "text": "I don't get why we still can't get sepsis and septic shock straight. We've had guidelines and protocols for years, and yet it still happens. I swear, some of these docs need to get their heads out of their books and focus on the patient.",
+        "color": "red"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Easy there, Rick. We've all had tough days. Let's focus on sharing best practices and supporting each other instead of tearing each other down. \n\nBy the way, I think Sparkle-Eyes Sue had a great point in our last meeting about the importance of early recognition and rapid treatment. Anyone else agree?",
+        "color": "green"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Aye, buddy, I think Tom has a point. I've been workin' in this ER for years, and I've seen some close calls. We need to work together to get the word out about sepsis and septic shock. Here's a link to some great resources on early recognition:\n\nhttps://www.acep.org/Clinical---Practice-Resources/Research/Patient-Care/End-of-Life-Care/Sepsis-Guideline/",
+        "color": "green"
+      },
+      {
+        "id": 6,
+        "parent_id": 1,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "I've been in this ER for 30 years, and I can tell you that sepsis and septic shock still scare me half to death. But we've got some amazing clinicians in this department, and with the right protocols and communication, we can prevent these tragedies. Keep up the good work, everyone!",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "CASE STUDY: Missed intestinal perforation in a pediatric patient with vomiting and abdominal pain. Lesson learned!",
+    "body": "Just saw a 5yo with a complex case last night. She presented with a 1-day history of vomiting and non-bilious abdominal pain. On exam, she was afebrile and had normal bowel sounds. The ER doc suspected appendicitis, but I just got back from the pediatrics ward and we did a US, which didn't show any free fluid. I ordered a CT, and guess what? Intestinal perforation with free air, and she's now in the OR. Anyone else ever have a case like this?",
+    "category": "Pediatrics",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "TLDR; CT scan missed a small intestine perforation in a kid with normal bowel sounds, and you're taking some flak for it. Happens to the best of us, but always good to discuss and learn from it. Anyone know the specific protocol for pediatric abdominal imaging?",
+        "color": "blue"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "As an internist, I've seen it too - patients look fine, US is inconclusive, and then you see the CT - the 'A-Ha!' moment. For pediatric abdominal imaging, we use ALARA principle - keep it low as possible (dose-wise), so the patient doesn't get too much radiation. I use a <a href='https://academic.oup.com/jp/en/advance-article/doi/10.1093/jp/zkab024/6444444'>2013 study </a> to support my argument. What's the ER's protocol in your hospital?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "Gentlemen and ladies, let's not forget about the 'old-fashioned' approaches - a good ol' 'ex-lap' (exploratory laparotomy) might just do the trick. Sometimes, we over-rely on the fancy machines and CT scans.",
+        "color": "orange"
+      },
+      {
+        "id": 4,
+        "parent_id": 2,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Doc Varkov, what do you think about the role of US in this case? Could we have relied solely on US, rather than getting a CT? And is there a certain threshold for bowel sounds that indicates intestinal perforation?",
+        "color": "red"
+      },
+      {
+        "id": 5,
+        "parent_id": 2,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Dr. Varkov, isn't the ALARA principle mainly for adults? Can we apply the same principles to pediatric imaging? And don't you think we might have missed something by relying so heavily on CT?",
+        "color": "yellow"
+      }
+    ]
+  },
+  {
+    "id": "Burn-Injury-ED-Care- Discussion",
+    "title": "Rant about Burn Injury ED Care",
+    "category": "r/EMcrit",
+    "body": "Just had a case where I was told to debride a minor burn, but the patient ended up requiring surgical intervention. This got me thinking... how often do we get it wrong in burn injury ED care? What's the right approach in the ED for minor burns?",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Great conversation starter! As a resident, I've seen my fair share of minor burns, and I'm still trying to figure out when to debride vs not. My take is that debridement should be reserved for burns that are clearly infected or have a significant amount of eschar. Otherwise, a good soak with soap and water should do the trick. Has anyone else found success with this approach?",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Love the debridement discussion! As an ER nurse, I can attest that we often err on the side of caution when it comes to burn care. That being said, we should be doing more to promote wound care in the ED. What are some evidence-based practices we can adopt to improve burn wound care?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "I've found that the best approach to burn wound care is to use a combination of silver sulfadiazine cream and hydrogel dressings. The sulfadiazine helps to prevent infection, while the hydrogel promotes wound healing. Has anyone else tried this approach?",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 2,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Hey guys, what's the deal with topical antimicrobials? I'm pre-med and I'm trying to get a head start on learning about wound care. Which ones are best for burn injuries?",
+        "color": "red"
+      },
+      {
+        "id": 5,
+        "parent_id": 2,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Oh my, pre-med students are so brave! I love seeing young minds eager to learn. To answer your question, Chad, the usual suspects include silver sulfadiazine, mupirocin, and bacitracin. Let me know if you have any other questions!",
+        "color": "pink"
+      },
+      {
+        "id": 6,
+        "parent_id": 3,
+        "user": "Dr. Phil Muddle",
+        "role": "EP",
+        "city": "Regina, SK",
+        "text": "Wait, what? Silver sulfadiazine and hydrogel dressings? I think I've used silver sulfadiazine before, but I've never tried the hydrogel stuff. Is it a game-changer or what?",
+        "color": "yellow"
+      },
+      {
+        "id": 7,
+        "parent_id": 4,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "Guys, can someone explain to me what eschar is? Is it that gross stuff that sticks to my skin after a burn?",
+        "color": "orange"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "Great question, Barnaby! Eschar is indeed that nasty stuff that forms on your skin after a burn. It's essentially dead skin that needs to be removed to promote healing. Does that help clarify things?",
+        "color": "purple"
+      },
+      {
+        "id": 9,
+        "parent_id": 6,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "I've seen Dr. Sharp use hydrogel dressings, and let me tell you, they're a game-changer. The patient's wound healed in half the time! What's the best way to apply them, and are there any specific precautions to take?",
+        "color": "green"
+      },
+      {
+        "id": 10,
+        "parent_id": 1,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "This discussion is really helpful, guys. I was wondering, how do we go about determining the severity of a burn? Is it just a matter of looking at the size of the burn or are there other factors at play?",
+        "color": "blue"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "The burn severity is a critical factor in determining the level of care. It's not just about the size of the burn, but also the depth and location. For example, burns on the face or hands are more serious than burns on the arms or legs. Does that make sense?",
+        "color": "purple"
+      },
+      {
+        "id": 12,
+        "parent_id": 10,
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "As a surgeon, I've seen my fair share of burns. When considering the severity of a burn, I always look at the size, depth, and location, just like Dr. Sharp said. But I also consider the patient's overall health, as well as any concomitant injuries they may have.",
+        "color": "orange"
+      },
+      {
+        "id": 13,
+        "parent_id": 2,
+        "user": "Leon Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Is it possible to link some resources on burn care for beginners? I want to learn more about this topic!",
+        "color": "pink"
+      },
+      {
+        "id": 14,
+        "parent_id": 13,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Great idea, Leo! Check out this resource on burn care from the CDC: [link to CDC website]. It's a great starting point for learning about burn care.",
+        "color": "green"
+      },
+      {
+        "id": 15,
+        "parent_id": 14,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Thanks, Ziggy! But don't forget about the Canadian Burn Association's guidelines on burn care. They have some great resources for physicians and nurses alike.",
+        "color": "blue"
+      },
+      {
+        "id": 16,
+        "parent_id": 15,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Thanks, Dr. Miller! I'll make sure to check out those guidelines. But what's the difference between a first-degree and second-degree burn?",
+        "color": "pink"
+      },
+      {
+        "id": 17,
+        "parent_id": 16,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "Great question, Leo! First-degree burns are those that affect only the outermost layer of skin (the epidermis), while second-degree burns affect both the epidermis and the dermis (the layer of skin beneath the epidermis). Does that help clarify things?",
+        "color": "purple"
+      }
+    ],
+    "image": "https://canadiem.org/wp-content/uploads/2023/10/approach-to-b-c_60923164-1-691x1024.png"
+  },
+  {
+    "title": "TLDR: Pressure dressing for scalp lacerations: when and how?",
+    "body": "Just had a case yesterday where I saw a patient with a pretty nasty scalp laceration that needed a pressure dressing. After I finished suturing, I remembered that we need to put a pressure dressing over deep scalp lacerations for the first 24 hours to reduce the chance of hematoma formation. Has anyone else seen any cases of hematoma formation from scalp lacerations?",
+    "category": "EM",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Great reminder! Pressure dressing for scalp lacerations is a must. I once saw a case where the patient had a large scalp hematoma that required surgical evacuation. So, it's worth the extra effort to prevent it.\n\nFrom the Canadian Journal of Surgery (2018): \"Pressure dressings are recommended for patients with deep scalp lacerations to reduce the risk of hematoma formation.\" [1]\n\nHas anyone else had any experience with perichondral hematoma? That's a real nightmare to deal with.",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I had a case last week where I needed to apply a pressure dressing to a patient with a scalp laceration. How do you usually fix the gauze? I used some of those sticky foam pads, but I'm not sure if they're the best option.",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Ah, good question, Leo! You can use either the sticky foam pads or the non-stick gauze squares. I prefer using the gauze squares, as they're less likely to cause skin irritation. Just make sure to secure the dressing with some medical tape, so it doesn't come undone.",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Don't forget to remove the pressure dressing after 24 hours, or it can cause some pretty nasty skin issues. Had a patient last month who developed some pretty nasty skin ulcers from a prolonged pressure dressing.",
         "color": "red"
       },
       {
         "id": 5,
         "parent_id": 4,
-        "user": "Dr. Barb Miller",
-        "role": "MD",
-        "city": "Winnipeg, MB",
-        "text": "Preach, Dr. Sterling! Comorbidities play a significant role in the development of HHS. However, we should also consider the presence of social determinants, such as poverty and lack of access to healthcare, which may contribute to the delayed diagnosis of HHS.",
-        "color": "green"
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Great point, Tom! Yes, skin ulcers can be a real risk if the pressure dressing is left on for too long. We should make sure to reevaluate the patient after 24 hours and remove the dressing if there's no hematoma formation.",
+        "color": "purple"
       },
       {
         "id": 6,
-        "parent_id": 5,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Miller, how do you think social determinants influence the development of HHS?",
-        "color": "blue"
+        "parent_id": null,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "How long does it take to remove a scalp hematoma? I've heard that it can be a pretty long and painful procedure. Should we just go ahead and admit the patient to prevent it?",
+        "color": "pink"
       },
       {
         "id": 7,
         "parent_id": 6,
-        "user": "Dr. Barb Miller",
-        "role": "MD",
-        "city": "Winnipeg, MB",
-        "text": "Great question, Leo! Social determinants, such as poverty and lack of access to healthcare, can lead to delayed diagnosis and treatment of chronic conditions, such as diabetes. This can result in hyperglycemia, dehydration, and hyperosmolality, ultimately triggering HHS.",
-        "color": "green"
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "Good heavens, young man! Removing a scalp hematoma is not a trivial matter, I assure you. It can be a long and painful procedure, indeed. However, with modern medicine and surgical techniques, it's usually possible to evacuate the hematoma without the need for surgery.\n\nOf course, there are cases where surgery may be necessary, especially if the hematoma is large or there's significant trauma to the scalp.\n\nI'd recommend referring the patient to a neurosurgeon or plastic surgeon for evaluation. They'll be able to determine the best course of action.",
+        "color": "brown"
       },
       {
         "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Great advice, Doc! Referring the patient to a neurosurgeon or plastic surgeon is always wise. They'll be able to provide the most up-to-date and effective treatment for the patient.",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Just saw a patient with a suspected ischemic stroke - missed it last night",
+    "body": "",
+    "category": "",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr.Arthur_Peddleson_FRCPC",
+        "role": "",
+        "city": "Winnipeg, MB",
+        "text": "What a great case. Last night, I saw a patient with a clear history of stroke, but I was too focused on her respiratory depression. Missed the obvious symptoms of right hemiplegia, slurred speech, and visual field deficits. What a rookie mistake.",
+        "color": "blue"
+      },
+      {
+        "id": 2,
         "parent_id": 1,
-        "user": "Chad Broson",
-        "role": "pre-med",
-        "city": "Brampton, ON",
-        "text": "What's the key difference between HHS and Diabetic Ketoacidosis (DKA)? How do I remember the differences?",
-        "color": "pink"
+        "user": "Dr.Victor_Sterling",
+        "role": "",
+        "city": "Calgary, AB",
+        "text": "Amateurs. We should be using a more objective scale to assess stroke risk. Did you use the ABCD2 index?",
+        "color": "orange"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr.Maya_Gupta",
+        "role": "",
+        "city": "Mississauga, ON",
+        "text": "Actually, I think the patient had a significant past medical history of hypertension and atrial fibrillation. Did the patient undergo an ECG to rule out arrhythmia?",
+        "color": "purple"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Dr.KEvin_Park",
+        "role": "",
+        "city": "Edmonton, AB",
+        "text": "I've read that the NIHSS score is a useful tool for assessing stroke severity. Did you use it in your assessment?",
+        "color": "green"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr._Maya_Gupta",
+        "role": "",
+        "city": "",
+        "text": "Yes, I used the NIHSS score. The patient had a score of 15. What's the significance of that score?",
+        "color": "blue"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "LeoChen_MS1",
+        "role": "",
+        "city": "",
+        "text": "I think the NIHSS is a 15-point scale. Scores 0-4 indicate no or minimal deficits, 5-15 moderate deficits, and 16-42 severe deficits. Did the patient have any severe deficits?",
+        "color": "orange"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr._Maya_Gupta",
+        "role": "",
+        "city": "",
+        "text": "Actually, the patient had significant visual field deficits. I should have caught that earlier.",
+        "color": "purple"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "TurbTom_RN",
+        "role": "",
+        "city": "",
+        "text": "That's what I was getting at earlier! Don't get me wrong, but some patients can be quite convincing in feigning symptoms. Can patients feign stroke symptoms?",
+        "color": "green"
       },
       {
         "id": 9,
         "parent_id": 8,
-        "user": "Dr. Aris Thorne",
-        "role": "MD",
-        "city": "Toronto, ON",
-        "text": "Great question, Chad! The key difference between HHS and DKA is the presence of hyperosmolality in HHS, which is not typically seen in DKA. To remember the difference, think of the acronym CHESS, which stands for Cerebral Edema, Hyperosmolality, Electrolyte imbalance, Sodium imbalance, and Severe hyperglycemia.",
-        "color": "purple"
+        "user": "Marthahammer_RN",
+        "role": "",
+        "city": "",
+        "text": "Yes, they can. In fact, research suggests that between 2-20% of patients with symptoms suggestive of stroke may be faking it. The key to accurate diagnosis is to perform a thorough physical examination and review the patient's medical history.",
+        "color": "blue"
       },
       {
         "id": 10,
         "parent_id": 9,
-        "user": "Sarah Jenkins",
-        "role": "MD",
-        "city": "Ottawa, ON",
-        "text": "TLDR: CHESS is a useful acronym to remember the differences between HHS and DKA. Can you provide more details on the electrolyte imbalance in HHS, Dr. Thorne?",
-        "color": "green"
+        "user": "SarahSharp_EP",
+        "role": "",
+        "city": "",
+        "text": "I think we may have missed an even more critical aspect of this patient's diagnosis. Did we consider the possibility of TIA? According to the 2013 AHA/ASA guidelines, what is the definition of TIA?",
+        "color": "purple"
       },
       {
         "id": 11,
         "parent_id": 10,
-        "user": "Dr. Aris Thorne",
-        "role": "MD",
-        "city": "Toronto, ON",
-        "text": "Great follow-up question, Sarah! In HHS, there is often a significant sodium imbalance, which can lead to cerebral edema. We should also consider the presence of other electrolyte imbalances, such as potassium and magnesium deficiencies. It's essential to correct these imbalances early in the management plan.",
-        "color": "purple"
+        "user": "ZiggyZalesky",
+        "role": "",
+        "city": "",
+        "text": "A TIA is a transient episode of neurological dysfunction caused by ischemia but without an acute infarction of brain tissue. Symptoms typically last less than 24 hours. Can a patient with a TIA go on to have a stroke?",
+        "color": "orange"
       },
       {
         "id": 12,
-        "parent_id": 1,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "You guys are forgetting about the importance of fluid resuscitation in HHS. We can never underestimate the role of volume replacement therapy in the management of this condition.",
-        "color": "red"
-      },
-      {
-        "id": 13,
-        "parent_id": 12,
-        "user": "Dr. Maya Gupta",
-        "role": "MD",
-        "city": "Mississauga, ON",
-        "text": "Well said, Martha! Fluid resuscitation is a critical component of HHS management. We should also consider the use of vasopressors, such as norepinephrine, to maintain blood pressure in patients with severe hypotension.",
-        "color": "green"
-      },
-      {
-        "id": 14,
-        "parent_id": 13,
-        "user": "Dr. Elena Varkov",
-        "role": "MD",
-        "city": "Quebec City, QC",
-        "text": "Good point, Dr. Gupta! However, we should also be cautious not to over-rely on vasopressors, as this can lead to further complications. What do you guys think about the use of insulin therapy in HHS?",
-        "color": "purple"
-      },
-      {
-        "id": 15,
-        "parent_id": 14,
-        "user": "Dr. Aris Thorne",
-        "role": "MD",
-        "city": "Toronto, ON",
-        "text": "Insulin therapy is a key component of HHS management, particularly in patients with severe hyperglycemia. However, we should also consider the use of glucagon-like peptide-1 (GLP-1) receptor agonists, which have been shown to have a beneficial effect on glucose metabolism in patients with type 2 diabetes.",
-        "color": "purple"
-      },
-      {
-        "id": 16,
-        "parent_id": 15,
-        "user": "Sarah Jenkins",
-        "role": "MD",
-        "city": "Ottawa, ON",
-        "text": "TLDR: GLP-1 receptor agonists have a beneficial effect on glucose metabolism in patients with type 2 diabetes. Can you provide more details on the use of these agents in HHS, Dr. Thorne?",
-        "color": "green"
-      },
-      {
-        "id": 17,
-        "parent_id": 16,
-        "user": "Dr. Aris Thorne",
-        "role": "MD",
-        "city": "Toronto, ON",
-        "text": "Great follow-up question, Sarah! GLP-1 receptor agonists, such as liraglutide and exenatide, have been shown to have a beneficial effect on glucose metabolism in patients with type 2 diabetes. However, their use in HHS is still experimental and requires further investigation.",
-        "color": "purple"
+        "parent_id": 11,
+        "user": "Elenavarkov_FRCPC",
+        "role": "",
+        "city": "",
+        "text": "According to the literature, patients who have experienced a TIA may have a higher risk of developing a subsequent stroke. Research suggests that patients who experience a TIA should be evaluated promptly and given secondary stroke prevention therapy.",
+        "color": "blue"
       }
-    ],
-    "image": "https://i0.wp.com/emcrit.org/wp-content/uploads/2020/07/hhsdefinition.jpg?fit=1486%2C1102&ssl=1"
+    ]
   },
   {
-    "id": 1,
-    "title": "Rant about Abdominal Trauma in Kids",
-    "body": "Had a tough case last night where a 9-year-old kid came in with a history of being involved in a high-speed MVC. The initial presentation was pretty straightforward, but things got complicated when he started vomiting bile and became distended.",
+    "id": 6,
+    "title": "TL;DR of frostbite and hypothermia management: got some pearls to share",
+    "body": "Just saw a patient with a nasty case of frostnip and thought I'd share my takeaways on frostbite and hypothermia management. I've also learned some tips from this thread, so thanks for that!\n\nFrostbite, for those who may not be aware, is a type of injury caused by freezing of the skin and underlying tissues, typically due to prolonged exposure to cold temperatures. It can be classified into four degrees of severity, ranging from superficial to deep tissue damage.\n\nTreatment-wise, rewarming in circulating water at 37-39\u00b0C (98.6-102.2\u00b0F) for 20-30 minutes until tissue is pliable and erythematous is key. Debridement of clear blisters and aspiration of hemorrhagic blisters are also important, but the jury's still out on those. Apply topical aloe vera every 6 hours, provide pain management and wound care, and don't forget tetanus immunoprophylaxis if needed.\n\nNow, onto hypothermia management. Hypothermia is defined as a core body temperature below 35\u00b0C (95\u00b0F). Initial management involves passive rewarming, but if the patient's condition worsens, active rewarming via external warming devices or warmed IV solutions is necessary.\n\nMy personal favorite tip came from Dr. 'Ziggy' Zalesky: always remember that hypothermic patients can become hypoglycemic due to impaired glucose production, so be sure to monitor glucose levels closely.\n\nTL;DR: frostbite management involves rewarming, wound care, and tetanus immunoprophylaxis, while hypothermia management involves passive rewarming followed by active rewarming if necessary. Keep an eye on glucose levels in hypothermic patients and try not to get too stressed out when working with these patients.\n\nOh, and one more thing: don't be a jerk like me and forget to apply aloe vera. I learned that the hard way...",
     "category": "Emergency Medicine",
     "comments": [
       {
@@ -173,26 +582,26 @@
         "user": "Dr. Aris Thorne",
         "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "Yeah, I've seen similar cases. The key is to think about the mechanism of injury and look for signs of abdominal trauma. Even if the kid's external injuries seem minor, you can't ignore the potential for serious internal injuries. Did you get a CT?",
+        "text": "Great takeaways from your experience! One thing to keep in mind is the importance of monitoring for cardiac arrhythmias in hypothermic patients. I've seen some pretty nasty cases of atrial fibrillation in these folks. Also, remember that topical aloe vera may not be the most effective treatment for frostbite pain; consider consulting a pain management service if necessary. Keep up the good work!",
         "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Thorne, what about the NEXUS criteria? Could you use those to decide whether to get a CT or not?",
-        "color": "blue"
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Hi Dr. Thorne, thanks for the feedback! Regarding your comment on cardiac arrhythmias, I've read that hypothermic patients can also experience a phenomenon known as 'polar' cardiac arrest, characterized by a widened QRS complex and ventricular fibrillation. Have you come across anything like this in your experience? TL;DR: polar cardiac arrest is a thing, folks!",
+        "color": "green"
       },
       {
         "id": 3,
-        "parent_id": 2,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Actually, Leo, the NEXUS criteria are more relevant for trauma patients in the ED, rather than the CT decision-making process. We need to think about the 'worst-case' scenario and what could happen if we miss an injury. In this case, a CT would have been a good idea, especially since the kid had a high GCS and was complaining of severe abdominal pain.",
-        "color": "purple"
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Hi everyone! I'm new to this thread and was wondering how you guys decide whether a patient needs to be admitted for frostbite or hypothermia treatment? We just don't have that much experience with these injuries in med school. Thanks in advance!",
+        "color": "green"
       },
       {
         "id": 4,
@@ -200,632 +609,268 @@
         "user": "Dr. Victor Sterling",
         "role": "Chief of Surgery",
         "city": "Calgary, AB",
-        "text": "Amateurs. You're thinking like ER docs. What's the big deal? He's just a kid. I bet the kid's fine. I mean, come on, do you really need to get a CT? That just wastes resources. What do you guys do to justify these CTs?",
-        "color": "red"
+        "text": "TL;DR: frostbite and hypothermia management is a joke. Amateurs can't even get it right. Listen to what I have to say, folks: if you can't handle the pressure, get out of the ED.",
+        "color": "blue"
       },
       {
         "id": 5,
         "parent_id": 4,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Dr. Sterling, come on. You know as well as I do that abdominal trauma in kids can be a real challenge. We can't just guess whether to get a CT or not. And besides, that's not the point. The point is that if we miss an injury, it could have serious consequences for the kid's health down the line. We should err on the side of caution, not cut corners.",
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Oh, great. Another opinion from Dr. Sterling. Can someone please explain to me why frostbite and hypothermia are so difficult to manage? What are the key considerations and treatment options that I should be aware of? Thanks in advance for the advice!",
         "color": "purple"
       },
       {
         "id": 6,
-        "parent_id": null,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "TL;DR? What does it mean to 'miss an injury'? Can someone clarify? Thanks!",
-        "color": "pink"
+        "parent_id": 5,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Hey guys! Just wanted to jump in here and say that frostbite and hypothermia management is all about recognizing the signs early and taking action quickly. Don't overthink it, just use the mnemonic device: REWARM (Rewarm, Evaluate, Watch for complications, Assess, and Revive). I've found this to be super helpful in my practice!",
+        "color": "green"
       },
       {
         "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Hi Leo, when I say 'miss an injury', I mean that if we don't recognize or diagnose the injury early, it can lead to complications like bowel perforation, abscesses, or even sepsis down the line. It's like, we need to catch the injury in its tracks before it's too late.",
-        "color": "orange"
+        "parent_id": 1,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Just a minor quibble, but what really gets my goat is when patients don't take their frostbite or hypothermia treatment seriously. As a community physician, I've seen firsthand the devastating consequences of underestimating these injuries. So, to all the folks out there: take your frostbite or hypothermia treatment seriously and don't mess around \u2013 your life depends on it!",
+        "color": "purple"
       },
       {
         "id": 8,
-        "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "I still think you guys are over-reacting. Did you consider the possibility that the kid was just constipated?",
-        "color": "red"
+        "parent_id": 7,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "Amen to that, Dr. Miller! I've worked in ERs for 30 years and seen my fair share of frostbite and hypothermia cases. Don't take these injuries lightly \u2013 they can be deadly. Thanks for speaking up and sharing your expertise!",
+        "color": "green"
       },
       {
         "id": 9,
         "parent_id": 8,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Oh man, come on Dr. Sterling, that's rich. You're the chief of surgery and you're suggesting that the kid was just constipated? That's cute.",
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "Okay, folks, let's get serious here. Frostbite and hypothermia management are not rocket science, but they do require some basic knowledge of physiology and pharmacology. Can someone please explain to me why so many of you keep forgetting to administer oxygen to frostbite patients? It's not that hard, people!",
         "color": "blue"
       },
       {
         "id": 10,
         "parent_id": 9,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Hey watch it, nurse. I'm just saying that sometimes these kids can have simple cases. You're all over-diagnosing like crazy.",
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "Good heavens, Dr. Stone! In my day, we didn't need all this fancy oxygen therapy to treat frostbite. We just used good old-fashioned common sense and apoplexy liniment to get the job done. Mark my words, these new-fangled treatments will lead to more complications than ever before!",
+        "color": "purple"
+      },
+      {
+        "id": 11,
+        "parent_id": 1,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "OMG guys, I'm so confused! I thought frostbite and hypothermia were just, like, random things that happened to people, not actual injuries that required treatment. Can someone please explain this to me in, like, super simple terms?",
+        "color": "green"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "Ah, Chad, my young friend, let me tell you something. Frostbite and hypothermia are not just random things that happen to people. They're real injuries that require real treatment. Think of it like this: when your skin gets cold, it starts to freeze, right? Well, if you let it get cold enough, it can freeze all the way through to the bone, causing tissue damage and potentially even organ failure. That's not just a 'random thing', my friend \u2013 that's a potentially life-threatening injury!",
+        "color": "purple"
+      }
+    ],
+    "image": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=922430126737919"
+  },
+  {
+    "id": 1,
+    "title": "Today I learned a valuable lesson in differential diagnosis for vaginal bleeding during pregnancy.",
+    "body": "Just saw a patient with vaginal bleeding during the second half of pregnancy. She presented with abdominal pain and uterine tenderness. Initial thought was that this could be a case of placental abruption. After thorough examination and work-up, we diagnosed her with placenta previa. It got me thinking, what are some key differences between these two conditions? Can we make some educated guesses about the likelihood of each based on clinical presentation?",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Excellent case! Placental abruption and previa are both serious conditions that require prompt attention. Key differences include the location of the bleeding. Placental abruption typically involves bleeding below the placenta, while previa involves bleeding from the cervix or above the placenta. Clinical suspicion for abruption is higher in women with hypertension, multiple gestations, or prior abruption. On the other hand, previa is more common in women with prior cesarean sections or uterine surgery.",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "@Dr. Aris, what about the role of cervical examination in differentiating between these two conditions? Should we be avoiding a speculum exam in women suspected of placenta previa?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "@Dr. Aris, according to some studies, a positive cervical exam (i.e., a dilated cervix) is more predictive of placenta previa. What's your take on the role of exam findings in differentiating between these two conditions?",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Wait, so what's the deal with placental abruption? Is that like when the placenta detaches from the uterus? Can someone explain this in simpler terms?",
+        "color": "yellow"
+      },
+      {
+        "id": 5,
+        "parent_id": 1,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "I've been experiencing some weird symptoms during my pregnancy, and my doctor is concerned it might be related to the conditions discussed here. Can anyone offer some general advice or support?",
         "color": "red"
       }
     ]
   },
   [
     {
-      "id": 2,
-      "title": "Missed Sigmoid Volvulus Last Night...",
-      "body": "Just saw a patient with a missed sigmoid volvulus. I've been practicing for 10 years, and I still feel like kicking myself. The patient presented with a 12-hour history of severe abdominal pain and an inability to pass stool or flatus. The initial abdominal x-ray showed a large bowel obstruction, but I was convinced it was a mechanical obstruction from a hernia. I spent the next hour arguing with my resident about the diagnosis, and by the time we finally got an CT angiogram, the patient's bowel had already started to perforate. Long story short, we had to take them to the OR for a sigmoidectomy. I'm just wondering if anyone else has ever experienced a similar situation. Has anyone else ever missed a sigmoid volvulus? How do you avoid missing this diagnosis in the future?",
-      "category": "r/emergencymedicine",
-      "user": "Dr.Ziggy.Zalesky",
-      "city": "Vancouver, BC",
-      "text": "TL;DR: Missed sigmoid volvulus as a senior ED doc, looking for advice on how to avoid this in the future",
-      "color": "purple"
+      "id": 12345,
+      "title": "Fetal-Maternal Hemorrhage Following Trauma - Can We Do Better?",
+      "body": "Just saw a patient with significant trauma to the pelvis, resulting in fetal-maternal hemorrhage (FMH). As EPs, we all know the importance of timely diagnosis and management of FMH, especially in Rh-negative women. But how often do we really get it right? The patient I saw had a blood type of O Rh-negative and presented with vaginal bleeding, uterine contractions, and a history of recent trauma. The initial assessment was complicated by hemodynamic instability, making it challenging to perform a thorough pelvic exam. Fortunately, we were able to get a pelvic ultrasound showing a placenta previa, which helped us guide the rest of our management. However, the real take-home for me was the fact that we almost missed the diagnosis of FMH altogether due to our reliance on the initial hemoglobin levels. Had we not repeated the hemoglobin after the patient's hemodynamic status stabilized, we might have never caught the bleeding in time.\n\nTLDR: Don't forget to check for fetal-maternal hemorrhage in your trauma patients, especially in the first 24 hours post-injury. Use a combination of clinical assessment, laboratory tests (e.g., Kleihauer-Betke test), and imaging studies (e.g., ultrasound) to make the diagnosis.",
+      "category": "emedicine",
+      "comments": []
     },
-    "comments",
-    ":",
-    [
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Dr.Victor.Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs never consider sigmoid volvulus as a diagnosis. The key is to look for the 'bird's beak' sign on the KUB x-ray. If it's not there, it's not a volvulus. I've seen too many ED docs get worked up for nothing over this diagnosis. Next time, just take a deep breath and order a CT angiogram, and be done with it.",
-        "color": "red"
-      },
-      {
-        "id": 4,
-        "parent_id": 2,
-        "user": "Dr.Sarah.Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "I have to disagree with Dr. Sterling's comment. While the bird's beak sign is helpful, it's not the only diagnostic clue. Patients with sigmoid volvulus often present with a unique history of severe abdominal pain, nausea, and vomiting, particularly in the elderly. I also recommend looking for a palpable mass in the left lower quadrant, as well as checking for a 'sausage-shaped' rectal mass on digital rectal exam.",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": 2,
-        "user": "Chad.Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Wait, what's the bird's beak sign? Can someone explain it to me in simple terms? Is it like a weird shape on the x-ray?",
-        "color": "blue"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Leo.Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Hi Chad, yes the bird's beak sign is a radiographic finding that can be seen on KUB (kidney ureter bladder) x-rays. It's called a 'bird's beak' shape because it resembles a bird's beak. It's a sign of sigmoid volvulus when the sigmoid colon twists and the gas in the bowel gets trapped, creating a characteristic shape on the x-ray. I hope that helps!",
-        "color": "purple"
-      },
-      {
-        "id": 7,
-        "parent_id": 4,
-        "user": "Dr.Aris.Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Dr. Sharp, I agree with you on the importance of looking for a palpable mass in the left lower quadrant as well as digital rectal examination. However, I'd like to add that patients with sigmoid volvulus often present with a history of constipation or recent use of anticholinergic medications, which can further point towards this diagnosis. Let's not forget to take a thorough history and perform a careful physical examination.",
-        "color": "green"
-      },
-      {
-        "id": 8,
-        "parent_id": 6,
-        "user": "Sparkle-Eyes.Sue",
-        "role": "LPN",
-        "city": "St.John's, NL",
-        "text": "Bless yer heart, Leo! I'm glad I could help explain that for Chad. Sigmoid volvulus is a tricky diagnosis, but with the right approach and a bit of patience, we can make sure our patients get the right treatment.",
-        "color": "pink"
-      }
-    ]
+    {
+      "id": 1,
+      "parent_id": null,
+      "user": "Dr. Aris Thorne",
+      "role": "MD, Staff Physician",
+      "city": "Toronto, ON",
+      "text": "Great reminder, everyone! Fetal-maternal hemorrhage is a critical consideration in trauma patients, especially in the pregnant population. The American College of Surgeons Committee on Trauma (ACS COT) recommends a careful assessment for potential hemorrhage, including the use of laboratory tests like the Kleihauer-Betke test. What are your thoughts on implementing a standardized protocol for FMH diagnosis in your ED?\n\n[1] ACS COT. Advanced trauma life support student manual. [2] Kleihauer-Betke test: a useful tool for diagnosing Fetal-Maternal Hemorrhage. https://pubmed.ncbi.nlm.nih.gov/32913355/",
+      "color": "#6600cc"
+    },
+    {
+      "id": 2,
+      "parent_id": 1,
+      "user": "Dr. Victor Sterling",
+      "role": "Chief of Surgery",
+      "city": "Calgary, AB",
+      "text": "Amateurs think they can just rely on lab tests to diagnose FMH. You need a combination of clinical assessment, imaging, and laboratory tests to make an accurate diagnosis. And don't even get me started on the Kleihauer-Betke test - it's outdated and not as sensitive as other methods. We use a more advanced technique in our trauma center.\n\n[1] Advanced Techniques in Fetal-Maternal Hemorrhage Diagnosis. https://www.sciencedirect.com/science/article/pii/B9780128196618000168",
+      "color": "#800080"
+    },
+    {
+      "id": 3,
+      "parent_id": 1,
+      "user": "Dr. 'Ziggy' Zalesky",
+      "role": "EP",
+      "city": "Vancouver, BC",
+      "text": "Haha, nice one, Victor! But seriously, Aris is right - we need to take a more systematic approach to diagnosing FMH. In our ED, we've started using a trauma-focused assessment tool that includes a checklist for potential hemorrhage. It's been a game-changer for us. What about you guys - have you implemented anything similar?",
+      "color": "#00bfff"
+    },
+    {
+      "id": 4,
+      "parent_id": 3,
+      "user": "Turbo Tom",
+      "role": "RN",
+      "city": "London, ON",
+      "text": "Ziggy, that trauma-focused assessment tool sounds awesome! Can you share more about it? I'm always looking for ways to improve our trauma care.\n\nAlso, Victor, what's this advanced technique you mentioned? I've never heard of it.",
+      "color": "#00ff00"
+    },
+    {
+      "id": 5,
+      "parent_id": 4,
+      "user": "Dr. 'Ziggy' Zalesky",
+      "role": "EP",
+      "city": "Vancouver, BC",
+      "text": "Tom, we've just started piloting a new tool based on the Advanced Trauma Life Support (ATLS) guidelines. It includes a specific section on assessing for potential hemorrhage, including imaging studies and laboratory tests. We've seen a significant reduction in missed diagnoses since implementing it.\n\nAs for the advanced technique, Victor, I believe you're referring to the flow cytometry-based assay for detecting fetal-maternal hemorrhage.",
+      "color": "#00bfff"
+    },
+    {
+      "id": 6,
+      "parent_id": 5,
+      "user": "Dr. Victor Sterling",
+      "role": "Chief of Surgery",
+      "city": "Calgary, AB",
+      "text": "Ah, yes, flow cytometry. An excellent tool for diagnosing FMH. But let's not forget the importance of a thorough clinical assessment, including a careful history and physical exam. You can't just rely on lab tests alone.",
+      "color": "#800080"
+    },
+    {
+      "id": 7,
+      "parent_id": 6,
+      "user": "Dr. Aris Thorne",
+      "role": "MD, Staff Physician",
+      "city": "Toronto, ON",
+      "text": "I completely agree with you, Victor. Clinical assessment is key in diagnosing FMH. But it's also essential to remember that lab tests can be a valuable complement to clinical assessment, especially in cases where the diagnosis is unclear.",
+      "color": "#6600cc"
+    }
   ],
   {
-    "id": 3,
-    "title": "Just got a great case of an incarcerated hernia in my ER last night",
-    "body": "I saw a 45 yo male who presented with severe, sharp, left grooin pain, nausea and vomiting. He had a history of COPD and had been admitted to the hospital several weeks ago for a surgical incision site at the same location. The patient's past medical history was significant for hypertension, hyperlipidemia, and a remote history of tobacco use. He was afebrile and had no signs of sepsis, but was tender to palpation over the left groin with a firm, non-tender, reducible mass.",
-    "category": "emergency medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "MD",
-        "city": "Toronto, ON",
-        "text": "Great case! I've seen similar presentations many times before. One thing to note is that a 'soft' or 'nontender' reducible mass may actually be an incarcerated hernia, as the skin and subcutaneous tissues may be edematous and not tender to palpation. Did you consider ordering a CT or ultrasound to confirm the diagnosis and assess for any complications such as bowel obstruction or strangulation?",
-        "color": "blue"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Can you explain what you mean by 'non-tender, reducible mass'? Is the mass not tender to palpation but the surrounding tissues are tender? Or are the mass and surrounding tissues not tender at all?",
-        "color": "red"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Dr. Aris Thorne",
-        "role": "MD",
-        "city": "Toronto, ON",
-        "text": "Good question, Leo! A reducible mass is one that can be manually reduced or returned to its normal position. In the case of an incarcerated hernia, the hernia contents (usually bowel) may be incarcerated or trapped outside of the abdominal cavity and cannot be easily returned to their normal position. Even if the hernia is not tender to palpation, the surrounding tissues may be edematous and tender due to the increased intra-abdominal pressure or the presence of an underlying bowel obstruction.",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "DO",
-        "city": "Ottawa, ON",
-        "text": "I've read that CT scans are not always reliable for diagnosing incarcerated hernias due to overlying bowel gas and edema. What are your thoughts on using MRI or other diagnostic modalities in such cases?",
-        "color": "purple"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Aris Thorne",
-        "role": "MD",
-        "city": "Toronto, ON",
-        "text": "Great point, Sarah! CT scans can be limited in diagnosing incarcerated hernias due to bowel gas and edema. MRI can be a useful alternative, as it provides better tissue differentiation and can help identify signs of strangulation or bowel ischemia. However, MRI is not always readily available and may not be feasible in an acute setting. Ultrasound, on the other hand, can be a quick and useful tool for evaluating the presence of a hernia and detecting any signs of complications.",
-        "color": "brown"
-      },
-      {
-        "id": 6,
-        "parent_id": 4,
-        "user": "Dr. 'Ziggy' Zalesky",
-        "role": "MD",
-        "city": "Vancouver, BC",
-        "text": "I've been using a combination of ultrasound and clinical evaluation to diagnose incarcerated hernias. I think it's a great approach, especially in acute settings where time is of the essence. Has anyone else used a similar approach?",
-        "color": "orange"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "What's the deal with incarceration? Is it like, when the bowels get 'stuck' or what?",
-        "color": "pink"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. 'Ziggy' Zalesky",
-        "role": "MD",
-        "city": "Vancouver, BC",
-        "text": "LOL, bro! 'Incarceration' just means the bowels are trapped outside the abdominal cavity. Think of it like being stuck in a jail cell, but with more pain and less snacks.",
-        "color": "yellow"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Got it, thanks for explaining, Doc!",
-        "color": "green"
-      }
-    ],
-    "image": "https://d16qt3wv6xm098.cloudfront.net/8RYh-eg6TuS3XdlEqlcmRmXFQhmdVx8w/_.png"
-  },
-  {
-    "id": 1,
-    "title": "Valvular Emergencies: A High-Risk, High-Reward Diagnosis",
-    "body": "Had a near-miss last night with a patient presenting with sudden onset of symptoms of acute valvular dysfunction. As ED docs, we need to be vigilant about identifying new murmur and taking appropriate action to prevent catastrophic outcomes. Here's my anecdote... ",
+    "id": 123,
+    "title": "Acute Cholecystitis: Where's the Gallbladder Red Flag?",
+    "body": "Just saw a 45yo male with suspected AC, had a gallbladder diameter of 2.5cm on CT, and normal white count. What's the red flag to look for? I was thinking of sending him to the ER for possible cholecystitis, but one of the attendings said I was overcalling it. Was thinking about whether this is really a surgical issue or just a minor infection... ",
     "category": "emergency-medicine",
     "comments": [
       {
-        "id": 11,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "This is exactly the reason why we need more bedside echocardiography in the ED. It's not just about identifying new murmurs, but also about recognizing the subtle signs of valvular dysfunction. TLDR, valvular emergencies require a high degree of suspicion and expeditious assessment.",
-        "color": "purple"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Thorne, what are the key signs and symptoms of acute valvular dysfunction that every EM doc should know? Can we have a quick rundown?",
-        "color": "green"
-      },
-      {
-        "id": 13,
-        "parent_id": 11,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Couldn't agree more. Valvular emergencies are a 'high-stakes' diagnosis, and ED docs need to be prepared to act fast. I'd love to hear more about the role of bedside echocardiogram in valvular assessment.",
-        "color": "blue"
-      },
-      {
-        "id": 14,
-        "parent_id": 13,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Dr. Gupta, did you know that the AHA recommends using the 'VEXAM' protocol for emergency bedside echocardiography in patients with suspected valvular dysfunction? The 'VEXAM' protocol includes visual inspection, echocardiographic findings, examination of the murmur, and assessment of the patient's symptoms.",
-        "color": "yellow"
-      },
-      {
-        "id": 15,
-        "parent_id": 14,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Excellent reference, Sarah! The 'VEXAM' protocol is a valuable tool for EM docs to quickly assess patients with suspected valvular dysfunction.",
-        "color": "purple"
-      },
-      {
-        "id": 16,
-        "parent_id": 13,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs will tell you that you can't diagnose valvular dysfunction in the ED. But let me tell you, it's not just about the diagnosis; it's about the timely initiation of treatment.",
-        "color": "red"
-      },
-      {
-        "id": 17,
-        "parent_id": 16,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "I disagree, Dr. Sterling. In fact, ED docs are perfectly capable of diagnosing and managing valvular emergencies. The key is recognizing the subtlety of symptoms and taking prompt action.",
-        "color": "purple"
-      },
-      {
-        "id": 18,
-        "parent_id": 17,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Great point, Dr. Thorne. And it's not just about recognizing symptoms; it's also about understanding the underlying pathophysiology. Can we discuss the difference between acute and chronic valvular dysfunction?",
-        "color": "blue"
-      },
-      {
-        "id": 19,
-        "parent_id": 18,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Dr. Gupta, I think it's essential to note that the distinction between acute and chronic valvular dysfunction is not always clear-cut. Clinical presentation can be similar, and it's up to the EM doc to use their clinical acumen to make an accurate diagnosis.",
-        "color": "green"
-      },
-      {
-        "id": 20,
-        "parent_id": 19,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Excellent point, Dr. Miller. Can you tell us more about the clinical presentation of acute valvular dysfunction, and how it differs from chronic dysfunction?",
-        "color": "yellow"
-      },
-      {
-        "id": 21,
-        "parent_id": null,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Hey guys, I've been following this thread, and I'm impressed by the level of discussion. But I've got to ask, what's the most common type of valvular dysfunction that ED docs encounter?",
-        "color": "blue"
-      },
-      {
-        "id": 22,
-        "parent_id": 21,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Chad, from my experience, the most common type of valvular dysfunction encountered in the ED is mitral regurgitation. It's often diagnosed in patients with a new-onset systolic murmur.",
-        "color": "blue"
-      },
-      {
-        "id": 23,
-        "parent_id": 22,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "I've seen my fair share of mitral regurgitation in the ER, and it's always a high-stakes diagnosis. Thanks for the discussion, guys!",
-        "color": "purple"
-      },
-      {
-        "id": 24,
-        "parent_id": 23,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "TLDR, valvular emergencies require vigilance, timely assessment, and the right treatment. And don't forget to brush up on your 'VEXAM' protocol!",
-        "color": "green"
-      }
-    ]
-  },
-  {
-    "id": 123,
-    "title": "Just saw a patient with Acute Angle Closure Glaucoma: Key Takeaways and Clinical Pearls",
-    "body": "Had a close call last night with a patient who presented with classic symptoms of acute angle closure glaucoma. Wanted to share some key takeaways and clinical pearls to help prevent similar situations in the future.\n\nAs those of you who've dealt with AACG know, the presentation can be subtle, but the consequences are serious if not addressed promptly. My patient had been experiencing worsening vision, severe eye pain, and halos around lights for hours before presentation.\n\nThe key to diagnosing AACG lies in recognizing classic symptoms and obtaining an accurate IOP measurement. I measured a whopping 45 mmHg! The patient's dilated pupil was also a major red flag, and after a thorough eye exam, we confirmed the diagnosis.\n\nNow, here are some takeaways from our case:\n\n- **Red flags for AACG:** Severe eye pain, headache, blurred vision, halos around lights, nausea/vomiting, increased IOP (> 30 mmHg)\n\n- **Important pearls:\"\n\n***Elevate the IOP measurement ASAP,*** and repeat it every 10 minutes in the emergency department.\n\n- Use **latanoprost 50 \u03bcg eye drops** to reduce IOP before further medical treatment.\n\n- Administer **acetazolamide 500 mg IV** to quickly lower IOP.\n\n- For patients with suspected AACG, always obtain an **ECC** (Emergency Contact Card) from the patient or a trusted family member.\n\n- Don't delay **stat referral** to an ophthalmologist; AACG is a medical emergency requiring prompt attention.\n\nWhat's your experience with AACG? Any other key takeaways or clinical pearls to share?",
-    "category": "Emergency Medicine",
-    "comments": [
-      {
         "id": 1,
         "parent_id": null,
         "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "TL;DR: Don't delay stat referral to an ophthalmologist for suspected AACG. Always obtain an ECC.",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Agreed! I once saw a patient with AACG who ended up losing vision due to delayed referral. ECCs are essential in these cases, and RNs should be made aware of the urgency.\n\nRelated: Have you guys seen the AAO guidelines for AACG? The latanoprost 50 \u03bcg eye drops are a game-changer in reducing IOP quickly.\nhttps://www.aao.org/patient-education/detailed-eye-conditions/ac-angle-closure-glaucoma",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Saw that article too, Turbo Tom! The AAO guidelines are excellent resources. One question, though: Can you clarify how to interpret the IOP measurement?\n\nIn our hospital, we were measuring IOP using a Tono-Pen, but I've heard some places use the Goldmann applanation tonometer. Are there any differences in accuracy or measurement interpretation?",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Sparkle-Eyes Sue, in general, both Tono-Pen and Goldmann applanation tonometers are reliable for IOP measurement. However, **Tono-Pen is quicker and more portable**, whereas **Goldmann provides more accurate measurements, especially in patients with corneal edema**.\n\nWhen interpreting IOP measurements, keep in mind that **values > 30 mmHg are abnormal** and require further evaluation. Remember to **re-cement the patient's IOP every 10 minutes** in the ED to monitor changes.\n\nHope that helps!",
-        "color": "orange"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Just learned about AACG in med school, and I was wondering what happens if the patient develops a headache?\n\nIs that a sign of increased IOP or more likely due to another condition?",
-        "color": "white"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Chad, when patients with AACG develop headaches, it's often due to the **increased IOP itself**, causing pressure on the globe and surrounding tissues. This is why quick IOP reduction is crucial. In my experience, if you can manage to lower IOP < 20 mmHg, the headache usually subsides.",
-        "color": "red"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Gupta, just to clarify, how do you differentiate between AACG and other causes of headaches, such as meningitis?\n\nI've heard meningitis can also raise IOP!",
-        "color": "brown"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Leo, you're on the right track! Meningitis can indeed cause increased IOP, but in patients with AACG, the presence of **halos around lights** and **abnormal pupillary reactions** is a strong indicator of the diagnosis.\n\nWhen in doubt, always err on the side of caution: if you suspect AACG, **stat ophthalmology referral**. Better safe than sorry!",
-        "color": "pink"
-      }
-    ]
-  },
-  {
-    "id": 7,
-    "title": "Today I Learned: Acetaminophen Toxicity",
-    "body": "Had a miss last night with a patient presenting with liver failure after taking acetaminophen for their migraines. We all know the drill: check the acetaminophen level and if its above the treatment line, give them NAC and hope for the best. But what I found really interesting was the case of a patient who presented 24 hours after taking an overdose... ",
-    "category": "Emergency Medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Great post, OP. Just a reminder, always consider the possibility of APAP poisoning in patients with liver failure, even if the acetaminophen level is not elevated. I've seen cases where the level is normal, but the patient's liver function is still impaired. We should be thinking about this in the differential diagnosis, especially in patients who are jaundiced or have a history of acetaminophen use.",
-        "color": "blue"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs. You're just trying to cover your behinds with this post. The only thing that matters is the acetaminophen level. If it's below the treatment line, you can stop wasting time and send the patient home. Don't bother me with the details, I've got more important things to attend to.",
-        "color": "red"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "I'm a bit confused, OP. Can you explain the difference between APAP poisoning and acetaminophen toxicity? Are they the same thing? And what's the 'treatment line' Dr. Sterling is talking about?",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Ah, great question, Leo! APAP poisoning and acetaminophen toxicity are not exactly the same thing. APAP poisoning refers to the acute overdose of acetaminophen, which can lead to liver failure if not treated promptly. Acetaminophen toxicity, on the other hand, refers to the overall effect of acetaminophen on the body, including its metabolism and excretion.",
-        "color": "purple"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "I've read that the treatment line for APAP poisoning is based on the Rumack-Matthew nomogram. Can someone explain how to use this nomogram to determine whether a patient needs treatment? I've seen some charts and graphs online, but I'm not sure how to interpret them.",
-        "color": "blue"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "The Rumack-Matthew nomogram is a great resource! It's really simple to use once you understand how it works. Basically, you plot the patient's acetaminophen level on the y-axis and the time from ingestion on the x-axis. If the line intersects the 'treatment line', you know the patient needs NAC. The nomogram takes into account the patient's liver function and other factors, so it's a more accurate way of determining treatment.",
-        "color": "green"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Leon Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Thanks, Dr. Gupta! That makes sense. But what about patients who present more than 24 hours after ingestion? Is the nomogram still accurate in that case?",
-        "color": "purple"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Elena Varkov",
         "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Actually, Leo, the nomogram is not accurate for patients who present more than 24 hours after ingestion. In those cases, you need to rely on other factors, such as the patient's liver function and the presence of severe toxicity.",
-        "color": "blue"
-      },
-      {
-        "id": 9,
-        "parent_id": 1,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "I'm a bit confused about the whole thing. Why are we talking about acetaminophen toxicity when I've been taking ibuprofen? I thought that was the one that was bad for your liver... ",
-        "color": "red"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "Don't worry, Barnaby! Both acetaminophen and ibuprofen can cause liver damage, but in different ways. Acetaminophen can cause direct liver damage due to its toxic metabolites, whereas ibuprofen can cause liver damage through an increase in liver enzymes. But that's a whole different topic... ",
-        "color": "green"
-      },
-      {
-        "id": 11,
-        "parent_id": 1,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "I've seen it all before. Patients come in with liver failure and their doctors say 'oh, it's just APAP poisoning.' But what about the patient who presents with liver failure due to something else entirely? Don't we need to think about that as well?",
-        "color": "purple"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Martha, you're absolutely right. We need to consider all the possible causes of liver failure when evaluating a patient. It's not just about APAP poisoning... ",
-        "color": "blue"
-      },
-      {
-        "id": 13,
-        "parent_id": 1,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Hey guys, I'm a pre-med student and I'm having trouble understanding the difference between APAP and acetaminophen. Can someone explain it to me in simple terms?",
-        "color": "green"
-      },
-      {
-        "id": 14,
-        "parent_id": 13,
-        "user": "Dr. Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Hey Chad! APAP stands for Acetaminophen, Paracetamol. It's another name for the stuff we use to treat headaches and fevers. Acetaminophen is a brand name for the same thing. So, they're basically the same thing... ",
-        "color": "purple"
-      }
-    ]
-  },
-  {
-    "id": 8,
-    "title": "Rant about the latest Frostbite case: Rewarming techniques and controversy surrounding treatment",
-    "body": "Just saw a patient with suspected frostbite and it got me thinking about the various rewarming techniques and treatment approaches. As an EP, we all know the importance of rapid rewarming, but what's the best method? And are we just making things up as we go? TLDR; I'll lay out my thought process, hoping someone with more experience can chime in.",
-    "category": "Emergency Medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "As an ER nurse, I've seen my fair share of frostbite cases. We always rewarm with 37-39C water, but I've heard some docs swear by using a warm bath or even just a warm compress. What's the consensus here? And does it really matter which method we use? Anybody got some studies to back up their favorite treatment approach?",
+        "text": "Great topic! The key red flag for AC is Murphy's sign. It's extremely sensitive and should be a strong indicator for us. The 2.5cm GB size is not abnormal for someone without symptoms, but I've seen plenty of cases where it's been normal in size but the GB function was compromised due to inflammation. You want to look for signs of GB dysfunction like elevated transaminases, leukocytosis, and fever... ",
         "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Great question, Turbo! As Dr. Thorne, I can tell you that rapid rewarming is key, but the method matters. We've had some studies showing that water immersion at 37-39C is most effective for superficial frostbite. That being said, the evidence is limited, and more work needs to be done to determine the optimal rewarming technique for deeper frostbite.",
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "That's great, Dr. Thorne! But what about the 97% sensitivity of HIDA scans for AC? Wouldn't that be a more reliable indicator of GB dysfunction? Or am I just regurgitating med school facts?",
         "color": "green"
       },
       {
         "id": 3,
         "parent_id": 2,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Hi Dr. Thorne! What studies are you referring to? Can you provide some references? I've heard some docs talk about using warm compresses, and I'm not sure what to make of it.",
-        "color": "blue"
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "HIDA scans are awesome, Sarah, but you can't rely solely on them for diagnosis. There are plenty of cases where the scan is false negative or false positive. Remember, clinical correlation is key, especially when you're dealing with something as sensitive as AC. Get the full picture, including the patient's history, physical exams, labs, and imaging... ",
+        "color": "teal"
       },
       {
         "id": 4,
-        "parent_id": 2,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Actually, I think I found a study that compared rewarming methods for frostbite. It was a small sample size, but they found that water immersion was the most effective method, followed by warm compresses. Does anyone have any experience with using ultrasound to rewarm frostbitten tissue? I'm not sure if it's worth bringing up in a treatment discussion.",
-        "color": "red"
+        "parent_id": null,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I'm a bit confused, guys. So, Murphy's sign is highly sensitive but not specific, while HIDA scans are more specific but less sensitive? What's the general consensus on the gold standard for diagnosing AC?",
+        "color": "blue"
       },
       {
         "id": 5,
         "parent_id": 4,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Hey Sarah, I've actually used ultrasound to rewarm frostbitten tissue before, and it seems to work pretty well! However, I'm not sure if it's a standard treatment approach. Has anyone else had any experience with it?",
-        "color": "purple"
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Don't worry, Leo! You're not alone in the confusion. In theory, a normal GB size on imaging shouldn't completely rule out AC if you've got the classic triad of symptoms \u2013 fever, jaundice, and RUQ tenderness. Clinical acumen and correlation with lab results will help guide the decision... ",
+        "color": "pink"
       },
       {
         "id": 6,
-        "parent_id": null,
-        "user": "Dr. Phil Muddle",
-        "role": "EP",
-        "city": "Regina, SK",
-        "text": "Um, hi everyone... I think I may have given one of my patients a frostbite treatment that was way too aggressive. I rewarmed them with some crazy high temperatures and I'm not sure if it's going to make a difference now. Can someone help me out? Any advice would be appreciated!",
-        "color": "yellow"
+        "parent_id": 5,
+        "user": "Dr. Barb Miller",
+        "role": "FRCPC",
+        "city": "Winnipeg, MB",
+        "text": "That's a classic triad, but not always present. Don't overlook the importance of looking for signs of GB inflammation \u2013 things like a palpable mass, pericholecystic fluid on US, or elevated C-reactive protein... ",
+        "color": "teal"
       },
       {
         "id": 7,
@@ -833,126 +878,37 @@
         "user": "Turbo Tom",
         "role": "RN",
         "city": "London, ON",
-        "text": "Phil, what were you thinking?! Don't worry, we've all been there. But next time, just use 37-39C water, okay? Don't make things up as you go!",
-        "color": "purple"
+        "text": "TBH, guys, I've seen cases where we got a normal GB size on US but still a high suspicion for AC. It just comes down to clinical gestalt - the old 'something doesn't add up', you know? Trust your instincts and order more tests as needed...",
+        "color": "yellow"
       },
       {
         "id": 8,
         "parent_id": 7,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Actually, Phil, your aggressive rewarming treatment might not have been the worst thing in the world. There's some evidence to suggest that rapid rewarming can be beneficial in certain cases. Not saying it's ideal, but maybe we should be more open-minded about the possibilities?",
-        "color": "green"
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "TLDR; - Don't rely on imaging alone! Clinical correlation will save your butt more often than not...",
+        "color": "orange"
       },
       {
         "id": 9,
         "parent_id": 8,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Wait, really? So we should be rewarming frostbite patients with crazy high temperatures? I thought we were supposed to be conservative with our treatment approach?",
-        "color": "blue"
+        "user": "Dr. Sarah Sharp",
+        "role": "FRCPC",
+        "city": "Laval, QC",
+        "text": "Thanks, Martha! Great summary. Remember to keep that evidence-based approach in mind for your treatment decisions, too. AC is a spectrum \u2013 manage those patients accordingly, with the right antibiotics and possibly a cholecystectomy... ",
+        "color": "green"
       },
       {
         "id": 10,
         "parent_id": 9,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Leo, it's all about nuance, my friend. We can't just apply blanket rules to every frostbite patient. Some cases call for more aggressive treatment, while others require a more cautious approach. It's up to us as clinicians to use our expertise and judgment to decide the best course of action.",
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "Don't forget about the nuances, guys. What about the atypical presentations? For instance, a patient I saw recently with AC had no RUQ tenderness but was jaundiced. Keep those atypical cases on your radar... ",
         "color": "purple"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Just saw a patient with epinephrine-induced digital ischemia and I'm still shaken",
-    "body": "So I see this kid who's had an accidental epinephrine injection into his finger. He's in severe pain and his finger is literally turning purple. I'm thinking to myself, 'this is gonna be a long night...'",
-    "category": "casual conversation",
-    "comments": [
-      {
-        "id": 10,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "TLDR; epinephrine-induced digital ischemia is a thing, folks. Remember that phentolamine is our friend.",
-        "color": "purple"
-      },
-      {
-        "id": 15,
-        "parent_id": 10,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "I had no idea that phentolamine was effective in reversing epinephrine-induced digital ischemia. Can someone explain the mechanism of action?",
-        "color": "green"
-      },
-      {
-        "id": 12,
-        "parent_id": 10,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Phentolamine works by competitively inhibiting alpha-adrenergic receptors in the smooth muscle of the finger, thereby reducing vasoconstriction. It's a great trick to have up your sleeve.",
-        "color": "blue"
-      },
-      {
-        "id": 16,
-        "parent_id": 10,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "That makes sense, but what about the combination of phentolamine and lidocaine that's mentioned in the textbook? Is that just a coincidence, or is there some synergistic effect going on?",
-        "color": "green"
-      },
-      {
-        "id": 13,
-        "parent_id": 10,
-        "user": "Dr. 'Ziggy' Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Lol, you want to get all scientific about it? The combination of phentolamine and lidocaine is just a way to make it easier to inject the phentolamine subcutaneously. Trust me, it works.",
-        "color": "red"
-      },
-      {
-        "id": 18,
-        "parent_id": 10,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "I recall a paper that mentioned using phentolamine to reverse epinephrine-induced anaphylaxis in a pediatric patient. Has anyone else seen that?",
-        "color": "blue"
-      },
-      {
-        "id": 11,
-        "parent_id": 1,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "Guys, guys, I was wondering if anyone could help me out? I got bitten by a weird critter in the woods and now I've got this weird wound...?",
-        "color": "purple"
-      },
-      {
-        "id": 20,
-        "parent_id": 11,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "Don't worry, Barnaby, we got this! Tell us more about the critter that bit you, and we'll get to the bottom of this.",
-        "color": "green"
-      },
-      {
-        "id": 22,
-        "parent_id": 11,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Ugh, critter bites are the worst. I once had a patient who got bitten by a raccoon and developed rabies. Good luck, Barnaby.",
-        "color": "red"
       }
     ],
-    "image": "https://emottawablog.com/wp-content/uploads/2023/04/Screen-Shot-2023-04-11-at-11.54.40-AM-1080x675.png"
+    "image": "https://media.springernature.com/m685/springer-static/image/art%3A10.1186%2Fs12893-021-01137-y/MediaObjects/12893_2021_1137_Fig1_HTML.png"
   }
 ]
