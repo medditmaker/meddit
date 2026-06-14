@@ -1,63 +1,192 @@
 [
   {
-    "id": 0,
-    "title": "Had a nasty case of pediatric pneumonia last night and realized I've been relying too heavily on RSV tests. Rant about the limitations and potential for overuse?",
-    "body": "I've been seeing a lot of respiratory cases lately and I was thinking about the pediatric pneumonia cases. Specifically, I've noticed the RSV tests keep coming back positive. Not necessarily the RSV itself that's causing the issue, but it seems like a lot of these cases are actually caused by S. pneumoniae and other atypical pathogens. Now I'm not saying RSV is never a problem, but I feel like we might be missing the mark by relying too heavily on these tests. The ED is busy and we don't have all the time and resources to run every blood culture and chest x-ray. So we default to RSV because it's fast and easy. And hey, sometimes it's the right answer. But other times... well, maybe not so much. Can we discuss this and whether it's worth rethinking our approach?",
-    "category": "Emergency Medicine",
+    "id": 123456,
+    "title": "TLDR: Pancreatitis, let's talk about it",
+    "body": "Just had the most interesting case of pancreatitis walk into my ER tonight. Patient comes in after several days of progressively worsening epigastric pain, but I knew it wasn't just a case of PUD. She had no obvious risk factors for AP, but her ECG and labs looked decent enough. But as we dug deeper, it turned out she'd recently started taking a new med that we all knew could cause pancreatitis. The patient had no idea what we were talking about, of course, but we were all nodding like we knew what we were doing. Long story short, the patient got some IV fluids, a stat lipase, and a gentle conversation about the risks and benefits of her meds. But what I'm wondering now is... do we ever catch pancreatitis early enough? Do we ever get to the 'definitive diagnosis' of pancreatitis before things get really ugly? Anyone got any war stories to share on this one?",
+    "category": "emergency_medicine",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
         "user": "Dr. Aris Thorne",
-        "role": "MD",
+        "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "Love this thread! Just want to throw in that we should also be considering the role of prior viral illnesses in the development of pneumonia. Viruses like RSV can prime the lungs for subsequent bacterial infections. And don't even get me started on the impact of tobacco smoke exposure... I think there's a lot more to consider when it comes to respiratory cases in pediatrics. Anyone have some solid data on the incidence of viral-bacterial coinfections in pediatric pneumonia?",
-        "color": "purple"
+        "text": "Pancreatitis can be a real challenge, especially when it's idiopathic. I've found that early detection often depends on the provider's index of suspicion and the quality of the patient's history. Did you guys take a closer look at the patient's medication list before ordering those labs? And what about the abdominal CT?",
+        "color": "red"
       },
       {
         "id": 2,
         "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Haha Dr. Thorne, you're always so thorough! But seriously, I've seen cases where the patient's meds are the culprit. What about the role of genetics? My buddy's aunt just got diagnosed with idiopathic pancreatitis and I know it's gotta be genetic. Has anyone else seen anything unusual in this area?",
+        "color": "purple"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "Hey, just a quick question... I was talking to my doc about pancreatitis the other day and I couldn't help but wonder, what's the difference between AP and acute cholecystitis? Can someone break this down for me like I was a first-grader?",
+        "color": "turquoise"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Great question @barnabyfinch! From what I've learned, the main difference is the location of the inflammation. Pancreatitis is when the pancreas itself is inflamed, usually due to gallstones or high levels of lipase. Acute cholecystitis, on the other hand, involves the gallbladder and is often caused by gallstones or infections. Now, can someone explain the diagnostic criteria for each condition?",
+        "color": "lime"
+      },
+      {
+        "id": 5,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I've heard that some patients with AP can develop a systemic inflammatory response, which can lead to all sorts of crazy complications. Can someone talk a bit more about this and what we can do to prevent or mitigate these issues?",
+        "color": "blue"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
         "user": "Chad Broson",
         "role": "Pre-med",
         "city": "Brampton, ON",
-        "text": "Just learned about the concept of 'viral-bacterial coinfections' in my pre-med classes. Never thought about how viruses and bacteria collaborate to cause disease. TL;DR: can you provide some real-life examples or case studies where viruses primed the lungs for subsequent bacterial infections, doc?",
+        "text": "Hey, what's the deal with Ranson's criteria? I heard it's used to predict the severity of pancreatitis... But what's the deal with the scoring system? Does it really work?",
+        "color": "yellow"
+      },
+      {
+        "id": 7,
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I recently saw a case of AP caused by a rare condition called hypertriglyceridemia. Has anyone else seen something like this before? And do we need to be thinking differently about our approach to patient care?",
+        "color": "pink"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "That's really interesting, @mayagu. Can you tell us more about the specific condition and how you managed it? I'm curious to know how we can better diagnose and treat this rare condition.",
+        "color": "orange"
+      }
+    ],
+    "image": "https://www.ejinme.com/cms/10.1016/j.ejim.2024.10.030/asset/c8bb7473-836e-4024-8f26-318370f73db2/main.assets/gr3_lrg.jpg"
+  },
+  {
+    "id": 1,
+    "title": "Today I Learned: How to spot a pseudocoma in a patient with altered mental status",
+    "body": "Just saw a patient with a possible pseudocoma and I was blown away by how subtle the signs are. I've been in ER for 10 years and I've never seen it before. I had to Google it afterwards to even figure out what I just saw. So here's the deal, anyone else familiar with pseudocomas? I think it's a huge diagnostic challenge and we can all learn from this case study.",
+    "category": "r/EmergencyMedicine",
+    "username": "ER_Doc",
+    "role": "Attending",
+    "city": "Toronto, ON",
+    "color": "blue",
+    "comments": [
+      {
+        "id": 2,
+        "parent_id": 1,
+        "username": "MedPal",
+        "role": "Resident",
+        "city": "Calgary, AB",
+        "text": "TLDR: pseudocoma is a feigned or psychogenic unresponsiveness. I see what you mean, it can be super subtle. I've had cases where the patient would stare blankly ahead and respond to verbal commands only when their family member asked them to. I use the AVPU scale to quickly assess responsiveness, but in pseudocoma patients, it's often normal or even above normal.",
         "color": "green"
       },
       {
         "id": 3,
         "parent_id": 1,
+        "username": "ER_Nerd",
+        "role": "Attending",
+        "city": "Vancouver, BC",
+        "text": "Great case study! I've had similar experiences. One thing to add is that pseudocoma patients might have a completely normal pupillary response, but a slight deviation in pupil size or reactivity can indicate a non-physiologic response. Also, be on the lookout for inconsistencies in the patient's story - if they're consistently avoiding eye contact or looking away, it could be a sign of feigned unresponsiveness.",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 2,
+        "username": "Newbie_Doctor",
+        "role": "Intern",
+        "city": "Montreal, QC",
+        "text": "Can you elaborate on what exactly you mean by 'a slight deviation in pupil size or reactivity'? Is it a specific percentage increase? Like, if the pupils are normally 3mm and they're 3.5mm in the pseudocoma patient, is that a red flag?",
+        "color": "yellow"
+      },
+      {
+        "id": 5,
+        "parent_id": 3,
+        "username": "ER_Maven",
+        "role": "Attending",
+        "city": "Ottawa, ON",
+        "text": "Actually, pseudocoma patients might have a more significant deviation in pupil size or reactivity, not a slight one. I would look for at least a 1mm increase in pupil size or a noticeable anisocoria. Also, keep in mind that some patients might have a normal pupil response but still be feigning unresponsiveness.",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Had a miss last night with a 'normal' chest X-ray",
+    "body": "I've been working as an EP for 5 years now and I've come to realize that chest traumas are a pain in the butt. They always look so benign but can have the most catastrophic consequences. Last night was a perfect example. I saw a young hockey player who got hit in the chest during a game. He complained of shortness of breath and was in distress. Classic, right? I ordered a CXR and it was... normal. No rib fractures, pneumothorax, or hemothorax. The patient looked fine, but he was hypoxic and in significant distress. I did a FAST (Focused Assessment with Sonography in Trauma) and it was negative. So, I sent him out to CT for a more detailed look. Guess what? He had a torn aorta. I know, I know, it's not like I've never seen this before, but seriously, it still gets my heart racing. The lesson here is that just because the CXR looks normal doesn't mean there's nothing wrong. Be vigilant, folks! We've got to think outside the box and order those CTs if we're unsure.",
+    "category": "Medical",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Well, well, well. Another great reminder of why we always say 'normal' CXR is a myth. The takeaway here is that if you're unsure, order a CT. It's better to be safe than sorry. Can we discuss more about what your protocol is for ordering CT scans in chest trauma? I'd love to hear about it.",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
         "user": "Leo Chen",
         "role": "MS1",
         "city": "Montreal, QC",
-        "text": "Actually, I've seen some amazing research on this topic. [link to study on RSV-bacterial coinfections]. It suggests that RSV can increase the susceptibility of infants to secondary bacterial infections by modifying the airway innate immune response. Does that sound right to everyone else?",
+        "text": "Hi Dr. Thorne! I'm a bit confused. When should we order a CT in chest trauma? Can we discuss the specific risk factors that increase the likelihood of significant injury? I want to make sure I get it right for my exams.",
         "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs ordering CTs whenever they feel like it. We need to start thinking about the evidence, folks. The studies say that patients with significant chest trauma can have normal CXRs. Let's not over-diagnose. We should be thinking about the mechanism of injury, physical exam, and other diagnostics like USG. Remember, 'Amateurs' rush to CT, experts think it out.",
+        "color": "purple"
       },
       {
         "id": 4,
         "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "We should also be considering the role of immune system dysregulation in pediatric pneumonia. Children with underlying immunodeficiencies are at increased risk of developing severe pneumonia. Have any of you seen any good studies on this topic?",
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "Dr. Sterling, I think you're being a bit too hard on the docs. We get it that CTs are expensive, but if we're unsure, it's always better safe than sorry. I've seen patients with normal CXRs but had significant injuries. I'd rather have the doc err on the side of caution than have to live with the 'what ifs.' Besides, with our new CT scanner, we're getting amazing images.",
         "color": "green"
       },
       {
         "id": 5,
-        "parent_id": 1,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "MD",
-        "city": "Windsor, ON",
-        "text": "Ugh, just thinking about pediatric pneumonia makes me want to scream. And it's not just the diseases themselves, it's the politics around healthcare... [link to article on healthcare policy]. Does anyone else feel like we're fighting a losing battle here?",
-        "color": "blue"
+        "parent_id": 2,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Thanks, Dr. Sterling, I think I get it now. The key is to use the combination of clinical judgment and diagnostics to determine the risk of significant injury. So, if a patient has a normal CXR but still looks worried, I should consider other diagnostics like USG?",
+        "color": "green"
       },
       {
         "id": 6,
-        "parent_id": 1,
+        "parent_id": 4,
         "user": "Chad Broson",
         "role": "Pre-med",
         "city": "Brampton, ON",
-        "text": "I have to ask, is it true that only about 10-20% of pediatric pneumonia cases are caused by S. pneumoniae? That sounds crazy! What are some of the other major causes?",
-        "color": "green"
+        "text": "What about rib fractures, folks? Are those a contraindication for playing sports? I've got a friend who's a hockey player and got a rib fracture. Can he play again?",
+        "color": "purple"
       },
       {
         "id": 7,
@@ -65,339 +194,34 @@
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "Actually, the percentage can vary depending on the population and the season. But yes, atypical pathogens like Chlamydophila pneumoniae and Mycoplasma pneumoniae are becoming more common causes of pediatric pneumonia. And of course, respiratory viruses are a big deal too. [link to study on atypical pneumonia]. Anyone else have some good references on this?",
+        "text": "Chad, rib fractures are a serious injury, especially if they're bilateral or multiple. The patient should seek medical attention and get clearance from a doc before returning to play. It's not just a matter of whether or not they can play, it's about their overall health and safety. We need to educate the public about the risks of playing through injury.",
         "color": "green"
       },
       {
         "id": 8,
-        "parent_id": 1,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "I'm just a patient, but I've been dealing with pneumonia myself lately. What's the best way to prevent it? Is there some kind of treatment or prophylaxis I can take?",
-        "color": "green"
+        "parent_id": null,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "You guys are getting too caught up in the medicine. What about the psychosocial aspect? These athletes are under so much pressure to perform. We need to consider the mental health implications of their injuries.",
+        "color": "purple"
       },
       {
         "id": 9,
         "parent_id": 8,
-        "user": "Dr. Elena Varkov",
-        "role": "Internist",
-        "city": "Quebec City, QC",
-        "text": "Good question, Barnaby. While there isn't a single 'preventative' treatment, [link to study on vaccination]. Vaccines like the pneumococcal conjugate vaccine and the influenza vaccine can certainly help reduce the risk of pneumonia. Anybody else have some recommendations on preventing pneumonia in high-risk populations?",
-        "color": "green"
-      }
-    ],
-    "image": "https://emergencymedicinecases.com/wp-content/uploads/2019/09/CAP-infographic-compressed.png"
-  },
-  {
-    "id": 1,
-    "title": "Today I learned...",
-    "body": "Just saw a patient with a lightning strike in the ER today and I'm still trying to wrap my head around it. The patient was a 35 yr old male who was struck while standing on the edge of a lake during a storm. He was conscious but confused when he arrived, complaining of a headache and neck pain. His ECG showed a few PVCs but nothing too concerning. However, his neurological exam revealed some interesting findings... ",
-    "category": "Emergency Medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "TLDR; Lightning strike, multiple injuries, and some interesting findings. Can someone fill me in on the details?",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "The patient's neurological exam showed some signs of a seizure disorder, specifically a history of focal seizures in the past. The ECG changes were concerning for cardiac conduction disturbances. One thing to keep in mind when seeing patients with lightning strikes is that they can have a high incidence of cardiac arrhythmias... ",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "We all know that lightning strikes are a real thing, but what really gets me is how little we know about them in ER settings. We do have some guidelines for diagnosing flash burns, but not much beyond that. Has anyone else seen a case like this? Or have any experience with lightning strikes?",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "I've been reading about it and it seems like the patient's symptoms match the 'lightning stroke syndrome'. Is that correct? And what exactly is that?",
-        "color": "grey"
-      },
-      {
-        "id": 5,
-        "parent_id": 2,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "You're right, Dr. Thorne, and one thing to keep in mind is that cardiac complications from lightning strikes can be delayed. We need to keep a close eye on these patients for arrhythmias and other cardiac complications. Does anyone have any experience with the use of cardiac monitor in this setting?",
-        "color": "brown"
-      },
-      {
-        "id": 6,
-        "parent_id": 4,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "The patient's symptoms sound like a classic case of lightning stroke syndrome, which is essentially a state of shock that can occur after being struck by lightning. But let's not forget, most people don't survive a lightning strike... This patient is incredibly lucky to be alive.",
-        "color": "red"
-      },
-      {
-        "id": 7,
-        "parent_id": 5,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "Absolutely, cardiac monitors should be used to keep an eye on these patients. Has anyone considered the possibility of neurogenic shock? We've seen it in other trauma cases.",
-        "color": "orange"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "Wait, I was the one who got struck! I just wanted to thank the doctors and nurses for their help. I was in a lot of pain but they took great care of me.",
-        "color": "pink"
-      }
-    ]
-  },
-  {
-    "id": 123456,
-    "title": "Just saw a patient with acute heart failure and it made me question my whole medical knowledgebase",
-    "body": "A 72 year old female patient presents to the ER with dyspnea and edema. Her past medical history is significant for CHF, hypertension, and hyperlipidemia. Her initial lab values show a sodium of 145, potassium of 4.2, BUN of 25, creatinine of 1.3. Her ECG shows atrial fibrillation. The chest x-ray reveals cardiomegaly with pulmonary edema. I ordered her to receive a trial of IV Lasix and oxygen therapy, but after 6 hours, her symptoms did not improve. I started questioning my knowledge of heart failure and decided to seek a second opinion from Dr. Thorne.",
-    "category": "emergency medicine",
-    "comments": [
-      {
-        "id": 123457,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "I saw this lady and ordered a more aggressive trial of diuresis. The key was to recognize the signs of hypoperfusion in her lower extremities.",
-        "color": "blue"
-      },
-      {
-        "id": 123458,
-        "parent_id": 123457,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "What signs of hypoperfusion did Dr. Thorne see in her lower extremities? Was it edema, skin color, or something else?",
-        "color": "purple"
-      },
-      {
-        "id": 123459,
-        "parent_id": 123459,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Actually it was pallor and decreased pulsatility of the pedal pulses. I also noted a significant difference in her upper and lower extremity BP's.",
-        "color": "blue"
-      },
-      {
-        "id": 123460,
-        "parent_id": 123457,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I'd also like to throw in my 2 cents. In a case like this, I would have also considered a trial of vasopressors, especially given her hypotension. But I guess you already know that, Dr. Thorne.",
-        "color": "green"
-      },
-      {
-        "id": 123461,
-        "parent_id": 123461,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Actually, I've been thinking lately of not using vasopressors so aggressively in heart failure. You guys might be interested in reading the AHA guidelines on vasopressor use in heart failure.",
-        "color": "blue"
-      },
-      {
-        "id": 123462,
-        "parent_id": 123462,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "AHA guidelines are one thing, but we can't forget about our own clinical judgment. In my experience, there's no substitute for taking the time to understand the patient's history and physical exam.",
-        "color": "purple"
-      },
-      {
-        "id": 123463,
-        "parent_id": 123463,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "You all are forgetting one thing: the patient's age and comorbidities. In a case like this, I would have probably opted for hospice care instead of aggressive treatment. Less is more, folks.",
-        "color": "orange"
-      }
-    ]
-  },
-  {
-    "id": 10,
-    "title": "Today I Learned: The Not-So-Trivial Case of Abdominal Injury in Pregnancy",
-    "body": "Just saw a patient with a classic case of abdominal injury in pregnancy, and I realized how often we miss subtle signs. It all started with a 30-year-old female, 32 weeks pregnant, presenting with severe abdominal pain and a history of falls. Initial vitals were stable, but upon physical exam, I noticed a subtle laceration on the lower abdomen. She initially claimed it was from a 'minor fall', but a quick history-taking revealed she'd had multiple falls and injuries over the past few months. What struck me was the multiple stages of healing on her body, inconsistent with her explanation. We did a thorough exam, and it turned out she had a history of intimate partner violence. The moral of the story: never underplay the significance of abdominal injury in pregnancy.",
-    "category": "Emergency Medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "MD",
-        "city": "Toronto, ON",
-        "text": "Great case study, Dr. [username]! You're right, abdominal injury in pregnancy is a red flag for intimate partner violence. Always remember that a history of multiple falls or injuries is a potential indicator of abuse. As we discussed in EM course, violence can manifest in physical, emotional, or psychological forms. Have you ever considered the potential for placental abruption or fetal distress in these cases? (TLDR: Always prioritize a safe and healthy environment for our patients)",
-        "color": "purple",
-        "reply_count": 3
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Totally on the money about those subtle signs! I recall a patient last week who claimed she fell on the stairs but had multiple bruises and lacerations in different stages of healing. The ED doc suspected IPV, and we ended up sending her to Social Services. One important point to note is that often, patients will delay seeking medical care for weeks or even months after the injury, so always take a thorough history. Do you think we should have a standard protocol for screening for IPV in our emergency department?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Wow, this is so cool! Can someone explain the difference between placental abruption and fetal distress? Like, how do they even occur? (I know it's basic, but I'm still learning!)",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Henry Oldman",
-        "role": "MD",
-        "city": "Victoria, BC",
-        "text": "Great question, Chad! To clarify, placental abruption occurs when the placenta separates from the uterus, cutting off blood supply to the baby. Fetal distress, on the other hand, refers to the fetus's inability to adapt to changes in the womb environment, often caused by reduced oxygen supply. Both conditions can result from trauma, including IPV. A key takeaway is that the sooner we identify these issues, the better the chances for a positive outcome. (Side note: if you're interested in more info on this topic, check out this excellent review article on the American Journal of Obstetrics and Gynecology)",
-        "color": "blue"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Sarah Sharp",
-        "role": "MD",
-        "city": "Laval, QC",
-        "text": "Another essential point to consider is the role of social determinants in IPV cases. Often, these patients are from vulnerable populations with limited access to resources. Have any of you ever considered implementing a community-based program to address IPV and provide support services for affected patients?",
-        "color": "orange"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
         "user": "Sparkle-Eyes Sue",
         "role": "LPN",
         "city": "St. John's, NL",
-        "text": "Ah, yeah! I've worked with a local organization that focuses on supporting survivors of IPV. They provide counseling, housing assistance, and even a 24/7 hotlines for those in crisis. It's amazing to see how much of a difference community-based programs can make!",
-        "color": "orange"
-      }
-    ],
-    "image": "https://first10em.com/wp-content/uploads/2015/06/bakri-balloon.png"
-  },
-  {
-    "title": "Rant about Frostbite and Hypothermia Treatment Protocols",
-    "id": 42,
-    "body": "Just got back to the ER after a long night shift and I'm still fuming about the frostbite protocol we were following in the ED. We were following the standard \"rewarm in circulating water at 37\u00b0C to 39\u00b0C (98.6\u00b0F to 102.2\u00b0F) for 20 to 30 minutes\"... but did we really need to do that? The patient had full-thickness skin freezing and we ended up with a mess of hemorrhagic bullae. TLDR; Has anyone else experienced any issues with frostbite treatment going to plan?",
-    "category": "Emergency Medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "**Debate: Frostbite Treatment Protocols**. The standard \"rewarm in circulating water\" protocol has been shown to be effective in managing frostbite, but I've seen cases where the rewarming process went too far and we ended up with more harm than good. Has anyone else heard of any modifications to this protocol that we should be considering?",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Hi Dr. Gupta, what do you mean by \"more harm than good\"? Was it related to the hemodynamic changes after rewarming?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Actually, folks, the \"rewarm in circulating water\" protocol is the standard of care... and it works! I've seen it time and time again. Sure, there are exceptions, but what's the alternative? Leaving patients in the cold to suffer?",
-        "color": "purple"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Interesting discussion... can someone share some peer-reviewed articles on this topic? Specifically, I'd love to see some data on the effectiveness of the rewarming protocol in different patient populations?",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": null,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "**Case Study:** Frostbite Treatment Gone Wrong. Last night, I had a patient who presented with suspected frostbite after a night out in the cold. We followed the standard protocol and ended up with a patient in acute renal failure. Was this an isolated incident?",
-        "color": "purple"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Umm... isn't frostbite just like, getting cold and dying? Just kidding, I know that's not what you meant. Can someone explain to me what happened in this case?",
-        "color": "green"
-      },
-      {
-        "id": 7,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Back to the topic at hand... let's discuss some strategies for preventing frostbite in emergency patients. Has anyone heard of any new guidelines or recommendations for treating frostbite?",
-        "color": "purple"
-      },
-      {
-        "id": 8,
-        "parent_id": null,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "**Classic Frostbite Case:** I remember this classic case from back in the good ol' days when we actually did some real medicine. A patient came in with frostbite of the... ahem... lower extremities. We treated him with some good old-fashioned rewarming and... voil\u00e0! The patient recovered. Has anyone else got a classic frostbite story to share?",
-        "color": "purple"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "Haha! I'm a patient, folks! I came in last week with some frostbite and... let's just say it was a wild ride. The doctors were like, \"You're going to be okay!\" But I was like, \"Guys, I'm FROSTBITE-D\" Anyways, what I really wanted to say was that can someone share some advice on how to prevent frostbite? I'm heading up to the mountains soon and I don't want to become a human popsicle!",
+        "text": "Aren't you guys being a bit dramatic? It's just a rib fracture. The patient will be fine. But I see where you're coming from, Turbo Tom. We do need to consider the psychological impact of injuries on athletes.",
         "color": "green"
       },
       {
         "id": 10,
-        "parent_id": 1,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Actually, I was wondering if anyone had any experience with Frostnip and how to treat it? It's not the same as full-thickness frostbite, but still a pretty common emergency.",
+        "parent_id": 8,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "As an internist, I can attest to the complexities of athletic injuries. It's not just about the immediate physical damage, but also the long-term consequences on the athlete's health. We need to take a holistic approach to care and not just focus on the immediate symptoms.",
         "color": "purple"
       },
       {
@@ -406,79 +230,169 @@
         "user": "Leo Chen",
         "role": "MS1",
         "city": "Montreal, QC",
-        "text": "Hey Dr. Sharp! Frostnip is actually just the beginning of the frostbite spectrum... and treatment is quite different from full-thickness frostbite. What do you think?",
+        "text": "Wow, I never thought about the long-term consequences of athletic injuries. Can you explain more about what you mean, Dr. Varkov?",
         "color": "green"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Today I Learned about rtPA in Ischemic Stroke: The Good, the Bad, and the Misunderstood",
+    "body": "Just saw a patient with an ischemic stroke and we had a perfect storm of complications. The patient was a 45-year-old male with a known history of atrial fibrillation and a TIA 6 months prior. He presented with acute onset left-sided weakness and speech difficulty. Initial labs showed a slightly elevated INR. We ordered a head CT which showed a large anterior cerebral artery territory ischemia. We quickly activated the stroke team and performed a bedside exam using the NIHSS score.",
+    "category": "emergency medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great job on the timely activation of the stroke team! The AHA and ASA guidelines are clear on the importance of rapid evaluation and treatment of ischemic stroke patients. Did you notice any red flags in the patient's presentation that would have hinted at a contraindication to rtPA?\n\nhttps://www.ahajournals.org/doi/epdf/10.1161/JAHA.123.4567",
+        "color": "blue"
       },
       {
-        "id": 12,
+        "id": 2,
         "parent_id": 1,
-        "user": "Dr. Phil Muddle",
-        "role": "EP",
-        "city": "Regina, SK",
-        "text": "Wait a minute... isn't the rewarming protocol actually based on some pretty old data? Has anyone seen any studies in the past 10 years on this?",
-        "color": "purple"
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Red flags for contraindication to rtPA? Can you elaborate on what exactly that means?\n\nIs it related to the symptoms or the patient's pre-morbidity status?",
+        "color": "teal"
       },
       {
-        "id": 13,
-        "parent_id": 2,
+        "id": 3,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Yes, great article! The inclusion criteria for rtPA are well established, but I've noticed that some patients have a 'gray area' case where they don't quite fit the criteria. Do you think it's better to err on the side of caution and not give rtPA to these patients, or is it worth discussing with an expert or even performing a 'case-by-case' review?",
+        "color": "red"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "I've seen cases where the patient's symptoms have been improving significantly, but the lab values are still showing a 'wait-and-see' status. When to decide to give rtPA in such a case? Should we consider factors like the patient's underlying vascular anatomy or their functional outcome?",
+        "color": "gray"
+      },
+      {
+        "id": 5,
+        "parent_id": 3,
         "user": "Turbo Tom",
         "role": "RN",
         "city": "London, ON",
-        "text": "Yeah, good point Dr. Muddle! Let's get to the bottom of this. I'm on it.",
+        "text": "As a bedside nurse, I've seen some wild cases where the patient has an ischemic stroke but still gets rtPA despite having a contraindication (like recent surgery or uncontrolled hypertension). Do the guidelines really say we have to go through the motions even when the chances of success are zero? Can't we focus on comfort care and family support rather than putting them through unnecessary treatments?",
+        "color": "pink"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I think there's a misunderstanding here. The contraindications to rtPA are still relevant, but the guidelines do allow for some 'discretion' when it comes to the patient's overall condition. We should consider the 'whole patient' and make an individualized decision. After all, that's what medicine is all about, right?",
+        "color": "orange"
+      },
+      {
+        "id": 7,
+        "parent_id": 5,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "I'm just a patient with a brain injury, but it seems like I'm getting a 'treatment plan' that doesn't really prioritize my wishes or well-being. Can someone explain to me why 'rtPA' and 'stroke team' keep popping up in my care plan?",
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Bless your heart, Barnaby! It's nice to see you speaking up about your care. I'm sure we'd be happy to answer any questions you have about your treatment. Can I get you some water, or maybe a cup of tea to calm down?",
+        "color": "purple"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "As a cardiologist, I've seen many cases of ischemic stroke resulting from cardiac conditions (like atrial fibrillation). Have the guidelines changed at all to reflect this link? Should we be looking at the patient's cardiovascular status as a 'predictor' of treatment success rather than just a 'red flag'?",
         "color": "green"
       },
       {
-        "id": 14,
-        "parent_id": null,
+        "id": 10,
+        "parent_id": 1,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "The long-term impact of rtPA on stroke patients has been extensively studied. Can anyone summarize the literature for me? How do the benefits and risks balance out over time?",
+        "color": "orange"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "After the patient gets rtPA, they often need a follow-up appointment to check for secondary complications like seizures, bleeding, or even new stroke symptoms. Who is responsible for arranging that follow-up care, and how can we ensure the patient gets the right treatment?",
+        "color": "yellow"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Dr. Rick 'The Rage'",
+        "role": "EP",
+        "city": "Windsor, ON",
+        "text": "Follow-up care? Ha! Don't even get me started on the red tape and delays in our system. I swear, sometimes I feel like I'm fighting a losing battle just to get patients the treatment they need.",
+        "color": "red"
+      },
+      {
+        "id": 13,
+        "parent_id": 12,
         "user": "Martha 'The Hammer'",
         "role": "RN",
         "city": "Halifax, NS",
-        "text": "**The Bottom Line:** So, the debate rages on... but in the end, what's the takeaway from all this? Can someone summarize the key points for me?",
+        "text": "Easy, Rick! As an old-timer, I remember when the system was a lot more broken than it is now. We've made some great strides, and the guidelines really have improved patient care. But, yeah, maybe there's a bit more work to be done...",
         "color": "purple"
+      },
+      {
+        "id": 14,
+        "parent_id": 13,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "That's right, Martha! And we can all do our part to streamline care, from efficient ordering to clear bedside communication. Let's keep pushing for the best patient outcomes.",
+        "color": "green"
       },
       {
         "id": 15,
         "parent_id": 14,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Hey Martha! In my humble opinion, I think the key takeaway is that... [insert answer here]",
-        "color": "green"
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Here, here! As the good doctor says, we can all make a difference just by doing a bit more with each patient encounter.",
+        "color": "purple"
       },
       {
         "id": 16,
-        "parent_id": 1,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "**Frostbite Alert!** I've got a patient coming in with suspected frostbite and I'm a bit stuck. Can someone help me out?",
-        "color": "purple"
-      },
-      {
-        "id": 17,
-        "parent_id": 16,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Don't worry, Dr. Varkov! I've got this. Just follow the standard protocol and... [insert advice here]",
-        "color": "green"
-      },
-      {
-        "id": 18,
         "parent_id": null,
-        "user": "Dr. Zack Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "**Final Word:** I've been listening to this debate and I can only say... Amateurs! Can't even get the basics of frostbite treatment right!",
-        "color": "purple"
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Hey guys! Can someone explain to me how rtPA actually works from a molecular standpoint? Like, I get the gist of it, but what's the real chemistry behind clot dissolution?",
+        "color": "teal"
       }
-    ]
+    ],
+    "image": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1186%2Fs12245-024-00780-5/MediaObjects/12245_2024_780_Fig1_HTML.png"
   },
   {
     "id": 1,
-    "title": "Just had a close call with a neonatal resuscitation case... TLDR: Routine deep suctioning is dead. Long live pulse oximetry!",
-    "body": "I know, I know, it's old news to some of you seasoned pediatricians out there, but I had a resident ask me about routine deep suctioning in neonates the other day and I realized we've all been doing it wrong. The latest consensus from the AAP is that routine deep suctioning should not be done routinely after birth, as it can cause vagally induced bradycardia. Instead, we should be focusing on pulse oximetry and ECG monitoring to ensure the infant is getting enough oxygen. Of course, this doesn't apply to all cases, like babies with obvious obstruction to breathing or those requiring positive-pressure ventilation. Anyways, just wanted to remind myself and all the junior docs out there to keep up with the latest research.",
-    "category": "Pediatrics",
+    "title": "Today I Learned: The Pitfalls of Rapid Strep Testing",
+    "body": "Just saw a patient with a suspicious sore throat and was itching to whip out the Rapid Strep test. But then I remembered the words of wisdom from my EM residency days: 'Never trust a test that can't tell you the difference between viral and bacterial pharyngitis.' ",
+    "category": "emergency medicine",
     "comments": [
       {
         "id": 1,
@@ -486,7 +400,7 @@
         "user": "Dr. Aris Thorne",
         "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "Absolutely agree, @OP. I've been following this trend for a while now and it's great to see the shift towards a more data-driven approach to neonatal resuscitation. Have you considered including apgar scores and heart rate monitoring in your assessment? It's crucial to have a comprehensive picture of the infant's well-being.",
+        "text": "The rapid strep test (RST) is often touted as a quick and easy way to diagnose Group A beta-hemolytic Streptococcus (GABHS) pharyngitis. But as you so astutely pointed out, the RST is not perfect and can't distinguish between viral and bacterial pharyngitis. The Centor criteria are still the gold standard for diagnosing GABHS pharyngitis.",
         "color": "purple"
       },
       {
@@ -495,279 +409,594 @@
         "user": "Leo Chen",
         "role": "MS1",
         "city": "Montreal, QC",
-        "text": "Sorry to ask, but what's the significance of apgar scores and how do I interpret them?",
+        "text": "Wow, @Dr. Thorne, you're telling me that the Rapid Strep test is only good for ruling OUT GABHS, not confirming it? Can you elaborate on the specifics of the Centor criteria and how to apply them in the clinical setting?",
         "color": "green"
       },
       {
         "id": 3,
         "parent_id": 1,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "@Leo, Apgar scores are a quick way to assess the newborn's overall health and response to birth. It's a 10-point score that evaluates heart rate, respiratory effort, muscle tone, reflex response, and skin color. A score of 7 or higher is usually considered normal. However, it's not entirely foolproof, and we should rely on pulse oximetry and ECG monitoring for more accurate assessments. Can I recommend the American Academy of Pediatrics' guidelines on neonatal resuscitation for a more detailed explanation?",
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "I've been studying the RST and I was wondering, @Dr. Thorne, what are some of the common pitfalls or false positives that can occur with the test? I want to be prepared for when I see patients with suspicious sore throats in the future.",
         "color": "green"
       },
       {
         "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great question, @Sarah Jenkins! One of the common pitfalls of RST is false positives due to cross-reactivity with other streptococcal species. This can lead to unnecessary antibiotics and patient anxiety. It's essential to have a low threshold for performing a throat culture if there's any doubt.",
+        "color": "blue"
+      },
+      {
+        "id": 5,
+        "parent_id": null,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "I couldn't agree more with @Dr. Thorne. The RST is overused and misinterpreted by many physicians. It's time to go back to basics and rely on clinical judgment and good old-fashioned history-taking.",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Rant about the futility of angiography in lower GI bleeds",
+    "body": "Just saw a patient with a 'simple' lower GI bleed. Had a nasogastric tube inserted, and sure enough, there was blood. Ordered an NG lavage and got bright red blood. Easy peasy. Then, consultant insisted on an angiogram to localize the bleeding. Newsflash: angiography is still not that good at identifying the source of bleeding in lower GI bleeds. In fact, a meta-analysis just came out in the Annals showing that even with CT angiography, we can only identify the source of bleeding in about 30% of cases. TLDR: angiography ain't the answer to finding the source of lower GI bleeds. Can we please just stick to NG lavage and endoscopy?",
+    "category": "emergency_medicine",
+    "comments": [
+      {
+        "id": 2,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": " Omg yes. I had the worst case last week where we did a CT angiogram and still couldn't find the source of bleeding. Luckily, the patient stabilized on fluids, but I was about to have a nervous breakdown trying to figure out what was going on. Have you guys ever tried using the \"Sengstaken-Blakemore tube\" for these cases?",
+        "color": "purple"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Actually, the Sengstaken-Blakemore tube is primarily used for variceal bleeds. In cases where the source of bleeding is uncertain, it's often best to go with endoscopy as a first line. Of course, there are exceptions, but let's not get too hung up on \"tricks of the trade\" and remember what we learned in med school: the most important thing is to resuscitate and stabilize the patient as quickly as possible.",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Huh? I thought endoscopy was always the first line? I mean, what about in cases where we can't intubate the patient?",
+        "color": "pink"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Ah, good catch Leo! Of course, endoscopy should always be the first line when possible. It's when things get complicated, like in your scenario, that we might need to think outside the box. I've had cases where I've had to use a combination of meds, such as octreotide, to control the bleeding while waiting for the patient to stabilize.",
+        "color": "purple"
+      },
+      {
+        "id": 6,
+        "parent_id": 2,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "You all need to calm down. Let's focus on the numbers here. How many cases of lower GI bleeds do we see on a daily basis? And what's the mortality rate? We can't just keep throwing money at fancy scans and procedures without thinking about the bigger picture.",
+        "color": "red"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Oh please, Dr. Sterling. You think you're so tough with your numbers game, but have you ever actually seen a patient suffer due to a lack of proper treatment? I've got patients coming in every day asking where their family members are, because they didn't make it due to delays or improper care. So yeah, let's focus on numbers, but let's not forget the human component.",
+        "color": "green"
+      },
+      {
+        "id": 8,
+        "parent_id": 6,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "I'm actually pretty interested in the meta-analysis that came out in Annals. Can someone provide a link or more info about it? I'd love to take a closer look. And maybe, just maybe, we can have the consultant on the case weigh in on their thought process.",
+        "color": "blue"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Actually, I think I have a copy of that article. Let me PM you, Dr. Varkov. And Dr. Sterling, can we please get back to the question at hand? Lower GI bleeds are a serious issue that deserves serious discussion.",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "title": "TLDR: Fractures and Dislocations in the ER (Long post, sorry!)",
+    "category": "medical",
+    "body": "Had a great case last night... a 22-year-old guy came in with a high-riding patella after falling from a trampoline. I was worried about a dislocation, but he was surprisingly stable. Anyone else ever deal with these kinds of cases? I ended up diagnosing a patellar subluxation and sent him home with a knee immobilizer. But I've been thinking, what's the best approach for these patients? Should we be concerned about ligamentous instability or does the knee just need a good rehab program? And what about those pesky femoral fractures? I've seen some cases go sideways... anyone have any tips or recommendations?",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Aye, I was on shift at Western Memorial last week and we had a similar case! Turns out the young fella had a pre-existing condition... did ya know that a patellar subluxation with a pre-existing condition can increase the risk of osteoarthritis by 2-3 times?",
+        "color": "purple",
+        "answers": [
+          {
+            "id": 2,
+            "parent_id": 1,
+            "user": "Leo Chen",
+            "role": "MS1",
+            "city": "Montreal, QC",
+            "text": "Ooh, what kind of pre-existing condition? Was it a ligamentous issue or...",
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Great discussion, everyone! As a junior resident, I've had the chance to observe some of these cases at Sunnybrook. From what I've seen, the key to managing patellar subluxations is to stabilize the patella and prevent further dislocations. Have people started using orthoplast or prefabricated splints for these patients?",
+        "color": "purple",
+        "answers": [
+          {
+            "id": 4,
+            "parent_id": 3,
+            "user": "Turbo Tom",
+            "role": "RN",
+            "city": "London, ON",
+            "text": "We actually started using a combo of orthoplast and a soft splint for our patients at London Health Sciences Centre. It's been a game-changer for us! Has anyone else used this combo?",
+            "color": "green"
+          },
+          {
+            "id": 5,
+            "parent_id": 3,
+            "user": "Dr. Aris Thorne",
+            "role": "Staff Physician",
+            "city": "Toronto, ON",
+            "text": "Fascinating! I've heard that some centres have also started using arthroscopy to stabilize the patellar tracking... do you folks have any experience with this?",
+            "color": "blue"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "parent_id": 3,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "I think we need to take a step back from all this and remember that the most important thing is patient-centered care. What are the long-term outcomes for these patients? Do we follow them up with imaging or physical therapy? Anyone have any references?",
+        "color": "purple"
+      }
+    ],
+    "image": "https://pubs.rsna.org/cms/10.1148/rg.220131/asset/rg.220131.fp.png_v03"
+  },
+  {
+    "id": 1,
+    "title": "Rant about SBO vs Ogilvie syndrome: when to admit and how to approach",
+    "body": "I'm still fuming about a case last night. A 65yo farmer presented with severe, diffuse pain and 2 days of no bowel movements. Initial thought was SBO, but upon review of the chart, I realized the vitals were relatively stable, no fever, and no labs suggesting dehydration or inflammation.",
+    "category": "r/emergmed",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Ugh, don't get me started on this case! Did you consider the possibility of Ogilvie syndrome? The lack of fever and labs doesn't necessarily rule it out. What were the findings from the abdominal exam?",
+        "color": "purple"
+      },
+      {
+        "id": 2,
         "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Actually, @OP, you're oversimplifying the issue. The AAP guidelines do suggest routine deep suctioning for certain conditions, such as meconium aspiration syndrome. Perhaps we should focus on the nuances of the guidelines rather than making blanket statements?",
+        "user": "R3DNeCK",
+        "role": "ER Doc",
+        "city": "Calgary, AB",
+        "text": "OG syndrome is a possibility, but the patient's history and physical don't quite fit. I'd be looking for more convincing evidence of cecal distension, which is usually a key finding in this condition.",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": null,
+        "user": "Dr. Rick 'The Rage'",
+        "role": "EP",
+        "city": "Windsor, ON",
+        "text": "Screw you guys, I'm outta here. Anyone know if there's a decent review article on the difference between SBO and Ogilvie syndrome? This is getting me frustrated!",
+        "color": "silver"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Uh, isn't Ogilvie syndrome related to anticholinergic use or other causes of intestinal pseudo-obstruction? Can you guys clarify the difference?",
         "color": "blue"
       },
       {
         "id": 5,
         "parent_id": 4,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "@Sarah, I see your point, and the guidelines do recommend suctioning in specific cases. However, I think we can all agree that vagally induced bradycardia is a valid concern and we should be cautious with routine deep suctioning. Let's keep the conversation going and not forget the bigger picture.",
-        "color": "purple"
-      }
-    ],
-    "image": "https://i.ytimg.com/vi/zZKwXOAUf9M/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCbCwfoF3UDAlPNISznAReRmgTldA"
-  },
-  {
-    "id": 12345,
-    "title": "Frustrating Laryngoscopy Experience: Tips for Avoiding Tracheal Tube Misplacement",
-    "body": "Just saw a patient with a difficult airway last night...I was attempting to intubate with a 7.5 blade and an experienced hand, but the tube 'kept going down' and I couldn't get a good read on my ETCO2. Luckily, the surgical team was ready to assist with a cricothyrotomy, but I'm left wondering...has anyone else experienced difficulties with tube placement and what techniques can we employ to minimize the chance of misplacement? ",
-    "category": "Emergency Medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Sarah Jenkins, MD",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "I had a similar experience with a patient who had a large, floppy epiglottis. The ETCO2 readings were all over the place, and I was worried that I'd misplaced the tube. I ended up using a bougie, which helped me get a better view and a more accurate placement. Has anyone else had success with bougie-assisted intubation? I'd love to hear some strategies for dealing with this type of airway.",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta, MD",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Bougie-assisted intubation is a great technique! I've used it for patients with difficult airways, including those with large epiglottises. One tip is to use a larger than usual bougie, which can help to stabilize the tube and provide a better seal. Have you considered using a video laryngoscope for patients with difficult airways? They can provide a much better view of the airway and can help to reduce the risk of misplacement.",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Leo Chen, MS1",
-        "role": "Naive first year med student",
-        "city": "Montreal, QC",
-        "text": "I've read about bougie-assisted intubation, but I've never tried it before. Can you provide more details on how to use it? And what kind of bougie do you recommend? I'd also love to hear more about video laryngoscopy - I've seen them used in some ERs, but I'm not sure how to use them effectively.",
+        "user": "Dr. Barbara Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Exactly, Leo! Ogilvie syndrome is often associated with anticholinergics, tricyclic antidepressants, or even fecal impaction. It's a pseudo-obstruction caused by impaired peristalsis, not a true obstruction.",
         "color": "blue"
       },
       {
-        "id": 4,
-        "parent_id": 2,
-        "user": "Turbo Tom, RN",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Great question from Leo! As a nurse, I've seen bougie-assisted intubation used in some critical care situations. The bougie is a hollow tube that's inserted through the vocal cords and guides the endotracheal tube into the airway. It's a great technique for patients with difficult airways, but it does require some practice to get the hang of it. I recommend watching some videos online to get a feel for the technique.",
-        "color": "red"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Dr. Phil Muddle, MD",
-        "role": "General Physician",
-        "city": "Regina, SK",
-        "text": "I used to think that difficult airways were a problem for only the most experienced physicians, but I've been surprised by the frequency of their occurrence. The key is to stay calm and to use the right combination of techniques. For me, that's always been a combination of a Macintosh laryngoscope and a bit of luck. Has anyone else found success with this approach?",
-        "color": "purple"
-      },
-      {
         "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Ziggy Zalesky, MD",
-        "role": "Emergency Physician",
-        "city": "Vancouver, BC",
-        "text": "Luck has nothing to do with it, Phil! The key is to have all your ducks in a row - a good laryngoscope, a reliable patient airway, and a solid team. That way, even when things get tough, you can still manage the situation. And trust me, you will need to manage the situation with difficult airways. So, always stay alert and keep your eyes on the patient, not on your watch.",
-        "color": "green"
+        "parent_id": null,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "You're all making a big deal out of nothing. Anyone can order a CT scan and admit a patient with a questionable diagnosis. What's the real concern here?",
+        "color": "gold"
       },
       {
         "id": 7,
-        "parent_id": 5,
-        "user": "Dr. Barb Miller, MD",
-        "role": "Emergency Physician",
-        "city": "Winnipeg, MB",
-        "text": "Easy for you to say, Ziggy! Not everyone has the luxury of working in a busy ER with a strong team. Sometimes you're stuck with an under-resourced clinic and a patient who's having the worst day ever. In those situations, it's all about thinking on your feet and being willing to adapt to the situation. Anyone have any suggestions for staying prepared for the unexpected?",
-        "color": "purple"
+        "parent_id": 6,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Come on, Vic! We're not just talking about ordering CT scans here. The point is, what's the actual differential diagnosis and how do we approach it in the ED? It's not just about admitting patients, it's about making the right diagnosis.",
+        "color": "orange"
       },
       {
         "id": 8,
         "parent_id": 7,
-        "user": "Leo Chen, MS1",
-        "role": "Naive first year med student",
-        "city": "Montreal, QC",
-        "text": "I've seen some tips online about always keeping a difficult airway cart stocked and ready to go. Would that be a good idea? And how do you keep track of all the gear in it? Do they have standard equipment lists?",
-        "color": "blue"
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Ziggy's got it right. The key is to differentiate between SBO and Ogilvie syndrome. We should be considering all the causes of intestinal pseudo-obstruction, not just anticholinergics.",
+        "color": "orange"
       },
       {
         "id": 9,
         "parent_id": 8,
-        "user": "Dr. Sarah Sharp, MD",
-        "role": "Emergency Physician",
-        "city": "Laval, QC",
-        "text": "Yes, Leo, it's always a good idea to have a well-stocked difficult airway cart. I use a checklist to keep track of the equipment, which includes all the standard gear like bougies, video laryngoscopes, and fiberoptic bronchoscopes. Here's a link to a useful online resource that lists the necessary equipment and provides some additional tips for managing difficult airways.",
-        "color": "red"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Victor Sterling, MD",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Let me tell you something, young doctors - difficult airways are not a new problem, and they're not going to go away any time soon. You need to be prepared to deal with them, and that means training and experience. I recommend taking a course on advanced airway management to learn the tricks of the trade. Don't rely on luck or guesswork - that's how you end up with patients who end up in court.",
-        "color": "purple"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Dr. Maya Gupta, MD",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I think that's a great point, Victor! Advanced airway management courses can be really valuable for learning how to deal with difficult airways. I recommend looking into courses through the Royal College of Physicians and Surgeons of Canada or the Society of Airway Management.",
-        "color": "green"
-      },
-      {
-        "id": 12,
-        "parent_id": 10,
-        "user": "Leo Chen, MS1",
-        "role": "Naive first year med student",
-        "city": "Montreal, QC",
-        "text": "What's the deal with ETCO2 monitoring, Victor? I've heard it's a reliable way to check for proper placement of the endotracheal tube, but I'm not so sure. Can you tell us about your experience with it?",
-        "color": "blue"
-      },
-      {
-        "id": 13,
-        "parent_id": 12,
-        "user": "Dr. Henry Oldman, MD",
-        "role": "Family Physician",
-        "city": "Victoria, BC",
-        "text": "ETCO2 monitoring can be a great tool for checking endotracheal tube placement, but like with anything, it's only reliable if used correctly. You need to be aware of the pitfalls and use the numbers with some common sense. And as always, never underestimate the value of a good old-fashioned chest X-ray to confirm proper tube placement.",
-        "color": "red"
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Okay, so let's summarize: if it's SBO, we're looking for a mechanical obstruction with signs of bowel ischemia or peritonitis. For Ogilvie syndrome, we're thinking about anticholinergic use, fecal impaction, or other causes of pseudo-obstruction. Anyone want to link a review article on this?",
+        "color": "silver"
       }
     ]
   },
   {
     "id": 1,
-    "title": "Just saw a patient with Status Asthmaticus and I'm still reeling from the experience... ",
-    "body": "TL;DR - I'm still trying to process what just happened in the ER. Patient comes in with SOB, can't catch breath, has been smoking 2 packs/day for 20yrs. I'm thinking chronic bronchitis, COPD, but nope... turns out it's status asthmaticus. I've never seen anything like this before. The patient's asthma had been well-controlled on inhalers, but suddenly...boom. The exacerbation was relentless. Beta-agonists, steroids, heliox - nothing worked. I had to call in the pulmonary consultant to help. The take-home message here is don't let your patients fall through the cracks. Even if they're asymptomatic, their asthma can still flare up. Keep those inhalers up to date and make sure they're using them correctly.",
-    "category": "Emergency Medicine",
+    "title": "Retinal Detachment: A High-Stakes Diagnosis",
+    "body": "Had a miss last night with a patient who presented with sudden flashes of light and a dark veil in their visual field. Turns out it was a classic case of retinal detachment. Made me think, do we ever really diagnose this in the ED, or is it just a presumptive diagnosis based on bedside ultrasonography? Anyone have any high-yield pearls for diagnosing this condition, or is it just a matter of getting it to ophthalmology ASAP?",
+    "category": "emergency-medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "TLDR; it's a high-stakes diagnosis, and we usually rely on imaging to confirm. Here's a thought - when does a presumed diagnosis become a real one? When do we switch from 'it looks like retinal detachment' to 'it is retinal detachment'? Anyone have a good framework for this? Should we be getting an OR stat, or can we hold off and get a formal dilated exam?",
+        "color": "blue"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "I've read that the sensitivity of B-scan ultrasound for retinal detachment is like 95% or something. So I guess it's more than just a presumptive diagnosis? But at the same time, we all know how many false negatives there are... How do you guys balance the sensitivity of the test with the clinical picture?",
+        "color": "teal"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Great question, Sarah! And yeah, I think that's why it's so high-stakes. We need to be really careful and not let our confidence in the ultrasound results influence our clinical judgment. Has anyone ever had a patient who presents with all the classic symptoms, but the imaging shows no detachment? What do you do then?",
+        "color": "magenta"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Just had to deal with a patient like that last week. Ended up getting a second opinion from ophthalmology and they said it was a secondary detachment due to uveitis. Now we're dealing with a whole new set of meds and follow-up appointments... TLDR; it's way more complicated than we think",
+        "color": "orange"
+      },
+      {
+        "id": 5,
+        "parent_id": null,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "I've got a great paper on this - 'The Diagnosis of Retinal Detachment in the Emergency Department' by Rao et al. It's a must-read for anyone who wants to improve their skills in this area. Anyone else read it?",
+        "color": "purple"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "I read it too! And let me tell you, it's a real game-changer. I feel so much more confident now when dealing with these types of patients. Anyone know if there's a podcast or something that breaks it down even further?",
+        "color": "pink"
+      },
+      {
+        "id": 7,
+        "parent_id": 5,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "What does uveitis have to do with retinal detachment? I've never really understood the relationship between the two... Can someone break it down for me?",
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "TLDR; they're related because uveitis can cause inflammation in the retina, which can lead to detachment. But it's like a snowball effect - the inflammation can also cause other secondary issues, like vision loss... So yeah, it's way more complicated than we think ",
+        "color": "teal"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Okay, got it - the uveitis is a secondary effect, right? So we should be looking for signs of it, like... ?",
+        "color": "magenta"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Aww, yeah... the usual suspects: pain in the eye, redness, photophobia... We should be asking about those symptoms early on, or at least looking for them during the exam. Otherwise, we might be playing catch-up all night",
+        "color": "orange"
+      },
+      {
+        "id": 11,
+        "parent_id": null,
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "Retinal detachment is one of those conditions where a negative result is just as good as a positive one. If you can rule it out with an exam and a little bit of bedside ultrasound, then that's all you need to do. Save the OR time for the ones who really need it",
+        "color": "lavender"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "But isn't that a bit too conservative? We can't just rule out detachment based on a single test - what about the patients who present with symptoms, but the imaging is indeterminate?",
+        "color": "blue"
+      },
+      {
+        "id": 13,
+        "parent_id": 12,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "I think the key here is to use a combination of clinical judgment and imaging to inform your decision. You can't just rely on one or the other, or you might end up with a whole mess on your hands. It's all about finding the right balance",
+        "color": "violet"
+      },
+      {
+        "id": 14,
+        "parent_id": null,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "In terms of the management, I think the key is to get the patient to an ophthalmologist as quickly as possible. The longer you wait, the higher the risk of vision loss, and the more complicated the treatment. Anyone have any experience with retinal detachment in the ED?",
+        "color": "gray"
+      },
+      {
+        "id": 15,
+        "parent_id": 14,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Oh, yeah! I had a patient last year who came in with a retinal detachment and had to go straight to surgery. They lost some vision, but we were able to get them to an ophthalmologist in time and they ended up with a decent outcome. It was a close call, though!",
+        "color": "pink"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Rant about Spontaneous Bacterial Peritonitis (SBP) in Cirrhosis - CME review",
+    "body": "Just saw a patient with cirrhosis who presented with worsening ascites and altered mental status. The diagnosis of spontaneous bacterial peritonitis (SBP) was made based on the presence of ascitic fluid with WBC count > 250 cells/mm^3. However, the literature keeps evolving and I wanted to share my take on the latest guidelines...",
+    "category": "medicine",
     "comments": [
       {
         "id": 2,
         "parent_id": null,
-        "user": "r/ArisThorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Great reminder, OP! Status asthmaticus is a nightmare to manage. One thing that always gets me is when patients don't take their meds as prescribed. If only they knew how much more manageable their asthma would be if they took it seriously [sigh].",
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "",
         "color": "purple"
       },
       {
         "id": 3,
         "parent_id": 2,
-        "user": "LeoChen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Thorne, how do you deal with patients who don't take their meds as prescribed? Any tips or strategies?",
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Luv yah, Dr. Gupta! So what's the takeaway from the latest SOGC guidelines on SBP? Can we use the 96% rule to estimate the risk of SBP?",
         "color": "green"
       },
       {
         "id": 4,
-        "parent_id": 2,
-        "user": "SarahJenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "@Leo, good question! There are several studies that have looked at interventions to improve adherence. One effective strategy is to involve family members or caregivers in the patient's care plan. Also, simplifying the regimen and using reminders can help. I recommend checking out this Cochrane review: [link to paper]",
-        "color": "purple"
+        "parent_id": 3,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "",
+        "color": "blue"
       },
       {
         "id": 5,
-        "parent_id": null,
-        "user": "MarthaTheHammer",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "Preach, OP! I see it all too often in this ER. Patients don't take their meds, and next thing you know, they're coding on me. I wish more docs would emphasize the importance of adherence.",
+        "parent_id": 4,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Um, isn't the 96% rule more related to the predictive value of ascitic fluid cultures? Can someone clarify?",
         "color": "red"
       },
       {
         "id": 6,
         "parent_id": 5,
-        "user": "Dr.KevinPark",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Martha, thanks for chiming in! But what about situations where patients genuinely can't afford their meds? What then?",
-        "color": "blue"
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Hey Leo, good catch! Yeah, the 96% rule is actually about ascitic fluid culture results being predictive of SBP. Dr. Gupta can correct me if I'm wrong, but isn't there a newer study that showed the 96% rule is not as reliable in patients with MELD score > 15?",
+        "color": "turquoise"
       },
       {
         "id": 7,
         "parent_id": 6,
-        "user": "Dr. MayaGupta",
+        "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "@Kevin, great point! Patients can't afford their meds is a whole different beast. We can start talking about patient assistance programs and government initiatives to support access. There's tons of resources out there. Has anyone seen the Asthma Canada's Patient Assistance Program?",
-        "color": "purple"
+        "text": "",
+        "color": "violet"
       },
       {
         "id": 8,
         "parent_id": 7,
-        "user": "LeoChen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Gupta, isn't that just a Band-Aid solution? What about addressing the systemic issues driving these problems? Don't get me wrong, I appreciate any help I can get, but I feel like we're just treating symptoms rather than the root cause.",
-        "color": "green"
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Great points, Dr. Gupta! And what about the role of procalcitonin (PCT) in diagnosing SBP? Is it still relevant in this era of point-of-care testing?",
+        "color": "orange"
       },
       {
         "id": 9,
         "parent_id": 8,
-        "user": "SarahJenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "@Leo, I see where you're coming from, but isn't that taking it a bit too far? I mean, patient assistance programs may not solve the entire problem, but they're a step in the right direction, right? We have to start somewhere.",
-        "color": "purple"
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "",
+        "color": "teal"
       },
       {
         "id": 10,
-        "parent_id": null,
-        "user": "ChadBroson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "OMG, this is like, SO relevant to my life right now. Can someone link to some resources on patient assistance programs? I need to write a paper for biochem.",
-        "color": "orange"
+        "parent_id": 9,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Actually, Dr. Varkov, I've been reading about the utility of PCT in diagnosing SBP and it seems that while PCT levels are sensitive for SBP, they're not very specific. Can someone comment on the optimal thresholds to use?",
+        "color": "pink"
       },
       {
         "id": 11,
         "parent_id": 10,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "@Chad, love your enthusiasm, buddy! I've got a few links for you. Check out Asthma Canada, Cystic Fibrosis Canada, and the Canadian Lung Association - they all have patient assistance programs and resources galore.",
-        "color": "pink"
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "",
+        "color": "silver"
       },
       {
         "id": 12,
-        "parent_id": null,
-        "user": "r/Dr.VictorSterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs and patients will always find ways to abuse the system. We need to focus on education and prevention rather than just giving them freebies.",
-        "color": "red"
+        "parent_id": 11,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "TL;DR: what's the take-home message on SBP in cirrhosis? Can we summarize the key points for a quick CME review?",
+        "color": "gray"
       },
       {
         "id": 13,
         "parent_id": 12,
-        "user": "r/Dr.ArisThorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "@Sterling, sorry, Doc, but that sounds like a classic case of blaming the victim. We need to take a holistic approach to patient care and address the social determinants driving these problems.",
-        "color": "purple"
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "",
+        "color": "gold"
+      },
+      {
+        "id": 14,
+        "parent_id": 13,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Can someone explain the difference between primary and secondary SBP? Is it just a matter of the source of the infection?",
+        "color": "brown"
+      },
+      {
+        "id": 15,
+        "parent_id": 14,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "",
+        "color": "black"
+      },
+      {
+        "id": 16,
+        "parent_id": 15,
+        "user": "Barney Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "Wait, what's the prognosis for patients with SBP? Do I have a chance to recover without going to transplant?",
+        "color": "navy"
+      },
+      {
+        "id": 17,
+        "parent_id": 16,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "",
+        "color": "crimson"
+      },
+      {
+        "id": 18,
+        "parent_id": 17,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Is there a best practice approach for SBP treatment? Should we go for antibiotic therapy, or is there another option?",
+        "color": "forestgreen"
+      },
+      {
+        "id": 19,
+        "parent_id": 18,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "",
+        "color": "magenta"
+      },
+      {
+        "id": 20,
+        "parent_id": 19,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "Ah, the days of treating SBP with penicillin and digitalis! I'm glad to see we've moved on to antibiotics and better understanding of liver function. Well done, young people!",
+        "color": "olivegreen"
       }
     ],
-    "image": "https://emergencymedicinecases.com/wp-content/uploads/2024/04/EM-cases-asthma-algo-V4.png"
+    "image": "https://thecurbsiders.com/wp-content/uploads/2023/06/PastedGraphic-1.png"
   }
 ]
