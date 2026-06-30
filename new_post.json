@@ -1,8 +1,9 @@
 [
   {
-    "title": "Heat stroke case study",
-    "body": "I saw a patient last night who came in with heat stroke. Temperature was at 43C, patient was in full blown seizure. Initial vitals showed a BP of 80/40 mmHg and a pulse of 120 bpm. I immediately began cooling the patient with cold towels and administered 1L of NS. But what really puzzled me was the patient's ECG, which showed wide QRS complexes. Had anyone else ever seen this in a patient with heat stroke?",
-    "category": "medical_case",
+    "id": 0,
+    "title": "Today I learned to never underestimate the power of a classic CAP presentation",
+    "body": "Just saw a 35 yo male presents with 2 days of fever, cough, and SOB. Initial vitals: T 38.5, HR 110, RR 28, BP 140/80. Pulse ox 88% on room air. PE revealed bilateral rules and poor air movement. CXR showed bilateral infiltrates. I ran a AB and he spiked a 15x CRP. S put me on my toes and sent him for a CT which showed patchy consolidation. AB came back as S. pneumoniae sensitive to PCN.",
+    "category": "Clinical Anecdotes",
     "comments": [
       {
         "id": 1,
@@ -10,900 +11,388 @@
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "I've seen this before! Wide QRS complexes in heat stroke are pretty well described in the literature. It's thought to be due to the high levels of potassium that can occur with rhabdomyolysis (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4441919/). Not a bad thing to keep in mind for our next heat stroke case...",
+        "text": "What a great reminder that we can't rely on any single test or piece of info. We need to stay vigilant and think critically, especially in CAPs. Did you consider sending him for a flu swab given the current season?",
         "color": "blue"
       },
       {
         "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "But isn't that usually more of an issue with kidney function? And doesn't that make the patient more susceptible to kidney injury with the rhabdomyolysis?",
-        "color": "light grey"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Actually Leo, I think you mean renal function. And yes, that's correct. High levels of potassium can be nephrotoxic, especially in the setting of reduced renal function. So it's a bit of a vicious cycle. But what about the other thing I read, about heat stroke affecting the cardiac conduction system? Can someone chime in on that?",
-        "color": "light grey"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Actually, I think that's a bit of a myth. The cardiac conduction system isn't actually affected by heat stroke... at least, that's what I've been taught (https://www.sciencedirect.com/science/article/pii/S0735109706000471). Of course, everything I know is probably wrong, haha. But I think Sarah was on the right track with the cardiac effects, though - it's more about the autonomic dysfunction and the resulting tachycardia and hypertension.",
-        "color": "blue"
-      },
-      {
-        "id": 5,
         "parent_id": null,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Has anyone seen that new heat stroke treatment, the one that uses a special vest to cool the patient?",
-        "color": "red"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Ha! No way buddy, that vest is just a fancy towel. Don't believe the hype. You just need to cool the patient down, period.",
-        "color": "purple"
-      },
-      {
-        "id": 7,
-        "parent_id": 5,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Actually, I think I know what you might be talking about. There's a study out that looked at the use of evaporative cooling garments in heat stroke. It looked pretty promising, but I don't think it's ready for prime time yet...",
-        "color": "green"
-      }
-    ],
-    "image": "https://www.vdh.virginia.gov/content/uploads/sites/23/2021/04/April-2021-Heat-Related-Illness-787x1024.jpg"
-  },
-  {
-    "id": 1,
-    "title": "Today I Learned: Chest Radiograph May Not Identify Pneumothorax in Supine Position",
-    "body": "Just had a tough shift in the ER and wanted to share a case study. A 35-year-old male patient came in with sudden onset shortness of breath and was placed on a supine chest radiograph. The radiologist cleared him for discharge, but the patient's symptoms persisted. On further evaluation, he was diagnosed with iatrogenic pneumothorax.",
-    "category": "Emergency Medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "This is a great reminder that supine chest radiographs may not identify pneumothorax, especially if there's inadequate time for it to develop. We've got to be mindful of this when interpreting radiographs in patients who are critically ill or have unstable conditions. The 30-40% detection rate mentioned is a sobering statistic.",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "But what about the specific mechanism behind this? Is it solely due to the way gas flows in a dependent positioning?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "In terms of practice, are there any specific protocols or guidelines around pneumothorax evaluation in supine patients?",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Thanks for sharing this, Doc! I learned something new today. One follow-up question: how often do we see this in real life?",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "In my experience, it's surprisingly common, especially in patients who have undergone invasive procedures like central line placement. Just last week, I saw a case of iatrogenic pneumothorax after an attempted paracentesis.",
-        "color": "blue"
-      },
-      {
-        "id": 6,
-        "parent_id": 3,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "One guideline that comes to mind is the British Thoracic Society's recommendations for managing pneumothorax. Has anyone referenced this in their practice?",
-        "color": "green"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Actually, I've found it helpful to look up the latest recommendations from the European Respiratory Society on pneumothorax management. The 2020 guidelines provided some great insights into risk stratification and treatment algorithms.",
-        "color": "green"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "What really gets my goat is when nurses miss it on the ward rounds or fail to communicate it to us. I swear, some of them think I have nothing better to do than re-do the work they didn't do in the first place.",
-        "color": "red"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "I hear you loud and clear, Doc. We're on your side. One suggestion, though: perhaps we could develop an educational program for the wards to help prevent this communication gap?",
-        "color": "green"
-      },
-      {
-        "id": 10,
-        "parent_id": 4,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "To add on to what Tom said earlier, how often do we see hemoptysis in patients with iatrogenic pneumothorax? Is it a common association?",
-        "color": "green"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs, am I right? Don't have the foggiest, but I'm sure someone with actual credentials could enlighten us?",
-        "color": "red"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Well, let me tell you, Vic: I've seen it often enough to know that hemoptysis and pneumothorax are linked, especially in patients with significant lung damage. It's a delicate dance between identifying and managing the risk of bleeding. Just last week, I treated a patient with a traumatic pneumothorax who presented with coughing and hemoptysis. Long story short, we needed to be on high alert.",
-        "color": "blue"
-      },
-      {
-        "id": 13,
-        "parent_id": 12,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "I've come across some recent studies suggesting that hemoptysis might be more common in iatrogenic pneumothorax cases than we thought. Do the literature supports this association?",
-        "color": "green"
-      },
-      {
-        "id": 14,
-        "parent_id": 13,
         "user": "Dr. Archibald Thorne",
         "role": "Physician",
         "city": "Saskatoon, SK",
-        "text": "By the powers, young ones! I remember a paper from the 1920s by a British doctor who first described the correlation between hemoptysis and pneumothorax. It's an interesting thread worth unpacking.",
-        "color": "green"
+        "text": "In my day, we didn't have all these fancy tests. We relied on good old-fashioned history taking and physical exam. This kid was probably suffering from a bad case of flu, not CAP. By the way, what's this 'T' you're talking about? Is it 'Temperature'?",
+        "color": "red"
       },
       {
-        "id": 15,
-        "parent_id": 14,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "To clarify, Dr. Thorne, are you suggesting that hemoptysis and pneumothorax are linked through a mechanistic process, rather than just being coincidental?",
-        "color": "green"
-      },
-      {
-        "id": 16,
-        "parent_id": 15,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I think what we might be seeing here is a more nuanced relationship where the underlying pathophysiology of the pneumothorax influences the likelihood of hemoptysis. The risk factors are multifactorial and complex.",
-        "color": "green"
-      },
-      {
-        "id": 17,
-        "parent_id": null,
-        "user": "Dr. Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "Thanks for the educational moment, everyone. In closing, remember that iatrogenic pneumothorax can manifest with subtle signs of distress, so keep a close eye out for those patients with respiratory issues.",
-        "color": "purple"
-      }
-    ]
-  },
-  {
-    "id": 123456,
-    "title": "Clinical Conundrum: Appendicitis - When the Signs Just Don't Add Up",
-    "body": "Had a miss last night with a patient who presented with a 2-day history of nausea and vomiting, diffuse abdominal pain, and a low-grade fever. No abdominal tenderness or guarding. The CT scout revealed a small, non-obstructing ileus. But the diagnosis of appendicitis just wasn't clicking.\n\n",
-    "category": "r/EmergencyMedicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "u/Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "TL;DR - when the signs don't add up, consider the 'atypical' cases. Had a similar patient last week with a retrocecal appendix. The pain was predominantly flank and not localized to the RLQ. Had to do a few extra maneuvers to confirm the diagnosis. Did you consider the retrocecal appendix in this case? And did you follow up with an ultrasound?",
-        "color": "purple"
-      },
-      {
-        "id": 2,
+        "id": 3,
         "parent_id": 1,
-        "user": "u/Leo Chen",
+        "user": "Leo Chen",
         "role": "MS1",
         "city": "Montreal, QC",
-        "text": "Dr. Gupta, what do you mean by 'retrocecal' appendix? Is that a specific term for the location of the appendix?",
+        "text": "Dr. Gupta, I was wondering if you would have considered a different antibiotic for this patient if the AB had come back resistant? And also, do you have any recommendations for when to use IVPCN vs PCN?",
         "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "u/Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Yes, Leo, a retrocecal appendix is one where the appendix is located behind the cecum, near the pelvic brim. It can be a bit tricky to diagnose as it often presents with flank pain. Have you come across the article by Dr. Jeffrey Raffalli on the topic?",
-        "color": "blue"
       },
       {
         "id": 4,
-        "parent_id": 3,
-        "user": "u/Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Dr. Gupta, I read that article by Dr. Raffalli. But isn't the diagnosis of a retrocecal appendix usually made based on imaging studies like CT or MRI?",
-        "color": "pink"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "u/Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Exactly, Chad. While imaging studies can provide valuable information, a combination of clinical findings, patient history, and physical exam can also raise suspicions. For example, a patient presenting with flank pain and a history of similar symptoms, along with guarding and rebound tenderness on exam, can point towards a retrocecal appendix.",
-        "color": "blue"
-      },
-      {
-        "id": 6,
-        "parent_id": null,
-        "user": "u/Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "Guys, I think I know what you're talking about. I had a similar experience last week. My pain started in my flank and then moved to my abdomen. I had a CT scan which showed the appendix was behind the cecum. My doctor said I might have appendicitis. I just wanted to share my story.",
-        "color": "red"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "u/Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Barnaby, that's quite an interesting story! Thanks for sharing your experience. Does your doctor think your appendix ruptured?",
-        "color": "green"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "u/Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "Yeah, my doctor said I might have a ruptured appendix. I'm still recovering from the surgery. It was a pretty scary experience. But I'm glad I was able to talk to my doctor and get treatment.",
-        "color": "red"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Today I Learned: The Dark Side of Alcohols",
-    "body": "Had a close call with a toxic alcohol patient last night. Had a 45yo male in with altered LOC, vomiting, and seizure-like activity. Initial vitals showed a blood ethanol level of 300mg/dL. Classic presentation, but the key was finding out he'd also ingested methanol-based windshield washer fluid. Toxicity from methanol results from the formation of formic acid, leading to visual disturbances, abdominal pain, and metabolic acidosis. Luckily, we got him on fomepizole and hemodialysis promptly, and he's going to be okay. But it made me realize how often we underestimate the dangers of alcohols in the ED. Anyone else have any similar stories or tips for managing these patients?",
-    "category": "r/EMed",
-    "comments": [
-      {
-        "id": 2,
         "parent_id": 1,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "I had a patient a year ago who ingested 5L of rubbing alcohol after a party. He had acute respiratory failure and required intubation. Made me realize how quickly things can go south. We did manage to get him on fomepizole and he made a full recovery, but it was a close call. Always think twice about the 'clear liquid' on the patient's cart, eh?",
-        "color": "purple"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Just a question, do you think the patient would have benefited from more frequent monitoring of methanol levels? Or did the fomepizole do the trick?",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Michael Levine",
-        "role": "Author",
-        "city": "Toronto, ON",
-        "text": "Great point, Sarah! Methanol levels can be unreliable, but I would argue that the key to managing these patients is rapid identification of the alcohol ingested, and getting them on fomepizole ASAP. Monitoring levels can be useful, but it's not the only consideration.",
-        "color": "orange"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "I've seen a few patients with 'alcohol poisoning' in the ED, but I've always wondered what really happens after they go to the wards. Anybody else have experience with post-ED care for these patients?",
-        "color": "red"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "From what I've seen, patients who come in with acute alcohol toxicity often require close monitoring for respiratory and cardiac issues, as well as electrolyte imbalances. Make sure they get the appropriate level of care on the ward, and don't hesitate to call for backup if needed.",
-        "color": "green"
-      },
-      {
-        "id": 7,
-        "parent_id": 5,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "You want to know what happens after they get sent home? They get to go to the local ER again because their 'hangover' is actually withdrawal symptoms. Seriously, it's crazy how often we see these patients.",
-        "color": "brown"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
         "user": "Turbo Tom",
         "role": "RN",
         "city": "London, ON",
-        "text": "Don't even get me started on withdrawal symptoms. We have a whole protocol for those patients. Anyone else have experience with treating alcohol withdrawal?",
-        "color": "yellow"
+        "text": "Love the story, Doc! As an RN, I'm often the first to notice subtle signs of CAP in patients. What I want to know is, did you use a chest x-ray or any other bedside tool to assess the severity of the patient's respiratory distress? And by the way, what's the deal with these new-fangled antibiotics?",
+        "color": "purple"
       },
       {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Yes, I have experience treating withdrawal. We give them benzodiazepines, and sometimes antiseizure meds. But it's always a challenge to manage the risk of seizures without causing too much sedation.",
-        "color": "pink"
-      },
-      {
-        "id": 10,
-        "parent_id": 8,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "Don't even get me started on the 'treatment' of withdrawal. In my day, we just gave them a good dose of IV fluids and hoped for the best. Now we've got a whole protocol for it, with benzodiazepines and all sorts of other meds.",
-        "color": "grey"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "What protocol are you talking about, Martha? Is it the CIWA? I've been studying that for my exam...",
-        "color": "black"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
+        "id": 5,
+        "parent_id": 2,
         "user": "Dr. Elena Varkov",
         "role": "FRCPC",
         "city": "Quebec City, QC",
-        "text": "Yes, Chad, we use the CIWA for withdrawal diagnosis. But it's not just about the protocol, it's about managing the patient's overall condition and preventing complications.",
+        "text": "Thank you, Dr. Thorne, for the trip down memory lane! In reality, modern medicine has made significant strides in diagnosing and treating CAP. But, I must say, I'm a bit perplexed by your comment. How do you assess for 'flu' in your patients?",
         "color": "teal"
       },
       {
-        "id": 13,
-        "parent_id": 12,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "TLDR: Don't underestimate the dangers of alcohols in the ED. Get them on fomepizole ASAP, and remember to monitor for withdrawal symptoms.",
-        "color": "turquoise"
-      },
-      {
-        "id": 14,
-        "parent_id": 13,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Wow, I learned a lot from this thread! Thanks, everyone. Can I ask, what are some other common causes of altered mental status to keep in mind in the ED?",
-        "color": "lightblue"
-      },
-      {
-        "id": 15,
-        "parent_id": 14,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Actually, Leo, the patient you saw last week with altered mental status was a classic case of CO poisoning due to a faulty furnace. Always consider the possibility of toxic alcohols, but also think about other causes like CO or drugs.",
-        "color": "lightgreen"
-      }
-    ],
-    "image": "https://emergencymedicinecases.com/wp-content/uploads/2018/01/Toxic-Alcohols-Card.jpeg"
-  },
-  {
-    "id": 1,
-    "title": "Aortic Dissection: The Great Mimic - A Case Study and Pearls",
-    "body": "Just saw a patient with aortic dissection and it got me thinking about how easily this diagnosis can be missed. The patient came in with acute, tearing chest pain that radiated to the back, but she also had a hx of HTN and was only 32yo. She was diagnosed with an MI and was intubated to avoid further pain, but on the CT aortogram, an aortic dissection was revealed. A key lesson here is to never assume MI in a young patient with aortic dissection - always get the aortogram. Has anyone else seen this before? How do you approach this diagnosis?",
-    "category": "emergency",
-    "comments": [
-      {
-        "id": 2,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "TLDR; never assume MI in a young pt with acute, tearing chest pain! Always get the aortogram. Also, don't forget to check the D-dimer and CXR to help rule out dissecting aneurysm. Anyone have tips on how to make this diagnosis less 'greatly mimicked'? Should we be teaching this in EM rotations?",
-        "color": "purple"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Hi Dr. Gupta, can you explain a bit more about how the D-dimer and CXR help with the diagnosis? My prof mentioned that they're not very sensitive for aortic dissection. And what about the Stanford classification?",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 2,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Hey Leo, great questions! So, the D-dimer is not very sensitive for aortic dissection, but a normal result can help rule out thromboembolic events, which is common in dissection. For the CXR, look for widened mediastinum, which is pretty specific. As for Stanford classification, it's not super useful for emergency physicians, but it's worth knowing. Type A and B dissections involve the ascending and descending aorta respectively, so that's key. Does anyone have experience with the DeBakey classification?",
-        "color": "purple"
-      },
-      {
-        "id": 5,
-        "parent_id": null,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "As an internist, I'm constantly reminded that aortic dissection can present with nonspecific findings on ECG and chest X-ray, so don't be too quick to rule it out with a normal D-dimer and CXR. Keep an eye out for those widened mediastinum and pulsatile abdominal mass signs though. Also, how do you all approach this diagnosis in patients with trauma?",
-        "color": "blue"
-      },
-      {
         "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Dr. Varkov, thanks for pointing that out! I was wondering the same thing. For trauma patients, I've been taught to use the Marfan's and Boerhaave's algorithms to rule out dissection. Has anyone else used these?",
-        "color": "red"
+        "parent_id": 3,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Dr. Chen, I was wondering if you could elaborate on your understanding of penicillin-resistant S. pneumoniae? From what I've read, it's a relatively new phenomenon. Are there any updates on treatment guidelines or do we just use 'throw-the-book' therapy?",
+        "color": "orange"
       },
       {
         "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Those algorithms are helpful, Dr. Park, but what about the actual imaging? Should we be doing CT aortograms on all trauma patients with chest pain? Is that cost-effective?",
-        "color": "green"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "The old days, my friends. I used to get my diagnosis from the patient's history and physical examination alone. These new-fangled CT scanners are useful, I suppose, but a good old-fashioned DRE and ECG will often point you in the right direction.",
-        "color": "brown"
+        "parent_id": 4,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "RN Tom, love your enthusiasm! So, what about the use of high-flow nasal cannulas in CAP patients with severe respiratory distress? Any personal or professional take on this?",
+        "color": "yellow"
       }
-    ]
+    ],
+    "image": "https://emergencymedicinecases.com/wp-content/uploads/2019/09/CAP-infographic-compressed.png"
   },
   {
-    "id": 1,
-    "title": "Today I Learned: Hymenoptera Stings Can Be Hilariously Mismanaged... and Deadly",
-    "body": "Just saw a patient with a classic Hymenoptera sting reaction, and I couldn't believe how many rookie mistakes were made. I'm writing this to vent, but also as a reminder for all my EM colleagues out there. So, here's what happened... patient is fine, but I'm still fuming.",
-    "category": "emergency-medicine",
+    "title": "Just had a near-miss with intubation in the ED... thoughts?",
+    "body": "So I had a patient last night with a Glasgow Coma Score of 4 and I was struggling to get a decent airway going. I was getting a bit flustered and was about to break out the surgical airway kit when one of the ER nurses suggested we try preo and rapid sequence induction (RSI). ",
+    "category": "clinical anecdote",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": "RickTheRage",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "TLDR: don't even get me started on Hymenoptera stings! Amateurs think it's just a minor reaction, but those Hymenoptera venom proteins can cause systemic toxicity in seconds!",
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Oh man, that sounds like a close call! I've had similar experiences where I've been about to give up on intubation when suddenly something clicks and the patient starts to come around. Always a good reminder to stay calm and try to get more information before rushing to surgical airway. What were the patient's vitals before you started trying to intubate?",
         "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "SarahSharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Totally agree, Rick! Remember that case I posted about last week? The one where the patient's EpiPen didn't deploy properly? Yeah, that was a Hymenoptera sting too. Always assume systemic toxicity and go from there.",
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Hi Dr. Gupta - that's a great point about staying calm! Just want to confirm - when you said the patient was having trouble with intubation, do you mean they were having trouble getting the tube in or was it more of a trouble with getting them to tolerate the intubation process?",
         "color": "green"
       },
       {
         "id": 3,
-        "parent_id": 2,
-        "user": "LeoChen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Wait, what? I thought EpiPen was only for anaphylaxis? How did that work?",
-        "color": "blue"
+        "parent_id": 1,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Love the cautionary tale, Dr. Gupta! I've had to do a surgical airway on a patient with a difficult airway (can't intubate, can't bag). It was a nightmare. Has anyone else had to deal with that situation?",
+        "color": "yellow"
       },
       {
         "id": 4,
         "parent_id": 3,
-        "user": "SarahSharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Good question, Leo! EpiPen is for anaphylaxis, but some EMs (ahem, RickTheRage?) think it's also applicable for systemic Hymenoptera reactions. Don't quote me on that, but it's a 'thing' some people do. Anyway, back to the original post...",
-        "color": "purple"
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Actually, Dr. Miller, I have had to do a surgical airway on a patient with a difficult airway. It's always a last resort, but sometimes necessary. The key is to have a good team and to be prepared for any eventuality. Has anyone looked at the recent literature on awake intubation vs. rapid sequence induction?",
+        "color": "green"
       },
       {
         "id": 5,
-        "parent_id": null,
-        "user": "BrockStone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "Okay, let's get real here. How many of you have actually seen a systemic Hymenoptera reaction in your EM career?",
-        "color": "gold"
+        "parent_id": 4,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "According to the literature, RSI is still the gold standard for rapid sequence intubation, but there's been some interest in awake intubation for patients with a difficult airway. Has anyone tried it in practice? Does anyone have experience with the laryngeal mask airway (LMA)?",
+        "color": "orange"
       },
       {
         "id": 6,
         "parent_id": 5,
-        "user": "MayaGupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Uh, not me, Brock? But I've seen some pretty impressive local reactions from Hymenoptera stings. Not systemic, though.",
+        "user": "Dr. Rick 'The Rage'",
+        "role": "EP",
+        "city": "Windsor, ON",
+        "text": "Ugh, I hate the LMA. It's always sticking out all over the place. Never know what's going to happen when you try to extubate. Has anyone else had issues with LMA's?",
         "color": "red"
       },
       {
         "id": 7,
         "parent_id": 6,
-        "user": "BrockStone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "That's what I thought. See, folks, even the surgical crowd doesn't get worked up about systemic Hymenoptera reactions. Maybe we should just stick to our knitting?",
-        "color": "purple"
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "LOL Dr. Rage! I've got a story about the LMA. I was extubating with the LMA and the patient started to gag. Luckily, a quick think by our team and we managed to salvage it. But man, what a close call. Has anyone else had a similar experience?",
+        "color": "pink"
       },
       {
         "id": 8,
         "parent_id": 7,
-        "user": "RickTheRage",
+        "user": "Dr. Sarah Sharp",
         "role": "EP",
-        "city": "Windsor, ON",
-        "text": "Are you kidding me, Brock?! You think EMs don't know their stuff? We see all sorts of crazy stuff, and systemic Hymenoptera reactions are a real thing! Don't get me started on how often they're misdiagnosed...",
-        "color": "orange"
+        "city": "Laval, QC",
+        "text": "Actually, Turbo Tom, that reminds me of a study I read recently that looked at the incidence of LMA-related complications. It's a useful read if you haven't checked it out yet.",
+        "color": "blue"
       },
       {
         "id": 9,
         "parent_id": 8,
-        "user": "ArisThorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Gentlemen, let's not forget the importance of accurate diagnoses and proper treatment. I've seen my fair share of systemic Hymenoptera reactions, and we must treat them seriously.",
-        "color": "blue"
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "As an anesthesiologist, I've had my fair share of dealing with patients who've been difficult to intubate. But I've also got a soft spot for the laryngeal mask airway. What's the best way to choose between RSI and LMA? Has anyone got a preferred algorithm for airway management?",
+        "color": "purple"
       },
       {
         "id": 10,
         "parent_id": 9,
-        "user": "TurboTom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Preach, Doc! And don't even get me started on the importance of proper documentation. We need to be sure we're capturing the right details so our next team can pick up where we left off.",
-        "color": "pink"
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "Good question, Dr. Stone. It really comes down to the patient's underlying anatomy and physiology, as well as their medical history. Has anyone looked at the work done by the Difficult Airway Society? They've got a fantastic algorithm for choosing between RSI and LMA.",
+        "color": "green"
       }
     ]
   },
   {
-    "id": 1,
-    "title": "Frustrated about Forensic Evidence Kits",
-    "body": "Had a miss last night regarding the forensic evidence kit on a sexual assault patient. The patient and family arrived at the ED 48 hours post-assault and the patient had cleaned themselves already. We couldn't collect any DNA evidence due to the self-cleaning. Just had to deal with the paperwork and notification of law enforcement. Is this a common issue? Has anyone ever experienced this before?",
+    "title": "Emergency Delivery Rant - Just when you think you've seen it all... (TL;DR: Don't rush!)",
+    "body": "Just saw a patient with an undiagnosed pregnancy at 38 weeks, presenting to ED in active labor with no prenatal care. We managed to get her to deliver a healthy baby, but not before she had a precipitous delivery. Anyone else have a recent experience like this? What are your thoughts on emergency delivery of a term newborn? Should we be better prepared for these situations? (e.g. having pediatricians on standby, more education on managing these types of deliveries?) Let me know in the comments below! \ud83ddd0a",
     "category": "Emergency Medicine",
     "comments": [
       {
-        "id": 1,
+        "id": "3",
         "parent_id": null,
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
-        "city": "Toronto, ON",
-        "text": "Yes, unfortunately, it's not uncommon. Patients and families often don't understand the importance of preserving evidence. We need to educate them better about the importance of not showering, washing hands, or changing clothes before coming to the ED. It's also crucial to perform a thorough examination as soon as possible. I've found that using a consent form that explicitly explains the importance of preserving evidence helps.",
+        "city": "Mississauga, ON",
+        "text": "Oh man, this is a great topic! First of all, kudos to you and your team for managing the delivery successfully. That's not an easy situation to navigate. From a pediatric perspective, I think it's great that you brought up the idea of having pediatricians on standby. We need to be better prepared for these situations and have a clear plan in place. Have you considered reaching out to the hospital administration to advocate for more resources and training for emergency delivery situations? We also need to make sure that our patients are getting the right education and support during pregnancy, so they know what to expect and can plan for these types of situations. [link to article on emergency delivery management](https://www.emedicine.medscape.com/article/822511-overview)\ud83ddd0b",
         "color": "purple"
       },
       {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "@Dr. Maya Gupta, I completely agree with you. However, we also need to ensure that our staff is educated on the proper protocol for collecting evidence. I've seen cases where the evidence kit was not properly completed or stored, which can lead to contamination or loss of evidence. It's a two-way street - we need to educate both patients and staff.",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "@Dr. Barb Miller, Can you provide more information on the proper protocol for collecting evidence? I've heard that the SARS-CoV-2 pandemic has affected the availability of evidence collection kits. Is that true?",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Toronto, ON",
-        "text": "@Sarah Jenkins, The SARS-CoV-2 pandemic did impact the availability of evidence collection kits, but it's not a widespread issue anymore. The protocol for collecting evidence remains the same. Make sure to follow the chain of custody and handle the evidence with gloves and a sterile container. The most important thing is to communicate with the patient and their family about the importance of preserving evidence.",
-        "color": "purple"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs, this is a classic case of inadequate education on forensic evidence collection. We need to make sure our residents and medical students understand the importance of preserving evidence and the proper protocol for collecting it. This is not just about following a checklist; it's about understanding the science behind it.",
-        "color": "red"
-      },
-      {
-        "id": 6,
-        "parent_id": 2,
+        "id": "4",
+        "parent_id": "3",
         "user": "Leo Chen",
         "role": "MS1",
         "city": "Montreal, QC",
-        "text": "@Dr. Barb Miller, Can you explain how to educate patients and families about the importance of preserving evidence? What resources can we utilize to make this process smoother?",
-        "color": "green"
+        "text": "Dr. Gupta, I totally agree with your suggestion to reach out to the hospital administration. But what about the idea of having more education and support for patients during pregnancy? Do you think that would make a big difference in cases like this? How can we make sure that our patients are getting the right information and resources? \ud83ddc4b",
+        "color": "lightgreen"
       },
       {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "@Leo Chen, Educating patients and families requires empathy and clear communication. We need to explain the reasons behind preserving evidence and the potential consequences of contamination or loss of evidence. We can use visual aids, consent forms, and patient education materials to make this process smoother. Check out the Canadian Medical Protective Association's (CMPA) guide on forensic evidence collection for more resources.",
+        "id": "5",
+        "parent_id": "3",
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "I completely agree with Dr. Gupta's suggestion to have pediatricians on standby. But what about the logistics of that? Would we need to have a pediatric team on site at all times, or could we have a system in place where they can be called in quickly when needed? And what about the financial implications of having more resources and training available for emergency delivery situations? Would it be feasible to implement these changes? \ud83ddc43",
         "color": "blue"
       },
       {
-        "id": 8,
-        "parent_id": null,
-        "user": "Dr. Phil Muddle",
-        "role": "EP",
-        "city": "Regina, SK",
-        "text": "Is there a specific protocol for disposing of used evidencecollection supplies?",
-        "color": "purple"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Toronto, ON",
-        "text": "@Dr. Phil Muddle, Yes, we need to dispose of used evidence collection supplies in a way that maintains the integrity of the evidence. Typically, we use biohazard bags and follow the facility's guidelines for disposal. We should also document the disposal process for traceability.",
-        "color": "blue"
-      },
-      {
-        "id": 10,
+        "id": "6",
         "parent_id": null,
         "user": "Turbo Tom",
         "role": "RN",
         "city": "London, ON",
-        "text": "It's not just about collecting evidence, guys. We also need to consider the psychological impact on the patients and families. Supporting their autonomy and dignity throughout the process can make a huge difference in their care.",
+        "text": "I've worked with some of these situations, and let me tell you, it's chaos! But seriously, we need to be better prepared for these situations and have a clear plan in place. One thing that would help is having a standardized protocol for emergency delivery situations. We could develop a checklist of things to do and not do, and make sure that all staff members are trained on it. That way, when a situation like this arises, everyone knows what to expect and can work together to provide the best possible care. [link to article on standardized protocols](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5411234/)\ud83ddc4b",
+        "color": "teal"
+      },
+      {
+        "id": "7",
+        "parent_id": "6",
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Turbo Tom, I love that idea! Having a standardized protocol would definitely help. But what about the issue of communication between teams? We often have multiple teams working together in emergency delivery situations, and communication can break down quickly. Do you think there's a way to integrate our communication systems to make sure that everyone is on the same page? \ud83ddc4b",
+        "color": "green"
+      },
+      {
+        "id": "8",
+        "parent_id": "7",
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Dr. Sharp, that's a great point about communication. Do you think we could use technology to improve communication in these situations? Like, maybe a digital platform where teams can share information and updates in real-time? \ud83ddc4b",
+        "color": "lightgreen"
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "title": "Just saw a patient with life-threatening cocaine-induced pulmonary edema...what's your experience?",
+    "body": "I'm still shaking my head about this one... 25-year-old male, presents with severe chest pain, SOB, and hypotension. Initial vitals: BP 80/40, HR 120, RR 40, oxygen saturation 88% on RA. The patient denied any previous medical history or use of illicit substances. Initial ECG showed a wide complex tachycardia. We quickly administered IV fluids, furosemide, and nitroglycerin, but the patient's BP continued to drop. Chest x-ray showed bilateral infiltrates and a large pleural effusion. We intubated the patient and started him on epinephrine and bicarbonate. The patient eventually stabilized, but not before developing a severe cough and frothy sputum output.",
+    "category": "Cocaine and Stimulants",
+    "comments": [
+      {
+        "id": 101,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "This is a classic presentation of cocaine-induced pulmonary edema (CIPE). The key is recognizing the early signs and symptoms, such as sudden onset of chest pain, shortness of breath, and hypotension. In this case, the patient's ECG showed a wide complex tachycardia, which is a significant predictor of CIPE. Our treatment approach was spot on, but I would recommend considering a pulmonary consult ASAP. Have any of you seen this case previously?",
+        "color": "blue"
+      },
+      {
+        "id": 102,
+        "parent_id": 101,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Thanks for sharing this case, Dr. Thorne! I've been reading about CIPE and I was wondering if anyone has any experience with the pathophysiology behind it. Specifically, how does cocaine cause pulmonary edema and what are the key differences between this and other causes of pulmonary edema?",
+        "color": "lightblue"
+      },
+      {
+        "id": 103,
+        "parent_id": 101,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Great question, Sarah! According to my notes, cocaine causes pulmonary edema by inducing vasoconstriction of the pulmonary arteries, which leads to increased resistance and subsequent left ventricular failure. The patient's ECG showed a wide complex tachycardia, which is consistent with this mechanism. Does anyone have any thoughts on the treatment approach for CIPE?",
+        "color": "purple"
+      },
+      {
+        "id": 104,
+        "parent_id": 103,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Thanks for the clarification, Kevin! In terms of treatment, I believe our approach was correct in administering epinephrine and bicarbonate. However, I would recommend considering the use of vasopressors, such as norepinephrine, to help increase the patient's BP and improve cardiac output. Has anyone ever used these medications in this scenario?",
+        "color": "yellow"
+      },
+      {
+        "id": 105,
+        "parent_id": 101,
+        "user": "Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "I'm not sure I agree with the treatment approach in this case. In my experience, the key is to address the patient's hypotension and respiratory failure as quickly as possible. Maybe we should have just used a more aggressive approach with fluid resuscitation and intubation?",
+        "color": "red"
+      },
+      {
+        "id": 106,
+        "parent_id": 105,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "I understand where you're coming from, Brock, but I think we made the right call. The patient's CIPE was likely exacerbated by the cocaine use, so we needed to address the underlying cause. We can't just 'aggressively' throw more fluids at the patient and expect the problem to resolve. Sometimes, the best approach is to take a step back and consider the pathophysiology at play.",
+        "color": "orange"
+      },
+      {
+        "id": 107,
+        "parent_id": 105,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I'm sorry, I'm just not understanding why we didn't use more fluids in this case. Could someone explain the risks vs. benefits?",
+        "color": "pink"
+      },
+      {
+        "id": 108,
+        "parent_id": 107,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Leo, I think we're getting into a discussion about the nuances of fluid resuscitation. In this case, the patient's hypotension was likely due to cocaine-induced vasodilation, so we didn't want to over-resuscitate with fluids and make the problem worse. Think of it like an engine sputtering, where you don't want to put too much gas in the tank, or it'll just stall.",
+        "color": "lightgreen"
+      },
+      {
+        "id": 109,
+        "parent_id": null,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Okay, let's not get too caught up in the details, folks. We've got a patient with severe CIPE, and we need to figure out how to manage it. Has anyone considered the role of ECMO in this scenario?",
+        "color": "purple"
+      },
+      {
+        "id": 110,
+        "parent_id": 109,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "I think ECMO is a great idea, Ziggy. However, it's not typically used in cases of acute pulmonary edema. We need to focus on addressing the root cause of the edema and managing symptoms. Does anyone have any thoughts on how to wean the patient off the epinephrine and bicarbonate?",
         "color": "green"
       }
     ],
-    "image": "https://www.ebmedicine.net/spaw/uploads/aboutUs/Documentation%20Keys%20Emergency%20Medicine%20Practice.JPG"
+    "image": "https://images.squarespace-cdn.com/content/v1/546e1217e4b093626abfbae7/1575897224186-XUH3D3GTCYC4Z6N7SKN1/Lightning+Learning+-+Cocaine-induced+Chest+Pain+%28v1.1%29.png"
   },
   {
-    "id": 101,
-    "title": "Acute Urinary Retention in the ED: The Good, the Bad, and the Catheterized",
-    "body": "Just saw a patient with acute urinary retention in the ED and it got me thinking... What are some of the most common causes of AUR and how do we manage them? I know it's not rocket science, but sometimes it's the little things that can make a big difference.",
-    "category": "Tales from the ED",
+    "title": "A COPD Exacerbation Gone Wrong: A Case Study and Review of Management Principles",
+    "body": "Just saw a patient with a classic case of COPD exacerbation that went sideways on me. I'd love to hear your thoughts on how I could have done things better.\n\nSo, 72-year-old Barnaby Finch, a quixotic and poetic patient, comes in with a 2-day history of worsening dyspnea, wheezing, and a productive cough. His past medical history is notable for a 50-pack-year smoking history, and he's on inhaled corticosteroids and bronchodilators.\n\nOn exam, he's sitting upright with pursed-lip breathing, and his O2 sat is 88% on 2L nasal cannula. He's got a bit of a wheeze, but it's not as severe as I've seen in some other patients. I'm thinking he might be a candidate for a short course of systemic corticosteroids, but before I initiate that, I want to confirm his diagnosis with some lab work.\n\nSo, I send off a set of labs, including a complete blood count, electrolytes, and an ABG. The results come back showing a mild leukocytosis, a slightly elevated lactate dehydrogenase, and a PaCO2 of 52 mmHg.\n\nI'm thinking, okay, this guy's got a bit of a metabolic derangement, maybe he's got some chronic bronchitis going on, but it's not enough to warrant a hospital admission. So, I decide to send him home with a prescription for oral steroids and bronchodilators and instruct him to return to the ER if his symptoms worsen.\n\nFast forward 24 hours, and the patient's wife calls me, frantic, saying that Barnaby's symptoms have gotten significantly worse. She's calling 911, and I'm left wondering what I could have done differently. In retrospect, I think I should have admitted him for close monitoring and further evaluation, especially given his high PaCO2 level and mild leukocytosis.\n\nSo, what do you guys think? Should I have gone with my gut and admitted him, or was it a reasonable decision to send him home?\n\nTL;DR - COPD exacerbation gone wrong: too much risk vs benefit in sending home. Should I have admitted?\n\nCategory: EM Cases",
+    "category": "EM Cases",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": "Dr. Aris Thorne ",
-        "role": "FRCPC",
-        "city": "Toronto, ON",
-        "text": "Aurantius, one of the most common causes of AUR is benign prostatic hyperplasia (BPH). We need to have a high index of suspicion in older males with history of LUTS symptoms. When it comes to management, I always recommend a careful history and physical exam to rule out other causes like UTIs, nephrolithiasis, or neurogenic bladder. And of course, a Foley cath is often necessary to relieve the obstruction.",
+        "user": "u/DrsSharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Great case study, and a sobering reminder of how quickly things can go sideways in the ED. I agree with you that admitting him might have been the better course of action, especially given his high PaCO2 level and mild leukocytosis. One thing that's always stuck out to me in managing COPD exacerbations is the importance of considering the possibility of pulmonary edema, especially in patients with a history of smoking and a high PaCO2 level. Have you ever read anything on this topic that's particularly insightful? [link to article](https://www.ncbi.nlm.nih.gov/pubmed/31412345)",
         "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Leo Chen ",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Thorne, you mentioned BPH. Can you elaborate on what LUTS symptoms are and how we can identify them in our patients?",
+        "user": "u/TurboTom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Thanks for sharing this case, @u/DrsSharp! One thing that's always puzzled me about COPD management is the use of oral steroids in this setting. From what I understand, the evidence is mixed on whether or not oral steroids actually improve outcomes in COPD exacerbations. Have any of you guys used oral steroids in a COPD exacerbation recently? What was your experience?",
         "color": "green"
       },
       {
         "id": 3,
         "parent_id": 1,
-        "user": "Dr. Victor Sterling ",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs. BPH is just a bunch of hooey. The real issue is that most patients with AUR are simply unable to void due to some obscure medical condition. Get out of the way and let me do my job.",
+        "user": "u/DrsPark",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Thanks for the case, @u/DrsSharp! I'm still learning about COPD management, so this was super helpful. One question I had was about the use of ABGs in this setting. From what I understand, ABGs aren't always necessary in COPD exacerbations, especially if the patient's symptoms are mild. Can you speak to this a bit?",
         "color": "blue"
       },
       {
         "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Aris Thorne ",
-        "role": "FRCPC",
-        "city": "Toronto, ON",
-        "text": "I disagree, Dr. Sterling. BPH is a very common cause of AUR and we need to take it seriously. Besides, it's not about being an 'amateur', it's about providing high-quality care to our patients.",
-        "color": "red"
+        "parent_id": 1,
+        "user": "u/DrsGupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Hey @u/DrsSharp, thanks for sharing this case! One thing that's always stuck out to me in managing COPD exacerbations is the importance of considering the possibility of cardiac complications. In a patient with a history of smoking, I would have worried about the possibility of a pulmonary embolism or cardiac failure. Did you consider these possibilities in your initial evaluation?",
+        "color": "pink"
       },
       {
         "id": 5,
         "parent_id": 1,
-        "user": "Turbo Tom ",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Hey team, just a tip from the trenches. When it comes to cath placement, I like to use a gentle, coaxing motion to get the cath in. And don't forget to lubricate, lubricate, lubricate! Also, have you guys heard about the '3D ultrasound' technique for assessing bladder volume?",
+        "user": "u/BarnabyFinch",
+        "role": "Patient",
+        "city": "Victoria, BC",
+        "text": "Thanks for sharing my case, @u/DrsSharp! I have to say, I'm a bit embarrassed that I didn't take care of myself properly. I did have some concerns about my symptoms getting worse, but I didn't know what to do. Looking back, I wish I had pushed harder for a hospital admission. Any advice for me in terms of managing my COPD going forward?",
         "color": "yellow"
       },
       {
         "id": 6,
         "parent_id": 5,
-        "user": "Sarah Jenkins ",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Thanks for the tip, Turbo Tom! One question though, do you have any references for that 3D ultrasound technique? I couldn't find anything on it.",
-        "color": "orange"
-      },
-      {
-        "id": 7,
-        "parent_id": 5,
-        "user": "Dr. Maya Gupta ",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I'm not sure about the 3D ultrasound, but I do know that we can estimate bladder volume using the residual volume. Typically, residual volumes >50-150 cc are consistent with urinary retention.",
-        "color": "pink"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Elena Varkov ",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Great point, Maya! I also like to estimate the total urine volume by adding the residual volume to the estimated voided volume. We should keep in mind that this is just an approximation and we may need to adjust based on clinical findings.",
-        "color": "black"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Leo Chen ",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "I'm still a bit puzzled. So, how do we estimate the voided volume? Do we just assume it's a certain percentage of the total urine volume?",
-        "color": "green"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Maya Gupta ",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Not exactly, Leo. We can try to estimate the voided volume by looking at the patient's fluid intake, medical history, and physical exam findings. It's not always an exact science, but it gives us a rough idea of the total urine volume.",
-        "color": "pink"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Dr. Aris Thorne ",
-        "role": "FRCPC",
-        "city": "Toronto, ON",
-        "text": "Well, I hope that clears things up, team! Remember, AUR is a complex condition and we need to keep our wits about us to manage it effectively.",
-        "color": "red"
-      },
-      {
-        "id": 12,
-        "parent_id": 1,
-        "user": "Dr. Henry Oldman ",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "As a family doc, I have to say that it's the little things that make a big difference in ED management. Taking the time to listen to the patient's story, getting the history straight, and ordering the right tests can make all the difference in diagnosing AUR.",
-        "color": "brown"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Rant about Vertigo in the ED: Lessons from a Missed Central Cause",
-    "body": "Just saw a patient with a classic case of vertigo in the ED, but what really got me was when I finally worked up the guts to do the HINTS exam and discovered it was a central cause. I was so convinced it was a simple BPPV that I nearly admitted her without the right workup. Thankfully, I caught myself and decided to order those pesky HINTS tests. Anyone else ever have a vertigo case that made them realize how much they didn't know?",
-    "category": "EM",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "turbotom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Oh man, been there done that. The HINTS exam is a game changer. I had a patient with vertigo and I thought it was a simple vestibular issue, turned out it was a stroke on the right side. Thanks for the reminder, OP!",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "LeoChen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": " Wait, what's the HINTS exam? And how do you even diagnose central causes vs peripheral causes of vertigo? Is it just about doing a physical exam or are there certain labs or imaging tests you look at? Please educate me!",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "sarahsharp",
+        "user": "u/DrsSharp",
         "role": "EP",
         "city": "Laval, QC",
-        "text": "TL;DR: HINTS is a bedside assessment that includes the horizontal head impulse test, nystagmus, and test of skew. Central causes of vertigo are more likely if you see vertical nystagmus, or signs of CNS dysfunction on the HINTS exam. You can also look at imaging tests like MRI or CT scans to rule out central causes. Good job on catching yourself, OP!",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "barbmiller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Thanks for the clarification, Sarah. But what about prodromal dizziness? Is that always a central cause or can it be peripheral as well? And what's the best way to incorporate HINTS into your clinical workflow in the ED?",
-        "color": "red"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "kevinpark",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Yeah, the prodromal dizziness can be a real challenge. I found it helpful to think about the onset of symptoms too. Sudden onset is more likely peripheral, while gradual onset is more likely central. And don't forget to do those vestibular function tests, like the Dix-Hallpike maneuver. That usually reveals if it's a benign paroxysmal positional vertigo or something more sinister...",
-        "color": "brown"
-      },
-      {
-        "id": 6,
-        "parent_id": null,
-        "user": "brockstone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "You're all forgetting one thing: what about the patient's age and medical history? That's what I think about when I see patients with vertigo. Did they have a recent head injury? TIA? Migraine? It's all about ruling in/out the red flag symptoms, folks...",
-        "color": "orange"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "drphil",
-        "role": "EP",
-        "city": "Regina, SK",
-        "text": "I'm so sick of people talking about vertigo in the ED. What about when it's not just vertigo, but also tinnitus and hearing loss? That's what I worry about with my patients. What are you guys doing to screen for vestibular schwannomas or other peripheral causes of hearing loss in the ED?",
-        "color": "pink"
+        "text": "Thanks for sharing your experience, @u/BarnabyFinch. One thing that's always important to remember is that managing COPD is an ongoing process that requires close attention to symptoms and medication adherence. I would recommend working closely with your pulmonary team to develop a comprehensive care plan that addresses your specific needs. In terms of managing exacerbations, I would recommend being proactive in seeking medical attention if your symptoms worsen.",
+        "color": "purple"
       }
     ]
   },
   {
-    "title": "Status Epilepticus in the ER: A Never-Ending Nightmare",
-    "body": "Just had a patient with refractory status epilepticus that lasted over an hour. We tried the usual benzodiazepines, propofol, and even a ketamine infusion, but nothing seemed to be working. I finally called for a neurologist consultation, and they suggested we try a continuous EEG monitoring. But it's not just the monitoring that's the problem - it's the management of the airway and the risk of aspiration. Anyone else have any experience with managing these patients?",
+    "id": 6,
+    "title": "Just saw a patient with a potentially life-threatening condition and I'm still trying to wrap my head around it... [CASE STUDY]",
+    "body": "I'm hoping some of you more experienced ER docs can help me out with this one. Came across a 2-day-old newborn with a rectal temperature of 38.5\u00b0C and a heart rate of 110 bpm. Initial vitals looked okay, but the baby was having difficulty feeding and was pretty cranky.",
     "category": "Emergency Medicine",
     "comments": [
       {
@@ -912,7 +401,7 @@
         "user": "Dr. Aris Thorne",
         "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "I've seen a few cases like this, and it's always a challenge. The key is to get the patient into the MICU as soon as possible and have a neurologist on board. Have you tried using a midazolam infusion? I've found that it can be helpful in stabilizing these patients.",
+        "text": "This sounds like a classic case of neonatal sepsis. Did you do a lumbar puncture?",
         "color": "purple"
       },
       {
@@ -921,64 +410,198 @@
         "user": "Leo Chen",
         "role": "MS1",
         "city": "Montreal, QC",
-        "text": "What's the reasoning behind using a midazolam infusion? Is it to reduce the seizure activity or to sedate the patient?",
+        "text": "What does a lumbar puncture in a newborn look like? And should we also be worried about congenital CMV?",
         "color": "green"
       },
       {
         "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I've used midazolam infusions in the past, and I think it's worth noting that they can be effective in managing Status Epilepticus, but they shouldn't be used as a sole treatment. We need to work with the neurologist to determine the underlying cause of the seizures.",
-        "color": "purple"
+        "parent_id": 2,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Congenital CMV is a concern in newborns with fever who have a negative blood culture. However, the risk is highest in those born to mothers with viremia during pregnancy. We should consider a CMV PCR on the baby's cerebrospinal fluid if the lumbar puncture is compatible with the clinical picture.",
+        "color": "green"
       },
       {
         "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "I agree with Dr. Gupta. We need to have a comprehensive plan in place, including the use of EEG monitoring, medication management, and possibly even neurosurgical consultation. Status Epilepticus is a neurocritical care issue, and we need to take it seriously.",
-        "color": "green"
+        "parent_id": 2,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs. You're overthinking this. The real concern is congenital heart block. Did you do an ECG?",
+        "color": "blue"
       },
       {
         "id": 5,
         "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "I'm not convinced that Status Epilepticus is as complex as everyone's making it out to be. I've seen plenty of cases where it's just a straightforward management issue. We just need to stay calm, use some common sense, and follow established protocols.",
-        "color": "red"
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "I thought neonatal sepsis was caused by group B strep? Shouldn't we be culturing the mother and the baby?",
+        "color": "green"
       },
       {
         "id": 6,
         "parent_id": 5,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Really, Dr. Sterling? That's not exactly the kind of confidence-inspiring leadership I'd like to see from our chief of surgery. Status Epilepticus is a high-stakes condition that requires careful management and collaboration between multiple teams. We can't just 'follow established protocols' like it's a routine ECG.",
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Yes, that's correct. Group B strep is a common cause of neonatal sepsis. However, the clinical picture should also include suspicion of other pathogens. A comprehensive approach includes blood cultures, a complete blood count, and a urinalysis, in addition to the initial evaluation by the primary team.",
         "color": "green"
       },
       {
         "id": 7,
-        "parent_id": 1,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "This is a great example of why we need to keep up with the latest research in Emergency Medicine. I've been following the literature on Status Epilepticus, and there are some new developments that are worth considering, such as the use of cannabidiol for refractory seizures.",
-        "color": "purple"
+        "parent_id": 6,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "I'm not sure about this conversation, but I do know that our hospital has a protocol for suspected neonatal sepsis. We should probably follow it. Can someone share the link to the protocol?",
+        "color": "blue"
       },
       {
         "id": 8,
         "parent_id": 7,
-        "user": "Dr. Phil Muddle",
-        "role": "EP",
-        "city": "Regina, SK",
-        "text": "Cannabidiol? Isn't that just for pain management? How does it work for seizures?",
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "Ah, good show, Sparkle-Eyes. The link is here: [insert link]. I'll make sure to post it in the hospital's intranet for future reference.",
+        "color": "purple"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "TL;DR: Neonatal sepsis, congenital CMV, and congenital heart block are all possibilities here. Lumbar puncture and ECG are in order. Did I get it right?",
         "color": "green"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "You got the three main possibilities right, Leo. Now, let's focus on the next steps.",
+        "color": "purple"
       }
     ],
-    "image": "https://i0.wp.com/emcrit.org/wp-content/uploads/2022/07/statusepi.jpg?resize=450%2C701&ssl=1"
+    "image": "https://i.ytimg.com/vi/zZKwXOAUf9M/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCbCwfoF3UDAlPNISznAReRmgTldA"
+  },
+  {
+    "id": 1012,
+    "title": "TLDR; just learned about the nuances of bioterrorism in EM. Sharing my frustrations and what I've learned so far. Anyone else have thoughts or experience with this?",
+    "body": "Just saw a patient with suspected anthrax exposure. We've all been trained on the basics: identify, isolate, and decontaminate. But what really got my head spinning was the subtlety of the presentation.\n\nAnthrax spores can remain viable for decades in contaminated materials, and the symptoms can mimic common colds or flu. It's not like the old 'I've got a gun pointed at my head and I'm gonna blow!' movie depiction.\n\nWhat really got my goat was when I saw a patient's chart from 10 years ago with a suspected exposure to a similar bioterrorism agent. It turned out to be a misdiagnosis from back in the day when we were still figuring out how to recognize these agents.\n\nMy take-home lesson for today is: don't take a bioterrorism patient for granted, EVER. Be suspicious, stay vigilant, and don't be afraid to get your hands dirty (literally).\n\nRant aside, has anyone else had any experiences with bioterrorism in EM? Any pearls or horror stories to share?",
+    "category": "emedicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "AMEN TO THAT!! Bioterrorism agents can be so sneaky, and it's easy to get tunnel vision when we see a patient with symptoms. Just had a similar case last week, and it was only after reviewing the patient's history and testing did we realize it was actually a common cold... but one that required special precautions . What are your thoughts on the role of history-taking in bioterrorism cases? Do you think we're relying too heavily on fancy testing and not enough on old-school history?",
+        "color": "blue"
+      },
+      {
+        "id": 2,
+        "parent_id": null,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "I've seen some wild stuff in my ER days, but bioterrorism is a whole new level of crazy. One thing that stuck out for me was when we had a case of suspected smallpox exposure. I won't lie, I was a bit spooked... but after debriefing with the docs, we realized it was just a really bad case of chickenpox . What's the most important thing you've learned from your bioterrorism training, Doc?",
+        "color": "purple"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "I'm still trying to wrap my head around the role of history-taking in bioterrorism cases. Can someone clarify what exactly we're looking for in a patient's history? Are there any red flag symptoms or exposure risks we should be on the lookout for?",
+        "color": "lightgreen"
+      },
+      {
+        "id": 4,
+        "parent_id": 2,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "TBH, I think history-taking is still one of the most underutilized tools in bioterrorism cases. We tend to focus so much on fancy testing and lab results that we forget about the importance of a good story . If I had to give a top-3 list of red flags, I'd say it's exposure to high-risk zones or activities, recent travel to affected areas, and unexplained illness with symptoms like fever, cough, or abdominal pain.",
+        "color": "lightblue"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "That makes sense to me. I've been reading up on the bioterrorism protocols in our ER, and it seems like there are a few key risk factors we should be keeping an eye out for. Can someone link any resources or guidelines that might be helpful for reviewing?",
+        "color": "teal"
+      },
+      {
+        "id": 6,
+        "parent_id": null,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "If you're looking for resources, I highly recommend checking out the CDC's bioterrorism guidelines. They have a ton of info on patient evaluation, specimen collection, and management. Also, make sure you're familiar with the various bioterrorism agents and their symptoms. It's not just anthrax and smallpox!",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Today I Learned: The Pitfalls of Ultrasound in Acute Cholecystitis",
+    "body": "Had a miss last night, and it got me thinking about the importance of being thorough with ultrasound in acute cholecystitis. I was called to see a patient who had been vomiting and had right upper quadrant pain for 3 days. The ER doc had done an ultrasound, which showed some questionable gallstones, but no clear evidence of pericholecystic fluid or gallbladder distension. I did a quick CT scan and found a nice pericholecystic abscess and significant gallbladder distension. The patient ended up needing an emergency cholecystectomy. What's the deal with ultrasound in acute cholecystitis, ED gods? What are the pitfalls, and how can I improve my game?",
+    "category": "emedicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "TLDR: Ultrasound for acute cholecystitis is not a bad thing, but it's not a gold standard either. When it's unclear or inconclusive, a CT scan is the way to go. The ER doc's ultrasound was fine - it just didn't pick up the pericholecystic abscess and gallbladder distension. That's what I like about this post - it highlights the importance of being thorough and not relying on just one diagnostic modality. [www.mdedge.com](http://www.mdedge.com) has a nice article on this topic. Let me know if you want more info!",
+        "color": "blue"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Thanks for the link, Dr. Gupta! I've been reading that article, and it got me thinking - what's the sensitivity and specificity of ultrasound for acute cholecystitis? Are there any specific ultrasound views that we should be focusing on? Can anyone provide some insight?",
+        "color": "purple"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Leo, the sensitivity and specificity of ultrasound for acute cholecystitis are around 70-80% and 80-90%, respectively, depending on the study. As for specific views, I agree with the article - subcostal, suprapubic, and intercostal views are key. We should also be looking for gallstones, pericholecystic fluid, and gallbladder distension. It's not just about throwing the ultrasound images up on the screen - we need to interpret them with clinical correlation in mind. Thanks for asking!",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "I was wondering, what's the deal with the 'sonographic Murphy's sign'? I've heard it's a great indicator of acute cholecystitis, but I'm not entirely sure what it entails. Can anyone explain it in more detail?",
+        "color": "orange"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Ah, the sonographic Murphy's sign - a classic example of how the medical community can get caught up in 'fancy' diagnostic techniques. The sonographic Murphy's sign is a variation of the classic Murphy's sign, which is basically just a physical exam finding that indicates gallbladder inflammation. The ultrasound version involves placing the probe in the right upper quadrant during inspiration and asking the patient if it hurts. Easy peasy, lemon squeezy.",
+        "color": "red"
+      }
+    ],
+    "image": "https://media.springernature.com/m685/springer-static/image/art%3A10.1186%2Fs12893-021-01137-y/MediaObjects/12893_2021_1137_Fig1_HTML.png"
   }
 ]
