@@ -1,18 +1,27 @@
 [
   {
-    "id": 1,
-    "title": "Rant about scalp lacerations... ",
-    "body": "Just saw a patient with a nasty scalp laceration and I'm reminded of the importance of pressure dressings in preventing hematoma formation. Does anyone else use them as a first line treatment for deep scalp lacerations? How do you guys like to secure the dressing? TIA!",
-    "category": "emergency_medicine",
+    "id": 0,
+    "title": "Rant about placental abruption: A case of missed diagnosis and lessons learned",
+    "body": "Just had a disturbing case last night... We presented with a 28-year-old primigravida at 28 weeks gestation, complaining of sudden onset severe abdominal pain and vaginal bleeding. Initial vitals showed a stable BP, but we ordered a CT pelvis which showed a likely placental abruption. However, the patient's hemoglobin dropped precipitously after admission and she ended up requiring a blood transfusion. Our team realized we missed the initial diagnosis of DIC and waited too long to intervene. Had we done a better job of assessing the patient's bleeding history and ordered a coagulation panel earlier, we might have prevented this disaster. TLDR: Always think abruption when dealing with vaginal bleeding after 20 weeks, especially if the patient presents with pain and instability. Don't get lulled into thinking it's just morning sickness or a minor spotting.",
+    "category": "Emergency Medicine",
     "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs. You can't just 'think' abruption; you need to confirm with a pelvic ultrasound and assess the degree of abruption. Otherwise, you're just guessing and it's a waste of hospital resources.",
+        "color": "purple"
+      },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I second that. Pressure dressings are a game changer in preventing hematoma formation. I like to use a mix of gauze and petrolatum gauze for extra security. Have you found any studies supporting their use in scalp lacerations? [1] (http://jama.ama-assn.org/content/308/9/879)",
-        "color": "blue"
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Come on, @Dr. Sterling, it's not that simple. We can't always wait for imaging when patients are bleeding heavily and showing signs of instability. We need to be able to use our clinical judgment and make quick decisions. That's why I always recommend having a low threshold for coagulation panels and DIC workups.",
+        "color": "green"
       },
       {
         "id": 3,
@@ -20,17 +29,17 @@
         "user": "Leo Chen",
         "role": "MS1",
         "city": "Montreal, QC",
-        "text": "What's the logic behind using petrolatum gauze in a pressure dressing? Isn't that gonna create a barrier for hematoma resolution?",
-        "color": "purple"
+        "text": "What's the protocol for evaluating vaginal bleeding in early pregnancy? Should we be doing a CBC, LFTs, and coag panels as soon as we see a pregnant patient bleeding, or is that overkill?",
+        "color": "blue"
       },
       {
         "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Good catch, Leo! I think I might have misspoken. The petrolatum gauze can actually act as a bit of a barrier, so I try to avoid it now. Instead, I use a simple gauze dressing with a bit of gauze tape to secure it. Dr. Barb Miller, have you found any better ways to secure a scalp dressing?",
-        "color": "green"
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": " @Dr. Sterling, I'm not saying you're wrong, but from the ED side, we're getting hammered with pregnant patients who just have 'spotting' and we don't have the luxury of waiting for imaging. Can we please just focus on getting these patients stable and transferred to OB for further evaluation?",
+        "color": "purple"
       },
       {
         "id": 5,
@@ -38,257 +47,173 @@
         "user": "Dr. Barb Miller",
         "role": "EP",
         "city": "Winnipeg, MB",
-        "text": "Honestly, I'm not a big fan of gauze tape. It just falls off and creates more of a mess. I've been using a type of foam dressing that's designed specifically for scalp lacerations. It's been a game changer for me. [2] (https://www.ncbi.nlm.nih.gov/pubmed/23151492)",
-        "color": "teal"
+        "text": "Amen, @Turbo Tom! The hospital system is broken when it comes to pregnant patients bleeding. We need to take a more nuanced approach and not just dismiss every case as 'abruption'. What about looking at the whole patient history and doing some basic physical exams to rule out other causes?",
+        "color": "green"
       },
       {
         "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "That's really interesting! I've never used foam dressings before. Can you tell me more about how you secure them? Do you use sutures or staples?",
-        "color": "orange"
+        "parent_id": 3,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "What are some other causes of vaginal bleeding in early pregnancy that we should be considering? Is it just placental issues or can other things cause bleeding in pregnancy?",
+        "color": "blue"
       },
       {
         "id": 7,
         "parent_id": 6,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Actually, I just use a simple adhesive strip to secure the dressing. It's been really effective for me. Dr. Victor Sterling, have you ever used foam dressings in your practice?",
-        "color": "brown"
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "In my day, we used to call it 'threatened abortion' and it was mostly due to cervical or uterine anomalies. Nowadays, it's all about placental causes, but I still think we should keep an open mind and not just assume every case is abruption. We need to look at the whole clinical picture.",
+        "color": "purple"
       },
       {
         "id": 8,
         "parent_id": 7,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Ha! Foam dressings? That's cute. Of course, I use staples. What are you, a community doc?",
-        "color": "red"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Oh, great. Another one who thinks staples are the only answer. I've seen some pretty nasty staples in my time, Dr. Sterling. Maybe we should stick to what works for all patients, not just the ones who can afford surgery?",
-        "color": "gray"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Hey, hey! Let's not get too worked up here. We're all just trying to provide the best care for our patients. Can we agree to disagree and just stick to what we know works? I'm with Dr. Barb on this one - foam dressings have been a game changer for me too!",
-        "color": "yellow"
-      }
-    ],
-    "image": "https://emsj.ca/wp-content/uploads/2024/07/Fig-1-Scalp-Lac.png"
-  },
-  {
-    "id": 1,
-    "title": "Just saw a patient with carbon monoxide poisoning and I am still reeling from the case... (TLDR at the end)",
-    "body": "So I was working the night shift in the ED and we get a patient in who had been working on his car in the garage all day. He's been feeling fine for most of the day, but started to feel dizzy and nauseous about an hour ago. He's got a slight headache, but nothing too out of the ordinary. He comes in with his wife, who's freaking out because she thinks he's had a heart attack or something. We take him in and start running some labs, but the thing that really caught my eye was his carboxyhemoglobin level - it was through the roof, like 40% or so. I've never seen anything like it before. We do a quick ECG and it's fine, but I'm worried about neuro damage from the CO poisoning. Anyone else ever seen anything like this before? TLDR: 40% carboxyhemoglobin level in a patient with mild symptoms, anyone have experience with this?",
-    "category": "emergency medicine",
-    "comments": [
-      {
-        "id": 2,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Wow, that's a high COHb level! I've seen patients with similar levels, but they usually have much more severe symptoms. Did you get a chance to talk to the patient about his exposure history? Was he using any kind of CO-producing generator or space heater in the garage?",
-        "color": "purple"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "I think I've read that the 'classic finding' of cherry red lips is often not seen in living patients, is that right? And what about the patient's mental status? Was he conscious and talking when he came in?",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 2,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "In my studies, I've read that COHb levels above 20% are generally associated with more severe symptoms and higher risk of long-term neuro damage. Have you considered admitting him to the ICU for closer monitoring and potential hyperbaric oxygen therapy?",
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "I'm confused... what's the difference between placental abruption and placenta previa? And shouldn't we just be doing transvaginal ultrasounds instead of CT scans?",
         "color": "blue"
       },
       {
-        "id": 5,
-        "parent_id": null,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs. You think you've seen a high COHb level? I've seen patients with CO poisoning from a faulty generator, and the symptoms were much more severe. This guy's got it easy. He'll be fine in a few days, maybe with some cognitive issues. Big deal.",
-        "color": "red"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Actually, Chief, you're wrong. High COHb levels like this can lead to significant long-term neuro damage, not just cognitive issues. We should be taking this patient seriously and considering hyperbaric oxygen therapy. Your 'big deal' attitude is exactly why we need to rethink our approach to emergency medicine.",
-        "color": "purple"
-      },
-      {
-        "id": 7,
-        "parent_id": null,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Hey guys, let's not get too caught up in the drama. What's the plan for this patient? Are we admitting him or keeping him in the ED? And has anyone checked his blood gas yet?",
-        "color": "yellow"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Wait, what's a hyperbaric oxygen chamber? Is that like a special tank or something?",
-        "color": "green"
-      },
-      {
         "id": 9,
         "parent_id": 8,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Actually, Leo, a hyperbaric oxygen chamber is a pressurized room that delivers 100% oxygen to the patient. It's used for treatments like CO poisoning and certain diving injuries. We should have one of those for our ED, don't you think?",
-        "color": "orange"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "Hey PGY1, that's a great idea! But we'd need to set up a special protocol for using the hyperbaric chamber, and get the necessary training. Has anyone looked into what insurance covers for this stuff?",
-        "color": "brown"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Actually, we should look into the sodium levels too, not just the COHb. Can't remember the exact numbers, but there's a certain level at which sodium becomes critical in patients with CO poisoning. Can anyone remind me?",
-        "color": "pink"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Ah yes, you're thinking of the 'Sodium story'! It's related to the COHb concentration. At around 40-50% COHb, the sodium levels start to become a concern. But I'm no expert, can someone else jump in on this one?",
-        "color": "yellow"
+        "text": "Placental abruption means the placenta separates from the uterus, whereas placenta previa means the placenta covers the cervix. And yeah, TVUS is usually the first-line imaging choice for these cases. Thanks for asking!",
+        "color": "green"
       }
-    ]
+    ],
+    "image": "https://cdn.olivefertility.com/attachments/clv70mxvp2t61kpylo19i1gjc-mobile-1080x1080-with-graphics-2-1.full.jpg"
   },
   {
     "id": 1,
-    "title": "Just saw a patient with severe acute pancreatitis and I'm still reeling... #EmergencyMedicine #Pancreatitis",
-    "body": "So I had a patient come in last night with a 10-day history of worsening epigastric pain radiating to the back, which was now associated with NPO status and 5 L of O2. I did an ECG, and I saw a new Q wave in lead II, but all other vitals were stable. Given the severity of the abdominal pain and the patient's symptoms, I did a bedside ultrasound which showed a large peripancreatic fluid collection. The patient underwent CT and was diagnosed with severe acute pancreatitis. But here's the kicker - after reviewing the lab results, I realized that the lipase levels had actually decreased since the initial lab. I thought I'd seen everything, but a quick Google search led me to the article by Forsmark in Gut 2007, which showed that serum lipase activity in acute pancreatitis may actually decrease in some cases, especially when there's a high level of inflammatory response and the pancreas is under a lot of stress. It just goes to show that sometimes you need to go beyond the textbooks and think outside the box, and that the best resource for learning can be online. TL;DR - just when you think you've got it all figured out, a case comes along to remind you that EM is all about uncertainty and constant learning.",
-    "category": "CaseStudy",
+    "title": "TLDR; Sexual Assault Case Study - When to Suspect IPVA in the ED",
+    "body": "Just saw a patient with a case of suspected intimate partner violence and abuse (IPVA) that had me scratching my head all night.  I've been an EP for 10 years, but something about this case just didn't add up.  Had a patient come in last night with a history of heavy drinking, vague complaints of abdominal pain, and a visit for 'vague complaints' without evidence of injury.",
+    "category": "emergency medicine",
+    "author": "Dr. Maya Gupta",
+    "city": "Mississauga, ON",
+    "role": "PGY2",
+    "color": "orange",
     "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Great case, and I completely agree with you about online resources! Have you come across this article by Tenner et al in the JAMA Internal Medicine?  It's a great summary of the pathophysiology and clinical presentation of acute pancreatitis. One thing you might consider is the use of contrast-enhanced ultrasound to help differentiate between acute pancreatitis and pancreatic necrosis. Just something to keep in mind.",
-        "color": "purple"
-      },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Thorne, I'm curious about the article you mentioned. Can you tell me more about the contrast-enhanced ultrasound technique? I've studied it in class, but I don't fully understand how it works. Is it a specific type of imaging or a procedure?",
-        "color": "green"
+        "user": "Dr. Aris Thorne",
+        "city": "Toronto, ON",
+        "role": "Staff Physician",
+        "text": "TLDR; great case study!  IPVA is a tough topic to discuss, but important to recognize the signs.  Did you get urine for acid phosphatase and sperm?  I know it's outside the 72 hr window, but we can't forget to check for other evidence of trauma.",
+        "color": "blue"
       },
       {
         "id": 3,
-        "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "I completely agree with you about online resources, but I have to say that I'm always wary of the information I find online. Can we discuss the importance of evidence-based medicine in this context? How do we make sure that our online searches are reliable and trustworthy?",
-        "color": "blue"
+        "parent_id": 2,
+        "user": "Leo Chen",
+        "city": "Montreal, QC",
+        "role": "MS1",
+        "text": "What's the significance of acid phosphatase in this case, Dr. Aris?  I thought it was only used in prostate cancer screening.",
+        "color": "light blue"
       },
       {
         "id": 4,
         "parent_id": 3,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Great question, Sarah! As a nurse, I'm constantly searching online for information to help me improve patient care. One thing I always try to do is look for articles that have been peer-reviewed or published in reputable journals. Does anyone have any other tips for finding reliable online sources?",
-        "color": "red"
+        "user": "Dr. Aris Thorne",
+        "city": "Toronto, ON",
+        "role": "Staff Physician",
+        "text": "Good question, Leo!  Acid phosphatase is indeed used in prostate cancer screening, but it's also an enzyme that can be found in seminal fluid, making it a useful marker for sperm in cases of suspected rape.",
+        "color": "yellow"
       },
       {
         "id": 5,
         "parent_id": 1,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "Thank you, Dr. Thorne, for your thoughtful response to my condition. I'm still a bit confused about what happened to me, but I feel much better after reading your case study. Can I ask, what were the main causes of my condition, and how can I prevent it from happening again?",
-        "color": "purple"
+        "user": "Dr. Victor Sterling",
+        "city": "Calgary, AB",
+        "role": "Chief of Surgery",
+        "text": "Amateurs can't even get the history right.  This patient was probably just a clumsy drunk who fell and injured themselves.",
+        "color": "red"
       },
       {
         "id": 6,
         "parent_id": 5,
         "user": "Dr. Maya Gupta",
-        "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "Barnaby, I'd be happy to explain the causes and prevention of acute pancreatitis to you. From what I understand, the main causes of acute pancreatitis include gallstones, alcohol abuse, and certain medications. To prevent it from happening again, you might want to consider making lifestyle changes such as quitting smoking, reducing your alcohol intake, and managing your medications carefully. Does that make sense?",
-        "color": "green"
+        "role": "PGY2",
+        "text": "Easy to jump to conclusions, Dr. Victor, but the patient reported a history of trauma and multiple injuries in various stages of healing, which warrants further investigation.",
+        "color": "light green"
+      },
+      {
+        "id": 7,
+        "parent_id": 1,
+        "user": "Dr. Barb Miller",
+        "city": "Winnipeg, MB",
+        "role": "EP",
+        "text": "I've seen some tough cases of IPVA come through my ER, but the question is, what's the best way to approach these patients without causing further trauma?",
+        "color": "pink"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Sparkle-Eyes Sue",
+        "city": "St. John's, NL",
+        "role": "LPN",
+        "text": "I'm not trying to be PC or anything, but using a trauma-informed approach can be a game-changer.  We have some excellent resources online that can help with that.",
+        "color": "light pink"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Maya Gupta",
+        "city": "Mississauga, ON",
+        "role": "PGY2",
+        "text": "Great resource, Sparkle-Eyes!  Can you share more about that?",
+        "color": "purple"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Sparkle-Eyes Sue",
+        "city": "St. John's, NL",
+        "role": "LPN",
+        "text": "Check out this article on trauma-informed care: <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5969394/>.  It's a must-read for all EM providers.",
+        "color": "light purple"
       }
     ]
   },
   {
-    "title": "Had a close call with hypertensive emergency today...",
-    "body": "Just saw a patient with severe headache, visual disturbances, and altered mental status - classic hypertensive emergency! The kicker was that her BP was only 220/110. I was tempted to just give her IV labetalol, but our attending reminded me to check for target organ involvement. Turns out she had acute kidney injury, pulmonary edema, and retinal exudates on fundoscopy. Talk about a multi-system catastrophe! We ended up needing to transfer her to ICU. Has anyone else had a similar experience? Am I just being paranoid or are there more hypertensives out there with a 'hidden' component of end-organ damage?",
-    "category": "EM CME",
+    "id": 1,
+    "title": "Rant about trauma resuscitation priorities in pregnancy",
+    "body": "Just saw a patient with a significant abdominal trauma in pregnancy. Had to remind my intern that maternal stability and survival should take precedence over fetal well-being. Anyone else have to deal with this in their high-risk pregnancy cases? The initial sequence of trauma resuscitation is unchanged, but we need to pay extra attention to the gravid abdomen. Has anyone else come across this clinical scenario?",
+    "category": "Emergency_Medicine",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Don't be paranoid! Hypertensive emergencies are a real concern, especially in pts with pre-existing end-organ damage. You're doing the right thing by keeping a high index of suspicion. Have you considered using the 'SHOCK' score to stratify the risk of end-organ damage? Here's a link to the study: [link to study]. Also, make sure to check for preeclampsia in pregnant patients - it can be a sneaky presenter! https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6451315/",
-        "color": "purple"
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Preach! As a staff physician, I've seen my fair share of trauma cases in pregnancy. The key is to prioritize the mother's safety while also acknowledging the fetal risks. A pelvic ultrasound to determine placental location is a must in cases of suspected abdominal trauma.",
+        "color": "blue"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Wait, what's the 'SHOCK' score? I thought it was just about hemodynamics? Can someone explain it to me?",
-        "color": "green"
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs. You're over-diagnosing this. Rh isoimmunization is a rare complication and we shouldn't jump to conclusions without more evidence. A pelvic ultrasound is just a waste of time.",
+        "color": "red"
       },
       {
         "id": 3,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Lol, good one Maya! I'm sure Sarah will learn all about the 'SHOCK' score. Seriously though, end-organ damage is a real concern. I've seen some crazy cases in the ER. Has anyone else experienced a case of hypertensive emergency with concurrent cardiac arrest? Spooky stuff!",
-        "color": "blue"
+        "parent_id": 2,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Dude, come on. A pelvic ultrasound is a simple, quick way to rule out placental abruption or amniotic fluid embolism. Don't be an a**hole about it. Google it and read up, then get back to me.",
+        "color": "orange"
       },
       {
         "id": 4,
@@ -296,105 +221,141 @@
         "user": "Dr. Barb Miller",
         "role": "EP",
         "city": "Winnipeg, MB",
-        "text": "Actually, the 'SHOCK' score is a mnemonic device for remembering the symptoms of hypertensive emergency: Seizures (or altered mental status), Hemiparesis (or focal deficits), Oligaemia (low urine output), Kidney failure, and Critical illness. Got it from a paper by Khan et al. Worth a read!",
-        "color": "red"
+        "text": "I've had my share of high-risk pregnancy trauma cases, and I can attest to the importance of prioritizing maternal stability. The key is to maintain a stable blood pressure and prevent further injury to the uterus. Let's not forget the role of fetal monitoring in these cases.",
+        "color": "green"
       },
       {
         "id": 5,
-        "parent_id": 1,
+        "parent_id": 4,
         "user": "Leo Chen",
         "role": "MS1",
         "city": "Montreal, QC",
-        "text": "Wow, Barb, that's so cool! I had no idea about the 'SHOCK' score. Do you think it's more useful than just relying on clinical judgment?",
-        "color": "pink"
+        "text": "Hi Dr. Miller, can you clarify how you would go about performing fetal monitoring in cases of trauma? Is it just a regular NST or is there something more specific to look for?",
+        "color": "purple"
       },
       {
         "id": 6,
-        "parent_id": 1,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "F**k the 'SHOCK' score! You can't just rely on some acronym to guide your diagnosis. Emergency medicine is not about memorizing mnemonics; it's about using your clinical acumen to identify the underlying cause. Just sayin'",
-        "color": "orange"
+        "parent_id": 4,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I agree with Dr. Miller that maintaining a stable BP is crucial. However, I'd argue that the use of ultrasound-guided central lines is also essential in these cases, especially if the patient is experiencing hemorrhage.",
+        "color": "pink"
       },
       {
         "id": 7,
         "parent_id": 6,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "I concur with Rick. This 'SHOCK' score nonsense is just a Band-Aid for lazy emergency physicians. What's really needed is a good old-fashioned physical exam and some critical thinking. Now that's what I call 'Amateur Hour'",
-        "color": "yellow"
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Uh, don't you mean ultrasound-guided arterial lines? Central lines are for cardiac arrest, right?",
+        "color": "brown"
       },
       {
         "id": 8,
         "parent_id": 7,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "Gentlemen, please. Let's focus on the patient, not our egos. Hypertensive emergencies are a medical emergency, plain and simple. We need to work together to provide the best care, not get caught up in this unnecessary bickering",
-        "color": "green"
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Actually, Chad, while you're correct that central lines are for cardiac arrest, ultrasound-guided arterial lines can be useful in trauma cases, especially when peripheral lines are difficult to place. However, we should be aware of the risks associated with arterial lines, such as spasm and thrombosis.",
+        "color": "gray"
       },
       {
         "id": 9,
         "parent_id": 8,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Amen to that, Henry. Thanks for bringing us back on track. To continue the discussion, what are some other key pearls in managing hypertensive emergency? Has anyone seen any particularly challenging cases?",
-        "color": "purple"
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "I've been following this thread, and I must say, I'm a bit confused. Can someone explain to me why ultrasound-guided arterial lines are a thing? Don't we just use regular arterial lines like everyone else?",
+        "color": "yellow"
       },
       {
         "id": 10,
-        "parent_id": 9,
+        "parent_id": 1,
         "user": "Dr. Elena Varkov",
         "role": "FRCPC",
         "city": "Quebec City, QC",
-        "text": "Actually, I have a patient in mind. She's on hemodialysis for end-stage renal disease and presents with sudden-onset hypertension, headache, and visual disturbances. The kicker is that her BP is skyrocketing despite being on antihypertensive meds. Has anyone else seen similar cases? Any tips on how to manage?",
-        "color": "blue"
+        "text": "I think we're getting a bit sidetracked here. Let's refocus on the topic at hand: trauma resuscitation priorities in pregnancy. Has anyone else seen cases where the trauma was mismanaged due to lack of experience with high-risk pregnancies?",
+        "color": "turquoise"
       },
       {
         "id": 11,
         "parent_id": 10,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Lol, poor Elena! I've seen a few cases like that. One that comes to mind is when we had to intubate a patient with hypertensive emergency and pulmonary edema. It was a real challenge, but we managed to get her through it. Do you think we can share some tips on how to intubate difficult patients?",
-        "color": "pink"
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "Oh, honey, I've seen it all. Mismanaged trauma cases, high-risk pregnancies, you name it. And let me tell you, it's usually the ER docs who get it wrong. They're too busy tweeting about their coffee cups to pay attention to the patient's real needs.",
+        "color": "black"
       },
       {
         "id": 12,
         "parent_id": 11,
-        "user": "Dr. 'Ziggy' Zalesky",
+        "user": "Dr. Rick 'The Rage'",
         "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Zing! Nice one, Sparkles! I think we can all agree that intubating difficult patients is a real challenge. Has anyone seen any studies or guidelines on how to approach this situation?",
+        "city": "Windsor, ON",
+        "text": "That's it, I've had enough. You want to talk about mismanaged trauma cases? How about we talk about the hospital admins who think they can do our jobs better than we can? Yeah, let's see how they do in a real emergency.",
         "color": "purple"
       },
       {
         "id": 13,
-        "parent_id": 12,
+        "parent_id": null,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Ladies, let's keep it civil, shall we? We're all on the same team here. Dr. Maya, I agree with you about the importance of ultrasound-guided central lines. Can you recommend some resources for us nurse practitioners to learn more about this?",
+        "color": "blue"
+      },
+      {
+        "id": 14,
+        "parent_id": 13,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Actually, Sue, I can recommend a great article on ultrasound-guided central lines by Dr. Scott, a leading expert in the field. It's available online through the ACEP website. Let me see if I can find the link...",
+        "color": "green"
+      },
+      {
+        "id": 15,
+        "parent_id": null,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Hey, guys, let's not forget about the 'Fetal-Maternal Hemorrhage' thread that's been going around ED. Has anyone seen cases where Rhesus isoimmunization was a concern? We should discuss this in the context of trauma resuscitation priorities.",
+        "color": "orange"
+      },
+      {
+        "id": 16,
+        "parent_id": 15,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Hi Turbo, I think I saw a case of Rhesus isoimmunization in a trauma patient during a lecture. Can someone explain to me what the implications are for the fetus and the mother in this situation?",
+        "color": "purple"
+      },
+      {
+        "id": 17,
+        "parent_id": 16,
         "user": "Dr. Sarah Sharp",
         "role": "EP",
         "city": "Laval, QC",
-        "text": "Actually, I think I have just the thing. There's a great review article by Wang et al. that summarizes the guidelines and best practices for intubating difficult patients. Here's the link [link to study].",
-        "color": "green"
+        "text": "Actually, Leo, Rhesus isoimmunization is a serious concern in cases of significant bleeding. It can lead to fetal anemia and even death if left untreated. However, there are ways to manage the situation, including anti-D immunoglobulin administration and blood transfusions. Let me see if I can find some resources on this topic...",
+        "color": "gray"
       }
     ]
   },
   {
-    "id": 7,
-    "title": "Fever and SBI in Kids: When to Admit and Anticipate Seizures?",
-    "body": "Just saw a patient with a positive blood culture and was reminded that fever phobia still plagues us. We all know the risk of seizures in febrile children can be increased, especially if the fever is not treated. According to Table 66-3, what are the suggested guidelines for the evaluation and management of neonates, infants, and children with fever who are wellappearing, have had all relevant immunizations, and have no clinical source for fever? Should we even be admitting them to the hospital?",
-    "category": "Pediatrics",
+    "id": 3,
+    "title": "Today I Learned - Traumatic Spinal Cord Injury in Kids: Don't Forget 'Clearing the Cervical Spine'!",
+    "body": "Had a miss last night dealing with a 5yo kid who got a spinal cord injury in a bike accident. The parents were freaking out and I was trying to calm them down, but I knew I had to get the kid to CT ASAP. Luckily, the trauma team was with me every step of the way, but it made me realize how little we teach about spinal cord injuries in pediatric EM. Did you guys know that in kids with spinal cord injuries, the ligaments are relatively elastic and they often don't have accompanying fractures? It's also super difficult to 'clear the cervical spine' in these kids because of the small size and delicate anatomy. Has anyone else had a similar experience or learned something new about spinal cord injuries in kids recently? Would love to hear your thoughts!",
+    "category": "Pediatric EM",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "TLDR: for SBI in infants, we're looking at \n- <57 days: evaluate for UTI with urinalysis and culture, as SBI incidence is high \n- 57-90 days: manage consrvatively, treat with acetaminophen and ibuprofen, counsel against fever phobia. \n\nHowever, we should be aware of potential seizures. \nhttps://www.mdcalc.com/bpap-score-predicts-febrile-seizures-infants/",
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Preach, OP! Spinal cord injuries in kids are a whole different ball game compared to adults. I remember a case a few years ago where a 3yo toddler got a spinal cord injury from a backyard trampoline accident. The kid was neurologically intact but had a huge fracture of the cervical vertebrae. We were so worried about missing an associated injury but it turned out to be a classic 'seatbelt fracture'. I linked to some online resources in the comment section below that have some great tips on how to approach spinal cord injuries in pediatric kids. TLDR: It's all about being vigilant and having a low threshold for suspicion.",
         "color": "purple"
       },
       {
@@ -403,222 +364,394 @@
         "user": "Leo Chen",
         "role": "MS1",
         "city": "Montreal, QC",
-        "text": "Hi Dr. Thorne, thanks for the info! I just wanted to clarify, how common are febrile seizures? I know they can be quite scary, but I've never seen one in person.",
+        "text": "I'm curious about the term 'seatbelt fracture'. Can you explain more about how that works and why it's called that? Also, do you guys have any favorite textbooks or online resources for learning about spinal cord injuries in kids?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Dr.'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Awesome question, Leo! A 'seatbelt fracture' is a classic injury pattern in kids where the cervical vertebrae fracture due to the forceful forward motion of the head and neck. The mechanism is similar to how a seatbelt works in a car, hence the name. It's super important to be aware of this injury pattern because it often masquerades as a more benign-looking fracture but can be associated with significant neurologic compromise. I personally love the textbook 'Rushford's Pediatric Trauma' - it has some amazing chapters on spinal cord injuries in kids. Here's the link to it: https://www.amazon.com/Rushfords-Pediatric-Trauma-Stephen-Meek/dp/1496323411",
+        "color": "purple"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Wow, that's a great textbook recommendation, Dr. Z! I've heard of Rushford's before but never took a closer look at it. I'd love to get some feedback on whether it's worth purchasing or if there are other online resources that are just as good. Has anyone else used Rushford's before and what are some of its pros and cons?",
+        "color": "red"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Sarah, as a matter of fact, I've used Rushford's extensively in my practice and I can tell you firsthand that it's an excellent resource. The book covers a wide range of topics in pediatric trauma, including spinal cord injuries, and it has some amazing figures and algorithms that make it super easy to navigate. One of the things I love about Rushford's is that it's written in a very concise and practical manner, making it perfect for ER physicians like us who need to quickly make decisions.",
+        "color": "blue"
+      },
+      {
+        "id": 7,
+        "parent_id": 5,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "What about neurology exams for spinal cord injuries in kids? Do we just use the same exams as adults, or are there some specific modifications we need to make?",
+        "color": "green"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Great question, Leo! Neuro exams for spinal cord injuries in kids can be super tricky because of the size and anatomy of the spine. While the basic principles remain the same, we often need to modify our approach to accommodate the unique developmental stage of the child. One thing that's super helpful is to use a combination of physical and imaging exams to assess the spinal cord and surrounding structures. I've linked to a great resource below that has some awesome guidance on neuro exams in pediatric spinal cord injuries.",
+        "color": "purple",
+        "link": "https://emedicine.medscape.com/article/822511-overview"
+      }
+    ],
+    "image": "https://www.ebmedicine.net/media_library/images/2021-EMP-Publication-Article/10-October/Clinical-Pathway-for-Emergency-Department-Management-of-Blunt-Cervical-Trauma-in-Adult-Patients-TH.png"
+  },
+  {
+    "id": 1,
+    "title": "Rant about WPW and pulseless electrical activity",
+    "body": "Just saw a patient with WPW and thought I'd vent about the management of these patients. Long story short, I've got a patient with a Wolff-Parkinson-White (WPW) syndrome with a pre-excitation accessory pathway causing a sudden onset of supraventricular tachycardia (SVT). The patient's ECG shows a delta wave with a short PR interval, and I've confirmed it with a cardiac catheterization. What's bothering me is that some of my colleagues think this is a 'simple' case of WPW and don't think about the underlying pathophysiology.\n\nThe patient's condition is actually quite complex, and if we don't address the pre-excitation pathway, we risk causing more harm than good.\n\nTL;DR: Don't underestimate WPW and pulseless electrical activity, and make sure you understand the pathophysiology before treating.",
+    "category": "emedicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "I completely agree with you. WPW is not just a simple case of a pre-excitation pathway. It's a complex condition that requires a thorough understanding of the underlying pathophysiology.\n\nOne thing that I've noticed in my practice is that WPW patients often have a history of other cardiac conditions, such as Wolff-Parkinson-White syndrome with atrial fibrillation. This makes management even more challenging.\n\nHas anyone else seen cases like this?",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Dr. Thorne, that's really interesting. I've seen a few cases of WPW with atrial fibrillation, and it's indeed challenging to manage. Can you elaborate on how you approach management in these cases? Do you use AV nodal blocking agents?",
         "color": "green"
       },
       {
         "id": 3,
         "parent_id": 1,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "I agree with Dr. Thorne, managing fever phobia is crucial. But don't we also need to consider UTI in the differential, especially in infants? Can we discuss the risk factors for UTI in febrile infants?",
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I'd like to add that WPW patients with atrial fibrillation often require a more aggressive approach to rhythm control. We've seen some cases where adenosine was used to slow the ventricular response, but it didn't work. In those cases, we had to use electrical cardioversion.\n\nDoes anyone have experience with electrical cardioversion in these patients?",
         "color": "blue"
       },
       {
         "id": 4,
         "parent_id": 3,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Great point, Dr. Park! According to CDC guidelines, risk factors for UTI in febrile infants include: \n- Presence of a urinary tract anomaly \n- Male sex \n- Presence of fever for more than 3 days \nhttps://www.cdc.gov/antimicrobial-resistance/evidence/diagnosis.html",
-        "color": "yellow"
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Ah, come on, kids. Don't get too caught up in the technical details. At the end of the day, it's all about treating the patient, not just the WPW.\n\nBut seriously, what's the deal with adenosine not working in these cases? Is it just a matter of timing, or is there something more at play?",
+        "color": "brown"
       },
       {
         "id": 5,
-        "parent_id": 1,
-        "user": "Dr. Barb Miller",
+        "parent_id": 4,
+        "user": "Dr. Ziggy Zalesky",
         "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "I have to disagree with Dr. Thorne's approach. We should be more aggressive in our evaluation of febrile infants, especially if they have a history of UTI. In my experience, SBI can be a real concern, and we can't just 'counsel against fever phobia.'",
-        "color": "red"
+        "city": "Vancouver, BC",
+        "text": "Dr. Sterling, you're right as usual. But let's not forget that timing is everything in WPW management. If we don't get the timing right, we risk inducing a fatal arrhythmia.\n\nRegarding adenosine, I think it's just a matter of timing. If we administer adenosine too close to the P wave, it won't have enough time to take effect, and we'll end up with a refractory period that makes it harder to treat the SVT.",
+        "color": "pink"
       },
       {
         "id": 6,
         "parent_id": 5,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "I think Dr. Miller has a point. While fever phobia is a concern, we also need to consider the potential for SBI. But don't we need to balance this with the risks of over-treatment, especially in low-risk populations?",
-        "color": "orange"
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Dr. Zalesky, I'm a bit confused. Can you clarify what you mean by 'refractory period'? Is that related to the QT interval?",
+        "color": "yellow"
       },
       {
         "id": 7,
         "parent_id": 6,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Leo, a refractory period refers to the time during which the heart is unresponsive to stimuli. In the context of WPW, a refractory period can make it difficult to induce a response to adenosine.\n\nHowever, it's worth noting that adenosine is not the only treatment option for WPW. Other medications, such as flecainide and propafenone, can also be effective.\n\nDoes anyone have experience with these medications?",
+        "color": "orange"
+      },
+      {
+        "id": 8,
+        "parent_id": null,
         "user": "Turbo Tom",
         "role": "RN",
         "city": "London, ON",
-        "text": "Amen to that, Dr. Oldman! We need to think about the whole patient, not just the fever. And let's not forget about the role of antibiotics in preventing SBI. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6321134/",
-        "color": "teal"
+        "text": "Just a thought: has anyone considered the role of genetics in WPW? I've heard that some families have a higher incidence of WPW, and that it's tied to specific genetic mutations.\n\nLink to a study on the topic if anyone has it handy!",
+        "color": "red"
       },
       {
-        "id": 18,
-        "parent_id": null,
-        "user": "Dr. Phil Muddle",
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Barb Miller",
         "role": "EP",
-        "city": "Regina, SK",
-        "text": "Just a side note, but I'm pretty sure I diagnosed a UTI in a kid yesterday and my diagnosis was correct! Just saying.",
-        "color": "pink"
+        "city": "Winnipeg, MB",
+        "text": "Turbo Tom, that's a great point. The genetic basis of WPW is still not fully understood, but there is evidence to suggest that certain genetic mutations can contribute to the development of WPW.\n\nOne study found that patients with a family history of WPW were more likely to develop the condition themselves.\n\nHere's a link to the study: [link]",
+        "color": "purple"
       },
       {
-        "id": 19,
-        "parent_id": 18,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Congrats, Dr. Muddle! But did you also consider the role of SBI in your diagnosis? And don't you think we should be talking about how to improve our skills in diagnosing UTIs in febrile infants?",
-        "color": "brown"
-      },
-      {
-        "id": 20,
-        "parent_id": 19,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "I agree with Dr. Gupta. We need to be more accurate in our diagnoses. Can someone recommend some resources for improving our skills in this area?",
-        "color": "gray"
-      },
-      {
-        "id": 21,
-        "parent_id": 20,
+        "id": 10,
+        "parent_id": 9,
         "user": "Dr. Kevin Park",
         "role": "PGY1",
         "city": "Edmonton, AB",
-        "text": "Actually, there's a great article on diagnosing SBI in febrile infants. Check it out: https://www.sciencedirect.com/science/article/pii/S0735675517301349",
-        "color": "lavender"
+        "text": "Dr. Miller, that's fascinating. I've never thought about the genetic basis of WPW before. Can you explain more about the study and how it relates to the management of patients with WPW?",
+        "color": "green"
       }
     ]
   },
   {
-    "id": 8,
-    "title": "Today I Learned: Vasopressors and Inotropes in the ED",
-    "body": "I spent the entire shift last night dealing with a case of severe hypotension in our ICU ward. The patient was a 55-year-old male with a history of heart failure, and we had to administer a cocktail of vasopressors and inotropes to get his BP back up.\n\nThe key takeaway for me was the importance of understanding the different types of vasopressors and inotropes, and how to use them effectively in the ED. I was reminded of a conversation I had with a colleague about the role of dobutamine in heart failure patients.\n\nTL;DR: Vasopressors and inotropes can be game-changers in the ED, but you need to know when to use them and how to use them effectively.\n\nFull disclosure: I'm no expert, but I've learned a thing or two from my colleagues and some great online resources. For those interested, I've linked to a great article on vasopressor therapy in the ICU.\n\n[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5869455/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5869455/)",
-    "category": "emergency-medicine",
+    "id": 5,
+    "title": "Fustrated with Lightning Injuries: Don't Forget the Thermal Component!",
+    "body": "Just saw a patient with a lightning strike and had a good reminder of how easily we can forget about the thermal component of these injuries. The patient was a marathon runner who was out on a training run when a storm rolled in. He felt a sudden jolt and was knocked to the ground. When I saw him, he was alert but had a significant area of third-degree burns on his left shoulder. It turned out he had a direct strike and the electrical current did not flash over his skin as it often does in lightning injuries. The thermal component of the injury was quite severe and required a graft to repair the damaged skin. I had to dig out my old EM in Critical Care textbook to brush up on the pathophysiology of lightning injuries. Has anyone else seen this type of injury before? I've always heard that the electrical component is the most dangerous part of a lightning strike, but this case made me realize how important it is to look for thermal injuries as well.",
+    "category": "medicine",
     "comments": [
       {
         "id": 1,
+        "parent_id": null,
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "Great post, I had a similar experience with a patient last week and it was a real challenge to get their BP up. The article you linked is super helpful, thanks for sharing!",
-        "color": "purple",
-        "parent_id": null
+        "text": "TL;DR: Don't forget the thermal component of lightning injuries! I've seen a few cases like this before and it's easy to get focused on the electrical component and overlook the thermal damage. This is a great reminder to always assess for thermal injuries in patients who have been struck by lightning.",
+        "color": "purple"
       },
       {
         "id": 2,
+        "parent_id": 1,
         "user": "Leo Chen",
         "role": "MS1",
         "city": "Montreal, QC",
-        "text": "Hi Doc, I was wondering if you could clarify the difference between dobutamine and norepinephrine? In our lectures, we learned that dobutamine is an inotrope, but it also has some vasopressor effects.\n\nThanks!",
-        "color": "green",
-        "parent_id": 1
+        "text": "What's the mechanism behind the thermal component of lightning injuries? Is it due to the electrical current causing a rapid heating of the tissues or is there another factor at play?",
+        "color": "green"
       },
       {
         "id": 3,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Great question, Leo! You're absolutely right that dobutamine has both inotropic and vasopressor effects, but its primary action is to increase cardiac contractility. Norepinephrine, on the other hand, is a pure alpha-1 adrenergic receptor agonist, making it more potent as a vasopressor.\n\nHere's a quick rundown of the key points: Vasopressors, like norepinephrine, increase vascular tone and increase BP. Inotropes, like dobutamine, increase cardiac contractility and improve CO. Some agents, like epinephrine, have both inotropic and vasopressor effects!",
-        "color": "blue",
-        "parent_id": 2
+        "parent_id": 1,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Great case! This is a good reminder that lightning injuries can be just as deadly as high-voltage electrical injuries. In fact, lightning strikes are often more survivable than high-voltage electrical injuries because the current passes through the skin and doesn't penetrate as deeply into the body. However, as you pointed out, the thermal component of lightning injuries can be just as lethal as the electrical component.",
+        "color": "blue"
       },
       {
         "id": 4,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Love the discussion, guys! I had a patient last year who required a norepinephrine infusion for septic shock, and I was amazed at how quickly it brought their BP back up. Of course, it's not without risk, especially in patients with pre-existing hypertension.\n\nHas anyone else had any experiences with norepinephrine in the ED?",
-        "color": "pink",
-        "parent_id": 1
+        "parent_id": 3,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "That makes sense, but I've read that high-voltage electrical injuries can cause cardiac arrest due to the intense current passing through the heart. Is that not a concern in lightning injuries as well?",
+        "color": "green"
       },
       {
         "id": 5,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Barb, your patient sounds like a great example of the role of norepinephrine in septic shock. For those interested, I've linked to a great review article on sepsis management in the ED.\n\n[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5744448/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5744448/)",
-        "color": "purple",
-        "parent_id": 4
+        "parent_id": 4,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "Cardiac arrest from high-voltage electrical injuries is due to the direct effect of the current on the heart, whereas in lightning injuries, the heart is less directly affected. The electrical current in lightning passes through the skin and muscles before affecting the heart, so the cardiac effect is less pronounced. However, the thermal component of lightning injuries can still cause cardiac arrest due to the heat-induced damage to the myocardium.",
+        "color": "purple"
       },
       {
         "id": 6,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Thanks, guys, I feel more confident now in my knowledge of vasopressors and inotropes. One last question: what's the difference between epinephrine and norepinephrine?",
-        "color": "green",
-        "parent_id": 3
+        "parent_id": 1,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "Ah, the old 'flashover' phenomenon. I recall a case from back in the 1930s where a fellow was struck by lightning and only sustained minor burns. The electrical current passed over his skin and didn't penetrate deeply enough to cause significant damage. The thermal component, however, was quite severe and required treatment. Ah, the wonders of lightning injuries!",
+        "color": "red"
       },
       {
         "id": 7,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Great question, Leo! Epinephrine and norepinephrine both have vasopressor effects, but epinephrine also has a strong inotropic effect, making it a useful agent in cardiac arrest situations. Norepinephrine, on the other hand, is more potent as a vasopressor, which makes it a better choice for patients with severe hypertension or septic shock.\n\nSo, to recap:\n\n* Vasopressors increase vascular tone and BP\n* Inotropes increase cardiac contractility and improve CO\n* Both can be used in the ED, but it's essential to understand the differences and indications for each!",
-        "color": "blue",
-        "parent_id": 6
-      },
-      {
-        "id": 8,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Wow, thanks for the amazing discussion, guys! I'm definitely going to keep these differences in mind for the exams!",
-        "color": "orange",
-        "parent_id": 7
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Flashover, got it! That's a great explanation. And great reminder to assess for thermal injuries in lightning cases.",
+        "color": "pink"
       }
     ]
   },
   {
     "id": 1,
-    "title": "Rant about... the importance of not just diagnosing tick-borne illnesses, but understanding the vectors and clinical presentations too",
-    "body": "Just had a patient come in with flu-like symptoms and I immediately thought of RMSF. But then I started thinking about the vectors and realized that the patient was from a county where Lone Star ticks are more common, so maybe I should be thinking about Ehrlichiosis instead? Or maybe Lyme Disease even?\n\nI started thinking about how many times I've missed RMSF because I didn't take the time to learn about the different tick vectors and their clinical presentations.\n\nI decided to take a step back and review the vectors and clinical presentations of RMSF, Ehrlichiosis, and Lyme Disease. I realized that I was so focused on just diagnosing RMSE, that I wasn't taking the time to properly evaluate the patient's entire clinical presentation.\n\nI'm frustrated because I'm an emergency physician and I should know better, but I'm also grateful for the opportunity to learn and improve.\n\nTL;DR- don't just diagnose tick-borne illnesses, take the time to understand the vectors and clinical presentations too.\n\nEdit: I know some of you are going to tell me that this is obvious and that I'm overcomplicating things, but hear me out!",
-    "category": "r/emergencymedicine",
+    "title": "Had a miss last night... abdominal trauma and CT scan",
+    "body": "Just wanted to share a frustrating case from last night. We had a patient with a high-speed MVC who presented with severe abdominal pain. Initial CT scan showed a negative result, but the patient still had significant pain. The ER doc ordered another CT scan, but this time, they changed their order for a more detailed study. Low and behold, they found a small bowel injury that was missed on the initial scan. This made me think... how often do we miss abdominal injuries on CT scans?",
+    "category": "EM",
     "comments": [
       {
-        "id": 2,
+        "id": 11,
         "parent_id": null,
         "user": "Dr. Aris Thorne",
         "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "Preach! As emergency physicians, we're often so focused on just diagnosing the patient's condition, but it's equally, if not more important, to take the time to understand the underlying vectors and clinical presentations. Tick-borne illnesses are a great example of this. Have you seen the vector maps of the US? The distribution of different tick species can be quite varied even within states! We need to be taking the time to educate ourselves on the local epidemiology so we're not missing opportunities to diagnose and treat these conditions.",
-        "color": "teal"
+        "text": "I've been practicing ER for over 20 years, and I can tell you that missed abdominal injuries on CT scans are more common than we think. The key is to be aware of the patient's mechanism of injury (MOI) and to have a high degree of suspicion in patients who present with abdominal pain. The article by Shackford et al. in the AJEM 2012 provides a great review of this topic. [1] The authors note that the majority of missed injuries are small bowel and splenic injuries. It's essential to get a more detailed history from the patient and family members, especially if the patient was in a MVC.",
+        "color": "purple"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs like Dr. Thorne are forgetting that the initial CT scan was negative. You can't get a positive from a negative, it's just not possible. We should be focusing on the negative result and avoiding unnecessary additional testing. The 'detailed study' they ordered was just a waste of resources.",
+        "color": "green"
+      },
+      {
+        "id": 13,
+        "parent_id": 12,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "I completely agree with Dr. Thorne. As EPs, we need to trust our training and experience and be aware of the limitations of CT scans. A negative result does not always mean it's a no-go. We should follow the guidelines from the EAST guidelines [2] and consider the patient's clinical picture, imaging findings, and laboratory results when making decisions about additional testing.",
+        "color": "purple"
+      },
+      {
+        "id": 14,
+        "parent_id": 13,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "But what if the patient was asymptomatic on the initial presentation? Would it be safe to discharge them, or should we get another CT scan? What are the current guidelines?",
+        "color": "green"
+      },
+      {
+        "id": 15,
+        "parent_id": 14,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "According to the EAST guidelines, if a patient is asymptomatic after 6-8 hours and has a normal CT scan, it's likely safe to discharge them. However, we should continue to monitor them in the ED for signs of peritoneal irritation or other abnormal findings. I'd also like to add that the timing of the initial CT scan is crucial. If it's done too early, we might miss some injuries. The optimal timing is usually 4-6 hours after the injury [2].",
+        "color": "purple"
+      },
+      {
+        "id": 16,
+        "parent_id": 15,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "I'm a bit confused... what if the patient had a normal ultrasound and X-ray but still had a low likelihood of abdominal injury? How would we approach this patient?",
+        "color": "green"
+      },
+      {
+        "id": 17,
+        "parent_id": 16,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Hey Dr. Park, it's all about using your clinical judgement and taking a step back to think about the whole picture. If the patient has a normal ultrasound and X-ray, but still has significant pain, we should consider ordering a more advanced imaging study like an MRI or CT scan to rule out an injury. It's always better to err on the side of caution when it comes to abdominal trauma.",
+        "color": "purple"
+      },
+      {
+        "id": 18,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "TL;DR - missed abdominal injuries on CT scans are common, and we should be vigilant in our approach to these patients. The key is a good history, a thorough exam, and a high index of suspicion. And don't forget to follow those EAST guidelines!",
+        "color": "green"
+      },
+      {
+        "id": 19,
+        "parent_id": 18,
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "Sarcasm alert... Dr. Gupta, you've summarized the situation perfectly, as per usual. Now, let's focus on real-world advice. What about when the patient has a prior history of abdominal surgery, making it even more challenging to interpret the results?",
+        "color": "purple"
+      },
+      {
+        "id": 20,
+        "parent_id": 19,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "I'd like to add that patients with a history of abdominal surgery are indeed at increased risk of complications. We should carefully evaluate the patient's medical history and look for signs of surgical complications, such as peritonitis or abscesses. The use of surgical drainages and antibiotics may be necessary to prevent these complications from progressing.",
+        "color": "green"
+      },
+      {
+        "id": 21,
+        "parent_id": 20,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "Apoplexy! Apoplexy, I say! It sounds like we've got a whole host of abdominal problems brewing in here. Dr. Varkov, you're absolutely right to mention complications from prior surgery. And Dr. Gupta, your TL;DR was spot on, as always.",
+        "color": "purple"
+      }
+    ],
+    "image": "https://www.researchgate.net/publication/335434024/figure/fig1/AS:960007994630144@1605895150012/Institutional-procedure-to-treat-blunt-abdominal-trauma-in-emergency-pediatric.png"
+  },
+  {
+    "id": 101,
+    "title": "Rant about septic shock and the 'I'm a cardiologist, not an internist' conversation",
+    "body": "Just had a classic one last night. Admit 45yo man with 2 days of fever, cough, SOB, and hypotension. Initial vitals were BP 80/40, HR 140, O2 sat 88% on 2L NC. I was worried about the usual suspects - MI, STEMI, even TTP - but then I saw the lab and I was like, 'this is septic shock, folks'.",
+    "category": "r/emergencymedicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Totally agree OP! I've had a few of those conversations with the cardiologists in our hospital. They always seem to think that sepsis is something we can 'just treat with some more fluids and meds' without actually understanding the pathophysiology. But it's great that you were able to get the patient into the ICU quickly. I've linked a great review article on the management of septic shock from the CHEST journal if anyone wants to read more.[https://www.chestjournal.net/article.aspx?articleid=1796548](https://www.chestjournal.net/article.aspx?articleid=1796548)",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "@Dr. Maya Gupta, thanks for linking that article, Maya! I've read it a few times and it's always a good refresher. But let's talk about the conversation you're alluding to. What's the key takeaway you'd like the cardiologists to understand about septic shock? Is it that it's not just about fluids and meds, but also about the systemic inflammatory response and the need for targeted therapy?",
+        "color": "green"
       },
       {
         "id": 3,
         "parent_id": 2,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Great points, Dr. Thorne! One thing that I've noticed in the ER is that often, patients don't even recall their tick exposure, so we have to rely on their symptoms and the physical exam. I've seen patients come in with flu-like symptoms, but no exposure history, and then later discover that they had a tick attached for days. It highlights the importance of vigilance and considering all possible vectors.",
-        "color": "lightblue"
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "@Dr. Barb Miller, exactly! I think the biggest point we need to get across to the cardiologists is that septic shock is not just a cardiac issue. It's a systemic disease that requires a multi-system approach. The fluids and meds are just the tip of the iceberg. We need to be thinking about the whole patient, not just their heart. Maybe we can start by educating them on the pathophysiology of sepsis and how it affects the body. Has anyone had any success with teaching sessions or grand rounds on this topic?",
+        "color": "purple"
       },
       {
         "id": 4,
-        "parent_id": 2,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "I had no idea that there were so many different types of ticks! I thought it was just one big group... what's the best way to get tested for Lyme disease?",
-        "color": "pink"
+        "parent_id": 3,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I've had a few experiences with educating the cardiologists in our hospital. The best approach I've found is to use real-life case examples and walk them through the thought process of diagnosing and treating septic shock. Sometimes, they just need to be shown, rather than told. But I've also found that getting them to read the CHEST article I linked earlier can be a good starting point. Have any of you had any luck getting them to join us for a sepsis management conference or workshop?",
+        "color": "yellow"
       },
       {
         "id": 5,
-        "parent_id": 2,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Barnaby- good question! Lyme disease is typically diagnosed via a blood test, but there are some nuances to consider when interpreting the results. Have you seen the guidelines from the IDSA on diagnosing Lyme disease? They provide a detailed algorithm for testing and treatment.",
-        "color": "brown"
+        "parent_id": 4,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "@Leo Chen, yes, I've had some success getting the cardiologists to join us for sepsis management conferences. But it's always a challenge to get them to attend. I think the key is to make it relevant to their practice and to show them how sepsis management affects their patients' outcomes. Have any of you tried using simulation-based training to teach sepsis management?",
+        "color": "orange"
       },
       {
         "id": 6,
         "parent_id": 5,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Thank you for that, Dr. Sharp! I've been trying to get a handle on the guidelines but I'm still a bit unclear on when to order the serologic tests. Can you elaborate on the sensitivity and specificity of the different tests?",
-        "color": "orange"
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "@Dr. Elena Varkov, oh, totally! I've seen it done with a high-fidelity simulator and it's amazing how quickly the cardiologists pick up on the nuances of sepsis management. It's almost like they're there in the ICU with us. Has anyone else tried this approach or have any tips for implementing it in our hospital?",
+        "color": "lightblue"
       },
       {
         "id": 7,
@@ -626,7 +759,7 @@
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "Leo- the tests have varying levels of sensitivity and specificity. For example, the ELISA has a high sensitivity but lower specificity, whereas the Western Blot has higher specificity but lower sensitivity. It's all about considering the clinical context and ordering the tests appropriately.",
+        "text": "@Turbo Tom, yep, we've used the high-fidelity simulator to teach sepsis management to our residents. It's been a game-changer. We've also incorporated it into our emergency medicine residency program and it's become a staple of our curriculum. Perhaps we can share some best practices and tips on how to implement it in our hospitals?",
         "color": "purple"
       },
       {
@@ -635,8 +768,195 @@
         "user": "Chad Broson",
         "role": "Pre-med",
         "city": "Brampton, ON",
-        "text": "Wow, this is all so fascinating! Are there any good online resources for learning more about tick-borne illnesses and their clinical presentations?",
-        "color": "lightgreen"
+        "text": "What's the deal with sepsis? Is it just like a heart attack, but with bad bugs? I'm trying to wrap my head around the pathophysiology and the treatment protocols but it seems so complicated. Can anyone explain it to me like I'm a med student?",
+        "color": "pink"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Barbara Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "@Chad Broson, sepsis is actually more like acute lung injury or multi-organ dysfunction syndrome. It's a complex cascade of inflammatory responses that affects multiple systems, leading to organ failure. Think of it like a multi-car pileup on the highway. Each car represents a different system, and they all get damaged in a chain reaction. The 'bugs' you're referring to are usually bacteria, but it can be viruses or fungi too.",
+        "color": "green"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "@Chad Broson, I think Dr. Barb Miller has it just right. But let me add to it: sepsis is like a fire alarm in the body. It's a warning sign that something's gone terribly wrong, but if you don't act fast, the whole system can go up in flames. That's why we need to be so vigilant and proactive when patients come in with septic shock. We can't afford to wait and see how things go. We need to take charge and lead the charge to get those patients into the ICU and stabilized ASAP.",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Just saw a patient with severe hyponatremia after oral rehydration attempt went wrong | EM case study",
+    "body": "Had a case tonight where a 2yo with gastroenteritis was given 2 L of free water over 2 hours thinking it was oral rehydration fluid. 3.5% sodium, low GFR...  You know the drill. Patient ended up in full-blown cerebral edema.  I've seen this too many times, and it's all just because of miscommunication and inattention to detail. What's the takeaway from this and other similar cases? How can we minimize the risk of incorrect dosing in pediatric rehydration?",
+    "category": "r/EMed",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "TLDR: Don't just throw water at kids with diarrhea. Know the fluids you're giving them and correct the Na slowly. This is a common pitfall in pediatrics and I'm amazed it still happens so frequently. One thing to note is that the kid's baseline Na level will also affect how quickly you can correct it.",
+        "color": "blue"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "What does it take to be 'slowly' correcting sodium levels? Like, should we be doing it over 24h, 48h? What's the general guideline there?",
+        "color": "yellow"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Ah, great question Kevin! According to the 2013 Ann Emerg Med paper on pediatric sodium correction, you want to aim for a rate of increase of <8 mEq/L/h. That's roughly a 50mEq/L/ day increase for a 24h period. But don't go quoting me on this without checking the original source (https://www.annemergmed.com/article/S019604/13-3/00000).",
+        "color": "orange"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Wait, doesn't this case illustrate the importance of proper patient education and handoffs between healthcare providers? How can we better prevent these types of errors in a busy pediatric ER?",
+        "color": "purple"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "1000% agree with you Leo. Clear communication between teams and families is key to avoiding these mishaps. At our hospital, we use standardized scripts for patient handoffs and always make sure to clarify fluids and dosing in pediatric cases. Have you guys heard about the IHI work on pediatric handoffs (https://www.IHI.org/Topics/PatientSafety/Pages/PatientHandoffs.aspx)? Worth looking into!",
+        "color": "red"
+      },
+      {
+        "id": 6,
+        "parent_id": 4,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "As a patient who's dealt with my fair share of miscommunication, I wish healthcare providers would use patient-centric care models that prioritize understanding the individual's needs. Perhaps we could implement more personalized education for families and kids on the importance of sodium levels?",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Just had a case of failed intubation and had to resort to a surgical airway",
+    "body": "Just saw a patient come in with a head trauma and after 3 attempts, we were unable to secure a tracheal tube. The patient was in cardiac arrest and we had to insert a surgical airway to save their life. Has anyone else ever had a case like this? What are your protocols for dealing with failed intubation?",
+    "category": "emergency_medicine",
+    "created_at": "2024-02-20",
+    "upvotes": 22,
+    "views": 512,
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "This is a classic case of failed intubation due to anatomic reasons. The patient's airway was likely compromised due to the head trauma, making it difficult to visualize the vocal cords. In situations like this, it's essential to have a surgical airway protocol in place, as you did. We've had similar cases at our hospital, and we've found that a cricothyrotomy is often the best option. Have you considered adding a bougie to your intubation kit? It can be a game-changer in difficult airways.",
+        "color": "purple",
+        "created_at": "2024-02-20",
+        "upvotes": 10,
+        "views": 101
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Thank you for sharing this case, Dr. Thorne! I'm still learning about different airway management strategies, and this is really helpful. Can you clarify what you mean by 'anatomic reasons' that led to the failed intubation? Was it due to a specific feature of the patient's anatomy, such as a retrotracheal airway or a large tongue?",
+        "color": "green",
+        "created_at": "2024-02-21",
+        "upvotes": 0,
+        "views": 50
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "I've read that the Seldinger technique can be useful for inserting a surgical airway, especially in emergency situations. Can anyone comment on their experience with this technique? Have you used it successfully in the past?",
+        "color": "green",
+        "created_at": "2024-02-22",
+        "upvotes": 5,
+        "views": 150
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Yes, I've used the Seldinger technique for surgical airway insertion before, and it's been a lifesaver in a few cases. The key is to have a thorough understanding of the anatomy and the correct technique. I recommend practicing it on a cadaver or using a model to get a feel for the procedure. It's also essential to have a good team working with you, as the Seldinger technique can be challenging in emergency situations.",
+        "color": "green",
+        "created_at": "2024-02-23",
+        "upvotes": 10,
+        "views": 201
+      },
+      {
+        "id": 5,
+        "parent_id": null,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs need to realize that surgical airway insertion is a serious procedure that requires extensive training and expertise. In emergency situations, it's often necessary to resort to a more invasive approach to secure the airway, but this should not be taken lightly. I strongly advise against using the Seldinger technique for surgical airway insertion unless absolutely necessary, and even then, only if you have the proper training and experience.",
+        "color": "red",
+        "created_at": "2024-02-24",
+        "upvotes": 5,
+        "views": 201
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Haha, nice one, Dr. Sterling! I'm just starting out in med school, and I can already tell that I'm going to love arguing with you about the best approach in emergency medicine.",
+        "color": "green",
+        "created_at": "2024-02-25",
+        "upvotes": 0,
+        "views": 50
+      },
+      {
+        "id": 7,
+        "parent_id": 1,
+        "user": "Turb0 Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "As an ER nurse, I've seen my fair share of airway management attempts gone wrong. One thing that's always stuck out to me is the importance of maintaining a high level of situational awareness during these procedures. It's easy to get tunnel vision and forget to check vital signs or communicate with the team, but that's when things can go wrong. Has anyone else had any close calls or experiences with airway management mishaps?",
+        "color": "green",
+        "created_at": "2024-02-26",
+        "upvotes": 10,
+        "views": 251
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Yeah, I've heard that situational awareness is crucial in emergency medicine, but I'm not entirely sure what that means in practice. Can someone explain what you mean by 'situational awareness' in the context of airway management?",
+        "color": "green",
+        "created_at": "2024-02-27",
+        "upvotes": 0,
+        "views": 50
       },
       {
         "id": 9,
@@ -644,19 +964,37 @@
         "user": "Dr. Aris Thorne",
         "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "There are some excellent resources online, Chad! You should check out the CDC's webpage on tick-borne illnesses. They provide a wealth of information on diagnosis, treatment, and prevention. And don't forget to look at the clinical case studies they have on their site.",
-        "color": "teal"
+        "text": "Ah, great question, Leo! Situational awareness is simply being aware of your surroundings and the situation at hand. In airway management, it means being mindful of the patient's vital signs, the equipment you're using, and the team's communication. It's easy to get distracted, but when you're in the middle of a procedure, it's essential to stay focused and alert. Think of it like driving a car \u2013 you need to stay aware of the road, other cars, and your surroundings at all times. Does that make sense?",
+        "color": "purple",
+        "created_at": "2024-02-28",
+        "upvotes": 10,
+        "views": 201
       },
       {
         "id": 10,
-        "parent_id": 9,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "Don't forget to also check out the IDSA guidelines on diagnosing and treating tick-borne illnesses! They have a comprehensive summary of the evidence on tick-borne illnesses, including the clinical presentations and treatment options.",
-        "color": "blue"
+        "parent_id": 1,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "This is an excellent thread, everyone! I've learned a lot from your experiences and advice. Can I ask a question about the Seldinger technique? Is it possible to use it for patients with a tracheostomy tube in place?",
+        "color": "green",
+        "created_at": "2024-03-01",
+        "upvotes": 0,
+        "views": 50
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Good question, Dr. Park! Generally, the Seldinger technique is not suitable for patients with a tracheostomy tube in place. However, it's essential to assess each patient individually and use your best judgment. In some cases, it may be possible to use the Seldinger technique, but it requires a high degree of expertise and caution. I recommend consulting with an experienced anesthesiologist or surgeon before attempting this procedure.",
+        "color": "green",
+        "created_at": "2024-03-02",
+        "upvotes": 10,
+        "views": 201
       }
     ],
-    "image": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1270458058599554"
+    "image": "https://d16qt3wv6xm098.cloudfront.net/2xvJhg_CSiuzAOMKdT741rQ-RceegsUA/_.png"
   }
 ]
