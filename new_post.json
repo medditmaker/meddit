@@ -1,170 +1,513 @@
 [
   {
     "id": 0,
-    "title": "Today I learned that airway assessment is more than just intubating the patient",
-    "body": "Just saw a patient with a difficult airway last night and it made me think about how often we rush into intubation without proper assessment. Rapid clinical airway assessment is crucial to determine if the patient can be managed without invasive measures. We should be looking for signs of respiratory compromise, such as decreased level of consciousness, skin color changes, and increased respiratory rate and depth.",
-    "category": "emergency medicine",
+    "title": "Rant about Opioid Overdose and Acute Lung Injury: A Tale of Two Patients",
+    "body": "Just saw a patient with what I thought was a classic opioid overdose. Pupils constricted, GCS 3, respiratory rate 4. But as we started to 'revive' him, his sats kept crashing, and CXR showed diffuse infiltrates. Now I'm wondering if this is an early sign of Acute Lung Injury (ALI) due to overdose.\n\nTo make matters more confusing, the lab work came back with a weird mix of hyperkalemia, metabolic acidosis, and a slight QT prolongation. What's going on here?",
+    "category": "Clinical Case Study",
+    "user": "Dr. Maya Gupta",
+    "role": "PGY2",
+    "city": "Toronto, ON",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I completely agree. I had a case like that last month where the patient was able to be managed with a non-invasive airway. It's all about recognizing when to intervene and when to take a step back. One quick tip is to look for accessory muscle use - if the patient is recruiting their accessory muscles, it's a sign of significant respiratory distress. [link to article on accessory muscle use](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423416/)",
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great discussion, @Maya! The key here is to recognize the subtleties of opioid overdose, including the development of ALI. I've seen this before with heroin and fentanyl, where the patient's sats drop precipitously despite adequate resuscitation. This can be attributed to the release of inflammatory cytokines and the subsequent activation of the coagulation pathway.\n\nWhen it comes to lab work, we need to think beyond the usual suspects like hyperkalemia. In this case, the metabolic acidosis and QT prolongation could be related to the opioid's effects on the mitochondria and cardiac conduction, respectively.\n\nTLDR: Recognize ALI as a complication of opioid overdose, especially in high-dose cases. Consider adding a CXR to your assessment, even in patients who seem to respond to naloxone.",
         "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "That's really interesting, Dr. Gupta. Can you explain how to identify accessory muscle use? I'm a bit confused - is it just looking for visible signs like the patient is tensing up their neck or something?",
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Wait, but how do we treat ALI in the context of opioid overdose? Should we intubate immediately?",
         "color": "green"
       },
       {
         "id": 3,
         "parent_id": 1,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "Ugh, I hate airway management. Can't we just use a scope and call it a day? Seriously though, what's the protocol for managing a difficult airway in the ED?",
-        "color": "red"
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Toronto, ON",
+        "text": "Great question, Leo! In cases like this, we want to focus on stabilizing the patient first, rather than rushing to intubate. So, I'd recommend a more conservative approach, using non-invasive positive pressure ventilation (NIPPV) and ensuring that the patient's sats remain above 90%.\n\nAs for when to intubate, I'd say we should consider it if the patient starts to show signs of respiratory failure, such as severe hypoxia or a rising CO2 level. Of course, every case is different, but in general, I'd err on the side of caution and prioritize conservative management.",
+        "color": "orange"
       },
       {
         "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Dr. Rage, I feel you. But unfortunately, airway management is a critical skill that we need to master. According to the guidelines, for a difficult airway, we should consider using a rapid sequence intubation (RSI) with a laryngoscope and endotracheal tube. If that's unsuccessful, we can try using a fiberoptic bronchoscope (FOB) to intubate. Of course, it's always best to have a surgeon available for a cricothyrotomy if needed.",
-        "color": "purple"
+        "parent_id": 1,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "What about the role of steroids in treating ALI? I've heard they can be beneficial in reducing inflammation, but I'm not sure if they'd be of any use in this scenario.",
+        "color": "red"
       },
       {
         "id": 5,
-        "parent_id": 1,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "I've been using a protocol for airway management that involves a careful history and physical exam to identify high-risk patients. It's been really effective in preventing complications. Does anyone have any experience with this approach?",
-        "color": "blue"
+        "parent_id": 4,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Steroids are definitely worth considering in cases of ALI, especially if the patient is showing signs of significant inflammation. In fact, research suggests that high-dose corticosteroids can reduce mortality and improve lung function in patients with sepsis-induced ARDS.\n\nHowever, in the context of opioid overdose, the benefits of steroids are less clear-cut. On one hand, they could help reduce inflammation and prevent further lung damage. On the other hand, they might also exacerbate the patient's hyperglycemia and worsen their cardiac status.\n\nTo be honest, the evidence is still mixed, and we need more research in this area. But I'd argue that, in cases like this, it's worth trying steroids as a bridge to more definitive therapy.",
+        "color": "purple"
       },
       {
         "id": 6,
-        "parent_id": 5,
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Toronto, ON",
+        "text": "One more thing to consider: what about the role of benzodiazepines in managing agitation and seizures in the context of opioid overdose?",
+        "color": "orange"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
         "user": "Turbo Tom",
         "role": "RN",
         "city": "London, ON",
-        "text": "Yeah, Dr. Oldman, we've been using that protocol too. It's been a game-changer. We've seen a significant reduction in complications and ICU admissions. I'd love to see the specifics of your protocol - can you share the details?",
+        "text": "Benzodiazepines can be super helpful in controlling seizures and agitation in opioid OD patients. In fact, I've seen cases where a quick dose of lorazepam or midazolam has calmed down a patient in no time. Plus, they're super easy to admin \u2013 just slap a dose of Ativan or Versed, and Bob's your uncle!",
         "color": "green"
+      },
+      {
+        "id": 8,
+        "parent_id": 1,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Just a minor correction: while opioids are definitely associated with seizures and agitation, these symptoms can also be caused by other factors, like withdrawal or medication side effects. So, it's always a good idea to get a thorough history and do a thorough exam before jumping to conclusions.",
+        "color": "red"
+      }
+    ],
+    "image": "https://emergencymedicinecases.com/wp-content/uploads/2018/10/Opiod-Overdose.jpg"
+  },
+  {
+    "id": 1,
+    "title": "Spine Trauma in the Elderly: Don't Forget the Osteoporotic Fractures!",
+    "body": "",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Sarah Sharp",
+        "role": "",
+        "city": "Laval, QC",
+        "text": "",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Victor Sterling",
+        "role": "",
+        "city": "Calgary, AB",
+        "text": "Oh please, osteoporotic fractures are a given in the elderly. Anyone can spot those. The real challenge is figuring out how to manage the spinal cord injury.",
+        "color": "red"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "",
+        "city": "London, ON",
+        "text": "Actually, Dr. Sterling, osteoporotic fractures can be a challenge. We've got a patient coming in tomorrow with a 40% compression fracture and the radiologist says there's a high risk of spinal cord injury. We're discussing whether to send them to the OR or just get an MRI.",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 2,
+        "user": "Dr. Barb Miller",
+        "role": "",
+        "city": "Winnipeg, MB",
+        "text": "But don't you guys ever get those geriatric patients who just won't stop complaining about a vague, diffuse pain? I mean, sure, we do a whole spinal board on them, but still, sometimes it feels like we're over-imaging.",
+        "color": "blue"
+      },
+      {
+        "id": 5,
+        "parent_id": 3,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "",
+        "city": "Vancouver, BC",
+        "text": "Hey, Tom, when do we get the imaging results? I'm planning to go over them in the morning.",
+        "color": "purple"
+      },
+      {
+        "id": 6,
+        "parent_id": 4,
+        "user": "Dr. Maya Gupta",
+        "role": "",
+        "city": "Mississauga, ON",
+        "text": "Dr. Miller, have you seen the latest on CT scans for spine trauma? I read that it has a high sensitivity but low specificity. How do you guys choose when to stick with a CT over an MRI?",
+        "color": "red"
       },
       {
         "id": 7,
         "parent_id": 5,
-        "user": "Dr. Phil Muddle",
-        "role": "EP",
-        "city": "Regina, SK",
-        "text": "What's the goal of the history and physical exam in identifying high-risk patients for airway management? Is it just to identify potential obstacles like anatomical abnormalities or is there more to it than that?",
-        "color": "red"
+        "user": "Dr. Elena Varkov",
+        "role": "",
+        "city": "Quebec City, QC",
+        "text": "Actually, Dr. Gupta, the latest research suggests a CT scan is preferred for acute spinal fractures due to its speed and availability. However, an MRI should definitely be done for more complex cases or those with neurologic symptoms.",
+        "color": "green"
       },
       {
         "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "The goal is to identify patients who are at risk for difficult airway management due to factors such as anatomical abnormalities, obesity, or previous neck surgery. We use a combination of history, physical exam, and lab results to assess for these risks. For example, if a patient has a history of neck surgery or a known anatomical abnormality, we may decide to proceed with a more cautious approach to airway management.",
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "",
+        "city": "London, ON",
+        "text": "\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5313518/\" - here is an interesting recent study on spinal cord injury management in the elderly.",
         "color": "blue"
       },
       {
         "id": 9,
-        "parent_id": 1,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "I've seen a lot of cases where patients have been rushed to intubation without proper assessment. It's always led to complications and a longer ICU stay. We need to take our time and do a proper airway assessment before deciding on intubation.",
+        "parent_id": 6,
+        "user": "Chad Broson",
+        "role": "",
+        "city": "Brampton, ON",
+        "text": "Hey, isn't there a specific protocol for spinal cord injuries in the elderly? I remember reading about it somewhere.",
         "color": "purple"
       },
       {
         "id": 10,
-        "parent_id": 9,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "That's so true, Dr. Miller. I've been seeing a lot of cases on the wards where patients have had intubation complications. Does anyone have any tips on how to communicate with anesthesiology about airway management?",
-        "color": "green"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Good question, Leo. I think the key is to be honest about the patient's risks and communicate clearly with the anesthesiologist. We've had great success with having a joint discussion with the anesthesiologist and emergency medicine attending to determine the best approach for airway management.",
-        "color": "purple"
-      },
-      {
-        "id": 12,
         "parent_id": 1,
-        "user": "Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "Can we please, for the love of all things good and holy, just standardize our airway management protocols? It's like a different approach for every single case. I'm tired of being called in at 2 AM to manage an airway that's been botched by an 'expert'.",
+        "user": "Dr. Henry Oldman",
+        "role": "",
+        "city": "Victoria, BC",
+        "text": "I totally agree with Dr. Sharp. We've got a whole family history with osteoporotic fractures. Don't forget the need for proper pain management and early mobilization to prevent further complications.",
         "color": "red"
       },
       {
-        "id": 13,
-        "parent_id": 12,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "I agree with you, Dr. Stone. Standardizing protocols can help prevent unnecessary complications and improve patient safety. Perhaps we can collaborate on creating a unified approach to airway management?",
-        "color": "blue"
-      },
-      {
-        "id": 14,
-        "parent_id": 13,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "Hear, hear, Dr. Oldman. We nurses have been advocating for standardized protocols for years. It's time for medicine to catch up. Can we get a motion passed at the next grand rounds to start working on this?",
+        "id": 11,
+        "parent_id": 2,
+        "user": "Turbo Tom",
+        "role": "",
+        "city": "London, ON",
+        "text": "",
         "color": "green"
       },
       {
-        "id": 15,
-        "parent_id": 14,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "That'd be awesome, Martha! I'm all for improving our airway management protocols. Let's make it happen!",
+        "id": 12,
+        "parent_id": 11,
+        "user": "Dr. Kevin Park",
+        "role": "",
+        "city": "Edmonton, AB",
+        "text": "I'm a bit lost on the imaging protocols. Can someone explain to me how they choose between a CT and an MRI for spinal cord injuries in the elderly?",
+        "color": "blue"
+      },
+      {
+        "id": 13,
+        "parent_id": 6,
+        "user": "Dr. Sarah Sharp",
+        "role": "",
+        "city": "Laval, QC",
+        "text": "Actually, Dr. Gupta, it's not just about sensitivity and specificity. There's a whole set of guidelines on how to select the best imaging modality for these patients.",
         "color": "purple"
       },
       {
+        "id": 14,
+        "parent_id": 12,
+        "user": "Chad Broson",
+        "role": "",
+        "city": "Brampton, ON",
+        "text": "What about the patients who don't have osteoporotic fractures? Are there any guidelines for them as well?",
+        "color": "red"
+      },
+      {
+        "id": 15,
+        "parent_id": 13,
+        "user": "Dr. Maya Gupta",
+        "role": "",
+        "city": "Mississauga, ON",
+        "text": "Actually, there are different guidelines for trauma and non-trauma patients. We've got a protocol for the trauma patients and one for the non-trauma patients as well.",
+        "color": "green"
+      },
+      {
         "id": 16,
-        "parent_id": null,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Has anyone else noticed a trend towards more aggressive use of airway management in the ED? It seems like we're intubating more patients than we used to.",
+        "parent_id": 14,
+        "user": "Leo Chen",
+        "role": "",
+        "city": "Montreal, QC",
+        "text": "",
         "color": "blue"
       },
       {
         "id": 17,
         "parent_id": 16,
+        "user": "Dr. Elena Varkov",
+        "role": "",
+        "city": "Quebec City, QC",
+        "text": "TL;DR: for the non-trauma patients, the guidelines recommend starting with a CT scan, and then proceeding to an MRI if the CT is inconclusive.",
+        "color": "purple"
+      },
+      {
+        "id": 18,
+        "parent_id": 17,
+        "user": "Martha 'The Hammer'",
+        "role": "",
+        "city": "Halifax, NS",
+        "text": "But what about the geriatric patients with osteoporotic fractures? Do they follow the same protocol as the non-trauma patients?",
+        "color": "red"
+      },
+      {
+        "id": 19,
+        "parent_id": 18,
+        "user": "Barnaby Finch",
+        "role": "",
+        "city": "Surrey, BC",
+        "text": "",
+        "color": "green"
+      },
+      {
+        "id": 20,
+        "parent_id": 19,
+        "user": "Dr. Archibald Thorne",
+        "role": "",
+        "city": "Saskatoon, SK",
+        "text": "In my day, we used to just get an X-ray and send the patient to the OR for further examination. None of this fancy-pants MRI and CT business!",
+        "color": "blue"
+      },
+      {
+        "id": 21,
+        "parent_id": 20,
+        "user": "Dr. Victor Sterling",
+        "role": "",
+        "city": "Calgary, AB",
+        "text": "Oh, please, Dr. Thorne. You're showing your age. Nowadays we've got to be aware of all the subtleties in spinal cord injury management.",
+        "color": "purple"
+      },
+      {
+        "id": 22,
+        "parent_id": 21,
+        "user": "Chad Broson",
+        "role": "",
+        "city": "Brampton, ON",
+        "text": "",
+        "color": "red"
+      },
+      {
+        "id": 23,
+        "parent_id": 22,
         "user": "Turbo Tom",
-        "role": "RN",
+        "role": "",
         "city": "London, ON",
-        "text": "Yeah, Dr. Sharp, I've seen that too. I think it's related to the increasing acuity of patients we're bringing in. With more severe illnesses and injuries, we're having to intubate more patients to maintain airway safety.",
+        "text": "Well, that's it for me folks! I hope I've given you all a good rundown on spinal cord injury management in the elderly.",
+        "color": "green"
+      },
+      {
+        "id": 24,
+        "parent_id": 23,
+        "user": "Dr. Barb Miller",
+        "role": "",
+        "city": "Winnipeg, MB",
+        "text": "Actually, we've just started a new trial on the management of osteoporotic fractures in geriatric patients. I think it's going to be a real game-changer!",
+        "color": "blue"
+      },
+      {
+        "id": 25,
+        "parent_id": 24,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "",
+        "city": "Vancouver, BC",
+        "text": "",
+        "color": "purple"
+      },
+      {
+        "id": 26,
+        "parent_id": 25,
+        "user": "Sparkle-Eyes Sue",
+        "role": "",
+        "city": "St. John's, NL",
+        "text": "I love this conversation! Can we get a link to the trial, Dr. Miller?",
         "color": "green"
       }
-    ],
-    "image": "https://i.ytimg.com/vi/bgpSRBT_8GY/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDblJjUyMRDn7MTSwbOCO6Bw1DA7Q"
+    ]
   },
   {
     "id": 1,
-    "title": "Missed diagnosis of pelvic inflammatory disease (PID). What are your horror stories? ",
-    "body": "TLDR: 45-year-old female patient, presenting with vague lower abdominal pain and an elevated white cell count. I managed to miss PID despite multiple blood cultures, urinalysis, and vaginitis screening. I'm still trying to wrap my head around it. Rant about the challenges of diagnosing PID in adults, especially in the ED.",
+    "title": "Today I Learned: Cerebral Arterial Gas Embolism (CAGE) in the ER - What to Look OUT FOR",
+    "body": "Had a miss last night with a 35-yr-old scuba diver who came in hypotensive and seizing. Turned out to be a CAGE from a pneumothorax. Had to do an emergent thoracotomy to relieve the tension pneumothorax and remove the clot. Patient is now intubated and being weaned off sedation. But I'm still reeling from the case. Has anyone else ever had to deal with a CAGE in the ER? What are your tricks for identifying it and managing it?",
+    "category": "emergency_physicians",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "@TurboTom, did you notice any specific clinical features that led you to suspect CAGE? Was there a specific pattern to the pain or neuro symptoms?",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": null,
+        "user": "TurboTom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "I knew this one was going to be a long day when I saw him come in with a 40-something scuba diver who'd just surfaced from a dive. The patient looked like he'd just seen a ghost. I told him to get the patient on a monitor FAST and get a stat CXR. Luckily, our EP saw the CAGE and got the patient treated ASAP. Good thing we've got the neuro team on call!",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "@SparkleEyesSue, TL;DR: Look for seizures, LOC, and sudden onset of severe headache or eye issues - those are the red flags for CAGE. We've got a case review on our hospital's ER forum that discusses the details if you need a refresher.",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "I just got back from a dive trip to the Keys and I think I might have had a CAGE. I didn't do a full decompression dive, but I did hold my breath for a bit longer than I should've. Can anyone tell me what I should do next?",
+        "color": "red"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "@BarnabyFinch, good fellow, take no chances! Get to the hospital RIGHT AWAY if you're experiencing any symptoms like I mentioned above. We'll do some tests and figure out what's what. In the meantime, try to RELAX, my dear chap.",
+        "color": "orange"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Wait, is a CAGE the same as a gas embolism? Can someone clarify the difference?",
+        "color": "yellow"
+      },
+      {
+        "id": 7,
+        "parent_id": 1,
+        "user": "Dr. Rick 'The Rage'",
+        "role": "EP",
+        "city": "Windsor, ON",
+        "text": "@Dr.SarahSharp, you're not going to believe the number of CAGE cases I've seen in my years at this hospital. We've got to get better about teaching these things to the new doc crowd!",
+        "color": "pink"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Whoa, @Dr.RickTheRage, that many? Can you give us some stats on the incidence of CAGE in the ER?",
+        "color": "purple"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "@Dr.RickTheRage, you're a legend, Rick! CAGE is a nightmare to diagnose and treat. We should all take a refresher course on this one.",
+        "color": "blue"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "@MarthaTheHammer, stop with the 'CAGE is a nightmare' this and the 'we need to do this and that.' It's not rocket science! Just get the patient to the OR and sort out the details later.",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Today I Learned: Trauma in Pregnancy - Fetal\u2013maternal hemorrhage, uterine rupture, and more...",
+    "body": "Just saw a patient with a traumatic injury in the third trimester and it got me thinking... Who else deals with this on a regular basis? I've read about fetal\u2013maternal hemorrhage and uterine rupture, but I'd love to hear about any experiences or best practices from the EM community. Specifically, what are the key considerations and management strategies for trauma in pregnancy?",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "When dealing with trauma in pregnancy, our goal is to prioritize maternal stability and survival, which ultimately enhances fetal well-being. This means we shouldn't delay critical interventions or diagnostic procedures due to concerns about potential adverse effects on the fetus. In the case of abdominal trauma, we should perform a sterile pelvic exam to assess for genital trauma, vaginal bleeding, or ruptured amniotic membranes post-pelvic ultrasound to determine placental location. Fluid with a pH of 7 in the vaginal canal suggests amniotic fluid, which is crucial for evaluating fetal distress. I've found this algorithm helpful: <https://www.acep.org/Clinical---Practice-Management/Trauma-in-Pregnancy/>. TLDR: Prioritize maternal stability, assess for hemorrhage and rupture, and keep an eye on fetal distress.",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "Amen to that, @Aris! In my experience, trauma patients often have altered anatomy due to pregnancy. We need to be extra vigilant for signs of hypovolemic shock, which might be masked by pregnancy-related changes. Also, keep in mind that the fetal heart rate can be a better indicator of distress than maternal vitals. I like to use this reference for pregnancy-specific trauma management: <https://journals.lww.com/americanjofob/Fulltext/2019/03000/New_Guidelines_for_Pregnancy_Complicated_by_Trauma.4.aspx>.",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "Um, what about the baby? I mean, I'm trying to stay calm, but if I get hurt, what about my little one?",
+        "color": "orange"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Sorry, @Barnaby! The good news is that fetal injuries are rare, but when they do happen, they often occur in the third trimester and are associated with pelvic fractures or penetrating trauma in the mother. We should focus on stabilizing the mother to ensure the best possible outcome for the baby.",
+        "color": "blue"
+      },
+      {
+        "id": 5,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Can someone explain to me the difference between fetal\u2013maternal hemorrhage and uterine rupture? Are they related? Also, what about preterm labor and placental abruption?",
+        "color": "green"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Great questions, @Leo! Fetal\u2013maternal hemorrhage refers to bleeding that occurs between the mother and baby, which can be caused by trauma. This can lead to Rh isoimmunization in Rh-negative women, so it's essential to identify and manage this complication promptly. Uterine rupture is a rare but life-threatening condition that requires immediate surgical intervention. Preterm labor and placental abruption are related to placental dysfunction, but they have different clinical presentations. We can discuss more if you'd like.",
+        "color": "blue"
+      },
+      {
+        "id": 7,
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I've had patients with trauma in pregnancy who developed severe maternal hypertension. Has anyone else encountered this and, if so, how did you manage it?",
+        "color": "red"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Oh yeah, maternal hypertension is a big concern in trauma patients! I always make sure to get a urine specimen for protein and creatinine in these cases. If hypertension is present, I'd recommend consulting with the maternal-fetal medicine team. They can provide guidance on managing blood pressure and monitoring fetal well-being.",
+        "color": "green"
+      }
+    ],
+    "image": "https://i0.wp.com/iem-student.org/wp-content/uploads/2019/10/Trauma-in-pregnancy.png?fit=1024%2C512"
+  },
+  {
+    "id": 4,
+    "title": "Rant about incomplete spinal cord lesions: When does it become a complete lesion?",
+    "body": "Just saw a patient with an apparent incomplete spinal cord lesion who ended up having a complete lesion due to delayed diagnosis of spinal shock. Has anyone else ever had this happen to them? We relied heavily on flexion-extension X-rays, but in hindsight, there were signs of impending complete lesion.",
     "category": "emergency medicine",
     "comments": [
       {
@@ -173,615 +516,53 @@
         "user": "Dr. Aris Thorne",
         "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "This happens to the best of us. We're not perfect, and PID can be sneaky. A quick reminder - in adults, PID is often a combination of endometritis, salpingitis, tubo-ovarian abscess, and pelvic peritonitis. Common pathogens include Neisseria gonorrhoeae and Chlamydiatrachomatis. What really gets me is the lack of specific symptoms. The presentation can be as simple as a vague discomfort, which led you straight into the minefield. You're not alone, Dr. Sterling. I still have nightmares about missing this diagnosis back in 2017. [link to article](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5719337/) on the spectrum of PID, just in case.",
+        "text": "I've seen this happen before. The key is to recognize when spinal shock is likely due to an incomplete lesion versus when it's a sign of a complete lesion. In complete lesions, you often see a loss of function below the level of injury, whereas in incomplete lesions, there's typically some preserved function. We always do an immediate CT or MRI to rule out other causes of spinal shock. Has anyone seen the latest AANS guidelines on this topic?",
         "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Um, sorry Dr. Thorne, but shouldn't we be focusing on getting a good sexual history with the patient? Like, it's a crucial part of diagnosing PID, right?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs! PID diagnosis is a walk in the park if you've actually seen the anatomy of the female reproductive tract. Get an ultrasound and send those blood cultures like you're ordering takeout. Oh, and yes, get a good sexual history while you're at it. You might still miss it, but at least you tried.",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Amateurs?! Oh, come on, Dr. Sterling! You might be an accomplished surgeon, but you're clearly out of touch with the front line. Blood cultures don't always pan out, and we all know how finicky ultrasounds can be. PID is a beast, my friend. Even with all the best intentions, we can still get blindsided.",
-        "color": "orange"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "I see what Dr. Sterling is saying, but don't we also need to consider the patient's overall risk factors, like a new sexual partner within the past 30 days, multiple sexual partners, age, etc.? Shouldn't we be taking a more holistic approach?",
-        "color": "turquoise"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Actually, that's a great point, Dr. Jenkins. The risk factors are crucial. Have we all been keeping up with the latest ACOG guidelines on PID management? [link to article](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5731444/)",
-        "color": "red"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Uh, what's ACOG? Sorry if this is a stupid question, folks. Can someone explain it to me?",
-        "color": "brown"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "ACOG is the American College of Obstetricians and Gynecologists, lad! A great resource for all things obstetrics and gynecology. Don't worry about asking questions; we're all here to learn.",
-        "color": "gray"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Rant about unstable angina misdiagnosis!",
-    "category": "r/emergencymedicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "r/DrArisThorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Just saw a patient with unstable angina who was dismissed by the ED doc as 'just anxiety'.  The patient had a clear history of CAD, exertional chest pain, and ECG changes!  Any thoughts on how to prevent this from happening?",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "r/DrSterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs.  They can't tell the difference between angina and anxiety.  Send them to me and I'll fix their incompetence.",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "r/ZiggyZ",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Hey, @DrArisThorne.  Been there, done that.  Unstable angina is all about risk stratification.  We gotta assess their risk of MI and intervene quickly.  @DrSterling, chill out, dude.  We're trying to help patients here.",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "r/LeoChen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "What do you mean by 'risk stratification', @ZiggyZ?  Can you explain?",
-        "color": "orange"
-      },
-      {
-        "id": 5,
-        "parent_id": 3,
-        "user": "r/SarahJenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Actually, @DrArisThorne, unstable angina is a clinical diagnosis based on history, physical examination findings, and diagnostic testing.  It's not just about ECG changes.",
-        "color": "red"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "r/DrArisThorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Thanks, @SarahJenkins, but that's not entirely accurate.  Unstable angina does involve ECG changes and troponin elevation.",
-        "color": "purple"
-      },
-      {
-        "id": 7,
-        "parent_id": 4,
-        "user": "r/ZiggyZ",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Risk stratification, @LeoChen, means evaluating the patient's likelihood of MI, MI in the next 24 hours, and the need for urgent intervention.  We use tools like the TIMI risk score and the GRACE risk score to do this.",
-        "color": "green"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "r/LeoChen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Thanks, @ZiggyZ!  I get it now.  So, if the patient has a high risk of MI, we would admit them and start an IV heparin drip?",
-        "color": "orange"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "r/SarahJenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Actually, @LeoChen, we would also consider angiography or cardiac catheterization to revascularize the patient, depending on their risk level.",
-        "color": "red"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "r/ZiggyZ",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "TL;DR: unstable angina is a clinical diagnosis, not just a fancy term for anxiety.  Risk stratification is key.  We use TImI and GRACE risk scores.  Angiography or cardiac catheterization may be necessary for revascularization.  Now, go out there and save some patients!",
-        "color": "green"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "r/DrArisThorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Thanks, @ZiggyZ!  I think we've all learned something new today.  Any other comments or insights?",
-        "color": "purple"
-      },
-      {
-        "id": 12,
-        "parent_id": null,
-        "user": "r/DrSterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs still don't get it.",
-        "color": "green"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Frustrated by JNC7 classification",
-    "body": "Just had a patient come in with a BP of 220/140 and the chart listed it as \"hypertensive urgency\" because they weren't showing any 'target organ dysfunction.' Meanwhile, they've been having chest pain and shortness of breath for the past 24 hours. What am I missing here?",
-    "category": "Emergency Medicine",
-    "comments": [
-      {
-        "id": 2,
-        "parent_id": null,
-        "user": "Leo Chen MS1",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "I think the key distinction here is whether the patient has acute target organ dysfunction or not. Hypertensive urgency is when you have high blood pressure without organ dysfunction (JNC7 class 3). Hypertensive emergency is when you have high blood pressure with organ dysfunction (JNC7 class 1 or 2).",
-        "color": "blue"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Dr. Maya Gupta PGY2",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Thanks for clarifying this, Leo. In practice, it can be really tough to tell the difference between hypertensive urgency and emergency. The key is whether the patient has symptoms that suggest organ damage or not. For example, if someone has chest pain and shortness of breath, it's probably hypertensive emergency.",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 2,
-        "user": "Dr. Victor Sterling Chief of Surgery",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs who can't tell the difference between hypertension and hypertensive emergency. Remember, it's not just about the blood pressure, it's about the symptoms and physical exam. Hypertensive emergency is when you have acute organ damage, plain and simple.",
-        "color": "red"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Leo Chen MS1",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Sterling, that's not exactly helpful. While it's true that organ damage is a key feature of hypertensive emergency, it's not always easy to tell if someone has acute organ damage based on the blood pressure alone.",
-        "color": "purple"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Maya Gupta PGY2",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I agree with Leo, Dr. Sterling. There's a lot of nuance to this topic, and it's not just a matter of checking the patient's blood pressure. What do you think about the role of imaging studies, such as ECGs and chest X-rays, in diagnosing hypertensive emergency?",
-        "color": "green"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Turbo Tom RN",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Hey, can I jump in here? As an ER nurse, I've seen plenty of patients come in with blood pressures in the 'urgency' range who end up going home and doing just fine. But others, who are having actual symptoms, end up requiring admission. It's all about being aware of your own biases and not rushing to admit someone just because their BP is high.",
-        "color": "orange"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Chad Broson pre-med",
-        "role": "pre-med",
-        "city": "Brampton, ON",
-        "text": "Hey guys, just wondering - what's the typical workup for someone coming in with a high BP? Is it like a full-on cardiology consult or something?",
-        "color": "pink"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Sarah Jenkins MS3",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Great question, Chad! Typically, we start with a basic ECG and maybe some lab work, like CBC and electrolytes. Then, if the patient is stable, we might send them home with some meds and follow-up appts. But if they're having symptoms or have other risk factors, we may do more aggressive workup, like imaging studies or cardiology consult.",
-        "color": "brown"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Ziggy Zalesky EP",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Yeah, and don't forget the importance of patient communication. We need to clearly explain to the patient (and their family, if necessary) what's going on, what treatments are being considered, and what they can expect in terms of follow-up care.",
-        "color": "gray"
-      }
-    ],
-    "image": "https://todaysveterinarypractice.com/wp-content/uploads/sites/4/2011/09/f03_table1.gif"
-  },
-  {
-    "id": 1,
-    "title": "Had a miss last night in the ED with a 45-year-old dehydrated and confused patient, turned out to be a classic case of exertional heat stroke. Anyone else have one of these?",
-    "body": "The patient was a marathon runner who had completed a 30K run in 37\u00b0C heat and humidity. His pulse was 180, temp was 42.5\u00b0C, and capillary refill was delayed. He had just been found lying on the ground unable to move. The initial vitals were stable but the patient's mental status rapidly deteriorated.",
-    "category": "Emergency Medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs over-diagnosing heat stroke again. The patient was clearly hypoglycemic and needed a dextrose stat. Anyone who says heat stroke is just 'a common sense diagnosis' is an idiot. Here's a review article on the topic: https://en.wikipedia.org/wiki/Heat_stroke#Diagnosis",
-        "color": "red"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "Victor, calm down, you're not helping. Exertional heat stroke is real and it's a legitimate medical condition. I've been working in the ED for 30 years and I've seen my fair share of heat stroke cases. Let's focus on providing evidence-based care rather than dismissing the diagnosis.",
-        "color": "blue"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Sterling, what criteria do you use to diagnose heat stroke? Is it just a high temp or is there any other criteria that we should be looking at?",
-        "color": "purple"
-      },
-      {
-        "id": 4,
-        "parent_id": 2,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Martha, I agree with you. I've had a few cases of exertional heat stroke in my residency and the key is to identify the high-risk population (e.g. athletes, military personnel). They're often the ones who are pushing themselves to the limit and neglecting their hydration.",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": 3,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Leo, don't worry, it's not that simple. Exertional heat stroke involves a complex interplay of factors, including environmental conditions, individual susceptibility, and the severity of the exercise. There's also a continuum of heat illnesses, ranging from heat cramps to heat exhaustion to heat stroke.",
-        "color": "yellow"
-      },
-      {
-        "id": 6,
-        "parent_id": 1,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "Can we just agree that the diagnosis of heat stroke is not just about the number on the thermometer? The clinical examination is key, and that's where most of us screw up. Let's focus on identifying the subtle signs of heat stroke, like altered mental status, rapid pulse, and dry skin.",
-        "color": "orange"
-      },
-      {
-        "id": 7,
-        "parent_id": 4,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Dr. Gupta, so what are the immediate actions we should take for a patient with suspected exertional heat stroke?",
-        "color": "pink"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "Ah, my young friend, you want to know how to save a life? First, call for help and start cooling the patient as quickly as possible. Next, assess the patient's airway, breathing, and circulation, and address any immediate threats to life. And finally, transport the patient to a cooling center or a hospital as soon as possible.",
-        "color": "brown"
-      },
-      {
-        "id": 9,
-        "parent_id": 6,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Dr. Rick, you make a great point about the clinical examination. What are some of the key signs and symptoms that should make us think of heat stroke?",
-        "color": "gray"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Kevin, it's not rocket science, but I'll spell it out for you. Heat stroke patients often complain of heat intolerance, headaches, and nausea. They may also have altered mental status, confusion, or even hallucinations. And don't forget about the physical exam signs like tachycardia, hypertension, and dry skin.",
-        "color": "silver"
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "title": "Just saw a patient with a tricky intubation today... Non-invasive airway management discussion",
-    "body": "Just saw a patient with a tricky intubation today. The airway was a bit more complicated than we anticipated, and we had to use a bougie. I started thinking about non-invasive airway management techniques and how often we overlook them in favor of rapid sequence intubation.",
-    "category": "r/emergencymedicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "TBH, non-invasive airway management is so underrated in EM. We're so focused on getting a tube in quickly that we often forget about the other options. Have you guys considered using oropharyngeal suctioning to help improve the airway?",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Actually, Dr. Gupta, I was reading about oropharyngeal suctioning the other day and I was wondering if it's not contraindicated in patients with facial trauma? I thought I read that it could worsen the bleeding in those cases?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Hey guys, what's the difference between an oropharyngeal airway and a nasal trumpet? Are they interchangeable?",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Actually, Chad, an oropharyngeal airway is a tube that's placed through the mouth to keep the airway open, whereas a nasal trumpet is a device that's inserted into the nostril to help maintain an open airway. They're not interchangeable, but they can be used together in some cases.",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": null,
         "user": "Dr. 'Ziggy' Zalesky",
         "role": "EP",
         "city": "Vancouver, BC",
-        "text": "Just a quick thought - when it comes to non-invasive airway management, we should also consider the patient's cervical spine stability. I've seen too many patients with unstable C-spines who need to be intubated ASAP.",
-        "color": "purple"
+        "text": "I agree with Dr. Thorne. I've also had patients with incomplete lesions progress to complete lesions due to missed spinal shock. One trick I use is to check the patient's reflexes at multiple levels. If you're seeing a delayed reflex at a specific level, it can be a sign of impending complete lesion.",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Dr. Thorne, can you explain more about the AANS guidelines? And Dr. Ziggy, what does it mean when you say 'delayed reflex'?",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I've also seen patients with incomplete lesions progress to complete lesions due to spinal shock. One thing that's helped me is to monitor the patient's sensation and muscle strength at multiple levels. If you're seeing deterioration in either of these areas, it's a red flag for impending complete lesion.",
+        "color": "green"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Dr. Gupta, can you explain more about how to assess muscle strength in a patient with an incomplete lesion?",
+        "color": "green"
       },
       {
         "id": 6,
-        "parent_id": 5,
+        "parent_id": 4,
         "user": "Dr. Henry Oldman",
         "role": "CCFP",
         "city": "Victoria, BC",
-        "text": "Amen to that, Dr. Zalesky. We should always prioritize the patient's cervical spine stability, especially in trauma patients. And don't forget about the '3 Ps' - Predominant pathology, Position, and Precordial trauma!",
-        "color": "green"
-      },
-      {
-        "id": 7,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Hey docs, just a thought - have you guys ever used a supraglottic airway in a patient with a difficult airway? Just wondering if it's worth considering.",
-        "color": "purple"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Phil Muddle",
-        "role": "EP",
-        "city": "Regina, SK",
-        "text": "Actually, Turbo Tom, I've used a supraglottic airway before and it was a lifesaver in a patient with a difficult airway. But be careful not to get the cuff too big, or it can cause gastric inflation!",
-        "color": "green"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "What's the difference between a supraglottic airway and an LMA? Are they used in the same context?",
-        "color": "green"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Actually, Leo, an LMA is a type of supraglottic airway, but they're not exactly the same. An LMA is a more invasive device that's inserted into the pharynx, whereas a supraglottic airway is a tube that's placed through the mouth to keep the airway open. Think of it like a 'bridge' between the nasal trumpet and the endotracheal tube.",
-        "color": "green"
-      }
-    ]
-  },
-  {
-    "id": 6,
-    "title": "Rant about complex partial seizures in the ED - how do you approach?",
-    "body": "Just saw a patient with a complex partial seizure and I'm still trying to process it. The patient was a young adult who came in with a few days of increasing confusion, memory lapses, and difficulty with speech. Initial vitals looked okay, but the patient's behavior was suspicious. They would repeat phrases, stare off into space, and have trouble following commands.\n\nThe ED physician called me in for a consult to evaluate the patient for possible status epilepticus. We ran some labs (including a BMP, CBC, and ECG), and did a CT head, but nothing stood out. I reviewed the EEG, and it showed a clear pattern of temporal lobe seizures. We managed to control the seizures with IV lorazepam, but the patient was clearly confused and disoriented for a few hours after the seizure.\n\nThe question is, how do you approach a patient with a complex partial seizure in the ED? Do you admit them for observation, or can they be safely discharged home? What are the most common causes of complex partial seizures, and how do you diagnose them? Has anyone else seen a similar case recently?\n\nTL;DR: Complex partial seizure in the ED - how do you handle it?",
-    "category": "EM CME",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Ziggy_Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "I've seen this stuff before. Complex partial seizures are usually due to temporal lobe seizures, and the patient needs to be treated with a broad-spectrum antiepileptic. I always admit them for observation, just in case. We need to run some more tests to rule out other causes, like a brain tumor or multiple sclerosis. Has anyone seen the paper by Hauser and Hesdorffer on the classification of seizures?",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo_Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Zalesky, thanks for the reply! I'm not sure I understand the classification system. Can you explain why you think it's temporal lobe and not another type of seizure? Is there a specific set of symptoms that's typical for temporal lobe seizures?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Sarah_Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Actually, Dr. Zalesky, I'd like to disagree. Complex partial seizures can also be due to frontal lobe seizures, especially in younger patients. And we shouldn't be so quick to admit patients without a thorough evaluation. According to a study by Cavallini et al., the majority of children with complex partial seizures can be safely discharged home. What do you think?",
+        "text": "I'm not sure about this. I've seen patients with incomplete lesions who didn't progress to complete lesions. I think it's more about the individual's specific anatomy and how they're affected by the injury. We should be cautious about making assumptions based on the lesion type alone.",
         "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 2,
-        "user": "Turbo_Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Hey guys, just throwing in my 2 cents. From a nursing perspective, we need to make sure our patients are getting the proper treatment and monitoring. I always advocate for continuous cardiac monitoring and a thorough neurological exam. Has anyone seen the guidelines by the American Epilepsy Society on seizure management?",
-        "color": "red"
-      },
-      {
-        "id": 5,
-        "parent_id": 3,
-        "user": "Maya_Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Sarah, I totally agree with you. As a resident, I've seen similar cases where the patient was misdiagnosed with a frontal lobe seizure, only to discover it was actually a temporal lobe seizure with some atypical features. We need to do a comprehensive workup and avoid jumping to conclusions. And @Leo, great question, Ziggy can walk us through the classification system in more detail.",
-        "color": "orange"
-      },
-      {
-        "id": 6,
-        "parent_id": null,
-        "user": "Dr._Sarah_Sharpe",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Actually, I'd like to take a step back and remind everyone that complex partial seizures can be caused by a multitude of factors, including structural, metabolic, and genetic causes. We need to approach each patient individually and consider all possible diagnoses. What do you guys think?",
-        "color": "yellow"
-      },
-      {
-        "id": 7,
-        "parent_id": 4,
-        "user": "Dr._Kevin_Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Thanks for the reminder, Dr. Sharp. I completely agree that we need to do a thorough workup before making any conclusions. From my experience in the ED, I've seen patients with complex partial seizures who have had recent head trauma, infections, or other conditions that needed to be addressed. Can someone confirm or deny this?",
-        "color": "purple"
-      },
-      {
-        "id": 8,
-        "parent_id": 5,
-        "user": "Barnaby_Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "Um, guys, I think I have something to add here. As a patient who recently experienced a seizure, I can tell you that it was terrifying. But the doctor and nurses were very kind and explained everything to me in a way that made sense. So, thanks for your input, and don't forget about the patient's perspective!",
-        "color": "green"
-      }
-    ],
-    "image": "https://i0.wp.com/emcrit.org/wp-content/uploads/2022/07/statusepi.jpg?resize=450%2C701&ssl=1"
-  },
-  {
-    "id": 1,
-    "title": "Just had a near miss with acetaminophen toxicity... | r/EMERGENCYMEDICINE",
-    "body": "Just saw a patient with abdominal pain and vomiting. Liver enzymes were slightly elevated. I was thinking alcohol-induced hepatitis, but it turns out they took a bunch of Tylenol a few days ago. Thankfully, it was caught early and they were started on NAC. Had to dig through my old notes to remember the Matthew nomogram and the treatment algorithm... | TLDR: Always consider acetaminophen toxicity in patients with liver enzyme elevations, even if they don't fit the classic profile.",
-    "category": "share",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Great reminder, OP! Acetaminophen toxicity is a common cause of acute liver failure in the ED. Always get an acetaminophen level ASAP if you suspect toxicity. Has anyone else had trouble getting the NAC dosing right?",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs. You'd think that's basic knowledge by now. But just in case, let me remind you: the nomogram only applies to single acute ingestions between 4-24 hours postingestion. Don't get me started on the dosing of NAC...",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Dr. 'Ziggy' Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Easy there, Victor! We know the nomogram. Thanks for the reminder, Aris. I think we're all guilty of forgetting the details from time to time. Has anyone else seen anything like this before?",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "So, I was just reading about the different clinical stages of acetaminophen toxicity. Can someone explain the Matthew nomogram and how it works?",
-        "color": "purple"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "The Matthew nomogram is a graphical tool used to estimate the probability of hepatotoxicity based on the time elapsed since ingestion and the acetaminophen concentration. The x-axis represents the time elapsed, and the y-axis represents the acetaminophen concentration. The nomogram allows you to calculate the risk of hepatotoxicity by combining these two factors. Does anyone know of any online resources that explain the nomogram in more detail?",
-        "color": "blue"
-      },
-      {
-        "id": 6,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Just to add to Aris' point: it's also crucial to consider the possibility of acetaminophen toxicity in patients with viral hepatitis. The liver is already compromised, so even a small amount of acetaminophen can push them over the edge.",
-        "color": "green"
       },
       {
         "id": 7,
@@ -789,313 +570,514 @@
         "user": "Dr. Barb Miller",
         "role": "EP",
         "city": "Winnipeg, MB",
-        "text": "Preach, Maya! We need to start thinking outside the box and considering the complexities of liver disease. Has anyone else seen cases of liver failure in patients with viral hepatitis?",
-        "color": "purple"
+        "text": "I agree with Dr. Oldman. We need to consider the whole patient, not just the lesion type. I've seen patients with 'incomplete' lesions who ended up with poor outcomes due to other factors.",
+        "color": "red"
       },
       {
         "id": 8,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "So, I was reading about the treatment algorithm for acetaminophen toxicity... can someone explain the role of NAC in the ED?",
-        "color": "blue"
+        "parent_id": 7,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Dr. Miller, can you explain what other factors you're talking about?",
+        "color": "green"
       },
       {
         "id": 9,
         "parent_id": 8,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "NAC is the antidote for acetaminophen toxicity. It works by replenishing glutathione stores in the liver and helping to detoxify the acetaminophen metabolite (NAPQI).",
-        "color": "green"
-      },
-      {
-        "id": 10,
-        "parent_id": 1,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "You all think you're so clever with your fancy nomograms and algorithms. But I've seen more cases of acetaminophen toxicity than you've had hot meals. Always get an acetaminophen level ASAP, and don't even think about giving NAC without consulting with your toxicologist. And for God's sake, use the correct dosing!",
-        "color": "purple"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
         "user": "Dr. Elena Varkov",
         "role": "FRCPC",
         "city": "Quebec City, QC",
-        "text": "Martha, you're such a sweetheart. I'm sure the toxicologists appreciate your... enthusiasm. But seriously, what's the most common mistake you see when it comes to acetaminophen toxicity?",
+        "text": "I'm glad Dr. Oldman and Dr. Miller are bringing up these points. We need to be careful not to over-diagnose or over-treat patients with incomplete lesions. Spinal shock can be a tricky diagnosis, and we should always get a second opinion if we're unsure.",
         "color": "blue"
       },
       {
-        "id": 12,
-        "parent_id": 1,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Oh my goodness, I just remembered a case from last year where a patient came in with acetaminophen toxicity! They were treated with NAC and everything turned out okay. But it made me think: what's the best way to educate patients about acetaminophen toxicity and NAC?",
-        "color": "yellow"
-      },
-      {
-        "id": 13,
-        "parent_id": 12,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "I'm pretty sure I read somewhere that patients need to be educated about the risks of acetaminophen toxicity and the importance of NAC. Can someone explain the best way to do this?",
+        "id": 10,
+        "parent_id": 9,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "AMEN to that, Dr. Varkov! We nurses see it all the time - docs rushing in with fancy diagnoses and treatments without considering the whole patient. We need to slow down and think about what's really going on.",
         "color": "purple"
-      },
-      {
-        "id": 14,
-        "parent_id": 13,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Chad, you're on the right track! It's essential to educate patients about the risks and benefits of acetaminophen and the importance of NAC in the event of an overdose. Has anyone else developed any educational resources or handouts for patients?",
-        "color": "blue"
-      },
-      {
-        "id": 15,
-        "parent_id": 1,
-        "user": "Dr. Phil Muddle",
-        "role": "EP",
-        "city": "Regina, SK",
-        "text": "What day is it again? Oh yeah, it's Tuesday! Acetaminophen toxicity, right? Um, I think I saw a case once... does anyone know where I can find some more information on this topic?",
-        "color": "yellow"
-      },
-      {
-        "id": 16,
-        "parent_id": 15,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "Good heavens, Phil! You're a doctor, not a toddler! The Acetaminophen Toxicity wiki page on UpToDate is an excellent resource. Now, go read it and learn something.",
-        "color": "purple"
-      },
-      {
-        "id": 17,
-        "parent_id": 17,
-        "user": "Dr. Phil Muddle",
-        "role": "EP",
-        "city": "Regina, SK",
-        "text": "Thanks, Doc! I'll go read it right away... I think.",
-        "color": "blue"
       }
     ]
   },
   {
-    "id": 23,
-    "title": "Rant about Hydrofluoric Acid skin burns, anyone?",
-    "category": "Clinical Anecdotes",
-    "body": "Just had a patient come in with severe hydrofluoric acid burns on their hands and face. The patient's wife had been cleaning a chemistry lab without proper safety gear, not that I'm one to judge. Anyway, I'm stuck with a patient who's going to need some major interventions to prevent systemic toxicity from fluoride ions. Has anyone else dealt with these types of cases? What's your go-to management strategy?",
+    "id": "bioterrorism-post",
+    "title": "\"Just had a patient walk in with a suspicious cut on their hand after helping a 'friend' with a new 'pest control' device\".",
+    "body": "TLDR; Patient comes in with a 'pest control' device induced cut, symptoms match ricin poisoning. Anybody else have experience with ricin exposure?\n\nOkay, so we get this patient coming in with a nasty cut on their hand that they claim happened while helping a friend with a new pest control device. The friend left in a hurry and didn't stick around for treatment. Now the patient is here complaining of malaise, nausea, and a mild rash on their arm. Their BP is slightly low but otherwise they're stable.\n\nInitial vitals: \n  BP 110/60\n  HR 92bpm\n  O2 sat 99%\n  RR 16\n\nThe thing that caught my attention was the patient's exposure history. Apparently the 'pest control' device was some sort of DIY contraption using a 'new' herbicide. They claim they only put on gloves and didn't touch anything else, but they did notice that the friend handling the device had some of the substance on their hands afterward.\n\nI'm thinking this might be a case of ricin exposure, but I don't want to jump to conclusions. Has anyone else out there dealt with similar cases? What's the best course of treatment for ricin poisoning?\n\nReferences:\n* CDC - Ricin\n* Medscape - Ricin Poisoning\n\nI'd hate to be the one making a wrong diagnosis on this one... thoughts?",
+    "category": "todayilearned",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "MD",
+        "city": "Toronto, ON",
+        "text": "Great share, but keep in mind that ricin is a highly toxic plant toxin with an LD50 as low as 100 \u03bcg. If our patient is indeed exposed, they probably ingested, inhaled, or had contact with their skin/eyes.\n\nWe need to investigate further before making a diagnosis. I'd recommend a thorough medical history and physical examination, including asking about recent travel, occupation, and any potential exposures. A thorough evaluation of their skin, lungs, and GI tract would also be prudent.\n\nAlso, don't forget about other symptoms of ricin exposure: fever, cough, diarrhea, abdominal pain, and even seizures. We shouldn't assume the patient has only a mild rash.",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Thank you, Dr. Thorne! I didn't know ricin was so toxic. What's the best treatment for ricin poisoning, and do we have any specific antidotes?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "According to the CDC, treatment for ricin poisoning involves prompt decontamination, supportive care, and management of symptoms. There's no specific antidote available, but we can use activated charcoal to remove the toxin from the gastrointestinal tract if the exposure was oral. Does anyone know if we have any specific protocols for decontamination in our ER?",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 2,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Leo, buddy, we need to keep in mind that ricin exposure requires close monitoring for severe symptoms, including renal failure, hepatic failure, and even respiratory distress. Make sure to keep an eye on those vitals and adjust treatment accordingly.",
+        "color": "green"
+      },
+      {
+        "id": 5,
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Just a thought, but we should also consider the social determinants of health for our patient. What's their socioeconomic status, and have they had access to proper healthcare in the past? This might help us understand their exposure history better.",
+        "color": "yellow"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Aris Thorne",
+        "role": "MD",
+        "city": "Toronto, ON",
+        "text": "Great point, Turbo! Social determinants of health are crucial to understanding health disparities and how they impact patient care. I'd love to see more discussion around this topic in our ER.",
+        "color": "purple"
+      },
+      {
+        "id": 7,
+        "parent_id": 1,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "As an expert in my field, I must say that ricin poisoning is a relatively rare event. I'd argue that this case might be an isolated incident, and we shouldn't jump to conclusions just yet. Let's gather more evidence before making a diagnosis.",
+        "color": "red"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Dr. Sterling, I understand your skepticism, but we can't rule out the possibility of ricin exposure based on limited information. What about the patient's travel history or potential contact with similar substances?",
+        "color": "green"
+      },
+      {
+        "id": 9,
+        "parent_id": 1,
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "TLDR? We apply calcium gluconate gel and then either dermal injections of more calcium gluconate, or arterially infused calcium gluconate. Also, we need to monitor their cardiac enzymes and potassium levels closely. We can't afford to have them develop cardiac arrhythmias due to hyperkalemia.",
+        "text": "Just a thought, but have we considered the possibility of other toxins or substances that might cause similar symptoms? We should explore all options before concluding it's ricin exposure.",
+        "color": "blue"
+      },
+      {
+        "id": 10,
+        "parent_id": 1,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "You're all doin' a great job discussin' this case, but can somebody please tell me what a 'pest control device' is? Sounds like somethin' from our old days with pesticide sprayin'!",
+        "color": "pink"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "TLDR: GI Bleeding in the ED - what are your top tips?",
+    "body": "Just saw a patient with obscure lower GI bleeding and had to remind myself of the basics. What are some of your top pearls for managing GI bleed in the ED?",
+    "category": "emergency-medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great reminder OP! For me, stabilizing the patient is key. I always think of 'ABCs' - Airway, Breathing, Circulation. Can't stress how important oxygen and IV fluids are in the initial stages.",
         "color": "blue"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "I've read that systemic fluoride toxicity can be mitigated with co-infusion of calcium and magnesium to bind the fluoride ions. Is this correct? Can anyone provide me with some studies on this?",
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "What about using nasogastric tubes for GI bleed?",
         "color": "teal"
       },
       {
         "id": 3,
         "parent_id": 1,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "I've heard that topical application of calcium gluconate is key in preventing systemic toxicity. But how often do we need to reapply it? Should we do it as frequently as every 4 hours?",
-        "color": "orange"
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "NGTs are crucial in managing GI bleed. Especially when we're not sure if the bleeding is upper or lower. But what about when we do a NGT lavage and don't find anything? Do we consider early endoscopy then?",
+        "color": "purple"
       },
       {
         "id": 4,
         "parent_id": 3,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "I thought we were supposed to apply the calcium gluconate gel once at the scene and then monitor the patient's vitals? Reapplication might not be necessary unless there's significant progression of their burns.",
-        "color": "yellow"
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Great question, MG! When I'm on a trauma case and we're doing a NGT lavage and don't find anything, I always err on the side of caution and consider endoscopy within the first 24 hours. Better safe than sorry, right?",
+        "color": "orange"
       },
       {
         "id": 5,
         "parent_id": 1,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Bless their heart, I'm sure it's a nightmare of a situation for the patient and their loved ones. As a LPN, I've dealt with acid splashes before and the pain is just awful... Has anyone tried to use a topical anesthetic or analgesic on these burns?",
-        "color": "purple"
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Can anyone speak to the role of blood transfusion in GI bleed? Specifically, what are the thresholds for transfusion in different patient populations?",
+        "color": "red"
       },
       {
         "id": 6,
         "parent_id": 5,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "What's their pain level out of ten? We can give them a dose of IV hydromorphone if necessary. Don't want to risk giving them more acid in their burn sites. We can't have them developing sepsis from a burn wound.",
-        "color": "red"
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Great question, SJ! Transfusion thresholds are based on clinical factors, not just hematocrit values. We typically aim to keep the patient's systolic blood pressure above 100 mmHg and ensure they're perfusing well. But let's get into the nitty-gritty - do we transfuse at 70-80g/L or 80-100g/L in the elderly?",
+        "color": "green"
       },
       {
         "id": 7,
         "parent_id": 6,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "I totally agree with Dr. Rick on the pain management. As an RN, I've worked with many patients who've received hydrofluoric acid splashes and they usually require aggressive pain control. But what's your take on the use of topical antibiotics on these burns?",
-        "color": "green"
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "I've been taught to aim for the higher end of that range, 80-100g/L, especially in elderly patients. But I've also heard that's more of a guideline than a hard-and-fast rule?",
+        "color": "beige"
       },
       {
         "id": 8,
-        "parent_id": 7,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "I think I know what caused my symptoms. I was trying to clean a container using drain cleaner and I think I got this stuff on my hands and face. Am I going to be okay? Please tell me I'll be okay.",
-        "color": "pink"
+        "parent_id": 6,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Don't get me started on transfusion thresholds. It's all about 'Amateurs' vs. 'Experts'. If you're not willing to take a patient to theatre to get them fixed, then maybe you shouldn't be treating acute GI bleed at all.",
+        "color": "purple"
       },
       {
         "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Don't worry, Barnaby, you'll be fine. But we do need to get you on the IV calcium gluconate ASAP. I'll get the team ready and we'll have you sorted out in no time.",
-        "color": "brown"
+        "parent_id": null,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "TLDR: For GI bleed in the ED, make sure to stabilize the patient first, then focus on identifying the source of bleeding and treating it accordingly.",
+        "color": "blue"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "What's the deal with octreotide for GI bleed?",
+        "color": "teal"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Octreotide is a somatostatin analogue that can help control variceal hemorrhage and upper GI bleeding. But it's not a replacement for actual treatment, just a bridge until we can get to surgery or endoscopy.",
+        "color": "purple"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Great answer, MG! Also keep in mind that we should be using it as a last resort, as it can have some pretty nasty side effects",
+        "color": "orange"
+      },
+      {
+        "id": 13,
+        "parent_id": null,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Bless us all, this is heavy stuff. Can we talk about some positive cases you've seen?",
+        "color": "pink"
+      },
+      {
+        "id": 14,
+        "parent_id": 13,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "Yeah, what about successes in GI bleed? Any shining stars out there?",
+        "color": "yellow"
       }
-    ]
+    ],
+    "image": "https://i0.wp.com/emcrit.org/wp-content/uploads/2018/09/hematochezprotoc.jpg?resize=400%2C495&ssl=1"
   },
   {
-    "title": "TLDR; Valvular emergencies can masquerade as other life threatening conditions",
-    "body": "Just had a miss last night where a newly discovered murmur on exam was missed by a team new to the EM world. Acute valvular dysfunction can present with a range of symptoms from acute respiratory distress, pulmonary edema, and cardiogenic shock, making it a classic ED masquerader.",
+    "title": "Today I Learned: Don't Forget the Occult Wounds!",
+    "body": "Had a miss last night with a hypotensive patient who had been in a 'minor' accident... turns out they had a small laceration that was bleeding like crazy, requiring multiple transfusions. Reminded me to always expose and examine patients carefully!",
     "category": "emergency medicine",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "This is a great point about valvular emergencies being masqueraders. In our ED, we've been teaching the latest residents about how to identify the different types of murmurs, but it's easy to overlook this important differential. Did you end up doing an echocardiogram and what were the findings?",
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great reminder, OP! Occult wounds are a classic pitfall. We should all be doing a thorough exam in these situations. Anyone have a favorite trick for quickly assessing for occult wounds?",
         "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Actually, our team had performed an echocardiogram before Dr. [User] joined, and the result was a significant aortic insufficiency. However, we didn't catch the murmur during the initial exam. The patient now has an upcoming surgery to replace the faulty valve. The lesson here is the importance of a thorough physical examination and being vigilant for any new or changing murmurs.",
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Um, is it a thorough exam or just exposing the patient? Like, I know I'm new, but I want to make sure I get this right!",
         "color": "green"
       },
       {
         "id": 3,
-        "parent_id": null,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Wait, what's the difference between a 'masquerader' and just missing a diagnosis? And what's the significance of acute valvular dysfunction in the ED?",
-        "color": "blue"
+        "parent_id": 1,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs! You'd think by now you'd know that a good exam involves checking for occult wounds from head to toe. Don't waste my time with your questions.",
+        "color": "red"
       },
       {
         "id": 4,
         "parent_id": 3,
-        "user": "Dr. Sarah Sharp",
+        "user": "Dr. Barb Miller",
         "role": "EP",
-        "city": "Laval, QC",
-        "text": "A 'masquerader' refers to a condition that mimics other potentially life-threatening conditions. In this case, acute valvular dysfunction can present similarly to acute coronary syndrome, pulmonary embolism, or even sepsis. This is why it's essential to keep a high index of suspicion for valvular issues, especially in patients with known prosthetic valves or a history of heart failure.",
-        "color": "purple"
+        "city": "Winnipeg, MB",
+        "text": "Ugh, come on Victor. No need to be condescending. We all have our moments of forgetfulness. Thanks for the reminder, OP!",
+        "color": "blue"
       },
       {
         "id": 5,
-        "parent_id": 4,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Okay, got it! That makes sense. What's the role of bedside echocardiography in diagnosing valvular emergencies, and do you have a tip for someone new to the EM field to improve their skills in identifying murmurs?",
-        "color": "blue"
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I've got a great trick for rapidly assessing patients with potential occult wounds. Has anyone else heard of the FAST exam?",
+        "color": "yellow"
       },
       {
         "id": 6,
         "parent_id": 5,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "For bedside echocardiography, I recommend starting with the focused cardiac ultrasound (FOCUS) exam. This is a quick, 3-view exam that can give you a good idea of the heart's structural integrity. For murmurs, I teach the residents to listen for five key characteristics: pitch, duration, transmission, location, and intensity. It's also essential to remember that a diastolic or systolic murmur can be a sign of something important, so don't just dismiss it as a benign finding!",
-        "color": "green"
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Ooh, cool! We learned about FAST in med school. Is that like, for focusing abdominal trauma or something? Help a pre-med out here!",
+        "color": "orange"
       },
       {
         "id": 7,
-        "parent_id": null,
-        "user": "Dr. Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "I understand where you're coming from, but as cardio-thoracic surgeons, we see way too many of these emergencies being misdiagnosed or delayed. Don't get me wrong, it's essential to keep a good index of suspicion, but let's not forget the importance of good old-fashioned history-taking and physical exams. We need to train our residents to be more vigilant and proactive in identifying potential valvular emergencies.",
-        "color": "blue"
+        "parent_id": 5,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Yes, FAST is a fantastic tool for quickly identifying free fluid in the abdomen. We should all be incorporating it into our trauma assessments.",
+        "color": "purple"
       },
       {
         "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Amen to that! We need to focus on prevention and early intervention. As emergency physicians, we have a unique opportunity to catch these emergencies early and intervene before they become life-threatening. I couldn't agree more with you, Dr. Stone. We should be working together to improve our diagnostic skills and prevent these tragedies. Has anyone come across a study that suggests the most effective approach to teaching bedside echocardiography?",
-        "color": "purple"
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Actually, the correct answer is Focused Assessment with Sonography for Trauma. Can we please use the full acronym to avoid confusion?",
+        "color": "gray"
       },
       {
         "id": 9,
         "parent_id": 8,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Actually, I've been reading about a study that shows the effectiveness of simulation-based training for teaching bedside echocardiography. The participants who underwent simulation-based training showed significant improvements in their diagnostic skills compared to those who received traditional didactic training.",
-        "color": "green"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
         "user": "Dr. Ziggy Zalesky",
         "role": "EP",
         "city": "Vancouver, BC",
-        "text": "That's fascinating, Dr. Park! Simulation-based training is definitely the way to go. I've been using it with my residents, and they're learning so much faster than they would have with traditional methods. Do you think this could be a game-changer for teaching bedside echocardiography?",
-        "color": "green"
+        "text": "Lol, Jen, you're such a nitpicker! But seriously, you're right. We should all be using proper terminology to avoid confusion.",
+        "color": "pink"
+      },
+      {
+        "id": 10,
+        "parent_id": 1,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "I'm so sorry OP, but what's the best way to prioritize occult wounds in a trauma patient? Is there a certain order we should follow when assessing?",
+        "color": "brown"
       },
       {
         "id": 11,
-        "parent_id": null,
-        "user": "Turbo Tom",
+        "parent_id": 10,
+        "user": "Martha 'The Hammer'",
         "role": "RN",
-        "city": "London, ON",
-        "text": "OMG, guys, let's talk about some real-world strategies for improving our skills. As an ER nurse, I've seen so many cases where the doctor or resident just doesn't recognize the murmur. What I do is remind them to use their mnemonic devices, like 'pitch, duration, transmission, location, intensity.' It's not rocket science, people!",
-        "color": "red"
+        "city": "Halifax, NS",
+        "text": "Listen up, PGY1s! When assessing for occult wounds, remember to follow the ABCDEs. We're looking for any signs of distress, airway compromise, breathing difficulties, circulatory instability, and exposure. Got it?",
+        "color": "black"
       },
       {
         "id": 12,
         "parent_id": 11,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "That's so true, Turbo Tom! I use the 'PELICAN' mnemonic to remember the characteristics of murmurs. It stands for pitch, ejection, location, intensity, contour, association, and noise. And I agree, it's not rocket science, but we need to make it more accessible and user-friendly for our residents.",
-        "color": "green"
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Excellent rundown, Martha! Can you clarify what you mean by 'distress'? Is that a subjective assessment?",
+        "color": "silver"
       },
       {
         "id": 13,
         "parent_id": 12,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "Good question, Sarah. When I say 'distress', I mean observing any signs of agitation, confusion, or discomfort. If the patient's behavior changes, we need to be suspicious of occult wounds.",
+        "color": "black"
+      },
+      {
+        "id": 14,
+        "parent_id": 11,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "I'd love to add one more thing to the checklist, Martha. What about checking for signs of occult head trauma? We should be looking for evidence of basilar skull fractures, etc.",
+        "color": "cyan"
+      },
+      {
+        "id": 15,
+        "parent_id": 14,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Haha, Varkov's always got something to say! Yeah, head trauma is a great mention. We should be keeping an eye out for those subtle signs of occult head injuries.",
+        "color": "white"
+      }
+    ]
+  },
+  {
+    "title": "Just had a CRPS case that made me question everything... ",
+    "body": null
+  },
+  {
+    "id": 9,
+    "title": "TLDR: When to Choose Suturing Over Stapling in Wound Closure (and Vice Versa)",
+    "body": "Just saw a patient with a wound that was under significant tension. I ended up using sutures instead of staples, and it ended up taking way longer than expected. Anyone have some pearls on when to choose one method over the other, and what are some of the benefits and drawbacks of each?",
+    "category": "emergency medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Great question! Suturing and stapling are both effective methods for wound closure, but they have some key differences. Sutures are great for wounds with a lot of tension, because they allow for more precise closure and can provide better eversion of the wound edges. However, they can be more time-consuming and may be more painful for the patient. On the other hand, staples are quicker and easier to apply, but they can cause more tissue damage and may have a higher risk of infection. TLDR: sutures for high-tension wounds, staples for quick closures.",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Dr. Gupta, can you elaborate on why sutures provide better eversion of the wound edges? I thought that was one of the benefits of stapling?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Great question, Leo! Eversion refers to the way the wound edges are lifted outward, which can help to reduce the risk of infection. With sutures, you can more precisely control the amount of eversion, whereas with staples, it's harder to control the depth of penetration, which can lead to more tissue damage. That being said, stapling can still be effective, especially in high-pressure situations. Just make sure to choose the right size of staple for the job!",
+        "color": "purple"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "I've heard that absorbable sutures can cause more tissue reaction than non-absorbable sutures. Has anyone else experienced this?",
+        "color": "magenta"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "Actually, Sarah, the literature suggests the opposite: absorbable sutures tend to cause less tissue reaction than non-absorbable sutures. This is because the body absorbs the suture material over time, reducing the risk of foreign body reaction. Of course, this is still a subject of debate, but anecdotally, I don't see a significant difference between the two.",
+        "color": "orange"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "I'm going to have to disagree with both of you. In my experience, absorbable sutures can cause a lot of tissue reaction, especially if they're not well-resorbed. I've had patients come back with nasty infections after abs suture removal. Anyone else have similar experiences?",
+        "color": "gray"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Thanks for sharing that, Dr. Miller! It's always great to hear from someone with more experience. Can you tell us more about what kind of infections you've seen?",
+        "color": "purple"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Well, I've seen cases of abscesses and cellulitis, even osteomyelitis in some cases. It's always a good idea to carefully choose your sutures and take regular cultures to monitor for any signs of infection.",
+        "color": "gray"
+      },
+      {
+        "id": 9,
+        "parent_id": null,
         "user": "Sparkle-Eyes Sue",
         "role": "LPN",
         "city": "St. John's, NL",
-        "text": "Aww, you fellas are makin' me laugh! I remember when I first started in the ER, I thought I was goin' to have a nervous breakdown tryin' to keep all those acronyms straight. But then I met Dr. Zalesky, and he told me it's all about keepin' it simple and focusin' on the patient. Thanks for the chat, everyone!",
-        "color": "pink"
+        "text": "Bless my soul! I'm no expert, but I've seen my fair share of wound closures. Can you tell us about some of the other factors that influence wound closure, like wound size and patient comorbidities?",
+        "color": "lightblue"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Ah, good question, Sparkle-Eyes! Let me tell you, as a surgeon, I've seen some wound closures that would make your head spin. But seriously, wound closure is a complex process that depends on many factors. For example, a patient's smoking history, diabetes, and obesity can all affect wound healing. Not to mention, wound size and location - all these factors and more. And let's not forget about the type of surgery, if they're under general anesthesia... The list goes on and on.",
+        "color": "darkblue"
       }
     ],
-    "image": "https://www.ebmedicine.net/productImages/EMP-22-08_800x200.jpg"
+    "image": "https://m.media-amazon.com/images/I/71LwVL1A6SL._AC_UF1000,1000_QL80_.jpg"
   }
 ]
