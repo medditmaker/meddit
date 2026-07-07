@@ -1,8 +1,9 @@
 [
   {
-    "title": "Rant about missed pneumothorax in ED",
-    "body": "Just saw a patient with a missed pneumothorax in the ED. Classic case,\n  30 y/o male, presenting with acute dyspnea after a minor car accident. Tachypneic,\n  normal saturation and a normal-sized lung on x-ray. Sent home, no further workup\n  was done. He ended up in the ICU with a tension pneumothorax. We should be\n  doing more ultrasound in ED!",
-    "category": "Emergency Medicine",
+    "id": 0,
+    "title": "TB in the ED: A diagnostic nightmare (TLDR: it's not all about HIV)",
+    "body": "Just saw a patient with TB in the ED last night and I'm still trying to process the case. We all know that TB is a big deal, especially in HIV patients, but this case made me realize how complex the diagnosis can be.",
+    "category": "r/emergencymedicine",
     "comments": [
       {
         "id": 1,
@@ -10,53 +11,53 @@
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "TLDR: We should be doing more ultrasound on dyspneic patients. I\n   completely agree with that. We're missing way too many pneumothoraces in ED.\n   Have you guys started using the 'lung sliding' sign yet?",
+        "text": "TB in the ED is a diagnostic challenge, but it's not all about HIV. We need to consider other risk factors like immigration history, travel to endemic areas, and even exposure to healthcare workers. I've seen cases where TB presented with atypical symptoms, making it harder to diagnose.",
         "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "You're preaching to the choir, Maya. In my day, every chest x-ray was\n   read by a radiologist before being passed off to the ED docs. We didn't need\n   ultrasound to tell if something was wrong. And what ever happened to a decent\n   physical exam and some plain old-fashioned bedside manner?",
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "That's interesting. Can you elaborate on the atypical symptoms you've seen in TB patients? I've only read about the classic symptoms like cough and fever.",
         "color": "green"
       },
       {
         "id": 3,
         "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Excuse me, but I don't understand why you wouldn't do a chest x-ray on\n   someone who's having trouble breathing. Shouldn't that be the first step in\n   diagnosing a pneumothorax?",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Good question, Leo! Chest x-rays are indeed crucial in diagnosing\n   pneumothoraces. However, in cases of acute dyspnea, ultrasound can be more\n   rapidly performed. It's also worth noting that sometimes, patients may present\n   with symptoms that are not immediately apparent on x-ray.",
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Yes, Leo. In my experience, TB patients can present with a wide range of symptoms, including chest pain, shortness of breath, and even weight loss. They can also have extrapulmonary TB, which presents in different ways depending on the affected organ. It's not just about the lungs anymore.",
         "color": "green"
       },
       {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs think that TB is the end of the world, but in reality, it's just another infectious disease. We need to stop freaking out and focus on the diagnosis. I've seen too many cases where TB was diagnosed based on a single sputum sample.",
+        "color": "blue"
+      },
+      {
         "id": 5,
-        "parent_id": 2,
-        "user": "Dr. Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "I'm all for using ultrasound, but let's not get too carried away here.\n   A plain old-fashioned chest x-ray is still the gold standard. You can't just\n   ignore the evidence because of a trend. And have any of you guys seen the cost\n   of setting up these ultrasound machines?",
+        "parent_id": 4,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Respectfully, Dr. Sterling, TB is not just another infectious disease. It's a complex disease with serious consequences. We need to take it seriously and not make light of it. I've seen cases where TB patients developed life-threatening complications, including ARDS.",
         "color": "red"
       },
       {
         "id": 6,
-        "parent_id": 5,
+        "parent_id": 1,
         "user": "Chad Broson",
         "role": "Pre-med",
         "city": "Brampton, ON",
-        "text": "Hey, isn't a pneumothorax super common in, like, med school\n   exams? I'm soooo worried I'm gonna get stuck with a pneumothorax case in\n   medical school.",
-        "color": "yellow"
+        "text": "What are some of the imaging findings that you've seen in TB patients? I'm thinking of a case study where we learned about the different types of radiographic patterns.",
+        "color": "orange"
       },
       {
         "id": 7,
@@ -64,8 +65,8 @@
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "Don't worry, Chad! Pneumothoraces are actually pretty rare. But\n   they are serious business, so you'll definitely learn plenty about them in\n   med school. Just make sure you stay on top of your ultrasound skills!",
-        "color": "purple"
+        "text": "Great question, Chad. TB patients can have a wide range of imaging findings, including pulmonary nodules, lymphadenopathy, and even miliary TB. We need to look for characteristic patterns like a Ghon complex, which is a combination of a pulmonary nodule and mediastinal lymphadenopathy.",
+        "color": "green"
       },
       {
         "id": 8,
@@ -73,35 +74,732 @@
         "user": "Sarah Jenkins",
         "role": "MS3",
         "city": "Ottawa, ON",
-        "text": "But seriously, I just finished reading a paper about ultrasound in\n   ED and it's actually pretty impressive how well it can detect pneumothoraces\n   compared to x-rays. Maybe we should just stick to ultrasound from now on?",
-        "color": "green"
+        "text": "That's fascinating. I've read about the Ghon complex, but can you explain how you diagnose it clinically? Is it based on a specific combination of symptoms and signs?",
+        "color": "red"
       },
       {
         "id": 9,
         "parent_id": 8,
-        "user": "Dr. Phil Muddle",
-        "role": "EP",
-        "city": "Regina, SK",
-        "text": "Huh? Which paper? Can you send me the reference? I totally need to\n   learn more about this. By the way, what day is it today?",
-        "color": "blue"
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Great question, Sarah. Diagnosing the Ghon complex clinically is a challenging task, but we need to look for a combination of symptoms like fever, cough, and chest pain, along with signs like lymphadenopathy and pulmonary nodules. It's a combination of clinical and radiographic findings.",
+        "color": "green"
       },
       {
         "id": 10,
-        "parent_id": 9,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Aren't we gettin' a bit off track here, guys? We're talkin' about\n   pneumothorax cases in ED, remember? Maybe we should stick to the topic at\n   hand?",
-        "color": "red"
+        "parent_id": null,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "I'm loving this thread and the discussion about TB. Can we share some resources for learning more about TB diagnosis and treatment? I'd love to see some case studies and images.",
+        "color": "#FF69B4"
       },
       {
         "id": 11,
         "parent_id": 10,
-        "user": "Dr. Ziggy Zalesky",
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Great idea, Turbo Tom! There are plenty of resources online, including the Centers for Disease Control and Prevention (CDC) and the World Health Organization (WHO). We can also share some case studies and images from reputable sources.",
+        "color": "purple"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Dr. Rick 'The Rage'",
+        "role": "EP",
+        "city": "Windsor, ON",
+        "text": "CDC, WHO, and all that jazz. Who needs those when we have the Canadian Tuberculosis Guidelines? Let's keep it Canadian, folks.",
+        "color": "blue"
+      },
+      {
+        "id": 13,
+        "parent_id": 12,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "Hear, hear, Dr. Rick! The Canadian Tuberculosis Guidelines are a valuable resource for us Canadians. Let's all take a moment to appreciate the work of our esteemed guideline developers.",
+        "color": "green"
+      }
+    ],
+    "image": "https://images.squarespace-cdn.com/content/v1/546e1217e4b093626abfbae7/1540209225105-DG9AL2FELEN4R2J92LRM/Lightning+Learning+-+Tuberculosis.png"
+  },
+  {
+    "title": "Rant about Heat Stroke in the Emergency Department",
+    "body": "Had a close call with a 35yo male who presented to our ED with altered mental status, hyperthermia, and no sweat after spending the afternoon working in his garden. He had no prior medical history and was not taking any medications. We got him cooled down and admitted to the ICU for observation. I've seen this case before, but it still gets my blood boiling when patients don't take heat precautions seriously. Can't stress enough the importance of education and patient engagement in heat stroke prevention. TLDR: heat stroke in a otherwise healthy patient.",
+    "category": "emergency medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "MD",
+        "city": "Toronto, ON",
+        "text": "I completely agree. Heat stroke can be a devastating diagnosis. I've seen patients die from this preventable cause. We need to do better in raising awareness about heat illness and its treatment. Did you get a chance to review his labs and look for any signs of rhabdomyolysis? This can be a red flag for heat stroke.",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Rhabdomyolysis is a muscle breakdown, right? Is that caused by the heat directly? And what labs would we order to check for it?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Kevin Park",
+        "role": "Intern",
+        "city": "Edmonton, AB",
+        "text": "Thank you for sharing this case. I'm just starting to learn about heat stroke and it's really useful to have real-life examples. Do you think this patient's symptoms would have presented differently if he had a prior medical history or was taking certain medications?",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Maya Gupta",
+        "role": "Resident",
+        "city": "Mississauga, ON",
+        "text": "Actually, that's an excellent question, Kevin. Certain medications like anticholinergics and sympathomimetics can impair a patient's ability to sweat, making them more susceptible to heat stroke. Also, patients with pre-existing conditions like diabetes, heart disease, and renal disease are at higher risk. It's always a good idea to review their medical history and medications before diagnosing heat stroke.",
+        "color": "pink"
+      },
+      {
+        "id": 5,
+        "parent_id": 1,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "I've seen patients with heat stroke who didn't have the classic symptoms. Sometimes they come in with abdominal pain, nausea, or headaches. We need to keep a low threshold for testing temperature, especially during heatwaves. Don't forget to check the environment for clues, like an air conditioner that's not working or a patient who's been left in a hot vehicle.",
+        "color": "red"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Elena Varkov",
+        "role": "Internist",
+        "city": "Quebec City, QC",
+        "text": "Great point, Martha. I've seen patients with heat stroke who didn't have the typical fever. Sometimes it's a delayed response, and by the time they come in, they're already in organ failure. We need to be vigilant and not just rely on lab values, but also on a good clinical exam and history.",
+        "color": "orange"
+      },
+      {
+        "id": 7,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MD",
+        "city": "Ottawa, ON",
+        "text": "I think it's also worth mentioning that heat stroke can be caused by other factors, like exertional activity, dehydration, or even certain medications like NSAIDs. Did this patient have a fever before coming to the ER? I'm guessing it was more of a hyperthermia without a fever, like they said.",
+        "color": "brown"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Actually, the patient did have a fever, but it was a bit of an odd case. They had a mild fever in the morning, but it escalated quickly after working in the garden. It's a great reminder that heat stroke can be a sudden and rapid process, even in otherwise healthy individuals.",
+        "color": "grey"
+      },
+      {
+        "id": 9,
+        "parent_id": 1,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Bless their hearts, we get patients from all walks of life in our ER. Heat stroke in young folks is always a worry, but what can we do to help prevent it, other than educate? Can we give them a medication or something to help regulate their temperature?",
+        "color": "turquoise"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. Maya Gupta",
+        "role": "Resident",
+        "city": "Mississauga, ON",
+        "text": "Actually, Sue, there are some medications that can help with heat stroke, but they're not typically first-line. We usually rely on cooling measures like fans, ice packs, and misting to bring down the temperature. But I completely agree that prevention is key.",
+        "color": "teal"
+      }
+    ]
+  },
+  {
+    "title": "Valvular Emergencies: When the Murmur is More than Just a Murmur",
+    "body": "Just had a sobering reminder of why we need to take every new murmur seriously. Our 42-year-old patient with a history of mitral valve repair presented with acute shortness of breath, and a new systolic murmur. We initially thought it was just another benign murmur, but a quick bedside echo revealed a torn chordae...long story short, we managed to save her life with an emergency repair. Anyone else have a close call with a valvular emergency?",
+    "category": "emergency_medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "TLDR: valvular emergencies are a thing. We all know the drill: a new murmur on exam, and suddenly it's a code stat. What I don't think we emphasize enough is the importance of bedside echo in these cases. I was at a conference last year where they highlighted the high sensitivity of transthoracic echo in detecting valvular regurgitation...anyone have experience with the newer handheld devices?",
+        "color": "red"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Maya, I'm not sure I agree with you on the handheld devices. I've seen some crazy variability in the image quality, and don't even get me started on trying to get a decent view of the mitral valve. That being said, I totally agree on the importance of early echo in these cases. Has anyone got some tips on optimizing the exam technique?",
+        "color": "blue"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Wait, how do we even diagnose a torn chordae? Is it just an echo thing, or do we need to get a cardiologist in there ASAP?",
+        "color": "magenta"
+      },
+      {
+        "id": 4,
+        "parent_id": 2,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Elena, great point on the handheld devices. While they can be useful in emergency settings, I think it's essential to have a high-quality exam in a controlled environment. When it comes to valvular emergencies, I always err on the side of caution and get the patient to cardiology ASAP.",
+        "color": "purple"
+      },
+      {
+        "id": 5,
+        "parent_id": 3,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Chad, a torn chordae can be a real pain to diagnose. You're right, it's often an echo thing, but we also need to look for other signs like jugular venous distension, pulmonary edema, and a loud S3. If you suspect a valvular emergency, get the patient to cardiology ASAP and have them do a proper echo and assessment",
+        "color": "orange"
+      },
+      {
+        "id": 6,
+        "parent_id": 4,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Aris, I agree with you on the controlled environment, but I also think we need to be more proactive in diagnosing valvular emergencies. I've seen too many cases where we wait too long to get a proper echo, and by the time we do, it's too late. What are some strategies for streamlining the process?",
+        "color": "green"
+      },
+      {
+        "id": 7,
+        "parent_id": 5,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Maya, what's the deal with jugular venous distension? Is that like, a thing with valvular emergencies?",
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "I've seen enough valvular emergencies to last a lifetime. Seriously though, can we all agree on the importance of proper hand-off and communication? I'm sick of seeing patients get 'lost in translation' because we didn't communicate effectively.",
+        "color": "teal"
+      },
+      {
+        "id": 9,
+        "parent_id": 6,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "Barb, I couldn't agree more on the importance of streamlining the process. I've been working on implementing some new protocols for our hospital, and I think it's all about creating a culture of transparency and open communication.",
+        "color": "gray"
+      },
+      {
+        "id": 10,
+        "parent_id": 7,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Chad, jugular venous distension is a big deal in valvular emergencies! It's a sign of right-sided heart failure, and if we don't catch it early, it can lead to some pretty severe complications. Keep that in mind for future exams!",
+        "color": "cyan"
+      },
+      {
+        "id": 11,
+        "parent_id": 8,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "Turbo Tom, AMEN to that! As someone who's been around the block a few times, I can tell you that communication is key. We need to stop passing the buck and take ownership of our mistakes.",
+        "color": "red"
+      },
+      {
+        "id": 12,
+        "parent_id": 9,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Henry, I think you're barking up the right tree with these protocols. But let's not forget about the elephant in the room: cost. We can't just throw money at the problem and expect it to go away. What are some creative solutions for streamlining the process without breaking the bank?",
+        "color": "blue"
+      },
+      {
+        "id": 13,
+        "parent_id": 10,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Thanks Maya, I'm going to make sure to keep that in mind for exams. One more question: are there any other signs or symptoms we should be looking for in valvular emergencies?",
+        "color": "green"
+      },
+      {
+        "id": 14,
+        "parent_id": 11,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Amen to that, Martha! As a nurse, I've seen way too many instances of 'medical speak' and lack of communication. Let's make a pact to communicate clearly and effectively, shall we?",
+        "color": "teal"
+      },
+      {
+        "id": 15,
+        "parent_id": 12,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Victor, great point about cost. I think the key is finding low-cost solutions that still improve patient care. One idea I had was implementing a standardized protocol for valvular emergencies, which would reduce the need for emergency surgery and subsequent complications.",
+        "color": "orange"
+      },
+      {
+        "id": 16,
+        "parent_id": 13,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Chad, some other signs and symptoms to look for in valvular emergencies include chest pain, shortness of breath, and hypotension. Keep in mind that these can be present to varying degrees, so don't be too quick to rule it out!",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Approach to Traumatic Shock - A Clinical Dilemma",
+    "body": "Just saw a patient with suspected electrical shock-induced cardiac tamponade. The patient had a sudden cardiac arrest after being exposed to a lightning strike. Upon arrival, the ECG showed a wide QRS complex with an absence of an R wave in leads I, aVL, and V5-7. The chest x-ray showed an enlarged cardiac silhouette. I quickly ordered an Echo and a CT chest, but what really stuck out was the patient's lack of response to initial fluid resuscitation.\n\nTL;DR: 22-year-old male presented with cardiac arrest after lightning strike, suspected cardiac tamponade. Initial fluid resuscitation was ineffective. What's your approach to traumatic shock?",
+    "category": "EM-Residency",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Excellent case, OP! When dealing with suspected cardiac tamponade after electrical shock, it's crucial to evaluate for other occult bleeding sources, such as ectopic pregnancy or intra-abdominal bleeding. Don't forget to also check for signs of hypovolemia and consider the use of vasopressors to support the patient's blood pressure. Have you considered ordering a FAST exam to rule out intra-abdominal bleeding?",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Dr. Thorne, what's the significance of the wide QRS complex and absent R wave on the ECG? How does that relate to cardiac tamponade?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs like you are going to get themselves killed one of these days, OP. Cardiac tamponade is a red herring. The real issue here is likely a pulmonary embolism or a DVT. Have you considered ordering a CT pulmonary angiogram?",
+        "color": "red"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Ah, boys, boys, let's not forget the ABCs! What's the patient's airway status? Is there a risk of aspiration?",
+        "color": "blue"
+      },
+      {
+        "id": 5,
+        "parent_id": 3,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Dr. Sterling, I'm glad you brought up the DVT, but let's not rule out other causes just yet. We need more information on the patient's medical history and the circumstances surrounding the lightning strike. Don't be so quick to dismiss the cardiac tamponade diagnosis!",
+        "color": "purple"
+      },
+      {
+        "id": 6,
+        "parent_id": 4,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Sparkle-Eyes, great point! The patient's airway status is crucial. Have you considered ordering a bedside laryngoscopy to assess the patient's airway patency?",
+        "color": "green"
+      },
+      {
+        "id": 7,
+        "parent_id": 5,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Dr. Thorne, what's the significance of the FAST exam in this case? Is it a diagnostic or a therapeutic tool?",
+        "color": "blue"
+      },
+      {
+        "id": 8,
+        "parent_id": 6,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Sparkle-Eyes, I agree with you, but let's not forget the patient's other vital signs. What's the patient's cardiac rhythm and what's the cardiac output?",
+        "color": "red"
+      },
+      {
+        "id": 9,
+        "parent_id": 7,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Dr. Thorne, I have a question. What's the difference between a FAST exam and an Echo in this case?",
+        "color": "purple"
+      },
+      {
+        "id": 10,
+        "parent_id": 8,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "I thought cardiac tamponade was just a bad joke! What's the deal with it?",
+        "color": "blue"
+      },
+      {
+        "id": 11,
+        "parent_id": 1,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "I've seen cases of cardiac tamponade due to electrical shock where the patient had a significant amount of fluid trapped in the pericardial space. Have you considered ordering an MRI to assess for any pericardial damage?",
+        "color": "green"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Dr. Sharp, what's the mechanism behind the fluid accumulation in cardiac tamponade due to electrical shock?",
+        "color": "blue"
+      },
+      {
+        "id": 13,
+        "parent_id": 10,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Chad, cardiac tamponade is a serious condition where fluid accumulates in the pericardial space, compressing the heart. It's not a joke!",
+        "color": "red"
+      },
+      {
+        "id": 14,
+        "parent_id": 12,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Leo, it's not just a question of fluid accumulation. The electrical shock can also cause direct damage to the pericardium, leading to cardiac tamponade.",
+        "color": "purple"
+      },
+      {
+        "id": 15,
+        "parent_id": 13,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Okay, sorry about that! I didn't know it was so serious.",
+        "color": "blue"
+      },
+      {
+        "id": 16,
+        "parent_id": 11,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Dr. Sharp, I agree with you about the MRI, but what about the risks of radiation exposure in this patient?",
+        "color": "green"
+      },
+      {
+        "id": 17,
+        "parent_id": 16,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Dr. Gupta, what's the recommended radiation exposure limit for patients with cardiac tamponade?",
+        "color": "blue"
+      },
+      {
+        "id": 18,
+        "parent_id": 1,
+        "user": "Dr. Phil Muddle",
+        "role": "EP",
+        "city": "Regina, SK",
+        "text": "I've had cases of cardiac tamponade where the patient's ECG showed a weird P-wave pattern. Has anyone else seen that?",
+        "color": "purple"
+      },
+      {
+        "id": 19,
+        "parent_id": 18,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Dr. Muddle, what's the significance of the P-wave pattern in cardiac tamponade?",
+        "color": "blue"
+      }
+    ],
+    "image": "https://centersurgentcare.net/wp-content/uploads/2025/03/9-how-does-shock-affect-trauma-patients.jpg"
+  },
+  {
+    "id": "emergency_medical_services_systems",
+    "title": "Just saw a patient with a weird EMS system case",
+    "body": "So I was working the night shift and we had a patient come in via ambulance. The story is that the patient's friend, who is an EMT, was driving the patient to the hospital when his patient's airbag deployed and he got a nasty head injury. The thing is, the EMT friend did a great job with field triage and got him to the hospital within 30 minutes of the incident. However, when we got to the hospital, we had to deal with the usual EMS bureaucracy, plus the added stress that the EMT friend is now being questioned by the hospital administration about the entire incident. Has anyone else dealt with similar situations where the EMS system just seems to be at odds with the hospital? TLDR: EMT friend does great job in field, but gets slammed by hospital admin.",
+    "category": "emergency_medical_services",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Wow, that's a tough spot to be in. I've seen cases where EMS providers are questioned about their actions in the field, but rarely to the extent of getting slammed by the hospital. It's like we're expecting them to be perfect. Have you guys had any success in implementing a clearer system for communication between EMS and the hospital?",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I've heard that some hospitals have started using EMRs for all their patient data, including EMS info. Could this be the solution to the communication problems?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "@Leo, that's a great point, but what about the issues with data sharing and patient confidentiality? We can't just dump all the patient data into an EMR without thinking through the risks.",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "\"@Dr. Maya, you're thinking about the patients, but what about the docs in the ER? If we can get the patient's info in a timely manner, we can start treating them faster and reducing the morbidity. Plus, if the data is encrypted and secure, I'd say the risks are worth it.",
+        "color": "pink"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Hmm, good point @Dr. Barb. Do you guys think it would be a good idea to implement a 'one-touch rule' for EMS data, where the patient info gets pushed directly from the EMS service to the EMR?",
+        "color": "orange"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "One-touch rule or not, @Leo, what about the issue of 'informed consent'? We need to make sure that the patients know their data is being transferred to the hospital, and that the docs have a chance to review it before acting.",
+        "color": "purple"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Actually, @Dr. Henry, I think this is a great chance to point out that informed consent isn't always necessary in emergency situations. We can use our clinical judgment to determine whether it's necessary or not.",
+        "color": "green"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "I work in EMS, and I have to say, it's great to see a conversation about how our work interacts with the hospital. However, when you guys start talking about one-touch rules and EMRs, I feel like you're losing sight of the human element. What about when we have to deal with patients who are unstable or have special needs?",
+        "color": "teal"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Great point @Turbo Tom. We need to make sure that our systems are flexible and adaptable to the needs of each patient. Maybe we can create different workflows for different types of patients?",
+        "color": "pink"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. 'Ziggy' Zalesky",
         "role": "EP",
         "city": "Vancouver, BC",
-        "text": "Sue's right, guys. Let's get back on track. Okay, so we were talking\n   about using ultrasound to detect pneumothoraces. Who's got some stories to\n   share about their own ultrasound experiences in ED?",
+        "text": "@Dr. Elena, you're absolutely right. Flexibility and adaptation are key. By the way, @Leo, have you seen that study on the effectiveness of EMS workflows in reducing patient morbidity?",
+        "color": "blue"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "No, I haven't seen it. @Dr. Zalesky, can you post a link?",
+        "color": "cyan"
+      },
+      {
+        "id": 12,
+        "parent_id": null,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "I'm sorry guys, but I have to ask: how do we handle situations where EMS providers are at odds with hospital staff? I've seen cases where it gets really heated.",
+        "color": "purple"
+      },
+      {
+        "id": 13,
+        "parent_id": 12,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Well, @Dr. Kevin, that's a whole different can of worms. But seriously, it's about communication and mutual respect. We need to make sure that both sides understand each other's roles and responsibilities.",
+        "color": "pink"
+      },
+      {
+        "id": 14,
+        "parent_id": 13,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "But don't you guys ever get tired of dealing with the bureaucracy and red tape in EMS? Can't we just have a simpler system?",
+        "color": "orange"
+      },
+      {
+        "id": 15,
+        "parent_id": 14,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "@Chad, trust me, I've been in this business for 30 years, and I can tell you that simplicity is not the answer. We need to think about the nuances of each situation and adapt our systems accordingly.",
+        "color": "teal"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "TLDR; Vertigo in the ED - what are your triggers?",
+    "body": "Had a miss last night with a patient who came in with acute vertigo. The ECG showed a P-waveless ECG, making me suspicious of a possible TIA. I ordered an MRI and the patient ended up having a small lacunar infarct. Any of you have triggers for central vs peripheral vertigo?",
+    "category": "emergency medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "I always look for nystagmus when evaluating vertigo. If its rotatory-vertical or horizontal, I lean towards peripheral, while vertical nystagmus points to a central cause. Also, if the patient is intolerant of head movements, that's a red flag for peripheral vertigo. But, of course, nothing beats a good HINTS examination. Have any of you ever used the '3-step' HINTS? It's a game-changer for differentiating between central and peripheral causes.",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Dr. Thorne, you mentioned the HINTS examination. Can you elaborate on what the '3-step' HINTS is? Is it the same as the bedside HINTS examination?",
         "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Vertigo and nystagmus are a real PITA (Pain In The Arse) in the ED. The HINTS examination is a must-know, and don't even get me started on the HINTS acronym: Head Impulse, Nystagmus, Infraction (asymmetry in the infarct area on imaging). It's a lifesaver for differentiating between central and peripheral causes. Thanks for sharing, Dr. Thorne!",
+        "color": "brown"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "The key to evaluating vertigo is to listen to the patient's history. If they're a young athlete with recurrent episodes of vertigo, I'm always thinking inner ear pathology. If they're an older patient with risk factors for stroke, I'm thinking TIA. The HINTS examination is great for differentiating between central and peripheral causes, but don't forget the basics: a good history and physical exam. And remember, kids, if you see a patient with vertigo and nystagmus, get an MRI ASAP",
+        "color": "blue"
+      },
+      {
+        "id": 5,
+        "parent_id": 3,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Thanks for the tip on the HINTS acronym, Turbo Tom. Can you elaborate on what you mean by 'PITA' in your previous post? Is that a Canadian slang term?",
+        "color": "pink"
+      },
+      {
+        "id": 6,
+        "parent_id": 4,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "I'm with Dr. Zalesky on the importance of a good history and physical exam in evaluating vertigo. But, as emergency physicians, we also need to be aware of the diagnostic pitfalls of vertigo. For example, patients with benign paroxysmal positional vertigo (BPPV) can often present with vertigo and nystagmus. Don't forget to look for those telltale signs of BPPV'",
+        "color": "gray"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "BPPV, huh? Is that a condition that's caused by a virus or something? I've heard it affects the inner ear...?",
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "parent_id": 6,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "For those who may be interested, there's a great article on Medscape on BPPV. It discusses the pathophysiology, clinical presentation, and treatment options. I'll link it in the comments below.",
+        "color": "red"
+      },
+      {
+        "id": 9,
+        "parent_id": 4,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "I'd like to add that the HINTS examination is just one tool in our diagnostic toolbox. As emergency physicians, we need to consider other potential causes of vertigo, such as vestibular migraine, Meniere's disease, and even psychiatric disorders. A thorough history and physical exam are essential for differentiating between these conditions",
+        "color": "orange"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "I'm just a patient, but I thought I'd chime in on this thread. My doctor told me I have vertigo caused by a vestibular issue. Can someone explain what that means? Is it related to my inner ear? ",
+        "color": "purple"
+      },
+      {
+        "id": 11,
+        "parent_id": 8,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Ah, Barnaby my dear, I think what your doc is sayin' is that you've got a vestibular problem, like, related to your inner ear, but not necessarily 'cause' from a virus or summat. Don't you worry, just get it checked out, and you'll be back to fishin' in no time!",
+        "color": "pink"
       },
       {
         "id": 12,
@@ -109,133 +807,186 @@
         "user": "Dr. Kevin Park",
         "role": "PGY1",
         "city": "Edmonton, AB",
-        "text": "I had a patient with a small pneumothorax that we missed on x-ray,\n   but caught on ultrasound. It was a real game-changer for us ED docs. I was\n   worried I'd miss it, but the ultrasound skills I learned in residency paid off\n   big time.",
+        "text": "Sparkle-Eyes, that's a great explanation. Just to follow up on my previous post, would anyone like to share their favorite resources for learning more about vertigo and BPPV?",
         "color": "blue"
       },
       {
         "id": 13,
         "parent_id": 12,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I'd say start with the ENT book by Cummings, and then move on to some online resources like the Vestibular Disorders Association website. For BPPV, you can't go wrong with a good ol' fashioned YouTube video or two",
+        "color": "purple"
+      },
+      {
+        "id": 14,
+        "parent_id": 13,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "I like to keep it simple: when in doubt, order a HINTS examination. But if you do have more time, I recommend checking out the American Academy of Otolaryngology-Head and Neck Surgery website for some great resources on vertigo and BPPV",
+        "color": "green"
+      }
+    ],
+    "image": "https://www.saem.org/images/default-source/publications/grace-3-infographic-thumbnail.png?sfvrsn=ec4161f6_0&MaxWidth=350&MaxHeight=453&ScaleUp=false&Quality=High&Method=ResizeFitToAreaArguments&Signature=AA60B8E79C450BDF89D445D894AEF821BA0B8DD1"
+  },
+  {
+    "id": 1,
+    "title": "Rant about: Misleading COHb levels in carbon monoxide poisoning",
+    "body": "Just saw a patient with symptoms of CO poisoning but a COHb level less than 10%. I was prepared to send them home but the ER doc was insistent on keeping them overnight. Has this ever happened to anyone else? What are your thoughts on using bedside pulse cooximetry to screen for CO exposure? The literature is murky at best. Any links to useful online resources?",
+    "category": "emergmed",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "TLDR: Don't rely solely on COHb levels to diagnose CO poisoning. Symptoms are more important.\n\nI recall a study that showed even with COHb levels <10%, patients still experienced symptoms like headache, dizziness, and nausea. I think it's great that you're questioning the use of COHb levels as a sole indicator. Bedside pulse cooximetry is a game-changer, but it's not foolproof. I'd love to see more research on its accuracy.\n\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC6437219/",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Does anyone have experience with using pulse cooximetry in clinical settings? In textbooks, it says it's used to estimate COHb levels, but how reliable is it? Is it more useful for ruling in/out CO poisoning or just a useful tool to have?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Leo, in my experience, pulse cooximetry can be quite useful in ruling in CO poisoning. However, it's still a tool and should be used with caution. I'd say it's more accurate for patients with higher COHb levels (>30%). But, if you're dealing with a patient who's got low COHb levels and symptoms, it's unlikely they're just having a 'flu-like' illness. It's always a good idea to consider other diagnoses and get more labs.\n\nhttps://www.jems.com/2019/01/bedside-pulse-co-oximetry-101/",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Can we talk about the limitations of COHb levels? It's not just about the absolute number, but also the time since exposure. If a patient's been exposed hours ago and the COHb level's dropped, it doesn't necessarily mean they're out of the woods. Am I right in saying that?",
+        "color": "green"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Sarah, that's absolutely right! COHb levels can drop rapidly, especially if the patient's been removed from the CO source and is receiving oxygen therapy. It's crucial to consider the patient's symptoms and clinical presentation, not just the lab results. You should always consider the context of the exposure and the patient's overall clinical status.",
+        "color": "green"
+      },
+      {
+        "id": 6,
+        "parent_id": null,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Can we get real for a sec? I've seen CO poisoning cases where the COHb level was <10% and the patient looked like they'd been in a bar fight. Don't get me wrong, I love COHb levels, but they're not the only tool in the toolbox. Can we please focus on the patient's symptoms and clinical presentation?",
+        "color": "blue"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "TLDR: Tom's rant made sense!",
+        "color": "green"
+      },
+      {
+        "id": 8,
+        "parent_id": 6,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Is pulse cooximetry only available in hospitals? Can't we get those in clinics too? Maybe it's an emergency department thing only?",
+        "color": "green"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Chad, pulse cooximetry is available in both hospitals and clinics, but it's usually used in emergency settings because it's a quick and easy way to rule in CO poisoning. However, it's not exclusive to ERs.",
+        "color": "green"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "Can someone explain CO poisoning to me like I'm 5? I think I might have gotten too much CO from my car exhaust.",
+        "color": "green"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Hey Barnaby, don't worry! CO poisoning is when you inhale bad stuff from cars or fireplaces, and it can make you sick. It's like someone poured stinky air into your lungs\n\nBut seriously, dude, if you're feeling weird, go to the doc ASAP. You don't wanna mess around with CO poisoning!",
+        "color": "blue"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
         "user": "Dr. Elena Varkov",
         "role": "FRCPC",
         "city": "Quebec City, QC",
-        "text": "That's great, Kevin! I'm sure your patient's story will help us all\n   be more vigilant about using ultrasound in ED. Now, about that sodium\n   story...",
+        "text": "Great job, Tom! Now, Barnaby, let's get to the point. If you suspect CO poisoning, get your patient to the ER ASAP, but don't forget to get a thorough history, especially about recent exposure to carbon monoxide.",
+        "color": "green"
+      },
+      {
+        "id": 13,
+        "parent_id": 12,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Elena, can we discuss the importance of prompt medical evaluation? I've seen cases where patients delayed seeking care, and now they've got long-term cognitive and neurological problems. Shouldn't we be pushing more patients to get seen ASAP when they suspect CO poisoning?",
         "color": "green"
       },
       {
         "id": 14,
         "parent_id": 13,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "You're telling me, Elena! Sodium's like the holy grail of patient\n   evaluation. We've got our priorities straight, that's for sure.",
-        "color": "red"
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Sarah, I couldn't agree more! Prompt medical evaluation is crucial in CO poisoning. We should be emphasizing this to our patients and families when suspecting CO exposure. It's about getting the care ASAP, not delaying it.",
+        "color": "green"
       },
       {
         "id": 15,
-        "parent_id": 14,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "Tom's right. We shouldn't lose sight of what matters most: our\n   patients. Let's keep the focus on delivering top-notch care.",
-        "color": "red"
+        "parent_id": null,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Can someone summarize the key points from this thread? I'm getting a headache from all the info.",
+        "color": "green"
       },
       {
         "id": 16,
         "parent_id": 15,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "Amen to that, Henry. I've been in this game long enough to know\n   that at the end of the day, it's all about the patient. Let's not forget that.",
-        "color": "green"
-      },
-      {
-        "id": 17,
-        "parent_id": 16,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Well said, Martha. Let's keep the discussion on track and focus on\n   delivering the best care possible for our patients.",
-        "color": "red"
-      },
-      {
-        "id": 18,
-        "parent_id": null,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "So, to summarize, pneumothoraces are serious and we should do more\n   ultrasound in ED, right?",
-        "color": "blue"
-      }
-    ],
-    "image": "https://i.ytimg.com/vi/95IhCXDL9EY/maxresdefault.jpg"
-  },
-  {
-    "id": 1,
-    "title": "TIL that a single sting from an Africanized bee can cause full-body anaphylaxis. I've seen this before...",
-    "body": "Just saw a patient with multiple stings to the back from an Africanized bee attack. The local reaction was minimal but the patient was getting more and more desaturating after each passing minute. I got the epinephrine auto-injector out and we administered it quickly, which seemed to stabilize the patient. I've been thinking about the specifics of venom toxicity and its role in anaphylaxis all night. Can anyone provide some clarity on this?",
-    "category": "emergency medicine",
-    "comments": [
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Turbo Tom RN",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "TLDR: Don't underestimate Africanized bee stings! They can cause full-body anaphylaxis in minutes. Had a similar case last year where we got called in for a 'wasp sting'. Turns out it was an Africanized bee. We had to get an OR team ready for intubation and fluid resuscitation. Luckily, the patient recovered fully, but it was a close call. Always, always ask about travel to bee-infested areas and be on the lookout for those little white stripes on the bee's belly.",
-        "color": "blue"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Leo Chen MS1",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "That's so intense! What's the mechanism behind Africanized bee venom? Can someone break it down for me?",
-        "color": "purple"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Sarah Jenkins MS3",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Africanized bee venom contains a protein called melittin, which triggers histamine release from mast cells. This leads to vasodilation, increased vascular permeability, and smooth muscle contraction. The venom also contains hyaluronidase, which breaks down connective tissue and allows the venom to spread more easily. It's a potent combination that can cause full-body anaphylaxis in a matter of minutes. Here's a paper on it: <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4441459/>",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta PGY2",
+        "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "Great discussion so far! I'd like to add that Africanized bee stings can also cause a severe local reaction, which can sometimes be mistaken for a spider bite or other insect sting. Be cautious when diagnosing in these cases, as the patient may require prompt anaphylaxis treatment. We should also consider teaching our patients about the risks of Africanized bee stings and how to recognize signs of anaphylaxis.",
-        "color": "purple"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Kevin Park PGY1",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Dr. Gupta, can you elaborate on the local reaction? What are some red flags to look out for?",
-        "color": "blue"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Turbo Tom RN",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Red flags for a severe local reaction include swelling that's more than 10 cm in diameter, pain that requires IV morphine, or a fever above 38\u00b0C. You should also look for signs of anaphylaxis, such as hypotension, tachycardia, and respiratory distress. If the patient is experiencing any of these symptoms, get an anaphylaxis cart ready and don't hesitate to administer epinephrine.",
+        "text": "TLDR for you, Leo\n\nCOHb levels are not the only indicator of CO poisoning; symptoms and clinical presentation are just as important.\nPulse cooximetry is a useful tool in diagnosing CO poisoning, especially for patients with high COHb levels. However, it's not foolproof.\nPrompt medical evaluation is crucial in CO poisoning.\n\nDon't get me wrong, folks, CO poisoning is not just a lab result \u2013 it's a clinical diagnosis that requires a thorough history, physical examination, and diagnostic tests to confirm.",
         "color": "green"
       }
     ]
   },
   {
-    "id": 1,
-    "title": "Today I Learned: Sigmoid volvulus in a 80 yo, anticoagulated pt.",
-    "body": "Just saw a patient with a classic case of sigmoid volvulus. The pt. was an 80 yr old, anticoagulated woman who presented with sudden onset, severe abdominal pain and vomiting. Her vital signs were stable but she had a distended abdomen with absent bowel sounds.",
-    "category": "emergency_medicine",
+    "title": "Alcoholic Ketoacidosis: Case Study and Discussion",
+    "body": "Just saw a patient with Alcoholic Ketoacidosis (AKA) and I'm still trying to wrap my head around the complexity of this diagnosis. The patient, a 45-year-old male, presented with nausea, vomiting, and abdominal pain after a night of heavy drinking. His vitals were tachycardic and hypotensive, with an anion gap metabolic acidosis and ketones positive on his urine dipstick test. He was treated with IV fluids and insulin, but it got me thinking - what are the key differences between AKA and Diabetic Ketoacidosis (DKA)? Does anyone have any insight or experience with this diagnosis?",
+    "category": "#emergencymedicine #critcare",
     "comments": [
       {
         "id": 1,
@@ -243,600 +994,136 @@
         "user": "Dr. Aris Thorne",
         "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "Great case! Sigmoid volvulus is a challenging diagnosis, especially in the elderly. What were your initial thoughts when you saw the pt.?",
+        "text": "Ah, a great case study! I'd like to start by saying that AKA and DKA are two distinct entities with different underlying pathophysiologies. AKA occurs in individuals with no prior history of diabetes or metabolic disorders, whereas DKA is a complication of pre-existing diabetes. Key differences include the absence of hyperglycemia in AKA, as well as a more pronounced lipolytic response due to the absence of insulin.",
         "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "I remember thinking 'this is a classic' when I saw the pt. But, what really got me was the pt.'s history of anticoagulation. Did you think that might have contributed to the volvulus?",
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "That's really interesting, Dr. Thorne. But what about the role of free fatty acids in AKA? I've heard they play a significant role in the development of ketoacidosis. Is that correct?",
         "color": "green"
       },
       {
         "id": 3,
-        "parent_id": 2,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "Yes, the anticoagulation certainly plays a role. Anticoagulants can impair the body's ability to form blood clots and seal off areas of bowel ischemia. This can lead to further ischemia and eventually, volvulus.",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "One thing that stuck out to me was the absence of bowel sounds. Did you use any imaging studies to confirm the diagnosis?",
-        "color": "purple"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Actually, we did use imaging studies. The pt. had a CT scan that showed a sigmoid loop volvulus with proximal bowel dilatation. We also did a rectal exam, which revealed a palpable loop in the rectum.",
-        "color": "green"
-      },
-      {
-        "id": 6,
-        "parent_id": 4,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "What is a sigmoid loop volvulus, exactly? And what does bowel dilatation mean?",
-        "color": "yellow"
-      },
-      {
-        "id": 7,
-        "parent_id": 4,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "A sigmoid loop volvulus occurs when the sigmoid colon twists around itself, cutting off the blood supply. Bowel dilatation means that the bowel is larger than normal, which can be a sign of obstruction.",
-        "color": "blue"
-      },
-      {
-        "id": 8,
-        "parent_id": 1,
-        "user": "Dr. Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "Great discussion! But, I have to ask, did you surgically manage this patient? And if so, what was the outcome?",
-        "color": "purple"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Actually, yes we did surgically manage the patient. The patient underwent an emergency left hemicolectomy, which was successful. However, the patient did have a prolonged recovery.",
-        "color": "green"
-      },
-      {
-        "id": 10,
         "parent_id": 1,
         "user": "Dr. Victor Sterling",
         "role": "Chief of Surgery",
         "city": "Calgary, AB",
-        "text": "This is a waste of time. Anyone can Google a sigmoid volvulus and get the same answers.",
-        "color": "pink"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Gladly! It's not about Google, Vic. It's about real-life experience and sharing our experiences to learn from each other.",
-        "color": "blue"
-      },
-      {
-        "id": 12,
-        "parent_id": 10,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Well, Vic, at least we're learning something from your 'Google-iness'!",
-        "color": "green"
-      }
-    ]
-  },
-  {
-    "id": 145,
-    "title": "Tracheal Intubation: A Tale of Two Techniques",
-    "body": "Just had the toughest airway of my career, guys. We had a code blue in the ED due to cardiac arrest. The patient was an 80-year-old male with a BMI of 35. He had a history of COPD and was on high-flow oxygen at home.",
-    "category": "medical",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Wow, that sounds like a real challenge. I've had my fair share of difficult intubations, but this one takes the cake. What was the patient's initial blood pressure and oxygen saturation when he arrived in the ED?",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Barbara Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Actually, it was more like a story of two techniques - one successful, one not so much. The patient's initial BP was 40/20, and his oxygen saturation was 50% on 100% non-rebreather mask.",
-        "color": "orange"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "I was at the bedside for this code, and I have to say, the team's communication was on point. They were all working together, each one taking charge of their role. It was like a well-oiled machine.",
-        "color": "blue"
+        "text": "Amateurs think they can diagnose AKA based on a simple metabolic panel, but it's so much more nuanced than that. You need to consider the patient's entire presentation, including their social history and past medical history. I've seen patients with DKA masquerading as AKA simply because they have a history of binge drinking.",
+        "color": "red"
       },
       {
         "id": 4,
-        "parent_id": 2,
+        "parent_id": 3,
         "user": "Dr. Aris Thorne",
         "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "Great point, Barbara. Communication is key in situations like these. What did the team do to assess the patient's airway? Did they use anything like a laryngoscope or a flexible bronchoscope?",
-        "color": "pink"
-      },
-      {
-        "id": 5,
-        "parent_id": 2,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "What's a good way to assess airway difficulty in a patient like this? Is there a specific scale or method that's commonly used?",
-        "color": "yellow"
-      },
-      {
-        "id": 6,
-        "parent_id": 4,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "According to the difficult airway algorithm, you would use a combination of clinical assessment and equipment, such as a laryngoscope or a flexible bronchoscope. You would also take into account the patient's history, including any previous difficult airways or neck surgery.",
+        "text": "I disagree, Dr. Sterling. While it's true that AKA can be challenging to diagnose, we shouldn't be writing off an entire diagnosis due to its complexity. AKA is a very real entity that requires careful consideration of the patient's underlying pathophysiology. I'd like to see some data to support your claims, rather than anecdotal evidence.",
         "color": "purple"
       },
       {
-        "id": 7,
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Actually, Dr. Sterling has a point. I've seen patients with DKA who have denied any history of diabetes, but have instead reported a history of binge drinking. It's not that AKA doesn't exist, it's just that the lines can get blurred. A good clinician needs to consider both possibilities.",
+        "color": "orange"
+      },
+      {
+        "id": 6,
         "parent_id": 5,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I see what you're saying, Dr. Gupta. But how do we determine which one it is? Is there a specific diagnostic algorithm or set of criteria that helps us differentiate between the two?",
+        "color": "green"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
         "user": "Dr. Elena Varkov",
         "role": "FRCPC",
         "city": "Quebec City, QC",
-        "text": "Great question, Chad! The Cormack-Lehane classification system is a good way to assess airway difficulty. It ranges from 0 to 4, with 0 being a patent airway and 4 indicating a difficult intubation.",
-        "color": "green"
+        "text": "Actually, there is a set of criteria that helps us differentiate between AKA and DKA. The '2 of 5' rule states that if a patient presents with 2 or more of the following: 1) anion gap metabolic acidosis, 2) ketonuria, 3) elevated free fatty acids, 4) hyperglycemia, and 5) absence of insulin therapy, then they likely have DKA. Otherwise, it's more likely to be AKA.",
+        "color": "blue"
       },
       {
         "id": 8,
         "parent_id": 7,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Yeah, or you could use the Mallampati classification system. It's easier to remember and takes into account the patient's oral and pharyngeal anatomy.",
-        "color": "blue"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Okay, I think I understand. So, you're saying that the Cormack-Lehane and Mallampati systems are similar but have some differences?",
-        "color": "purple"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "Exactly, Leo! While both systems assess airway difficulty, the Cormack-Lehane system is more specific to endotracheal intubation, whereas Mallampati is more general.",
-        "color": "orange"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Thanks for clarifying that, Henry! And I think that's all the time we have for today's discussion.",
-        "color": "green"
-      }
-    ],
-    "image": "https://my.clevelandclinic.org/-/scassets/images/org/health/articles/intubation"
-  },
-  {
-    "id": 1,
-    "title": "Just had a case of diverticulitis where... ",
-    "body": "Just had a case of diverticulitis where CT didn't show the perforation, but we still admitted the patient because of high suspicion. Did anybody else have this happen? It was a 45 year old with fever, leukocytosis, and pain, but CT showed only a phlegmon. I went ahead and admitted the patient to the ward because of high suspicion of perforation. It turned out to be a false alarm, but I think it's always better to err on the side of caution with these types of cases. TLDR; CT didn't show perforation, admitted patient anyway.",
-    "category": "medicine",
-    "comments": [
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "I totally agree! Diverticulitis can be a real pain (no pun intended). Remember that case study from Dr. Thorne in Tintinalli's? The one where they had to do an emergency colon resection because the patient had a perforation that wasn't caught on CT? Yeah, that's what went through my mind when I saw this patient. Always better to err on the side of caution. Link to that case study would be awesome by the way, anyone know where to find it?",
-        "color": "purple"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "I'd like to chime in on this discussion. In our department, we've seen cases where the CT didn't show the perforation, but the patient still had a positive CT scan. We've been using the 'sensitivity' and 'specificity' of the CT scan to make our decision. If the patient has a high fever, abdominal pain, and leukocytosis, and the CT scan is only 50% sensitive for perforation, we'll still admit the patient to the ward as a precaution. It's always better to be safe than sorry. Has anyone else used this strategy in their department?",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "That's really interesting, Dr. Sharp! So, when you're interpreting the CT scan, are you looking for any specific signs of perforation, or are you just relying on the sensitivity and specificity of the scan?",
-        "color": "purple"
-      },
-      {
-        "id": 5,
-        "parent_id": 3,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "I'd like to add that in general, the sensitivity and specificity of the CT scan can vary depending on the individual patient. For example, in a patient with a history of IBD, the sensitivity and specificity of the CT scan may be lower than in a patient without IBD. Has anyone else noticed this?",
-        "color": "blue"
-      },
-      {
-        "id": 6,
-        "parent_id": 1,
-        "user": "Dr. Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "I'm not sure I agree with the approach of admitting the patient anyway. In my experience, diverticulitis is usually a straightforward diagnosis. Unless there are clear signs of perforation or abscess, I'd be more likely to send the patient home with antibiotics and close follow-up. Has anyone else encountered cases where diverticulitis was a more complex diagnosis?",
-        "color": "red"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Oh dear, I think you're forgetting that diverticulitis is a very common diagnosis. Most patients don't even need a CT scan to diagnose it! I'd be very concerned if we were sending patients home without any further evaluation.",
-        "color": "green"
-      },
-      {
-        "id": 8,
-        "parent_id": 6,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I agree with Dr. Stone. In our department, we've been using the 'Focused Assessment with Sonography for Trauma' (FAST) exam to quickly rule out free fluid in the peritoneum. If the patient doesn't have any signs of free fluid, we'll usually send them home with antibiotics and close follow-up. Has anyone else used the FAST exam in their department?",
-        "color": "purple"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Actually, I've been using the FAST exam to rule out free fluid in the peritoneum, but we also use it to evaluate for pericardial effusion. Has anyone else used the FAST exam for pericardial effusion?",
-        "color": "blue"
-      },
-      {
-        "id": 10,
-        "parent_id": 8,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "So, if I'm understanding correctly, the FAST exam is used to rule out free fluid in the peritoneum, but it can also be used to evaluate for pericardial effusion? Can someone explain the difference between these two conditions?",
-        "color": "purple"
-      }
-    ]
-  },
-  {
-    "id": 1234,
-    "title": "Delirium vs. Coma: The Diagnostic Challenge of a Lifetime (or at Least my Shift)",
-    "body": "I had the most frustrating case last night... saw a 75-year-old male with a history of dementia come in for 'evaluation of lethargy.' He was clearly not alert, but the family swore he'd just had a cold a few days ago and was now just 'resting.' I'm trying to think of the last time I saw someone make a complaint about 'just resting' when it was clear as day that the person was in a coma. Anyway, the family was adamant that he was fine and wouldn't let me admit him. Long story short, after a 3-hour psych eval, ECG, and MRI, we found he had a subdural hematoma (no history of fall). Luckily, we got him to neurosurg in time.",
-    "category": "emergency physicians",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Leo Chen - MS1",
-        "role": "",
-        "city": "Montreal, QC",
-        "text": "That's crazy! What was the key factor that led you to suspect he was in a coma instead of just being lethargic?",
-        "color": "blue"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Sarah Sharp - EP",
-        "role": "",
-        "city": "Laval, QC",
-        "text": "Great question, Leo! While it's always tough to distinguish between delirium and coma, especially in geriatric patients, I think what Dr. [username] did was spot on by noting the abrupt onset and lack of history of typical risk factors (e.g., falls). Plus, as you mentioned, the family's denial of symptoms can be a red flag.",
-        "color": "purple"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Sarah Jenkins - MS3",
-        "role": "",
-        "city": "Ottawa, ON",
-        "text": "I think there's also an important point here about the GCS and the AVPU scale. In a lot of cases, patients are initially scored as being alert but really they're just in a delirium state. I saw a recent paper that highlighted the limitations of these tools, especially in elderly populations.",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": null,
-        "user": "Chad Broson - Pre-med",
-        "role": "",
-        "city": "Brampton, ON",
-        "text": "This is exactly what I've been trying to study for! Can we talk more about the GCS and AVPU scale? How do we apply them in practice and what are some common pitfalls?",
-        "color": "red"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Elena Varkov - FRCPC",
-        "role": "",
-        "city": "Quebec City, QC",
-        "text": "The GCS and AVPU scale are both useful tools for assessing mental status, but they're not without limitations. The GCS is more comprehensive but can be time-consuming to administer, while the AVPU scale is quicker but may not capture all aspects of mental status. It's also worth noting that both tools are subjective and can be influenced by a patient's baseline level of alertness. I recommend always taking a detailed history and performing a thorough physical exam before relying on these scoring systems.",
-        "color": "orange"
-      }
-    ],
-    "image": "https://www.saem.org/images/default-source/cdems/standard-v-pediatric-glasgow-coma-scales.png?sfvrsn=53962118_1"
-  },
-  {
-    "id": 1,
-    "title": "Frustrating intubation last night...",
-    "body": "Just wanted to share a rant about intubations. Had a patient last night who was in severe respiratory distress, with a severe case of laryngospasm. Tried intubating for 20 minutes with multiple attempts but just couldn't get it down. Finally placed an EGD and stabilized the patient. The thing that got me though was that the patient was saturating in the 90s, but we couldn't get a single breath in. I was thinking about the airway algorithm and wondering if we should have gone straight to a surgical airway.",
-    "category": "EM Cases",
-    "comments": [
-      {
-        "id": 100,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "That's so frustrating! Did you try any of the new laryngoscope blades? The Miller blades have been a game-changer for me when dealing with difficult intubations. [link to study] I also want to say, it's not uncommon for patients with severe respiratory distress to have a high PaCO2, which can lead to laryngospasm.",
-        "color": "red"
-      },
-      {
-        "id": 101,
-        "parent_id": 100,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Do you think we should be considering a pre-intubation EGD in cases like this? And what about the role of neuromuscular blockade in preventing laryngospasm?",
-        "color": "orange"
-      },
-      {
-        "id": 102,
-        "parent_id": 100,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "I don't get it. Why can't you just put a surgical airway in right away if the patient is saturating in the 90s?",
-        "color": "blue"
-      },
-      {
-        "id": 103,
-        "parent_id": 102,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Actually, Chad, you'd be surprised how often patients who are oxygenating well are really struggling with their carbon dioxide levels. If we just went straight to a surgical airway, we'd be sacrificing our ability to assess the patient's airway and make an informed decision about the best course of action.",
-        "color": "green"
-      },
-      {
-        "id": 104,
-        "parent_id": 103,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "But Dr. Sharp, isn't that exactly what we're supposed to be doing during the emergency airway algorithm? Assessing the patient's anatomy, trying to visualize the vocal cords, et cetera?",
-        "color": "red"
-      },
-      {
-        "id": 1,
-        "parent_id": null,
         "user": "Dr. Aris Thorne",
         "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "I think the real key here is to recognize when the intubation is failing, and not to get caught up in the idea that we have to try multiple attempts before moving on. If the patient's oxygenation is stable, and we're not making progress, it's often better to move on to the next step as soon as possible.",
-        "color": "purple"
-      }
-    ]
-  },
-  {
-    "id": 8,
-    "title": "Rant about near drowning patients and how to manage them in the ER",
-    "body": "Just saw a patient with a near drowning episode last night and it got me thinking... What are your strategies for managing these patients in the ER? The patient had submersion in cold water (around 4\u00b0C) for about 10 minutes before being rescued.\n\nThe patient's vitals were:\nHR: 120 bpm\nBP: 80/40 mmHg\nRR: 25 bpm\nSpO2: 88% on 8L of O2\n\ngoal is obviously to prevent hypothermia from setting in and to stabilize the patient before transferring to the ICU. Any thoughts on how to achieve this?",
-    "category": "EMERGENCY MEDICINE",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "For me, the key is to focus on rapid rewarming while maintaining a stable airway. I'd start by intubating the patient and then using a Bair Hugger or a similar warming blanket. Additionally, consider using warmed IV fluids and consider the use of peritoneal dialysis or a heat exchanger to rapidly correct the patient's core temperature. Has anyone else had success with these methods?",
+        "text": "That's an excellent point, Dr. Varkov. The '2 of 5' rule can be a helpful tool in differentiating between the two diagnoses. But what about the role of insulin therapy in AKA? Does that play a significant role in the development of ketoacidosis?",
         "color": "purple"
       },
       {
-        "id": 2,
-        "parent_id": 1,
+        "id": 9,
+        "parent_id": 8,
         "user": "Dr. Barb Miller",
         "role": "EP",
         "city": "Winnipeg, MB",
-        "text": "I agree with Maya's point about rapid rewarming, but what about the risk of reperfusion injury? I'd be careful with using warmed IV fluids in these patients as it may exacerbate the damage. Has anyone looked into the use of cold IV fluids to mitigate this effect?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "I've heard that for patients who have been submerged in cold water for more than 10 minutes, it may be beneficial to use a medication to prevent shivering, which can lead to further cooling. What are people's thoughts on using mecamylamine or another shivering prevention agent in near drowning patients?",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "I've had success with using mecamylamine in my own patients, but I think it's essential to keep in mind the potential for hypotension and other systemic side effects. Have you considered the use of a vasopressor to maintain blood pressure in these patients?",
-        "color": "blue"
-      },
-      {
-        "id": 5,
-        "parent_id": 3,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "What about the importance of monitoring for cardiac complications? I've seen patients with near drowning episodes develop arrhythmias or MI in the ER. How do you screen for these complications and what are your treatment protocols?",
-        "color": "red"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Great point, Sparkle-Eyes Sue! I always make sure to get an ECG on any patient with a near drowning episode and to monitor for signs of cardiac compromise, such as arrhythmias or decreased SaO2. Has anyone else found any useful resources or guidelines for managing cardiac complications in these patients?",
-        "color": "green"
-      },
-      {
-        "id": 7,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Can you clarify what the ideal core temperature is for these patients? Should we aim for rewarming to 32\u00b0C, 35\u00b0C, or another temperature altogether?",
-        "color": "blue"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "For near drowning patients, the aim is to gradually rewarm to a core temperature around 37\u00b0C. Rewarming too quickly can lead to reperfusion injury, which can exacerbate the damage.",
-        "color": "purple"
-      },
-      {
-        "id": 9,
-        "parent_id": 1,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "This is a really interesting topic! Has anyone considered the role of hypothermia in potentially protecting the brain from injury in near drowning episodes?",
-        "color": "green"
+        "text": "Insulin therapy actually plays a complex role in AKA. While it may not be the primary cause of ketoacidosis, it can certainly contribute to it. Patients with AKA often have elevated fasting glucose levels due to insulin deficiency, which can then exacerbate the development of ketoacidosis.",
+        "color": "brown"
       },
       {
         "id": 10,
         "parent_id": 9,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "Now that's an intriguing idea, Chad! While I'm not an expert on this topic, I do recall reading an article about the potential neuroprotective effects of mild hypothermia in patients with cardiac arrest. Perhaps it's worth exploring the use of targeted temperature management (TTM) in near drowning patients?",
-        "color": "blue"
-      }
-    ]
-  },
-  {
-    "id": 99,
-    "title": "Just saw a patient with salicylate toxicity and I'm reminded why we need to consider chronic toxicity in the elderly",
-    "body": "Had a miss last night, so here's what happened: we get a pt in the ER with 'repeated doses' of ASA for 'arthritis'. The lab shows a 'normal' salicylate level, but I notice the patient's pH is acidic and they're having trouble breathing. Turns out they've been taking 5 325mg tabs/day for months. Their ASA levels correlate poorly with toxicity, so we send off for some blood work and start IV fluids. This case highlights the pitfalls of relying solely on ASA levels and the importance of considering chronic toxicity, particularly in the elderly. Anybody else deal with this?",
-    "category": "emergency-medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Couldn't agree more, @OP. Chronic salicylate toxicity is a common pitfall, especially in the elderly. It's essential to maintain a high index of suspicion for chronic toxicity, and not just rely on lab values. Thanks for sharing this case! One note - have you considered the possibility of co-ingestion with other OTC meds, like paracetamol?",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Hey @Dr. A, good point! Paracetamol toxicity can definitely co-ingest with ASA toxicity. We had a case last week where the patient was taking both ASA and paracetamol for chronic pain and developed severe liver damage. Thanks for keeping us on our toes! By the way, has anyone else thought about the recent FDA advisory on ASA and increased cardiovascular risk?",
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I'm starting to understand the nuances of AKA. But what about treatment? Are the management strategies for AKA and DKA similar or distinct?",
         "color": "green"
       },
       {
-        "id": 3,
-        "parent_id": null,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "I had a question about the case @OP. How did you determine that the patient was taking 5 325mg tabs/day? Was there a direct admission history or did you piece it together from the lab results and Pt's story?",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Hey @Leo, great question! In our case, the patient had a very good hx, and the family member was present, so we were able to get a clear picture of the medication regimen. However, it's often the subtle details that can make or break a diagnosis, so it's great that you're paying attention to the lab results and Pt's story.",
-        "color": "red"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs still relying on ASA levels to diagnose toxicity... We're still dealing with the aftermath of the last salicylate toxicity misdiagnosis. You'd think the ER would get it by now. Has nobody considered the possibility of a medication error?",
-        "color": "pink"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Hey @Dr. V, let's not be too harsh on the ER docs. We're all trying to do our best with the info we have. Medication errors can happen to anyone, and it's often the system flaws, not just individual mistakes. Let's keep the discussion constructive and focused on improving patient care.",
-        "color": "orange"
-      },
-      {
-        "id": 7,
-        "parent_id": null,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "I've been reading about the recent studies on the cardiovascular risks of ASA. Does anyone have any updates on the guidelines for ASA use in patients with cardiovascular disease?",
-        "color": "brown"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
+        "id": 11,
+        "parent_id": 10,
         "user": "Dr. Ziggy Zalesky",
         "role": "EP",
         "city": "Vancouver, BC",
-        "text": "Hey @Leo, great question! There have been some new guidelines on ASA use in patients with cardiovascular disease. I'd recommend checking out the latest articles on the topic. One resource I found helpful is a recent review on the topic by the American Heart Association.",
-        "color": "yellow"
+        "text": "Treatment strategies for AKA and DKA are distinct, my friend. For AKA, we focus on correcting the underlying metabolic derangement with fluids and insulin, whereas for DKA, we also need to address the insulin resistance and hyperglycemia with aggressive insulin therapy.",
+        "color": "pink"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "That makes sense, Dr. Zalesky. But what about the role of bicarbonate therapy in AKA? Is it recommended or not?",
+        "color": "orange"
+      },
+      {
+        "id": 13,
+        "parent_id": 12,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Actually, bicarbonate therapy is not recommended for AKA. It can actually worsen the metabolic derangement and increase the risk of cardiac arrest. We should focus on correcting the underlying fluid and electrolyte imbalances instead.",
+        "color": "red"
+      },
+      {
+        "id": 14,
+        "parent_id": 13,
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "I agree with Dr. Sharp. Bicarbonate therapy is a waste of time and resources. We should focus on treating the underlying cause of ketoacidosis, not just the symptoms.",
+        "color": "blue"
+      },
+      {
+        "id": 15,
+        "parent_id": 14,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "I think we've covered all the important points about AKA and DKA. Thanks to everyone for their insights and contributions. TLDR: AKA and DKA are distinct entities with different underlying pathophysiologies, and treatment strategies should be tailored accordingly.",
+        "color": "purple"
       }
     ],
-    "image": "https://rebelem.com/wp-content/uploads/2018/05/Salicylate-Toxicity.png"
+    "image": "https://emergencymedicinecases.com/wp-content/uploads/2020/09/DKA-algorithm-Canadian-Guidelines-2018-800x851.png"
   }
 ]
