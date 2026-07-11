@@ -1,44 +1,242 @@
 [
   {
-    "title": "Pulmonary Embolism - the Never-Ending Story",
-    "body": "Just saw a patient with a likely PE and it got me thinking about our trusty Wells Score. I mean, who doesn't love a good nomogram? But seriously, folks, how many of us have ever actually taken the time to sit down and go through each of the clinical features and how they contribute to the score? I'm guilty as charged - I was too busy rushing to admit the next patient to bother with the details. But a recent case made me realize just how crucial it is to get this right. So, let's take a deep dive into the Wells Score and see if we can make it our own.",
-    "category": "Emergency Medicine",
+    "id": 0,
+    "title": "Rant about beta blocker toxicity: 'The Calcium Conundrum' (TL;DR at the end)",
+    "body": "Had a miss last night on a beta blocker toxicity. Patient came in with significant bradycardia and hypotension. I immediately grabbed my go-to antidote, calcium gluconate. But as I was mixing the drip, I realized I hadn't checked the beta blocker class.\n\nIt turns out this patient was on a long-acting dihydropyridine, which behaves differently than phenylalkylamines or benzothiazepines. I ended up causing more harm than good by administering calcium too early.\n\nFast forward to the post-op, I reviewed the case and noticed the dihydropyridine was actually causing reflex tachycardia... something I should've caught earlier. Anybody else have a similar experience with beta blocker toxicity? How do you handle 'The Calcium Conundrum'?",
+    "category": "emergency-medicine",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "The Wells Score is a great starting point, but let's be real - it's not perfect. I mean, have you ever seen a patient with cancer and a positive D-dimer, but no PE? Yeah, thought so. We need to be thinking about alternative diagnoses and the likelihood of VTE in the first place. I'm a big fan of the Ottawa Rules - they're a great way to quickly rule out DVT without getting bogged down in the details.",
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "I had a patient once on a sustained-release verapamil. She was asymptomatic for hours until she crashed. We ended up intubating her and administering a bolus of calcium gluconate. However, I remember the article that 'The Calcium Conundrum' is still shrouded in debate. Some advocate for early calcium administration, while others recommend waiting until cardiac involvement is clear.\n\nDr. Rick, have you encountered any similar cases or studies on this topic?\n\nTL;DR: Be cautious with early calcium administration in beta blocker toxicity, especially with sustained-release preparations.",
         "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "@Dr. Zalesky, I hear you, but let's not get too caught up in the rules and scores. We need to be thinking about the big picture here - what's the patient's clinical presentation, what's their history, what's their exam like? The Ottawa Rules are great for quick DVT assessment, but what about PE? We need to be thinking about imaging and how to work up the patient in a timely and efficient manner.",
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs. This isn't rocket science. Early calcium administration is not the problem. The real issue is the delay in identifying the beta blocker class. We need to work on our EMRs to streamline the medication lists. Now, let's move on to more pressing topics, like the lack of bedside ultrasound training in EM.",
         "color": "green"
       },
       {
         "id": 3,
         "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Excuse me, Dr. Zalesky and Dr. Rage, but I think you're both missing the point. The Wells Score is just one tool in our arsenal, but what about the other risk factors that contribute to PE? What about malignancy, trauma, or recent surgery? Shouldn't we be thinking about the whole patient and not just the PE?",
-        "color": "blue"
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "I'm with Dr. Thorne on this one. Early calcium administration can be tricky. In our ED, we've had success using the \"Calcium-Insulin-Glucagon\" (CIG) protocol for beta blocker toxicity. The insulin helps to improve cardiac contractility, while the glucagon increases heart rate. Anyone else have experience with the CIG protocol?\n\nLink to a study on the CIG protocol: [1](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4321238/)",
+        "color": "purple"
       },
       {
         "id": 4,
         "parent_id": 3,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Hi Dr. Ziggy, I'm new to the ER and I'd love to learn more about the CIG protocol. Could you walk us through it step by step? Is there a specific sequence to administering the insulin and glucagon?",
+        "color": "green"
+      },
+      {
+        "id": 5,
+        "parent_id": 3,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Actually, Dr. Ziggy, the CIG protocol has been largely discredited in recent years. The evidence supporting the use of insulin and glucagon in beta blocker toxicity is weak at best. We should focus on standardizing our care for beta blocker toxicity and avoid unnecessary interventions.\n\nLink to a study on the lack of evidence for CIG: [2](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5791342/)",
+        "color": "purple"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Dr. Miller, thank you for bringing this to our attention. I've been reading about the CIG protocol in some of the textbooks, and I didn't realize it was considered outdated. What do you recommend for beta blocker toxicity these days?",
+        "color": "green"
+      },
+      {
+        "id": 7,
+        "parent_id": 5,
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "@Leo, you're absolutely right. We need to be thinking about the whole patient, not just the PE. What about a more comprehensive approach to PE diagnosis - maybe something like the Revised Geneva Score or the Pulmonary Embolism Severity Index? These tools can help us get a better sense of the patient's risk and make more informed decisions.",
+        "text": "Actually, Dr. Miller, I think there's been a misinterpretation. The CIG protocol wasn't meant to be a replacement for standard care, but rather an adjunct therapy in refractory cases. We should be cautious not to dismiss the potential benefits of the CIG protocol without further discussion.",
+        "color": "purple"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "The sodium and story of beta blocker toxicity are a bit more nuanced than that. Dr. Gupta makes a valid point, but we also have to consider the potential for CIG protocol to cause hyperkalemia and hypoglycemia in patients. We need to approach this topic with caution and further investigation.\n\nLink to a study on the risks of CIG protocol: [3](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5421916/)",
+        "color": "green"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Wait, what's CIG protocol? Is that like a new treatment or something? Can someone explain it in simple terms?",
+        "color": "purple"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "Ah, young man! The CIG protocol is a shorthand for \"Calcium-Insulin-Glucagon\". It's a protocol used in some hospitals for refractory beta blocker toxicity. Think of it like a last resort, but don't worry too much about it for now.",
+        "color": "green"
+      },
+      {
+        "id": 11,
+        "parent_id": null,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "I don't know about ye all, but I think we're gettin' a bit sidetracked here. Beta blocker toxicity is a serious business, and we should be focusin' on preventin' it in the first place. What do ye think, eh?",
+        "color": "purple"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "Well said, Sparkle-Eyes Sue. As family physicians, we often see patients with undiagnosed beta blocker toxicity. We need to encourage our patients to be aware of the risks and to take their medications as directed. Perhaps we can start a discussion on preventive measures in beta blocker toxicity?",
+        "color": "green"
+      },
+      {
+        "id": 13,
+        "parent_id": 12,
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "Preventive measures? You mean like taking calcium supplements or something? Please, we need to focus on the actual causes of beta blocker toxicity, not just treating the symptoms.",
+        "color": "purple"
+      },
+      {
+        "id": 14,
+        "parent_id": 13,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Geez, Brock, lighten up! Sparkle-Eyes Sue was just tryin' to keep us from thinkin' about the CIG protocol all day. Besides, preventing beta blocker toxicity is a good goal, don't you think?",
+        "color": "green"
+      }
+    ],
+    "image": "https://recapem.com/wp-content/uploads/2022/02/overview-of-BB-CCB-intoxication.png"
+  },
+  {
+    "id": 1,
+    "title": "Complications of Late Pregnancy - A Case Study",
+    "body": "Had a patient present to the ED last night with atraumatic vaginal bleeding at 38 weeks gestation. Upon further evaluation, we discovered a placenta previa with suspected placental abruption. The patient had no significant medical history, and the bleeding started suddenly. We performed an ultrasound to confirm the placental abruption and administered blood transfusions as needed. The patient was subsequently transferred to the hospital for further management. Anyone else have experiences with placental abruption or placenta previa in the ED?",
+    "category": "emergency-medicine",
+    "comments": [
+      {
+        "id": 2,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "MD",
+        "city": "Toronto, ON",
+        "text": "The key to managing placental abruption is rapid stabilization of the mother and delivery of the fetus. This includes administering blood transfusions as needed and preparing for possible cesarean section. It's also essential to evaluate the fetus for signs of distress such as abnormal heart rate patterns or decreased fetal movement. In this case, the patient was lucky that the bleeding was not more severe. I'd like to link to a study that outlines the management of placental abruption in the ED: https://www.ncbi.nlm.nih.gov/pubmed/28418442",
+        "color": "blue"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "What are some common causes of placental abruption, doc? And can you explain the difference between a placenta previa and a placenta accreta?",
+        "color": "purple"
+      },
+      {
+        "id": 4,
+        "parent_id": 2,
+        "user": "Dr. Victor Sterling",
+        "role": "MD",
+        "city": "Calgary, AB",
+        "text": "AMATEURS. You should all know this already. Placental abruption is caused by separation of the placenta from the uterine wall, usually due to maternal trauma or hypertension. The key is to get the patient on magnesium sulfate and prepare for immediate delivery. Don't waste time with stupid questions.",
+        "color": "green"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Actually, doc, Dr. Thorne's explanation is more accurate. Placental abruption is a complex condition, and I'd like to link to a study that outlines the pathophysiology and management: https://www.ncbi.nlm.nih.gov/pubmed/28796421. However, I do agree that magnesium sulfate is essential in managing symptoms.",
+        "color": "purple"
+      },
+      {
+        "id": 6,
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "MD",
+        "city": "Mississauga, ON",
+        "text": "We saw a similar case last week where the patient presented with suspected placental abruption after a motor vehicle accident. I'd like to highlight the importance of a thorough pelvic exam in evaluating these patients. The FAST exam can also be useful in detecting free intraperitoneal fluid.",
+        "color": "blue"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Rick 'The Rage'",
+        "role": "MD",
+        "city": "Windsor, ON",
+        "text": "I hate when the ER docs don't order a FAST exam. It's a simple test that can save lives. Get it together, people!",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Had a tricky case of vasopressor-induced hypertension last night... ",
+    "body": "Just saw a patient with severe vasopressor-induced hypertension after a code. The team was using norepinephrine at an insane dose and didn't catch the rise in BP until it was too late. The patient went into cardiac arrest again and we had to intubate for the 3rd time in 24 hours. Anyone else have a similar experience? I know I'm not the only one who's had to deal with these pesky hypertension crises. Thoughts on how to avoid this in the future?",
+    "category": "EM",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "OMG, that's crazy! I had a similar case last week and I'm still trying to figure out what went wrong. We were using phenylephrine and it seemed to be working great, but then the BP started to creep up and we didn't catch it until it was too late. Has anyone had any experience with phenylephrine-induced hypertension? Is it even a thing?",
+        "color": "blue"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Phenylephrine is actually a vasoconstrictor and can cause hypertension, but it's not as commonly discussed as norepinephrine. In my experience, norepinephrine is more likely to cause hypertension due to its effects on alpha-1 and beta-1 receptors. We had a case last year where the team was using norepinephrine at a high dose and we ended up giving phenylephrine to try to counteract the hypertension. It actually made things worse!",
         "color": "teal"
+      },
+      {
+        "id": 3,
+        "parent_id": null,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "I've been saying it for years, folks. Vasopressors are a double-edged sword. You gotta be so careful with the dosing and titration, or you'll end up causing more harm than good. I've seen it happen to patients, and it's not pretty. So, to all you docs out there, let this be a lesson: vasopressors are not a magic bullet, they're a last resort!",
+        "color": "red"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "What's the ideal dosing for norepinephrine? I was thinking it was around 0.1mcg/kg/min, but I'm not sure if that's right. Can someone explain the pharmacodynamics behind it?",
+        "color": "purple"
       },
       {
         "id": 5,
@@ -46,34 +244,34 @@
         "user": "Dr. Sarah Sharp",
         "role": "EP",
         "city": "Laval, QC",
-        "text": "@Dr. Gupta, I agree that a more comprehensive approach is the way to go, but what about the logistics? How do we incorporate these new tools into our practice without making it too complicated? Should we be focusing on one or two main metrics, like the Wells Score, or trying to get a more detailed picture of the patient's risk?",
-        "color": "gray"
+        "text": "The dosing for norepinephrine is actually quite complex. The ideal dose is around 0.05-0.1mcg/kg/min, but it depends on the patient's underlying condition and the severity of shock. We should really be using a vasopressor titration protocol to adjust the dose based on the patient's BP and cardiac output. There's a great article on the CHEST journal that covers this topic in more detail.",
+        "color": "green"
       },
       {
         "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "@Dr. Sharp, good point. I think the key is to find a balance between getting a more detailed picture and not overcomplicating things. Maybe we can focus on the Wells Score as our main tool, but also think about incorporating some of the newer metrics and risk factors. What do you guys think?",
-        "color": "purple"
+        "parent_id": null,
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "I'm so tired of all this hand-wringing about vasopressor-induced hypertension. It's just another symptom of the fact that we're overusing these meds. Have you guys tried just using some good ol' manual CPR instead of relying on all these fancy vasopressors?",
+        "color": "orange"
       },
       {
         "id": 7,
         "parent_id": 6,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "Enough talk, let's get to the bottom line - what's the most important thing we can do to improve PE diagnosis? I think it's getting back to basics - we need to be listening to the patient, doing a thorough exam, and ordering the right tests. We can't let the rules and scores dictate our practice - we need to be thinking about the patient's story and what they're telling us.",
-        "color": "red"
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Actually, Doc, manual CPR isn't always the best option. In some cases, especially in cardiac arrest due to ventricular fibrillation, vasopressors can be a lifesaver. We just need to use them judiciously and titrate carefully to avoid complications. Let's not throw the baby out with the bathwater here.",
+        "color": "teal"
       },
       {
         "id": 8,
-        "parent_id": 7,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "I don't get it, guys - what's the big deal about PE diagnosis? Can't we just stick to the rules and scores? Do we really need to be thinking about the whole patient like you're all saying?",
+        "parent_id": null,
+        "user": "Dr. Phil Muddle",
+        "role": "EP",
+        "city": "Regina, SK",
+        "text": "Wait, what's the difference between phenylephrine and norepinephrine? Are they the same thing?",
         "color": "yellow"
       },
       {
@@ -82,53 +280,777 @@
         "user": "Dr. Kevin Park",
         "role": "PGY1",
         "city": "Edmonton, AB",
-        "text": "@Chad, let me put it this way - PE diagnosis is not just about following a set of rules or scores. It's about understanding the patient's story and doing what's right for them. We need to be thinking about the bigger picture and not just focusing on one aspect of their care.",
-        "color": "orange"
+        "text": "Phenylephrine is a pure vasoconstrictor, whereas norepinephrine is a mixed alpha and beta-adrenergic agonist. So, phenylephrine's got more of a local effect on blood vessels, whereas norepinephrine has a more global effect on the whole cardiovascular system.",
+        "color": "blue"
       },
       {
         "id": 10,
-        "parent_id": 9,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "I'm a bit confused - is this all just about the Wells Score or are there other factors at play? Can someone explain it to me like I'm five?",
+        "parent_id": null,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Jeez, folks, let's take a deep breath here. We're all just trying to do the best we can, even if it means using some fancy meds. Can we just agree to disagree and move on?",
+        "color": "pink"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "TL;DR: Approach to Nontraumatic Shock - Don't Forget to Check for Occult Causes!",
+    "body": "Just saw a patient with unexplained hypotension and anuria who ended up having a ruptured ectopic pregnancy. Thought I'd share this as a reminder to always think beyond the obvious causes of shock. Specifically, when a patient doesn't respond to fluid resuscitation, consider occult causes like adrenal insufficiency, cardiac tamponade, or intra-abdominal bleeding. And don't forget to use bedside ultrasound to quickly assess for these conditions.",
+    "category": "EM",
+    "comments": [
+      {
+        "id": 2,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great reminder, OP! I always make sure to include a thorough physical exam and a careful review of the patient's medical history to look for red flags for occult causes of shock. One thing I'd add is to also consider the patient's social and environmental history, as some patients may be more prone to occult injuries or illnesses due to their lifestyle or living situation.",
+        "color": "blue"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I've heard that in cases of suspected occult bleeding, one should also consider the use of point-of-care testing, such as rapid lactate levels, to help guide treatment decisions. Is this a recommended approach, Dr. Thorne?",
+        "color": "yellow"
+      },
+      {
+        "id": 4,
+        "parent_id": 2,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "According to the latest guidelines, bedside ultrasound is indeed a recommended tool for rapidly assessing for occult causes of shock. However, what are some specific views to look for when examining the patient for cardiac tamponade, Dr. Thorne?",
+        "color": "orange"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "From what I've learned, for cardiac tamponade, you should look for a pericardial effusion, which can be visualized on subcostal and parasternal long-axis views. Is that correct?",
+        "color": "gray"
+      },
+      {
+        "id": 6,
+        "parent_id": 4,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "You're close, but not quite right, PGY1. For cardiac tamponade, we're actually looking for a 'globular' heart on subcostal view and a 'bow-tie' sign on parasternal long-axis view. Also, I always make sure to check for IVC obstruction on inferior vena cava view.",
+        "color": "purple"
+      },
+      {
+        "id": 7,
+        "parent_id": 5,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Thanks for the correction, Dr. Gupta! I'll make sure to remember that.",
+        "color": "green"
+      },
+      {
+        "id": 8,
+        "parent_id": 5,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "I think we should also consider the role of point-of-care ultrasound in diagnosing and managing cardiac tamponade. Has anyone used the focused assessment with sonography in trauma (FAST) exam for this purpose?",
+        "color": "red"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Yes, I've used the FAST exam to quickly identify cardiac tamponade in a patient with trauma. It's a great example of how point-of-care ultrasound can help in emergency situations.",
+        "color": "brown"
+      },
+      {
+        "id": 10,
+        "parent_id": 2,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Don't forget to consider the patient's medication list and medical history when evaluating for occult causes of shock! I once had a patient with severe hypotension and a normal physical exam, but it turned out they had taken a massive dose of a beta-blocker. Talk about a ' hidden' cause!",
         "color": "pink"
       },
       {
         "id": 11,
         "parent_id": 10,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "Ah, my dear Barnaby, it's quite simple really. The Wells Score is just one tool to help us diagnose PE. It's a combination of clinical features and risk factors that help us determine the likelihood of pulmonary embolism. But of course, we must always consider the patient's entire medical history and physical exam when making a diagnosis.",
-        "color": "brown"
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "That's a great example, Dr. Zalesky! I've been wondering, how would you approach a patient who is taking a beta-blocker and presents with signs of shock? Would you consider giving them a beta-receptor antagonist?",
+        "color": "turquoise"
       },
       {
         "id": 12,
         "parent_id": 11,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "@Dr. Thorne, excellent explanation! But what about the nuances of PE diagnosis - what about the importance of D-dimer levels and imaging studies? Should we be relying too heavily on one test or another?",
-        "color": "lavender"
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Actually, Leo, for beta-blocker overdose, we'd want to give the patient glucagon, not a beta-receptor antagonist. Remember that beta-blockers can cause cardiac depression, so we need to counteract that with glucagon.",
+        "color": "orange"
       },
       {
         "id": 13,
         "parent_id": 12,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "@Dr. Varkov, good question. I think the key is to strike a balance between relying on D-dimer levels and imaging studies. We need to be considering both when making a diagnosis, rather than relying too heavily on one or the other.",
-        "color": "turquoise"
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Thanks, Dr. Gupta! I wasn't aware of that. But what about other beta-blocker-related complications, such as bradycardia and hypotension?",
+        "color": "yellow"
       },
       {
         "id": 14,
         "parent_id": 13,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "As I understand it, for bradycardia and hypotension due to beta-blocker overdose, we should focus on supporting the patient's cardiovascular system with fluids and inotropes, rather than trying to counteract the beta-blocker directly.",
+        "color": "gray"
+      },
+      {
+        "id": 15,
+        "parent_id": 13,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Excellent discussion, everyone! To summarize, when evaluating occult causes of shock, don't forget to consider the patient's social and environmental history, review their medication list and medical history, and use point-of-care ultrasound to quickly assess for conditions like cardiac tamponade.",
+        "color": "blue"
+      },
+      {
+        "id": 16,
+        "parent_id": 2,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "Don't forget the '3 H's' when evaluating for occult causes of shock: hemorrhage, hypovolemia, and hypoxia. These are the classic causes of shock that we should always consider first.",
+        "color": "red"
+      },
+      {
+        "id": 17,
+        "parent_id": 16,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "The '3 H's' are indeed crucial in the initial assessment of shock. But what about in cases where the patient has received significant fluid resuscitation and still shows signs of shock?",
+        "color": "purple"
+      },
+      {
+        "id": 18,
+        "parent_id": 17,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "That's where it's time to bring in the '4 T's': tamponade, tension pneumothorax, toxic shock, and thrombosis. Remember to consider these in your differential diagnosis, especially if the patient hasn't responded to fluid resuscitation.",
+        "color": "brown"
+      }
+    ],
+    "image": "https://image.slidesharecdn.com/approachtonon-traumaticshock-240202144719-b120083e/75/Approach-to-Non-Traumatic-Shock-in-Emergency-Setting-4-2048.jpg"
+  },
+  {
+    "id": 1,
+    "title": "Just saw a patient with a classic case of secondary headache... (TL;DR at the bottom)",
+    "body": "I'm still trying to shake off the memory of the patient I saw last night. A 5-year-old boy presented with a sudden onset of occipital headaches. His parents reported that his headache 'moved' to different locations, and he couldn't describe the quality of the pain. His vital signs were stable, but his neurologic exam showed some signs of nuchal rigidity. The CT scan revealed a small arteriovenous malformation (AVM) in the occipital region.\n   \n   This case highlights the importance of a thorough history and physical examination in pediatric patients. A thorough understanding of secondary headache causes is crucial in this age group, as the symptoms can be non-specific. The key findings in this case, such as acute onset, location, quality, and associated symptoms, guided our diagnostic approach.\n   \n   In general, in pediatric patients with headaches, we need to differentiate between primary and secondary headaches. Secondary headaches in kids are often indicative of an underlying condition such as a vascular malformation, tumor, or infection. We need to rule out these causes with a combination of history, physical exam, and imaging studies.\n   \n   In this patient, the diagnosis of AVM was made based on CT angiography. It was crucial to perform the CT angiography to confirm the presence of AVM, which was not visible on standard non-contrast CT. We managed to treat the patient with embolization of the malformation, and he underwent a neurosurgical intervention.\n   \n   A great reminder that pediatric patients can present with more complex conditions than what we initially think, and it's essential to have a high level of suspicion for secondary causes of headache in this age group.",
+    "category": "Medical anecdotes",
+    "comments": [
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Couldn't agree more, Doc. Pediatric patients can be challenging to diagnose, and it's essential to keep secondary causes top of mind. One thing to consider is the rapid onset of symptoms, which can indicate a more serious underlying condition. I always recommend doing a thorough neurologic exam to rule out any signs of increased intracranial pressure. Do you have any tips on evaluating pediatric patients with headaches?",
+        "color": "purple"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Hi Dr. Thorne, I had a question about the presentation. Did the patient have any symptoms such as vomiting, fever, or behavior changes?",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Excellent question, Leo! In pediatric patients, we often see a spectrum of symptoms. The patient presented had mild vomiting but no fever or behavioral changes. However, I recall a similar case where the patient had significant neurological findings, including confusion and ataxia. It's crucial to consider the entire clinical picture, not just the headache.",
+        "color": "yellow"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Vancouver, BC",
+        "text": "I appreciate the clarification, Dr. Thorne. What about the role of imaging in diagnosing pediatric headaches? Do you think CT or MR is preferred for initial evaluation?",
+        "color": "blue"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Ottawa, ON",
+        "text": "Great question, Sarah! In pediatric patients, I prefer MR over CT for initial evaluation. MR provides better sensitivity for intracranial abnormalities and avoids radiation exposure. However, CT is still essential for detecting acute hemorrhage or mass effect.",
+        "color": "red"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Well said, Dr. Gupta. It's essential to use the right imaging modality for the clinical scenario. In pediatric patients, MR is likely to be the better choice for initial evaluation, given the potential for underlying conditions. However, we must not overlook the significance of CT in acute settings.",
+        "color": "purple"
+      },
+      {
+        "id": 8,
+        "parent_id": 2,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs. You're overcomplicating things. In pediatric patients, headaches are often a red herring. A good old-fashioned physical exam and some basic lab work will usually reveal the underlying issue. No need to bring in the CT or MR.",
+        "color": "orange"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "I respectfully disagree, Dr. Sterling. Your approach may work in some cases, but pediatric patients can present with complex underlying conditions. A thorough history and physical examination, combined with imaging studies, is essential for accurate diagnosis and management.",
+        "color": "purple"
+      },
+      {
+        "id": 10,
+        "parent_id": 2,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Hey guys, let's not forget about the role of history taking in pediatric patients. It's not just about asking the right questions, but also about listening to the patient's story and considering the context. Has anyone else had a patient present with what seemed like a simple headache, but turned out to be something much more complex?",
+        "color": "green"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Yes! I had a patient with a headache that initially presented as a tension headache, but turned out to be a case of meningitis. I learned a valuable lesson about not dismissing a patient's symptoms just because they seem straightforward.",
+        "color": "blue"
+      },
+      {
+        "id": 12,
+        "parent_id": null,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Just a quick thought: what about the importance of a thorough medical history, including family and social history? Can someone weigh in on the significance of this aspect of patient evaluation?",
+        "color": "purple"
+      },
+      {
+        "id": 13,
+        "parent_id": 12,
+        "user": "Maya Gupta",
+        "role": "PGY2",
+        "city": "Ottawa, ON",
+        "text": "I couldn't agree more, Tom. A thorough medical history, including family and social history, is crucial in identifying underlying conditions that may contribute to the patient's symptoms. It's always essential to consider the patient's medical and social context before ordering any tests or starting treatment.",
+        "color": "red"
+      },
+      {
+        "id": 14,
+        "parent_id": 13,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "I've had enough of this conversation. You're all just a bunch of amateurs. A proper diagnosis can be made with a few simple questions and a good physical exam. All this nonsense about medical history and imaging studies is just a waste of time.",
+        "color": "orange"
+      },
+      {
+        "id": 15,
+        "parent_id": 14,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "I think we've reached the end of this conversation. Thank you, everyone, for your thoughtful inputs. Remember, in pediatric patients with headaches, we must always consider secondary causes and use a combination of history, physical examination, and imaging studies to guide our diagnosis and management.",
+        "color": "purple"
+      },
+      {
+        "id": 16,
+        "parent_id": 15,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "One more thing, Doc. Can someone please explain the difference between AVM and other types of vascular malformations?",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Just saw a patient with a severe anaphylactic reaction to a wasp sting...what's the best approach to treatment and post-exposure?",
+    "body": "I had a crazy case last night and I'm still trying to wrap my head around it. Patient had multiple wasp stings all over their body and ended up in my ER with severe anaphylaxis. We managed to get them stabilized, but I'm wondering if we could have done more. Has anyone else dealt with a similar situation? What's the best treatment approach for post-exposure anaphylaxis?",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "MD",
+        "city": "Toronto, ON",
+        "text": "Great question, OP! Anaphylaxis from wasp stings can be a real challenge. In cases like this, I would recommend giving the patient a dose of epinephrine via an EpiPen, followed by observation in the ED for at least 6-8 hours. We also need to make sure they don't have any other underlying allergies or sensitivities that we're missing. One thing that's often overlooked is the potential for cross-reactivity between different Hymenoptera stings (e.g. wasps, bees, ants). Have you considered referring this patient to an allergist for further evaluation?",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Thanks for the insight, Dr. Thorne! I know that cross-reactivity between different Hymenoptera stings is a thing, but I'm not sure how common it is. Can you provide more context on what you mean by 'cross-reactivity'? Do you have any references or resources that can help me better understand this concept?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Actually, I had a paper on this topic recently in a journal called Clinical and Experimental Allergy. The authors found that approximately 25% of patients with a history of anaphylaxis from one type of Hymenoptera sting were also allergic to other types of stings. This highlights the importance of thorough allergy testing and management in cases like this. Has anyone else come across similar findings?",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Dr. Elena Varkov",
+        "role": "MD",
+        "city": "Quebec City, QC",
+        "text": "Great job, Sarah! I've seen similar results in my own practice. It's really important for patients to be aware of these risks and take proactive steps to manage their allergies. One thing I'd like to add is that we should also consider the patient's overall health status and history when making treatment decisions. For example, if the patient has a history of cardiovascular disease or other co-morbidities, we may need to take additional precautions when administering epinephrine.",
+        "color": "red"
+      },
+      {
+        "id": 5,
+        "parent_id": 1,
+        "user": "Dr. Victor Sterling",
+        "role": "MD",
+        "city": "Calgary, AB",
+        "text": "Amateurs, stop freaking out about the epinephrine and let's focus on the bigger picture: the patient's overall management and follow-up care. I've seen too many emergency physicians get caught up in the minute details of treatment when the real challenge is getting the patient to follow through on their outpatient care. Has anyone else struggled with this aspect of patient management?",
+        "color": "orange"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Maya Gupta",
+        "role": "MD",
+        "city": "Mississauga, ON",
+        "text": "Haha, nice one, Doc Sterling! But seriously, you're right that we need to focus on the patient's overall management. One strategy I've found helpful is to assign a dedicated nurse or patient advocate to follow up with the patient after discharge and ensure they're adhering to their treatment plan. Has anyone else implemented a similar system in their ED?",
+        "color": "yellow"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Oh man, I LOVE that idea, Dr. Gupta! I've seen firsthand how much of a game-changer it can be to have a dedicated nurse or advocate on the patient's side. We've actually implemented a similar system in our ED and it's been a huge success. I'm definitely taking notes for our next ED conference!",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "id": 1234,
+    "title": "CASE STUDY: Challenging Case of Acute Pancreatitis",
+    "body": "Just saw a patient with a classic case of acute pancreatitis, but it wasn't as straightforward as I thought. He was a 45-year-old male who presented with sudden onset epigastric pain radiating to the back, vomiting, and a low-grade fever. His lab values showed a significant elevation in amylase and lipase. He had a history of heavy alcohol use, but the CT scan showed no evidence of pancreatic necrosis or pseudocysts. I was about to admit him for IV fluids and pain management when his primary care doc called, saying he had been taking carbamazepine for seizures for the past 6 months. I had to think fast to rule out a medication-induced pancreatitis. Anybody have experience with this? Did I do the right thing by admitting him?",
+    "category": "Medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "What's the best way to manage pain in pancreatitis? I've tried morphine and fentanyl, but they don't seem to work for long. One of my colleagues swears by ketamine for analgesia and sedation. What's the current consensus?",
+        "color": "blue"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Liberals like you are always trying to make life easier for patients. Ketamine works for some, but it's not the answer for everyone. What's wrong with good old-fashioned morphine?",
+        "color": "red"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "@Dr. Sterling, come on, buddy. You're not seriously suggesting we stick to morphine when we have better options available? Ketamine has a more favorable side effect profile, and it's easier to sedate patients with it. Plus, it's not like we're giving them a shot of heroin here. It's just for pain management.",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Excuse me, but I was wondering about the role of imaging in pancreatitis. Can we rely solely on CT scans during the initial presentation? Or do we need to follow up with a contrast-enhanced MRI or maybe some ERCP?",
+        "color": "purple"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "@Leo Chen, you're absolutely right to question that. While CT scans are a great starting point, contrast-enhanced MRI can give us more detailed information about pancreatic morphology and perfusion. ERCP is still a mainstay for diagnosing pancreatic ductal obstructions, but we need to be careful not to overuse it due to radiation risks.",
+        "color": "pink"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
         "user": "Dr. Brock Stone",
         "role": "FRCSC",
         "city": "Hamilton, ON",
-        "text": "@Dr. Oldman, I agree - but what about the logistics of getting these tests done in a timely manner? We can't just be relying on D-dimer levels and imaging studies all the time - we need to be finding ways to streamline the process.",
-        "color": "silver"
+        "text": "Radiation risks? You're starting to sound like a broken record, @Dr. Sharp. What's the big deal about a little radiation? We're not talking about whole-body CTs here. And besides, what's the alternative?",
+        "color": "orange"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "@Dr. Stone, actually, we're starting to see an increase in radiation-related complications. And what's the alternative, you ask? Ultrasound and CT are great, but sometimes we need to think outside the box. We can use non-invasive methods like magnetic resonance elastography (MRE) to assess pancreatic stiffness and morphology.",
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "parent_id": null,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "As a nurse, I can attest that we need to take a holistic approach to managing pancreatitis. Patients are not just physical beings; they're mental and emotional too. Can we talk about the importance of psychological and social support in the ER?",
+        "color": "brown"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Thank you, @Martha 'The Hammer'! As an internist, I can attest that the role of psychological support is often overlooked. Patients with pancreatitis are at high risk for anxiety, depression, and even PTSD. We need to work together to provide comprehensive care, including psychosocial support and family education.",
+        "color": "gray"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. Phil Muddle",
+        "role": "EP",
+        "city": "Regina, SK",
+        "text": "Umm, I think @Dr. Varkov has a point. But I was thinking, is there some kind of protocol or algorithm we can follow to screen for psychological distress in ER?",
+        "color": "lightblue"
+      }
+    ],
+    "image": "https://www.ejinme.com/cms/10.1016/j.ejim.2024.10.030/asset/c8bb7473-836e-4024-8f26-318370f73db2/main.assets/gr3_lrg.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Just saw a patient with Wolff-Parkinson-White syndrome. Any tricks for managing these tricky rhythm",
+    "body": "Just saw a patient with Wolff-Parkinson-White (WPW) syndrome and had a bit of a rough time managing the arrhythmia. The patient was young, asymptomatic, and only presented after a friend mentioned they noticed abnormal heart rhythms during exercise. Had to dig into the family history to find out that there was a cousin with WPW who died suddenly in their teens. That was a sobering reminder of the risks associated with this condition.",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 11,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "MD",
+        "city": "Toronto, ON",
+        "text": "Great post, thanks for sharing. When dealing with WPW, I always make sure to check for a pre-excitation pathway, which is typically a bypass tract that connects the atria to the ventricles. It's essential to rule out any potential precipitating factors like exercise, stress, or caffeine intake. I also like to use the 'Vagal maneuver' to try and slow the ventricular response by applying gentle pressure to the carotid sinus. This can help reveal the underlying atrial rhythm, making it easier to determine the best course of action.",
+        "color": "purple"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Thanks for the tips, Dr. Thorne! I was wondering, do you have any recommendations on how to diagnose a pre-excitation pathway? We were learning about it in class, but I'm still a bit fuzzy on it.",
+        "color": "blue"
+      },
+      {
+        "id": 13,
+        "parent_id": 11,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "I've read that the Vagal maneuver can also be used to unmask atrial fibrillation in patients with WPW. Would you agree, Dr. Thorne? Do you have any resources you'd recommend for learning more about this?",
+        "color": "green"
+      },
+      {
+        "id": 14,
+        "parent_id": 13,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Great point, Sarah! I've seen several cases where WPW patients were actually in atrial fibrillation before, but the rapid ventricular rate masked the underlying rhythm. The Vagal maneuver can help differentiate between SVT and atrial fibrillation. I recommend checking out the American Heart Association's guidelines on WPW for more information.",
+        "color": "orange"
+      },
+      {
+        "id": 15,
+        "parent_id": null,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Love the discussion, guys! Just a practical question: What's the best way to document WPW on an ECG? I know it's a bit tricky, but I want to make sure I get it right.",
+        "color": "pink"
+      },
+      {
+        "id": 16,
+        "parent_id": 15,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Excellent question, Turbo! When documenting a WPW on ECG, I look for signs of pre-excitation, such as a short PR interval (< 120ms) and a wide QRS complex (> 120ms). You can also check for the 'delta wave' or 'slurred upstroke' in lead II, III, and aVF. It's essential to differentiate between WPW and normal variation, so I recommend checking out the ACC/AHA/HRS guidelines for more information.",
+        "color": "yellow"
+      },
+      {
+        "id": 17,
+        "parent_id": 16,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Pre-excitation? Delta wave? I'm so confused! Can someone explain it in simpler terms?",
+        "color": "red"
+      },
+      {
+        "id": 18,
+        "parent_id": 17,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "Sorry to disappoint, Chad, but it's a bit complex! The pre-excitation pathway allows electrical impulses to bypass the AV node and directly stimulate the ventricles. The 'delta wave' is the slurred upstroke you see in the PR segment, usually in the inferior leads. Think of it like a shortcut in the electrical pathway of the heart.",
+        "color": "brown"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Today I Learned: Bioterrorism and Foodborne Illnesses. When did CDC change its stance on botulism treatment?",
+    "body": "Just saw a patient with suspected botulism from a foodborne source. I immediately reached for the Botox and antitoxin, but after further review, I realized the CDC has changed its stance on treatment. It seems we no longer administer antitoxin in the acute phase, only in severe cases. Can someone enlighten me on this change and when it occurred? I've checked the CDC website and can't find any updates from the past year.",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 2,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great question, OP! The CDC has indeed revised its guidelines on botulism treatment. According to the 2020 guidelines, antitoxin should only be administered in severe cases or when there is a high suspicion of botulism. The rationale behind this change is to reduce the risk of unnecessary treatment and potential side effects. However, it's worth noting that these guidelines were updated prior to the COVID-19 pandemic, so it's possible there have been further developments.",
+        "color": "purple"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Wow, thank you Dr. Thorne! That's a huge change in treatment. Can you explain what 'severe cases' mean? Is it defined by specific clinical criteria or just a general guideline?",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 2,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I'm not surprised by this change, especially given the increasing awareness of adverse events associated with botulinum toxin treatment. Can anyone provide some insight on the current evidence-based treatment for botulism? Perhaps a link to a recent study or a reference to a relevant article would be helpful.",
+        "color": "yellow"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Phil Muddle",
+        "role": "EP",
+        "city": "Regina, SK",
+        "text": "I'm not sure about the current best practice, but I recall reading about a case series in the Annals of Internal Medicine a few years ago. I think it was related to the use of equine botulism antitoxin in the treatment of infant botulism?",
+        "color": "red"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "That's really interesting! Can you look up the title of the article and provide a more detailed summary of the case series? I'd love to learn more about the specifics of equine botulism antitoxin treatment",
+        "color": "green"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Rick 'The Rage'",
+        "role": "EP",
+        "city": "Windsor, ON",
+        "text": "*sigh* Fine, I'll dig up the reference for you all. The article is titled 'Treatment of Infant Botulism with Equine Botulinum Antitoxin' (2018) in Annals of Internal Medicine. The authors discuss the use of equine antitoxin in 17 cases of infant botulism, highlighting a significant improvement in outcomes with proper treatment",
+        "color": "orange"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Wow, thank you Dr. Rick for providing the reference! I'll make sure to look it up and review the article. Can we discuss the potential implications of using equine antitoxin in the acute phase of botulism treatment? Do we still need to administer it in conjunction with supportive care like mechanical ventilation?",
+        "color": "blue"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Ahah, good catch, Sarah! The article actually found that supportive care with mechanical ventilation alone was sufficient in most cases. The use of equine antitoxin was more beneficial in patients with severe symptoms or a higher risk of complications.",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Rant about... C-spine clearance in traumatic arrest... is the hype justified?",
+    "body": "Had a miss last night where we thought we cleared a patient's c-spine, did a quick CT and saw a nasty fracture... but the patient was already deceased with other injuries. Felt like the hype around C-spine clearance in traumatic arrest might be overblown. Thoughts?",
+    "category": "EM",
+    "comments": [
+      {
+        "id": 2,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "TLDR: always clear C-spine in trauma patients, but in cases of traumatic arrest, it might not be worth the hassle. One of the patients I saw recently had a severe traumatic brain injury and was declared dead on arrival, but a subsequent autopsy revealed a missed femur fracture. Prioritize what's likely to have a bigger impact on patient outcomes. [1] https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7341458/",
+        "color": "blue"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Isn't there a risk of missing a c-spine fracture or ligament injury in traumatic arrest? How do you decide when C-spine clearance is no longer necessary?",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Leo, in traumatic arrest, the risk of missing a C-spine injury is low unless there's an isolated neck injury or the patient is found dead in the field with a high-energy mechanism. Even in those situations, the benefit of C-spine clearance is unlikely to have a significant impact on patient outcomes.",
+        "color": "blue"
+      },
+      {
+        "id": 5,
+        "parent_id": 1,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "But what about the CATCH ME mnemonic? Is that still relevant?",
+        "color": "red"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Actually, the CATCH ME mnemonic is a good guideline for clearing the C-spine in trauma patients, but it's not a substitute for clinical judgment. If you're unsure about C-spine clearance, it's always better to err on the side of caution and get a CT scan.",
+        "color": "green"
+      },
+      {
+        "id": 7,
+        "parent_id": 1,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "Let's not forget the C-spine clearance guidelines have changed over the years. Now we need to prioritize C-spine clearance in trauma patients with a high risk of injury and a low risk of other injuries that would make C-spine clearance unnecessary.",
+        "color": "blue"
+      },
+      {
+        "id": 8,
+        "parent_id": 6,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "But doesn't C-spine clearance take up valuable time and resources in the ED? Wouldn't it be better to prioritize other more pressing issues?",
+        "color": "green"
+      },
+      {
+        "id": 9,
+        "parent_id": 7,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "Martha, you bring up an excellent point. C-spine clearance should be prioritized in trauma patients with a high risk of injury and a low risk of other injuries. However, in cases of traumatic arrest, it's often better to focus on other life-saving interventions.",
+        "color": "blue"
+      },
+      {
+        "id": 10,
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Has anyone ever looked into the long-term outcomes of missed C-spine injuries in trauma patients? I'd love to see some data on this topic.",
+        "color": "purple"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Actually, Turbo, I've seen some studies that suggest missed C-spine injuries can lead to long-term neurological deficits and even paralysis. The key is to identify high-risk patients and prioritize C-spine clearance.",
+        "color": "green"
+      },
+      {
+        "id": 12,
+        "parent_id": 1,
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "Let's be realistic, folks. We're not going to get an optimal C-spine clearance in every trauma patient. Sometimes it's just not possible. We need to prioritize what's clinically relevant and focus on patient outcomes.",
+        "color": "red"
+      },
+      {
+        "id": 13,
+        "parent_id": 12,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "I agree with Brock. We often focus too much on clearing the C-spine and forget about other important injuries that require attention. The key is to identify high-risk patients and prioritize those that will impact patient outcomes most.",
+        "color": "blue"
+      },
+      {
+        "id": 14,
+        "parent_id": 1,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "I... I think I might have a c-spine injury. Can someone help me?",
+        "color": "green"
       },
       {
         "id": 15,
@@ -136,791 +1058,55 @@
         "user": "Sparkle-Eyes Sue",
         "role": "LPN",
         "city": "St. John's, NL",
-        "text": "Hey fellas, let's not forget about the patients and their families - we need to be focusing on providing them with the best possible care, not just getting the tests and scores done.",
-        "color": "fuchsia"
-      }
-    ],
-    "image": "https://www.researchgate.net/profile/Marco-De-Carlo-2/publication/335525881/figure/fig4/AS:798010166476800@1567271858130/Central-Illustration-Risk-adjusted-management-strategy-for-acute-pulmonary-embolism.png"
-  },
-  {
-    "id": 1,
-    "title": "Just saw a patient with a PE and a Wells' score of 10, but they didn't have any of the typical risk factors...?",
-    "body": "Had a patient come in with a chest pain and tachycardia, and the chest X-ray showed bilateral infiltrates. I did a quick Wells' score and they scored a 10, but on further questioning, they didn't have any of the typical risk factors for a PE. No prior VTE, no estrogen use, no trauma or surgery recently, and their legs looked perfectly normal. I was going to send them off for a CT scan, but then I realized that their troponin was elevated and their EKG showed some ST changes. So, I'm now trying to figure out if this is a cardiac or pulmonary etiology...any thoughts?",
-    "category": "medicine",
-    "comments": [
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Aris Thorne",
-        "role": "MD",
-        "city": "Toronto, ON",
-        "text": "Interesting case! In a situation like this, I would recommend getting a more detailed VTE history, including any possible exposure to estrogen in the past 4 weeks (e.g., from a topical cream). Also, have you considered asking about any recent travel history or prolonged immobilization?",
+        "text": "Oh dear, Barnaby! I'm so sorry to hear that. Can you tell me what happened and how you're feeling?",
         "color": "blue"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Wait, what's the deal with the Wells' score? I keep seeing it mentioned in our EM textbook, but I don't really understand how it works. Can one of you explain it to me?",
-        "color": "red"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "The Wells' score is a clinical prediction tool for DVT and PE. It's based on a series of questions that assess the patient's risk factors, including their medical history, physical exam findings, and laboratory results. The score is calculated as follows: 3 points for suspected DVT, 3 points for alternative diagnosis less likely than PE, 1.5 points for heart rate > 100, 1.5 points for prior VTE, 1.5 points for immobilization within the past 4 weeks, 1 point for active malignancy, and 1 point for hemoptysis. The total score indicates the patient's probability of PE: > 6 points is high risk (78.4%), 2-6 points is moderate risk (27.8%), and < 2 points is low risk (3.4%).",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": 2,
-        "user": "Dr. Victor Sterling",
-        "role": "MD",
-        "city": "Calgary, AB",
-        "text": "Come on, guys! You're over-complicating this. The Wells' score is a simple tool to help you make a diagnosis, not a substitute for your own clinical judgment. Don't be so quick to dismiss the patient's symptoms and physical exam findings just because they don't fit the score. And another thing, when are you people going to realize that 'Amateurs' like Dr. Thorne here don't know the first thing about real medicine?",
-        "color": "purple"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Aris Thorne",
-        "role": "MD",
-        "city": "Toronto, ON",
-        "text": "Thanks for the advice, Victor! I appreciate your guidance, but I think I'll stick to my own clinical judgment, thank you very much. By the way, what's with the 'Amateurs' comment? You seem to be projecting a bit.",
-        "color": "red"
-      },
-      {
-        "id": 7,
-        "parent_id": 4,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Yes, the Wells' score is a useful tool, but it's not foolproof. I once had a patient with a score of 10, but they turned out to have a cardiac etiology instead of a pulmonary one. So, don't be too quick to make a diagnosis based on the score alone.",
-        "color": "blue"
-      },
-      {
-        "id": 8,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "I love how this thread has turned into a debate about the Wells' score! Meanwhile, what about the fact that the patient's troponin was elevated and their EKG showed some ST changes? We need to rule out a cardiac etiology before we jump to conclusions about a PE.",
-        "color": "purple"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Agreed! A cardiac etiology needs to be ruled out first. Has anyone ordered an ECG and a troponin level, or are we just relying on the Wells' score to make a diagnosis?",
-        "color": "red"
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "title": "Just saw a patient with a mallet finger and it got me thinking...",
-    "body": "Had a patient present to my ED with a laceration to the extensor tendon over the distal interphalangeal joint. After repairing the tendon, I sent them home with a buddy tape and instructions to return in 6 weeks for follow-up. But it got me thinking, have any of you guys ever seen a patient develop a swan neck deformity after a mallet finger? And if so, what was the outcome?",
-    "category": "Emergency Medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Great topic, OP. I've seen a few cases of swan neck deformity develop after mallet finger. The key is to get the patient back to the ED as soon as possible for follow-up if they're not responding to conservative management. [1] has a great review on the topic.",
-        "color": "blue"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "I'm curious, Dr. Thorne, what kind of follow-up do you do in the ED when seeing a patient with a mallet finger? Do you get an X-ray to check for any bony avulsions?",
-        "color": "red"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Good question, Sarah. We usually get an X-ray to check for any bony avulsions or other complications. If the bone is avulsed, we'll need to get the patient to ortho for further management.",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs. You're not going to believe this, but I've seen patients with swan neck deformity after mallet finger who have gone on to develop trigger finger in the affected finger. Unbelievable, I know.",
-        "color": "purple"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "What a horror story, Dr. Sterling! Trigger finger would be a terrible complication for a patient. Have you ever had to treat a patient with swan neck deformity?",
-        "color": "blue"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Of course, I have. I've seen more mallet finger cases than you've had hot meals, kid. And let me tell you, swan neck deformity is a real possibility if you don't follow up properly.",
-        "color": "green"
-      },
-      {
-        "id": 7,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "OP, great post! I just wanted to chime in and say that we've had some patients with mallet finger who've gone on to develop complex regional pain syndrome. Anybody else seen that?",
-        "color": "red"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Yes, I've seen that, Turbo Tom. It's a real problem in patients with mallet finger. We need to be aware of it and take prophylactic measures to prevent it.",
-        "color": "blue"
-      }
-    ]
-  },
-  {
-    "title": "TL;DR: Missed a Complicated Diverticulitis Case Last Night, What Went Wrong?",
-    "body": "Just saw a patient with diverticulitis, but I think I screwed up - she was stable, but I sent her home on oral antibiotics and fluids. Turns out, she had a phlegmon and needed a drain. What's the threshold for surgical intervention in diverticulitis? Do we have a clear protocol for complicated cases?",
-    "category": "emergency-medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "MD",
-        "city": "Toronto, ON",
-        "text": "Great post, OP! In stable patients with known diverticulitis, the main concern is not the size of the diverticulum itself, but rather, what's the patient's clinical status? We need to think about complications like phlegmon, abscess, obstruction, fistula, or perforation. If you suspect any of these, admit them stat and consider a CT scan with contrast. We should always err on the side of caution in these cases. Have you seen the Tintinalli chapter on diverticulitis? Great review of the diagnosis and management. [link to Tintinalli]",
-        "color": "blue"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Kevin Park",
-        "role": "Resident",
-        "city": "Edmonton, AB",
-        "text": "Thanks for the correction, Dr. Thorne! I've read that CT scans with contrast can detect complications like phlegmon and abscess with high sensitivity and specificity. What are some other imaging options we can consider in diverticulitis? Are there any alternatives to CT that are faster or less radiation-heavy?",
-        "color": "lightblue"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "Resident",
-        "city": "Mississauga, ON",
-        "text": "Great point, Dr. Thorne! Complicated diverticulitis can be a real problem. What about diverticulitis in patients with inflammatory bowel disease (IBD)? Do we manage those cases differently? Any insights would be great.",
-        "color": "purple"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Dr. Elena Varkov",
-        "role": "Internist",
-        "city": "Quebec City, QC",
-        "text": "Excellent discussion, everyone! I've seen cases where diverticulitis can be associated with systemic symptoms like fever, chills, and weight loss. How do we differentiate between diverticulitis and other causes of abdominal pain, like appendicitis or constipation?",
-        "color": "red"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "Family Physician",
-        "city": "Vancouver, BC",
-        "text": "Love the discussion, but let's not forget about the patient's symptoms! Classic diverticulitis involves left lower quadrant pain, fever, and leukocytosis, but what about the 'red flag' symptoms that warrant surgical consultation? Can anyone share their criteria for surgical intervention?",
-        "color": "green"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Sarah Jenkins",
-        "role": "Medical Student",
-        "city": "Ottawa, ON",
-        "text": "Can you clarify that, Dr. Zalesky? I've read that the American College of Gastroenterology (ACG) guidelines suggest the following criteria for surgical intervention in diverticulitis: age > 50, symptoms of sepsis, or complications like phlegmon or abscess. Any additional criteria we should consider?",
-        "color": "lightgreen"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Brock Stone",
-        "role": "Surgeon",
-        "city": "Hamilton, ON",
-        "text": "Great summary, Sarah! But don't forget, the key is to be vigilant about complications. We should always consider a surgical consult if we suspect diverticulitis is complicated. Now, let's talk about treatment. What's the best approach for uncomplicated diverticulitis? Do we need to consider antibiotics and bowel prep?",
-        "color": "pink"
-      },
-      {
-        "id": 8,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "As a nurse, I've seen my fair share of diverticulitis cases. One thing to remember is that some patients may not present with classical symptoms. We should be aware of 'atypical' presentations, like right-sided pain or altered mental status. Can we review some common pitfalls in diagnosing diverticulitis?",
-        "color": "orange"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "Well said, Turbo Tom! Atypical presentations can be challenging. What are some tips for nurses to differentiate between diverticulitis and other causes of abdominal pain?",
-        "color": "brown"
-      }
-    ],
-    "image": "https://images.squarespace-cdn.com/content/v1/549b0d5fe4b031a76584e558/9df329f6-7a55-44c7-af32-e626976f7c25/Acute+diverticulitis+management+for+the+Emergency+Medicine+Provider+Final+Draft.jpg"
-  },
-  {
-    "id": 1,
-    "title": "TLDR: Missed a diagnosis of dilated cardiomyopathy last night, now questioning my life choices",
-    "body": "Just saw a patient with a 'run-of-the-mill' presentation of chest pain, dyspnea, and orthopnea. I wrote them off as 'just another hypertensive' and prescribed some lisinopril without thinking twice. Fast forward to 3 hours later when the echo results came back... Dilated Cardiomyopathy (DCM) with an EF of 25%. I'm still trying to wrap my head around it. Has anyone else ever been this wrong before? Please share your worst case scenarios and how you learned from them.",
-    "category": "r/EMedicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Don't be too hard on yourself, my friend. We've all been there. I recall a case where I wrote off a patient's chest pain as ' GERD' and ended up missing a large PE. The key takeaways from that experience were to always consider the atypical presentations and to trust my instincts when something doesn't feel right. Here's a useful resource on the topic: [link to a relevant article](https://www.emedicine.medscape.com/article/166555-overview#a4)",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Thorne, I've read that article but I'm not sure I understand the importance of considering atypical presentations when it comes to DCM. Can you elaborate on what you mean by that? Are we talking about patients with normal ECGs and echos?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Leo, that's a great question. Yes, I'm talking about patients who present with atypical symptoms, such as chest pain, palpitations, or syncope, without the typical signs of heart failure. These patients may have a normal ECG, echo, or even a normal cardiac biomarker panel. It's essential to keep a high index of suspicion for DCM in these cases, especially if the patient has a family history or is taking certain medications like amiodarone.",
-        "color": "teal"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "I completely relate to Dr. Thorne's story. I recently lost a patient due to a missed diagnosis of pulmonary embolism. The moral of the story is to never underestimate the power of a thorough history and physical exam. Have any of you guys ever taken a history and found something that ended up being critical to the diagnosis?",
-        "color": "blue"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Haha, yeah, I've taken a history and discovered that a patient's 'simple' UTI was actually a sign of something much more sinister. The thing is, the most critical part of the history is not the symptoms themselves but the narrative that the patient gives. Paying attention to the 'red flags' like 'I've been having these symptoms for weeks' or 'I've been taking these meds for years' can make all the difference. Remember, the history is not just a series of facts but a story that unfolds over time.",
-        "color": "brown"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Wow, I see what you mean. Dr. Zalesky, can you give an example of how you used the story to make a diagnosis in the past?",
-        "color": "gray"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Let me think for a sec. Ah, got it! I had a patient who presented with a 'simple' headache that turned out to be a sign of a temporal arteritis. The patient had been experiencing these 'episodic' headaches for months but had dismissed them as 'sinus pressure.' It wasn't until I asked about the 'story' behind the headaches, e.g., what was happening in the days/weeks/months leading up to the headache, that the diagnosis became clear. You gotta dig deeper, folks.",
-        "color": "turquoise"
-      },
-      {
-        "id": 8,
-        "parent_id": 1,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Guys, can we talk about something? I've noticed that a lot of you are talking about 'red flags' and how to ask the right questions. How do I learn to recognize these flags in my patients when I'm just starting out?",
-        "color": "yellow"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Chad, that's a great question. When I first started out, I used to think that the only way to recognize red flags was to have years of experience under my belt. But honestly, it's more about developing your observation skills and learning to connect the dots. Read up on the common pitfalls and red flags in various conditions and practice paying attention to them in your patients. The more you see, the more you'll recognize the patterns.",
-        "color": "orange"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "That makes sense. Dr. Varkov, do you have any recommendations for resources or texts that I should read to improve my observation skills?",
-        "color": "pink"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Leo, definitely check out the classic book 'The Five-Minute Clinical Consult.' It's a great resource for learning to identify red flags and common pitfalls in various conditions. Additionally, you can look into online resources like ClinicalTrials.gov and the WHO's International Statistical Classification of Diseases and Related Health Problems (ICD-10) for more information.",
-        "color": "magenta"
-      },
-      {
-        "id": 12,
-        "parent_id": 1,
-        "user": "Turbol Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Hey, guys, just wanted to chime in and say that I've seen my fair share of cases where the history and physical exam were the difference-makers. Remember, the RNs and NPs have a lot to offer too! We're not just scribes, you know.",
-        "color": "red"
-      },
-      {
-        "id": 13,
-        "parent_id": 12,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "Preach, Turkol! I've worked alongside some of the most brilliant doctors out there, and it's shocking how often the bedside manner and communication skills make the difference. We can't underestimate the importance of teamwork, folks.",
-        "color": "lavender"
-      }
-    ]
-  },
-  {
-    "id": 6,
-    "title": "TL;DR: Supine Hypotension Syndrome in Pregnancy - the Forgotten Threat",
-    "body": "Just saw a patient with another case of Supine Hypotension Syndrome in pregnancy and I'm reminded of how easily we can overlook this 'obscure' cause of shock in pregnant women.\n\n            \n\n            I've lost count of how many times I've come across patients who, while being examined, are placed in the supine position without consideration for the anatomical changes that occur during pregnancy.\n\n            The uterus expands and can compress the inferior vena cava (IVC), leading to decreased venous return and a subsequent drop in cardiac output. This can easily be overlooked in the initial assessment of a patient in shock, particularly if their pulse is still within a relatively normal range.\n\n            The literature emphasizes the importance of maintaining a left uterine displacement to prevent compression of the IVC (1).\n\n            In fact, the American Heart Association recommends positioning patients in the left lateral position during resuscitation in pregnancy (2).\n\n            Nonetheless, how many times have we all seen patients with hypotension that doesn't quite fit the usual trauma or septic shock profile, and how often do we attribute it to 'pregnancy-induced anemia' or 'vasodilation' when it's in fact the Supine Hypotension Syndrome? It's high time we raise awareness of this risk among all the medical staff involved in emergency care of pregnant women.",
-    "category": "emergency medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Victor Sterling",
-        "role": "MD",
-        "city": "Calgary, AB",
-        "text": "Well, well, well. Another reminder that the ED is a breeding ground for 'folklore'. Amateurs in the field keep perpetuating myths about pregnancy. Supine hypotension syndrome is nothing new or obscure; it's just a risk we need to acknowledge and mitigate.\n\n                  \n\n                  What's interesting is how often we see this in pregnant women who aren't even in their second or third trimester. The anatomy just starts to compress the IVC and you've got a patient presenting with hypotension.\n\n                  I'm not sure about the American Heart Association's take on this, though. Does the guideline specify which patients need left lateral positioning and when?\n\n                  Anyway, it's time for some humility: we all need reminding of the basic physiology behind this phenomenon.",
-        "color": "orange"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Hi Dr. Sterling, thanks for sharing your insight!\n\n                  \n\n                  I was wondering, what kind of symptoms or signs would you recommend looking for in patients with Suspected Supine Hypotension Syndrome? And when would you suspect it in the first place?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Hi guys,\n\n                  \n\n                  To add to what Dr. Sterling was saying, I've seen a few cases where the patient was initially placed in the supine position during triage or while waiting for the physician. Once we move them to the left lateral position, the blood pressure comes right back up.\n\n                  This highlights the importance of being mindful of the positioning even during the initial phases of care. What are some other practical strategies for preventing and managing Supine Hypotension Syndrome in the emergency department? Could we link any relevant literature or guidelines here?",
-        "color": "red"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Barb Miller",
-        "role": "Ep",
-        "city": "Winnipeg, MB",
-        "text": "Great point, Dr. Gupta!\n\n                  \n\n                  One thing that's been bugging me is the lack of awareness about Supine Hypotension Syndrome among non-emergency medicine staff. It's not just about ED docs; it's about everyone, from nurses to radiologists, being aware of the potential risks. The more we educate our staff, the fewer close calls we'll have.\n\n                  Has anyone seen any specific resources or educational materials that we can use to spread the word about this?\n\n                  By the way, does anyone have a reference to a specific study or review on Supine Hypotension Syndrome in pregnancy? I'd love to share it with my colleagues.",
-        "color": "purple"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Hey Dr. Miller! I had a nurse educator send me some really great resources last week for staff awareness. You can check out that American College of Obstetricians and Gynecologists' (ACOG) Practice Advisory on Hypotension during pregnancy (3).\n\n                  \n\n                  The ACOG advises us to maintain left uterine displacement during labor and vaginal delivery. I also found a recent Cochrane review (4) that looked at the effects of uterine displacement during labor. It's well-documented that it helps reduce the risks of maternal hypotension.\n\n                  Hope that helps! If you all need anything from a nurse's perspective, feel free to ask",
-        "color": "blue"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Thanks, Turbo Tom!\n\n                  \n\n                  Just one quick question - do you know if the ACOG recommendations are specific to vaginal delivery or if they also apply to Caesarean sections? We get quite a few patients coming in after C-sections, and I wasn't sure if the guidelines would apply to those cases.",
-        "color": "green"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "In fact, they do apply to Caesarean sections as well, Dr. Varkov! The key is just keeping the left side of the uterus displaced, which helps to mitigate the risk of hypotension.\n\n                  We've started doing that in our C-section operating rooms as a standard practice, and it's really made a big difference in keeping our blood pressure stable post-op.\n\n                  Thanks for mentioning this, Dr. Miller, and thanks for the discussion, everyone!",
-        "color": "orange"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Sarah Sharp",
-        "role": "Ep",
-        "city": "Laval, QC",
-        "text": "Agreed! Another point to keep in mind when dealing with potential Supine Hypotension Syndrome is the fact that it's often associated with maternal hypotension.\n\n                  That being said, the key here is early recognition and appropriate management. We need to look out for those subtle signs and intervene early to avoid complications.\n\n                  Any thoughts on best practices for communicating the risks of Supine Hypotension Syndrome to patients, particularly new mothers?",
-        "color": "red"
-      },
-      {
-        "id": 9,
-        "parent_id": 1,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "So wait - does the 'Left Uterine Displacement' really make a difference? Like, won't the baby just get crushed or something? ",
-        "color": "blue"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "Good heavens, young man! No, it won't crush the baby. You're thinking about it in terms of forceps delivery - we want to gently rotate the fetal head, not squash it.\n\n                  \n\n                  The uterine displacement is just about making sure the lower part of the uterus isn't compressing the great vessels near the pelvis. That reduces the risk of hypotension and other complications during delivery.",
-        "color": "purple"
-      }
-    ],
-    "image": "x-raw-image:///f97be1bcc830641c0cc4960cc62155ee25f788f4077a8bbcc75ad0e0bb98bea4"
-  },
-  {
-    "title": "TLDR; Spinal Cord Compression, Spinal Shock, and Neurogenic Shock - What's the Difference?",
-    "category": "clinical_anecdote",
-    "body": "Just saw a patient with a high cervical spine injury and I'm still trying to wrap my head around the nuances of spinal cord compression, spinal shock, and neurogenic shock. I know we've all been there, but I wanted to share my take on it and get some feedback from the ER community.\n\nThe patient was a young guy who was involved in a MVA with a rollover. He presented with quadriplegia, but surprisingly, his blood pressure was normal and his HR was only slightly elevated despite a significant neck injury.\n\nThe radiologist called and said there was no apparent fracture or dislocation on the initial films, but the patient's C-spine was severely compressed. I was like, 'Okay, spinal cord compression, that makes sense.' But then I started thinking... what's the difference between spinal shock, neurogenic shock, and spinal cord compression anyway? \n\nIs it just a matter of the type of injury, or is it more nuanced than that?\n\nPlease, share your pearls and I'll try to synthesize the discussion into a clear summary. TL;DR - I'm looking for a concise explanation that I can use for the next patient.",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "MD",
-        "city": "Toronto, ON",
-        "text": "Great topic, OP! As you know, the main difference lies in the mechanism of the injury and the resulting neurologic deficit. Spinal cord compression (SCC) is typically caused by external pressure on the spinal cord, such as a herniated disc or a traumatic injury. Spinal shock, on the other hand, refers to the temporary loss or depression of spinal reflex activity below the level of injury, often resulting from a severe traumatic injury. Neurogenic shock, finally, is a result of the loss of sympathetic innervation, leading to relative bradycardia and hypotension.",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "I thought I read that spinal shock was more related to the type of injury, such as a cervical spine injury, while neurogenic shock is more related to the level of injury? Or am I wrong?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "MD",
-        "city": "Calgary, AB",
-        "text": "Amateurs. If you can't even get the basics right, how can you expect to run a decent ER? Neurogenic shock is not a separate entity, it's simply a result of the spinal cord injury. And SCC is just a fancy way of saying 'the spinal cord is compressed'. Come on, guys.",
-        "color": "red"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Aris Thorne",
-        "role": "MD",
-        "city": "Toronto, ON",
-        "text": "@Dr. Sterling, easy with the condescending attitude, okay? We're here to learn and share knowledge, not to get mocked. Neurogenic shock is indeed a distinct entity from spinal shock, as it results from the loss of sympathetic innervation, leading to specific clinical manifestations.",
-        "color": "blue"
-      },
-      {
-        "id": 5,
-        "parent_id": 3,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I'm a bit confused - what's the difference between spinal shock and neurogenic shock, exactly? Is it just a matter of the type of injury, or is there a specific clinical presentation that distinguishes them?",
-        "color": "orange"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Barb Miller",
-        "role": "MD",
-        "city": "Winnipeg, MB",
-        "text": "Good question, @Dr. Gupta! Spinal shock is typically characterized by a sudden loss of spinal reflexes, whereas neurogenic shock is more related to the loss of sympathetic tone, leading to hypotension and bradycardia. Think of it like this: spinal shock is like the 'lights going out' in the ER, while neurogenic shock is like the patient's entire cardiovascular system shutting down.",
-        "color": "pink"
-      },
-      {
-        "id": 7,
-        "parent_id": null,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "OMG, can we please just get back to the basics of ER medicine? We're overcomplicating this. SCC is a compression of the spinal cord, spinal shock is a loss of spinal reflexes, and neurogenic shock is a loss of sympathetic tone. Got it? Now let's move on to the next topic...",
-        "color": "black"
-      }
-    ]
-  },
-  {
-    "id": 14,
-    "title": "TLDR; I had a 22yo F come in with a presumed PID case.",
-    "body": "She's been having a low-grade fever, abdominal pain, and a weird smell down there for the past 3 days. I ordered her an ultrasound and sent her urine for analysis. But here's the rub - her last sexual encounter was 2 months ago (she claims) and she's never been tested for STIs before. My question for you all is: is this really PID or am I just missing something? She's on a single-dose Ceftriaxone but I'm not sure if I should be considering other options... Thoughts?",
-    "category": "Emergency Medicine",
-    "comments": [
-      {
-        "id": 15,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I've seen a few cases like this before. PID's a spectrum of infections so it's possible PID isn't always PID. Have you considered other differential diagnoses? Like, is she on birth control? Some studies have suggested that combined hormonal contraceptives may increase the risk of PID.\n\nOne other thing - is her urine analysis showing white blood cells or WBC casts? You might want to send her urine for microscopy ASAP.",
-        "color": "red"
       },
       {
         "id": 16,
         "parent_id": 15,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Thanks for the clarification, @Dr. Gupta! I was thinking about WBC casts, but I didn't know about the BC connection. Do you think she's a good candidate for IV ceftriaxone?",
-        "color": "blue"
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Can I ask Sparkle-Eyes Sue what the first steps would be to clear Barnaby's c-spine?",
+        "color": "green"
       },
       {
         "id": 17,
         "parent_id": 16,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "I think IV Ceftriaxone is a good idea, but don't forget to consider her local antibiotic resistance patterns. You don't want to give her something that's already resistant. What's the situation on gonorrhea in your area?\n\nAlso, Dr. Park, WBC casts don't always mean PID. Maybe consider a more thorough urinalysis... like, have you looked at her sediment?",
-        "color": "orange"
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "First things first, we need to get Barnaby to a safe and stable position. We'll need to do a thorough history and physical exam to identify any potential injuries. If we suspect a c-spine injury, we'll need to get an imaging study ASAP.",
+        "color": "blue"
       },
       {
         "id": 18,
-        "parent_id": 15,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "This case is making me think about the role of Chlamydia in PID cases. Have you considered testing her for Chlamydia trachomatis? And while you're at it, make sure she gets tested for HIV as well... those are common associations.",
-        "color": "pink"
+        "parent_id": 1,
+        "user": "Dr. Phil Muddle",
+        "role": "EP",
+        "city": "Regina, SK",
+        "text": "I think I might have gotten lost on the way to the ED. What day is it?",
+        "color": "purple"
       },
       {
         "id": 19,
         "parent_id": 18,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Great reminder, @Dr. Varkov. Chlamydia is definitely a consideration in PID cases. You can use NAATs to detect C. trachomatis... or, at least you should be able to in a few provinces.",
-        "color": "yellow"
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Dude, it's Tuesday... or is it Thursday? Anyway, let's get Phil back on track and focus on clearing C-spine injuries!",
+        "color": "green"
       },
       {
         "id": 20,
-        "parent_id": 19,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "I'm a fan of NAATs, but have you considered the limitations of PCR-based testing? What if her sample isn't properly collected or processed? You want to make sure you're not missing a PID case because of a false negative... I've seen that happen before.",
-        "color": "purple"
-      },
-      {
-        "id": 21,
-        "parent_id": 20,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Good point, @Dr. Sharp. NAATs are just one tool in the diagnostic toolbox. I agree that sample collection and processing matter a lot... maybe consider using the BD MAX instead of PCR?",
-        "color": "green"
-      },
-      {
-        "id": 22,
-        "parent_id": 21,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "I thought the BD MAX was a DNA sequencing machine? Is that right? And what's the difference between PCRs and DNA sequencing?",
-        "color": "blue"
-      },
-      {
-        "id": 23,
-        "parent_id": 22,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "My young friend, you're getting ahead of yourself! The BD MAX is indeed a rapid molecular detector, not a DNA sequencer. Now, let me tell you... back in my day, we didn't have all these fancy NAATs... we just relied on good ol' fashion microscopy and Gram stains.",
-        "color": "red"
-      },
-      {
-        "id": 24,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Well, I think this thread got a bit sidetracked... but thanks, @Dr. Thorne! You reminded me that, at the end of the day, it's all about the patient. Not about the machines or the fancy tests. Okay, back to the case... @OP, did you ever get the results from the ultrasound and urine analysis?",
-        "color": "purple"
-      },
-      {
-        "id": 25,
-        "parent_id": 24,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Ooh, I'm curious too! What happened with the patient?",
-        "color": "green"
-      },
-      {
-        "id": 26,
-        "parent_id": 25,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Sorry, @Leo! OP never followed up with us. Maybe someone can DM me later this week...? But in any case, let's keep discussing. What else would you like to talk about in emergencies?",
-        "color": "blue"
-      },
-      {
-        "id": 27,
-        "parent_id": 26,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "Fascinating conversation, but it all just goes to show how broken our medical system is! Emergency Medicine needs a complete overhaul... just sayin'.",
-        "color": "purple"
-      }
-    ]
-  },
-  {
-    "id": 9,
-    "title": "Just saw a patient with a difficult airway. When to convert to EGD or surgical airway?",
-    "body": "Had a miss last night with a patient who had a difficult intubation. Saturation dropped to 75% but was maintained with bag-valve mask (BVM) ventilation. I was going to do another attempt but the patient's saturations were maintained and I couldn't seem to get past the vocal cords. What are your thoughts on converting to an emergency cricothyroidotomy (EGD) or a surgical airway (SOG)?",
-    "category": "emergency medicine",
-    "author": "Dr. Sara K.",
-    "role": "FRCPC",
-    "city": "Toronto, ON",
-    "color": "blue",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Ziggy Z.",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "TLDR; convert to EGD if you can't intubate in 3 attempts or if saturations drop. SOG is more for when you can't ventilate. I've got a great algorithm for this on my website: <https://ziggyz.md/diffairways>",
-        "color": "purple",
-        "likes": 10
-      },
-      {
-        "id": 2,
         "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Hi Dr. Ziggy! Thanks for the link. What's the reasoning behind choosing EGD over SOG? Is it because EGD is quicker to perform?",
-        "color": "green",
-        "likes": 5
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "My dear fellow, in my day, we didn't worry about such fuss and bother. We just used our trusty old laryngoscope and voila! The patient was intubated. However, if I were to hazard a guess, I would say that EGD is faster because it requires no additional equipment.",
-        "color": "pink",
-        "likes": 2
-      },
-      {
-        "id": 4,
-        "parent_id": 2,
-        "user": "Dr. Ziggy Z.",
+        "user": "Dr. Ziggy Zalesky",
         "role": "EP",
         "city": "Vancouver, BC",
-        "text": "Great question, Leo! EGD is indeed quicker because it doesn't require any equipment beyond what's already in the ED. SOG requires setting up the surgical equipment, which can take precious time. However, SOG is a better option if the patient needs long-term airway management.",
-        "color": "purple",
-        "likes": 8
-      },
-      {
-        "id": 5,
-        "parent_id": 3,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Dr. Thorne, I think you're being a bit too old-fashioned, my friend. But I do agree with you that EGD is faster. However, SOG is a better option in certain situations, such as when the patient has a cervical spine injury.",
-        "color": "blue",
-        "likes": 3
-      },
-      {
-        "id": 6,
-        "parent_id": 4,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Got it, thank you Dr. Ziggy! And what about the patient with a difficult airway due to a maxillofacial injury? Would you choose EGD or SOG in that case?",
-        "color": "green",
-        "likes": 2
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "For maxillofacial injuries, I would choose SOG because it allows for more precise control of the airway and can be performed with minimal movement of the cervical spine. EGD is better suited for patients with cervical spine injuries.",
-        "color": "pink",
-        "likes": 6
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Dude, can someone explain the difference between EGD and SOG again? I'm trying to understand the subtlety!",
-        "color": "orange",
-        "likes": 1
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Ziggy Z.",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "No worries, Chad! EGD stands for emergency cricothyroidotomy, which is a surgical airway that goes through the cricothyroid membrane. SOG stands for surgical airway, which is a more general term that can include various techniques, such as tracheostomy or cricothyroidotomy. Does that help?",
-        "color": "purple",
-        "likes": 4
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "Ah, yes! I see what you mean now, Chad. EGD is like a quick little trick to get the airway open, whereas SOG is a more serious operation that requires more skill and equipment.",
-        "color": "pink",
-        "likes": 2
+        "text": "Alright, alright, let's wrap this thread up! C-spine clearance in traumatic arrest might not be as crucial as we thought. But remember, prioritize your patients and focus on what will impact their outcomes most. And for goodness' sake, don't get lost like Phil!",
+        "color": "blue"
       }
     ],
-    "image": "https://d16qt3wv6xm098.cloudfront.net/2xvJhg_CSiuzAOMKdT741rQ-RceegsUA/_.png"
+    "image": "https://i0.wp.com/iem-student.org/wp-content/uploads/2018/08/iEM-Infographic-Pearls-Ortho-Types-of-Fractures.pdf.png?fit=816%2C1056&ssl=1"
   }
 ]
