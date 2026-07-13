@@ -1,36 +1,483 @@
 [
   {
-    "id": 0,
-    "title": "Rant about Ectopic Pregnancies in the Emergency Department",
-    "body": "Just had a 32 year old female patient present to the ED with severe lower abdominal pain and a positive beta-hCG. She was 6 weeks pregnant and had a history of a previous ectopic pregnancy. My resident was about to give her methotrexate for suspected ectopic when I stepped in and we decided to do an ultrasound. Turns out she has an intrauterine pregnancy and a functioning corpus luteum with a 3 cm cyst on her left ovary. We sent her to the OR and they removed the cyst and her symptoms resolved. So here's the rant, folks... how many times have we suspected ectopic in a non-viable pregnancy and given methotrexate only to find out they are actually pregnant? We all know the risks of methotrexate, but is it really worth the gamble? Has anyone else had this happen? Amateurs giving methotrexate without a clear diagnosis of ectopic are a problem. We need to get our act together and make more accurate diagnoses before giving this medication.",
-    "category": "TIL",
+    "title": "A Missed Appendicitis - Case Study",
+    "category": "Emergency Medicine",
+    "body": "Just saw a patient with a missed appendicitis case and I'm still trying to wrap my head around it. Patient presented with 2 days of vague abdominal pain, low-grade fever, and anorexia. I missed the diagnosis and we had to admit him for an abscess 24 hours later. The whole hospital is buzzing about it now...",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
         "user": "Dr. Aris Thorne",
-        "role": "MD, Staff Physician",
+        "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "I've lost count of the number of times we've given methotrexate for suspected ectopic only to find out the patient is actually pregnant. We need to get back to basics and do more ultrasounds before making diagnoses. The American College of Obstetricians and Gynecologists (ACOG) recommends serial beta-hCG levels and ultrasounds to confirm the diagnosis of ectopic before administering methotrexate. Let's not rely on the 'obvious' diagnosis and do some actual work up before treating. [1]",
-        "color": "purple"
+        "text": "This is a good teaching moment for all of us. Appendicitis is one of the most common surgical emergencies, and it's easy to get caught up in the initial presentation. The classic triad of pain, fever, and leukocytosis are not always present, and it's up to us to consider it in the differential diagnosis. I'd love to see the ultrasound images and the CBC results to better understand the case.",
+        "color": "blue"
       },
       {
         "id": 2,
         "parent_id": 1,
         "user": "Dr. Victor Sterling",
-        "role": "MD, Chief of Surgery",
+        "role": "Chief of Surgery",
         "city": "Calgary, AB",
-        "text": "Amateurs give methotrexate too quickly. We need to wait for at least 4-6 weeks before making any diagnosis, especially with a history of pelvic inflammatory disease (PID). Let's not jump to conclusions and follow the guidelines. What a waste of medical resources.",
-        "color": "green"
+        "text": "Amateurs! You would have been better off ordering a CT scan in the first place to confirm the diagnosis. Ultrasound is no substitute for CT when it comes to appendicitis. We've had cases where ultrasound was negative, and the patient ended up with an abscess. CT scans are expensive, but it's better to be safe than sorry.",
+        "color": "red"
       },
       {
         "id": 3,
         "parent_id": 1,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "CT scans are not the answer to every question, folks. Ultrasound is a great tool for appendicitis, and it's faster and cheaper. The key is to use clinical judgment and consider the whole picture, not just the test results. And don't forget to check the C-reactive protein level - it's often elevated in appendicitis.",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 2,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "CT scans don't come cheap, Victor. A CT scan of the abdomen typically costs around $2,000, which is a huge financial burden for many patients. And what's more, CT scans expose patients to unnecessary radiation. Let's not forget about the patient's perspective here.",
+        "color": "purple"
+      },
+      {
+        "id": 5,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I'm still unsure about the diagnostic criteria for appendicitis. Can someone explain the difference between perforated and non-perforated appendicitis, and how to diagnose it? I've seen some articles on the topic, but I'm not sure what's applicable to real-life scenarios.",
+        "color": "orange"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "From what I understand, perforated appendicitis is when the appendix bursts, causing inflammation and potentially leading to abscesses or sepsis. Non-perforated appendicitis is when the appendix is still intact, usually presenting with more classic symptoms like right lower quadrant pain and leukocytosis. I'd love to hear from more experienced physicians on this topic.",
+        "color": "brown"
+      },
+      {
+        "id": 7,
+        "parent_id": 1,
         "user": "Turbo Tom",
         "role": "RN",
         "city": "London, ON",
-        "text": "Lol, I've seen this too many times. As an ER nurse, I've had to deal with multiple patients who have come in for suspected ectopic pregnancy only to find out they're actually pregnant. Can we please get a better work up before giving methotrexate? It's not worth the risk. We need to start following the ACOG guidelines.",
+        "text": "As nurses, we see the aftermath of missed diagnoses. It's heartbreaking to see patients suffer needlessly because of a delay in care. Can we talk about the importance of bedside manner and communication with patients? I've seen some physicians dismiss patients' concerns or underestimate their symptoms, leading to delays in treatment.",
+        "color": "pink"
+      },
+      {
+        "id": 8,
+        "parent_id": 4,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Barb, you make a great point about radiation exposure. CT scans are not the solution to every medical imaging problem. I've started using the ALARA principle (As Low As Reasonably Achievable) to minimize radiation exposure in patients. We should prioritize radiation-free imaging when possible.",
+        "color": "turquoise"
+      },
+      {
+        "id": 9,
+        "parent_id": 7,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "Nurses have seen it all, and we have a front row seat to the medical drama. Communication is key, folks! Patients want to be heard and understood. We should strive for empathy and compassion in our interactions with patients, rather than dismissive attitudes. And let's not forget about family support - it's crucial for patient outcomes.",
+        "color": "darkblue"
+      },
+      {
+        "id": 10,
+        "parent_id": 1,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "Guys, I want to share my perspective as a patient who almost got misdiagnosed. I had appendicitis once, and the doctor initially thought it was just a gallbladder issue. It's terrifying to feel like you're not being taken seriously. Can we discuss how to prioritize patient feedback and concerns in our practice?",
+        "color": "lightgreen"
+      },
+      {
+        "id": 11,
+        "parent_id": 3,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Love this conversation, folks! I'm a LPN, and I deal with patients on the phone and at the ER door. It's amazing how many patients come to us already Googling their symptoms online and trying to self-diagnose. Can we talk about the role of social media in med ed and how it affects patient expectations?",
+        "color": "fuchsia"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Dr. Phil Muddle",
+        "role": "EP",
+        "city": "Regina, SK",
+        "text": "What a delightful topic, Sue! I recently came across an article that discussed the importance of social media literacy in healthcare professionals. We need to know more about online patient communities, social media trends, and the impact of misinformation on patient outcomes. Any resources or recommendations, please share!",
+        "color": "magenta"
+      },
+      {
+        "id": 13,
+        "parent_id": 12,
+        "user": "Dr. Zachariah Jones",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Actually, I've written an article on that topic, titled 'Social Media in Med Ed: Friend or Foe?' Would you like a link to it? I'd love to hear your thoughts.",
+        "color": "olivegreen"
+      }
+    ],
+    "image": "https://figures.semanticscholar.org/fb72d715df0e602db1d62564d937359226cafdee/2-Table3-1.png"
+  },
+  {
+    "id": 1,
+    "title": "Just saw a patient with a Hymenoptera sting... or did I? #EMdocs",
+    "body": "Rant about the challenges of diagnosing wasp, bee, and stinging ant envenomations. I saw a pt come in last night with what looked like a textbook wasp sting, but the ECG showed some funky T-wave changes... and I'm not sure if it's just a coincidence or an actual cardio tox.",
+    "category": "r/emdocs",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "TLDR: wasp sting with ECG changes? Not sure if it's just an epiphenomenon or something more. Has anyone else had this experience? I've seen some cases where the stinger was left in, and it led to systemic reactions... but what about the ECG stuff? Do you all have any experience with this?",
+        "color": "blue"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Oh dearie, wasn't Hymenoptera venom the same as the one that caused those funky ECGs? I could've sworn I read that somewhere... Can anyone point me to some literature on this topic? Would love to get some clarity on this!",
+        "color": "purple"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Excellent question, Sparkle-Eyes! As it happens, I did a review on the topic last year... and I think I can dig up the reference. It turns out that wasp venom does contain some cardiotoxic compounds that can cause changes in the ECG... but it's still unclear whether it's just an epiphenomenon or an actual cardio tox.",
         "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "So what about fire ant stings? Are those different? I'm thinking of those classic cases where the stingers were embedded in the skin... Does that increase the risk of cardio tox?",
+        "color": "red"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Great Q, Leo! Fire ant stings do carry a higher risk of systemic reactions, especially if the stinger is embedded. But as for cardio tox, I'm not sure... Has anyone else seen that combo before?",
+        "color": "blue"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Not sure about the cardio tox, guys... but I do know that fire ant stings are a classic cause of abdominal pain... especially if the stinger is embedded. And that can lead to some fun differential diagnoses...",
+        "color": "green"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Wait, what about the fire ant venom? Does it cross-react with other sting allergies? I thought I read something about that... Can anyone point me to the literature?",
+        "color": "purple"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs! Fire ant venom may cross-react with other sting allergies, yes... but it's still unclear how often that happens. And let's not forget, we're dealing with minor envenomations here... unless it's that rare case of multiple stings.",
+        "color": "red"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "I think we're getting a bit off track here... TLDR: fire ant venom can cause systemic reactions, especially if the stinger is embedded. And while there's some concern about cross-reactivity, it's still a minor risk. What I really want to know is... how often do we see Hymenoptera stings in the ED?",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "id": "spine-trauma-thread",
+    "title": "Just saw a patient with a spine trauma that made me rethink my approach...",
+    "body": "Yesterday, I saw a patient with a severe spine trauma that had an abnormal presentation. The patient was a 22-year-old who had fallen 10 feet onto their back, but they only had back pain and were able to walk into the ER. Their CT scan showed a burst fracture with no cord injury, but they were complaining of numbness in their legs.\n\nI was planning to discharge them with pain management and follow-up, but then I thought about the case from last week where we had a patient with a similar presentation, but they ended up having a missed spinal cord injury. I'm still wondering if I made the right call... Has anyone else had a similar case recently? How do you approach spine trauma with abnormal presentations? I'm starting to think I should be getting a second opinion... Thoughts?",
+    "category": "emergencymedicine",
+    "comments": [
+      {
+        "id": "spine-trauma-comment-1",
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "I think you're on the right track, OP. The key is to take a step back and consider the whole picture. In your case, the patient's back pain and numbness in their legs are red flags that shouldn't be ignored, even if the CT scan doesn't show a cord injury. Have you considered getting an MRI to rule out any spinal cord damage?",
+        "color": "blue"
+      },
+      {
+        "id": "spine-trauma-comment-2",
+        "parent_id": "spine-trauma-comment-1",
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Wait, but isn't the CT scan usually the gold standard for diagnosing spinal cord injuries? Why would you need an MRI if the CT scan is already clear?",
+        "color": "purple"
+      },
+      {
+        "id": "spine-trauma-comment-3",
+        "parent_id": "spine-trauma-comment-1",
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Actually, the American College of Radiology (ACR) recommends a CT scan as the first-line imaging modality for acute spinal trauma. But, in cases where the CT scan is unclear or shows a high-risk fracture, an MRI should definitely be considered to rule out cord injury. Has anyone else had any experiences with the NEXA CT scanner for spinal trauma imaging?",
+        "color": "green"
+      },
+      {
+        "id": "spine-trauma-comment-4",
+        "parent_id": "spine-trauma-comment-1",
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs like you would benefit from a comprehensive review of orthopedics. Spinal trauma is not a simple diagnosis, and relying on CT scans is laughable. The real experts use a combination of imaging modalities and clinical judgment to make an accurate diagnosis.",
+        "color": "red"
+      },
+      {
+        "id": "spine-trauma-comment-5",
+        "parent_id": "spine-trauma-comment-1",
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Hey, OP, just a thought, but have you considered the patient's past medical history? Could there be any underlying conditions that could be contributing to their symptoms? We had a patient last week who had a similar presentation, and it turned out they had a rare condition called spinal tuberculosis.",
+        "color": "orange"
+      },
+      {
+        "id": "spine-trauma-comment-6",
+        "parent_id": "spine-trauma-comment-5",
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "That's a great point, Turbo Tom. We should be taking a more holistic approach to diagnosing spinal trauma. Has anyone else experienced any cases where the patient's past medical history played a crucial role in the diagnosis?",
+        "color": "pink"
+      },
+      {
+        "id": "spine-trauma-comment-7",
+        "parent_id": null,
+        "user": "Dr. Ken Chen",
+        "role": "Resident",
+        "city": "Edmonton, AB",
+        "text": "OP, I'm curious, what was your thought process when you were deciding whether to discharge the patient or admit them for further evaluation? Were there any specific risk factors that led you to decide?",
+        "color": "brown"
+      },
+      {
+        "id": "spine-trauma-comment-8",
+        "parent_id": "spine-trauma-comment-7",
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "Excuse me, but I think I've been reading this thread and I have a question. OP, was the patient able to ambulate before coming into the ER? Did you notice any neurological deficits?",
+        "color": "gray"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Just saw a patient with hyperosmolar hyperglycemic state... lessons learned",
+    "body": "Just saw a patient with HHS and was reminded how easily these cases can go south. The patient, an elderly diabetic, presented with severe dehydration and altered mental status. Blood work showed a glucose of 900, osmolality of 370, and a slightly acidic pH. The team was initially hesitant to start IVF, but after a few hours of fluid resuscitation, the patient slowly began to improve. However, things took a turn for the worse when the patient developed a severe seizure. Fortunately, we were able to quickly administer mannitol and get the seizure under control. But it was a sobering experience that reminded me of the importance of quickly addressing volume deficits in HHS patients. Has anyone else had similar experiences with HHS patients? What are some of the key takeaways from your own experiences?",
+    "category": "emergency-medicine",
+    "comments": [
+      {
+        "id": 2,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great post! I completely agree that fluid resuscitation is crucial in HHS patients to prevent cerebral edema. In fact, I always make it a point to give mannitol prophylactically in these cases, even if the patient doesn't show signs of cerebral edema yet. It's worth noting that the use of mannitol may increase the risk of acute kidney injury, so we need to be monitoring those electrolytes closely. Has anyone else had any issues with mannitol in these cases?",
+        "color": "blue"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Wait, you give mannitol prophylactically even if there's no cerebral edema? How do you decide when to give it?",
+        "color": "purple"
+      },
+      {
+        "id": 4,
+        "parent_id": 2,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs like you give mannitol to anyone with an HHS diagnosis. Not me. Not my team. We only give it to patients who are actually showing signs of cerebral edema. Anyone else see the value in being a bit more cautious here?",
+        "color": "red"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Actually, Vic, the evidence suggests that prophylactic mannitol can be beneficial in preventing cerebral edema even before symptoms appear. Maybe we should be looking at the data more closely rather than making uninformed decisions based on personal bias?",
+        "color": "blue"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Can you provide some references for that, Dr. Thorne? I'd love to see some evidence supporting prophylactic mannitol use in HHS patients.",
+        "color": "green"
+      },
+      {
+        "id": 7,
+        "parent_id": 2,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "One thing that's often overlooked in HHS patients is the importance of addressing the underlying cause, whether it's infection, pancreatitis, or something else. We need to be thinking about the differential diagnosis and ordering the right labs and tests to make a timely diagnosis. Any thoughts on this?",
+        "color": "orange"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Preach, Dr. Gupta! And don't forget to get the glucose levels under control ASAP, even if that means using some insulin to get things moving. Patients with HHS are often at risk for further complications, and we need to be proactive in preventing those.",
+        "color": "blue"
+      },
+      {
+        "id": 9,
+        "parent_id": null,
+        "user": "Dr. Phil Muddle",
+        "role": "EP",
+        "city": "Regina, SK",
+        "text": "Oh boy, am I glad to see this post! I've had my fair share of HHS cases, but they always manage to throw me off guard. Just yesterday, I had a patient with HHS who presented as a 'classic' diabetic patient, with all the usual symptoms. However, blood work revealed a completely unremarkable glucose level, and we ended up sending the patient for an MRI to rule out something more sinister. Has anyone else ever had a case turn out to be something completely different when they least expected it?",
+        "color": "brown"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Yeah, bro, this is why we always say 'never assume, investigate first.' Don't let the initial presentation fool you \u2013 sometimes it's not as cut-and-dry as you think. Has anyone else got any other funny stories about HHS patients?",
+        "color": "teal"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Wait, is HHS the same thing as DKA? I thought they were different?",
+        "color": "lightblue"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "No, kid, HHS and DKA are not the same thing. But they do share some similarities, like both being caused by insulin deficiency and resulting in hyperglycemia. However, HHS is characterized by the absence of ketosis, whereas DKA is all about the ketones, bro!",
+        "color": "red"
+      },
+      {
+        "id": 13,
+        "parent_id": null,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "Gee whiz, folks, can I just ask what happened to the patient's seizures? Was it just the mannitol that did the trick, or did they need to change their antiepileptic meds as well?",
+        "color": "blue"
+      },
+      {
+        "id": 14,
+        "parent_id": 13,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Actually, Barnaby, the seizures were likely due to the glucose crisis, which can cause cerebral edema and seizures. Mannitol was probably the right move to prevent further complications, but we should have kept an eye on the electrolytes to prevent hypokalemia and hypernatremia.",
+        "color": "brown"
+      },
+      {
+        "id": 15,
+        "parent_id": 14,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "That makes sense, Elena. I'm always impressed by the intricacies of human physiology and how one thing can lead to another. What else do we need to keep in mind in HHS patients to prevent long-term complications?",
+        "color": "orange"
+      },
+      {
+        "id": 16,
+        "parent_id": 15,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Yeah, team, let's not forget the importance of monitoring these patients for complications long after they leave our ED! We need to follow up with their PCP and get them onto a plan to prevent further episodes. It's not just about the hospital stay \u2013 it's about the long-term care and management of these patients.",
+        "color": "blue"
+      },
+      {
+        "id": 17,
+        "parent_id": 16,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Preach, Turbo! Long-term care is where the rubber meets the road in EDs. And don't even get me started on how important it is to educate our patients on their diabetes management and the importance of self-monitoring and healthy lifestyle choices \u2013 it's a huge part of our job!",
+        "color": "teal"
+      }
+    ],
+    "image": "https://i0.wp.com/emcrit.org/wp-content/uploads/2020/07/hhsdefinition.jpg?fit=1486%2C1102&ssl=1"
+  },
+  {
+    "id": 1,
+    "title": "TLDR; Don't miss this common wrist injury - Mallet Deformity",
+    "body": "Just saw a patient with a mallet deformity - an extensor tendon laceration over the DIP joint. The patient was a young athlete playing hockey. He fell and got a laceration over the DIP joint. I was about to order a simple closure, when I noticed that his DIP joint was in an extension deformity. I ordered x-rays and an ortho consult. Turns out, he needs an urgent repair to prevent swan neck deformity. Has this ever happened to anyone else? How do you diagnose and treat this condition?",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great case! Mallet deformity is a classic scenario for a delayed diagnosis. I always tell my residents to suspect tendon lacerations in young athletes with acute wrist injuries. Have you considered the importance of examining the tendons and nerves distal to the wound? It's crucial to assess for potential injuries to the flexor or extensor tendons. In this case, a thorough examination would have led to a more timely diagnosis. By the way, did you order an MRI to evaluate the tendon injury?",
+        "color": "pink"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "@Dr. Aris Thorne - thank you for reminding me to examine the tendons and nerves distal to the wound! I've heard that a figure-of-eight stitch can be used to repair extensor tendon lacerations. Do you think this would have been a good option for this patient?",
+        "color": "blue"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "@Dr. Aris Thorne - I second your suggestion to always examine the tendons and nerves distal to the wound. In my experience, tendinopathy is common in young athletes with repetitive strain injuries. Have you considered the role of ultrasound in diagnosing and treating tendinopathy?",
+        "color": "purple"
       },
       {
         "id": 4,
@@ -38,724 +485,598 @@
         "user": "Leo Chen",
         "role": "MS1",
         "city": "Montreal, QC",
-        "text": "What is the difference between intrauterine pregnancy and ectopic pregnancy? How do we tell them apart? Can we get a more detailed explanation?",
+        "text": "@Dr. Aris Thorne - I'm a bit confused - what is the difference between a mallet deformity and a swan neck deformity? Can you please clarify? Thanks!",
         "color": "green"
       },
       {
         "id": 5,
-        "parent_id": 2,
+        "parent_id": 1,
         "user": "Dr. Barb Miller",
-        "role": "MD, Community Physician",
+        "role": "EP",
         "city": "Winnipeg, MB",
-        "text": "Dr. Sterling, I understand your point, but don't you think we should be more thorough in our diagnosis? We can't just rely on a patient's history of PID. What about other factors like previous surgeries or congenital anomalies?",
-        "color": "green"
+        "text": "Just saw a similar case last night where the patient had a mallet deformity from a baseball pitch. The patient needed an urgent repair to prevent swan neck deformity. I used 5-0 nonabsorbable sutures for closure. Anyone have any updates on the latest guidelines for tendon repair? Link to the updated literature, please.",
+        "color": "orange"
       },
       {
         "id": 6,
-        "parent_id": 3,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "MD, EP",
-        "city": "Vancouver, BC",
-        "text": "Haha, Turbo Tom, I've had to deal with my fair share of patients who have received methotrexate for suspected ectopic pregnancy only to find out they're actually pregnant. As a community physician, I agree with you that we need to get a better work up before giving methotrexate. Let's follow the ACOG guidelines and make sure we're not missing anything.",
-        "color": "green"
+        "parent_id": 1,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "I'm not sure if I understood the post - do you guys have to do MRIs and ultrasounds for every patient with a mallet deformity? Or is that just for complicated cases?",
+        "color": "red"
       },
       {
         "id": 7,
         "parent_id": 1,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "What is the typical presentation for ectopic pregnancy? I've been studying this and I want to make sure I'm aware of the classic symptoms. Can someone guide me through this?",
-        "color": "green"
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "I think I might have a mallet deformity. I was playing hockey and got hit in the wrist. Do I need to see a doctor? Is it serious? Thanks for the info!",
+        "color": "grey"
       },
       {
         "id": 8,
-        "parent_id": 7,
+        "parent_id": 5,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "@Dr. Barb Miller - please refrain from promoting outdated literature. The current guidelines for tendon repair are available in the latest issue of the Canadian Journal of Surgery.",
+        "color": "brown"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "@Dr. Victor Sterling - let's stay focused on the patient's care, rather than debating outdated literature. The patient needs urgent attention. Has anyone considered the importance of a multidisciplinary approach to treating mallet deformities?",
+        "color": "pink"
+      }
+    ]
+  },
+  {
+    "id": 1234,
+    "title": "UroGyn Trauma in ER: Pearls & Pitfalls",
+    "body": "Just saw a patient with abdominal trauma and significant vaginal bleeding... had to do a stat US to assess placental location and then proceed with a pelvic exam to rule out genital trauma. Anyone have experience with this type of scenario? How do you manage the risks of F-M hemorrhage in Rh-negative patients?",
+    "category": "emergency_medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "Dr. Park, ectopic pregnancy typically presents with sudden onset of abdominal pain, nausea, and vaginal bleeding. The patient may also experience symptoms like dizziness and fainting. Keep in mind that not all patients will have these symptoms, so it's essential to do a good work up and confirm the diagnosis.",
+        "text": "F-M hemorrhage is a major concern in uroGyn trauma, especially in Rh-negative patients. I always check their Rh status and consider a Kleihauer-Betke test after trauma. We also have a protocol to administer Rh Ig for susceptible women. The American College of Obstetricians and Gynecologists (ACOG) has some great guidelines on this.",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "I've read about the Kleihauer-Betke test, but can you clarify how it works? Is it a diagnostic tool or a treatment option? Also, what's the protocol for Rh Ig administration?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "The Kleihauer-Betke test checks for fetal-maternal hemorrhage by detecting fetal red cells in the maternal circulation. It's primarily a diagnostic tool to assess the risk of F-M hemorrhage. Rh Ig is administered as a prophylactic measure to susceptible women to prevent isoimmunization. Our hospital has a specific protocol, but I can try to find the exact guidelines for you.",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "What's the approach to managing patients with suspected uroGyn trauma? Do we need to admit them to a higher level of care or can we manage them on the ward?",
+        "color": "purple"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "It depends on the severity of the trauma. If the patient is hemodynamically unstable or has significant vaginal bleeding, we'd want to admit them to a higher level of care, like the ICU. But if the trauma is minor, we may be able to manage them on the ward with close monitoring.",
+        "color": "green"
+      },
+      {
+        "id": 6,
+        "parent_id": 4,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Wait, so what's the deal with uroGyn trauma? Is it like, totally rare or something?",
+        "color": "blue"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "UroGyn trauma is not as rare as you might think, Chad! While it's true that it's relatively uncommon, it's a serious and potentially life-threatening condition that requires prompt recognition and treatment.",
+        "color": "purple"
+      },
+      {
+        "id": 8,
+        "parent_id": 5,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "I've seen some nasty cases of uroGyn trauma in my time as a trauma nurse. One thing that's always a red flag is a significant increase in vaginal bleeding. We have to be very vigilant when assessing patients for this kind of trauma.",
         "color": "green"
       },
       {
         "id": 9,
         "parent_id": 8,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "I don't understand. How does an ectopic pregnancy develop? Is it related to my previous surgeries? I've had several procedures and I'm worried that I might be at risk.",
-        "color": "green"
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "You're telling me, Turbo! Vaginal bleeding is just one of the many symptoms we need to watch out for. Don't forget about the patient's history, physical exam, and lab results. We have to consider the whole picture when assessing uroGyn trauma.",
+        "color": "purple"
       },
       {
         "id": 10,
         "parent_id": 9,
-        "user": "Dr. Elena Varkov",
-        "role": "MD, FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Barnaby, ectopic pregnancy can develop from a variety of factors, including previous surgeries, congenital anomalies, and even hormonal imbalances. However, the exact cause is often still unknown. We'll need to do some further testing to determine the cause of your symptoms. Can you tell me more about your medical history?",
-        "color": "green"
-      }
-    ],
-    "image": "https://images.squarespace-cdn.com/content/v1/546e1217e4b093626abfbae7/1502207156967-KZC7Y5AGNEKQOMUBE5IT/image-asset.png"
-  },
-  {
-    "id": 1,
-    "title": "Rant about chronic pain management in the ED (TLDR: Opioids aren't our friends)",
-    "body": "Just saw a patient with CRPS and it got me thinking about chronic pain management in the ED. We all know the drill: patient comes in with chronic pain, wants opioids, and we're left feeling like we're not doing enough to help. But let's talk about the elephant in the room - opioids are not the answer.\n\nI know it's hard to say no to a patient who's suffering, but the truth is, opioids are often counterproductive in the long term. They can lead to dependency, addiction, and even worsen pain. And don't even get me started on the 'opioid epidemic' - we're part of the problem, not the solution.\n\nSo what's the alternative? Non-pharmacological interventions like physical therapy, cognitive behavioral therapy, and acupuncture can be game-changers. And let's not forget about interdisciplinary pain management programs that bring together specialists from multiple fields to tackle chronic pain.\n\nI'd love to hear from my fellow EPs - how do you approach chronic pain management in the ED? Share your tips and tricks!\n\n**Links:\n* CDC guidelines on opioid prescribing\n* ACP guidelines on chronic pain management\n* The Pain Management Network - a great resource for EPs and PCPs alike\n**",
-    "category": "emergency medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Totally agree, guys! Chronic pain management in the ED is a minefield. I've seen patients get hooked on opioids and it's devastating. Did you know that the CDC recommends starting with non-pharmacological interventions, like physical therapy and CBT? We need to be doing more to promote interdisciplinarity in pain management.\n\n**Link:** The Pain Management Network - an amazing resource for EPs and PCPs alike",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Actually, Dr. Sharp, I was wondering if you could clarify what exactly you mean by 'interdisciplinarity' in pain management? Is it just about working with other specialists, or is there something more specific to it? I've read a bit about it in my med school curriculum, but I'm not entirely clear on the concept.",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": null,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "Ugh, chronic pain patients are the WORST. I know it's not about the patient, it's about the system, but still... I've had to deal with so many cases where the patient just wants a magic pill to fix everything. Newsflash: there is no magic pill. It's about addressing the underlying issues and working with the patient to develop a comprehensive treatment plan. \n\n**Link:** A blog post from a pain specialist that really gets it (imo)\n\nOh, and btw, I agree with Dr. Sharp: non-pharmacological interventions are the way to go.",
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "That's a great point, Martha! What about the role of imaging in assessing uroGyn trauma? Should we be ordering a US or CT scan right away?",
         "color": "blue"
       },
       {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I know Dr. Rick is coming from a place of frustration, but can we please, please, PLEASE start using 'patient-centered care' instead of 'magic pill'? It's just so... reductionist. \n\nSeriously though, what are some good resources for learning more about patient-centered care and interdisciplinarity in pain management? I feel like I'm just scratching the surface.",
-        "color": "pink"
+        "id": 11,
+        "parent_id": 10,
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "Imaging is a must in cases of suspected uroGyn trauma. I always order a US to assess placental location and rule out other intra-abdominal injuries. If the patient is stable, we may be able to defer CT scanning until later.",
+        "color": "green"
       },
       {
-        "id": 5,
-        "parent_id": 4,
+        "id": 12,
+        "parent_id": 11,
         "user": "Dr. Elena Varkov",
         "role": "FRCPC",
         "city": "Quebec City, QC",
-        "text": "Actually, Dr. Gupta, I think that's a great point. Patient-centered care is all about understanding the individual patient's needs and values, and working with them to develop a treatment plan that addresses those specific needs. It's not about just giving them a pill or a procedure, it's about taking the time to listen and figure out what's going on.\n\n**Link:** A great paper on patient-centered care and pain management that I found really helpful",
+        "text": "What's the protocol for fluid management in these patients? Should we be giving crystalloids or blood?",
         "color": "purple"
       },
       {
-        "id": 6,
-        "parent_id": null,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "Good heavens, what's all this fuss about opioids and chronic pain? In my day, we just prescribed morphine and sent patients home with a bottle of liniment. Ah, the good old days... \n\nAnyway, I think the key to managing chronic pain is to get the patient to stop whining and take some actual action. You know, like physical therapy and whatnot.",
+        "id": 13,
+        "parent_id": 12,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "We typically use crystalloids initially to maintain hemodynamic stability. If the patient requires more aggressive fluid resuscitation or blood transfusions, we'll need to consider a higher level of care.",
         "color": "green"
       },
       {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Umm... Dr. Thorne, I think you might be misunderstanding the issue. Opioids are actually REALLY bad for chronic pain, and can even make things worse. We're talking about evidence-based medicine here, not just 'whine and take action'. Can you clarify what you mean by 'liniment'?",
-        "color": "pink"
+        "id": 14,
+        "parent_id": 13,
+        "user": "Dr. Phil Muddle",
+        "role": "EP",
+        "city": "Regina, SK",
+        "text": "Wait, what's crystalloids?",
+        "color": "blue"
       },
       {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "Sarah, my dear, Dr. Thorne is just having a little fun at our expense. As a family doc, I've seen my fair share of chronic pain patients, and I can tell you that it's all about getting to the root of the problem. Sometimes that means prescribing pain meds, but often it's about addressing the underlying issues that led to the pain in the first place.",
-        "color": "blue"
+        "id": 15,
+        "parent_id": 14,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Crystalloids are a type of intravenous fluid, Phil! They're used to maintain fluid balance and blood pressure. For example, normal saline or lactated Ringer's solution.",
+        "color": "purple"
       }
     ]
   },
   {
-    "id": 2,
-    "title": "Rant about: Was I wrong to discharge a patient with Hymenoptera sting reactions after multiple stings?",
-    "body": "Just saw a patient with multiple Hymenoptera sting reactions and I'm having a crisis of conscience. He had ~30 stings and minor symptoms. I observed him for 6 hours and sent him home. But then I started thinking... what if he has a serious systemic reaction tomorrow? What if I'm missing something? Shouldn't I have admitted him? Help me out, Reddit. Was I too liberal with my discharge? TLDR: multiple stings, minor symptoms, 6 hour observation, still discharged. Share your thoughts! (cc @Dr_Ziggy_Zalesky @Dr_Sarah_Sharps @Dr_Sterling)",
-    "category": "emergency-medicine",
+    "title": "TLDR: Don't Miss Volvulus in the Elderly",
+    "body": "Just saw a patient with a sigmoid volvulus last night in the ER, and it got me thinking about the importance of considering volvulus in the elderly. Volvulus is a serious condition that can lead to bowel necrosis and death if not treated promptly. The key to identifying volvulus is to look for a combination of symptoms: abdominal pain, constipation, and a palpable abdominal mass. In the elderly, volvulus is more common due to the natural compression of the bowel by pelvic organs, as well as the increased use of anticholinergic medications. The most important clue is the presence of a non-distended sigmoid colon on imaging, with a beak-like appearance of the sigmoid loop. So, don't forget to add volvulus to your differential diagnosis in elderly patients with abdominal pain and constipation.",
+    "category": "Emergency Medicine",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": "u/Drsarahlsharps",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "You did the right thing OP!  The current guidelines for Hymenoptera stings are clear: <100 stings, 6 hour observation, and if they're still asymptomatic, they're good to go. You can't predict who's going to have a systemic reaction and the risk-benefit of admission was low in this case. I'd be more worried about missing a MI or a stroke than a Hymenoptera sting reaction. Link to the guidelines for reference: [https://www.ceo.ca/](https://www.ceo.ca/)",
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "TLDR: indeed. I've seen too many cases of sigmoid volvulus in the elderly. The key is to consider it in the differential diagnosis, especially in patients on anticholinergic medications. I also want to add that a simple abdominal x-ray can be a useful tool in identifying sigmoid volvulus. Look for a classic 'coffee bean' sign or a 'bird-beak' deformity. [link to article](https://www.ncbi.nlm.nih.gov/pubmed/29166791)",
+        "color": "green"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Dr. Thorne, can you explain more about the 'coffee bean' sign and how to identify it on an abdominal x-ray? I've heard of it, but I've never seen it before.",
+        "color": "blue"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Of course, Leo! The 'coffee bean' sign is a radiographic finding that is characteristic of sigmoid volvulus. It appears as a double-density shadow that resembles a coffee bean. To identify it, simply look for a sigmoid loop that is twisted more than 180 degrees. The loop will appear as a crescent-shaped structure, with the dense sigmoid wall pointing towards the patient's feet. If you see this, you know it's likely sigmoid volvulus!",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "I've read about sigmoid volvulus, but I was wondering if there are any other conditions that can mimic its presentation. I've seen cases of intussusception that looked very similar on imaging.",
+        "color": "orange"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Great point, Sarah! Intussusception can indeed mimic the presentation of sigmoid volvulus. The key to distinguishing between the two is to look for the presence of a lead point, such as a polyp or tumor, in intussusception. Also, keep an eye out for the 'target sign' on imaging, which is characteristic of intussusception.",
+        "color": "green"
+      },
+      {
+        "id": 6,
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "As an RN, I've seen many cases of sigmoid volvulus in the elderly. The key is to stay vigilant and look for subtle signs, such as a change in bowel habits or abdominal pain. Don't assume it's just 'old age' or 'constipation' - get an x-ray and consider sigmoid volvulus!",
+        "color": "purple"
+      }
+    ],
+    "image": "https://assets.cureus.com/uploads/figure/file/531984/article_river_f648aba08d9311ed8af5a91889679a80-2A-.png"
+  },
+  {
+    "title": "Rant about the dangers of missing a hypertensive emergency",
+    "body": "Just saw a patient with severe headache and visual changes, BP 200/120. Missed the obvious sign of hypertensive emergency and treated it as hypertensive urgency. Luckily, the attending picked it up and we got the patient to the CT scanner in time. Lesson learned: hypertensive urgency is a myth and we should be worried about hypertensive emergencies all the time. TLDR: beware of high BP in young patients with acute headache and visual changes, it's not just stress.",
+    "category": "r/EmergencyMedicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Could not agree more, OP. Hypertensive urgency is a misnomer. I always tell my residents to 'think hypertensive emergency first' when seeing high blood pressures. The key is to identify the patients at risk, such as those with a history of hypertension, cardiovascular disease, or kidney disease. Remember, hypertensive emergencies can be caused by anything that increases blood pressure: pain, stress, or even withdrawal from certain medications. Link to the JNC7 classification of hypertension for reference: [link to JNC7 guidelines]",
         "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "u/u_DrSterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "You're absolutely right, @Drsarahlsharps! I'd have done the same thing. Amateurs would have admitted him for a 'safe' discharge, but we have to think critically and make decisions based on evidence. And let's be real, most systemic reactions from Hymenoptera stings aren't life-threatening. The real question is, was OP's patient just a big baby who got stung too many times or did he actually have a legitimate concern? TLDR: you did the right thing, @OP",
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "I'm so glad to see this conversation, docs. As a nurse, I've seen patients come in with 'hypertensive urgency' and get sent home with a BP med and a lecture about lifestyle changes. Meanwhile, their blood pressure is still sky-high and they're at risk for a hypertensive emergency. Can we please start calling it what it is: a life-threatening condition that needs immediate attention? TLDR: let's not sugarcoat it, people. Hypertensive emergencies are deadly and we need to take them seriously.",
         "color": "green"
       },
       {
         "id": 3,
         "parent_id": 1,
-        "user": "u/u_DrZiggyZalesky",
-        "role": "FP",
-        "city": "Vancouver, BC",
-        "text": "Hey @OP, I think you did the right thing too. However, I do have a question for you. What about the patient's history of allergies or other medical conditions? Did you screen him for any of those before discharging him? I know it's not directly related to the stings, but it's always good to keep an eye on the patient's overall health, if you know what I mean. Let's keep the discussion going!",
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Hi docs, I've been studying for my boards and I was wondering if someone could clarify the difference between hypertensive emergency and hypertensive urgency? Are they basically just the same thing?",
         "color": "yellow"
       },
       {
         "id": 4,
-        "parent_id": 2,
-        "user": "u/u_LeoChen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Sorry to bother you, @Dr_Ziggy_Zalesky, but what do you mean by 'overall health'? Are you saying that we should do a full physical examination on the patient before discharging him? Or just ask him about his medical history? TLDR: what's the right way to do it?",
-        "color": "blue"
+        "parent_id": 3,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Hi Leo, glad to help! According to the JNC7 guidelines, hypertensive urgency is defined as blood pressure above 180/120 mmHg without acute end-organ damage. Hypertensive emergency, on the other hand, is blood pressure above 180/120 mmHg with acute end-organ damage. Think of it like a spectrum: hypertensive urgency is the milder form, while hypertensive emergency is the more severe form. Does that make sense?",
+        "color": "green"
       },
       {
         "id": 5,
-        "parent_id": 3,
-        "user": "u/u_Drsarahlsharps",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Don't 'bother' me @LeoChen! We always want to know the patient's history, medical conditions, allergies, etc. before discharging him. A thorough history and physical examination are always a good idea, even if it's just a routine follow-up visit. I'd recommend asking him about his medical history, medications, allergies, etc. and maybe even a physical examination to rule out any other potential issues.",
+        "parent_id": 4,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Ah, I see. So, if I have a patient with a BP of 220/140 mmHg and they're complaining of headaches, but no other symptoms, would that be considered hypertensive urgency or emergency?",
         "color": "purple"
       },
       {
         "id": 6,
         "parent_id": 5,
-        "user": "u/u_DrZiggyZalesky",
-        "role": "FP",
-        "city": "Vancouver, BC",
-        "text": "Thanks @Drsarahlsharps! @LeoChen, don't worry, it's totally fine to ask for clarification. That's how we learn, right? @OP, back to the original question... what about monitoring for signs of a systemic reaction after discharge? Should we be calling the patient daily or sending him to the ER if he develops any symptoms? TLDR: what's the right way to monitor him?",
-        "color": "yellow"
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Based on the JNC7 guidelines, that would be considered hypertensive urgency. Headaches are a common symptom, but as long as there's no acute end-organ damage, it's not an emergency. However, if you start to see symptoms like visual changes, chest pain, or shortness of breath, that's when it becomes a hypertensive emergency.",
+        "color": "green"
       },
       {
         "id": 7,
-        "parent_id": 1,
-        "user": "u/u_DrArisThorne",
-        "role": "Attending",
-        "city": "Toronto, ON",
-        "text": "You know, I've had patients with multiple Hymenoptera stings and they all survived just fine. Of course, we always follow up with them to make sure they're doing okay. And @OP, I think you did the right thing too. Just remember, we're not the patient's mother, we're their healthcare provider. Let's keep things in perspective, shall we?",
+        "parent_id": 6,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Amen to that, Maya. I've seen too many patients come in with 'hypertensive urgency' who turn out to have a hypertensive emergency. It's all about the clinical judgment, folks. Don't rely on the numbers alone \u2013 look for the symptoms and signs that suggest end-organ damage. Link to a great article on hypertensive emergencies for reference: [link to article]",
         "color": "purple"
       },
       {
         "id": 8,
         "parent_id": 7,
-        "user": "u/u_BarnabyFinch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "Thanks @Dr_ArisThorne! I was worried that I was going to die from that sting... but I guess not?",
-        "color": "pink"
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Thanks for the link, Ziggy! I'll definitely check it out. By the way, what are some of the common causes of hypertensive emergencies aside from pain and stress?",
+        "color": "green"
       },
       {
         "id": 9,
-        "parent_id": 7,
-        "user": "u/u_Drsarahlsharps",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Ha! Nice one @BarnabyFinch! @Dr_ArisThorne, you have a point. We should keep things in perspective. Remember the patient's chart, not their symptoms.",
-        "color": "purple"
+        "parent_id": 8,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Ah, finally a question worth answering. The causes of hypertensive emergencies are multifactorial, but some of the more common ones include kidney disease, cardiovascular disease, pheochromocytoma, and certain medications like MAOIs and tricyclic antidepressants. Don't even get me started on pheochromocytoma, though. Those patients are a nightmare to deal with.",
+        "color": "red"
       },
       {
         "id": 10,
-        "parent_id": 7,
-        "user": "u/u_DrSterling",
+        "parent_id": 9,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Dude, come on. You can't just dismiss pheochromocytoma like that. Those patients are a challenge, but they're not a nightmare. We need to approach them with compassion and understanding, not condescension.",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "id": "1",
+    "title": "Just saw a patient with acute angle closure glaucoma last night and it got me thinking about our eye emergency protocols... ",
+    "body": "I've been practicing EM for over 10 years and I've had my fair share of difficult eye cases, but last night's patient still had me scratching my head.  We got the call from the nurse that a 60-year-old patient had come in with a history of migraines and was complaining of severe eye pain, blurred vision, and seeing halos around lights.  On exam, we found an IOP of 62, a fixed mid-dilated pupil, and a shallow AC.  \n   We quickly got the patient into the trauma bay and started our ocular trauma protocol, but as we were working up the case, I started thinking about our protocol for acute angle closure glaucoma.  Have any of you guys had any trouble spots with diagnosing this condition?  We know the classic teaching is sudden onset of pain, vision loss, and a fixed mid-dilated pupil with an IOP > 50, but what about the less common cases?  How can we quickly and accurately diagnose this condition?",
+    "category": "medicine",
+    "comments": [
+      {
+        "id": "1",
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "I had a case last year where the patient presented with all the classic symptoms, but the twist was that they also had a history of steroid use for their chronic condition.  We ended up diagnosing a steroid-induced glaucoma, and it was a real wake-up call for me to think outside the box when it came to the potential causes of glaucoma.  Does anyone have any experience with steroid-induced glaucoma?",
+        "color": "purple"
+      },
+      {
+        "id": "2",
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I've read that steroid-induced glaucoma can be differentiated from other forms of glaucoma by the presence of a high IOP, shallow AC, and a mid-dilated pupil, but also by the patient's history of steroid use.  Has anyone had experience with the 'steroid-induced glaucoma' workup and what are the key tests to order?",
+        "color": "green"
+      },
+      {
+        "id": "3",
+        "parent_id": 1,
+        "user": "Dr. Victor Sterling",
         "role": "Chief of Surgery",
         "city": "Calgary, AB",
-        "text": "You're all forgetting the elephant in the room... systemic reactions from Hymenoptera stings can happen to anyone, anytime. So, even if we did everything 'right' @OP, we could still have a patient in the ED or worse, in the ICU because of it.",
+        "text": "I've got to say, I'm a bit skeptical of the whole steroid-induced glaucoma thing.  I've never seen a case that wasn't just a classic angle closure glaucoma.  Maybe I'm just a skeptic, but I'd love to see some evidence to support this diagnosis.  TLDR: has anyone got some data to share on this?",
+        "color": "blue"
+      },
+      {
+        "id": "4",
+        "parent_id": 3,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I've done some research on this and it seems like the literature is pretty mixed.  Some studies support the diagnosis of steroid-induced glaucoma, but others are more skeptical.  Has anyone looked at the most recent Cochrane review on this topic?",
+        "color": "red"
+      },
+      {
+        "id": "5",
+        "parent_id": 4,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "I've read that Cochrane review and it's a total mixed bag.  One of the studies even suggested that the increase in IOP due to steroids may actually be due to other factors, like the patient's age and underlying medical conditions.  Maybe we should be looking at other factors besides just steroid use when diagnosing glaucoma?",
+        "color": "orange"
+      },
+      {
+        "id": "6",
+        "parent_id": 5,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Haha, Dr. Miller, you always know how to bring up the most interesting points!  I was thinking the same thing, maybe we should be focusing on other risk factors, like family history, medical conditions, and even eye trauma.  That way we can get a more accurate picture of what's going on with our patients.  Anyone have any experience with ocular trauma protocols?",
+        "color": "pink"
+      },
+      {
+        "id": "7",
+        "parent_id": 6,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "I'm all about the trauma protocols!  In fact, I've been working on a paper about the use of ocular trauma protocols in emergency medicine.  Would love to share more info with everyone and hear about your experiences with it.  Any volunteers for a case presentation?",
+        "color": "purple"
+      },
+      {
+        "id": "8",
+        "parent_id": 7,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "I'd be happy to volunteer for a case presentation!  I've been doing some reading on ocular trauma protocols and I think I could bring some interesting points to the discussion.  But first, can someone clarify what you mean by 'ocular trauma protocols'?  I've seen it thrown around in the literature, but I'm not entirely sure what it entails...",
+        "color": "green"
+      },
+      {
+        "id": "9",
+        "parent_id": 8,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "Ah, great question, Sarah!  Ocular trauma protocols are all about how we approach and manage patients with eye trauma.  It includes everything from how to stabilize the patient to how to work up the case, all the way to how to provide follow-up care.  It's a vital part of emergency medicine, especially when it comes to saving eyesight.",
+        "color": "blue"
+      },
+      {
+        "id": "10",
+        "parent_id": 9,
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "I've got to say, I've had my fair share of eye trauma cases and I've always relied on the old 'ABCDE' approach: Airway, Breathing, Circulation, Disability, Exposure.  Has anyone else used this approach or would like to share their own tips and tricks for managing eye trauma?",
+        "color": "red"
+      },
+      {
+        "id": "11",
+        "parent_id": 10,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "The 'ABCDE' approach is great, but we also need to consider the patient's overall condition and not just focus on the eye itself.  I've seen cases where a patient's underlying medical conditions have led to a worse outcome.  Has anyone got any thoughts on how to balance the eye-specific care with the patient's broader health needs?",
+        "color": "orange"
+      },
+      {
+        "id": "12",
+        "parent_id": 11,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Now, isn't that the truth?  I've seen patients go downhill fast from eye trauma, not just because of the trauma itself, but because of underlying conditions that we didn't catch.  Has anyone got any experience with the 'sodium and the story' - what does that even mean?",
+        "color": "pink"
+      },
+      {
+        "id": "13",
+        "parent_id": 12,
+        "user": "Dr. Rick 'The Rage'",
+        "role": "EP",
+        "city": "Windsor, ON",
+        "text": "Ah, come on, Sue!  You know what 'sodium and the story' means - it's a bloody red flag for diabetes!  When a patient's sodium levels are off, it can indicate a lot of underlying issues, including diabetes.  Get the insulin on board if you even hint at it being off, trust me.",
+        "color": "purple"
+      },
+      {
+        "id": "14",
+        "parent_id": 13,
+        "user": "Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "I've got to disagree with Dr. Rick here.  While sodium levels are important, it's not just about getting the insulin on board.  Sometimes it's about taking a step back and really listening to the patient's story.  What are their symptoms?  What's their medical history?  Sometimes it's the simple things that end up saving the day, or in this case, the patient's eye.",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Rant about Fever Management in Kids",
+    "body": "Just had to deal with a case of suspected sepsis in a 5 month old and I'm still fuming. We're all taught that if the baby's afebrile and clinically well, we can discharge them on abx and recheck in 24-48 hours. But what about the ones who are still febrile or show signs of sepsis? I've seen cases where the parents come back in saying their kid is still sick and we end up having to admit them anyway. Can we just have some more concrete guidelines on this?",
+    "category": "pediatrics",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Totally agree, OP. I think part of the problem is that we're relying too heavily on clinical judgment and not enough on evidence-based guidelines. I've seen studies that suggest the risk of non-UTI SBI is negligible in infants over 3 months old. We should be focusing on getting clear definitions of what constitutes 'afebrile' and 'clinically well' in this age group. Has anyone looked at the literature on this in any detail?",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I'm not sure I understand what Dr. Thorne is getting at. Doesn't the American Academy of Pediatrics have guidelines for the management of febrile infants?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Actually, Leo, the AAP guidelines recommend a combination of clinical evaluation and laboratory tests to determine the cause of fever in infants. But Dr. Thorne is right that we need to be more specific about what constitutes 'afebrile' and 'clinically well' in this age group. Some studies have shown that up to 20% of febrile infants in this age group will require hospitalization for complications. We should be thinking about how to identify those at higher risk earlier.",
+        "color": "pink"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "I have to say that I've seen some pretty egregious examples of fever phobia in my time in the ED. As a nurse, it's frustrating to see parents being told that they're being 'alarmist' or 'overreacting' when they're just trying to get their kid the care they need. Can we talk about how to approach these situations in a more empathetic way?",
+        "color": "teal"
+      },
+      {
+        "id": 5,
+        "parent_id": 1,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Aye, Tom, you're preachin' to the choir! I've seen some families get so stressed out about fever management that they end up takin' their kid to the doctor every five minutes. We need to be workin' together to find ways to reassure them that their kid is goin' to be alright. Maybe we can share some stories about times when we've had to reassure a worried parent?",
+        "color": "blue"
+      },
+      {
+        "id": 6,
+        "parent_id": 4,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "You think you know stress, Sue? I've been workin' in ER for 30 years and I've seen some families come in with fevers that were 'out of control'. But let me tell you, it's a myth that fever is bad for kids. I've seen plenty of cases where a febrile child recovered just fine without any complications. Our job is to educate parents about when they need to worry and when they can breathe easy.",
+        "color": "gray"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Thanks, Martha, for sharing your experience. But it's not just about the immediate outcome - we need to think about the long-term effects of fever management on our patients. Some studies have shown that prolonged antimicrobial therapy can lead to increased risks of antibiotic resistance and other complications. We need to be thinking about how to manage fever in a way that minimizes these risks.",
+        "color": "pink"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I'm still a bit lost on the whole concept of fever management in kids. Dr. Gupta, can you explain it in simpler terms?",
+        "color": "green"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "So, Leo, basically we're trying to balance two competing goals: we want to minimize the risk of complications from fever, while also minimizing the risk of antibiotic resistance and other side effects from over-treatment. It's a delicate balance, but one that's ultimately guided by clinical experience and evidence-based practice. Does that make more sense now?",
+        "color": "pink"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Ah, yes! I get it now. Thank you, Dr. Gupta! So, is there a certain guideline or protocol we can follow for managing fever in kids?",
         "color": "green"
       },
       {
         "id": 11,
         "parent_id": 10,
-        "user": "u/u_DrZiggyZalesky",
-        "role": "FP",
-        "city": "Vancouver, BC",
-        "text": "Ooh, now that's a good point @Dr_Sterling! We always say that an ounce of prevention is worth a pound of cure, but what if we can't prevent a systemic reaction? I think we need to rethink our approach to managing Hymenoptera sting reactions.",
-        "color": "yellow"
-      }
-    ]
-  },
-  {
-    "id": 456,
-    "title": "Meningitis case last night was a real humdinger: what's your take?",
-    "body": "Had a case come in last night with a 30s male presenting with fever, headache, and neck stiffness. Initials thought it was just a viral meningitis, but the patient's white count was actually pretty cranked. Ended up giving him some IV fluids and antibiotics as a precaution.\n\nSo my question is: what's your policy on empiric antibiotics for meningitis? Am I being overly cautious or am I saving a life?\n\nAnd more specifically, anyone have some recommendations for a good online resource for staying up to date on the latest meningitis protocols?",
-    "category": "emergency medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
         "user": "Dr. Aris Thorne",
-        "role": "MD",
+        "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "Amen to that! I had a similar case last week where we caught a patient's bacterial meningitis just in time. I think the key is staying vigilant and not ruling out the worst-case scenario too quickly. In terms of resources, I've been using the IDSA guidelines for meningitis treatment and prevention.",
-        "color": "red"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Wow, thanks for sharing your experience, Dr. Thorne! I was wondering, what's the typical timeframe for when we should expect to see symptoms of meningitis appear after exposure?",
-        "color": "blue"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Great point about not ruling out the worst-case scenario too quickly, Dr. Thorne! I always try to err on the side of caution and get a lumbar puncture if possible. Anyone have experience with the new rapid PCR tests for meningitis?",
+        "text": "Actually, Leo, there isn't a one-size-fits-all approach here. It's all about individualizing the care to the specific needs of each patient. That being said, the American Academy of Pediatrics does have some general guidelines for the management of febrile infants. They recommend a combination of clinical evaluation and laboratory tests to determine the cause of fever. And of course, we should always keep our eyes peeled for any signs of sepsis or other complications.",
         "color": "purple"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Actually, I was reading about the new rapid PCR tests in a paper and it seems like they're not as reliable as traditional methods. Do you have any experience with them, Dr. Gupta?",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Hey guys, just wanted to chime in with my nurse's perspective. We're seeing a lot of these cases come through our ER and it's always better to be safe than sorry with empiric antibiotics.",
-        "color": "orange"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Thanks for sharing your experience, Turbo Tom! I was wondering, do you have any tips for how to efficiently work up a meningitis case?",
-        "color": "teal"
       }
     ],
-    "image": "https://www.ebmedicine.net/media_library/images/2022-EMP-Publication-Article/04-April/Clinical-Pathway-for-Emergency-Department-Management-of-Meningitis-and-Encephalitis-Teaser.png"
-  },
-  {
-    "id": 4,
-    "title": "Today I Learned: Aortic Dissection with an Atypical Presentation in a Hypertensive Patient",
-    "body": "Just saw a patient with a classic hypertensive emergency that had me stumped for a while last night. 64-year-old male with HTN, chronic kidney disease, and a history of smoking. He presented to the ED with severe sharp chest pain radiating to his back, sweating, and palpitations. His ABG showed a pH of 7.26, PCO2 of 58, and HCO3 of 24. His creatinine was 2.5 and his blood pressure was 190/110. Initial thought was hypertensive emergency with possible MI or pulmonary edema. However, his ECG showed ST elevations in II, III, and aVF, without reciprocal changes in the anterior leads. Chest X-ray was unremarkable. We suspected an ischemic stroke or pulmonary embolism, but he had no neurological deficits. I was about to send him off for a CT angiogram when I remembered a case presentation from cardiology conference about an aortic dissection with atypical presentation. He underwent a transesophageal echocardiogram, which revealed a small intimal tear in the ascending aorta with minimal regurgitation. He was stabilized, but not without a few tense moments when his blood pressure spiked again. Anybody else ever have patients with aortic dissections with atypical presentations? What red flags do you look for? How do you decide when to get a TEE?",
-    "category": "emedicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "MD",
-        "city": "Vancouver, BC",
-        "text": "Haha, love it! Atypical presentations of aortic dissection are the bane of our existence. I've had a few of those too. The key is to stay vigilant and not rule it out too quickly, especially in hypertensive patients. Always look for signs of severe hypertension, such as acute kidney injury, visual disturbances, or even rhabdomyolysis. And don't forget to order that TEE, even if it's just a routine 'just in case' thing.",
-        "color": "blue"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Wow, this is so fascinating. I'm learning so much just reading this thread. Dr. Zalesky, you mentioned acute kidney injury. Does that mean they have a high creatinine? Like, what does that even mean?",
-        "color": "pink"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "I had a patient with an aortic dissection a few months ago, and they presented with severe chest pain and abdominal pain. They also had a history of HTN and smoking. Do you guys think that it's more likely to happen in people who have had previous cardiac surgery?",
-        "color": "yellow"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Maya Gupta",
-        "role": "MD",
-        "city": "Mississauga, ON",
-        "text": "Hey Leo, yes, that's a good point. Previous cardiac surgery is definitely a risk factor for aortic dissection. And don't forget to check for signs of Marfan syndrome, especially if they have a family history. I had a patient with a family history of Marfan, and they ended up developing an aortic aneurysm. Anyway, back to your case. Did you guys do a cardiac MRI to confirm the diagnosis?",
-        "color": "red"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Hey Doc, don't forget to check their sodium levels too. I've seen patients with aortic dissection who ended up with severe hyponatremia. You never know what's lurking beneath the surface. And yeah, let's talk about cardiac MRI. When do you guys order one? Is it always needed?",
-        "color": "green"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Brock Stone",
-        "role": "MD",
-        "city": "Hamilton, ON",
-        "text": "Sodium levels? Really, Tom? I think you're getting a little too excited there. Let's just focus on the essentials, like the ECG, cardiac enzymes, and the TEE. The sodium levels will take care of themselves. And as for the cardiac MRI, I only order it if I suspect an MI or if the echocardiogram is inconclusive.",
-        "color": "orange"
-      },
-      {
-        "id": 7,
-        "parent_id": null,
-        "user": "Dr. Sarah Sharp",
-        "role": "MD",
-        "city": "Laval, QC",
-        "text": "Love this discussion! I had a patient with an aortic dissection who presented with a 'tearing' sensation in their chest. They also had severe hypertension. I did an urgent TEE and found an intimal tear in the ascending aorta. We stabilized them, but I've been wondering ever since...do you guys think it's worth doing a CT aortogram in addition to the TEE? What are the benefits?",
-        "color": "purple"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Elena Varkov",
-        "role": "MD",
-        "city": "Quebec City, QC",
-        "text": "Great question, Dr. Sharp! The CT aortogram can give you a better understanding of the extent of the dissection, which can help with planning the treatment. But, on the other hand, the TEE is so much quicker and more precise. I'm not sure which one I would choose in a situation like that. Has anyone else had experience with both?",
-        "color": "brown"
-      },
-      {
-        "id": 9,
-        "parent_id": 7,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "MD",
-        "city": "Windsor, ON",
-        "text": "Are you kidding me? Do a CT aortogram? That's just more unnecessary radiation for our patients. Stick with the TEE. It's faster, it's cheaper, and it's more accurate. Next thing you know, you'll be wanting to do a CT scan for every little thing that comes through the door.",
-        "color": "red"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Rant about supine hypotension syndrome in pregnancy",
-    "body": "Just saw a patient with a classic case of supine hypotension syndrome in pregnancy. A 35-year-old G2P1 at 28 weeks with a history of hypertension was brought in with severe abdominal pain and hypotension. As we started to work up she, the patient, became even more hypotensive and eventually went into shock.",
-    "category": "emergency medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "One of the most underrecognized and underdiagnosed conditions in pregnancy. Supine hypotension syndrome is a classic example of this. The enlarging uterus elevates the diaphragm and compresses the inferior vena cava, leading to a decrease in cardiac output and, eventually, shock. This patient likely required immediate decompression and positioning to improve venous return and cardiac output.",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs. Can't even manage to keep their patients upright in bed. This is not rocket science, folks. Position the patient left side up, stat. I swear, some of you are more worried about your egos than the well-being of your patients.",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "I've heard of supine hypotension syndrome in animal experiments, but not in human cases. Can someone clarify why it's more likely to occur in pregnant patients and how it relates to the anatomy of the uterus and inferior vena cava?",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "As a matter of fact, the enlarging uterus compresses the inferior vena cava, leading to a decrease in venous return and cardiac output. This is exacerbated by the supine position, which further compresses the vena cava. It's a classic case of decreased preload leading to decreased cardiac output. Any references for further reading, OP?",
-        "color": "red"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Check out this paper from the Journal of Maternal-Fetal Medicine: \"Supine Hypotension Syndrome in Pregnancy: A Review of the Literature\" [link to paper]. It's a great summary of the pathophysiology and clinical implications.",
-        "color": "orange"
-      },
-      {
-        "id": 6,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I completely agree with Dr. Thorne. This is a classic teaching moment. Supine hypotension syndrome is a critical consideration in pregnancy, and we need to stay vigilant. Has anyone else had a similar experience or have any tips for managing these patients?",
-        "color": "pink"
-      }
-    ]
-  },
-  {
-    "id": 7,
-    "title": "Traumatic Blunt Aortic Injury - When is CT necessary?",
-    "body": "Just saw a patient with suspected blunt aortic injury and I'm still kicking myself for missing it. The patient was a 35yo male who was a restrained driver involved in a high-speed collision. The initial ECG was normal and the patient had no underlying cardiac disease. However, upon further questioning, I found out that the patient had a history of hypertension and was taking medications for it. The mechanism of injury was concerning for aortic injury but the patient seemed fine. Do we really need to get a CT scan in this case? Should we have been more aggressive? Any thoughts, ER warriors?",
-    "category": "emergency-medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta, EP",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "TL;DR: I've seen similar cases where the initial presentation was normal but the patient ended up having a major aortic injury. The issue is that half of patients with blunt aortic injuries do not have external physical findings, so we need to be vigilant and use our clinical judgment to determine when to get a CT scan. In this case, since the patient had a history of hypertension and a high-speed collision, I would have gotten a CT scan regardless of the initial ECG being normal. We can't rely solely on the ECG for diagnosis. The American College of Surgeons (ACS) recommends high clinical suspicion for aortic injury in patients with mechanism of injury that suggests this and I think we should have gotten a CT scan in this case.",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Kevin Park, PGY1",
-        "role": "EP",
-        "city": "Edmonton, AB",
-        "text": "Thank you, Dr. Gupta, for the clarification! I had a question about the mechanism of injury. What specifically makes a high-speed collision concerning for aortic injury? Is it just the speed or other factors like G-force?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Leo Chen, MS1",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "I've been learning about aortic injuries and I was wondering if someone could explain more about the imaging recommendations. The article I read said that a normal chest radiograph does not exclude major vascular injury. Does that mean we always need to get a CT scan even if the chest X-ray looks fine?",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Dr. Elena Varkov, FRCPC",
-        "role": "Exhausted internist",
-        "city": "Quebec City, QC",
-        "text": "Dr. Chen, you're on the right track. A normal chest X-ray does not rule out aortic injury, but it can help narrow down our differential diagnoses. In this case, since the patient had a high-speed collision, I would have gotten a CT scan regardless of the chest X-ray being normal. We can't rely solely on imaging to diagnose aortic injury, but it's a big part of the puzzle.",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": 2,
-        "user": "Dr. Maya Gupta, EP",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Dr. Park, I think what makes a high-speed collision concerning for aortic injury is the sheer force of the deceleration. High-speed collisions can generate a lot of G-force, which can cause the aorta to stretch and potentially tear. So it's not just the speed, but the force of the deceleration that makes it concerning. I hope that makes sense!",
-        "color": "green"
-      },
-      {
-        "id": 6,
-        "parent_id": 3,
-        "user": "Sarah Jenkins, MS3",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "I've been reading about the American College of Surgeons (ACS) recommendations for blunt aortic injury. Can someone clarify what they recommend exactly? Should we be getting CT scans in everyone who had a high-speed collision?",
-        "color": "green"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Maya Gupta, EP",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Dr. Jenkins, the ACS recommends that we should highly suspect aortic injury in patients with a high-speed collision and a normal or slightly abnormal ECG. However, we should not rely solely on the ECG for diagnosis. We need to use our clinical judgment and consider other factors like mechanism of injury, history of hypertension, and the patient's overall condition. So, it's not a one-size-fits-all approach, but rather a case-by-case consideration.",
-        "color": "green"
-      },
-      {
-        "id": 8,
-        "parent_id": 3,
-        "user": "Turbo Tom, RN",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "TL;DR: Can someone clarify the role of the Focused Assessment with Sonography for Trauma (FAST)? Does it play a role in diagnosing aortic injury?",
-        "color": "purple"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Barb Miller, EP",
-        "role": "Jaded community physician",
-        "city": "Winnipeg, MB",
-        "text": "FAST is more useful for detecting free intraperitoneal fluid, which can be a sign of abdominal injury. While it can indicate internal bleeding, it won't specifically diagnose aortic injury. CT scan is still the gold standard for aortic injury.",
-        "color": "green"
-      }
-    ]
-  },
-  {
-    "id": 123,
-    "title": "Chest Pain: Differentiating ACS from Other Causes - A Clinical Anecdote",
-    "category": "Today I Learned",
-    "body": "Just saw a patient with classic ACS symptoms - retrosternal chest pain that radiates to the left shoulder and arm, accompanied by dyspnea and diaphoresis. Classic stuff, right? Turns out, however, that this patient actually had a musculoskeletal cause - the 'precordial catch syndrome'. Has anyone else seen this before, or is it just me? The patient was initially presenting with severe sharp pain, worsened with movement of the chest wall and palpation. The pain was even radiating to the left scapula, which was concerning for ACS at first glance. Thankfully, we were able to get a thorough history and the patient ended up being okay. I was wondering if anyone has any tips on how to distinguish between musculoskeletal and cardiac causes of chest pain. I feel like I'm getting better at this but still have room for improvement. TLDR: beware of precordial catch syndrome, folks!",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Love it. I've had some great cases of precordial catch syndrome, too. One thing to pay attention to is the location of the pain - if it's strictly anterolateral, it's more likely to be musculoskeletal. Also, the pain is usually sharp and worsened with movement, whereas ACS usually presents with a more diffuse, burning sensation. Of course, this isn't foolproof, but it's a good place to start. Oh, and don't forget to ask about recent trauma or strenuous activity!",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Thorne, thank you for the advice! I had no idea about the pain being strictly anterolateral. But shouldn't we also consider other musculoskeletal causes, like costochondritis? I've heard it can present similarly to ACS. Can you comment on that?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs. You're all focusing on the symptoms and not the underlying pathology. I guarantee you that every single case of chest pain you'll see is going to turn out to be cardiac, and you'll all just be wasting your time diagnosing it as something else. Trust me, I've seen thousands of cases and I'm telling you, ACS is the only show in town.",
-        "color": "purple"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Oh boy, here we go again. Dr. Sterling, come on, man. You can't just dismiss all these other musculoskeletal causes. And by the way, just because you've seen lots of cases doesn't mean you're right all the time. I've heard of plenty of instances where ACS was misdiagnosed as something else...",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Haha, love the drama, guys! Seriously though, great discussion and thanks for the tips, Dr. Thorne! I'll keep an eye out for those anterolateral pains and ask about recent trauma. One thing, though - shouldn't we also consider getting an ECG on these patients? That always seems like a good idea to me...",
-        "color": "green"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Barbara Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Absolutely, Turbo. Get that ECG done ASAP. And don't forget to check the troponins, too! Those are the best things we've got for diagnosing ACS quickly. Okay, gotta run, off to the ED! See you all later.",
-        "color": "green"
-      },
-      {
-        "id": 7,
-        "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Dr. Thorne, I was wondering if you could elaborate on the significance of the pain radiating to the scapula? I've heard that's a red flag for ACS, but I'm not entirely sure why. Would love some clarification!",
-        "color": "green"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Great question, Sarah! Yeah, pain radiating to the scapula can be concerning for ACS, especially if it's accompanied by other typical symptoms. It can be due to the fact that the pain pathways from the heart are more complex and can involve the nerves that run through the shoulder. Of course, this isn't foolproof, but it's worth considering in the differential diagnosis. Does that make sense?",
-        "color": "purple"
-      }
-    ]
-  },
-  {
-    "id": 13456,
-    "title": "Just saw a patient with acute respiratory failure who had NO advance directives, and no family members available... how do we navigate situations like this?",
-    "body": "As emergency physicians, we often see patients who arrive with no advance directives and no family members available to make decisions on their behalf. The scenario I saw last night was particularly challenging. The 85-year-old patient had been found down by paramedics and had a GCS of 8. Upon arrival, she was found to have diffuse wheezing and a PaO2 of 60. Despite optimal treatment with non-invasive ventilation and bronchodilators, she continued to deteriorate. Her family was unreachable by phone, and a search of her home revealed no advance directive or surrogate decision maker. The hospital's social worker was called in to try and contact her next of kin, but multiple attempts were unsuccessful.\n\nThe resident and I were left to make decisions on her behalf, but we were unsure of what course of action to take. Should we prioritize maximizing her quality of life or focus on trying to extend her life at all costs? And who's to say what those priorities are?\n\nCan anyone share any experiences or advice on navigating situations like this?",
-    "category": "Resident's Corner",
-    "comments": [
-      {
-        "id": 13457,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "@OP, I've had similar situations in the past, and we usually rely on the patient's advance directive and surrogate decision maker. If those aren't available, we do a rapid assessment of the patient's medical history, values, and goals of care to inform our decisions. In cases where the patient's loved ones are unavailable, we try to consult with the patient's primary care physician or a palliative care specialist for guidance. It's not ideal, but sometimes you have to make tough decisions quickly.",
-        "color": "purple"
-      },
-      {
-        "id": 13458,
-        "parent_id": null,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "@OP, don't get me started on this. I've had patients who refused life-extending measures, and their families are now trying to sue us for not doing enough. It's a mess. What we need is a national database of living wills and advance directives. Until then, we're just winging it.",
-        "color": "green"
-      },
-      {
-        "id": 13459,
-        "parent_id": 13457,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "@Dr. Gupta, can you clarify how you assess the patient's medical history and values in situations like this? Do you have any resources or tools that you rely on?",
-        "color": "blue"
-      },
-      {
-        "id": 13460,
-        "parent_id": 13457,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "@Dr. Gupta, what if the patient has a Do Not Resuscitate (DNR) order but also wants to pursue life-extending measures? That's where things gets really hairy. Have you had to deal with cases like that?",
-        "color": "orange"
-      },
-      {
-        "id": 13461,
-        "parent_id": 13458,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "@Dr. The Rage, I understand your frustration, but we can't rely on a national database alone to solve this problem. What we need is more education and awareness about advance care planning among the general public.",
-        "color": "purple"
-      },
-      {
-        "id": 13462,
-        "parent_id": 13459,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "@Turbo Tom, we've had cases where patients had DNR orders but also wanted to pursue palliative care. It's a delicate balance between prioritizing quality of life and extending life. What I usually do is consult with the patient's primary care physician and a palliative care specialist to get their input.",
-        "color": "blue"
-      },
-      {
-        "id": 13463,
-        "parent_id": 13460,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "@Turbo Tom, what's the protocol for handling DNR orders and life-extending measures in situations like this? Do you have any resources or guidelines that you recommend?",
-        "color": "green"
-      },
-      {
-        "id": 13464,
-        "parent_id": 13461,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "@Dr. Gupta, education and awareness are great, but what about the patients who just forget or don't have the capacity to make decisions? What about the ones who have conflicting values and goals of care?",
-        "color": "green"
-      },
-      {
-        "id": 13465,
-        "parent_id": 13463,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "@Leo Chen, we usually follow the patient's advance directive and surrogate decision maker's wishes, and if those aren't available, we rely on the patient's medical history and values to guide our decisions.",
-        "color": "blue"
-      }
-    ],
-    "image": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1445378480963532"
+    "image": "https://www.researchgate.net/publication/362405577/figure/fig2/AS:1184429624033280@1659401436738/Febrile-neonatal-fever-care-algorithm-for-Cincinnati-Childrens-Pediatric-Emergency.ppm"
   }
 ]
