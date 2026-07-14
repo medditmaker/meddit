@@ -1,17 +1,17 @@
 [
   {
     "id": 0,
-    "title": "Had a crazy case in the ED last night... ",
-    "body": "I saw a 25-year-old woman present with abdominal pain, vaginal bleeding, and uterine contractions after a motor vehicle collision. Fetal-maternal hemorrhage occurred in over 30% of cases, which can result in rhesus (Rh) isoimmunization in Rh-negative women. She had a significant hematoma on her lower back, which made the ultrasound more challenging. The trauma resuscitation sequence remains unchanged, but it was crucial to assess her placental location and vaginal bleeding before considering any interventions. Anyone else had a similar case recently?",
-    "category": "emergency medicine",
+    "title": "Just saw a patient with a massive PEEP (Positive End-Expiratory Pressure) spike after intubation who developed a high frequency oscillatory (HFO) pattern on their waveform - help me figure out what I did wrong?!",
+    "body": "Just saw a patient come in with what I thought was a straightforward intubation - low tidal volume ventilation, PEEP set at 10, respiratory rate at 20. But after a few minutes, I noticed the patient's waveform looked like a sine wave, with peaks and troughs that seemed to be oscillating rapidly. Turns out they were in a high frequency oscillatory (HFO) pattern, and their PEEP had spiked to 30! Anyone see this before? Did I somehow mismanage their airway?",
+    "category": "Emergency Medicine",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Great reminder of the risks of fetal-maternal hemorrhage in trauma patients. I had a similar case a few years ago where we needed to perform an emergency cesarean section due to maternal instability. Did anyone notice the mention of scrotal lacerations and avulsions in the textbook? Those are less common but important to recognize in trauma patients.\n\n[https://jamanetwork.com/journals/jama/...](https://jamanetwork.com/journals/jama/fullarticle/2669048)",
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I've seen that before! It's usually a sign of auto PEEP (auto-PEEP) caused by incomplete lung deflation. Try setting your PEEP to 5 and giving them a nice deep breath to see if the waveform returns to normal. Also, make sure you're getting adequate lung recruitment and not causing barotrauma. TLDR: auto-PEEP is like a stealth attack on your patient's airway, and it's up to you to defeat it!",
         "color": "purple"
       },
       {
@@ -20,456 +20,883 @@
         "user": "Leo Chen",
         "role": "MS1",
         "city": "Montreal, QC",
-        "text": "Dr. Thorne, that's a fascinating case! How did you manage the placental abruption in that patient? Did you use any specific pharmacological interventions?",
+        "text": "I've read about auto-PEEP in my respiratory physiology book, but I've never seen it in practice. Can you explain how to check for auto-PEEP and how to diagnose it?",
         "color": "green"
       },
       {
         "id": 3,
         "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "What a nightmare shift! I had to deal with a similar case yesterday where the patient had severe hemodynamic instability. The key takeaways for me were the importance of timely imaging and the need for close monitoring of maternal-fetal status. Can anyone recommend a good resource for managing trauma in pregnancy?",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Thanks, Turbo! I found this article on the management of trauma in pregnancy to be really helpful:\n[https://onlinelibrary.wiley.com/doi/abs/...](https://onlinelibrary.wiley.com/doi/abs/10.1111/1471-0528.14851)\nIt covers the latest guidelines for diagnosis and treatment, as well as some nice discussion of the physiology behind it all.",
-        "color": "blue"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "As someone who's worked in a high-volume trauma center, I can attest to the importance of being prepared for cases like these. It's always a good idea to brush up on the specifics of caring for trauma patients in pregnancy, whether it's through a review article or a practical workshop. Anyone else have experience with fetal-maternal hemorrhage in trauma patients?",
-        "color": "green"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Hi Barb, thanks for bringing this up! In my experience, the key is to maintain a high index of suspicion for fetal-maternal hemorrhage in trauma patients. I've found that being vigilant for signs like uterine tenderness and vaginal bleeding can really make a difference in identifying these cases early. Has anyone else had experience with Rh isoimmunization in trauma patients?",
-        "color": "blue"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Phil Muddle",
-        "role": "EP",
-        "city": "Regina, SK",
-        "text": "Uh, yeah...what was the question again, Barb?",
-        "color": "beige"
-      }
-    ],
-    "image": "https://www.ebmedicine.net/productImages/EX0326_800x200.jpg"
-  },
-  {
-    "id": 1,
-    "title": "Syncope cases - beware the red herring",
-    "body": "Just saw a patient with an otherwise perfect history and workup for a TIA, but the 'syncopal' episode was actually caused by orthostatic hypotension due to a vasovagal response from a severe UTI. Anyone else have this experience or a similar 'epiphany'?",
-    "category": "Medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "MD",
-        "city": "Toronto, ON",
-        "text": "Spot on, my friend! As an attending, I've seen my fair share of unexplained syncopal episodes, but it's amazing how often the cause turns out to be something as simple as a medication side effect or an underlying condition that was overlooked at first.",
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "I agree with Maya, but you should also consider the patient's hemodynamic status. Sometimes, patients with severe hypovolemia or cardiogenic shock can develop high frequency oscillatory patterns due to increased intrathoracic pressure. Don't forget to check their vitals and consider a fluid bolus if necessary! By the way, has anyone seen the latest review on auto-PEEP management from the SCCM? It's a game changer for us ER docs!",
         "color": "purple"
       },
       {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MD",
-        "city": "Ottawa, ON",
-        "text": "Actually, wasn't your patient's vasovagal response due to the fact that the UTI was causing a systemic inflammatory response syndrome (SIRS), which can lead to vasodilation and subsequent orthostatic hypotension?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Dr. Maya Gupta",
-        "role": "MD",
-        "city": "Mississauga, ON",
-        "text": "That's a great point, Sarah! Vasovagal responses can indeed be triggered by a SIRS, especially in elderly patients. Did you consider checking for other signs of urinary tract infection, such as pyuria and bacteriuria?",
-        "color": "orange"
-      },
-      {
         "id": 4,
-        "parent_id": 3,
-        "user": "Leo Chen",
-        "role": "MD",
-        "city": "Montreal, QC",
-        "text": "Can someone please clarify what you mean by 'vasovagal response'? Is it just another term for syncope, or is it something more specific?",
-        "color": "blue"
+        "parent_id": 1,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Gotta agree with Maya, too! But I've noticed that patients with HFO patterns often require a lot of sedation to get them to relax. Have you guys seen any success with using dexmedetomidine for sedation in these patients?",
+        "color": "purple"
       },
       {
         "id": 5,
         "parent_id": 4,
-        "user": "Dr. Barb Miller",
-        "role": "MD",
-        "city": "Winnipeg, MB",
-        "text": "Leo, a vasovagal response refers to a reflex-mediated response that can cause hypotension, bradycardia, and syncope. It's often triggered by a sudden drop in blood pressure, such as when you stand up quickly.",
-        "color": "red"
+        "user": "Dr. Phil Muddle",
+        "role": "EP",
+        "city": "Regina, SK",
+        "text": "Actually, I've had some success with using midazolam, but I've also heard it can cause a big swing in blood pressure... has anyone else seen this? And what's the optimal sedation dose for HFO patients?",
+        "color": "green"
       },
       {
         "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Kevin Park",
-        "role": "MD",
-        "city": "Edmonton, AB",
-        "text": "So, essentially, it's an exaggerated vagal response, which is why they call it a 'vaso-vagal' response. Does that sound right?",
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "I've seen this scenario play out before, and I think we're all getting a bit mixed up here. Let's take a step back and ask ourselves: what was the patient's initial presentation, and how did it change after intubation? Was there a significant respiratory rate increase or tidal volume drop that triggered this high frequency oscillatory pattern?",
         "color": "purple"
       },
       {
         "id": 7,
         "parent_id": 6,
-        "user": "Sarah Jenkins",
-        "role": "MD",
-        "city": "Ottawa, ON",
-        "text": "Exactly, Kevin! However, it's worth noting that the terminology can be a bit confusing. Some sources may refer to it as simply a 'vasovagal response', while others use the term 'neurocardiogenic syncope'.",
-        "color": "green"
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Uh, I think I might have seen something like that in a case study on YouTube... what's the difference between HFO and high frequency jet ventilation (HFJV)?",
+        "color": "red"
       },
       {
         "id": 8,
         "parent_id": 7,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "Um, excuse me? I think I may have had a vasovagal response once. I was standing in line at the grocery store, and the next thing I knew, I was on the floor. Did someone mention that a 'syncope' was caused by 'orthostatic hypotension due to a vasovagal response'? Sounds a bit like what happened to me...?",
-        "color": "pink"
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I think HFJV is a type of ventilation where the provider delivers a small, high-frequency breath to help facilitate intubation. Is that right? And how does it relate to HFO?",
+        "color": "green"
       },
       {
         "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Aris Thorne",
-        "role": "MD",
-        "city": "Toronto, ON",
-        "text": "Ah, Barnaby, I think what happened to you was probably a case of vasovagal syncope! But let's not get too off track - we started this thread to discuss the importance of considering vasovagal responses in patients with unexplained syncope.",
+        "parent_id": 1,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "I'm just gonna throw this out there: have any of you guys ever tried using inhaled anesthetics like sevoflurane or desflurane for their anxiolytic and analgesic effects on patients with airway distress? Just saying, they can be pretty sweet for controlling those pesky respiratory rates!",
         "color": "purple"
       },
       {
         "id": 10,
         "parent_id": 9,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Oh dearie, I think I saw a case like that last week! A patient had a syncopal episode, but it turned out she was having a vasovagal response due to dehydration. We got her rehydrated, and she was feeling much better afterwards. I always say, 'Don't forget the power of fluids, me hearties!' :)",
-        "color": "yellow"
-      },
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Actually, Ziggy, I've read that inhaled anesthetics can be a useful adjunct for managing agitation in patients with chronic obstructive pulmonary disease (COPD). However, we should be cautious not to overdo it, as they can cause respiratory depression. Any thoughts, folks?",
+        "color": "green"
+      }
+    ],
+    "image": "https://www.miemss.org/home/portals/0/Images/Sliders/Protocol-Slider-16x9-2026.jpg"
+  },
+  {
+    "id": 1,
+    "title": "Real-life tension pneumothorax - When bedside ultrasound and clinical exam matter most",
+    "body": "Just had a patient code in ER with a classic tension pneumothorax presentation. I was about to order the CT to confirm, but our new EP (Dr. Sarah Sharp) suggested we use point-of-care ultrasound to quickly evaluate the patient. Sure enough, the sliding lung sign was absent, and comet-tails were present. We immediately performed needle decompression and tube thoracostomy. I was impressed by her clinical acumen and reminded of the power of bedside ultrasound in acute care.",
+    "category": "resus",
+    "comments": [
       {
-        "id": 11,
+        "id": 1,
         "parent_id": null,
-        "user": "Dr. Henry Oldman",
-        "role": "MD",
-        "city": "Victoria, BC",
-        "text": "I've seen this phenomenon in my practice, as well. It's a classic case of 'red herring' - where the initial presentation leads you down a rabbit hole, only to find that the real issue was something totally unexpected. Thanks for sharing, everyone!",
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "I completely agree with you, OP. Bedside ultrasound is often underutilized in acute care. Not only does it save valuable time, but it also helps us make more accurate diagnoses.",
         "color": "purple"
       },
       {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Dr. Elena Varkov",
-        "role": "MD",
-        "city": "Quebec City, QC",
-        "text": "Absolutely, Henry! And I think that's why it's so essential to remain vigilant and think outside the box. After all, as the saying goes, 'a good doctor is like a good detective' - you've got to consider all possibilities and piece together the puzzle.",
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs relying on ultrasound instead of plain X-rays will get you killed. CT scans are still the gold standard for pneumothorax diagnosis.",
+        "color": "blue"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Actually, the guidelines recommend bedside ultrasound for diagnosing pneumothorax, especially in emergency situations. It's more accurate than physical examination and saves us precious time.",
         "color": "red"
       },
       {
-        "id": 13,
-        "parent_id": 12,
-        "user": "Dr. Kevin Park",
-        "role": "MD",
-        "city": "Edmonton, AB",
-        "text": "I couldn't agree more, Elena! It's so easy to get caught up in the initial presentation, but then you've got to take a step back and say, 'What other possibilities could be at play here?'",
-        "color": "blue"
-      }
-    ]
-  },
-  {
-    "id": "fractures-dislocations",
-    "title": "Just encountered a nasty-looking femoral fracture in the ED, but the patient refused ORIF... ",
-    "body": "Just saw a patient with a displaced femoral fracture from a motorcycle accident. We got a stat CT and found the fracture is unstable and will likely require surgical intervention. However, the patient is being stubborn and refuses to go to OR with us. Anyone else have a similar experience with patients who refuse orthopedic consults or ORIF? \nI know, it's our job to get them to the OR, but sometimes I get frustrated when patients think they can 'tough it out' with just pain meds and ice. Have we tried using a geriatric-style consult with the patient and family? Or does anyone have any evidence-based recommendations on how to manage this situation?",
-    "category": "Emergency Medicine",
-    "comments": [
-      {
-        "id": "1",
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "As a PGY2, I've had my fair share of dealing with these types of patients. I think it helps to have a strong relationship with their primary care physician and to involve them in the conversation about why ORIF is necessary. You could also try using a shared decision-making approach to involve the patient and their family in the decision-making process. \nI've also found it helpful to explain the risks of non-operative management and the benefits of ORIF, using visual aids like X-rays and diagrams to help illustrate the points I'm making. Have you tried using any of these approaches with this patient?",
-        "color": "blue"
-      },
-      {
-        "id": "2",
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "TLDR: Shared decision-making and involving the primary care physician can be a great way to manage these patients. Thanks for the tip, @Dr. Maya Gupta! One question though, how do you approach the conversation with the patient and their family? Do you use any specific scripts or phrases to help facilitate the discussion?",
+        "id": 4,
+        "parent_id": 3,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Dr. Sharp, can you clarify the 'sliding lung sign' and how to recognize it on ultrasound?",
         "color": "green"
       },
       {
-        "id": "3",
+        "id": 5,
+        "parent_id": 3,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Dr. Sharp, you mentioned bedside ultrasound, but didn't discuss the role of lung point determination. Can you provide more information on that?",
+        "color": "purple"
+      },
+      {
+        "id": 6,
         "parent_id": 1,
         "user": "Dr. Kevin Park",
         "role": "PGY1",
         "city": "Edmonton, AB",
-        "text": "I've had a similar experience with a patient who refused ORIF for a femoral fracture. I think it's essential to involve the patient's primary care physician and to explain the risks of non-operative management, as @Dr. Maya Gupta suggested. Can anyone recommend any resources or guidelines that outline the indications for ORIF vs non-operative management? I'd appreciate any help with navigating this complex decision-making process.",
-        "color": "purple"
-      },
-      {
-        "id": "4",
-        "parent_id": 3,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Check out the latest issue of the Journal of Orthopaedic Trauma; there's a great article on the use of evidence-based guidelines for determining the need for ORIF in femoral fractures. It outlines the key risk factors for non-unions and the benefits of surgical intervention. You can find it online, and it's a great resource for helping navigate these complex decisions.",
-        "color": "teal"
-      },
-      {
-        "id": "5",
-        "parent_id": 1,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "Just wanted to chime in and say that as a patient, I totally get why someone would refuse ORIF and want to try non-operative management first. As a patient, I'd want to avoid any unnecessary surgery and try to manage my symptoms through other means. Has anyone considered using alternative pain management strategies or other conservative treatments before resorting to ORIF?",
-        "color": "orange"
-      },
-      {
-        "id": "6",
-        "parent_id": 5,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "Come on, @Barnaby Finch! You're not going to win any awards for 'Patient of the Year' by refusing ORIF for a displaced femoral fracture. Sometimes, surgery is necessary to get the job done and prevent complications down the line. I get that you'd want to avoid unnecessary surgery, but refusing ORIF is just asking for trouble.",
-        "color": "red"
-      },
-      {
-        "id": "7",
-        "parent_id": 6,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "I think we can all agree that surgery can be traumatic for patients, but sometimes it's necessary to get the best outcomes. @Dr. Rick 'The Rage', it's great to see you're passionate, but let's not forget to put on our empathetic hats and try to understand the patient's perspective. After all, we're here to care for our patients, not to bully them into surgery.",
-        "color": "pink"
-      },
-      {
-        "id": "8",
-        "parent_id": 1,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "As a wise old doc, I've seen my fair share of patients refuse surgery. I think it's essential to listen to their concerns and address them with empathy and understanding. One thing I've found helpful is to explain the benefits of ORIF in simple terms, focusing on the patient's specific needs and circumstances. Does anyone have any other ideas for how to communicate these benefits effectively?",
-        "color": "brown"
-      },
-      {
-        "id": "9",
-        "parent_id": 8,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "As an expert in patient-centered care, I completely agree with @Dr. Archibald Thorne's approach. One technique I find useful is to use narrative medicine \u2013 telling the patient a story about someone who has gone through a similar experience and benefited from ORIF. It helps to break down barriers and build trust with the patient.",
-        "color": "turquoise"
-      },
-      {
-        "id": "10",
-        "parent_id": null,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs like us don't even come close to the complexity of femoral fractures. I mean, let's be real, folks, we're barely qualified to be calling ourselves doctors. In any case, does anyone have any advice on how to manage a patient with a displaced femoral fracture who refuses ORIF? Perhaps someone as brilliant as I am can offer some insight?",
-        "color": "gray"
-      }
-    ]
-  },
-  {
-    "id": 3,
-    "title": "Today I Learned - chest trauma and CT imaging rarely changes management, but I still can't shake the feeling I'm missing something...",
-    "category": "emergency medicine",
-    "body": "Just saw a patient with a suspected chest trauma, but the CT imaging came back normal. I know the textbooks say that CT imaging rarely changes management in chest trauma, but I still can't shake the feeling that I'm missing something. Has anyone else ever had this experience? Was there anything I should have done differently?\n\nIn this case, the patient had a history of a high-energy collision and was complaining of chest pain. I ordered a chest x-ray and CT of the chest, which came back normal. I was about to send the patient home, but then I remembered that pulmonary contusions are the most common thoracic injury in children. And sure enough, the patient was a 12-year-old boy who had been in a high-energy collision. He ended up being admitted to the hospital with a pulmonary contusion and requiring oxygen therapy.\n\nTLDR: Chest trauma and CT imaging rarely changes management, but don't forget about pulmonary contusions in kids! Has anyone else ever had this experience?",
-    "comments": [
-      {
-        "id": 5,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Great job, OP! I completely agree. Don't underestimate the importance of a thorough history and physical exam in chest trauma. And pulmoary contusions can be sneaky, so it's great that you remembered that.",
+        "text": "Thank you, OP, for sharing this case. It's reassuring to know that we have such skilled ER physicians like Dr. Sharp who can make a significant difference in patient outcomes.",
         "color": "blue"
       },
       {
         "id": 7,
-        "parent_id": 5,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Thanks for the tip, Dr. Thorne! Can you clarify what you mean by 'thorough history and physical exam'? I'm a first-year med student and I'm still learning.",
-        "color": "green"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Actually, Dr. Thorne, I think you'll find that the literature on CT imaging in chest trauma is actually quite clear - it's generally recommended in cases of high-energy collisions or in patients with significant chest pain.",
+        "parent_id": 2,
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "Dr. Sterling, while I understand your point about CT scans, I agree with Dr. Thorne that bedside ultrasound has its place in acute care. We should use it in conjunction with other diagnostic tools, not as a replacement.",
         "color": "purple"
       },
       {
         "id": 8,
-        "parent_id": 6,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I agree with Sarah, but as a resident, I've seen cases where the CT imaging didn't catch a pulmonary contusion. Can we talk about the limitations of CT imaging in chest trauma?",
-        "color": "blue"
+        "parent_id": 3,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "I'd like to add that bedside ultrasound can also help us differentiate between pneumothorax and other conditions, like pleural effusion. The 'lung point' is a critical feature to recognize.",
+        "color": "green"
+      },
+      {
+        "id": 9,
+        "parent_id": 2,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "You know what's even better than bedside ultrasound? Not missing the diagnosis because we relied too heavily on CT scans in the first place.",
+        "color": "red"
       },
       {
         "id": 10,
-        "parent_id": 8,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs who order CT scans in every chest trauma patient are more likely to miss real injuries. We need to stop over-diagnosing and focus on the physical exam. Trust me, it's better to err on the side of caution and admit patients for observation.",
+        "parent_id": 5,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Dr. Sharp, can you elaborate on how to perform lung point determination on ultrasound? Is there a specific technique or protocol we should follow?",
+        "color": "purple"
+      },
+      {
+        "id": 11,
+        "parent_id": 3,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Actually, there are clear guidelines for performing lung point determination. I'd be happy to walk anyone through the steps.",
         "color": "red"
       },
       {
         "id": 12,
-        "parent_id": null,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Can we take a step back and discuss the role of the nurse in chest trauma cases? I've seen some pretty egregious mistakes by docs, but I've also learned a thing or two about what we nurses can do to help.",
+        "parent_id": 3,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "I must say, I'm impressed by your young colleagues' knowledge of bedside ultrasound. In my day, we just relied on good old-fashioned physical examination.",
+        "color": "blue"
+      },
+      {
+        "id": 13,
+        "parent_id": 3,
+        "user": "Sparks-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Hooray for Dr. Sharp and her amazing bedside ultrasound skills! Can we get her to teach us a workshop or something?",
         "color": "green"
       },
       {
         "id": 14,
-        "parent_id": 12,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "Preach, Turbo! We nurses are the ones who catch the mistakes and keep these docs in line. Anyone else with me on this?",
+        "parent_id": 3,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Wow, I'm so jealous of all the cool ultrasound stuff you guys are doing. Can I join in on the next workshop?",
         "color": "purple"
-      },
-      {
-        "id": 17,
-        "parent_id": null,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Okay, let's get back on track. OP, thanks for the case study. What was the final diagnosis and treatment for this patient?",
-        "color": "blue"
-      },
-      {
-        "id": 19,
-        "parent_id": 17,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Great question, Dr. Park! Unfortunately, I don't have the final diagnosis and treatment from this case, but I'll make sure to follow up and post an update.",
-        "color": "green"
       }
-    ],
-    "image": "https://www.ebmedicine.net/media_library/images/Extra-Articles/23-11-November/Clinical-Pathway-for-the-Management-of-Suspected-Blunt-Thoracic-Trauma-in-Pediatric-Patients-1.png"
+    ]
   },
   {
     "id": 1,
-    "title": "Today I learned that you can close scalp lacerations regardless of time since injury or if caused by a bite... but there's a catch!",
-    "body": "Just saw a patient with a scalp laceration 24 hours post-injury due to a dog bite. The wound edges looked clean, and hemostasis was achieved with direct pressure. I was tempted to pack it and close it later, but Dr. Sharp, a fellow EP, walked in and started lecturing me about how I should have closed it ASAP. Turns out, even if the injury is secondary to a bite and has been exposed to the environment for hours, you can still close the wound with staples or sutures without significant complications... as long as you debride dead tissue and achieve thorough irrigation. Anyone have any personal anecdotes or experiences with this type of case?",
-    "category": "emergency-medicine",
+    "title": "Just saw a patient with suspected viral pharyngitis, but I'm wondering...",
+    "body": "TLDR; had a tough day with a patient who presented with a sore throat, fever, and some petechiae on the palate. Clinically sounded viral, but her throat culture returned GABHS positive. I'm trying to figure out if I missed anything or if this is a common phenomenon. Has anyone else dealt with this? Any insight would be appreciated.",
+    "category": "Rant and discuss",
     "comments": [
       {
-        "id": 2,
+        "id": 1,
         "parent_id": null,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Haha, nice story, OP! Just remember, it's all about the devitalized tissue. If it's been exposed for too long, you're taking a big risk of infection. What was the wound depth like? Was it superficial or a deeper gash?",
-        "color": "pink"
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "I've experienced similar cases where the clinical presentation suggested viral pharyngitis, but the throat culture came back positive for GABHS. What's key here is that the Centor criteria should be considered. If the patient has 4 of the 5 criteria (sore throat, fever, absence of cough, swollen lymph nodes, and exudates on the tonsils), they may warrant immediate antibiotic treatment. Keep in mind that there can be a false-negative rate with throat cultures, especially if performed on a sample taken too early in the course of illness. [1]",
+        "color": "blue"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "I see what you're saying, @Dr. Aris Thorne but I've noticed in some cases that viral pharyngitis can sometimes cause false-positive results on rapid antigen tests (RATs). We also have to consider that GABHS can sometimes have a variable presentation and not always conform to the Centor criteria.",
+        "color": "blue"
       },
       {
         "id": 3,
-        "parent_id": 2,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Actually, I recall reading that even in cases where there's been significant exposure, primary closure can still be done safely if the wound is thoroughly cleaned and debrided. Can anyone clarify the optimal amount of time for primary closure in a scalp laceration exposed to the environment? Is there a cutoff point beyond which secondary closure is always recommended?",
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Uh, can we discuss the Centor criteria a bit more? I've seen it in textbooks but not fully grasped how to apply it in real-life scenarios. Can someone break it down for me?",
         "color": "blue"
       },
       {
         "id": 4,
         "parent_id": 3,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I've seen cases where primary closure was done successfully even 48 hours post-injury. However, I think it's also important to consider the presence of any foreign material, animal bites, or tetanus prophylaxis in the patient's history. Has anyone encountered cases where the wound was colonized with bacteria, and primary closure still worked out okay?",
-        "color": "orange"
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Hi @Leo Chen! According to the Centor criteria, you should consider a diagnosis of GABHS pharyngitis if the patient has any 4 of the following 5 characteristics: 1) tonsillar exudate, 2) throat pain, 3) fever \u2265 38.3 C, 4) swollen lymph nodes on the anterior neck, and 5) absence of cough. A key thing to remember is that these criteria are meant to guide diagnosis, not replace clinical judgment. You should always consider other differential diagnoses and perform a thorough physical examination.",
+        "color": "blue"
       },
       {
         "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Zachary Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Foreign material is a great point. When there's a bite wound, I always make sure to get a culture of the wound edge to check for any contaminants. And, of course, tetanus toxoid is a no-brainer. But what about the role of antimicrobial prophylaxis in preventing wound infection in scalp lacerations? Is there evidence to support its use?",
-        "color": "yellow"
+        "parent_id": 2,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I agree with @Dr. Ziggy Zalesky, but I've also seen false-negatives on RATs when they're performed too early in the course of illness. What's everyone's take on when to repeat the test or order a throat culture?",
+        "color": "blue"
       },
       {
         "id": 6,
         "parent_id": 5,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "I usually consider repeating the RAT in 24-48 hours to see if the results are repeatable. However, in cases where there's high clinical suspicion and a negative rat, I'll often consider ordering a throat culture. It's also worth noting that some studies have suggested that a positive rapid antigen test can be more effective at ruling in a diagnosis of GABHS pharyngitis than a negative one at ruling it out.",
+        "color": "blue"
+      },
+      {
+        "id": 7,
+        "parent_id": 4,
         "user": "Barnaby Finch",
         "role": "Patient",
         "city": "Surrey, BC",
-        "text": "As a patient who's had my fair share of scalp lacerations, I can attest that it's not just about the closure. What about pain management? I remember Dr. Sharp saying that the optimal pain management strategy for scalp lacerations includes the use of... *ahem*... (looking for a friendly physician to enlighten you)",
-        "color": "teal"
+        "text": "Umm, I think I had something similar, but my doc said 'you'll be fine, it's not strep'... Is that a thing? Can someone explain what I might have had?",
+        "color": "orange"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Don't worry, @Barnaby Finch! There are many causes of sore throat not related to GABHS. In this case, I'd imagine your doc was thinking of viral pharyngitis or even just a bit of tonsillitis from an unknown cause. It's always worth considering other possible explanations and doing a thorough history and physical.",
+        "color": "blue"
+      },
+      {
+        "id": 9,
+        "parent_id": 6,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Hey, @Dr. Henry Oldman I love your thinking on repeating RATs! Can you tell me how often you'd say to do that in cases like this?",
+        "color": "magenta"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "I tend to agree with @Turbo Tom that repeating RATs is useful, especially in high-risk cases like children under 5 or with previous GABHS infections. A study I read suggested repeating RATs at 24-48 hours if the initial result is negative and clinical suspicion remains high.",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "title": "Rant about malignant heat illnesses: lessons from a chaotic night shift",
+    "body": "Had a miss last night with a young patient who almost died from exertional heat stroke. Reminded me of how easily heat illnesses can spiral out of control. Anybody else have a similar story to share? What are your tips for staying on top of heat illnesses in the ED?",
+    "category": "emergency_medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Malignant heat illness is a classic pitfall for even experienced EM docs. Key takeaways from my experience: always consider it in patients presenting with seizures, altered mental status, or sudden cardiac arrest. Aggressive cooling with ICE and IV fluids is crucial. One other trick: look for rhabdomyolysis as an early indicator of heat stroke. Can be tough to spot, but it\u2019s a game-changer if you can diagnose it early.",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs think heat illnesses are all about core temp. Newsflash: it's the end-organ injury that kills, not just the fever. Anyone who's worked in a war zone or done critical care knows this. Don't get me wrong, cooling is important, but if you're not addressing the underlying organ damage, you're just delaying the inevitable. By the way, @Aris, what's your take on the role of coagulopathy in MHI? Does anyone else have experience with this?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Dr. Sterling, you mentioned war zones and critical care. Can you explain more about how MHI is managed in those settings? Specifically, are there any treatments or protocols that are unique to those environments?",
+        "color": "orange"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "Aris, I couldn't help but notice your mention of rhabdomyolysis as an early indicator of heat stroke. How do you differentiate between these two conditions in the ED? What are your go-to labs and tests for making this diagnosis?",
+        "color": "blue"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Dr. Oldman, that's a great question. Aren't you usually looking for a combination of muscle necrosis on ultrasound, elevated CPK levels, and other markers of organ damage to diagnose rhabdomyolysis? And doesn't the heat stroke itself usually present with hyperthermia, confusion, and other neurological symptoms?",
+        "color": "red"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Kevin, you're spot on. Muscle necrosis on ultrasound, elevated CPK levels, and other signs of organ damage are all critical components of the diagnostic workup for rhabdomyolysis. And heat stroke, as you mentioned, usually presents with those more classic neurological symptoms and hyperthermia.",
+        "color": "purple"
+      },
+      {
+        "id": 7,
+        "parent_id": 2,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Dr. Sterling, this is a great point about considering end-organ injury in MHI. Can you speak more to the role of coagulopathy in this condition? I've heard that DIC can be a complication of heat stroke, but I'm not entirely clear on the mechanisms behind this.",
+        "color": "green"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Sarah, that's a great question. From what I've read, thermal injury to the endothelium can lead to activation of the coagulation cascade and DIC. It's a complex process, but it's thought that the extreme temperatures and subsequent cellular necrosis disrupt the normal balance of coagulation factors and lead to a pro-coagulant state.",
+        "color": "red"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "Well said, Kevin. But what about the role of cooling in preventing this coagulopathy? I've heard that aggressive hypothermia can help prevent thrombotic complications in heat stroke patients.",
+        "color": "blue"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "That's a great point, Henry. Aggressive hypothermia has been shown to reduce the risk of coagulopathy in heat stroke patients, likely by reducing the metabolic rate and subsequent cellular necrosis.",
+        "color": "purple"
+      }
+    ],
+    "image": "https://www.weather.gov/images/wrn/Infographics/2022/heat-symptoms-2022-final.png"
+  },
+  {
+    "id": 1,
+    "title": "Today I Learned: Don't Forget to Suspect H. pylori in Every Peptic Ulcer Case!",
+    "body": "Just saw a patient with a classic PUD presentation - epigastric pain that improves with food, and a 3-day history of worsening symptoms... turns out, it was a case of H. pylori-induced PUD! I've been guilty of underestimating the role of H. pylori in PUD before, but this case was a great reminder to think beyond NSAIDs and stress as the primary culprits. What are your favorite H. pylori-related pearls? Anyone have some great resources for staying up-to-date on testing and treatment regimens?",
+    "category": "emergency_medicine",
+    "comments": [
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Great post, OP! Don't forget to also consider the impact of recent antibiotic use on H. pylori testing - if your patient's been on antibiotics recently, it can lead to false-negative results on UBTs. Check out the latest guidelines from the AGA on testing and treatment for H. pylori. I also love the 'PUD triad' - epigastric pain, weight loss, and nocturnal symptoms are all pretty typical of H. pylori-induced PUD. Anyone else have a favorite H. pylori pearl to share?",
+        "color": "purple"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Dr. Rick 'The Rage'",
+        "role": "EP",
+        "city": "Windsor, ON",
+        "text": "Ugh, don't even get me started on H. pylori testing - it's like, hello, stool tests are still the gold standard, but do I gotta be a hero and get a biopsy for every patient?! Not to mention the whole 14C-urea breath test debacle - what a pain! Can we just get a simple, reliable test already?! Meanwhile, what's the best way to treat these pesky ulcers? Anyone got some magic antibiotics to share?",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "OP, what did you order for this patient's workup? Did you consider a CT of the abdomen to rule out other causes of epigastric pain? I've been reading about the new guidelines on H. pylori testing, and it seems like the UBT is still a great option, but only if the patient's not recently been on antibiotics. Can someone clarify the differences between the UBT and the stool test for H. pylori?",
+        "color": "blue"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Leo, great question! So, the UBT measures the release of CO2 from the urea breath test after ingestion of urea labeled with 14C or 13C, while the stool test detects H. pylori antigens. Both tests have their own advantages and disadvantages - the UBT has a slightly higher sensitivity, but the stool test is more convenient and less radioactive. I think we should also consider the patient's symptoms, age, and risk factors for H. pylori infection when choosing which test to order.",
+        "color": "red"
+      },
+      {
+        "id": 6,
+        "parent_id": 1,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "I've been treating a lot of PUD cases with proton pump inhibitors, but I'm starting to think we need to consider the long-term effects of these meds. Has anyone looked into the relationship between PPIs and clostridioides difficile infection? I'd love to hear about any studies or experiences with the subject.",
+        "color": "purple"
       },
       {
         "id": 7,
         "parent_id": 6,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Barb, what a ridiculous concern - PPIs are a staple of PUD treatment, and you're going to start telling me they're causing C. diff infections? Get real, people. We've got more pressing concerns in the ER than some hypothetical link between PPIs and C. diff. Next thing you know, we'll be banning bread and butter from the cafeteria saying it's going to give everyone ulcers.",
+        "color": "orange"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "Hold up, Vic, let's not be hasty. There is some evidence linking PPI use with an increased risk of C. diff infection. It's not a direct causation, but we should be aware of the potential risk. Now, I'm not saying we should discontinue PPIs cold turkey - we need to consider the benefits versus the risks for each patient.",
+        "color": "pink"
+      }
+    ]
+  },
+  {
+    "id": 1010,
+    "title": "Rant about Hypertensive Emergencies",
+    "body": "Had a miss last night and now I'm wondering if I should have gone for hypertensive emergency with that 75-yr-old lady with a BP of 220/110. She came in with 'sudden onset' chest pain, and the ECG showed LBBB - classic MI. But what really got me was when the cardiologists came down to the ED and said she didn't have a 'true' MI because her troponins were still within 1-2 ng/mL. Meanwhile, her BPs have been in the 200s for days and I know that's not good. Anyways, what are your guys' strategies for managing hypertensive emergencies? Do you get your ED attending's buy-in or do you go with your hospital's protocols?",
+    "category": "emergency-medicine",
+    "comments": [
+      {
+        "id": 2000,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "M.D.",
+        "city": "Toronto, ON",
+        "text": "Hypertensive emergencies are a major concern in ED. I've seen patients present with end-organ damage due to long-standing hypertension. For the lady you mentioned, I would have started her on a nitro infusion alongside an antihypertensive agent like nicardipine or clevidipine. Monitoring her for signs of encephalopathy or other target-organ damage was crucial. The cardiologists may not recognize the severity of the hypertension but as an ED doc, it's our job to assess the patient's overall condition. See JNC7 for guidelines.",
+        "color": "purple"
+      },
+      {
+        "id": 2001,
+        "parent_id": 2000,
+        "user": "Leo Chen",
+        "role": "M.R.",
+        "city": "Montreal, QC",
+        "text": "How do you decide which antihypertensive to choose?",
+        "color": "green"
+      },
+      {
+        "id": 2002,
+        "parent_id": 2001,
+        "user": "Dr. Maya Gupta",
+        "role": "M,D.",
+        "city": "Mississauga, ON",
+        "text": "Great question, Leo! When choosing an antihypertensive, we consider factors like the patient's cardiac status, renal function, and any comorbidities. For example, if the patient has heart failure, we may opt for an ACE inhibitor orARB. In cases of renal insufficiency, a calcium channel blocker like amlodipine is often used.",
+        "color": "green"
+      },
+      {
+        "id": 2003,
+        "parent_id": null,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "What about beta blockers? Can you use them in hypertensive emergencies?",
+        "color": "blue"
+      },
+      {
+        "id": 2004,
+        "parent_id": 2003,
+        "user": "Dr. Elena Varkov",
+        "role": "M.D.",
+        "city": "Quebec City, QC",
+        "text": "Beta blockers are not first-line agents in hypertensive emergencies but can be used cautiously. However, in patients with conditions like heart failure or angina, they can be useful in reducing myocardial oxygen demand. Remember to titrate carefully and monitor for signs of beta-blocker overload.",
+        "color": "green"
+      },
+      {
+        "id": 2005,
+        "parent_id": null,
+        "user": "Dr. Victor Sterling",
+        "role": "M.B.",
+        "city": "Calgary, AB",
+        "text": "Amateurs over-diagnosing this as a hypertensive emergency! Most 'sudden-onset' presentations can be explained by pseudohypertension or orthostatic HTN. You guys need to start doing your jobs right.",
+        "color": "red"
+      },
+      {
+        "id": 2006,
+        "parent_id": 2005,
+        "user": "Dr. Barb Miller",
+        "role": "M.R.",
+        "city": "Winnipeg, MB",
+        "text": "Glad you chimed in, Vic! I've seen many cases where the 'obvious' explanation turned out to be something else. As ED docs, we must always keep an open mind and not jump to conclusions. Hypertension is just one piece of the puzzle.",
+        "color": "green"
+      },
+      {
+        "id": 2007,
+        "parent_id": 2005,
+        "user": "Turbo Tom",
+        "role": "R.N.",
+        "city": "London, ON",
+        "text": "Dude, Vic, chill out. You're just trying to stir up controversy. We know it's a tough call, but sometimes you gotta trust your instincts. Hypertensive emergencies do happen, and we can't just dismiss them because we don't want to 'over-diagnose'.",
+        "color": "orange"
+      },
+      {
+        "id": 2008,
+        "parent_id": 2007,
+        "user": "Martha 'The Hammer'",
+        "role": "R.N.",
+        "city": "Halifax, NS",
+        "text": "Preach, Turbo! As ED nurses, I know we're just trying to provide the best care for our patients. We can agree to disagree on some cases, but at the end of the day, it's about putting patients first.",
+        "color": "green"
+      },
+      {
+        "id": 2009,
+        "parent_id": 2008,
         "user": "Dr. Sarah Sharp",
-        "role": "EP",
+        "role": "M.D.",
         "city": "Laval, QC",
-        "text": "Good catch, Barnaby! Pain management is indeed crucial. I always use a combination of opioid analgesics, lidocaine infiltration, and ice packs to control pain in scalp lacerations. But I think it's also worth considering the role of NSAIDs in this context... does anyone have any experience with NSAIDs for pain control in scalp lacerations?",
+        "text": "Great conversation! Let's keep it professional, though, as we're discussing patient care. TL;DR - hypotensive emergencies are real, and we need to be vigilant when managing these patients.",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Cocaine-induced Wide Complex Tachycardia: A Clinical Pearl",
+    "body": "Just saw a patient with a wide complex tachycardia that had me stumped. The young guy had a history of cocaine use and presented with a heart rate of 160 bpm, hypotension, and chest pain. His ECG showed a bizarre ventricular rhythm that looked a lot like a Brugada pattern. I was thinking about calling for a cardiology consult, but then I remembered that cocaine can induce a Brugada pattern and wide complex tachycardia. I stabilized the patient with beta agonists and magnesium, and he ended up recovering nicely.",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great case! You're absolutely right that cocaine can induce a Brugada pattern and wide complex tachycardia. I've seen it multiple times in the ER. The key is to remember that the Brugada pattern can be transient and may resolve with treatment of the underlying cause (in this case, cocaine toxicity). Always consider the possibility of a reversible causes behind a weird ECG pattern.",
+        "color": "blue"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Thanks for sharing this, Dr. Thorne! I've been studying for my cardiology rotation and this is exactly what I needed to see. Do you have any tips on how to distinguish between a Brugada pattern and other forms of ventricular rhythm? I've been having trouble with that on my practice exams.",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "LMAO at the thought of Dr. Thorne's resident doing well on practice exams! Seriously though, great case and thanks for sharing the pearl. Cocaine-induced Brugada pattern and wide complex tachycardia is something I never would have thought of before this thread. TLDR: always think cocaine in the face of bizarre ECG patterns",
+        "color": "purple"
+      },
+      {
+        "id": 4,
+        "parent_id": null,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "Wait, does this mean my cocaine use is going to come back and haunt me in some weird ECG pattern? Is that what's going on here?",
+        "color": "yellow"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Barnaby, I'm here to help, not to judge. Cocaine use can indeed lead to some weird ECG patterns, but the good news is that they're usually reversible with treatment of the underlying cause. We can work with you to develop a plan to get you on the road to recovery. How's that sound?",
+        "color": "blue"
+      },
+      {
+        "id": 6,
+        "parent_id": 1,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "This is so cool! I've been studying for the MCAT and this is exactly what I need to see. Can someone explain how cocaine causes a Brugada pattern and wide complex tachycardia in more detail? I want to understand the underlying mechanisms.",
+        "color": "green"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Great question, Chad! Cocaine causes a Brugada pattern by blocking sodium channels in the heart, which leads to a prolonged QT interval and an increased risk of ventricular arrhythmias. The resulting wide complex tachycardia is often due to reentrant arrhythmias. Make sense?",
         "color": "purple"
       },
       {
         "id": 8,
         "parent_id": 7,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "I've been reading that ketamine is effective in managing pain in lacerations. Has anyone used it in scalp lacerations? Any recommendations?",
-        "color": "gray"
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Thanks for the explanation, Dr. Gupta! I was struggling to understand the mechanisms behind cocaine-induced Brugada pattern and wide complex tachycardia. This makes a lot more sense now.",
+        "color": "blue"
       },
       {
         "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "Ugh, don't even get me started on ketamine. That stuff's a nightmare to deal with. And what about the patient's mental status? Are they stable enough to receive ketamine? Any thoughts?",
-        "color": "darkred"
+        "parent_id": 1,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Bless your heart, Barnaby! Don't you worry, we're here to help ya. You're in good hands with these docs! Now, let's talk about something else... has anyone else had a weird case like this in the ER recently?",
+        "color": "green"
       },
       {
         "id": 10,
         "parent_id": 9,
-        "user": "Dr. Phil Muddle",
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "Actually, I've got a story for you all... just the other day I had a patient come in with a weird rash and we ended up finding out it was a case of 'cocaine body-stuffing'. I've never seen that before, has anyone else?",
+        "color": "purple"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Dr. 'Ziggy' Zalesky",
         "role": "EP",
-        "city": "Regina, SK",
-        "text": "Actually, Dr. Rage, I think you'll find that ketamine has a relatively low risk of adverse effects, including hallucinations... what's the word I'm thinking of, ah yes, 'psychedelic'. So, if the patient's a good candidate for ketamine, I say go for it. It's not like it's going to make their life any worse, right?",
-        "color": "lightgreen"
+        "city": "Vancouver, BC",
+        "text": "YESSSSSS! That's my favorite kind of case! I've seen a few instances of cocaine body-stuffing in the ER, and it's always a challenge to figure out what the patient has actually taken. Do you have any tips on how to work through the history and physical, Martha?",
+        "color": "blue"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "Great question, Ziggy! I'd say the key is to take a really thorough history and do a physical exam that includes checking for evidence of packing and ingestion. Then, we need to get some labs and imaging to figure out what's going on. It can be a real challenge, but it's always a thrilling puzzle to solve!",
+        "color": "green"
+      },
+      {
+        "id": 13,
+        "parent_id": 12,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Martha, you're absolutely right. Cocaine body-stuffing is a classic case of 'diagnosis by elimination'... we have to rule out all the other possible causes and then come up with the crazy answer. But hey, it's always a good story to tell at the staff meeting",
+        "color": "purple"
+      },
+      {
+        "id": 14,
+        "parent_id": 13,
+        "user": "Dr. Rick 'The Rage'",
+        "role": "EP",
+        "city": "Windsor, ON",
+        "text": "Ugh, you're all talking about cases and anecdotes and I'm over here trying to fix the problems in our ER... get the EMR to work, get the nurses to stop complaining about the scheduling, get the docs to stop prescribing all this stupid crap... I mean, I love this forum but can we talk about real problems for once?",
+        "color": "red"
+      },
+      {
+        "id": 15,
+        "parent_id": 14,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "Sorry, Rick, I know you're frustrated, but let's not forget the importance of sharing our experiences and learning from each other. This forum is a valuable resource for us all.",
+        "color": "blue"
+      },
+      {
+        "id": 16,
+        "parent_id": 14,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Sorry, Rick... but maybe we can talk about real problems in the EMR system? I've been trying to get some help with the interface and I'm getting stuck. Can anyone offer some advice?",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "TL;DR: Can't believe some EM physicians are still not following guidelines for scalp lacerations...",
+    "body": "Just saw a patient with a nasty scalp laceration that required some serious debridement. As I was re-dressing it, I couldn't help but think about all the times I've seen colleagues just slapping some staples on and calling it a day. Does anyone else still have colleagues who don't get it? I mean, come on... scalp lacerations > 24 hours old or visibly infected require debridement, people! And where's the point of origin for these 'expert opinions'? We all should know that scalp lacerations can usually be repaired with primary closure when they aren't visibly infected...",
+    "category": "emergency medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "...I'm guilty of slapping staples on a scalp laceration or two in my residency. Thankfully, our attending at the time taught us better. I guess that's the key takeaway: experience and guidance are what set us apart. I just hope my attending isn't reading this.",
+        "color": "blue"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Hey Dr. Gupta, did you at least use a sterile stapler? Asking for a friend, of course.",
+        "color": "red"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "Good heavens, in my day we didn't even hear of the term 'scalp laceration.' We just called them 'cuts on the head.' We would close them up with some black thread and call it a day...",
+        "color": "brown"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Dr. Thorne, that's hilarious. Do you remember what year you started practicing? I'd love to see some of those old patient charts.",
+        "color": "purple"
+      },
+      {
+        "id": 5,
+        "parent_id": 1,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Umm, excuse me, but isn't the whole point of a 'scalp laceration' just to make us sound super smart? Like, can we just say 'head cut' like in the old days?",
+        "color": "pink"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Chad, you're killing me. Scalp lacerations are just a way of distinguishing between different levels of severity, but I get your point. We should probably start a petition to bring back 'head cut.'",
+        "color": "orange"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Um, can someone explain why scalp lacerations are a big deal? I thought all cuts healed the same way.",
+        "color": "light blue"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Leo, my man, it's all about the scalp's unique anatomy. The GALEN's fascia, the periosteum, and the hair follicles all play a big role in scalp lacerations. You should Google it, it's fascinating.",
+        "color": "teal"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Actually, Leo, the key takeaway is that scalp lacerations can be more serious than other types of cuts because of the risk of complications such as infection, hematoma, and even meningitis... ",
+        "color": "gray"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Great job pointing that out, Sarah. And while I'm here, I'd like to add that scalp lacerations > 24 hours old or visibly infected should always undergo CT scanning to check for any underlying skull fractures.",
+        "color": "navy blue"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "Come on, folks. CT scans are not always necessary for scalp lacerations. We should only order them when there's a high suspicion of a skull fracture. Otherwise, it's just unnecessary radiation.",
+        "color": "purple"
+      },
+      {
+        "id": 12,
+        "parent_id": null,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Actually, Dr. Stone, the American Academy of Pediatrics recommends that all children aged < 2 years who present with a scalp laceration should undergo imaging studies, regardless of the mechanism of injury.",
+        "color": "green"
+      },
+      {
+        "id": 13,
+        "parent_id": 12,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Thanks for correcting me, Dr. Varkov! That's exactly what I was trying to remember.",
+        "color": "red"
+      },
+      {
+        "id": 14,
+        "parent_id": 12,
+        "user": "Dr. Rick 'The Rage'",
+        "role": "EP",
+        "city": "Windsor, ON",
+        "text": "Ugh, you all are making me so frustrated. CT scans are just too expensive and don't always reveal anything useful. I'm telling you, we should just stick with good old-fashioned observation!",
+        "color": "black"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Just saw a patient with suspected Dilated Cardiomyopathy - help me refine my diagnosis",
+    "body": "I just saw a 45-year-old patient presenting with acute shortness of breath and orthopnea. Initial chest X-ray showed signs of acute heart failure without cardiomegaly. ECG was nonspecific, showing normal sinus rhythm with no signs of ischemia. But, the cardiologist is suspicious of dilated cardiomyopathy. What are the telltale signs that we should be looking for? And, have we considered constrictive pericarditis as a differential diagnosis? Help me refine my thoughts on this one!",
+    "category": "emedicine",
+    "comments": [
+      {
+        "id": 10,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great case! Dilated cardiomyopathy (DCM) is a challenge to diagnose, but there are some red flags to look out for. Firstly, check for a holosystolic murmur, which is often associated with DCM. Also, ask about family history - familial DCM is more common in some ethnic groups, such as African Americans. Lastly, consider echocardiography as the gold standard for diagnosing DCM. Don't forget to rule out constrictive pericarditis, especially in patients with a history of pericarditis. The key is to differentiate between DCM and restrictive cardiomyopathy, so make sure to check for signs of cardiac tamponade.\n\n[Link to case study](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4441423/)",
+        "color": "purple"
       },
       {
         "id": 11,
@@ -477,437 +904,91 @@
         "user": "Leo Chen",
         "role": "MS1",
         "city": "Montreal, QC",
-        "text": "Wait, guys, is there any evidence to support the use of ketamine for pain management in scalp lacerations? I mean, what about the patient's airway, breathing, and circulation status?",
-        "color": "turquoise"
+        "text": "Oh wow, thank you so much, Dr. Thorne! I was wondering, how do we differentiate between DCM and restrictive cardiomyopathy? And what's the difference between these two conditions?",
+        "color": "green"
       },
       {
         "id": 12,
-        "parent_id": null,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "For Pete's sake, you young folks are worrying about ketamine when there's a much bigger issue at hand. What about the patient's overall trauma score? Are we even considering CT scans or MRI to rule out any more sinister injuries?",
-        "color": "darkblue"
+        "parent_id": 11,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Great question, Leo!\n\nRestrictive cardiomyopathy (RCM) is characterized by impaired diastolic function, leading to increased pressures in the heart chambers. This increases the wall tension, making it harder for the heart to relax. In contrast, DCM is characterized by systolic dysfunction, leading to decreased ejection fraction. So, in RCM, the heart is stiff and can't relax, whereas in DCM, the heart is weak and can't pump.\n\nThe key is to look for signs of diastolic dysfunction in RCM, such as increased pressures in the heart chambers, prolonged isovolumetric relaxation time, and decreased cardiac output. In contrast, DCM is characterized by decreased ejection fraction and increased volumes in the heart chambers.\n\nMake sense?",
+        "color": "blue"
       },
       {
         "id": 13,
         "parent_id": 12,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "Amen, Martha! You're absolutely right. We can't just focus on closing the scalp laceration. What about the patient's overall clinical picture? Have we considered the possibility of a head injury or... *hides look of shame, thinking about how Dr. Oldman always wins with his clever diagnoses*",
-        "color": "pink"
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs, please. The key is to use a more advanced echocardiogram, such as 3D echo or speckle tracking. These will give you more accurate measurements of cardiac function. And, of course, don't forget to check for signs of ischemia or coronary artery disease.",
+        "color": "red"
       },
       {
         "id": 14,
-        "parent_id": 13,
-        "user": "Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "Oh come on, guys, let's not forget about the wound itself. What about the size and depth of the laceration? Are we even considering whether it's going to require a flap closure or just simple sutures?",
+        "parent_id": 10,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Excuse me, Dr. Thorne. What about the role of genetic testing in diagnosing DCM? Should we be checking for genetic mutations?",
         "color": "orange"
       },
       {
         "id": 15,
-        "parent_id": null,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Alright, let's take a step back and assess the situation. I think we've covered all the relevant topics, from wound closure to pain management and even considerations for head injuries. So, let's summarize: primary closure can be done safely for scalp lacerations, even if they've been exposed to the environment or are due to animal bites, as long as we address any devitalized tissue, achieve hemostasis, and use adequate pain management strategies. And remember, folks, the patient's overall trauma score and clinical picture should always be taken into account. Thanks for the lively discussion!",
-        "color": "green"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "TLDR: Don't dismiss heat-related illnesses as 'just heat exhaustion' - they're a spectrum of disasters",
-    "body": "Just saw a patient with heat stroke that made me realize how often we fall into the trap of thinking 'heat exhaustion' vs 'heat stroke' is just a nuanced label. It's not. The difference between a mildly dehydrated, sweaty individual and a comatose patient with multi-organ failure is often just a matter of degree. I've seen docs misdiagnose heat stroke, and it's not just 'oh, it's just a milder version of heat exhaustion'. No, it's a ticking time bomb for serious morbidity and mortality.\n\n    I think we need to be more vigilant about recognizing the signs of heat-related illness, especially in patients who are debilitated or have pre-existing conditions. We can't rely solely on temperature to make the diagnosis - it's not always a straightforward linear progression. \n\n    So, let's get this straight: heat-related illnesses are a spectrum. Prickly heat is mild, heat edema is a bit more severe, but still generally self-limited. But heat stroke? That's a whole different ball game. Hyperthermia >40\u00b0C, end-organ failure, the whole nine yards. We need to be thinking about the big picture here, not just 'oh, this patient just has heat exhaustion'.",
-    "category": "Medical",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "PREACH! I've seen docs get so caught up in nitpicking temperature that they miss the forest for the trees. We need to be thinking about the whole patient, not just the vitals on the screen. BTW, have you seen that study on temperature management in heat stroke?",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "@Dr. Ziggy, what study are you thinking of? I remember seeing something on temperature management in heat stroke, but I can't put my finger on it. Can you clarify?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "But what are the signs of heat shock? Is it just hyperthermia? I keep seeing patients with heat rash or heat edema, but I'm not sure if they're at risk for heat stroke or not.",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "@Leo, heat rash and heat edema are milder forms of heat-related illness. They might not always progress to heat stroke, but we still need to keep close tabs on them. The key is to be aware of any changes in their condition, and not just dismiss them as 'just heat exhaustion'",
-        "color": "red"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "Amateurs think heat-related illness is just about temperature, but it's so much more complex. We need to be thinking about the underlying causes, whether it's heat stress, exertional heat stroke, or some other factor altogether.",
-        "color": "purple"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "@Dr. Oldman, are you saying that exertional heat stroke and heat stress are distinct entities? If so, can you clarify the difference between them?",
-        "color": "pink"
-      },
-      {
-        "id": 7,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "As a nurse, I see so many patients come in with heat-related illness who have no idea what's happening to them. We need to do a better job of educating patients and the public about the signs and symptoms of heat-related illness, and what to do if they're experiencing heat exhaustion or stroke.",
-        "color": "orange"
-      },
-      {
-        "id": 8,
-        "parent_id": 1,
+        "parent_id": 14,
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "Let's not forget the role of humidity in heat-related illness! It's not just about temperature, but also how quickly we can lose heat through evaporation. When it's humid, our body's ability to cool itself is compromised.",
-        "color": "green"
-      },
-      {
-        "id": 9,
-        "parent_id": 1,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "I've seen patients with heat stroke who have coagulopathy or DIC. It's a whole different ball game when those complications come into play. What's the best way to manage those situations?",
+        "text": "Actually, Dr. Park, genetic testing is often not necessary for diagnosing DCM, but it can be useful in cases where there's a strong family history or if the patient is under 40 years old. In those cases, we can consider genetic testing to identify potential genetic mutations that may have contributed to the disease.",
         "color": "purple"
       },
       {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "@Martha, I completely agree. Coagulopathy and DIC in heat stroke are a disaster. I've seen patients with massive GI bleeding or hemoptysis. The key is to rapidly identify and address any coagulopathy or DIC, and get the patient to a higher level of care ASAP.",
-        "color": "red"
-      }
-    ]
-  },
-  {
-    "id": 123,
-    "title": "Today I learned that abdominal pain can be a real challenge to diagnose in kids.",
-    "body": "I had a tough case last night. A 3-year-old presents with vague abdominal pain that the parents described as a dull ache. The child is playing, laughing and eating normally. On physical exam, there's no rebound tenderness or guarding. My initial thought was that it might be a viral gastroenteritis, but the parents were adamant that there was no history of diarrhea or vomiting. They did mention that the child got hurt playing outside two days ago, and now they're worried that the child might have internal injuries. I ordered a CT scan, but the radiologist called it back saying that the findings were consistent with an ileus. Now I'm stuck trying to figure out what's going on. Has anyone else had a similarly frustrating case?",
-    "category": "Pediatrics",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "This is why I always emphasize the importance of a thorough history in pediatric patients. The fact that the parents were insistent on an internal injury tells me that there's more to the story than meets the eye. Did you ask follow-up questions about the mechanism of injury or the child's reaction to pain?",
-        "color": "blue"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I'm no expert, but I recall learning that sometimes the most subtle details can make all the difference in pediatric cases. Dr. Sharp, could you clarify what you mean by 'more to the story than meets the eye'?",
-        "color": "purple"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "This case is a perfect example of why we need to be more judicious with our ordering of CT scans. Amateurs like you would think that every abdominal pain is a surgical emergency. But sometimes the best thing to do is to just observe and wait. Did you consider the possibility of a non-operative cause for this kid's pain?",
-        "color": "red"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "I think Dr. Sterling is missing the point. This is not about the CT scan, it's about taking the time to really listen to the parents and get a better understanding of the child's history. As Dr. Gupta said, it's the subtle details that make all the difference. And by the way, Dr. Sterling, I've been doing this for a long time and I've never met an 'amateur' who orders unnecessary CT scans.",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": null,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "I've seen cases like this before, and it's usually some weird gastrointestinal thing that no one's ever heard of. Maybe we should all just order a bunch of tests and hope something comes back positive. Just kidding, folks. TLDR: always listen to the parents, it's worth the extra few minutes.",
-        "color": "orange"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
+        "id": 16,
+        "parent_id": 15,
         "user": "Turbo Tom",
         "role": "RN",
         "city": "London, ON",
-        "text": "Haha Zalesky, I love your sense of humor! But seriously, this is why I always say that the most important tool in our toolkit is the stethoscope. We need to be listening to our patients, not just their charts. Anyone else share this sentiment?",
-        "color": "pink"
-      }
-    ],
-    "image": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=122323186196223867"
-  },
-  {
-    "title": "Today I Learned: Scalp Laceration Closure Tricks",
-    "category": "medical",
-    "body": "Had a tricky scalp laceration case last night and reminded me of a few key things... Just saw a patient with a pretty decent looking deep scalp laceration. Heavily cleaned the wound, got hemostasis, and closed it with simple interrupted sutures. But then I thought, wait a minute... I should have placed a pressure dressing over the laceration for the first 24 hours to reduce the chance of hematoma formation. Has anyone else seen that recommended in their protocols?\n\nTLDR; Deep scalp lacerations, always consider a pressure dressing!",
-    "comments": [
+        "text": "TL;DR: we should be doing genetic testing for DCM if there's a family history or if the patient's under 40, right?",
+        "color": "green"
+      },
       {
-        "id": 1,
+        "id": 17,
         "parent_id": null,
-        "user": "Dr. 'Ziggy' Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Totally agree! I've had some patients develop pretty nasty hematomas after scalp laceration closures. I always use a pressure dressing over deep lacerations for 24 hours, no matter how superficial they look. And yeah, make sure to use a small piece of nonadherent gauze over the laceration as well... Can't stress that enough!\n\n[link to a study on scalp hematomas](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4729149/)\n\n Edit: Dr. Thorne just told me that it's also a good idea to consider consulting an otolaryngologist or plastic surgeon for complex lacerations, ear avulsions, or auricular hematomas. Thanks for the reminder, Dr. Thorne!",
-        "color": "blue"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "I always say, 'Better safe than sorry' when it comes to scalp lacerations. That study Dr. Zalesky linked is a good one, and it highlights the importance of pressure dressing in preventing hematomas. I've also found that using a pressure dressing can help with wound retraction, which is especially useful in deep scalp lacerations. And as I mentioned to Dr. Zalesky, if you're unsure about the complexity of the laceration, it's always a good idea to seek out a second opinion from a specialist... Just because!",
-        "color": "red"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Hi docs! I'm a little confused about the pressure dressing... Don't we just use a nonadherent dressing, like petroleum jelly gauze? I've seen that recommended in some textbooks. Is the pressure dressing really necessary for deep scalp lacerations? Or is it just an extra precaution?",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. 'Ziggy' Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Hey Sarah! You're absolutely right about the petroleum jelly gauze. That's actually a pretty good alternative to a pressure dressing, especially if you're worried about moisture retention. But in terms of actual pressure, the dressing can help keep the wound edges from retracting too much, which can lead to hematoma formation. So yeah, it's not just an extra precaution... it's actually a pretty important step in wound closure!",
-        "color": "pink"
-      },
-      {
-        "id": 5,
-        "parent_id": 2,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs. Pressure dressing is unnecessary. You close the wound, and that's it. Don't overcomplicate things with fancy dressings and whatnot. We have more important things to worry about in the ED... like actual life-threatening conditions.",
-        "color": "black"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "Now now, Dr. Sterling. I think you're being a bit harsh. While I agree that sometimes we overcomplicate things, I think the pressure dressing is a useful tool in wound closure, especially in deeper lacerations. And let's not forget, we're talking about patient-centered care here... if the patient benefits from the extra precautions, why not take them?",
-        "color": "purple"
-      },
-      {
-        "id": 7,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Hey guys! Just want to chime in and say that I've seen some pretty gnarly scalp hematomas in my time as an ER nurse. I'm all for taking the extra precautions, especially in deep lacerations. I'll even go so far as to suggest using a bit of gauze tape to keep the dressing in place... Anyone else do that?",
-        "color": "gold"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Haha, Turbo Tom, you're a genius! I never thought of using gauze tape to keep the dressing in place. That actually makes so much sense... thanks for the tip!",
-        "color": "blue"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Umm, excuse me, what's the purpose of the gauze tape? I thought the dressing was supposed to do its own job... Can someone explain?",
-        "color": "green"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Haha, Leo! You're so cute when you're confused. Seriously though, the gauze tape just helps keep the dressing in place, so it doesn't shift around and compromise the wound closure. It's like a little extra security measure... makes sense, right?",
-        "color": "pink"
-      }
-    ]
-  },
-  {
-    "title": "Failed intubation: When to switch to a surgical airway.",
-    "category": "Medicine",
-    "body": "Just saw a patient with a failed intubation last night... After multiple attempts with a bougie and direct laryngoscopy, I had to switch to a surgical airway. Has anyone else experienced this and has some tips on when to switch to a surgical airway?",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "Resident",
-        "city": "Toronto, ON",
-        "text": "TLDR: failed intubation and switching to a surgical airway. That's a tough one, Maya. We've had similar cases in our ICU. Typically, when the oxygen saturation drops below 80% during intubation attempts, you know it's time to switch. But each case is different. What was the patient's underlying condition?",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "Medical Student",
-        "city": "Montreal, QC",
-        "text": "What about when the patient has a difficult airway? Like, what if they're obese or have a high BMI? Do we go straight to a surgical airway or try harder with the intubation?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Elena Varkov",
-        "role": "Internist",
-        "city": "Quebec City, QC",
-        "text": "That's a great question, Leo. When dealing with patients with a difficult airway, you need to consider other options like using an airway exchange catheter or a supraglottic airway. But if all else fails, a surgical airway is usually the best option. Has anyone used a laryngeal mask airway in a similar case?",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
         "user": "Chad Broson",
         "role": "Pre-med",
         "city": "Brampton, ON",
-        "text": "I've heard of an LMA being used in a tough airway situation. How do you insert it exactly? Is it a blind procedure or can you use the laryngoscope to help guide it?",
-        "color": "yellow"
-      },
-      {
-        "id": 5,
-        "parent_id": 3,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "ER Doc",
-        "city": "Windsor, ON",
-        "text": "For crying out loud, use a direct laryngoscopy first! You don't need to be messing around with LMAs or AECs. Just get a good look at the vocal cords and try to intubate that way. If you're still having trouble, then maybe it's time for a surgical airway. End of story.",
+        "text": "Wait, what's the difference between cardiomyopathy and pericarditis? I thought they were the same thing.",
         "color": "red"
       },
       {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Turbo Tom",
-        "role": "ER Nurse",
-        "city": "London, ON",
-        "text": "Hold up, Rick. While I agree with you on using direct laryngoscopy first, there's also the risk of causing damage to the airway with repeated intubation attempts. Sometimes, it's better to switch to a different approach or get a surgical airway sooner rather than later.",
-        "color": "orange"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "You know, I've seen cases where you need to use a combination of approaches when dealing with a difficult airway. Like, using a bougie and then a surgical airway. Has anyone else used multiple approaches simultaneously?",
-        "color": "pink"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "TLDR; Hymenoptera stings in the ED: What you need to know.",
-    "category": "Emergency Medicine, Bites and Stings",
-    "text": "Just saw a patient with a severe Hymenoptera sting reaction in the ED. It got me thinking about the importance of diagnosing and managing these cases properly. In the past few years, I've seen a few cases of severe reactions, including a patient with anaphylaxis and another with a severe systemic reaction. Today, I'll share some pearls and pitfalls to keep in mind when dealing with Hymenoptera stings in the ED.",
-    "body": "Local reactions to Hymenoptera stings can range from mild to severe, with pain, erythema, edema, and pruritus at the sting site. Systemic toxicity may result from an allergic reaction or massive envenomation as occurs with the Africanized bees. Fire ant venom may cross-react in individuals sensitized to other Hymenoptera stings.",
-    "comments": [
-      {
-        "id": 2,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "M.D.",
-        "city": "Toronto, ON",
-        "text": "Great case, thanks for sharing! When it comes to managing Hymenoptera sting reactions, it's essential to assess the severity of the reaction quickly. I like to use the 'TEN' system: Time since sting, Erythema, Number of stings, and size of the affected area. This helps me determine the likelihood of a systemic reaction.",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Leo Chen",
-        "role": "M.D.",
-        "city": "Montreal, QC",
-        "text": "Dr. Thorne, just a clarification on the 'TEN' system... Is 'E' for Erythema or Edema?",
+        "id": 18,
+        "parent_id": 17,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Cardiomyopathy is a disease of the heart muscle itself, whereas pericarditis is an inflammation of the pericardium, which is the membrane surrounding the heart. They're two completely different things, Chad!",
         "color": "blue"
       },
       {
-        "id": 4,
-        "parent_id": 2,
-        "user": "Dr. Maya Gupta",
-        "role": "M.D.",
-        "city": "Mississauga, ON",
-        "text": "I always assess for signs of anaphylaxis, including cardiovascular instability, respiratory distress, and a decrease in blood pressure. If the patient is showing any of these symptoms, I immediately administer epinephrine and prepare for admission. What do you do if the patient has a positive allergy history?",
+        "id": 19,
+        "parent_id": 18,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Actually, Ziggy, you're oversimplifying. While cardiomyopathy and pericarditis are two distinct conditions, they can sometimes be related. For example, some cases of pericarditis may be caused by autoimmune disorders, which can also cause cardiomyopathy.",
+        "color": "green"
+      },
+      {
+        "id": 20,
+        "parent_id": 19,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "I agree with Barb. It's always a good idea to consider both cardiomyopathy and pericarditis when evaluating a patient with cardiac symptoms. Don't forget to take a thorough history and perform a physical examination before ordering any tests.",
         "color": "purple"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Archibald Thorne",
-        "role": "M.D.",
-        "city": "Saskatoon, SK",
-        "text": "Good question, Dr. Gupta! In my experience, patients with a positive allergy history to Hymenoptera stings require a more cautious approach. I always perform a thorough history and physical examination to assess for signs of anaphylaxis. If the patient is asymptomatic, I discharge them with EpiPen and instruct them on proper use.",
-        "color": "red"
-      },
-      {
-        "id": 6,
-        "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "M.D.",
-        "city": "Calgary, AB",
-        "text": "Amateurs over-diagnose Hymenoptera sting reactions. Most cases are minor and don't require hospital admission. We waste too much time and resources on these patients.",
-        "color": "orange"
-      },
-      {
-        "id": 7,
-        "parent_id": 1,
-        "user": "Dr. Sarah Sharp",
-        "role": "M.D.",
-        "city": "Laval, QC",
-        "text": "I disagree with Dr. Sterling. While most cases are minor, some can progress to anaphylaxis and other severe reactions. As emergency physicians, we must be vigilant in identifying and managing these cases quickly and effectively.",
-        "color": "yellow"
       }
     ],
-    "image": "https://www.rushmemorial.com/wp-content/uploads/2026/05/Insect-Stings-and-Bites_-When-to-Seek-Emergency-Care.jpg"
+    "image": "https://images.squarespace-cdn.com/content/v1/5b8645f7266c07b084eb29c7/960e66fa-d95e-48b1-8b0b-705d2563332f/image+1.jpg"
   }
 ]
