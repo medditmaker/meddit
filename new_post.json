@@ -1,8 +1,657 @@
 [
   {
     "id": 0,
-    "title": "Rant about intimate partner violence (IPV) in the ED",
-    "body": "Just saw a patient with a classic 'tiger stripe' pattern of bruising on her forearm. She was initially hesitant to disclose the history, but with some gentle probing, she revealed a pattern of abuse by her partner. This got me thinking about how often we miss IPV in the ED. Anyone else have tips on how to identify these cases?",
+    "title": "Rant about Diverticulitis diagnosis in ED.",
+    "body": "Just saw another diverticulitis case that was almost sent home. CT with IV and oral contrast is still the gold standard, but what's the evidence for using ultrasound instead?",
+    "category": "EmergencyMedicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "M.D.",
+        "city": "Toronto, ON",
+        "text": "TLDR: Ultrasound sensitivity and specificity are operator-dependent and not as high as CT. However, it's a good option for unstable patients or those with a high risk of contrast allergy. Remember, clinical suspicion is key, not just the test results.",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "M.S.",
+        "city": "Montreal, QC",
+        "text": "What is the clinical suspicion threshold for diverticulitis? Some of my attendings say it's just a pain in the left lower quadrant, but others say it's more complicated than that.",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Dr. Maya Gupta",
+        "role": "M.D.",
+        "city": "Mississauga, ON",
+        "text": "Good question, Leo! I think clinical suspicion is more than just left lower quadrant pain. It's the combination of pain, fever, leukocytosis, and changes in bowel habits. If the patient has any of the 'red flag' symptoms like bloody stools or severe abdominal pain, you're probably dealing with something more complicated.",
+        "color": "teal"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Dr. Brock Stone",
+        "role": "F.R.C.S.C.",
+        "city": "Hamilton, ON",
+        "text": "Don't get me wrong, CT is great and all, but what about the radiation dose? I've seen some patients get CT's multiple times in the same admission, and that's just not good for them.",
+        "color": "orange"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Elena Varkov",
+        "role": "M.D.",
+        "city": "Quebec City, QC",
+        "text": "I completely agree with you, Dr. Stone! The American College of Radiology recommends a 'time-variant' approach to imaging, where you start with the least likely modality and work your way up to CT. We should be using ultrasound more often!",
+        "color": "pink"
+      },
+      {
+        "id": 6,
+        "parent_id": null,
+        "user": "Dr. Victor Sterling",
+        "role": "M.D.",
+        "city": "Calgary, AB",
+        "text": "Amateurs, you're all focusing on the wrong thing here. The real issue is not the test, it's the diagnosis. If you can't make the diagnosis, you'll never make the right treatment decision. Clinical correlation is key, folks!",
+        "color": "red"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "M.D.",
+        "city": "Vancouver, BC",
+        "text": "Oh, come on, Dr. Sterling! You can't seriously expect us to 'just guess' the diagnosis. We have to use all the tools at our disposal, including the CT and ultrasound.",
+        "color": "blue"
+      },
+      {
+        "id": 8,
+        "parent_id": null,
+        "user": "Dr. Archibald Thorne",
+        "role": "M.D.",
+        "city": "Saskatoon, SK",
+        "text": "I recall an article in the Journal of Emergencies where they showed that CT imaging reduced the rate of complications like perforation and abscess formation by 30%. That's a convincing argument for its use.",
+        "color": "purple"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Sarah Jenkins",
+        "role": "M.S.",
+        "city": "Ottawa, ON",
+        "text": "That sounds like a solid systematic review, Dr. Thorne. Can you link to the article? I'd love to cite it for my own research.",
+        "color": "green"
+      },
+      {
+        "id": 10,
+        "parent_id": null,
+        "user": "Turbo Tom",
+        "role": "R.N.",
+        "city": "London, ON",
+        "text": "Just wanted to chime in and say that I've seen plenty of diverticulitis cases where the patient was convinced they had a 'gut infection' or the like. But at least with the CT or ultrasound, we can rule out or confirm the diagnosis. Thanks, guys, for keeping the conversation real!",
+        "color": "yellow"
+      }
+    ],
+    "image": "https://images.squarespace-cdn.com/content/v1/549b0d5fe4b031a76584e558/9df329f6-7a55-44c7-af32-e626976f7c25/Acute+diverticulitis+management+for+the+Emergency+Medicine+Provider+Final+Draft.jpg"
+  },
+  {
+    "id": 1,
+    "title": "TLDR; Wound Closure: Tips and Tricks from the ED",
+    "body": "Had a close call last night with a patient who needed a wound closure. I used a horizontal half-buried suture (HHBS) technique, which worked out great, but made me realize how important it is to choose the right closure method and technique. I wanted to discuss this with my fellow ER physicians and get some feedback.",
+    "category": "emergency_medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I completely agree with you! The HHBS technique is a lifesaver in tight spaces. I've also had success with the stapler technique (Figure 10-8), but I love how versatile the sutures are. What was the wound's size and location? Was it contaminated? Did you use any antibiotics?",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "I'm a big fan of the stapler technique! It's fast, easy, and rarely requires re-stitching. What I'm curious about is when to use an adhesive glue vs. stitching. Do you think glue is sufficient for most wounds, or is stitching still the gold standard?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "You're absolutely right about choosing the right closure method and technique. The American College of Surgeons recommends primary closure for wounds under 1 cm in width, secondary closure for wounds 1-3 cm in width, and delayed closure for contaminated or infected wounds. Have you considered using a dressing with antimicrobial properties to reduce the risk of infection?",
+        "color": "purple"
+      },
+      {
+        "id": 4,
+        "parent_id": 2,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Adhesive glue seems like a great option for smaller wounds. What type of glue would you recommend? I've heard of 2-Octylcyanoacrylate (2-OCA), but is that the only one? Do you have any personal experience with it?",
+        "color": "green"
+      },
+      {
+        "id": 5,
+        "parent_id": 3,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "Ah, the old dressing with antimicrobial properties! Yes, my dear friend, I've seen the wonders of silver-coated dressings in reducing infection rates. However, I'm skeptical about their effectiveness in deep or contaminated wounds. What's your take on this?",
+        "color": "purple"
+      },
+      {
+        "id": 6,
+        "parent_id": 4,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Wait, what's the difference between 2-OCA and other types of glue? Can someone explain it to me like I'm a clueless pre-med?",
+        "color": "pink"
+      },
+      {
+        "id": 7,
+        "parent_id": 5,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "I agree with Dr. Thorne about using antimicrobial dressings. But what about patients with known allergies or sensitivities to certain materials? How do you handle that?",
+        "color": "purple"
+      },
+      {
+        "id": 8,
+        "parent_id": 1,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "What if the wound is too tight to close with sutures or staples? Have you ever used a hair apposition technique or an adhesive tape to close a wound? Can someone share their experience on that?",
+        "color": "green"
+      },
+      {
+        "id": 9,
+        "parent_id": 7,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "I've got a patient who's allergic to shellfish and is coming in for a wound closure. What should I do? Are there any shellfish-free options for dressings or sutures?",
+        "color": "purple"
+      },
+      {
+        "id": 10,
+        "parent_id": 8,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "Adhesive tape is great for quick fixes, but what about when the wound needs more stability? Have you ever used a tissue adhesive, like Dermabond? How durable is it compared to sutures?",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "TLDR: Missed Anticholinergic Toxicity in the ER - What a Wild Ride!",
+    "body": "Just saw a patient with suspected Anticholinergic Toxicity last night and I'm still shook. I had never really been sure how to differentiate from other causes of altered mental status, but this case hit home. The patient presented with hyperthermia, tachycardia, dry skin, hyperreflexia, and a classic ' SLUDGE' effect (Salivation, Lacrimation, Urination, Defecation, Emesis, and Bradycardia) which I quickly Google'd. But I was worried about the differential diagnosis, including sepsis, thyroid storm, and even a cardiac issue. Luckily, the tox screen came back negative for common substances and the patient's history pointed more towards anticholinergic use. We managed to get them reversed with physostigmine and they're doing much better now. I guess this is a reminder to think outside the box and consider anticholinergic toxicity in the ED - what are your experiences with it?",
+    "category": "/r/medicine",
+    "comments": [
+      {
+        "id": 4,
+        "parent_id": null,
+        "user": "u/LeoChen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I've only read about anticholinergic toxicity in my textbooks, but I didn't realize how hard it is to diagnose. Do you have any tips on how to quickly identify it in the ED?",
+        "color": "blue"
+      },
+      {
+        "id": 13,
+        "parent_id": 4,
+        "user": "u/DrSarahSharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Great question, Leo! In my experience, the key is to look for the combination of symptoms, especially the ' SLUDGE' effect. But also, make sure to check for other signs like dry skin and mucus membranes, mydriasis, and altered mental status. We should also consider a tox screen and get a history of any medications or exposures. You can also try a quick ' cherry-pit' test to assess for cholinergic effects. See this link for a great summary of the signs and symptoms: https://emedicine.medscape.com/article/171235-overview",
+        "color": "green"
+      },
+      {
+        "id": 17,
+        "parent_id": 13,
+        "user": "u/DrVictorSterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs. The 'cherry-pit' test is nothing but a fancy way of saying 'look for dry skin and mucous membranes'. We should be focusing on a proper history and physical, not some flashy gimmick. Besides, what about the differential diagnosis? Sepsis, thyroid storm, or cardiac issues can all present with similar symptoms",
+        "color": "purple"
+      },
+      {
+        "id": 23,
+        "parent_id": 17,
+        "user": "u/Dragonheart123",
+        "text": "Actually, Dr. Sterling, the cherry-pit test is a great way to quickly assess for anticholinergic effects, especially in cases where the patient is unconscious or unable to give a proper history. It's not a replacement for a thorough physical and history, but rather a useful tool to add to your toolkit",
+        "color": "orange"
+      },
+      {
+        "id": 29,
+        "parent_id": 23,
+        "user": "u/DrJohnSmith",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "One thing to keep in mind when diagnosing anticholinergic toxicity is the time course of symptoms. In my experience, it's usually a 24-hour delay between exposure and symptoms",
+        "color": "teal"
+      },
+      {
+        "id": 32,
+        "parent_id": null,
+        "user": "u/DrArisThorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great discussion, everyone! I just wanted to add that in cases of suspected anticholinergic toxicity, it's essential to get a history of any medications or exposures the patient may have had. We should also consider a tox screen and ECG, as well as getting a baseline level of vitals. Remember, the key is to think outside the box and consider this condition in the differential diagnosis",
+        "color": "brown"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Frustrated after a DKA case last night... (TLDR at the bottom)",
+    "body": "Had a miss last night, a patient presented with vomiting and abdominal pain after a night of heavy drinking. Initial vitals were BP 90/60, HR 120, Temp 38.5, and a BG of 22.5 mmol/L. I immediately slapped her on a IVF, NS, and ran some labs to check for ketones. \n\nThe patient was pretty uncooperative and kept insisting she was just fine, but after some prodding from my resident and nurse, she finally started to open up about her drinking habits. Turns out, she's been binge drinking for the past few days, and I'm pretty sure this was a case of Alcoholic Ketoacidosis (AKA).\n\nI've been thinking about this case all night, and I'm wondering, have any of you ever seen a case of AKA? How did you manage it? Was there anything I could've done differently?\n\nTLDR: Just had a patient with AKA after a binge drinking session. Was wondering if anyone had any experience with this and could share their management strategies.",
+    "category": "emergency medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great case study, OP! I've seen my fair share of AKA cases, and it's always a tough one to manage. The key is to stay focused on hydration and electrolyte replacement. Have you considered using the 'Fluid Rate Guide' in Tintinalli's?",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Thanks for the tip, Dr. Thorne! I've read about the Fluid Rate Guide, but I'm not entirely sure how it works. Can you explain it in a bit more detail?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs like you should stick to treating diabetic ketoacidosis, not AKA. You clearly don't know what you're doing. And by the way, the Fluid Rate Guide is in Tintinalli's Chapter 129.",
+        "color": "yellow"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. May Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Oh, great, another lecture from Dr. Sterling. Thanks for the vote of confidence, Doc. Can we please stay on topic and focus on the case? Dr. Thorne, can you explain the Fluid Rate Guide in more detail?",
+        "color": "purple"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "I've seen Dr. Thorne's posts before, and I can tell you that he's one of the most knowledgeable docs I've met. The Fluid Rate Guide is a tool used to guide fluid replacement in patients with severe dehydration. It's based on the idea that you should replace 1-2 liters of fluid for every 1 liter of loss. However, it's not a hard and fast rule, and you should always adjust based on the patient's response.",
+        "color": "blue"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Wow, thanks for explaining it so simply, Dr. Varkov! I feel like I finally understand the Fluid Rate Guide. Can anyone recommend a good resource for learning more about fluid replacement in emergencies?",
+        "color": "green"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Actually, Chad, you can check out the EMCrit podcast by Scott Weingart. He's got a great episode on fluid replacement in emergencies. Also, make sure to check out the references he lists at the end of the episode.",
+        "color": "purple"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "I don't get it... what's all this fuss about fluid replacement? Can't we just give the patient some fluids and be done with it?",
+        "color": "red"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Don't worry, dearie! Fluid replacement is an important part of treating dehydration and AKA. But don't worry, you'll learn all about it in med school, I'm sure!",
+        "color": "pink"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. Rick 'The Rage'",
+        "role": "EP",
+        "city": "Windsor, ON",
+        "text": "Ugh, what a waste of time this is. Can we please focus on the patient in front of us instead of debating fluid replacement? This is AKA, not diabetic ketoacidosis. We need to get the patient hydrated and electrolyte balanced ASAP.",
+        "color": "brown"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "Ah, come on, Rick! Let's not be too hasty. We can discuss both diabetic ketoacidosis and AKA. But if you'll permit me, I'd like to add some insights from my own experience. In my day, we used to treat AKA with a combination of IV fluids and dextrose.",
+        "color": "gray"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "Fascinating, Dr. Thorne. I've always wondered how AKA was treated back in the old days. Can you tell us more about your approach?",
+        "color": "blue"
+      },
+      {
+        "id": 13,
+        "parent_id": 12,
+        "user": "Dr. Phil Muddle",
+        "role": "EP",
+        "city": "Regina, SK",
+        "text": "Uh, I think I knew that... um, what was the question again?",
+        "color": "orange"
+      },
+      {
+        "id": 14,
+        "parent_id": 13,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "LOL, Phil! You're killing me! But for real, have you considered using a combination of IV fluids and dextrose in AKA cases?",
+        "color": "green"
+      },
+      {
+        "id": 15,
+        "parent_id": 14,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Thanks, Turbo Tom! I think I understand the importance of using dextrose in AKA cases. Can anyone recommend a good resource for learning more about this?",
+        "color": "blue"
+      },
+      {
+        "id": 16,
+        "parent_id": 15,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Actually, Chad, you can check out the EMcrit podcast again, Scott Weingart has an episode on dextrose in emergencies. He references a study that shows its effectiveness in AKA cases.",
+        "color": "purple"
+      },
+      {
+        "id": 17,
+        "parent_id": 16,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "Okay, got it. I think I understand what's going on now. Can we please get a summary of this thread?",
+        "color": "red"
+      }
+    ],
+    "image": "https://emergencymedicinecases.com/wp-content/uploads/2020/09/DKA-algorithm-Canadian-Guidelines-2018-800x851.png"
+  },
+  {
+    "id": "today-i-learned",
+    "title": "TL;DR: Intimate partner violence in the ED - don't dismiss the injury saying 'it's not an assault if there's no trauma'",
+    "body": "Just saw a patient with a nasty bite mark on her arm, 'caused by her cat'. Nope. Turns out she's been in a months-long abusive relationship and the perpetrator is her 'boyfriend'. I thought I was doing a great job as a doc, asking her all the right questions and getting the story straight, but in hindsight, I was being way too casual about it. I mean, come on, 'it's just a scratch' - what could possibly be 'serious' about that? The nurse ( @Martha 'The Hammer' ) was great, though - she'd been working with abuse survivors for years and could spot the signs a mile away. Long story short, we managed to get the patient the help she needed, but it made me realize just how often we overlook intimate partner violence in the ED.",
+    "category": "r/emergencymedicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "So sick of that. I had a patient last week who said they were in a car accident... turns out they got punched by their partner. I was like 'dude, you have a face that says 'I got punched in the face'!' (sorry, had to). Seriously though, we need to be way more vigilant about IPV. The American College of Physicians has some great resources on this - has anyone seen their guidelines?",
+        "color": "blue"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great point, Ziggy! We should definitely be screening for IPV every day (I mean, every time we do a history). Dr. Barbara Roberts has a great lecture on this topic - it's on the ACEP website, I think. One of the key takeaways for me was how often abusers isolate their victims - like, they'll take away their phone, their drivers license, their access to money... it's like, who wouldn't suspect something is up when someone shows up in the ED with no phone and no ID?",
+        "color": "purple"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "So, Dr. Thorne, how often do you think we should screen for IPV? Is it just with female patients, or do we need to do it with males too? And I've heard that men can be victims of IPV too, is that true?",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Actually, Ziggy, IPV is even more common in LGBTQ+ populations. I've read that 1 in 10 LGBTQ+ people have experienced IPV in the past year. Like, it's super important we're checking in with all patients, regardless of their ID!",
+        "color": "purple"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Wait, Sarah, that's not true. I mean, I know it's true that LGBTQ+ people are at higher risk for IPV, but isn't it true that there are some differences between male and female victims? Like, don't men just get hurt more often?",
+        "color": "red"
+      },
+      {
+        "id": 6,
+        "parent_id": 4,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "I've seen it time and time again, Sarah. LGBTQ+ people are so often marginalized, they're more likely to hide what's goin' on. And even if they do reach out, it's like tryin' to get help from a rock, if ya know what I mean. We gotta trust our guts, and our patients!",
+        "color": "teal"
+      },
+      {
+        "id": 7,
+        "parent_id": 3,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Screening for IPV? How quaint. How utterly quaint. We've got bigger fish to fry, people. Let's focus on the real priorities here - like, I don't know, saving a life or two.",
+        "color": "orange"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Come on, Victor. You can't be serious. Like, don't you remember the ACEP guidelines on this? It's like, the most important part of ED care, after all.",
+        "color": "purple"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "I agree with Dr. Thorne. We can't just stick our heads in the sand and pretend it's not an issue. IPV is a public health crisis, plain and simple.",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "title": "Just saw a patient with a wooden splinter that evaded detection for 72 hours... lessons learned in detecting soft tissue foreign bodies.",
+    "body": "I'm still shaking my head after seeing a patient who presented 72 hours after sustaining a deep laceration on the arm. On examination, we suspected a foreign body was present, but upon attempting to palpate the wound, it was not palpable. We sent her for a CT scan, which revealed a 5cm wooden splinter embedded in the muscle. What I take away from this case is the importance of thorough wound inspection, and utilizing the right imaging modalities to increase the likelihood of detecting foreign bodies. I'm curious to hear from fellow EM physicians: What are your strategies for detecting soft tissue foreign bodies?",
+    "category": "emergencymedicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "ER Doc",
+        "city": "Vancouver, BC",
+        "text": "Ah, the age-old problem of the 'hidden' foreign body! I've had my share of cases like this too. It's amazing how often we can miss these things in the ED. One thing that's helped me is to use a combination of ultrasound and x-ray to detect foreign bodies in wounds. I recently came across this case report from the Journal of Emergency Medicine that highlights the use of US in detecting wooden splinters: [link to paper](https://www.jemjournal.com/article/S0190-9622%2819%2930145-2/). Has anyone else had success with using US in this context?",
+        "color": "blue"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Thanks for sharing the paper, Dr. Z! I've been trying to learn more about using ultrasound in the ED. Can you give me some tips on how to incorporate it into my practice?",
+        "color": "pink"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I've had success with using CT scans to detect foreign bodies in wounds, especially in cases where there's a high suspicion but no clear X-ray findings. One thing to keep in mind is that not all metallic foreign bodies are visible on plain X-rays, especially if they're small. A CT scan is usually a good idea in these cases.",
+        "color": "red"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Barb Miller",
+        "role": "ER Doc",
+        "city": "Winnipeg, MB",
+        "text": "That's a good point, Dr. Gupta. I've found that CT scans are particularly useful in cases where the foreign body is likely to be metallic, like a broken glass fragment. Has anyone else encountered issues with CT scans in this context, like delayed imaging or difficulty interpreting the results?",
+        "color": "indigo"
+      },
+      {
+        "id": 5,
+        "parent_id": null,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "I'm surprised no one has mentioned the importance of thorough wound cleansing and irrigation before attempting to remove a foreign body. A quick irrigation with saline or water can go a long way in reducing the risk of infection.",
+        "color": "magenta"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Dr. Sterling, can you elaborate on the optimal method for wound cleansing? Should we be using saline or water, and what's the recommended pressure?",
+        "color": "turquoise"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Elena Varkov",
+        "role": "Internist",
+        "city": "Quebec City, QC",
+        "text": "I'm no expert in wound care, but from what I've learned, the key to effective wound cleansing is to use sterile saline solution and mild pressure. Has anyone else had experience with wound dressings or topical agents to promote healing?",
+        "color": "orange"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Rick 'The Rage'",
+        "role": "ER Doc",
+        "city": "Windsor, ON",
+        "text": "Don't even get me started on wound dressings. I swear, half the time I'm spending more time changing dressings than I am dealing with actual patient care. What's the latest on wound dressings, folks?",
+        "color": "maroon"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "I think we've gone off track a bit here, folks! Remember what we were talking about? Soft tissue foreign bodies? Can we get back on track?",
+        "color": "gray"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Apologies for the detour, my friends. To refocus: when dealing with soft tissue foreign bodies, what are your go-to imaging modalities, and how do you ensure thorough wound inspection?",
+        "color": "purple"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Dr. Barb Miller",
+        "role": "ER Doc",
+        "city": "Winnipeg, MB",
+        "text": "In my experience, a combination of x-ray and CT scans is usually the most effective way to detect foreign bodies. I'll usually start with an x-ray to get a basic idea of what might be present, and then follow up with a CT scan if there's still a high suspicion.",
+        "color": "green"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Dr. Kevin Park",
+        "role": "Intern",
+        "city": "Edmonton, AB",
+        "text": "That's interesting, Dr. Miller. Can you tell me more about how you determine whether to pursue further imaging, like CT scans? What are the key factors you consider?",
+        "color": "yellow"
+      },
+      {
+        "id": 13,
+        "parent_id": 12,
+        "user": "Dr. Henry Oldman",
+        "role": "Family Physician",
+        "city": "Victoria, BC",
+        "text": "In my opinion, one of the most important factors to consider is the mechanism of injury. If there's a high likelihood of a foreign body having entered the skin, we should err on the side of caution and pursue further imaging.",
+        "color": "lavender"
+      },
+      {
+        "id": 14,
+        "parent_id": 13,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Preach, Dr. Oldman! As a nurse, I've seen my fair share of foreign bodies that could've been easily prevented with better wound care. What are some best practices for preventing foreign body injuries, folks?",
+        "color": "violet"
+      },
+      {
+        "id": 15,
+        "parent_id": 14,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Interesting question, Turbo Tom. Can you elaborate on how nurses can play a role in preventing foreign body injuries? I'd love to learn more about it.",
+        "color": "pink"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "TL;DR: Aggressive management of symptoms in palliative care patients - case study and rant",
     "category": "emedicine",
     "comments": [
       {
@@ -11,7 +660,7 @@
         "user": "Dr. Aris Thorne",
         "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "Great post, OP! IPV is a tough one to diagnose, but some clues include patterns of injury, inconsistent stories from the patient and abuser, and the presence of 'protective' injuries like bite marks or cigarette burns. Have you considered using the Screening for Intimate Partner Violence (SIP) tool? (https://en.wikipedia.org/wiki/Screening_for_Intimate_Partner_Violence)",
+        "text": "TL;DR: I had a patient last night who was diagnosed with stage IV cancer and presented with severe dyspnea and chest pain. The patient had a clear advance directive stating DNR and the surrogate decision maker (family member) was present. ",
         "color": "purple"
       },
       {
@@ -20,96 +669,78 @@
         "user": "Leo Chen",
         "role": "MS1",
         "city": "Montreal, QC",
-        "text": "I've heard of the SIP tool, but what's the protocol for administering it? Do we need to ask a specific set of questions or use a specific scale?",
+        "text": "OP, I noticed you said 'clear advance directive' but didn't say if it was documented in the patient's chart. Shouldn't we verify the documentation first before making decisions?",
         "color": "green"
       },
       {
         "id": 3,
         "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Actually, I've read that the SIP tool is not validated for all patient populations, and that we should be using a more nuanced approach. Some studies suggest that using a trauma-informed care model can help identify IPV cases. Can we discuss more about this?",
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Actually, Leo, the advance directive was clear and documented in the patient's chart. But here's the thing: the patient's symptom burden was significant enough that they weren't able to participate in care decisions. So, I reached out to the surrogate decision maker and discussed the prognosis with them.",
         "color": "blue"
       },
       {
         "id": 4,
         "parent_id": 3,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I completely agree with you, SJ. Trauma-informed care is essential for these patients. It's not just about asking the 'right' questions, but also about creating a safe space for them to share their stories. Can anyone share their experience with trauma-informed care in the ED?",
-        "color": "purple"
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "I've read that some studies show that patients with high symptom burdens are more likely to experience anxiety and depression. Did you consider that in your care plan, Dr. Gupta?",
+        "color": "orange"
       },
       {
         "id": 5,
         "parent_id": 4,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "I've had some experience with trauma-informed care, but I'm not sure how to integrate it into my assessment of IPV. Can someone provide some concrete examples of how to do this in the ED?",
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Great point, Sarah! Actually, I did assess for anxiety and depression during the initial assessment. We also started the patient on some medication to help manage those symptoms. But the point I was trying to make is that we need to recognize when patients are too compromised to make their own decisions.",
         "color": "red"
       },
       {
         "id": 6,
-        "parent_id": 5,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Actually, I've found that just using a gentle tone and active listening can make a huge difference. Sometimes, it's not about what we ask, but how we ask it. And don't forget to validate their feelings!",
-        "color": "green"
+        "parent_id": 1,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "I completely agree, Dr. Gupta. And it's so important to involve the surrogate decision maker in that conversation, even if it's a tough conversation to have. I've found that sometimes the family members know more about the patient's preferences than you might think.",
+        "color": "pink"
       },
       {
         "id": 7,
-        "parent_id": 6,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "Thank you, Sparkle-Eyes Sue. As a patient who has been through IPV, I can attest to the importance of empathy and understanding. Sometimes, it's the little things that make a big difference.",
-        "color": "blue"
+        "parent_id": 1,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Hey guys, I have a question. What's the difference between POLST and MOLST forms? I know they're both advance directives, but aren't they used in different contexts?",
+        "color": "yellow"
       },
       {
         "id": 8,
-        "parent_id": null,
-        "user": "Dr. Barb Miller",
+        "parent_id": 7,
+        "user": "Dr. Sarah Sharp",
         "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "This is a great discussion, but let's not forget that IPV is often a 'hidden' issue. Our patients may not disclose the abuse, or may deny it altogether. What can we do to better identify these cases?",
-        "color": "purple"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Excellent point, Barb. In my experience, using open-ended questions and avoiding leading questions can help patients feel more comfortable disclosing information. What are your thoughts on this?",
-        "color": "green"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "I've found that using a 'trauma-friendly' environment can make a huge difference. Dim lighting, quiet music, and a calm atmosphere can all contribute to a sense of safety and trust. Has anyone tried this approach?",
-        "color": "blue"
+        "city": "Laval, QC",
+        "text": "Chad, POLST and MOLST forms are both advance directives, but they're used in different contexts. POLST forms are typically used in hospitals to document a patient's preferences for life-sustaining treatment, while MOLST forms are used in long-term care settings. Both forms are designed to help ensure that patients' wishes are respected in emergency situations.",
+        "color": "brown"
       }
-    ],
-    "image": "https://ars.els-cdn.com/content/image/1-s2.0-S0736467920307885-gr2.jpg"
+    ]
   },
   {
-    "title": "Just saw a patient with a retained glass foreign body: The importance of thorough wound evaluation...",
-    "body": "Had a great learning experience last night taking care of a 28-year-old man who came in with a simple laceration on his forehead. During the initial assessment, I was tempted to just clean the wound and close it, but I knew I had to do a thorough evaluation to rule out any retained foreign bodies. Lo and behold, after carefully probing the wound, we found a small glass fragment (about 2 mm in diameter) embedded in the soft tissue. We were able to remove it successfully, and the patient is doing great now. It just goes to show how important it is to take the time to evaluate wounds carefully, especially in cases where the wounding object is brittle or has the potential to splinter.",
-    "category": "emergency medicine",
+    "id": 8,
+    "title": "ETIOLOGY OF ELECTRICAL SHOCK-ASSOCIATED MEGALOBALANIA",
+    "body": "Just saw a patient with suspected electrical shock-related hyperelectrolytemia. I was reviewing the chart and the lab shows a whopping sodium of 142, potassium of 7.8 and chloride of 90 (HCO3 28). She has acute kidney injury (AKI) listed in the notes as a secondary diagnosis...",
+    "category": "Emergency Medicine",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
         "user": "Dr. Aris Thorne",
-        "role": "MD",
+        "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "Great story, Dr.! This just highlights the importance of thorough wound evaluation in patients with deep or contaminated wounds. It's surprising how often we find foreign bodies that weren't initially visible. Remember, the saying goes: 'If it was in the hand, it was in the wound.' I always make sure to have a hemostat handy to gently probe for foreign bodies, especially in cases where visualization is limited. Have you ever tried using an underpenetrated soft tissue plain radiography technique to help identify foreign bodies? It's a game-changer.",
+        "text": "This case is a good reminder to always consider potential electrolyte imbalances in electrical shock patients. Even with standard ACLS and aggressive fluid resuscitation, we see these patients develop hyperkalemia...",
         "color": "purple"
       },
       {
@@ -118,17 +749,17 @@
         "user": "Leo Chen",
         "role": "MS1",
         "city": "Montreal, QC",
-        "text": "Dr. Thorne, that saying is so true! I've never heard of using an underpenetrated soft tissue plain radiography technique before. Can you explain how it works? Is it a standard part of wound evaluation or more of a specialized tool?",
+        "text": "But isn't hyperkalemia typically more common in burns or crush injuries rather than electrical shock? I thought the pathophysiology was different...",
         "color": "green"
       },
       {
         "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "MD",
-        "city": "Calgary, AB",
-        "text": "Amateurs! You're both making a big deal out of nothing. In my 30 years of practice, I can count on one hand the number of foreign bodies I've found in wounds. It's a waste of time and resources to spend hours probing for something that's probably not even there. I mean, come on, folks, if the patient doesn't complain about anything, you're good to go.",
-        "color": "purple"
+        "parent_id": 2,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Not necessarily, Leo. While burns and crush injuries do cause significant tissue damage, electrical shock disrupts cellular function at a more fundamental level. It can cause significant cell lysis and release of intracellular contents, including potassium ions...",
+        "color": "blue"
       },
       {
         "id": 4,
@@ -136,691 +767,144 @@
         "user": "Chad Broson",
         "role": "Pre-med",
         "city": "Brampton, ON",
-        "text": "Dude, Dr. Sterling is so right! I mean, what's the point of wasting so much time and money on something that's probably not even a big deal? Can someone explain to me why this is a big deal? Is it really worth the hassle?",
-        "color": "blue"
+        "text": "Wait, but what about cardiac arrest from asystole vs ventricular fibrillation? I know one's more common than the other, but what's the difference...",
+        "color": "red"
       },
       {
         "id": 5,
-        "parent_id": 3,
-        "user": "Dr. Maya Gupta",
-        "role": "MD",
-        "city": "Mississauga, ON",
-        "text": "Actually, Chad, it's not just about the hassle. It's about patient safety and quality of care. When we fail to remove retained foreign bodies, it can lead to infection, scarring, and even chronic pain. Not to mention the emotional distress that can come with it. So yeah, I'd say it's worth taking the time to make sure the wound is properly evaluated.",
-        "color": "purple"
+        "parent_id": 1,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Good reminder about the potential for post-shock hyperkalemia, Aris. I've seen patients with significant AKI develop this as well. Has anyone else experienced it in their practice?",
+        "color": "orange"
       },
       {
         "id": 6,
         "parent_id": 5,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Gupta, thanks for clarifying that! I get it now. But what about cases where the foreign body is really small, like in the OP's scenario? Is it really worth the trouble to remove it?",
-        "color": "green"
+        "user": "Tango Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Actually, I saw a case last week where hyperkalemia was severe enough to require emergent hemodialysis. The patient came in with severe cardiac arrest after electrical shock... ",
+        "color": "yellow"
       },
       {
         "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Barb Miller",
-        "role": "MD",
-        "city": "Winnipeg, MB",
-        "text": "Honestly, kiddo, even small foreign bodies can cause problems down the line. I've seen cases where a tiny fragment of glass or metal has caused chronic pain and limited mobility. So yeah, it's worth the trouble to remove it, even if it's a tiny piece. Better safe than sorry, right?",
-        "color": "purple"
-      },
-      {
-        "id": 8,
-        "parent_id": 1,
-        "user": "Dr. 'Ziggy' Zalesky",
-        "role": "MD",
-        "city": "Vancouver, BC",
-        "text": "Hey, folks! Don't forget about ultrasound in the wound evaluation game! It's an awesome tool for detecting foreign bodies, especially when direct visualization isn't possible. I've used it countless times in the ER, and it's saved the day more times than I can count. Anyone else got some favorite tricks for wound evaluation?",
-        "color": "purple"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Ah, Ziggy's got it right! Ultrasound is a total game-changer for wound eval. I've seen Dr. Thorne use it to detect foreign bodies in even the most hard-to-see wounds. Can you share some tips for using ultrasound for wound evaluation, Ziggy?",
-        "color": "blue"
-      },
-      {
-        "id": 10,
-        "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Actually, doesn't CT scan have a higher sensitivity for detecting foreign bodies than plain film radiography? I thought I read that somewhere... Can anyone confirm or deny this?",
-        "color": "pink"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Dr. Henry Oldman",
-        "role": "MD",
-        "city": "Victoria, BC",
-        "text": "Ah, Sarah, I think you're absolutely right! I recall a study that found CT scan had a higher sensitivity for detecting foreign bodies, especially in cases where the objects were made of non-metallic materials. So yeah, it's a good thing to consider CT scan over plain film for cases where the foreign body is unclear.",
-        "color": "purple"
-      },
-      {
-        "id": 12,
-        "parent_id": 1,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "MD",
-        "city": "Vancouver, BC",
-        "text": "Great discussion, folks! Let's keep it going. Anyone got any favorite resources or tips for wound evaluation and management?",
-        "color": "purple"
-      },
-      {
-        "id": 13,
-        "parent_id": 12,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Zalesky, that would be awesome! I'm always looking for new resources and tips to stay up-to-date on wound evaluation.",
-        "color": "green"
-      },
-      {
-        "id": 14,
-        "parent_id": 13,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Hey Leo, have you heard of the WoundCare Education website? It's got tons of awesome resources on wound evaluation and management, including videos and articles. We use it in the ER all the time.",
-        "color": "blue"
-      }
-    ]
-  },
-  {
-    "id": 101,
-    "title": "Frustrating PUD case - what's the deal with NSAID ulcers?",
-    "body": "Just saw a patient with a 'classic' peptic ulcer disease (PUD) presentation - epigastric pain, weight loss, and a history of NSAID use. But when I dug deeper, I realized that the patient had only been taking ibuprofen for a few weeks, which is hardly enough time for a steroid-induced ulcer. So what's the truth about NSAID ulcers? Can anyone tell me about the mechanisms behind them? Are there any new guidelines or recommendations for managing NSAID-related PUD? \n   TL;DR - I had a PUD case that made me question the role of NSAIDs, and I'd love some expert opinions.",
-    "category": "emergency_medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Toronto, ON",
-        "text": "Great question! NSAID-induced ulcers are a real thing, but the literature suggests that the risk is dose-dependent. I'm thinking of a paper by Lanza et al. that showed a strong correlation between NSAID use and ulcer risk, but the incidence was much higher in patients taking high-dose NSAIDs. Maybe your patient was just a statistical outlier?\n         Anyway, if I'm seeing a patient with a suspicious PUD, I always think about the possibility of NSAID-induced ulcers, especially if they're on high doses or have a history of gastritis.",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": null,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "",
-        "text": "I'm the patient in question, and I have to say, I was a bit surprised when the doc said I might have a PUD. I'm not an NSAID user, but I did have a few glasses of wine a night for a while. Could that have caused it?"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Hey Maya, what about the role of COX-2 inhibitors? I've heard they're safer for GI health, but I'm not sure if that's just marketing hype. Can you enlighten us?"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Sue's got a good point! COX-2 inhibitors do have a lower risk of GI bleed, but what about the risk of renal damage? Should we be recommending them more frequently, or are they just a niche product?"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "I'm a bit confused - don't NSAID-induced ulcers often require proton pump inhibitors (PPIs) for treatment? What about other treatments, like H2 blockers or sucralfate?"
-      },
-      {
-        "id": 6,
         "parent_id": 5,
         "user": "Dr. Elena Varkov",
         "role": "FRCPC",
         "city": "Quebec City, QC",
-        "text": "Kevin, you're on the right track! PPIs are often the first line of treatment for NSAID-induced ulcers, but H2 blockers can be used in certain cases. The trick is to identify the right patients - e.g., those with a history of ulcer complications or those taking high-dose NSAIDs. Oh, and let's not forget about the importance of discontinuing NSAIDs and replacing them with acetaminophen!"
-      },
-      {
-        "id": 7,
-        "parent_id": 1,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "You're all debating the treatment options, but what about the prevention side of things? Don't we need to start recommending gastoprotectants to all our NSAID-users, stat?"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Rick, you're preaching to the choir! Gastoprotectants are a game-changer for patients on long-term NSAIDs. But we should be cautious not to overprescribe them - we don't want to create more problems than we solve."
-      }
-    ]
-  },
-  {
-    "id": 12345,
-    "title": "Just saw a patient with a classic case of supine hypotension syndrome - any pearls to add?",
-    "body": "I just saw a 30-year-old G3P2 at 32 weeks with a history of blunt abdominal trauma. She presented with mild hypotension and tachycardia despite a relatively stable vitals chart. I suspected supine hypotension syndrome (SHS) given her third-trimester gestation and was about to put her in a left lateral decubitus position when she suddenly dropped to 60s BP and required a fluid bolus. The patient's uterus was elevated due to the expanding fetal head, compressing the inferior vena cava and leading to venous return to her lower limbs, hence the hypotension. We managed to stabilize the patient, but I'd love to hear from you guys: any other cases or mechanisms you've seen where SHS was diagnosed/treated?\n\nTLDR; SHS in pregnant patients: don't overlook this cause of hypotension!",
-    "category": "EM",
-    "comments": [
-      {
-        "id": "1234_1",
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I had a similar case last month where the patient had an epidural at home, but due to the compression of the inferior vena cava, it shifted the epidural catheter into the lower lumbar region, causing more harm than good! We had to get a new epidural and put her in a left lateral decubitus position ASAP. The takeaway is: if you suspect SHS in a pregnant patient, get the IV line in and get her into a left lateral decubitus position ASAP, and don't mess around with the epidural placement!",
-        "color": "purple"
-      },
-      {
-        "id": "1234_1234_2",
-        "parent_id": "1234_1",
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Love the shout-out to left lateral decubitus positioning! Don't know if it's worth noting, but you'd be surprised how many patients are initially put in supine because we forget that it's bad for pregnant patients... One time, I put a patient in supine for some ultrasound, and they went into shock. It was an easy fix, but still, you get the point: left lateral decubitus for the win!",
-        "color": "green"
-      },
-      {
-        "id": "1234_1234_3",
-        "parent_id": "1234_1",
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Actually, I'd argue we do mess around with epidural placement. Have you considered putting patients in a lateral decubitus position before epidural placement? That way, you're minimizing the risk of SHS...?",
-        "color": "orange"
-      }
-    ],
-    "image": "x-raw-image:///f97be1bcc830641c0cc4960cc62155ee25f788f4077a8bbcc75ad0e0bb98bea4"
-  },
-  {
-    "id": 1,
-    "title": "TL;DR: Chronic Regional Pain and the ED - A Pain in the Neck (and Wallet)",
-    "body": "Rant about the challenges of managing chronic pain in the ED. Just saw a patient with complex regional pain syndrome who had been to multiple EDs and specialist clinics without a definitive diagnosis. The cost of the diagnostic workup was staggering, and we ended up referring him to a pain specialist for further evaluation. Has anyone else had to deal with a similar situation?",
-    "category": "medicine",
-    "comments": [
-      {
-        "id": 11,
-        "parent_id": null,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Omg, yes! I had a similar case last week. The patient had been experiencing chronic pain in their upper extremity for months and had been to multiple specialists without a diagnosis. We ended up ordering an MRI and a nerve conduction study, which came back normal. I'm still waiting for the results of the thermography study. Anyone have experience with thermography in the ED?",
-        "color": "blue"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "We've had a few cases of thermography in the ED, but it's not common. I've heard it's a bit of a wild goose chase, to be honest. Have you considered referring the patient to a pain specialist or an occupational medicine doc for further evaluation?",
-        "color": "red"
-      },
-      {
-        "id": 13,
-        "parent_id": 12,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Good point! I've actually referred the patient to a pain specialist, but I'm still waiting for the results of the thermography study. Do you think it's a good idea to continue with the workup or to just refer the patient to the specialist for further evaluation?",
-        "color": "green"
-      },
-      {
-        "id": 14,
-        "parent_id": 13,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "I think it's a good idea to continue with the workup. Complex regional pain syndrome can be difficult to diagnose, and we want to rule out any other potential causes of the patient's symptoms. Can someone clarify the diagnostic criteria for CRPS and what to expect from the thermography study?",
-        "color": "purple"
-      },
-      {
-        "id": 15,
-        "parent_id": 14,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "According to the IASP criteria, CRPS is diagnosed based on the presence of pain, hyperesthesia, or allodynia in the affected region, along with at least one of the following: edema, changes in skin temperature or color, or decreased range of motion. The thermography study is used to evaluate changes in skin temperature, but it's not a definitive test. We usually use it in conjunction with other diagnostic tools.",
-        "color": "red"
-      },
-      {
-        "id": 16,
-        "parent_id": 15,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Thanks for clarifying that for us! What about treatment options for CRPS? I've heard that NSAIDs and acetaminophen are often used, but are there any other medications that are commonly used in the ED or primary care setting?",
-        "color": "purple"
-      },
-      {
-        "id": 17,
-        "parent_id": 16,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Yes, there are several other medications that can be used in the ED or primary care setting. We often use gabapentinoids, muscle relaxants, and anticonvulsants to manage pain and inflammation. However, it's worth noting that treatment should be individualized based on the patient's specific needs and medical history.",
-        "color": "green"
-      },
-      {
-        "id": 18,
-        "parent_id": null,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "Liniment, my friends, liniment! I recall using it to treat patients with rheumatism and neuralgia. Of course, that was back in the 1930s, but I still think a good liniment can work wonders for patients with chronic pain.",
-        "color": "purple"
-      },
-      {
-        "id": 19,
-        "parent_id": 18,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Umm, doc, I think you might be joking. Liniment isn't exactly a standard treatment for chronic pain anymore.",
-        "color": "red"
-      },
-      {
-        "id": 20,
-        "parent_id": 19,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "Oh, dear me! I suppose I was just having a bit of fun. Yes, times have certainly changed in the world of medicine. But, I still think a good liniment can work wonders... for the soul, I mean.",
-        "color": "green"
-      },
-      {
-        "id": 21,
-        "parent_id": null,
-        "user": "Dr. Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "TL;DR: Don't waste your time with thermography and NSAIDs. Just refer the patient to a pain specialist and call it a day.",
-        "color": "purple"
-      },
-      {
-        "id": 22,
-        "parent_id": 21,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "I couldn't agree more, Dr. Stone. As nurses, we know that pain management in the ED is often a losing battle. Maybe we should just start referring all pain patients to specialists and be done with it?",
-        "color": "red"
-      }
-    ]
-  },
-  {
-    "title": "Today I Learned: Acute Angle-Closure Glaucoma in the ED",
-    "body": "I just saw a patient who came in with sudden eye pain, cloudy vision, and coloured halos around lights. She was diagnosed with acute angle-closure glaucoma, which is a true ocular emergency. But what really got me thinking was that she came in after being on erythromycin 2% ointment four times daily, which can precipitate an attack in susceptible individuals. Has anyone else encountered this in their clinical practice? What's the best way to evaluate and manage these patients in the ED?",
-    "category": "emergency medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "TLDR: Acute angle-closure glaucoma is a true emergency. We need to be vigilant when using topical antibiotics like erythromycin 2% ointment. I always warn patients about the potential risks and monitor them closely. In fact, I've seen patients develop angle-closure glaucoma after using over-the-counter eye drops for eye infections. Has anyone seen that in their practice? Check out this article on the topic: <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4419649/>. And yes, steroids should be started promptly as outlined in the paper. Thanks for bringing this up!",
-        "color": "purple",
-        "replies": [
-          {
-            "id": 2,
-            "parent_id": 1,
-            "user": "Leo Chen",
-            "role": "MS1",
-            "city": "Montreal, QC",
-            "text": "Dr. Thorne, thank you for the link! I was wondering, how do you determine who's at risk for developing angle-closure glaucoma? Is it just based on the patient's medical history or are there other factors at play?",
-            "color": "green"
-          },
-          {
-            "id": 3,
-            "parent_id": 1,
-            "user": "Sarah Jenkins",
-            "role": "MS3",
-            "city": "Ottawa, ON",
-            "text": "I've seen patients develop angle-closure glaucoma after using eye drops for conjunctivitis. But I'm not sure if it's just a coincidence or if there's a real link. Can anyone comment on the relationship between conjunctivitis and angle-closure glaucoma?",
-            "color": "green"
-          }
-        ]
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Hey team, I've got a question. What's the best way to communicate the risks of acute angle-closure glaucoma to patients who are just coming in for a routine eye exam? We need to educate them on the potential risks of using certain eye drops, but we also don't want to scare them off from seeking medical attention.",
-        "color": "blue"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "TLDR: Acute angle-closure glaucoma is a ticking time bomb. We need to be vigilant when using topical antibiotics and make sure patients understand the risks. And yes, steroids should be started promptly. But let's not forget about the importance of proper patient education. We need to make sure patients know what to look out for and how to manage their medications.",
-        "color": "red"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "Excuse me, I think I might have acute angle-closure glaucoma. I've been experiencing severe eye pain and colourful halos around lights. Can anyone tell me what to do?",
+        "text": "That's a good point, but what about the role of rhabdomyolysis in post-shock hyperkalemia? Can we consider this a common pathway or is there another mechanism at play...",
         "color": "pink"
-      }
-    ]
-  },
-  {
-    "id": 6,
-    "title": "Just saw a patient with a stroke who didn't fit the classic profile... any pearls?",
-    "category": "Emergency Medicine",
-    "body": "Just saw a 42-year-old female patient present with sudden onset of right hemiparesis, altered level of consciousness, and fever. She had no significant past medical history, but her husband mentioned that she had been experiencing severe migraines for the past week. CT scan showed a large middle cerebral artery infarct. We were unable to identify any of the typical stroke risk factors, including hypertension, hyperlipidemia, diabetes, or smoking. I couldn't help but think of the phrase 'stroke in disguise.' Has anyone else seen a case like this recently? Any insights would be greatly appreciated!",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Victor Sterling",
-        "role": "MD",
-        "city": "Calgary, AB",
-        "text": "Amateurs. You're forgetting the most important risk factor: migraine. Anyone who's seen these patients knows that migraines are a major harbinger of stroke. Just because the patient doesn't fit the classic profile doesn't mean she's not at risk. We're not just talking about the obvious stuff here; we're talking about the nuances of medicine that separate the greats from the mediocre. [link to article on migraine and stroke](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4721917/)",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "I'm familiar with the concept of 'stroke in disguise,' but could someone explain it in simpler terms? I'm having trouble understanding how migraines fit into the picture. Is it related to vasospasm or something? TLDR:",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MD",
-        "city": "Ottawa, ON",
-        "text": "Dr. Sterling, I appreciate your confidence, but let's not forget the complexities of individual cases. We can't just assume that every patient with migraines is at risk for stroke. There's a wealth of literature on the topic, and most studies have found that the risk is relatively low. Perhaps we should focus on identifying more specific risk factors, such as the type of migraine or the presence of other comorbidities? [link to study on migraines and stroke](https://www.neurology.org/content/early/2018/02/28/WNL.0000000000005407)",
-        "color": "indigo"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Kevin Park",
-        "role": "Intern",
-        "city": "Edmonton, AB",
-        "text": "Thank you, Sarah, that makes sense. I was worried that we were over-simplifying the issue. Do you think we should be ordering any specific tests or procedures to rule out other causes of the patient's symptoms? I know that we did the standard stroke workup, but I'm not sure if there's anything else we could do to improve our diagnosis.",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": null,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Hey guys, just chiming in to say that I've seen a few cases like this in the past. It's always interesting to figure out the underlying cause of the stroke. Has anyone ever considered the possibility of a vasculitic process? These patients often present with migraines and subsequent strokes, and it's a good thing we did the CT to rule out a large clot. Anyone else have a hunch about what might be going on here?",
-        "color": "teal"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Great point, Dr. Zalesky! I've had a few cases where patients presented with migraines and subsequent strokes, and it turned out to be a vasculitic process. We should definitely consider ordering an ESR or CRP to rule out inflammation. It's amazing how often the underlying cause of the stroke can be so subtle. Has anyone else ever seen a case of vasculitis presenting like this?",
-        "color": "magenta"
-      },
-      {
-        "id": 7,
-        "parent_id": null,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Just a thought, but have you guys considered the possibility of a medication-related cause? We've had a few cases in our ED where patients have presented with strokes after taking certain medications. It's always a good idea to ask about the patient's medication history, especially if they're on anything that can increase their risk for stroke.",
-        "color": "orange"
       },
       {
         "id": 8,
         "parent_id": 7,
-        "user": "Brock Stone",
-        "role": "Surgeon",
-        "city": "Hamilton, ON",
-        "text": "Medication-related causes? You think that's a real possibility? I mean, I suppose it's not entirely unheard of, but it's not usually the culprit in these cases. I'd love to see some evidence to support that claim. Could you provide some refs or studies, @TurboTom?",
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "I've heard that hyperkalemia can be prevented in some cases by using potassium-binding resins, but doesn't that just delay the inevitable? What's the evidence on this...",
         "color": "purple"
       },
       {
         "id": 9,
-        "parent_id": null,
-        "user": "Anon",
-        "role": "Unknown",
-        "city": "Unknown",
-        "text": "TLDR: 'stroke in disguise'. I've seen it time and time again. Always a migraine, always a stroke. Always. Just something to keep in mind for future cases.",
-        "color": "gray"
+        "parent_id": 1,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "I've seen a few cases of AKI in patients after electrical shock, but the question is always whether that's directly related to the shock itself or the subsequent treatment...",
+        "color": "green"
       },
       {
         "id": 10,
         "parent_id": 9,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "What's the take-home message from this thread? Is it true that every patient with migraines is at risk for stroke? Can anyone summarize the key points for us?",
-        "color": "green"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "In summary, it's not that simple. Patients with migraines may be at a higher risk for stroke, but it's not a guarantee. We need to consider individual risk factors, comorbidities, and underlying causes before making a diagnosis. Keep in mind that stroke in disguise refers to the subtle presentation of stroke, not a specific risk factor like migraines. Hope that clears things up!",
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "I've got a patient with suspected electrical shock, and I'm worried about AKI. I want to do an MRI to rule out potential complications, but the radiologists are saying it's not indicated in this case... What do you guys think.",
         "color": "blue"
-      },
-      {
-        "id": 12,
-        "parent_id": 5,
-        "user": "Dr. Archibald Thorne",
-        "role": "MD",
-        "city": "Saskatoon, SK",
-        "text": "Fascinating discussion, my friends. I must say, I'm reminded of the great apoplexy epidemics of years past. The subtlety of the presentation is exactly what makes these cases so confounding. In my day, we relied heavily on the ol' liniment and rest, but these modern medical marvels have given us so much more.",
-        "color": "brown"
-      },
-      {
-        "id": 13,
-        "parent_id": 12,
-        "user": "Maya Gupta",
-        "role": "Resident",
-        "city": "Mississauga, ON",
-        "text": "Ha ha, Dr. Thorne, you're always so witty! But seriously, what's the take-home message from this discussion? How can we improve our diagnosis and treatment of these patients in the future?",
-        "color": "green"
       }
-    ],
-    "image": "https://media.springernature.com/m685/springer-static/image/art%3A10.1186%2Fs12245-024-00780-5/MediaObjects/12245_2024_780_Fig1_HTML.png"
+    ]
   },
   {
-    "title": "Rant about the difficulties of diagnosing acute cholecystitis in the modern emergency department.",
-    "body": "Just saw a patient with suspected acute cholecystitis, but what was a straightforward case ended up being a mess. The patient had all the classic signs, including pain in the right upper quadrant that radiated to the back, fever, and jaundice. However, the ultrasound was inconclusive, and we couldn't get the HIDA scan to work due to a technical issue. The patient's WBC was slightly elevated, but not enough to send us down the bacterial pneumonia path. Long story short, we ended up keeping the patient overnight to monitor the situation and got the HIDA scan the next morning, which finally came back positive. We ended up admitting the patient for cholecystitis, but it felt like we were playing a game of diagnostic roulette. Has anyone else out there had similar experiences with acute cholecystitis diagnosis?",
+    "id": 9,
+    "title": "Today I learned: the importance of prompt sexual assault forensic evidence collection",
+    "body": "Just saw a patient with sexual assault, and I was reminded of the importance of prompt collection and handling of forensic evidence. Anyone else have experience with this in the ED? Key concerns include timing of collection (within 72 hrs), informed consent, and proper chain of custody. Can we talk about this more?",
     "category": "emergency medicine",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "FRCPC",
-        "city": "Toronto, ON",
-        "text": "TLDR: The HIDA scan took two tries to get right, and we almost sent the patient home. What's your experience with HIDA scans in the ED? Do you use them more for diagnosis or as a tie-breaker after you've already got the ultrasound and symptoms on your side?",
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "TLDR; yes, prompt collection is key. I always remind our nurses to use the prepackaged rape kits and maintain chain of custody. What's the latest on the 'no semen' argument? I've had patients who deny semen, but still have high risk flags.",
         "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Oh dear, that sounds like quite the ordeal! But, on the bright side, you got to teach the HIDA scan to the team. And isn't it just wonderful how those scans work out when you've got a few more hours of observation under your belt?",
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Great points, @Dr. Maya Gupta! The 'no semen' argument is a red flag for us. Always investigate other STIs or non-coital trauma. One thing I'd add is that we should also be concerned with other types of trauma, like anal or vaginal trauma. Has anyone else had experience with anoscopy or colposcopy?",
         "color": "green"
       },
       {
         "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "What kind of technical issue did you experience with the HIDA scan? Was it equipment-related or were there issues with contrast injection?",
-        "color": "purple"
+        "parent_id": 2,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Hi @Dr. Sarah Sharp, what's the rationale behind anoscopy or colposcopy? Is it just for anal or vaginal trauma?",
+        "color": "blue"
       },
       {
         "id": 4,
         "parent_id": 3,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "HIDA scans are so sensitive that if you get a bad one it might look like a stone in the bile duct, but if it's a partial obstruction, it just comes up blank. I'm no doctor, but I'm pretty sure that's how it works.",
-        "color": "green"
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "For anoscopy or colposcopy, you want to look for any signs of trauma, like abrasions or lacerations. This can be especially important for anal trauma, as it might not always present with pain. Anyone else do these procedures often?",
+        "color": "orange"
       },
       {
         "id": 5,
-        "parent_id": 1,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "The main thing that jumps out at me is how long it took to get the HIDA scan done. We should be doing these in 20 minutes, not hours. Anybody have any ideas on how to streamline this process?",
+        "parent_id": 4,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Yes, I do anoscopy often, and I think it's underused in our ED. If we suspect anal trauma, it's a game-changer to get a visual of the trauma. Has anyone used anoscopy to identify Fournier's gangrene or other complications?",
         "color": "purple"
       },
       {
         "id": 6,
         "parent_id": 5,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "It's not just about the scan itself, we need to rethink how we're getting the patient ready for it, as well. Like, what if instead of running down the hallway trying to get the patient hooked up to IV fluids we just used the ultrasound machine right there and then? I know it sounds a bit crazy, but it's gotta be worth a shot.",
-        "color": "green"
-      },
-      {
-        "id": 7,
-        "parent_id": 1,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "HIDA scans are used to check whether the gallbladder is able to empty bile into the small intestine. Do I sound right?",
-        "color": "purple"
-      },
-      {
-        "id": 8,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "We need to start thinking about how to make HIDA scans a more accessible and efficient tool for our patients. Maybe it's time to look at getting some more advanced imaging equipment, or getting better training for our docs and nurses. This way, we can provide top-notch care without the long wait times and technical mishaps.",
-        "color": "green"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "The key is to remember that the HIDA scan is just one piece of the puzzle, not the solution itself. A negative scan does not exclude the presence of acute cholecystitis, folks. We need to be using our clinical judgment here and not relying so heavily on one specific test.",
-        "color": "purple"
-      },
-      {
-        "id": 10,
-        "parent_id": 1,
-        "user": "Dr. Phil Muddle",
-        "role": "EP",
-        "city": "Regina, SK",
-        "text": "I had a patient the other day who came in saying she had 'apoclyptic pains'. I have no idea what that is, but she seemed quite upset so I thought I'd better run a HIDA scan.",
-        "color": "green"
-      }
-    ]
-  },
-  {
-    "id": 23,
-    "title": "Just encountered a complicated diverticulitis case... ",
-    "body": "Had a miss last night with a 65-year-old male patient presenting with left lower quadrant pain, fever, and leukocytosis. CT scan revealed a diverticulitis complicated by an abscess and bowel obstruction. I ended up needing to involve surgery and we had a long, intense discussion about the risks and benefits of resecting the sigmoid colon. Has anyone else encountered a similar scenario? The patient ended up going for a Hartmann's procedure and I'm just wondering if we should have considered other options...  Any thoughts, folks?",
-    "category": "EmergencyMedicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Great case, OP! I've seen a few of these complicated diverticulitis cases and it's always a challenge to balance the risks of surgical intervention vs. conservative management. Did you have a chance to discuss the patient's surgical options with his surgeon? I'd be curious to know more about your thought process behind recommending a Hartmann's procedure. One thing to consider is also the patient's comorbidities, specifically his cardiovascular health and any potential renal impairment. Have you looked up the guidelines from the ASCRS on managing complicated diverticulitis? [link to guideline document].",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": null,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "Amateurs. You think this is complicated? At least he didn't come in with a gunshot wound and ask you to sew him back up yourself. Diverticulitis is a walk in the park compared to what I deal with on a daily basis. Don't get me wrong, it's still a serious condition, but come on. Next thing you know, some whiz kid intern is going to come in here and tell us all about how they managed to treat their patient with a fancy new algorithm... Newsflash: we don't need no stinkin' algorithm to treat a simple case like this.",
-        "color": "red"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "@Dr. Thorne, good point about the patient's comorbidities. However, I think it's also worth considering the fact that we were dealing with a perforation in this case. A Hartmann's procedure might have been the better option to prevent further complications and minimize the risk of an intra-abdominal abscess. Has anyone looked into the current recommendations for the treatment of perforated diverticulitis?",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 2,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "I'm just gonna say it, doc. The OP's concern about the patient's surgical options should be taken more seriously. We don't want some intern coming in here with a bright idea and putting our patients' lives at risk. But honestly, who's got the time to think about all these fancy algorithms and guidelines? In my experience, it's always about getting the patient stable and into surgery. The rest is just gravy.",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": 3,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "@Dr. Sterling, I've been studying up on the literature and I found a few studies that suggest that Hartmann's procedure is not always the best option for diverticulitis. Some authors argue that more conservative approaches like antibiotics and drainage might be just as effective. Has anyone else looked into these studies?",
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "Hi docs, I'm a poet and a trauma patient. Does anoscopy hurt? I'm freaking out about the thought of it. Thanks for answering my question.",
         "color": "yellow"
       },
       {
-        "id": 6,
-        "parent_id": 4,
+        "id": 7,
+        "parent_id": 6,
         "user": "Dr. Henry Oldman",
         "role": "CCFP",
         "city": "Victoria, BC",
-        "text": "I've seen too many of these complicated diverticulitis cases myself, and it's always a tough call. At the end of the day, I think it's all about getting the patient's airway, breathing, and circulation (the ABCs) stabilized, and then taking it from there. Don't get me wrong, it's great to have all these fancy guidelines and algorithms, but sometimes I think we forget the basics. What do you guys think about using more conservative approaches in these cases?",
-        "color": "orange"
-      },
-      {
-        "id": 7,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Great point about the patient's comorbidities, and I agree that a Hartmann's procedure might not have been the best option. Did anyone consider using a more minimally invasive approach, like a sigmoidoscopy or even an antibiotic-only treatment plan? I'd love to hear more about any complications that arose from this patient's care.",
+        "text": "Hello @Barnaby Finch, as a family doc, I can tell you that anoscopy is not usually painful. We use local anesthetics and/or conscious sedation to minimize discomfort. But if you're anxious, let your ED team know, and we'll work with you.",
         "color": "pink"
       },
       {
         "id": 8,
-        "parent_id": 2,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "What's with all this talk about diverticulitis? In my day, we didn't need all these fancy studies and guidelines to know how to treat a simple case. We just knew what to do. But hey, I guess that's just my 30-year experience talking. Next thing you know, you'll be telling me that the best way to treat a patient with diverticulitis is to give 'em a nice warm cup of tea and some Benadryl.",
-        "color": "purple"
+        "parent_id": 7,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Dr. Oldman, what's your approach to local anesthesia or sedation? Do you use anything specific?",
+        "color": "blue"
       }
     ],
-    "image": "https://images.squarespace-cdn.com/content/v1/549b0d5fe4b031a76584e558/9df329f6-7a55-44c7-af32-e626976f7c25/Acute+diverticulitis+management+for+the+Emergency+Medicine+Provider+Final+Draft.jpg"
+    "image": "https://www.ebmedicine.net/spaw/uploads/aboutUs/Documentation%20Keys%20Emergency%20Medicine%20Practice.JPG"
   }
 ]
