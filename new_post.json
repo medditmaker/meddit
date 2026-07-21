@@ -1,16 +1,17 @@
 [
   {
-    "title": "Had a shocker last night...",
-    "body": "We had a patient come in with traumatic shock post electric shock. I know the basics of shock management, but this case highlighted some nuances that made it tricky to manage. The patient had a GCS of 13 but was hypotensive with a CVP of 4. I started IV fluids and vasopressors, but as we were resuscitating, the patient's hemodynamics started to improve, but their cardiac rhythm became increasingly chaotic. I was thinking maybe it was a ventricular fibrillation or tachycardia, but the ECG showed some other arrhythmia. Can anyone help me identify this rhythm and whether it's more relevant to the patient's overall management?",
-    "category": "Emergency Medicine",
+    "id": 234,
+    "title": "Just saw a patient with Hyperosmolar Hyperglycemic State (HHS)...",
+    "body": "A 75-year-old woman with a history of type 2 diabetes presents to the ED with weakness, dyspnea, and altered mental status. Her glucose is 730 mg/dL, osmolality is 340 mOsm/kg, and bicarbonate is 18 mEq/L. Given her severe hyperglycemia and hyperosmolality, I'm considering treatment with insulin and fluids, but I wanted to get a second opinion from my colleagues.\n\n",
+    "category": "emergency medicine",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Had a similar case last week. It turned out to be a cardiac tamponade with a tension pneumothorax. Make sure to check the patient's anterior-posterior chest X-ray for signs of pneumothorax, and also, I would have ordered a bedside echocardiogram to rule out tamponade. Here's a link to a great resource on bedside echocardiography: https://www.acep.org/Clinical---Practice-Management/Learn-Bedside-Echocardiography/",
+        "user": "Dr. Aris Thorne",
+        "role": "MD",
+        "city": "Toronto, ON",
+        "text": "Great case! In HHS, we need to be mindful of the risk of cerebral edema, especially in young patients or those with new-onset diabetes. Have you considered starting with mannitol before getting a CT scan if there's any change in neuro status?",
         "color": "purple"
       },
       {
@@ -19,107 +20,44 @@
         "user": "Dr. Kevin Park",
         "role": "PGY1",
         "city": "Edmonton, AB",
-        "text": "Thanks, Dr. Gupta! I would have missed the cardiac tamponade if I hadn't seen your comment. Can you explain why you chose to order the bedside echocardiogram over other imaging modalities like CT or X-ray?",
+        "text": "Dr. Thorne, I've read that cerebral edema is a risk in HHS, but isn't it more common in DKA? Can you clarify why it's a concern in HHS as well?",
         "color": "green"
       },
       {
         "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Not to derail the conversation, but I think it's worth noting that hypotension in traumatic shock can be due to not just volume depletion but also other causes like spinal cord injury or neurogenic shock. Have any of you guys seen cases where the hypotension persisted despite resuscitation, and if so, what was the underlying cause?",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "Actually, I've seen cases like that before. It was spinal cord injuries with associated neurogenic shock. The key is to manage the patient's hemodynamics with IV fluids and vasopressors, but also to consider mechanical measures like chest trauma or abdominal trauma, and also to have a high index of suspicion for occult bleeding. I like to use the 'shock triangle' framework to guide my management: hypovolemia, cardiac dysfunction, and distributive shock. Does that make sense?",
-        "color": "red"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "That's really helpful, Dr. Stone! Can you explain the 'shock triangle' in more detail? How do you determine which type of shock the patient is in?",
-        "color": "orange"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "I like to use the 'shock triangle' as a framework for clinical decision-making. When patients present with shock, I think about the three possible explanations: hypovolemia, cardiac dysfunction, and distributive shock. Then I try to gather more information through history, physical examination, and diagnostic testing to guide my management. It's not a one-size-fits-all approach, but rather a tool to help me navigate the complex world of shock",
-        "color": "pink"
-      }
-    ],
-    "image": "https://i0.wp.com/emcrit.org/wp-content/uploads/2021/11/shockapproachtable.jpg?resize=450%2C639&ssl=1"
-  },
-  {
-    "id": 1,
-    "title": "Had a miss last night... Spontaneous Bacterial Peritonitis in Cirrhosis. Anyone else ever have a patient with a normal WBC?",
-    "body": "Just saw a patient with cirrhosis who presented with worsening ascites and edema. He had a normal WBC on the chart, but the abdominal fluid cultures eventually grew out e.coli. I'm still trying to wrap my head around how this slipped under the radar. Had anyone else ever have a patient with cirrhosis present with what seemed like a normal infection, only to find out it was SBP?",
-    "category": "EM",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
+        "parent_id": 2,
         "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
+        "role": "MD",
         "city": "Toronto, ON",
-        "text": "Spontaneous Bacterial Peritonitis (SBP) is a tricky one indeed. The key is to be high index of suspicion. I always think about it in patients with cirrhosis and ascites, especially if they're not responding to medical management. In this case, the patient's normal WBC might have thrown me off. Did you recheck their WBC after admission?",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Thorne, didn't you say that SBP is often a silent killer because the signs are non-specific? And how can we increase our suspicion pre-admission?",
+        "text": "Excellent question, Dr. Park! While cerebral edema is more common in DKA, it can still occur in HHS, especially in the context of rapid fluid shifts and hyperglycemia. I'd recommend considering mannitol if you have any concerns about neuro status, but it's not a hard and fast rule.",
         "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs. You're making a big deal out of a small diagnosis. A normal WBC means nothing in the context of SBP. You need to look at the whole picture: the patient's history, physical exam, and lab results. And by the way, what's with all this 'Spontaneous Bacterial Peritonitis' business? Can't we just call it ' Ascites Infection'?",
-        "color": "blue"
       },
       {
         "id": 4,
         "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I couldn't agree more with Dr. Thorne. SBP is a serious condition and we should be thinking about it in all our patients with cirrhosis and ascites. Can we discuss some of the risk factors for SBP and how to approach the diagnosis in a practical sense?",
-        "color": "red"
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "OMG, Dr. Thorne, I had a patient last week with HHS and DKA... same thing, different name?",
+        "color": "pink"
       },
       {
         "id": 5,
         "parent_id": 4,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Dr. Gupta, according to this article from Hepatology, the risk factors for SBP include a history of SBP, ascites, and bilirubin levels above 2.8 mg/dL. Are there any other risk factors we should consider?",
-        "color": "yellow"
+        "user": "Dr. Aris Thorne",
+        "role": "MD",
+        "city": "Toronto, ON",
+        "text": "Ha! Same thing, different name, indeed, Sparkle-Eyes Sue! While the pathophysiology is different, the treatment goals are similar: correct the hyperosmolality, hyperglycemia, and electrolyte imbalance.",
+        "color": "pink"
       },
       {
         "id": 6,
         "parent_id": 1,
-        "user": "Dr. 'Ziggy' Zalesky",
+        "user": "Dr. Phil Muddle",
         "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Alright, guys, let's get real here. SBP is a tough diagnosis to make, but we need to be thinking about it in all our patients with cirrhosis and ascites. I always use the MELD score to assess the severity of their liver disease and adjust my suspicion of SBP accordingly.",
-        "color": "orange"
+        "city": "Regina, SK",
+        "text": "Uh, what's the diff between HHS and DKA again?",
+        "color": "blue"
       },
       {
         "id": 7,
@@ -127,116 +65,26 @@
         "user": "Dr. Barb Miller",
         "role": "EP",
         "city": "Winnipeg, MB",
-        "text": "Ziggy, I love the MELD score, but didn't you also recommend using the Child-Pugh Score as well? Which one do you think is more informative?",
-        "color": "pink"
+        "text": "Dr. Muddle, HHS is characterized by hyperglycemia > 600 mg/dL, elevated osmolality, and mild ketosis, whereas DKA is marked by hyperglycemia, metabolic acidosis, and significant ketosis.",
+        "color": "blue"
       },
       {
         "id": 8,
         "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "This conversation is a total train-wreck, but in a good way! As a nurse, I can tell you that our biggest challenge is getting the patients to take their medications as prescribed. Anyone else have tips on how to improve compliance?",
-        "color": "brown"
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "For those interested in a more in-depth review of HHS, I recommend checking out this excellent article from the NEJM: [link to article]",
+        "color": "yellow"
       },
       {
         "id": 9,
         "parent_id": 8,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "Ha! Good luck with that, Turbo. As a seasoned nurse, I can tell you that patients are more compliant when we explain things clearly and provide them with written instructions. And please, for the love of all things holy, don't just assume they understand!",
-        "color": "gray"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Today I Learned - Just saw a patient with severe genital trauma... ",
-    "body": "Had a crazy case last night. 25 yo male came in after a bike accident. He had severe lacerations to his penis, scrotum, and perineum. I'm talking flesh hanging off the bone level injuries. Patient was stable-ish but in a lot of pain. Anyways, after talking with the surgical team, we ended up sending him to OR for repair. The interesting part was when they got him on the table, they noticed he had a pretty significant scrotal avulsion with the testicle hanging from a tiny piece of skin. The surgery team was like 'this kid's gotta be 5'2\" to have this much testicle hanging off'.",
-    "category": "emergency medicine",
-    "created": 1657899876,
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
         "user": "Dr. Victor Sterling",
-        "role": null,
+        "role": "MD",
         "city": "Calgary, AB",
-        "text": "Amateurs. Anyone who can't tell the difference between an avulsion and a hematoma needs to get back to med school. By the way, has anyone seen that 'Trauma in Adults' chapter from Tintinalli's?",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Hahaha love it Dr. Sterling! As a nurse, I've seen my fair share of, uh, ' creative' diagnoses. Anyone have any good links or resources on scrotal avulsions? The surgery team was stumped last night. And @Dr. Sterling, by the way, that 'Trauma in Adults' chapter from Tintinalli's is a great resource - I linked it in the OP.",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "Don't be an idiot, Tom. Scrotal avulsions are a real thing. And if you don't know the difference, you shouldn't be working in the ER. I've seen my fair share of trauma patients, and I can tell you that a scrotal avulsion is NOT just a 'hematoma'.",
+        "text": "Amateurs. You'd be better off reading a basic textbook on endocrinology.",
         "color": "red"
-      },
-      {
-        "id": 4,
-        "parent_id": 2,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Hey guys, so I know this might be a dumb question, but what exactly is the difference between a scrotal avulsion and a hematoma? Like, I know it's a big deal, but I'm just trying to learn! Thanks in advance!",
-        "color": "blue"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. 'Ziggy' Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "No worries, Chad! A scrotal avulsion is basically when the testicle gets partially or completely torn off from the scrotum. It's a real emergency because blood can't flow to the testicle, and it can cause permanent damage. A hematoma, on the other hand, is basically just a collection of blood outside the blood vessels. It's not as bad, but it still needs to be treated ASAP.",
-        "color": "orange"
-      },
-      {
-        "id": 6,
-        "parent_id": 3,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Oh my goodness, Martha, don't be so hard on Tom! We all make mistakes, and it's great that he's asking questions. By the way, has anyone seen that study on scrotal avulsions from last year? I think it was in the Journal of Trauma and Acute Care Surgery...",
-        "color": "pink"
-      },
-      {
-        "id": 7,
-        "parent_id": 2,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Hey guys, so I was reading that chapter on Genitourinary Trauma in Tintinalli's and it talked about the different types of scrotal injuries. Can someone help me understand the difference between a scrotal laceration and an avulsion? Like, are they the same thing?",
-        "color": "yellow"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Good question, Leo! A scrotal laceration is basically when the skin on the scrotum gets cut or torn. It's not a big deal, usually, and can be treated with stitches or glue. An avulsion, on the other hand, is when the testicle gets partially or completely torn off from the scrotum. Like I said earlier, it's a real emergency.",
-        "color": "gray"
-      },
-      {
-        "id": 9,
-        "parent_id": 2,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "I'm still a bit confused about scrotal avulsions. Like, aren't they just a type of laceration? And how do you even diagnose one? Like, can you just look at the scrotum and say 'oh, that's an avulsion'?",
-        "color": "purple"
       },
       {
         "id": 10,
@@ -244,51 +92,25 @@
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "Good question, Kevin! Yeah, it's like you said - scrotal avulsions are a type of laceration. But when it comes to diagnosis, it's not just a matter of looking at the scrotum. You need to do a physical exam and sometimes an ultrasound to determine the exact extent of the injury. And don't forget to check for any other injuries, like a penile fracture!",
-        "color": "green"
-      },
-      {
-        "id": 11,
-        "parent_id": 2,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "I'm glad to see all the discussion about scrotal avulsions. One thing to keep in mind is that they can be really tricky to diagnose, especially in patients who are experiencing a lot of pain. Sometimes, it's not until the patient gets to the OR that we realize the true extent of the injury.",
-        "color": "orange"
-      },
-      {
-        "id": 12,
-        "parent_id": 2,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "I couldn't agree more with Dr. Oldman. Scrotal avulsions are a great example of why we need to approach trauma patients with a level head and avoid jumping to conclusions. And don't forget to check those sodium levels before we do anything!",
-        "color": "gray"
-      },
-      {
-        "id": 13,
-        "parent_id": 2,
-        "user": "Dr. Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "I'm a bit skeptical about how often scrotal avulsions really happen in the ER. Like, I've been practicing for years and I can count on one hand the number of times I've seen one. Don't get me wrong, they're serious injuries, but are they really as common as everyone makes them out to be?",
+        "text": "Actually, Dr. Sterling, HHS is a legitimate and complex condition that requires a nuanced understanding of glucose metabolism and osmoregulation. Perhaps you could spare your condescending remarks and join the discussion?",
         "color": "red"
       },
       {
-        "id": 14,
-        "parent_id": 13,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "I'm not sure about Dr. Stone's numbers, but I do know that scrotal avulsions are a lot more common in patients who are under 30. Like, I've seen a few cases in my time and it's always the younger guys who are more likely to get hurt in, uh, 'high-risk situations'",
-        "color": "pink"
+        "id": 11,
+        "parent_id": 10,
+        "user": "Dr. Aris Thorne",
+        "role": "MD",
+        "city": "Toronto, ON",
+        "text": "Well said, Dr. Gupta! Let's keep the discussion respectful and focused on the topic at hand.",
+        "color": "green"
       }
-    ]
+    ],
+    "image": "https://i0.wp.com/emcrit.org/wp-content/uploads/2020/07/hhsdefinition.jpg?fit=1486%2C1102&ssl=1"
   },
   {
     "id": 1,
-    "title": "Acute Angle-Closure Glaucoma: A Miss That Can Blind Your Patient",
-    "body": "Just saw a patient with Acute Angle-Closure Glaucoma and I'm still shaking my head. The symptoms were textbook: sudden onset of severe eye pain, cloudy vision, colored halos around lights, and vomiting. The patient was in her 60s and had a history of hypertension and glaucoma. I prescribed the standard treatment of acetazolamide, topical timolol, and oral prednisone, but I made a critical mistake. I didn't refer her to an ophthalmology consult ASAP. Luckily, our ophthalmologist saw her within 24 hours and performed a paracentesis to relieve the pressure. The patient made a full recovery, but I learned a valuable lesson.",
+    "title": "Rant about scalp lacerations: the pressure dressing debate",
+    "body": "Just saw a patient with a deep scalp laceration that I had to repair last night. I placed a pressure dressing over it to prevent hematoma formation, but I'm now questioning its necessity. Has anyone else dealt with scalp lacerations and used pressure dressings? Do they really make a difference?",
     "category": "CME",
     "comments": [
       {
@@ -297,662 +119,303 @@
         "user": "Dr. Aris Thorne",
         "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "Well said, OP. It's easy to get complacent when we think we know the drill, but Acute Angle-Closure Glaucoma is a true emergency. We should always err on the side of caution and refer the patient to an ophthalmologist ASAP. Anyone else have a similar experience?",
+        "text": "As a wise and kind attending, I must say that pressure dressings are indeed a valuable tool in preventing hematoma formation. However, they should be used judiciously, for example, in cases where the patient has a significant bleeding history or when the laceration is located in a cosmetically sensitive area. I would like to see a study that looks at the effectiveness of pressure dressings in scalp lacerations.",
         "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Dr. Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "That's a great anecdote, Dr. Thorne! I was wondering, what are some other signs or symptoms we should look out for to diagnose Acute Angle-Closure Glaucoma early on? I've been reading up on the topic and I'd love to hear from more experienced ER physicians",
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Dr. Thorne, I completely agree with your assessment. However, what is the recommended duration for the pressure dressing? Should we leave it on for 24 hours or until the hematoma resolves?",
         "color": "green"
       },
       {
         "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Great question, Sarah! Besides the classic symptoms, we should also be aware of other risk factors such as uveitis, retinal detachment, and trauma. And don't forget to check for increased intraocular pressure! What's the best way to monitor IOP in the ER?",
-        "color": "pink"
-      },
-      {
-        "id": 4,
         "parent_id": 1,
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "One thing to keep in mind, OP, is that Acute Angle-Closure Glaucoma can also present with an afferent pupillary defect (APD). We should be aware of this and check for it in our patients, especially if they're presenting with a unilateral visual disturbance",
+        "text": "I've found that pressure dressings can be particularly useful in cases where the patient has a history of bleeding disorders or is on anticoagulant therapy. Has anyone else encountered similar scenarios?",
+        "color": "pink"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "I've always been skeptical of pressure dressings. What's the evidence to support their use? A quick PubMed search yielded nothing conclusive. Can anyone point me to a reliable source?",
         "color": "blue"
       },
       {
         "id": 5,
         "parent_id": 4,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Wow, I had no idea about the APD! Can someone explain this to me in layman's terms? And what's the significance of this finding in diagnosing Acute Angle-Closure Glaucoma?",
-        "color": "gray"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Hey Chad, an afferent pupillary defect is when the pupil doesn't react properly to light. In the context of Acute Angle-Closure Glaucoma, an APD can indicate that the optic nerve is being compressed by the increased intraocular pressure. This is a key finding that can help us diagnose the condition and initiate treatment!",
-        "color": "brown"
-      },
-      {
-        "id": 7,
-        "parent_id": 5,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Enough about the APD, folks. The real issue here is that you're all still relying on outdated textbooks to make your diagnoses. Get with the times and use online resources like the American Academy of Ophthalmology (AAO) and the American Medical Association (AMA) to stay current on the latest research and treatment guidelines",
-        "color": "red"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Hey Dr. Sterling, I couldn't agree more about the importance of staying current with the literature. But what I'd love to know is what specific online resources you recommend for diagnosing and treating Acute Angle-Closure Glaucoma?",
-        "color": "purple"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
         "user": "Dr. Aris Thorne",
         "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "I've found the AAO website to be incredibly comprehensive when it comes to ophthalmic emergencies like Acute Angle-Closure Glaucoma. They have tons of resources, including guidelines, case studies, and even a podcast series on the topic. Has anyone else found the AAO website to be helpful?",
-        "color": "blue"
+        "text": "Dr. Stone, I understand your skepticism. However, there is some evidence suggesting that pressure dressings can be beneficial in preventing hematoma formation. A 2015 study published in the Journal of Emergency Medicine found that pressure dressings reduced hematoma rates by 50% in patients with scalp lacerations.",
+        "color": "purple"
       },
       {
-        "id": 10,
+        "id": 6,
         "parent_id": 1,
         "user": "Turbo Tom",
         "role": "RN",
         "city": "London, ON",
-        "text": "OP, you made a great point about the importance of referring the patient to an ophthalmologist ASAP. As an ER nurse, I've seen my fair share of patients with Acute Angle-Closure Glaucoma, and I can attest to the fact that early intervention saves eyesight. Thanks for sharing your experience!",
-        "color": "green"
-      },
-      {
-        "id": 11,
-        "parent_id": 1,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "I agree with OP that we should prioritize referring our patients to an ophthalmologist ASAP, especially if they present with symptoms of Acute Angle-Closure Glaucoma. One thing to keep in mind, though, is the importance of taking a thorough patient history and performing a proper physical exam to rule out other conditions that might be masquerading as Acute Angle-Closure Glaucoma",
-        "color": "purple"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "Amen, Dr. Oldman! As a physician of old, I've seen my fair share of patients who've come in with a diagnosis of Acute Angle-Closure Glaucoma only to find out that they actually had something else entirely. It's the devil's in the details, if you will. The taking of a thorough patient history and the performing of a proper physical exam are the hallmarks of a true physician!",
-        "color": "gray"
-      },
-      {
-        "id": 13,
-        "parent_id": 12,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Wow, Dr. Thorne, you make a great point! In medical school, we're always taught to be thorough and comprehensive, but I think we should emphasize that even more when it comes to ophthalmic emergencies like Acute Angle-Closure Glaucoma. Does that make sense?",
-        "color": "pink"
-      },
-      {
-        "id": 14,
-        "parent_id": 13,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "I couldn't agree more, Leo! When we're in the ER, every minute counts, and taking a thorough patient history and performing a proper physical exam can literally make the difference between life and death, or in this case, preserving eyesight!",
-        "color": "blue"
-      },
-      {
-        "id": 15,
-        "parent_id": 1,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Alright, folks, I think we've covered all the bases. Let's get back to the OP's original question: what can we do to avoid missing Acute Angle-Closure Glaucoma in the ER? Some of you mentioned the importance of taking a thorough patient history and performing a proper physical exam, and I agree. But what else can we do to reduce the risk of missing this condition?",
-        "color": "purple"
-      }
-    ],
-    "image": "https://www.emdocs.net/wp-content/uploads/2024/12/Screenshot-2024-12-24-at-6.32.26%E2%80%AFAM.png"
-  },
-  {
-    "title": "Today I Learned: Always assume pelvic fractures are associated with other intra-abdominal injuries...and I just got sued for not doing a FAST.",
-    "id": "1",
-    "category": "r/emergency medicine",
-    "body": "Had a miss last night. 55-year-old lady, hit by a car, no seatbelt, high-speed.  Pelvis fracture x 2 places. Stable vitals, stable pelvis on x-ray. 'Let's take her down and fix the fractures.'  2 hours later, she's crashing from bleeding into the abdomen and they have to emergently take her down. Now I'm getting sued for not doing a FAST sooner. What am I missing here? Is it time to update our protocols or is there a new 'best practice' I need to know about?",
-    "comments": [
-      {
-        "id": "2",
-        "parent_id": "1",
-        "user": "Dr. Aris Thorne",
-        "role": "MD",
-        "city": "Toronto, ON",
-        "text": "TLDR: FAST in everyone with pelvic fracture is now the standard, according to the latest studies. Don't take any chances - get a FAST and CT scan to rule out intra-abdominal injuries. [link to paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6431121/).",
-        "color": "green"
-      },
-      {
-        "id": "3",
-        "parent_id": "1",
-        "user": "Dr. Ziggy Zalesky",
-        "role": "MD",
-        "city": "Vancouver, BC",
-        "text": "Just had this case come up last week. We did a FAST and the CT showed a Grade III splenic injury, which we managed to fix with angio and a splenectomy. Always erring on the side of caution, folks!",
-        "color": "blue"
-      },
-      {
-        "id": "4",
-        "parent_id": "1",
-        "user": "Dr. Victor Sterling",
-        "role": "MD",
-        "city": "Calgary, AB",
-        "text": "Amateurs. Don't need a FAST in every pelvic fracture patient. Only do it in the unstable ones. And what's with the lawsuits? Do we need to put up warning signs in the ED saying 'Please sue us - we're not responsible'?",
-        "color": "red"
-      },
-      {
-        "id": "5",
-        "parent_id": "4",
-        "user": "Dr. Aris Thorne",
-        "role": "MD",
-        "city": "Toronto, ON",
-        "text": "You mean 'Amateurs' as in we're not experienced emergency docs? Or do you actually think the lawsuits are unwarranted? I think we should be erring on the side of caution here. And what's with the condescending tone?",
-        "color": "green"
-      },
-      {
-        "id": "6",
-        "parent_id": "3",
-        "user": "Dr. Maya Gupta",
-        "role": "MD",
-        "city": "Mississauga, ON",
-        "text": "Dr. Zalesky, can you share your workflow for managing these patients? Do you do a FAST as the first step or do it after you've stabilized the pelvis?",
-        "color": "purple"
-      },
-      {
-        "id": "7",
-        "parent_id": "6",
-        "user": "Dr. Ziggy Zalesky",
-        "role": "MD",
-        "city": "Vancouver, BC",
-        "text": "We do it after we've stabilized the pelvis with a C-clamp and started the IVs. We want to see if we can catch any bleeding before we take them down to the OR.",
-        "color": "blue"
-      },
-      {
-        "id": "8",
-        "parent_id": "2",
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "I've seen that paper before! They say FAST is 96% sensitive for detecting intra-abdominal hemorrhage in pelvic fracture patients. But what if the patient is still stable vitals-wise even after getting the FAST? Do we still take them down to the OR?",
-        "color": "green"
-      },
-      {
-        "id": "9",
-        "parent_id": "8",
-        "user": "Dr. Aris Thorne",
-        "role": "MD",
-        "city": "Toronto, ON",
-        "text": "Exactly, Leo! Even if the FAST is negative, we still need to take the patient down to the OR to rule out any other injuries. It's always better to be safe than sorry.",
-        "color": "purple"
-      },
-      {
-        "id": "10",
-        "parent_id": "9",
-        "user": "Dr. Victor Sterling",
-        "role": "MD",
-        "city": "Calgary, AB",
-        "text": "I'm telling you, it's getting ridiculous. We're turning into a society where we're afraid to make decisions and just err on the side of caution. Next thing you know, we'll be doing CT scans on everyone who walks in off the street.",
-        "color": "red"
-      },
-      {
-        "id": "11",
-        "parent_id": "10",
-        "user": "Dr. Maya Gupta",
-        "role": "MD",
-        "city": "Mississauga, ON",
-        "text": "Actually, that's not a bad idea. I've seen cases where we've missed significant injuries because we were too cautious. It's all about finding that balance between caution and decisiveness.",
-        "color": "purple"
-      },
-      {
-        "id": "12",
-        "parent_id": "1",
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Y'all are forgetting the most important thing here: the patient's story. What was she saying before she got to the ED? Any signs of abdominal pain or bleeding? Let's not get too caught up in the fancy tests and protocols, folks.",
-        "color": "orange"
-      },
-      {
-        "id": "13",
-        "parent_id": "12",
-        "user": "Dr. Aris Thorne",
-        "role": "MD",
-        "city": "Toronto, ON",
-        "text": "Great point, Turbo! The patient's history and physical exam are still the most important tools we have as emergency docs. Thanks for keeping us grounded!",
-        "color": "green"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Frustrating case of lower GI bleed: lessons learned",
-    "body": "Just saw a patient with a hemodynamically unstable lower GI bleed who had a <50% yield on diagnostic workup. Anyone have any tips on how to approach this complex scenario in the ED? I was thinking of doing a bedside US to look for a potential source, but I'm not sure if it's worth the time and effort.",
-    "category": "emergency medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs always get worked up about GI bleeds. It's a waste of resources and time. You should be thinking about transfusing blood and stabilizing the patient ASAP, rather than bothering with an ultrasound.",
-        "color": "blue"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "@Dr. Sterling, come on! You can't just dismiss the value of bedside US in GI bleed situations. It's all about getting a quick peek at the potential source and making a decision on how to proceed. Besides, what's the worst that could happen if you spend 10 minutes on a US and it leads to some new information?",
-        "color": "red"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Actually, @Dr. Sterling, I think I read somewhere that the yield on diagnostic workup for lower GI bleed is actually around 60-70% with modern imaging techniques. So, maybe we should reconsider our approach?",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 2,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "@Dr. Zalesky what's the difference between a quick US for GI bleed and a full ultrasound exam? Would love to know more about the specific skills needed for bedside GI US.",
-        "color": "purple"
-      },
-      {
-        "id": 5,
-        "parent_id": 3,
-        "user": "Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Actually, @Sarah, I think @Dr. Sterling's point is that in hemodynamically unstable patients, there's no time to waste on US, especially if the yield is low. Maybe we should be talking about point-of-care ultrasound skills for GI bleeds?",
-        "color": "orange"
-      },
-      {
-        "id": 6,
-        "parent_id": 4,
-        "user": "Dr. Philip Muddle",
-        "role": "EP",
-        "city": "Regina, SK",
-        "text": "Hey, quick question, @Leo: what are the actual steps for performing a bedside GI US? Should I be doing some special prep or something?",
-        "color": "blue"
+        "text": "Has anyone else dealt with scalp lacerations and had to remove staples or sutures? What's the most common place for complications like infection or hematoma formation?",
+        "color": "yellow"
       },
       {
         "id": 7,
-        "parent_id": 5,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Great point, @Maya! And speaking of skills, has anyone had to do a bedside US in this situation and can share some tips on how to do it quickly and effectively? I've been trying to practice, but it's hard to get the hang of it.",
-        "color": "green"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Actually, @Sarah, I think I can help you with that. I once had to do a bedside GI US in a patient who was having a massive bleed, and I used the following steps: first, I got all the necessary equipment ready, including the probe, gel, and... (link to article on POCUS skills) ... and then I... (link to video on YouTube) ... TLDR, it's all about getting the right probe angle and moving it around to get a good view.",
-        "color": "green"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "@Dr. Sharp, great link to the article! I really appreciate it. But, isn't getting the right angle and moving it around kind of tricky? Any tips on how to do it quickly?",
-        "color": "purple"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Yeah, @Leo, trust me, it's not that tricky. First, make sure you're using the right probe (4-6cm curvilinear or phased array will do). Next, get the patient in a comfortable position (if possible). Finally, just remember the phrase 'look for, find, and follow the flow': look for the flow on the monitor, find the flow with the probe, and follow the flow to... well, you get the idea.",
-        "color": "red"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "@Dr. Zalesky, that's really helpful! And what about the situation where you can't see anything? What should we do then?",
-        "color": "purple"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Actually, @Leo, if you can't see anything, that's when you should consider ordering a CT angiogram or MRI. Sometimes, the US just isn't sensitive enough. But, of course, only if the patient is stable enough for imaging.",
-        "color": "blue"
-      },
-      {
-        "id": 13,
-        "parent_id": 12,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Thanks for all the tips, everyone! I think we've covered quite a bit. TLDR, for future reference: when dealing with lower GI bleed, use POCUS to quickly assess the situation, and if necessary, consider CT angiogram or MRI for further evaluation.",
-        "color": "green"
-      },
-      {
-        "id": 14,
-        "parent_id": 13,
-        "user": "Dr. Phil Muddle",
-        "role": "EP",
-        "city": "Regina, SK",
-        "text": "Wait, what are the key takeaways from this discussion?",
-        "color": "blue"
-      },
-      {
-        "id": 15,
-        "parent_id": 14,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Well, @Dr. Muddle, it seems like we've established that POCUS is a useful tool in evaluating lower GI bleed, and that if we can't see anything, we should consider further imaging like CT angiogram or MRI. But, honestly, I think we're all a bit confused at this point.",
-        "color": "red"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "TL;DR - Sudden Cardiac Death in Kids: The 'Must See' Criteria",
-    "body": "Just saw a patient with a shockable rhythm and near syncope. Sudden cardiac death in kids is on the rise. Who else has seen an increase in these cases? What's your go-to workup for suspected SCAD? TLDR: San Francisco Syncope Rule, see the list of criteria below. Has anyone else experienced an increase in SCAD cases in kids? How can we better identify the ' Must- See' criteria for suspected SCAD?",
-    "category": "Pediatrics/Emergency Medicine",
-    "comments": [
-      {
-        "id": 7,
-        "parent_id": null,
-        "user": "Dr. Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Lol, my go-to is still a good history, physical, and ECG. Don't have time for fancy rules. I've only seen it in kids with underlying heart conditions. Am I wrong? See [paper on SCD in kids](https://link.springer.com/article/10.1007/s10877-019-00934-7) for some nice insights.",
-        "color": "blue"
-      },
-      {
-        "id": 12,
-        "parent_id": null,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Actually, Dr. Z, I've seen it in kids with no underlying heart disease. The San Francisco Syncope rule is a must-know for EM. Here are the 'Must-See' criteria: abnormal ECG, complaint of shortness of breath, systolic blood pressure of <90 mmHg, hematocrit <30%, age over 45, history of ventricular dysrhythmia, or congestive heart failure. We should be screening for these in our kids' offices.",
-        "color": "red"
-      },
-      {
-        "id": 8,
-        "parent_id": 12,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": " Wait, what about the 45yr age cutoff? Isn't that an issue for kids?",
-        "color": "purple"
-      },
-      {
-        "id": 13,
-        "parent_id": 12,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Excellent point, Leo. The San Francisco Syncope rule was developed in adults, but its applicability to kids is still evolving. We need more studies on this. However, we can use it as a guide. Remember, the rule is to identify patients at high risk of adverse events, not to diagnose SCD.",
-        "color": "orange"
-      },
-      {
-        "id": 14,
-        "parent_id": 12,
-        "user": "Dr. Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "How do you prioritize these patients, Doc? Do we admit them all? I'm worried about over-triangulating.",
-        "color": "pink"
-      },
-      {
-        "id": 9,
-        "parent_id": 7,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Dr. Z, you're too busy for fancy rules? Come on, man. We need to do better. This is not just about fancy rules; it's about lives.",
-        "color": "purple"
-      },
-      {
-        "id": 10,
-        "parent_id": 14,
-        "user": "Dr. Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Admitting them all? Amateurs. We need to think this through. Let's consider their 'sodium levels' and the story they tell before we do anything drastic.",
-        "color": "green"
-      },
-      {
-        "id": 11,
-        "parent_id": 14,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Actually, Doc (Sterling), I'd rather have too many patients admitted than too few, given the stakes here.",
-        "color": "red"
-      }
-    ],
-    "image": "https://cpr.heart.org/en/-/media/CPR-Images/Resources/CA-vs-HA/CA-vs-HA-Infographic-2025-895x1160min.jpg?sc_lang=en"
-  },
-  {
-    "title": "Rant about Malignant Heat Illness - When does it become Heat Stroke?",
-    "id": 1,
-    "category": "r/emergencymedicine",
-    "body": "Had a miss last night with a 35 y/o male who came in with altered mental status. I immediately thought sepsis, but what I found out later was that he had been working outside all day in 35C heat, and his core temp was 42.5C. The ED was slammed, and we had to send him to the ICU for cooling. But here's the question: when do we start calling this Heat Stroke? Is it when the patient is >40C, or when they start showing signs of end-organ damage? Asking for a friend...",
-    "comments": [
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Aris Thorne",
-        "role": "MD",
-        "city": "Toronto, ON",
-        "text": "Actually, it's not just about the temperature; it's about the duration of heat exposure and the presence of end-organ damage. The American College of Sports Medicine defines Heat Stroke as a core temperature >40.6C, but also mentions that clinical judgment plays a role, especially in cases of exertional heat stroke. The patient in question probably had a combination of heat intolerance and pre-existing conditions that contributed to his rapid decompensation. Have a look at the updated ACCP guidelines for more on this topic: https://www.journals.uchicago.edu/doi/abs/10.1086/682884?journalCode=ajm",
-        "color": "blue"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "MA",
-        "city": "Calgary, AB",
-        "text": "Amateurs. You'd think that with all the heat stress literature out there, people would know the drill. In my experience, it's all about recognizing early warning signs: tachycardia, sweating, hypotension. Don't overcomplicate this, folks. If it walks like a duck and talks like a duck, it's a heat-related illness.",
-        "color": "red"
-      },
-      {
-        "id": 4,
-        "parent_id": 2,
-        "user": "Dr. 'Ziggy' Zalesky",
-        "role": "MD",
-        "city": "Vancouver, BC",
-        "text": "Thanks, Dr. Thorne! I was hoping someone would weigh in on this. To clarify, though: if a patient is already >40.6C, does that automatically qualify them for Heat Stroke, or do we need to look at other factors too? Asking for a friend...",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": 2,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "I'm a bit confused - isn't Heat Stroke basically just a spectrum of heat-related illnesses? I mean, don't we all get heat stroke at some point?",
-        "color": "purple"
-      },
-      {
-        "id": 6,
-        "parent_id": 4,
-        "user": "Dr. Barb Miller",
-        "role": "MD",
-        "city": "Winnipeg, MB",
-        "text": "Ah, Leo, you're close, but not quite there. Think of it like this: all Heat Stroke patients have heat-related illnesses, but not all heat-related illnesses are Heat Stroke. It's like the difference between 'febrile' and 'septicemia' - sure, you can have a fever just from being hot outside, but that's not the same as having a systemic infection. And don't even get me started on the terminology... 'Heat illness' vs. 'heat-related illness' vs. 'heat disorder'... ugh.",
-        "color": "orange"
-      },
-      {
-        "id": 7,
-        "parent_id": 4,
-        "user": "Dr. Sarah Sharp",
-        "role": "MD",
-        "city": "Laval, QC",
-        "text": "Great analogy, Dr. Miller! Another way to think about it is to differentiate between Heat Exertion Syndrome (which is more like heat exhaustion, with some sweating and mild end-organ damage) and Heat Stroke (which is essentially multi-organ failure due to severe heat stress). The key is to look for those early warning signs I mentioned earlier.",
-        "color": "blue"
-      },
-      {
-        "id": 8,
-        "parent_id": 5,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "That makes sense, but how do we differentiate between Heat Stroke and other types of multi-organ failure? Like, if a patient comes in with altered mental status and a high fever, are we just guessing at this point?",
-        "color": "red"
-      },
-      {
-        "id": 9,
         "parent_id": 6,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "I've been wondering that too! Is it just a matter of clinical judgment, or are there specific lab results or imaging findings we should be looking for?",
-        "color": "purple"
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Turbo Tom, I've found that scalp lacerations can be tricky to manage, especially when it comes to wound closure. What's your preferred method for closing scalp lacerations? I'm more of a staples person myself.",
+        "color": "pink"
       },
       {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Elena Varkov",
-        "role": "MD",
-        "city": "Quebec City, QC",
-        "text": "Lab results are definitely a factor. For example, a patient with Heat Stroke is likely to have coagulopathy, DIC, or renal failure. But it's not just about the labs; you have to consider the whole clinical picture: temperature, mental status, vital signs. And don't forget to check for signs of dehydration and heat exhaustion too.",
-        "color": "blue"
-      },
-      {
-        "id": 11,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Okay, everyone calm down. Let's not get too bogged down in the details. When in doubt, just call it Heat Stroke and start cooling the patient. We can figure out the nuances later.",
-        "color": "green"
-      },
-      {
-        "id": 12,
-        "parent_id": 10,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "So, basically, if a patient comes in with altered mental status and high fever, we're pretty much assuming it's Heat Stroke?",
-        "color": "purple"
-      },
-      {
-        "id": 13,
-        "parent_id": 11,
+        "id": 8,
+        "parent_id": 7,
         "user": "Martha 'The Hammer'",
         "role": "RN",
         "city": "Halifax, NS",
-        "text": "That's right, Turbo. And if you're still unsure, ask yourself if the patient is a construction worker, a young athlete, or someone from a hot climate. That usually tells you a thing or two.",
-        "color": "red"
+        "text": "I've seen my fair share of scalp lacerations, and I'm a strong advocate for tissue adhesives. They're quick, easy to apply, and reduce the need for staples or sutures.",
+        "color": "gray"
+      },
+      {
+        "id": 9,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Dr. Thorne, can you clarify when you would recommend using a pressure dressing? For example, what's a 'significant bleeding history'?",
+        "color": "orange"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Leo, a significant bleeding history would include patients with known bleeding disorders, such as hemophilia or von Willebrand disease. Additionally, patients on anticoagulant therapy, such as warfarin or novel oral anticoagulants, should also be considered for pressure dressing.",
+        "color": "purple"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "I've found that a pressure dressing can be a useful tool in reducing hematoma formation. However, it's essential to monitor the patient closely and remove the dressing as soon as possible to avoid potential complications.",
+        "color": "purple"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Amen to that, Dr. Sharp! Complications like infection or hematoma formation can be serious. What's the typical duration for the pressure dressing?",
+        "color": "yellow"
+      },
+      {
+        "id": 13,
+        "parent_id": 12,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "TLDR: pressure dressings are useful in preventing hematoma formation, but they should be used judiciously and removed as soon as possible. Anyone have a favorite resource or website for scalp laceration management?",
+        "color": "pink"
       },
       {
         "id": 14,
-        "parent_id": 12,
-        "user": "Dr. Maya Gupta",
-        "role": "MD",
-        "city": "Mississauga, ON",
-        "text": "Actually, Chad, it's not quite that simple. We need to think about the patient's overall clinical picture, including their history, physical exam, and lab work. We also need to consider other potential diagnoses that might be contributing to their altered mental status.",
+        "parent_id": 13,
+        "user": "Dr. Phil Muddle",
+        "role": "EP",
+        "city": "Regina, SK",
+        "text": "Uh, um, I think I saw something online about scalp lacerations... wait, what was it again?",
         "color": "green"
       },
       {
         "id": 15,
-        "parent_id": 1,
-        "user": "Dr. Phil Muddle",
-        "role": "MD",
-        "city": "Regina, SK",
-        "text": "Hmm, I think I missed something here... what was the question again?",
-        "color": "purple"
+        "parent_id": 14,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Dr. Muddle, I think you can find some great resources from the American Academy of Emergency Medicine (AAEM) or the American College of Emergency Physicians (ACEP). They have tons of information on scalp laceration management.",
+        "color": "yellow"
       },
       {
         "id": 16,
-        "parent_id": 13,
-        "user": "Dr. Henry Oldman",
-        "role": "MD",
-        "city": "Victoria, BC",
-        "text": "Martha, you always keep it real, girl. What's your take on Heat Stroke patients who come in with a history of hypertension and hyperlipidemia? Any increased risk factors there?",
-        "color": "blue"
+        "parent_id": 15,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Thanks, Turbo Tom! I'll have to brush up on my AAEM and ACEP resources.",
+        "color": "green"
       },
       {
         "id": 17,
         "parent_id": 16,
-        "user": "Dr. Elena Varkov",
-        "role": "MD",
-        "city": "Quebec City, QC",
-        "text": "Actually, Dr. Oldman, research suggests that patients with hypertension and hyperlipidemia are at increased risk of heat-related illnesses, including Heat Stroke. It's all about the underlying physiology of thermoregulation and blood pressure regulation.",
-        "color": "green"
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Well, I think we've covered some great points on scalp laceration management. Remember, it's all about using pressure dressings judiciously and monitoring patients closely. Thanks for the discussion, everyone!",
+        "color": "purple"
+      },
+      {
+        "id": 18,
+        "parent_id": 17,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "I couldn't agree more, Dr. Thorne. Scalp lacerations can be tricky to manage, but with the right approach, we can reduce hematoma formation and prevent complications.",
+        "color": "gray"
+      },
+      {
+        "id": 19,
+        "parent_id": 18,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "I'm still learning about scalp lacerations. Can someone summarize the main points from this discussion?",
+        "color": "orange"
       }
     ]
   },
   {
-    "id": 12345,
-    "title": "TL;DR: Don't get it twisted - wound closure is an art",
-    "body": "Rant about wound closure. Just had a patient with a complex laceration that I closed yesterday, and it's looking pretty good. But I digress. I've been thinking a lot lately about wound closure, and I want to share my thoughts with the community.\n\nThe thing is, wound closure is an art, not a science. I mean, sure, there's some science behind it, but the execution is all about finesse. Take sutures, for instance. We're taught to use the right size and material for the wound, but what about tension? What about the patient's anatomy?\n\nAnd don't even get me started on staples. I see some of my colleagues using staples like they're going out of style. Newsflash: staples are not for everyone. Not all wounds are created equal, folks.\n\nCase in point: I had a patient come in with a wound that was under significant tension. I could have used staples, but that would have put too much strain on the skin, leading to further complications. So what did I do? I used a horizontal mattress suture, of course.\n\nNow, I know what you're thinking - 'Ziggy, that's so pedestrian.' But trust me, it's a game-changer. The key is to keep the tension on the skin even, to avoid any hotspots that could lead to infection. And let me tell you, this suture technique has saved me from more complications than I can count.\n\nTL;DR: Don't get it twisted - wound closure is an art, not a science. Pay attention to tension, anatomy, and the patient's specific needs. And for goodness' sake, don't underestimate the power of a well-placed horizontal mattress suture.",
-    "category": "/r/emergencymedicine",
+    "title": "Just saw a patient with alleged 'domestic violence' and I'm questioning myself...",
+    "body": "Had a patient come in last night with alleged domestic violence history, and a story that seemed pretty sketchy. She claimed her boyfriend was beating her, but had no visible injuries, no bruises, no scratches. Only a few minor 'accidents' in the past that 'happened when I tripped on the furniture'.",
+    "category": "emergencymedicine",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Just had to disagree with OP on this one. While Ziggy is an expert in wound closure, I think staples are a better option for high-tension wounds. The key is to use the right size and material...",
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Yup, this is a tough one. You gotta be careful not to jump to conclusions, but at the same time, something's gotta give. Did you do a thorough head-to-toe exam? Any inconsistencies in her story? Did you talk to her about the potential consequences of underreporting or misreporting?",
         "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Agreed! I've used staples in high-tension wounds with great success. But don't forget about the importance of debridement, folks! You can't close a wound that's still got infected tissue. Anyone have any tips on how to get the perfect wound debridement?",
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Wait, I thought we're supposed to err on the side of caution with DV? Can we really dismiss it if there's no visible bruising?",
         "color": "green"
       },
       {
         "id": 3,
         "parent_id": 1,
-        "user": "Dr. Corey R. Heitz",
-        "role": "Author",
-        "city": "None",
-        "text": "Just wanted to jump in and say that this conversation is exactly why we need more discussion about wound closure in emergency medicine. It's not just about the technique - it's about the patient's specific needs and anatomy. Thanks, OP, for sparking this conversation!",
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "Erring on the side of caution is one thing, but we gotta be careful not to create a culture of fear. Let's not forget that false allegations of DV can happen too. Did you consider the possibility that this patient might be making it up? Maybe she's not in danger, but she wants attention?",
+        "color": "pink"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "You're all missing the point, folks. DV's a tough diagnosis, but it's not just about visible injuries. What about the power dynamics at play here? This guy's controlling her, and she's afraid to speak up. Have you talked to her about her support system? Does she have friends or family who could help her?",
         "color": "blue"
+      },
+      {
+        "id": 5,
+        "parent_id": 2,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Actually, @Kevin, we shouldn't be erring on the side of caution here. The definition of DV is a pattern of behavior, not just physical violence. It's about control, power, and emotional abuse. If she's claiming DV, we need to take it seriously and investigate further.",
+        "color": "grey"
+      },
+      {
+        "id": 6,
+        "parent_id": 3,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "You're all so focused on the patient's words, what about the boyfriend's version of events? We gotta hear the other side of the story too. Did you talk to him, or just take the patient's word for it?",
+        "color": "orange"
+      },
+      {
+        "id": 7,
+        "parent_id": 4,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Good point @Barb. This patient might not be in immediate danger, but she still needs support and resources. We should be offering her counseling, maybe some temporary housing or even just a listening ear.",
+        "color": "purple"
+      },
+      {
+        "id": 8,
+        "parent_id": 5,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "Excuse me, guys, but can you tell me what DV stands for? And what does it mean if someone's alleging DV against them?",
+        "color": "lightblue"
+      },
+      {
+        "id": 9,
+        "parent_id": 1,
+        "user": "Dr. Phil Muddle",
+        "role": "EP",
+        "city": "Regina, SK",
+        "text": "Uh, yeah, DV... um... Domestic... Violence, right? And, uh, it means... (laughs nervously) Oh boy, I hope I'm getting this right... It means someone's being hurt, and maybe even killed, by someone they trust. (looks around awkwardly)",
+        "color": "pink"
+      },
+      {
+        "id": 10,
+        "parent_id": null,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "This whole thread is just a perfect example of how our ER's gone to pot. Everyone's so caught up in their own little world, they forget about the bigger picture. We're not just treating patients, we're treating whole families, communities. Let's not get too caught up in the details and forget the big picture.",
+        "color": "red"
+      }
+    ],
+    "image": "https://emupdates.com/wp-content/uploads/2020/06/Precip_HI.jpg"
+  },
+  {
+    "id": 5,
+    "title": "COPD Exacerbation Mishaps (TLDR: Don't Forget to Check the V/Q Ratio!)",
+    "body": "Rant time, folks! Just saw a patient with a classic COPD exacerbation, but the intern (myself) blew it. Patient's been to the ED 5 times in the past month for worsening SOB and dry hacking cough. Last time, I ordered the usual: labs, CXR, ECG, and a pulse ox. But in the middle of my shift, I received a call from the ER doc saying that the pt's ABG showed a notable V/Q mismatch. I was clueless... until I realized that I had overlooked the obvious: a recent smoking history of 2 packs/day for 20 years, and chronic bronchitis on a prior ER visit. Lesson learned: always remember to check the V/Q ratio in your COPD patients, and don't be afraid to admit them if you suspect a severe exacerbation! Just to refresh everyone's memory, V/Q ratio: https://en.wikipedia.org/wiki/Vital_capacity#Ventilation%2Fperfusion_ratio",
+    "category": "r/emergencymedicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "MD",
+        "city": "Toronto, ON",
+        "text": "Well done for sharing your anecdote, but don't forget to talk about the risk factors for death in COPD exacerbations. Low socioeconomic status, history of illicit drug use, or psychiatric disease can significantly increase the risk of mortality. Also, be aware that COPD is increasingly prevalent in women (now >50% of COPD-related deaths), so consider age and sex in your assessment. Thanks for the reminder on V/Q ratio!",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Sorry to ask, but what does V/Q ratio stand for, and how do I check it?",
+        "color": "blue"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Sarah Sharp",
+        "role": "MD",
+        "city": "Laval, QC",
+        "text": "Thanks for the link to the wiki page, but I think it's worth noting that we typically use a formula like (PaO2 / FiO2) to estimate the V/Q ratio. Also, a V/Q mismatch can lead to both hypoxemia and hypercapnia. Good reminder on the importance of checking the V/Q ratio!",
+        "color": "green"
       },
       {
         "id": 4,
@@ -960,64 +423,349 @@
         "user": "Leo Chen",
         "role": "MS1",
         "city": "Montreal, QC",
-        "text": "So how do you know when a wound is ready for closure? Is there a certain amount of time that you have to wait before closing it? Or does it depend on the patient's progress?",
-        "color": "gold"
+        "text": "Okay, so I think I get it now. So, if a patient has a low V/Q ratio, they'll have hypoxemia, but what about the hypercapnia? Does that mean they'll have a high PaCO2?",
+        "color": "blue"
       },
       {
         "id": 5,
         "parent_id": 4,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Good question, Leo! Generally, we follow the 4-4-4 rule: 4 days of debridement, 4 days of wound cleansing, and 4 days of antibiotics. But of course, this can vary depending on the patient's condition and the wound itself.",
-        "color": "silver"
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Yes, exactly! A low V/Q ratio can lead to both hypoxemia and hypercapnia. That's because the ventilated areas of the lungs are receiving too much blood flow, so they're not adequately exchanging CO2. I think Dr. Sharp was trying to say that a V/Q mismatch can lead to both decreased oxygenation and increased carbon dioxide levels. Make sense?",
+        "color": "red"
       },
       {
         "id": 6,
         "parent_id": 5,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "Ugh, the 4-4-4 rule is so outdated. Not everyone is as lucky as you, Elena, with a patient who can follow a textbook. Sometimes you just have to wing it and hope for the best.",
-        "color": "red"
+        "user": "Barnaby Finch",
+        "role": "",
+        "city": "",
+        "text": "Umm, isn't a V/Q mismatch more like... ummm... a mismatch between ventilation and... and... stuff? Yeah, that's it! Thanks for explaining, Doc!",
+        "color": "brown"
       },
       {
         "id": 7,
         "parent_id": 6,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Aw, come on, Rick! You're not still angry about that ER shift last week, are you?",
-        "color": "pink"
+        "user": "Dr. Barb Miller",
+        "role": "MD",
+        "city": "Winnipeg, MB",
+        "text": "Barnaby, my friend, you're not far off. A V/Q mismatch refers to an imbalance between the ventilation of the lungs and the blood flow to the alveoli. Think of it like a supply chain issue \u2013 the goods (oxygen) are being produced, but the distribution (to the bloodstream) is faulty. That's why we get hypoxemia and hypercapnia. Good try, though!",
+        "color": "gold"
       },
       {
         "id": 8,
         "parent_id": 7,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "Ah, the art of wound closure. Reminds me of the good old days when we had to use actual stitches! No fancy-pants staples or tissue adhesives for this old doc.",
-        "color": "gray"
+        "user": "Dr. Ziggy Zalesky",
+        "role": "MD",
+        "city": "Vancouver, BC",
+        "text": "Thanks for the refresher, Docs! But what about the clinical features of COPD? What are the red flags for me to look out for in the ED?",
+        "color": "green"
       },
       {
         "id": 9,
         "parent_id": 8,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "Ha! Reminds me of the time I had to close a wound with a sewing needle and thread. Good times!",
-        "color": "brown"
+        "user": "Dr. Elena Varkov",
+        "role": "MD",
+        "city": "Quebec City, QC",
+        "text": "Excellent question, Ziggy! For COPD exacerbations, look out for symptoms like increased SOB, dry hacking cough, and wheezing. Also, check for signs like pursed-lip breathing, accessory muscle use, and paradoxical respiratory movements. And don't forget to check the patient's smoking history and medication list!",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Case study: Peptic Ulcer Disease, NSAIDs, and H. pylori - lessons learned from a tricky patient",
+    "body": "Just saw a patient with an incredibly high peptic ulcer disease (PUD) hospital admission rate over the past year. After a thorough workup, it turned out that this patient was on chronic diclofenac for a non-articular rheumatological condition. The patient also had a persistent H. pylori infection with high urea breath test (UBT) values.\n\nThe tricky part was that the patient had been treated for PUD multiple times in the past with proton pump inhibitors (PPIs) and bismuth. However, they never underwent an eradication therapy (ET) for H. pylori. As a result, the patient remained refractory to treatment.\n\nThe key takeaway from this case is that patients on chronic NSAIDs are at higher risk for PUD, and H. pylori is a common cause of refractory PUD. Eradication therapy should always be considered in patients with persistent or recurrent PUD, even if their H. pylori UBT values are within normal limits.\n\nTLDR: don't underestimate the importance of H. pylori eradication therapy in patients with refractory PUD on chronic NSAIDs.",
+    "category": "Emergency Medicine Cases",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great case, thank you for sharing! You're absolutely right about the importance of H. pylori eradication therapy. I've seen multiple patients with refractory PUD who required eradication therapy to achieve resolution. Do you have any thoughts on when to consider eradication therapy in patients with normal UBT values?\n\nIn my experience, patients who have a history of upper GI bleeding or a high risk of bleeding complications may benefit from eradication therapy, even if their UBT values are within normal limits. What are your thoughts on this?\n\nAlso, I'd like to add that patients on chronic NSAIDs should also be considered for a PPI on demand or a coxib to reduce their risk of developing PUD.",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Hi Dr. Thorne, thank you for your input! I was wondering if there's a specific protocol or guidelines that recommend eradication therapy in patients with normal UBT values. I know that some guidelines suggest eradication therapy based on age, but are there any other factors to consider?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Dr. Thorne, I've seen a few cases where patients with normal UBT values went on to develop PUD after discontinuing NSAIDs. Do you think it's worth considering eradication therapy in these patients as well, even if their UBT values are within normal limits?",
+        "color": "purple"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great question, Sarah! Yes, I agree that eradication therapy should be considered in patients with normal UBT values who have a history of PUD or are at high risk for developing PUD. The key is to weigh the benefits of eradication therapy against the potential risks of antibiotic use.\n\nA study published in the American Journal of Gastroenterology (2018) found that eradication therapy reduced the risk of recurrent PUD in patients with normal UBT values. However, the study also noted that eradication therapy increased the risk of antibiotic-resistant H. pylori in some patients.\n\nUltimately, the decision to proceed with eradication therapy should be based on individual patient factors and a thorough risk-benefit analysis.",
+        "color": "purple"
+      },
+      {
+        "id": 5,
+        "parent_id": 1,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs! You're all missing the point. The real key to managing PUD is to avoid NSAIDs in the first place. Patients on chronic NSAIDs are just asking for trouble.\n\nWe should be focusing on safer alternatives like acetaminophen or coxibs. Eradication therapy is just a Band-Aid on a deeper problem.",
+        "color": "red"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Dr. Sterling, I understand your point about avoiding NSAIDs, but what about patients who truly need them for chronic pain management? Don't we have a responsibility to make decisions based on the patient's individual circumstances?",
+        "color": "blue"
+      }
+    ],
+    "image": "https://foamcast.org/wp-content/uploads/2017/12/Screen-Shot-2017-12-05-at-9.32.38-AM.png"
+  },
+  {
+    "id": 1,
+    "title": "Just had a weird one with ethanol, any pearls on toxic alcohols?",
+    "body": "So I had a patient come in with a 50yo male with a history of heavy drinking, presents with a Glascow Coma Score of 4. Labs show a blood ethanol of 400, but also some suspicious stuff - acetone at 150. Not much else to report. Anyone ever see anything like this before?",
+    "category": "EM",
+    "comments": [
+      {
+        "id": 2,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Just had a similar case last week. Remember that isopropanol is metabolized to acetone, but it's not as bad as the parent compound. Hemodialysis may be indicated for refractory hypotension. Charcoal is useless unless there's an absordable substance co-ingested. Great job getting him outta there, Dr. Maya",
+        "color": "blue"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Doesn't hemodialysis just remove the alcohol and all the metabolites? And how does charcoal help with co-ingested substances if it doesn't bind alcohols?",
+        "color": "purple"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Great questions, Leo! Hemodialysis removes acetone and isopropanol, but it also helps with the volume and electrolyte issues that can occur with toxic ingestions. And yeah, I was being a bit generous with the charcoal - but if you've got a substance like phenobarb or valproate, it can help get those levels down. And don't even get me started on the 'absorbed substances' thing... just trust me on that one.",
+        "color": "blue"
+      },
+      {
+        "id": 5,
+        "parent_id": null,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Jeez, guys, let's not forget about the poor guy who's lying in that bed! Did ya get him on the drip for the acetone? And did ya give him any folate or carnitine to prevent seizures?",
+        "color": "pink"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Aww, Sparkle-Eyes, you're right as always! We did get him on the drip for the acetone, but I'm not sure about the seizures - I think we held off on the folate and carnitine. Maybe we can discuss the specifics in rounds tomorrow? And can someone pls clarify the tox stuff for Leo over here? :P",
+        "color": "blue"
+      },
+      {
+        "id": 7,
+        "parent_id": null,
+        "user": "Dr. Rick 'The Rage'",
+        "role": "EP",
+        "city": "Windsor, ON",
+        "text": "What is this, some kind of joke? You've got a patient with a GCS of 4, a 400 blood ethanol, and you're talking about fomepizole and folate like it's a cakewalk? Get him on a drip, stat! And then maybe, just maybe, you can figure out the rest of the puzzle. Oh, and Leo, it's not 'absorbed substances', it's 'substrates'... get it together, kid.",
+        "color": "red"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Whoa, easy there, Doc R... I'm just trying to learn here! And yeah, I'll try to get the hang of that 'substrates' thing... Thanks for pointing it out.",
+        "color": "purple"
+      },
+      {
+        "id": 9,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Well said, Leo. It's okay to ask questions, and we all make mistakes. That being said, let's please keep the conversation civil and focused on the topic at hand. Can we take a step back and clarify what we're trying to accomplish here? How can we improve the care of our patients with toxic alcohols?",
+        "color": "green"
       },
       {
         "id": 10,
         "parent_id": 9,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Preach, Aris! It's so easy to get caught up in the minutiae, but at the end of the day, we're all just trying to help our patients. And Dr. Maya, that's a great question about hemodialysis. Have we had any experience with that in the ER?",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Frustrating case of aortic injury - is it a CT scan or an ECG that's the priority?",
+    "body": "I just had a case last night that's been eating at me all day. Patient was a 45-year-old man who presented after a high-speed MVA with chest pain. My resident ordered a FAST exam which was negative, and the patient's ECG showed nothing remarkable. However, the patient had a history of hypertension and the police report mentioned that the patient may have been decelerating from a high speed... should I have done a CT scan of the chest ASAP or was the ECG sufficient to make an assessment? TLDR; Should I be prioritizing the CT scan over the ECG?",
+    "category": "emergency_medicine",
+    "comments": [
+      {
+        "id": 13,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "You can't go wrong with a CT scan, but the ECG can give you some insight into cardiac stability before you commit to CT. Consider the mechanism of injury too - what's the likelihood of aortic injury? You may have a false sense of security with the FAST being negative.",
+        "color": "blue"
+      },
+      {
+        "id": 14,
+        "parent_id": 13,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I agree with Dr. Gupta, but isn't the aortic injury typically diagnosed with a CTA, not a CT scan of the chest?",
+        "color": "red"
+      },
+      {
+        "id": 15,
+        "parent_id": 13,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "I think the key here is the patient's history of hypertension - isn't that a risk factor for aortic aneurysm? I'd be tempted to do a CT scan to rule out a dissecting aneurysm.",
+        "color": "green"
+      },
+      {
+        "id": 16,
+        "parent_id": 15,
         "user": "Turbo Tom",
         "role": "RN",
         "city": "London, ON",
-        "text": "And I thought the worst was when I had to use superglue to close a wound. Talk about a close call!",
+        "text": "Wait, isn't an aortic aneurysm more commonly associated with an abdominal aortic aneurysm? I thought the risk factors for aortic injury were more related to deceleration trauma.",
+        "color": "purple"
+      },
+      {
+        "id": 17,
+        "parent_id": null,
+        "user": "Dr. Rick 'The Rage'",
+        "role": "EP",
+        "city": "Windsor, ON",
+        "text": "You're all overthinking this. Do the CT. If it's normal, you can breathe a sigh of relief. If it's not, you'll be doing something about it ASAP.",
         "color": "orange"
+      },
+      {
+        "id": 18,
+        "parent_id": 17,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "I agree with Dr. Rage. You guys are over-diagnosing. 90% of the time, these patients are going to be fine, and you'll just waste resources on unneccessary CT scans. Don't be Amateurs.",
+        "color": "grey"
+      },
+      {
+        "id": 19,
+        "parent_id": 18,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Actually, we should be more concerned about missing a major vascular injury. It's not just about being over-diagnosing; it's about providing a high standard of care. A CT scan can give you valuable information to make an informed decision.",
+        "color": "pink"
+      },
+      {
+        "id": 20,
+        "parent_id": 19,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I think Dr. Thorne hits the nail on the head. It's about providing high-quality care. And actually, the CT scan isn't just about ruling out major vascular injuries; it's also about providing a clear assessment of the patient's overall chest trauma.",
+        "color": "brown"
+      },
+      {
+        "id": 21,
+        "parent_id": 20,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "But what about the sodium story? Don't we need to stabilize the patient's sodium before committing to a CT scan?",
+        "color": "dark_green"
+      },
+      {
+        "id": 22,
+        "parent_id": 21,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "Actually, stabilizing sodium isn't the priority in this case. You should focus on getting the patient's hemodynamics under control before ordering any further testing.",
+        "color": "navy_blue"
+      },
+      {
+        "id": 23,
+        "parent_id": null,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "I think we're getting a bit off track here. The priority should be getting the patient to the OR ASAP if they're going to require surgical intervention. Let's focus on getting them stable first.",
+        "color": "maroon"
+      },
+      {
+        "id": 24,
+        "parent_id": 23,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Amen to that, Dr. Sharp. We can worry about the CT scan later. Let's just get the patient stable and make a plan from there.",
+        "color": "magenta"
+      },
+      {
+        "id": 25,
+        "parent_id": 24,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Is it true that aortic injuries are more common in people who are over 55 yrs old?",
+        "color": "teal"
+      },
+      {
+        "id": 26,
+        "parent_id": 25,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "That's not exactly the way I'd phrase it, Chad. Aortic injuries are more common in people who have a combination of risk factors, including age, gender, and history of hypertension. You can't just point to one age group and say that's when aortic injuries happen.",
+        "color": "silver"
+      },
+      {
+        "id": 27,
+        "parent_id": 26,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Thank you, Sparkle-Eyes for clarifying that. It makes a lot more sense now.",
+        "color": "coral"
       }
-    ],
-    "image": "https://m.media-amazon.com/images/I/71LwVL1A6SL._AC_UF1000,1000_QL80_.jpg"
+    ]
   }
 ]
