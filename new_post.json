@@ -1,869 +1,136 @@
 [
   {
-    "id": 1001,
-    "title": "Today I Learned: The Imperative of Noncontrast Helical Computed Tomography in Renal Colic",
-    "body": "Just saw a patient with severe flank pain and a history of urolithiasis. The radiologist's report was ambiguous, citing possible ureteral obstruction or sludge in the ureter. We decided to go with noncontrast helical CT to rule out other causes of the pain and confirm the diagnosis.",
-    "category": "medical",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "This is a prime example of why noncontrast helical CT is the gold standard for diagnosing renal colic. It's sensitive and specific, can identify complications like complete obstruction or extravasation, and can guide further management. TL;DR: Don't trust radiologist's reports alone, especially in ED.",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Couldn't agree more, Dr. Thorne. But what about the radiation exposure and contrast allergy risk? Don't we need to weigh the benefits against the potential harm?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Great point, Dr. Miller. But in this case, the benefits of noncontrast helical CT seem to outweigh the risks, given the severity of the patient's symptoms and the high suspicion of renal colic. Isn't it true that the benefits of early diagnosis and treatment outweigh the risks of radiation exposure?",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "But what if the patient had a history of contrast allergy? Would that change our approach?",
-        "color": "pink"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "In a noncontrast helical CT, can we assume that the presence of a ureteral stone is a direct indication for lithotripsy or other interventions? Or do we need to consider other factors, such as the size of the stone and the patient's overall health?",
-        "color": "yellow"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Excellent question, Dr. Gupta! Size of the stone alone is a poor predictor of spontaneous passage. We need to consider other factors, such as stone location, type (calcium oxalate vs. uric acid), and the patient's overall kidney function.",
-        "color": "orange"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "What about patients with a history of ureteral obstruction? Do we need to consider other causes of obstruction, such as stricture disease or malignancy?",
-        "color": "purple"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Don't forget about the role of stenting! In patients with suspected or confirmed ureteral obstruction, a ureteral stent may be necessary to maintain ureteral patency and prevent further complications.",
-        "color": "green"
-      },
-      {
-        "id": 9,
-        "parent_id": 1,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "This is getting way too complicated. Just use your clinical judgment and remember, it's a stone in the ureter. Duh! But seriously, folks, the key is to consider the whole patient and their medical history, not just the CT scan.",
-        "color": "pink"
-      },
-      {
-        "id": 10,
-        "parent_id": 1,
-        "user": "Dr. Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "I'm still wondering why we're even debating this. Doesn't anyone here have a primary care physician or a urologist they can consult? We need to keep things simple and not over-complicate these cases.",
-        "color": "purple"
-      }
-    ],
-    "image": "https://erofmesquite.com/wp-content/uploads/2026/05/Kidney-Stone-Emergency-Treatment-A-Complete-Guide-from-ER-of-Mesquite.webp"
+    "post": {
+      "id": 0,
+      "title": "Heat-Related Illness: A Cautionary Tale",
+      "body": "Had a rough shift last night with a patient who presented with a classic case of exertional heat stroke. Despite our best efforts, we couldn't get the core temps down and he suffered a catastrophic coagulopathy. Just a sobering reminder of how quickly things can go wrong.",
+      "category": "EM",
+      "comments": [
+        {
+          "id": 1,
+          "parent_id": null,
+          "user": "Dr. Aris Thorne",
+          "role": "Staff Physician",
+          "city": "Toronto, ON",
+          "text": "TLDR: the patient was a marathon runner who pushed himself too hard on a 35\u00b0C day. He didn't drink enough water and by the time he got to us, his core temps were already over 42\u00b0C. We did everything we could, but it was just too late. Thanks for sharing.",
+          "color": "purple"
+        },
+        {
+          "id": 2,
+          "parent_id": 1,
+          "user": "Sarah Jenkins",
+          "role": "MS3",
+          "city": "Ottawa, ON",
+          "text": "Dr. Thorne, what was the extent of the coagulopathy in the patient? Was it a full-blown DIC or just a partial thrombosis disorder? And did you guys use any anticoagulation or clot-busting meds?",
+          "color": "green"
+        },
+        {
+          "id": 3,
+          "parent_id": 2,
+          "user": "Dr. Aris Thorne",
+          "role": "Staff Physician",
+          "city": "Toronto, ON",
+          "text": "Great question, Sarah. The patient had a full-blown DIC with widespread thrombi in the renal and hepatic vasculature. We tried using TPA, but it didn't seem to make a difference. We also transfused a bunch of fresh frozen plasma and platelets, but it was a tough fight.",
+          "color": "purple"
+        },
+        {
+          "id": 4,
+          "parent_id": 1,
+          "user": "Leo Chen",
+          "role": "MS1",
+          "city": "Montreal, QC",
+          "text": "Wow, that's heartbreaking. What do you guys think would have been a better approach if the patient had come in sooner? Could we have prevented the DIC and coagulopathy?",
+          "color": "green"
+        },
+        {
+          "id": 5,
+          "parent_id": 4,
+          "user": "Dr. Maya Gupta",
+          "role": "PGY2",
+          "city": "Mississauga, ON",
+          "text": "Leo, that's a great question. If we had seen the patient sooner, we would have started cooling them down ASAP with cold IV fluids and possibly even a cooling blanket or an ice bath. We would have also looked for any signs of early coagulopathy and started prophylaxis immediately.",
+          "color": "purple"
+        },
+        {
+          "id": 6,
+          "parent_id": 1,
+          "user": "Dr. Brock Stone",
+          "role": "FRCSC",
+          "city": "Hamilton, ON",
+          "text": "I'm not sure I agree with the cooling blanket or ice bath approach, guys. Don't we risk causing hypothermia in these patients? I've seen it go both ways.",
+          "color": "blue"
+        },
+        {
+          "id": 7,
+          "parent_id": 6,
+          "user": "Dr. Aris Thorne",
+          "role": "Staff Physician",
+          "city": "Toronto, ON",
+          "text": "Good point, Dr. Stone. Cooling therapy does carry some risks, especially in these critically ill patients. However, the benefits often outweigh the risks, especially if we can prevent a catastrophic coagulopathy.",
+          "color": "purple"
+        },
+        {
+          "id": 8,
+          "parent_id": 1,
+          "user": "Dr. Barb Miller",
+          "role": "EP",
+          "city": "Winnipeg, MB",
+          "text": "Thanks for sharing, Dr. Thorne. Reminds me of the time we had a patient on ECMO who developed a coagulopathy due to their underlying liver disease. We had to do a full DIC reversal protocol with all sorts of meds...",
+          "color": "green"
+        },
+        {
+          "id": 9,
+          "parent_id": 8,
+          "user": "Turbo Tom",
+          "role": "RN",
+          "city": "London, ON",
+          "text": "Ugh, I hate DIC reversals. We had one patient with a TEG that looked like they got into a war. Good thing we had some excellent EPs and a hematologist on call.",
+          "color": "red"
+        },
+        {
+          "id": 10,
+          "parent_id": 8,
+          "user": "Dr. Elena Varkov",
+          "role": "FRCPC",
+          "city": "Quebec City, QC",
+          "text": "You guys are making me laugh. Yes, DIC reversals can get crazy, but at least we have the tools to manage it. Can we talk more about managing these coagulopathies at home?",
+          "color": "purple"
+        },
+        {
+          "id": 11,
+          "parent_id": 10,
+          "user": "Dr. Aris Thorne",
+          "role": "Staff Physician",
+          "city": "Toronto, ON",
+          "text": "Of course, Dr. Varkov. We should always try to manage these patients in the best place possible, which is often at home. Do you guys have any experience with outpatient management of these patients?",
+          "color": "purple"
+        },
+        {
+          "id": 12,
+          "parent_id": 11,
+          "user": "Dr. Maya Gupta",
+          "role": "PGY2",
+          "city": "Mississauga, ON",
+          "text": "Actually, I've worked with a patient who had a coagulopathy and required subcutaneous low-molecular-weight heparin at home. It was a bit complicated, but it worked out well.",
+          "color": "green"
+        }
+      ]
+    },
+    "image": "https://www.vdh.virginia.gov/content/uploads/sites/23/2021/04/April-2021-Heat-Related-Illness-787x1024.jpg"
   },
   {
     "id": 1,
-    "title": "Just saw a patient with suspected placental abruption after MVC... Thoughts?",
-    "body": "We had a 35-year-old woman, G3P2, come in after a high-speed MVC. She lost control of the car and hit the dashboard at 50mph. Abdominal pain and vaginal bleeding were noted. EDD was 32 weeks. Initial vitals were BP 80/50, HR 120, and O2 sat 92% on RA. Ultrasound showed an empty amniotic sac with an uncertain placental location. She was taken for an emergent C-section, which showed a placental rupture with significant retroplacental bleeding.",
-    "category": "EM: Trauma",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "What's the updated hemoglobin on this patient? And did she need any blood products? I remember that placental abruption can be a real challenge to diagnose, even with a good ultrasound.",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Her hemoglobin came back at 7.5 g/dL, which was down from 10.5 pre-op. She received 2 units of O Rh Neg blood and a transfusion of 2.5 kg of FFP. Her labs are still a bit concerning... she's hypothermic (32C) and her INR is up at 1.8. Not sure what happened with the placental abruption. We were expecting more significant fetal distress based on the retroplacental bleeding.",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Is the INR high due to the DIC from the abruption? Or could there be some other underlying coagulopathy at play? I've read that patients with placental abruption are at higher risk for DIC, but I'm not sure about the specifics.",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "The INR is up because of the FFP transfusion, Leo. The FFP is given to correct coagulopathy, but it can also affect labs indirectly. DIC is a possibility, but we should also consider other factors... her bleeding was rapid and massive, and it's possible that the placenta was already compromised before the abruption.",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs! Can't even manage a simple trauma resuscitation. What's the next step here? Do we get the patient out of the ICU and back to the OR for another attempt at repairing the uterus?",
-        "color": "red"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Hold on, Victor. We're not done here yet. We need to stabilize this patient first and then assess the uterine repair. You can't just rush into surgery without considering all the factors at play.",
-        "color": "purple"
-      },
-      {
-        "id": 7,
-        "parent_id": 5,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "I think we also need to consider other potential complications of placental abruption... uterine atony, placental bleeding with maternal instability, or even preterm birth. What's the plan for postpartum care and potential future surgeries?",
-        "color": "green"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Just saw a patient with a classic case of esophageal rupture... and it's a great reminder of why we always need to be considering it in our patients with severe chest pain",
-    "body": "Patients with esophageal rupture often present with acute onset substernal chest pain after a bout of forceful vomiting. Classic findings include a sharp, severe pain that may radiate to the back or arms. I saw a case last night that really highlighted the importance of considering this diagnosis in patients with severe chest pain. The patient was a 40-year-old man who had been experiencing nausea and vomiting for hours. He finally passed a large quantity of bile-stained material, but then suddenly became severely distressed with a sharp, tearing pain in his chest. On examination he was tachycardic and febrile, and had marked tenderness in the chest region. The ECG showed nothing significant, but the chest x-ray revealed pneumomediastinum. The patient ultimately required a thoracotomy and a gastrostomy tube, and was stabilized overnight. What this case emphasizes is how easy it can be to get caught up in the 'usual suspects' in patients with chest pain - the classic acute coronary syndrome, cardiac tamponade, etc. Let's not forget about less common causes like esophageal rupture, especially in patients who have a history of vomiting or a recent episode of nausea. TLDR: Esophageal rupture is a relatively rare cause of chest pain, but let's make sure we're thinking about it in patients who have a history of vomiting and a classic presentation like this.",
-    "category": "todayilearned",
-    "comments": [
-      {
-        "id": 2,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I love this, but we should be thinking about this diagnosis even more broadly than just in patients with a history of vomiting. Have you ever seen a case like this in a patient without a clear history of Gastroesophageal reflux disease (GERD) or other esophageal pathology? In that case we may have to be thinking about iatrogenic causes like NG tube insertion or other invasive procedures that can cause mucosal damage. I've seen cases like this in patients who have undergone recent surgeries, or in those with a history of alcohol or steroid use. Let's not forget about the importance of thinking about 'less common causes' in our patients with chest pain!",
-        "color": "red",
-        "links": [
-          "https://emedicine.medscape.com/article/176235-overview"
-        ]
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Great point Dr. Gupta! I was thinking about this and wondering if you could clarify how a patient with no clear history of GERD or esophageal pathology would present with esophageal rupture. Are there specific risk factors we should be looking for? Also, how would you approach diagnosing this condition in a patient without a clear history of vomiting or abdominal pain?",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 2,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "Ugh, you're making me think of the times when I had to deal with this on call and the patient turns out to have esophageal rupture. And I always forget to do a NG tube in the ER and the patient ends up having it in the hospital. What a great reminder - thanks Dr. Gupta!",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Haha yeah I know what you mean, Dr. Rage! But seriously though, getting a NG tube in quickly in the ER can really help stabilize the patient. In fact, some research suggests that prompt NG decompression can significantly reduce mortality in these patients.",
-        "color": "pink"
-      }
-    ]
-  },
-  {
-    "id": 12345,
-    "title": "Just saw a patient with an ICH. Any pearls on managing elevated ICP in the acute setting?",
-    "body": "I had a patient present with a spontaneous ICH due to a ruptured AVM. His ICP started climbing and we had to intubate him ASAP. We ended up using a triple-hock for ventilation and a CCB for blood pressure control. I've heard rumors of using a 'cerebral decompression vent' but have never seen it used. Am I missing something?",
+    "title": "Rant about Bioterrorism and the Overdiagnosed Patient",
+    "body": "Just saw a patient with an 'odd' rash on their arm that 'might' be smallpox. 20 minutes in the ER, 15 vials of blood, and a call to CDC, and it's just a case of chickenpox. Anyone else have this experience recently?",
     "category": "medicine",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Great case, OP! Elevated ICP in the acute setting can be tricky to manage. I've had good luck with using CCBs like nicardipine, especially when combined with osmotherapy. Have you considered using mannitol or hypertonic saline in this patient?",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs are always rushing to intubate. Why not try a LMA first and see if the patient responds to simple measures to control ICP? Don't forget to check for mass effect on the CT scan! Don't forget to link to a study showing the benefit of this approach!",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Excuse me, but isn't mass effect a contraindication for LP, not LMA?",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 2,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Great catch, @Leo Chen! You're absolutely right. Mass effect is a contraindication for LP. I was thinking of LMA for airway management, not lumbar puncture.",
-        "color": "purple"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "OP, have you considered using decompressive craniectomy in this case? We have a few patients on our service who have benefited from this procedure.",
-        "color": "pink"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "I agree with @Dr. Maya Gupta. Decompressive craniectomy can be a lifesaver in cases of refractory ICP. However, don't forget to check the patient's sodium levels before and after the procedure!",
-        "color": "blue"
-      },
-      {
-        "id": 7,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "OP, just a suggestion. Have you tried using a cerebral decompression vent? I've seen them used in ICU before and they seem to work well.",
-        "color": "red"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Great suggestion, @Turbo Tom! I've heard of cerebral decompression vents being used before, but I've never seen one in action. Can you share any links or resources on this topic?",
-        "color": "purple"
-      },
-      {
-        "id": 9,
-        "parent_id": 7,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "I've seen a few studies on cerebral decompression vents. Let me see if I can dig up some references for you... (link to study 1, link to study 2).",
-        "color": "green"
-      },
-      {
-        "id": 10,
-        "parent_id": 1,
-        "user": "Dr. Sara Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Just a quick question, but what's the current thinking on using hypothermia in the treatment of elevated ICP?",
-        "color": "teal"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "We've been using mild hypothermia (around 32-33\u00b0C) with some success in our patients with refractory ICP. Have you seen any studies on this topic?",
-        "color": "pink"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Great point, @Dr. Maya Gupta! Mild hypothermia has been shown to be beneficial in reducing ICP in some studies. However, don't forget to monitor for complications such as cardiac arrhythmias!",
-        "color": "blue"
-      },
-      {
-        "id": 13,
-        "parent_id": 12,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "OP, have you considered using sedation for ICP control? We've been using propofol with some success in our ICU patients.",
-        "color": "red"
-      },
-      {
-        "id": 14,
-        "parent_id": 13,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Great suggestion, @Turbo Tom! Sedation can be a useful adjunct in managing ICP. However, be careful with propofol dosing, as it can have negative effects on blood pressure.",
-        "color": "purple"
-      }
-    ],
-    "image": "https://emergencymedicinecases.com/wp-content/uploads/2017/12/ICH-Golden-Hour-Card.jpeg"
-  },
-  {
-    "id": 1,
-    "title": "Today I Learned...Carbon Monoxide Poisoning in a 30-year-old female presented with altered mental status, tachycardia, and normal pulse ox saturation",
-    "body": "Had a weird case last night. A 30-year-old female came in with altered mental status, tachycardia, and normal pulse ox saturation. History revealed she was using a space heater in her garage to thaw pipes. Carboxyhemoglobin level was 20%. Had to intubate her and ventilate her in the ICU. Anyone else seen anything like this?",
-    "category": "clinical_anecdote",
-    "comments": [
-      {
-        "id": 2,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Great case! Yes, this is a classic presentation of carbon monoxide poisoning. What was the temperature in her garage? Was she using a gas-powered generator too?",
-        "color": "purple"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Hey Aris, the garage temperature was around 30\u00b0C, and she had been using the space heater for about an hour. The interesting thing is that her husband said she was feeling fine just a few hours earlier, and then suddenly she collapsed.",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Ziggy Zalesky",
+        "user": "Dr. 'Ziggy' Zalesky",
         "role": "EP",
         "city": "Vancouver, BC",
-        "text": "That's crazy! CO poisoning can be sneaky like that. Did you check her ECG for any abnormalities? And what was the COHb level when you first saw her?",
-        "color": "blue"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Actually, Ziggy, CO poisoning can affect ECG in a weird way. Some patients may have ST-segment elevation or depression, but it's not always present. We need to be careful not to miss it.",
-        "color": "red"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Laura Chen",
-        "role": "Medical Student",
-        "city": "Montreal, QC",
-        "text": "Thanks for the correction, Dr. Miller! So what are the typical ECG changes we see in CO poisoning?",
-        "color": "lightblue"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Ah, great question Laura! In CO poisoning, we often see ST-segment elevation or depression, T-wave flattening or inversion, and QT interval prolongation. But remember, these findings are not always present or specific, so we need to keep a high index of suspicion.",
-        "color": "orange"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Thanks, Ziggy! And what about treatment? In this case, we intubated and ventilated her, what about supportive care?",
-        "color": "pink"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Ah, great question Tom! In general, supportive care is key. We should maintain an oxygen saturation of 95-100% with supplemental O2, and monitor for any signs of neurological deterioration. Some patients may require hyperbaric oxygen, but that's usually for more severe cases.",
-        "color": "gray"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Thanks for the reminder, Aris! And what about follow-up? Should we be concerned about long-term neurological effects in this patient?",
-        "color": "yellow"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Good point, Sarah! CO poisoning can lead to long-term neurological effects, including cognitive impairment and memory problems. We should definitely follow up with this patient and monitor her for any signs of neurological deterioration.",
-        "color": "purple"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "Well said, Maya! And it's great to see you guys discussing this case in such detail. Keep up the good work!",
-        "color": "red"
-      },
-      {
-        "id": 13,
-        "parent_id": 12,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Aww, thank ye, Dr. Oldman! It's always a pleasure to see everyone workin' together like this. Now let's get back to our shift, before the phones start ringin' again!",
-        "color": "lightblue"
-      },
-      {
-        "id": 14,
-        "parent_id": null,
-        "user": "Raj Mehta",
-        "role": "ER Doc",
-        "city": "Mumbai, IN",
-        "text": "Just a quick side note - I've seen CO poisoning cases in India where the patients were using charcoal stoves or generators for cooking. It's a big problem in some parts of the world. We need to be aware of these cases too.",
-        "color": "green"
-      },
-      {
-        "id": 15,
-        "parent_id": 14,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Raj, that's a great point! We should be aware of CO poisoning in all its forms. And what about prevention? Can we do anything to prevent these cases?",
-        "color": "red"
-      },
-      {
-        "id": 16,
-        "parent_id": 15,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Prevention is key! We should educate patients about CO poisoning, and make sure they use generators and space heaters properly. And maybe install CO detectors in homes, just like we do for radon.",
-        "color": "pink"
-      }
-    ]
-  },
-  {
-    "id": 1234,
-    "title": "Just saw a patient with Retinal Detachment and it got me thinking...",
-    "body": "Today I saw a patient come in with sudden loss of vision and flashes of light in one eye. The ED doc did the bedside ultrasound and confirmed retinal detachment. Patient had a history of hypertension, and we suspect that a microvascular event caused the detachment. Anyone seen a similar case recently? Has anyone had experience with pneumatic retinopexy?",
-    "category": "emergency-medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "I had a similar case last week. Patient was a young healthy woman, 30 y.o., with no past medical history. The key was a history of heavy lifting the day before. She was on oral contraceptives, which likely contributed to the risk. We treated her with laser photocoagulation and she had 20/20 vision restored. Pneumatic retinopexy is not indicated in this scenario.",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs always think it's a microvascular event. 95% of the time it's idiopathic. You can't just laser away every detached retina. In this case, we should be considering scleral buckling or vitrectomy depending on the severity.",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "I don't understand, Dr. Sterling. What's the difference between scleral buckling and vitrectomy in this case?",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Scleral buckling is a technique where a flexible band is placed around the eye to reattach the retina to the sclera. Vitrectomy, on the other hand, involves removing the vitreous gel from the eye to relieve traction on the retina. The choice between the two depends on the severity of the detachment, patient's vision, and surgeon's preference.",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "I've seen several cases of retinal detachment, but I've always wondered about the long-term prognosis. Does anyone have any data on the risk of future detachment or visual acuity in patients treated for retinal detachment?",
-        "color": "red"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "According to the literature, the risk of future detachment is significantly lower in patients who have had a previous detachment. However, the visual prognosis can be variable and depends on several factors, including the extent of retinal involvement and the presence of other ocular comorbidities.",
-        "color": "green"
-      },
-      {
-        "id": 7,
-        "parent_id": null,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Has anyone else noticed that patients with retinal detachment always have the craziest life story? I mean, I saw a patient once who had been skydiving in Vegas and still developed detachment.",
-        "color": "purple"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "Tell me about it, Tommy! I had a patient once who said he had a 'suddenly-onset' detachment after 'suddenly-onset' hypertension that was 'suddenly-onset' after eating a 'suddenly-onset' spicy curry.",
-        "color": "green"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "OMG, you guys are so funny! But seriously, can we please get back to the topic? What's the take-home message from all this?",
-        "color": "blue"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Phil Muddle",
-        "role": "EP",
-        "city": "Regina, SK",
-        "text": "Uh, what was the question again?",
-        "color": "red"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Rant about pelvic inflammatory disease: How to avoid a common pitfall and improve outcomes for your patients",
-    "body": "Had a miss last night on a case of pelvic inflammatory disease (PID). I was supposed to start the patient on a 14-day regimen of doxycycline, but I accidentally prescribed ceftriaxone instead. It wasn't until the patient's labs came back and I saw the high CRP that I realized my mistake. Luckily, I caught it before any complications arose. But it got me thinking, how often do we make mistakes like this and what can we do to avoid them? Specifically, I've been thinking about how to improve my knowledge of PID and stay up-to-date on the latest guidelines and treatment options.",
-    "category": "emergency-medicine",
-    "comments": [
-      {
-        "id": 11,
-        "parent_id": null,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "TLDR: Don't be like me and prescribe ceftriaxone for PID. Here's what you can do instead: ... Read more: http://emedicine.medscape.com/article/2081411-overview. One thing that really helped me was watching Dr. Abigail D. Hankin's video on PID at the ACEP 2020 conference. She emphasized the importance of considering the patient's age, sexual history, and symptoms when making a diagnosis. And let's not forget the microbiology! Neisseria gonorrhoeae and Chlamydia trachomatis are the most common causes, but don't forget to check for other potential pathogens like Mycoplasma genitalium. I've also found the PID risk calculator to be super helpful in figuring out which patients are at highest risk. Anyone else have any favorite tools or resources for managing PID? ",
-        "color": "purple"
-      },
-      {
-        "id": 12,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I totally agree with Dr. Sharp! I had a similar experience a few months ago, and I also ended up using the PID risk calculator to guide my management. One thing that's really important to keep in mind is the role of sexual history and education in preventing PID. I've found that a lot of patients aren't aware of the risks or how to properly use condoms. Has anyone had experience with teaching patients about STIs and PID prevention? What are some good resources for this?",
-        "color": "green"
-      },
-      {
-        "id": 13,
-        "parent_id": 11,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Gupta, you mentioned sexual history and education, which makes me think of the importance of taking a proper sexual history. How do you go about doing this, especially with patients who may be uncomfortable discussing their sexual activity? Do you have any tips for making this conversation more comfortable?",
-        "color": "green"
-      },
-      {
-        "id": 14,
-        "parent_id": 11,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Dr. Sharp, did you mention any potential complications of incorrectly diagnosing PID? I've been reading about the risks of infertility and ectopic pregnancy, but are there any other important considerations?",
-        "color": "blue"
-      },
-      {
-        "id": 15,
-        "parent_id": 14,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "One thing to keep in mind is the importance of considering the patient's overall history and presentation. PID can easily be misdiagnosed in patients with other underlying conditions, such as endometriosis or Crohn's disease. Make sure to also consider the potential psychosocial factors at play!",
-        "color": "green"
-      },
-      {
-        "id": 16,
-        "parent_id": null,
-        "user": "Rusty",
-        "role": "RN",
-        "city": "Edmonton, AB",
-        "text": "Thanks for sharing this, OP! Anyone else have favorite resources for STI and PID education for patients?",
-        "color": "orange"
-      }
-    ],
-    "image": "https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3790710239210144343"
-  },
-  {
-    "id": 1,
-    "title": "Today I Learned: Diagnosing Acute Angle-Closure Glaucoma in the Emergency Department | r/EmergencyMedicine",
-    "body": "Just saw a patient with acute angle-closure glaucoma and I'm still shaking my head. Presented with 2/10 vision, severe eye pain, and 'colored halos around lights' on the way to the ED. Classic symptoms, no red flags initially seen on history or physical.",
-    "category": "r/EmergencyMedicine",
-    "comments": [
-      {
-        "id": 2,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Great discussion, everyone!\n\nTo diagnose acute angle-closure glaucoma, I always make sure to include a thorough history, including medications, and a complete ophthalmic exam. Any signs of trauma, recent eye surgery, or use of certain medications like erythromycin or sulfonamides can predispose to angle closure.",
-        "color": "blue"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "That's very true! I recently read a case report where a patient who was on erythromycin ointment for 2 weeks developed acute angle-closure glaucoma. I also learned that using ocular ultrasonography can help identify signs of angle closure, such as increased intraocular pressure and corneal edema. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6547895/",
-        "color": "purple"
-      },
-      {
-        "id": 4,
-        "parent_id": 2,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "I'm glad I can add my 2 cents here. As a patient who's experienced angle closure, I've found that applying a gentle cold compress to the affected eye can help relieve some of the pain and discomfort. Has anyone else noticed this?",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": null,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "TL;DR: Acute angle-closure glaucoma is a medical emergency. Don't delay! What's the best way to treat a patient with suspected angle closure before they arrive in the ED? Can someone elaborate on the use of ocular ultrasonography?",
-        "color": "yellow"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "Good question, Leo! When a patient presents with suspected angle closure, I always start with a thorough history and physical exam, followed by a review of their medication list. If I suspect angle closure, I'll order an ocular ultrasonography to confirm the diagnosis and assess for complications. In my experience, ocular ultrasonography can be useful in identifying signs of angle closure, such as increased intraocular pressure and corneal edema.",
-        "color": "red"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "That's a great point, Dr. Oldman. Have you ever had to refer a patient with acute angle-closure glaucoma for surgery? I'm curious to know more about the types of surgical options that are available.",
-        "color": "orange"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "UGH, SURGERY? WHO NEEDS THAT? JUST GIVE ME A GLUCOSE TOLERANCE TEST AND A BP CHECK AND I'LL BE FINE. NOT.",
-        "color": "black"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "Oh, come on, Rick... Don't be such a party pooper. Surgery may be necessary to relieve the intraocular pressure and prevent vision loss. Let's focus on providing excellent care, shall we?",
-        "color": "pink"
-      },
-      {
-        "id": 10,
-        "parent_id": null,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Well said, Martha! And let's not forget about the importance of patient education in preventing and managing angle closure. A well-informed patient is a happy patient (and a healthy one, too!)!",
-        "color": "teal"
-      }
-    ]
-  },
-  {
-    "id": 145,
-    "title": "Today I Learned: Spotting a Tension Pneumothorax in a Spontaneous Pneumothorax",
-    "body": "Rant about the importance of knowing the difference between a simple pneumothorax and a tension pneumothorax. We've all seen the textbook cases, but what about the subtle ones?",
-    "category": "emergency medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "TL;DR: Tension pneumothorax is not just about the size of the pneumothorax, folks. It's about the physiology behind it. When I see a patient with a pneumothorax and their blood pressure is dropping, I don't wait for the CT to confirm it. I start the thoracostomy process.",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "But isn't it true that a small pneumothorax can still be a tension pneumothorax if the patient's pleural pressure is high enough? I read a study that said the size of the pneumothorax doesn't directly correlate with the presence of tension.",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I completely agree with Dr. Zalesky. The key is to watch for the signs of tension - increased mediastinal shift, distended neck veins, and hypotension. If I see any of those, I'm not waiting for the CT to confirm it. The patient's presentation is all I need to start the thoracostomy process.",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 2,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "But isn't there also a thing about the lung point? Can't we also spot tension pneumothorax by looking at the lung point on the ultrasound?",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": 3,
-        "user": "Dr. Vic Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs. You all need to stop worrying about the nuances of pneumothorax and just focus on the basics. If a patient's blood pressure is dropping, you treat the patient, not the pneumothorax. Get it straight, people.",
-        "color": "purple"
-      },
-      {
-        "id": 6,
-        "parent_id": 4,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Actually, Leo, the lung point is a great indicator of tension pneumothorax. When you see a lung point on the ultrasound, it means that air is entering the pleural space and the lung is re-expanding. It's a sign of tension, but not a guarantee. Always take it into consideration when evaluating a patient.",
-        "color": "green"
-      },
-      {
-        "id": 7,
-        "parent_id": 5,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Come on, Vic. Don't be so hard on the young folks. We all know that a tension pneumothorax is a life-threatening condition, and we need to take it seriously. But let's not forget to teach them the importance of critical thinking and nuance in their decision-making.",
-        "color": "purple"
-      },
-      {
-        "id": 8,
-        "parent_id": 6,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Wait, so if I see a lung point on the ultrasound, does that mean I should start the thoracostomy process? Or should I get a CT scan first?",
-        "color": "green"
-      },
-      {
-        "id": 9,
-        "parent_id": 7,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Actually, Chad, the presence of a lung point on the ultrasound is a strong indicator of tension pneumothorax. If you see it, you should start the thoracostomy process immediately, without waiting for a CT scan. The patient's life is at risk, and every minute counts.",
-        "color": "green"
-      },
-      {
-        "id": 10,
-        "parent_id": 8,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "I'm just glad we have all this expert advice on tension pneumothorax. But let's not forget to keep it real - sometimes we're going to get it wrong, and sometimes our patients are going to die. So let's not beat ourselves up over it too much, okay?",
-        "color": "purple"
-      },
-      {
-        "id": 11,
-        "parent_id": 9,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Actually, Turbo, I think we need to be more critical than that. We need to be aware of our own biases and limitations, and we need to be willing to question ourselves when things don't go right. It's okay to make mistakes, but it's not okay to be ignorant of them.",
-        "color": "purple"
-      }
-    ]
-  },
-  {
-    "id": 123,
-    "title": "Just saw a patient with a difficult intubation...",
-    "category": "Emergency Medicine",
-    "body": "Just saw a patient with a 10 cm esophagus, and a 15 mm cricoid with no room for the ETT to pass through. I did everything I could to try and make the intubation easier, but in the end, I had to use a bougie to get it in. Does anyone have any tips for dealing with this situation? And what are the odds of a patient having this anatomy and still requiring a surgical airway? Also, has anyone heard of the 'Rule of Three' for intubation attempts?",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "That's a tough one! I've had a few patients like that, and in my experience, it's all about the bougie. Make sure to get the right size, and don't try to force it if it's not going in. Also, I'd love to see some more information on the 'Rule of Three'. I've heard it mentioned before, but I'm not entirely sure what it's referring to. Can someone clarify?",
+        "text": "Been there, done that! It's like they always say: \"In the absence of a good story, create one.\" What's your take on this, @Dr. Kevin Park? Should we be more careful with our smallpox diagnoses?",
         "color": "purple"
       },
       {
@@ -872,16 +139,16 @@
         "user": "Dr. Kevin Park",
         "role": "PGY1",
         "city": "Edmonton, AB",
-        "text": "The 'Rule of Three' refers to attempting intubation up to 3 times before placing a surgical airway. It's a widely used guideline in emergency medicine, but I'm not sure if there's any scientific evidence to back it up. Has anyone seen any studies on this topic?",
+        "text": "Great point, @Dr. 'Ziggy' Zalesky! The CDC's bioterrorism guidelines are really clear on this. I've been trying to brush up on my smallpox diagnosis, but I'm still not sure what to look for in terms of rash characteristics. @Dr. Aris Thorne, have you dealt with any similar cases recently?",
         "color": "green"
       },
       {
         "id": 3,
         "parent_id": 1,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "I've heard that the 'Rule of Three' was actually coined from a Canadian critical care study, but I'd have to dig up the reference. In any case, it's a good reminder to not be too hasty with the surgical airway. Let's keep talking about this!",
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Actually, @Dr. Kevin Park, I had a case last year where the patient presented with a rash that looked suspiciously like smallpox. We ended up sending it to the lab, and it turned out to be a case of varicella-zoster virus! So, it's not just smallpox we should be worried about. Good luck with your diagnosis",
         "color": "green"
       },
       {
@@ -890,8 +157,8 @@
         "user": "Turbo Tom",
         "role": "RN",
         "city": "London, ON",
-        "text": "Just a RN's two cents, but isn't it true that a bougie is an excellent tool for difficult intubations, but it can also cause damage to the airway if not used carefully? Can anyone provide more info on this?",
-        "color": "green"
+        "text": "What about the patient's travel history? I always make sure to ask about that when someone comes in with an 'odd' rash. Anyone else have any tricks for figuring out bioterrorism cases?",
+        "color": "blue"
       },
       {
         "id": 5,
@@ -899,53 +166,645 @@
         "user": "Dr. 'Ziggy' Zalesky",
         "role": "EP",
         "city": "Vancouver, BC",
-        "text": "Great point, Turbo! Bougies can definitely cause damage if not used properly. I've seen it happen before, and it's not pretty. Make sure to use them in conjunction with a backup plan, like a surgical airway. Thanks for bringing this up!",
+        "text": "Totally agree, @Turbo Tom! Travel history is crucial in cases like this. And don't forget to ask about occupational exposure! I've seen cases where the patient works in a lab or hospital and gets exposed to a pathogen.",
         "color": "green"
       },
       {
         "id": 6,
-        "parent_id": 4,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Just a quick thought - if we're using a bougie, why not try using an extraglottic device (EGD) instead? They're getting more popular, and can be really helpful in tricky intubations.",
-        "color": "green"
+        "parent_id": 5,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Wait, what about the incubation period? I thought smallpox had a pretty short incubation period, like 10-14 days? Does that change the way we approach diagnosis?",
+        "color": "red"
       },
       {
         "id": 7,
         "parent_id": 6,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "I've heard that EGDs are great for difficult intubations, but are they suitable for all patients? For example, are they safe to use in patients with a full stomach?",
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Good job, @Leo Chen! You're thinking like a true doctor-in-training! The incubation period of smallpox is indeed around 10-14 days, which is relatively short compared to other diseases. That's why it's so important to ask about travel history and occupational exposure.",
         "color": "green"
       },
       {
         "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Zachariah Lee",
+        "parent_id": 2,
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "I've been saying this for years: we need to focus on the basics, not just throwing money at the latest 'syndrome du jour'. Let's stop over-diagnosing and get back to real medicine. Anyone agree?",
+        "color": "orange"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "I disagree, @Dr. Brock Stone! Over-diagnosis is often a necessary evil in bioterrorism cases. We have to consider the worst-case scenario and take steps to prevent it. Can't we find a balance between being cautious and not over-stepping?",
+        "color": "green"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. Ziggy Zalesky",
         "role": "EP",
-        "city": "St. Catharines, ON",
-        "text": "EGDs are generally safe for patients with a full stomach, but it's always a good idea to be cautious. You can check out the guidelines from the Society for Airway Management (SAM) for more info.",
+        "city": "Vancouver, BC",
+        "text": "Lol, balance? Between a rock and a hard place, maybe! Seriously though, @Dr. Aris Thorne, can you explain a bit more about the 'balance' you're proposing?",
+        "color": "green"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "What about the role of public health in bioterrorism cases? Shouldn't they be involved from the get-go, especially if there's a suspicion of a bioterrorism outbreak?",
+        "color": "pink"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Exactly, @Sarah Jenkins! Public health should be involved ASAP. But what about the communication breakdown between healthcare providers and public health officials? I've seen cases where the two groups don't know what to report, or don't know what to report it to.",
+        "color": "blue"
+      },
+      {
+        "id": 13,
+        "parent_id": 12,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Ugh, communication breakdowns are the worst! It's like two ships passing in the night. Maybe we need to establish clearer guidelines for reporting bioterrorism cases?",
+        "color": "green"
+      },
+      {
+        "id": 14,
+        "parent_id": 13,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Actually, @Dr. Ziggy Zalesky, I think we already have guidelines in place. It's just a matter of training and education. We need to make sure our healthcare providers know what to look for and how to report.",
+        "color": "green"
+      },
+      {
+        "id": 15,
+        "parent_id": 14,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "Education is one thing, but what about resources? We need to make sure our healthcare providers have access to the right tools and information to make informed decisions. Can anyone recommend any good online resources?",
+        "color": "blue"
+      },
+      {
+        "id": 16,
+        "parent_id": 15,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Actually, @Martha 'The Hammer', I have a great resource to share! The CDC has an excellent online guide to bioterrorism preparedness and response. It's a must-read for any healthcare provider!",
+        "color": "green"
+      },
+      {
+        "id": 17,
+        "parent_id": null,
+        "user": "Dr. Rick 'The Rage'",
+        "role": "EP",
+        "city": "Windsor, ON",
+        "text": "You know what's really 'resourceful'? Our healthcare system's ability to waste resources on unnecessary tests and treatments! I swear, sometimes I think we're more interested in making money than saving lives.",
+        "color": "red"
+      },
+      {
+        "id": 18,
+        "parent_id": 17,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "@Dr. Rick 'The Rage', calm down! We're all trying to do our best here. Let's focus on the patients, not the system.",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "title": "Just had a weird case of anorectal foreign body and wanted to share... ",
+    "body": "Had a miss last night, thinking it was just a standard anorectal abscess, but the Xray showed this... (see below). Turned out it was a, well... let's just say an 'unusual' foreign body. I've had some experience with these before, but this one took the cake. Wanted to know how you all would've handled it.\n\nTLDR: Anorectal foreign body in the form of a... well you'll see",
+    "category": "emergency",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "TigressT",
+        "role": "EM",
+        "city": "NYC",
+        "text": "Oh man, just when you think you've seen it all! That's a great Xray. I've only seen something similar once before in med school, when a patient inserted a, ahem, 'large' object. What was the patient's story, if I may ask? And did they have any complications?",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Ah, great case, TigressT! I've had a few of these myself. Usually, it's something small like a toothpick or a, ahem, 'bobby pin'. But the patient's story is always the most interesting part. This one claimed it was an accident while changing a tampon. I'm not buying it, though. What really gets me is how often these cases get misdiagnosed. I've seen anorectal abscesses mistaken for rectal foreign bodies and vice versa.",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Wow, I had no idea anorectal foreign bodies could be such a thing! Can I ask, Dr. Thorne, what are some common signs we should be looking for to diagnose this? I've only learned about rectal prolapse in med school, but I'm not sure how that relates.",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 2,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "You're absolutely right, TigressT, that Xray is epic! I've had a few of these too, and I always try to get as much info as possible about what went in. And Leo, anorectal foreign bodies can present with a variety of symptoms, including pain, rectal bleeding, and... well, you see above! The key is always to ask the right questions.",
+        "color": "red"
+      },
+      {
+        "id": 5,
+        "parent_id": 1,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "You'd think, wouldn't you, TigressT? But these cases always seem to come out of left field. And can I say, that Xray just made my day. I've got a new patient coming in now with... well, you can guess...",
+        "color": "orange"
+      },
+      {
+        "id": 6,
+        "parent_id": 1,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Oh my goodness, I'm giggling like crazy! I've got a friend who had something similar, and it's hilarious. Okay, okay, got it... focus Sparkle-Eyes, focus! You know, TigressT, it's all about being observant. And not, ah, judging patients.",
+        "color": "pink"
+      },
+      {
+        "id": 7,
+        "parent_id": 2,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Actually, Dr. Thorne, anorectal prolapse is related to the condition of the anal sphincter and the rectum. And isn't it true that patients with anorectal prolapse are at higher risk for getting rectal foreign bodies? And isn't it also related to pelvic floor dysfunction?",
+        "color": "purple"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Excellent job, Sarah! You're exactly right. Anorectal prolapse is a related condition, and patients with it are indeed at higher risk. And, yes, it's also related to pelvic floor dysfunction. Thanks for pointing that out!",
         "color": "green"
       },
       {
         "id": 9,
         "parent_id": 1,
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "Can we please focus on the medical aspect here? TigressT, your Xray is impressive, but what's the lesson learned from this case? Any takeaways we can apply to our practice?",
+        "color": "red"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "I agree with Dr. Stone, TigressT. What's the main takeaway for us as EMs? What are some key takeaways from this case?",
+        "color": "purple"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "TigressT",
+        "role": "EM",
+        "city": "NYC",
+        "text": "Fair enough, gents. The takeaway is that anorectal foreign bodies can present in all sorts of unexpected ways. And we should always be asking the right questions, and looking at all the Xrays... err, I mean, doing the right workups. Dr. Thorne's point about pelvic floor dysfunction is also a great reminder.",
+        "color": "orange"
+      },
+      {
+        "id": 12,
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "And can I add that a lot of these patients need a good talk, too? Getting the story out of them is half the battle. Remember, we're EMs, not just Xray readers!",
+        "color": "pink"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Rant about Bites and Stings",
+    "body": "Just had a case come through of a 30 year old patient with anaphylaxis from a wasp sting. The patient had a history of previous stings, but no known allergy. We started the patient on epinephrine and other supportive care, but it was a close call. I was reminded of the importance of proper assessment and treatment of bites and stings in the ED. Has anyone else had a close call with a bee sting or similar?",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Sarah Sharp",
+        "role": "",
+        "city": "Laval, QC",
+        "text": "Yes, unfortunately. I see it all too often. But I have to say, our department's protocol for wasp stings saved a patient's life last year. It's amazing what a little epinephrine and antihistamines can do. One thing that I always make sure to do in cases like this is to consult with allergy and make sure we're getting the patient the correct treatment. [link to protocol](https://www.acpmedicine.com/content/ACPM/ACPM_18_01_01)",
+        "color": "purple",
+        "comments": [
+          {
+            "id": 2,
+            "parent_id": 1,
+            "user": "Dr. Kevin Park",
+            "role": "",
+            "city": "Edmonton, AB",
+            "text": "That's a great point. I've seen cases where patients got treated with just antihistamines and ended up needing more aggressive treatment. Have you had any experience with wasp venom immunotherapy? And what's the protocol for patients who come in with systemic reactions from other bites, like scorpions or spiders?",
+            "color": "teal"
+          },
+          {
+            "id": 3,
+            "parent_id": 1,
+            "user": "Dr. Maya Gupta",
+            "role": "",
+            "city": "Mississauga, ON",
+            "text": "I've had experience with scorpion stings before. They can be tricky because the venom can cause necrosis and infection. We have to be careful with wound management and antibiotic prophylaxis. Have you seen any cases of anaphylaxis from spider bites? And can someone clarify the difference between anaphylaxis and anaphylactic shock? [link to article on spider bites](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5465114/)",
+            "color": "red"
+          },
+          {
+            "id": 4,
+            "parent_id": 1,
+            "user": "Dr. Elena Varkov",
+            "role": "",
+            "city": "Quebec City, QC",
+            "text": "Anaphylaxis and anaphylactic shock are indeed different. Anaphylactic shock is a more severe and potentially life-threatening condition that requires immediate treatment with epinephrine and other supportive care. I've seen cases where patients presented with anaphylaxis, but not shock, and were able to recover with treatment. However, anaphylactic shock is always a concern and requires prompt recognition and treatment.",
+            "color": "magenta"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "parent_id": null,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "",
+        "city": "Vancouver, BC",
+        "text": "What about fire ant stings? Those can be nasty. I've seen patients come in with severe local reactions and systemic symptoms. Does anyone have experience with fire ant stings and their treatment? And has anyone seen any rare cases of systemic reactions from other bites, like centipedes or cockroaches?",
+        "color": "blue",
+        "comments": [
+          {
+            "id": 6,
+            "parent_id": 5,
+            "user": "Dr. Barb Miller",
+            "role": "",
+            "city": "Winnipeg, MB",
+            "text": "Fire ant stings are definitely a concern. I've seen cases where patients presented with severe local reactions and required wound care and antibiotic prophylaxis. I'm not sure about systemic reactions to centipedes or cockroaches, though. Can anyone speak to that? And have we ever seen any cases of anaphylaxis from insect stings in patients who are pregnant or breastfeeding?",
+            "color": "yellow"
+          },
+          {
+            "id": 7,
+            "parent_id": 5,
+            "user": "Dr. Phil Muddle",
+            "role": "",
+            "city": "Regina, SK",
+            "text": "Centipedes and cockroaches can cause pretty nasty bites and stings. I've seen patients come in with cellulitis and other infections from these bites. But anaphylaxis? I'm not aware of any cases like that. Has anyone seen anything?",
+            "color": "orange"
+          }
+        ]
+      }
+    ],
+    "image": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=968271515099301"
+  },
+  {
+    "id": 1,
+    "title": "Today I Learned: The importance of prompt treatment in childhood seizures",
+    "body": "Just saw a patient with status epilepticus in the ER tonight. Seizure activity lasted over 5 minutes and wouldn't resolve. I knew we had to act fast to avoid any further complications. After administering benzodiazepines and phenytoin, her seizures finally subsided. A sobering reminder of the importance of timely intervention in pediatric seizures.",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
         "user": "Dr. Aris Thorne",
         "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "I'd like to add my two cents to this discussion. Dealing with difficult intubations is never easy, but sometimes it's just a numbers game. In my experience, patients with a narrow airway tend to be harder to intubate than those with a wider airway.",
+        "text": "TLDR: don't wait for seizures to last over 5 minutes. Administer medications promptly, but also consider the underlying cause of the seizure.",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Great reminder! In pediatrics, seizures are often associated with underlying conditions like hypoglycemia or electrolyte imbalances. Have you ever encountered a patient with a 'febrile seizure' that turned out to be something more sinister?",
         "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Febrile seizures? Isn't that when seizures occur in kids with fevers? What's 'something more sinister'?",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 2,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "Actually, Leo, febrile seizures are a common and benign condition. However, it's essential to have a low threshold for investigating other causes of seizures in pediatric patients, such as neurological abnormalities or metabolic disorders.",
+        "color": "orange"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Great point, Dr. Oldman. I'd like to add that a thorough history, physical examination, and laboratory tests are crucial in distinguishing between seizures and other conditions that may mimic seizures, such as syncope or gastroesophageal reflux.",
+        "color": "pink"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Over-diagnosis of seizures is a rampant issue in pediatric ERs. I'm not convinced that these 'benign' febrile seizures aren't just a result of over-zealous parents and misinformed physicians. Let's not forget, folks, the old adage ' Amateurs talk, professionals do'.",
+        "color": "red"
+      },
+      {
+        "id": 7,
+        "parent_id": null,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Rant about: why don't we have more protocols in place for suspected seizures? It's always a guessing game in the ER. I'd love to see more evidence-based guidelines and clear communication between ED docs and other specialties.",
+        "color": "teal"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "I'm with Turbo Tom on this one. Clear protocols and effective communication are key to providing timely and proper care for patients with seizures. Has anyone come across any useful resources or guidelines that we can use in our ED?",
+        "color": "burgundy"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Actually, I've found a great resource on the Pediatric Emergency Medicine Fellowship's website (pemf.net). They have a comprehensive guideline for the management of seizures in children, including suggested protocols and references. Worth checking out!",
+        "color": "brown"
+      }
+    ]
+  },
+  {
+    "title": "Rant about missed hypoglycemia in the ER",
+    "body": "Just had a kid come in with altered mental status and a glucose of 40, and I'm kicking myself for not thinking of hypoglycemia sooner. I'm pretty sure we missed a few cases last night too... any tricks for staying vigilant?",
+    "category": "emergency-medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "TLDR; get the glucose level ASAP. Hypoglycemia is a silent killer. Remember the story of a 9-year-old kid who died in the ER from a missed hypoglycemia last year. It was preventable.",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Dr. Thorne, what are some things we should look out for to catch hypoglycemia early? I thought it was mainly just confusion and lethargy?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Dr. Thorne, I totally agree. Hypoglycemia is sneaky. In addition to altered mental status, we should also look for tachycardia, tachypnea, and tremors. And don't forget about the infants who present with poor feeding and a high-pitched cry!",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 2,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Leo, hypoglycemia is just one of many things that can cause altered mental status. We can't just automatically suspect hypoglycemia without doing some proper work-up. Get an ECG, do a head CT... it's not that hard.",
+        "color": "red"
+      },
+      {
+        "id": 5,
+        "parent_id": 3,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Dr. Gupta, you're absolutely right about the infants. I've seen cases where the only sign was poor feeding, and then the blood glucose was 20... scarily low.",
+        "color": "purple"
+      },
+      {
+        "id": 6,
+        "parent_id": 4,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Dr. Sterling, of course, we need to do a proper work-up, but if we see someone with altered mental status and a glucose of 60, we should at least suspect hypoglycemia. Don't let your surgeon ego get in the way of good medicine.",
+        "color": "orange"
+      },
+      {
+        "id": 7,
+        "parent_id": 5,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Dr. Miller, what kind of head CT are you talking about? Isn't that overkill for a low glucose?",
+        "color": "pink"
+      },
+      {
+        "id": 8,
+        "parent_id": 6,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "TLDR; get the glucose level ASAP and consider a stat IV glucose for those at risk. I've had patients with hypoglycemia-induced seizures... yeah, not pretty.",
+        "color": "brown"
+      },
+      {
+        "id": 9,
+        "parent_id": 7,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Leo, we order a head CT if we suspect something more sinister like a stroke or tumor. But for low glucose, we just order a stat glucose and maybe a few other basic labs.",
+        "color": "gray"
+      },
+      {
+        "id": 10,
+        "parent_id": 8,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Dr. Zalesky, exactly. Stat IV glucose can be a lifesaver in those critical moments. We should all be on the lookout for missed hypoglycemia... it's a silent killer.",
+        "color": "blue"
+      },
+      {
+        "id": 11,
+        "parent_id": 9,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Wait, so what are the key symptoms for hypoglycemia again? I want to nail this for med school.",
+        "color": "teal"
+      },
+      {
+        "id": 12,
+        "parent_id": 10,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "The main symptoms are altered mental status, tachycardia, tachypnea, and tremors. For infants, it's poor feeding and a high-pitched cry.",
+        "color": "yellow"
+      },
+      {
+        "id": 13,
+        "parent_id": 11,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Pre-med bro, you gotta remember, hypoglycemia is like a wolf in sheep's clothing. It can present with ANY symptom, so we have to stay vigilant.",
+        "color": "purple"
+      },
+      {
+        "id": 14,
+        "parent_id": 12,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Thanks, Dr. Sharp! I think I got it.",
+        "color": "green"
+      },
+      {
+        "id": 15,
+        "parent_id": null,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "I'm a patient who came in for low glucose, and I just wanted to say thanks to the ER team. They saved my life!",
+        "color": "pink"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "TL;DR: Don't mistake Peptic Ulcer Disease (PUD) for gastritis in the ER - a cautionary tale",
+    "body": "We all know PUD and gastritis can present similarly, but last night's case was a harsh reminder of how easily we can misdiagnose. A 55-year-old male with a 10-day history of dyspepsia, weight loss, and mild epigastric discomfort presented to our ER. His vitals were stable, and a quick gastroscopy revealed two active bleeding ulcers in the duodenum. We initially thought it was a simple gastritis flare-up, but the patient's subsequent hematemesis and melena led us to change our diagnosis. It was a stark reminder of how crucial it is to suspect PUD in patients with refractory epigastric pain and weight loss, even in the absence of upper GI bleeding.",
+    "category": "emergency-medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "@Dr. Aris Thorne This is a great reminder of the importance of high suspicion for PUD in these patients. Have you ever seen a patient with a perforated duodenum due to PUD?",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "@Dr. Maya Gupta Indeed, I have seen a few cases of perforated duodenum due to PUD. One patient had a significant amount of free air in the abdominal cavity, and we had to take them to the OR for an emergency laparotomy.",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "@Dr. Aris Thorne Amateurs in the ER always rushing to OR with a possible PUD without even doing a proper workup. What about the patient who just came in with vague abdominal pain and normal vitals? We can't just assume it's PUD and send them to surgery.",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "@Dr. Victor Sterling I agree with you that we can't just assume it's PUD, but in this case, the patient had a clear history of epigastric pain, weight loss, and hematemesis. It was a fairly straightforward diagnosis.",
+        "color": "yellow"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "@Dr. Barb Miller That's true, but I was wondering, did anyone consider the possibility of an NSAID-induced PUD given the patient's history of chronic back pain and recent use of ibuprofen?",
+        "color": "red"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "@Dr. Maya Gupta A great point! NSAID-induced PUD should always be considered in patients with a history of chronic pain and use of NSAIDs. Has anyone seen a case of NSAID-induced gastropathy?",
+        "color": "orange"
+      },
+      {
+        "id": 7,
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "@Dr. Maya Gupta As a nurse, I've seen my fair share of PUD and gastritis cases. One thing that's always stood out to me is how different the patient's presentation can be from one case to another. What are some key takeaways from this case that we can apply to our practice?",
+        "color": "purple"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "@Turbo Tom Great question, Tom! I think one key takeaway is that we should always keep a high index of suspicion for PUD in patients with refractory epigastric pain and weight loss, even in the absence of upper GI bleeding.",
+        "color": "green"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "@Dr. Aris Thorne I agree with you, Dr. Thorne. Another key takeaway is that we should be thorough in our workup, including a complete blood count, liver function tests, and an ECG. Have you considered the role of endoscopy in diagnosing PUD?",
+        "color": "blue"
       },
       {
         "id": 10,
         "parent_id": 1,
-        "user": "Dr. Phil Muddle",
-        "role": "EP",
-        "city": "Regina, SK",
-        "text": "I'm not sure about all this... Can someone explain to me why a bougie is necessary in a difficult intubation?",
-        "color": "green"
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "@Dr. Maya Gupta Can you explain why PUD is more common in patients with H. pylori infection?",
+        "color": "yellow"
       },
       {
         "id": 11,
@@ -953,19 +812,215 @@
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "Ha ha, good one Phil! Let me try to clarify - a bougie is used when the ETT won't pass through the vocal cords easily. It's essentially a guide that helps you thread the ETT through the vocal cords and into the trachea. Does that make sense?",
-        "color": "green"
+        "text": "@Leo Chen H. pylori infection is a major risk factor for PUD because it causes chronic gastritis, which can lead to the formation of ulcers. Did you know that H. pylori infection is a common cause of gastric cancer as well?",
+        "color": "red"
       },
       {
         "id": 12,
-        "parent_id": 1,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "I'd like to add a bit about the importance of teamwork in dealing with difficult intubations. Having a skilled nurse and a good anesthesiologist can make a huge difference in these situations.",
+        "parent_id": 11,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "@Dr. Maya Gupta That's fascinating! What are some common causes of H. pylori infection?",
+        "color": "orange"
+      },
+      {
+        "id": 13,
+        "parent_id": 12,
+        "user": "Dr. Mayo Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "@Sarah Jenkins H. pylori infection is often spread through fecal-oral contact, poor sanitation, and overcrowding. In developed countries, it's also linked to low socioeconomic status, smoking, and stress.",
         "color": "green"
       }
     ],
-    "image": "https://my.clevelandclinic.org/-/scassets/images/org/health/articles/intubation"
+    "image": "https://foamcast.org/wp-content/uploads/2017/12/Screen-Shot-2017-12-05-at-9.32.38-AM.png"
+  },
+  {
+    "id": 12,
+    "title": "Rant about: secondary headaches that look like migraines, but aren't - a trickier case every time!",
+    "body": "Had a tough one last night, ER doc friends. 8 year old kid with no medical history comes in with a severe occipital headache. Parents are worried it's a migraine, but you know where this is going... The kid can't describe the pain, it's not worsened by physical activity... and the cherry on top - a recent history of sinusitis! So, red flags for secondary headache galore and yet... the kid's vitals are fine, no fever, and the neuro exam is normal. I know I should trust the textbooks, but how often do we see kids with migraines that just 'look' like a sinusitis headache? I know it's the perfect storm of red flags v primary headache presentation... Anyone else have a recent case like this? TLDR: how do you differentiate a migraine from a secondary headache in the ER?",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Ooh, classic case of a secondary headache masquerading as a migraine! In my experience, if the headache is associated with fever, vomiting, stiff neck, or a history of trauma, it's usually secondary. Have you considered ordering a CT head to rule out an acute process like a sinusitis-related complication?",
+        "color": "blue"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Hi, Dr. Gupta! Just to clarify, isn't a stiff neck always a sign of meningitis? Is that why you were wondering if there was a sinusitis complication? Also, wouldn't the recent history of sinusitis point more towards a sinus venous thrombosis (SVT)? Sorry, I'm still learning!",
+        "color": "yellow"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Great job, Leo! You're absolutely right about the neck stiffness, which is usually a sign of meningitis. And I was worried about SVT as well. However, the headache wasn't consistent with a typical SVT presentation, which usually has a more gradual onset over hours. The sinusitis history just made me wonder if the kid could have a sinus infection causing a secondary headache. Thanks for keeping me on my toes!",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "This is a great discussion! As EPs, we need to remember that the majority of headaches are primary, while secondary headaches are usually a result of an underlying cause. If the patient has a history of trauma, sinusitis, or recent infection, it's essential to investigate further. In this case, would a lumbar puncture (LP) have been helpful to rule out meningitis?",
+        "color": "red"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "LP is never easy, especially with kids! But wouldn't it have been a no-brainer if the kid had neck stiffness or other red flags for meningitis? On the other hand, if you had ordered an LP without a thorough history and physical exam, you might have just created unnecessary stress and anxiety for the parents (and the kid)!",
+        "color": "purple"
+      },
+      {
+        "id": 6,
+        "parent_id": 4,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "I totally agree with Tom. As EPs, we need to strike a balance between ordering tests and providing appropriate medical care. An LP would be an overkill in a case like this, especially if the neck stiffness is not present. You're right, the history and physical should guide our decision. Great discussion, everyone!",
+        "color": "orange"
+      },
+      {
+        "id": 7,
+        "parent_id": 4,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "TPA (Transfontanelle Pupillary Abnormalities) - anyone recall the recent study about the use of TPAs in patients with suspected meningitis? Can someone share the link?",
+        "color": "pink"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "I've got the article, Dr. Gupta! It's from the Journal of Pediatrics and was published last year. I'll send you the link via DM!",
+        "color": "lightblue"
+      },
+      {
+        "id": 9,
+        "parent_id": 1,
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "I'm surprised no one has mentioned the importance of an MRI in this case! If we're worried about a vascular issue like SVT or even a tumor, an MRI is a crucial step in making a diagnosis.",
+        "color": "brown"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Oh, come on, Brock! We can't just order an MRI for every headache patient! That would clog up our radiology department and waste precious resources. We need to use our medical judgment and not over-order tests!",
+        "color": "gray"
+      },
+      {
+        "id": 11,
+        "parent_id": 9,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "Gentlemen, please! In my day, we used to take the time to carefully investigate a patient's symptoms before ordering unnecessary tests. Now, it seems we rush to the MRI like a bunch of nervous nincompoops! We must use our clinical acumen to guide our decision-making.",
+        "color": "black"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Just saw a patient with Necrotizing Soft Tissue Infection (NSTI) and I'm freaking out!",
+    "body": "I've seen my fair share of STIs, but this one had me thinking about the nuances of diagnosis and treatment. Patient presented with severe pain out of proportion to physical findings, fever, and a rapidly expanding erythematous area. I know the drill, but it's always a reminder to be vigilant with these cases. Has anyone else had experiences like this? Any tricks for stabilizing these patients before surgery?",
+    "category": "casestudy",
+    "comments": [
+      {
+        "id": 13,
+        "parent_id": null,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Wow, that's intense! Dr. Aris Thorne, didn't you have a patient with NSTI last month? What was the outcome?",
+        "color": "purple"
+      },
+      {
+        "id": 14,
+        "parent_id": 13,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Indeed I did, Leo. That patient had a particularly complex case, requiring a multidisciplinary approach. The key takeaway for me was the importance of early recognition and timely intervention. I've been trying to drill that into our residents. Anyone else have experience with NSTI and the role of early fasciotomy?",
+        "color": "purple"
+      },
+      {
+        "id": 15,
+        "parent_id": 14,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs. Early fasciotomy is a no-brainer. You should be cutting that patient open ASAP to prevent further tissue death. Don't waste time with 'early recognition' or 'multidisciplinary approach.' Just get in there and fix it!",
+        "color": "red"
+      },
+      {
+        "id": 16,
+        "parent_id": 14,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Hold up, Vic. I've seen some cases where delayed fasciotomy was actually beneficial. It allowed the surgical team to better plan and execute the procedure, reducing complications. Has anyone else had experience with the timing of fasciotomy in NSTI?",
+        "color": "blue"
+      },
+      {
+        "id": 17,
+        "parent_id": 16,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Actually, Ziggy, I think Vic has a point. While delay can be beneficial in some cases, we shouldn't be too quick to dismiss the importance of early intervention. The key is knowing when to act and when to wait.",
+        "color": "purple"
+      },
+      {
+        "id": 18,
+        "parent_id": 14,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I've been reading up on this topic, and I think the consensus is that early fasciotomy can reduce mortality and morbidity in NSTI. Anyone have recommendations for resources on this topic?",
+        "color": "yellow"
+      },
+      {
+        "id": 19,
+        "parent_id": 18,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Ain't that the truth, Maya! I recall readin' an article by Dr. Jimenez on the importance of early fasciotomy in NSTI. Have you guys heard of that one?",
+        "color": "pink"
+      },
+      {
+        "id": 20,
+        "parent_id": 18,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "I think I can help with that, Maya. I actually linked an article on my personal blog about the use of early fasciotomy in NSTI. I can send you the link if you're interested?",
+        "color": "purple"
+      }
+    ]
   }
 ]
