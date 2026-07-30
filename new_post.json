@@ -1,858 +1,654 @@
 [
   {
     "id": 0,
-    "title": "Rant about the perils of chest pain",
-    "body": "Had a miss last night that got me thinking about the perils of chest pain. We had a 45 year old male present with a 6/5 chest pain that was retrosternal and radiated to the left arm. Classic ACS, right?",
-    "category": "emergency medicine",
+    "title": "TLDR; Nausea and Vomiting in the ED - The Never-Ending Story",
+    "body": "Just saw a patient in the ED with a classic case of nausea and vomiting. The patient had a thorough history, but what caught my attention was the subtle clue that pointed to a serious underlying condition. The patient had a 2-day history of non-bloody, non-bilious emesis, without any significant abdominal pain or fever. The clue was the presence of a new neurological symptom - a subtle tremor of the left hand. As I dug deeper, I realized that this patient had a significant amount of experience with gastrointestinal (GI) issues and had a known history of anxiety disorder. The combination of the neurological symptom and the known medical history led me to suspect the worst - a life-threatening cause of nausea and vomiting, often overshadowed by the more common viral etiology of GI illness.",
+    "category": "Emergency Medicine",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Not so fast, Maya. We need to consider the alternatives. What was the patient's past medical history like? Was there any recent stress or exertion?",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Oh, I thought you meant the patient was in ACS. Can you tell us more about the ECG and labs?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Actually, Leo, we should be discussing the differential diagnosis for chest pain. Mayo Clinic has a great algorithm for this... [link]",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs! You think a fancy algorithm is going to catch every case of chest pain? I've seen it all, folks. This is just another example of overdiagnosis.",
-        "color": "red"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
         "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Actually, Victor, I think an organized approach is better than relying on anecdotal experience. A systematic review of the literature would support this. [link]",
-        "color": "teal"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "I've been around the block a few times, and I can tell you that most chest pain is not ACS. We're missing the forest for the trees here. The patient's history is key.",
-        "color": "orange"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "Tell me about it, Turbo. I've seen cases where the patient's symptoms were a 2x4 to the chest, but the EMR said 'classic ACS'. Get a grip, people.",
-        "color": "pink"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Uh, I think we should focus on the patient's ECG and labs first. What was the troponin level, Dr. Gupta?",
-        "color": "brown"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "The troponin was mildly elevated, but the patient had a normal echocardiogram. I think we should be thinking about alternative diagnoses now.",
-        "color": "pink"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "Um, excuse me? Can someone tell me what's going on? I'm the patient here.",
-        "color": "gray"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Don't worry, Barnaby. We're just discussing the case. You should be getting some great care here.",
-        "color": "turquoise"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Actually, let's not get too sidetracked by the differential diagnosis. We need to focus on the patient's symptoms and history first.",
-        "color": "lavender"
-      },
-      {
-        "id": 13,
-        "parent_id": 12,
-        "user": "Dr. 'Ziggy' Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Agreed. And let's not forget about the 'red flag' symptoms. Chest pain is just the tip of the iceberg here.",
-        "color": "mint"
-      },
-      {
-        "id": 14,
-        "parent_id": 13,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Uh, what's a 'red flag' symptom, Doctor? Is that like a ' red flag' flag on a map?",
-        "color": "yellow"
-      },
-      {
-        "id": 15,
-        "parent_id": 14,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Chad, a 'red flag' symptom is just a medical term for a symptom that requires immediate attention. Think of it like a traffic flag on the road.",
-        "color": "green"
-      },
-      {
-        "id": 16,
-        "parent_id": 15,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Actually, Leo, I think the term 'red flag' is often used to describe symptoms that are indicative of a 'catastrophic' diagnosis. Like, if a patient presents with chest pain and a recent MI, that's a 'red flag' symptom.",
-        "color": "blue"
-      },
-      {
-        "id": 17,
-        "parent_id": 16,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "Sigh... Fine. Let's get to the bottom of this. I'll take the patient's history and we can discuss the differential diagnosis afterwards.",
-        "color": "brown"
-      },
-      {
-        "id": 18,
-        "parent_id": 17,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "Finally, someone is taking charge around here!",
-        "color": "pink"
-      },
-      {
-        "id": 19,
-        "parent_id": 18,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "I'll get the chart and bring it to ya, Rick!",
-        "color": "gray"
-      },
-      {
-        "id": 20,
-        "parent_id": 19,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "Thanks, Sue. I'll take it from here.",
-        "color": "turquoise"
-      }
-    ],
-    "image": "https://www.saem.org/images/default-source/publications/grace-1-guidelines-(ramzy).jpg?sfvrsn=1aa4d33b_0"
-  },
-  {
-    "id": 1,
-    "title": "Rant about stillbirth and trauma resuscitation",
-    "body": "Just saw a patient with significant abdominal trauma who unfortunately suffered a stillbirth. I've been doing this for years, but it always gets me thinking about the nuances of trauma resuscitation in pregnancy. Who else has had a similar case? Should we be doing more to diagnose and treat fetal distress in these situations?",
-    "category": "emergency_medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta,PGY2",
-        "role": "",
-        "city": "Mississauga, ON",
-        "text": "As a senior resident, I've had my fair share of dealing with these cases. It's crucial to remember that maternal stability takes precedence, but that doesn't mean we should neglect potential fetal distress. The key is a high index of suspicion and a thorough abdominal exam. Have you seen the latest on managing post-traumatic hemorrhage?",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta,PGY2",
-        "role": "",
-        "city": "Mississauga, ON",
-        "text": "Actually, I was just reading this paper on the management of post-traumatic hemorrhage and the importance of early blood transfusion. Would love to share it with the community if anyone's interested!",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Leo Chen,MS1",
-        "role": "",
-        "city": "Montreal, QC",
-        "text": "That sounds super interesting, Dr. Gupta! Can you share the link to the paper? Also, what's the general consensus on fetal distress in trauma patients? Should we be considering C-sections more often?",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Dr. Henry Oldman,CCFP",
-        "role": "",
-        "city": "Victoria, BC",
-        "text": "I agree with Dr. Gupta that maternal stability is key. However, as a family doc who's often the first to see patients, I've seen some cases where delayed diagnosis leads to severe fetal compromise. Maybe we should be having more discussions about the role of ultrasound in trauma resuscitation?",
-        "color": "red"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Sarah Jenkins,MS3",
-        "role": "",
-        "city": "Ottawa, ON",
-        "text": "Actually, isn't ultrasound contraindicated in suspected placental abruption? Sorry if I'm wrong, still learning!",
-        "color": "yellow"
-      },
-      {
-        "id": 6,
-        "parent_id": 4,
-        "user": "Dr. Phil Muddle,EP",
-        "role": "",
-        "city": "Regina, SK",
-        "text": "Oh, I'm so confused... isn't that the opposite? Can someone clarify? I just had a patient with... hmm, what was it again?",
-        "color": "orange"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Barb Miller,EP",
-        "role": "",
-        "city": "Winnipeg, MB",
-        "text": "Ha! Phil, you're killing me. But seriously, ultrasound can be a game-changer in trauma resuscitation. We should be using it more to assess for potential complications. Anyone know some good resources on the topic?",
-        "color": "pink"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Stacie Zelman,Staff Physician",
-        "role": "",
-        "city": "Toronto, ON",
-        "text": "I've found this article by Janet Simmons Young on trauma resuscitation in pregnancy to be super helpful. She covers the importance of ultrasound and other diagnostic tools in detail. Check it out!",
-        "color": "purple"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Kevin Park,PGY1",
-        "role": "",
-        "city": "Edmonton, AB",
-        "text": "Wow, thanks for sharing that link! I had no idea we could use ultrasound in this way. Can someone explain the specifics of how to perform a placental ultrasound in a trauma patient?",
-        "color": "green"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Elena Varkov,FRCPC",
-        "role": "",
-        "city": "Quebec City, QC",
-        "text": "Ah, great question, Dr. Park! I've found this video on placental ultrasound to be super helpful. It covers the basics of performing the exam and interpreting the results.",
-        "color": "yellow"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Turbo Tom,RN",
-        "role": "",
-        "city": "London, ON",
-        "text": "Lol, I'm no expert, but I've seen some crazy cases where delayed diagnosis led to severe fetal compromise. Can we please just stick to the basics here? Fetal distress is a big deal, guys. Let's focus on preventing it in the first place.",
-        "color": "blue"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Dr. Sarah Sharp,EP",
-        "role": "",
-        "city": "Laval, QC",
-        "text": "Amen to that, Tom! As a seasoned EP, I've seen too many cases where we could have done better. Maybe we should be talking more about the importance of teamwork and communication in trauma resuscitation?",
-        "color": "red"
-      },
-      {
-        "id": 13,
-        "parent_id": 12,
-        "user": "Dr. Brock Stone,FRCSC",
-        "role": "",
-        "city": "Hamilton, ON",
-        "text": "Ugh, can someone please explain to me why we're spending all this time on stillbirth and trauma resuscitation? I've got a patient waiting for me in the OR!",
-        "color": "orange"
-      },
-      {
-        "id": 14,
-        "parent_id": 13,
-        "user": "Dr. Archibald Thorne,Physician",
-        "role": "",
-        "city": "Saskatoon, SK",
-        "text": "Oh, for goodness' sake, Stone! You're missing the point entirely. Stillbirth is a significant complication of trauma, and we must do better to prevent it. Let's focus on the bigger picture, shall we?",
-        "color": "purple"
-      },
-      {
-        "id": 15,
-        "parent_id": 14,
-        "user": "Dr. Ziggy Zalesky,EP",
-        "role": "",
-        "city": "Vancouver, BC",
-        "text": "Love it, Archibald! Sometimes I feel like we're all just stuck in a rut, focusing on the minute details instead of the big picture. Can someone please share some resources on trauma resuscitation in pregnancy that we can all benefit from?",
-        "color": "blue"
-      },
-      {
-        "id": 16,
-        "parent_id": 15,
-        "user": "Dr. Henry Oldman,CCFP",
-        "role": "",
-        "city": "Victoria, BC",
-        "text": "I've found this article on trauma resuscitation in pregnancy to be super helpful. It covers everything from fetal distress to post-traumatic hemorrhage.",
-        "color": "red"
-      },
-      {
-        "id": 17,
-        "parent_id": 16,
-        "user": "Barnaby Finch,Patient",
-        "role": "",
-        "city": "Surrey, BC",
-        "text": "Guys, guys, guys... can someone please explain to me what's going on? I'm just trying to understand my symptoms...",
-        "color": "yellow"
-      },
-      {
-        "id": 18,
-        "parent_id": 17,
-        "user": "Dr. Phil Muddle,EP",
-        "role": "",
-        "city": "Regina, SK",
-        "text": "Ah, sorry Barnaby! We got a bit carried away there. But yes, your symptoms do seem to be related to... uh... what was it again?",
-        "color": "orange"
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "title": "Rant about Nausea and Vomiting - The Ultimate Unreliable Sign",
-    "body": "I had my first night on call and got slammed with a slew of patients complaining of nausea and vomiting. I love how it's always the most common complaint in the ER. Anyone else have to deal with this all the time? How do you triage these patients? I swear, it's like 90% of the time it's just a viral GI bug. But that 10% of the time, it's something more sinister. So, what are some red flags to look out for? And, Dr. Sterling (from Calgary, AB), please tell me you're not going to lecture me about how we're over-diagnosing everyone and it's just 'amateur hour' in the ER.",
-    "category": "r/emergencymedicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Ugh, don't even get me started on nausea and vomiting. It's like the ultimate non-specific symptom. I swear, I've seen it due to everything from food poisoning to pancreatic cancer. But, yeah, let's focus on the 10% that's not just a virus. One thing that always makes me think twice is a patient with a history of abdominal surgery showing up with vomiting. Always think small bowel obstruction or, worse, a perforation.",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Wait, how do you differentiate between a small bowel obstruction and a perforation? I thought they were pretty much the same thing.",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Actually, Leo, they're related but distinct. A small bowel obstruction is when the bowel is physically blocked, whereas a perforation is when the bowel wall is ruptured. To differentiate, you can usually get a CT to show the obstruction, whereas with a perforation you'll get free air in the abdominal cavity on the CT. Also, a perforation usually comes with peritonitis, so if the patient's got an elevated WBC and tenderness, it's pretty likely a perforation.",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs, you're all just trying to make it sound complicated. The bottom line is if the patient's got vomiting that's not just 'a little bit' of nausea, you need to be concerned. Get a stat CT, do some quick labs, and if it's still not clear, page surgery. The rest of this is just unnecessary jargon.",
-        "color": "blue"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I've seen it so many times - patients come in with vomiting and everyone's all like, 'Oh, it's just a virus.' But then, BAM! Intussusception, mesenteric ischemia, or a MI. It's like, come on people, let's not ignore the more serious causes just 'cause it's not the flu.",
-        "color": "teal"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "So, I'm just curious, what are some of the actual causes of nausea and vomiting in the ER?",
-        "color": "violet"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Okay, let me break this down for you. From top to bottom (literally in most cases): cardiac, endocrine, gastrointestinal, obstetric, psychiatric, pharmacologic, toxicologic, and renal issues all come with nausea and vomiting. Think troponins for cardiac, cortisol levels for endocrine, ECG for cardiac, etc. The key is to not jump to conclusions and do a thorough history and physical.",
-        "color": "green"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "And let's not forget 'Ziggy' Zalesky here in Vancouver, BC who loves to remind everyone, 'ER slang, quick-witted, etc.' Thanks for the nostalgia, 'Ziggy'! But, I digress.",
-        "color": "teal"
-      },
-      {
-        "id": 9,
-        "parent_id": 7,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "The real takeaway here is that nausea and vomiting are a non-specific symptom. It's our job as ER physicians to be vigilant and look for the potential causes. I mean, come on, who gets excited about taking a history and doing a physical, am I right? But seriously, let's work on our diagnostic skills and get to the root cause of these patients' symptoms.",
-        "color": "teal"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "That's a great point, Dr. Gupta! You're right, we need to get to the root cause so we can give our patients the proper care they need. And, just to add, sometimes just talking to the patient and getting their whole story can help narrow down the diagnosis.",
-        "color": "violet"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Rant about pelvic inflammatory disease (PID) in young females",
-    "body": "Just saw a patient with PID last night and it got me thinking about how this is a huge problem in our community. We're always talking about the need to consider HIV, syphilis, and chlamydia, but PID often gets overlooked. It's a major public health problem and can lead to infertility, chronic pain, and even ectopic pregnancy. I've seen way too many young women come in with symptoms that could have been prevented... ",
-    "category": "emergency medicine",
-    "comments": [
-      {
-        "id": 0,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Totally agree! PID is a huge concern, especially in young people. We need to be doing more to screen for it and provide timely treatment. Have you guys seen the latest guidelines from the CDC on this topic?",
-        "color": "blue"
-      },
-      {
-        "id": 1,
-        "parent_id": 0,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Yeah, and it's not just about screening for the obvious culprits. We need to consider the whole gambit, including anaerobes, staph, and all the weird stuff that can cause it. I've seen cases where chlamydia is just the tip of the iceberg. Have you guys heard of the \"Pentagon of Pain\"?",
-        "color": "red"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "I'm so down to talk about the Pentagon of Pain! Yes, it's real and it's a game-changer. The key is to think about the big five: dysuria, dyspareunia, irregular menses, infertility, and pelvic pain. Any one of these can be a red flag for PID. Has anyone else had any cases where the Pentagon of Pain came into play?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Dr. Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "I had a case a few months ago where the patient had all five symptoms, but the kicker was that she had never been sexually active. Turned out she had a fistula that was causing all the pain and discomfort. Anyone else have any experience with fistulas?",
-        "color": "purple"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Oh wow, that's so interesting! I've been learning about fistulas in med school, but I've never seen one in practice. Can you fill us in on what happened with the patient?",
-        "color": "blue"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Well, let's just say it was a long and complicated process. We had to do a laparotomy to repair the fistula and the patient ended up needing a hysterectomy. It was a tough case, but we finally got her the help she needed.",
-        "color": "red"
-      },
-      {
-        "id": 6,
-        "parent_id": 0,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Okay, let's take a step back and talk about prevention. What are some of the risk factors for PID that we should be screening for in our patients?",
-        "color": "green"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "You're looking for the standard suspects: multiple partners, a new partner, and of course, history of STIs. But let's not forget about IUDs and hormonal BC pills. We need to be mindful of the whole picture, not just the obvious culprits.",
-        "color": "blue"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Archibald Thorne",
         "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "In my day, we used to call it \"the curse of the condom\". Remember those things? Ha! Anyway, seriously, we need to educate patients about the risks and make sure they're getting the proper care. No more slapping a patient with a diagnosis of PID and telling them to go home.",
-        "color": "purple"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "Oh, you're preaching to the choir, Doc! I've seen way too many patients come in with PID and it's always the same story: lack of education, lack of screening, and of course, a healthy dose of denial. We need to do better.",
-        "color": "red"
-      },
-      {
-        "id": 10,
-        "parent_id": 0,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "I'm getting all this! PID is super important and we need to be talking about it more. But what about the role of antibiotics? Are we overusing them or what?",
-        "color": "green"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Okay, pre-med dude, let me tell you something. Antibiotics are NOT a one-size-fits-all solution. We need to be thinking about the microbiome, the spectrum of disease, and the risk of resistance. Just slapping a patient with an antibiotic prescription is not going to cut it.",
-        "color": "blue"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "I'm totally lost... Can someone explain the deal with the microbiome and antibiotic resistance?",
-        "color": "purple"
-      },
-      {
-        "id": 13,
-        "parent_id": 12,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Okay, newbie, let me break it down for you. The microbiome is like a big ecosystem in your body. Antibiotics can disrupt that ecosystem, leading to resistance. Think of it like a house with too many mice \u2013 if you keep killing them with poison, they'll develop superpowers to resist the poison! Not cool.",
-        "color": "red"
-      },
-      {
-        "id": 14,
-        "parent_id": 13,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Whoa, that's a great analogy! So, how do we balance the risk of resistance with the need to treat PID effectively?",
-        "color": "green"
-      },
-      {
-        "id": 15,
-        "parent_id": 14,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "It's all about tailoring therapy to the individual patient. We need to think about the underlying cause of the PID, the patient's medical history, and of course, the microbiome. No one-size-fits-all approach works here.",
-        "color": "blue"
-      },
-      {
-        "id": 16,
-        "parent_id": null,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "Yeah, well, all this discussion about the microbiome and resistance is great and all, but what about the elephant in the room \u2013 healthcare access? How do we ensure that our patients, especially in underserved communities, are getting the care they need?",
-        "color": "red"
-      }
-    ],
-    "image": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1835420043762749"
-  },
-  {
-    "id": 1,
-    "title": "Rant about: Differentiating between Lower and Upper UTIs...or how to NOT miss a Pyelonephritis",
-    "body": "Had a 'miss' last night on a 32F with fever, chills, nausea, and flank pain...turned out to be a simple Pyelonephritis. Anyone else have this experience? I re-read the diff btw Lower and Upper UTI and it's clear to me now...but why oh why didn't I catch it in real time?! TL;DR: don't assume a pyo is just a severe cystitis...",
-    "category": "Emergency Medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "M.D.",
         "city": "Toronto, ON",
-        "text": "This is EXACTLY what I've been saying in conference...most of the time, we can't just assume a UTI by symptoms alone...We need to consider the underlying anatomy and physiology of the genitourinary tract...Lower/Upper diff is not just about the symptoms...we need to think critically about the epidemiology and microbiology behind it.",
-        "color": "purple"
+        "text": "Great job, Dr. Thorne! We often forget that nausea and vomiting can be a symptom of many different conditions. The neurological symptom you mentioned is a great clue to the underlying cause. I'm reminded of a case in medical school where a patient had a sudden onset of nausea and vomiting followed by a grand mal seizure, and it turned out to be an intracranial process. It just goes to show that a complete history and thorough physical exam can sometimes be the difference between life and death. What was your final diagnosis in this case, and did you perform any diagnostic tests or interventions to confirm it?",
+        "color": "blue"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "M.D.",
-        "city": "Mississauga, ON",
-        "text": "I completely agree! I had a similar case recently where the pt presented with cystitis symptoms but on imaging, we found a stone in the kidney and an obstruction in the ureter...That's why we need to do more than just a urinalysis and some questions...We need to think about the patient's history, their physical exam, and their lab results...",
-        "color": "green"
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Hi Dr. Thorne, I've heard of this condition before, but I forget the name. Could you please tell me what the final diagnosis was?",
+        "color": "yellow"
       },
       {
         "id": 3,
         "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "M.D.",
-        "city": "Montreal, QC",
-        "text": "Can you guys explain more about the epidemiology and microbiology behind the diff between Lower and Upper UTIs? I feel like I'm getting lost in the weeds...TL;DR: can someone break it down for me?",
-        "color": "teal"
+        "user": "Dr. Maya Gupta",
+        "role": "Resident",
+        "city": "Mississauga, ON",
+        "text": "I completely agree, Dr. Thorne. Nausea and vomiting can be a symptom of almost anything. In my experience, a thorough history and physical exam can often lead to the diagnosis, but as Dr. Thorne mentioned, it's not always as easy as it sounds. In cases where the diagnosis is not clear-cut, imaging studies, laboratory tests, and sometimes even invasive procedures can be necessary to rule out more serious causes. Did you consider any of these options in this particular case?",
+        "color": "red"
       },
       {
         "id": 4,
         "parent_id": 3,
-        "user": "Dr. Sarah Sharp",
-        "role": "M.D.",
-        "city": "Laval, QC",
-        "text": "Sure thing, Leo! To simplify, UTIs are more common in women due to the shorter urethra and its proximity to the anus, making it easier for bacteria to enter the urinary tract...Escherichia coli (E. coli) is the most common cause of UTIs, accounting for approximately 80% of cases, while other bacteria such as Klebsiella and Staphylococcus saprophyticus are also common causes...",
-        "color": "blue"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "You guys are making this too complicated...We just need to remember: pain in the suprapubic area is usually lower UTI, while flank pain is usually upper UTI...And don't forget to ask about recent antibiotic use! That can give us clues about the diagnosis...",
-        "color": "red"
-      }
-    ]
-  },
-  {
-    "title": "Vaginal Bleeding in Early Pregnancy: Lessons Learned from a Missed Placental Abruption Diagnosis",
-    "body": "TL;DR: A 28-year-old woman, 26 weeks pregnant, presents to the ED with mild vaginal bleeding. Initial vitals are within normal limits. Ultrasound reveals a 'normal' placenta. However, she returns 2 hours later with severe abdominal pain and worsening bleeding. Ultrasound now shows a placental abruption with ~30% placental separation. She undergoes an emergent C-section and delivers a term infant with Apgar scores of 6/9. Lessons learned: don't forget about the 'obvious' causes of vaginal bleeding, especially in the setting of abdominal pain. Placental abruption is a common cause of severe maternal and fetal morbidity.",
-    "category": "Emergency Medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "So glad you shared this case. Vaginal bleeding in early pregnancy can be tricky. I've seen cases where the bleeding is minimal but the placental abruption is significant. Have you ever seen a patient with a placental abruption and a 'normal' initial ultrasound? [link to article on placental abruption](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4759647/)",
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "I've always been taught to approach cases of nausea and vomiting with a ' differential diagnosis' mentality - i.e., listing out all possible causes and ranking them by likelihood. Could you elaborate on how you apply this concept in the ED?",
         "color": "purple"
       },
       {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Bless my heart, Doc! I'm no expert, but what about the possibility of a coagulopathy or a bleeding disorder? I've seen patients with Von Willebrand disease (VWD) and bleeding disorders present with severe bleeding in early pregnancy. Do you think that could've been a contributing factor in this case?",
-        "color": "green"
-      },
-      {
-        "id": 3,
+        "id": 5,
         "parent_id": 1,
         "user": "Dr. Henry Oldman",
-        "role": "CCFP",
+        "role": "Family Physician",
         "city": "Victoria, BC",
-        "text": "Great discussion, everyone. I'd like to add that in addition to placental abruption, we should also consider other causes of vaginal bleeding in early pregnancy, such as ectopic pregnancy or miscarriage. In this case, what did the initial ultrasound show, and what was the patient's beta hCG level?",
-        "color": "purple"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Oldman, I don't understand. If the initial ultrasound showed a 'normal' placenta, why did the patient return 2 hours later with severe bleeding? Was there something I missed in the case history?",
-        "color": "blue"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Dr. Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "I've reviewed the case history, and I have to say, I'm a bit skeptical about the initial diagnosis of placental abruption. Don't get me wrong, it's a serious condition, but I've seen cases where the patient's symptoms were explained by other, more benign causes. Can someone explain to me why they initially thought it was placental abruption?",
-        "color": "red"
+        "text": "I'm glad you emphasized the role of history-taking in diagnosing the cause of nausea and vomiting, Dr. Thorne. However, in my experience, even with a thorough history, there are times when we just can't come up with a clear diagnosis. What advice would you give to junior physicians in these situations?",
+        "color": "green"
       },
       {
         "id": 6,
         "parent_id": 5,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Dr. Stone, the patient initially presented with mild vaginal bleeding and abdominal pain. The initial ultrasound showed a 'normal' placenta, but given the patient's symptoms, I thought it was worth considering placental abruption, especially since the patient had a history of hypertension. Can you explain to me why you're skeptical about the initial diagnosis?",
-        "color": "orange"
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Hi Dr. Oldman, I'm pre-med and taking a course on medical history. I'm having a bit of trouble understanding what Dr. Thorne meant by 'differential diagnosis' - could you explain it to me in simpler terms?",
+        "color": "cyan"
       },
       {
         "id": 7,
-        "parent_id": 3,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Dr. Oldman, I'm a bit confused. You mentioned that we should consider other causes of vaginal bleeding in early pregnancy, such as ectopic pregnancy or miscarriage. Can you explain to me the difference between these conditions, and how we would diagnose them?",
-        "color": "purple"
+        "parent_id": 5,
+        "user": "Dr. Elena Varkov",
+        "role": "Interner",
+        "city": "Quebec City, QC",
+        "text": "I agree with Dr. Thorne that a thorough history and physical exam are essential, but even with these, sometimes the underlying cause of nausea and vomiting just won't make sense. In such cases, I rely on my colleagues in other departments, like gastroenterology or neurology, to help narrow down the possibilities. Has anyone else had experience collaborating with other specialties to diagnose complex cases?",
+        "color": "magenta"
       },
       {
         "id": 8,
-        "parent_id": 1,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "This is a great discussion, everyone. I'd like to add that coagulation disorders, such as VWD, can also cause vaginal bleeding in early pregnancy. Have you all considered the patient's coagulation profile in this case?",
-        "color": "green"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Elena, can you explain to me why we don't always perform coagulation studies on patients with vaginal bleeding in early pregnancy? Is it because they're not cost-effective?",
-        "color": "orange"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Actually, Turbo, we don't always perform coagulation studies due to concerns about costs, but also because many patients with VWD may not have any bleeding symptoms until delivery. We need to be aware of the possibility and consider it in the management plan.",
-        "color": "blue"
-      }
-    ]
-  },
-  {
-    "title": "Just saw a patient with Wolf-Parkinson-White (WPW) syndrome and I'm still thinking about the implications of diagnosing this condition in the ED",
-    "body": "Just saw a 25-year-old patient with syncope and palpitations who was diagnosed with WPW syndrome on telemetry. I've only seen a handful of cases in my career as a practicing ED doc, and I'm still trying to wrap my head around the implications of diagnosing this condition in the ED.",
-    "category": "Emergency Medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Oh man, I know what you mean. I had a case a few months ago where the patient had a WPW syndrome and it was a close call. The key is to recognize the characteristic delta wave on the ECG and to have a low threshold for consultation with cardiology. Have you considered using the Brugada protocol for managing patients with WPW syndrome?",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "I've heard of the Brugada protocol, but I'm not sure what it entails. Can you clarify how it's used in patients with WPW syndrome?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "I agree with Dr. Gupta. The Brugada protocol is a great resource for managing patients with WPW syndrome. It emphasizes the importance of avoiding medications that can prolong the QT interval, such as certain antibiotics and antifungals. We should also have a low threshold for consulting cardiology in cases like this.",
-        "color": "red"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "I'd like to add that the Brugada protocol also recommends avoiding strenuous exercise, particularly swimming, which can increase the risk of sudden death in patients with WPW syndrome. Has anyone considered screening for long-QT syndrome in patients with WPW syndrome?",
-        "color": "purple"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Screening for long-QT syndrome is a great idea. I've seen cases where patients have both WPW syndrome and long-QT syndrome, and it can be a real challenge to manage. Has anyone considered the use of implantable cardioverter-defibrillators (ICDs) in these patients?",
-        "color": "green"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
+        "parent_id": 7,
         "user": "Dr. Phil Muddle",
         "role": "EP",
         "city": "Regina, SK",
-        "text": "ICDs are a great option for patients with WPW syndrome and long-QT syndrome, but I'm not sure about the timing of placement. Can someone clarify when to place an ICD in these patients?",
+        "text": "Wait, what? Collaboration? I thought we were supposed to be the experts!",
+        "color": "orange"
+      },
+      {
+        "id": 9,
+        "parent_id": 4,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "I've read a few studies on how physicians approach differential diagnoses - it seems like most people prioritize the most common causes first. However, in this case, the patient presented with a neurological symptom that hinted at a rare cause. Would you say that's a more advanced level of critical thinking?",
+        "color": "pink"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Lol, that's some advanced-level critical thinking right there, Sarah. But sometimes the simplest answer is still the best. Do we ever get so caught up in the fancy diagnosis that we forget to think about the boring, obvious causes?",
+        "color": "brown"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "Amateurs!",
+        "color": "grey"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Dr. Aris Thorne",
+        "role": "Physician",
+        "city": "Toronto, ON",
+        "text": "Ha! Martha, you've been around the block a few times, I see. But seriously, as nurses and doctors, we should never assume anything, and always consider the simplest explanations first.",
         "color": "blue"
       },
       {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "I think what's being said here is that we need to have a more nuanced approach to managing patients with WPW syndrome. We can't just throw ICDs at everyone with a delta wave on the ECG. We need to consider the individual case and tailor our treatment to the patient's specific needs.",
+        "id": 13,
+        "parent_id": 3,
+        "user": "Dr. Kevin Park",
+        "role": "Resident",
+        "city": "Edmonton, AB",
+        "text": "I think this conversation highlights the importance of communication among healthcare providers. Did anyone else notice the lack of clear communication between the patient, family members, and healthcare team during this case?",
         "color": "red"
+      },
+      {
+        "id": 14,
+        "parent_id": 13,
+        "user": "Dr. Maya Gupta",
+        "role": "Resident",
+        "city": "Mississauga, ON",
+        "text": "I saw an article recently about the effects of poor communication on patient outcomes. Apparently, a significant number of medical errors occur due to miscommunication between teams. Any thoughts, Dr. Gupta?",
+        "color": "magenta"
+      },
+      {
+        "id": 15,
+        "parent_id": 14,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "That makes sense, Dr. Gupta. What do you think is the best way to improve communication among healthcare providers?",
+        "color": "cyan"
+      },
+      {
+        "id": 16,
+        "parent_id": 5,
+        "user": "Dr. Elena Varkov",
+        "role": "Interner",
+        "city": "Quebec City, QC",
+        "text": "This conversation has been enlightening, but I do have one final question. What about cases where the patient has a rare or unusual condition? Shouldn't we expect the unexpected in such cases?",
+        "color": "yellow"
+      }
+    ],
+    "image": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1504679675034704"
+  },
+  {
+    "id": 1,
+    "title": "Today I Learned...Spinal Cord Injuries are a total wildcard in the ED.",
+    "body": "Had a patient with a C4-C5 fracture come in last night that blew my mind. She had a clear history of hyperextension injury, but no neck pain or tenderness, until 12 hours later when they got to the ED, she presented with bilateral quadriparesis, but no loss of sensation. Her vital signs were stable, but her CT showed no compression fracture on the cervical spine. What really threw me was the loss of sympathetic innervation leading to bradycardia and hypotension. I'd seen this before but never like this. I ended up calling the spine team and they were like 'oh, neurogenic shock'. But the thing is, how do you exclude hemorrhage in the setting of spinal cord injury? Anyone have any pearls on this one?",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 2,
+        "parent_id": null,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "",
+        "city": "Vancouver, BC",
+        "text": "Ah, yeah! So I've got this patient who was a total wimp about their symptoms and I was like 'dude, you're being a total hypochondriac!' until I saw the CT and it was like 'oh, you're telling me!' Anyway, when it comes to excluding hemorrhage in SCI, I'd say do an emergent LP, stat! Don't let that spinal fluid go to waste, man!",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Dr. Zalesky, do people ever get a traumatic tap? Can we trust the LP to rule out hemorrhage?",
+        "color": "lightblue"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "",
+        "city": "Vancouver, BC",
+        "text": "Leo, yeah, people do get traumatic taps, but the thing is, you've got to consider the clinical context. If you're doing an emergent LP, like in the case of SCI, it's probably worth the risk. You can also consider a bedside ultrasound to check for spinal fluid in the CSF, that's a total game-changer! Check it out: [link]",
+        "color": "lightgreen"
+      },
+      {
+        "id": 5,
+        "parent_id": null,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Just a follow-up question on Dr. Thorne's earlier post about neurogenic shock. I was reading through a study on this and it said that patients with SCI can present with neurogenic shock due to spinal cord compression, which would cause autonomic dysfunction. Can we consider this a more common cause of neurogenic shock than we thought?",
+        "color": "teal"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Sarah, yeah, that's right! The key is to consider the mechanism of injury and the patient's clinical presentation. I had a patient with C5-C6 fracture come in last month and she had no loss of sensation or reflexes, but we found some signs of autonomic dysfunction on the exam. We ended up getting a spinal cord MRI and it showed cord compression, no surprise there! Dr. Zalesky posted something about this recently too, so it's definitely worth looking into.",
+        "color": "lightblue"
+      },
+      {
+        "id": 7,
+        "parent_id": null,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "A very astute observation by Dr. Gupta. It highlights the importance of doing a careful physical exam in the ED, especially in this case where patients may not present with obvious symptoms. And don't even get me started on the role of the history! In this case, knowing the patient's mechanism of injury and their previous medical history can really help narrow down the differential diagnosis.",
+        "color": "brown"
       },
       {
         "id": 8,
         "parent_id": 7,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "I agree with Dr. Sterling that we need a more individualized approach to managing patients with WPW syndrome. But we also need to be aware of the potential risks and benefits of ICD placement in these patients.",
-        "color": "purple"
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Dr. Oldman, what do you mean by 'careful physical exam'? Can you give us some specific tips on how to assess patients like this?",
+        "color": "lightgrey"
       },
       {
         "id": 9,
         "parent_id": 8,
-        "user": "Dr. Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "What I'm hearing is that we need to have a more balanced approach to managing patients with WPW syndrome. We need to consider the risks and benefits of ICD placement and make a decision based on the individual patient's needs. Can we agree on that?",
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "Leo, yeah, sure! First of all, make sure to do a thorough neuro exam, looking for any signs of spinal cord dysfunction like loss of reflexes, sensory deficits, etc. And don't forget to check their vital signs, especially in the setting of potential neurogenic shock. Also, be sure to ask them about their medical history and any previous injuries. Lastly, don't be afraid to get a second opinion if you're unsure about a patient's diagnosis or treatment!",
+        "color": "lightpink"
+      },
+      {
+        "id": 10,
+        "parent_id": null,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Wow, I don't know about you guys, but my first question for the patient is always, 'Can you walk for me?' Does anyone else do this?",
+        "color": "purple"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Dr. Park, yeah, I do that too, actually! And if they can walk, it usually gives me a pretty good idea if the patient has any significant neurological compromise. Although, sometimes it's the ones who can walk who give me the most trouble, because they're usually trying to conceal their symptoms.",
+        "color": "lightgreen"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Rant about managing scalp lacerations",
+    "body": "Just saw a patient with a nasty scalp laceration that was closed in a way that will likely lead to a hematoma. Reminder to all ER docs, don't forget to apply pressure dressings to deep scalp lacerations for at least 24 hours to prevent hematoma formation! TL;DR: apply pressure dressing to deep scalp lacerations for 24 hours to prevent hematoma.",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 2,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "St",
+        "city": "Toronto, ON",
+        "text": "Great reminder, but I also like to add a small piece of non-adherent gauze over the laceration before applying the pressure dressing to prevent any irritation or discomfort. And don't forget to remove the pressure dressing after 24 hours and re-evaluate the patient to ensure no hematoma has formed. [Source](https://www.emedicine.medscape.com/article/1030116-legacy)",
+        "color": "purple"
+      },
+      {
+        "id": 3,
+        "parent_id": null,
+        "user": "Dr. Victor Sterling",
+        "role": "Ch",
+        "city": "Calgary, AB",
+        "text": "Amateurs closing scalp lacerations with interrupted sutures? Use the 'three-layer closure' technique: close the muscular layer with buried 5-0 absorbable suture, then the subcutaneous tissue with the same suture, and finally, close the skin with non-absorbable suture. And for goodness' sake, don't make a mess of the eyebrows! [Source](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC441341/)",
         "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 2,
+        "user": "Leo Chen",
+        "role": "MS",
+        "city": "Montreal, QC",
+        "text": "Dr. Thorne, what type of non-adherent gauze do you recommend using? And is there a specific material or thread type you prefer for closing the scalp lacerations?",
+        "color": "green"
+      },
+      {
+        "id": 5,
+        "parent_id": 3,
+        "user": "Sarah Jenkins",
+        "role": "MS",
+        "city": "Ottawa, ON",
+        "text": "Dr. Sterling, can you explain the difference between a three-layer closure and the two-layer closure I learned in med school? And do you have any tips for minimizing scarring in scalp lacerations?",
+        "color": "purple"
+      },
+      {
+        "id": 6,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PG",
+        "city": "Mississauga, ON",
+        "text": "I totally agree with Dr. Thorne's comment! I had a patient last week with a scalp laceration that developed a hematoma after the sutures were removed too soon. I've started using a pressure dressing with gauze underlies for all my scalp lacerations now.",
+        "color": "green"
+      },
+      {
+        "id": 7,
+        "parent_id": 5,
+        "user": "Dr. Maya Gupta",
+        "role": "PG",
+        "city": "Mississauga, ON",
+        "text": "Oh, and I just remembered, Dr. Sterling's technique of layering the sutures really helps reduce scarring. Anyone have experience with using the 'tension-relieving suture' technique for scalp lacerations?",
+        "color": "purple"
+      },
+      {
+        "id": 8,
+        "parent_id": 6,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Love the enthusiasm, Dr. Gupta! But have you considered consulting with a plastic surgeon for complex scalp lacerations? I had a patient with a nasty scalp avulsion that required surgical repair.",
+        "color": "green"
+      },
+      {
+        "id": 9,
+        "parent_id": 7,
+        "user": "Dr. Archibald Thorne",
+        "role": "Phy",
+        "city": "Saskatoon, SK",
+        "text": "Tension-relieving sutures? What sorcery is this? Can someone please explain this technique in detail?",
+        "color": "purple"
+      },
+      {
+        "id": 10,
+        "parent_id": 8,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Aww, shucks, folks! I'm glad we're all talkin' about scalp lacerations! But don't ferget to follow up with yer patients after surgery, make sure they're healin' okay!",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Rant about Aspirin Toxicity in the ER: Don't Rely on Blood Levels!",
+    "body": "Just saw a patient with severe salicylate toxicity and I had to do a second take on their ASA blood level. I'm calling it out: relying solely on blood levels is a pitfall in the management of ASA poisonings! The classic features are respiratory alkalosis, anion-gap metabolic acidosis, and hypokalemia...",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Couldn't agree more, OP! I've seen cases where patients with therapeutic ASA levels had severe toxicity due to chronic dosing. We need to be careful and consider the patient's clinical picture and acid-base status, not just the blood level. Did you check their acid-base status and electrolytes?",
+        "color": "purple"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Wait, so what's the threshold for ASA toxicity? Is it still like 300mg/kg?",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "As the patient himself, I can attest to the fact that I had been taking ASA for my arthritis and didn't realize I was overdosing on it. Luckily, my doctor acted fast and admitted me to the ICU. It was a nightmare, but I'm grateful to be alive.",
+        "color": "blue"
+      },
+      {
+        "id": 7,
+        "parent_id": 4,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Wow, Barnaby, thanks for sharing your story. What was your ASA regimen like, and did your doc do any procedures on you?",
+        "color": "orange"
+      },
+      {
+        "id": 8,
+        "parent_id": 1,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "As an internist, I've dealt with my fair share of patients with salicylate toxicity. One case that comes to mind is when a patient with RA was taking high doses of ASA and developed acute lung injury. We had to quickly intubate her and treat her with IV acetazolamide.",
+        "color": "red"
+      },
+      {
+        "id": 11,
+        "parent_id": 8,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Dr. Varkov, thanks for sharing that case. Acute lung injury sounds terrifying. Can you tell me more about the treatment you used? Was the IV acetazolamide a new development in your practice?",
+        "color": "pink"
+      },
+      {
+        "id": 13,
+        "parent_id": 1,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "I'm going to disagree with OP on this one. In some cases, ASA blood levels can still be relevant in the management of toxicity, especially in the early stages. However, I agree that relying solely on blood levels is a mistake. We need to consider the patient's clinical picture and other factors...",
+        "color": "purple"
+      },
+      {
+        "id": 14,
+        "parent_id": 13,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Dr. Miller, thanks for the nuance. What are some examples of cases where ASA blood levels might still be relevant?",
+        "color": "green"
+      }
+    ],
+    "image": "https://rebelem.com/wp-content/uploads/2018/05/Salicylate-Toxicity.png"
+  },
+  {
+    "id": 1,
+    "title": "Pediatric seizures: When do you treat status epilepticus?",
+    "body": "Had a miss last night with a 4-year-old who had a febrile seizure lasting 7 minutes. Mom said it just resolved on its own, so I sent him home. But what if it hadn't? When do you treat status epilepticus in the ED? Is 5 minutes the magic number we've all been told about?",
+    "category": "emergency medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "u/Dr_Ziggy_Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Lol, nice one, OP! As Ziggy, I've seen my fair share of seizures, and I can tell you that those 5 minutes are crucial. In fact, the American Academy of Pediatrics recommends treating status epilepticus in kids < 1 yr old if the seizure lasts > 5 minutes or if it's recurrent. For older kids, it's > 10 minutes. But here's the thing: even if the seizure doesn't seem to be ongoing, those kids can be postictal, which means they're not just sleeping, but actually have a depressed level of consciousness. So, if you're not sure, err on the side of caution and give them some benzodiazepines. I like to use lorazepam 0.1mg/kg IV, stat.",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "u/Dr_Maya_Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Great point, Ziggy! But what about the child who's just getting a series of seizures without intervening periods of consciousness? In those cases, do you consider it status epilepticus and treat it as such?",
+        "color": "blue"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "u/Dr_Keir_Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Actually, Ziggy, I was taught that status epilepticus is defined as a seizure lasting > 30 minutes or a series of seizures without a return to baseline consciousness between them. Is that not right?",
+        "color": "red"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "u/Dr_Ziggy_Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Not exactly, Keir. While the old definition of status epilepticus was > 30 minutes or multiple seizures without recovery, the most recent guidelines recommend a time-based approach. For kids < 1 yr old, it's a seizure lasting > 5 minutes, and for older kids, it's > 10 minutes.",
+        "color": "green"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "u/u/Dr_Aris_Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Actually, the key thing is the child's mental status. If they're not back to normal between seizures, that's when you treat. And don't forget, some kids can have status epilepticus despite the seizures appearing to be resolving. So, if you're unsure, err on the side of caution and get them some meds.",
+        "color": "orange"
+      },
+      {
+        "id": 6,
+        "parent_id": 1,
+        "user": "u/Barnaby_Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "Wait, so I might have had status epilepticus? I just had a seizure and felt weird for a bit afterwards... should I be worried?",
+        "color": "purple"
+      },
+      {
+        "id": 7,
+        "parent_id": null,
+        "user": "u/Sparkle_Eyes_Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Don't worry, Barnaby! You'll be fine, sweetheart. But if you're ever in doubt, always err on the side of caution and get some help.",
+        "color": "pink"
+      },
+      {
+        "id": 8,
+        "parent_id": 5,
+        "user": "u/Dr_Kevin_Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Dr. Thorne, could you clarify what you mean by 'not back to normal'? Are they just being sleepy, or is it more than that?",
+        "color": "blue"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "u/Dr_Ziggy_Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Great question, Keir! When we say 'not back to normal', we mean that the child is not just sleepy, but actually has a depressed level of consciousness. If they're not responding to their name, or if they're just lethargic, that's when you treat. Simple enough, right?",
+        "color": "green"
+      },
+      {
+        "id": 10,
+        "parent_id": null,
+        "user": "u/Dr_Victor_Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs. This is all just a bunch of hype. Status epilepticus is a myth perpetuated by lazy emergency physicians who can't be bothered to actually examine their patients. A seizure is a seizure; if it's not life-threatening, just send the kid home, and stop wasting our time.",
+        "color": "red"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "u/Dr_Ziggy_Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Actually, Victor, that's not exactly correct...",
+        "color": "purple"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "u/Dr_Keir_Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Yeah, let's just ignore Dr. Sterling. He's right when it comes to not being a jerk, but on this topic, he's just plain wrong.",
+        "color": "blue"
+      },
+      {
+        "id": 13,
+        "parent_id": 11,
+        "user": "u/Dr_KEVIN_PARK",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "And don't forget, status epilepticus can have significant long-term neurological consequences, so it's not just about patient comfort, but also about preventing potential brain damage.",
+        "color": "blue"
+      },
+      {
+        "id": 14,
+        "parent_id": 1,
+        "user": "u/Dr_Sarah_Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "One last thing, fellow physicians: don't forget to order some labs and get a CT or MRI if you suspect postictal cerebral edema. Trust me, it's better to err on the side of caution.",
+        "color": "orange"
+      },
+      {
+        "id": 15,
+        "parent_id": 14,
+        "user": "u/Barnaby Finich",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "Wait, you mean I might have gotten a CT scan? That's like, a 100x more radiation just by being near this hospital... right? What about the radiation, doc?",
+        "color": "purple"
+      },
+      {
+        "id": 16,
+        "parent_id": 15,
+        "user": "u/Sparkle Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Barnaby, sweetie, don't worry about the radiation. It's like, a tiny tiny bit, I promise.",
+        "color": "pink"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Rant about TB Dx in the ED: when CXR's aren't enough",
+    "body": "Just had a frustrating case last night where we had a patient present with a new onset fever, productive cough and a 4-day history of weight loss. Chest X-ray showed multiple calcified nodules and the patient was asymptomatic for TB, but I was still worried about the possibility of active TB given the clinical presentation. We decided to do an acid-fast smear and eventually a culture... 6 days later we got the results back and it was TB! However, I couldn't help but think that our ability to diagnose TB in the ED is still limited by our reliance on CXR's and traditional diagnostics like sputum smears. Has anyone else had similar experiences with TB diagnosis in the ED?",
+    "category": "emergmed",
+    "comments": [
+      {
+        "id": 2,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "TB is a beast to diagnose, especially when it comes to extrapulmonary cases. I've had patients present with everything from pleuritic chest pain to meningitis... and it's often only after we've got the results back that we realize that we should have been more suspicious earlier on. One thing that I've found helpful is to keep a high index of suspicion for TB in patients with prolonged febrile illnesses, especially in those with a history of HIV or recent travel to high-prevalence areas. Has anyone else found that keeping TB on the radar, even when the initial CXR seems normal, has paid off?",
+        "color": "purple"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Dr. Thorne, what makes you suspect TB in a patient with a normal CXR? Is it the symptoms or the history?",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 2,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs. You can't diagnose TB based on symptoms alone. It's all about the numbers. Get the patient into a clinic and let the specialists sort it out.",
+        "color": "red"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Come on, Dr. Sterling, don't be so quick to dismiss the role of history and physical examination. A patient with a prolonged febrile illness, weight loss, and no clear source of infection is a red flag for TB. And let's not forget the patient with a history of HIV or recent travel to a high-prevalence area... we need to keep TB on the radar, even when the initial CXR seems normal.",
+        "color": "purple"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "My dear colleagues, let us not forget the importance of the clinical examination in diagnosing TB. A thorough review of the patient's symptoms, medical history, and physical examination can often point to TB as a cause of their illness. And what about the role of the Mantoux test? Does anyone still use this in their diagnostic workup?",
+        "color": "green"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Dr. Thorne, the Mantoux test is still used in many of our centers as a screening tool for latent TB infection. However, it's not without its limitations. We need to consider factors like age, BCG vaccination status, and previous TB exposure when interpreting the results.",
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Can someone explain to me how to interpret the Mantoux test results? What are the units of measurement and what do the numbers mean?",
+        "color": "blue"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Leo, the Mantoux test results are measured in millimeters. A negative result is typically considered to be less than 5mm, while a positive result can be anywhere from 5-9mm (which suggests latent infection) to >= 10mm (which suggests active disease). But it's not just about the numbers, we need to consider the clinical scenario and other risk factors as well.",
+        "color": "yellow"
       },
       {
         "id": 10,
@@ -860,83 +656,187 @@
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "I think we can all agree on that. Thank you for the discussion, everyone. I feel like I have a better understanding of the implications of diagnosing WPW syndrome in the ED.",
-        "color": "red"
+        "text": "Has anyone else had experience with the use of interferon-gamma release assays (IGRAs) as an alternative to the Mantoux test? I've heard that they're more specific for TB infection, but what are the advantages and disadvantages of their use?",
+        "color": "orange"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "IGRAs have definitely found their place in the diagnostic workup for TB. They're especially useful in patients who have a high risk of false-positive results with the Mantoux test, such as those with a history of BCG vaccination or previous TB exposure. However, it's essential to consider the limitations of IGRAs, including false negatives and lack of standardization across different manufacturers.",
+        "color": "purple"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Dr. Varkov, can you elaborate on the factors that influence the performance of IGRAs? What are some of the common pitfalls that clinicians should be aware of?",
+        "color": "green"
+      },
+      {
+        "id": 13,
+        "parent_id": 12,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Sarah, it's essential to consider the immune status of the patient, as well as the timing of the test after exposure to TB. IGRAs may also be influenced by the type of sample tested, such as whole blood or peripheral blood mononuclear cells. Additionally, there's ongoing debate about the optimal method of interpreting IGRA results, including the use of cut-off values or more nuanced approaches.",
+        "color": "purple"
+      },
+      {
+        "id": 14,
+        "parent_id": 13,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Wow, I'm impressed by the wealth of information in this thread. Can we take a step back and consider the importance of maintaining a high index of suspicion for TB in the ED, even in the absence of classical symptoms? What are some red flags that we should be aware of?",
+        "color": "blue"
+      },
+      {
+        "id": 15,
+        "parent_id": 14,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Dr. Park, I completely agree that maintaining a high index of suspicion for TB is essential in the ED. Some red flags that come to mind include a patient with a prolonged febrile illness, especially if they have a history of HIV or recent travel to a high-prevalence area. We should also be suspicious of patients with extrapulmonary manifestations, such as pleural effusion or meningitis.",
+        "color": "orange"
+      },
+      {
+        "id": 16,
+        "parent_id": 15,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great point, Dr. Gupta. Let's not forget the importance of maintaining a healthy dose of skepticism when it comes to TB diagnosis. We should always consider alternative explanations for a patient's symptoms, especially if they've had a previous diagnosis of TB or another underlying condition.",
+        "color": "purple"
       }
-    ],
-    "image": "https://www.researchgate.net/publication/51164409/figure/fig3/AS:667823110103040@1536232845045/Algorithm-for-management-of-rhythm-disturbances-in-Emergency-room-based-on-initial-pulse.png"
+    ]
   },
   {
-    "id": 10,
-    "title": "Had a miss last night... Trauma in adults, who's to blame?",
-    "body": "Just had a patient come in with a severe closed head injury from a pedestrian vs car collision. They were a 35 yo with a history of ADHD, BAC 0.15, and had been texting while walking. Got rushed in and CT showed a large subdural hematoma. I'm writing myself up for missed diagnosis, but is it my fault? Is it the pedestrian's fault? Or is it the system's fault for prioritizing speed over safety?",
+    "id": 6,
+    "title": "TLDR: Don't Miss a Basilar Skull Fracture - Key Findings and Diagnostic Pearls",
+    "body": "Had a miss last night with a basilar skull fracture. Reminded me of the importance of considering this diagnosis in cases of acute headache. Here's what I learned:\nThe patient presented with a 2-day history of severe headache and bilateral periorbital ecchymosis. Initial CT scan was unremarkable, but the patient had a small amount of CS F otorrhea. We ordered an MRI and a more detailed CT angiogram, which revealed a small linear fracture in the petrous portion of the temporal bone. The patient had been taking anticoagulant medications for atrial fibrillation and had a history of multiple falls.\nBasilar skull fractures are often associated with CSF otorrhea or rhinorrhea, which may be accompanied by ecchymoses around the ears and eyes (Raccoon's eyes). The classic signs of this fracture are often delayed, with some studies suggesting up to 50% of cases being diagnosed after the initial presentation.\nKey findings for diagnosing a basilar skull fracture include:\n Hemotympanum\n CSF otorrhea or rhinorrhea\n Periorbital ecchymosis (Raccoon's eyes)\n Retroauricular ecchymosis (Battle's sign)\n Subarachnoid blood on CT\n\nDiscussion thread:",
     "category": "Emergency Medicine",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs like you are the reason we have so many lawsuits. You're blaming the system for your own mistakes. It's 1 am and you're still on call, maybe you should be focusing on your own self-care instead of playing blame-game.",
-        "color": "red",
-        "replies": [
-          {
-            "id": 5,
-            "parent_id": 1,
-            "user": "Dr. Barbara Miller",
-            "role": "EP",
-            "city": "Winnipeg, MB",
-            "text": "Easy there, Victor. We all make mistakes. But to be fair, we should all strive for a higher level of self-care and critical thinking. @Dr. Sterling, have you looked into the latest research on attention and multitasking? It's not just the patient's fault or the doctor's, it's a complex issue.",
-            "color": "blue"
-          },
-          {
-            "id": 7,
-            "parent_id": 1,
-            "user": "Leo Chen",
-            "role": "MS1",
-            "city": "Montreal, QC",
-            "text": "Dr. Sterling is right, we should take responsibility for our mistakes. But as new physicians, we're still learning and need guidance. Can we start a discussion on what we can do to improve our own practice, instead of blaming others?",
-            "color": "green"
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "parent_id": null,
         "user": "Dr. Aris Thorne",
         "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "I love this discussion! As a staff physician, I've seen many cases where patients have made poor choices, but it's our job to provide safe and compassionate care. @Dr. Sterling, you're right that we should focus on self-care, but let's not forget about the importance of empathy and understanding in emergency medicine.",
-        "color": "purple",
-        "replies": [
-          {
-            "id": 8,
-            "parent_id": 3,
-            "user": "Sarah Jenkins",
-            "role": "MS3",
-            "city": "Ottawa, ON",
-            "text": "Dr. Thorne, you bring up a great point about empathy and understanding. But don't you think that sometimes we're too focused on the 'human factor' and not enough on the actual medical diagnosis?",
-            "color": "yellow"
-          }
-        ]
+        "text": "Great example of a delayed diagnosis! Basilar skull fractures are often challenging to diagnose, especially in patients who are on anticoagulation therapy or have a history of trauma. As a diagnostic pearl, I would add that a detailed history of the patient's mechanism of injury and a thorough physical examination are crucial in making the diagnosis. The use of CT angiography to evaluate for vascular injuries is also essential, especially in cases with high clinical suspicion.\n\nWhen I see a patient with a suspected basilar skull fracture, I always ask about the mechanism of injury and look for specific signs of ecchymosis around the ears and eyes. It's also essential to get a detailed history of the patient's medical history, including any medications they're taking. In this case, the patient's anticoagulation therapy likely contributed to the delay in diagnosis.",
+        "color": "purple"
       },
       {
-        "id": 6,
+        "id": 2,
         "parent_id": 1,
         "user": "Turbo Tom",
         "role": "RN",
         "city": "London, ON",
-        "text": "Haha, Victor, you're always good for a laugh. But seriously, let's talk about the system and how we can improve trauma care in the ER. @Dr. Miller, have you seen the new trauma protocols from the Royal College?",
-        "color": "orange"
+        "text": "What are some of the most common mistakes you see in patients with suspected basilar skull fractures, Dr. Thorne?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "I had a question about the role of imaging in basilar skull fractures. Are there any specific imaging protocols that you recommend for this diagnosis?",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "According to the literature, a CT scan of the head is the initial imaging modality of choice for suspected basilar skull fractures. However, MRI is often used to further evaluate the extent of the fracture and assess for any associated brain or vascular injuries. In some cases, a CT angiogram may be necessary to evaluate for vascular injuries.",
+        "color": "green"
+      },
+      {
+        "id": 5,
+        "parent_id": 1,
+        "user": "Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "I have a question about the management of patients with basilar skull fractures. In your experience, are there any specific guidelines or protocols that you follow for this diagnosis?",
+        "color": "green"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I think this is a great point, Dr. Stone! The management of patients with basilar skull fractures can be challenging, especially when it comes to assessing their risk for further complications. In general, most patients with basilar skull fractures are managed conservatively, with a focus on pain management and monitoring for any complications. However, some cases may require surgical intervention, especially if there are associated brain or vascular injuries.",
+        "color": "green"
+      },
+      {
+        "id": 7,
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Another important point to consider is the need for thorough follow-up care after a diagnosis of basilar skull fracture. Patients should be monitored closely for any signs of complications, including seizures, meningitis, or worsening headache. A detailed explanation of their diagnosis and treatment plan is also essential to ensure that patients have a good understanding of their condition and can follow any necessary instructions.",
+        "color": "green"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Can you elaborate on what you mean by 'thorough follow-up care'?",
+        "color": "green"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "By 'thorough follow-up care,' I mean that patients should be seen by a healthcare provider within a few days of their initial diagnosis. During this follow-up visit, their headaches should be assessed, and any signs of complications should be evaluated. It's also essential to ensure that patients have a good understanding of their condition and can follow any necessary instructions regarding their treatment plan.",
+        "color": "green"
+      },
+      {
+        "id": 10,
+        "parent_id": 1,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "I agree that follow-up care is essential in the management of patients with basilar skull fractures. In addition to monitoring for complications, it's also crucial to assess the patient's pain and headache management needs. Patients may require a combination of medications, including analgesics, anti-anxiety agents, and anti-emetics, to manage their symptoms effectively.",
+        "color": "green"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Thanks for the clarification, Dr. Thorne! How often should patients receive follow-up care after a diagnosis of basilar skull fracture?",
+        "color": "green"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "The frequency of follow-up care will depend on the individual patient's needs and the severity of their symptoms. In general, most patients with basilar skull fractures will require follow-up care within 1-3 days of their initial diagnosis. However, some cases may require more frequent monitoring.",
+        "color": "green"
       }
-    ]
+    ],
+    "image": "https://emergencymedicinecases.com/wp-content/uploads/2017/12/ICH-Golden-Hour-Card.jpeg"
   },
   {
-    "id": 1,
-    "title": "Diabetic Ketoacidosis (DKA): A Cautionary Tale",
-    "body": "Had a miss last night with a 28 yo male presenting with severe vomiting, abdominal pain, and altered mental status. The patient had a known history of undiagnosed diabetes and was found to have a blood glucose of 700 mg/dL. Despite a prompt start to IV fluids and insulin, the patient quickly progressed to a state of severe dehydration, requiring intubation and pressors. What we initially thought was a simple case of DKA turned out to be a Hyperosmolar Hyperglycemic State (HHS). TL;DR - don't get complacent with DKA!",
-    "category": "EM Stories",
+    "post_id": 1,
+    "title": "Rant about difficult decision making: Can't believe I missed this today... (TL;DR at the end)",
+    "body": "Just had to manage this tough case today and I'm still trying to process it. We had a 35-year-old woman (BP 180/120, HR 120, SpO2 92%) come in with a 2-day history of headache, confusion, and left-sided weakness. She denied any fever or URI symptoms, but her family mentioned she had been taking a new statin med for a few weeks now.",
+    "category": "r/EmergencyMedicine",
     "comments": [
       {
         "id": 1,
@@ -944,8 +844,8 @@
         "user": "Dr. Aris Thorne",
         "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "Great post! Reminds me of the patient I had last year with uncontrolled type 2 diabetes and a HHS episode. One thing that stood out was the importance of rapid fluid resuscitation and avoiding hypokalemia. Have you all considered the role of potassium repletion in these patients? Link to a great review article on the topic: [www.ncbi.nlm.nih.gov/pmc/articles/PMC4444416/](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4444416/').",
-        "color": "blue"
+        "text": "TL;DR: We're talking missed stroke here, people! Statin meds can lower blood pressure, but they don't prevent strokes... Don't get me started on the family not mentioning the new med. This is a teachable moment, folks! We need to emphasize the importance of patient history and medication compliance.",
+        "color": "purple"
       },
       {
         "id": 2,
@@ -953,26 +853,26 @@
         "user": "Leo Chen",
         "role": "MS1",
         "city": "Montreal, QC",
-        "text": "Hi Dr. Thorne, thank you for the link! I was wondering if you could clarify the role of potassium repletion in DKA/HHS? Why is it so important to avoid hypokalemia?",
-        "color": "light gray"
+        "text": "Wait, what's the deal with statin meds? Can they really lower blood pressure that much? And how often do we see this in ER? Can anyone link some good resources on this?",
+        "color": "green"
       },
       {
         "id": 3,
-        "parent_id": 2,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Hi Leo, great question! Hypokalemia can lead to cardiac arrhythmias, muscle weakness, and even paralysis. Plus, it can exacerbate acidosis and make it harder to manage. Potassium repletion is crucial, especially in patients with severe dehydration or those requiring high-dose insulin.",
-        "color": "orange"
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "@Leo Chen Yeah, statin meds can definitely affect BP, especially if the patient's on other meds like ACE inhibitors or beta blockers. It's a classic example of drug-drug interaction. We should always be asking about patient's med regimens and dosing.",
+        "color": "blue"
       },
       {
         "id": 4,
         "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "I've seen cases where patients develop rhabdomyolysis due to hypokalemia in the setting of DKA/HHS. Anyone have any experience with that?",
-        "color": "pink"
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Actually, statin meds can also cause rhabdomyolysis and renal failure. We need to be aware of the risk factors and monitor patients on these meds closely. Can anyone share some guidelines on managing patients on statins?",
+        "color": "purple"
       },
       {
         "id": 5,
@@ -980,99 +880,206 @@
         "user": "Turbo Tom",
         "role": "RN",
         "city": "London, ON",
-        "text": "Rhabdomyolysis in DKA/HHS? You bet I have! Seen it in a patient who was on high-dose insulin and had severe hypokalemia. We needed to initiate dialysis to prevent renal failure. Always a tough one to manage!",
-        "color": "red"
+        "text": "@Dr. Elena Varkov Great point! I've seen some weird cases of rhabdomyolysis due to statin meds. We should be asking about creatine kinase levels and liver panels regularly in these patients. Anyone have any favorite resources on statin-related adverse effects?",
+        "color": "green"
       },
       {
         "id": 6,
         "parent_id": 1,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "OMG, this post has me so hyped! I love the EM cases you guys share. Can someone explain to me the difference between DKA and HHS? Like, I thought it was all the same...",
-        "color": "yellow"
+        "user": "Dr. Rick 'The Rage'",
+        "role": "EP",
+        "city": "Windsor, ON",
+        "text": "You know what's even more frustrating? When patients ignore their meds or stop taking them without telling us! It's like they think they're above the law or something. We need to educate patients about compliance and the risks of ignoring their meds.",
+        "color": "blue"
       },
       {
         "id": 7,
         "parent_id": 6,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Hi Chad, great question! DKA and HHS are both hyperglycemic crises, but the key difference is the osmolality of the blood. DKA has high anion gap acidosis, whereas HHS has hyperosmolarity without significant acidosis. Think of it like a spectrum - DKA is at one end, and HHS is at the other.",
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "@Dr. Rick 'The Rage' Amen to that! We need to make sure patients understand the importance of following their treatment plans. Maybe we can start by having patients sign a compliance contract? Just kidding, but seriously, we need to find ways to engage patients in their care.",
         "color": "purple"
       }
     ]
   },
   {
     "id": 1,
-    "title": "ANECDOTE: Acute Pancreatitis in the ED - The Pitfalls of Serum Amylase",
-    "body": "Today, I (u/EmergDoc) had a patient with a classic case of acute pancreatitis. Her CT scan revealed a clear cause: a gallstone obstructing the common bile duct. However, her serum amylase levels were surprisingly low. Just to clarify, I've always understood that serum amylase is not a specific marker for pancreatitis, but I've never encountered anything like this before. Did anyone else have a similar experience? Am I missing something?",
-    "category": "Emergency Medicine",
+    "title": "TL;DR: Cirrhosis in the ED - Don't Miss These Critical Complications",
+    "body": "Just saw a patient with decompensated cirrhosis and it got me thinking... How many of us are aware of the critical compllications of cirrhosis that can present to the ED? Let's review the must-haves for your next shift.",
+    "category": "casestudy",
     "comments": [
       {
-        "id": 10,
+        "id": 1,
         "parent_id": null,
-        "user": "u/EmergDoc",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "TLDR: Serum amylase is not specific for pancreatitis, but low levels in this case raised a red flag. Any thoughts?",
+        "user": "Dr. Ziggy Zalesky, EP",
+        "role": "",
+        "city": "Vancouver, BC",
+        "text": "Spot on! Cirrhosis is a bear to manage. For me, it's all about the liver function tests (LFTs) and coagulation studies. If the patient's INR is elevated, I'm getting a stat CT to rule out hepatorenal syndrome (HRNS). Anyone agree?",
+        "color": "blue"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen, MS1",
+        "role": "",
+        "city": "Montreal, QC",
+        "text": "Wait, what's the difference between a high INR and HRNS? I thought they were related?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Barb Miller, EP",
+        "role": "",
+        "city": "Winnipeg, MB",
+        "text": "Good question, Leo! HRNS is a type 1 error, where the liver is so sick it can't compensate for renal failure. But if the INR is only elevated, it might be just a coagulopathy from the portal hypertension. You need to think about the clinical context. Got any more questions, Leo?",
+        "color": "purple"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Leo Chen, MS1",
+        "role": "",
+        "city": "Montreal, QC",
+        "text": "Thanks, Barb! That helps clarify things for me. And yeah, what about the role of imaging in HRNS? Do we need a CT or can we do an ultrasound?",
+        "color": "green"
+      },
+      {
+        "id": 5,
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta, PGY2",
+        "role": "",
+        "city": "Mississauga, ON",
+        "text": "I've been having a tough time telling my HRNS patients apart from those with acute kidney injury (AKI). Any tips on how to differentiate?",
+        "color": "blue"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Elena Varkov, FRCPC",
+        "role": "",
+        "city": "Quebec City, QC",
+        "text": "Well, Maya, AKI is all about the creatinine and U&A. You need to show the kidneys are actually failing, rather than just being suppressed by liver failure. For HRNS, it's more about the functional renal failure in the absence of intrinsic renal disease.",
+        "color": "purple"
+      },
+      {
+        "id": 7,
+        "parent_id": 1,
+        "user": "Turbo Tom, RN",
+        "role": "",
+        "city": "London, ON",
+        "text": "Lol @ the drama over LFTs and coags... What about the big picture, folks? What's the take-home for your next shift on decompensated cirrhosis?",
+        "color": "orange"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Sarah Sharp, EP",
+        "role": "",
+        "city": "Laval, QC",
+        "text": "Right on, Tom! For me, it's all about recognizing the high-risk features like ascites, SBP, and altered mental status. If you see any of these red flags, get your hepatologist consult on stat!",
+        "color": "blue"
+      },
+      {
+        "id": 9,
+        "parent_id": 1,
+        "user": "Barnaby Finch, Patient",
+        "role": "",
+        "city": "Surrey, BC",
+        "text": "Wait, isn't ascites just fluid in the belly? And what's SBP?",
+        "color": "green"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Sparkle-Eyes Sue, LPN",
+        "role": "",
+        "city": "St. John's, NL",
+        "text": "Don't you worry, Barnaby! Asclites is just some extra fluid that can cause discomfort and swelling. And SBP, or spontaneous bacterial peritonitis, is like a bellyache from a bad bug - but it's serious!",
         "color": "purple"
       },
       {
         "id": 11,
-        "parent_id": 10,
-        "user": "u/Ziggy_Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Lol, you think that's something? I've seen patients with normal amylase levels and severe pancreatitis due to hypercalcemia. The key is to consider all the possible etiologies, including non-traditional causes like hypocalcemia, diabetes, or certain medications.",
-        "color": "green"
+        "parent_id": 1,
+        "user": "Dr. Archibald Thorne, Physician",
+        "role": "",
+        "city": "Saskatoon, SK",
+        "text": "A fine discussion, my friends! Remember, the key to successful management of decompensated cirrhosis is to address the root cause - the cirrhosis itself. All these complications will take care of themselves once you treat the source.",
+        "color": "blue"
       },
       {
         "id": 12,
         "parent_id": 11,
-        "user": "u/Sarah_Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "I recall reading that hypercalcemia can cause acute pancreatitis. Can anyone confirm this? Is there a specific paper I should be looking at?",
-        "color": "blue"
+        "user": "Chad Broson, Pre-med",
+        "role": "",
+        "city": "Brampton, ON",
+        "text": "Wait, how do we treat cirrhosis? Is there a cure?",
+        "color": "green"
       },
       {
         "id": 13,
-        "parent_id": 10,
-        "user": "u/Dr_Aris_Thorne",
+        "parent_id": 12,
+        "user": "Dr. Henry Oldman, CCFP",
+        "role": "",
+        "city": "Victoria, BC",
+        "text": "Sorry, Chad, there's no cure for cirrhosis, but with modern treatments like TIPS, liver transplants, and new meds, patients can live a better quality of life.",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Rant about heat-related illnesses in kids: why do we miss the obvious?",
+    "body": "I (EP) recently had a 3-year-old patient who was brought in with an 'unwillingness to participate in outdoor play'. The parents were worried that their child was developmentally delayed, but upon further questioning, it turned out the kid was showing signs of heat exhaustion (cool to the touch, sweaty, lethargic...the works). This got me thinking: how often do we miss heat-related illnesses in kids, and what can we do to avoid this in the ER?\n\nTL;DR: don't be fooled by seemingly benign presentation in kids, consider heat-related illness as a top differential, and take a more thorough history.",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
         "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "As EmergDoc pointed out, serum amylase is not specific for pancreatitis. However, in this case, the low level did raise some concerns. A more precise marker for pancreatitis is lipase. Would anyone care to comment on the utility of lipase in diagnosing acute pancreatitis?",
-        "color": "orange"
-      },
-      {
-        "id": 14,
-        "parent_id": 12,
-        "user": "u/Dr_Keith_Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "To answer your question, Sarah, yes, hypercalcemia can cause acute pancreatitis. The pathophysiology is thought to be related to the high calcium levels inhibiting pancreatic enzyme activity. There's a nice review article on this topic in the Journal of Clinical Endocrinology and Metabolism.",
-        "color": "red"
-      },
-      {
-        "id": 15,
-        "parent_id": 13,
-        "user": "u/David_Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Lipase is indeed a more specific marker for pancreatitis, but it's not foolproof. Can anyone share any examples of false-negative lipase levels in acute pancreatitis?",
+        "text": "Great rant, OP! As a community EP, I've noticed that a lot of heat-related illnesses in kids present with vague symptoms like refusal to play or general malaise. I always try to ask the parents about their child's physical activity level and any recent changes in behavior or appetite. If the parents seem unsure about their child's hydration status, I ask them to keep a close eye on it and bring the kid back in if they show any signs of worsening symptoms.\n\nOne thing that comes to mind is the concept of 'prickly heat' (or heat rash). It's a classic heat-related phenomenon in kids that can masquerade as a simple eczema flare-up. Have you ever encountered a case that you suspected might be a heat rash?",
         "color": "purple"
       },
       {
-        "id": 16,
-        "parent_id": 15,
-        "user": "u/Rita_K_Cydulka",
-        "role": "Physician",
-        "city": "Kansas City, USA",
-        "text": "Actually, lipase levels can be false-negative in cases of chronic pancreatitis or pancreatic tumor. We should not rely solely on lipase levels when diagnosing pancreatitis.",
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Prickly heat? I've heard of it, but what's the difference between that and a simple heat rash? Is one a more severe presentation than the other?",
         "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I've had a few cases of heat rash in the ER, and it's usually pretty straightforward. But I do remember one case where the kid's symptoms progressed to heat exhaustion, which was a wake-up call for me. I think it's essential to educate parents and guardians about the signs of heat-related illnesses in kids, especially in extreme temperatures.\n\nAnyone have a favorite resource for teaching heat safety to parents?",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Oh man, I can speak to this! One day I was doing a teaching session with a group of parents, and I asked them how many knew the symptoms of heat exhaustion. Only ONE knew (it was actually Dr. Aris Thorne, bless his heart!). It broke my heart to think about how many kids have died from heat-related illnesses in our city because their parents didn't know what to look for.\n\nWe need to make sure we're providing clear, reliable resources to the public. I've started using the American Academy of Pediatrics' Heat Illness website with my patients (http://pediatrics.aappublications.org/content/134/3/e732.full). Has anyone else used this or similar resources?",
+        "color": "red"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Darlin', I've got a wee bit of experience with heat-related illnesses in kids. In our ER, we have a lovely resource called the Heat Stress Prevention and Treatment Guide for Children (https://www.hc-sc.gc.ca/hl-vs/iyh-vst/summs/heat-eng.php). It lists all the symptoms, prevention strategies, and treatment options for heat-related illnesses. It's been a godsend for parents who need guidance. Does anyone have experience with this guide?",
+        "color": "pink"
       }
     ],
-    "image": "https://www.ejinme.com/cms/10.1016/j.ejim.2024.10.030/asset/c8bb7473-836e-4024-8f26-318370f73db2/main.assets/gr3_lrg.jpg"
+    "image": "https://www.weather.gov/images/wrn/Infographics/2022/heat-symptoms-2022-final.png"
   }
 ]
