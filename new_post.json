@@ -1,72 +1,207 @@
 [
   {
     "id": 0,
-    "title": "Neonatal Resuscitation Fail: A Lesson in the Importance of Maintaining Body Temperature",
-    "body": "Just saw a patient with a newborn who required resuscitation due to bradycardia. The baby was not placed on a radiant warmer and was instead swaddled in a towel to 'keep warm.' The team spent 10 minutes on chest compressions and bag-valve-mask ventilation without correcting the issue. After the patient was placed on a radiant warmer, the heart rate quickly returned to normal. TLDR: Don't underestimate the importance of maintaining body temperature in neonates. Any thoughts, colleagues?",
-    "category": "medicine",
+    "title": "The Dark Art of DKA: When Does it Start to Get Really Bad?",
+    "body": "Had a miss last night with a 32yo male presenting with vomiting, abdominal pain, and confusion. Blood glucose was 450, pH 7.12, and anion gap was 20. We started IV fluids, insulin, and potassium. Patient's condition rapidly deteriorated, and he was intubated within an hour. I'm trying to brush up on my DKA management. Has anyone seen cases where DKA has progressed to acute kidney injury or respiratory failure? What are the warning signs and how do we prevent it?",
+    "category": "emedicine",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
         "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
+        "role": "MD",
         "city": "Toronto, ON",
-        "text": "I've seen this before. Neonates are notoriously difficult to keep warm, especially in a poorly insulated delivery room. The radiant warmer is a must-have. What's the policy in your hospital regarding neonatal temperature maintenance?",
+        "text": "Ah, the joys of DKA. It's a great reminder that we're not just treating the blood sugar, but also the patient's fluid status, electrolytes, and acid-base balance. I'd say the key is to address the underlying cause of the hyperglycemia, whether it's insulin deficiency, infection, or something else. And don't forget about the ketoacidosis - that's where the real trouble starts. When the anion gap widens, it's a sign that things are getting out of hand. Have you considered using continuous venous hemofiltration in cases where renal failure is imminent? [1]",
+        "color": "blue"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Thanks for the tip, Dr. Thorne! I've read that CVVH can help remove excess acidic metabolites, but what about the risks of renal failure? Isn't that a double-edged sword?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": null,
+        "user": "Dr. Victor Sterling",
+        "role": "MD",
+        "city": "Calgary, AB",
+        "text": "Amateurs think that DKA is all about glucose levels, but it's about managing the patient's entire physiology. Get your fluids right, and the ketones will sort themselves out. I don't bother with IV insulin - it's a waste of resources. Get the patient eating real food and taking their own insulin, and we'll see some real progress [2].",
+        "color": "red"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Aris Thorne",
+        "role": "MD",
+        "city": "Toronto, ON",
+        "text": "I'm not sure I agree, Dr. Sterling. While nutrition and lifestyle modifications are crucial, they can't replace the immediacy of IV insulin therapy in cases of severe DKA. And what about the role of potassium supplementation? Have you seen cases where potassium replacement has been too slow or inadequate [3]?",
+        "color": "blue"
+      },
+      {
+        "id": 5,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "I've read that the addition of corticosteroids in DKA can accelerate recovery by enhancing glucose uptake in peripheral tissues. However, there's also concern about potential side effects like fluid overload and electrolyte imbalances. Have you seen cases where steroids were used in DKA management?",
+        "color": "green"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Elena Varkov",
+        "role": "MD",
+        "city": "Quebec City, QC",
+        "text": "Steroids can be useful in cases of adrenal insufficiency or chronic stress. However, be cautious with the timing and dosing - you want to avoid exacerbating any existing comorbidities, like Cushing's syndrome or steroid-induced psychosis. Don't forget to monitor for signs of CIN or hypophosphatemia!",
+        "color": "yellow"
+      },
+      {
+        "id": 7,
+        "parent_id": null,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "I'm just a nurse, but I've seen some cases where patients got really aggressive in the middle of the night due to insulin-induced hypoglycemia. Any tips for avoiding hypoglycemia when transitioning a patient from IV insulin to subcutaneous injections?",
+        "color": "orange"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Maya Gupta",
+        "role": "MD",
+        "city": "Mississauga, ON",
+        "text": "Great question, Turbo Tom! When transitioning patients to SC insulin, make sure to follow a careful tapering schedule and monitor for signs of glucose rebound. Don't forget to involve the patient or their family in the transition process, and provide education on dose adjustments and blood glucose monitoring. Also, remember to reassess the patient's medication regimen for potential interactions or contraindications [4].",
+        "color": "purple"
+      },
+      {
+        "id": 9,
+        "parent_id": 1,
+        "user": "Dr. Z",
+        "name": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Here's the thing - we're not just treating DKA, we're also treating the underlying causes of DKA. So let's talk about the role of substance abuse, especially in cases where the patient has a history of polysubstance use disorder. Has anyone seen cases where alcohol withdrawal was a complication?",
+        "color": "teal"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Is it possible for patients with DKA to experience withdrawal symptoms from alcohol or other substances? I've read that DKA can be triggered by alcohol abuse, but what about the other way around?",
+        "color": "brown"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "You bet it is, Chad! Patients with polysubstance use disorder are at risk for withdrawal symptoms, especially when undergoing treatment for DKA. It's crucial for providers to screen for substance abuse and provide support for recovery. And don't forget to educate patients on the risks of concurrent use of medications like steroids, opioids, or stimulants!",
+        "color": "pink"
+      }
+    ],
+    "image": "https://emergencymedicinecases.com/wp-content/uploads/2020/09/DKA-algorithm-Canadian-Guidelines-2018-800x851.png"
+  },
+  {
+    "id": 1,
+    "title": "Disaster Preparedness: Lessons Learned from Recent Tornado Outbreaks",
+    "body": "Just saw a patient with severe injuries from a recent tornado outbreak. As I was treating her, I couldn't help but think about the lessons we can learn from these events.\n\nDuring the outbreak, our hospital had to activate our disaster plan, which included setting up a field hospital to receive patients from the affected areas. As an ED physician, I was involved in the triage process, and it was a wake-up call for me on the importance of disaster preparedness.\n\nOne of the biggest challenges we faced was the lack of communication between our hospital and the field hospital. We had to rely on makeshift communications systems, which led to delays in patient care. This highlighted the need for a robust communication plan in place before disaster strikes.\n\nAnother issue we encountered was the shortage of medical supplies, including medications and equipment. We had to rely on our emergency stockpiles, but they were not sufficient to meet the demand. This emphasizes the need for a well-stocked emergency supply chain.\n\nAs I reflect on our experience, I realize that disaster preparedness is not just about having a plan in place, but also about being prepared to adapt to changing circumstances. We need to be able to communicate effectively, have sufficient supplies, and be able to triage patients efficiently.\n\nI'd love to hear from others who have been involved in disaster preparedness efforts. What are the biggest challenges you've faced, and how did you overcome them? Any advice for hospital administrators and ED physicians on how to improve disaster preparedness?",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Great post! I completely agree about the importance of communication and supply chain management. Have you considered implementing a comprehensive disaster preparedness training program for your ED physicians? I've found that this can help identify potential weaknesses in our plan and improve our overall response to disasters.\n\nTL;DR: Disaster preparedness is not just about having a plan, it's about being prepared to adapt and communicate effectively.",
         "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "I was taught that a temperature of 37\u00b0C is ideal for neonates, but is that always the case? What's the range of acceptable temperatures for newborns?",
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "I'm so glad you brought this up, Dr. Sharp! In my experience, communication is key during disasters. Can you elaborate on the kind of training program you're talking about? Is it just for physicians, or do you include nurses and other hospital staff as well? Any tips on how to make it more effective?",
         "color": "green"
       },
       {
         "id": 3,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "I've been reading about the use of polyethylene bags to maintain body temperature in very-low-birth-weight newborns. Has anyone had experience with this?",
-        "color": "teal"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "I'd like to add that pulse oximetry and ECG monitoring should also be considered during neonatal resuscitation. These modalities can provide valuable information on the baby's response to interventions.",
-        "color": "violet"
-      },
-      {
-        "id": 5,
         "parent_id": 2,
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "A temperature of 37\u00b0C is generally considered ideal for neonates, but there can be some variation depending on the individual baby's needs. It's essential to monitor the baby's temperature and adjust as necessary.",
-        "color": "blue"
+        "text": "I'd love to hear more about the training program too! What kind of scenarios do you include in the training? For example, do you simulate a patient surge, or focus on triage and prioritization? How often do you conduct the training, and what's the feedback like from participants?",
+        "color": "purple"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Oh my stars, I'm so interested in this topic! As an LPN, I've seen firsthand the importance of good communication and teamwork during disasters. Can you recommend any resources or best practices for training ED staff on disaster preparedness? I'd love to get some tips for my own hospital.",
+        "color": "green"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Hey Sue, great question! I've found that simulation-based training is super effective for disaster preparedness. You can simulate a patient surge, a tornado, or even a terrorist attack. The key is to create a realistic scenario that tests your staff's skills and teamwork. I'd be happy to share some resources and best practices if you're interested.",
+        "color": "purple"
       },
       {
         "id": 6,
-        "parent_id": 3,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Regarding the use of polyethylene bags, I've had some experience with them. They can be a useful tool for maintaining body temperature in very-low-birth-weight newborns, but they should be used in conjunction with other warming methods.",
-        "color": "indigo"
+        "parent_id": 5,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "I disagree with this entire discussion. Disaster preparedness is a waste of time and resources. We should focus on treating individual patients rather than hypothetical scenarios.",
+        "color": "red"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "Ah, now now, Dr. Sterling. As a family physician, I can attest to the importance of disaster preparedness. We see firsthand the impact of disasters on our patients and communities. Ignoring the issue is not a solution. Can you offer any evidence-based arguments for your position?",
+        "color": "blue"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Dr. Sterling's comments are... enlightening. But can we focus on the topic at hand? Dr. Sharp, can you provide more information about the training program's curriculum and delivery?",
+        "color": "purple"
+      },
+      {
+        "id": 9,
+        "parent_id": null,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Thank you, Dr. Gupta! The training program is designed to cover the key components of disaster preparedness, including communication, supply chain management, triage, and prioritization. We include simulation-based training to test staff's skills and teamwork. I've attached a document outlining the curriculum and delivery.",
+        "color": "purple"
       }
-    ],
-    "image": "https://i.ytimg.com/vi/zZKwXOAUf9M/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCbCwfoF3UDAlPNISznAReRmgTldA"
+    ]
   },
   {
-    "id": 1,
-    "title": "Rant about Bowel Obstruction Diagnosis",
-    "body": "Just saw a patient with what I thought was a classic SBO, but turned out to be a sigmoid volvulus. Anyone else have a recent experience with misdiagnosis? I've been trying to brush up on my volvulus diagnosis skills and I'd love some input from the community.",
-    "category": "r/EmergencyMedicine",
+    "id": 3,
+    "title": "Today I learned that a 55 y/o with syncope has a 1 in 10 chance of actually having a life-threatening cause of syncope",
+    "body": "I mean, most of the time, it's just a vasovagal attack, but you gotta think about the possibilities. And by the way, did you know that carotid sinus hypersensitivity can be a possible cause of syncope in the elderly too?",
+    "category": "emergency-medicine",
     "comments": [
       {
         "id": 1,
@@ -74,240 +209,199 @@
         "user": "Dr. Aris Thorne",
         "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "Ah, sigmoid volvulus. I had a recent case of it too. Key takeaway is to look for a distended sigmoid colon on abdominal X-ray, and to not get too confident in your diagnosis based on just one view (CT scan or ultrasound are often helpful). Also, be aware of the at-risk populations (elderly, those taking anticholinergic meds, etc.).",
+        "text": "Great point! The elderly are often under-represented in the literature, but they're at a higher risk for life-threatening causes of syncope. One thing to keep in mind is that even if they have a normal cardiac workup, it's still worth considering carotid sinus hypersensitivity. We should make sure they're taking their blood pressure in both arms, not just one, and also ask about presyncopal symptoms like lightheadedness or fainting when shaving or turning their head. I like to think of it as a 'silent cardiac disease' because it can be very subtle. And did you know that the Canadian Cardiovascular Society has some guidelines for investigating syncope in this population? [1]",
         "color": "purple",
-        "comments": [
-          {
-            "id": 2,
-            "parent_id": 1,
-            "user": "Leo Chen",
-            "role": "MS1",
-            "city": "Montreal, QC",
-            "text": "Dr. Thorne, what about the pain mechanism in sigmoid volvulus? Does it present differently than small bowel obstruction?",
-            "color": "green"
-          },
-          {
-            "id": 3,
-            "parent_id": 1,
-            "user": "Dr. Maya Gupta",
-            "role": "PGY2",
-            "city": "Mississauga, ON",
-            "text": "Agree with Dr. Thorne on the importance of abdominal X-ray in sigmoid volvulus. I also like to get a CT scan to rule out other causes of obstruction. Has anyone else found this helpful in their diagnosis?",
-            "color": "green"
-          },
-          {
-            "id": 4,
-            "parent_id": 1,
-            "user": "Dr. Rick 'The Rage'",
-            "role": "EP",
-            "city": "Windsor, ON",
-            "text": "Ugh, sigmoid volvulus is such a pain to diagnose. The one recent case I had was a young patient, no clear risk factors, and the CT scan showed a beautiful volvulus. Took me way too long to diagnose it... lesson learned: always consider sigmoid volvulus in young patients.",
-            "color": "green"
-          }
+        "links": [
+          "https://www.ccs.ca/assets/downloads/2012_05_ssyncope.pdf"
         ]
       },
       {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Uh, sorry to interrupt, but I'm a bit confused. Can you explain what carotid sinus hypersensitivity is in more detail? Like, what's the physiology behind it?",
+        "color": "green"
+      },
+      {
         "id": 5,
-        "parent_id": null,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs think they can diagnose sigmoid volvulus just by looking at the X-ray. What about those of you who have actually operated on a sigmoid volvulus? Share your stories!",
-        "color": "blue"
+        "parent_id": 1,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Well, Leo, basically, the carotid sinus is a part of the baroreceptor reflex that senses changes in blood pressure. When it's stimulated, it sends a signal to the brain to increase heart rate and blood pressure. But in some cases, it can over-stimulate and cause a vasovagal response, leading to syncope. It's a pretty complex system, but the gist is that the body's trying to compensate for a perceived drop in blood pressure. As for the Canadian Cardiovascular Society guidelines, yeah, they're a good resource. I recommend checking them out.",
+        "color": "lightblue"
       },
       {
         "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "Ah, Dr. Sterling, you're absolutely right (as always). I've operated on a few sigmoid volvuluses and let me tell you, it's not a walk in the park. The key is to relieve the obstruction quickly and prevent bowel ischemia.",
-        "color": "blue"
+        "parent_id": 1,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "I gotta say, folks, I think we're getting a little too caught up in the physiology of it all. At the end of the day, the key takeaway is that the elderly are at higher risk for life-threatening causes of syncope. So, let's focus on the history and physical exam, and not get too bogged down in the minutiae.",
+        "color": "red"
       },
       {
         "id": 7,
-        "parent_id": null,
+        "parent_id": 4,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Oh, sorry, I just want to clarify, so you're saying the baroreceptor reflex can cause a vasovagal response in cases of carotid sinus hypersensitivity? Like, does that make sense?",
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "parent_id": 5,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Leo, that's a great question! Yes, in cases of carotid sinus hypersensitivity, the baroreceptor reflex can indeed cause a vasovagal response, leading to syncope. It's a classic example of how the body's compensatory mechanisms can sometimes get a bit too enthusiastic.",
+        "color": "darkblue"
+      },
+      {
+        "id": 9,
+        "parent_id": 6,
         "user": "Dr. Sarah Sharp",
         "role": "EP",
         "city": "Laval, QC",
-        "text": "I'd like to add that in addition to the abdominal X-ray and CT scan, a pelvic exam may also be helpful in diagnosing sigmoid volvulus, especially in female patients.",
-        "color": "purple"
-      },
-      {
-        "id": 8,
-        "parent_id": null,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Just a question from a nurse perspective - what's the best way to present a sigmoid volvulus case to the team? Any tips for communicating the diagnosis and plan? ",
-        "color": "green"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Oh dear Tom, I'd just say to keep it simple and focus on the patient's story. What are their symptom, their vitals, and their relevant history? Don't forget to mention the CT scan findings and your plan. Easy peasy!",
-        "color": "green"
+        "text": "I agree with Ziggy on this one, folks. Let's not get too caught up in the details. The key takeaway is that the elderly are at higher risk for life-threatening causes of syncope, and we should be doing a thorough history and physical exam to rule out other causes.",
+        "color": "pink"
       },
       {
         "id": 10,
-        "parent_id": null,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Let's not forget the importance of fluid management in sigmoid volvulus patients. We need to aggressively hydrate to prevent bowel ischemia and subsequent complications.",
-        "color": "purple"
-      },
-      {
-        "id": 11,
-        "parent_id": null,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Dr. Varkov, what about the role of antibiotics in sigmoid volvulus treatment? Should we be prescribing them or are there any contraindications?",
-        "color": "green"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "Ah, great question, Sarah. While antibiotics may have been a standard treatment in the past, I think we've moved away from them as a first line treatment. The focus is now more on supportive care and bowel rest.",
-        "color": "green"
-      },
-      {
-        "id": 13,
-        "parent_id": 12,
-        "user": "Dr. 'Ziggy' Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Word, Dr. Oldman. And let's not forget the importance of prompt surgical consultation in sigmoid volvulus. Don't get me wrong, I love a good medical management plan, but ultimately, it's all about getting that sigmoid resected ASAP.",
-        "color": "green"
-      },
-      {
-        "id": 14,
-        "parent_id": 13,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Thanks for the advice, everyone. I'll make sure to keep sigmoid volvulus high on my differential for bowel obstruction cases.",
-        "color": "green"
-      }
-    ]
-  },
-  {
-    "id": 3,
-    "title": "TLDR; vertigo diagnosis: peripheral v central?",
-    "body": "Just saw a pt with acute vertigo and I'm wondering about the best way to differentiate peripheral from central causes. We were all over the place in our residency, but I thought there was a systematic approach for this. Can anyone share their favs? Also, are there any bedside tests that can help?",
-    "category": "emergency-medicine",
-    "comments": [
-      {
-        "id": 4,
-        "parent_id": null,
-        "user": "Sawbones_Surgeon",
-        "role": "M.D.",
-        "city": "New York, NY",
-        "text": "For me, it's all about the onset of symptoms. Peripheral vertigo usually presents with sudden onset, vs central vertigo which is more gradual. Plus, peripheral vertigo tends to be worse when you move your head, which is why I love the HINTS exam. Has anyone else had a lot of success with this?",
-        "color": "teal"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "ER_Nerd",
-        "role": "M.D.",
-        "city": "Los Angeles, CA",
-        "text": "HINTS stands for Horizontal Head Impulse Test, Nystagmus, and Test of Skew, btw.",
-        "color": "blue"
-      },
-      {
-        "id": 6,
-        "parent_id": 4,
-        "user": "Sawbones_Surgeon",
-        "role": "M.D.",
-        "city": "New York, NY",
-        "text": "Ah, thanks for the HINT acronym! So, yes, HINTS can help you differentiate between peripheral and central causes of vertigo. Have you guys ever seen a case where HINTS wasn't reliable?",
-        "color": "teal"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Peds_Phd",
-        "role": "Ph.D.",
-        "city": "Baltimore, MD",
-        "text": "I've seen cases where kids with central nervous system issues will have false-negative HINTS tests. It's usually because they have a more complex underlying condition, like a brain tumor or malformation.",
+        "parent_id": 7,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "I think it's worth mentioning that even with a normal cardiac workup, it's still possible for patients to have carotid sinus hypersensitivity. We should be asking about their full medical history, including any past episodes of syncope or near-syncope.",
         "color": "orange"
-      },
-      {
-        "id": 8,
-        "parent_id": 6,
-        "user": "ER_Nerd",
-        "role": "M.D.",
-        "city": "Los Angeles, CA",
-        "text": "That's a great point, Peds_Phd! It's always important to consider alternative causes, especially in kids. But what about older adults? Have you guys seen any cases where HINTS was less reliable in this population?",
-        "color": "blue"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Sawbones_Surgeon",
-        "role": "M.D.",
-        "city": "New York, NY",
-        "text": "Actually, yes. I've seen cases where older adults had abnormal HINTS exams due to vascular issues or multiple sclerosis. It's always a complex interplay of factors.",
-        "color": "teal"
       }
     ]
   },
   {
     "id": 1,
-    "title": "Today I learned lightning injuries are just as deadly as high-voltage electrocution cases",
-    "body": "In a case I saw last night, a patient was struck by lightning while playing golf. Initial presentation was a classic neurologic deficit - altered mental status, seizures, and paralysis. Luckily, we got him to the ICU in time and were able to stabilize his cardio.",
-    "category": "CME",
+    "title": "TLDR; Sepsis vs Septic Shock: When do you intubate?",
+    "body": "Just had a patient with Sepsis and Septic Shock who I was pretty sure was gonna code on me in the ED. So I intubated her and called in a consult. But then I started thinking: does Sepsis always require intubation? What about Septic Shock? So... when do you guys intubate your patients in these scenarios? I'm really confused. Thanks in advance for your help!",
+    "category": "Emergency Medicine",
     "comments": [
       {
-        "id": 10,
+        "id": 2,
         "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": null,
-        "city": "Toronto, ON",
-        "text": "That's a great reminder of the importance of considering lightning injuries in our differential diagnosis, especially during the summer months. It's amazing how often these cases can be initially misdiagnosed.",
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Great question! I think it's worth noting that the SOFA score is a good way to assess organ dysfunction in sepsis.\n\nTLDR; Intubation is recommended in sepsis when there are signs of respiratory failure, such as \nincreased respiratory rate, oxygen saturation < 90%, or PaO2/FiO2 ratio < 300. However, the decision to \nintubate should be made on a case-by-case basis, taking into account other factors like the patient's overall \nclinical status and the potential benefits and risks of intubation.",
         "color": "purple"
       },
       {
-        "id": 11,
-        "parent_id": null,
+        "id": 3,
+        "parent_id": 2,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Dr. Sharp, can you clarify what the SOFA score is? I've heard of it before, but I'm not exactly sure what it \nstands for or how it's used.",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 2,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Sure thing, Leo! SOFA stands for Sequential Organ Failure Assessment, and it's a scoring system used to \nasess the severity of organ dysfunction in patients with sepsis. It consists of 6 components: respiratory, \ncardiovascular, hepatic, coagulation, renal, and neurological.",
+        "color": "purple"
+      },
+      {
+        "id": 5,
+        "parent_id": 2,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "What about the qSOFA score, Dr. Sharp? I've heard that's a more useful tool for rapid evaluation of sepsis. \nCan you tell us about that as well?",
+        "color": "blue"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Great point, Chad! The qSOFA score is indeed a useful tool for rapid evaluation of sepsis. It's a shorter \nversion of the SOFA score and includes three components: respiratory rate, altered mental status, and systolic \nblood pressure. If a patient has two or more of these criteria, it's likely that they have sepsis.",
+        "color": "purple"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
         "user": "Sarah Jenkins",
         "role": "MS3",
         "city": "Ottawa, ON",
-        "text": "I've been reading up on lightning injuries, and one thing that caught my eye is the fact that the severity of the injury often doesn't correlate with the severity of the external trauma. Can anyone comment on their experiences with this phenomenon?",
+        "text": "Dr. Sharp, I'm not sure I agree with your assessment of qSOFA. I've read some studies that suggest it's not as \nuseful as we think. Can you tell us more about your experience with it?",
+        "color": "orange"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Sarah, that's a great point to bring up. While qSOFA may not be perfect, it's still a useful tool for rapid \nevaluation of sepsis. Its limitations notwithstanding, it's an important part of the sepsis bundle and should \nbe used in conjunction with other assessment tools to make a comprehensive evaluation.",
+        "color": "purple"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "I completely agree with Dr. Sharp. As a nurse, I've seen firsthand the value of qSOFA in identifying patients \nwho are at risk for sepsis. It's an important tool in our sepsis bundle and should not be dismissed.",
+        "color": "red"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Agreed, Martha! I've also seen qSOFA in action. It's a great way to quickly identify patients who need \nattention. However, we shouldn't forget the importance of other assessment tools, like the SOFA score. They \nall play a role in our evaluation of sepsis.",
         "color": "green"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Well said, Tom. We should always use a combination of assessment tools to get a comprehensive picture of our \npatients' condition.",
+        "color": "purple"
       },
       {
         "id": 12,
         "parent_id": 11,
-        "user": "Dr. Ziggy Zalesky",
+        "user": "Dr. 'Ziggy' Zalesky",
         "role": "EP",
         "city": "Vancouver, BC",
-        "text": "Ah, yes! The 'flashover' effect is a real thing, folks. When lightning strikes, it can bypass the body's internal circuits and cause massive damage without leaving any external trauma. We've seen patients with significant neurologic deficits and cardiac injuries from lightning strikes, and yet, the only external sign might be a superficial burn.",
-        "color": "green"
+        "text": "This is a great conversation. I've been a fan of the qSOFA score for a while now, but I'm still unclear on \nwhen to intubate in sepsis versus septic shock. Can someone clarify that for us?",
+        "color": "blue"
       },
       {
         "id": 13,
-        "parent_id": 11,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "So, what's the deal with the temperature generated by lightning? I've heard it can get up to 50,000\u00b0C. Can anyone explain how this works and what kind of injuries we might see from this?"
+        "parent_id": 12,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Dr. Zalesky, intubation is generally recommended in septic shock when there's refractory hypotension despite \ncorrect fluid management. It's also indicated when there are signs of respiratory failure, like Dr. Sharp said earlier.",
+        "color": "green"
       },
       {
         "id": 14,
         "parent_id": 13,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "The temperature generated by lightning is indeed one of the most extreme forms of thermal energy. When lightning strikes, it can vaporize water and air, creating a shockwave that can cause widespread damage. In terms of injuries, we might see things like burns, cardiac damage, and even secondary injuries from blast effects."
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I'd like to add that intubation in sepsis can also be considered when there are signs of impending respiratory \nfailure, such as a rising PaCO2 or decreased O2 saturation despite supplemental oxygen.",
+        "color": "purple"
       },
       {
         "id": 15,
@@ -315,276 +409,96 @@
         "user": "Leo Chen",
         "role": "MS1",
         "city": "Montreal, QC",
-        "text": "That's really interesting! So, what about the concept of 'thermal burns' vs. 'mechanical burns'? Are there any key differences in terms of management or prognosis?"
-      },
-      {
-        "id": 16,
-        "parent_id": 15,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Ah, yes, the old debate. Thermal burns are those caused by direct heat or thermal energy, while mechanical burns are those caused by blunt trauma or other mechanisms. In terms of management, the key is to identify the mechanism of injury and tailor your treatment plan accordingly. Thermal burns, for example, might require debridement and grafting, while mechanical burns might require fracture reduction and stabilization."
-      },
-      {
-        "id": 17,
-        "parent_id": 1,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "One thing that might be worth noting, folks, is the importance of obtaining a thorough history and physical exam in cases of lightning injury. These patients often present with subtle symptoms that can be easily missed if we're not paying close attention."
-      },
-      {
-        "id": 18,
-        "parent_id": 11,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "I've been reading about the neurologic sequelae of lightning injuries, and I was wondering if anyone has any experience with the management of these cases. Are there any specific treatments or therapies that we should be considering?"
-      },
-      {
-        "id": 19,
-        "parent_id": 18,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Ah, yes, the neurologic sequelae can be really tricky to manage. From what I've seen, these patients often require extensive rehabilitation, including physical therapy, occupational therapy, and sometimes even cognitive rehabilitation. It's all about getting them back to baseline and maximizing their functional outcomes."
-      },
-      {
-        "id": 20,
-        "parent_id": 19,
-        "user": "Dr. Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "One thing that might be worth keeping in mind, folks, is the fact that lightning injuries can be unpredictable. These patients can present with a range of symptoms, from mild to severe, and it's up to us to make the best decisions possible in terms of management and care."
-      },
-      {
-        "id": 21,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "I just wanted to chime in and say that we need to be careful not to overlook the psychological sequelae of lightning injuries. These patients often experience significant anxiety and trauma-related stress, and we should be thinking about referring them to a mental health specialist if necessary."
+        "text": "Thanks for clarifying, Dr. Gupta. So, to summarize: intubation in sepsis is recommended when there are signs of \nrespiratory failure, impending respiratory failure, or refractory hypotension despite correct fluid management. ",
+        "color": "green"
       }
     ],
-    "image": "https://emergencymedicinecases.com/wp-content/uploads/2019/06/Electrical-injuries.jpg"
+    "image": "https://media.springernature.com/m685/springer-static/image/art%3A10.1007%2Fs11739-021-02735-7/MediaObjects/11739_2021_2735_Fig1_HTML.png"
   },
   {
     "id": 1,
-    "title": "Rant about Ehrlichiosis diagnosis",
-    "body": "Just saw a patient in the ER with suspected Ehrlichiosis. We ran the usual tick-borne disease panel, but I'm still not entirely confident in the diagnosis. Can anyone share their experience with Ehrlichiosis and how they approach diagnosis?",
+    "title": "Today I Learned: A case of near-drowning with a twist (TL;DR: CAGE, recompression therapy, and don't forget the decongestants)",
+    "body": "Just had a weird case come in last night. 28 year old male, healthy as can be, out surfing in Lake Ontario. He gets caught in a riptide, goes under, and doesn't resurface until 5 minutes later. By the time the rescue arrives, his airway is clear, but he's got a 10/10 respiratory distress and his vitals are all over the place. He's got a pH of 7.1, lactate of 6, and an ETCO2 of 72. We intubate him, start a vent, and get him on the monitor. Initial X-rays show bilateral infiltrates, but nothing too terrible. Fast forward 24 hours - the kid's still on the vent, still got a high FiO2, and now we're seeing signs of CAGE (cerebral edema, airway edema, gastrointestinal edema). We're doing our thing, trying to get him off the vent, but we hit a wall. That's when I remember that we have a hyperbaric suite in the hospital. Why not give him some recompression therapy, right? We get him in the chamber, start the seal, and... BAM! Within 20 minutes, his ETCO2 drops to 20, his PaO2 increases, and he starts showing signs of neurological improvement. Of course, we have to give him some decongestants and antibiotics for good measure, but seriously - had we not recognized the CAGE and gotten him into the hyperbaric suite, I shudder to think of how this case would've turned out. What are your thoughts on this one, r/emregency? Would love to hear from some of the experts on here. Thanks in advance!",
     "category": "emergency medicine",
     "comments": [
-      {
-        "id": 5,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "MD",
-        "city": "Toronto, ON",
-        "text": "Ehrlichiosis is a bit of a diagnostic challenge, but it's essential to consider it in the right context. I've found that patients often present with fever, headache, and fatigue, but it's the rash that really makes me think of Ehrlichiosis. Has anyone else noticed that the rash can be quite variable in appearance?",
-        "color": "purple"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Sarah Jenkins",
-        "role": "MD",
-        "city": "Ottawa, ON",
-        "text": "Great point, Dr. Thorne! I've seen some patients with a typical 'Ehrlichiosis rash' that's quite similar to Rocky Mountain Spotted Fever. Do we have a reliable way to differentiate between the two in the ER?",
-        "color": "green"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Kevin Park",
-        "role": "resident",
-        "city": "Edmonton, AB",
-        "text": "According to our hospital's protocol, we should be ordering a PCR test for Ehrlichia species if the clinical suspicion is high. Has anyone else found this test to be useful in diagnosing Ehrlichiosis?",
-        "color": "blue"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "PCR is not always reliable, especially if the sample is handled improperly. In our experience, a high-index-of-suspicion diagnosis is often based on the presentation and exposure history. Does this sound correct to everyone else?",
-        "color": "red"
-      },
-      {
-        "id": 9,
-        "parent_id": 5,
-        "user": "Dr. Victor Sterling",
-        "role": "MD",
-        "city": "Calgary, AB",
-        "text": "I'm starting to think that we over-diagnose Ehrlichiosis. Have we considered the possibility that some of these patients might be developing a different tick-borne illness? I'd love to see some more data on the prevalence of different tick-borne diseases in our region.",
-        "color": "purple"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Aris Thorne",
-        "role": "MD",
-        "city": "Toronto, ON",
-        "text": "Dr. Sterling, I understand your concern, but wouldn't it be better to approach this case by case? We can't just lump all tick-borne illnesses together, especially since Ehrlichiosis has a distinct presentation and treatment. I'd love to hear more about your thoughts on this.",
-        "color": "green"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Rant about complicated vs uncomplicated UTIs",
-    "body": "Had a miss last night with a diagnosis of complicated UTI when it was actually a stone. Just a reminder to think about the 'big picture' when it comes to lower and upper UTIs.\n\nBackground: A 45yo M presents to our ED with LUTS (lower urinary tract symptoms) and a temperature of 38.5C. The patient has a complex medical history including diabetes, kidney disease, and a history of recurrent UTIs. His lab work shows WBCs on UA and a single organism in the urine.\n\nQuestion: Should we have been more aggressive in imaging to rule out an obstructing stone?",
-    "category": "EM",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "This is a prime example of the 'Amateurs' making a complicated diagnosis when it's actually a simple one. Stone or no stone, we should have been more focused on getting a good history, which in this case, revealed no LUTS that would suggest a stone. Complicated UTIs are a myth, folks!",
-        "color": "purple"
-      },
       {
         "id": 2,
         "parent_id": null,
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I think this is a great teaching opportunity to remind ourselves to always think about the basics. Did anyone get a urinalysis to check for microscopic hematuria? In this case, the patient was too symptomatic for a simple cystoscopy, but it would have been great if we had caught the stone earlier. What's the take-home here?",
-        "color": "green"
+        "city": "Toronto, ON",
+        "text": " Omg, yes! I've seen this happen before - patients with near-drowning get CAGE and we're all like 'oh no, they're gone.' But seriously, when you catch it early and get them into the chamber, it's like a whole different story. Have you guys checked out the work on recompression therapy in J Toxicol Clin Toxicol? It's a great resource for understanding the mechanisms behind it. Oh, and let's not forget the importance of proper dive planning and risk assessment - that kid was surfing in Lake Ontario, for goodness sake! [link to article ](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4449144/)",
+        "color": "purple"
       },
       {
         "id": 3,
         "parent_id": 2,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "I was wondering if anyone got an ultrasound to check for renal colic. I know they can be subtle, but if we had thought about it earlier, maybe we could have caught the stone before it got complicated. Also, what's the best imaging strategy for a complicated UTI?",
-        "color": "lightblue"
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "Hold up, let's not get too excited here. Recompression therapy isn't a silver bullet. I've seen patients go into the chamber and still require intubation and ventilation. What about the role of surfactant therapy in near-drowning? Has anyone else looked into that? Don't @ me.",
+        "color": "green"
       },
       {
         "id": 4,
-        "parent_id": 2,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "I had the chance to speak with the patient a bit and he mentioned that he had been experiencing some flank pain earlier in the day, but we didn't capture that in the initial history. Do we think that might have changed the trajectory of the case?",
-        "color": "orange"
+        "parent_id": 3,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": " Actually, Brock, there's been some really interesting work on surfactant therapy in near-drowning, particularly in the neonatal population. But what about the role of steroids in treating CAGE? Some of the literature suggests they may be beneficial in reducing cerebral edema. Has anyone else used them in this context? I'd love to hear about it.",
+        "color": "blue"
       },
       {
         "id": 5,
         "parent_id": 4,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Flank pain can be a subtle symptom in uncomplicated UTIs, but it's a great clue for obstructing stones. Did anyone review the patient's labs from the previous episode to see if that might have been a missed stone?",
-        "color": "pink"
-      },
-      {
-        "id": 6,
-        "parent_id": null,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "I think this highlights the importance of taking a thorough history, even if it seems redundant. The patient's 'story' of flank pain was missed in the initial assessment. Let this be a reminder to all of us to think about the big picture. And can we link to a resource on the most common complications of UTIs?",
-        "color": "brown"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "I've got a great resource that covers the most common complications of UTIs, including pyelopleural fistulas. https://emedicine.medscape.com/article/217142-overview. Let me know if you want the link.",
-        "color": "lightgreen"
-      },
-      {
-        "id": 8,
-        "parent_id": null,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "I don't want to be a buzzkill, but did we even get an IP? Sometimes it takes longer than expected to get a stone diagnosis, but we should still follow hospital protocol.",
-        "color": "teal"
-      }
-    ]
-  },
-  {
-    "title": "Case of the Month: When does a wheezy infant have asthma, bronchiolitis or just 'growing pains'?  A nuanced approach to pediatric respiratory distress.",
-    "body": "Just saw a patient with a classic case of wheezing in a 9 month old infant, but what I learned has got me rethinking how we approach pediatric respiratory distress. I know we've all seen them before - these adorable toddlers struggling to catch their breath, flailing around like a fish out of water. But what about when the wheezing isn't asthma? What about when the patient is still under 2? I've always thought of bronchiolitis as the 'rule in, rule out' diagnosis, but what are the subtle differences between this condition and 'growing pains' or even cardiac disease?\nTLDR; - how do we differentiate between bronchiolitis, asthma, and other causes of wheezing in infants under 2? \n",
-    "category": "EmergencyMedicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "AMEN. This is a classic case of the slippery slope in pediatric respiros - 'my infant has a cold, it must be bronchiolitis' ...or in this case, 'my infant has wheezing, it must be asthma'. We need to get back to fundamentals and think critically. When did you think the infant presented with symptoms?",
-        "color": "blue"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "I've been reviewing my notes and I think we should consider a more structured approach when evaluating infants under 2 with wheezing. Like, a flowchart or something? What are your thoughts on using decision support tools in the emergency department?",
-        "color": "purple"
-      },
-      {
-        "id": 3,
-        "parent_id": null,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "This conversation just goes to show how easy it is to get tunnel vision as an attending. I was thinking back to when I was a MS2, and we would often get these 'bronchiolitis calls', only to later discover that it was something else entirely. The key, as always, is history.",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "LMAO @ 'growing pains'! Remember when I was a new nurse and I was convinced that  every infant under 3 had a neurological disorder?",
-        "color": "purple"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "This is precisely why primary care needs to improve. I'm sick of these ER doctors making a diagnosis off the back of what the infant's aunt told them over the phone.",
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Excellent question, Sarah! As for steroids, I've used dexamethasone in the past to treat CAGE, but I've also seen cases where they seemed to exacerbate the condition. I think it's worth noting that CAGE is often a multifactorial process, and what works for one patient may not work for another. What about our experience with fluid management in near-drowning? Should we be using higher volumes and more aggressive resuscitation protocols?",
         "color": "red"
       },
       {
         "id": 6,
         "parent_id": 1,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "I'm just going to throw it out there - when did you guys start diagnosing asthma in infants under 2? Wasn't it RSV that was more common? I know this is a 'classic case', but we need to be considering the bigger picture here.",
-        "color": "yellow"
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Umm... what's CAGE again?",
+        "color": "purple"
       },
       {
         "id": 7,
-        "parent_id": 5,
-        "user": "Chad Broson",
-        "role": "pre med",
-        "city": "Brampton, ON",
-        "text": "How do you guys deal with all the misinformation online? Like, how can you be sure what's real and what's not? Do you guys think the hospital should have some kind of social media protocol to help with this?",
+        "parent_id": 6,
+        "user": "Dr. Rick 'The Rage'",
+        "role": "EP",
+        "city": "Windsor, ON",
+        "text": "Leo, my young friend, CAGE stands for Cerebral Edema, Airway Edema, Gastrointestinal Edema... now, don't go thinking you can just memorize that and you'll be set for life. Understand the pathophysiology behind it, or you'll be a laughing stock in this department!",
+        "color": "green"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Thanks, Dr. Rage! That helps a lot.",
         "color": "blue"
+      },
+      {
+        "id": 9,
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Lol, love watching the residents squirm when they don't know their stuff. Can I just add that, in real life, you guys are gonna encounter a whole lot more weird stuff than just CAGE. So, brush up on your critical thinking skills, people!",
+        "color": "red"
       }
-    ],
-    "image": "https://blog.sscor.com/hubfs/Blog/rsz_gettyimages-94690382.png"
+    ]
   },
   {
-    "id": 12,
-    "title": "Peds Airway Management: The Epiglottis Enigma",
-    "body": "TLDR; I'm still trying to wrap my head around the latest pediatrics review course and their emphasis on rapid sequence intubation in pediatric patients with epiglottitis. Just saw a patient with suspected epiglottitis last night and I'm still wondering if I did everything right... \n\nJust saw a patient with suspected epiglottitis last night and I'm still wondering if I did everything right... The patient was a 6 year old presenting with sudden onset of severe respiratory distress, stridor, and a swollen epiglottis. I quickly called for the pediatric consult and we started with a rapid sequence intubation (RSI). We used a Miller airway and a 4.5mm ETT, which we confirmed with a capnogram. The kid's oxygen saturation was dropping fast, so we gave him some heliox and got him intubated. But here's the thing... the patient's vitals started to deteriorate after intubation, and we had to give him some more epinephrine. Now I'm wondering if we rushed into the intubation and whether we should have done an EGD instead. Has anyone else had a similar experience? What are your tricks for managing pediatrics airways?",
+    "id": 1234,
+    "title": "Hypertensive Emergency: A 'Code Red' for the ER?",
+    "body": "Just saw a patient with a suspected hypertensive emergency. The patient was a 55-year-old male presenting with severe headache, altered mental status, and a BP of 220/140. The patient had no prior history of hypertension or kidney disease but was on a new medication that the pharmacist had started him on 3 days prior. The patient's ECG showed new LBBB and his CT scan showed a small subarachnoid hemorrhage. Was this truly a hypertensive emergency or just a case of medication-induced hypertension? TLDR: What are your thoughts on managing patients with suspected hypertensive emergency?",
     "category": "Emergency Medicine",
     "comments": [
       {
@@ -592,8 +506,233 @@
         "parent_id": null,
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
+        "city": "Calgary, AB",
+        "text": "This is a classic case of hypertensive emergency. The patient's BP was significantly elevated, and he had target organ damage (TOID) in the form of SAH and LBBB. I would classify this as a 'code red' situation and get the patient to ICU stat! The new medication could certainly be a contributing factor, but it's unlikely to be the sole cause of the hypertensive emergency.\n\nWhat's your plan for managing the patient's hypertension, OP?",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "I agree with OP that the patient's presentation suggests hypertensive emergency. However, I would caution against rushing to the conclusion of SAH. The patient's CT scan may not have been a perfect study, and we should consider other causes of subarachnoid hemorrhage, such as a ruptured aneurysm or cocaine use.\n\nHas anyone seen the patient's medication list? I'd like to review the list of medications started in the past 3 days and see if we can identify a possible culprit.",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Just to clarify, what's the plan for BP management? Should we be using a calcium channel blocker or an alpha-blocker? And what's the goal BP for this patient? I'd hate to see us aim for a 220/140 BP and then struggle to get it down to a 'safe' range.",
+        "color": "purple"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Aye, OP! I'm wonderin' about the patient's medication list too! Has anyone checked the pharmacist's notes to see if there's anythin' on there that might be causin' this hypertensive emergency?",
+        "color": "green"
+      },
+      {
+        "id": 5,
+        "parent_id": 3,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "I had a similar case a week ago. We used a rapid sequence induction and intubation with a 4.5mm ETT in a 7yo patient. But what really helped was the use of a laryngeal mask airway. We were able to get the kid's O2 sat up to 80% with a LMA, which gave us some time to prep for an EGD. Have you considered using a LMA in the future?",
+        "text": "Great question, Turbo Tom! When managing hypertension in the setting of hypertensive emergency, I like to use a multi-modal approach that includes pharmacologic therapy, lifestyle modifications, and close monitoring. For this patient, we could consider starting with a rapid-acting agent like hydralazine or nicardipine to quickly lower the BP, followed by a longer-acting agent like a thiazide diuretic or an ACE inhibitor to maintain the BP reduction.",
+        "color": "purple"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs! You're all focused on the BP, but what about the underlying cause? Have you considered the possibility that this patient has a pheochromocytoma or another type of neurogenic hypertension?",
+        "color": "green"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Dr. Sterling, can you please explain what pheochromocytoma is and how it would relate to this patient's presentation?",
+        "color": "purple"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Rick 'The Rage'",
+        "role": "EP",
+        "city": "Windsor, ON",
+        "text": "Pheochromocytoma is a rare tumor of the adrenal gland that produces catecholamines, leading to hypertension and other symptoms. It's a great theory, but we'd need to see some evidence of that before we can jump to conclusions.",
+        "color": "green"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Calgary, AB",
+        "text": "I agree that pheochromocytoma is a long shot, but we can't rule it out entirely. Perhaps we can order a 24-hour urine collection for catecholamines to rule out this diagnosis?",
+        "color": "purple"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Love it! That's a great idea, OP. What's the protocol for ordering a 24-hour urine collection for catecholamines?",
+        "color": "green"
+      },
+      {
+        "id": 11,
+        "parent_id": 10,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "According to our protocol, the sample should be collected in a special container with preservatives to prevent degradation of the catecholamines. The specimen should be sent to the lab for analysis via stat courier.",
+        "color": "purple"
+      },
+      {
+        "id": 12,
+        "parent_id": 10,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "I don't know if I agree with ordering a 24-hour urine collection. Can't we just use a point-of-care test like a catecholamine urine strip?",
+        "color": "green"
+      },
+      {
+        "id": 13,
+        "parent_id": 12,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Calgary, AB",
+        "text": "That's not a bad idea, Kevin! Point-of-care tests can be useful in situations like this. However, we'd need to confirm the results with a lab test to ensure accuracy.",
+        "color": "purple"
+      }
+    ],
+    "image": "https://todaysveterinarypractice.com/wp-content/uploads/sites/4/2011/09/f03_table1.gif"
+  },
+  {
+    "id": 1,
+    "title": "TLDR: Upper GI bleeds can mimic lower GI bleeds. Don't get fooled!",
+    "category": "Emergency Medicine",
+    "body": "Had a patient come in with bright red hematochezia. Initial vitals were stable, but the patient had a Hx of NSAID use and was on a proton pump inhibitor. Ran a stat CT and found a duodenal ulcer to be the source of the bleed! Upper GI bleeds can be sneaky, folks! Make sure to consider them in the differential diagnosis. What's your trick for distinguishing between upper and lower GI bleeds? ",
+    "style": "",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "",
+        "city": "",
+        "text": "I remember a case years ago where a patient presented with melena and a normal CXR. Ended up being a bleeding oesophageal varix! Always keep a high index of suspicion for varices, especially in patients with liver disease. Have you guys considered using non-invasive tests like MELD scores to identify at-risk patients?",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "",
+        "city": "",
+        "text": "Lol, I was thinking the same thing, Aris! MELD scores are a great way to identify patients at risk for varices. But let's not forget about the other causes of upper GI bleeds... like Mallory-Weiss syndrome! Has anyone else had a patient with a M-W tear? How do you diagnose and manage those? ",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Dr. Barb Miller",
+        "role": "",
+        "city": "",
+        "text": "M-W tears are a pain to deal with. I've found that the key is to use a stress ulcer protocol and get the patient to the gastroenterologist ASAP. Anyone have any tips on how to reduce stress ulcer rates in the ED? ",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Leo Chen",
+        "role": "",
+        "city": "",
+        "text": "Um, excuse me, Barb... but isn't stress ulcer protocol more geared towards preventing stress ulcers in the ICU? I thought it was because patients with head trauma or burns are at higher risk... ",
+        "color": "red"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Sarah Sharp",
+        "role": "",
+        "city": "",
+        "text": "Actually, Leo, the stress ulcer protocol is used in the ED as well to prevent stress ulcers in patients who are at high risk, such as those with head trauma or burns. And it's not just about preventing stress ulcers, but also managing those that have already developed. Anyone have any experience with using proton pump inhibitors in the ED? ",
+        "color": "orange"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Maya Gupta",
+        "role": "",
+        "city": "",
+        "text": "Proton pump inhibitors are a no-brainer for stress ulcers! But what about PPI use in patients with liver disease? Do we need to adjust our dosing or monitor liver function more closely? Any recommendations out there? ",
+        "color": "yellow"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Rick 'The Rage'",
+        "role": "",
+        "city": "",
+        "text": "F**k liver disease! Can't we just focus on the bleeding? I'm sick of these patients getting poked and prodded for every little thing! Just stabilize the patient and get them to the ICU! Anybody else tired of dealing with these patients? ",
+        "color": "black"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Turbo Tom",
+        "role": "",
+        "city": "",
+        "text": "Whoa, Rick, calm down! We're just trying to help the patient. Besides, what about the long-term management of liver disease? Don't you think we should address the root cause? And what about the patient's quality of life? Don't get me wrong, I'm just as sick of the paperwork and bureaucratic hoops, but we can't forget about the patient in the middle of it all! ",
+        "color": "white"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Archibald Thorne",
+        "role": "",
+        "city": "",
+        "text": "I remember when medicine was simpler. We just focused on treating the patient, not all the extraneous nonsense. In my day, we used to call it 'apoplexy' when a patient just got a little stressed... now it's all ' liver disease' and 'quality of life'... What's the world coming to? ",
+        "color": "lightblue"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Martha 'The Hammer'",
+        "role": "",
+        "city": "",
+        "text": "Apologetic, Archibald. You can't just stick your head in the sand and expect medical science to stay the same. We need to adapt to the changing world and our patients' evolving needs. And by the way, has anyone seen my chart for patient 345? ",
+        "color": "pink"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Today I Learned... viral pharyngitis vs. bacterial pharyngitis in kids",
+    "category": "emedicine",
+    "body": "Just saw a patient come in with fever, sore throat, and a 'pharyngitis' diagnosis from their pediatrician. We ran a couple of tests, and it turned out to be EBV - great, another reason to start antivirals. But what really got me thinking was how easily we get pharyngitis confused with strep throat. What's the real difference, folks?\n\nTL;DR - can you guys walk me through the Centor criteria, any pearls for diagnosing bacterial vs viral pharyngitis in kids?",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Excellent question! When it comes to pharyngitis, especially in kids, we've got to be meticulous about differentiating viral from bacterial causes. The Centor criteria are a great starting point:\n\n1. Tonsillar exudates\n2. Sore throat\n3. Fever\n4. Absence of cough\n5. Absence of coryza\n\nIf a patient meets 4 out of 5 of these criteria, the likelihood of group A beta-hemolytic streptococcus (GABHS) pharyngitis is high. On the other hand, if they have symptoms like a runny nose, cough, or conjunctivitis, it's more likely to be a viral infection like EBV.\n\nOne thing to keep in mind is that the Centor criteria are not 100% sensitive or specific, so we've got to use our clinical judgment and take into account other factors like the patient's age, symptoms, and recent exposure to someone with strep throat.\n\nI've found this article on the Canadian Pediatric Society's website to be really helpful when it comes to diagnosing pharyngitis in kids:\nhttps://cps.ca/en/learn/conditions/pharyngitis",
         "color": "blue"
       },
       {
@@ -602,8 +741,8 @@
         "user": "Leo Chen",
         "role": "MS1",
         "city": "Montreal, QC",
-        "text": "Wow, a laryngeal mask airway in pediatrics? Can someone explain how that works and when to use it? And what's the best way to size the LMA for a pediatric patient?",
-        "color": "red"
+        "text": "Dr. Thorne, I've read that EBV can sometimes present like strep throat, too. What are some of the key differences between the two?\nAlso, you mentioned the CPS article - what specifically did you find helpful about it?",
+        "color": "green"
       },
       {
         "id": 3,
@@ -611,117 +750,72 @@
         "user": "Sarah Jenkins",
         "role": "MS3",
         "city": "Ottawa, ON",
-        "text": "I've read that there are some studies showing that RSI in pediatrics can lead to higher rates of complication and mortality. Have you considered using a more gentle approach like a chin lift and jaw thrust?",
-        "color": "purple"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Dr. Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "I've used the chin lift and jaw thrust technique in a few cases and it's worked like a charm. But like Dr. Gupta said, sometimes you need to act fast and a RSI can be the quickest way to get the patient intubated and secure. It's all about weighing the risks and benefits and using your clinical judgment.",
-        "color": "orange"
-      },
-      {
-        "id": 5,
-        "parent_id": 3,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "I've been studying for my boards and I've seen that the best way to size an LMA for a pediatric patient is to use the 'length-weight' method. Does that sound right?",
-        "color": "green"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Zachary",
-        "role": "FRCPC",
-        "city": "Calgary, AB",
-        "text": "Yes, that's correct. The length-weight method is a good way to estimate the size of an LMA for a pediatric patient. But it's not the only method, and you should always confirm the size with capnography.",
-        "color": "brown"
-      },
-      {
-        "id": 7,
-        "parent_id": null,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "I've worked with some wonderful peds docs in my time, but I've gotta say, I'm getting a little concerned about all these new-fangled airway gadgets and gizmos. Can't we just stick with what we know and love?",
-        "color": "pink"
-      }
-    ]
-  },
-  {
-    "id": 9,
-    "title": "TLDR; Scalp lacerations: Don't forget about the pressure dressing!",
-    "body": "Just saw a patient with a nasty looking scalp laceration and I realized I've been slacking on my knowledge of pressure dressings. According to the chapter on face and scalp lacerations, it's recommended to use a pressure dressing over deep scalp lacerations for the first 24 hours to reduce the chance of hematoma formation. I had no idea, guys! Has anyone else ever gotten caught up in the hustle and bustle of the ED and forgotten about this simple yet effective intervention? Can anyone share some tips on how to properly apply a pressure dressing? Specifically, what's the best material and how do you ensure the gauze stays in place?",
-    "category": "emergencymedicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I've had patients where the pressure dressing was life-saving! The trick is to use a nonadherent gauze, such as gauze squares, and apply it firmly to the laceration. Make sure to wrap the head circumferentially with gauze, starting from behind the ear and working your way around to ensure even pressure. You can also use rolled gauze to create a circumferential pressure dressing. One thing to keep in mind is to reevaluate the patient after 24 hours to ensure that no hematoma has accumulated. Thanks for bringing this up Dr. Thorne!",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "What's the deal with the 24 hour window, Dr. Gupta? Is there a specific reason why we need to wait that long to reevaluate?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "I've had my fair share of scalp lacerations, and I always make sure to check for perichondral hematomas. That's what can lead to nasty complications. Has anyone else ever had to deal with an auricular hematoma? How do you manage those?",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "Good point, Dr. Miller! Auricular hematomas can be a real challenge. I usually try to aspirate the hematoma using a 20G angio needle, but sometimes that's not enough. In those cases, I'll refer the patient to an otolaryngologist for further management. Has anyone else had to deal with complications like that?",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "Hold up, folks. Isn't this just a cosmetic issue? I mean, what's the big deal about an auricular hematoma? Can't we just tell the patient to take some pain meds and call it a day?",
+        "text": "I've heard that Neisseria gonorrhoeae can cause pharyngitis in kids, especially if they've been sexually active. Is that true? And if so, what are the key diagnostic symptoms?",
         "color": "red"
       },
       {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Actually, Dr. Stone, auricular hematomas can lead to some serious complications, including cauliflower ear. Not to mention the patient's quality of life! If you don't take care of this promptly, you'll end up with a nasty case of ankylosis or even worse. We shouldn't be so quick to dismiss the cosmetic as 'just a minor issue'",
-        "color": "green"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
+        "id": 4,
+        "parent_id": 1,
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "Thanks for chiming in, Dr. Sharp! I completely agree with you. Cosmetic issues can have a huge impact on a patient's mental health and self-esteem. We should always take the time to explain the potential complications and work with the patient to manage their expectations. Can we get a reference for cauliflower ear, Dr. Gupta?",
+        "text": "I've seen cases where patients have been treated for viral pharyngitis but actually had GABHS. What are some of the potential complications of untreated strep throat?",
+        "color": "purple"
+      },
+      {
+        "id": 5,
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "As an ER nurse, I see a lot of patients come in with 'just a sore throat'. Can anyone recommend some good resources for educating patients about the difference between viral and bacterial pharyngitis?",
+        "color": "orange"
+      },
+      {
+        "id": 6,
+        "parent_id": 2,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Leo, great question! EBV can indeed present like strep throat, especially in kids. The key differences are that EBV typically causes cervical adenopathy (swollen lymph nodes in the neck) and sometimes a rash. GABHS, on the other hand, is more likely to cause sore throat, fever, and a lack of cough or runny nose.\n\nAs for the CPS article, I found it helpful because it provides a clear summary of the diagnostic criteria and potential complications of pharyngitis in kids. It's also a good resource for families to learn more about the condition.\n\nAnd Leo, don't worry if you don't have it memorized yet - we're all learning here!",
+        "color": "blue"
+      },
+      {
+        "id": 7,
+        "parent_id": 3,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Sarah, great question! Yes, N. gonorrhoeae can cause pharyngitis in kids, especially if they've been sexually active. The key diagnostic symptoms are typically a sore throat, fever, and sometimes a rash or swollen lymph nodes. If you suspect N. gonorrhoeae pharyngitis, make sure to test for it and treat accordingly.\n\nIt's worth noting that N. gonorrhoeae can cause other complications if left untreated, such as epididymitis in boys and pelvic inflammatory disease in girls.\n\nAs for resources, I recommend checking out the Canadian STD Guidelines for more information:",
+        "color": "blue"
+      },
+      {
+        "id": 8,
+        "parent_id": 4,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Thanks for the info, Dr. Thorne! Yes, untreated strep throat can cause serious complications like rheumatic fever and kidney disease. It's so important to get a proper diagnosis and treatment plan in place.\n\nI also want to echo Sarah's point about educating patients. As healthcare providers, we have to make sure our patients understand the difference between viral and bacterial pharyngitis. That way, they can take the best course of action and prevent complications.",
+        "color": "purple"
+      },
+      {
+        "id": 9,
+        "parent_id": 5,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Thanks for the advice, Dr. Gupta! I'll make sure to pass on the info to our patients. As for resources, I like to use the Canadian Pediatric Society's patient education handouts. They're really helpful for explaining complex concepts in simple terms.",
+        "color": "orange"
+      },
+      {
+        "id": 10,
+        "parent_id": 4,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "And don't forget to mention the risks of rheumatic fever and kidney disease! We've got to make sure our patients and their families understand the potential consequences of untreated strep throat.\n\nI've also found the following article from the Mayo Clinic to be really helpful in explaining the risks and complications of pharyngitis:\nhttps://www.mayoclinic.org/diseases-conditions/strep-throat/symptoms-causes/syc-20355969",
         "color": "purple"
       }
-    ],
-    "image": "https://emsj.ca/wp-content/uploads/2024/07/Fig-1-Scalp-Lac.png"
+    ]
   }
 ]
