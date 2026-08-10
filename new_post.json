@@ -1,8 +1,553 @@
 [
   {
     "id": 0,
-    "title": "Just saw a patient with traumatic vaginal bleeding in the third trimester... ",
-    "body": "Rant about how we underestimate the impact of pelvic fractures on pregnancy. A 28-yo G2P0 presented with severe abdominal pain and vaginal bleeding after a MVA. She had a normal CBC and PT but showed signs of shock.",
+    "title": "TLDR: When to Operate on Extensor Tendon Lacerations? Got a tough case to share and seeking wisdom from ED gods.",
+    "body": "Rant about... the importance of operative repair in extensor tendon lacerations. Had a tough case last night, and it got me thinking about the grey area between conservative management and surgical intervention. Specifically, when to operate on DIP tendon lacerations?",
+    "category": "emergency medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "As you know, DIP tendon lacerations can lead to mallet finger deformity if not properly managed. I always err on the side of caution and recommend operative repair, especially if the tendon is completely lacerated. The key is to avoid swan neck deformity, which is a nightmare to correct.",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "What's the protocol for evaluating tendon injury in the ED? I've seen some cases where the tendon appears to be intact, but the patient still complains of weakness. How do you assess the extent of the injury?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "I've read that some authors recommend using a figure-of-eight suture for repair. Have you had any experience with this technique? Do you have any tips or tricks for getting the tension just right?",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I had a patient last week with a DIP tendon laceration who underwent operative repair. The OR time was significantly longer than anticipated due to difficulties with tendon exposure. Has anyone else encountered this issue? Any suggestions for improving exposure?",
+        "color": "green"
+      },
+      {
+        "id": 5,
+        "parent_id": 1,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "While I agree that operative repair is often necessary, I've found that some patients can be successfully managed conservatively with immobilization. What are your thoughts on this approach? Have you had any experience with conservative management?",
+        "color": "green"
+      },
+      {
+        "id": 6,
+        "parent_id": 1,
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": "I'm always skeptical of operative repair for tendon lacerations. What's the cost-benefit analysis of operating vs. conserving? How do you balance the risk of complications with the potential benefits of operative repair?",
+        "color": "green"
+      },
+      {
+        "id": 7,
+        "parent_id": 1,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Regarding tendon exposure, I've found that using a sterile tourniquet can help improve visibility. Has anyone else tried this technique? Any other tips for maximizing exposure?",
+        "color": "green"
+      },
+      {
+        "id": 8,
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "As an RN, I've seen my fair share of tendon lacerations. My take is that operative repair is generally necessary, but it's also crucial to address any underlying comorbidities or risk factors. Have you any suggestions for identifying potential complications?",
+        "color": "green"
+      },
+      {
+        "id": 9,
+        "parent_id": 1,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "I've got a question about the timing of operative repair. Should we operate on lacerations immediately, or can we safely wait a few days?",
+        "color": "green"
+      },
+      {
+        "id": 10,
+        "parent_id": 1,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "I'm trying to get a better understanding of the biomechanics involved in tendon lacerations. Can someone explain the difference between a DIP and PIP injury?",
+        "color": "green"
+      },
+      {
+        "id": 11,
+        "parent_id": 5,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Thanks, Dr. Oldman. I think we can both agree that conservative management is sometimes a viable option. Has anyone seen the recent paper by [author] on the topic?",
+        "color": "green"
+      },
+      {
+        "id": 12,
+        "parent_id": 6,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Regarding the cost-benefit analysis, I think it's essential to weigh the risk of complications against the potential benefits of operative repair. Do you have any estimates on the likelihood of complications?",
+        "color": "green"
+      },
+      {
+        "id": 13,
+        "parent_id": 13,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "While it's challenging to estimate the exact likelihood of complications, we can consider the literature on the topic. According to [source], the risk of nerve or tendon injury during operative repair is relatively low, around 5-10%.",
+        "color": "green"
+      },
+      {
+        "id": 14,
+        "parent_id": 8,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "That's a great point, Turbo Tom. I completely agree that addressing comorbidities and risk factors is essential. What's your take on the role of imaging in identifying potential complications?",
+        "color": "green"
+      },
+      {
+        "id": 15,
+        "parent_id": 14,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "I think imaging can be helpful, but we shouldn't overdo it. According to [source], the added value of imaging in tendon lacerations is relatively low.",
+        "color": "green"
+      },
+      {
+        "id": 16,
+        "parent_id": 15,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "That's a good point, Martha. I agree that overutilization of imaging can be a problem. What's your take on the timing of imaging?",
+        "color": "green"
+      },
+      {
+        "id": 17,
+        "parent_id": 16,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "I think imaging should be done promptly, ideally within 24-48 hours of injury. What's your take on the optimal timing?",
+        "color": "green"
+      }
+    ],
+    "image": "https://lacerationrepair.com/wp-content/uploads/2013/10/img_4146.jpg"
+  },
+  {
+    "id": 1,
+    "title": "Just had a wild syncopal case last night... ",
+    "body": "I'm still trying to make sense of it. 75yo man comes in with a chief complaint of sudden onset syncope, no warning symptoms or prodrome. He had a history of hypertension, hyperlipidemia, and smoking. He was on metoprolol, lisinopril, and simvastatin. The rest of his med history was pretty unremarkable.",
+    "category": "emergency medicine",
+    "comments": [
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Aris Thorne",
+        "role": "MD",
+        "city": "Toronto, ON",
+        "text": "Interesting case! Have you considered the possibility of a carotid sinus hypersensitivity? We've seen a few cases like this in the ER, particularly in older patients with a history of hypertension.",
+        "color": "purple"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Thanks for the tip, Dr. Thorne! I've read that carotid sinus hypersensitivity can cause syncope due to a vasovagal response. Can you tell us more about how to diagnose and treat this condition?",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 2,
+        "user": "Dr. Barb Miller",
+        "role": "MD",
+        "city": "Winnipeg, MB",
+        "text": "I've seen this condition present in older patients with a history of heart palpitations or anxiety attacks. Have you considered the role of medication in these patients? Might the beta-blocker or ACE-inhibitor be exacerbating the condition?",
+        "color": "blue"
+      },
+      {
+        "id": 5,
+        "parent_id": 3,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "So, Dr. Thorne, how do we determine whether a carotid sinus hypersensitivity is the cause of syncope? Is it just a matter of taking a good history and doing a physical exam?",
+        "color": "green"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Thorne",
+        "role": "MD",
+        "city": "Toronto, ON",
+        "text": "Yes, Leo, taking a good history is key. We want to ask about triggers for syncope, such as changes in position, emotional stress, or certain foods. A physical exam should also include a careful inspection of the carotid arteries for any abnormalities. If we still can't make a diagnosis, we may need to consider further testing, such as an MRI or CT scan.",
+        "color": "purple"
+      },
+      {
+        "id": 7,
+        "parent_id": 4,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "I see what you're saying, Dr. Miller. It's possible that medication is exacerbating the condition. Have you considered whether the patient's symptoms would improve with a change in medication?",
+        "color": "green"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Barb Miller",
+        "role": "MD",
+        "city": "Winnipeg, MB",
+        "text": "That's a great point, Sarah. I would definitely want to consider changing the patient's medication if it's causing or exacerbating the symptoms. It's always a good idea to start with a non-invasive approach before considering more aggressive treatments.",
+        "color": "blue"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "I've seen cases where patients with carotid sinus hypersensitivity respond well to simple maneuvers like the Valsalva maneuver. Has anyone else ever tried this in their practice?",
+        "color": "purple"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. Aris Thorne",
+        "role": "MD",
+        "city": "Toronto, ON",
+        "text": "Great suggestion, Turbo Tom! The Valsalva maneuver can indeed help relieve symptoms of carotid sinus hypersensitivity. I've seen it work in a few patients. It's always worth a try.",
+        "color": "green"
+      },
+      {
+        "id": 11,
+        "parent_id": 5,
+        "user": "Dr. Maya Gupta",
+        "role": "MD",
+        "city": "Mississauga, ON",
+        "text": "Leo, you're asking all the right questions! Remember to also consider the possibility of an orthostatic intolerance, such as POTS. This can cause syncope in younger patients, typically females. We should get an ECG and check for signs of autonomic dysfunction.",
+        "color": "purple"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Thanks, Dr. Gupta! You're right, we should be thinking about orthostatic intolerance. Can you explain more about the diagnostic criteria for POTS?",
+        "color": "green"
+      },
+      {
+        "id": 13,
+        "parent_id": 12,
+        "user": "Dr. Maya Gupta",
+        "role": "MD",
+        "city": "Mississauga, ON",
+        "text": "Of course, Sarah! To diagnose POTS, we need to check for a heart rate increase of at least 30 beats per minute within 10 minutes of standing up. We should also consider other symptoms like palpitations, lightheadedness, and tremors. If the patient has these symptoms and is experiencing syncope, we might consider an autonomic nervous system (ANS) function test.",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "TL;DR: When NOT to Intubate, and When to SLED",
+    "body": "Just saw a patient with a severe head injury, and I had a moment of introspection about my intubation threshold. We all think we're super experienced, but what's the evidence for how early we should take the plunge and attempt intubation in patients with severe head trauma? Has anyone else struggled with this? Any pearls or references to share?",
+    "category": "emergency_medicine",
+    "comments": [
+      {
+        "id": 2,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "TBH, I used to be more aggressive with early intubation, but now I've got a more nuanced approach. We should be considering the patient's GCS, pupillary response, and whether they're hypoxemic or not.",
+        "color": "blue"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "But what about patients with GCS 13-14? Shouldn't we be intubating ASAP to prevent neuroprotection?",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Actually, the evidence suggests that for patients with GCS 13-14, we can usually achieve neuroprotection without intubation, as long as we're keeping their FiO2 between 40-50% and using non-invasive ventilation if needed. Reference: https://www.ncbi.nlm.nih.gov/pubmed/29644167. Does this help clarify things?",
+        "color": "purple"
+      },
+      {
+        "id": 5,
+        "parent_id": null,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "This discussion reminds me of the ongoing debate about when to use EGD. Have any EMs had experience with placing these? What are the key pitfalls to watch out for?",
+        "color": "orange"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Oh yeah! I've assisted with a few EGDs, and I gotta say, my biggest takeaway was to make sure you're using the right equipment and to be gentle around that delicate airway. It's a bit of an art, if you know what I mean",
+        "color": "green"
+      },
+      {
+        "id": 7,
+        "parent_id": 5,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Wait so if we're intubating late, are we not protecting the airway?",
+        "color": "red"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Actually Leo, when it comes to severe head injuries, the priority is still to secure the airway, but not necessarily immediately. We can often get good oxygenation with NPPV or CPAP instead. Intubation is still the gold standard, but it's not always the first step.",
+        "color": "purple"
+      },
+      {
+        "id": 9,
+        "parent_id": 5,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "But what if the patient's saturations are dropping?",
+        "color": "green"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Ah yeah! That's when you gotta SLED it! Just kidding, I mean use the SLED to manage the airway while you're getting ready for a possible surgical airway. That's a much better answer, wink wink.",
+        "color": "blue"
+      },
+      {
+        "id": 11,
+        "parent_id": null,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "Folks, in my day we didn't worry so much about these fancy airway algorithms... but I do agree with Dr. Gupta's more nuanced approach.",
+        "color": "green"
+      },
+      {
+        "id": 12,
+        "parent_id": 11,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "You know what's 'fancy'? A surgical airway in the field! Don't even get me started on how much prep and training that requires",
+        "color": "red"
+      },
+      {
+        "id": 13,
+        "parent_id": 12,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Haha fair enough, Martha! But in the rare cases where we need to, it's still crucial to be ready. Has anyone else had to perform a surgical airway in an ED setting?",
+        "color": "purple"
+      },
+      {
+        "id": 14,
+        "parent_id": 13,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Actually I have! It was a patient with a severe neck injury, and we had to act fast. We used the rapid sequence cricothyroidotomy technique and managed to get the patient stable.",
+        "color": "green"
+      },
+      {
+        "id": 15,
+        "parent_id": 2,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "So, when in doubt, what's the general consensus on when to intubate?",
+        "color": "blue"
+      },
+      {
+        "id": 16,
+        "parent_id": 15,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "As a general rule of thumb, we should intubate for GCS <=8, hypoxemia (SpO2 <=92%), or severe agitation/ altered mental status. Anything else and we can usually take our time",
+        "color": "purple"
+      },
+      {
+        "id": 17,
+        "parent_id": 16,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "That makes sense.",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "id": 1234,
+    "title": "Cocaine psychosis: Can we prevent it?",
+    "body": "Just saw a patient with severe cocaine psychosis and I'm left wondering, can we prevent this? I've seen it time and time again. Patient comes in hallucinating, agitated, and paranoid. The family is frustrated, the nurses are overwhelmed, and the resident is left trying to figure out what to do.\n\nAs an EP, I've dealt with my fair share of cocaine users, but this patient's case was particularly tough. The patient was a 35-year-old male who had been using cocaine for years. He had a history of psychosis, but nothing this severe. His family said he had been using cocaine for 48 hours straight, with no sleep or food.\n\nAs soon as I met him, I knew something was off. He was agitated, sweating, and had a weird grin on his face. His pupils were dilated, and his speech was rapid and disjointed. I immediately called for a social worker to assess him and possibly refer him to a psychiatrist.\n\nBut what got my attention was when the nurse told me that the patient had ingested a large amount of cocaine just an hour ago. That was my cue to call poison control and alert the surgical team.\n\nIt's no secret that cocaine use can lead to psychosis, but what's frustrating is that we often see it coming. These patients often have a history of psychiatric problems, and we should be looking out for it.\n\nBut can we prevent it? Should we be doing more to screen for psychiatric issues in our patients? Or are these just red flags that we need to look out for?\n\nTLDR; Cocaine psychosis is a real concern, and we need to be vigilant when screening for it. Has anyone else had similar experiences with cocaine psychosis? How do you handle these patients? Any tips or tricks to share?",
+    "category": "r/EMedicine",
+    "comments": [
+      {
+        "id": 1235,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Great post! I completely agree that early intervention is key. I always try to establish a rapport with my patients, even when they're in crisis. It's all about empathy and understanding. As for screening for psychiatric issues, I think we need to do more. It's not just about asking if they have a history of mental illness; we need to look for signs of substance abuse and other underlying conditions.\n\nOne thing that I've found helpful is to ask open-ended questions. Instead of asking 'Do you have a history of mental illness?' ask 'Can you tell me a bit about your mental health?' It opens up the conversation and allows the patient to share their concerns.\n\nI also like to use the CAGE (Cutting down, Annoyance, Guilt, Eye-openers) questions to assess for substance abuse. It's a simple tool, but it works!\n\nTLDR; Empathy and understanding are key. We need to do more to screen for psychiatric issues and substance abuse.",
+        "color": "blue"
+      },
+      {
+        "id": 1236,
+        "parent_id": 1235,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Love this post! I've seen some cases of cocaine psychosis in med school, but I'm not sure if I'd be prepared to handle it on my own. Do you have any tips for identifying the early signs of psychosis? We were taught that it's hard to diagnose, but I'd love to learn more.\n\nAlso, what do you mean by 'empathy and understanding'? Can you elaborate on that? I've heard that phrase before, but I'm not sure what it means in the context of emergency medicine.",
+        "color": "green"
+      },
+      {
+        "id": 1237,
+        "parent_id": 1236,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Ahahaha, great question, Sarah! 'Empathy and understanding' is a fancy way of saying that we need to put ourselves in the patient's shoes. Emergency medicine is all about crisis, but it's also about humanity. When patients are at their worst, we need to be at our best. We need to be able to communicate with them, to understand their fears and anxieties, and to provide them with the care that they need.\n\nAs for identifying early signs of psychosis, it's not always easy. But we can look for things like a change in behavior, speech, or emotions. Have you seen any cases where a patient's behavior became more erratic or unpredictable? Maybe we can discuss that in the next post",
+        "color": "blue"
+      },
+      {
+        "id": 1238,
+        "parent_id": null,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Haha, love this thread! As an ER nurse, I've seen my fair share of cocaine use, but what really gets my goat is when patients deny it. We need to do more to address the whole system, not just the individual.\n\nI think we should start by acknowledging that addiction is a disease. We're not just treating the symptoms; we're treating the underlying issues. And it's not always easy. I've had patients come in and say, 'I'm fine, I just need some pain meds.' But it's not about the pain. It's about the underlying issues that are driving their behavior.\n\nTLDR; We need to address the system, not just the individual. Addiction is a disease, and we need to treat it as such.",
+        "color": "orange"
+      },
+      {
+        "id": 1239,
+        "parent_id": 1238,
+        "user": "Dr. Rick 'The Rage'",
+        "role": "EP",
+        "city": "Windsor, ON",
+        "text": "Preach, Turbo Tom! We need to stop treating addiction like it's a moral failing and start treating it like the disease that it is. We need to provide support, resources, and care for our patients, not just condemn them.",
+        "color": "red"
+      },
+      {
+        "id": 1240,
+        "parent_id": 1239,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "I couldn't agree more, Rick. It's time we start valuing our patients' health and well-being over our own moral superiority. We're not just treating addiction; we're treating human beings.",
+        "color": "pink"
+      }
+    ],
+    "image": "https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3931496127662181550"
+  },
+  {
+    "title": "Today I learned...anticholinergic toxicity in the ER can be a real brain-twister!",
+    "body": "Just saw a patient with suspected anticholinergic toxicity after an unintentional overdose on a combination product. The patient's ECG was showing sinus tachycardia with an HR of 150 and hypotension with a BP of 80/40. My team and I were stumped as to why this patient's vitals were crashing so rapidly... until we finally got the tox screen and found elevated levels of atropine and scopolamine. Long story short, we managed to stabilize the patient with IV fluids and anticholinergic antidotes, but it was a wild ride! I'm left wondering, what are some common pitfalls we should watch out for when diagnosing anticholinergic toxicity in the ER?",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Great case, OP! Reminds me of a time when I saw a patient with anticholinergic toxicity from an over-the-counter cough syrup. One key thing to look out for is that anticholinergic toxicity can mimic MI...think about it, patient's got tachycardia, hypotension, and ECG changes. Make sure to get that 12-lead done and think about what might be going on with that patient's heart...TLDR: anticholinergic toxicity is a brain-twister, but get that ECG and 12-lead ASAP!",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Lol, great point, OP! One thing I've learned from this case is to always, always get that tox screen done ASAP. I mean, who wants to waste time trying to figure out what's going on when we can just get the lab results and get on with treatment? Thanks for sharing this case study!",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I had a question about the tox screen, OP. How do we know what to look for when it comes to anticholinergic toxicity? Are there any specific labs or tests we should be ordering to help guide our treatment? Thanks for sharing this case!",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 1,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Hiya, OP! Great case, indeed. One thing I've learned is to always ask the patient (or their caregivers) about their over-the-counter meds. A lot of patients don't realize how many anticholinergic meds they're on, and it's our job to make sure they're aware. Linking to a great resource on this topic for those who want to learn more: https://medscape.org/viewarticle/941142",
+        "color": "pink"
+      },
+      {
+        "id": 5,
+        "parent_id": 1,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "Wait, what's this all about? I was under the impression I was only taking a few OTC meds... Oh dear, what have I gotten myself into? Thanks for helping me understand this, doctors!",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Pediatric Abdominal Pain: A Challenging Diagnosis, Even for EPs",
+    "body": "Just saw a patient with a classic case of intussusception that had me rethinking my approach to pediatric abdominal pain. The kid had a non-bilious vomiting, a normal abdominal exam, and was sent home with a 2-day old fever. Anybody else been there?",
     "category": "Emergency Medicine",
     "comments": [
       {
@@ -11,242 +556,339 @@
         "user": "Dr. Aris Thorne",
         "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "What a great reminder of the increased risk of trauma in pregnancy! We need to be more aggressive in our resuscitation efforts, even if it means going against our usual gut instincts. ",
-        "color": "blue"
+        "text": "I've had similar cases where the intussusception was hidden behind a normal exam and non-specific symptoms. I always rely on my clinical judgment and keep a high index of suspicion for intestinal obstruction, even if it's not as obvious. One trick I learned is to always check for the 'red flag signs' - abdominal distension, bilious vomiting, or bloody stools. Intussusception is a great opportunity to teach students about the importance of clinical correlation and not relying solely on lab results.",
+        "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "I thought trauma in pregnancy was relatively rare? Like, what are the chances of getting into a MVA while pregnant?",
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs! You should be ordering a CT scan stat to rule out appendicitis and other life-threatening conditions. Not just relying on clinical judgment. What if you miss a surgical emergency? I've seen too many cases where intussusception was misdiagnosed because they didn't have the proper imaging.",
         "color": "green"
       },
       {
         "id": 3,
         "parent_id": 1,
-        "user": "Dr. Sarah Sharp",
+        "user": "Dr. 'Ziggy' Zalesky",
         "role": "EP",
-        "city": "Laval, QC",
-        "text": "Actually, Chad, trauma is more common than we think, especially in the third trimester. The American College of Surgeons estimates that up to 8.6% of pregnant women are injured by violence each year. Check out this study on the topic: [1]",
-        "color": "orange"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "What about the role of placental abruption in patients with pelvic fractures?",
-        "color": "purple"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Great question, Leo! Placental abruption is a significant concern in these patients, especially if they have a history of obstetric complications. It's essential to consider an emergency ultrasound if there are any signs of fetal distress.",
+        "city": "Vancouver, BC",
+        "text": "Not so fast, Vic! CT scans are not a substitute for good old-fashioned clinical assessment. The patient's presentation is key, and if you're seeing non-bilious vomiting, a normal exam, and a 2-day old fever, you're not seeing a classic case of appendicitis or another surgical emergency. Save the CT for when you really need it, folks. ",
         "color": "blue"
       },
       {
-        "id": 6,
-        "parent_id": 1,
-        "user": "Dr. Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "I've had my fair share of patients with pelvic fractures and placental abruption. We need to be vigilant about diagnosing and managing these complications early on.",
+        "id": 4,
+        "parent_id": 2,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Dr. Sterling, I've read that the use of CT scans in pediatric abdominal pain can lead to unnecessary exposure to radiation. Don't we want to avoid that in pediatric patients? What's your opinion on the risks vs benefits of CT scans in this population?",
         "color": "red"
       },
       {
+        "id": 5,
+        "parent_id": 3,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Thanks for the reality check, Ziggy! I've seen patients come in with what seems like a non-urgent condition only to find out they have a life-threatening condition lurking beneath the surface. The trick is to stay vigilant and not get too comfortable with a normal exam. Keep your head on a swivel, folks!",
+        "color": "yellow"
+      },
+      {
+        "id": 6,
+        "parent_id": null,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "I've had similar experiences in the ER, and I always remember what Dr. Higgins once said: 'A kid's tummy is a mysterious place!' Always keep a 'what if?' approach when assessing pediatric patients. Even with the best of intentions, we can miss something crucial. Keep learnin', keep growin'!",
+        "color": "pink"
+      },
+      {
         "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Agreed, Brock! I've seen cases where prompt intervention has made all the difference. What are your thoughts on the role of bedside ultrasound in diagnosing placental abruption?",
-        "color": "green"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Thanks for sharing that, Elena! I've been using bedside ultrasound more frequently in my practice, but I'd love to know more about your experience with diagnosing placental abruption using ultrasound.",
-        "color": "purple"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "TLDR: Bedside ultrasound can be a valuable tool for diagnosing placental abruption, especially in cases where there are concerns about fetal distress. However, it's essential to use it judiciously and not replace formal ultrasound imaging. Check out this article for more info: [2]",
+        "parent_id": 1,
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "EPs, you're not just diagnosing, you're solving a mystery! You got to put all the pieces together - the lab results, the clinical correlation, the patient's history. It's not just about the imaging; it's about the story. Remember, the patient's symptoms are a narrative, and it's your job to decode it.",
         "color": "orange"
       },
       {
+        "id": 8,
+        "parent_id": 4,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "So, Dr. Sterling, what do you think is the most important thing a medical student can learn when it comes to diagnosing pediatric abdominal pain?",
+        "color": "brown"
+      },
+      {
+        "id": 9,
+        "parent_id": 2,
+        "user": "Dr. Rick 'The Rage'",
+        "role": "EP",
+        "city": "Windsor, ON",
+        "text": "CT scans? Are you kidding me? They're a waste of time and money! We should be using our critical thinking skills to diagnose and treat pediatric patients. The more we rely on technology, the more we forget how to truly practice medicine.",
+        "color": "gray"
+      },
+      {
         "id": 10,
-        "parent_id": 9,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Got it! Thanks for the clarification, Sarah.",
-        "color": "green"
+        "parent_id": 1,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "Amen, Rick! In my day, we didn't need CT scans to diagnose a case of appendicitis. We used our clinical acumen, our experience, and our ability to think outside the box. Now, with all these newfangled diagnostics, we've lost sight of what truly matters: the patient.",
+        "color": "purple"
       }
-    ],
-    "image": "https://i0.wp.com/iem-student.org/wp-content/uploads/2019/10/Trauma-in-pregnancy.png?fit=1024%2C512"
+    ]
   },
   {
-    "title": "Case of the day: Nontraumatic shock in a 45 y/o female",
-    "body": "Just saw a patient with nontraumatic shock, and I was reminded of how easy it is to miss the diagnosis. A 45 y/o woman is brought into the ED with a 30 min Hx of hypotension. BP is 80/40, HR is 120, and O2 sat is 92% on 2L. Initial vitals show she is tachycardic, tachypneic, and anicteric. She does have a small UO, but the rest of her labs are pending. What are some potential causes of nontraumatic shock in this scenario?",
-    "category": "emergency_medicine",
-    "thread": false,
+    "id": 6,
+    "title": "Today I Learned: The Importance of Advance Directives in Emergency Medicine",
+    "body": "Had a difficult night in the ER and wanted to share a case that really stuck with me. I saw a 75-year-old patient with a DKA ( diabetic ketoacidosis ) and severe hyperglycemia. The patient was too unstable for any meaningful conversation, but their advance directive form was brought in later and it showed that they had made it very clear to not be intubated or resuscitated. This made the decision-making very clear for us, but I couldn't help but think to myself: what about the rest of the family? They were frantic and wanted us to do everything possible to help their loved one. But we had to follow the patient's wishes. It got me thinking, how many of us actually have advance directives in place? And what about those family members who can't make decisions for their loved ones? We need to be more proactive in talking about this stuff with our patients.",
+    "category": "r/EMedicine",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "",
+        "user": "EM_Doc_123",
+        "role": "MD",
+        "city": "New York",
+        "text": "TLDR: Advance directives are crucial in EM. Not only do they help us follow the patient's wishes, but they also help us avoid family conflict.",
         "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Sharp, I'm thinking it could be a cardiac issue, possibly cardiogenic shock due to some kind of cardiac cause like myocardial infarction, tamponade, or even a dissecting aorta!",
+        "user": "ER Nurse 101",
+        "role": "RN",
+        "city": "Chicago",
+        "text": "I completely agree. I've seen cases where family members are completely opposed to what the patient had planned for, and it leads to a whole lot of unnecessary stress and tension. But if we're talking about advance directives, let's talk about the importance of POLST forms too. They're like the advance directive on steroids. Have we got any docs who have experience with these?",
         "color": "green"
       },
       {
         "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "Hold on just a moment, young whippersnapper! We can't just jump to a diagnosis of cardiogenic shock. Let's think about this from the top down. What are her symptoms, and what are the vital signs saying to us?",
-        "color": "purple"
+        "parent_id": 2,
+        "user": "Dr. House",
+        "role": "MD",
+        "city": "Iowa",
+        "text": "Yeah, I've had some experience with POLST. They're super helpful, especially in situations where patients can't consent for themselves. But the thing is, not everyone wants to talk about this stuff. We need to be proactive in bringing it up with our patients. What are some strategies for bringing up advance care planning with patients?",
+        "color": "blue"
       },
       {
         "id": 4,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I'm seeing a lot of tachycardia, which could point towards something like a septic issue, or maybe even a hemorrhage. Do we have any information on her history, or has anyone gotten her fluids started yet?",
-        "color": "purple"
+        "parent_id": 3,
+        "user": "ER_doc33",
+        "role": "MD",
+        "city": "Boston",
+        "text": "Actually, I had a patient the other day who was 100% opposed to discussing advance directives. What are we supposed to do in those situations?",
+        "color": "green"
       },
       {
         "id": 5,
-        "parent_id": 2,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Great point, Leo! Yes, let's not forget to consider a cardiac cause. Have we gotten an ECG and checked for any signs of myocardial damage?",
-        "color": "green"
+        "parent_id": 4,
+        "user": "EM_Doc_123",
+        "role": "MD",
+        "city": "New York",
+        "text": "Exactly. It's tough when patients don't want to talk about it. But here's the thing: it's not about us forcing them to think about it, it's about giving them the option to make their voice heard. And if they don't want to talk about it, maybe we can get their surrogate to do it instead. What's your take on this, guys?",
+        "color": "blue"
       },
       {
         "id": 6,
-        "parent_id": 3,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "Now, now, Dr. Gupta. Don't get ahead of yourself. We don't know yet if she's septic or hemorrhaging. Let's not forget to perform a thorough physical exam and consider some of the more uncommon causes of shock.",
-        "color": "purple"
-      },
-      {
-        "id": 7,
-        "parent_id": 1,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Wait, is it possible for someone to get shock from just being really tired?",
+        "parent_id": 5,
+        "user": "ER_Nurse22",
+        "role": "RN",
+        "city": "San Francisco",
+        "text": "This brings up a great point about surrogate decision-makers. In California, we have a 'Consent for Medical Treatment' form that's pretty comprehensive. What about when family members disagree about treatment decisions? Do we have any docs with experience dealing with those situations?",
         "color": "green"
       },
       {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Smith",
+        "role": "MD",
+        "city": "California",
+        "text": "Actually, I had a case recently where three family members couldn't agree on treatment for their loved one. It got really heated, but in the end, we had to follow the patient's advance directive. Any tips on how to manage those kinds of situations?",
+        "color": "blue"
+      },
+      {
         "id": 8,
-        "parent_id": 1,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Good question, Chad! Hypovolemic shock is a type of distributive shock, which can be caused by dehydration, but it can also be the result of an infection, inflammation, or even anaphylaxis.",
+        "parent_id": 7,
+        "user": "EM_Doc_123",
+        "role": "MD",
+        "city": "New York",
+        "text": "TLDR: Family conflict is inevitable in EM. We need to be prepared for those situations and have a plan in place.",
         "color": "purple"
       },
       {
         "id": 9,
-        "parent_id": 4,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Thanks, Dr. Sharp! I think I see where I was going wrong. So if we have a patient in distributive shock, it's not necessarily because they're hemorrhaging, but more like their blood vessels are just having a meltdown?",
+        "parent_id": 8,
+        "user": "ER_Nurse33",
+        "role": "RN",
+        "city": "Houston",
+        "text": "Amen to that. We need to educate patients and family members about advance care planning. Any resources you guys have on this topic?",
         "color": "green"
       },
       {
         "id": 10,
-        "parent_id": 5,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "That's right, Dr. Sharp! So, cardiogenic shock would be caused by an actual decrease in cardiac output, whereas distributive shock is an inappropriate vasodilation.",
-        "color": "purple"
+        "parent_id": 9,
+        "user": "Dr. Google",
+        "role": "MD",
+        "city": "Internet",
+        "text": "The CDC has some great resources on advance care planning, including a 'Conversation Starter Kit' that's really helpful. Have you guys seen it?",
+        "color": "blue"
       },
       {
         "id": 11,
-        "parent_id": 6,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "Well done, Dr. Gupta! And you're right, Dr. Chen, let's not underestimate the importance of history. A patient's history can give us a better picture of what's going on. Remember, the history is the most important part of the patient's story.",
-        "color": "green"
+        "parent_id": null,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "Bless yer hearts for talkin' about this! As a LPN, I've seen so many families in distress when the patient's wishes aren't respected. We need to keep this conversation goin' and encourage our patients to have those chats with their loved ones.",
+        "color": "pink"
       },
       {
         "id": 12,
-        "parent_id": 7,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Sweet! Thanks, Dr. Sharp! So, what's the best way to find out what's going on with this patient?",
-        "color": "purple"
-      },
-      {
-        "id": 13,
-        "parent_id": 12,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Get more history from her and do a thorough physical exam. Let's not forget to perform some basic labs to rule out infection and anemia. And if we are going to use fluids, we should do it judiciously.",
+        "parent_id": 11,
+        "user": "ER_Nurse22",
+        "role": "RN",
+        "city": "San Francisco",
+        "text": "Amen to that, Sparkle-Eyes! It's not just about the patient's wishes, it's about showing compassion and respect for their loved ones too.",
         "color": "green"
-      },
+      }
+    ],
+    "image": "https://www.jems.com/wp-content/uploads/2025/06/clemson-fire-ems-edit-1024x536.jpg"
+  },
+  {
+    "id": 1,
+    "title": "Just saw a patient with a classic case of COPD exacerbation and I'm still wondering about the pathophysiology...?",
+    "body": "Just saw a 65-year-old male with a 20-pack-year smoking history present to the ER with a 3-day history of worsening dyspnea, wheezing, and a productive cough. He's been experiencing these symptoms off and on for years, but nothing like this before. His SpO2 is 88% on room air, and his PEFR is 200L/min (which is a significant drop from his baseline of 400L/min). He's also been experiencing a significant amount of sputum production and has a history of several exacerbations in the past. He's been on a combination of ICS/LABA for years, but we're considering adding on a LABA or an SABER. Any thoughts on the pathophysiology behind COPD exacerbations? I know they're primarily due to ventilation-perfusion mismatching, but what about the role of inflammation and bronchospasm?",
+    "category": "Emergency Medicine",
+    "comments": [
       {
-        "id": 14,
-        "parent_id": 8,
+        "id": 1,
+        "parent_id": null,
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "What are some good labs to order to rule out infection?",
+        "text": "Great case, OP! COPD exacerbations are indeed primarily due to ventilation-perfusion mismatching, but inflammation and bronchospasm also play significant roles. There's evidence that suggests that the inflammatory response in COPD patients is triggered by oxidative stress and the subsequent release of pro-inflammatory cytokines, which exacerbate bronchospasm and mucous production. Have you considered checking his blood work for a CRP or ESR?",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Thanks, @Dr. Maya Gupta! Yeah, I did check his CRP, and it's a bit elevated. I was thinking about adding on a leukotriene modulator to his medication regimen, but I'm not sure. What are your thoughts on that?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Actually, OP, I've been reading about some studies that show the leukotriene receptor antagonists may not be as effective in COPD patients. Would it be worth considering a PDE4 inhibitor instead?",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Good point, @Dr. Kevin Park! Yeah, the PDE4 inhibitors like roflumilast have shown some promise in reducing exacerbation risk. I was also thinking, why not just prescribe a course of prednisone to calm everything down for now?",
+        "color": "red"
+      },
+      {
+        "id": 5,
+        "parent_id": 4,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "I'm not sure, @Dr. Barb Miller. I've seen cases where just a few days of prednisone can actually exacerbate things. We should consider the potential risks of long-term steroid use in this patient. Have you thought about how we can address his smoking status and encourage him to quit?",
+        "color": "purple"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Oh man, OP, I can already see the conversation going down this path. Can I just say, we should start with a good ol' fashioned motivational speech about kicking the habit? Maybe some nicotine replacement therapy or a prescription for bupropion?",
+        "color": "green"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "Actually, guys, I've been wanting to ask... what's the benefit of smoking cessation in people with COPD? I know I get these weird feelings of 'I'm a loser' but sometimes... and I hate to say it, but I've heard some of the old guys at the park smoking and I kinda feel bad not being part of that scene?",
+        "color": "blue"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Rick 'The Rage'",
+        "role": "EP",
+        "city": "Windsor, ON",
+        "text": "Are you kidding me? Bupropion is all we've got, OP? Come on! We should be giving people these fancy new treatments like varenicline or... or something! Anything to make quitting easier!",
+        "color": "red"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "Hold on, @Dr. Rick 'The Rage'... we should be careful about overmedicating our patients. Sometimes a good old-fashioned doctor-patient conversation and a prescription for some nicotine gum goes a long way.",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Rant about pneumothoraces in ED",
+    "body": "Just had a patient with a tension pneumothorax and our ED doesn't have a portable x-ray machine. We had to call in a CT scan and it took forever. Meanwhile the patient's vitals are going down and we're running out of time. Has anyone else had this experience?",
+    "category": "emergency-medicine",
+    "comments": [
+      {
+        "id": 13,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "OMG, yes! I've had to deal with this many times. The thing is, tension pneumothorax is a clinical diagnosis. We should be using our lung ultrasound skills to diagnose it, not relying on x-rays. Has anyone seen Dr. Maureen Meeson's video on emergency ultrasound for pneumothorax?",
+        "color": "blue"
+      },
+      {
+        "id": 14,
+        "parent_id": 13,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "What does CCLM stand for? And what's the thing you said with the ultrasound?",
         "color": "purple"
       },
       {
         "id": 15,
         "parent_id": 14,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "I like to get a CBC, chemistry panel, and a UA. And, of course, we need to do a blood culture.",
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "CCLM stands for Canadian Critical Care Medicine. And it's the lung sliding sign. It's like this: when the lung is sliding back and forth, you see this artefact called a comet tail. When there's no lung sliding, it means there's air in the pleural space, which could be a pneumothorax.",
         "color": "green"
       },
       {
         "id": 16,
-        "parent_id": 9,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Thanks for the tips, Dr. Sharp. And what are some good ways to manage distributive shock?",
-        "color": "purple"
+        "parent_id": 15,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "But what about cases where the lung sliding sign is still present? Can't we just do a needle thoracocentesis and then follow up with a CT scan?",
+        "color": "red"
       },
       {
         "id": 17,
@@ -254,17 +896,17 @@
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "Good question, Leo! Distributive shock is often treated with vasopressors to help increase the mean arterial pressure. And if we suspect anaphylaxis, we might need to give epinephrine.",
-        "color": "green"
+        "text": "Actually, if the lung sliding sign is still present, it's less likely to be a pneumothorax. But if the patient is still symptomatic, we should still get a CT scan to rule out other pathology. And yeah, a needle thoracocentesis might be indicated if the lung sliding sign is absent.",
+        "color": "purple"
       },
       {
         "id": 18,
-        "parent_id": 10,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "So, to summarize, we have distributive shock and cardiogenic shock, and we should always consider the history and physical exam to determine which one we have?",
-        "color": "purple"
+        "parent_id": 12,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "I agree with Dr. Gupta. Tension pneumothorax is a clinical diagnosis, and we should be using our clinical skills to diagnose it. Not relying on some fancy ultrasound skills. And what's with all these medical jargon terms? Can't we just speak plainly?",
+        "color": "orange"
       },
       {
         "id": 19,
@@ -272,572 +914,117 @@
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "That's right! And don't forget to consider other causes, like hypovolemic shock, which can present similarly to distributive shock. Good job, Chad!",
-        "color": "green"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Just saw a patient with a pediatric greenstick fracture. Reminder to always get ortho consult for bowing or plastic deformities.",
-    "body": "Just saw a patient with a classic greenstick fracture of the forearm. The kid fell off his bike and presented with arm pain and swelling. X-ray confirmed it as a greenstick fracture, but the twist is that it's a plastic deformity (bowing) of the radius. Had to get ortho consult to do a closed reduction and realignment. Remind me why this is important and what are the key differences between greenstick, plastic deformity, and bowing fractures?",
-    "category": "EM",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Great reminder @Dr. Aris Thorne! Plastic deformity (bowing) fractures are actually a subtype of bowing fractures, but they're often seen in the forearm and lower leg in combination with a completed fracture in the companion bone. The periosteum is intact, but the diaphyseal cortex is deformed. Key thing is to get that ortho consult ASAP, since treatment requires closed reduction and realignment. I always think of this article on pediatric fracture management that explains it clearly: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4328136/",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "So, what's the difference between a greenstick fracture and a bowing fracture? I know greensticks are more common in kids, but what's the key difference?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Actually, Leo, greenstick fractures usually involve a fracture on one side of the bone with an intact periosteum on the other side. Bowing fractures, on the other hand, involve a plastic deformation of the diaphyseal cortex, but the periosteum is intact. The article Maya linked explains it better than I can, but basically, bowing fractures require ortho consultation for closed reduction and realignment.",
+        "text": "Well, when it comes to emergency medicine, sometimes we need to use fancy language to describe complex conditions. And as for relying on ultrasound skills, I think it's an indispensable tool in our diagnostic arsenal. And by the way, 'fancy language' is called technical precision.",
         "color": "blue"
       },
       {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "Amateurs! You think you can just reduce a bowing fracture in the ER? Please. That requires a specialist, with experience and nuance. Don't try this at home, kids.",
-        "color": "red"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. 'Ziggy' Zalesky",
+        "id": 20,
+        "parent_id": 13,
+        "user": "Dr. Zalesky",
         "role": "EP",
         "city": "Vancouver, BC",
-        "text": "Geez, Vic. Lighten up. Ortho consults are always a good idea, but not because we're amateurs. It's because that's what the research says. Get with the times, dude. And BTW, here's a great resource on pediatric fracture management: https://www.aap.org/en-us/advocacy-and-policy/aap-advocacy-tools/pediatric-orthopedics-quick-reference/",
-        "color": "orange"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Totally agree with Ziggy @Dr. Victor Sterling. And speaking of pediatric fractures, remember that multiple fractures in various stages of healing are a red flag for child abuse. Check out this article for more info: https://pediatrics.aappublications.org/content/142/3/e20183158",
-        "color": "yellow"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Dude, child abuse is crazy. How do you even detect it in the ER? Is it like, a series of subtle clinical clues?",
-        "color": "pink"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Actually, Chad, detecting child abuse is usually a matter of putting the pieces together. It's not just about clinical clues, but also about knowing red flags, which may include unexplained fractures in different stages of healing, bruises in various ages, etc. Sometimes it comes down to having a good rapport with the patient's family and being attuned to subtle behavioral cues.",
-        "color": "brown"
+        "text": "TL;DR: we need to use lung ultrasound to diagnose tension pneumothorax instead of relying on x-rays. And Dr. Meeson's video is a good resource to learn more about it.",
+        "color": "green"
       }
     ]
   },
   {
-    "id": 123,
-    "title": "Aneurysm alert: What's the best way to diagnose AAA in the ED?",
-    "body": "Just saw a patient with a potential AAA in the ED last night and I'm still trying to wrap my head around it. We ordered a bedside ultrasound, but the sensitivity is only 90%? What's the best protocol for diagnosing and managing AAAs in the ED? Anyone have any pearls or references to share?",
-    "category": "EMeritus",
-    "comments": [
-      {
-        "id": 456,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "TL;DR - for AAA diagnosis, bedside ultrasound is a good starting point, but if still in doubt, order a CT scan ASAP. Also, keep in mind that CT can identify associated rupture or other complications.\n\nIn our ED, we use a 'AAA protocol' that includes a series of questions and exam maneuvers to increase suspicion. If high suspicion, we proceed to ultrasound and then CT scan if still in doubt. Any thoughts on this protocol or have a better way to do it?",
-        "color": "blue"
-      },
-      {
-        "id": 1234,
-        "parent_id": 456,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "@Dr. Maya Gupta, can you elaborate on the 'AAA protocol' you mentioned? What's the series of questions and exam maneuvers that you use to increase suspicion?",
-        "color": "brown"
-      },
-      {
-        "id": 5678,
-        "parent_id": 456,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "@Dr. Maya Gupta, as a surgeon, I have to disagree with your protocol. CT scan should be the first line of diagnosis for AAA. Don't waste time with ultrasound. Link to a recent study that shows the superiority of CT scan.",
-        "color": "red"
-      },
-      {
-        "id": 9012,
-        "parent_id": 456,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "In my day, we didn't need all these fancy protocols and protocols. We just used our good old-fashioned medical skills to diagnose and treat patients. Ah, the good old days...",
-        "color": "gray"
-      },
-      {
-        "id": 3456,
-        "parent_id": 1234,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "@Leo Chen, the 'AAA protocol' I've heard of involves asking questions about smoking history, trauma, and family history of atherosclerosis, followed by a series of abdominal and back exams. What do you think?",
-        "color": "pink"
-      },
-      {
-        "id": 7890,
-        "parent_id": 5678,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "@Dr. Victor Sterling, can you provide the study link? I'd love to read more about the superiority of CT scan over ultrasound.",
-        "color": "orange"
-      },
-      {
-        "id": 1111,
-        "parent_id": 456,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Just a reminder that bedside ultrasound can be used to measure the diameter of the aneurysm! That's a crucial piece of information to guide decision-making. Any other tips on using ultrasound for AAA diagnosis?",
-        "color": "yellow"
-      },
-      {
-        "id": 2222,
-        "parent_id": 1111,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "@Turbo Tom, what are the limits of ultrasound regarding measuring the diameter of the aneurysm? Is there a certain diameter at which we should get a CT scan no matter what?",
-        "color": "green"
-      },
-      {
-        "id": 3333,
-        "parent_id": 1111,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "@Turbo Tom, can you link to a reputable source that confirms the use of ultrasound for measuring aneurysm diameter? Don't want to get caught using an unverified method.",
-        "color": "purple"
-      },
-      {
-        "id": 4444,
-        "parent_id": 3333,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "@Dr. Rick 'The Rage', don't worry, there's plenty of literature supporting the use of bedside ultrasound for AAA diagnosis and even measurement of aneurysm diameter. I can provide references if you'd like.",
-        "color": "blue"
-      }
-    ],
-    "image": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1394183922750813"
-  },
-  {
     "id": 1,
-    "title": "Had a close call last night with ARDS - What's the latest on management?",
-    "body": "Just saw a patient with severe sepsis who went on to develop ARDS. Had to admit her to the ICU and she's still struggling. Has anyone else had any experience with managing ARDS lately? What's the latest on the PRCTs?",
-    "category": "EmergencyMedicine",
+    "title": "Today I learned that epistaxis management is way more complicated than I thought",
+    "body": "Had a miss last night with a 40yo guy who came in with heavy ant./post nas. bleeding. I did the usual - gave him some nasal decongestants, inspected the nostrils, applied some pressure, the whole 9 yards. Still couldn't stop the bleeding after 10 minutes, so I called in the trauma team to prep for nasal packing. But just as we were about to pack him, the ENT consultant told us to hold off because he suspected posterior bleeding, and wanted to take him to the OR instead. Long story short, they took him in and did some kind of surgical intervention that I don't fully understand, and now he's stable. But what struck me was how many nuances there are to epistaxis management that I wasn't aware of. Specifically, I was surprised to learn that anterior and posterior bleeding have very different treatment protocols, and that posterior bleeding requires a whole different level of care, including possible ERCP and consultation with otolaryngology. Has anyone else had experiences like this, and how do you approach ant/post nas bleeding in the ER?",
+    "category": "emergency-medicine",
     "comments": [
       {
         "id": 1,
         "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Hey guys, just wanted to chime in on this. I had a similar patient last week and we used a T-piece with a high FiO2 and PSV of 15. She's doing much better now. Has anyone else had success with noninvasive ventilation in ARDS?",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Just read a great paper on the use of NIV in ARDS. It said that the PRISM trial showed a significant reduction in mortality with NIV. Does anyone know how to access this trial?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
         "user": "Dr. Aris Thorne",
         "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "Great question, Sarah. The PRISM trial was a randomized control trial that showed a significant reduction in mortality with NIV in ARDS patients. You can access the full text on PubMed. Also, I'd like to add that we've had great success with NIV in our hospital using a biphasic positive airway pressure (BIPAP) machine.",
+        "text": "Ah, the ol' posterior epistaxis conundrum. Yeah, we've had our fair share of those cases in our ER. The key is always to think about the mechanism of injury and the patient's overall clinical picture. If you suspect posterior bleeding, you need to act fast, because those patients can quickly deteriorate. Have you guys considered running an angiogram on these patients to identify the source of bleeding?",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "Amateurs. Don't get me started on angiograms. They're a waste of time and resources. You do an angiogram for posterior epistaxis, and 9 times out of 10 it's a waste of time. The real trick is to get the patient into the OR ASAP and tackle it there. That's where the real expertise lies, not in some fancy X-ray machine.",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. 'Ziggy' Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Hey guys, I'm with Dr. Thorne on this one. Angiograms are a great way to identify the source of bleeding and can be life-saving for these patients. We've had cases where we've used angiograms to locate the bleed and then go in and treat it surgically. Anyone have some good resources on when to use angiograms in posterior epistaxis?",
         "color": "purple"
       },
       {
         "id": 4,
         "parent_id": 2,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Thanks for the reference, Sarah. Can you explain more about the PRISM trial and how it related to ARDS management?",
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "I don't get why you guys are disagreeing on this. The literature clearly shows that angiograms are underused in posterior epistaxis patients. And the evidence-based medicine says that angiograms can reduce mortality rates by up to 50%. Can you cite some sources to back up your claims?",
         "color": "blue"
       },
       {
         "id": 5,
-        "parent_id": 3,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "I agree with Dr. Thorne, BIPAP has been a game-changer for us in ARDS management. But what about the risk of worsening lung injury with NIV? Has anyone had any experience with this?",
-        "color": "purple"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "We've had a few patients with concerns about NIV in ARDS, but our data shows that it's safe and effective. We also have a checklist in place for NIV initiation and weaning to ensure that our patients are being closely monitored.",
-        "color": "green"
-      },
-      {
-        "id": 7,
-        "parent_id": null,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Has anyone seen that new ARDS management algorithm that just came out? I heard it's a real game-changer for bedside decision-making.",
-        "color": "purple"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
+        "parent_id": 4,
         "user": "Dr. Kevin Park",
         "role": "PGY1",
         "city": "Edmonton, AB",
-        "text": "I saw that too and it seemed really comprehensive. Can anyone share a link to the algorithm?",
+        "text": "Actually, Sarah, I think you might be misinterpreting the literature. The studies that show a reduction in mortality rates actually use angiograms in conjunction with other treatments, not as a standalone approach. Has anyone here actually seen the evidence on this?",
+        "color": "green"
+      },
+      {
+        "id": 6,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Thanks for the tip-off, guys. I just looked up the guidelines on posterior epistaxis management, and it looks like the Canadian Emergency Medicine Association has some good evidence-based recommendations. Anyone have the link?",
+        "color": "purple"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Hey gang, I've got the link right here. [link to CEPCA guidelines]. But just a heads up, the guidelines also recommend a comprehensive treatment plan that includes antibiotics, pain management, and follow-up care. Anyone else have some tips on how to manage those patients in the ER?",
         "color": "blue"
+      },
+      {
+        "id": 8,
+        "parent_id": null,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "I've seen this come up before, but I think it's worth mentioning that posterior epistaxis patients often require close monitoring and possible ICU admission. Has anyone else seen this in their practice, or have tips on how to manage those patients?",
+        "color": "green"
       },
       {
         "id": 9,
         "parent_id": 8,
-        "user": "Dr. Phil Muddle",
-        "role": "EP",
-        "city": "Regina, SK",
-        "text": "Sorry guys, still trying to figure out how to use Google. Can someone just post the link please?",
-        "color": "green"
+        "user": "Martha 'The Hammer'",
+        "role": "RN",
+        "city": "Halifax, NS",
+        "text": "Oh yes, you can bet your boots those patients need ICU care. We've had some close calls in our ER with posterior epistaxis patients who ended up on the vent. Anyone got some tips on how to prepare those patients for transport to ICU?",
+        "color": "blue"
       },
       {
         "id": 10,
         "parent_id": 9,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "For crying out loud, Phil. You're a doctor. Figure it out. And by the way, I think we should be focusing on the underlying causes of ARDS and not just throwing NIV at it.",
-        "color": "purple"
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Today I Learned: Approach to Traumatic Shock in the ER",
-    "body": "Just saw a patient with blunt force trauma to the chest and I realized my knowledge of traumatic shock was lacking. So I'm here to get some feedback from the community. We're talking about the initial assessment, how to look for occult causes, and when to use vasopressors. Share your experience and pearls, folks!",
-    "category": "emergmed",
-    "comments": [
-      {
-        "id": 2,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I totally agree, traumatic shock can be tricky. So when you say 'look for occult causes', what do you mean by that? I think we should discuss the differential for traumatic shock, including cardiac tamponade, tension pneumothorax, and adrenal insufficiency. Has anyone got a good resource or link to share on this topic?",
-        "color": "blue"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
         "user": "Leo Chen",
         "role": "MS1",
         "city": "Montreal, QC",
-        "text": "Hi Dr. Gupta, I'm just a med student but I think you're right about the occult causes. In our lectures, we learned about the different types of shock, like hypovolemic, cardiogenic, and distributive. But what about the pathophysiology behind each type? Can you elaborate?",
+        "text": "Sorry to be a noob, but what's the protocol for transferring patients to ICU from the ER? We're covering that in our class and I want to make sure I get it right.",
         "color": "purple"
-      },
-      {
-        "id": 4,
-        "parent_id": 2,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "Actually, I think the key to diagnosing traumatic shock is to assess the patient's vitals and look for signs of tissue hypoperfusion. You can use the SOFA score to help with this. But what about when the patient is unstable and you need to intervene quickly? Do you have any tips on how to manage the shock state?",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": null,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Hey guys, love the discussion! As an ER nurse, I've seen my fair share of traumatic shock cases. So here's my 2 cents: always assume the worst-case scenario and get the team involved ASAP. I recommend using the ATLS protocol to guide your assessment and management. Has anyone else used this in their practice?",
-        "color": "pink"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Great point, Turbo Tom! I love the ATLS protocol, but I think we also need to remember the importance of history-taking and physical examination in the assessment of traumatic shock. Don't forget to ask about the mechanism of injury, and don't just rely on vitals and lab results. Can anyone attest to this?",
-        "color": "orange"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Dr. Miller, I think you're right about the importance of history-taking. But what about when the patient is too unstable to get a proper history? Do you have any tips on how to assess the patient in this situation?",
-        "color": "brown"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "Hi everyone, I'm a bit confused - I was the patient in the case discussion. Dr. Gupta and Dr. Miller were super helpful in diagnosing my traumatic shock. I just wanted to say thanks!",
-        "color": "yellow"
-      },
-      {
-        "id": 9,
-        "parent_id": 5,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Great thread, guys! Thanks for the discussion and tips. I think we've covered most of the key points. Turbo Tom, can you share your ATLS protocol link so we can reference it later?",
-        "color": "purple"
-      },
-      {
-        "id": 10,
-        "parent_id": null,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Bless yer hearts, I'm so happy to see such great discussion goin' on! As an LPN, I know we can learn so much from each other. Can I just say a big thank you for sharin' yer knowledge and experiences? Keep it up, friends!",
-        "color": "red"
-      },
-      {
-        "id": 11,
-        "parent_id": 2,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "Calgary, AB",
-        "text": "As a surgeon, I have to say that I disagree with the ATLS protocol being the be-all and end-all of traumatic shock management. In my experience, a thorough history and physical examination are essential, but you also need to have a solid understanding of the underlying pathophysiology. Can anyone attest to this?",
-        "color": "black"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "Dr. Sterling, I respectfully disagree with your statement. While history-taking and physical examination are crucial, the ATLS protocol provides a standardized approach to managing traumatic shock, which can be especially helpful in high-pressure situations. Can we discuss this further?",
-        "color": "blue"
-      },
-      {
-        "id": 13,
-        "parent_id": 12,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "I think both of you have valid points! Dr. Sterling, can you elaborate on what you mean by 'understanding the underlying pathophysiology'? And Dr. Thorne, can you point out some specific benefits of using the ATLS protocol?",
-        "color": "green"
-      },
-      {
-        "id": 14,
-        "parent_id": 13,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "I think this is a great discussion, but we need to take a step back and assess the big picture. What are the most common causes of traumatic shock in our ER, and how can we improve our management and outcomes?",
-        "color": "pink"
-      },
-      {
-        "id": 15,
-        "parent_id": 14,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Good point, Dr. Oldman. In my experience, traumatic shock often stems from major trauma, but we also need to consider less common causes like bleeding disorders and cardiac conditions. Can we discuss some of these less common causes and how to manage them?",
-        "color": "orange"
-      },
-      {
-        "id": 16,
-        "parent_id": 15,
-        "user": "Dr. Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "As a surgeon, I agree with Dr. Varkov that bleeding disorders and cardiac conditions can be major contributors to traumatic shock. Can anyone share some tips on how to quickly diagnose and manage these conditions?",
-        "color": "brown"
-      },
-      {
-        "id": 17,
-        "parent_id": 16,
-        "user": "Turb Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "I think we should also discuss the role of early aggressive fluid resuscitation in traumatic shock management. What's everyone's experience with this, and do you have any tips or best practices to share?",
-        "color": "purple"
-      },
-      {
-        "id": 18,
-        "parent_id": 17,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "Hey guys, just a quick question - what are some good resources for learning more about traumatic shock management? Are there any specific textbooks or online courses that you'd recommend?",
-        "color": "yellow"
-      }
-    ]
-  },
-  {
-    "id": 1001,
-    "title": "Just saw a patient with a blunt aortic injury and I'm reminded of how easily we can miss this diagnosis... ",
-    "body": "Just saw a 35 y/o male present with sudden severe chest pain after being a passenger in a high-speed collision. Initially presented with normal vitals and only minor external injuries, but FAST and bedside EFAST both revealed hemopericardium. Chest CT confirmed an intimal tear at the aortic isthmus. Luckily, we were able to get him to OR for urgent repair and he's stable in ICU. Anyone else have any recent close calls or insights on how to improve our suspicion for aortic injuries? Thanks for sharing your experiences.",
-    "category": "EmergencyMedicine",
-    "comments": [
-      {
-        "id": 1002,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "StaffPhysician",
-        "city": "Toronto, ON",
-        "text": "Great case! The take-home point for me is that we often don't consider aortic injuries with minor external trauma. A study in the Journal of Trauma and Acute Care Surgery found that 60% of blunt aortic injuries had only minor external damage. It really highlights the importance of staying vigilant and not missing the 'red flags'",
-        "color": "teal"
-      },
-      {
-        "id": 1003,
-        "parent_id": 1002,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "I had a question about the FAST exam - did you find it sensitive for aortoduodenal fistula or were you relying on the CT or EFAST for the diagnosis?",
-        "color": "blue"
-      },
-      {
-        "id": 1004,
-        "parent_id": 1002,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Was the patient on any anticoagulants or antiplatelets before the injury? I've read that these increase the risk of major vascular injury. Also, what's the usual course of action for the CT scan in acute aortic injury?",
-        "color": "orange"
-      },
-      {
-        "id": 1005,
-        "parent_id": 1002,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "@Leo, anticoagulants and antiplatelets don't seem to increase the risk of aortic injury. The consensus on imaging for suspected aortic injury is to get an immediate CT scan with contrast as soon as possible, but if the patient is stable and there are clinical concerns, a bedside echocardiogram or EFAST can be done to assess the aorta before CT.",
-        "color": "fuchsia"
-      },
-      {
-        "id": 1006,
-        "parent_id": 1001,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "TL;DR - don't forget to suspect aortic injury with high-speed deceleration trauma in minors with normal vitals. Also, FAST and EFAST are not sensitive for aortoduodenal fistula, so rely on CT for diagnosis.",
-        "color": "purple"
-      },
-      {
-        "id": 1007,
-        "parent_id": "nothing",
-        "user": "Dr. Victor Sterling",
-        "role": "ChiefOfSurgery",
-        "city": "Calgary, AB",
-        "text": "You're all missing the point. In experienced hands, aortic injuries are rarely missed in the ED. This case is likely an example of over-diagnosis, plain and simple.",
-        "color": "red"
       }
     ],
-    "image": "https://www.ebmedicine.net/media_library/images/Extra-Articles/23-11-November/Clinical-Pathway-for-the-Management-of-Suspected-Blunt-Thoracic-Trauma-in-Pediatric-Patients-1.png"
-  },
-  {
-    "id": 8,
-    "title": "/r/EmergencyMedicine: Today I learned about the importance of timely management in geriatric trauma patients.",
-    "body": "Had a miss last night with an elderly patient who presented with multiple injuries from a fall. Despite having a stable vital sign, I failed to order a stat CT scan, which could have revealed a hemorrhage. Luckily, my attending intervened and ensured the patient received the necessary care on time. It's crucial for docs to recognize the unique challenges of caring for geriatric trauma patients and apply special management principles when necessary.\n\nTLDR: Don't be a \u200bmoron when it comes to geriatric trauma patients. Keep the 'ol brain sharp and be ready to intervene.",
-    "category": "/r/EmergencyMedicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "The thing is, the literature emphasizes the importance of using validated instruments to assess functional status and risk factors in elderly patients. The Timed Up and Go test is a good example. I'd like to see more research on the effectiveness of these tools in trauma settings.",
-        "color": "purple"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Isn't the Canadian Study of Health and Aging the one that looked at functional status in elderly patients?\n\nI'm familiar with TUG test but what do you mean by 'validated instruments'?",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "I've learned that the Ottawa Ankle Rules and the Canadian C-Spine Rules are useful tools when assessing elderly patients with potential trauma. What's the best approach when deciding whether to order imaging in these cases?\n\nSorry to ask a basic question but the senior docs I've met seem to have a good understanding of these rules.",
-        "color": "blue"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "The bottom line is, when in doubt, order imaging. Elderly patients often have poor pain perception, so it's better to play it safe and order those CT scans. Don't be paranoid about the radiation; the benefits outweigh the risks in these cases.\n\nHere's a link to the Ottawa Ankle Rules for anyone who needs a refresher: https://www.ottawaanklerules.org/",
-        "color": "teal"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "I'm familiar with that study; didn't it show that the Ottawa Ankle Rules can reduce unnecessary imaging by 50%? How do you apply these rules in a real-world setting? Do you have any favorite resources or checklists for emergency medicine that I can use?\n\nI'm writing a study guide on trauma care and would appreciate any tips or recommendations.",
-        "color": "violet"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Lemme give you some love! There's no substitute for a thorough history and physical exam when assessing trauma patients. Don't get me wrong, tools and checklists are useful, but they shouldn't replace good ol' fashioned critical thinking. I've got a checklist that's been passed down through generations of emergency physicians; PM me if you want a copy.",
-        "color": "orange"
-      }
-    ]
+    "image": "https://www.acep.org/siteassets/sites/pediatrics/media/hero-images/epistaxis-800x495.jpg"
   }
 ]
