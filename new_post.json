@@ -1,9 +1,9 @@
 [
   {
     "id": 0,
-    "title": "Just saw a patient with cirrhosis and a bunch of complications...what's the approach?",
-    "body": "Just saw a patient in my ER with cirrhosis and a bunch of complications.  He had decompensated hepatocellular failure, ascites, and spontaneous bacterial peritonitis (SBP).  What's the first step in managing a patient with cirrhosis complicated by SBP and renal dysfunction?\n\nI've seen Dr. Thorne (staff physician at Toronto) and Dr. Sterling (Chief of Surgery at Calgary) both disagree on the approach.  One says we just need to give some lactulose for the encephalopathy and start IV fluids with albumin and the other says we need to admit him to ICU ASAP and get a hepatic encephalopathy consult for a paracentesis.\n\nCan anyone chime in on this? Is there a more efficient way to approach SBP in cirrhosis?\n\nTLDR: Need input on managing cirrhosis complicated by SBP and renal dysfunction.",
-    "category": "r/EmergencyMedicine",
+    "title": "The Dark Art of Differential Diagnosis: A Delirium Case Study",
+    "body": "Just got into a heated discussion with a senior resident about the approach to a comatose patient. The patient, an 80-year-old man, was transferred to our ICU with a GCS of 3. His medical history was complex, with a history of dementia, hypertension, and a recent fall. The question on everyone's mind was whether this was a pseudocoma or a true coma. I've seen it in Tintinalli's that pseudocomas are often seen in patients with psychiatric disorders or those with a history of substance abuse, but our patient's past doesn't suggest either. Has anyone else struggled with making this diagnosis? What are your go-to diagnostic tools for ruling in or out a pseudocoma?",
+    "category": "emergency-medicine",
     "comments": [
       {
         "id": 1,
@@ -11,61 +11,186 @@
         "user": "Dr. Aris Thorne",
         "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "When I see patients with cirrhosis and SBP, I always start with a thorough evaluation of their ascitic fluid for signs of infection.  I get a diagnostic paracentesis and analyze the fluid for cell count, protein, albumin, and cultures.\n\nIn this case, since the patient had SBP, I would consider giving some lactulose or rifaximin for the encephalopathy, but not before I address the SBP.  I would also start IV fluids with albumin to stabilize their volume status.\n\nI understand Dr. Sterling's point about admitting the patient to ICU ASAP, but I think it's worth weighing in on the patient's risk factors and stability first.  After all, some of these patients can decompensate quickly.",
-        "color": "blue"
+        "text": "Great point about pseudocomas. One of the key distinguishing features is the presence of normal pupillary light reflexes. We often see patients with feigned unresponsiveness avoiding eye contact or displaying signs of nystagmus with caloric vestibular testing. If you've got a patient who's 'unresponsive' but the pupillary reflexes are normal, it's worth further investigation. Have you checked the Glasgow Coma Scale? A score of 13 or higher might suggest a pseudocoma.",
+        "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Dr. Thorne, I've heard that lactulose is not always effective in treating hepatic encephalopathy.  Can you comment on that?",
-        "color": "blue"
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "I've read that the Glasgow Coma Scale can be inconsistent in patients with dementia or those who are feigning unresponsiveness. Isn't it true that the AVPU scale is more reliable in these cases?",
+        "color": "green"
       },
       {
         "id": 3,
-        "parent_id": 2,
-        "user": "Dr. Aris Thorne",
-        "role": "Staff Physician",
-        "city": "Toronto, ON",
-        "text": "That's an excellent question, Leo!  Yes, lactulose is not always effective in treating hepatic encephalopathy.  Some studies suggest that rifaximin is more effective than lactulose in reducing the risk of HE recurrence.  However, some cases of HE are resistant to medical therapy, and in those cases, a liver transplant may be the only option.",
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "I've found that the presence of normal pupillary reflexes, as Dr. Thorne mentioned, can be a strong indicator against a pseudocoma. However, what about the presence of a clear sensorium in the morning and a decreased GCS later in the day? Would that suggest a fluctuating level of consciousness or something else?",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Isn't this a pretty classic sign of Wernicke's encephalopathy? I thought that was a key feature?",
+        "color": "red"
+      },
+      {
+        "id": 5,
+        "parent_id": 3,
+        "user": "Dr. Phil Muddle",
+        "role": "EP",
+        "city": "Regina, SK",
+        "text": "To be honest, I'm a bit confused about this case. Can someone clarify the role of the reticular activating system in this patient's presentation?",
+        "color": "orange"
+      },
+      {
+        "id": 6,
+        "parent_id": 1,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "What about imaging studies? Should we be ordering a head CT or MRI to rule out any structural abnormalities in the brain?",
+        "color": "brown"
+      },
+      {
+        "id": 7,
+        "parent_id": 5,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Winnipeg, MB",
+        "text": "Aww come on, Dr. Muddle! You know exactly what's going on here. The reticular activating system is responsible for... um... uh... Ah, shoot, I'm old. Can someone help me out?",
+        "color": "pink"
+      },
+      {
+        "id": 8,
+        "parent_id": 6,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "Actually, the initial imaging studies should include a CT of the head to rule out any acute hemorrhage or other structural abnormalities. An MRI might be needed if there's a suspicion of a posterior fossa lesion or other complex pathology.",
+        "color": "gray"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "I thought an MRI was essential in ruling out strokes, especially in patients with a history of hypertension?",
+        "color": "yellow"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "Actually, Leo, an MRI can be useful in detecting stroke, but it's not always necessary. The decision to get an MRI should be based on the patient's clinical presentation and the availability of the imaging modality.",
+        "color": "black"
+      }
+    ],
+    "image": "https://www.saem.org/images/default-source/cdems/standard-v-pediatric-glasgow-coma-scales.png?sfvrsn=53962118_1"
+  },
+  {
+    "id": 1,
+    "title": "Just saw a patient with a 20% partial-thickness burn and inhalational injury. Did I miss anything in the ED?",
+    "body": "I had a challenging case last night - a 30-yr-old male with a MVA and a 20% TBSA partial-thickness burn. The patient arrived in asystole but was resuscitated in the field and arrived at our hospital in VFIB. The patient required multiple rounds of defibrillation and epinephrine to restore a perfusing rhythm. After being stabilized, the patient was taken to the burn center for further management.",
+    "category": "medical",
+    "comments": [
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Great case! What was the patient's airway management strategy in the ED? Did you intubate them initially or use some other airway management modality?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "Lol what a great case! I remember one time I worked on a burn patient with a 30% TBSA burn and inhalational injury. We had to do a rapid sequence intubation (RSI) in the ED before transferring them to the burn center. Did you consider doing a RSI in this patient?",
         "color": "blue"
       },
       {
         "id": 4,
         "parent_id": 1,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "In my experience, Dr. Thorne is correct on the approach.  However, don't forget to also get a hepatic enzyme panel and a CBC to assess the patient's overall liver function and inflammatory response.",
-        "color": "green"
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "Uh, what happened to the patient? Are they okay?",
+        "color": "red"
       },
       {
         "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Thanks, Martha!  I completely agree.  And don't forget to also get a urinalysis to assess for signs of renal dysfunction.  We need to monitor that patient's renal function closely.",
+        "parent_id": 3,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Thanks for the mention Turbo! A RSI is always a great option when dealing with a potentially difficult airway in burn patients. Did you use any specific sedatives or anesthetics during the RSI?",
         "color": "green"
       },
       {
         "id": 6,
-        "parent_id": 5,
-        "user": "Turbo Tom",
+        "parent_id": 2,
+        "user": "Martha 'The Hammer'",
         "role": "RN",
-        "city": "London, ON",
-        "text": "Haha, don't forget to also get that patient some coffee and a comfy blanket!  We need to make sure they're stable and comfortable before we start with the treatments!",
+        "city": "Halifax, NS",
+        "text": "A RSI was performed but not before administering a rapid bolus of epinephrine and defibrillation. We needed to get the patient's cardiac rhythm stable before intubating.",
+        "color": "blue"
+      },
+      {
+        "id": 7,
+        "parent_id": 2,
+        "user": "Dr. Rick 'The Rage'",
+        "role": "EP",
+        "city": "Windsor, ON",
+        "text": "I'm not surprised this patient required a RSI. Have you seen any cases where a patient with a significant burn and inhalational injury didn't require sedation? Asking for a friend.",
+        "color": "red"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Henry Oldman",
+        "role": "CCFP",
+        "city": "Victoria, BC",
+        "text": "Actually I had a patient a few years ago with a severe burn and inhalational injury who was awake and alert during intubation. We used a combination of topical and systemic analgesics, but I recall it was a bit of a challenge.",
         "color": "green"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": "That's an interesting case Dr. Oldman! What specific analgesics and sedatives did you use and what was the patient's blood gas profile like?",
+        "color": "blue"
+      },
+      {
+        "id": 10,
+        "parent_id": 9,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "Just wondering why this patient didn't get any fluid resuscitation in the ED? Was there a concern for volume overload?",
+        "color": "red"
       }
-    ],
-    "image": "https://thecurbsiders.com/wp-content/uploads/2023/06/PastedGraphic-1.png"
+    ]
   },
   {
     "id": 1,
-    "title": "Had a close call last night with a case of urinary retention... ",
-    "body": "Had a patient come in with acute urinary retention, and what started as a routine catheterization turned into a complex decision-making nightmare. After passing the cath, the patient's vital signs were all over the place - hypotension, tachycardia, and lab values showed elevated creatinine... what's the first thing on your mind?",
+    "title": "Today I learned the hard way to rule out COPD exacerbation",
+    "body": "Just saw a patient with a classic asthma exacerbation presentation, but upon closer inspection, it was actually a COPD exacerbation. The take-home point is to always rule out COPD exacerbation in patients with persistent cough and shortness of breath, especially if they have a history of smoking or exposure to environmental pollutants.",
     "category": "Emergency Medicine",
     "comments": [
       {
@@ -74,96 +199,142 @@
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "*hyperventilating* Okay, I'd be worried about acute kidney injury (AKI) from obstruction, maybe renal artery stenosis or an underlying renal pathology... Has anyone else seen similar cases where the patient's electrolytes and renal function go haywire after a catheter? Any pearls on workup and management?",
+        "text": "I had a similar case last week! The patient had a history of COPD and presented with worsening shortness of breath and cough. I quickly ruled out cardiac causes and focused on oxygen therapy and bronchodilators. But what caught me off guard was the patient's severe acidosis. I ended up calling the pulmonologist and we discussed the need for intubation and ventilatory support. The key takeaway for me was to prioritize acidosis management in COPD exacerbations.",
         "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Great point, Dr. Gupta! To add, have you considered a bedside ultrasound to check for hydronephrosis or bladder distension? Maybe a renal function evaluation with inulin clearance or other tests to rule out intrinsic renal damage?",
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "What kind of acidosis are we talking about? Is it type 1 (respiratory) or type 2 (metabolic)?",
         "color": "green"
       },
       {
         "id": 3,
-        "parent_id": 2,
-        "user": "Dr. 'Ziggy' Zalesky",
+        "parent_id": 1,
+        "user": "Dr. Rick 'The Rage'",
         "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Ziggy's two cents: Don't forget about the meds! Patients with urinary retention are often on beta-blockers, anticholinergics, or other meds that can exacerbate retention. Are you thinking of switching or discontinuing the offending agent, or will a Foley cath stay be the solution?",
+        "city": "Windsor, ON",
+        "text": "Yeah, you gotta think about acidosis in COPD exacerbations. It's not just about O2 sats and vitals. You got to be on top of those ABGs and look for signs of respiratory failure. And don't even get me started on the docs who don't order ABGs because it's a hassle... [link to EMRA article on COPD exacerbation management](http://emra.org/article/copd-exacerbation-management)",
         "color": "blue"
       },
       {
         "id": 4,
-        "parent_id": 1,
-        "user": "Dr. Phil Muddle",
-        "role": "EP",
-        "city": "Regina, SK",
-        "text": "Oh, good one, Dr. Gupta! I had a patient with similar symptoms a while back... Hmm, how does renal pathology factor into the differential here? Any other 'think-alike' diagnoses we should consider?",
-        "color": "orange"
+        "parent_id": 3,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Thanks for sharing! I've heard that ABGs are crucial in managing COPD exacerbations. But can you explain why?",
+        "color": "red"
       },
       {
         "id": 5,
         "parent_id": 4,
+        "user": "Dr. Zachariah Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "ABGs are critical in COPD exacerbations because they help us assess the severity of acidosis and make informed decisions about ventilation support. Type 1 respiratory acidosis is a red flag for impending respiratory failure, and it's essential to intubate early to prevent further deterioration.",
+        "color": "orange"
+      },
+      {
+        "id": 6,
+        "parent_id": null,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": "I'm curious about the patient's workup. Did you do any imaging or labs to rule out other causes?",
+        "color": "pink"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "We did a chest X-ray to rule out pneumonia or cardiac causes. The patient also had a normal CBC and basic metabolic panel. The ABGs were the key to diagnosing acidosis, though.",
+        "color": "purple"
+      },
+      {
+        "id": 8,
+        "parent_id": 6,
         "user": "Dr. Sarah Sharp",
         "role": "EP",
         "city": "Laval, QC",
-        "text": "TLDR; I'd add interstitial cystitis (IC) to the list... Patients with IC often present with UTIs and retention. Could be worth a cystoscopy to rule it out?",
+        "text": "I like to do a PFT to assess airflow obstruction in patients with COPD exacerbations. Have you ever used PFTs in this scenario?",
+        "color": "green"
+      }
+    ],
+    "image": "https://static.elsevier.es/multimedia/25310437/0000002400000006/v2_201902120618/S2531043718301077/v2_201902120618/en/main.assets/gr1.jpeg"
+  },
+  {
+    "id": 4,
+    "title": "Rant about Opioid Overdose, Naloxone, and the Myth of the 'Naloxone-Resistant' Case",
+    "body": "Just saw a patient with a presumed heroin overdose in our ED. She had a classic presentation of miosis, CNS depression, and respiratory compromise. I administered 2mg of naloxone IM, and within minutes, she was wide awake and talking. Or so it seemed... Fast forward 30 minutes, and she's back down with the same symptoms. The resident on call (a lovely PGY-1) insists that this is just another case of naloxone-resistant overdose, and we need to call the poison control center. I lost my patience and let out a loud \"Are you KIDDING me?!\" The resident looked at me like I had two heads. So, I explained that we need to rethink our strategy here and not just automatically assume that the patient is naloxone-resistant. I mean, come on, folks, we've been down this road before. Anyone else have a similar experience or a good strategy for managing these cases?",
+    "category": "r/EMedicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Toronto, ON",
+        "text": "Haha, I love it! Yes, I've had similar experiences. The key is to not just throw more naloxone at the patient but to actually try to figure out what's going on. In this case, I'd recommend checking the patient's ECG, ABG, and making sure that there aren't any other causes for the respiratory compromise. We also need to consider the possibility of a methadone or buprenorphine OD, which can be more challenging to manage. And please, for the love of all things good, let's not forget to administer some flumazenil alongside naloxone! TLDR: Don't just throw naloxone at the problem; try to find the underlying cause and use some flumazenil, please? [Link to a good review of opioid overdose management](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6461121/)",
+        "color": "blue"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Barb Miller",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Hear hear, @Dr. Maya Gupta! I completely agree that we need to take a more nuanced approach to managing opioid overdoses. @Dr. Aris Thorne (our esteemed colleague from Toronto) always says that when it comes to opioid ODs, you can't just 'throw the book at 'em.' We need to actually read the book, understand the underlying pharmacology, and make informed decisions. One thing I want to add is that we should also consider the patient's potential for serotonin syndrome, especially if they're taking any SSRIs or other serotonergic agents. That can make for a very challenging situation indeed! Has anyone else had experience with serotonin syndrome in the context of an opioid OD?",
+        "color": "orange"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "OMG, what's serotonin syndrome? I thought it was just a myth or something How do you even get it, and what are the symptoms?",
         "color": "red"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "Hey @Leo Chen, don't worry, it's not a myth! Serotonin syndrome is a real condition that occurs when there's an excessive amount of serotonin in the body. The symptoms can include fever, confusion, tremors, muscle stiffness, and in severe cases, respiratory failure. It's usually caused by taking too much of a serotonergic agent (like an SSRI) or combining it with other medications that affect serotonin levels. Now, in the context of an opioid OD, we need to be especially vigilant because some opioids (like meperidine and tramadol) have some degree of serotonergic activity as well. So, if we're administering naloxone and the patient's still having symptoms of serotonin syndrome, we might need to consider other treatments like flumazenil or even activated charcoal! What do you guys think?",
+        "color": "purple"
+      },
+      {
+        "id": 5,
+        "parent_id": null,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "I was just about to chime in on this thread. As an ER nurse, I've seen my fair share of opioid ODs, and let me tell you, it's not just about throwing more naloxone at the problem. We need to get our patients to a level of care ASAP! Like, why are we still arguing over this? We need more naloxone, more flumazenil, and more resources for our patients. Has anyone seen the new guidelines on opioid overdose management? They're pretty comprehensive and might help us out",
+        "color": "green"
       },
       {
         "id": 6,
         "parent_id": 5,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "Nice thought, @Dr. Sharp! I've seen patients with IC who are resistant to treatment. Have you considered checking for Hunner's ulcers on the cystoscopy? Those can be a real gotcha'",
-        "color": "purple"
-      },
-      {
-        "id": 7,
-        "parent_id": null,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "What's the best treatment option for patients with urethral stricture in urinary retention? Should we consider a suprapubic cystostomy or something else?",
-        "color": "pink"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "Urethral stricture? Easy fix - suprapubic cystostomy's the way to go. You can always place a percutaneous nephrostomy if things get dicey. But if you've got a good surgeon on call, might be able to get in there and dilate the urethra",
-        "color": "green"
-      },
-      {
-        "id": 9,
-        "parent_id": 1,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Can anyone explain the management of AKI in this setting? Should we aim for aggressive hydration or stick with maintenance fluids? Maybe consider dialysis if we think the patient's at risk for RRT?",
-        "color": "blue"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. David Hung-Tsang Yen",
-        "role": "Staff Physician",
-        "text": "Thanks, @Dr. Varkov! As a general rule, I'd recommend aggressive hydration in the setting of AKI... but maybe don't go overboard with fluids if the patient's got a history of fluid overload. Any thoughts on the role of dopamine or other inotropes in AKI?",
-        "color": "purple"
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Whoa, RN Tom, calm down! I get what you're saying, but let's try to have a constructive conversation here. I was thinking that maybe we should also consider the role of social determinants of health in opioid overdose and how they might impact our management strategies? Like, have we thought about the patient's housing situation, access to healthcare, or social support system? Maybe we need to get creative and think outside the box a bit",
+        "color": "yellow"
       }
     ]
   },
   {
-    "id": 100,
-    "title": "Rant about Community-Acquired Pneumonia: A Tale of Missed Diagnoses and Subtle Symptoms",
-    "body": "Just saw a patient with suspected CAP and it got me thinking about how often we miss the boat on these cases. A 12yo girl presents with a few days of fever, sore throat, and a productive cough. Her mom claims she's been acting weird and 'coughing up yucky stuff'. The kid's vitals are WNL, but you can see the distress in her. CXR shows some patchy infiltrates, but it's not convincing enough for me. I send her home with a Z-Pack and tell her to follow up in a few days if her symptoms don't improve.",
-    "category": "r/emergencydepartment",
+    "id": 5,
+    "title": "TLDR: Sepsis and Septic Shock in the ED. Today I Learned... (and got humbled)",
+    "body": "Just saw a patient with probable early septic shock and had a miss last night on another one. Let me tell you...",
+    "category": "r/emergency medicine",
     "comments": [
       {
         "id": 1,
@@ -171,666 +342,302 @@
         "user": "Dr. Aris Thorne",
         "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "TLDR; don't send kids home with CAP. The missed diagnosis can be disastrous. In my experience, the subtle symptoms you mentioned are often indicative of underlying respiratory complications. Did you check for hypoxia or respiratory failure?",
+        "text": "I'm so tired of people telling me that 1L of NS is enough to 'rule out' septic shock. The problem is, most patients don't show any signs of organ dysfunction until it's too late. We need to start prioritizing sepsis protocols and educating our ER staff on the importance of a sepsis team. TL;DR: Start every patient with suspected infection on a sepsis protocol ASAP and do a stat stat stat CBC/Diff, BMP, and lactate! [1] http://www.cep.caltech.edu/sepsis/index.html",
         "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "Wait, what's the difference between sepsis and septic shock again?",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
         "user": "Dr. Maya Gupta",
         "role": "PGY2",
         "city": "Mississauga, ON",
-        "text": "Great point, @Dr. Aris Thorne! But what about in low-risk patients? The Canadian Respiratory Guidelines recommend against routine CXR for low-risk kids with CAP. What's your take on this?",
+        "text": "Hey @Dr. Aris Thorne, totally agree with you! One of my residents messed up a sepsis protocol last week and we almost lost the patient. Also, @Chad Broson, sepsis is a suspected or confirmed infection with evidence of systemic inflammation. Septic shock is when cardiovascular failure occurs, reflected by persistent hypotension or the need for vasopressors despite adequate fluid resuscitation. [2] http://www.cep.caltech.edu/sepsis/index.html",
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Can someone explain to me why we need to be concerned about gram-negative bacteria in sepsis? I thought those were always treatable? ",
+        "color": "pink"
+      },
+      {
+        "id": 5,
+        "parent_id": 3,
+        "user": "Dr. Archibald Thorne",
+        "role": "Physician",
+        "city": "Saskatoon, SK",
+        "text": "Good heavens, young man! Gram-negative bacteria are not to be taken lightly. They can produce endotoxins that cause severe inflammation and organ dysfunction. In fact, many of the cases of septic shock are due to gram-negative infections. And let me tell you, back in the 1930s, we didn't have all these fancy antibiotics, so we had to rely on good old-fashioned bedside manner and... Ahem, apologies for digressing!",
+        "color": "brown"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "What's 'bedside manner'?",
+        "color": "gray"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Aris Thorne",
+        "role": "Staff Physician",
+        "city": "Toronto, ON",
+        "text": "Good question, Barnaby! Bedside manner refers to the way a doctor interacts with their patients. It's about being kind, empathetic, and... well, old-fashioned, like @Dr. Archibald Thorne said. Nowadays, we have a lot more advanced technology and treatments, but it's just as important to have a good bedside manner. [3] http://jama.jamanetwork.com/article.aspx?articleid=187654",
+        "color": "orange"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Jaundice in the ED: When to Suspect Malignancy",
+    "body": "Just saw a patient with classical hepatobiliary malignancy signs, but the surprise was when the labs came in revealing normal CA 19-9 levels. Anyone have a protocol for managing suspected biliary obstruction without the benefit of a normal tumor marker?",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "TLDR; I've had a few patients with hepatobiliary malignancy and normal tumor markers. One key takeaway is to consider the clinical correlation alongside the lab findings. In this case, the patient had a palpable gallbladder and significant pain in RUQ - these points, combined with the physical exam, made the diagnosis more convincing.\n\nAlso, just a note: some studies have shown that CA 19-9 levels can be normal even in the presence of malignancy, especially with more advanced disease. Always consider the differential diagnosis and use a combination of lab and clinical findings to make a diagnosis.",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Dr. Gupta, that's really interesting. Can you elaborate on the study you mentioned? I'd love to read more about it.",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "parent_id": 1,
+        "user": "Dr. Rick 'The Rage'",
+        "role": "EP",
+        "city": "Windsor, ON",
+        "text": "Ugh, CA 19-9 is one of those tumor markers that's often elevated but not specific. I've seen some studies saying it's not even a good prognostic marker for bile duct cancer. What's the point of using it, if you ask me?",
+        "color": "orange"
+      },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "I disagree, Rick. While CA 19-9 may not be the most reliable marker, it can still be useful in combination with other findings to inform our diagnosis and treatment plans. And let's not forget, it's just one piece of the puzzle. We need to consider the whole clinical picture.",
+        "color": "blue"
+      },
+      {
+        "id": 5,
+        "parent_id": 1,
+        "user": "Barnaby Finch",
+        "role": "Patient",
+        "city": "Surrey, BC",
+        "text": "This is all well and good, but I'm confused - what's hepatobiliary malignancy? Is that another name for liver cancer?",
+        "color": "pink"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Dr. Sarah Sharp",
+        "role": "EP",
+        "city": "Laval, QC",
+        "text": "No, it's a broader term that encompasses cancers of the liver, bile ducts, and gallbladder. There are several types, including intrahepatic and extrahepatic cholangiocarcinoma, as well as gallbladder cancer.",
+        "color": "yellow"
+      },
+      {
+        "id": 7,
+        "parent_id": 1,
+        "user": "Chad Broson",
+        "role": "Pre-med",
+        "city": "Brampton, ON",
+        "text": "This is so cool - I've been reading about CA 19-9 in my pre-med studies. Can someone link to some studies or resources that discuss its use in the ED?",
+        "color": "teal"
+      }
+    ],
+    "image": "https://i0.wp.com/iem-student.org/wp-content/uploads/2021/05/joundice-e1617613268718.png?resize=656%2C300&ssl=1"
+  },
+  {
+    "id": 17,
+    "title": "Fustrated with frostbite management, is anyone else?",
+    "body": "Just saw a patient with frostnip and I'm still reeling from the management. So I rewarm the patient in some ice water (mistake no?) and now the blisters are looking like they're on fire, but are they? When do you debride? When do you aspirate? Should I even be using silver sulfadiazine? Help me out ER fam. Anyone else have some horror stories to share?",
+    "category": "emergency medicine",
+    "comments": [
+      {
+        "id": 1,
+        "parent_id": null,
+        "user": "Dr. Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": " TLDR: rewarming in ice water is generally bad news for frostbite. I've seen patients end up with deeper injuries due to that. What's the story here, did the patient's family give them a cold bath or something? ",
+        "color": "purple"
+      },
+      {
+        "id": 2,
+        "parent_id": 1,
+        "user": "Dr. Brock Stone",
+        "role": "FRCSC",
+        "city": "Hamilton, ON",
+        "text": " @Dr. Maya Gupta - yeah no, not exactly. They just got wet and then got in a snowbank. I didn't realize at first, but I'm starting to think it's more than just frostnip now. The blisters are deep and painful and I'm starting to get worried about the patient's overall health. Anyone have advice on when to refer to surgical?",
         "color": "green"
       },
       {
         "id": 3,
         "parent_id": 2,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "As an RN, I've seen too many kids get mismanaged due to over-reliance on guidelines. In my opinion, each patient deserves a personalized approach. What about considering the patient's social determinants, lifestyle, and history of comorbidities when deciding on CXR or admission?",
-        "color": "purple"
+        "user": "Dr. Elena Varkov",
+        "role": "FRCPC",
+        "city": "Quebec City, QC",
+        "text": " @Dr. Brock Stone - Ah I see, so they got frostbite while playing outside, right? When you say the blisters are deep and painful, are they full-thickness? Have you thought about debriding and aspirating?",
+        "color": "orange"
       },
       {
         "id": 4,
         "parent_id": 3,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "I agree with @Turbo Tom that social determinants play a crucial role. What about the sodium level and other electrolytes? If they're out of whack, it can affect treatment decisions. Have you considered using a more nuanced approach to assess the risk of complications?",
-        "color": "green"
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": " @Dr. Elena Varkov - full-thickness blisters can be a sign of deeper injury. I'm not sure about debridement and aspiration, shouldn't we just let the wound heal on its own? What's the thinking behind debriding and aspirating?",
+        "color": "blue"
       },
       {
         "id": 5,
         "parent_id": 4,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "Sorry to ask a newbie question, but what's the deal with sodium levels in pneumonia patients? Is it a red flag for something or just a helpful piece of info?",
-        "color": "blue"
+        "user": "Dr. Barb Miller",
+        "role": "Ep",
+        "city": "Winnipeg, MB",
+        "text": " @Leo Chen - good question! Debridement and aspiration are typically done to remove dead tissue and bacteria that can infect the wound. If we let the wound heal on its own, we risk getting an infection that can spread. Has anyone read that recent study on frostbite management saying we should debride even if there are only small bubbles? I'll try to dig it up for you.",
+        "color": "red"
       },
       {
         "id": 6,
+        "parent_id": 5,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": " @Dr. Barb Miller - I thought I read something about debriding and aspirating being controversial? Some people are saying it's not necessary because it can cause more damage. Can we clarify that?",
+        "color": "yellow"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Kevin Park",
+        "role": "PGY1",
+        "city": "Edmonton, AB",
+        "text": " @Sarah Jenkins - yeah, there's an ongoing debate about whether debriding and aspirating actually work. Some people are saying it's just old-fashioned and not worth the risk. Has anyone got any links to studies or articles on this debate?",
+        "color": "violet"
+      },
+      {
+        "id": 8,
+        "parent_id": 7,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": " Amateurs... You should be focusing on the bigger picture here, not getting bogged down in the details. The important thing is that your patient is alive and stable. Frostbite is just an injury, not a medical emergency. Get your priorities straight, kids. ",
+        "color": "brown"
+      },
+      {
+        "id": 9,
+        "parent_id": 8,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": " Oh, so now the surgeon is chiming in, eh? Thanks a lot, Vic. We all need your condescending attitude to make a difficult situation more manageable. Anyone else have any practical tips for managing frostbite? ",
+        "color": "black"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Rant about imaging for kidney stones in the ED",
+    "body": "Just saw a patient with a suspected kidney stone and I'm still shaking my head about the over-reliance on non-contrast CT scans.",
+    "category": "Emergency Medicine",
+    "comments": [
+      {
+        "id": 2,
+        "parent_id": null,
+        "user": "Dr. Aris Thorne",
+        "role": "MD",
+        "city": "Toronto, ON",
+        "text": "CT scans are the gold standard for stone detection due to their high sensitivity and specificity. However, we should still consider radiation exposure and the potential for false positives. What's your take on the role of ultrasound in the ED for kidney stone evaluation? (https://www.ncbi.nlm.nih.gov/pubmed/28684073)",
+        "color": "purple"
+      },
+      {
+        "id": 3,
+        "parent_id": 2,
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Dr. Aris, can you clarify the radiation exposure concern? How much of a risk does it pose to patients, especially those with a history of cancer?",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "parent_id": 2,
+        "user": "Turbo Tom",
+        "role": "RN",
+        "city": "London, ON",
+        "text": "I've seen some studies showing that CT scans can detect stones in the distal ureter that ultrasound might miss. Can anyone speak to the trade-offs between these two modalities?",
+        "color": "blue"
+      },
+      {
+        "id": 5,
+        "parent_id": 3,
+        "user": "Dr. Aris Thorne",
+        "role": "MD",
+        "city": "Toronto, ON",
+        "text": "Great question, Leo! While radiation exposure is a valid concern, the absolute risk to patients is relatively low. However, it's essential to weigh this against the benefits of CT scans. One study found that, for every 1,000 patients undergoing a non-contrast CT scan, there would be approximately 4-8 cancer-related deaths from radiation exposure (https://ajr.ojs.age.org/lookup/doi/10.2214/AJR.10.5435)",
+        "color": "purple"
+      },
+      {
+        "id": 6,
+        "parent_id": 5,
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "Dr. Aris, can you elaborate on the limitations of ultrasound in the ED? Some of our residents have mentioned difficulty visualizing the ureter due to bowel gas or obesity.",
+        "color": "green"
+      },
+      {
+        "id": 7,
+        "parent_id": 6,
+        "user": "Dr. Ziggy Zalesky",
+        "role": "EP",
+        "city": "Vancouver, BC",
+        "text": "Sarah, it's all about technique and experience! With some practice, even in the presence of bowel gas or obesity, ultrasound can still provide valuable information. We should also consider using ultrasound to guide Foley catheter placement in suspected obstructing stones (https://www.ncbi.nlm.nih.gov/pubmed/28212491)",
+        "color": "blue"
+      },
+      {
+        "id": 8,
         "parent_id": 1,
         "user": "Dr. Victor Sterling",
         "role": "Chief of Surgery",
         "city": "Calgary, AB",
-        "text": "This is all well and good for community physicians, but when does it become a surgical emergency? When do you send it to the ICU? @Dr. Aris Thorne, you seem to be pushing for hospitalization in this scenario. When do you take it to the next level?",
-        "color": "purple"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Great point, @Dr. Victor Sterling! Hospitalization criteria can be nuanced. What about considering the presence of hypoxia, respiratory failure, or severe dehydration?",
-        "color": "green"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Let's not forget about antibiotics. In what situations do you use them, and when do you hold off on starting them? Have you considered using a delayed-start approach in low-risk patients?",
-        "color": "blue"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "What about treatment for CAP in high-risk patients? Do you use IV antibiotics, and if so, what types?",
-        "color": "red"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "High-risk patients are a special case, indeed. What about those with severe pneumonia or sepsis? Do you use broad-spectrum antibiotics, and for how long?",
-        "color": "green"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "Surrey, BC",
-        "text": "I have to say, I'm loving this thread. As someone who's recently recovered from pneumonia, I can attest to the importance of proper diagnosis and treatment. Keep sharing your wisdom, EM physicians!",
-        "color": "purple"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "I couldn't agree more, @Barnaby Finch! It's all about the patient story, people. Remember to always ask about the 'old school' symptoms, like the fever starting on one side of the body?",
-        "color": "blue"
-      },
-      {
-        "id": 13,
-        "parent_id": 12,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "You know, I've learned that sometimes the most subtle symptoms can make all the difference. Keep a sharp eye out for those telltale signs, and never give up on getting to the bottom of it!",
-        "color": "green"
-      },
-      {
-        "id": 14,
-        "parent_id": 13,
-        "user": "Dr. 'Ziggy' Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Love it, @Sparkle-Eyes Sue! ER physicians, let's make a pact to always, always, always consider the 'less sexy' symptoms. Who's with me?",
-        "color": "purple"
-      },
-      {
-        "id": 15,
-        "parent_id": 14,
-        "user": "Dr. Phil Muddle",
-        "role": "EP",
-        "city": "Regina, SK",
-        "text": "Huh? What's ER physician? Never mind... Can someone explain what's going on?",
-        "color": "red"
-      },
-      {
-        "id": 16,
-        "parent_id": 15,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Haha, @Dr. Phil Muddle! You're a true ER veteran... not! We're discussing community-acquired pneumonia and how to catch the tricky symptoms. Keep up, Doc!",
-        "color": "purple"
-      },
-      {
-        "id": 17,
-        "parent_id": 11,
-        "user": "Martha 'The Hammer'",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "I love this conversation, but let's not forget about the elephant in the room: hospital bureaucracy. As an RN, I see how over-testing and red tape can hinder timely diagnosis and treatment. We need to find ways to streamline our processes and put the patient first.",
-        "color": "blue"
-      },
-      {
-        "id": 18,
-        "parent_id": 17,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "Hear, hear, @Martha 'The Hammer'! I couldn't agree more. Sometimes it feels like we're fighting a losing battle against red tape and bean-counting administrators.",
-        "color": "purple"
-      }
-    ]
-  },
-  {
-    "title": "Seizure Management in the ED - Lessons Learned from a Recent Case",
-    "body": "Just got back from a case that's got me thinking about seizure management in the ED.  A 35-year-old male patient came in with a febrile seizure.  The ECG showed sinus tachycardia, but the EEG was normal.  The patient got an MRI, which showed a normal brain.  He was treated with IV benztropine and levetiracetam.  The question on my mind is, should we be admitting more patients with febrile seizures, especially given the increased risk of status epilepticus and neurodevelopmental effects?",
-    "category": "emergency medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Great post!  We've had a few cases like this in our department too.  From my research, it seems that admission is not always necessary for febrile seizures, especially if the patient is stable and has a normal EEG.  However, I do think we should be monitoring them more closely in the ED, especially if there are any signs of status epilepticus.  Has anyone looked into the role of EEG monitoring in febrile seizures?",
-        "color": "blue"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Barney Finch",
-        "role": "BSc (Pharm)",
-        "city": "Surrey, BC",
-        "text": "Regarding EEG monitoring, I found this study that looked at the use of continuous EEG in febrile seizures.  The authors found that continuous EEG did not appear to affect treatment decisions or outcome in this population.  However, they did suggest that continuous EEG may be useful in certain subgroups, such as patients with a history of seizures or status epilepticus.",
-        "color": "purple"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "Admission for febrile seizures is a total waste of resources.  We're talking about patients who are otherwise healthy, with no underlying condition that requires admission.  I think we should be focusing more on providing good ED care and then discharging these patients, just like we do with most other febrile illnesses.",
-        "color": "red"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I disagree with Dr. 'The Rage' on this one.  While I understand the desire to avoid unnecessary admissions, I think we need to consider the potential risks of status epilepticus and neurodevelopmental effects in febrile seizures.  Admission may not be necessary for every patient, but I think we should be monitoring them closely in the ED and providing guidance on follow-up.",
-        "color": "blue"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "I have to agree with Dr. 'The Rage' on this one.  As an LPN, I've seen too many patients admitted for febrile seizures who are otherwise healthy and don't require hospitalization.  I think we need to rethink our strategies for identifying patients who do need admission and providing better support for those who don't.",
-        "color": "purple"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "The question is, how do we identify those patients who are at high risk for status epilepticus or neurodevelopmental effects?  Is it based solely on the presence of a febrile seizure, or are there other factors that we should be considering?",
-        "color": "red"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "From my experience, it seems that patients with a history of seizures or status epilepticus are at higher risk.  But what about other factors, such as fever duration or seizure severity?  Has anyone looked into these variables?",
-        "color": "blue"
-      }
-    ],
-    "image": "https://i0.wp.com/emcrit.org/wp-content/uploads/2022/07/statusepi.jpg?resize=450%2C701&ssl=1"
-  },
-  {
-    "id": 4,
-    "title": "Tick-Borne Illnesses: The Never-Ending Journey of Confusion",
-    "body": "Just saw a patient with suspected Ehrlichiosis and I'm reminded of why I hate tick-borne illnesses. The lone star tick is the primary vector, but we all know it's the white-tailed deer that's the real culprit. Cases have been reported in all 48 contiguous US states, with 95% originating from the northeast and northern midwest. Clinical manifestations include fever, headache, malaise, nausea, vomiting, diarrhea, abdominal pain, and arthralgias. Fever is present in a majority of cases (97%), but the rash is absent in about 10%. So, what's the classic clinical triad for RMSF again? Let's refresh our memory...",
-    "category": "emergency medicine",
-    "posted_by": {
-      "name": "Dr. Maya Gupta",
-      "city": "Mississauga, ON",
-      "role": "PGY2",
-      "style": "Confident and fast resident. Loves procedures and quick dispos."
-    },
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "TL;DR - Tick-borne illnesses are a pain. Let's discuss the key components that make them so difficult to diagnose. Who's with me?",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "@Dr. Maya Gupta, you're preachin' to the choir! But seriously, what do you think is the most challenging part of diagnosing RMSF in particular? I've had patients with classic symptoms, but the lab results are always inconclusive.",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "@Dr. Maya Gupta, great topic! I've always found the differential diagnosis to be the most challenging aspect of tick-borne illnesses. Between RMSF, Ehrlichiosis, and Anaplasmosis, it's easy to get lost in the woods. Can we discuss some strategies for ruling in/out each of these conditions?",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "@Dr. Elena Varkov, I'm so confused about this topic. Can you explain the difference between Ehrlichiosis and Anaplasmosis in simple terms? Why do they produce different symptoms?",
-        "color": "green"
-      },
-      {
-        "id": 5,
-        "parent_id": 1,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Rant about... the lack of public awareness regarding tick-borne illnesses. We spend so much time in the ER trying to diagnose these conditions, but the general public barely knows what they are. Can we make some noise about this on social media to raise awareness?",
-        "color": "orange"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "@Dr. Sarah Sharp, hallelujah! I'm so tired of trying to educate patients about tick-borne illnesses. We need to get the word out there. Has anyone thought of partnering with local tick-control organizations or health departments to create public awareness campaigns?",
-        "color": "purple"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "@Dr. Ziggy Zalesky, that's an amazing idea! Can you share some examples of successful public awareness campaigns for tick-borne illnesses? I'd love to get some inspiration for future projects.",
-        "color": "green"
-      },
-      {
-        "id": 8,
-        "parent_id": 7,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "@Dr. Kevin Park, here's an example of a successful awareness campaign from the US: [link to CDC campaign]. It's a great starting point for our own initiatives.",
-        "color": "green"
-      }
-    ]
-  },
-  {
-    "id": "/r/emphys",
-    "title": "Had a crazy case last night. Scalp laceration in a geriatric patient...",
-    "body": "Just saw a patient with a scalp laceration that was a real head-scratcher. 64 y/o female presenting with a severe scalp laceration from a fall. The patient had a GCS of 15 and was alert and oriented, but had a palpable hematoma at the base of the wound. She also had a history of hypertension, hyperlipidemia, and a history of a recent syncope. I immediately suspected a skull fracture and ordered a CT scan, which confirmed the presence of a depressed fracture of the parietal bone. The patient was taken to OR for repair of the laceration and elevation of the fracture fragment. I was thinking about the case all night and I was wondering if anyone has any experience with scalp lacerations in the elderly and how they should be managed differently than in younger patients. TIA for any insights or case studies.",
-    "category": "/r/emphys",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "u/CriticalCareMD",
-        "role": "CCMD",
-        "city": "NYC",
-        "text": "TLDR: scalp lacerations in the elderly can be a sign of a more sinister underlying injury, like a skull fracture. Always err on the side of caution and get that CT scan. I had a patient like this last year and it ended up being a life-saving decision. One thing to consider is the high incidence of anticoagulation in this population. You may need to consider holding anticoagulation meds and consulting with a hematologist to determine the best course of action. Has anyone else had experience with this?",
-        "color": "red"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "u/EMRocksMySocks",
-        "role": "EP",
-        "city": "Chicago",
-        "text": "Great advice, @CriticalCareMD! And yes, anticoagulation is a major concern in this population. I'd also recommend considering the patient's history of syncopal episodes. This can be a sign of a more significant underlying issue, like a cardiac arrhythmia or a cardiac contusion. Have any of you had experience with patients like this? And has anyone got a good resource for learning more about geriatric trauma?",
-        "color": "blue"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "u/TraumaNurse88",
-        "role": "RN",
-        "city": "Boston",
-        "text": "Yes, @EMRocksMySocks! I've had several patients like this and I completely agree with @CriticalCareMD's advice. One thing to keep in mind is the high risk of bleeding in elderly patients, especially those on anticoagulation meds. I'd recommend consulting with a hematologist and considering a platelet transfusion to get the patient's INR within range. Has anyone else had experience with patients requiring platelet transfusions in this setting?",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 3,
-        "user": "u/EMCrit",
-        "role": "Physician",
-        "city": "San Francisco",
-        "text": "Great point, @TraumaNurse88! And yes, platelet transfusions can be a lifesaver in these cases. But what about the use of vasopressors in this population? I've had patients in shock who required vasopressors to maintain a safe BP, but I've also seen cases where vasopressors have caused a paradoxical effect, leading to increased bleeding. Has anyone else seen this?",
-        "color": "purple"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "u/UrgentCareMD",
-        "role": "EP",
-        "city": "Seattle",
-        "text": "Yes, @EMCrit, I've seen that same paradoxical effect with vasopressors in elderly patients. And it's not just limited to bleeding - I've also seen cases of vasopressor-induced hypertension leading to increased ICP. What's the current consensus on the use of vasopressors in elderly trauma patients?",
-        "color": "orange"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "u/ERDoc123",
-        "role": "Physician",
-        "city": "Los Angeles",
-        "text": "I think the consensus is that vasopressors should be used with caution in elderly trauma patients, especially those with known cardiac disease or hypertension. It's also important to monitor for signs of vasopressor-induced hypertension, like increased ICP and increased BP. And of course, get that CT scan to rule out any underlying injuries!",
+        "text": "You're all worrying about CT scans, but what about the true ' Amateurs' out there? The ones who can't even be bothered to do a proper physical exam before ordering a CT scan. Priorities, people!",
         "color": "red"
       }
     ]
   },
   {
-    "id": 1,
-    "title": "Rant about Chest Pain: Can we do better?",
-    "body": "Just saw a patient with what turned out to be a pulmonary embolism. Classic presentation but still had to convince the patient to get a CT scan. Had to repeat the '5 Ps' like 10 times. Got to thinking, can we make it easier for ourselves and our patients? I've got a few thoughts on this (see below).",
+    "id": 9,
+    "title": "Just saw a patient with iron overload post-transfusion - What's the best approach for gastrointestinal decontamination?",
+    "body": "I had a patient come in last night with a hemoglobin A1c of 13 and a 24-hour urine iron level of 10,000 mcg. He had a recent liver transplant and was on a lot of iron supplements. The patient had ingested a large amount of iron (>60 mg/kg) and had abdominal opacities on X-ray. We decided to perform a gastric lavage using a 36F orogastric tube. We used 200 mL of warm tap water aliquots, with removal via gravity or suction, until the effluent was clear. Does anyone have experience with this procedure? Are there any contraindications we should be aware of?",
     "category": "Emergency Medicine",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "TL;DR - what are some ways to improve our approach to chest pain? I'm with you, @Dr. Singh, making sure we get the right diagnosis is key. Have you come up with any solutions that you'd like to share? By the way, love the '5 Ps' reminder. Have you seen this video on differential diagnosis?",
-        "color": "purple"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Great point, @Dr. Gupta! One thing that might be helpful is to implement standardized protocols for patients presenting with chest pain, similar to what we do for syncope or SEPSIS. Do you think that would make a difference?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 2,
-        "user": "Martha 'The Hammer' RN",
-        "role": "RN",
-        "city": "Halifax, NS",
-        "text": "Hear hear, @Dr. Park! We need more standardization in our approach. And by the way, does anyone know where I can find those '5 Ps' in writing? I've been hearing about it for years but can't seem to find a reference. [https://en.wikipedia.org/wiki/Ps_of_pulmonary_embolism](https://en.wikipedia.org/wiki/Ps_of_pulmonary_embolism)",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": null,
-        "user": "Turbo Tom (RN)",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Love the idea of standardized protocols, @Dr. Park! We need more of that in the ER. Has anyone seen the study on how implementing a 'cardiac score' improves diagnosis in the ED?",
-        "color": "purple"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "Ah, yes, my boy, a 'cardiac score'! You want something like the San Francisco Syncope Rule, eh? Well, I reckon that's a fine idea. But don't forget about good old-fashioned clinical acumen, @Turbo Tom. You can't replace years of experience with 'science-y' scores alone (although they can be helpful!).",
-        "color": "green"
-      },
-      {
-        "id": 6,
-        "parent_id": 1,
-        "user": "Dr. 'Ziggy' Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Just chiming in here to say @Dr. Singh, what was the patient's 'final' diagnosis, if you don't mind me asking? Was it just PEs or was there some other issue that we missed? Just trying to learn here.",
-        "color": "blue"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Ah, just the one PE, @Dr. Zalesky! Didn't see anything else suspicious. But great point, always learning and trying to improve. Has anyone used decision trees or Bayesian analysis in their practice?",
-        "color": "green"
-      },
-      {
-        "id": 8,
-        "parent_id": null,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "I don't think we're using Bayesian analysis enough in the ED, @Dr. Gupta! Would love to hear more about your experiences with it. And does anyone know where I can find some good tutorials or resources on the subject?",
-        "color": "purple"
-      },
-      {
-        "id": 9,
-        "parent_id": 8,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Oh, definitely, @Dr. Varkov! I've used Bayesian analysis for cardiology cases, like interpreting ECGs. Would recommend checking out @Dr. Smith's website on the subject. Also, @Dr. Singh, any thoughts on how we can make these Bayesian analysis tools more accessible to ER doctors?",
-        "color": "blue"
-      }
-    ],
-    "image": "https://www.saem.org/images/default-source/publications/grace-1-guidelines-(ramzy).jpg?sfvrsn=1aa4d33b_0"
-  },
-  {
-    "id": 7,
-    "title": "Just saw a patient with severe respiratory distress and I'm still unsure what to make of it...",
-    "body": "",
-    "category": "medical",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Leo Chen",
-        "role": "",
-        "city": "Montreal, QC",
-        "text": "I've got a quick one to ask. What's the most common cause of respiratory distress in the ED? Was it cardiogenic or pulmonary in this case?",
-        "color": "blue"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Dr. Victor Sterling",
-        "role": "Chief of Surgery",
-        "city": "",
-        "text": "For goodness' sake, Leo, don't ask the obvious questions on the internet. Cardiogenic, of course! You've got to separate the wheat from the chaff. The patient's history of orthopnea and jugular venous distention pointed strongly to cardiac causes.",
-        "color": "red"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "I'm with Leo, though. It's not just about cardiogenic vs pulmonary. What about the other potential causes like neurologic dysfunction or airway obstruction? And what about the role of non-invasive ventilation in patients with severe respiratory distress?",
-        "color": "green"
-      },
-      {
-        "id": 4,
-        "parent_id": 2,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "I think Turbo Tom raises a great point. Non-invasive ventilation can be a game-changer in patients with severe respiratory distress, but it's not without its risks. What about the potential complications of NIV, such as pneumothorax or gastric aspiration?",
-        "color": "purple"
-      },
-      {
-        "id": 5,
-        "parent_id": 3,
-        "user": "Chad Broson",
-        "role": "Pre-med",
-        "city": "Brampton, ON",
-        "text": "What about the patient's physical exam? Did they have any abnormal findings, such as an S3 gallop or stridor? And what about the role of diagnostic testing, such as a chest radiograph or ECG?",
-        "color": "orange"
-      },
-      {
-        "id": 6,
-        "parent_id": 4,
-        "user": "Dr. Archibald Thorne",
-        "role": "Physician",
-        "city": "Saskatoon, SK",
-        "text": "Ah, the old chest radiograph, how it can reveal the secrets of the chest cavity! In this case, the patient's radiograph showed signs of pulmonary edema and cardiomegaly, which were suggestive of cardiac causes.",
-        "color": "brown"
-      },
-      {
-        "id": 7,
-        "parent_id": 5,
-        "user": "Sparkle-Eyes Sue",
-        "role": "LPN",
-        "city": "St. John's, NL",
-        "text": "Jeez, I hope I don't sound too silly, but what about the patient's vitals? Did they have any abnormal findings, such as a high heart rate or low blood pressure?",
-        "color": "yellow"
-      },
-      {
-        "id": 8,
-        "parent_id": 6,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "The patient's vitals were all over the place! They had tachycardia, tachypnea, and a low blood pressure. The combination of these findings suggested that the patient was in shock and required immediate attention.",
-        "color": "gray"
-      },
-      {
-        "id": 9,
-        "parent_id": 4,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "I think a key takeaway from this case is the importance of a comprehensive history and physical exam. The patient's history of shortness of breath and orthopnea pointed strongly to cardiac causes, and the physical exam revealed signs of pulmonary edema and cardiomegaly.",
-        "color": "pink"
-      },
-      {
-        "id": 10,
-        "parent_id": 8,
-        "user": "Dr. Rick 'The Rage'",
-        "role": "EP",
-        "city": "Windsor, ON",
-        "text": "Ugh, don't even get me started on the importance of a comprehensive history and physical exam. It's like, come on people, do you really need to be told this in the ED?",
-        "color": "black"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Leo Chen",
-        "role": "",
-        "city": "Montreal, QC",
-        "text": "Sorry, Dr. Rage, but I think we get it. You're frustrated. Can we focus on the clinical pearls, please?",
-        "color": "blue"
-      },
-      {
-        "id": 12,
-        "parent_id": 10,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "EP",
-        "city": "Vancouver, BC",
-        "text": "Ha! Sorry, Leo, but Dr. Rage needs to learn to relax. We're all in this together!",
-        "color": "green"
-      },
-      {
-        "id": 13,
-        "parent_id": 11,
-        "user": "Dr. Barb Miller",
-        "role": "EP",
-        "city": "Winnipeg, MB",
-        "text": "Okay, okay, let's get back to the case. What about the role of non-invasive ventilation in patients with severe respiratory distress?",
-        "color": "purple"
-      },
-      {
-        "id": 14,
-        "parent_id": 7,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "I think I've got a question about the patient's diagnosis. What about the role of troponin and BNP in diagnosing cardiac causes of respiratory distress?",
-        "color": "yellow"
-      },
-      {
-        "id": 15,
-        "parent_id": 13,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "I think I've learned something new today. Non-invasive ventilation can be a game-changer in patients with severe respiratory distress, but it's not without its risks. Thanks, everyone, for the discussion!",
-        "color": "green"
-      },
-      {
-        "id": 16,
-        "parent_id": 14,
-        "user": "Dr. Phil Muddle",
-        "role": "EP",
-        "city": "Regina, SK",
-        "text": "Uh, can we go back to the patient's diagnosis for a second? I'm getting all confused now...",
-        "color": "pink"
-      },
-      {
-        "id": 17,
-        "parent_id": 15,
-        "user": "Barnaby Finch",
-        "role": "Patient",
-        "city": "",
-        "text": "Wait, what? I thought this thread was about me?",
-        "color": "orange"
-      },
-      {
-        "id": 18,
-        "parent_id": 16,
-        "user": "Dr. Sarah Sharp",
-        "role": "EP",
-        "city": "Laval, QC",
-        "text": "Haha, sorry about that, Barnaby! But yes, your case was quite interesting. Thanks for sharing it with us all.",
-        "color": "gray"
-      },
-      {
-        "id": 19,
-        "parent_id": 18,
-        "user": "Dr. Brock Stone",
-        "role": "FRCSC",
-        "city": "",
-        "text": "I've got a question about the patient's management. What about the role of intubation in patients with severe respiratory distress?",
-        "color": "brown"
-      },
-      {
-        "id": 20,
-        "parent_id": 19,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Intubation is always a last resort, but sometimes it's necessary. The key is to weigh the risks and benefits and make a decision quickly.",
-        "color": "red"
-      }
-    ]
-  },
-  {
-    "id": "r/emergencymedicine",
-    "title": "Cardiogenic Shock Rant",
-    "body": "Had a miss last night. Missed a cardiogenic shock patient. The thing is, it's not just about the ECG changes or the troponin. We need to be thinking about the big picture - is the patient going to survive this MI? Did they get to the ED too late? Did we get the cath lab fast enough? I know, I know, it's easy to say 'just stabilize and get them to the cath lab' but sometimes that's just not enough. We need to be thinking about the entire shock cascade - from MI to cardiogenic shock, and then from cardiogenic shock back to stable heart function. It's a delicate balance. TL;DR - we need to be more proactive in the ED, think about the patient's entire clinical picture, not just the ECG or troponin.",
-    "category": "emergency-medicine",
     "comments": [
       {
         "id": 1,
@@ -838,207 +645,82 @@
         "user": "Dr. Aris Thorne",
         "role": "Staff Physician",
         "city": "Toronto, ON",
-        "text": "I totally agree, cardiogenic shock is a game-changer. It's not just about the MI, it's about the extent of the damage to the myocardium. We need to be thinking about the mechanical dysfunction, the inflammatory response, and the impact on the patient's peripheral circulation. It's a complex interplay of factors that requires a nuanced approach. For example, did you know that cardiogenic shock can also occur in the absence of MI, due to mechanical dysfunction caused by valvular disease or pulmonary embolism? We need to think about the entire patient, not just the ECG.",
+        "text": "Great case! In my experience, gastric lavage can be effective for iron poisoning, but it's essential to be aware of the potential complications, including pulmonary aspiration and gastrointestinal perforation. We always tilt the head of the bed 20\u00b0 and use a left lateral position to minimize the risk of aspiration. It's also crucial to have a clear understanding of the contraindications, such as unprotected airway, gastrointestinal perforation, obstruction or ileus, hemorrhage, and intractable vomiting. I'd like to add that we also use a warm lavage solution to stimulate bowel motility and promote clearance.",
         "color": "purple"
       },
       {
         "id": 2,
         "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "What do you mean by 'mechanical dysfunction'? Is it related to the heart valves? Like, does it have anything to do with the mitral valve?",
-        "color": "green"
-      },
-      {
-        "id": 3,
-        "parent_id": 1,
-        "user": "Dr. Maya Gupta",
-        "role": "PGY2",
-        "city": "Mississauga, ON",
-        "text": "Dr. Thorne, I couldn't agree more. Cardiogenic shock requires a thorough understanding of the interplay between the patient's cardiac function, hemodynamics, and peripheral circulation. It's essential to think about the shock cascade and not just the immediate issue at hand. I'd like to add that early recognition and management are crucial in preventing long-term damage to the myocardium. For example, we should be thinking about activating the cath lab early, and using advanced hemodynamic monitoring to guide our treatment decisions.",
-        "color": "blue"
-      },
-      {
-        "id": 4,
-        "parent_id": 1,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "But how do we differentiate between cardiogenic shock and other causes of shock, like sepsis or hypovolemia? I always get confused between the two. Can someone explain the key differences?",
-        "color": "yellow"
-      },
-      {
-        "id": 5,
-        "parent_id": 4,
         "user": "Dr. Barb Miller",
         "role": "EP",
         "city": "Winnipeg, MB",
-        "text": "Excellent question, Kevin! Differentiating between cardiogenic and non-cardiogenic shock is crucial. One key difference is the patient's hemodynamic profile. In cardiogenic shock, you'll typically see high CPAP values and a widened pulse pressure, whereas in sepsis or hypovolemia, you'll see a more pronounced decrease in systemic vascular resistance. Additionally, cardiogenic shock often presents with specific ECG changes, like a new LBBB or RBBB, which are not typically seen in sepsis or hypovolemia.",
+        "text": "I see your point, Aris. However, I've had patients where gastric lavage was contraindicated, and we had to rely on supportive care. In those cases, we used a combination of activated charcoal and a cathartic to induce bowel motility and promote clearance. It's essential to weigh the risks and benefits of each approach and consider the individual patient's needs.",
         "color": "green"
-      },
-      {
-        "id": 6,
-        "parent_id": 5,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "I'm not sure I agree with Dr. Miller. I've read studies that suggest a high CPAP value can also be seen in sepsis. Can we clarify this point?",
-        "color": "blue"
-      },
-      {
-        "id": 7,
-        "parent_id": 6,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "I think Dr. Jenkins is right to question this point. In fact, there's a lot of variability between patients, and what we're taught in med school doesn't always pan out in practice. A recent meta-analysis published in Circulation showed that high CPAP values can indeed be seen in sepsis, especially in patients with septic shock. We need to individualize our approach and rely on clinical judgment rather than hard and fast rules.",
-        "color": "purple"
-      }
-    ]
-  },
-  {
-    "title": "Today I learned a crucial lesson in frostbite rewarming: when in doubt, stick to the basics.",
-    "id": 9,
-    "category": "emergency-medicine",
-    "body": "Had a frustrating call last night where a patient presented with a frostbite injury to their foot. The EM physician had already administered a topical cream and sent the patient home. When the patient's condition worsened and the wound started to break down, the on-call ER doc panicked and gave the patient intravenous antibiotics. I stepped in to take over and immediately recognized the signs of frostbite (pain, burning, coldness, and swelling). I followed our standard protocol and rewarming in circulating water at 37-39\u00b0C until the tissue was pliable and erythematous.",
-    "comments": [
-      {
-        "id": 1,
-        "parent_id": null,
-        "user": "Dr. Maya Gupta",
-        "role": "FRCPC",
-        "city": "Mississauga, ON",
-        "text": "TLDR: don't overcomplicate frostbite management. Sticking to the basics saved the day here. I've dealt with cases like this before and the key is to rehydrate and rewarm, not to over-antibiotic-ize. Did anyone else have a memorable frostbite case? I'd love to hear more about it.",
-        "color": "blue"
-      },
-      {
-        "id": 2,
-        "parent_id": 1,
-        "user": "Leo Chen",
-        "role": "MS1",
-        "city": "Montreal, QC",
-        "text": "I had a case where a patient presented with what looked like frostbite. However, it turned out to be an allergic reaction to an OTC cream. My question is, how do we distinguish between a true frostbite and an allergic reaction? Are there any red flags or specific signs that suggest one over the other?",
-        "color": "purple"
       },
       {
         "id": 3,
         "parent_id": 1,
-        "user": "Sarah Jenkins",
-        "role": "MS3",
-        "city": "Ottawa, ON",
-        "text": "According to the Frostbite Consensus Statement, early frostnip is not typically accompanied by blistering. So in a case where you see clear bullae, it's more likely a second-degree frostbite. I've read that second-degree frostbite is more responsive to rehydration than rewarming. Thoughts?",
-        "color": "green"
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Thanks for sharing your experience, Aris. Can you explain why we use a left lateral position? And what's the rationale behind using a warm lavage solution?",
+        "color": "gray"
       },
       {
         "id": 4,
         "parent_id": 2,
-        "user": "Dr. Kevin Park",
-        "role": "PGY1",
-        "city": "Edmonton, AB",
-        "text": "Leo, in your case, did the patient's symptoms improve after the OTC cream was discontinued? And did you consider the possibility of an allergic reaction when assessing the patient?",
-        "color": "orange"
-      },
-      {
-        "id": 5,
-        "parent_id": 3,
-        "user": "Dr. Maya Gupta",
-        "role": "FRCPC",
-        "city": "Mississauga, ON",
-        "text": "Sarah, that's a great point. However, in second-degree frostbite, rehydration is still a key component. We should not neglect rewarming entirely. A combination of both is often the most effective approach.",
+        "user": "Sarah Jenkins",
+        "role": "MS3",
+        "city": "Ottawa, ON",
+        "text": "I've read that gastric lavage can be associated with a higher risk of aspiration in pediatric patients. Have you encountered any cases where this was a concern?",
         "color": "blue"
       },
       {
+        "id": 5,
+        "parent_id": 2,
+        "user": "Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Great point, Barb. Can you elaborate on the role of activated charcoal in iron poisoning? And are there any specific guidelines for its use?",
+        "color": "red"
+      },
+      {
         "id": 6,
-        "parent_id": 5,
-        "user": "Dr. Barb Miller",
-        "role": "FRCPC",
-        "city": "Winnipeg, MB",
-        "text": "I agree with Maya. It's all about balance. We shouldn't overdo it with antibiotics either, but a judicious use of IV fluids, pain management, and rewarming techniques can make a huge difference. What about the role of prophylactic antibiotics in frostbite treatment?",
-        "color": "yellow"
+        "parent_id": 3,
+        "user": "Dr. Victor Sterling",
+        "role": "Chief of Surgery",
+        "city": "Calgary, AB",
+        "text": "I'm skeptical about the utility of gastric lavage in iron poisoning. Can anyone provide evidence-based guidelines for its use in this scenario?",
+        "color": "orange"
       },
       {
         "id": 7,
-        "parent_id": 1,
-        "user": "Dr. Ziggy Zalesky",
-        "role": "Ep",
-        "city": "Vancouver, BC",
-        "text": "Don't forget to cover wound care in frostbite management. I always make sure to dress and splint the affected area to prevent further complications. Has anyone got a favorite wound care product or technique?",
-        "color": "red"
+        "parent_id": null,
+        "user": "Sparkle-Eyes Sue",
+        "role": "LPN",
+        "city": "St. John's, NL",
+        "text": "I've heard that gastric lavage can be a helpful addition to other treatments for iron poisoning. Has anyone considered the potential benefits of this approach?",
+        "color": "teal"
       },
       {
         "id": 8,
         "parent_id": 7,
-        "user": "Turbo Tom",
-        "role": "RN",
-        "city": "London, ON",
-        "text": "Ziggy, I love your enthusiasm! I swear by Aquacel Ag for secondary wound care. It's amazing stuff. What's your go-to dressing for dressing frostbitten areas?",
-        "color": "purple"
+        "user": "Leo Chen",
+        "role": "MS1",
+        "city": "Montreal, QC",
+        "text": "Can we explore the potential benefits of gastric lavage further? And what are some potential limitations or contraindications?",
+        "color": "silver"
       },
       {
         "id": 9,
-        "parent_id": 1,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Has anyone else dealt with frostbite in pediatric patients? It's a bit more challenging in kids, especially when it comes to pain management.",
+        "parent_id": 8,
+        "user": "Maya Gupta",
+        "role": "PGY2",
+        "city": "Mississauga, ON",
+        "text": "Great question, Leo. From what I've read, gastric lavage may help to decrease the absorption of iron and promote clearance of iron oxide complexes.",
         "color": "green"
-      },
-      {
-        "id": 10,
-        "parent_id": 9,
-        "user": "Dr. Henry Oldman",
-        "role": "CCFP",
-        "city": "Victoria, BC",
-        "text": "Elena, I've dealt with a few frostbite cases in kids and always found a combination of acetaminophen and benzocaine useful. What about using NSAIDs? Any concerns about that in pediatric patients?",
-        "color": "blue"
-      },
-      {
-        "id": 11,
-        "parent_id": 10,
-        "user": "Dr. Maya Gupta",
-        "role": "FRCPC",
-        "city": "Mississauga, ON",
-        "text": "Great question, Henry! While NSAIDs are generally safe, we should exercise caution in pediatric patients due to the risk of gastritis and renal impairment. Acetaminophen is a better choice in this population.",
-        "color": "yellow"
-      },
-      {
-        "id": 12,
-        "parent_id": 11,
-        "user": "Dr. Barb Miller",
-        "role": "FRCPC",
-        "city": "Winnipeg, MB",
-        "text": "One thing to keep in mind is the patient's overall condition and the presence of any comorbidities. For instance, a patient with diabetes may require more aggressive wound care and pain management.",
-        "color": "orange"
-      },
-      {
-        "id": 13,
-        "parent_id": null,
-        "user": "Brock Stone",
-        "role": "FRCSC",
-        "city": "Hamilton, ON",
-        "text": "I'm loving this discussion about frostbite management! One thing to keep in mind is the potential for frostbite in patients who aren't even outdoors. We've had cases of frostbite in hospital patients due to poor air circulation.",
-        "color": "red"
-      },
-      {
-        "id": 14,
-        "parent_id": 13,
-        "user": "Dr. Elena Varkov",
-        "role": "FRCPC",
-        "city": "Quebec City, QC",
-        "text": "Brock, that's an excellent point. Inpatient frostbite can be even more challenging to diagnose due to the lack of clear external signs.",
-        "color": "blue"
-      },
-      {
-        "id": 15,
-        "parent_id": 14,
-        "user": "Dr. Maya Gupta",
-        "role": "FRCPC",
-        "city": "Mississauga, ON",
-        "text": "In that case, vigilance is key. Keep an eye out for subtle symptoms such as numbness, tingling, or discoloration, especially in areas with poor air circulation.",
-        "color": "yellow"
       }
     ],
-    "image": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=922430126737919"
+    "image": "https://figures.semanticscholar.org/6b95810a42b031cf99f3edc67979132e62efed73/2-Figure1-1.png"
   }
 ]
